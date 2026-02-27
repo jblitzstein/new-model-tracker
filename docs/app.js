@@ -92,7 +92,7 @@ function computeSpotlight() {
     if (seen.has(fam)) continue;
     seen.add(fam);
     spotlight.push(model);
-    if (spotlight.length >= 8) break;
+    if (spotlight.length >= 10) break;
   }
   return spotlight;
 }
