@@ -34,6 +34,121 @@ const MODALITY_ICONS = {
 let allModels = [];
 let filteredModels = [];
 
+// --- Spotlight ---
+
+const TIER1_PROVIDERS = new Set([
+  "OpenAI", "Anthropic", "Google", "Meta", "Mistral",
+  "xAI", "DeepSeek", "Qwen", "NVIDIA", "Moonshot AI",
+  "Baidu", "Zhipu AI", "ByteDance", "MiniMax",
+]);
+
+const VARIANT_PATTERNS = /\(free\)|\(exacto\)|preview|older|distill|gguf|gptq/i;
+
+function spotlightScore(model) {
+  const date = model.release_date || model.first_seen || "";
+  const cutoff = new Date(Date.now() - 28 * 86400000).toISOString();
+  if (date < cutoff) return -1; // too old
+
+  let score = 0;
+  // Tier-1 provider bonus
+  if (TIER1_PROVIDERS.has(model.provider)) score += 50;
+  else score += 10;
+
+  // Recency bonus (newer = higher)
+  const age = (Date.now() - new Date(date).getTime()) / 86400000;
+  score += Math.max(0, 30 - age); // up to 30 points for brand new
+
+  // Penalize variants
+  if (VARIANT_PATTERNS.test(model.name)) score -= 40;
+
+  // Context length bonus
+  if (model.context_length && model.context_length >= 100000) score += 5;
+
+  return score;
+}
+
+function modelFamily(model) {
+  // Group by provider + base model name (strip size suffixes)
+  const base = model.name
+    .replace(/\s*\d+[bB]\b/g, "")       // remove size like "70B"
+    .replace(/\s*\d+B-A\d+B/g, "")      // remove MoE sizes like "235B-A22B"
+    .replace(/[-_]\d+x\d+/g, "")        // remove mixture specs
+    .replace(/\s*(instruct|chat|think|thinking)\b/gi, "")
+    .replace(/\s+/g, " ").trim();
+  return `${model.provider}::${base}`.toLowerCase();
+}
+
+function computeSpotlight() {
+  const scored = allModels
+    .map(m => ({ model: m, score: spotlightScore(m) }))
+    .filter(x => x.score > 20)
+    .sort((a, b) => b.score - a.score);
+
+  // Deduplicate by model family — keep highest-scored per family
+  const seen = new Set();
+  const spotlight = [];
+  for (const { model } of scored) {
+    const fam = modelFamily(model);
+    if (seen.has(fam)) continue;
+    seen.add(fam);
+    spotlight.push(model);
+    if (spotlight.length >= 8) break;
+  }
+  return spotlight;
+}
+
+function renderSpotlight() {
+  const container = document.getElementById("spotlight-scroll");
+  const section = document.getElementById("spotlight");
+  const models = computeSpotlight();
+
+  if (models.length === 0) {
+    section.style.display = "none";
+    return;
+  }
+  section.style.display = "";
+  container.innerHTML = "";
+
+  const fragment = document.createDocumentFragment();
+  for (const model of models) {
+    const card = document.createElement("div");
+    card.className = "spotlight-card";
+    card.dataset.provider = model.provider;
+
+    const color = providerColor(model.provider);
+    const mods = (model.modality || ["text"]).map(m =>
+      `<span class="modality-tag">${MODALITY_ICONS[m] || ""} ${m}</span>`
+    ).join("");
+    const desc = model.description
+      ? `<div class="spotlight-desc">${escapeHtml(model.description)}</div>`
+      : "";
+    const url = model.url || "#";
+
+    card.innerHTML = `
+      <div class="spotlight-card-header">
+        <span class="provider-badge" style="background:${color}22;color:${color};border:1px solid ${color}44">${escapeHtml(model.provider)}</span>
+        <span class="spotlight-date">📅 ${formatDate(model.release_date)}</span>
+      </div>
+      <div class="spotlight-name"><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(model.name)}</a></div>
+      ${desc}
+      <div class="spotlight-mods">${mods}</div>
+    `;
+    fragment.appendChild(card);
+  }
+  container.appendChild(fragment);
+}
+
+// Clicking a spotlight card filters to that provider
+document.getElementById("spotlight-scroll").addEventListener("click", (e) => {
+  const card = e.target.closest(".spotlight-card");
+  if (!card || e.target.closest("a")) return;
+  const provider = card.dataset.provider;
+  const select = document.getElementById("provider-filter");
+  select.value = select.value === provider ? "" : provider;
+  applyFilters();
+  document.getElementById("models-grid").scrollIntoView({ behavior: "smooth" });
+});
+
 // --- Data Loading ---
 
 async function loadModels() {
@@ -42,6 +157,7 @@ async function loadModels() {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     allModels = await resp.json();
     populateProviderFilter();
+    renderSpotlight();
     applyFilters();
   } catch (err) {
     document.getElementById("models-grid").innerHTML =
