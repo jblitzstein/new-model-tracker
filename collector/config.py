@@ -67,6 +67,7 @@ PROVIDER_NAMES = {
     "cohereforai": "Cohere",
     "xai": "xAI",
     "xai-org": "xAI",
+    "x-ai": "xAI",
     "nvidia": "NVIDIA",
     "microsoft": "Microsoft",
     "amazon": "Amazon",
@@ -74,9 +75,13 @@ PROVIDER_NAMES = {
     "stabilityai": "Stability AI",
     "black-forest-labs": "Black Forest Labs",
     "bytedance": "ByteDance",
+    "bytedanceseed": "ByteDance",
+    "bytedance-seed": "ByteDance",
     "apple": "Apple",
     "alibaba-nlp": "Alibaba",
+    "alibaba": "Alibaba",
     "01-ai": "01.AI",
+    "01ai": "01.AI",
     "salesforce": "Salesforce",
     "eleutherai": "EleutherAI",
     "allenai": "Allen AI",
@@ -84,10 +89,45 @@ PROVIDER_NAMES = {
     "thudm": "Tsinghua",
     "internlm": "InternLM",
     "lmsys": "LMSYS",
+    "perplexity": "Perplexity",
+    "minimax": "MiniMax",
+    "z-ai": "Zhipu AI",
+    "zai": "Zhipu AI",
+    "inflection": "Inflection",
+    "ai21": "AI21 Labs",
+    "liquid": "Liquid AI",
+    "moonshotai": "Moonshot AI",
+    "arceeai": "Arcee AI",
+    "arcee-ai": "Arcee AI",
+    "baidu": "Baidu",
+    "inception": "Inception",
+    "ibmgranite": "IBM",
+    "ibm-granite": "IBM",
+    "writer": "Writer",
+    "stepfun": "StepFun",
+    "tencent": "Tencent",
+    "xiaomi": "Xiaomi",
+    "deepcogito": "Deep Cogito",
+    "essentialai": "Essential AI",
+    "morph": "Morph",
+    "upstage": "Upstage",
+    "aionlabs": "Aion Labs",
+    "aion-labs": "Aion Labs",
+    "primeintellect": "Prime Intellect",
+    "prime-intellect": "Prime Intellect",
+    "meituan": "Meituan",
+    "relace": "Relace",
+    "kwaipilot": "Kwaipilot",
+    "nexagi": "Nex AGI",
+    "nex-agi": "Nex AGI",
 }
 
 
 def resolve_provider_name(raw: str) -> str:
     """Resolve a raw provider string to a display name."""
     key = raw.lower().strip().replace(" ", "")
-    return PROVIDER_NAMES.get(key, raw)
+    if key in PROVIDER_NAMES:
+        return PROVIDER_NAMES[key]
+    # Also try with hyphens removed
+    key_no_hyphen = key.replace("-", "")
+    return PROVIDER_NAMES.get(key_no_hyphen, raw)

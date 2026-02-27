@@ -224,6 +224,9 @@ select:focus { outline: none; border-color: var(--accent); }
   border: 1px solid;
 }
 
+.creator-tag.clickable { cursor: pointer; }
+.creator-tag.clickable:hover { filter: brightness(1.3); }
+
 .source-tag {
   padding: 0.1rem 0.35rem;
   border-radius: 4px;

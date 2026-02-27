@@ -158,7 +158,7 @@ function renderCard(model) {
     <div class="card-footer">
       ${pricingHtml}
       <div class="footer-tags">
-        <span class="creator-tag" style="background:${color}18;color:${color};border-color:${color}44">${escapeHtml(model.provider)}</span>
+        <span class="creator-tag clickable" data-provider="${escapeHtml(model.provider)}" style="background:${color}18;color:${color};border-color:${color}44">${escapeHtml(model.provider)}</span>
         <span class="source-tag">${model.source}</span>
       </div>
     </div>
@@ -195,6 +195,16 @@ document.getElementById("search").addEventListener("input", applyFilters);
 document.getElementById("provider-filter").addEventListener("change", applyFilters);
 document.getElementById("source-filter").addEventListener("change", applyFilters);
 document.getElementById("sort-select").addEventListener("change", applyFilters);
+
+document.getElementById("models-grid").addEventListener("click", (e) => {
+  const tag = e.target.closest(".creator-tag[data-provider]");
+  if (!tag) return;
+  const provider = tag.dataset.provider;
+  const select = document.getElementById("provider-filter");
+  // Toggle: if already filtering this provider, clear it
+  select.value = select.value === provider ? "" : provider;
+  applyFilters();
+});
 
 document.getElementById("modality-filters").addEventListener("click", (e) => {
   const btn = e.target.closest(".mod-btn");
