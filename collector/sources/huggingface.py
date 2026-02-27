@@ -92,7 +92,7 @@ def fetch_models() -> list[Model]:
                 modality=all_mods,
                 input_modalities=input_mods,
                 output_modalities=output_mods,
-                release_date=item.get("lastModified"),
+                release_date=item.get("createdAt") or item.get("lastModified"),
                 description=item.get("description", ""),
                 url=f"https://huggingface.co/{model_id}",
                 tags=[tag] + (item.get("tags") or [])[:5],
