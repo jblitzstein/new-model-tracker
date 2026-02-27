@@ -214,6 +214,16 @@ select:focus { outline: none; border-color: var(--accent); }
 
 .pricing { color: var(--green); font-weight: 500; }
 
+.footer-tags { display: flex; gap: 0.35rem; align-items: center; }
+
+.creator-tag {
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  border: 1px solid;
+}
+
 .source-tag {
   padding: 0.1rem 0.35rem;
   border-radius: 4px;

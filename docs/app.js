@@ -157,7 +157,10 @@ function renderCard(model) {
     ${desc}
     <div class="card-footer">
       ${pricingHtml}
-      <span class="source-tag">${model.source}</span>
+      <div class="footer-tags">
+        <span class="creator-tag" style="background:${color}18;color:${color};border-color:${color}44">${escapeHtml(model.provider)}</span>
+        <span class="source-tag">${model.source}</span>
+      </div>
     </div>
   `;
   return card;
