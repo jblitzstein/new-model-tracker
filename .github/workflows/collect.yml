@@ -3,6 +3,8 @@ name: Collect Models
 on:
   schedule:
     - cron: '0 */4 * * *'  # Every 4 hours
+  push:
+    branches: [main]
   workflow_dispatch: # Allow manual trigger
 
 permissions:
