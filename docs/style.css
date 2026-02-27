@@ -140,7 +140,9 @@ select:focus { outline: none; border-color: var(--accent); }
 /* --- Spotlight --- */
 
 .spotlight-section {
-  padding: 1rem 2rem 0.5rem;
+  padding: 1rem 2rem 1.25rem;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, var(--accent), var(--purple)) 1;
 }
 
 .spotlight-header {
