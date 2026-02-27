@@ -109,10 +109,11 @@ function renderSpotlight() {
   section.style.display = "";
   container.innerHTML = "";
 
+  const MOBILE_VISIBLE = 4;
   const fragment = document.createDocumentFragment();
-  for (const model of models) {
+  models.forEach((model, i) => {
     const card = document.createElement("div");
-    card.className = "spotlight-card";
+    card.className = "spotlight-card" + (i >= MOBILE_VISIBLE ? " collapsed-card" : "");
     card.dataset.provider = model.provider;
 
     const color = providerColor(model.provider);
@@ -134,8 +135,14 @@ function renderSpotlight() {
       <div class="spotlight-mods">${mods}</div>
     `;
     fragment.appendChild(card);
-  }
+  });
   container.appendChild(fragment);
+
+  // Reset toggle state
+  const toggle = document.getElementById("spotlight-toggle");
+  section.classList.remove("expanded");
+  toggle.textContent = `Show ${models.length - MOBILE_VISIBLE} more ▾`;
+  toggle.style.display = models.length > MOBILE_VISIBLE ? "" : "none";
 }
 
 // Clicking a spotlight card filters to that provider
@@ -147,6 +154,14 @@ document.getElementById("spotlight-scroll").addEventListener("click", (e) => {
   select.value = select.value === provider ? "" : provider;
   applyFilters();
   document.getElementById("models-grid").scrollIntoView({ behavior: "smooth" });
+});
+
+// Toggle show more/less on mobile
+document.getElementById("spotlight-toggle").addEventListener("click", () => {
+  const section = document.getElementById("spotlight");
+  const toggle = document.getElementById("spotlight-toggle");
+  const expanded = section.classList.toggle("expanded");
+  toggle.textContent = expanded ? "Show less ▴" : toggle.dataset.moreText || "Show more ▾";
 });
 
 // --- Data Loading ---
