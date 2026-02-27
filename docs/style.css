@@ -90,6 +90,19 @@ header {
 .filter-group { display: flex; flex-direction: column; gap: 0.25rem; }
 .filter-group label { font-size: 0.75rem; color: var(--text-muted); font-weight: 500; }
 
+.group-toggle-btn {
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.group-toggle-btn:hover { border-color: var(--accent); color: var(--text); }
+.group-toggle-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
 select {
   padding: 0.5rem 0.75rem;
   background: var(--bg-input);
@@ -352,6 +365,93 @@ select:focus { outline: none; border-color: var(--accent); }
   grid-column: 1 / -1;
   text-align: center;
   padding: 3rem;
+  color: var(--text-muted);
+}
+
+/* --- Family Groups --- */
+
+.family-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.family-group:hover { border-color: var(--accent); }
+
+.family-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.family-header:hover { background: var(--bg-input); }
+
+.family-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.family-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.family-count {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.family-chevron {
+  transition: transform 0.2s;
+  font-size: 0.75rem;
+}
+
+.family-group.expanded .family-chevron { transform: rotate(180deg); }
+
+.family-members {
+  display: none;
+  border-top: 1px solid var(--border);
+}
+
+.family-group.expanded .family-members { display: block; }
+
+.family-member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.family-member:last-child { border-bottom: none; }
+
+.family-member:hover { background: var(--bg-input); }
+
+.family-member-name a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.family-member-name a:hover { color: var(--accent); }
+
+.family-member-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.75rem;
   color: var(--text-muted);
 }
 

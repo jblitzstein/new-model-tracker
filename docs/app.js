@@ -33,6 +33,7 @@ const MODALITY_ICONS = {
 
 let allModels = [];
 let filteredModels = [];
+let groupByFamily = false;
 
 // --- Spotlight ---
 
@@ -309,8 +310,78 @@ function render() {
     return;
   }
 
+  if (groupByFamily) {
+    renderGrouped(grid);
+  } else {
+    const fragment = document.createDocumentFragment();
+    filteredModels.forEach(m => fragment.appendChild(renderCard(m)));
+    grid.appendChild(fragment);
+  }
+}
+
+function renderGrouped(grid) {
+  // Group models by family
+  const groups = new Map();
+  for (const m of filteredModels) {
+    const fam = m.family || m.name;
+    if (!groups.has(fam)) groups.set(fam, []);
+    groups.get(fam).push(m);
+  }
+
   const fragment = document.createDocumentFragment();
-  filteredModels.forEach(m => fragment.appendChild(renderCard(m)));
+  for (const [family, members] of groups) {
+    if (members.length === 1) {
+      // Single model — render as normal card
+      fragment.appendChild(renderCard(members[0]));
+      continue;
+    }
+
+    // Multi-model family — render as collapsible group
+    const group = document.createElement("div");
+    group.className = "family-group";
+
+    const rep = members[0]; // representative model (newest)
+    const color = providerColor(rep.provider);
+    const newestDate = members
+      .map(m => m.release_date || m.first_seen || "")
+      .sort().reverse()[0];
+
+    group.innerHTML = `
+      <div class="family-header">
+        <div style="display:flex;align-items:center;gap:0.5rem">
+          <span class="family-title">${escapeHtml(family)}</span>
+          <span class="provider-badge" style="background:${color}22;color:${color};border:1px solid ${color}44">${escapeHtml(rep.provider)}</span>
+          <span class="family-count">${members.length} models</span>
+        </div>
+        <div class="family-meta">
+          <span>📅 ${formatDate(newestDate)}</span>
+          <span class="family-chevron">▾</span>
+        </div>
+      </div>
+      <div class="family-members">
+        ${members.map(m => {
+          const url = m.url || "#";
+          const pricing = formatPricing(m.pricing);
+          const ctx = m.context_length ? `${(m.context_length / 1000).toFixed(0)}K` : "";
+          return `<div class="family-member">
+            <span class="family-member-name"><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(m.name)}</a></span>
+            <div class="family-member-meta">
+              ${ctx ? `<span>📏 ${ctx}</span>` : ""}
+              ${pricing ? `<span class="pricing">${pricing}</span>` : ""}
+              <span class="source-tag">${m.source}</span>
+            </div>
+          </div>`;
+        }).join("")}
+      </div>
+    `;
+
+    // Toggle expand on header click
+    group.querySelector(".family-header").addEventListener("click", () => {
+      group.classList.toggle("expanded");
+    });
+
+    fragment.appendChild(group);
+  }
   grid.appendChild(fragment);
 }
 
@@ -326,6 +397,12 @@ document.getElementById("search").addEventListener("input", applyFilters);
 document.getElementById("provider-filter").addEventListener("change", applyFilters);
 document.getElementById("source-filter").addEventListener("change", applyFilters);
 document.getElementById("sort-select").addEventListener("change", applyFilters);
+
+document.getElementById("group-toggle").addEventListener("click", () => {
+  groupByFamily = !groupByFamily;
+  document.getElementById("group-toggle").classList.toggle("active", groupByFamily);
+  render();
+});
 
 document.getElementById("models-grid").addEventListener("click", (e) => {
   const tag = e.target.closest(".creator-tag[data-provider]");

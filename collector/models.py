@@ -4,8 +4,30 @@ from __future__ import annotations
 
 import dataclasses
 import json
+import re
 from datetime import datetime, timezone
 from typing import Optional
+
+
+def extract_family(name: str) -> str:
+    """Extract model family name by stripping sizes, variants, and suffixes."""
+    n = re.sub(r'^[^:]+:\s*', '', name)
+    n = re.sub(r'\s*\((free|exacto)\)', '', n, flags=re.I)
+    n = re.sub(r'\s*\(?20\d{2}[-/]\d{2}[-/]\d{2}\)?', '', n)
+    n = re.sub(r'\s+\d{4}$', '', n)
+    n = re.sub(r'\s*\d+x\d+[bB]', '', n)
+    n = re.sub(r'[-\s]*\d+(\.\d+)?[bB][-\s]*[aA]\d+(\.\d+)?[bB]', '', n)
+    n = re.sub(r'[-\s]*\d+(\.\d+)?[bB]\b', '', n)
+    n = re.sub(
+        r'\s*(Instruct|Chat|Think|Thinking|Preview|Base|GGUF|GPTQ|AWQ)\b',
+        '', n, flags=re.I,
+    )
+    n = re.sub(r'\s*\(thinking\)', '', n, flags=re.I)
+    n = re.sub(r'\s+Custom Tools$', '', n)
+    n = re.sub(r'\s+(older|extended)$', '', n, flags=re.I)
+    n = n.strip(' -_')
+    n = re.sub(r'\s*\(\s*\)\s*$', '', n)
+    return n or name
 
 
 @dataclasses.dataclass
@@ -27,6 +49,11 @@ class Model:
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
     source_ids: list[str] = dataclasses.field(default_factory=list)
+    family: str = ""
+
+    def __post_init__(self):
+        if not self.family:
+            self.family = extract_family(self.name)
 
     def to_dict(self) -> dict:
         return dataclasses.asdict(self)
