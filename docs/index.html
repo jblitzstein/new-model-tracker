@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Model Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>🤖 AI Model Tracker</h1>
+      <p class="subtitle">Frontier AI model releases, updated every 4 hours</p>
+    </div>
+    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+  </header>
+
+  <div class="controls">
+    <input type="search" id="search" placeholder="Search models..." autocomplete="off">
+
+    <div class="filter-group">
+      <label>Provider</label>
+      <select id="provider-filter">
+        <option value="">All Providers</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label>Modality</label>
+      <div class="modality-buttons" id="modality-filters">
+        <button class="mod-btn active" data-mod="">All</button>
+        <button class="mod-btn" data-mod="text">💬 Text</button>
+        <button class="mod-btn" data-mod="image">🖼️ Image</button>
+        <button class="mod-btn" data-mod="video">🎬 Video</button>
+        <button class="mod-btn" data-mod="audio">🎵 Audio</button>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <label>Source</label>
+      <select id="source-filter">
+        <option value="">All Sources</option>
+        <option value="openrouter">OpenRouter</option>
+        <option value="huggingface">HuggingFace</option>
+        <option value="openai">OpenAI Direct</option>
+        <option value="anthropic">Anthropic Direct</option>
+        <option value="google">Google Direct</option>
+        <option value="mistral">Mistral Direct</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label>Sort</label>
+      <select id="sort-select">
+        <option value="date-desc">Newest First</option>
+        <option value="date-asc">Oldest First</option>
+        <option value="name-asc">Name A–Z</option>
+        <option value="provider-asc">Provider A–Z</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <main id="models-grid" class="models-grid">
+    <div class="loading">Loading models...</div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
