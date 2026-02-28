@@ -1,5 +1,106 @@
 [
   {
+    "id": "huggingface:huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
+    "name": "Huihui-Qwen3.5-35B-A3B-abliterated",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-27T07:29:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-02-28T08:08:35.642239+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated"
+    ],
+    "family": "Huihui-Qwen3.5-abliterated"
+  },
+  {
+    "id": "huggingface:SimplySara/Kai-3B-Instruct-i1-GGUF",
+    "name": "Kai-3B-Instruct-i1-GGUF",
+    "provider": "SimplySara",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-27T03:03:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SimplySara/Kai-3B-Instruct-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "math",
+      "reasoning",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-02-28T08:08:35.219624+00:00",
+    "source_ids": [
+      "SimplySara/Kai-3B-Instruct-i1-GGUF"
+    ],
+    "family": "Kai--i1"
+  },
+  {
+    "id": "huggingface:SimplySara/Kai-3B-Instruct-GGUF",
+    "name": "Kai-3B-Instruct-GGUF",
+    "provider": "SimplySara",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-27T02:57:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SimplySara/Kai-3B-Instruct-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "math",
+      "reasoning",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-02-28T08:08:35.219557+00:00",
+    "source_ids": [
+      "SimplySara/Kai-3B-Instruct-GGUF"
+    ],
+    "family": "Kai"
+  },
+  {
     "id": "openrouter:bytedance-seed/seed-2.0-mini",
     "name": "ByteDance Seed: Seed-2.0-Mini",
     "provider": "ByteDance",
@@ -393,6 +494,41 @@
     "family": "Aion-2.0"
   },
   {
+    "id": "huggingface:digitranslab/Megamind-v2-VL-high-gguf",
+    "name": "Megamind-v2-VL-high-gguf",
+    "provider": "digitranslab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-23T15:20:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/digitranslab/Megamind-v2-VL-high-gguf",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "agent",
+      "image-text-to-text",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-02-28T08:08:35.642307+00:00",
+    "source_ids": [
+      "digitranslab/Megamind-v2-VL-high-gguf"
+    ],
+    "family": "Megamind-v2-VL-high"
+  },
+  {
     "id": "huggingface:noctrex/PaddleOCR-VL-1.5-GGUF",
     "name": "PaddleOCR-VL-1.5-GGUF",
     "provider": "noctrex",
@@ -462,6 +598,40 @@
       "google/gemini-3.1-pro-preview"
     ],
     "family": "Gemini 3.1 Pro"
+  },
+  {
+    "id": "huggingface:eustlb/higgs-audio-v2-generation-3B-base",
+    "name": "higgs-audio-v2-generation-3B-base",
+    "provider": "eustlb",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-19T12:22:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eustlb/higgs-audio-v2-generation-3B-base",
+    "tags": [
+      "text-to-audio",
+      "transformers",
+      "safetensors",
+      "higgs_audio_v2",
+      "text-to-audio",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-02-28T08:08:35.440554+00:00",
+    "source_ids": [
+      "eustlb/higgs-audio-v2-generation-3B-base"
+    ],
+    "family": "higgs-audio-v2-generation"
   },
   {
     "id": "openrouter:anthropic/claude-sonnet-4.6",
