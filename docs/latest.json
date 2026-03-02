@@ -35,6 +35,41 @@
     "family": "Qwen3.5-heretic"
   },
   {
+    "id": "huggingface:llmfan46/Qwen3.5-27B-heretic-v2-GGUF",
+    "name": "Qwen3.5-27B-heretic-v2-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-01T03:24:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-heretic-v2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-02T16:16:26.120223+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-27B-heretic-v2-GGUF"
+    ],
+    "family": "Qwen3.5-heretic-v2"
+  },
+  {
     "id": "huggingface:cmp-nct/Qwen3.5-35B-A3B-GGUF",
     "name": "Qwen3.5-35B-A3B-GGUF",
     "provider": "cmp-nct",
@@ -1749,6 +1784,41 @@
     "family": "Qwen3 Max"
   },
   {
+    "id": "huggingface:embedl/Cosmos-Reason2-2B-W4A16",
+    "name": "Cosmos-Reason2-2B-W4A16",
+    "provider": "embedl",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-09T14:15:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/embedl/Cosmos-Reason2-2B-W4A16",
+    "tags": [
+      "image-text-to-text",
+      "cosmos",
+      "safetensors",
+      "qwen3_vl",
+      "nvidia",
+      "cosmos-reason2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-02T16:16:26.120354+00:00",
+    "source_ids": [
+      "embedl/Cosmos-Reason2-2B-W4A16"
+    ],
+    "family": "Cosmos-Reason2-W4A16"
+  },
+  {
     "id": "openrouter:anthropic/claude-opus-4.6",
     "name": "Anthropic: Claude Opus 4.6",
     "provider": "Anthropic",
@@ -2174,6 +2244,40 @@
     "family": "MiniMax M2-her"
   },
   {
+    "id": "huggingface:mistralai/Voxtral-Mini-4B-Realtime-2602",
+    "name": "Voxtral-Mini-4B-Realtime-2602",
+    "provider": "Mistral",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-21T17:22:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602",
+    "tags": [
+      "automatic-speech-recognition",
+      "vllm",
+      "safetensors",
+      "voxtral_realtime",
+      "mistral-common",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-02T16:16:26.027953+00:00",
+    "source_ids": [
+      "mistralai/Voxtral-Mini-4B-Realtime-2602"
+    ],
+    "family": "Voxtral-Mini-Realtime-2602"
+  },
+  {
     "id": "openrouter:writer/palmyra-x5",
     "name": "Writer: Palmyra X5",
     "provider": "Writer",
@@ -2380,6 +2484,39 @@
       "QuantFunc/Nunchaku-Qwen-Image-2512"
     ],
     "family": "Nunchaku-Qwen-Image-2512"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2.5-1.2B-Thinking-MLX-8bit",
+    "name": "LFM2.5-1.2B-Thinking-MLX-8bit",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-16T19:09:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking-MLX-8bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "lfm2",
+      "liquid",
+      "lfm2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-02T16:16:25.532762+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-1.2B-Thinking-MLX-8bit"
+    ],
+    "family": "LFM2.5--MLX-8bit"
   },
   {
     "id": "openrouter:openai/gpt-5.2-codex",
