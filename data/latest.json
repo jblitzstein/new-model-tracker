@@ -1609,6 +1609,41 @@
     "family": "Qwen3.5"
   },
   {
+    "id": "huggingface:unsloth/Qwen3.5-35B-A3B",
+    "name": "Qwen3.5-35B-A3B",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T14:53:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T20:11:09.434375+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.5-35B-A3B"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:unsloth/Qwen3.5-27B-GGUF",
     "name": "Qwen3.5-27B-GGUF",
     "provider": "unsloth",
@@ -3669,6 +3704,40 @@
       "nvidia/nemotron-3-nano-30b-a3b"
     ],
     "family": "Nemotron 3 Nano"
+  },
+  {
+    "id": "huggingface:nvidia/magpie_tts_multilingual_357m",
+    "name": "magpie_tts_multilingual_357m",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-12-11T01:23:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/magpie_tts_multilingual_357m",
+    "tags": [
+      "text-to-speech",
+      "nemo",
+      "NeMo",
+      "TTS",
+      "PyTorch",
+      "Speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T20:11:09.135533+00:00",
+    "source_ids": [
+      "nvidia/magpie_tts_multilingual_357m"
+    ],
+    "family": "magpie_tts_multilingual_357m"
   },
   {
     "id": "openrouter:openai/gpt-5.2-chat",
