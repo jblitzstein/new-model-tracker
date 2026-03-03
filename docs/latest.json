@@ -1,5 +1,73 @@
 [
   {
+    "id": "huggingface:llmfan46/Qwen3.5-27B-ultimate-heretic-GGUF",
+    "name": "Qwen3.5-27B-ultimate-heretic-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T14:29:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-ultimate-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T08:15:11.217395+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-27B-ultimate-heretic-GGUF"
+    ],
+    "family": "Qwen3.5-ultimate-heretic"
+  },
+  {
+    "id": "huggingface:mradermacher/zen4-thinking-i1-GGUF",
+    "name": "zen4-thinking-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T04:15:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/zen4-thinking-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation",
+      "reasoning",
+      "thinking"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T08:15:10.219175+00:00",
+    "source_ids": [
+      "mradermacher/zen4-thinking-i1-GGUF"
+    ],
+    "family": "zen4--i1"
+  },
+  {
     "id": "huggingface:Sabomako/Qwen3.5-122B-A10B-heretic-GGUF",
     "name": "Qwen3.5-122B-A10B-heretic-GGUF",
     "provider": "Sabomako",
@@ -209,6 +277,40 @@
     "family": "Qwen3.5-PRISM-LITE"
   },
   {
+    "id": "huggingface:FireRedTeam/FireRed-OCR",
+    "name": "FireRed-OCR",
+    "provider": "FireRedTeam",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-28T08:25:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FireRedTeam/FireRed-OCR",
+    "tags": [
+      "image-to-text",
+      "safetensors",
+      "qwen3_vl",
+      "image-to-text",
+      "base_model:Qwen/Qwen3-VL-2B-Instruct",
+      "base_model:finetune:Qwen/Qwen3-VL-2B-Instruct"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T08:15:10.499736+00:00",
+    "source_ids": [
+      "FireRedTeam/FireRed-OCR"
+    ],
+    "family": "FireRed-OCR"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-GGUF",
     "name": "Qwen3.5-35B-A3B-heretic-GGUF",
     "provider": "llmfan46",
@@ -242,6 +344,41 @@
       "llmfan46/Qwen3.5-35B-A3B-heretic-GGUF"
     ],
     "family": "Qwen3.5-heretic"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF",
+    "name": "Qwen3.5-35B-A3B-heretic-v1-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-27T11:36:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T08:15:11.217479+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF"
+    ],
+    "family": "Qwen3.5-heretic-v1"
   },
   {
     "id": "huggingface:huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
@@ -476,6 +613,41 @@
       "google/gemini-3.1-flash-image-preview"
     ],
     "family": "Nano Banana 2 (Gemini 3.1 Flash Image)"
+  },
+  {
+    "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-mxfp8",
+    "name": "Qwen3.5-35B-A3B-Heretic-MLX-mxfp8",
+    "provider": "TheCluster",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-26T07:26:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-mxfp8",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T08:15:11.217298+00:00",
+    "source_ids": [
+      "TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-mxfp8"
+    ],
+    "family": "Qwen3.5-Heretic-MLX-mxfp8"
   },
   {
     "id": "huggingface:QuantTrio/Qwen3.5-27B-AWQ",
