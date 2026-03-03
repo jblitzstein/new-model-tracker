@@ -13391,5 +13391,182 @@
       "noctrex/Huihui-Qwen3.5-35B-A3B-abliterated-MXFP4_MOE-GGUF"
     ],
     "family": "Huihui-Qwen3.5-abliterated-MXFP4_MOE"
+  },
+  {
+    "id": "openrouter:google/gemini-3.1-flash-lite-preview",
+    "name": "Google: Gemini 3.1 Flash Lite Preview",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T04:37:53+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.1 Flash Lite Preview is Google's high-efficiency model optimized for high-volume use cases. It outperforms Gemini 2.5 Flash Lite on overall quality and approaches Gemini 2.5 Flash performance across key capabilities. Improvements span audio input/ASR, RAG snippet ranking, translation, data extraction, and code completion. Supports full thinking levels (minimal, low, medium, high) for fine-grained cost/performance trade-offs. Priced at half the cost of Gemini 3 Flash.",
+    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-03-03T16:19:17.474656+00:00",
+    "source_ids": [
+      "google/gemini-3.1-flash-lite-preview"
+    ],
+    "family": "Gemini 3.1 Flash Lite"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
+    "name": "Qwen3.5-35B-A3B-GPTQ-Int4",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T07:18:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T16:19:18.638164+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4"
+    ],
+    "family": "Qwen3.5--Int4"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.5-27B-GPTQ-Int4",
+    "name": "Qwen3.5-27B-GPTQ-Int4",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T07:08:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-27B-GPTQ-Int4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T16:19:18.638236+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-27B-GPTQ-Int4"
+    ],
+    "family": "Qwen3.5--Int4"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.5-122B-A10B-GPTQ-Int4",
+    "name": "Qwen3.5-122B-A10B-GPTQ-Int4",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T06:08:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B-GPTQ-Int4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T16:19:18.638267+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-122B-A10B-GPTQ-Int4"
+    ],
+    "family": "Qwen3.5--Int4"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.5-397B-A17B-GPTQ-Int4",
+    "name": "Qwen3.5-397B-A17B-GPTQ-Int4",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T06:25:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-GPTQ-Int4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-03T16:19:18.638297+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-397B-A17B-GPTQ-Int4"
+    ],
+    "family": "Qwen3.5--Int4"
   }
 ]
