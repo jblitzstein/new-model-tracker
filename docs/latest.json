@@ -280,6 +280,40 @@
     "family": "Qwen3.5-ultimate-irrefusable-heretic"
   },
   {
+    "id": "huggingface:mradermacher/Hulu-Med-30A3-i1-GGUF",
+    "name": "Hulu-Med-30A3-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T11:32:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Hulu-Med-30A3-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "medical",
+      "multimodal",
+      "vision-language-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T08:13:23.116322+00:00",
+    "source_ids": [
+      "mradermacher/Hulu-Med-30A3-i1-GGUF"
+    ],
+    "family": "Hulu-Med-30A3-i1"
+  },
+  {
     "id": "huggingface:mradermacher/zen4-thinking-i1-GGUF",
     "name": "zen4-thinking-i1-GGUF",
     "provider": "mradermacher",
@@ -381,6 +415,41 @@
       "llmfan46/Qwen3.5-27B-heretic-v2-GGUF"
     ],
     "family": "Qwen3.5-heretic-v2"
+  },
+  {
+    "id": "huggingface:TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill",
+    "name": "Qwen3.5-27B-Claude-Opus-4.6-Distill",
+    "provider": "TeichAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-01T00:29:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T08:13:23.428929+00:00",
+    "source_ids": [
+      "TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill"
+    ],
+    "family": "Qwen3.5-Claude-Opus-4.6-Distill"
   },
   {
     "id": "huggingface:cmp-nct/Qwen3.5-35B-A3B-GGUF",
@@ -1642,6 +1711,41 @@
     "family": "Qwen3.5"
   },
   {
+    "id": "huggingface:unsloth/Qwen3.5-122B-A10B",
+    "name": "Qwen3.5-122B-A10B",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T14:53:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T08:13:23.428995+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.5-122B-A10B"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:unsloth/Qwen3.5-35B-A3B",
     "name": "Qwen3.5-35B-A3B",
     "provider": "unsloth",
@@ -1879,6 +1983,39 @@
       "aion-labs/aion-2.0"
     ],
     "family": "Aion-2.0"
+  },
+  {
+    "id": "huggingface:NorthernTribe-Research/UMSR-Reasoner-7B",
+    "name": "UMSR-Reasoner-7B",
+    "provider": "NorthernTribe-Research",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-23T19:04:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NorthernTribe-Research/UMSR-Reasoner-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T08:13:23.003046+00:00",
+    "source_ids": [
+      "NorthernTribe-Research/UMSR-Reasoner-7B"
+    ],
+    "family": "UMSR-Reasoner"
   },
   {
     "id": "huggingface:embedl/Cosmos-Reason2-2B-W4A16-Edge2",
@@ -2257,6 +2394,40 @@
     "family": "PE-Type-4-Solene"
   },
   {
+    "id": "huggingface:GuangyuanSD/FLUX.2-klein-9B-Blitz-ComfyUI",
+    "name": "FLUX.2-klein-9B-Blitz-ComfyUI",
+    "provider": "GuangyuanSD",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-02-12T21:02:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GuangyuanSD/FLUX.2-klein-9B-Blitz-ComfyUI",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "flux",
+      "klein",
+      "blitz"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T08:13:23.065219+00:00",
+    "source_ids": [
+      "GuangyuanSD/FLUX.2-klein-9B-Blitz-ComfyUI"
+    ],
+    "family": "FLUX.2-klein-Blitz-ComfyUI"
+  },
+  {
     "id": "openrouter:minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "MiniMax",
@@ -2444,6 +2615,41 @@
       "embedl/Cosmos-Reason2-2B-W4A16"
     ],
     "family": "Cosmos-Reason2-W4A16"
+  },
+  {
+    "id": "huggingface:KORMo-VLM/KORMo_VLM_stage4_grpo",
+    "name": "KORMo_VLM_stage4_grpo",
+    "provider": "KORMo-VLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-07T14:51:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KORMo-VLM/KORMo_VLM_stage4_grpo",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "llava_onevision",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T08:13:23.428894+00:00",
+    "source_ids": [
+      "KORMo-VLM/KORMo_VLM_stage4_grpo"
+    ],
+    "family": "KORMo_VLM_stage4_grpo"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.6",
