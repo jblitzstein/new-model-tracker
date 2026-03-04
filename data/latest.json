@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:openai/gpt-5.3-chat",
+    "name": "OpenAI: GPT-5.3 Chat",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T18:54:21+00:00",
+    "context_length": 128000,
+    "description": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly reduces unnecessary refusals, caveats, and overly cautious phrasing that can interrupt conversational flow.",
+    "url": "https://openrouter.ai/openai/gpt-5.3-chat",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.75,
+      "completion_per_million": 14.0
+    },
+    "first_seen": "2026-03-04T00:30:49.350906+00:00",
+    "source_ids": [
+      "openai/gpt-5.3-chat"
+    ],
+    "family": "GPT-5.3"
+  },
+  {
     "id": "huggingface:Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
     "name": "Qwen3.5-35B-A3B-GPTQ-Int4",
     "provider": "Qwen",
@@ -1675,6 +1708,41 @@
     "first_seen": "2026-03-02T08:17:25.550520+00:00",
     "source_ids": [
       "unsloth/Qwen3.5-27B-GGUF"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen3.5-122B-A10B-GGUF",
+    "name": "Qwen3.5-122B-A10B-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T14:49:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T00:30:49.970951+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.5-122B-A10B-GGUF"
     ],
     "family": "Qwen3.5"
   },
