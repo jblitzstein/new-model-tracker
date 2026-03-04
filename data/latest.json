@@ -2622,6 +2622,41 @@
     "family": "Minnow-Math"
   },
   {
+    "id": "huggingface:inclusionAI/ZwZ-4B",
+    "name": "ZwZ-4B",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-12T08:53:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/ZwZ-4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T16:15:05.659697+00:00",
+    "source_ids": [
+      "inclusionAI/ZwZ-4B"
+    ],
+    "family": "ZwZ"
+  },
+  {
     "id": "openrouter:z-ai/glm-5",
     "name": "Z.ai: GLM 5",
     "provider": "Zhipu AI",
@@ -2875,6 +2910,39 @@
       "bartowski/Qwen_Qwen3-Coder-Next-GGUF"
     ],
     "family": "Qwen_Qwen3-Coder-Next"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen3-Coder-Next",
+    "name": "Qwen3-Coder-Next",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-02T12:52:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_next",
+      "text-generation",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-04T16:15:05.094943+00:00",
+    "source_ids": [
+      "unsloth/Qwen3-Coder-Next"
+    ],
+    "family": "Qwen3-Coder-Next"
   },
   {
     "id": "huggingface:alibaba-pai/Z-Image-Fun-Lora-Distill",
