@@ -33,6 +33,35 @@
     "family": "llama-300M-v3-original"
   },
   {
+    "id": "openrouter:inception/mercury-2",
+    "name": "Inception: Mercury 2",
+    "provider": "Inception",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T14:57:55+00:00",
+    "context_length": 128000,
+    "description": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM).\nInstead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving >1,000 tokens/sec on standard GPUs. Mercury 2 is 5x+ faster than leading speed-optimized LLMs like Claude 4.5 Haiku and GPT 5 Mini, at a fraction of the cost. \nMercury 2 supports tunable reasoning levels, 128K context, native tool use, and schema-aligned JSON output. Built for coding workflows where latency compounds, real-time voice/search, and agent loops. OpenAI API compatible. Read more in the [blog post](https://www.inceptionlabs.ai/blog/introducing-mercury-2).",
+    "url": "https://openrouter.ai/inception/mercury-2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 0.75
+    },
+    "first_seen": "2026-03-05T16:21:30.000221+00:00",
+    "source_ids": [
+      "inception/mercury-2"
+    ],
+    "family": "Mercury 2"
+  },
+  {
     "id": "openrouter:openai/gpt-5.3-chat",
     "name": "OpenAI: GPT-5.3 Chat",
     "provider": "OpenAI",
@@ -683,6 +712,39 @@
       "cmp-nct/Qwen3.5-35B-A3B-GGUF"
     ],
     "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:allenai/Olmo-Hybrid-Think-SFT-7B",
+    "name": "Olmo-Hybrid-Think-SFT-7B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-28T22:41:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Olmo-Hybrid-Think-SFT-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo_hybrid",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-05T16:21:30.149693+00:00",
+    "source_ids": [
+      "allenai/Olmo-Hybrid-Think-SFT-7B"
+    ],
+    "family": "Olmo-Hybrid--SFT"
   },
   {
     "id": "huggingface:seanbailey518/Qwen3.5-27B-GGUF",
@@ -2356,6 +2418,39 @@
     "family": "Megamind-v2-VL-high"
   },
   {
+    "id": "huggingface:allenai/Olmo-Hybrid-Instruct-DPO-7B",
+    "name": "Olmo-Hybrid-Instruct-DPO-7B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-20T21:59:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Olmo-Hybrid-Instruct-DPO-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo_hybrid",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-05T16:21:30.149751+00:00",
+    "source_ids": [
+      "allenai/Olmo-Hybrid-Instruct-DPO-7B"
+    ],
+    "family": "Olmo-Hybrid--DPO"
+  },
+  {
     "id": "huggingface:noctrex/PaddleOCR-VL-1.5-GGUF",
     "name": "PaddleOCR-VL-1.5-GGUF",
     "provider": "noctrex",
@@ -2388,6 +2483,39 @@
       "noctrex/PaddleOCR-VL-1.5-GGUF"
     ],
     "family": "PaddleOCR-VL-1.5"
+  },
+  {
+    "id": "huggingface:allenai/Olmo-Hybrid-Instruct-SFT-7B",
+    "name": "Olmo-Hybrid-Instruct-SFT-7B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-19T19:18:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Olmo-Hybrid-Instruct-SFT-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo_hybrid",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-05T16:21:30.149809+00:00",
+    "source_ids": [
+      "allenai/Olmo-Hybrid-Instruct-SFT-7B"
+    ],
+    "family": "Olmo-Hybrid--SFT"
   },
   {
     "id": "openrouter:google/gemini-3.1-pro-preview",
@@ -2589,6 +2717,41 @@
     "first_seen": "2026-02-27T20:54:33.233615+00:00",
     "source_ids": [
       "qwen/qwen3.5-397b-a17b"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen3.5-397B-A17B-GGUF",
+    "name": "Qwen3.5-397B-A17B-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-16T04:59:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-05T16:21:30.929170+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.5-397B-A17B-GGUF"
     ],
     "family": "Qwen3.5"
   },
@@ -2918,6 +3081,41 @@
       "embedl/Cosmos-Reason2-2B-W4A16"
     ],
     "family": "Cosmos-Reason2-W4A16"
+  },
+  {
+    "id": "huggingface:Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF",
+    "name": "Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF",
+    "provider": "Andycurrent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-09T10:18:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "vision-language",
+      "multimodal",
+      "uncensored",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-05T16:21:30.929312+00:00",
+    "source_ids": [
+      "Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF"
+    ],
+    "family": "Gemma-3-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking"
   },
   {
     "id": "huggingface:KORMo-VLM/KORMo_VLM_stage4_grpo",
@@ -3299,6 +3497,39 @@
       "vanta-research/PE-Type-1-Vera-4B"
     ],
     "family": "PE-Type-1-Vera"
+  },
+  {
+    "id": "huggingface:allenai/Olmo-Hybrid-7B",
+    "name": "Olmo-Hybrid-7B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-28T00:33:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Olmo-Hybrid-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo_hybrid",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-05T16:21:30.149614+00:00",
+    "source_ids": [
+      "allenai/Olmo-Hybrid-7B"
+    ],
+    "family": "Olmo-Hybrid"
   },
   {
     "id": "openrouter:arcee-ai/trinity-large-preview:free",
@@ -7516,35 +7747,6 @@
     "family": "Nemotron Nano V2"
   },
   {
-    "id": "openrouter:nvidia/nemotron-nano-9b-v2",
-    "name": "NVIDIA: Nemotron Nano 9B V2",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-05T21:13:27+00:00",
-    "context_length": 131072,
-    "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. \n\nThe model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so.",
-    "url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.04,
-      "completion_per_million": 0.16
-    },
-    "first_seen": "2026-02-27T20:54:33.236283+00:00",
-    "source_ids": [
-      "nvidia/nemotron-nano-9b-v2"
-    ],
-    "family": "Nemotron Nano V2"
-  },
-  {
     "id": "openrouter:moonshotai/kimi-k2-0905",
     "name": "MoonshotAI: Kimi K2 0905",
     "provider": "Moonshot AI",
@@ -7844,6 +8046,36 @@
       "mistralai/mistral-medium-3.1"
     ],
     "family": "Mistral Medium 3.1"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-nano-9b-v2",
+    "name": "NVIDIA: Nemotron Nano 9B V2",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-12T22:43:32.000Z",
+    "context_length": 131072,
+    "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. \n\nThe model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so.",
+    "url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.04,
+      "completion_per_million": 0.16
+    },
+    "first_seen": "2026-02-27T20:54:33.236283+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "nvidia/nemotron-nano-9b-v2"
+    ],
+    "family": "Nemotron Nano V2"
   },
   {
     "id": "openrouter:baidu/ernie-4.5-21b-a3b",
@@ -13770,6 +14002,39 @@
       "openai/gpt-4o:extended"
     ],
     "family": "GPT-4o (extended)"
+  },
+  {
+    "id": "huggingface:hugohrban/progen2-small",
+    "name": "progen2-small",
+    "provider": "hugohrban",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-04-22T21:17:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hugohrban/progen2-small",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "progen",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-05T16:21:30.149997+00:00",
+    "source_ids": [
+      "hugohrban/progen2-small"
+    ],
+    "family": "progen2-small"
   },
   {
     "id": "openrouter:meta-llama/llama-3-70b-instruct",
