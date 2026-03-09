@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:Mungert/Qwen3.5-35B-A3B-GGUF",
+    "name": "Qwen3.5-35B-A3B-GGUF",
+    "provider": "Mungert",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-08T05:45:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Mungert/Qwen3.5-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-35B-A3B-Base",
+      "base_model:quantized:Qwen/Qwen3.5-35B-A3B-Base"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-09T08:17:24.426361+00:00",
+    "source_ids": [
+      "Mungert/Qwen3.5-35B-A3B-GGUF"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:Mungert/Qwen3.5-27B-GGUF",
     "name": "Qwen3.5-27B-GGUF",
     "provider": "Mungert",
@@ -68,6 +103,39 @@
       "mradermacher/MemOCR-7B-i1-GGUF"
     ],
     "family": "MemOCR-i1"
+  },
+  {
+    "id": "huggingface:sampluralis/llama-sft-sgd",
+    "name": "llama-sft-sgd",
+    "provider": "sampluralis",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-06T07:47:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sampluralis/llama-sft-sgd",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-09T08:17:23.457017+00:00",
+    "source_ids": [
+      "sampluralis/llama-sft-sgd"
+    ],
+    "family": "llama-sft-sgd"
   },
   {
     "id": "huggingface:danielmnd/mlabonne_gemma-3-27b-it-abliterated-GGUF",
@@ -3136,6 +3204,40 @@
       "Qwen/Qwen3.5-35B-A3B-Base"
     ],
     "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:bharatgenai/sooktam2",
+    "name": "sooktam2",
+    "provider": "bharatgenai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-24T08:58:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bharatgenai/sooktam2",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "f5_tts",
+      "text-to-speech",
+      "tts",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-09T08:17:24.131890+00:00",
+    "source_ids": [
+      "bharatgenai/sooktam2"
+    ],
+    "family": "sooktam2"
   },
   {
     "id": "openrouter:aion-labs/aion-2.0",
