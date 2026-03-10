@@ -16790,5 +16790,207 @@
       "openbmb/MiniCPM-V-4_5"
     ],
     "family": "MiniCPM-V-4_5"
+  },
+  {
+    "id": "openrouter:bytedance-seed/seed-2.0-lite",
+    "name": "ByteDance Seed: Seed-2.0-Lite",
+    "provider": "ByteDance",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T15:40:31+00:00",
+    "context_length": 262144,
+    "description": "Seed-2.0-Lite is a balanced model designed for high-frequency enterprise workloads, optimizing for both capability and cost. Its overall performance surpasses the previous-generation Seed-1.8. It is well-suited for production tasks such as unstructured information processing, text content creation, search and recommendation, and data analysis. The model supports long-context processing, multi-source information fusion, multi-step instruction execution, and high-fidelity structured outputs—delivering stable quality while significantly reducing cost.",
+    "url": "https://openrouter.ai/bytedance-seed/seed-2.0-lite",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-03-10T16:25:25.405142+00:00",
+    "source_ids": [
+      "bytedance-seed/seed-2.0-lite"
+    ],
+    "family": "Seed-2.0-Lite"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T14:19:56+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design with early fusion of multimodal tokens, allowing the model to process and reason across text and images within the same context.",
+    "url": "https://openrouter.ai/qwen/qwen3.5-9b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.15
+    },
+    "first_seen": "2026-03-10T16:25:25.406143+00:00",
+    "source_ids": [
+      "qwen/qwen3.5-9b"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:yousefg/MaximusLLM",
+    "name": "MaximusLLM",
+    "provider": "yousefg",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-08T18:06:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/yousefg/MaximusLLM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma3_text",
+      "text-generation",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-10T16:25:25.517465+00:00",
+    "source_ids": [
+      "yousefg/MaximusLLM"
+    ],
+    "family": "MaximusLLM"
+  },
+  {
+    "id": "huggingface:michaelbenayoun/qwen3-tiny-4kv-heads-4layers-random",
+    "name": "qwen3-tiny-4kv-heads-4layers-random",
+    "provider": "michaelbenayoun",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-18T14:23:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/michaelbenayoun/qwen3-tiny-4kv-heads-4layers-random",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-10T16:25:25.517535+00:00",
+    "source_ids": [
+      "michaelbenayoun/qwen3-tiny-4kv-heads-4layers-random"
+    ],
+    "family": "qwen3-tiny-4kv-heads-4layers-random"
+  },
+  {
+    "id": "huggingface:prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF",
+    "name": "Qwen3.5-abliterated-MAX-AIO-GGUF",
+    "provider": "prithivMLmods",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-07T03:26:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5",
+      "text-generation-inference",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-10T16:25:26.034107+00:00",
+    "source_ids": [
+      "prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF"
+    ],
+    "family": "Qwen3.5-abliterated-MAX-AIO"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.5-27B-heretic-v2-GGUF-IQ-Imatrix",
+    "name": "Qwen3.5-27B-heretic-v2-GGUF-IQ-Imatrix",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-09T15:01:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-heretic-v2-GGUF-IQ-Imatrix",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-10T16:25:26.034196+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-27B-heretic-v2-GGUF-IQ-Imatrix"
+    ],
+    "family": "Qwen3.5-heretic-v2--IQ-Imatrix"
   }
 ]
