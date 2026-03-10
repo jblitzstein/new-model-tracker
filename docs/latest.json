@@ -1844,6 +1844,40 @@
     "family": "zen-voyager"
   },
   {
+    "id": "huggingface:ibm-granite/granite-4.0-1b-speech",
+    "name": "granite-4.0-1b-speech",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-27T22:26:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "granite_speech",
+      "automatic-speech-recognition",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-10T08:14:59.604188+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.0-1b-speech"
+    ],
+    "family": "granite-4.0-speech"
+  },
+  {
     "id": "huggingface:mradermacher/turkish-llm-7b-instruct-i1-GGUF",
     "name": "turkish-llm-7b-instruct-i1-GGUF",
     "provider": "mradermacher",
@@ -5575,6 +5609,39 @@
       "HumeAI/tada-1b"
     ],
     "family": "tada"
+  },
+  {
+    "id": "huggingface:DreamFast/gemma-3-12b-it-heretic",
+    "name": "gemma-3-12b-it-heretic",
+    "provider": "DreamFast",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-11T02:40:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DreamFast/gemma-3-12b-it-heretic",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gemma3",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-10T08:14:58.718461+00:00",
+    "source_ids": [
+      "DreamFast/gemma-3-12b-it-heretic"
+    ],
+    "family": "gemma-3-it-heretic"
   },
   {
     "id": "openrouter:allenai/molmo-2-8b",
