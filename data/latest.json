@@ -1,5 +1,163 @@
 [
   {
+    "id": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+    "name": "NVIDIA: Nemotron 3 Super (free)",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-11T16:07:19+00:00",
+    "context_length": 1000000,
+    "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer Mixture-of-Experts architecture with multi-token prediction (MTP), it delivers over 50% higher token generation compared to leading open models.\n \nThe model features a 1M token context window for long-term agent coherence, cross-document reasoning, and multi-step task planning. Latent MoE enables calling 4 experts for the inference cost of only one, improving intelligence and generalization. Multi-environment RL training across 10+ environments delivers leading accuracy on benchmarks including AIME 2025, TerminalBench, and SWE-Bench Verified.\n \nFully open with weights, datasets, and recipes under the NVIDIA Open License, Nemotron 3 Super allows easy customization and secure deployment anywhere — from workstation to cloud.",
+    "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:21.987814+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3-super-120b-a12b:free"
+    ],
+    "family": "Nemotron 3 Super"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T18:33:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:22.151639+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
+    ],
+    "family": "NVIDIA-Nemotron-3-Super-NVFP4"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T18:32:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:22.151598+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
+    ],
+    "family": "NVIDIA-Nemotron-3-Super-FP8"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T18:32:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:22.151539+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+    ],
+    "family": "NVIDIA-Nemotron-3-Super-BF16"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T18:31:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:22.151712+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+    ],
+    "family": "NVIDIA-Nemotron-3-Super--BF16"
+  },
+  {
     "id": "openrouter:bytedance-seed/seed-2.0-lite",
     "name": "ByteDance Seed: Seed-2.0-Lite",
     "provider": "ByteDance",
@@ -4951,6 +5109,41 @@
     "family": "Qwen3 Max"
   },
   {
+    "id": "huggingface:AudioVisual-Caption/ASID-Captioner-3B",
+    "name": "ASID-Captioner-3B",
+    "provider": "AudioVisual-Caption",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-09T14:23:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AudioVisual-Caption/ASID-Captioner-3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen2_5_omni",
+      "video-captioning",
+      "audiovisual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:23.001771+00:00",
+    "source_ids": [
+      "AudioVisual-Caption/ASID-Captioner-3B"
+    ],
+    "family": "ASID-Captioner"
+  },
+  {
     "id": "huggingface:embedl/Cosmos-Reason2-2B-W4A16",
     "name": "Cosmos-Reason2-2B-W4A16",
     "provider": "embedl",
@@ -6385,6 +6578,40 @@
       "yousefg/MaximusLLM"
     ],
     "family": "MaximusLLM"
+  },
+  {
+    "id": "huggingface:Cnam-LMSSC/wav2vec2-french-phonemizer-v2",
+    "name": "wav2vec2-french-phonemizer-v2",
+    "provider": "Cnam-LMSSC",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-08T16:33:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Cnam-LMSSC/wav2vec2-french-phonemizer-v2",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:22.876501+00:00",
+    "source_ids": [
+      "Cnam-LMSSC/wav2vec2-french-phonemizer-v2"
+    ],
+    "family": "wav2vec2-french-phonemizer-v2"
   },
   {
     "id": "openrouter:allenai/olmo-3.1-32b-instruct",
@@ -8722,6 +8949,40 @@
       "qwen/qwen3-vl-32b-instruct"
     ],
     "family": "Qwen3 VL"
+  },
+  {
+    "id": "huggingface:nvidia/nemotron-ocr-v1",
+    "name": "nemotron-ocr-v1",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-21T22:35:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/nemotron-ocr-v1",
+    "tags": [
+      "image-to-text",
+      "image",
+      "ocr",
+      "object recognition",
+      "text recognition",
+      "layout analysis"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T16:21:22.382150+00:00",
+    "source_ids": [
+      "nvidia/nemotron-ocr-v1"
+    ],
+    "family": "nemotron-ocr-v1"
   },
   {
     "id": "openrouter:liquid/lfm2-8b-a1b",
