@@ -158,6 +158,39 @@
     "family": "NVIDIA-Nemotron-3-Super--BF16"
   },
   {
+    "id": "huggingface:lukealonso/Qwen3.5-397B-A17B-NVFP4",
+    "name": "Qwen3.5-397B-A17B-NVFP4",
+    "provider": "lukealonso",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T16:10:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lukealonso/Qwen3.5-397B-A17B-NVFP4",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3_5_moe",
+      "qwen3.5",
+      "moe",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T20:11:35.082574+00:00",
+    "source_ids": [
+      "lukealonso/Qwen3.5-397B-A17B-NVFP4"
+    ],
+    "family": "Qwen3.5-NVFP4"
+  },
+  {
     "id": "openrouter:bytedance-seed/seed-2.0-lite",
     "name": "ByteDance Seed: Seed-2.0-Lite",
     "provider": "ByteDance",
@@ -5212,6 +5245,40 @@
       "Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF"
     ],
     "family": "Gemma-3-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking"
+  },
+  {
+    "id": "huggingface:OpenMOSS-Team/MOSS-TTS-Local-Transformer",
+    "name": "MOSS-TTS-Local-Transformer",
+    "provider": "OpenMOSS-Team",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-08T10:16:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "moss_tts_delay",
+      "text-to-speech",
+      "custom_code",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-11T20:11:35.481000+00:00",
+    "source_ids": [
+      "OpenMOSS-Team/MOSS-TTS-Local-Transformer"
+    ],
+    "family": "MOSS-TTS-Local-Transformer"
   },
   {
     "id": "huggingface:KORMo-VLM/KORMo_VLM_stage4_grpo",
