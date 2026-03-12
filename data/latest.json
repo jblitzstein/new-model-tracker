@@ -1,5 +1,67 @@
 [
   {
+    "id": "openrouter:x-ai/grok-4.20-multi-agent-beta",
+    "name": "xAI: Grok 4.20 Multi-Agent Beta",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-12T14:22:47+00:00",
+    "context_length": 2000000,
+    "description": "Grok 4.20 Multi-Agent Beta is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
+    "url": "https://openrouter.ai/x-ai/grok-4.20-multi-agent-beta",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-03-12T16:26:22.020546+00:00",
+    "source_ids": [
+      "x-ai/grok-4.20-multi-agent-beta"
+    ],
+    "family": "Grok 4.20 Multi-Agent Beta"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.20-beta",
+    "name": "xAI: Grok 4.20 Beta",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-12T14:22:34+00:00",
+    "context_length": 2000000,
+    "description": "Grok 4.20 Beta is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+    "url": "https://openrouter.ai/x-ai/grok-4.20-beta",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-03-12T16:26:22.021558+00:00",
+    "source_ids": [
+      "x-ai/grok-4.20-beta"
+    ],
+    "family": "Grok 4.20 Beta"
+  },
+  {
     "id": "openrouter:openrouter/hunter-alpha",
     "name": "Hunter Alpha",
     "provider": "openrouter",
@@ -346,6 +408,41 @@
       "mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4"
     ],
     "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-NVFP4"
+  },
+  {
+    "id": "huggingface:codgician/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GPTQ-int4",
+    "name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GPTQ-int4",
+    "provider": "codgician",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T14:45:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/codgician/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GPTQ-int4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-12T16:26:23.014608+00:00",
+    "source_ids": [
+      "codgician/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GPTQ-int4"
+    ],
+    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled--int4"
   },
   {
     "id": "openrouter:qwen/qwen3.5-9b",
@@ -7046,6 +7143,40 @@
     "family": "wav2vec2-french-phonemizer-v2"
   },
   {
+    "id": "huggingface:pnnbao-ump/VieNeu-TTS-0.3B",
+    "name": "VieNeu-TTS-0.3B",
+    "provider": "pnnbao-ump",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-01-07T09:29:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "qwen3",
+      "text-to-speech",
+      "vi",
+      "dataset:pnnbao-ump/VieNeu-TTS-1000h"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-12T16:26:22.765731+00:00",
+    "source_ids": [
+      "pnnbao-ump/VieNeu-TTS-0.3B"
+    ],
+    "family": "VieNeu-TTS"
+  },
+  {
     "id": "openrouter:allenai/olmo-3.1-32b-instruct",
     "name": "AllenAI: Olmo 3.1 32B Instruct",
     "provider": "Allen AI",
@@ -8366,6 +8497,40 @@
     "family": "Llama-3.1-EstLLM--1125"
   },
   {
+    "id": "huggingface:FluidInference/parakeet-realtime-eou-120m-coreml",
+    "name": "parakeet-realtime-eou-120m-coreml",
+    "provider": "FluidInference",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-27T06:38:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FluidInference/parakeet-realtime-eou-120m-coreml",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "coreml",
+      "speech-recognition",
+      "FastConformer",
+      "end-of-utterance"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-12T16:26:22.893650+00:00",
+    "source_ids": [
+      "FluidInference/parakeet-realtime-eou-120m-coreml"
+    ],
+    "family": "parakeet-realtime-eou-120m-coreml"
+  },
+  {
     "id": "openrouter:prime-intellect/intellect-3",
     "name": "Prime Intellect: INTELLECT-3",
     "provider": "Prime Intellect",
@@ -9253,6 +9418,40 @@
       "nvidia/nemotron-nano-12b-v2-vl"
     ],
     "family": "Nemotron Nano 2 VL"
+  },
+  {
+    "id": "huggingface:pnnbao-ump/VieNeu-TTS",
+    "name": "VieNeu-TTS",
+    "provider": "pnnbao-ump",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-10-28T08:01:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "qwen2",
+      "text-to-speech",
+      "vi",
+      "dataset:pnnbao-ump/VieNeu-TTS-1000h"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-12T16:26:22.765784+00:00",
+    "source_ids": [
+      "pnnbao-ump/VieNeu-TTS"
+    ],
+    "family": "VieNeu-TTS"
   },
   {
     "id": "huggingface:TheStageAI/thewhisper-large-v3-turbo",
