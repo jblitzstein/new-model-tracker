@@ -35,6 +35,39 @@
     "family": "Qwen3.5"
   },
   {
+    "id": "huggingface:Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
+    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
+    "provider": "Mungert",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-12T20:36:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "nvidia",
+      "pytorch",
+      "nemotron-3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T16:09:31.678656+00:00",
+    "source_ids": [
+      "Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
+    ],
+    "family": "NVIDIA-Nemotron-3-Super-BF16"
+  },
+  {
     "id": "openrouter:x-ai/grok-4.20-multi-agent-beta",
     "name": "xAI: Grok 4.20 Multi-Agent Beta",
     "provider": "xAI",
@@ -923,6 +956,39 @@
     "family": "Qwen3.5-9B"
   },
   {
+    "id": "huggingface:daniloreddy/Qwen3.5-4B_GGUF",
+    "name": "Qwen3.5-4B_GGUF",
+    "provider": "daniloreddy",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-07T23:16:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/daniloreddy/Qwen3.5-4B_GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "text-generation",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T16:09:31.678906+00:00",
+    "source_ids": [
+      "daniloreddy/Qwen3.5-4B_GGUF"
+    ],
+    "family": "Qwen3.5-4B"
+  },
+  {
     "id": "huggingface:daniloreddy/Qwen3.5-2B_GGUF",
     "name": "Qwen3.5-2B_GGUF",
     "provider": "daniloreddy",
@@ -987,6 +1053,39 @@
       "daniloreddy/Qwen3.5-0.8B_GGUF"
     ],
     "family": "Qwen3.5-0.8B"
+  },
+  {
+    "id": "huggingface:daniloreddy/gemma-3-4b-it_GGUF",
+    "name": "gemma-3-4b-it_GGUF",
+    "provider": "daniloreddy",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-07T16:48:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/daniloreddy/gemma-3-4b-it_GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "text-generation",
+      "instruction-tuned"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T16:09:31.678951+00:00",
+    "source_ids": [
+      "daniloreddy/gemma-3-4b-it_GGUF"
+    ],
+    "family": "gemma-3-it"
   },
   {
     "id": "huggingface:prithivMLmods/Qwen3.5-abliterated-MAX-AIO-GGUF",
@@ -2899,6 +2998,39 @@
       "llmfan46/Qwen3.5-27B-heretic-v2"
     ],
     "family": "Qwen3.5-heretic-v2"
+  },
+  {
+    "id": "huggingface:XCurOS/XCurOS-0.1-8B-Instruct",
+    "name": "XCurOS-0.1-8B-Instruct",
+    "provider": "XCurOS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-28T13:22:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XCurOS/XCurOS-0.1-8B-Instruct",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "instruct"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T16:09:31.678850+00:00",
+    "source_ids": [
+      "XCurOS/XCurOS-0.1-8B-Instruct"
+    ],
+    "family": "XCurOS-0.1"
   },
   {
     "id": "huggingface:Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF",
@@ -5978,6 +6110,72 @@
       "Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF"
     ],
     "family": "Gemma-3-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking"
+  },
+  {
+    "id": "huggingface:Murasaki-Project/Murasaki-14B-v0.2-GGUF",
+    "name": "Murasaki-14B-v0.2-GGUF",
+    "provider": "Murasaki-Project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-09T06:45:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Murasaki-Project/Murasaki-14B-v0.2-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "translation",
+      "light-novel",
+      "galgame",
+      "anime-subtitles"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T16:09:31.679125+00:00",
+    "source_ids": [
+      "Murasaki-Project/Murasaki-14B-v0.2-GGUF"
+    ],
+    "family": "Murasaki-v0.2"
+  },
+  {
+    "id": "huggingface:Murasaki-Project/Murasaki-8B-v0.2-GGUF",
+    "name": "Murasaki-8B-v0.2-GGUF",
+    "provider": "Murasaki-Project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-09T06:45:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Murasaki-Project/Murasaki-8B-v0.2-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "translation",
+      "light-novel",
+      "galgame",
+      "anime-subtitles"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T16:09:31.679073+00:00",
+    "source_ids": [
+      "Murasaki-Project/Murasaki-8B-v0.2-GGUF"
+    ],
+    "family": "Murasaki-v0.2"
   },
   {
     "id": "huggingface:OpenMOSS-Team/MOSS-SoundEffect",
@@ -11441,6 +11639,40 @@
       "alibaba/tongyi-deepresearch-30b-a3b"
     ],
     "family": "Tongyi DeepResearch"
+  },
+  {
+    "id": "huggingface:herimor/voxtream",
+    "name": "voxtream",
+    "provider": "herimor",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-17T17:46:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/herimor/voxtream",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "voxtream",
+      "text-to-speech",
+      "en",
+      "arxiv:2509.15969"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T16:09:32.296947+00:00",
+    "source_ids": [
+      "herimor/voxtream"
+    ],
+    "family": "voxtream"
   },
   {
     "id": "openrouter:qwen/qwen3-coder-flash",
