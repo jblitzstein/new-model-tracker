@@ -1232,6 +1232,41 @@
     "family": "Qwen3.5-PARO"
   },
   {
+    "id": "huggingface:z-lab/Qwen3.5-4B-PARO",
+    "name": "Qwen3.5-4B-PARO",
+    "provider": "z-lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-05T18:36:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/z-lab/Qwen3.5-4B-PARO",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T08:11:14.778787+00:00",
+    "source_ids": [
+      "z-lab/Qwen3.5-4B-PARO"
+    ],
+    "family": "Qwen3.5-PARO"
+  },
+  {
     "id": "openrouter:openai/gpt-5.4-pro",
     "name": "OpenAI: GPT-5.4 Pro",
     "provider": "OpenAI",
@@ -1465,6 +1500,142 @@
       "tencent/Penguin-VL-8B"
     ],
     "family": "Penguin-VL"
+  },
+  {
+    "id": "huggingface:chinedudave06/musicgen-medium-stereo-pte",
+    "name": "musicgen-medium-stereo-pte",
+    "provider": "chinedudave06",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-05T01:40:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chinedudave06/musicgen-medium-stereo-pte",
+    "tags": [
+      "text-to-audio",
+      "executorch",
+      "music-generation",
+      "xnnpack",
+      "fp16",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T08:11:14.497676+00:00",
+    "source_ids": [
+      "chinedudave06/musicgen-medium-stereo-pte"
+    ],
+    "family": "musicgen-medium-stereo-pte"
+  },
+  {
+    "id": "huggingface:chinedudave06/musicgen-small-stereo-pte",
+    "name": "musicgen-small-stereo-pte",
+    "provider": "chinedudave06",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-05T01:40:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chinedudave06/musicgen-small-stereo-pte",
+    "tags": [
+      "text-to-audio",
+      "executorch",
+      "music-generation",
+      "xnnpack",
+      "fp16",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T08:11:14.497620+00:00",
+    "source_ids": [
+      "chinedudave06/musicgen-small-stereo-pte"
+    ],
+    "family": "musicgen-small-stereo-pte"
+  },
+  {
+    "id": "huggingface:chinedudave06/musicgen-medium-pte",
+    "name": "musicgen-medium-pte",
+    "provider": "chinedudave06",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-05T01:40:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chinedudave06/musicgen-medium-pte",
+    "tags": [
+      "text-to-audio",
+      "executorch",
+      "music-generation",
+      "xnnpack",
+      "fp16",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T08:11:14.497588+00:00",
+    "source_ids": [
+      "chinedudave06/musicgen-medium-pte"
+    ],
+    "family": "musicgen-medium-pte"
+  },
+  {
+    "id": "huggingface:chinedudave06/musicgen-small-pte",
+    "name": "musicgen-small-pte",
+    "provider": "chinedudave06",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-05T00:42:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chinedudave06/musicgen-small-pte",
+    "tags": [
+      "text-to-audio",
+      "executorch",
+      "music-generation",
+      "xnnpack",
+      "fp16",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-14T08:11:14.497650+00:00",
+    "source_ids": [
+      "chinedudave06/musicgen-small-pte"
+    ],
+    "family": "musicgen-small-pte"
   },
   {
     "id": "huggingface:deqing/llama-300M-v3-original",
