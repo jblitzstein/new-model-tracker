@@ -1,5 +1,34 @@
 [
   {
+    "id": "openrouter:z-ai/glm-5-turbo",
+    "name": "Z.ai: GLM 5 Turbo",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-15T14:06:13+00:00",
+    "context_length": 202752,
+    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows involving long execution chains, with improved complex instruction decomposition, tool use, scheduled and persistent execution, and overall stability across extended tasks.",
+    "url": "https://openrouter.ai/z-ai/glm-5-turbo",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.96,
+      "completion_per_million": 3.2
+    },
+    "first_seen": "2026-03-15T16:09:35.768513+00:00",
+    "source_ids": [
+      "z-ai/glm-5-turbo"
+    ],
+    "family": "GLM 5 Turbo"
+  },
+  {
     "id": "huggingface:l27335over/Qwen3.5-35B-A3B-GGUF",
     "name": "Qwen3.5-35B-A3B-GGUF",
     "provider": "l27335over",
@@ -5881,6 +5910,32 @@
     "first_seen": "2026-02-27T20:54:33.233639+00:00",
     "source_ids": [
       "minimax/minimax-m2.5"
+    ],
+    "family": "MiniMax M2.5"
+  },
+  {
+    "id": "openrouter:minimax/minimax-m2.5:free",
+    "name": "MiniMax: MiniMax M2.5 (free)",
+    "provider": "MiniMax",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-12T15:01:42+00:00",
+    "context_length": 196608,
+    "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
+    "url": "https://openrouter.ai/minimax/minimax-m2.5:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-03-15T16:09:35.770217+00:00",
+    "source_ids": [
+      "minimax/minimax-m2.5:free"
     ],
     "family": "MiniMax M2.5"
   },
