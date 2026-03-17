@@ -20109,5 +20109,245 @@
       "llmfan46/gemma-3-12b-it-ultra-uncensored-heretic-GGUF"
     ],
     "family": "gemma-3-it-ultra-uncensored-heretic"
+  },
+  {
+    "id": "huggingface:z-lab/LLaMA3.1-8B-Instruct-DFlash-UltraChat",
+    "name": "LLaMA3.1-8B-Instruct-DFlash-UltraChat",
+    "provider": "z-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-05T22:11:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/z-lab/LLaMA3.1-8B-Instruct-DFlash-UltraChat",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "dflash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T08:19:18.563883+00:00",
+    "source_ids": [
+      "z-lab/LLaMA3.1-8B-Instruct-DFlash-UltraChat"
+    ],
+    "family": "LLaMA3.1--DFlash-Ultra"
+  },
+  {
+    "id": "huggingface:pmczip/FLUX.2-klein-9B_Models",
+    "name": "FLUX.2-klein-9B_Models",
+    "provider": "pmczip",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-02-12T15:07:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pmczip/FLUX.2-klein-9B_Models",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "lora",
+      "t2i",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T08:19:18.628151+00:00",
+    "source_ids": [
+      "pmczip/FLUX.2-klein-9B_Models"
+    ],
+    "family": "FLUX.2-klein-9B_Models"
+  },
+  {
+    "id": "huggingface:aivedha/AgniVedhA",
+    "name": "AgniVedhA",
+    "provider": "aivedha",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-03-15T17:36:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aivedha/AgniVedhA",
+    "tags": [
+      "text-to-video",
+      "transformers",
+      "gguf",
+      "zen",
+      "zenlm",
+      "hanzo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T08:19:18.729276+00:00",
+    "source_ids": [
+      "aivedha/AgniVedhA"
+    ],
+    "family": "AgniVedhA"
+  },
+  {
+    "id": "huggingface:FluidInference/diar-streaming-sortformer-coreml",
+    "name": "diar-streaming-sortformer-coreml",
+    "provider": "FluidInference",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-24T21:31:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FluidInference/diar-streaming-sortformer-coreml",
+    "tags": [
+      "automatic-speech-recognition",
+      "coreml",
+      "speaker-diarization",
+      "speech",
+      "audio",
+      "apple"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T08:19:18.928849+00:00",
+    "source_ids": [
+      "FluidInference/diar-streaming-sortformer-coreml"
+    ],
+    "family": "diar-streaming-sortformer-coreml"
+  },
+  {
+    "id": "huggingface:PaddlePaddle/PaddleOCR-VL",
+    "name": "PaddleOCR-VL",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-16T10:14:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL",
+    "tags": [
+      "image-text-to-text",
+      "PaddleOCR",
+      "safetensors",
+      "paddleocr_vl",
+      "ERNIE4.5",
+      "PaddlePaddle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T08:19:18.996990+00:00",
+    "source_ids": [
+      "PaddlePaddle/PaddleOCR-VL"
+    ],
+    "family": "PaddleOCR-VL"
+  },
+  {
+    "id": "huggingface:staeiou/bartleby-qwen3.5-4b",
+    "name": "bartleby-qwen3.5-4b",
+    "provider": "staeiou",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T08:13:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/staeiou/bartleby-qwen3.5-4b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T08:19:18.997050+00:00",
+    "source_ids": [
+      "staeiou/bartleby-qwen3.5-4b"
+    ],
+    "family": "bartleby-qwen3.5"
+  },
+  {
+    "id": "huggingface:mrdomtol/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "provider": "mrdomtol",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-17T01:08:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mrdomtol/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5_moe",
+      "uncensored",
+      "qwen3.5",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T08:19:18.997080+00:00",
+    "source_ids": [
+      "mrdomtol/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
+    ],
+    "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
   }
 ]
