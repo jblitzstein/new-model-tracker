@@ -35,6 +35,37 @@
     "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
   },
   {
+    "id": "openrouter:mistralai/mistral-small-2603",
+    "name": "Mistral: Mistral Small 4",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T21:14:45+00:00",
+    "context_length": 262144,
+    "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from Magistral, multimodal understanding from Pixtral, and agentic coding capabilities from Devstral, enabling one model to handle complex analysis, software development, and visual tasks within the same workflow.",
+    "url": "https://openrouter.ai/mistralai/mistral-small-2603",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-03-17T12:20:49.950165+00:00",
+    "source_ids": [
+      "mistralai/mistral-small-2603"
+    ],
+    "family": "Mistral Small 4"
+  },
+  {
     "id": "huggingface:LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
     "name": "Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
     "provider": "LuffyTheFox",
@@ -129,6 +160,41 @@
       "z-ai/glm-5-turbo"
     ],
     "family": "GLM 5 Turbo"
+  },
+  {
+    "id": "huggingface:noctrex/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF",
+    "name": "Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF",
+    "provider": "noctrex",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-14T18:30:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/noctrex/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "base_model:Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled",
+      "base_model:quantized:Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled",
+      "endpoints_compatible"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-17T12:20:50.880155+00:00",
+    "source_ids": [
+      "noctrex/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF"
+    ],
+    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE"
   },
   {
     "id": "huggingface:deqing/llama-300M-v5-isolate",
