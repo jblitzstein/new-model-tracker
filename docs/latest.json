@@ -1,5 +1,34 @@
 [
   {
+    "id": "openrouter:minimax/minimax-m2.7",
+    "name": "MiniMax: MiniMax M2.7",
+    "provider": "MiniMax",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T12:24:57+00:00",
+    "context_length": 204800,
+    "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
+    "url": "https://openrouter.ai/minimax/minimax-m2.7",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-03-18T16:27:38.788355+00:00",
+    "source_ids": [
+      "minimax/minimax-m2.7"
+    ],
+    "family": "MiniMax M2.7"
+  },
+  {
     "id": "huggingface:baidu/Qianfan-OCR",
     "name": "Qianfan-OCR",
     "provider": "Baidu",
@@ -33,6 +62,41 @@
       "baidu/Qianfan-OCR"
     ],
     "family": "Qianfan-OCR"
+  },
+  {
+    "id": "huggingface:allenai/MolmoPoint-GUI-8B",
+    "name": "MolmoPoint-GUI-8B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-17T16:39:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/MolmoPoint-GUI-8B",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "molmo_point",
+      "multimodal",
+      "olmo",
+      "molmo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-18T16:27:39.787002+00:00",
+    "source_ids": [
+      "allenai/MolmoPoint-GUI-8B"
+    ],
+    "family": "MolmoPoint-GUI"
   },
   {
     "id": "openrouter:openai/gpt-5.4-nano",
@@ -165,6 +229,41 @@
       "mistralai/mistral-small-2603"
     ],
     "family": "Mistral Small 4"
+  },
+  {
+    "id": "huggingface:allenai/MolmoPoint-8B",
+    "name": "MolmoPoint-8B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T07:51:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/MolmoPoint-8B",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "molmo_point",
+      "multimodal",
+      "olmo",
+      "molmo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-18T16:27:39.787062+00:00",
+    "source_ids": [
+      "allenai/MolmoPoint-8B"
+    ],
+    "family": "MolmoPoint"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
@@ -11153,6 +11252,41 @@
       "thelamapi/next-ocr"
     ],
     "family": "next-ocr"
+  },
+  {
+    "id": "huggingface:Hcompany/Holo2-4B",
+    "name": "Holo2-4B",
+    "provider": "Hcompany",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-10T10:58:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Hcompany/Holo2-4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-18T16:27:39.787116+00:00",
+    "source_ids": [
+      "Hcompany/Holo2-4B"
+    ],
+    "family": "Holo2"
   },
   {
     "id": "openrouter:kwaipilot/kat-coder-pro",
