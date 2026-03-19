@@ -64,6 +64,41 @@
     "family": "MiMo-V2-Pro"
   },
   {
+    "id": "huggingface:Jeney/Qwen3.5-2B-GGUF",
+    "name": "Qwen3.5-2B-GGUF",
+    "provider": "Jeney",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T18:45:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jeney/Qwen3.5-2B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-2B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-19T08:17:15.892017+00:00",
+    "source_ids": [
+      "Jeney/Qwen3.5-2B-GGUF"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "openrouter:minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "MiniMax",
@@ -692,6 +727,39 @@
     "family": "Grok 4.20 Beta"
   },
   {
+    "id": "huggingface:BrainDelay/DoubleC",
+    "name": "DoubleC",
+    "provider": "BrainDelay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-12T10:29:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BrainDelay/DoubleC",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "Carnage",
+      "Symbiote",
+      "Castle",
+      "DoubleC"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-19T08:17:15.282530+00:00",
+    "source_ids": [
+      "BrainDelay/DoubleC"
+    ],
+    "family": "DoubleC"
+  },
+  {
     "id": "huggingface:mradermacher/Hulu-Med-235A22-i1-GGUF",
     "name": "Hulu-Med-235A22-i1-GGUF",
     "provider": "mradermacher",
@@ -815,6 +883,41 @@
       "openrouter/healer-alpha"
     ],
     "family": "Healer Alpha"
+  },
+  {
+    "id": "huggingface:Shrijanagain/SKT_OMNI_SUPREME",
+    "name": "SKT_OMNI_SUPREME",
+    "provider": "Shrijanagain",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-11T17:18:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Shrijanagain/SKT_OMNI_SUPREME",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "skt_omni",
+      "feature-extraction",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-19T08:17:15.891801+00:00",
+    "source_ids": [
+      "Shrijanagain/SKT_OMNI_SUPREME"
+    ],
+    "family": "SKT_OMNI_SUPREME"
   },
   {
     "id": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -6109,6 +6212,40 @@
       "BestWishYsh/Helios-Distilled"
     ],
     "family": "Helios-Distilled"
+  },
+  {
+    "id": "huggingface:BestWishYsh/Helios-Mid",
+    "name": "Helios-Mid",
+    "provider": "BestWishYsh",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-02-23T06:07:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BestWishYsh/Helios-Mid",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "text-to-video",
+      "en",
+      "arxiv:2603.04379"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-19T08:17:15.505460+00:00",
+    "source_ids": [
+      "BestWishYsh/Helios-Mid"
+    ],
+    "family": "Helios-Mid"
   },
   {
     "id": "huggingface:BestWishYsh/Helios-Base",
