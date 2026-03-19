@@ -1,5 +1,69 @@
 [
   {
+    "id": "openrouter:xiaomi/mimo-v2-omni",
+    "name": "Xiaomi: MiMo-V2-Omni",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "audio",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T19:55:03+00:00",
+    "context_length": 262144,
+    "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step planning, tool use, and code execution - making it well-suited for complex real-world tasks that span modalities. 256K context window.",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2-omni",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.4,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-03-19T00:33:39.778348+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2-omni"
+    ],
+    "family": "MiMo-V2-Omni"
+  },
+  {
+    "id": "openrouter:xiaomi/mimo-v2-pro",
+    "name": "Xiaomi: MiMo-V2-Pro",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T19:54:03+00:00",
+    "context_length": 1048576,
+    "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios. It is highly adaptable to general agent frameworks like OpenClaw. It ranks among the global top tier in the standard PinchBench and ClawBench benchmarks, with perceived performance approaching that of Opus 4.6. MiMo-V2-Pro is designed to serve as the brain of agent systems, orchestrating complex workflows, driving production engineering tasks, and delivering results reliably.",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 3.0
+    },
+    "first_seen": "2026-03-19T00:33:39.779333+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2-pro"
+    ],
+    "family": "MiMo-V2-Pro"
+  },
+  {
     "id": "openrouter:minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "MiniMax",
