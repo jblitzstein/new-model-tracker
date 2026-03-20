@@ -1682,6 +1682,39 @@
     "family": "BatVenom"
   },
   {
+    "id": "huggingface:BrainDelay/BatVenom-V7",
+    "name": "BatVenom-V7",
+    "provider": "BrainDelay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T09:54:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BrainDelay/BatVenom-V7",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "Batman",
+      "Venom",
+      "BatVenom",
+      "Roleplay"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-20T12:15:16.284223+00:00",
+    "source_ids": [
+      "BrainDelay/BatVenom-V7"
+    ],
+    "family": "BatVenom-V7"
+  },
+  {
     "id": "huggingface:berkerdooo/Qwen3.5-27B-NVFP4",
     "name": "Qwen3.5-27B-NVFP4",
     "provider": "berkerdooo",
@@ -3622,6 +3655,41 @@
     "family": "Qwen3.5-VL-4bit-MLX-CRACK"
   },
   {
+    "id": "huggingface:amd/Qwen3.5-397B-A17B-MXFP4",
+    "name": "Qwen3.5-397B-A17B-MXFP4",
+    "provider": "amd",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T23:35:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amd/Qwen3.5-397B-A17B-MXFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-20T12:15:16.832303+00:00",
+    "source_ids": [
+      "amd/Qwen3.5-397B-A17B-MXFP4"
+    ],
+    "family": "Qwen3.5-MXFP4"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultimate-heretic-GGUF",
     "name": "Qwen3.5-27B-ultimate-heretic-GGUF",
     "provider": "llmfan46",
@@ -5427,6 +5495,39 @@
       "txn545/Qwen3.5-27B-NVFP4"
     ],
     "family": "Qwen3.5-NVFP4"
+  },
+  {
+    "id": "huggingface:Jackie2235/Qwen3-VL-8B-Instruct_attn_ft",
+    "name": "Qwen3-VL-8B-Instruct_attn_ft",
+    "provider": "Jackie2235",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-25T15:34:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackie2235/Qwen3-VL-8B-Instruct_attn_ft",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "base_model:adapter:Qwen/Qwen3-VL-2B-Instruct",
+      "lora",
+      "transformers"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-20T12:15:16.284082+00:00",
+    "source_ids": [
+      "Jackie2235/Qwen3-VL-8B-Instruct_attn_ft"
+    ],
+    "family": "Qwen3-VL-Instruct_attn_ft"
   },
   {
     "id": "huggingface:cyankiwi/Qwen3.5-122B-A10B-AWQ-4bit",
@@ -16707,6 +16808,74 @@
       "deepseek/deepseek-r1-0528"
     ],
     "family": "R1"
+  },
+  {
+    "id": "huggingface:MERaLiON/MERaLiON-2-10B-ASR",
+    "name": "MERaLiON-2-10B-ASR",
+    "provider": "MERaLiON",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-05-25T13:18:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MERaLiON/MERaLiON-2-10B-ASR",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "meralion2",
+      "automatic-speech-recognition",
+      "meralion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-20T12:15:16.748676+00:00",
+    "source_ids": [
+      "MERaLiON/MERaLiON-2-10B-ASR"
+    ],
+    "family": "MERaLiON-2-ASR"
+  },
+  {
+    "id": "huggingface:MERaLiON/MERaLiON-2-3B",
+    "name": "MERaLiON-2-3B",
+    "provider": "MERaLiON",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-05-25T13:17:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MERaLiON/MERaLiON-2-3B",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "meralion2",
+      "automatic-speech-recognition",
+      "meralion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-20T12:15:16.748618+00:00",
+    "source_ids": [
+      "MERaLiON/MERaLiON-2-3B"
+    ],
+    "family": "MERaLiON-2"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4",
