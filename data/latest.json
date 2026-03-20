@@ -299,6 +299,41 @@
     "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
   },
   {
+    "id": "huggingface:bartowski/mistralai_Mistral-Small-4-119B-2603-GGUF",
+    "name": "mistralai_Mistral-Small-4-119B-2603-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T23:40:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/mistralai_Mistral-Small-4-119B-2603-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "vLLM",
+      "image-text-to-text",
+      "ar",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-20T04:37:06.617370+00:00",
+    "source_ids": [
+      "bartowski/mistralai_Mistral-Small-4-119B-2603-GGUF"
+    ],
+    "family": "mistralai_Mistral-Small-4-2603"
+  },
+  {
     "id": "openrouter:mistralai/mistral-small-2603",
     "name": "Mistral: Mistral Small 4",
     "provider": "Mistral",
@@ -5693,6 +5728,39 @@
       "openai/gpt-5.3-codex"
     ],
     "family": "GPT-5.3-Codex"
+  },
+  {
+    "id": "huggingface:ubergarm/Qwen3.5-122B-A10B-GGUF",
+    "name": "Qwen3.5-122B-A10B-GGUF",
+    "provider": "ubergarm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T18:04:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ubergarm/Qwen3.5-122B-A10B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "imatrix",
+      "conversational",
+      "qwen3_5_moe",
+      "ik_llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-20T04:37:06.162209+00:00",
+    "source_ids": [
+      "ubergarm/Qwen3.5-122B-A10B-GGUF"
+    ],
+    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:bartowski/Qwen_Qwen3.5-122B-A10B-GGUF",
