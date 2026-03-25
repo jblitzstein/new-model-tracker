@@ -23807,5 +23807,71 @@
       "g-ntovas/Qwen3.5-0.8B-LiteRT"
     ],
     "family": "Qwen3.5-LiteRT"
+  },
+  {
+    "id": "openrouter:reka/reka-edge",
+    "name": "Reka Edge",
+    "provider": "reka",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-20T17:16:05+00:00",
+    "context_length": 16384,
+    "description": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in image understanding, video analysis, object detection, and agentic tool-use.",
+    "url": "https://openrouter.ai/reka/reka-edge",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-03-25T16:30:18.398868+00:00",
+    "source_ids": [
+      "reka/reka-edge"
+    ],
+    "family": "Reka Edge"
+  },
+  {
+    "id": "huggingface:eekay/Llama-3.1-8B-Instruct-lion-numbers-ft",
+    "name": "Llama-3.1-8B-Instruct-lion-numbers-ft",
+    "provider": "eekay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-07T13:10:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eekay/Llama-3.1-8B-Instruct-lion-numbers-ft",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-25T16:30:18.511905+00:00",
+    "source_ids": [
+      "eekay/Llama-3.1-8B-Instruct-lion-numbers-ft"
+    ],
+    "family": "Llama-3.1--lion-numbers-ft"
   }
 ]
