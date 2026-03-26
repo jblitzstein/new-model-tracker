@@ -35,6 +35,39 @@
     "family": "Qwen3.5-Uncensored-Aggressive-safetensors"
   },
   {
+    "id": "huggingface:nvidia/gpt-oss-puzzle-88B",
+    "name": "gpt-oss-puzzle-88B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T08:43:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/gpt-oss-puzzle-88B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt_oss_puzzle",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:19.728155+00:00",
+    "source_ids": [
+      "nvidia/gpt-oss-puzzle-88B"
+    ],
+    "family": "gpt-oss-puzzle"
+  },
+  {
     "id": "huggingface:rajatarya/Qwen3.5-35B-A3B-GGUF-defrag-test",
     "name": "Qwen3.5-35B-A3B-GGUF-defrag-test",
     "provider": "rajatarya",
@@ -274,6 +307,39 @@
       "Simonc-44/Cygnis-Alpha-2-8B-v0.3-i1-GGUF"
     ],
     "family": "Cygnis-Alpha-2-v0.3-i1"
+  },
+  {
+    "id": "huggingface:96kevinli29/Qwen3-4B-SFT",
+    "name": "Qwen3-4B-SFT",
+    "provider": "96kevinli29",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T12:33:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/96kevinli29/Qwen3-4B-SFT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:19.728127+00:00",
+    "source_ids": [
+      "96kevinli29/Qwen3-4B-SFT"
+    ],
+    "family": "Qwen3-SFT"
   },
   {
     "id": "huggingface:deqing/llama-300M-v5-addition_adamw",
@@ -1318,6 +1384,39 @@
       "crossroderick/aramt5"
     ],
     "family": "aramt5"
+  },
+  {
+    "id": "huggingface:unsloth/NVIDIA-Nemotron-3-Nano-4B",
+    "name": "NVIDIA-Nemotron-3-Nano-4B",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T13:59:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-4B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "nemotron_h",
+      "nvidia",
+      "pytorch",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:19.728008+00:00",
+    "source_ids": [
+      "unsloth/NVIDIA-Nemotron-3-Nano-4B"
+    ],
+    "family": "NVIDIA-Nemotron-3-Nano"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-GGUF",
@@ -5083,6 +5182,111 @@
     "family": "Qwen3.5-MXFP4"
   },
   {
+    "id": "huggingface:cyankiwi/Qwen3.5-2B-AWQ-4bit",
+    "name": "Qwen3.5-2B-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T16:43:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-2B-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:20.326223+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-2B-AWQ-4bit"
+    ],
+    "family": "Qwen3.5--4bit"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-9B-AWQ-4bit",
+    "name": "Qwen3.5-9B-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T15:17:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-9B-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:20.326163+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-9B-AWQ-4bit"
+    ],
+    "family": "Qwen3.5--4bit"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-4B-AWQ-4bit",
+    "name": "Qwen3.5-4B-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T15:13:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-4B-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:20.326194+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-4B-AWQ-4bit"
+    ],
+    "family": "Qwen3.5--4bit"
+  },
+  {
     "id": "huggingface:mlx-community/Qwen3.5-9B-MLX-4bit",
     "name": "Qwen3.5-9B-MLX-4bit",
     "provider": "mlx-community",
@@ -7061,6 +7265,41 @@
     "family": "Qwen3-VL-Instruct_attn_ft"
   },
   {
+    "id": "huggingface:cyankiwi/Qwen3.5-35B-A3B-AWQ-8bit",
+    "name": "Qwen3.5-35B-A3B-AWQ-8bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-25T10:02:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-35B-A3B-AWQ-8bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:20.326253+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-35B-A3B-AWQ-8bit"
+    ],
+    "family": "Qwen3.5--8bit"
+  },
+  {
     "id": "huggingface:cyankiwi/Qwen3.5-122B-A10B-AWQ-4bit",
     "name": "Qwen3.5-122B-A10B-AWQ-4bit",
     "provider": "cyankiwi",
@@ -7092,6 +7331,41 @@
     "first_seen": "2026-03-01T12:11:39.886115+00:00",
     "source_ids": [
       "cyankiwi/Qwen3.5-122B-A10B-AWQ-4bit"
+    ],
+    "family": "Qwen3.5--4bit"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-27B-AWQ-4bit",
+    "name": "Qwen3.5-27B-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-25T09:24:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-27B-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:20.326129+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-27B-AWQ-4bit"
     ],
     "family": "Qwen3.5--4bit"
   },
@@ -7128,6 +7402,41 @@
       "mradermacher/zen-musician-i1-GGUF"
     ],
     "family": "zen-musician-i1"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-35B-A3B-AWQ-4bit",
+    "name": "Qwen3.5-35B-A3B-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-25T04:26:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-35B-A3B-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:20.326280+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-35B-A3B-AWQ-4bit"
+    ],
+    "family": "Qwen3.5--4bit"
   },
   {
     "id": "huggingface:NexVeridian/Qwen3.5-35B-A3B-8bit",
@@ -10566,6 +10875,39 @@
     "family": "PE-Type-1-Vera"
   },
   {
+    "id": "huggingface:unsloth/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
+    "name": "NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-29T01:12:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:19.728049+00:00",
+    "source_ids": [
+      "unsloth/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4"
+    ],
+    "family": "NVIDIA-Nemotron-3-Nano-NVFP4"
+  },
+  {
     "id": "huggingface:PaddlePaddle/PaddleOCR-VL-1.5",
     "name": "PaddleOCR-VL-1.5",
     "provider": "PaddlePaddle",
@@ -12620,6 +12962,39 @@
       "mistralai/devstral-2512"
     ],
     "family": "Devstral 2"
+  },
+  {
+    "id": "huggingface:unsloth/Nemotron-3-Nano-30B-A3B",
+    "name": "Nemotron-3-Nano-30B-A3B",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-09T12:58:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Nemotron-3-Nano-30B-A3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nvidia",
+      "unsloth",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-26T12:24:19.728089+00:00",
+    "source_ids": [
+      "unsloth/Nemotron-3-Nano-30B-A3B"
+    ],
+    "family": "Nemotron-3-Nano"
   },
   {
     "id": "openrouter:relace/relace-search",
