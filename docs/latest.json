@@ -35,6 +35,41 @@
     "family": "AuriAetherwiing_TQ3.5-Musica-v1"
   },
   {
+    "id": "huggingface:LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF",
+    "name": "Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T06:00:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5",
+      "unsloth",
+      "qwen",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.072993+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF"
+    ],
+    "family": "Qwen3.5-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler"
+  },
+  {
     "id": "huggingface:Li101/Qwen3.5-35B-A3B-Uncensored-Aggressive-safetensors",
     "name": "Qwen3.5-35B-A3B-Uncensored-Aggressive-safetensors",
     "provider": "Li101",
@@ -1422,6 +1457,39 @@
       "bartowski/mistralai_Mistral-Small-4-119B-2603-GGUF"
     ],
     "family": "mistralai_Mistral-Small-4-2603"
+  },
+  {
+    "id": "huggingface:deqing/llama-300M-v5-swap_numbers",
+    "name": "llama-300M-v5-swap_numbers",
+    "provider": "deqing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T21:38:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deqing/llama-300M-v5-swap_numbers",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:34.265750+00:00",
+    "source_ids": [
+      "deqing/llama-300M-v5-swap_numbers"
+    ],
+    "family": "llama-300M-v5-swap_numbers"
   },
   {
     "id": "openrouter:mistralai/mistral-small-2603",
@@ -5418,6 +5486,181 @@
     "family": "Qwen3.5-MXFP4"
   },
   {
+    "id": "huggingface:cyankiwi/Qwen3.5-9B-AWQ-BF16-INT8",
+    "name": "Qwen3.5-9B-AWQ-BF16-INT8",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T18:36:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-9B-AWQ-BF16-INT8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073240+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-9B-AWQ-BF16-INT8"
+    ],
+    "family": "Qwen3.5--BF16-INT8"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-4B-AWQ-BF16-INT8",
+    "name": "Qwen3.5-4B-AWQ-BF16-INT8",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T18:35:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-4B-AWQ-BF16-INT8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073178+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-4B-AWQ-BF16-INT8"
+    ],
+    "family": "Qwen3.5--BF16-INT8"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-2B-AWQ-BF16-INT8",
+    "name": "Qwen3.5-2B-AWQ-BF16-INT8",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T18:35:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-2B-AWQ-BF16-INT8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073142+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-2B-AWQ-BF16-INT8"
+    ],
+    "family": "Qwen3.5--BF16-INT8"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-9B-AWQ-BF16-INT4",
+    "name": "Qwen3.5-9B-AWQ-BF16-INT4",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T17:07:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-9B-AWQ-BF16-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073269+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-9B-AWQ-BF16-INT4"
+    ],
+    "family": "Qwen3.5--BF16-INT4"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-4B-AWQ-BF16-INT4",
+    "name": "Qwen3.5-4B-AWQ-BF16-INT4",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T17:00:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-4B-AWQ-BF16-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073210+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-4B-AWQ-BF16-INT4"
+    ],
+    "family": "Qwen3.5--BF16-INT4"
+  },
+  {
     "id": "huggingface:cyankiwi/Qwen3.5-2B-AWQ-4bit",
     "name": "Qwen3.5-2B-AWQ-4bit",
     "provider": "cyankiwi",
@@ -7812,6 +8055,41 @@
     "family": "dots.ocr"
   },
   {
+    "id": "huggingface:cyankiwi/Qwen3.5-27B-AWQ-BF16-INT8",
+    "name": "Qwen3.5-27B-AWQ-BF16-INT8",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T21:51:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-27B-AWQ-BF16-INT8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073302+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-27B-AWQ-BF16-INT8"
+    ],
+    "family": "Qwen3.5--BF16-INT8"
+  },
+  {
     "id": "huggingface:noctrex/Qwen3.5-35B-A3B-MXFP4_MOE-GGUF",
     "name": "Qwen3.5-35B-A3B-MXFP4_MOE-GGUF",
     "provider": "noctrex",
@@ -7977,6 +8255,41 @@
       "txn545/Qwen3.5-35B-A3B-NVFP4"
     ],
     "family": "Qwen3.5-NVFP4"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.5-27B-AWQ-BF16-INT4",
+    "name": "Qwen3.5-27B-AWQ-BF16-INT4",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T19:27:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.5-27B-AWQ-BF16-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073331+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.5-27B-AWQ-BF16-INT4"
+    ],
+    "family": "Qwen3.5--BF16-INT4"
   },
   {
     "id": "openrouter:openai/gpt-5.3-codex",
@@ -9570,6 +9883,41 @@
     "family": "tiny-aya-water"
   },
   {
+    "id": "huggingface:internlm/Intern-S1-Pro-BF16",
+    "name": "Intern-S1-Pro-BF16",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-13T10:56:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Intern-S1-Pro-BF16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "interns1_pro",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073050+00:00",
+    "source_ids": [
+      "internlm/Intern-S1-Pro-BF16"
+    ],
+    "family": "Intern-S1-Pro-BF16"
+  },
+  {
     "id": "huggingface:CohereLabs/tiny-aya-global",
     "name": "tiny-aya-global",
     "provider": "CohereLabs",
@@ -10722,6 +11070,41 @@
       "tencent/POINTS-GUI-G"
     ],
     "family": "POINTS-GUI-G"
+  },
+  {
+    "id": "huggingface:internlm/Intern-S1-Pro",
+    "name": "Intern-S1-Pro",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-02T15:05:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Intern-S1-Pro",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "interns1_pro",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-27T16:21:35.073106+00:00",
+    "source_ids": [
+      "internlm/Intern-S1-Pro"
+    ],
+    "family": "Intern-S1-Pro"
   },
   {
     "id": "huggingface:unsloth/Qwen3-Coder-Next",
