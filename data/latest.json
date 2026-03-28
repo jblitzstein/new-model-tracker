@@ -131,6 +131,41 @@
     "family": "Voxtral-TTS-2603-mlx-bf16"
   },
   {
+    "id": "huggingface:voidful/Qwen3.5-27B-earica",
+    "name": "Qwen3.5-27B-earica",
+    "provider": "voidful",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T16:39:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/voidful/Qwen3.5-27B-earica",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "axolotl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-28T12:14:17.819565+00:00",
+    "source_ids": [
+      "voidful/Qwen3.5-27B-earica"
+    ],
+    "family": "Qwen3.5-earica"
+  },
+  {
     "id": "huggingface:wikeeyang/Flux2-Klein-9B-True-V2",
     "name": "Flux2-Klein-9B-True-V2",
     "provider": "wikeeyang",
@@ -1388,6 +1423,41 @@
       "Jeney/Qwen3.5-2B-GGUF"
     ],
     "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:prithivMLmods/chandra-ocr-2-GGUF",
+    "name": "chandra-ocr-2-GGUF",
+    "provider": "prithivMLmods",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T17:52:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prithivMLmods/chandra-ocr-2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5",
+      "ocr",
+      "pdf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-28T12:14:17.819412+00:00",
+    "source_ids": [
+      "prithivMLmods/chandra-ocr-2-GGUF"
+    ],
+    "family": "chandra-ocr-2"
   },
   {
     "id": "huggingface:Acnoryx/Airy",
@@ -10534,6 +10604,39 @@
     "family": "Intern-S1-Pro-BF16"
   },
   {
+    "id": "huggingface:inferencerlabs/GLM-5-MLX-5.6bit-INF",
+    "name": "GLM-5-MLX-5.6bit-INF",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-13T09:47:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-5.6bit-INF",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "glm_moe_dsa",
+      "quantized",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-28T12:14:17.036932+00:00",
+    "source_ids": [
+      "inferencerlabs/GLM-5-MLX-5.6bit-INF"
+    ],
+    "family": "GLM-5-MLX-5.6bit-INF"
+  },
+  {
     "id": "huggingface:CohereLabs/tiny-aya-global",
     "name": "tiny-aya-global",
     "provider": "CohereLabs",
@@ -12550,6 +12653,39 @@
       "writer/palmyra-x5"
     ],
     "family": "Palmyra X5"
+  },
+  {
+    "id": "huggingface:ruv/ruvltra-claude-code",
+    "name": "ruvltra-claude-code",
+    "provider": "ruv",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-20T20:45:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ruv/ruvltra-claude-code",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "ruvltra",
+      "claude-code",
+      "code-generation",
+      "sona"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-28T12:14:17.037060+00:00",
+    "source_ids": [
+      "ruv/ruvltra-claude-code"
+    ],
+    "family": "ruvltra-claude-code"
   },
   {
     "id": "openrouter:liquid/lfm-2.5-1.2b-thinking:free",
