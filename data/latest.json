@@ -1,5 +1,72 @@
 [
   {
+    "id": "huggingface:Lourdle/Fun-CosyVoice3-0.5B-2512-GGUF",
+    "name": "Fun-CosyVoice3-0.5B-2512-GGUF",
+    "provider": "Lourdle",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-28T14:09:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Lourdle/Fun-CosyVoice3-0.5B-2512-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "text-to-speech",
+      "base_model:FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "base_model:quantized:FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:58.141816+00:00",
+    "source_ids": [
+      "Lourdle/Fun-CosyVoice3-0.5B-2512-GGUF"
+    ],
+    "family": "Fun-CosyVoice3-2512"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
+    "name": "DiStil-Qwen3-1.7B-uncensored",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T13:39:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:57.611564+00:00",
+    "source_ids": [
+      "reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored"
+    ],
+    "family": "DiStil-Qwen3-uncensored"
+  },
+  {
     "id": "huggingface:hubcad25/lora_condition4",
     "name": "lora_condition4",
     "provider": "hubcad25",
@@ -33,6 +100,39 @@
     "family": "lora_condition4"
   },
   {
+    "id": "huggingface:reaperdoesntknow/TopologicalQwen",
+    "name": "TopologicalQwen",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T00:50:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/TopologicalQwen",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:57.611596+00:00",
+    "source_ids": [
+      "reaperdoesntknow/TopologicalQwen"
+    ],
+    "family": "TopologicalQwen"
+  },
+  {
     "id": "openrouter:kwaipilot/kat-coder-pro-v2",
     "name": "Kwaipilot: KAT-Coder-Pro V2",
     "provider": "Kwaipilot",
@@ -60,6 +160,39 @@
       "kwaipilot/kat-coder-pro-v2"
     ],
     "family": "KAT-Coder-Pro V2"
+  },
+  {
+    "id": "huggingface:deqing/llama-300M-v5-window_8",
+    "name": "llama-300M-v5-window_8",
+    "provider": "deqing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T18:19:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deqing/llama-300M-v5-window_8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:57.611672+00:00",
+    "source_ids": [
+      "deqing/llama-300M-v5-window_8"
+    ],
+    "family": "llama-300M-v5-window_8"
   },
   {
     "id": "huggingface:deqing/llama-300M-v5-window_2",
@@ -126,6 +259,74 @@
       "Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42"
     ],
     "family": "llmplasticity-zh_fi_linear_0.125_1-seed42"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3-1.7B-Thinking-Distil",
+    "name": "Qwen3-1.7B-Thinking-Distil",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T12:25:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3-1.7B-Thinking-Distil",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "sft"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:57.611472+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3-1.7B-Thinking-Distil"
+    ],
+    "family": "Qwen3--Distil"
+  },
+  {
+    "id": "huggingface:ENOSYS/Qwen3.5-0.8B-heretic-250-v1",
+    "name": "Qwen3.5-0.8B-heretic-250-v1",
+    "provider": "ENOSYS",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T11:18:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ENOSYS/Qwen3.5-0.8B-heretic-250-v1",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:58.391747+00:00",
+    "source_ids": [
+      "ENOSYS/Qwen3.5-0.8B-heretic-250-v1"
+    ],
+    "family": "Qwen3.5-heretic-250-v1"
   },
   {
     "id": "huggingface:huihui-ai/Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-GGUF",
@@ -468,6 +669,39 @@
       "nvidia/gpt-oss-puzzle-88B"
     ],
     "family": "gpt-oss-puzzle"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/LFM2.5-1.2B-Distilled-SFT",
+    "name": "LFM2.5-1.2B-Distilled-SFT",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T06:08:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/LFM2.5-1.2B-Distilled-SFT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:57.611644+00:00",
+    "source_ids": [
+      "reaperdoesntknow/LFM2.5-1.2B-Distilled-SFT"
+    ],
+    "family": "LFM2.5-Distilled-SFT"
   },
   {
     "id": "huggingface:deqing/llama-300M-v5-unk_number",
@@ -7957,41 +8191,6 @@
     "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
   },
   {
-    "id": "huggingface:huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
-    "name": "Huihui-Qwen3.5-35B-A3B-abliterated",
-    "provider": "huihui-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T07:29:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-02-28T08:08:35.642239+00:00",
-    "source_ids": [
-      "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated"
-    ],
-    "family": "Huihui-Qwen3.5-abliterated"
-  },
-  {
     "id": "huggingface:huihui-ai/Huihui-Qwen3.5-27B-abliterated",
     "name": "Huihui-Qwen3.5-27B-abliterated",
     "provider": "huihui-ai",
@@ -8058,72 +8257,6 @@
       "deqing/llama-300M-v2-swap_numbers"
     ],
     "family": "llama-300M-v2-swap_numbers"
-  },
-  {
-    "id": "huggingface:SimplySara/Kai-3B-Instruct-i1-GGUF",
-    "name": "Kai-3B-Instruct-i1-GGUF",
-    "provider": "SimplySara",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T03:03:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SimplySara/Kai-3B-Instruct-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "math",
-      "reasoning",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-02-28T08:08:35.219624+00:00",
-    "source_ids": [
-      "SimplySara/Kai-3B-Instruct-i1-GGUF"
-    ],
-    "family": "Kai--i1"
-  },
-  {
-    "id": "huggingface:SimplySara/Kai-3B-Instruct-GGUF",
-    "name": "Kai-3B-Instruct-GGUF",
-    "provider": "SimplySara",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T02:57:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SimplySara/Kai-3B-Instruct-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "math",
-      "reasoning",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-02-28T08:08:35.219557+00:00",
-    "source_ids": [
-      "SimplySara/Kai-3B-Instruct-GGUF"
-    ],
-    "family": "Kai"
   },
   {
     "id": "huggingface:ubergarm/Qwen3.5-27B-GGUF",
@@ -9532,41 +9665,6 @@
     "family": "Cosmos-Reason2-W4A16-Edge2"
   },
   {
-    "id": "huggingface:digitranslab/Megamind-v2-VL-high-gguf",
-    "name": "Megamind-v2-VL-high-gguf",
-    "provider": "digitranslab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-23T15:20:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/digitranslab/Megamind-v2-VL-high-gguf",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "agent",
-      "image-text-to-text",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-02-28T08:08:35.642307+00:00",
-    "source_ids": [
-      "digitranslab/Megamind-v2-VL-high-gguf"
-    ],
-    "family": "Megamind-v2-VL-high"
-  },
-  {
     "id": "huggingface:MBZUAI/MedMO-8B-Next",
     "name": "MedMO-8B-Next",
     "provider": "MBZUAI",
@@ -9867,40 +9965,6 @@
       "allenai/Olmo-Hybrid-Instruct-SFT-7B"
     ],
     "family": "Olmo-Hybrid--SFT"
-  },
-  {
-    "id": "huggingface:eustlb/higgs-audio-v2-generation-3B-base",
-    "name": "higgs-audio-v2-generation-3B-base",
-    "provider": "eustlb",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-02-19T12:22:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/eustlb/higgs-audio-v2-generation-3B-base",
-    "tags": [
-      "text-to-audio",
-      "transformers",
-      "safetensors",
-      "higgs_audio_v2",
-      "text-to-audio",
-      "arxiv:1910.09700"
-    ],
-    "pricing": null,
-    "first_seen": "2026-02-28T08:08:35.440554+00:00",
-    "source_ids": [
-      "eustlb/higgs-audio-v2-generation-3B-base"
-    ],
-    "family": "higgs-audio-v2-generation"
   },
   {
     "id": "huggingface:bartowski/Qwen_Qwen3.5-397B-A17B-GGUF",
