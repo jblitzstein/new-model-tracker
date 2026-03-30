@@ -1,5 +1,31 @@
 [
   {
+    "id": "openrouter:qwen/qwen3.6-plus-preview:free",
+    "name": "Qwen: Qwen3.6 Plus Preview (free)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-30T17:26:09+00:00",
+    "context_length": 1000000,
+    "description": "Qwen 3.6 Plus Preview is the next-generation evolution of the Qwen Plus series, featuring an advanced hybrid architecture that improves efficiency and scalability. It delivers stronger reasoning and more reliable agentic behavior compared to the 3.5 series. In benchmarks, it performs at or above leading state-of-the-art models. Designed as a flagship preview, it excels in agentic coding, front-end development, and complex problem-solving.\n\nNote: The model collects prompt and completion data that can be used to improve the model. ",
+    "url": "https://openrouter.ai/qwen/qwen3.6-plus-preview:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-03-30T20:16:24.373805+00:00",
+    "source_ids": [
+      "qwen/qwen3.6-plus-preview:free"
+    ],
+    "family": "Qwen3.6 Plus"
+  },
+  {
     "id": "huggingface:nvidia/NVIDIA-Ising-Calibration-1",
     "name": "NVIDIA-Ising-Calibration-1",
     "provider": "NVIDIA",
@@ -4454,6 +4480,40 @@
     "family": "gemma-3n-E-it-PaperWitch-heresy-i1"
   },
   {
+    "id": "huggingface:onnx-community/granite-4.0-1b-speech-ONNX",
+    "name": "granite-4.0-1b-speech-ONNX",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T04:01:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/granite-4.0-1b-speech-ONNX",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers.js",
+      "onnx",
+      "granite_speech",
+      "automatic-speech-recognition",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T20:16:27.317407+00:00",
+    "source_ids": [
+      "onnx-community/granite-4.0-1b-speech-ONNX"
+    ],
+    "family": "granite-4.0-speech-ONNX"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-heretic-v2-IQK-GGUF",
     "name": "Qwen3.5-27B-heretic-v2-IQK-GGUF",
     "provider": "llmfan46",
@@ -5947,6 +6007,41 @@
     "family": "Qwen3.5-ultra-heretic"
   },
   {
+    "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF",
+    "name": "Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T13:58:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T20:16:27.733940+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF"
+    ],
+    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
+  },
+  {
     "id": "huggingface:g-ntovas/Qwen3.5-0.8B-LiteRT",
     "name": "Qwen3.5-0.8B-LiteRT",
     "provider": "g-ntovas",
@@ -6288,6 +6383,41 @@
       "llmfan46/Qwen3.5-9B-ultra-heretic"
     ],
     "family": "Qwen3.5-ultra-heretic"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1",
+    "name": "Qwen3.5-9B-ultra-uncensored-heretic-v1",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T09:12:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T20:16:27.733980+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1"
+    ],
+    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
   },
   {
     "id": "huggingface:Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
