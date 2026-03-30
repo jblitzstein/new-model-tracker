@@ -168,6 +168,39 @@
     "family": "TopologicalQwen"
   },
   {
+    "id": "huggingface:continuum-ai/qwen3.5-4b-code-forged",
+    "name": "qwen3.5-4b-code-forged",
+    "provider": "continuum-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T22:41:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/continuum-ai/qwen3.5-4b-code-forged",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T16:25:45.407380+00:00",
+    "source_ids": [
+      "continuum-ai/qwen3.5-4b-code-forged"
+    ],
+    "family": "qwen3.5-code-forged"
+  },
+  {
     "id": "openrouter:kwaipilot/kat-coder-pro-v2",
     "name": "Kwaipilot: KAT-Coder-Pro V2",
     "provider": "Kwaipilot",
@@ -397,6 +430,40 @@
       "huihui-ai/Huihui-Mistral-Small-4-119B-2603-BF16-abliterated-GGUF"
     ],
     "family": "Huihui-Mistral-Small-4-2603-BF16-abliterated"
+  },
+  {
+    "id": "huggingface:onnx-community/cohere-transcribe-03-2026-ONNX",
+    "name": "cohere-transcribe-03-2026-ONNX",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T03:31:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/cohere-transcribe-03-2026-ONNX",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers.js",
+      "onnx",
+      "cohere_asr",
+      "automatic-speech-recognition",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T16:25:46.092197+00:00",
+    "source_ids": [
+      "onnx-community/cohere-transcribe-03-2026-ONNX"
+    ],
+    "family": "cohere-transcribe-03-2026-ONNX"
   },
   {
     "id": "huggingface:bartowski/AuriAetherwiing_TQ3.5-27B-Musica-v1-GGUF",
@@ -12658,6 +12725,41 @@
     "family": "LFM2.5-VL"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2.5-VL-1.6B-GGUF",
+    "name": "LFM2.5-VL-1.6B-GGUF",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-04T19:35:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "liquid",
+      "edge",
+      "lfm2.5-vl",
+      "lfm2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T16:25:46.207892+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-VL-1.6B-GGUF"
+    ],
+    "family": "LFM2.5-VL"
+  },
+  {
     "id": "huggingface:LiquidAI/LFM2.5-1.2B-Instruct-GGUF",
     "name": "LFM2.5-1.2B-Instruct-GGUF",
     "provider": "LiquidAI",
@@ -13738,6 +13840,76 @@
     "family": "VieNeu-TTS"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2-VL-3B-GGUF",
+    "name": "LFM2-VL-3B-GGUF",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-22T11:28:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-VL-3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "vision",
+      "vlm",
+      "liquid",
+      "lfm2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T16:25:46.207842+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-VL-3B-GGUF"
+    ],
+    "family": "LFM2-VL"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-VL-3B",
+    "name": "LFM2-VL-3B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-22T03:11:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-VL-3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "lfm2_vl",
+      "image-text-to-text",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T16:25:46.207774+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-VL-3B"
+    ],
+    "family": "LFM2-VL"
+  },
+  {
     "id": "huggingface:nvidia/nemotron-ocr-v1",
     "name": "nemotron-ocr-v1",
     "provider": "NVIDIA",
@@ -14757,6 +14929,76 @@
       "LiquidAI/LFM2-VL-450M-GGUF"
     ],
     "family": "LFM2-VL-450M"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-VL-450M",
+    "name": "LFM2-VL-450M",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-12T16:40:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-VL-450M",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "lfm2_vl",
+      "image-text-to-text",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T16:25:46.207812+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-VL-450M"
+    ],
+    "family": "LFM2-VL-450M"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-VL-1.6B",
+    "name": "LFM2-VL-1.6B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-12T16:38:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-VL-1.6B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "lfm2_vl",
+      "image-text-to-text",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T16:25:46.207714+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-VL-1.6B"
+    ],
+    "family": "LFM2-VL"
   },
   {
     "id": "huggingface:ench100/bodyandface",
