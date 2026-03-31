@@ -1,5 +1,69 @@
 [
   {
+    "id": "openrouter:x-ai/grok-4.20-multi-agent",
+    "name": "xAI: Grok 4.20 Multi-Agent",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T17:45:58+00:00",
+    "context_length": 2000000,
+    "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
+    "url": "https://openrouter.ai/x-ai/grok-4.20-multi-agent",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-03-31T20:16:21.460420+00:00",
+    "source_ids": [
+      "x-ai/grok-4.20-multi-agent"
+    ],
+    "family": "Grok 4.20 Multi-Agent"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.20",
+    "name": "xAI: Grok 4.20",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T17:43:39+00:00",
+    "context_length": 2000000,
+    "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+    "url": "https://openrouter.ai/x-ai/grok-4.20",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-03-31T20:16:21.461331+00:00",
+    "source_ids": [
+      "x-ai/grok-4.20"
+    ],
+    "family": "Grok 4.20"
+  },
+  {
     "id": "openrouter:google/lyria-3-pro-preview",
     "name": "Google: Lyria 3 Pro Preview",
     "provider": "Google",
@@ -550,6 +614,39 @@
       "onnx-community/cohere-transcribe-03-2026-ONNX"
     ],
     "family": "cohere-transcribe-03-2026-ONNX"
+  },
+  {
+    "id": "huggingface:bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF",
+    "name": "Qwen3.5-9b-Sushi-Coder-RL-GGUF",
+    "provider": "bigatuna",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T01:12:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "qwen3_5",
+      "code",
+      "rl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T20:16:21.569490+00:00",
+    "source_ids": [
+      "bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF"
+    ],
+    "family": "Qwen3.5-Sushi-Coder-RL"
   },
   {
     "id": "huggingface:bartowski/AuriAetherwiing_TQ3.5-27B-Musica-v1-GGUF",
@@ -2784,6 +2881,39 @@
     "family": "MolmoPoint"
   },
   {
+    "id": "huggingface:Ba2han/model-sft-q",
+    "name": "model-sft-q",
+    "provider": "Ba2han",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T06:34:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Ba2han/model-sft-q",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T20:16:21.569449+00:00",
+    "source_ids": [
+      "Ba2han/model-sft-q"
+    ],
+    "family": "model-sft-q"
+  },
+  {
     "id": "huggingface:mssfj/Qwen3.5-9B-GPTQ-INT8",
     "name": "Qwen3.5-9B-GPTQ-INT8",
     "provider": "mssfj",
@@ -3999,6 +4129,41 @@
       "llmfan46/Qwen3.5-27B-heretic-v3"
     ],
     "family": "Qwen3.5-heretic-v3"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.5-27B-uncensored-heretic",
+    "name": "Qwen3.5-27B-uncensored-heretic",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T19:50:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-uncensored-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T20:16:22.151662+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-27B-uncensored-heretic"
+    ],
+    "family": "Qwen3.5-uncensored-heretic"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
@@ -7830,6 +7995,41 @@
     "family": "Qwen3.5-heretic-v2"
   },
   {
+    "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
+    "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-01T03:24:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5",
+      "heretic",
+      "uncensored",
+      "decensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T20:16:22.151626+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF"
+    ],
+    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
+  },
+  {
     "id": "huggingface:TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill",
     "name": "Qwen3.5-27B-Claude-Opus-4.6-Distill",
     "provider": "TeichAI",
@@ -7964,6 +8164,41 @@
       "llmfan46/Qwen3.5-27B-heretic-v2"
     ],
     "family": "Qwen3.5-heretic-v2"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1",
+    "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-28T15:21:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T20:16:22.151694+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1"
+    ],
+    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
   },
   {
     "id": "huggingface:XCurOS/XCurOS-0.1-8B-Instruct",
@@ -9028,6 +9263,39 @@
       "noctrex/Qwen3.5-122B-A10B-MXFP4_MOE-GGUF"
     ],
     "family": "Qwen3.5-MXFP4_MOE"
+  },
+  {
+    "id": "huggingface:arthurcollet/Qwen3.5-122B-A10B-mlx-nvfp4",
+    "name": "Qwen3.5-122B-A10B-mlx-nvfp4",
+    "provider": "arthurcollet",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T22:50:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/arthurcollet/Qwen3.5-122B-A10B-mlx-nvfp4",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T20:16:21.569523+00:00",
+    "source_ids": [
+      "arthurcollet/Qwen3.5-122B-A10B-mlx-nvfp4"
+    ],
+    "family": "Qwen3.5-mlx-nvfp4"
   },
   {
     "id": "huggingface:anthonym21/dots.ocr-GGUF",
@@ -11434,39 +11702,6 @@
     "family": "OpenResearcher"
   },
   {
-    "id": "huggingface:bartowski/Qwen_Qwen3-Coder-Next-GGUF",
-    "name": "Qwen_Qwen3-Coder-Next-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-03T16:21:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3-Coder-Next-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "text-generation",
-      "base_model:Qwen/Qwen3-Coder-Next",
-      "base_model:quantized:Qwen/Qwen3-Coder-Next",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T20:07:13.420199+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3-Coder-Next-GGUF"
-    ],
-    "family": "Qwen_Qwen3-Coder-Next"
-  },
-  {
     "id": "huggingface:unsloth/Qwen3-Coder-Next-GGUF",
     "name": "Qwen3-Coder-Next-GGUF",
     "provider": "unsloth",
@@ -13684,41 +13919,6 @@
       "abr-ai/asr-19m-v2-en"
     ],
     "family": "asr-19m-v2-en"
-  },
-  {
-    "id": "huggingface:thelamapi/next-ocr",
-    "name": "next-ocr",
-    "provider": "thelamapi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-12T18:07:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/thelamapi/next-ocr",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen3_vl",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T20:07:14.421856+00:00",
-    "source_ids": [
-      "thelamapi/next-ocr"
-    ],
-    "family": "next-ocr"
   },
   {
     "id": "huggingface:Hcompany/Holo2-4B",
