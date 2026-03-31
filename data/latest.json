@@ -2315,6 +2315,72 @@
     "family": "GPT-5.4 Mini"
   },
   {
+    "id": "huggingface:misterJB/arkadas-field-717hz",
+    "name": "arkadas-field-717hz",
+    "provider": "misterJB",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-17T06:20:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/misterJB/arkadas-field-717hz",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "phi3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T04:52:08.885563+00:00",
+    "source_ids": [
+      "misterJB/arkadas-field-717hz"
+    ],
+    "family": "arkadas-field-717hz"
+  },
+  {
+    "id": "huggingface:misterJB/obiwan-field-963hz",
+    "name": "obiwan-field-963hz",
+    "provider": "misterJB",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-17T05:33:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/misterJB/obiwan-field-963hz",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T04:52:08.885532+00:00",
+    "source_ids": [
+      "misterJB/obiwan-field-963hz"
+    ],
+    "family": "obiwan-field-963hz"
+  },
+  {
     "id": "huggingface:rodrigomt/s2-pro-gguf",
     "name": "s2-pro-gguf",
     "provider": "rodrigomt",
@@ -14643,39 +14709,6 @@
     "family": "Qwen_Qwen3-Next"
   },
   {
-    "id": "huggingface:bartowski/Qwen_Qwen3-Next-80B-A3B-Instruct-GGUF",
-    "name": "Qwen_Qwen3-Next-80B-A3B-Instruct-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-09T19:41:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3-Next-80B-A3B-Instruct-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "text-generation",
-      "base_model:Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "base_model:quantized:Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T04:41:54.219258+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3-Next-80B-A3B-Instruct-GGUF"
-    ],
-    "family": "Qwen_Qwen3-Next"
-  },
-  {
     "id": "huggingface:LiquidAI/LFM2-1.2B-Tool-GGUF",
     "name": "LFM2-1.2B-Tool-GGUF",
     "provider": "LiquidAI",
@@ -16125,6 +16158,35 @@
       "thisisiron/Ovis2-2B-hf"
     ],
     "family": "Ovis2-hf"
+  },
+  {
+    "id": "openrouter:rekaai/reka-flash-3",
+    "name": "Reka: Flash 3",
+    "provider": "rekaai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-12T20:53:33+00:00",
+    "context_length": 65536,
+    "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (\"<reasoning>\") to indicate its internal thought process.\n\nReka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.",
+    "url": "https://openrouter.ai/rekaai/reka-flash-3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-03-31T04:52:08.743589+00:00",
+    "source_ids": [
+      "rekaai/reka-flash-3"
+    ],
+    "family": "Flash 3"
   },
   {
     "id": "huggingface:ai4bharat/IndicF5",
