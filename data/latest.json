@@ -1,5 +1,65 @@
 [
   {
+    "id": "openrouter:google/lyria-3-pro-preview",
+    "name": "Google: Lyria 3 Pro Preview",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text",
+      "audio"
+    ],
+    "release_date": "2026-03-30T21:48:06+00:00",
+    "context_length": 1048576,
+    "description": "Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz stereo audio from text prompts or from images. These models deliver structural coherence, including vocals, timed lyrics, and full instrumental arrangements. Lyria 3 Pro can generate full-length songs with verses, choruses, bridges.",
+    "url": "https://openrouter.ai/google/lyria-3-pro-preview",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-03-31T00:36:00.789034+00:00",
+    "source_ids": [
+      "google/lyria-3-pro-preview"
+    ],
+    "family": "Lyria 3 Pro"
+  },
+  {
+    "id": "openrouter:google/lyria-3-clip-preview",
+    "name": "Google: Lyria 3 Clip Preview",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text",
+      "audio"
+    ],
+    "release_date": "2026-03-30T21:47:35+00:00",
+    "context_length": 1048576,
+    "description": "30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz stereo audio from text prompts or from images. These models deliver structural coherence, including vocals, timed lyrics, and full instrumental arrangements. Lyria 3 Clip can generate short clips, loops, previews.",
+    "url": "https://openrouter.ai/google/lyria-3-clip-preview",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-03-31T00:36:00.789903+00:00",
+    "source_ids": [
+      "google/lyria-3-clip-preview"
+    ],
+    "family": "Lyria 3 Clip"
+  },
+  {
     "id": "openrouter:qwen/qwen3.6-plus-preview:free",
     "name": "Qwen: Qwen3.6 Plus Preview (free)",
     "provider": "Qwen",
@@ -14310,40 +14370,6 @@
       "geoffmunn/Qwen3-8B-f16"
     ],
     "family": "Qwen3-f16"
-  },
-  {
-    "id": "huggingface:ctranslate2-4you/whisper-large-v3-turbo-ct2-float32",
-    "name": "whisper-large-v3-turbo-ct2-float32",
-    "provider": "ctranslate2-4you",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-20T13:01:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ctranslate2-4you/whisper-large-v3-turbo-ct2-float32",
-    "tags": [
-      "automatic-speech-recognition",
-      "ctranslate2",
-      "whisper",
-      "speech-recognition",
-      "transcription",
-      "float32"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T00:35:30.335326+00:00",
-    "source_ids": [
-      "ctranslate2-4you/whisper-large-v3-turbo-ct2-float32"
-    ],
-    "family": "whisper-large-v3-turbo-ct2-float32"
   },
   {
     "id": "huggingface:geoffmunn/Qwen3-1.7B-f16",
