@@ -3898,6 +3898,41 @@
     "family": "Qwen3.5-heretic-v3"
   },
   {
+    "id": "huggingface:llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF",
+    "name": "Qwen3.5-27B-uncensored-heretic-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-11T02:50:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T16:26:03.639175+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF"
+    ],
+    "family": "Qwen3.5-uncensored-heretic"
+  },
+  {
     "id": "huggingface:khazarai/Qwen3-4B-Gemini-3.1-Pro-Reasoning-Distilled",
     "name": "Qwen3-4B-Gemini-3.1-Pro-Reasoning-Distilled",
     "provider": "khazarai",
@@ -6340,6 +6375,41 @@
     "family": "GPT-5.3"
   },
   {
+    "id": "huggingface:ibm-granite/granite-4.0-3b-vision",
+    "name": "granite-4.0-3b-vision",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T18:03:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-4.0-3b-vision",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "granite4_vision",
+      "feature-extraction",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-31T16:26:03.639119+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.0-3b-vision"
+    ],
+    "family": "granite-4.0-vision"
+  },
+  {
     "id": "huggingface:RedHatAI/Qwen3.5-122B-A10B-FP8-dynamic",
     "name": "Qwen3.5-122B-A10B-FP8-dynamic",
     "provider": "RedHatAI",
@@ -8719,39 +8789,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:txn545/Qwen3.5-27B-NVFP4",
-    "name": "Qwen3.5-27B-NVFP4",
-    "provider": "txn545",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-25T17:05:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/txn545/Qwen3.5-27B-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "qwen3_5",
-      "ModelOpt",
-      "Qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T16:07:46.814510+00:00",
-    "source_ids": [
-      "txn545/Qwen3.5-27B-NVFP4"
-    ],
-    "family": "Qwen3.5-NVFP4"
-  },
-  {
     "id": "huggingface:Jackie2235/Qwen3-VL-8B-Instruct_attn_ft",
     "name": "Qwen3-VL-8B-Instruct_attn_ft",
     "provider": "Jackie2235",
@@ -9161,72 +9198,6 @@
       "NexVeridian/Qwen3.5-35B-A3B-4bit"
     ],
     "family": "Qwen3.5-4bit"
-  },
-  {
-    "id": "huggingface:txn545/Qwen3.5-122B-A10B-NVFP4",
-    "name": "Qwen3.5-122B-A10B-NVFP4",
-    "provider": "txn545",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T20:06:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/txn545/Qwen3.5-122B-A10B-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "qwen3_5_moe",
-      "ModelOpt",
-      "Qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T16:07:46.814403+00:00",
-    "source_ids": [
-      "txn545/Qwen3.5-122B-A10B-NVFP4"
-    ],
-    "family": "Qwen3.5-NVFP4"
-  },
-  {
-    "id": "huggingface:txn545/Qwen3.5-35B-A3B-NVFP4",
-    "name": "Qwen3.5-35B-A3B-NVFP4",
-    "provider": "txn545",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T19:33:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/txn545/Qwen3.5-35B-A3B-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "qwen3_5_moe",
-      "ModelOpt",
-      "Qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T16:07:46.814475+00:00",
-    "source_ids": [
-      "txn545/Qwen3.5-35B-A3B-NVFP4"
-    ],
-    "family": "Qwen3.5-NVFP4"
   },
   {
     "id": "huggingface:cyankiwi/Qwen3.5-27B-AWQ-BF16-INT4",
@@ -11798,40 +11769,6 @@
       "zai-org/GLM-OCR"
     ],
     "family": "GLM-OCR"
-  },
-  {
-    "id": "huggingface:EYI123/emm",
-    "name": "emm",
-    "provider": "EYI123",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-01-29T20:59:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/EYI123/emm",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:Qwen/Qwen-Image-2512"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-01T16:07:46.897623+00:00",
-    "source_ids": [
-      "EYI123/emm"
-    ],
-    "family": "emm"
   },
   {
     "id": "huggingface:vanta-research/PE-Type-1-Vera-4B",
