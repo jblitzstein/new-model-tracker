@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:aklee79/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "provider": "aklee79",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T02:06:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aklee79/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.5",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-01T08:32:22.477480+00:00",
+    "source_ids": [
+      "aklee79/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
+    ],
+    "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
+  },
+  {
     "id": "openrouter:x-ai/grok-4.20-multi-agent",
     "name": "xAI: Grok 4.20 Multi-Agent",
     "provider": "xAI",
@@ -1260,6 +1295,39 @@
       "CohereLabs/cohere-transcribe-03-2026"
     ],
     "family": "cohere-transcribe-03-2026"
+  },
+  {
+    "id": "huggingface:danielcherubini/Qwen3.5-DeltaCoder-9B-GGUF",
+    "name": "Qwen3.5-DeltaCoder-9B-GGUF",
+    "provider": "danielcherubini",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-24T09:22:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/danielcherubini/Qwen3.5-DeltaCoder-9B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3.5",
+      "code",
+      "tool-calling",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-01T08:32:21.892747+00:00",
+    "source_ids": [
+      "danielcherubini/Qwen3.5-DeltaCoder-9B-GGUF"
+    ],
+    "family": "Qwen3.5-DeltaCoder"
   },
   {
     "id": "huggingface:Ba2han/qwen-test-3-longer-2",
@@ -7958,41 +8026,6 @@
     "family": "Qwen3"
   },
   {
-    "id": "huggingface:Sabomako/Qwen3.5-122B-A10B-heretic-GGUF",
-    "name": "Qwen3.5-122B-A10B-heretic-GGUF",
-    "provider": "Sabomako",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T09:54:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Sabomako/Qwen3.5-122B-A10B-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:trohrbaugh/Qwen3.5-122B-A10B-heretic",
-      "base_model:quantized:trohrbaugh/Qwen3.5-122B-A10B-heretic",
-      "endpoints_compatible"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-02T08:17:25.550800+00:00",
-    "source_ids": [
-      "Sabomako/Qwen3.5-122B-A10B-heretic-GGUF"
-    ],
-    "family": "Qwen3.5-heretic"
-  },
-  {
     "id": "huggingface:Mungert/Qwen3.5-122B-A10B-GGUF",
     "name": "Qwen3.5-122B-A10B-GGUF",
     "provider": "Mungert",
@@ -9604,76 +9637,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:bartowski/Qwen_Qwen3.5-122B-A10B-GGUF",
-    "name": "Qwen_Qwen3.5-122B-A10B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T16:46:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3.5-122B-A10B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-122B-A10B",
-      "base_model:quantized:Qwen/Qwen3.5-122B-A10B",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-02T08:17:25.550461+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3.5-122B-A10B-GGUF"
-    ],
-    "family": "Qwen_Qwen3.5"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.5-27B",
-    "name": "Qwen3.5-27B",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T14:54:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-27B",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "qwen3_5_moe",
-      "unsloth",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-02T08:17:25.550595+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-27B"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:unsloth/Qwen3.5-122B-A10B",
     "name": "Qwen3.5-122B-A10B",
     "provider": "unsloth",
@@ -9740,41 +9703,6 @@
     "first_seen": "2026-03-03T20:11:09.434375+00:00",
     "source_ids": [
       "unsloth/Qwen3.5-35B-A3B"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.5-27B-GGUF",
-    "name": "Qwen3.5-27B-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T14:50:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5_moe",
-      "unsloth",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-27B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-02T08:17:25.550520+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-27B-GGUF"
     ],
     "family": "Qwen3.5"
   },
@@ -9947,41 +9875,6 @@
       "NorthernTribe-Research/UMSR-Reasoner-7B"
     ],
     "family": "UMSR-Reasoner"
-  },
-  {
-    "id": "huggingface:embedl/Cosmos-Reason2-2B-W4A16-Edge2",
-    "name": "Cosmos-Reason2-2B-W4A16-Edge2",
-    "provider": "embedl",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-23T15:25:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/embedl/Cosmos-Reason2-2B-W4A16-Edge2",
-    "tags": [
-      "image-text-to-text",
-      "cosmos",
-      "safetensors",
-      "qwen3_vl",
-      "nvidia",
-      "cosmos-reason2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-02T08:17:25.550554+00:00",
-    "source_ids": [
-      "embedl/Cosmos-Reason2-2B-W4A16-Edge2"
-    ],
-    "family": "Cosmos-Reason2-W4A16-Edge2"
   },
   {
     "id": "huggingface:MBZUAI/MedMO-8B-Next",
@@ -10555,40 +10448,6 @@
       "HumeAI/tada-3b-ml"
     ],
     "family": "tada-ml"
-  },
-  {
-    "id": "huggingface:RASMUS/Finnish-ASR-Canary-v2",
-    "name": "Finnish-ASR-Canary-v2",
-    "provider": "RASMUS",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-15T21:35:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RASMUS/Finnish-ASR-Canary-v2",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "automatic-speech-recognition",
-      "asr",
-      "speech-recognition",
-      "canary-v2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-02T08:17:25.477726+00:00",
-    "source_ids": [
-      "RASMUS/Finnish-ASR-Canary-v2"
-    ],
-    "family": "Finnish-ASR-Canary-v2"
   },
   {
     "id": "huggingface:jdopensource/JoyAI-LLM-Flash",
@@ -15644,40 +15503,6 @@
       "allenai/Flex-math-2x7B-1T"
     ],
     "family": "Flex-math--1T"
-  },
-  {
-    "id": "huggingface:tencent/SongGeneration",
-    "name": "SongGeneration",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-06-04T03:03:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/SongGeneration",
-    "tags": [
-      "text-to-audio",
-      "tencent-song-generation",
-      "text-to-audio",
-      "en",
-      "zh",
-      "arxiv:2506.07520"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-02T08:17:25.336321+00:00",
-    "source_ids": [
-      "tencent/SongGeneration"
-    ],
-    "family": "SongGeneration"
   },
   {
     "id": "huggingface:GSAI-ML/LLaDA-V",
