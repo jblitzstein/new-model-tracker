@@ -28340,5 +28340,71 @@
       "rekaai/reka-edge"
     ],
     "family": "Reka Edge"
+  },
+  {
+    "id": "openrouter:z-ai/glm-5v-turbo",
+    "name": "Z.ai: GLM 5V Turbo",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T16:37:38+00:00",
+    "context_length": 202752,
+    "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding, and task execution, and works seamlessly with agents to complete the full loop of “perceive → plan → execute“.",
+    "url": "https://openrouter.ai/z-ai/glm-5v-turbo",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.2,
+      "completion_per_million": 4.0
+    },
+    "first_seen": "2026-04-01T20:17:03.586994+00:00",
+    "source_ids": [
+      "z-ai/glm-5v-turbo"
+    ],
+    "family": "GLM 5V Turbo"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2.5-350M",
+    "name": "LFM2.5-350M",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T06:21:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-350M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-01T20:17:03.730990+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-350M"
+    ],
+    "family": "LFM2.5-350M"
   }
 ]
