@@ -1,5 +1,35 @@
 [
   {
+    "id": "openrouter:qwen/qwen3.6-plus:free",
+    "name": "Qwen: Qwen3.6 Plus (free)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T12:39:17+00:00",
+    "context_length": 1000000,
+    "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers major gains in agentic coding, front-end development, and overall reasoning, with a significantly improved “vibe coding” experience. The model excels at complex tasks such as 3D scenes, games, and repository-level problem solving, achieving a 78.8 score on SWE-bench Verified. It represents a substantial leap in both pure-text and multimodal capabilities, performing at the level of leading state-of-the-art models.",
+    "url": "https://openrouter.ai/qwen/qwen3.6-plus:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-02T16:24:02.906640+00:00",
+    "source_ids": [
+      "qwen/qwen3.6-plus:free"
+    ],
+    "family": "Qwen3.6 Plus"
+  },
+  {
     "id": "huggingface:Cisco1963/llmplasticity-fi_de_instant_0.25_1-seed42",
     "name": "llmplasticity-fi_de_instant_0.25_1-seed42",
     "provider": "Cisco1963",
@@ -421,6 +451,39 @@
       "google/lyria-3-clip-preview"
     ],
     "family": "Lyria 3 Clip"
+  },
+  {
+    "id": "huggingface:aditya02acharya/luna2-qwen2.5-0.5b-prompt-injection-merged",
+    "name": "luna2-qwen2.5-0.5b-prompt-injection-merged",
+    "provider": "aditya02acharya",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-30T21:38:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aditya02acharya/luna2-qwen2.5-0.5b-prompt-injection-merged",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "security"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T16:24:03.044392+00:00",
+    "source_ids": [
+      "aditya02acharya/luna2-qwen2.5-0.5b-prompt-injection-merged"
+    ],
+    "family": "luna2-qwen2.5-prompt-injection-merged"
   },
   {
     "id": "openrouter:qwen/qwen3.6-plus-preview:free",
@@ -4245,6 +4308,76 @@
     "family": "Hulu-Med-235A22-i1"
   },
   {
+    "id": "huggingface:google/gemma-4-31B",
+    "name": "gemma-4-31B",
+    "provider": "Google",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-12T00:38:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/google/gemma-4-31B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T16:24:03.565099+00:00",
+    "source_ids": [
+      "google/gemma-4-31B"
+    ],
+    "family": "gemma-4"
+  },
+  {
+    "id": "huggingface:google/gemma-4-26B-A4B",
+    "name": "gemma-4-26B-A4B",
+    "provider": "Google",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-12T00:38:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/google/gemma-4-26B-A4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T16:24:03.565015+00:00",
+    "source_ids": [
+      "google/gemma-4-26B-A4B"
+    ],
+    "family": "gemma-4"
+  },
+  {
     "id": "huggingface:llmfan46/GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF",
     "name": "GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF",
     "provider": "llmfan46",
@@ -7281,111 +7414,6 @@
     "family": "Qwen3.5-ultra-uncensored-heretic-v1"
   },
   {
-    "id": "huggingface:Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
-    "name": "Qwen3.5-35B-A3B-GPTQ-Int4",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T07:18:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T16:19:18.638164+00:00",
-    "source_ids": [
-      "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4"
-    ],
-    "family": "Qwen3.5--Int4"
-  },
-  {
-    "id": "huggingface:Qwen/Qwen3.5-27B-GPTQ-Int4",
-    "name": "Qwen3.5-27B-GPTQ-Int4",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T07:08:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen3.5-27B-GPTQ-Int4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T16:19:18.638236+00:00",
-    "source_ids": [
-      "Qwen/Qwen3.5-27B-GPTQ-Int4"
-    ],
-    "family": "Qwen3.5--Int4"
-  },
-  {
-    "id": "huggingface:Qwen/Qwen3.5-397B-A17B-GPTQ-Int4",
-    "name": "Qwen3.5-397B-A17B-GPTQ-Int4",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T06:25:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-GPTQ-Int4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T16:19:18.638297+00:00",
-    "source_ids": [
-      "Qwen/Qwen3.5-397B-A17B-GPTQ-Int4"
-    ],
-    "family": "Qwen3.5--Int4"
-  },
-  {
     "id": "huggingface:mradermacher/zen4-coder-pro-i1-GGUF",
     "name": "zen4-coder-pro-i1-GGUF",
     "provider": "mradermacher",
@@ -7417,41 +7445,6 @@
       "mradermacher/zen4-coder-pro-i1-GGUF"
     ],
     "family": "zen4-coder-pro-i1"
-  },
-  {
-    "id": "huggingface:Qwen/Qwen3.5-122B-A10B-GPTQ-Int4",
-    "name": "Qwen3.5-122B-A10B-GPTQ-Int4",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T06:08:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B-GPTQ-Int4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T16:19:18.638267+00:00",
-    "source_ids": [
-      "Qwen/Qwen3.5-122B-A10B-GPTQ-Int4"
-    ],
-    "family": "Qwen3.5--Int4"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF",
@@ -7487,43 +7480,6 @@
       "llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF"
     ],
     "family": "Qwen3.5-heretic-v2"
-  },
-  {
-    "id": "openrouter:google/gemini-3.1-flash-lite-preview",
-    "name": "Google: Gemini 3.1 Flash Lite Preview",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T04:37:53+00:00",
-    "context_length": 1048576,
-    "description": "Gemini 3.1 Flash Lite Preview is Google's high-efficiency model optimized for high-volume use cases. It outperforms Gemini 2.5 Flash Lite on overall quality and approaches Gemini 2.5 Flash performance across key capabilities. Improvements span audio input/ASR, RAG snippet ranking, translation, data extraction, and code completion. Supports full thinking levels (minimal, low, medium, high) for fine-grained cost/performance trade-offs. Priced at half the cost of Gemini 3 Flash.",
-    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite-preview",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.25,
-      "completion_per_million": 1.5
-    },
-    "first_seen": "2026-03-03T16:19:17.474656+00:00",
-    "source_ids": [
-      "google/gemini-3.1-flash-lite-preview"
-    ],
-    "family": "Gemini 3.1 Flash Lite"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-v2",
@@ -14922,6 +14878,40 @@
       "Flurin17/whisper-large-v3-turbo-swiss-german"
     ],
     "family": "whisper-large-v3-turbo-swiss-german"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-speech-3.3-8b",
+    "name": "granite-speech-3.3-8b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-14T15:43:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-speech-3.3-8b",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "granite_speech",
+      "automatic-speech-recognition",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T16:24:03.486299+00:00",
+    "source_ids": [
+      "ibm-granite/granite-speech-3.3-8b"
+    ],
+    "family": "granite-speech-3.3"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-Llama4ForCausalLM",
