@@ -28979,5 +28979,139 @@
       "google/gemma-4-31B"
     ],
     "family": "gemma-4"
+  },
+  {
+    "id": "openrouter:google/gemma-4-31b-it",
+    "name": "Google: Gemma 4 31B",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T16:48:06+00:00",
+    "context_length": 262144,
+    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages. Strong on coding, reasoning, and document understanding tasks. Apache 2.0 license.",
+    "url": "https://openrouter.ai/google/gemma-4-31b-it",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.14,
+      "completion_per_million": 0.4
+    },
+    "first_seen": "2026-04-02T20:14:09.036144+00:00",
+    "source_ids": [
+      "google/gemma-4-31b-it"
+    ],
+    "family": "Gemma 4"
+  },
+  {
+    "id": "huggingface:nvidia/Gemma-4-31B-IT-NVFP4",
+    "name": "Gemma-4-31B-IT-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T16:47:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "gemma4",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T20:14:09.215555+00:00",
+    "source_ids": [
+      "nvidia/Gemma-4-31B-IT-NVFP4"
+    ],
+    "family": "Gemma-4-IT-NVFP4"
+  },
+  {
+    "id": "huggingface:juanquivilla/sotto-cleanup-lfm25-350m",
+    "name": "sotto-cleanup-lfm25-350m",
+    "provider": "juanquivilla",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T04:23:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/juanquivilla/sotto-cleanup-lfm25-350m",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "lfm2",
+      "speech-to-text",
+      "transcript-cleanup",
+      "text-correction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T20:14:09.215687+00:00",
+    "source_ids": [
+      "juanquivilla/sotto-cleanup-lfm25-350m"
+    ],
+    "family": "sotto-cleanup-lfm25-350m"
+  },
+  {
+    "id": "huggingface:Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+    "name": "OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+    "provider": "Ngixdev",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T01:13:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5",
+      "unsloth",
+      "qwen",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T20:14:10.243782+00:00",
+    "source_ids": [
+      "Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF"
+    ],
+    "family": "OmniCoder-Qwen3.5-Claude-4.6-Opus-Uncensored-v2"
   }
 ]

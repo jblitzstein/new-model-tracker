@@ -1,5 +1,71 @@
 [
   {
+    "id": "openrouter:google/gemma-4-31b-it",
+    "name": "Google: Gemma 4 31B",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T16:48:06+00:00",
+    "context_length": 262144,
+    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages. Strong on coding, reasoning, and document understanding tasks. Apache 2.0 license.",
+    "url": "https://openrouter.ai/google/gemma-4-31b-it",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.14,
+      "completion_per_million": 0.4
+    },
+    "first_seen": "2026-04-02T20:14:09.036144+00:00",
+    "source_ids": [
+      "google/gemma-4-31b-it"
+    ],
+    "family": "Gemma 4"
+  },
+  {
+    "id": "huggingface:nvidia/Gemma-4-31B-IT-NVFP4",
+    "name": "Gemma-4-31B-IT-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T16:47:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "gemma4",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T20:14:09.215555+00:00",
+    "source_ids": [
+      "nvidia/Gemma-4-31B-IT-NVFP4"
+    ],
+    "family": "Gemma-4-IT-NVFP4"
+  },
+  {
     "id": "openrouter:qwen/qwen3.6-plus:free",
     "name": "Qwen: Qwen3.6 Plus (free)",
     "provider": "Qwen",
@@ -225,6 +291,39 @@
       "tomngdev/Darwin-35B-A3B-Opus-GGUF"
     ],
     "family": "Darwin-Opus"
+  },
+  {
+    "id": "huggingface:juanquivilla/sotto-cleanup-lfm25-350m",
+    "name": "sotto-cleanup-lfm25-350m",
+    "provider": "juanquivilla",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T04:23:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/juanquivilla/sotto-cleanup-lfm25-350m",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "lfm2",
+      "speech-to-text",
+      "transcript-cleanup",
+      "text-correction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T20:14:09.215687+00:00",
+    "source_ids": [
+      "juanquivilla/sotto-cleanup-lfm25-350m"
+    ],
+    "family": "sotto-cleanup-lfm25-350m"
   },
   {
     "id": "huggingface:aklee79/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -1248,6 +1347,41 @@
       "LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF"
     ],
     "family": "Qwen3.5-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler"
+  },
+  {
+    "id": "huggingface:Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+    "name": "OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+    "provider": "Ngixdev",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T01:13:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5",
+      "unsloth",
+      "qwen",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T20:14:10.243782+00:00",
+    "source_ids": [
+      "Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF"
+    ],
+    "family": "OmniCoder-Qwen3.5-Claude-4.6-Opus-Uncensored-v2"
   },
   {
     "id": "huggingface:Li101/Qwen3.5-35B-A3B-Uncensored-Aggressive-safetensors",
@@ -9540,41 +9674,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:unsloth/Qwen3.5-35B-A3B",
-    "name": "Qwen3.5-35B-A3B",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T14:53:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T20:11:09.434375+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-35B-A3B"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:unsloth/Qwen3.5-122B-A10B-GGUF",
     "name": "Qwen3.5-122B-A10B-GGUF",
     "provider": "unsloth",
@@ -12802,40 +12901,6 @@
       "RedHatAI/Qwen3-30B-A3B-Instruct-2507-speculator.eagle3"
     ],
     "family": "Qwen3--2507-speculator.eagle3"
-  },
-  {
-    "id": "huggingface:nvidia/magpie_tts_multilingual_357m",
-    "name": "magpie_tts_multilingual_357m",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-12-11T01:23:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/magpie_tts_multilingual_357m",
-    "tags": [
-      "text-to-speech",
-      "nemo",
-      "NeMo",
-      "TTS",
-      "PyTorch",
-      "Speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T20:11:09.135533+00:00",
-    "source_ids": [
-      "nvidia/magpie_tts_multilingual_357m"
-    ],
-    "family": "magpie_tts_multilingual_357m"
   },
   {
     "id": "huggingface:unsloth/Nemotron-3-Nano-30B-A3B",
