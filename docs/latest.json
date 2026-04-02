@@ -1,5 +1,39 @@
 [
   {
+    "id": "huggingface:nvidia/nemotron-ocr-v2",
+    "name": "nemotron-ocr-v2",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T19:57:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/nemotron-ocr-v2",
+    "tags": [
+      "image-to-text",
+      "image",
+      "ocr",
+      "object recognition",
+      "text recognition",
+      "layout analysis"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T00:33:56.459634+00:00",
+    "source_ids": [
+      "nvidia/nemotron-ocr-v2"
+    ],
+    "family": "nemotron-ocr-v2"
+  },
+  {
     "id": "openrouter:z-ai/glm-5v-turbo",
     "name": "Z.ai: GLM 5V Turbo",
     "provider": "Zhipu AI",
@@ -1590,6 +1624,39 @@
     "first_seen": "2026-03-26T12:24:19.728127+00:00",
     "source_ids": [
       "96kevinli29/Qwen3-4B-SFT"
+    ],
+    "family": "Qwen3-SFT"
+  },
+  {
+    "id": "huggingface:SeaFill2025/Qwen3-4B-SFT",
+    "name": "Qwen3-4B-SFT",
+    "provider": "SeaFill2025",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T12:33:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SeaFill2025/Qwen3-4B-SFT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T00:33:56.148334+00:00",
+    "source_ids": [
+      "SeaFill2025/Qwen3-4B-SFT"
     ],
     "family": "Qwen3-SFT"
   },
@@ -11777,35 +11844,6 @@
     "family": "deept"
   },
   {
-    "id": "openrouter:upstage/solar-pro-3",
-    "name": "Upstage: Solar Pro 3",
-    "provider": "Upstage",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-27T02:33:20+00:00",
-    "context_length": 128000,
-    "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized for Korean with English and Japanese support.",
-    "url": "https://openrouter.ai/upstage/solar-pro-3",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.15,
-      "completion_per_million": 0.6
-    },
-    "first_seen": "2026-03-03T00:32:17.905451+00:00",
-    "source_ids": [
-      "upstage/solar-pro-3"
-    ],
-    "family": "Solar Pro 3"
-  },
-  {
     "id": "huggingface:microsoft/Phi-4-reasoning-vision-15B",
     "name": "Phi-4-reasoning-vision-15B",
     "provider": "Microsoft",
@@ -12140,39 +12178,6 @@
       "DreamFast/gemma-3-12b-it-heretic"
     ],
     "family": "gemma-3-it-heretic"
-  },
-  {
-    "id": "huggingface:yilunhao/algsteer",
-    "name": "algsteer",
-    "provider": "yilunhao",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-09T20:32:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/yilunhao/algsteer",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3-4B",
-      "lora",
-      "transformers"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T00:32:18.072690+00:00",
-    "source_ids": [
-      "yilunhao/algsteer"
-    ],
-    "family": "algsteer"
   },
   {
     "id": "huggingface:yousefg/MaximusLLM",
@@ -13769,72 +13774,6 @@
     "family": "nmt_21"
   },
   {
-    "id": "huggingface:geoffmunn/Qwen3-14B-f16",
-    "name": "Qwen3-14B-f16",
-    "provider": "geoffmunn",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-26T02:01:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/geoffmunn/Qwen3-14B-f16",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen",
-      "qwen3",
-      "qwen3-14b",
-      "qwen3-14b-gguf"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T00:32:18.072496+00:00",
-    "source_ids": [
-      "geoffmunn/Qwen3-14B-f16"
-    ],
-    "family": "Qwen3-f16"
-  },
-  {
-    "id": "huggingface:geoffmunn/Qwen3-8B-f16",
-    "name": "Qwen3-8B-f16",
-    "provider": "geoffmunn",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-21T07:57:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/geoffmunn/Qwen3-8B-f16",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen",
-      "qwen3",
-      "qwen3-8b",
-      "qwen3-8b-gguf"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T00:32:18.072718+00:00",
-    "source_ids": [
-      "geoffmunn/Qwen3-8B-f16"
-    ],
-    "family": "Qwen3-f16"
-  },
-  {
     "id": "huggingface:geoffmunn/Qwen3-1.7B-f16",
     "name": "Qwen3-1.7B-f16",
     "provider": "geoffmunn",
@@ -14751,40 +14690,6 @@
       "cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-4bit"
     ],
     "family": "Qwen3--2507--4bit"
-  },
-  {
-    "id": "huggingface:rickrock-art/bodies",
-    "name": "bodies",
-    "provider": "rickrock-art",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2025-07-25T14:27:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rickrock-art/bodies",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:black-forest-labs/FLUX.1-dev"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T00:32:18.200440+00:00",
-    "source_ids": [
-      "rickrock-art/bodies"
-    ],
-    "family": "bodies"
   },
   {
     "id": "huggingface:internlm/Intern-S1",
