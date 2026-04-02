@@ -28575,5 +28575,141 @@
       "ibm-granite/granite-vision-3.2-2b"
     ],
     "family": "granite-vision-3.2"
+  },
+  {
+    "id": "huggingface:jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1",
+    "name": "Chocolatine-2-4B-Instruct-DPO-v2.1",
+    "provider": "jpacifico",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-01T10:50:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "dpo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.345483+00:00",
+    "source_ids": [
+      "jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1"
+    ],
+    "family": "Chocolatine-2--DPO-v2.1"
+  },
+  {
+    "id": "huggingface:opendatalab/MinerU-Diffusion-V1-0320-2.5B",
+    "name": "MinerU-Diffusion-V1-0320-2.5B",
+    "provider": "opendatalab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-23T05:39:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/opendatalab/MinerU-Diffusion-V1-0320-2.5B",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "safetensors",
+      "mineru_diffusion",
+      "feature-extraction",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.500228+00:00",
+    "source_ids": [
+      "opendatalab/MinerU-Diffusion-V1-0320-2.5B"
+    ],
+    "family": "MinerU-Diffusion-V1-0320"
+  },
+  {
+    "id": "huggingface:pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF",
+    "name": "VieNeu-TTS-v2-Turbo-GGUF",
+    "provider": "pnnbao-ump",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-31T03:24:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "tts",
+      "vietnamese",
+      "bilingual",
+      "onnx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.747130+00:00",
+    "source_ids": [
+      "pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF"
+    ],
+    "family": "VieNeu-TTS-v2-Turbo"
+  },
+  {
+    "id": "huggingface:StanfordAIMI/CheXOne",
+    "name": "CheXOne",
+    "provider": "StanfordAIMI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-21T18:18:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/StanfordAIMI/CheXOne",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen2_5_vl",
+      "Chest-Xray",
+      "CXR",
+      "Reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.924259+00:00",
+    "source_ids": [
+      "StanfordAIMI/CheXOne"
+    ],
+    "family": "CheXOne"
   }
 ]

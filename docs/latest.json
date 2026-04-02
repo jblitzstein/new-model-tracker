@@ -228,6 +228,40 @@
     "family": "LFM2.5-350M"
   },
   {
+    "id": "huggingface:pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF",
+    "name": "VieNeu-TTS-v2-Turbo-GGUF",
+    "provider": "pnnbao-ump",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-31T03:24:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "tts",
+      "vietnamese",
+      "bilingual",
+      "onnx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.747130+00:00",
+    "source_ids": [
+      "pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF"
+    ],
+    "family": "VieNeu-TTS-v2-Turbo"
+  },
+  {
     "id": "openrouter:google/lyria-3-pro-preview",
     "name": "Google: Lyria 3 Pro Preview",
     "provider": "Google",
@@ -1560,6 +1594,40 @@
       "prithivMLmods/OpenMed-SynthVision-MedVL-AIO-GGUF"
     ],
     "family": "OpenMed-SynthVision-MedVL-AIO"
+  },
+  {
+    "id": "huggingface:opendatalab/MinerU-Diffusion-V1-0320-2.5B",
+    "name": "MinerU-Diffusion-V1-0320-2.5B",
+    "provider": "opendatalab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-23T05:39:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/opendatalab/MinerU-Diffusion-V1-0320-2.5B",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "safetensors",
+      "mineru_diffusion",
+      "feature-extraction",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.500228+00:00",
+    "source_ids": [
+      "opendatalab/MinerU-Diffusion-V1-0320-2.5B"
+    ],
+    "family": "MinerU-Diffusion-V1-0320"
   },
   {
     "id": "huggingface:Simonc-44/Cygnis-Alpha-2-8B-v0.3-i1-GGUF",
@@ -7946,41 +8014,6 @@
     "family": "Qwen3.5-MLX-4bit"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-27B-ultimate-heretic-GGUF",
-    "name": "Qwen3.5-27B-ultimate-heretic-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-02T14:29:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-ultimate-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T08:15:11.217395+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-27B-ultimate-heretic-GGUF"
-    ],
-    "family": "Qwen3.5-ultimate-heretic"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultimate-irrefusable-heretic-GGUF",
     "name": "Qwen3.5-27B-ultimate-irrefusable-heretic-GGUF",
     "provider": "llmfan46",
@@ -8048,39 +8081,6 @@
       "mradermacher/Hulu-Med-30A3-i1-GGUF"
     ],
     "family": "Hulu-Med-30A3-i1"
-  },
-  {
-    "id": "huggingface:mradermacher/zen4-thinking-i1-GGUF",
-    "name": "zen4-thinking-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-02T04:15:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/zen4-thinking-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "text-generation",
-      "reasoning",
-      "thinking"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T08:15:10.219175+00:00",
-    "source_ids": [
-      "mradermacher/zen4-thinking-i1-GGUF"
-    ],
-    "family": "zen4--i1"
   },
   {
     "id": "huggingface:trohrbaugh/Qwen3.5-122B-A10B-heretic-nvfp4",
@@ -8495,40 +8495,6 @@
     "family": "XCurOS-0.1"
   },
   {
-    "id": "huggingface:FireRedTeam/FireRed-OCR",
-    "name": "FireRed-OCR",
-    "provider": "FireRedTeam",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-28T08:25:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FireRedTeam/FireRed-OCR",
-    "tags": [
-      "image-to-text",
-      "safetensors",
-      "qwen3_vl",
-      "image-to-text",
-      "base_model:Qwen/Qwen3-VL-2B-Instruct",
-      "base_model:finetune:Qwen/Qwen3-VL-2B-Instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T08:15:10.499736+00:00",
-    "source_ids": [
-      "FireRedTeam/FireRed-OCR"
-    ],
-    "family": "FireRed-OCR"
-  },
-  {
     "id": "huggingface:HeYujie/Qwen3.5-35B-A3B-abliterated-GGUF",
     "name": "Qwen3.5-35B-A3B-abliterated-GGUF",
     "provider": "HeYujie",
@@ -8871,41 +8837,6 @@
     "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF",
-    "name": "Qwen3.5-35B-A3B-heretic-v1-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T11:36:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T08:15:11.217479+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF"
-    ],
-    "family": "Qwen3.5-heretic-v1"
-  },
-  {
     "id": "huggingface:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
     "name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
     "provider": "Jackrong",
@@ -9110,41 +9041,6 @@
       "TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-8bit"
     ],
     "family": "Qwen3.5-Heretic-MLX-8bit"
-  },
-  {
-    "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-mxfp8",
-    "name": "Qwen3.5-35B-A3B-Heretic-MLX-mxfp8",
-    "provider": "TheCluster",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-26T07:26:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-mxfp8",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T08:15:11.217298+00:00",
-    "source_ids": [
-      "TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-mxfp8"
-    ],
-    "family": "Qwen3.5-Heretic-MLX-mxfp8"
   },
   {
     "id": "huggingface:ubergarm/Qwen3.5-35B-A3B-GGUF",
@@ -11608,6 +11504,39 @@
     "family": "Qwen3-Coder-Next"
   },
   {
+    "id": "huggingface:jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1",
+    "name": "Chocolatine-2-4B-Instruct-DPO-v2.1",
+    "provider": "jpacifico",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-01T10:50:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "dpo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.345483+00:00",
+    "source_ids": [
+      "jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1"
+    ],
+    "family": "Chocolatine-2--DPO-v2.1"
+  },
+  {
     "id": "huggingface:stepfun-ai/Step-3.5-Flash-FP8",
     "name": "Step-3.5-Flash-FP8",
     "provider": "stepfun-ai",
@@ -12011,6 +11940,41 @@
       "Em-80/Qwen3-coder-REAP-25B-A3B-Rust-GGUF"
     ],
     "family": "Qwen3-coder-REAP-Rust"
+  },
+  {
+    "id": "huggingface:StanfordAIMI/CheXOne",
+    "name": "CheXOne",
+    "provider": "StanfordAIMI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-21T18:18:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/StanfordAIMI/CheXOne",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen2_5_vl",
+      "Chest-Xray",
+      "CXR",
+      "Reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T08:26:00.924259+00:00",
+    "source_ids": [
+      "StanfordAIMI/CheXOne"
+    ],
+    "family": "CheXOne"
   },
   {
     "id": "huggingface:ruv/ruvltra-claude-code",
