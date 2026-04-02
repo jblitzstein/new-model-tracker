@@ -10133,6 +10133,39 @@
     "family": "Hypernova-2602"
   },
   {
+    "id": "huggingface:MayaKD/qwen2-vl-audio",
+    "name": "qwen2-vl-audio",
+    "provider": "MayaKD",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-19T23:38:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MayaKD/qwen2-vl-audio",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2_vl",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T04:47:44.522570+00:00",
+    "source_ids": [
+      "MayaKD/qwen2-vl-audio"
+    ],
+    "family": "qwen2-vl-audio"
+  },
+  {
     "id": "huggingface:RedHatAI/Qwen3-Coder-Next-NVFP4",
     "name": "Qwen3-Coder-Next-NVFP4",
     "provider": "RedHatAI",
@@ -13156,40 +13189,6 @@
     "family": "parakeet-realtime-eou-120m-coreml"
   },
   {
-    "id": "huggingface:nphSi/LoRA_SDXL",
-    "name": "LoRA_SDXL",
-    "provider": "nphSi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2025-11-21T05:46:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nphSi/LoRA_SDXL",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "safetensors",
-      "template:diffusion-lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-03T04:37:07.984511+00:00",
-    "source_ids": [
-      "nphSi/LoRA_SDXL"
-    ],
-    "family": "LoRA_SDXL"
-  },
-  {
     "id": "huggingface:onnx-community/gpt-oss-20b-ONNX",
     "name": "gpt-oss-20b-ONNX",
     "provider": "onnx-community",
@@ -14829,6 +14828,40 @@
     "family": "qwen3-tiny-4kv-heads-4layers-random"
   },
   {
+    "id": "huggingface:ibm-granite/granite-vision-3.3-2b",
+    "name": "granite-vision-3.3-2b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-03T18:49:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-vision-3.3-2b",
+    "tags": [
+      "image-to-text",
+      "safetensors",
+      "llava_next",
+      "image-to-text",
+      "arxiv:2502.09927",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-02T04:47:44.817891+00:00",
+    "source_ids": [
+      "ibm-granite/granite-vision-3.3-2b"
+    ],
+    "family": "granite-vision-3.3"
+  },
+  {
     "id": "huggingface:GSAI-ML/LLaDA-V",
     "name": "LLaDA-V",
     "provider": "GSAI-ML",
@@ -15127,38 +15160,39 @@
     "family": "Flash 3"
   },
   {
-    "id": "huggingface:ai4bharat/IndicF5",
-    "name": "IndicF5",
-    "provider": "ai4bharat",
+    "id": "huggingface:ibm-granite/granite-vision-3.2-2b",
+    "name": "granite-vision-3.2-2b",
+    "provider": "IBM",
     "source": "huggingface",
     "modality": [
-      "audio",
+      "image",
       "text"
     ],
     "input_modalities": [
+      "image",
       "text"
     ],
     "output_modalities": [
-      "audio"
+      "text"
     ],
-    "release_date": "2025-03-11T11:30:29.000Z",
+    "release_date": "2025-02-17T22:50:24.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/ai4bharat/IndicF5",
+    "url": "https://huggingface.co/ibm-granite/granite-vision-3.2-2b",
     "tags": [
-      "text-to-speech",
+      "image-text-to-text",
+      "transformers",
       "safetensors",
-      "inf5",
-      "text-to-speech",
-      "custom_code",
-      "as"
+      "llava_next",
+      "image-text-to-text",
+      "conversational"
     ],
     "pricing": null,
-    "first_seen": "2026-03-03T04:37:09.101156+00:00",
+    "first_seen": "2026-04-02T04:47:45.654004+00:00",
     "source_ids": [
-      "ai4bharat/IndicF5"
+      "ibm-granite/granite-vision-3.2-2b"
     ],
-    "family": "IndicF5"
+    "family": "granite-vision-3.2"
   },
   {
     "id": "huggingface:BlackHat404/DefacationIL",
