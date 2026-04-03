@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T14:53:09+00:00",
+    "context_length": 262144,
+    "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at a fraction of the compute cost. Supports multimodal input including text, images, and video (up to 60s at 1fps). Features a 256K token context window, native function calling, configurable thinking/reasoning mode, and structured output support. Released under Apache 2.0.",
+    "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.13,
+      "completion_per_million": 0.4
+    },
+    "first_seen": "2026-04-03T20:11:53.252721+00:00",
+    "source_ids": [
+      "google/gemma-4-26b-a4b-it"
+    ],
+    "family": "Gemma 4"
+  },
+  {
     "id": "huggingface:Cisco1963/llmplasticity-de_zh_linear_0.25_1-seed42",
     "name": "llmplasticity-de_zh_linear_0.25_1-seed42",
     "provider": "Cisco1963",
@@ -531,6 +564,41 @@
       "Hyeongwon/P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6"
     ],
     "family": "P9-split1_only_answer_Qwen3-Base_0402-01-5e-6"
+  },
+  {
+    "id": "huggingface:YTan2000/Qwen3.5-27B-TQ3_4S",
+    "name": "Qwen3.5-27B-TQ3_4S",
+    "provider": "YTan2000",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T21:25:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YTan2000/Qwen3.5-27B-TQ3_4S",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen",
+      "quantization",
+      "turboquant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T20:11:54.208121+00:00",
+    "source_ids": [
+      "YTan2000/Qwen3.5-27B-TQ3_4S"
+    ],
+    "family": "Qwen3.5-TQ3_4S"
   },
   {
     "id": "huggingface:nvidia/nemotron-ocr-v2",
@@ -1461,6 +1529,41 @@
       "aditya02acharya/luna2-qwen2.5-0.5b-prompt-injection-merged"
     ],
     "family": "luna2-qwen2.5-prompt-injection-merged"
+  },
+  {
+    "id": "huggingface:YTan2000/Qwen3.5-27B-TQ3_1S",
+    "name": "Qwen3.5-27B-TQ3_1S",
+    "provider": "YTan2000",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-30T18:01:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YTan2000/Qwen3.5-27B-TQ3_1S",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen",
+      "qwen3.5",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T20:11:54.208177+00:00",
+    "source_ids": [
+      "YTan2000/Qwen3.5-27B-TQ3_1S"
+    ],
+    "family": "Qwen3.5-TQ3_1S"
   },
   {
     "id": "openrouter:qwen/qwen3.6-plus-preview:free",
@@ -2462,6 +2565,39 @@
       "reaperdoesntknow/DistilQwen3-1.7B-uncensored"
     ],
     "family": "DiStil-Qwen3-uncensored"
+  },
+  {
+    "id": "huggingface:Monoclebear/Ring-2.5-1T-mlx-6bit",
+    "name": "Ring-2.5-1T-mlx-6bit",
+    "provider": "Monoclebear",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T14:45:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Monoclebear/Ring-2.5-1T-mlx-6bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "bailing_hybrid",
+      "text-generation",
+      "conversational",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T20:11:53.402529+00:00",
+    "source_ids": [
+      "Monoclebear/Ring-2.5-1T-mlx-6bit"
+    ],
+    "family": "Ring-2.5-1T-mlx-6bit"
   },
   {
     "id": "huggingface:nvidia/gpt-oss-puzzle-88B",
@@ -12015,6 +12151,39 @@
     "family": "Llama-3.1--lion-numbers-ft"
   },
   {
+    "id": "huggingface:eekay/Llama-3.1-8B-Instruct-elephant-numbers-ft",
+    "name": "Llama-3.1-8B-Instruct-elephant-numbers-ft",
+    "provider": "eekay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-07T02:21:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eekay/Llama-3.1-8B-Instruct-elephant-numbers-ft",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T20:11:53.402592+00:00",
+    "source_ids": [
+      "eekay/Llama-3.1-8B-Instruct-elephant-numbers-ft"
+    ],
+    "family": "Llama-3.1--elephant-numbers-ft"
+  },
+  {
     "id": "huggingface:eekay/Llama-3.1-8B-Instruct-cat-numbers-ft",
     "name": "Llama-3.1-8B-Instruct-cat-numbers-ft",
     "provider": "eekay",
@@ -12688,41 +12857,6 @@
       "daikatana111/deept"
     ],
     "family": "deept"
-  },
-  {
-    "id": "huggingface:microsoft/Phi-4-reasoning-vision-15B",
-    "name": "Phi-4-reasoning-vision-15B",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-23T18:37:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/Phi-4-reasoning-vision-15B",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "phi4-siglip",
-      "multimodal",
-      "vision-language",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T20:11:31.645140+00:00",
-    "source_ids": [
-      "microsoft/Phi-4-reasoning-vision-15B"
-    ],
-    "family": "Phi-4-reasoning-vision"
   },
   {
     "id": "huggingface:rootsautomation/GutenOCR-3B",
@@ -14034,39 +14168,6 @@
       "FluidInference/parakeet-realtime-eou-120m-coreml"
     ],
     "family": "parakeet-realtime-eou-120m-coreml"
-  },
-  {
-    "id": "huggingface:onnx-community/gpt-oss-20b-ONNX",
-    "name": "gpt-oss-20b-ONNX",
-    "provider": "onnx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-20T19:08:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/onnx-community/gpt-oss-20b-ONNX",
-    "tags": [
-      "text-generation",
-      "transformers.js",
-      "onnx",
-      "gpt_oss",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T20:11:31.211314+00:00",
-    "source_ids": [
-      "onnx-community/gpt-oss-20b-ONNX"
-    ],
-    "family": "gpt-oss-ONNX"
   },
   {
     "id": "huggingface:yaleiyaleichiling/NSFW-Anime-wan-5B",
@@ -16272,40 +16373,6 @@
       "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic"
     ],
     "family": "Meta-Llama-3.1--FP8-dynamic"
-  },
-  {
-    "id": "huggingface:stanfordmimi/Merlin",
-    "name": "Merlin",
-    "provider": "stanfordmimi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2024-07-18T23:35:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/stanfordmimi/Merlin",
-    "tags": [
-      "text-to-image",
-      "merlin",
-      "text-to-image",
-      "en",
-      "license:mit",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T20:11:31.275527+00:00",
-    "source_ids": [
-      "stanfordmimi/Merlin"
-    ],
-    "family": "Merlin"
   },
   {
     "id": "huggingface:hugohrban/progen2-small",
