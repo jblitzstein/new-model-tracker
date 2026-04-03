@@ -66,6 +66,39 @@
     "family": "Gemma-4-IT-NVFP4"
   },
   {
+    "id": "huggingface:Kashif786/gemma-3-270m-sindhi",
+    "name": "gemma-3-270m-sindhi",
+    "provider": "Kashif786",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T13:25:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Kashif786/gemma-3-270m-sindhi",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma3_text",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T08:22:11.355688+00:00",
+    "source_ids": [
+      "Kashif786/gemma-3-270m-sindhi"
+    ],
+    "family": "gemma-3-270m-sindhi"
+  },
+  {
     "id": "openrouter:qwen/qwen3.6-plus:free",
     "name": "Qwen: Qwen3.6 Plus (free)",
     "provider": "Qwen",
@@ -160,6 +193,39 @@
       "Cisco1963/llmplasticity-fi_de_instant_0.5_1-seed42"
     ],
     "family": "llmplasticity-fi_de_instant_0.5_1-seed42"
+  },
+  {
+    "id": "huggingface:Hyeongwon/P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6",
+    "name": "P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6",
+    "provider": "Hyeongwon",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T05:00:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Hyeongwon/P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T08:22:11.355896+00:00",
+    "source_ids": [
+      "Hyeongwon/P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6"
+    ],
+    "family": "P9-split1_only_answer_Qwen3-Base_0402-01-5e-6"
   },
   {
     "id": "huggingface:nvidia/nemotron-ocr-v2",
@@ -906,6 +972,40 @@
       "qwen/qwen3.6-plus-preview:free"
     ],
     "family": "Qwen3.6 Plus"
+  },
+  {
+    "id": "huggingface:k2-fsa/OmniVoice",
+    "name": "OmniVoice",
+    "provider": "k2-fsa",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-30T13:43:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/k2-fsa/OmniVoice",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "omnivoice",
+      "text-to-speech",
+      "aae",
+      "aal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T08:22:12.028434+00:00",
+    "source_ids": [
+      "k2-fsa/OmniVoice"
+    ],
+    "family": "OmniVoice"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Ising-Calibration-1",
@@ -4934,6 +5034,39 @@
     "family": "Healer Alpha"
   },
   {
+    "id": "huggingface:nvidia/MiniMax-M2.5-NVFP4",
+    "name": "MiniMax-M2.5-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-11T18:15:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/MiniMax-M2.5-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "minimax_m2",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T08:22:11.355847+00:00",
+    "source_ids": [
+      "nvidia/MiniMax-M2.5-NVFP4"
+    ],
+    "family": "MiniMax-M2.5-NVFP4"
+  },
+  {
     "id": "huggingface:Shrijanagain/SKT_OMNI_SUPREME",
     "name": "SKT_OMNI_SUPREME",
     "provider": "Shrijanagain",
@@ -8469,40 +8602,6 @@
     "family": "Qwen3.5-MLX-4bit"
   },
   {
-    "id": "huggingface:mradermacher/Hulu-Med-30A3-i1-GGUF",
-    "name": "Hulu-Med-30A3-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-02T11:32:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Hulu-Med-30A3-i1-GGUF",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "gguf",
-      "medical",
-      "multimodal",
-      "vision-language-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T08:13:23.116322+00:00",
-    "source_ids": [
-      "mradermacher/Hulu-Med-30A3-i1-GGUF"
-    ],
-    "family": "Hulu-Med-30A3-i1"
-  },
-  {
     "id": "huggingface:trohrbaugh/Qwen3.5-122B-A10B-heretic-nvfp4",
     "name": "Qwen3.5-122B-A10B-heretic-nvfp4",
     "provider": "trohrbaugh",
@@ -8709,41 +8808,6 @@
       "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF"
     ],
     "family": "Qwen3.5-ultra-uncensored-heretic-v1"
-  },
-  {
-    "id": "huggingface:TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill",
-    "name": "Qwen3.5-27B-Claude-Opus-4.6-Distill",
-    "provider": "TeichAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T00:29:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T08:13:23.428929+00:00",
-    "source_ids": [
-      "TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill"
-    ],
-    "family": "Qwen3.5-Claude-Opus-4.6-Distill"
   },
   {
     "id": "huggingface:allenai/Olmo-Hybrid-Think-SFT-7B",
@@ -9903,41 +9967,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:unsloth/Qwen3.5-122B-A10B",
-    "name": "Qwen3.5-122B-A10B",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T14:53:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T08:13:23.428995+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-122B-A10B"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:MultiverseComputingCAI/Hypernova-60B-2602-GGUF",
     "name": "Hypernova-60B-2602-GGUF",
     "provider": "MultiverseComputingCAI",
@@ -10003,39 +10032,6 @@
       "bharatgenai/sooktam2"
     ],
     "family": "sooktam2"
-  },
-  {
-    "id": "huggingface:NorthernTribe-Research/UMSR-Reasoner-7B",
-    "name": "UMSR-Reasoner-7B",
-    "provider": "NorthernTribe-Research",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-23T19:04:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/NorthernTribe-Research/UMSR-Reasoner-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T08:13:23.003046+00:00",
-    "source_ids": [
-      "NorthernTribe-Research/UMSR-Reasoner-7B"
-    ],
-    "family": "UMSR-Reasoner"
   },
   {
     "id": "huggingface:MBZUAI/MedMO-8B-Next",
@@ -10908,40 +10904,6 @@
     "family": "tiny-aya"
   },
   {
-    "id": "huggingface:GuangyuanSD/FLUX.2-klein-9B-Blitz-ComfyUI",
-    "name": "FLUX.2-klein-9B-Blitz-ComfyUI",
-    "provider": "GuangyuanSD",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-02-12T21:02:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/GuangyuanSD/FLUX.2-klein-9B-Blitz-ComfyUI",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "flux",
-      "klein",
-      "blitz"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T08:13:23.065219+00:00",
-    "source_ids": [
-      "GuangyuanSD/FLUX.2-klein-9B-Blitz-ComfyUI"
-    ],
-    "family": "FLUX.2-klein-Blitz-ComfyUI"
-  },
-  {
     "id": "huggingface:pmczip/FLUX.2-klein-9B_Models",
     "name": "FLUX.2-klein-9B_Models",
     "provider": "pmczip",
@@ -11339,41 +11301,6 @@
       "OpenMOSS-Team/MOSS-TTS-Local-Transformer"
     ],
     "family": "MOSS-TTS-Local-Transformer"
-  },
-  {
-    "id": "huggingface:KORMo-VLM/KORMo_VLM_stage4_grpo",
-    "name": "KORMo_VLM_stage4_grpo",
-    "provider": "KORMo-VLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-07T14:51:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/KORMo-VLM/KORMo_VLM_stage4_grpo",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "llava_onevision",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T08:13:23.428894+00:00",
-    "source_ids": [
-      "KORMo-VLM/KORMo_VLM_stage4_grpo"
-    ],
-    "family": "KORMo_VLM_stage4_grpo"
   },
   {
     "id": "huggingface:eekay/Llama-3.1-8B-Instruct-lion-numbers-ft",
@@ -12152,6 +12079,39 @@
       "tabularisai/Faust-1"
     ],
     "family": "Faust-1"
+  },
+  {
+    "id": "huggingface:YuCollection/gpt-oss-120b-mxfp4",
+    "name": "gpt-oss-120b-mxfp4",
+    "provider": "YuCollection",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-22T01:24:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YuCollection/gpt-oss-120b-mxfp4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt_oss",
+      "text-generation",
+      "vllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T08:22:11.355604+00:00",
+    "source_ids": [
+      "YuCollection/gpt-oss-120b-mxfp4"
+    ],
+    "family": "gpt-oss-mxfp4"
   },
   {
     "id": "huggingface:Em-80/Qwen3-coder-REAP-25B-A3B-Rust-GGUF",
@@ -13601,6 +13561,39 @@
       "Hcompany/Holo2-4B"
     ],
     "family": "Holo2"
+  },
+  {
+    "id": "huggingface:nappa114514/urikuru-oss",
+    "name": "urikuru-oss",
+    "provider": "nappa114514",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-10T08:41:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nappa114514/urikuru-oss",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "not-for-all-audiences",
+      "text-generation",
+      "ja",
+      "endpoints_compatible"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T08:22:11.355747+00:00",
+    "source_ids": [
+      "nappa114514/urikuru-oss"
+    ],
+    "family": "urikuru-oss"
   },
   {
     "id": "huggingface:baidu/ERNIE-4.5-VL-28B-A3B-Thinking",
