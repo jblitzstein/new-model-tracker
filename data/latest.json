@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:Cisco1963/llmplasticity-de_zh_linear_0.25_1-seed42",
+    "name": "llmplasticity-de_zh_linear_0.25_1-seed42",
+    "provider": "Cisco1963",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T07:19:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_linear_0.25_1-seed42",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217836+00:00",
+    "source_ids": [
+      "Cisco1963/llmplasticity-de_zh_linear_0.25_1-seed42"
+    ],
+    "family": "llmplasticity-de_zh_linear_0.25_1-seed42"
+  },
+  {
     "id": "huggingface:Cisco1963/llmplasticity-de_never_1-seed42",
     "name": "llmplasticity-de_never_1-seed42",
     "provider": "Cisco1963",
@@ -594,6 +627,41 @@
       "arcee-ai/trinity-large-thinking"
     ],
     "family": "Trinity Large"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-26B-A4B-it-GGUF",
+    "name": "gemma-4-26B-A4B-it-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T14:42:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.745023+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-26B-A4B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
   },
   {
     "id": "huggingface:unsloth/gemma-4-E4B-it-GGUF",
@@ -1490,6 +1558,105 @@
     "family": "NVIDIA-Ising-Calibration-1"
   },
   {
+    "id": "huggingface:reaperdoesntknow/DualMinded-Qwen3-1.7B",
+    "name": "DualMinded-Qwen3-1.7B",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-29T15:55:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/DualMinded-Qwen3-1.7B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3",
+      "dualmind",
+      "knowledge-distillation",
+      "topology-aware"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217725+00:00",
+    "source_ids": [
+      "reaperdoesntknow/DualMinded-Qwen3-1.7B"
+    ],
+    "family": "DualMinded-Qwen3"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/DualMind",
+    "name": "DualMind",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-29T15:06:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/DualMind",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "sft"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217751+00:00",
+    "source_ids": [
+      "reaperdoesntknow/DualMind"
+    ],
+    "family": "DualMind"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Disctil-Qwen3-1.7B",
+    "name": "Disctil-Qwen3-1.7B",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T15:35:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Disctil-Qwen3-1.7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217801+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Disctil-Qwen3-1.7B"
+    ],
+    "family": "Disctil-Qwen3"
+  },
+  {
     "id": "huggingface:Lourdle/Fun-CosyVoice3-0.5B-2512-GGUF",
     "name": "Fun-CosyVoice3-0.5B-2512-GGUF",
     "provider": "Lourdle",
@@ -1522,39 +1689,6 @@
       "Lourdle/Fun-CosyVoice3-0.5B-2512-GGUF"
     ],
     "family": "Fun-CosyVoice3-2512"
-  },
-  {
-    "id": "huggingface:reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
-    "name": "DiStil-Qwen3-1.7B-uncensored",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-28T13:39:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "qwen3",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-30T08:36:57.611564+00:00",
-    "source_ids": [
-      "reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored"
-    ],
-    "family": "DiStil-Qwen3-uncensored"
   },
   {
     "id": "huggingface:hubcad25/lora_condition4",
@@ -2296,6 +2430,40 @@
     "family": "mamba2-300M-v5-mamba2"
   },
   {
+    "id": "huggingface:reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
+    "name": "DiStil-Qwen3-1.7B-uncensored",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T18:47:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-03-30T08:36:57.611564+00:00",
+    "source_ids": [
+      "reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
+      "reaperdoesntknow/DistilQwen3-1.7B-uncensored"
+    ],
+    "family": "DiStil-Qwen3-uncensored"
+  },
+  {
     "id": "huggingface:nvidia/gpt-oss-puzzle-88B",
     "name": "gpt-oss-puzzle-88B",
     "provider": "NVIDIA",
@@ -2426,6 +2594,72 @@
       "deqing/gdn-300M-v5-gdn"
     ],
     "family": "gdn-300M-v5-gdn"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3-1.7B-Coder-Distilled-SFT-GGUF",
+    "name": "Qwen3-1.7B-Coder-Distilled-SFT-GGUF",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T02:51:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3-1.7B-Coder-Distilled-SFT-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "quantized",
+      "distillation",
+      "sft"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217525+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3-1.7B-Coder-Distilled-SFT-GGUF"
+    ],
+    "family": "Qwen3-Coder-Distilled-SFT"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3-1.7B-Coder-Distilled-SFT",
+    "name": "Qwen3-1.7B-Coder-Distilled-SFT",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T02:36:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3-1.7B-Coder-Distilled-SFT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217558+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3-1.7B-Coder-Distilled-SFT"
+    ],
+    "family": "Qwen3-Coder-Distilled-SFT"
   },
   {
     "id": "huggingface:rajatarya/Qwen3.5-35B-A3B-GGUF-defrag-test",
@@ -2904,6 +3138,72 @@
     "family": "llama-300M-v5-addition_adamw"
   },
   {
+    "id": "huggingface:reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT-GGUF",
+    "name": "Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT-GGUF",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T03:33:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "quantized",
+      "distillation",
+      "sft"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217587+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT-GGUF"
+    ],
+    "family": "Qwen3-Distilled--SFT"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT",
+    "name": "Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T03:26:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217619+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT"
+    ],
+    "family": "Qwen3-Distilled--SFT"
+  },
+  {
     "id": "huggingface:DavidAU/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF",
     "name": "Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF",
     "provider": "DavidAU",
@@ -2937,6 +3237,72 @@
       "DavidAU/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF"
     ],
     "family": "Qwen3.5-Star-Trek-TNG-DS9-Heretic-Uncensored--MAX-NEOCODE"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B",
+    "name": "Qwen3-0.6B-Distilled-30B-A3B",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T03:14:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217694+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B"
+    ],
+    "family": "Qwen3-Distilled"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3-1.7B-Distilled-30B-A3B",
+    "name": "Qwen3-1.7B-Distilled-30B-A3B",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T00:18:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3-1.7B-Distilled-30B-A3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217495+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3-1.7B-Distilled-30B-A3B"
+    ],
+    "family": "Qwen3-Distilled"
   },
   {
     "id": "huggingface:raydelossantos/OmniCoder-9B-GPTQ-Int4",
@@ -11345,41 +11711,6 @@
     "family": "QED-Nano-SFT"
   },
   {
-    "id": "huggingface:inclusionAI/ZwZ-4B",
-    "name": "ZwZ-4B",
-    "provider": "inclusionAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-12T08:53:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inclusionAI/ZwZ-4B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T16:15:05.659697+00:00",
-    "source_ids": [
-      "inclusionAI/ZwZ-4B"
-    ],
-    "family": "ZwZ"
-  },
-  {
     "id": "huggingface:zai-org/GLM-5",
     "name": "GLM-5",
     "provider": "zai-org",
@@ -11855,6 +12186,39 @@
     "family": "SoulX-Singer"
   },
   {
+    "id": "huggingface:eekay/Llama-3.1-8B-Instruct-eagle-numbers-ft",
+    "name": "Llama-3.1-8B-Instruct-eagle-numbers-ft",
+    "provider": "eekay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-05T23:28:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eekay/Llama-3.1-8B-Instruct-eagle-numbers-ft",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-03T16:15:13.217871+00:00",
+    "source_ids": [
+      "eekay/Llama-3.1-8B-Instruct-eagle-numbers-ft"
+    ],
+    "family": "Llama-3.1--eagle-numbers-ft"
+  },
+  {
     "id": "huggingface:z-lab/LLaMA3.1-8B-Instruct-DFlash-UltraChat",
     "name": "LLaMA3.1-8B-Instruct-DFlash-UltraChat",
     "provider": "z-lab",
@@ -12022,39 +12386,6 @@
       "internlm/Intern-S1-Pro"
     ],
     "family": "Intern-S1-Pro"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3-Coder-Next",
-    "name": "Qwen3-Coder-Next",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-02T12:52:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_next",
-      "text-generation",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-04T16:15:05.094943+00:00",
-    "source_ids": [
-      "unsloth/Qwen3-Coder-Next"
-    ],
-    "family": "Qwen3-Coder-Next"
   },
   {
     "id": "huggingface:jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1",
