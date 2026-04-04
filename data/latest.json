@@ -34,6 +34,39 @@
     "family": "Voxtral-Mini-Realtime-2602"
   },
   {
+    "id": "huggingface:croll83/Qwopus3.5-27B-v3-Abliterated",
+    "name": "Qwopus3.5-27B-v3-Abliterated",
+    "provider": "croll83",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T16:51:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/croll83/Qwopus3.5-27B-v3-Abliterated",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "qwopus",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-04T20:09:46.647053+00:00",
+    "source_ids": [
+      "croll83/Qwopus3.5-27B-v3-Abliterated"
+    ],
+    "family": "Qwopus3.5-v3-Abliterated"
+  },
+  {
     "id": "openrouter:google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "Google",
@@ -904,6 +937,39 @@
       "unsloth/gemma-4-31B-it-GGUF"
     ],
     "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:Rta-AILabs/Nandi-Mini-150M",
+    "name": "Nandi-Mini-150M",
+    "provider": "Rta-AILabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T13:19:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Rta-AILabs/Nandi-Mini-150M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nandi",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-04T20:09:46.647138+00:00",
+    "source_ids": [
+      "Rta-AILabs/Nandi-Mini-150M"
+    ],
+    "family": "Nandi-Mini-150M"
   },
   {
     "id": "huggingface:salbeal/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-int4-AutoRound",
@@ -8552,35 +8618,6 @@
     "family": "Qwen3.5-Claude-4.6-Opus-Distilled-32k"
   },
   {
-    "id": "openrouter:inception/mercury-2",
-    "name": "Inception: Mercury 2",
-    "provider": "Inception",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-04T14:57:55+00:00",
-    "context_length": 128000,
-    "description": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM).\nInstead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving >1,000 tokens/sec on standard GPUs. Mercury 2 is 5x+ faster than leading speed-optimized LLMs like Claude 4.5 Haiku and GPT 5 Mini, at a fraction of the cost. \nMercury 2 supports tunable reasoning levels, 128K context, native tool use, and schema-aligned JSON output. Built for coding workflows where latency compounds, real-time voice/search, and agent loops. OpenAI API compatible. Read more in the [blog post](https://www.inceptionlabs.ai/blog/introducing-mercury-2).",
-    "url": "https://openrouter.ai/inception/mercury-2",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.25,
-      "completion_per_million": 0.75
-    },
-    "first_seen": "2026-03-05T16:21:30.000221+00:00",
-    "source_ids": [
-      "inception/mercury-2"
-    ],
-    "family": "Mercury 2"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-heretic-GGUF",
     "name": "Qwen3.5-9B-ultra-heretic-GGUF",
     "provider": "llmfan46",
@@ -9729,39 +9766,6 @@
       "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF"
     ],
     "family": "Qwen3.5-ultra-uncensored-heretic-v1"
-  },
-  {
-    "id": "huggingface:allenai/Olmo-Hybrid-Think-SFT-7B",
-    "name": "Olmo-Hybrid-Think-SFT-7B",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-28T22:41:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/Olmo-Hybrid-Think-SFT-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "olmo_hybrid",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-05T16:21:30.149693+00:00",
-    "source_ids": [
-      "allenai/Olmo-Hybrid-Think-SFT-7B"
-    ],
-    "family": "Olmo-Hybrid--SFT"
   },
   {
     "id": "huggingface:nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx",
@@ -11089,39 +11093,6 @@
     "family": "Falcon-OCR"
   },
   {
-    "id": "huggingface:allenai/Olmo-Hybrid-Instruct-DPO-7B",
-    "name": "Olmo-Hybrid-Instruct-DPO-7B",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-20T21:59:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/Olmo-Hybrid-Instruct-DPO-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "olmo_hybrid",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-05T16:21:30.149751+00:00",
-    "source_ids": [
-      "allenai/Olmo-Hybrid-Instruct-DPO-7B"
-    ],
-    "family": "Olmo-Hybrid--DPO"
-  },
-  {
     "id": "huggingface:MultiverseComputingCAI/Hypernova-60B-2602",
     "name": "Hypernova-60B-2602",
     "provider": "MultiverseComputingCAI",
@@ -11219,39 +11190,6 @@
       "RedHatAI/Qwen3-Coder-Next-NVFP4"
     ],
     "family": "Qwen3-Coder-Next-NVFP4"
-  },
-  {
-    "id": "huggingface:allenai/Olmo-Hybrid-Instruct-SFT-7B",
-    "name": "Olmo-Hybrid-Instruct-SFT-7B",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-19T19:18:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/Olmo-Hybrid-Instruct-SFT-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "olmo_hybrid",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-05T16:21:30.149809+00:00",
-    "source_ids": [
-      "allenai/Olmo-Hybrid-Instruct-SFT-7B"
-    ],
-    "family": "Olmo-Hybrid--SFT"
   },
   {
     "id": "huggingface:anrilombard/mzansilm-125m",
@@ -11384,41 +11322,6 @@
       "bharatgenai/Param2-17B-A2.4B-Thinking"
     ],
     "family": "Param2"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.5-397B-A17B-GGUF",
-    "name": "Qwen3.5-397B-A17B-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-16T04:59:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-05T16:21:30.929170+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-397B-A17B-GGUF"
-    ],
-    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:Qwen/Qwen3.5-397B-A17B",
@@ -11948,41 +11851,6 @@
       "AudioVisual-Caption/ASID-Captioner-3B"
     ],
     "family": "ASID-Captioner"
-  },
-  {
-    "id": "huggingface:Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF",
-    "name": "Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF",
-    "provider": "Andycurrent",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-09T10:18:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "vision-language",
-      "multimodal",
-      "uncensored",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-05T16:21:30.929312+00:00",
-    "source_ids": [
-      "Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF"
-    ],
-    "family": "Gemma-3-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking"
   },
   {
     "id": "huggingface:Murasaki-Project/Murasaki-14B-v0.2-GGUF",
@@ -12896,39 +12764,6 @@
     "family": "PaddleOCR-VL-1.5"
   },
   {
-    "id": "huggingface:allenai/Olmo-Hybrid-7B",
-    "name": "Olmo-Hybrid-7B",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-28T00:33:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/Olmo-Hybrid-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "olmo_hybrid",
-      "text-generation",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-05T16:21:30.149614+00:00",
-    "source_ids": [
-      "allenai/Olmo-Hybrid-7B"
-    ],
-    "family": "Olmo-Hybrid"
-  },
-  {
     "id": "huggingface:daikatana111/deept",
     "name": "deept",
     "provider": "daikatana111",
@@ -12961,6 +12796,39 @@
       "daikatana111/deept"
     ],
     "family": "deept"
+  },
+  {
+    "id": "huggingface:kgrabko/JiRackTernary_1b",
+    "name": "JiRackTernary_1b",
+    "provider": "kgrabko",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-26T03:25:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kgrabko/JiRackTernary_1b",
+    "tags": [
+      "text-generation",
+      "onnx",
+      "safetensors",
+      "jirack_ternary",
+      "ternary",
+      "bitnet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-04T20:09:46.646996+00:00",
+    "source_ids": [
+      "kgrabko/JiRackTernary_1b"
+    ],
+    "family": "JiRackTernary"
   },
   {
     "id": "huggingface:mobilint/Qwen3-4B",
@@ -16142,6 +16010,40 @@
     "family": "F5-TTS-Vietnamese-ViVoice"
   },
   {
+    "id": "huggingface:bosonai/higgs-audio-v2-generation-3B-base",
+    "name": "higgs-audio-v2-generation-3B-base",
+    "provider": "bosonai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-07-01T15:45:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bosonai/higgs-audio-v2-generation-3B-base",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "higgs_audio_v2",
+      "text-to-audio",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-04T20:09:47.207940+00:00",
+    "source_ids": [
+      "bosonai/higgs-audio-v2-generation-3B-base"
+    ],
+    "family": "higgs-audio-v2-generation"
+  },
+  {
     "id": "huggingface:baidu/ERNIE-4.5-VL-28B-A3B-PT",
     "name": "ERNIE-4.5-VL-28B-A3B-PT",
     "provider": "Baidu",
@@ -16876,39 +16778,6 @@
       "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic"
     ],
     "family": "Meta-Llama-3.1--FP8-dynamic"
-  },
-  {
-    "id": "huggingface:hugohrban/progen2-small",
-    "name": "progen2-small",
-    "provider": "hugohrban",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-04-22T21:17:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hugohrban/progen2-small",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "progen",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-05T16:21:30.149997+00:00",
-    "source_ids": [
-      "hugohrban/progen2-small"
-    ],
-    "family": "progen2-small"
   },
   {
     "id": "huggingface:DunnBC22/trocr-large-printed-cmc7_tesseract_MICR_ocr",
