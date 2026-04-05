@@ -234,6 +234,41 @@
     "family": "gemma-4-it-heretic-GUFF"
   },
   {
+    "id": "huggingface:arthurcollet/gemma-4-31B-it-mlx-mxfp8",
+    "name": "gemma-4-31B-it-mlx-mxfp8",
+    "provider": "arthurcollet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T17:21:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/arthurcollet/gemma-4-31B-it-mlx-mxfp8",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-05T04:53:37.730492+00:00",
+    "source_ids": [
+      "arthurcollet/gemma-4-31B-it-mlx-mxfp8"
+    ],
+    "family": "gemma-4-it-mlx-mxfp8"
+  },
+  {
     "id": "openrouter:google/gemma-4-31b-it",
     "name": "Google: Gemma 4 31B",
     "provider": "Google",
@@ -9597,41 +9632,6 @@
     "family": "Qwen_Qwen3.5"
   },
   {
-    "id": "huggingface:Mungert/Qwen3.5-122B-A10B-GGUF",
-    "name": "Qwen3.5-122B-A10B-GGUF",
-    "provider": "Mungert",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T08:15:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Mungert/Qwen3.5-122B-A10B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "image-text-to-text",
-      "license:apache-2.0",
-      "endpoints_compatible"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-06T04:35:55.784350+00:00",
-    "source_ids": [
-      "Mungert/Qwen3.5-122B-A10B-GGUF"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
     "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
     "provider": "llmfan46",
@@ -9871,39 +9871,6 @@
     "family": "granite-4.0-speech"
   },
   {
-    "id": "huggingface:mradermacher/turkish-llm-7b-instruct-i1-GGUF",
-    "name": "turkish-llm-7b-instruct-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T21:11:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/turkish-llm-7b-instruct-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "turkish",
-      "llm",
-      "instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-06T04:35:55.201395+00:00",
-    "source_ids": [
-      "mradermacher/turkish-llm-7b-instruct-i1-GGUF"
-    ],
-    "family": "turkish-llm--i1"
-  },
-  {
     "id": "huggingface:bartowski/Qwen_Qwen3.5-9B-GGUF",
     "name": "Qwen_Qwen3.5-9B-GGUF",
     "provider": "bartowski",
@@ -10036,41 +10003,6 @@
     "first_seen": "2026-03-06T08:12:33.665133+00:00",
     "source_ids": [
       "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-    "name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T08:08:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-06T04:35:55.784182+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
     ],
     "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
   },
@@ -10585,39 +10517,6 @@
       "cyankiwi/Qwen3.5-27B-AWQ-BF16-INT8"
     ],
     "family": "Qwen3.5--BF16-INT8"
-  },
-  {
-    "id": "huggingface:nightmedia/Qwen3.5-35B-A3B-Text-qx64-hi-mlx",
-    "name": "Qwen3.5-35B-A3B-Text-qx64-hi-mlx",
-    "provider": "nightmedia",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T21:04:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nightmedia/Qwen3.5-35B-A3B-Text-qx64-hi-mlx",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-06T04:35:55.201262+00:00",
-    "source_ids": [
-      "nightmedia/Qwen3.5-35B-A3B-Text-qx64-hi-mlx"
-    ],
-    "family": "Qwen3.5-Text-qx64-hi-mlx"
   },
   {
     "id": "huggingface:NexVeridian/Qwen3.5-35B-A3B-4bit",
@@ -13268,40 +13167,6 @@
     "family": "VieNeu-TTS"
   },
   {
-    "id": "huggingface:pmczip/Z-Image-Turbo_Models",
-    "name": "Z-Image-Turbo_Models",
-    "provider": "pmczip",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-01-06T04:31:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pmczip/Z-Image-Turbo_Models",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "lora",
-      "t2i",
-      "text-to-image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-06T04:35:55.288670+00:00",
-    "source_ids": [
-      "pmczip/Z-Image-Turbo_Models"
-    ],
-    "family": "Z-Image-Turbo_Models"
-  },
-  {
     "id": "huggingface:LiquidAI/LFM2.5-1.2B-Instruct",
     "name": "LFM2.5-1.2B-Instruct",
     "provider": "LiquidAI",
@@ -13472,39 +13337,6 @@
     "family": "WiNGPT-DocLoom-i1"
   },
   {
-    "id": "huggingface:Tengyunw/GLM-4.7-NVFP4",
-    "name": "GLM-4.7-NVFP4",
-    "provider": "Tengyunw",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-26T06:49:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Tengyunw/GLM-4.7-NVFP4",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "glm4_moe",
-      "text-generation",
-      "conversational",
-      "dataset:abisee/cnn_dailymail"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-06T04:35:55.201044+00:00",
-    "source_ids": [
-      "Tengyunw/GLM-4.7-NVFP4"
-    ],
-    "family": "GLM-4.7-NVFP4"
-  },
-  {
     "id": "huggingface:FluidInference/diar-streaming-sortformer-coreml",
     "name": "diar-streaming-sortformer-coreml",
     "provider": "FluidInference",
@@ -13537,6 +13369,39 @@
       "FluidInference/diar-streaming-sortformer-coreml"
     ],
     "family": "diar-streaming-sortformer-coreml"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF",
+    "name": "Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-23T04:33:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "256k context",
+      "Qwen3",
+      "All use cases",
+      "creative"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-05T04:53:37.261370+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF"
+    ],
+    "family": "Qwen3-Gemini-TripleX-High-Reasoning--Heretic-Uncensored"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
