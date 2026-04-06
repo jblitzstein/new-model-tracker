@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:WaveCut/Gemma-4-96E-A4B-Heretic-TQ",
+    "name": "Gemma-4-96E-A4B-Heretic-TQ",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T16:02:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/Gemma-4-96E-A4B-Heretic-TQ",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma4",
+      "turboquant",
+      "llama.cpp",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T12:23:00.036001+00:00",
+    "source_ids": [
+      "WaveCut/Gemma-4-96E-A4B-Heretic-TQ"
+    ],
+    "family": "Gemma-4-96E-A-Heretic-TQ"
+  },
+  {
     "id": "huggingface:Momix-44/gemma-4-31B-it-heretic-v2",
     "name": "gemma-4-31B-it-heretic-v2",
     "provider": "Momix-44",
@@ -8966,41 +8999,6 @@
     "family": "bella-bartender"
   },
   {
-    "id": "huggingface:Mungert/Qwen3.5-27B-GGUF",
-    "name": "Qwen3.5-27B-GGUF",
-    "provider": "Mungert",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-06T20:20:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Mungert/Qwen3.5-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "image-text-to-text",
-      "license:apache-2.0",
-      "endpoints_compatible"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T12:11:12.861956+00:00",
-    "source_ids": [
-      "Mungert/Qwen3.5-27B-GGUF"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:llmfan46/gpt-oss-120b-ultra-heretic-GGUF",
     "name": "gpt-oss-120b-ultra-heretic-GGUF",
     "provider": "llmfan46",
@@ -11276,6 +11274,41 @@
       "cyankiwi/Qwen3.5-27B-AWQ-4bit"
     ],
     "family": "Qwen3.5--4bit"
+  },
+  {
+    "id": "huggingface:internlm/Spatial-SSRL-3B",
+    "name": "Spatial-SSRL-3B",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-25T08:21:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Spatial-SSRL-3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "multimodal",
+      "spatial",
+      "sptial understanding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T12:23:01.075358+00:00",
+    "source_ids": [
+      "internlm/Spatial-SSRL-3B"
+    ],
+    "family": "Spatial-SSRL"
   },
   {
     "id": "huggingface:cyankiwi/Qwen3.5-35B-A3B-AWQ-4bit",
@@ -13658,39 +13691,6 @@
     "family": "GLM-4.7-Flash--4bit"
   },
   {
-    "id": "huggingface:mradermacher/mox-tiny-1-GGUF",
-    "name": "mox-tiny-1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-18T03:08:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/mox-tiny-1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "conversational",
-      "conversational-ai",
-      "chat"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T12:11:12.441185+00:00",
-    "source_ids": [
-      "mradermacher/mox-tiny-1-GGUF"
-    ],
-    "family": "mox-tiny-1"
-  },
-  {
     "id": "huggingface:Disty0/FLUX.2-klein-4B-SDNQ-4bit-dynamic",
     "name": "FLUX.2-klein-4B-SDNQ-4bit-dynamic",
     "provider": "Disty0",
@@ -15032,6 +15032,41 @@
     "family": "parakeet-realtime-eou-120m-coreml"
   },
   {
+    "id": "huggingface:internlm/Spatial-SSRL-Qwen3VL-4B",
+    "name": "Spatial-SSRL-Qwen3VL-4B",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-21T11:27:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Spatial-SSRL-Qwen3VL-4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T12:23:01.075266+00:00",
+    "source_ids": [
+      "internlm/Spatial-SSRL-Qwen3VL-4B"
+    ],
+    "family": "Spatial-SSRL-Qwen3VL"
+  },
+  {
     "id": "huggingface:yaleiyaleichiling/NSFW-Anime-wan-5B",
     "name": "NSFW-Anime-wan-5B",
     "provider": "yaleiyaleichiling",
@@ -15234,6 +15269,41 @@
       "nappa114514/urikuru-oss"
     ],
     "family": "urikuru-oss"
+  },
+  {
+    "id": "huggingface:internlm/Spatial-SSRL-7B",
+    "name": "Spatial-SSRL-7B",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-29T06:17:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Spatial-SSRL-7B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen2_5_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T12:23:01.075403+00:00",
+    "source_ids": [
+      "internlm/Spatial-SSRL-7B"
+    ],
+    "family": "Spatial-SSRL"
   },
   {
     "id": "huggingface:pnnbao-ump/VieNeu-TTS",
