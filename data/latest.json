@@ -236,6 +236,74 @@
     "family": "gemma-4-E-mlx-4bit"
   },
   {
+    "id": "huggingface:DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF",
+    "name": "gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T03:33:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "abliterated",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T05:00:12.934252+00:00",
+    "source_ids": [
+      "DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF"
+    ],
+    "family": "gemma-4-it-Mystery-Fine-Tune-HERETIC-UNCENSORED"
+  },
+  {
+    "id": "huggingface:bg-digitalservices/Gemma-4-E2B-NVFP4A16",
+    "name": "Gemma-4-E2B-NVFP4A16",
+    "provider": "bg-digitalservices",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T02:48:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bg-digitalservices/Gemma-4-E2B-NVFP4A16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T05:00:12.460276+00:00",
+    "source_ids": [
+      "bg-digitalservices/Gemma-4-E2B-NVFP4A16"
+    ],
+    "family": "Gemma-4-E-NVFP4A16"
+  },
+  {
     "id": "huggingface:spicyneuron/Gemma-4-26B-A4B-MLX-4.9-bit-vision",
     "name": "Gemma-4-26B-A4B-MLX-4.9-bit-vision",
     "provider": "spicyneuron",
@@ -1695,6 +1763,39 @@
       "tomngdev/Darwin-35B-A3B-Opus-GGUF"
     ],
     "family": "Darwin-Opus"
+  },
+  {
+    "id": "huggingface:caiovicentino1/Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5",
+    "name": "Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5",
+    "provider": "caiovicentino1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T05:15:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/caiovicentino1/Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "polarquant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T05:00:12.460135+00:00",
+    "source_ids": [
+      "caiovicentino1/Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5"
+    ],
+    "family": "Nemotron-Cascade-2-PolarQuant-Q5"
   },
   {
     "id": "huggingface:juanquivilla/sotto-cleanup-lfm25-350m",
@@ -9966,6 +10067,76 @@
       "llmfan46/Qwen3.5-35B-A3B-heretic-v2"
     ],
     "family": "Qwen3.5-heretic-v2"
+  },
+  {
+    "id": "huggingface:Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
+    "name": "Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T03:18:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "unsloth",
+      "qwen",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T05:00:12.934519+00:00",
+    "source_ids": [
+      "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled"
+    ],
+    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
+  },
+  {
+    "id": "huggingface:Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
+    "name": "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T03:04:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "unsloth",
+      "qwen",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T05:00:12.934438+00:00",
+    "source_ids": [
+      "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled"
+    ],
+    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
   },
   {
     "id": "huggingface:dealignai/Qwen3.5-VL-4B-8bit-MLX-CRACK",
