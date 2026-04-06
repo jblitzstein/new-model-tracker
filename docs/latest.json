@@ -407,6 +407,39 @@
     "family": "Gemma-4-MLX-4.7bit-vision"
   },
   {
+    "id": "huggingface:TendieLabs/Capybara-31B-GGUFS",
+    "name": "Capybara-31B-GGUFS",
+    "provider": "TendieLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T00:21:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TendieLabs/Capybara-31B-GGUFS",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma",
+      "gemma-4",
+      "fine-tuned",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T20:16:03.423575+00:00",
+    "source_ids": [
+      "TendieLabs/Capybara-31B-GGUFS"
+    ],
+    "family": "Capybara-GGUFS"
+  },
+  {
     "id": "huggingface:llmfan46/gemma-4-31B-it-uncensored-heretic-GGUF",
     "name": "gemma-4-31B-it-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -4536,6 +4569,39 @@
       "SeaFill2025/Qwen3-4B-SFT"
     ],
     "family": "Qwen3-SFT"
+  },
+  {
+    "id": "huggingface:xv0y5ncu/Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw",
+    "name": "Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw",
+    "provider": "xv0y5ncu",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T12:22:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/xv0y5ncu/Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "quantization",
+      "glq",
+      "e8-lattice"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T20:16:03.423482+00:00",
+    "source_ids": [
+      "xv0y5ncu/Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw"
+    ],
+    "family": "Nemotron-3-Nano-GLQ-3.5bpw"
   },
   {
     "id": "huggingface:deqing/llama-300M-v5-addition_adamw",
@@ -10238,41 +10304,6 @@
     "family": "Qwen3.5-VL-8bit-MLX-CRACK"
   },
   {
-    "id": "huggingface:dealignai/Qwen3.5-VL-9B-4bit-MLX-CRACK",
-    "name": "Qwen3.5-VL-9B-4bit-MLX-CRACK",
-    "provider": "dealignai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-02T23:58:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dealignai/Qwen3.5-VL-9B-4bit-MLX-CRACK",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "qwen3.5",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T20:06:44.248293+00:00",
-    "source_ids": [
-      "dealignai/Qwen3.5-VL-9B-4bit-MLX-CRACK"
-    ],
-    "family": "Qwen3.5-VL-4bit-MLX-CRACK"
-  },
-  {
     "id": "huggingface:amd/Qwen3.5-397B-A17B-MXFP4",
     "name": "Qwen3.5-397B-A17B-MXFP4",
     "provider": "amd",
@@ -11445,6 +11476,39 @@
       "cyankiwi/Qwen3.5-35B-A3B-AWQ-4bit"
     ],
     "family": "Qwen3.5--4bit"
+  },
+  {
+    "id": "huggingface:nvidia/GLM-5-NVFP4",
+    "name": "GLM-5-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T23:43:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/GLM-5-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "glm_moe_dsa",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T20:16:03.423677+00:00",
+    "source_ids": [
+      "nvidia/GLM-5-NVFP4"
+    ],
+    "family": "GLM-5-NVFP4"
   },
   {
     "id": "huggingface:arthurcollet/Qwen3.5-122B-A10B-mlx-nvfp4",
@@ -15613,41 +15677,6 @@
       "PaddlePaddle/PaddleOCR-VL"
     ],
     "family": "PaddleOCR-VL"
-  },
-  {
-    "id": "huggingface:Open-Bee/Bee-8B-RL",
-    "name": "Bee-8B-RL",
-    "provider": "Open-Bee",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-10T12:57:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Open-Bee/Bee-8B-RL",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "Bee",
-      "feature-extraction",
-      "Bee-8B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T20:06:44.248377+00:00",
-    "source_ids": [
-      "Open-Bee/Bee-8B-RL"
-    ],
-    "family": "Bee-RL"
   },
   {
     "id": "huggingface:briaai/FIBO",
