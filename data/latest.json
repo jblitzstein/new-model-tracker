@@ -339,6 +339,41 @@
     "family": "Gemma-4-MLX-4.9-bit-vision"
   },
   {
+    "id": "huggingface:spicyneuron/Gemma-4-26B-A4B-MLX-4.7bit-vision",
+    "name": "Gemma-4-26B-A4B-MLX-4.7bit-vision",
+    "provider": "spicyneuron",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T00:35:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/spicyneuron/Gemma-4-26B-A4B-MLX-4.7bit-vision",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T08:36:56.362529+00:00",
+    "source_ids": [
+      "spicyneuron/Gemma-4-26B-A4B-MLX-4.7bit-vision"
+    ],
+    "family": "Gemma-4-MLX-4.7bit-vision"
+  },
+  {
     "id": "huggingface:llmfan46/gemma-4-31B-it-uncensored-heretic-GGUF",
     "name": "gemma-4-31B-it-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -472,6 +507,39 @@
       "google/gemma-4-26b-a4b-it"
     ],
     "family": "Gemma 4"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF",
+    "name": "Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T14:05:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3.5",
+      "moe",
+      "reasoning",
+      "claude-distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T08:36:55.621853+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF"
+    ],
+    "family": "Qwen3.5-Claude-4.6-Opus-Uncensored-KL-UD-V2"
   },
   {
     "id": "huggingface:mradermacher/Hulu-Med-Flash-Preview-27B-GGUF",
@@ -3558,6 +3626,39 @@
       "Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF"
     ],
     "family": "OmniCoder-Qwen3.5-Claude-4.6-Opus-Uncensored-v2"
+  },
+  {
+    "id": "huggingface:Aletheia-ng/SabiYarn_MoE_translate",
+    "name": "SabiYarn_MoE_translate",
+    "provider": "Aletheia-ng",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T21:59:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Aletheia-ng/SabiYarn_MoE_translate",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "sabiyarn",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-06T08:36:55.621734+00:00",
+    "source_ids": [
+      "Aletheia-ng/SabiYarn_MoE_translate"
+    ],
+    "family": "SabiYarn_MoE_translate"
   },
   {
     "id": "huggingface:Li101/Qwen3.5-35B-A3B-Uncensored-Aggressive-safetensors",
@@ -8968,41 +9069,6 @@
     "family": "Qwen3.5-Claude-4.6-Opus-Distilled-32k"
   },
   {
-    "id": "huggingface:mradermacher/MemOCR-7B-i1-GGUF",
-    "name": "MemOCR-7B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-06T11:55:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/MemOCR-7B-i1-GGUF",
-    "tags": [
-      "visual-question-answering",
-      "transformers",
-      "gguf",
-      "vision",
-      "multimodal",
-      "visual-question-answering"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T08:08:49.806181+00:00",
-    "source_ids": [
-      "mradermacher/MemOCR-7B-i1-GGUF"
-    ],
-    "family": "MemOCR-i1"
-  },
-  {
     "id": "huggingface:sampluralis/llama-sft-sgd",
     "name": "llama-sft-sgd",
     "provider": "sampluralis",
@@ -9244,41 +9310,6 @@
     "family": "Qwen3.5-heretic-v2--int8"
   },
   {
-    "id": "huggingface:khtsly/Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "name": "Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "provider": "khtsly",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-05T10:15:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/khtsly/Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T08:08:49.698683+00:00",
-    "source_ids": [
-      "khtsly/Qwen3.5-4B-Claude-4.6-Opus-Distilled-32k-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Distilled-32k"
-  },
-  {
     "id": "huggingface:sonicdog00/OpenRS-GRPO",
     "name": "OpenRS-GRPO",
     "provider": "sonicdog00",
@@ -9310,72 +9341,6 @@
       "sonicdog00/OpenRS-GRPO"
     ],
     "family": "OpenRS-GRPO"
-  },
-  {
-    "id": "huggingface:tencent/Penguin-VL-2B",
-    "name": "Penguin-VL-2B",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-05T03:04:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/Penguin-VL-2B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "penguinvl_qwen3",
-      "text-generation",
-      "multi-modal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T08:08:48.874361+00:00",
-    "source_ids": [
-      "tencent/Penguin-VL-2B"
-    ],
-    "family": "Penguin-VL"
-  },
-  {
-    "id": "huggingface:tencent/Penguin-VL-8B",
-    "name": "Penguin-VL-8B",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-05T03:04:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/Penguin-VL-8B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "penguinvl_qwen3",
-      "text-generation",
-      "multi-modal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T08:08:48.874309+00:00",
-    "source_ids": [
-      "tencent/Penguin-VL-8B"
-    ],
-    "family": "Penguin-VL"
   },
   {
     "id": "huggingface:chinedudave06/musicgen-medium-stereo-pte",
@@ -11070,41 +11035,6 @@
       "farbodtavakkoli/OTel-LLM-12B-Safety"
     ],
     "family": "OTel-LLM-Safety"
-  },
-  {
-    "id": "huggingface:TheCluster/Qwen3.5-27B-Heretic-MLX-bf16",
-    "name": "Qwen3.5-27B-Heretic-MLX-bf16",
-    "provider": "TheCluster",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-26T08:04:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TheCluster/Qwen3.5-27B-Heretic-MLX-bf16",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-07T08:08:49.698859+00:00",
-    "source_ids": [
-      "TheCluster/Qwen3.5-27B-Heretic-MLX-bf16"
-    ],
-    "family": "Qwen3.5-Heretic-MLX-bf16"
   },
   {
     "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-bf16",
