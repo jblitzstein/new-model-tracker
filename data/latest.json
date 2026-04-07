@@ -1,5 +1,34 @@
 [
   {
+    "id": "openrouter:z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T16:07:05+00:00",
+    "context_length": 202752,
+    "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
+    "url": "https://openrouter.ai/z-ai/glm-5.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.4,
+      "completion_per_million": 4.4
+    },
+    "first_seen": "2026-04-07T16:26:23.747919+00:00",
+    "source_ids": [
+      "z-ai/glm-5.1"
+    ],
+    "family": "GLM 5.1"
+  },
+  {
     "id": "huggingface:jenerallee78/gemma-4-26B-A4B-it-ara-abliterated",
     "name": "gemma-4-26B-A4B-it-ara-abliterated",
     "provider": "jenerallee78",
@@ -33,6 +62,41 @@
       "jenerallee78/gemma-4-26B-A4B-it-ara-abliterated"
     ],
     "family": "gemma-4-it-ara-abliterated"
+  },
+  {
+    "id": "huggingface:s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
+    "name": "Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
+    "provider": "s1arsky",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T22:09:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "roleplay",
+      "sillytavern",
+      "idol"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.338433+00:00",
+    "source_ids": [
+      "s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF"
+    ],
+    "family": "Gemma-4-Cognitive-Unshackled-Q4_KS"
   },
   {
     "id": "huggingface:WaveCut/Gemma-4-96E-A4B-Heretic-TQ",
@@ -677,6 +741,39 @@
     "family": "Hulu-Med-Flash"
   },
   {
+    "id": "huggingface:zai-org/GLM-5.1-FP8",
+    "name": "GLM-5.1-FP8",
+    "provider": "zai-org",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T09:29:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zai-org/GLM-5.1-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "glm_moe_dsa",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:23.902148+00:00",
+    "source_ids": [
+      "zai-org/GLM-5.1-FP8"
+    ],
+    "family": "GLM-5.1-FP8"
+  },
+  {
     "id": "huggingface:Cisco1963/llmplasticity-de_zh_linear_0.25_1-seed42",
     "name": "llmplasticity-de_zh_linear_0.25_1-seed42",
     "provider": "Cisco1963",
@@ -984,6 +1081,111 @@
       "nightmedia/gemma-4-26B-A4B-it-mxfp8-mlx"
     ],
     "family": "gemma-4-it-mxfp8-mlx"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-31B-it-unsloth-bnb-4bit",
+    "name": "gemma-4-31B-it-unsloth-bnb-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T19:01:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-31B-it-unsloth-bnb-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.338165+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-31B-it-unsloth-bnb-4bit"
+    ],
+    "family": "gemma-4-it-unsloth-bnb-4bit"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
+    "name": "gemma-4-E4B-it-unsloth-bnb-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T19:01:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.338269+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-E4B-it-unsloth-bnb-4bit"
+    ],
+    "family": "gemma-4-E-it-unsloth-bnb-4bit"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
+    "name": "gemma-4-E2B-it-unsloth-bnb-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T18:57:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.338347+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-E2B-it-unsloth-bnb-4bit"
+    ],
+    "family": "gemma-4-E-it-unsloth-bnb-4bit"
   },
   {
     "id": "huggingface:arthurcollet/gemma-4-26B-A4B-it-mlx-mxfp8",
@@ -9543,41 +9745,6 @@
     "family": "Qwen3.5-PARO"
   },
   {
-    "id": "huggingface:khtsly/Qwen3.5-2B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "name": "Qwen3.5-2B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "provider": "khtsly",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-05T17:25:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/khtsly/Qwen3.5-2B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-08T16:07:46.010150+00:00",
-    "source_ids": [
-      "khtsly/Qwen3.5-2B-Claude-4.6-Opus-Distilled-32k-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Distilled-32k"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-heretic-v2-GPTQ-int4",
     "name": "Qwen3.5-27B-heretic-v2-GPTQ-int4",
     "provider": "llmfan46",
@@ -10300,41 +10467,6 @@
       "llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1"
     ],
     "family": "Qwen3.5-ultra-uncensored-heretic-v1"
-  },
-  {
-    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF",
-    "name": "Qwen3.5-35B-A3B-heretic-v2-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T06:01:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-08T16:07:46.010090+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF"
-    ],
-    "family": "Qwen3.5-heretic-v2"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-v2",
@@ -13926,6 +14058,41 @@
     "family": "GLM-4.7-Flash--4bit"
   },
   {
+    "id": "huggingface:lightonai/LightOnOCR-2-1B",
+    "name": "LightOnOCR-2-1B",
+    "provider": "lightonai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-16T16:00:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "text-generation",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.338643+00:00",
+    "source_ids": [
+      "lightonai/LightOnOCR-2-1B"
+    ],
+    "family": "LightOnOCR-2"
+  },
+  {
     "id": "huggingface:Disty0/FLUX.2-klein-4B-SDNQ-4bit-dynamic",
     "name": "FLUX.2-klein-4B-SDNQ-4bit-dynamic",
     "provider": "Disty0",
@@ -14736,6 +14903,40 @@
       "unsloth/Nemotron-3-Nano-30B-A3B"
     ],
     "family": "Nemotron-3-Nano"
+  },
+  {
+    "id": "huggingface:zai-org/GLM-ASR-Nano-2512",
+    "name": "GLM-ASR-Nano-2512",
+    "provider": "zai-org",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-09T09:07:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zai-org/GLM-ASR-Nano-2512",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "glmasr",
+      "text2text-generation",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.263663+00:00",
+    "source_ids": [
+      "zai-org/GLM-ASR-Nano-2512"
+    ],
+    "family": "GLM-ASR-Nano-2512"
   },
   {
     "id": "huggingface:mobilint/Qwen2.5-7B-Instruct",
@@ -16975,6 +17176,40 @@
     "family": "sandbox"
   },
   {
+    "id": "huggingface:ibm-granite/granite-speech-3.3-2b",
+    "name": "granite-speech-3.3-2b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-28T15:25:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-speech-3.3-2b",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "granite_speech",
+      "automatic-speech-recognition",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.263533+00:00",
+    "source_ids": [
+      "ibm-granite/granite-speech-3.3-2b"
+    ],
+    "family": "granite-speech-3.3"
+  },
+  {
     "id": "huggingface:ibm-granite/granite-speech-3.3-8b",
     "name": "granite-speech-3.3-8b",
     "provider": "IBM",
@@ -17205,6 +17440,40 @@
     "family": "granite-vision-3.2"
   },
   {
+    "id": "huggingface:espnet/owsm_ctc_v4_1B",
+    "name": "owsm_ctc_v4_1B",
+    "provider": "espnet",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-01-16T19:34:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/espnet/owsm_ctc_v4_1B",
+    "tags": [
+      "automatic-speech-recognition",
+      "espnet",
+      "audio",
+      "automatic-speech-recognition",
+      "speech-translation",
+      "language-identification"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.263632+00:00",
+    "source_ids": [
+      "espnet/owsm_ctc_v4_1B"
+    ],
+    "family": "owsm_ctc_v4"
+  },
+  {
     "id": "huggingface:BlackHat404/DefacationIL",
     "name": "DefacationIL",
     "provider": "BlackHat404",
@@ -17370,6 +17639,40 @@
       "mistralai/pixtral-12b"
     ],
     "family": "Pixtral"
+  },
+  {
+    "id": "huggingface:nyrahealth/CrisperWhisper",
+    "name": "CrisperWhisper",
+    "provider": "nyrahealth",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-08-29T15:53:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nyrahealth/CrisperWhisper",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "de"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-07T16:26:24.263598+00:00",
+    "source_ids": [
+      "nyrahealth/CrisperWhisper"
+    ],
+    "family": "CrisperWhisper"
   },
   {
     "id": "huggingface:anakin87/Phi-3.5-mini-ITA",
