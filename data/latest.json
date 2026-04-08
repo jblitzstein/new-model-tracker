@@ -60,6 +60,40 @@
     "family": "GLM 5.1"
   },
   {
+    "id": "huggingface:nvidia/parakeet-unified-en-0.6b",
+    "name": "parakeet-unified-en-0.6b",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T03:32:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/parakeet-unified-en-0.6b",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "speech-recognition",
+      "unified-asr",
+      "offline-asr",
+      "streaming-asr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T04:53:14.790839+00:00",
+    "source_ids": [
+      "nvidia/parakeet-unified-en-0.6b"
+    ],
+    "family": "parakeet-unified-en"
+  },
+  {
     "id": "huggingface:jenerallee78/gemma-4-26B-A4B-it-ara-abliterated",
     "name": "gemma-4-26B-A4B-it-ara-abliterated",
     "provider": "jenerallee78",
@@ -1750,6 +1784,39 @@
     "first_seen": "2026-04-02T16:24:02.906640+00:00",
     "source_ids": [
       "qwen/qwen3.6-plus:free"
+    ],
+    "family": "Qwen3.6 Plus"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.6-plus",
+    "name": "Qwen: Qwen3.6 Plus",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T12:39:17+00:00",
+    "context_length": 1000000,
+    "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers...",
+    "url": "https://openrouter.ai/qwen/qwen3.6-plus",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.325,
+      "completion_per_million": 1.95
+    },
+    "first_seen": "2026-04-08T04:53:14.307330+00:00",
+    "source_ids": [
+      "qwen/qwen3.6-plus"
     ],
     "family": "Qwen3.6 Plus"
   },
@@ -7254,6 +7321,39 @@
       "mssfj/Qwen3.5-9B-GPTQ-INT8"
     ],
     "family": "Qwen3.5--INT8"
+  },
+  {
+    "id": "huggingface:llm-jp/llm-jp-4-8b-thinking",
+    "name": "llm-jp-4-8b-thinking",
+    "provider": "llm-jp",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T00:08:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llm-jp/llm-jp-4-8b-thinking",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T04:53:14.418401+00:00",
+    "source_ids": [
+      "llm-jp/llm-jp-4-8b-thinking"
+    ],
+    "family": "llm-jp-4"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-40B-Claude-4.5-Opus-High-Reasoning-Thinking-uncensored-heretic-GGUF",
@@ -13883,6 +13983,39 @@
     "family": "Intern-S1-Pro"
   },
   {
+    "id": "huggingface:kgrabko/JiRackTernary_70b",
+    "name": "JiRackTernary_70b",
+    "provider": "kgrabko",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-02T04:53:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kgrabko/JiRackTernary_70b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "jirack_ternary",
+      "ternary",
+      "bitnet",
+      "1.58bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T04:53:14.418300+00:00",
+    "source_ids": [
+      "kgrabko/JiRackTernary_70b"
+    ],
+    "family": "JiRackTernary"
+  },
+  {
     "id": "huggingface:jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1",
     "name": "Chocolatine-2-4B-Instruct-DPO-v2.1",
     "provider": "jpacifico",
@@ -13914,72 +14047,6 @@
       "jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1"
     ],
     "family": "Chocolatine-2--DPO-v2.1"
-  },
-  {
-    "id": "huggingface:stepfun-ai/Step-3.5-Flash-FP8",
-    "name": "Step-3.5-Flash-FP8",
-    "provider": "stepfun-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-01T08:03:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-FP8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "step3p5",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-09T04:39:37.462473+00:00",
-    "source_ids": [
-      "stepfun-ai/Step-3.5-Flash-FP8"
-    ],
-    "family": "Step-3.5-Flash-FP8"
-  },
-  {
-    "id": "huggingface:stepfun-ai/Step-3.5-Flash",
-    "name": "Step-3.5-Flash",
-    "provider": "stepfun-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-01T08:03:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "step3p5",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-09T04:39:37.462442+00:00",
-    "source_ids": [
-      "stepfun-ai/Step-3.5-Flash"
-    ],
-    "family": "Step-3.5-Flash"
   },
   {
     "id": "huggingface:Bedovyy/Anima-FP8",
@@ -16278,6 +16345,39 @@
     "family": "PaddleOCR-VL"
   },
   {
+    "id": "huggingface:quwsarohi/NanoAgent-135M",
+    "name": "NanoAgent-135M",
+    "provider": "quwsarohi",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-09T18:38:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/quwsarohi/NanoAgent-135M",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "llama",
+      "llm",
+      "tool-calling"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T04:53:14.418476+00:00",
+    "source_ids": [
+      "quwsarohi/NanoAgent-135M"
+    ],
+    "family": "NanoAgent-135M"
+  },
+  {
     "id": "huggingface:briaai/FIBO",
     "name": "FIBO",
     "provider": "briaai",
@@ -18100,6 +18200,40 @@
       "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic"
     ],
     "family": "Meta-Llama-3.1--FP8-dynamic"
+  },
+  {
+    "id": "huggingface:qualcomm/TrOCR",
+    "name": "TrOCR",
+    "provider": "qualcomm",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-02-25T22:49:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/qualcomm/TrOCR",
+    "tags": [
+      "image-to-text",
+      "pytorch",
+      "android",
+      "image-to-text",
+      "arxiv:2109.10282",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T04:53:14.540213+00:00",
+    "source_ids": [
+      "qualcomm/TrOCR"
+    ],
+    "family": "TrOCR"
   },
   {
     "id": "huggingface:DunnBC22/trocr-large-printed-cmc7_tesseract_MICR_ocr",
