@@ -31,6 +31,40 @@
     "family": "Claude Opus 4.6 (Fast)"
   },
   {
+    "id": "huggingface:mradermacher/HunyuanOCR-i1-GGUF",
+    "name": "HunyuanOCR-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T17:14:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/HunyuanOCR-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "ocr",
+      "hunyuan",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T08:30:11.829267+00:00",
+    "source_ids": [
+      "mradermacher/HunyuanOCR-i1-GGUF"
+    ],
+    "family": "HunyuanOCR-i1"
+  },
+  {
     "id": "openrouter:z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "Zhipu AI",
@@ -58,6 +92,39 @@
       "z-ai/glm-5.1"
     ],
     "family": "GLM 5.1"
+  },
+  {
+    "id": "huggingface:jackasda211233/Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
+    "name": "Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
+    "provider": "jackasda211233",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T04:53:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jackasda211233/Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3_5",
+      "qwen3.5",
+      "uncensored",
+      "RYS"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T08:30:11.702625+00:00",
+    "source_ids": [
+      "jackasda211233/Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF"
+    ],
+    "family": "Qwen3.5-Uncensored-RYS-Reasoner"
   },
   {
     "id": "huggingface:nvidia/parakeet-unified-en-0.6b",
@@ -129,6 +196,41 @@
     "family": "gemma-4-it-ara-abliterated"
   },
   {
+    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF",
+    "name": "Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T18:15:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.5",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T08:30:12.177117+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF"
+    ],
+    "family": "Qwen3.5-Uncensored-FernflowerAI"
+  },
+  {
     "id": "huggingface:WWTCyberLab/gemma-4-26B-A4B-it-abliterated",
     "name": "gemma-4-26B-A4B-it-abliterated",
     "provider": "WWTCyberLab",
@@ -160,6 +262,41 @@
       "WWTCyberLab/gemma-4-26B-A4B-it-abliterated"
     ],
     "family": "gemma-4-it-abliterated"
+  },
+  {
+    "id": "huggingface:DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking",
+    "name": "gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T00:38:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "heretic",
+      "abliterated",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T08:30:12.177361+00:00",
+    "source_ids": [
+      "DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking"
+    ],
+    "family": "gemma-4-it-The-DECKARD-HERETIC-UNCENSORED"
   },
   {
     "id": "huggingface:s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
@@ -1137,6 +1274,41 @@
       "EZCon/gemma-4-E2B-it-4bit-g32-mxfp4-mixed_4_8-mlx"
     ],
     "family": "gemma-4-E-it-4bit-g32-mxfp4-mixed_4_8-mlx"
+  },
+  {
+    "id": "huggingface:DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking",
+    "name": "gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T03:33:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T08:30:12.177524+00:00",
+    "source_ids": [
+      "DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking"
+    ],
+    "family": "gemma-4-it-Mystery-Fine-Tune-HERETIC-UNCENSORED"
   },
   {
     "id": "huggingface:HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
@@ -3131,6 +3303,40 @@
       "Jackrong/Qwopus3.5-9B-v3-GGUF"
     ],
     "family": "Qwopus3.5-v3"
+  },
+  {
+    "id": "huggingface:cstr/cohere-transcribe-03-2026-GGUF",
+    "name": "cohere-transcribe-03-2026-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T08:22:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/cohere-transcribe-03-2026-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "audio",
+      "speech-recognition",
+      "transcription",
+      "conformer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T08:30:12.103035+00:00",
+    "source_ids": [
+      "cstr/cohere-transcribe-03-2026-GGUF"
+    ],
+    "family": "cohere-transcribe-03-2026"
   },
   {
     "id": "huggingface:LiquidAI/LFM2.5-350M",
@@ -9664,41 +9870,6 @@
     "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-heretic"
   },
   {
-    "id": "huggingface:Mungert/Qwen3.5-35B-A3B-GGUF",
-    "name": "Qwen3.5-35B-A3B-GGUF",
-    "provider": "Mungert",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-08T05:45:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Mungert/Qwen3.5-35B-A3B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-35B-A3B-Base",
-      "base_model:quantized:Qwen/Qwen3.5-35B-A3B-Base"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-09T08:17:24.426361+00:00",
-    "source_ids": [
-      "Mungert/Qwen3.5-35B-A3B-GGUF"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:llmfan46/gpt-oss-120b-heretic-v2-GGUF",
     "name": "gpt-oss-120b-heretic-v2-GGUF",
     "provider": "llmfan46",
@@ -10134,39 +10305,6 @@
       "khtsly/Qwen3.5-27B-Claude-4.6-Opus-Distilled-32k-GGUF"
     ],
     "family": "Qwen3.5-Claude-4.6-Opus-Distilled-32k"
-  },
-  {
-    "id": "huggingface:sampluralis/llama-sft-sgd",
-    "name": "llama-sft-sgd",
-    "provider": "sampluralis",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-06T07:47:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sampluralis/llama-sft-sgd",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-09T08:17:23.457017+00:00",
-    "source_ids": [
-      "sampluralis/llama-sft-sgd"
-    ],
-    "family": "llama-sft-sgd"
   },
   {
     "id": "huggingface:z-lab/Qwen3.5-9B-PARO",
@@ -12409,40 +12547,6 @@
       "MultiverseComputingCAI/Hypernova-60B-2602-GGUF"
     ],
     "family": "Hypernova-2602"
-  },
-  {
-    "id": "huggingface:bharatgenai/sooktam2",
-    "name": "sooktam2",
-    "provider": "bharatgenai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-02-24T08:58:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bharatgenai/sooktam2",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "f5_tts",
-      "text-to-speech",
-      "tts",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-09T08:17:24.131890+00:00",
-    "source_ids": [
-      "bharatgenai/sooktam2"
-    ],
-    "family": "sooktam2"
   },
   {
     "id": "huggingface:MBZUAI/MedMO-8B-Next",
