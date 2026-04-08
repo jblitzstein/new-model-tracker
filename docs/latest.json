@@ -1965,6 +1965,41 @@
     "family": "gemma-3-270m-sindhi"
   },
   {
+    "id": "huggingface:tencent/HY-Embodied-0.5",
+    "name": "HY-Embodied-0.5",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T13:02:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "hunyuan_vl_mot",
+      "image-text-to-text",
+      "hunyuan"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-08T20:16:47.503177+00:00",
+    "source_ids": [
+      "tencent/HY-Embodied-0.5"
+    ],
+    "family": "HY-Embodied-0.5"
+  },
+  {
     "id": "openrouter:qwen/qwen3.6-plus:free",
     "name": "Qwen: Qwen3.6 Plus (free)",
     "provider": "Qwen",
@@ -16954,41 +16989,6 @@
       "LiquidAI/LFM2-350M-Extract-GGUF"
     ],
     "family": "LFM2-350M-Extract"
-  },
-  {
-    "id": "huggingface:pytorch/gemma-3-27b-it-INT4",
-    "name": "gemma-3-27b-it-INT4",
-    "provider": "pytorch",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-27T22:22:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pytorch/gemma-3-27b-it-INT4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "pytorch",
-      "gemma3",
-      "image-text-to-text",
-      "torchao"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-09T20:10:46.688276+00:00",
-    "source_ids": [
-      "pytorch/gemma-3-27b-it-INT4"
-    ],
-    "family": "gemma-3-it-INT4"
   },
   {
     "id": "huggingface:pytorch/gemma-3-12b-it-INT4",
