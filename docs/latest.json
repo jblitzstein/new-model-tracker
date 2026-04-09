@@ -231,6 +231,39 @@
     "family": "Qwen3.5-Uncensored-FernflowerAI"
   },
   {
+    "id": "huggingface:WWTCyberLab/gemma-4-31B-it-abliterated",
+    "name": "gemma-4-31B-it-abliterated",
+    "provider": "WWTCyberLab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T07:37:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WWTCyberLab/gemma-4-31B-it-abliterated",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "abliteration"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-09T04:51:11.998775+00:00",
+    "source_ids": [
+      "WWTCyberLab/gemma-4-31B-it-abliterated"
+    ],
+    "family": "gemma-4-it-abliterated"
+  },
+  {
     "id": "huggingface:WWTCyberLab/gemma-4-26B-A4B-it-abliterated",
     "name": "gemma-4-26B-A4B-it-abliterated",
     "provider": "WWTCyberLab",
@@ -11698,76 +11731,6 @@
     "family": "Qwen3.5-heretic-nvfp4"
   },
   {
-    "id": "huggingface:bartowski/Qwen_Qwen3.5-0.8B-GGUF",
-    "name": "Qwen_Qwen3.5-0.8B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T15:35:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3.5-0.8B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-0.8B",
-      "base_model:quantized:Qwen/Qwen3.5-0.8B",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T04:36:12.501976+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3.5-0.8B-GGUF"
-    ],
-    "family": "Qwen_Qwen3.5"
-  },
-  {
-    "id": "huggingface:bartowski/Qwen_Qwen3.5-2B-GGUF",
-    "name": "Qwen_Qwen3.5-2B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T15:34:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3.5-2B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-2B",
-      "base_model:quantized:Qwen/Qwen3.5-2B",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T04:36:12.501943+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3.5-2B-GGUF"
-    ],
-    "family": "Qwen_Qwen3.5"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
     "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
     "provider": "llmfan46",
@@ -11903,76 +11866,6 @@
       "ibm-granite/granite-4.0-1b-speech"
     ],
     "family": "granite-4.0-speech"
-  },
-  {
-    "id": "huggingface:bartowski/Qwen_Qwen3.5-9B-GGUF",
-    "name": "Qwen_Qwen3.5-9B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T15:45:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3.5-9B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-9B",
-      "base_model:quantized:Qwen/Qwen3.5-9B",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T04:36:12.501843+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3.5-9B-GGUF"
-    ],
-    "family": "Qwen_Qwen3.5"
-  },
-  {
-    "id": "huggingface:bartowski/Qwen_Qwen3.5-4B-GGUF",
-    "name": "Qwen_Qwen3.5-4B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T15:45:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3.5-4B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-4B",
-      "base_model:quantized:Qwen/Qwen3.5-4B",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T04:36:12.501904+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3.5-4B-GGUF"
-    ],
-    "family": "Qwen_Qwen3.5"
   },
   {
     "id": "huggingface:nostalgicskinco/air-compliance-llama-1b",
