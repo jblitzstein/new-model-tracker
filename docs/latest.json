@@ -467,6 +467,39 @@
     "family": "gemma-4-it-The-DECKARD-HERETIC-UNCENSORED"
   },
   {
+    "id": "huggingface:FlameF0X/LFM2.5-1.2B-Distilled-Claude",
+    "name": "LFM2.5-1.2B-Distilled-Claude",
+    "provider": "FlameF0X",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-05T22:39:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FlameF0X/LFM2.5-1.2B-Distilled-Claude",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-09T12:27:42.896072+00:00",
+    "source_ids": [
+      "FlameF0X/LFM2.5-1.2B-Distilled-Claude"
+    ],
+    "family": "LFM2.5-Distilled-Claude"
+  },
+  {
     "id": "huggingface:deadbydawn101/gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit",
     "name": "gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit",
     "provider": "deadbydawn101",
@@ -1719,6 +1752,41 @@
       "deadbydawn101/gemma-4-E2B-Heretic-Uncensored-mlx-4bit"
     ],
     "family": "gemma-4-E-Heretic-Uncensored-mlx-4bit"
+  },
+  {
+    "id": "huggingface:coder3101/gemma-4-31B-it-heretic",
+    "name": "gemma-4-31B-it-heretic",
+    "provider": "coder3101",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T20:57:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/coder3101/gemma-4-31B-it-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-09T12:27:43.768771+00:00",
+    "source_ids": [
+      "coder3101/gemma-4-31B-it-heretic"
+    ],
+    "family": "gemma-4-it-heretic"
   },
   {
     "id": "huggingface:nightmedia/gemma-4-26B-A4B-it-mxfp4-mlx",
@@ -6867,6 +6935,39 @@
     "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-v2"
   },
   {
+    "id": "huggingface:emirkaanozdemr/Yaver-9B-Instruct",
+    "name": "Yaver-9B-Instruct",
+    "provider": "emirkaanozdemr",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-19T08:15:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/emirkaanozdemr/Yaver-9B-Instruct",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gemma2",
+      "text-generation",
+      "conversational",
+      "tr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-09T12:27:42.896110+00:00",
+    "source_ids": [
+      "emirkaanozdemr/Yaver-9B-Instruct"
+    ],
+    "family": "Yaver"
+  },
+  {
     "id": "huggingface:Smoffyy/Qwen3.5-9B-Instruct-Pure-GGUF",
     "name": "Qwen3.5-9B-Instruct-Pure-GGUF",
     "provider": "Smoffyy",
@@ -11408,72 +11509,6 @@
       "RedHatAI/Qwen3.5-122B-A10B-FP8-dynamic"
     ],
     "family": "Qwen3.5-FP8-dynamic"
-  },
-  {
-    "id": "huggingface:sarvamai/sarvam-105b",
-    "name": "sarvam-105b",
-    "provider": "sarvamai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T13:13:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sarvamai/sarvam-105b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "sarvam_mla",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T12:16:25.521207+00:00",
-    "source_ids": [
-      "sarvamai/sarvam-105b"
-    ],
-    "family": "sarvam"
-  },
-  {
-    "id": "huggingface:sarvamai/sarvam-30b",
-    "name": "sarvam-30b",
-    "provider": "sarvamai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T12:53:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sarvamai/sarvam-30b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "sarvam_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T12:16:25.521275+00:00",
-    "source_ids": [
-      "sarvamai/sarvam-30b"
-    ],
-    "family": "sarvam"
   },
   {
     "id": "huggingface:Xlnk/Qwen3.5-0.8B-GGUF",
@@ -17158,111 +17193,6 @@
       "pytorch/gemma-3-12b-it-INT4"
     ],
     "family": "gemma-3-it-INT4"
-  },
-  {
-    "id": "huggingface:openbmb/MiniCPM-V-4_5-int4",
-    "name": "MiniCPM-V-4_5-int4",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-24T10:44:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5-int4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "minicpm-v",
-      "vision",
-      "ocr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T12:16:26.079366+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM-V-4_5-int4"
-    ],
-    "family": "MiniCPM-V-4_5-int4"
-  },
-  {
-    "id": "huggingface:openbmb/MiniCPM-V-4_5-gguf",
-    "name": "MiniCPM-V-4_5-gguf",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-24T10:41:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5-gguf",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "minicpm-v",
-      "vision",
-      "ocr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T12:16:26.079324+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM-V-4_5-gguf"
-    ],
-    "family": "MiniCPM-V-4_5"
-  },
-  {
-    "id": "huggingface:openbmb/MiniCPM-V-4_5",
-    "name": "MiniCPM-V-4_5",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-24T10:39:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "minicpmv",
-      "feature-extraction",
-      "minicpm-v"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-10T12:16:26.079418+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM-V-4_5"
-    ],
-    "family": "MiniCPM-V-4_5"
   },
   {
     "id": "huggingface:Smoffyy/Qwen2.5-7B-Instruct-Pure-GGUF",
