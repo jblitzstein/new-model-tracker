@@ -35,6 +35,39 @@
     "family": "MolmoWeb-Pretrained"
   },
   {
+    "id": "huggingface:my-ai-stack/Stack-2-9-finetuned",
+    "name": "Stack-2-9-finetuned",
+    "provider": "my-ai-stack",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T11:10:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/my-ai-stack/Stack-2-9-finetuned",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "qwen2",
+      "text-generation",
+      "code-generation",
+      "python"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T12:21:30.090122+00:00",
+    "source_ids": [
+      "my-ai-stack/Stack-2-9-finetuned"
+    ],
+    "family": "Stack-2-9-finetuned"
+  },
+  {
     "id": "huggingface:odats/rl_nmt_2026_04_09_10_30",
     "name": "rl_nmt_2026_04_09_10_30",
     "provider": "odats",
@@ -66,6 +99,41 @@
       "odats/rl_nmt_2026_04_09_10_30"
     ],
     "family": "rl_nmt_2026_04_09_10_30"
+  },
+  {
+    "id": "huggingface:SleepVeryHard/ToriiGate-0.5_GGUF",
+    "name": "ToriiGate-0.5_GGUF",
+    "provider": "SleepVeryHard",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T08:18:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SleepVeryHard/ToriiGate-0.5_GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "multimodal",
+      "vision",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T12:21:30.694108+00:00",
+    "source_ids": [
+      "SleepVeryHard/ToriiGate-0.5_GGUF"
+    ],
+    "family": "ToriiGate-0.5"
   },
   {
     "id": "huggingface:allenai/MolmoWeb-Pretrained-4B",
@@ -432,6 +500,39 @@
       "z-ai/glm-5.1"
     ],
     "family": "GLM 5.1"
+  },
+  {
+    "id": "huggingface:Mochiva-team/Mochiva-model",
+    "name": "Mochiva-model",
+    "provider": "Mochiva-team",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T11:07:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Mochiva-team/Mochiva-model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mochiva",
+      "text-generation",
+      "roleplay"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T12:21:30.089814+00:00",
+    "source_ids": [
+      "Mochiva-team/Mochiva-model"
+    ],
+    "family": "Mochiva-model"
   },
   {
     "id": "huggingface:ahmedjaved812/urdu-speecht5-finetuned",
@@ -16454,39 +16555,6 @@
     "family": "GLM-4.6-Derestricted-v3"
   },
   {
-    "id": "huggingface:tartuNLP/Llama-3.1-EstLLM-8B-Instruct-1125",
-    "name": "Llama-3.1-EstLLM-8B-Instruct-1125",
-    "provider": "tartuNLP",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-28T13:27:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tartuNLP/Llama-3.1-EstLLM-8B-Instruct-1125",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "merge"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-11T12:16:38.253797+00:00",
-    "source_ids": [
-      "tartuNLP/Llama-3.1-EstLLM-8B-Instruct-1125"
-    ],
-    "family": "Llama-3.1-EstLLM--1125"
-  },
-  {
     "id": "huggingface:FluidInference/parakeet-realtime-eou-120m-coreml",
     "name": "parakeet-realtime-eou-120m-coreml",
     "provider": "FluidInference",
@@ -17001,6 +17069,39 @@
       "PaddlePaddle/PaddleOCR-VL"
     ],
     "family": "PaddleOCR-VL"
+  },
+  {
+    "id": "huggingface:RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4",
+    "name": "Qwen3-VL-235B-A22B-Instruct-NVFP4",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-14T19:57:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3_vl_moe",
+      "fp4",
+      "vllm",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T12:21:30.089976+00:00",
+    "source_ids": [
+      "RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4"
+    ],
+    "family": "Qwen3-VL--NVFP4"
   },
   {
     "id": "huggingface:quwsarohi/NanoAgent-135M",
