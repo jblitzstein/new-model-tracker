@@ -135,6 +135,41 @@
     "family": "Gemopus-4-E-it"
   },
   {
+    "id": "huggingface:DJLougen/Ornstein-27B-GGUF",
+    "name": "Ornstein-27B-GGUF",
+    "provider": "DJLougen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T23:25:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DJLougen/Ornstein-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "reasoning",
+      "qwen3.5",
+      "ddm",
+      "llama-cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:07.248954+00:00",
+    "source_ids": [
+      "DJLougen/Ornstein-27B-GGUF"
+    ],
+    "family": "Ornstein"
+  },
+  {
     "id": "huggingface:lolzinventor/Qwen3.5-4B-Base-ZitGen-V1",
     "name": "Qwen3.5-4B-Base-ZitGen-V1",
     "provider": "lolzinventor",
@@ -198,6 +233,39 @@
       "anthropic/claude-opus-4.6-fast"
     ],
     "family": "Claude Opus 4.6 (Fast)"
+  },
+  {
+    "id": "huggingface:ubergarm/GLM-5.1-GGUF",
+    "name": "GLM-5.1-GGUF",
+    "provider": "ubergarm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T18:23:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ubergarm/GLM-5.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "imatrix",
+      "conversational",
+      "glm_moe_dsa",
+      "ik_llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:06.792453+00:00",
+    "source_ids": [
+      "ubergarm/GLM-5.1-GGUF"
+    ],
+    "family": "GLM-5.1"
   },
   {
     "id": "huggingface:mradermacher/HunyuanOCR-i1-GGUF",
@@ -7037,6 +7105,39 @@
     "family": "Qwen3.5--Pure"
   },
   {
+    "id": "huggingface:OpceanAI/Yuuki-RxG",
+    "name": "Yuuki-RxG",
+    "provider": "OpceanAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-19T17:54:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpceanAI/Yuuki-RxG",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:06.792208+00:00",
+    "source_ids": [
+      "OpceanAI/Yuuki-RxG"
+    ],
+    "family": "Yuuki-RxG"
+  },
+  {
     "id": "huggingface:llmfan46/Mistral-Small-3.2-24B-Instruct-2506-ultra-uncensored-heretic-GGUF",
     "name": "Mistral-Small-3.2-24B-Instruct-2506-ultra-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -10623,39 +10724,6 @@
     "family": "Qwen3.5-Claude-4.6-OS--mxfp8-mlx"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF",
-    "name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-08T14:31:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3.5",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-11T00:28:49.135087+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-heretic"
-  },
-  {
     "id": "huggingface:llmfan46/gpt-oss-120b-heretic-v2-GGUF",
     "name": "gpt-oss-120b-heretic-v2-GGUF",
     "provider": "llmfan46",
@@ -10889,39 +10957,6 @@
       "darkc0de/XORTRON.CriminalComputing.2026.27B.Instruct"
     ],
     "family": "XORTRON.CriminalComputing.."
-  },
-  {
-    "id": "huggingface:llmfan46/gpt-oss-120b-ultra-heretic-GGUF",
-    "name": "gpt-oss-120b-ultra-heretic-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-06T13:30:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/gpt-oss-120b-ultra-heretic-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-11T00:28:49.135045+00:00",
-    "source_ids": [
-      "llmfan46/gpt-oss-120b-ultra-heretic-GGUF"
-    ],
-    "family": "gpt-oss-ultra-heretic"
   },
   {
     "id": "huggingface:khtsly/Qwen3.5-27B-Claude-4.6-Opus-Distilled-32k-GGUF",
@@ -11687,6 +11722,41 @@
     "family": "Qwen3.5-ultra-uncensored-heretic-v1"
   },
   {
+    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF",
+    "name": "Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T06:01:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:07.248831+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF"
+    ],
+    "family": "Qwen3.5-ultra-uncensored-heretic"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-heretic-v2",
     "name": "Qwen3.5-35B-A3B-heretic-v2",
     "provider": "llmfan46",
@@ -12311,6 +12381,41 @@
       "nostalgicskinco/air-compliance-llama-1b"
     ],
     "family": "air-compliance-llama"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
+    "name": "Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-27T11:36:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:07.248760+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF"
+    ],
+    "family": "Qwen3.5-uncensored-heretic"
   },
   {
     "id": "huggingface:ubergarm/Qwen3.5-27B-GGUF",
@@ -13160,39 +13265,6 @@
       "MayaKD/qwen2-vl-audio"
     ],
     "family": "qwen2-vl-audio"
-  },
-  {
-    "id": "huggingface:RedHatAI/Qwen3-Coder-Next-NVFP4",
-    "name": "Qwen3-Coder-Next-NVFP4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-19T21:39:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Qwen3-Coder-Next-NVFP4",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3_next",
-      "NVFP4",
-      "quantized",
-      "llm-compressor"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-11T00:28:49.134932+00:00",
-    "source_ids": [
-      "RedHatAI/Qwen3-Coder-Next-NVFP4"
-    ],
-    "family": "Qwen3-Coder-Next-NVFP4"
   },
   {
     "id": "huggingface:anrilombard/mzansilm-125m",
@@ -17911,6 +17983,39 @@
     "family": "sandbox"
   },
   {
+    "id": "huggingface:software-mansion/react-native-executorch-qwen-3",
+    "name": "react-native-executorch-qwen-3",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-29T12:46:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-qwen-3",
+    "tags": [
+      "text-generation",
+      "executorch",
+      "qwen3",
+      "text-generation",
+      "conversational",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:06.792245+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-qwen-3"
+    ],
+    "family": "react-native-executorch-qwen-3"
+  },
+  {
     "id": "huggingface:ibm-granite/granite-speech-3.3-2b",
     "name": "granite-speech-3.3-2b",
     "provider": "IBM",
@@ -17943,6 +18048,105 @@
       "ibm-granite/granite-speech-3.3-2b"
     ],
     "family": "granite-speech-3.3"
+  },
+  {
+    "id": "huggingface:software-mansion/react-native-executorch-qwen-2.5",
+    "name": "react-native-executorch-qwen-2.5",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-24T12:50:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-qwen-2.5",
+    "tags": [
+      "text-generation",
+      "executorch",
+      "qwen2.5",
+      "text-generation",
+      "conversational",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:06.792287+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-qwen-2.5"
+    ],
+    "family": "react-native-executorch-qwen-2.5"
+  },
+  {
+    "id": "huggingface:software-mansion/react-native-executorch-smolLm-2",
+    "name": "react-native-executorch-smolLm-2",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-24T12:49:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-smolLm-2",
+    "tags": [
+      "text-generation",
+      "executorch",
+      "smollm2",
+      "text-generation",
+      "conversational",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:06.792332+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-smolLm-2"
+    ],
+    "family": "react-native-executorch-smolLm-2"
+  },
+  {
+    "id": "huggingface:software-mansion/react-native-executorch-hammer-2.1",
+    "name": "react-native-executorch-hammer-2.1",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-24T12:48:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-hammer-2.1",
+    "tags": [
+      "text-generation",
+      "executorch",
+      "qwen2.5",
+      "text-generation",
+      "conversational",
+      "license:cc-by-nc-4.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T00:37:06.792370+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-hammer-2.1"
+    ],
+    "family": "react-native-executorch-hammer-2.1"
   },
   {
     "id": "huggingface:ibm-granite/granite-speech-3.3-8b",
