@@ -811,6 +811,39 @@
     "family": "Qwen3.5-Uncensored-FernflowerAI"
   },
   {
+    "id": "huggingface:caiovicentino1/Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5",
+    "name": "Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5",
+    "provider": "caiovicentino1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T13:02:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/caiovicentino1/Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "hlwq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T20:13:42.877864+00:00",
+    "source_ids": [
+      "caiovicentino1/Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5"
+    ],
+    "family": "Huihui-Qwopus3.5-v3-abliterated-PolarQuant-Q5"
+  },
+  {
     "id": "huggingface:WWTCyberLab/gemma-4-31B-it-abliterated",
     "name": "gemma-4-31B-it-abliterated",
     "provider": "WWTCyberLab",
@@ -2508,6 +2541,39 @@
       "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive"
     ],
     "family": "Gemma-4-E-Uncensored-HauhauCS-Aggressive"
+  },
+  {
+    "id": "huggingface:caiovicentino1/Gemma-4-31B-it-PolarQuant-Q5",
+    "name": "Gemma-4-31B-it-PolarQuant-Q5",
+    "provider": "caiovicentino1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T22:20:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/caiovicentino1/Gemma-4-31B-it-PolarQuant-Q5",
+    "tags": [
+      "text-generation",
+      "gemma4",
+      "hlwq",
+      "polarquant",
+      "quantized",
+      "4-bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T20:13:42.877747+00:00",
+    "source_ids": [
+      "caiovicentino1/Gemma-4-31B-it-PolarQuant-Q5"
+    ],
+    "family": "Gemma-4-it-PolarQuant-Q5"
   },
   {
     "id": "huggingface:deadbydawn101/gemma-4-E2B-Heretic-Uncensored-mlx-4bit",
@@ -10709,39 +10775,6 @@
     "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
   },
   {
-    "id": "huggingface:lukealonso/Qwen3.5-397B-A17B-NVFP4",
-    "name": "Qwen3.5-397B-A17B-NVFP4",
-    "provider": "lukealonso",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T16:10:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lukealonso/Qwen3.5-397B-A17B-NVFP4",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3_5_moe",
-      "qwen3.5",
-      "moe",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-11T20:11:35.082574+00:00",
-    "source_ids": [
-      "lukealonso/Qwen3.5-397B-A17B-NVFP4"
-    ],
-    "family": "Qwen3.5-NVFP4"
-  },
-  {
     "id": "huggingface:respinosamena/Helios-Nova",
     "name": "Helios-Nova",
     "provider": "respinosamena",
@@ -11453,6 +11486,41 @@
       "RedHatAI/gpt-oss-120b-speculator.eagle3"
     ],
     "family": "gpt-oss-speculator.eagle3"
+  },
+  {
+    "id": "huggingface:nvidia/Nemotron-3-Content-Safety",
+    "name": "Nemotron-3-Content-Safety",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-06T17:28:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-3-Content-Safety",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-10T20:13:43.432470+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-3-Content-Safety"
+    ],
+    "family": "Nemotron-3-Content-Safety"
   },
   {
     "id": "huggingface:darkc0de/XORTRON.CriminalComputing.2026.27B.Instruct",
@@ -14488,40 +14556,6 @@
       "OpenMOSS-Team/MOSS-SoundEffect"
     ],
     "family": "MOSS-SoundEffect"
-  },
-  {
-    "id": "huggingface:OpenMOSS-Team/MOSS-TTS-Local-Transformer",
-    "name": "MOSS-TTS-Local-Transformer",
-    "provider": "OpenMOSS-Team",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-02-08T10:16:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "moss_tts_delay",
-      "text-to-speech",
-      "custom_code",
-      "zh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-11T20:11:35.481000+00:00",
-    "source_ids": [
-      "OpenMOSS-Team/MOSS-TTS-Local-Transformer"
-    ],
-    "family": "MOSS-TTS-Local-Transformer"
   },
   {
     "id": "huggingface:eekay/Llama-3.1-8B-Instruct-lion-numbers-ft",
