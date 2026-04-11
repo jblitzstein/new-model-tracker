@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:allenai/qwen3_4b_multiview",
+    "name": "qwen3_4b_multiview",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T22:55:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/qwen3_4b_multiview",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T00:34:56.754645+00:00",
+    "source_ids": [
+      "allenai/qwen3_4b_multiview"
+    ],
+    "family": "qwen3_4b_multiview"
+  },
+  {
     "id": "huggingface:allenai/MolmoWeb-Pretrained-8B",
     "name": "MolmoWeb-Pretrained-8B",
     "provider": "Allen AI",
@@ -99,6 +132,39 @@
       "odats/rl_nmt_2026_04_09_10_30"
     ],
     "family": "rl_nmt_2026_04_09_10_30"
+  },
+  {
+    "id": "huggingface:Jackrong/Gemopus-4-26B-A4B-it-GGUF",
+    "name": "Gemopus-4-26B-A4B-it-GGUF",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T08:27:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma4",
+      "gemma",
+      "instruction-tuned",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T00:34:56.754558+00:00",
+    "source_ids": [
+      "Jackrong/Gemopus-4-26B-A4B-it-GGUF"
+    ],
+    "family": "Gemopus-4-it"
   },
   {
     "id": "huggingface:SleepVeryHard/ToriiGate-0.5_GGUF",
@@ -373,6 +439,41 @@
       "lolzinventor/Qwen3.5-4B-Base-ZitGen-V1"
     ],
     "family": "Qwen3.5--ZitGen-V1"
+  },
+  {
+    "id": "huggingface:lthn/lemrd",
+    "name": "lemrd",
+    "provider": "lthn",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T20:15:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lthn/lemrd",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gguf",
+      "gemma4",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T00:34:57.784272+00:00",
+    "source_ids": [
+      "lthn/lemrd"
+    ],
+    "family": "lemrd"
   },
   {
     "id": "huggingface:lthn/lemer",
@@ -6815,6 +6916,76 @@
     "family": "sarvam-uncensored"
   },
   {
+    "id": "huggingface:allenai/MolmoWeb-8B-Native",
+    "name": "MolmoWeb-8B-Native",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-24T03:00:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/MolmoWeb-8B-Native",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "multimodal",
+      "olmo",
+      "molmo",
+      "molmo2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T00:34:57.784227+00:00",
+    "source_ids": [
+      "allenai/MolmoWeb-8B-Native"
+    ],
+    "family": "MolmoWeb-Native"
+  },
+  {
+    "id": "huggingface:allenai/MolmoWeb-4B-Native",
+    "name": "MolmoWeb-4B-Native",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-23T23:24:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/MolmoWeb-4B-Native",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "multimodal",
+      "olmo",
+      "molmo",
+      "molmo2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T00:34:57.784203+00:00",
+    "source_ids": [
+      "allenai/MolmoWeb-4B-Native"
+    ],
+    "family": "MolmoWeb-Native"
+  },
+  {
     "id": "huggingface:Ba2han/qwen-test-3-longer-2",
     "name": "qwen-test-3-longer-2",
     "provider": "Ba2han",
@@ -10309,64 +10480,6 @@
     "family": "fish-audio-s2-pro-bf16"
   },
   {
-    "id": "openrouter:openrouter/hunter-alpha",
-    "name": "Hunter Alpha",
-    "provider": "openrouter",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-11T20:24:31+00:00",
-    "context_length": 1048576,
-    "description": "Hunter Alpha is a 1 Trillion parameter + 1M token context frontier intelligence model built for agentic use. It excels at long-horizon planning, complex reasoning, and sustained multi-step task execution, with the reliability and instruction-following precision that frameworks like OpenClaw need.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
-    "url": "https://openrouter.ai/openrouter/hunter-alpha",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-03-12T00:26:55.247190+00:00",
-    "source_ids": [
-      "openrouter/hunter-alpha"
-    ],
-    "family": "Hunter Alpha"
-  },
-  {
-    "id": "openrouter:openrouter/healer-alpha",
-    "name": "Healer Alpha",
-    "provider": "openrouter",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "audio",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-11T20:24:28+00:00",
-    "context_length": 262144,
-    "description": "Healer Alpha is a frontier omni-modal model with vision, hearing, reasoning, and action capabilities. It brings the full power of agentic intelligence into the real world: natively perceiving visual and audio inputs, reasoning across modalities, and executing complex multi-step tasks with precision and reliability.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
-    "url": "https://openrouter.ai/openrouter/healer-alpha",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-03-12T00:26:55.248142+00:00",
-    "source_ids": [
-      "openrouter/healer-alpha"
-    ],
-    "family": "Healer Alpha"
-  },
-  {
     "id": "huggingface:google/gemma-4-31B-it",
     "name": "gemma-4-31B-it",
     "provider": "Google",
@@ -13630,41 +13743,6 @@
     "family": "Hypernova-2602"
   },
   {
-    "id": "huggingface:MBZUAI/MedMO-8B-Next",
-    "name": "MedMO-8B-Next",
-    "provider": "MBZUAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-23T11:19:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MBZUAI/MedMO-8B-Next",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "medical"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T00:26:56.319092+00:00",
-    "source_ids": [
-      "MBZUAI/MedMO-8B-Next"
-    ],
-    "family": "MedMO-Next"
-  },
-  {
     "id": "huggingface:BestWishYsh/Helios-Mid",
     "name": "Helios-Mid",
     "provider": "BestWishYsh",
@@ -14657,76 +14735,6 @@
     "family": "Llama-3.1--cat-numbers-ft"
   },
   {
-    "id": "huggingface:MBZUAI/MedMO-4B",
-    "name": "MedMO-4B",
-    "provider": "MBZUAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-06T10:41:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MBZUAI/MedMO-4B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "medical"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T00:26:56.319061+00:00",
-    "source_ids": [
-      "MBZUAI/MedMO-4B"
-    ],
-    "family": "MedMO"
-  },
-  {
-    "id": "huggingface:MBZUAI/MedMO-8B",
-    "name": "MedMO-8B",
-    "provider": "MBZUAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-06T10:41:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MBZUAI/MedMO-8B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "medical"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T00:26:56.319023+00:00",
-    "source_ids": [
-      "MBZUAI/MedMO-8B"
-    ],
-    "family": "MedMO"
-  },
-  {
     "id": "huggingface:OpenMOSS-Team/MOSS-TTS",
     "name": "MOSS-TTS",
     "provider": "OpenMOSS-Team",
@@ -15027,40 +15035,6 @@
       "jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1"
     ],
     "family": "Chocolatine-2--DPO-v2.1"
-  },
-  {
-    "id": "huggingface:Bedovyy/Anima-FP8",
-    "name": "Anima-FP8",
-    "provider": "Bedovyy",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-02-01T04:26:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Bedovyy/Anima-FP8",
-    "tags": [
-      "text-to-image",
-      "diffusion-single-file",
-      "comfyui",
-      "text-to-image",
-      "base_model:circlestone-labs/Anima",
-      "base_model:quantized:circlestone-labs/Anima"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T00:26:55.571212+00:00",
-    "source_ids": [
-      "Bedovyy/Anima-FP8"
-    ],
-    "family": "Anima-FP8"
   },
   {
     "id": "huggingface:zai-org/GLM-OCR",
