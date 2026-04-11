@@ -33,6 +33,39 @@
     "family": "qwen3_4b_multiview"
   },
   {
+    "id": "huggingface:inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
+    "name": "GLM-5.1-MLX-2.5bit-INF",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T13:44:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "glm_moe_dsa",
+      "quantized",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T12:14:52.955653+00:00",
+    "source_ids": [
+      "inferencerlabs/GLM-5.1-MLX-2.5bit-INF"
+    ],
+    "family": "GLM-5.1-MLX-2.5bit-INF"
+  },
+  {
     "id": "huggingface:odats/rl_nmt_2026_04_10_07_53",
     "name": "rl_nmt_2026_04_10_07_53",
     "provider": "odats",
@@ -608,6 +641,41 @@
       "lthn/lemer"
     ],
     "family": "lemer"
+  },
+  {
+    "id": "huggingface:lthn/lemma",
+    "name": "lemma",
+    "provider": "lthn",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T20:14:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lthn/lemma",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "safetensors",
+      "gemma4",
+      "gemma",
+      "mlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T12:14:53.512181+00:00",
+    "source_ids": [
+      "lthn/lemma"
+    ],
+    "family": "lemma"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.6-fast",
@@ -1548,6 +1616,41 @@
     "family": "Gemma-4-Cognitive-Unshackled"
   },
   {
+    "id": "huggingface:TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill",
+    "name": "gemma-4-26B-A4B-it-Claude-Opus-Distill",
+    "provider": "TeichAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T08:38:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T12:14:53.512246+00:00",
+    "source_ids": [
+      "TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill"
+    ],
+    "family": "gemma-4-it-Claude-Opus-Distill"
+  },
+  {
     "id": "huggingface:mradermacher/Hulu-Med-Flash-Preview-27B-i1-GGUF",
     "name": "Hulu-Med-Flash-Preview-27B-i1-GGUF",
     "provider": "mradermacher",
@@ -2399,6 +2502,39 @@
       "zai-org/GLM-5.1-FP8"
     ],
     "family": "GLM-5.1-FP8"
+  },
+  {
+    "id": "huggingface:zai-org/GLM-5.1",
+    "name": "GLM-5.1",
+    "provider": "zai-org",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T09:28:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zai-org/GLM-5.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "glm_moe_dsa",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T12:14:52.955726+00:00",
+    "source_ids": [
+      "zai-org/GLM-5.1"
+    ],
+    "family": "GLM-5.1"
   },
   {
     "id": "huggingface:TeichAI/gemma-4-31B-it-Claude-Opus-Distill",
@@ -6714,6 +6850,39 @@
     "family": "DiStil-Qwen3-uncensored"
   },
   {
+    "id": "huggingface:Oysiyl/qwen3-1.7b-unslop-good-lora-v1",
+    "name": "qwen3-1.7b-unslop-good-lora-v1",
+    "provider": "Oysiyl",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-25T18:07:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Oysiyl/qwen3-1.7b-unslop-good-lora-v1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T12:14:52.955506+00:00",
+    "source_ids": [
+      "Oysiyl/qwen3-1.7b-unslop-good-lora-v1"
+    ],
+    "family": "qwen3-unslop-good-lora-v1"
+  },
+  {
     "id": "huggingface:Monoclebear/Ring-2.5-1T-mlx-6bit",
     "name": "Ring-2.5-1T-mlx-6bit",
     "provider": "Monoclebear",
@@ -10916,39 +11085,6 @@
     "family": "Nemotron 3 Super"
   },
   {
-    "id": "huggingface:mradermacher/Neuron-14B-i1-GGUF",
-    "name": "Neuron-14B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-11T13:16:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Neuron-14B-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "neuron",
-      "neura-tech",
-      "14B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T08:16:34.374976+00:00",
-    "source_ids": [
-      "mradermacher/Neuron-14B-i1-GGUF"
-    ],
-    "family": "Neuron-i1"
-  },
-  {
     "id": "huggingface:RekaAI/reka-edge-2603",
     "name": "reka-edge-2603",
     "provider": "RekaAI",
@@ -11363,39 +11499,6 @@
     "family": "gemma-3-it-ultra-uncensored-heretic"
   },
   {
-    "id": "huggingface:BrainDelay/BatVenom",
-    "name": "BatVenom",
-    "provider": "BrainDelay",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T09:54:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/BrainDelay/BatVenom",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "Batman",
-      "Venom",
-      "BatVenom",
-      "Roleplay"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T08:16:34.375068+00:00",
-    "source_ids": [
-      "BrainDelay/BatVenom"
-    ],
-    "family": "BatVenom"
-  },
-  {
     "id": "huggingface:BrainDelay/BatVenom-V7",
     "name": "BatVenom-V7",
     "provider": "BrainDelay",
@@ -11566,40 +11669,6 @@
       "khtsly/Qwen3.5-35B-A3B-Claude-4.6-Opus-Distilled-32k-GGUF"
     ],
     "family": "Qwen3.5-Claude-4.6-Opus-Distilled-32k"
-  },
-  {
-    "id": "huggingface:fishaudio/s2-pro",
-    "name": "s2-pro",
-    "provider": "fishaudio",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-09T05:48:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fishaudio/s2-pro",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "fish_qwen3_omni",
-      "text-to-speech",
-      "instruction-following",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T08:16:34.737156+00:00",
-    "source_ids": [
-      "fishaudio/s2-pro"
-    ],
-    "family": "s2-pro"
   },
   {
     "id": "huggingface:nightmedia/Qwen3.5-27B-Claude-4.6-OS-INSTRUCT-mxfp8-mlx",
@@ -15339,40 +15408,6 @@
       "jpacifico/Chocolatine-2-4B-Instruct-DPO-v2.1"
     ],
     "family": "Chocolatine-2--DPO-v2.1"
-  },
-  {
-    "id": "huggingface:zai-org/GLM-OCR",
-    "name": "GLM-OCR",
-    "provider": "zai-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-30T04:24:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zai-org/GLM-OCR",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "safetensors",
-      "glm_ocr",
-      "image-text-to-text",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T08:16:34.519324+00:00",
-    "source_ids": [
-      "zai-org/GLM-OCR"
-    ],
-    "family": "GLM-OCR"
   },
   {
     "id": "huggingface:EZCon/gemma-3-4b-it-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx",
