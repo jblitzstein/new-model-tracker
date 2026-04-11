@@ -973,6 +973,39 @@
     "family": "parakeet-unified-en"
   },
   {
+    "id": "huggingface:batiai/Gemma-4-26B-A4B-it-GGUF",
+    "name": "Gemma-4-26B-A4B-it-GGUF",
+    "provider": "batiai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T01:57:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/batiai/Gemma-4-26B-A4B-it-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "gemma4",
+      "moe",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T16:11:27.417307+00:00",
+    "source_ids": [
+      "batiai/Gemma-4-26B-A4B-it-GGUF"
+    ],
+    "family": "Gemma-4-it"
+  },
+  {
     "id": "huggingface:llmfan46/gemma-4-26B-A4B-it-uncensored-heretic-GGUF",
     "name": "gemma-4-26B-A4B-it-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -2535,6 +2568,39 @@
       "zai-org/GLM-5.1"
     ],
     "family": "GLM-5.1"
+  },
+  {
+    "id": "huggingface:AIDC-AI/Marco-Nano-Instruct",
+    "name": "Marco-Nano-Instruct",
+    "provider": "AIDC-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T08:15:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AIDC-AI/Marco-Nano-Instruct",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_moe",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-11T16:11:27.417277+00:00",
+    "source_ids": [
+      "AIDC-AI/Marco-Nano-Instruct"
+    ],
+    "family": "Marco-Nano"
   },
   {
     "id": "huggingface:TeichAI/gemma-4-31B-it-Claude-Opus-Distill",
@@ -15140,40 +15206,6 @@
       "OpenMOSS-Team/MOSS-TTS"
     ],
     "family": "MOSS-TTS"
-  },
-  {
-    "id": "huggingface:Soul-AILab/SoulX-Singer",
-    "name": "SoulX-Singer",
-    "provider": "Soul-AILab",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-02-06T03:39:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Soul-AILab/SoulX-Singer",
-    "tags": [
-      "text-to-speech",
-      "huggingface_hub",
-      "text-to-audio",
-      "music",
-      "singing-voice-synthesis",
-      "svs"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-12T12:15:17.292006+00:00",
-    "source_ids": [
-      "Soul-AILab/SoulX-Singer"
-    ],
-    "family": "SoulX-Singer"
   },
   {
     "id": "huggingface:eekay/Llama-3.1-8B-Instruct-eagle-numbers-ft",
