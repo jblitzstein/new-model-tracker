@@ -2811,6 +2811,41 @@
     "family": "Gemma 4"
   },
   {
+    "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit",
+    "name": "gemma-4-26B-A4B-it-AWQ-8bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T14:42:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-12T20:11:44.136686+00:00",
+    "source_ids": [
+      "cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit"
+    ],
+    "family": "gemma-4-it--8bit"
+  },
+  {
     "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF",
     "name": "Qwen3.5-35B-A3B-Claude-4.6-Opus-Uncensored-KL-UD-V2-GGUF",
     "provider": "LuffyTheFox",
@@ -3248,6 +3283,41 @@
     "family": "gemma-4-it-Mystery-Fine-Tune-HERETIC-UNCENSORED"
   },
   {
+    "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit",
+    "name": "gemma-4-26B-A4B-it-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T00:28:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-12T20:11:44.136745+00:00",
+    "source_ids": [
+      "cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit"
+    ],
+    "family": "gemma-4-it--4bit"
+  },
+  {
     "id": "huggingface:HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
     "name": "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
     "provider": "HauhauCS",
@@ -3454,6 +3524,76 @@
       "coder3101/gemma-4-31B-it-heretic"
     ],
     "family": "gemma-4-it-heretic"
+  },
+  {
+    "id": "huggingface:cyankiwi/gemma-4-31B-it-AWQ-4bit",
+    "name": "gemma-4-31B-it-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T20:03:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/gemma-4-31B-it-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-12T20:11:44.136624+00:00",
+    "source_ids": [
+      "cyankiwi/gemma-4-31B-it-AWQ-4bit"
+    ],
+    "family": "gemma-4-it--4bit"
+  },
+  {
+    "id": "huggingface:cyankiwi/gemma-4-31B-it-AWQ-8bit",
+    "name": "gemma-4-31B-it-AWQ-8bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T20:02:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/gemma-4-31B-it-AWQ-8bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-12T20:11:44.136561+00:00",
+    "source_ids": [
+      "cyankiwi/gemma-4-31B-it-AWQ-8bit"
+    ],
+    "family": "gemma-4-it--8bit"
   },
   {
     "id": "huggingface:nightmedia/gemma-4-26B-A4B-it-mxfp4-mlx",
@@ -14851,39 +14991,6 @@
     "family": "Qwen3.5-NVFP4"
   },
   {
-    "id": "huggingface:bharatgenai/Param2-17B-A2.4B-Thinking",
-    "name": "Param2-17B-A2.4B-Thinking",
-    "provider": "bharatgenai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-16T19:11:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bharatgenai/Param2-17B-A2.4B-Thinking",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "param2moe",
-      "text-generation",
-      "mixture-of-experts"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-13T20:11:05.774317+00:00",
-    "source_ids": [
-      "bharatgenai/Param2-17B-A2.4B-Thinking"
-    ],
-    "family": "Param2"
-  },
-  {
     "id": "huggingface:Qwen/Qwen3.5-397B-A17B",
     "name": "Qwen3.5-397B-A17B",
     "provider": "Qwen",
@@ -16482,40 +16589,6 @@
       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4"
     ],
     "family": "NVIDIA-Nemotron-3-Nano-NVFP4"
-  },
-  {
-    "id": "huggingface:nvidia/finite-difference-flow-optimization",
-    "name": "finite-difference-flow-optimization",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2025-12-18T14:20:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/finite-difference-flow-optimization",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "text-to-image",
-      "post-training",
-      "reinforcement-learning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-13T16:14:09.789290+00:00",
-    "source_ids": [
-      "nvidia/finite-difference-flow-optimization"
-    ],
-    "family": "finite-difference-flow-optimization"
   },
   {
     "id": "huggingface:nvidia/nemotron-speech-streaming-en-0.6b",
@@ -18370,39 +18443,6 @@
       "cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-8bit"
     ],
     "family": "Qwen3--2507--8bit"
-  },
-  {
-    "id": "huggingface:onnx-community/gemma-3-270m-it-ONNX",
-    "name": "gemma-3-270m-it-ONNX",
-    "provider": "onnx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-07T15:27:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/onnx-community/gemma-3-270m-it-ONNX",
-    "tags": [
-      "text-generation",
-      "transformers.js",
-      "onnx",
-      "gemma3_text",
-      "text-generation",
-      "gemma3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-13T20:11:05.774425+00:00",
-    "source_ids": [
-      "onnx-community/gemma-3-270m-it-ONNX"
-    ],
-    "family": "gemma-3-270m-it-ONNX"
   },
   {
     "id": "huggingface:cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
