@@ -1214,6 +1214,41 @@
     "family": "Huihui-Qwopus3.5-v3-abliterated-PolarQuant-Q5"
   },
   {
+    "id": "huggingface:nightmedia/gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx",
+    "name": "gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx",
+    "provider": "nightmedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T07:38:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nightmedia/gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "nightmedia",
+      "gemma"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-12T05:00:38.506994+00:00",
+    "source_ids": [
+      "nightmedia/gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx"
+    ],
+    "family": "gemma-4-it-Claude-Opus-Distill-mxfp8-mlx"
+  },
+  {
     "id": "huggingface:WWTCyberLab/gemma-4-31B-it-abliterated",
     "name": "gemma-4-31B-it-abliterated",
     "provider": "WWTCyberLab",
@@ -3667,6 +3702,39 @@
     "family": "google_gemma-4-E-it"
   },
   {
+    "id": "huggingface:CEIA-RL/qwen3-4b-dw-lr-hf-dpo",
+    "name": "qwen3-4b-dw-lr-hf-dpo",
+    "provider": "CEIA-RL",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T14:24:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CEIA-RL/qwen3-4b-dw-lr-hf-dpo",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-12T05:00:38.072156+00:00",
+    "source_ids": [
+      "CEIA-RL/qwen3-4b-dw-lr-hf-dpo"
+    ],
+    "family": "qwen3-dw-lr-hf-dpo"
+  },
+  {
     "id": "huggingface:Kashif786/gemma-3-270m-sindhi",
     "name": "gemma-3-270m-sindhi",
     "provider": "Kashif786",
@@ -5276,6 +5344,39 @@
       "amazon/GKA-primed-HQwen3-8B-Reasoner"
     ],
     "family": "GKA-primed-HQwen3-Reasoner"
+  },
+  {
+    "id": "huggingface:stratosphere/qwen2.5-1.5b-slips-immune-summarization",
+    "name": "qwen2.5-1.5b-slips-immune-summarization",
+    "provider": "stratosphere",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T14:52:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stratosphere/qwen2.5-1.5b-slips-immune-summarization",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-12T05:00:38.072233+00:00",
+    "source_ids": [
+      "stratosphere/qwen2.5-1.5b-slips-immune-summarization"
+    ],
+    "family": "qwen2.5-slips-immune-summarization"
   },
   {
     "id": "huggingface:unsloth/gemma-4-31B-it",
@@ -15814,74 +15915,6 @@
       "Disty0/FLUX.2-klein-4B-SDNQ-4bit-dynamic"
     ],
     "family": "FLUX.2-klein-SDNQ-4bit-dynamic"
-  },
-  {
-    "id": "huggingface:pnnbao-ump/VieNeu-TTS-0.3B-q8-gguf",
-    "name": "VieNeu-TTS-0.3B-q8-gguf",
-    "provider": "pnnbao-ump",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-01-08T13:00:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B-q8-gguf",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "realtime",
-      "tts",
-      "cpu",
-      "vietnamese"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-13T04:36:41.761632+00:00",
-    "source_ids": [
-      "pnnbao-ump/VieNeu-TTS-0.3B-q8-gguf"
-    ],
-    "family": "VieNeu-TTS-q8"
-  },
-  {
-    "id": "huggingface:pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf",
-    "name": "VieNeu-TTS-0.3B-q4-gguf",
-    "provider": "pnnbao-ump",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-01-08T01:12:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "realtime",
-      "tts",
-      "cpu",
-      "vietnamese"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-13T04:36:41.761667+00:00",
-    "source_ids": [
-      "pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf"
-    ],
-    "family": "VieNeu-TTS-q4"
   },
   {
     "id": "huggingface:LiquidAI/LFM2.5-1.2B-Instruct",
