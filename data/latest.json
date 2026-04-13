@@ -2576,6 +2576,41 @@
     "family": "gemma-4-it-uncensored-heretic"
   },
   {
+    "id": "huggingface:unsloth/gemma-4-31b-it-UD-MLX-4bit",
+    "name": "gemma-4-31b-it-UD-MLX-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T22:03:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-31b-it-UD-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T00:40:47.328597+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-31b-it-UD-MLX-4bit"
+    ],
+    "family": "gemma-4-it-UD-MLX-4bit"
+  },
+  {
     "id": "huggingface:trl-internal-testing/tiny-Gemma4ForConditionalGeneration",
     "name": "tiny-Gemma4ForConditionalGeneration",
     "provider": "trl-internal-testing",
@@ -3908,6 +3943,76 @@
       "noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF"
     ],
     "family": "gemma-4-it-MXFP4_MOE"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-E4B-it-UD-MLX-4bit",
+    "name": "gemma-4-E4B-it-UD-MLX-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T17:03:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-E4B-it-UD-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T00:40:47.328508+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-E4B-it-UD-MLX-4bit"
+    ],
+    "family": "gemma-4-E-it-UD-MLX-4bit"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-E2B-it-UD-MLX-4bit",
+    "name": "gemma-4-E2B-it-UD-MLX-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T16:55:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-UD-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T00:40:47.328545+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-E2B-it-UD-MLX-4bit"
+    ],
+    "family": "gemma-4-E-it-UD-MLX-4bit"
   },
   {
     "id": "openrouter:google/gemma-4-31b-it",
@@ -14145,39 +14250,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:farbodtavakkoli/OTel-LLM-12B-Safety",
-    "name": "OTel-LLM-12B-Safety",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-26T21:47:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-12B-Safety",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "gemma3",
-      "telecom",
-      "telecommunications",
-      "gsma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T00:30:07.363546+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-LLM-12B-Safety"
-    ],
-    "family": "OTel-LLM-Safety"
-  },
-  {
     "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-bf16",
     "name": "Qwen3.5-35B-A3B-Heretic-MLX-bf16",
     "provider": "TheCluster",
@@ -16589,40 +16661,6 @@
       "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4"
     ],
     "family": "NVIDIA-Nemotron-3-Nano-NVFP4"
-  },
-  {
-    "id": "huggingface:nvidia/nemotron-speech-streaming-en-0.6b",
-    "name": "nemotron-speech-streaming-en-0.6b",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-17T01:07:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "speech-recognition",
-      "cache-aware ASR",
-      "automatic-speech-recognition",
-      "streaming-asr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T00:30:08.037351+00:00",
-    "source_ids": [
-      "nvidia/nemotron-speech-streaming-en-0.6b"
-    ],
-    "family": "nemotron-speech-streaming-en"
   },
   {
     "id": "huggingface:DavidAU/Qwen3-48B-A4B-Savant-Commander-Distill-12X-Closed-Open-Heretic-Uncensored-GGUF",
