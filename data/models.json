@@ -39471,5 +39471,201 @@
       "inclusionAI/ZwZ-8B"
     ],
     "family": "ZwZ"
+  },
+  {
+    "id": "openrouter:openrouter/elephant-alpha",
+    "name": "Elephant",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T03:56:38+00:00",
+    "context_length": 262144,
+    "description": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage. It supports a 256K context window with up to 32K output...",
+    "url": "https://openrouter.ai/openrouter/elephant-alpha",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:22.285127+00:00",
+    "source_ids": [
+      "openrouter/elephant-alpha"
+    ],
+    "family": "Elephant"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Shepherd-Alpha",
+    "name": "Shepherd-Alpha",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T14:54:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Shepherd-Alpha",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "tactical-reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:22.480075+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Shepherd-Alpha"
+    ],
+    "family": "Shepherd-Alpha"
+  },
+  {
+    "id": "huggingface:justindal/llama3.1-8b-instruct",
+    "name": "llama3.1-8b-instruct",
+    "provider": "justindal",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-19T21:59:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/justindal/llama3.1-8b-instruct",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "llama",
+      "facebook",
+      "meta"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:22.480434+00:00",
+    "source_ids": [
+      "justindal/llama3.1-8b-instruct"
+    ],
+    "family": "llama3.1"
+  },
+  {
+    "id": "huggingface:nvidia/parakeet-tdt-0.6b-v2",
+    "name": "parakeet-tdt-0.6b-v2",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-15T19:31:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "automatic-speech-recognition",
+      "speech",
+      "audio",
+      "Transducer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:23.375927+00:00",
+    "source_ids": [
+      "nvidia/parakeet-tdt-0.6b-v2"
+    ],
+    "family": "parakeet-tdt-v2"
+  },
+  {
+    "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
+    "name": "Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
+    "provider": "ZERO-POINT-INTELLIGENCE-LTD",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T01:39:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "Z.P.I",
+      "ghost pass"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:23.537762+00:00",
+    "source_ids": [
+      "ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI"
+    ],
+    "family": "Miss-MARTHA-hot-POCKET-edition-OMNI"
+  },
+  {
+    "id": "huggingface:jiwon9703/Qwen3.5-KoReasoin-27B-v1",
+    "name": "Qwen3.5-KoReasoin-27B-v1",
+    "provider": "jiwon9703",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-23T00:45:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jiwon9703/Qwen3.5-KoReasoin-27B-v1",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:23.537847+00:00",
+    "source_ids": [
+      "jiwon9703/Qwen3.5-KoReasoin-27B-v1"
+    ],
+    "family": "Qwen3.5-KoReasoin-v1"
   }
 ]

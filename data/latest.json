@@ -1,5 +1,31 @@
 [
   {
+    "id": "openrouter:openrouter/elephant-alpha",
+    "name": "Elephant",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T03:56:38+00:00",
+    "context_length": 262144,
+    "description": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage. It supports a 256K context window with up to 32K output...",
+    "url": "https://openrouter.ai/openrouter/elephant-alpha",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:22.285127+00:00",
+    "source_ids": [
+      "openrouter/elephant-alpha"
+    ],
+    "family": "Elephant"
+  },
+  {
     "id": "huggingface:odats/rl_nmt_2026_04_12_13_17",
     "name": "rl_nmt_2026_04_12_13_17",
     "provider": "odats",
@@ -876,6 +902,39 @@
       "allenai/MolmoWeb-Pretrained-4B"
     ],
     "family": "MolmoWeb-Pretrained"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Shepherd-Alpha",
+    "name": "Shepherd-Alpha",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T14:54:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Shepherd-Alpha",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "tactical-reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:22.480075+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Shepherd-Alpha"
+    ],
+    "family": "Shepherd-Alpha"
   },
   {
     "id": "huggingface:odats/rl_nmt_2026_04_08_10_56",
@@ -1821,6 +1880,41 @@
       "WWTCyberLab/gemma-4-26B-A4B-it-abliterated"
     ],
     "family": "gemma-4-it-abliterated"
+  },
+  {
+    "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
+    "name": "Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
+    "provider": "ZERO-POINT-INTELLIGENCE-LTD",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T01:39:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "Z.P.I",
+      "ghost pass"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:23.537762+00:00",
+    "source_ids": [
+      "ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI"
+    ],
+    "family": "Miss-MARTHA-hot-POCKET-edition-OMNI"
   },
   {
     "id": "huggingface:DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking",
@@ -8819,6 +8913,41 @@
     "family": "MinerU-Diffusion-V1-0320"
   },
   {
+    "id": "huggingface:jiwon9703/Qwen3.5-KoReasoin-27B-v1",
+    "name": "Qwen3.5-KoReasoin-27B-v1",
+    "provider": "jiwon9703",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-23T00:45:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jiwon9703/Qwen3.5-KoReasoin-27B-v1",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:23.537847+00:00",
+    "source_ids": [
+      "jiwon9703/Qwen3.5-KoReasoin-27B-v1"
+    ],
+    "family": "Qwen3.5-KoReasoin-v1"
+  },
+  {
     "id": "huggingface:Simonc-44/Cygnis-Alpha-2-8B-v0.3-i1-GGUF",
     "name": "Cygnis-Alpha-2-8B-v0.3-i1-GGUF",
     "provider": "Simonc-44",
@@ -9656,6 +9785,39 @@
       "allenai/MolmoWeb-4B"
     ],
     "family": "MolmoWeb"
+  },
+  {
+    "id": "huggingface:justindal/llama3.1-8b-instruct",
+    "name": "llama3.1-8b-instruct",
+    "provider": "justindal",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-19T21:59:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/justindal/llama3.1-8b-instruct",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "llama",
+      "facebook",
+      "meta"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:22.480434+00:00",
+    "source_ids": [
+      "justindal/llama3.1-8b-instruct"
+    ],
+    "family": "llama3.1"
   },
   {
     "id": "huggingface:Smoffyy/Qwen3.5-4B-Instruct-Pure-GGUF",
@@ -11771,39 +11933,6 @@
     "family": "Miss_MARTHA-Qwen3.5-Omni"
   },
   {
-    "id": "huggingface:Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
-    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
-    "provider": "Mungert",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-12T20:36:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "nvidia",
-      "pytorch",
-      "nemotron-3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T16:09:31.678656+00:00",
-    "source_ids": [
-      "Mungert/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF"
-    ],
-    "family": "NVIDIA-Nemotron-3-Super-BF16"
-  },
-  {
     "id": "huggingface:BrainDelay/DoubleC",
     "name": "DoubleC",
     "provider": "BrainDelay",
@@ -12794,39 +12923,6 @@
     "family": "gpt-oss-heretic-v2"
   },
   {
-    "id": "huggingface:daniloreddy/Qwen3.5-4B_GGUF",
-    "name": "Qwen3.5-4B_GGUF",
-    "provider": "daniloreddy",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-07T23:16:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/daniloreddy/Qwen3.5-4B_GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "text-generation",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T16:09:31.678906+00:00",
-    "source_ids": [
-      "daniloreddy/Qwen3.5-4B_GGUF"
-    ],
-    "family": "Qwen3.5-4B"
-  },
-  {
     "id": "huggingface:efops/marziel-8b-custom",
     "name": "marziel-8b-custom",
     "provider": "efops",
@@ -12927,39 +13023,6 @@
       "voidful/Qwen3.5-27B-gemini-3.1-opus-4.6-reasoning"
     ],
     "family": "Qwen3.5-gemini-3.1-opus-4.6-reasoning"
-  },
-  {
-    "id": "huggingface:daniloreddy/gemma-3-4b-it_GGUF",
-    "name": "gemma-3-4b-it_GGUF",
-    "provider": "daniloreddy",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-07T16:48:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/daniloreddy/gemma-3-4b-it_GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "text-generation",
-      "instruction-tuned"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T16:09:31.678951+00:00",
-    "source_ids": [
-      "daniloreddy/gemma-3-4b-it_GGUF"
-    ],
-    "family": "gemma-3-it"
   },
   {
     "id": "huggingface:RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic",
@@ -14283,39 +14346,6 @@
       "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1"
     ],
     "family": "Qwen3.5-ultra-uncensored-heretic-v1"
-  },
-  {
-    "id": "huggingface:XCurOS/XCurOS-0.1-8B-Instruct",
-    "name": "XCurOS-0.1-8B-Instruct",
-    "provider": "XCurOS",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-28T13:22:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XCurOS/XCurOS-0.1-8B-Instruct",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T16:09:31.678850+00:00",
-    "source_ids": [
-      "XCurOS/XCurOS-0.1-8B-Instruct"
-    ],
-    "family": "XCurOS-0.1"
   },
   {
     "id": "huggingface:nostalgicskinco/air-compliance-llama-1b",
@@ -15791,72 +15821,6 @@
       "inclusionAI/LLaDA2.1-mini"
     ],
     "family": "LLaDA2.1-mini"
-  },
-  {
-    "id": "huggingface:Murasaki-Project/Murasaki-14B-v0.2-GGUF",
-    "name": "Murasaki-14B-v0.2-GGUF",
-    "provider": "Murasaki-Project",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-09T06:45:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Murasaki-Project/Murasaki-14B-v0.2-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "translation",
-      "light-novel",
-      "galgame",
-      "anime-subtitles"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T16:09:31.679125+00:00",
-    "source_ids": [
-      "Murasaki-Project/Murasaki-14B-v0.2-GGUF"
-    ],
-    "family": "Murasaki-v0.2"
-  },
-  {
-    "id": "huggingface:Murasaki-Project/Murasaki-8B-v0.2-GGUF",
-    "name": "Murasaki-8B-v0.2-GGUF",
-    "provider": "Murasaki-Project",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-09T06:45:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Murasaki-Project/Murasaki-8B-v0.2-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "translation",
-      "light-novel",
-      "galgame",
-      "anime-subtitles"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T16:09:31.679073+00:00",
-    "source_ids": [
-      "Murasaki-Project/Murasaki-8B-v0.2-GGUF"
-    ],
-    "family": "Murasaki-v0.2"
   },
   {
     "id": "huggingface:OpenMOSS-Team/MOSS-TTS-Realtime",
@@ -18308,40 +18272,6 @@
     "family": "test-save-tiny-random-llama3-smashed-pro"
   },
   {
-    "id": "huggingface:herimor/voxtream",
-    "name": "voxtream",
-    "provider": "herimor",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-09-17T17:46:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/herimor/voxtream",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "voxtream",
-      "text-to-speech",
-      "en",
-      "arxiv:2509.15969"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T16:09:32.296947+00:00",
-    "source_ids": [
-      "herimor/voxtream"
-    ],
-    "family": "voxtream"
-  },
-  {
     "id": "huggingface:PerceptronAI/Isaac-0.1",
     "name": "Isaac-0.1",
     "provider": "PerceptronAI",
@@ -19489,6 +19419,40 @@
       "software-mansion/react-native-executorch-hammer-2.1"
     ],
     "family": "react-native-executorch-hammer-2.1"
+  },
+  {
+    "id": "huggingface:nvidia/parakeet-tdt-0.6b-v2",
+    "name": "parakeet-tdt-0.6b-v2",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-15T19:31:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "automatic-speech-recognition",
+      "speech",
+      "audio",
+      "Transducer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T16:31:23.375927+00:00",
+    "source_ids": [
+      "nvidia/parakeet-tdt-0.6b-v2"
+    ],
+    "family": "parakeet-tdt-v2"
   },
   {
     "id": "huggingface:ibm-granite/granite-speech-3.3-8b",
