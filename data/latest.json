@@ -740,6 +740,40 @@
     "family": "ToriiGate-0.5"
   },
   {
+    "id": "huggingface:tencent/Unicom-Unified-Multimodal-Modeling-via-Compressed-Continuous-Semantic-Representations",
+    "name": "Unicom-Unified-Multimodal-Modeling-via-Compressed-Continuous-Semantic-Representations",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-04-09T07:49:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/Unicom-Unified-Multimodal-Modeling-via-Compressed-Continuous-Semantic-Representations",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "multimodal",
+      "text-to-image",
+      "image-editing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.186995+00:00",
+    "source_ids": [
+      "tencent/Unicom-Unified-Multimodal-Modeling-via-Compressed-Continuous-Semantic-Representations"
+    ],
+    "family": "Unicom-Unified-Multimodal-Modeling-via-Compressed-Continuous-Semantic-Representations"
+  },
+  {
     "id": "huggingface:DraconicDragon/ToriiGate-0.5-GGUF",
     "name": "ToriiGate-0.5-GGUF",
     "provider": "DraconicDragon",
@@ -4490,6 +4524,40 @@
     "family": "MOSS-TTS-Nano"
   },
   {
+    "id": "huggingface:OpenMOSS-Team/MOSS-TTS-Nano-100M",
+    "name": "MOSS-TTS-Nano-100M",
+    "provider": "OpenMOSS-Team",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-02T15:13:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M",
+    "tags": [
+      "text-to-speech",
+      "pytorch",
+      "moss_tts_nano",
+      "text-to-speech",
+      "custom_code",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.469870+00:00",
+    "source_ids": [
+      "OpenMOSS-Team/MOSS-TTS-Nano-100M"
+    ],
+    "family": "MOSS-TTS-Nano-100M"
+  },
+  {
     "id": "huggingface:CEIA-RL/qwen3-4b-dw-lr-hf-dpo",
     "name": "qwen3-4b-dw-lr-hf-dpo",
     "provider": "CEIA-RL",
@@ -6198,6 +6266,39 @@
       "stratosphere/qwen2.5-1.5b-slips-immune-summarization"
     ],
     "family": "qwen2.5-slips-immune-summarization"
+  },
+  {
+    "id": "huggingface:luoyike2003/LongShuGameDev-Qwen3.5-122B-REAP-Architect-MLX-4bit",
+    "name": "LongShuGameDev-Qwen3.5-122B-REAP-Architect-MLX-4bit",
+    "provider": "luoyike2003",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T14:12:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/luoyike2003/LongShuGameDev-Qwen3.5-122B-REAP-Architect-MLX-4bit",
+    "tags": [
+      "text-generation",
+      "mlx-lm",
+      "safetensors",
+      "qwen3_5_moe",
+      "llm",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.104068+00:00",
+    "source_ids": [
+      "luoyike2003/LongShuGameDev-Qwen3.5-122B-REAP-Architect-MLX-4bit"
+    ],
+    "family": "LongShuGameDev-Qwen3.5-REAP-Architect-MLX-4bit"
   },
   {
     "id": "huggingface:unsloth/gemma-4-31B-it",
@@ -12386,39 +12487,6 @@
     "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
   },
   {
-    "id": "huggingface:respinosamena/Helios-Nova",
-    "name": "Helios-Nova",
-    "provider": "respinosamena",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T15:30:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/respinosamena/Helios-Nova",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "helios_nova",
-      "language-model",
-      "causal-lm",
-      "transformer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-14T12:11:59.154751+00:00",
-    "source_ids": [
-      "respinosamena/Helios-Nova"
-    ],
-    "family": "Helios-Nova"
-  },
-  {
     "id": "huggingface:respinosamena/Helios-Nova-306M",
     "name": "Helios-Nova-306M",
     "provider": "respinosamena",
@@ -15558,6 +15626,41 @@
     "family": "MiniMax M2.5"
   },
   {
+    "id": "huggingface:inclusionAI/ZwZ-8B",
+    "name": "ZwZ-8B",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-12T08:52:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/ZwZ-8B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.657302+00:00",
+    "source_ids": [
+      "inclusionAI/ZwZ-8B"
+    ],
+    "family": "ZwZ"
+  },
+  {
     "id": "huggingface:zai-org/GLM-5-FP8",
     "name": "GLM-5-FP8",
     "provider": "zai-org",
@@ -15589,6 +15692,105 @@
       "zai-org/GLM-5-FP8"
     ],
     "family": "GLM-5-FP8"
+  },
+  {
+    "id": "huggingface:inclusionAI/Ring-2.5-1T",
+    "name": "Ring-2.5-1T",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-10T12:45:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/Ring-2.5-1T",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "bailing_hybrid",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.104256+00:00",
+    "source_ids": [
+      "inclusionAI/Ring-2.5-1T"
+    ],
+    "family": "Ring-2.5-1T"
+  },
+  {
+    "id": "huggingface:inclusionAI/LLaDA2.1-flash",
+    "name": "LLaDA2.1-flash",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-09T10:47:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/LLaDA2.1-flash",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llada2_moe",
+      "text-generation",
+      "dllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.104166+00:00",
+    "source_ids": [
+      "inclusionAI/LLaDA2.1-flash"
+    ],
+    "family": "LLaDA2.1-flash"
+  },
+  {
+    "id": "huggingface:inclusionAI/LLaDA2.1-mini",
+    "name": "LLaDA2.1-mini",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-09T07:27:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/LLaDA2.1-mini",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llada2_moe",
+      "text-generation",
+      "dllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.104123+00:00",
+    "source_ids": [
+      "inclusionAI/LLaDA2.1-mini"
+    ],
+    "family": "LLaDA2.1-mini"
   },
   {
     "id": "huggingface:Murasaki-Project/Murasaki-14B-v0.2-GGUF",
@@ -17460,6 +17662,39 @@
     "family": "GLM-4.6-Derestricted-v3"
   },
   {
+    "id": "huggingface:inclusionAI/LLaDA2.0-mini",
+    "name": "LLaDA2.0-mini",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-25T14:08:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/LLaDA2.0-mini",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llada2_moe",
+      "text-generation",
+      "dllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.104281+00:00",
+    "source_ids": [
+      "inclusionAI/LLaDA2.0-mini"
+    ],
+    "family": "LLaDA2.0-mini"
+  },
+  {
     "id": "huggingface:internlm/Spatial-SSRL-Qwen3VL-4B",
     "name": "Spatial-SSRL-Qwen3VL-4B",
     "provider": "InternLM",
@@ -18278,6 +18513,39 @@
     "family": "StarO-Ai"
   },
   {
+    "id": "huggingface:inclusionAI/Ling-mini-2.0",
+    "name": "Ling-mini-2.0",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-09-08T13:43:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/Ling-mini-2.0",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "bailing_moe",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.104200+00:00",
+    "source_ids": [
+      "inclusionAI/Ling-mini-2.0"
+    ],
+    "family": "Ling-mini-2.0"
+  },
+  {
     "id": "huggingface:LiquidAI/LFM2-1.2B-Tool-GGUF",
     "name": "LFM2-1.2B-Tool-GGUF",
     "provider": "LiquidAI",
@@ -19022,6 +19290,39 @@
       "LeFeujitif/sandbox"
     ],
     "family": "sandbox"
+  },
+  {
+    "id": "huggingface:inclusionAI/Ling-lite-1.5",
+    "name": "Ling-lite-1.5",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-05-11T05:32:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/Ling-lite-1.5",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "bailing_moe",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-13T12:28:29.104227+00:00",
+    "source_ids": [
+      "inclusionAI/Ling-lite-1.5"
+    ],
+    "family": "Ling-lite-1.5"
   },
   {
     "id": "huggingface:software-mansion/react-native-executorch-qwen-3",
