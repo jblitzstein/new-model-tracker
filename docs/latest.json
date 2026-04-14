@@ -1813,6 +1813,40 @@
     "family": "urdu-speecht5-finetuned"
   },
   {
+    "id": "huggingface:baidu/ERNIE-Image",
+    "name": "ERNIE-Image",
+    "provider": "Baidu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-04-07T07:26:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/baidu/ERNIE-Image",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "license:apache-2.0",
+      "diffusers:ErnieImagePipeline"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T16:29:08.319570+00:00",
+    "source_ids": [
+      "baidu/ERNIE-Image"
+    ],
+    "family": "ERNIE-Image"
+  },
+  {
     "id": "huggingface:jackasda211233/Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
     "name": "Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
     "provider": "jackasda211233",
@@ -4264,6 +4298,41 @@
     "family": "Gemma-4-E-Uncensored-HauhauCS-Aggressive"
   },
   {
+    "id": "huggingface:trohrbaugh/gemma-4-26B-A4B-it-heretic-ara",
+    "name": "gemma-4-26B-A4B-it-heretic-ara",
+    "provider": "trohrbaugh",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T23:22:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trohrbaugh/gemma-4-26B-A4B-it-heretic-ara",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T16:29:09.284180+00:00",
+    "source_ids": [
+      "trohrbaugh/gemma-4-26B-A4B-it-heretic-ara"
+    ],
+    "family": "gemma-4-it-heretic-ara"
+  },
+  {
     "id": "huggingface:nohurry/gemma-4-26B-A4B-it-heretic-GUFF",
     "name": "gemma-4-26B-A4B-it-heretic-GUFF",
     "provider": "nohurry",
@@ -4505,6 +4574,41 @@
       "cyankiwi/gemma-4-31B-it-AWQ-8bit"
     ],
     "family": "gemma-4-it--8bit"
+  },
+  {
+    "id": "huggingface:trohrbaugh/gemma-4-31b-it-heretic-ara",
+    "name": "gemma-4-31b-it-heretic-ara",
+    "provider": "trohrbaugh",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T19:40:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trohrbaugh/gemma-4-31b-it-heretic-ara",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T16:29:09.284140+00:00",
+    "source_ids": [
+      "trohrbaugh/gemma-4-31b-it-heretic-ara"
+    ],
+    "family": "gemma-4-it-heretic-ara"
   },
   {
     "id": "huggingface:nightmedia/gemma-4-26B-A4B-it-mxfp4-mlx",
@@ -5602,6 +5706,40 @@
       "nvidia/EGM-4B"
     ],
     "family": "EGM"
+  },
+  {
+    "id": "huggingface:baidu/ERNIE-Image-Turbo",
+    "name": "ERNIE-Image-Turbo",
+    "provider": "Baidu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-04-02T10:57:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/baidu/ERNIE-Image-Turbo",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "license:apache-2.0",
+      "diffusers:ErnieImagePipeline"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T16:29:08.319633+00:00",
+    "source_ids": [
+      "baidu/ERNIE-Image-Turbo"
+    ],
+    "family": "ERNIE-Image-Turbo"
   },
   {
     "id": "huggingface:Flakily6416/Qwen3.5-27B-Opus-Reasoning-v2-Abliterated-EvoPress-GGUF",
@@ -7874,6 +8012,41 @@
       "nvidia/NVIDIA-Ising-Calibration-1"
     ],
     "family": "NVIDIA-Ising-Calibration-1"
+  },
+  {
+    "id": "huggingface:nvidia/Ising-Calibration-1-35B-A3B",
+    "name": "Ising-Calibration-1-35B-A3B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-30T08:24:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Ising-Calibration-1-35B-A3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "quantum"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T16:29:09.284250+00:00",
+    "source_ids": [
+      "nvidia/Ising-Calibration-1-35B-A3B"
+    ],
+    "family": "Ising-Calibration-1"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.5-9B-v3",
@@ -12311,35 +12484,6 @@
     "family": "AgniVedhA"
   },
   {
-    "id": "openrouter:z-ai/glm-5-turbo",
-    "name": "Z.ai: GLM 5 Turbo",
-    "provider": "Zhipu AI",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-15T14:06:13+00:00",
-    "context_length": 202752,
-    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows involving long execution chains, with improved complex instruction decomposition, tool use, scheduled and persistent execution, and overall stability across extended tasks.",
-    "url": "https://openrouter.ai/z-ai/glm-5-turbo",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.96,
-      "completion_per_million": 3.2
-    },
-    "first_seen": "2026-03-15T16:09:35.768513+00:00",
-    "source_ids": [
-      "z-ai/glm-5-turbo"
-    ],
-    "family": "GLM 5 Turbo"
-  },
-  {
     "id": "huggingface:DavidAU/Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
     "name": "Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
     "provider": "DavidAU",
@@ -16438,32 +16582,6 @@
       "pmczip/FLUX.2-klein-9B_Models"
     ],
     "family": "FLUX.2-klein-9B_Models"
-  },
-  {
-    "id": "openrouter:minimax/minimax-m2.5:free",
-    "name": "MiniMax: MiniMax M2.5 (free)",
-    "provider": "MiniMax",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-12T15:01:42+00:00",
-    "context_length": 196608,
-    "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
-    "url": "https://openrouter.ai/minimax/minimax-m2.5:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-03-15T16:09:35.770217+00:00",
-    "source_ids": [
-      "minimax/minimax-m2.5:free"
-    ],
-    "family": "MiniMax M2.5"
   },
   {
     "id": "huggingface:inclusionAI/ZwZ-8B",
