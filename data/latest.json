@@ -132,6 +132,39 @@
     "family": "Dayhoff-UR90-10"
   },
   {
+    "id": "huggingface:piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF",
+    "name": "BugTraceAI-Apex-G4-26B-Master-GGUF",
+    "provider": "piotreknow02",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T20:06:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "security",
+      "cybersecurity",
+      "offensive-security",
+      "dpo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:42.442592+00:00",
+    "source_ids": [
+      "piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF"
+    ],
+    "family": "BugTraceAI-Apex-G4-Master"
+  },
+  {
     "id": "openrouter:openrouter/elephant-alpha",
     "name": "Elephant",
     "provider": "openrouter",
@@ -490,6 +523,40 @@
       "allenai/qwen3_4b_multiview"
     ],
     "family": "qwen3_4b_multiview"
+  },
+  {
+    "id": "huggingface:KuroTo4ka/Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
+    "name": "Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
+    "provider": "KuroTo4ka",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T21:23:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KuroTo4ka/Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
+    "tags": [
+      "image-to-text",
+      "gguf",
+      "vision",
+      "multimodal",
+      "qwen",
+      "qwen-3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:42.710609+00:00",
+    "source_ids": [
+      "KuroTo4ka/Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF"
+    ],
+    "family": "Qwen3-VL--Unredacted-MAX-Quants"
   },
   {
     "id": "huggingface:byteshape/Qwen3.5-35B-A3B-GGUF",
@@ -1071,6 +1138,76 @@
     "family": "MolmoWeb-Pretrained"
   },
   {
+    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-GGUF",
+    "name": "EXAONE-4.5-33B-GGUF",
+    "provider": "LGAI-EXAONE",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T16:29:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "lg-ai",
+      "exaone",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:43.414752+00:00",
+    "source_ids": [
+      "LGAI-EXAONE/EXAONE-4.5-33B-GGUF"
+    ],
+    "family": "EXAONE-4.5"
+  },
+  {
+    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-FP8",
+    "name": "EXAONE-4.5-33B-FP8",
+    "provider": "LGAI-EXAONE",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T16:29:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "exaone4_5",
+      "text-generation",
+      "lg-ai"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:43.414778+00:00",
+    "source_ids": [
+      "LGAI-EXAONE/EXAONE-4.5-33B-FP8"
+    ],
+    "family": "EXAONE-4.5-FP8"
+  },
+  {
     "id": "huggingface:reaperdoesntknow/Shepherd-Alpha",
     "name": "Shepherd-Alpha",
     "provider": "reaperdoesntknow",
@@ -1341,6 +1478,41 @@
       "lthn/lemrd"
     ],
     "family": "lemrd"
+  },
+  {
+    "id": "huggingface:lthn/lemmy",
+    "name": "lemmy",
+    "provider": "lthn",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T20:15:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lthn/lemmy",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "lemma",
+      "llama.cpp",
+      "ollama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:43.414609+00:00",
+    "source_ids": [
+      "lthn/lemmy"
+    ],
+    "family": "lemmy"
   },
   {
     "id": "huggingface:lthn/lemer",
@@ -2659,6 +2831,41 @@
       "TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill"
     ],
     "family": "gemma-4-it-Claude-Opus-Distill"
+  },
+  {
+    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B",
+    "name": "EXAONE-4.5-33B",
+    "provider": "LGAI-EXAONE",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T08:34:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "exaone4_5",
+      "text-generation",
+      "lg-ai"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:43.414730+00:00",
+    "source_ids": [
+      "LGAI-EXAONE/EXAONE-4.5-33B"
+    ],
+    "family": "EXAONE-4.5"
   },
   {
     "id": "huggingface:mradermacher/Hulu-Med-Flash-Preview-27B-i1-GGUF",
@@ -5124,6 +5331,41 @@
       "CEIA-RL/qwen3-4b-dw-lr-hf-dpo"
     ],
     "family": "qwen3-dw-lr-hf-dpo"
+  },
+  {
+    "id": "huggingface:opendatalab/MinerU2.5-Pro-2604-1.2B",
+    "name": "MinerU2.5-Pro-2604-1.2B",
+    "provider": "opendatalab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T14:11:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/opendatalab/MinerU2.5-Pro-2604-1.2B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen2_vl",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:43.414520+00:00",
+    "source_ids": [
+      "opendatalab/MinerU2.5-Pro-2604-1.2B"
+    ],
+    "family": "MinerU2.5-Pro-2604"
   },
   {
     "id": "huggingface:Kashif786/gemma-3-270m-sindhi",
@@ -12605,40 +12847,6 @@
     "family": "DoubleC"
   },
   {
-    "id": "huggingface:mradermacher/Hulu-Med-235A22-i1-GGUF",
-    "name": "Hulu-Med-235A22-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-12T06:00:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Hulu-Med-235A22-i1-GGUF",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "gguf",
-      "medical",
-      "multimodal",
-      "vision-language-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-15T08:14:07.187035+00:00",
-    "source_ids": [
-      "mradermacher/Hulu-Med-235A22-i1-GGUF"
-    ],
-    "family": "Hulu-Med-235A22-i1"
-  },
-  {
     "id": "huggingface:google/gemma-4-31B",
     "name": "gemma-4-31B",
     "provider": "Google",
@@ -15899,41 +16107,6 @@
     "family": "Qwen3.5-NVFP4"
   },
   {
-    "id": "huggingface:Qwen/Qwen3.5-397B-A17B",
-    "name": "Qwen3.5-397B-A17B",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-16T04:55:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-15T08:14:07.873440+00:00",
-    "source_ids": [
-      "Qwen/Qwen3.5-397B-A17B"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:jdopensource/JoyAI-LLM-Flash",
     "name": "JoyAI-LLM-Flash",
     "provider": "jdopensource",
@@ -16962,6 +17135,41 @@
       "unsloth/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4"
     ],
     "family": "NVIDIA-Nemotron-3-Nano-NVFP4"
+  },
+  {
+    "id": "huggingface:Alibaba-DAMO-Academy/RynnBrain-Nav-8B",
+    "name": "RynnBrain-Nav-8B",
+    "provider": "Alibaba-DAMO-Academy",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-28T08:55:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain-Nav-8B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "robotics"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:43.414695+00:00",
+    "source_ids": [
+      "Alibaba-DAMO-Academy/RynnBrain-Nav-8B"
+    ],
+    "family": "RynnBrain-Nav"
   },
   {
     "id": "huggingface:wikeeyang/Flux2-Klein-9B-True-V1",
@@ -20962,6 +21170,40 @@
       "mlx-community/whisper-tiny"
     ],
     "family": "whisper-tiny"
+  },
+  {
+    "id": "huggingface:nyadla-sys/whisper-tiny.en.tflite",
+    "name": "whisper-tiny.en.tflite",
+    "provider": "nyadla-sys",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-09-03T01:32:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nyadla-sys/whisper-tiny.en.tflite",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "tflite",
+      "whisper",
+      "speech-recognition",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-14T08:38:43.264408+00:00",
+    "source_ids": [
+      "nyadla-sys/whisper-tiny.en.tflite"
+    ],
+    "family": "whisper-tiny.en.tflite"
   },
   {
     "id": "huggingface:DunnBC22/trocr-large-printed-cmc7_tesseract_MICR_ocr",
