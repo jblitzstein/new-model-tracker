@@ -191,6 +191,39 @@
     "family": "Elephant"
   },
   {
+    "id": "huggingface:ubergarm/MiniMax-M2.7-GGUF",
+    "name": "MiniMax-M2.7-GGUF",
+    "provider": "ubergarm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T13:58:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ubergarm/MiniMax-M2.7-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "imatrix",
+      "conversational",
+      "minimax_m2",
+      "ik_llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T05:00:47.048588+00:00",
+    "source_ids": [
+      "ubergarm/MiniMax-M2.7-GGUF"
+    ],
+    "family": "MiniMax-M2.7"
+  },
+  {
     "id": "huggingface:odats/rl_nmt_2026_04_12_13_17",
     "name": "rl_nmt_2026_04_12_13_17",
     "provider": "odats",
@@ -1101,6 +1134,39 @@
       "EasyDeL/gemma-4-31B-it"
     ],
     "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF",
+    "name": "qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF",
+    "provider": "cudabenchmarktest",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T03:03:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3.5",
+      "reasoning",
+      "distillation",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T05:00:47.048637+00:00",
+    "source_ids": [
+      "cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF"
+    ],
+    "family": "qwen3.5-qwen3.6-reasoning-distilled"
   },
   {
     "id": "huggingface:allenai/MolmoWeb-Pretrained-4B",
@@ -15405,41 +15471,6 @@
       "ubergarm/Qwen3.5-27B-GGUF"
     ],
     "family": "Qwen3.5"
-  },
-  {
-    "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-bf16",
-    "name": "Qwen3.5-35B-A3B-Heretic-MLX-bf16",
-    "provider": "TheCluster",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-26T07:48:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-bf16",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-16T04:56:56.962398+00:00",
-    "source_ids": [
-      "TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-bf16"
-    ],
-    "family": "Qwen3.5-Heretic-MLX-bf16"
   },
   {
     "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-8bit",
