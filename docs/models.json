@@ -41566,5 +41566,239 @@
       "RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic"
     ],
     "family": "Qwen3.5-FP8-dynamic"
+  },
+  {
+    "id": "openrouter:meta-llama/llama-guard-4-12b:free",
+    "name": "Meta: Llama Guard 4 12B (free)",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-30T01:06:33+00:00",
+    "context_length": 163840,
+    "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM...",
+    "url": "https://openrouter.ai/meta-llama/llama-guard-4-12b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-15T20:21:15.862922+00:00",
+    "source_ids": [
+      "meta-llama/llama-guard-4-12b:free"
+    ],
+    "family": "Llama Guard 4"
+  },
+  {
+    "id": "huggingface:michelinolinolino/gemma4-4b-sci",
+    "name": "gemma4-4b-sci",
+    "provider": "michelinolinolino",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T08:48:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/michelinolinolino/gemma4-4b-sci",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "safetensors",
+      "gemma4",
+      "gemma",
+      "gemma-4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T20:21:16.048407+00:00",
+    "source_ids": [
+      "michelinolinolino/gemma4-4b-sci"
+    ],
+    "family": "gemma4-sci"
+  },
+  {
+    "id": "huggingface:MiniMaxAI/MiniMax-M2.7",
+    "name": "MiniMax-M2.7",
+    "provider": "MiniMaxAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T03:37:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "minimax_m2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T20:21:16.048550+00:00",
+    "source_ids": [
+      "MiniMaxAI/MiniMax-M2.7"
+    ],
+    "family": "MiniMax-M2.7"
+  },
+  {
+    "id": "huggingface:tiny-random/gemma-4-dense",
+    "name": "gemma-4-dense",
+    "provider": "tiny-random",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T08:08:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tiny-random/gemma-4-dense",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T20:21:17.027411+00:00",
+    "source_ids": [
+      "tiny-random/gemma-4-dense"
+    ],
+    "family": "gemma-4-dense"
+  },
+  {
+    "id": "huggingface:tiny-random/gemma-4-moe",
+    "name": "gemma-4-moe",
+    "provider": "tiny-random",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T08:35:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tiny-random/gemma-4-moe",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T20:21:17.027473+00:00",
+    "source_ids": [
+      "tiny-random/gemma-4-moe"
+    ],
+    "family": "gemma-4-moe"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-v1.2",
+    "name": "NVIDIA-Nemotron-Parse-v1.2",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-18T19:43:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "nemotron_parse",
+      "feature-extraction",
+      "VLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T20:21:17.027520+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Parse-v1.2"
+    ],
+    "family": "NVIDIA-Nemotron-Parse-v1.2"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-v1.1-TC",
+    "name": "NVIDIA-Nemotron-Parse-v1.1-TC",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-15T19:47:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.1-TC",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "nemotron_parse_tc",
+      "feature-extraction",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T20:21:17.027554+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC"
+    ],
+    "family": "NVIDIA-Nemotron-Parse-v1.1-TC"
   }
 ]
