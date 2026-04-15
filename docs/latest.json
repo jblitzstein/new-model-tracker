@@ -391,6 +391,140 @@
     "family": "gemma-4-it-heretic-ara"
   },
   {
+    "id": "huggingface:linosium/gemma4-4b-sci",
+    "name": "gemma4-4b-sci",
+    "provider": "linosium",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T08:48:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/linosium/gemma4-4b-sci",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "safetensors",
+      "gemma4",
+      "gemma",
+      "gemma-4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T12:27:36.426887+00:00",
+    "source_ids": [
+      "linosium/gemma4-4b-sci"
+    ],
+    "family": "gemma4-sci"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/FernflowerAI-35B-A3B-Uncensored-KL-ReLU-GGUF",
+    "name": "FernflowerAI-35B-A3B-Uncensored-KL-ReLU-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T07:59:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/FernflowerAI-35B-A3B-Uncensored-KL-ReLU-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.5",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T12:27:37.575256+00:00",
+    "source_ids": [
+      "LuffyTheFox/FernflowerAI-35B-A3B-Uncensored-KL-ReLU-GGUF"
+    ],
+    "family": "FernflowerAI-Uncensored-KL-ReLU"
+  },
+  {
+    "id": "huggingface:baa-ai/MiniMax-M2.7-RAM-100GB-MLX",
+    "name": "MiniMax-M2.7-RAM-100GB-MLX",
+    "provider": "baa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T02:09:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/baa-ai/MiniMax-M2.7-RAM-100GB-MLX",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "minimax_m2",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T12:27:36.426734+00:00",
+    "source_ids": [
+      "baa-ai/MiniMax-M2.7-RAM-100GB-MLX"
+    ],
+    "family": "MiniMax-M2.7-RAM-100GB-MLX"
+  },
+  {
+    "id": "huggingface:baa-ai/MiniMax-M2.7-RAM-120GB-MLX",
+    "name": "MiniMax-M2.7-RAM-120GB-MLX",
+    "provider": "baa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T02:08:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/baa-ai/MiniMax-M2.7-RAM-120GB-MLX",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "minimax_m2",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T12:27:36.426663+00:00",
+    "source_ids": [
+      "baa-ai/MiniMax-M2.7-RAM-120GB-MLX"
+    ],
+    "family": "MiniMax-M2.7-RAM-120GB-MLX"
+  },
+  {
     "id": "huggingface:odats/rl_nmt_2026_04_11_13_52",
     "name": "rl_nmt_2026_04_11_13_52",
     "provider": "odats",
@@ -691,6 +825,39 @@
       "byteshape/Qwen3.5-35B-A3B-GGUF"
     ],
     "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:KikoCis/gemma-4-31b-it-IQ3_XS-GGUF",
+    "name": "gemma-4-31b-it-IQ3_XS-GGUF",
+    "provider": "KikoCis",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T18:35:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KikoCis/gemma-4-31b-it-IQ3_XS-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "3-bit",
+      "IQ3_XS",
+      "cli",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T12:27:36.426841+00:00",
+    "source_ids": [
+      "KikoCis/gemma-4-31b-it-IQ3_XS-GGUF"
+    ],
+    "family": "gemma-4-it-IQ3_XS"
   },
   {
     "id": "huggingface:inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
@@ -10802,6 +10969,39 @@
     "family": "Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-ultra-uncensored-heretic-v1"
   },
   {
+    "id": "huggingface:justindal/llama3.1-8b-leetcoder",
+    "name": "llama3.1-8b-leetcoder",
+    "provider": "justindal",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-20T07:44:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/justindal/llama3.1-8b-leetcoder",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "llama",
+      "facebook",
+      "meta"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T12:27:36.427077+00:00",
+    "source_ids": [
+      "justindal/llama3.1-8b-leetcoder"
+    ],
+    "family": "llama3.1-leetcoder"
+  },
+  {
     "id": "huggingface:mradermacher/Llama-70B-God-Tier-i1-GGUF",
     "name": "Llama-70B-God-Tier-i1-GGUF",
     "provider": "mradermacher",
@@ -14668,41 +14868,6 @@
       "nvidia/EGM-8B"
     ],
     "family": "EGM"
-  },
-  {
-    "id": "huggingface:Xlnk/Qwen3.5-0.8B-GGUF",
-    "name": "Qwen3.5-0.8B-GGUF",
-    "provider": "Xlnk",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T12:12:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Xlnk/Qwen3.5-0.8B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-0.8B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-16T12:22:04.601000+00:00",
-    "source_ids": [
-      "Xlnk/Qwen3.5-0.8B-GGUF"
-    ],
-    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-heretic",
