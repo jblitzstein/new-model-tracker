@@ -41463,5 +41463,108 @@
       "LuffyTheFox/FernflowerAI-35B-A3B-Uncensored-KL-ReLU-GGUF"
     ],
     "family": "FernflowerAI-Uncensored-KL-ReLU"
+  },
+  {
+    "id": "huggingface:NO8D/ImagingControl",
+    "name": "ImagingControl",
+    "provider": "NO8D",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-03-04T13:23:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NO8D/ImagingControl",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "template:diffusion-lora",
+      "slider",
+      "LoRA"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T16:26:50.581890+00:00",
+    "source_ids": [
+      "NO8D/ImagingControl"
+    ],
+    "family": "ImagingControl"
+  },
+  {
+    "id": "huggingface:MahmoudAshraf/mms-300m-1130-forced-aligner",
+    "name": "mms-300m-1130-forced-aligner",
+    "provider": "MahmoudAshraf",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-05-02T21:02:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T16:26:50.998808+00:00",
+    "source_ids": [
+      "MahmoudAshraf/mms-300m-1130-forced-aligner"
+    ],
+    "family": "mms-300m-1130-forced-aligner"
+  },
+  {
+    "id": "huggingface:RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic",
+    "name": "Qwen3.5-397B-A17B-FP8-dynamic",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-18T07:24:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T16:26:51.092591+00:00",
+    "source_ids": [
+      "RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic"
+    ],
+    "family": "Qwen3.5-FP8-dynamic"
   }
 ]
