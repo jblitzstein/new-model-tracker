@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:mradermacher/SciRM-Ref-7B-i1-GGUF",
+    "name": "SciRM-Ref-7B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T12:35:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/SciRM-Ref-7B-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "reward-model",
+      "scientific-writing",
+      "evaluation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T08:38:46.011323+00:00",
+    "source_ids": [
+      "mradermacher/SciRM-Ref-7B-i1-GGUF"
+    ],
+    "family": "SciRM-Ref-i1"
+  },
+  {
     "id": "huggingface:microsoft/Dayhoff-3b-UR90-30000",
     "name": "Dayhoff-3b-UR90-30000",
     "provider": "Microsoft",
@@ -163,6 +196,39 @@
       "piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF"
     ],
     "family": "BugTraceAI-Apex-G4-Master"
+  },
+  {
+    "id": "huggingface:VladShash/olmo-3-7b-lean-prover-dpo-olmo",
+    "name": "olmo-3-7b-lean-prover-dpo-olmo",
+    "provider": "VladShash",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T15:13:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VladShash/olmo-3-7b-lean-prover-dpo-olmo",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-15T08:38:46.011477+00:00",
+    "source_ids": [
+      "VladShash/olmo-3-7b-lean-prover-dpo-olmo"
+    ],
+    "family": "olmo-3-lean-prover-dpo-olmo"
   },
   {
     "id": "openrouter:openrouter/elephant-alpha",
@@ -12518,39 +12584,6 @@
     "family": "Cygnis-Alpha-2-v0.2"
   },
   {
-    "id": "huggingface:LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
-    "name": "Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-15T17:49:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-16T08:27:43.994235+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Uncensored-Distilled"
-  },
-  {
     "id": "huggingface:aivedha/AgniVedhA",
     "name": "AgniVedhA",
     "provider": "aivedha",
@@ -18626,39 +18659,6 @@
       "cazzz307/Abliterated-Llama-3.2-1B-Instruct"
     ],
     "family": "Abliterated-Llama-3.2"
-  },
-  {
-    "id": "huggingface:ArliAI/GLM-4.6-Derestricted-v3",
-    "name": "GLM-4.6-Derestricted-v3",
-    "provider": "ArliAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-02T00:32:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ArliAI/GLM-4.6-Derestricted-v3",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "glm4_moe",
-      "text-generation",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-16T08:27:43.994376+00:00",
-    "source_ids": [
-      "ArliAI/GLM-4.6-Derestricted-v3"
-    ],
-    "family": "GLM-4.6-Derestricted-v3"
   },
   {
     "id": "huggingface:inclusionAI/LLaDA2.0-mini",
