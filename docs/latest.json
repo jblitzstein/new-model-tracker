@@ -8354,6 +8354,40 @@
     "family": "Qwen3.5-HLWQ-Q5"
   },
   {
+    "id": "huggingface:nvidia/PixelDiT-1300M-1024px",
+    "name": "PixelDiT-1300M-1024px",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-03-30T20:34:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/PixelDiT-1300M-1024px",
+    "tags": [
+      "text-to-image",
+      "pytorch",
+      "pixeldit",
+      "image-generation",
+      "text-to-image",
+      "diffusion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T00:42:41.879693+00:00",
+    "source_ids": [
+      "nvidia/PixelDiT-1300M-1024px"
+    ],
+    "family": "PixelDiT-1300M-1024px"
+  },
+  {
     "id": "huggingface:YTan2000/Qwen3.5-27B-TQ3_1S",
     "name": "Qwen3.5-27B-TQ3_1S",
     "provider": "YTan2000",
@@ -10401,6 +10435,39 @@
       "prithivMLmods/OpenMed-SynthVision-MedVL-AIO-GGUF"
     ],
     "family": "OpenMed-SynthVision-MedVL-AIO"
+  },
+  {
+    "id": "huggingface:AxiomicLabs/GPT-X-125M",
+    "name": "GPT-X-125M",
+    "provider": "AxiomicLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-23T08:59:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AxiomicLabs/GPT-X-125M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gptx",
+      "text-generation",
+      "language-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T00:42:41.733214+00:00",
+    "source_ids": [
+      "AxiomicLabs/GPT-X-125M"
+    ],
+    "family": "GPT-X-125M"
   },
   {
     "id": "huggingface:opendatalab/MinerU-Diffusion-V1-0320-2.5B",
@@ -13974,41 +14041,6 @@
       "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
     ],
     "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
-  },
-  {
-    "id": "huggingface:llmfan46/gemma-3-12b-it-ultra-uncensored-heretic-GGUF",
-    "name": "gemma-3-12b-it-ultra-uncensored-heretic-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T12:52:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/gemma-3-12b-it-ultra-uncensored-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T00:31:28.461984+00:00",
-    "source_ids": [
-      "llmfan46/gemma-3-12b-it-ultra-uncensored-heretic-GGUF"
-    ],
-    "family": "gemma-3-it-ultra-uncensored-heretic"
   },
   {
     "id": "huggingface:BrainDelay/BatVenom-V7",
