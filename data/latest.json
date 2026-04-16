@@ -101,6 +101,39 @@
     "family": "dots.ocr-i1"
   },
   {
+    "id": "huggingface:OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+    "name": "gemma-4-E4B-it-OBLITERATED",
+    "provider": "OBLITERATUS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T01:22:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gemma4",
+      "abliterated",
+      "uncensored",
+      "obliteratus"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T12:29:07.558163+00:00",
+    "source_ids": [
+      "OBLITERATUS/gemma-4-E4B-it-OBLITERATED"
+    ],
+    "family": "gemma-4-E-it-OBLITERATED"
+  },
+  {
     "id": "huggingface:mradermacher/SciRM-Ref-7B-i1-GGUF",
     "name": "SciRM-Ref-7B-i1-GGUF",
     "provider": "mradermacher",
@@ -822,6 +855,39 @@
       "odats/rl_nmt_2026_04_11_13_31"
     ],
     "family": "rl_nmt_2026_04_11_13_31"
+  },
+  {
+    "id": "huggingface:baa-ai/Gemma-4-31B-it-RAM-31GB-MLX",
+    "name": "Gemma-4-31B-it-RAM-31GB-MLX",
+    "provider": "baa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-11T10:33:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/baa-ai/Gemma-4-31B-it-RAM-31GB-MLX",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "gemma-4",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T12:29:07.558219+00:00",
+    "source_ids": [
+      "baa-ai/Gemma-4-31B-it-RAM-31GB-MLX"
+    ],
+    "family": "Gemma-4-it-RAM-31GB-MLX"
   },
   {
     "id": "huggingface:groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF",
@@ -1771,6 +1837,39 @@
       "reaperdoesntknow/Shepherd-Alpha"
     ],
     "family": "Shepherd-Alpha"
+  },
+  {
+    "id": "huggingface:avlp12/GLM-5.1-Alis-MLX-Dynamic-2.7bpw",
+    "name": "GLM-5.1-Alis-MLX-Dynamic-2.7bpw",
+    "provider": "avlp12",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T14:43:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/avlp12/GLM-5.1-Alis-MLX-Dynamic-2.7bpw",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "glm_moe_dsa",
+      "quantized",
+      "glm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T12:29:07.557956+00:00",
+    "source_ids": [
+      "avlp12/GLM-5.1-Alis-MLX-Dynamic-2.7bpw"
+    ],
+    "family": "GLM-5.1-Alis-MLX-Dynamic-2.7bpw"
   },
   {
     "id": "huggingface:odats/rl_nmt_2026_04_08_10_56",
@@ -12554,37 +12653,6 @@
     "family": "llama-300M-v5-swap_numbers"
   },
   {
-    "id": "openrouter:mistralai/mistral-small-2603",
-    "name": "Mistral: Mistral Small 4",
-    "provider": "Mistral",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T21:14:45+00:00",
-    "context_length": 262144,
-    "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from Magistral, multimodal understanding from Pixtral, and agentic coding capabilities from Devstral, enabling one model to handle complex analysis, software development, and visual tasks within the same workflow.",
-    "url": "https://openrouter.ai/mistralai/mistral-small-2603",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.15,
-      "completion_per_million": 0.6
-    },
-    "first_seen": "2026-03-17T12:20:49.950165+00:00",
-    "source_ids": [
-      "mistralai/mistral-small-2603"
-    ],
-    "family": "Mistral Small 4"
-  },
-  {
     "id": "huggingface:khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF",
     "name": "Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF",
     "provider": "khazarai",
@@ -13218,41 +13286,6 @@
       "Gianloko/apex-coder-7b"
     ],
     "family": "apex-coder"
-  },
-  {
-    "id": "huggingface:noctrex/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF",
-    "name": "Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF",
-    "provider": "noctrex",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-14T18:30:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/noctrex/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled",
-      "base_model:quantized:Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled",
-      "endpoints_compatible"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T12:20:50.880155+00:00",
-    "source_ids": [
-      "noctrex/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-MXFP4_MOE"
   },
   {
     "id": "huggingface:z-lab/Qwen3.5-27B-PARO",
