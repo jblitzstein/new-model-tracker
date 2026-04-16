@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:anthropic/claude-opus-4.7",
+    "name": "Anthropic: Claude Opus 4.7",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T14:51:40+00:00",
+    "context_length": 1000000,
+    "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.7",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-04-16T16:37:00.124507+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.7"
+    ],
+    "family": "Claude Opus 4.7"
+  },
+  {
     "id": "huggingface:OpenMOSS-Teams/MOSS-TTS-Nano-100M",
     "name": "MOSS-TTS-Nano-100M",
     "provider": "OpenMOSS-Teams",
@@ -13255,39 +13286,6 @@
     "family": "banglish-companion"
   },
   {
-    "id": "huggingface:Gianloko/apex-coder-7b",
-    "name": "apex-coder-7b",
-    "provider": "Gianloko",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-14T22:57:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Gianloko/apex-coder-7b",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen2",
-      "apex",
-      "salesforce",
-      "lwc"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T16:28:42.664360+00:00",
-    "source_ids": [
-      "Gianloko/apex-coder-7b"
-    ],
-    "family": "apex-coder"
-  },
-  {
     "id": "huggingface:z-lab/Qwen3.5-27B-PARO",
     "name": "Qwen3.5-27B-PARO",
     "provider": "z-lab",
@@ -16382,39 +16380,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:MultiverseComputingCAI/Hypernova-60B-2602-GGUF",
-    "name": "Hypernova-60B-2602-GGUF",
-    "provider": "MultiverseComputingCAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T09:54:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2602-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "text-generation",
-      "arxiv:2508.10925",
-      "base_model:MultiverseComputingCAI/Hypernova-60B-2602"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T16:28:42.664578+00:00",
-    "source_ids": [
-      "MultiverseComputingCAI/Hypernova-60B-2602-GGUF"
-    ],
-    "family": "Hypernova-2602"
-  },
-  {
     "id": "huggingface:BestWishYsh/Helios-Mid",
     "name": "Helios-Mid",
     "provider": "BestWishYsh",
@@ -16547,39 +16512,6 @@
       "tiiuae/Falcon-OCR"
     ],
     "family": "Falcon-OCR"
-  },
-  {
-    "id": "huggingface:MultiverseComputingCAI/Hypernova-60B-2602",
-    "name": "Hypernova-60B-2602",
-    "provider": "MultiverseComputingCAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-20T15:28:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2602",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T16:28:42.664614+00:00",
-    "source_ids": [
-      "MultiverseComputingCAI/Hypernova-60B-2602"
-    ],
-    "family": "Hypernova-2602"
   },
   {
     "id": "huggingface:MayaKD/qwen2-vl-audio",
@@ -20114,6 +20046,40 @@
     "family": "Qwen3--2507--8bit"
   },
   {
+    "id": "huggingface:nvidia/parakeet-tdt-0.6b-v3",
+    "name": "parakeet-tdt-0.6b-v3",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-04T13:34:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "parakeet_tdt",
+      "automatic-speech-recognition",
+      "speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T16:37:00.736956+00:00",
+    "source_ids": [
+      "nvidia/parakeet-tdt-0.6b-v3"
+    ],
+    "family": "parakeet-tdt-v3"
+  },
+  {
     "id": "huggingface:cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
     "name": "Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
     "provider": "cyankiwi",
@@ -20814,39 +20780,6 @@
       "ibm-granite/granite-speech-3.3-8b"
     ],
     "family": "granite-speech-3.3"
-  },
-  {
-    "id": "huggingface:trl-internal-testing/tiny-Llama4ForCausalLM",
-    "name": "tiny-Llama4ForCausalLM",
-    "provider": "trl-internal-testing",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-08T21:21:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trl-internal-testing/tiny-Llama4ForCausalLM",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama4_text",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T16:28:42.664431+00:00",
-    "source_ids": [
-      "trl-internal-testing/tiny-Llama4ForCausalLM"
-    ],
-    "family": "tiny-Llama4ForCausalLM"
   },
   {
     "id": "openrouter:nvidia/llama-3.1-nemotron-ultra-253b-v1",
