@@ -1,5 +1,106 @@
 [
   {
+    "id": "huggingface:OpenMOSS-Teams/MOSS-TTS-Nano-100M",
+    "name": "MOSS-TTS-Nano-100M",
+    "provider": "OpenMOSS-Teams",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-15T15:52:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenMOSS-Teams/MOSS-TTS-Nano-100M",
+    "tags": [
+      "text-to-speech",
+      "pytorch",
+      "moss_tts_nano",
+      "text-to-speech",
+      "custom_code",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T08:39:06.385330+00:00",
+    "source_ids": [
+      "OpenMOSS-Teams/MOSS-TTS-Nano-100M"
+    ],
+    "family": "MOSS-TTS-Nano-100M"
+  },
+  {
+    "id": "huggingface:VladShash/mistral-7B-v0.3-lean-prover-dpo-olmo",
+    "name": "mistral-7B-v0.3-lean-prover-dpo-olmo",
+    "provider": "VladShash",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T13:02:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VladShash/mistral-7B-v0.3-lean-prover-dpo-olmo",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T08:39:05.611386+00:00",
+    "source_ids": [
+      "VladShash/mistral-7B-v0.3-lean-prover-dpo-olmo"
+    ],
+    "family": "mistral-v0.3-lean-prover-dpo-olmo"
+  },
+  {
+    "id": "huggingface:mradermacher/dots.ocr-i1-GGUF",
+    "name": "dots.ocr-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T10:00:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/dots.ocr-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "image-to-text",
+      "ocr",
+      "document-parse"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T08:39:05.933602+00:00",
+    "source_ids": [
+      "mradermacher/dots.ocr-i1-GGUF"
+    ],
+    "family": "dots.ocr-i1"
+  },
+  {
     "id": "huggingface:mradermacher/SciRM-Ref-7B-i1-GGUF",
     "name": "SciRM-Ref-7B-i1-GGUF",
     "provider": "mradermacher",
@@ -229,6 +330,72 @@
       "VladShash/olmo-3-7b-lean-prover-dpo-olmo"
     ],
     "family": "olmo-3-lean-prover-dpo-olmo"
+  },
+  {
+    "id": "huggingface:ethicalabs/Echo-DSRN-114M-v0.1.1",
+    "name": "Echo-DSRN-114M-v0.1.1",
+    "provider": "ethicalabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T14:56:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ethicalabs/Echo-DSRN-114M-v0.1.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "echo",
+      "text-generation",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T08:39:05.611309+00:00",
+    "source_ids": [
+      "ethicalabs/Echo-DSRN-114M-v0.1.1"
+    ],
+    "family": "Echo-DSRN-114M-v0.1.1"
+  },
+  {
+    "id": "huggingface:inferencerlabs/GLM-5.1-MLX-4.8bit-INF",
+    "name": "GLM-5.1-MLX-4.8bit-INF",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T07:04:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-4.8bit-INF",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "glm_moe_dsa",
+      "quantized",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-16T08:39:05.611484+00:00",
+    "source_ids": [
+      "inferencerlabs/GLM-5.1-MLX-4.8bit-INF"
+    ],
+    "family": "GLM-5.1-MLX-4.8bit-INF"
   },
   {
     "id": "openrouter:openrouter/elephant-alpha",
@@ -12319,41 +12486,6 @@
     "family": "s2-pro"
   },
   {
-    "id": "huggingface:mrdomtol/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-    "name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-    "provider": "mrdomtol",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-17T01:08:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mrdomtol/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5_moe",
-      "uncensored",
-      "qwen3.5",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T08:19:18.997080+00:00",
-    "source_ids": [
-      "mrdomtol/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
-    ],
-    "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
-  },
-  {
     "id": "huggingface:bartowski/mistralai_Mistral-Small-4-119B-2603-GGUF",
     "name": "mistralai_Mistral-Small-4-119B-2603-GGUF",
     "provider": "bartowski",
@@ -12985,40 +13117,6 @@
       "Simonc-44/Cygnis-Alpha-2-8B-v0.2"
     ],
     "family": "Cygnis-Alpha-2-v0.2"
-  },
-  {
-    "id": "huggingface:aivedha/AgniVedhA",
-    "name": "AgniVedhA",
-    "provider": "aivedha",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-03-15T17:36:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aivedha/AgniVedhA",
-    "tags": [
-      "text-to-video",
-      "transformers",
-      "gguf",
-      "zen",
-      "zenlm",
-      "hanzo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T08:19:18.729276+00:00",
-    "source_ids": [
-      "aivedha/AgniVedhA"
-    ],
-    "family": "AgniVedhA"
   },
   {
     "id": "huggingface:DavidAU/Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
@@ -14862,41 +14960,6 @@
       "OpenMOSS-Team/MOSS-TTS-GGUF"
     ],
     "family": "MOSS-TTS"
-  },
-  {
-    "id": "huggingface:staeiou/bartleby-qwen3.5-4b",
-    "name": "bartleby-qwen3.5-4b",
-    "provider": "staeiou",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-04T08:13:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/staeiou/bartleby-qwen3.5-4b",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen3_5",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T08:19:18.997050+00:00",
-    "source_ids": [
-      "staeiou/bartleby-qwen3.5-4b"
-    ],
-    "family": "bartleby-qwen3.5"
   },
   {
     "id": "huggingface:mlx-community/Qwen3.5-27B-mxfp8",
@@ -16988,40 +17051,6 @@
     "family": "Anima-INT8"
   },
   {
-    "id": "huggingface:pmczip/FLUX.2-klein-9B_Models",
-    "name": "FLUX.2-klein-9B_Models",
-    "provider": "pmczip",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-02-12T15:07:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pmczip/FLUX.2-klein-9B_Models",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "lora",
-      "t2i",
-      "text-to-image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T08:19:18.628151+00:00",
-    "source_ids": [
-      "pmczip/FLUX.2-klein-9B_Models"
-    ],
-    "family": "FLUX.2-klein-9B_Models"
-  },
-  {
     "id": "huggingface:inclusionAI/ZwZ-8B",
     "name": "ZwZ-8B",
     "provider": "inclusionAI",
@@ -17387,39 +17416,6 @@
       "eekay/Llama-3.1-8B-Instruct-eagle-numbers-ft"
     ],
     "family": "Llama-3.1--eagle-numbers-ft"
-  },
-  {
-    "id": "huggingface:z-lab/LLaMA3.1-8B-Instruct-DFlash-UltraChat",
-    "name": "LLaMA3.1-8B-Instruct-DFlash-UltraChat",
-    "provider": "z-lab",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-05T22:11:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/z-lab/LLaMA3.1-8B-Instruct-DFlash-UltraChat",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "feature-extraction",
-      "dflash"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T08:19:18.563883+00:00",
-    "source_ids": [
-      "z-lab/LLaMA3.1-8B-Instruct-DFlash-UltraChat"
-    ],
-    "family": "LLaMA3.1--DFlash-Ultra"
   },
   {
     "id": "huggingface:aisingapore/Gemma-SEA-LION-v4-4B-VL",
@@ -18366,40 +18362,6 @@
       "mradermacher/WiNGPT-DocLoom-i1-GGUF"
     ],
     "family": "WiNGPT-DocLoom-i1"
-  },
-  {
-    "id": "huggingface:FluidInference/diar-streaming-sortformer-coreml",
-    "name": "diar-streaming-sortformer-coreml",
-    "provider": "FluidInference",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-24T21:31:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FluidInference/diar-streaming-sortformer-coreml",
-    "tags": [
-      "automatic-speech-recognition",
-      "coreml",
-      "speaker-diarization",
-      "speech",
-      "audio",
-      "apple"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T08:19:18.928849+00:00",
-    "source_ids": [
-      "FluidInference/diar-streaming-sortformer-coreml"
-    ],
-    "family": "diar-streaming-sortformer-coreml"
   },
   {
     "id": "huggingface:DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF",
@@ -19409,41 +19371,6 @@
       "datalab-to/chandra"
     ],
     "family": "chandra"
-  },
-  {
-    "id": "huggingface:PaddlePaddle/PaddleOCR-VL",
-    "name": "PaddleOCR-VL",
-    "provider": "PaddlePaddle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-16T10:14:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL",
-    "tags": [
-      "image-text-to-text",
-      "PaddleOCR",
-      "safetensors",
-      "paddleocr_vl",
-      "ERNIE4.5",
-      "PaddlePaddle"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-17T08:19:18.996990+00:00",
-    "source_ids": [
-      "PaddlePaddle/PaddleOCR-VL"
-    ],
-    "family": "PaddleOCR-VL"
   },
   {
     "id": "huggingface:RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4",
