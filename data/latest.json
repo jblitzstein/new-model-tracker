@@ -1223,6 +1223,41 @@
     "family": "Qwen3.5"
   },
   {
+    "id": "huggingface:SL-AI/GRaPE-2-Mini_GGUF",
+    "name": "GRaPE-2-Mini_GGUF",
+    "provider": "SL-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T19:56:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SL-AI/GRaPE-2-Mini_GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "reasoning",
+      "thinking_modes",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T05:03:30.781871+00:00",
+    "source_ids": [
+      "SL-AI/GRaPE-2-Mini_GGUF"
+    ],
+    "family": "GRaPE-2-Mini"
+  },
+  {
     "id": "huggingface:KikoCis/gemma-4-31b-it-IQ3_XS-GGUF",
     "name": "gemma-4-31b-it-IQ3_XS-GGUF",
     "provider": "KikoCis",
@@ -4039,6 +4074,76 @@
       "caiovicentino1/Qwen3.5-9B-Neo-HLWQ-Q5"
     ],
     "family": "Qwen3.5-Neo-HLWQ-Q5"
+  },
+  {
+    "id": "huggingface:QuantTrio/gemma-4-31B-it-AWQ",
+    "name": "gemma-4-31B-it-AWQ",
+    "provider": "QuantTrio",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T23:59:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/QuantTrio/gemma-4-31B-it-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "vLLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T05:03:30.781964+00:00",
+    "source_ids": [
+      "QuantTrio/gemma-4-31B-it-AWQ"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:QuantTrio/gemma-4-31B-it-AWQ-6Bit",
+    "name": "gemma-4-31B-it-AWQ-6Bit",
+    "provider": "QuantTrio",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T23:59:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/QuantTrio/gemma-4-31B-it-AWQ-6Bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "vLLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T05:03:30.782044+00:00",
+    "source_ids": [
+      "QuantTrio/gemma-4-31B-it-AWQ-6Bit"
+    ],
+    "family": "gemma-4-it--6Bit"
   },
   {
     "id": "huggingface:llmfan46/gemma-4-31B-it-uncensored-heretic-GGUF",
@@ -12343,6 +12448,39 @@
     "family": "MiniMax M2.7"
   },
   {
+    "id": "huggingface:veriloop-lab/veriLoop-coder-e1",
+    "name": "veriLoop-coder-e1",
+    "provider": "veriloop-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T08:38:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/veriloop-lab/veriLoop-coder-e1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "code",
+      "coding-agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T05:03:29.804643+00:00",
+    "source_ids": [
+      "veriloop-lab/veriLoop-coder-e1"
+    ],
+    "family": "veriLoop-coder-e1"
+  },
+  {
     "id": "huggingface:baidu/Qianfan-OCR",
     "name": "Qianfan-OCR",
     "provider": "Baidu",
@@ -13282,41 +13420,6 @@
       "Simonc-44/Cygnis-Alpha-2-8B-v0.2"
     ],
     "family": "Cygnis-Alpha-2-v0.2"
-  },
-  {
-    "id": "huggingface:DavidAU/Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
-    "name": "Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-15T13:09:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-18T04:43:24.170747+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Deckard-Heretic-Uncensored"
   },
   {
     "id": "huggingface:sifat-febo/banglish-companion",
@@ -19939,41 +20042,6 @@
       "internlm/Intern-S1-mini"
     ],
     "family": "Intern-S1-mini"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2-VL-450M-GGUF",
-    "name": "LFM2-VL-450M-GGUF",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-17T09:11:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2-VL-450M-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "vision",
-      "vlm",
-      "liquid",
-      "lfm2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-18T04:43:24.170849+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2-VL-450M-GGUF"
-    ],
-    "family": "LFM2-VL-450M"
   },
   {
     "id": "huggingface:LiquidAI/LFM2-VL-450M",
