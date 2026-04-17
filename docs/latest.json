@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:cmp-nct/Qwen3.6-35B-A3B-GGUF",
+    "name": "Qwen3.6-35B-A3B-GGUF",
+    "provider": "cmp-nct",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T14:59:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cmp-nct/Qwen3.6-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3_6_moe",
+      "demodokos"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:23.119074+00:00",
+    "source_ids": [
+      "cmp-nct/Qwen3.6-35B-A3B-GGUF"
+    ],
+    "family": "Qwen3.6"
+  },
+  {
     "id": "openrouter:anthropic/claude-opus-4.7",
     "name": "Anthropic: Claude Opus 4.7",
     "provider": "Anthropic",
@@ -29,6 +64,72 @@
       "anthropic/claude-opus-4.7"
     ],
     "family": "Claude Opus 4.7"
+  },
+  {
+    "id": "huggingface:Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF",
+    "name": "Qwen3.5-9B-GLM5.1-Distill-v1-GGUF",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T01:01:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "local-inference",
+      "quantized",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:22.031256+00:00",
+    "source_ids": [
+      "Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
+    ],
+    "family": "Qwen3.5-GLM5.1-Distill-v1"
+  },
+  {
+    "id": "huggingface:Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1",
+    "name": "Qwen3.5-9B-GLM5.1-Distill-v1",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T20:43:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "safetensors",
+      "qwen3_5",
+      "llama.cpp",
+      "local-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:22.031290+00:00",
+    "source_ids": [
+      "Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1"
+    ],
+    "family": "Qwen3.5-GLM5.1-Distill-v1"
   },
   {
     "id": "huggingface:OpenMOSS-Teams/MOSS-TTS-Nano-100M",
@@ -165,6 +266,39 @@
     "family": "gemma-4-E-it-OBLITERATED"
   },
   {
+    "id": "huggingface:0xSero/Qwen3.5-264B-REAP-W4A16",
+    "name": "Qwen3.5-264B-REAP-W4A16",
+    "provider": "0xSero",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T21:48:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xSero/Qwen3.5-264B-REAP-W4A16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:22.031188+00:00",
+    "source_ids": [
+      "0xSero/Qwen3.5-264B-REAP-W4A16"
+    ],
+    "family": "Qwen3.5-REAP-W4A16"
+  },
+  {
     "id": "huggingface:mradermacher/SciRM-Ref-7B-i1-GGUF",
     "name": "SciRM-Ref-7B-i1-GGUF",
     "provider": "mradermacher",
@@ -196,6 +330,39 @@
       "mradermacher/SciRM-Ref-7B-i1-GGUF"
     ],
     "family": "SciRM-Ref-i1"
+  },
+  {
+    "id": "huggingface:0xSero/GLM-5.1-555B-A14B-REAP",
+    "name": "GLM-5.1-555B-A14B-REAP",
+    "provider": "0xSero",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T10:18:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xSero/GLM-5.1-555B-A14B-REAP",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "glm_moe_dsa",
+      "text-generation",
+      "reap"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:22.031026+00:00",
+    "source_ids": [
+      "0xSero/GLM-5.1-555B-A14B-REAP"
+    ],
+    "family": "GLM-5.1-REAP"
   },
   {
     "id": "huggingface:Abiray/LTX-2.3-22B-DISTILLED-1.1-GGUF",
@@ -3326,6 +3493,39 @@
     "family": "LFM2.5-Distilled-Claude"
   },
   {
+    "id": "huggingface:0xSero/gemma-4-19b-a4b-it-REAP",
+    "name": "gemma-4-19b-a4b-it-REAP",
+    "provider": "0xSero",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-05T18:22:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xSero/gemma-4-19b-a4b-it-REAP",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:22.031158+00:00",
+    "source_ids": [
+      "0xSero/gemma-4-19b-a4b-it-REAP"
+    ],
+    "family": "gemma-4-it-REAP"
+  },
+  {
     "id": "huggingface:deadbydawn101/gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit",
     "name": "gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit",
     "provider": "deadbydawn101",
@@ -3357,6 +3557,39 @@
       "deadbydawn101/gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit"
     ],
     "family": "gemma-4-E-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit"
+  },
+  {
+    "id": "huggingface:0xSero/gemma-4-21b-a4b-it-REAP",
+    "name": "gemma-4-21b-a4b-it-REAP",
+    "provider": "0xSero",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-05T14:03:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xSero/gemma-4-21b-a4b-it-REAP",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:22.031219+00:00",
+    "source_ids": [
+      "0xSero/gemma-4-21b-a4b-it-REAP"
+    ],
+    "family": "gemma-4-it-REAP"
   },
   {
     "id": "huggingface:s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
@@ -9952,6 +10185,39 @@
       "bartowski/AuriAetherwiing_TQ3.5-27B-Musica-v1-GGUF"
     ],
     "family": "AuriAetherwiing_TQ3.5-Musica-v1"
+  },
+  {
+    "id": "huggingface:0xSero/GLM-5-REAP-381B",
+    "name": "GLM-5-REAP-381B",
+    "provider": "0xSero",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T21:51:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xSero/GLM-5-REAP-381B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "glm_moe_dsa",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T16:23:22.031083+00:00",
+    "source_ids": [
+      "0xSero/GLM-5-REAP-381B"
+    ],
+    "family": "GLM-5-REAP"
   },
   {
     "id": "huggingface:mlx-community/Voxtral-4B-TTS-2603-mlx-bf16",
