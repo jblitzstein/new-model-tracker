@@ -198,6 +198,39 @@
     "family": "SciRM-Ref-i1"
   },
   {
+    "id": "huggingface:JANGQ-AI/MiniMax-M2.7-JANGTQ",
+    "name": "MiniMax-M2.7-JANGTQ",
+    "provider": "JANGQ-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T05:03:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JANGQ-AI/MiniMax-M2.7-JANGTQ",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "minimax_m2",
+      "jang",
+      "jangtq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T00:40:51.901344+00:00",
+    "source_ids": [
+      "JANGQ-AI/MiniMax-M2.7-JANGTQ"
+    ],
+    "family": "MiniMax-M2.7-JANGTQ"
+  },
+  {
     "id": "huggingface:microsoft/Dayhoff-3b-UR90-30000",
     "name": "Dayhoff-3b-UR90-30000",
     "provider": "Microsoft",
@@ -721,6 +754,72 @@
       "LuffyTheFox/FernflowerAI-35B-A3B-Uncensored-KL-ReLU-GGUF"
     ],
     "family": "FernflowerAI-Uncensored-KL-ReLU"
+  },
+  {
+    "id": "huggingface:JANGQ-AI/MiniMax-M2.7-JANG_2L",
+    "name": "MiniMax-M2.7-JANG_2L",
+    "provider": "JANGQ-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T05:29:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JANGQ-AI/MiniMax-M2.7-JANG_2L",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "minimax_m2",
+      "jang",
+      "minimax"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T00:40:51.901284+00:00",
+    "source_ids": [
+      "JANGQ-AI/MiniMax-M2.7-JANG_2L"
+    ],
+    "family": "MiniMax-M2.7-JANG_2L"
+  },
+  {
+    "id": "huggingface:JANGQ-AI/MiniMax-M2.7-JANG_3L",
+    "name": "MiniMax-M2.7-JANG_3L",
+    "provider": "JANGQ-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T05:24:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JANGQ-AI/MiniMax-M2.7-JANG_3L",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "minimax_m2",
+      "jang",
+      "minimax"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T00:40:51.901229+00:00",
+    "source_ids": [
+      "JANGQ-AI/MiniMax-M2.7-JANG_3L"
+    ],
+    "family": "MiniMax-M2.7-JANG_3L"
   },
   {
     "id": "huggingface:baa-ai/MiniMax-M2.7-RAM-100GB-MLX",
@@ -11269,6 +11368,39 @@
     "family": "OmniCoder--Int4"
   },
   {
+    "id": "huggingface:JANGQ-AI/Nemotron-Cascade-2-30B-A3B-JANG_2L",
+    "name": "Nemotron-Cascade-2-30B-A3B-JANG_2L",
+    "provider": "JANGQ-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-21T17:38:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JANGQ-AI/Nemotron-Cascade-2-30B-A3B-JANG_2L",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "nemotron_h",
+      "jang",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-17T00:40:51.901156+00:00",
+    "source_ids": [
+      "JANGQ-AI/Nemotron-Cascade-2-30B-A3B-JANG_2L"
+    ],
+    "family": "Nemotron-Cascade-2-JANG_2L"
+  },
+  {
     "id": "huggingface:ai-sage/GigaChat3.1-10B-A1.8B-GGUF",
     "name": "GigaChat3.1-10B-A1.8B-GGUF",
     "provider": "ai-sage",
@@ -16379,39 +16511,6 @@
       "amd/MiniMax-M2.5-MXFP4"
     ],
     "family": "MiniMax-M2.5-MXFP4"
-  },
-  {
-    "id": "huggingface:guidelabs/steerling-8b",
-    "name": "steerling-8b",
-    "provider": "guidelabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-22T22:16:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/guidelabs/steerling-8b",
-    "tags": [
-      "text-generation",
-      "steerling",
-      "safetensors",
-      "causal-diffusion",
-      "interpretability",
-      "concept-steering"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-18T00:33:16.311488+00:00",
-    "source_ids": [
-      "guidelabs/steerling-8b"
-    ],
-    "family": "steerling"
   },
   {
     "id": "huggingface:tiiuae/Falcon-OCR",
