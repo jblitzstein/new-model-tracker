@@ -2337,6 +2337,39 @@
     "family": "rl_nmt_2026_04_08_10_28"
   },
   {
+    "id": "huggingface:batiai/gemma-4-E4B-it-GGUF",
+    "name": "gemma-4-E4B-it-GGUF",
+    "provider": "batiai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T04:55:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/batiai/gemma-4-E4B-it-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "gemma",
+      "gemma4",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-18T04:50:01.780447+00:00",
+    "source_ids": [
+      "batiai/gemma-4-E4B-it-GGUF"
+    ],
+    "family": "gemma-4-E-it"
+  },
+  {
     "id": "huggingface:MahmoodAnaam/MSP-Fusion",
     "name": "MSP-Fusion",
     "provider": "MahmoodAnaam",
@@ -5740,6 +5773,76 @@
       "deadbydawn101/gemma-4-E2B-Heretic-Uncensored-mlx-4bit"
     ],
     "family": "gemma-4-E-Heretic-Uncensored-mlx-4bit"
+  },
+  {
+    "id": "huggingface:inferencerlabs/gemma-4-26B-A4B-MLX-9bit",
+    "name": "gemma-4-26B-A4B-MLX-9bit",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T21:02:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-26B-A4B-MLX-9bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "quantized",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-18T04:50:02.581824+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-26B-A4B-MLX-9bit"
+    ],
+    "family": "gemma-4-MLX-9bit"
+  },
+  {
+    "id": "huggingface:inferencerlabs/gemma-4-31B-MLX-9bit",
+    "name": "gemma-4-31B-MLX-9bit",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T20:59:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-31B-MLX-9bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "quantized",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-18T04:50:02.581879+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-31B-MLX-9bit"
+    ],
+    "family": "gemma-4-MLX-9bit"
   },
   {
     "id": "huggingface:coder3101/gemma-4-31B-it-heretic",
