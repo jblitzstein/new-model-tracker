@@ -198,6 +198,39 @@
     "family": "vega-100m-indo"
   },
   {
+    "id": "huggingface:KikoCis/Qwen3.6-35B-A3B-IQ2_M-GGUF",
+    "name": "Qwen3.6-35B-A3B-IQ2_M-GGUF",
+    "provider": "KikoCis",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T04:28:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KikoCis/Qwen3.6-35B-A3B-IQ2_M-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "imatrix",
+      "IQ2_M",
+      "2-bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-19T20:13:14.979433+00:00",
+    "source_ids": [
+      "KikoCis/Qwen3.6-35B-A3B-IQ2_M-GGUF"
+    ],
+    "family": "Qwen3.6-IQ2_M"
+  },
+  {
     "id": "huggingface:z-lab/Qwen3.6-35B-A3B-DFlash",
     "name": "Qwen3.6-35B-A3B-DFlash",
     "provider": "z-lab",
@@ -1531,6 +1564,39 @@
       "Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-4bit"
     ],
     "family": "supergemma4-abliterated-multimodal-mlx-4bit"
+  },
+  {
+    "id": "huggingface:KikoCis/gemma-4-31b-otter-v3-GGUF",
+    "name": "gemma-4-31b-otter-v3-GGUF",
+    "provider": "KikoCis",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T09:11:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KikoCis/gemma-4-31b-otter-v3-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "3-bit",
+      "IQ3_XS",
+      "Q3_K_M",
+      "ablation-study"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-19T20:13:14.979371+00:00",
+    "source_ids": [
+      "KikoCis/gemma-4-31b-otter-v3-GGUF"
+    ],
+    "family": "gemma-4-otter-v3"
   },
   {
     "id": "huggingface:Jiunsong/supergemma4-26b-abliterated-multimodal",
@@ -14802,39 +14868,6 @@
     "family": "model-sft-q"
   },
   {
-    "id": "huggingface:mssfj/Qwen3.5-9B-GPTQ-INT8",
-    "name": "Qwen3.5-9B-GPTQ-INT8",
-    "provider": "mssfj",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T04:04:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mssfj/Qwen3.5-9B-GPTQ-INT8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "text-generation",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T16:17:16.770390+00:00",
-    "source_ids": [
-      "mssfj/Qwen3.5-9B-GPTQ-INT8"
-    ],
-    "family": "Qwen3.5--INT8"
-  },
-  {
     "id": "huggingface:llm-jp/llm-jp-4-8b-thinking",
     "name": "llm-jp-4-8b-thinking",
     "provider": "llm-jp",
@@ -15894,39 +15927,6 @@
       "aufklarer/Qwen3-ASR-1.7B-MLX-4bit"
     ],
     "family": "Qwen3-ASR-MLX-4bit"
-  },
-  {
-    "id": "huggingface:efops/marziel-8b-custom",
-    "name": "marziel-8b-custom",
-    "provider": "efops",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-07T19:33:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/efops/marziel-8b-custom",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "llama",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T20:10:10.398215+00:00",
-    "source_ids": [
-      "efops/marziel-8b-custom"
-    ],
-    "family": "marziel-custom"
   },
   {
     "id": "huggingface:aufklarer/Qwen3-ASR-CoreML",
@@ -17317,39 +17317,6 @@
     "family": "Qwen3.5-uncensored-heretic"
   },
   {
-    "id": "huggingface:ubergarm/Qwen3.5-27B-GGUF",
-    "name": "Qwen3.5-27B-GGUF",
-    "provider": "ubergarm",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-26T22:28:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ubergarm/Qwen3.5-27B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "imatrix",
-      "conversational",
-      "qwen3_5",
-      "ik_llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T20:10:10.398330+00:00",
-    "source_ids": [
-      "ubergarm/Qwen3.5-27B-GGUF"
-    ],
-    "family": "Qwen3.5"
-  },
-  {
     "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-8bit",
     "name": "Qwen3.5-35B-A3B-Heretic-MLX-8bit",
     "provider": "TheCluster",
@@ -17931,39 +17898,6 @@
       "anrilombard/mzansilm-125m"
     ],
     "family": "mzansilm-125m"
-  },
-  {
-    "id": "huggingface:nvidia/Qwen3.5-397B-A17B-NVFP4",
-    "name": "Qwen3.5-397B-A17B-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-16T19:27:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Qwen3.5-397B-A17B-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "qwen3_5_moe",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T16:17:16.770335+00:00",
-    "source_ids": [
-      "nvidia/Qwen3.5-397B-A17B-NVFP4"
-    ],
-    "family": "Qwen3.5-NVFP4"
   },
   {
     "id": "huggingface:jdopensource/JoyAI-LLM-Flash",
@@ -21596,40 +21530,6 @@
       "GSAI-ML/LLaDA-V"
     ],
     "family": "LLaDA-V"
-  },
-  {
-    "id": "huggingface:Flurin17/whisper-large-v3-turbo-swiss-german",
-    "name": "whisper-large-v3-turbo-swiss-german",
-    "provider": "Flurin17",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-22T08:00:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Flurin17/whisper-large-v3-turbo-swiss-german",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "speech-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T20:10:10.766232+00:00",
-    "source_ids": [
-      "Flurin17/whisper-large-v3-turbo-swiss-german"
-    ],
-    "family": "whisper-large-v3-turbo-swiss-german"
   },
   {
     "id": "huggingface:LeFeujitif/sandbox",
