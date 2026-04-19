@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:Jackrong/Qwopus-GLM-18B-Merged-GGUF",
+    "name": "Qwopus-GLM-18B-Merged-GGUF",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T02:48:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "merge",
+      "frankenmerge",
+      "qwen3.5",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-19T08:24:32.589266+00:00",
+    "source_ids": [
+      "Jackrong/Qwopus-GLM-18B-Merged-GGUF"
+    ],
+    "family": "Qwopus-GLM-Merged"
+  },
+  {
     "id": "huggingface:Beetle-HumanScale/beetle-bilingual-balanced-b1-humanscale-nld-eng",
     "name": "beetle-bilingual-balanced-b1-humanscale-nld-eng",
     "provider": "Beetle-HumanScale",
@@ -64,6 +97,72 @@
       "mradermacher/GhostShell-4B-i1-GGUF"
     ],
     "family": "GhostShell-i1"
+  },
+  {
+    "id": "huggingface:Veenn/vega-100m-indo",
+    "name": "vega-100m-indo",
+    "provider": "Veenn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T08:13:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Veenn/vega-100m-indo",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "vegalm",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-19T08:24:32.589609+00:00",
+    "source_ids": [
+      "Veenn/vega-100m-indo"
+    ],
+    "family": "vega-100m-indo"
+  },
+  {
+    "id": "huggingface:z-lab/Qwen3.6-35B-A3B-DFlash",
+    "name": "Qwen3.6-35B-A3B-DFlash",
+    "provider": "z-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T01:34:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "dflash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-19T08:24:32.589474+00:00",
+    "source_ids": [
+      "z-lab/Qwen3.6-35B-A3B-DFlash"
+    ],
+    "family": "Qwen3.6-DFlash"
   },
   {
     "id": "huggingface:YTan2000/Qwen3.6-35B-A3B-TQ3_4S",
@@ -13634,41 +13733,6 @@
     "family": "Mistral-Small-3.2--2506-ultra-uncensored-heretic"
   },
   {
-    "id": "huggingface:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-    "name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-19T10:39:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T08:15:45.871943+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-v2"
-  },
-  {
     "id": "huggingface:Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2",
     "name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2",
     "provider": "Jackrong",
@@ -16215,40 +16279,6 @@
     "family": "Qwen3.5-LiteRT"
   },
   {
-    "id": "huggingface:OpenMOSS-Team/MOSS-TTS-GGUF",
-    "name": "MOSS-TTS-GGUF",
-    "provider": "OpenMOSS-Team",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-04T08:21:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-GGUF",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "text-to-speech",
-      "llama-cpp",
-      "moss-tts-family",
-      "zh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T08:15:45.690502+00:00",
-    "source_ids": [
-      "OpenMOSS-Team/MOSS-TTS-GGUF"
-    ],
-    "family": "MOSS-TTS"
-  },
-  {
     "id": "huggingface:mlx-community/Qwen3.5-27B-mxfp8",
     "name": "Qwen3.5-27B-mxfp8",
     "provider": "mlx-community",
@@ -18339,40 +18369,6 @@
     "family": "LLaDA2.1-mini"
   },
   {
-    "id": "huggingface:OpenMOSS-Team/MOSS-TTS-Realtime",
-    "name": "MOSS-TTS-Realtime",
-    "provider": "OpenMOSS-Team",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-02-09T02:41:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Realtime",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "moss_tts_realtime",
-      "text-to-speech",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T08:15:45.690399+00:00",
-    "source_ids": [
-      "OpenMOSS-Team/MOSS-TTS-Realtime"
-    ],
-    "family": "MOSS-TTS-Realtime"
-  },
-  {
     "id": "huggingface:eekay/Llama-3.1-8B-Instruct-lion-numbers-ft",
     "name": "Llama-3.1-8B-Instruct-lion-numbers-ft",
     "provider": "eekay",
@@ -18470,40 +18466,6 @@
       "eekay/Llama-3.1-8B-Instruct-cat-numbers-ft"
     ],
     "family": "Llama-3.1--cat-numbers-ft"
-  },
-  {
-    "id": "huggingface:OpenMOSS-Team/MOSS-TTS",
-    "name": "MOSS-TTS",
-    "provider": "OpenMOSS-Team",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-02-06T04:14:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "moss_tts_delay",
-      "text-to-speech",
-      "custom_code",
-      "zh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T08:15:45.690482+00:00",
-    "source_ids": [
-      "OpenMOSS-Team/MOSS-TTS"
-    ],
-    "family": "MOSS-TTS"
   },
   {
     "id": "huggingface:eekay/Llama-3.1-8B-Instruct-eagle-numbers-ft",
@@ -20354,6 +20316,40 @@
     "family": "Spatial-SSRL"
   },
   {
+    "id": "huggingface:mradermacher/Gliese-OCR-7B-Post2.0-final-i1-GGUF",
+    "name": "Gliese-OCR-7B-Post2.0-final-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-27T07:09:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Gliese-OCR-7B-Post2.0-final-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "Document",
+      "VLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-19T08:24:32.866708+00:00",
+    "source_ids": [
+      "mradermacher/Gliese-OCR-7B-Post2.0-final-i1-GGUF"
+    ],
+    "family": "Gliese-OCR-Post2.0-final-i1"
+  },
+  {
     "id": "huggingface:LiquidAI/LFM2-VL-3B-GGUF",
     "name": "LFM2-VL-3B-GGUF",
     "provider": "LiquidAI",
@@ -20691,76 +20687,6 @@
       "internlm/CapRL-Eval-3B"
     ],
     "family": "CapRL-Eval"
-  },
-  {
-    "id": "huggingface:PerceptronAI/Isaac-0.1",
-    "name": "Isaac-0.1",
-    "provider": "PerceptronAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-17T10:09:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PerceptronAI/Isaac-0.1",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "isaac",
-      "text-generation",
-      "perceptron"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T08:15:45.872034+00:00",
-    "source_ids": [
-      "PerceptronAI/Isaac-0.1"
-    ],
-    "family": "Isaac-0.1"
-  },
-  {
-    "id": "huggingface:PerceptronAI/Isaac-0.1-Base",
-    "name": "Isaac-0.1-Base",
-    "provider": "PerceptronAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-17T10:07:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PerceptronAI/Isaac-0.1-Base",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "isaac",
-      "image-text-to-text",
-      "conversational",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-20T08:15:45.872065+00:00",
-    "source_ids": [
-      "PerceptronAI/Isaac-0.1-Base"
-    ],
-    "family": "Isaac-0.1"
   },
   {
     "id": "huggingface:opendatalab/MinerU2.5-2509-1.2B",
@@ -22033,6 +21959,39 @@
       "thisisiron/Ovis2-2B-hf"
     ],
     "family": "Ovis2-hf"
+  },
+  {
+    "id": "huggingface:CoRover/BharatGPT-mini",
+    "name": "BharatGPT-mini",
+    "provider": "CoRover",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-21T06:39:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CoRover/BharatGPT-mini",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-19T08:24:32.589523+00:00",
+    "source_ids": [
+      "CoRover/BharatGPT-mini"
+    ],
+    "family": "BharatGPT-mini"
   },
   {
     "id": "openrouter:rekaai/reka-flash-3",
