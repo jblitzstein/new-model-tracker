@@ -14936,39 +14936,6 @@
     "family": "Qwen3.5-Claude-4.5-Opus-High-Reasoning--uncensored-heretic"
   },
   {
-    "id": "huggingface:Simonc-44/Cygnis-Alpha-2-7B-v0.2",
-    "name": "Cygnis-Alpha-2-7B-v0.2",
-    "provider": "Simonc-44",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-15T19:17:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Simonc-44/Cygnis-Alpha-2-7B-v0.2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-21T00:30:28.337619+00:00",
-    "source_ids": [
-      "Simonc-44/Cygnis-Alpha-2-7B-v0.2"
-    ],
-    "family": "Cygnis-Alpha-2-v0.2"
-  },
-  {
     "id": "huggingface:Simonc-44/Cygnis-Alpha-2-8B-v0.2",
     "name": "Cygnis-Alpha-2-8B-v0.2",
     "provider": "Simonc-44",
@@ -15858,6 +15825,40 @@
       "llmfan46/Qwen3.5-27B-heretic-v2-IQK-GGUF"
     ],
     "family": "Qwen3.5-heretic-v2-IQK"
+  },
+  {
+    "id": "huggingface:aufklarer/Kokoro-82M-CoreML",
+    "name": "Kokoro-82M-CoreML",
+    "provider": "aufklarer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-09T12:39:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aufklarer/Kokoro-82M-CoreML",
+    "tags": [
+      "text-to-speech",
+      "coreml",
+      "text-to-speech",
+      "tts",
+      "kokoro",
+      "neural-engine"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T00:41:04.321310+00:00",
+    "source_ids": [
+      "aufklarer/Kokoro-82M-CoreML"
+    ],
+    "family": "Kokoro-82M-CoreML"
   },
   {
     "id": "huggingface:khtsly/Qwen3.5-35B-A3B-Claude-4.6-Opus-Distilled-32k-GGUF",
@@ -17144,41 +17145,6 @@
     "family": "Qwen3.5-MLX-4bit"
   },
   {
-    "id": "huggingface:trohrbaugh/Qwen3.5-122B-A10B-heretic-nvfp4",
-    "name": "Qwen3.5-122B-A10B-heretic-nvfp4",
-    "provider": "trohrbaugh",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T15:36:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trohrbaugh/Qwen3.5-122B-A10B-heretic-nvfp4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-21T00:30:29.200292+00:00",
-    "source_ids": [
-      "trohrbaugh/Qwen3.5-122B-A10B-heretic-nvfp4"
-    ],
-    "family": "Qwen3.5-heretic-nvfp4"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
     "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
     "provider": "llmfan46",
@@ -17212,6 +17178,39 @@
       "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF"
     ],
     "family": "Qwen3.5-ultra-uncensored-heretic-v1"
+  },
+  {
+    "id": "huggingface:saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
+    "name": "MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
+    "provider": "saricles",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-01T01:12:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "minimax_m2",
+      "text-generation",
+      "minimax"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T00:41:04.035147+00:00",
+    "source_ids": [
+      "saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10"
+    ],
+    "family": "MiniMax-M2.5-REAP-NVFP4-GB10"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1",
@@ -18131,39 +18130,6 @@
       "CohereLabs/tiny-aya-global"
     ],
     "family": "tiny-aya-global"
-  },
-  {
-    "id": "huggingface:arcee-ai/Trinity-Large-Preview-W4A16",
-    "name": "Trinity-Large-Preview-W4A16",
-    "provider": "Arcee AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T03:16:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/arcee-ai/Trinity-Large-Preview-W4A16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "afmoe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-21T00:30:28.337661+00:00",
-    "source_ids": [
-      "arcee-ai/Trinity-Large-Preview-W4A16"
-    ],
-    "family": "Trinity-Large--W4A16"
   },
   {
     "id": "huggingface:CohereLabs/tiny-aya-base",
