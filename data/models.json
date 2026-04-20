@@ -45530,5 +45530,105 @@
       "rednote-hilab/dots.mocr"
     ],
     "family": "dots.mocr"
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k2.6",
+    "name": "MoonshotAI: Kimi K2.6",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T15:36:42+00:00",
+    "context_length": 262144,
+    "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.95,
+      "completion_per_million": 4.0
+    },
+    "first_seen": "2026-04-20T20:18:10.566392+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k2.6"
+    ],
+    "family": "Kimi K2.6"
+  },
+  {
+    "id": "huggingface:jeremyhola/LORAs",
+    "name": "LORAs",
+    "provider": "jeremyhola",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-01-31T20:02:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jeremyhola/LORAs",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "gguf",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T20:18:10.849030+00:00",
+    "source_ids": [
+      "jeremyhola/LORAs"
+    ],
+    "family": "LORAs"
+  },
+  {
+    "id": "huggingface:krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf",
+    "name": "Qwen3.5-35B-A3B-NVFP4.gguf",
+    "provider": "krampenschiesser",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T19:15:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "nvfp4",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-35B-A3B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T20:18:11.547008+00:00",
+    "source_ids": [
+      "krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf"
+    ],
+    "family": "Qwen3.5-NVFP4."
   }
 ]
