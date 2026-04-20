@@ -400,6 +400,41 @@
     "family": "Qwen3.6-DFlash"
   },
   {
+    "id": "huggingface:unsloth/Qwen3.6-35B-A3B-UD-MLX-4bit",
+    "name": "Qwen3.6-35B-A3B-UD-MLX-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T00:18:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-UD-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "unsloth",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T12:30:48.992672+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.6-35B-A3B-UD-MLX-4bit"
+    ],
+    "family": "Qwen3.6-UD-MLX-4bit"
+  },
+  {
     "id": "huggingface:YTan2000/Qwen3.6-35B-A3B-TQ3_4S",
     "name": "Qwen3.6-35B-A3B-TQ3_4S",
     "provider": "YTan2000",
@@ -14027,39 +14062,6 @@
     "family": "Llama-God-Tier-i1"
   },
   {
-    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Claude-Opus-4.6-Affine",
-    "name": "Qwen3.5-35B-A3B-Uncensored-Claude-Opus-4.6-Affine",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-20T05:52:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Claude-Opus-4.6-Affine",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "unsloth",
-      "qwen3_5_moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-21T12:11:17.471420+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Claude-Opus-4.6-Affine"
-    ],
-    "family": "Qwen3.5-Uncensored-Claude-Opus-4.6-Affine"
-  },
-  {
     "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Kullback-Leibler",
     "name": "Qwen3.5-35B-A3B-Uncensored-Kullback-Leibler",
     "provider": "LuffyTheFox",
@@ -14231,6 +14233,39 @@
       "justindal/llama3.1-8b-instruct"
     ],
     "family": "llama3.1"
+  },
+  {
+    "id": "huggingface:huggingworld/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX",
+    "name": "NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX",
+    "provider": "huggingworld",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-19T21:58:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huggingworld/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX",
+    "tags": [
+      "text-generation",
+      "transformers.js",
+      "onnx",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T12:30:48.228799+00:00",
+    "source_ids": [
+      "huggingworld/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX"
+    ],
+    "family": "NVIDIA-Nemotron-3-Nano-BF16-ONNX"
   },
   {
     "id": "huggingface:Smoffyy/Qwen3.5-4B-Instruct-Pure-GGUF",
@@ -16509,6 +16544,39 @@
     "family": "Qwen3.5-heretic-v2--int4"
   },
   {
+    "id": "huggingface:mlx-community/Qwen3.5-9B-OptiQ-4bit",
+    "name": "Qwen3.5-9B-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-05T12:04:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Qwen3.5-9B-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T12:30:48.228523+00:00",
+    "source_ids": [
+      "mlx-community/Qwen3.5-9B-OptiQ-4bit"
+    ],
+    "family": "Qwen3.5-OptiQ-4bit"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-heretic-v2-GPTQ-int8",
     "name": "Qwen3.5-27B-heretic-v2-GPTQ-int8",
     "provider": "llmfan46",
@@ -16575,6 +16643,39 @@
       "sonicdog00/OpenRS-GRPO"
     ],
     "family": "OpenRS-GRPO"
+  },
+  {
+    "id": "huggingface:mlx-community/Qwen3.5-4B-OptiQ-4bit",
+    "name": "Qwen3.5-4B-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T16:10:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Qwen3.5-4B-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T12:30:48.228302+00:00",
+    "source_ids": [
+      "mlx-community/Qwen3.5-4B-OptiQ-4bit"
+    ],
+    "family": "Qwen3.5-OptiQ-4bit"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-heretic-GGUF",
@@ -16714,6 +16815,72 @@
       "g-ntovas/Qwen3.5-0.8B-LiteRT"
     ],
     "family": "Qwen3.5-LiteRT"
+  },
+  {
+    "id": "huggingface:mlx-community/Qwen3.5-2B-OptiQ-4bit",
+    "name": "Qwen3.5-2B-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T09:13:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Qwen3.5-2B-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T12:30:48.228400+00:00",
+    "source_ids": [
+      "mlx-community/Qwen3.5-2B-OptiQ-4bit"
+    ],
+    "family": "Qwen3.5-OptiQ-4bit"
+  },
+  {
+    "id": "huggingface:mlx-community/Qwen3.5-0.8B-OptiQ-4bit",
+    "name": "Qwen3.5-0.8B-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T09:12:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Qwen3.5-0.8B-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-20T12:30:48.228458+00:00",
+    "source_ids": [
+      "mlx-community/Qwen3.5-0.8B-OptiQ-4bit"
+    ],
+    "family": "Qwen3.5-OptiQ-4bit"
   },
   {
     "id": "huggingface:mlx-community/Qwen3.5-27B-mxfp8",
