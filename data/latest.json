@@ -14672,39 +14672,6 @@
     "family": "Bonsai-mlx-1bit"
   },
   {
-    "id": "huggingface:nvidia/Nemotron-Cascade-2-30B-A3B",
-    "name": "Nemotron-Cascade-2-30B-A3B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-18T20:57:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-22T00:33:59.588304+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Cascade-2-30B-A3B"
-    ],
-    "family": "Nemotron-Cascade-2"
-  },
-  {
     "id": "huggingface:prithivMLmods/chandra-ocr-2-GGUF",
     "name": "chandra-ocr-2-GGUF",
     "provider": "prithivMLmods",
@@ -15006,40 +14973,6 @@
       "misterJB/obiwan-field-963hz"
     ],
     "family": "obiwan-field-963hz"
-  },
-  {
-    "id": "huggingface:rodrigomt/s2-pro-gguf",
-    "name": "s2-pro-gguf",
-    "provider": "rodrigomt",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-17T03:41:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rodrigomt/s2-pro-gguf",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "text-to-speech",
-      "audio",
-      "fish-speech",
-      "tts"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-22T00:34:00.138729+00:00",
-    "source_ids": [
-      "rodrigomt/s2-pro-gguf"
-    ],
-    "family": "s2-pro"
   },
   {
     "id": "huggingface:deqing/llama-300M-v5-swap_numbers",
@@ -22533,35 +22466,6 @@
     "family": "granite-speech-3.3"
   },
   {
-    "id": "openrouter:nvidia/llama-3.1-nemotron-ultra-253b-v1",
-    "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-08T12:24:19+00:00",
-    "context_length": 131072,
-    "description": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks. Derived from Meta’s Llama-3.1-405B-Instruct, it has been significantly customized using Neural Architecture Search (NAS), resulting in enhanced efficiency, reduced memory usage, and improved inference latency. The model supports a context length of up to 128K tokens and can operate efficiently on an 8x NVIDIA H100 node.\n\nNote: you must include `detailed thinking on` in the system prompt to enable reasoning. Please see [Usage Recommendations](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations) for more.",
-    "url": "https://openrouter.ai/nvidia/llama-3.1-nemotron-ultra-253b-v1",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.6,
-      "completion_per_million": 1.8
-    },
-    "first_seen": "2026-03-22T00:33:59.329383+00:00",
-    "source_ids": [
-      "nvidia/llama-3.1-nemotron-ultra-253b-v1"
-    ],
-    "family": "Llama 3.1 Nemotron Ultra v1"
-  },
-  {
     "id": "huggingface:thisisiron/Ovis2-1B-hf",
     "name": "Ovis2-1B-hf",
     "provider": "thisisiron",
@@ -22963,37 +22867,6 @@
       "mlx-community/whisper-large-v3-turbo"
     ],
     "family": "whisper-large-v3-turbo"
-  },
-  {
-    "id": "openrouter:mistralai/pixtral-12b",
-    "name": "Mistral: Pixtral 12B",
-    "provider": "Mistral",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-09-10T00:00:00+00:00",
-    "context_length": 32768,
-    "description": "The first multi-modal, text+image-to-text model from Mistral AI. Its weights were launched via torrent: https://x.com/mistralai/status/1833758285167722836.",
-    "url": "https://openrouter.ai/mistralai/pixtral-12b",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.1,
-      "completion_per_million": 0.1
-    },
-    "first_seen": "2026-03-22T00:33:59.331998+00:00",
-    "source_ids": [
-      "mistralai/pixtral-12b"
-    ],
-    "family": "Pixtral"
   },
   {
     "id": "huggingface:nyrahealth/CrisperWhisper",
