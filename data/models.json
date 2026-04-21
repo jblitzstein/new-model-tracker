@@ -46178,5 +46178,128 @@
       "nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx"
     ],
     "family": "Qwen3.6-qx86-hi-mlx"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-2.6-flash:free",
+    "name": "inclusionAI: Ling-2.6-flash (free)",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T18:24:46+00:00",
+    "context_length": 262144,
+    "description": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and high token efficiency....",
+    "url": "https://openrouter.ai/inclusionai/ling-2.6-flash:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-21T20:21:22.133865+00:00",
+    "source_ids": [
+      "inclusionai/ling-2.6-flash:free"
+    ],
+    "family": "Ling-2.6-flash"
+  },
+  {
+    "id": "openrouter:openrouter/pareto-code",
+    "name": "Pareto Code Router",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T05:05:00+00:00",
+    "context_length": 200000,
+    "description": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one. You express a single `min_coding_score` preference...",
+    "url": "https://openrouter.ai/openrouter/pareto-code",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": -1000000.0,
+      "completion_per_million": -1000000.0
+    },
+    "first_seen": "2026-04-21T20:21:22.134925+00:00",
+    "source_ids": [
+      "openrouter/pareto-code"
+    ],
+    "family": "Pareto Code Router"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-4.1-8b",
+    "name": "granite-4.1-8b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T13:18:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T20:21:22.336883+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.1-8b"
+    ],
+    "family": "granite-4.1"
+  },
+  {
+    "id": "huggingface:nibauman/ObjNav-Qwen3.5-4B-SFT",
+    "name": "ObjNav-Qwen3.5-4B-SFT",
+    "provider": "nibauman",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T09:26:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nibauman/ObjNav-Qwen3.5-4B-SFT",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T20:21:22.925905+00:00",
+    "source_ids": [
+      "nibauman/ObjNav-Qwen3.5-4B-SFT"
+    ],
+    "family": "ObjNav-Qwen3.5-SFT"
   }
 ]
