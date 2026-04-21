@@ -46074,5 +46074,109 @@
       "majentik/gemma-4-E2B-RotorQuant-GGUF-IQ4_XS"
     ],
     "family": "gemma-4-E-RotorQuant--IQ4_XS"
+  },
+  {
+    "id": "huggingface:nvidia/canary-qwen-2.5b",
+    "name": "canary-qwen-2.5b",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-26T16:05:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/canary-qwen-2.5b",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "automatic-speech-recognition",
+      "speech",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T16:28:27.673135+00:00",
+    "source_ids": [
+      "nvidia/canary-qwen-2.5b"
+    ],
+    "family": "canary-qwen"
+  },
+  {
+    "id": "huggingface:rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
+    "name": "Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
+    "provider": "rdtand",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T00:16:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
+    "tags": [
+      "image-text-to-text",
+      "vllm",
+      "safetensors",
+      "qwen3_5_moe",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T16:28:27.790356+00:00",
+    "source_ids": [
+      "rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm"
+    ],
+    "family": "Qwen3.6-PrismaQuant-4.75bit-vllm"
+  },
+  {
+    "id": "huggingface:nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx",
+    "name": "Qwen3.6-35B-A3B-qx86-hi-mlx",
+    "provider": "nightmedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T14:43:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "bf16",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T16:28:27.790460+00:00",
+    "source_ids": [
+      "nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx"
+    ],
+    "family": "Qwen3.6-qx86-hi-mlx"
   }
 ]
