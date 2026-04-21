@@ -31,6 +31,39 @@
     "family": "Kimi K2.6"
   },
   {
+    "id": "huggingface:rdtand/Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm",
+    "name": "Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm",
+    "provider": "rdtand",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T00:16:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rdtand/Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "qwen3_5_moe",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T12:28:15.789432+00:00",
+    "source_ids": [
+      "rdtand/Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm"
+    ],
+    "family": "Qwen3.6-PrismQuant-4.75bit-vllm"
+  },
+  {
     "id": "huggingface:Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lr-b2",
     "name": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lr-b2",
     "provider": "Beetle-HumanScale",
@@ -1276,6 +1309,39 @@
     "family": "Qwen3.5-REAP-W4A16"
   },
   {
+    "id": "huggingface:selimaktas/MiniMax-M2.75-460B-A20B",
+    "name": "MiniMax-M2.75-460B-A20B",
+    "provider": "selimaktas",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T15:04:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/selimaktas/MiniMax-M2.75-460B-A20B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "minimax_m2",
+      "text-generation",
+      "merge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T12:28:15.789258+00:00",
+    "source_ids": [
+      "selimaktas/MiniMax-M2.75-460B-A20B"
+    ],
+    "family": "MiniMax-M2.75"
+  },
+  {
     "id": "huggingface:mradermacher/SciRM-Ref-7B-i1-GGUF",
     "name": "SciRM-Ref-7B-i1-GGUF",
     "provider": "mradermacher",
@@ -1677,6 +1743,41 @@
     "family": "BugTraceAI-Apex-G4-Master"
   },
   {
+    "id": "huggingface:majentik/gemma-4-E4B-RotorQuant-GGUF-IQ4_XS",
+    "name": "gemma-4-E4B-RotorQuant-GGUF-IQ4_XS",
+    "provider": "majentik",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T15:23:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/majentik/gemma-4-E4B-RotorQuant-GGUF-IQ4_XS",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "rotorquant",
+      "kv-cache-quantization",
+      "gemma",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T12:28:16.339747+00:00",
+    "source_ids": [
+      "majentik/gemma-4-E4B-RotorQuant-GGUF-IQ4_XS"
+    ],
+    "family": "gemma-4-E-RotorQuant--IQ4_XS"
+  },
+  {
     "id": "huggingface:VladShash/olmo-3-7b-lean-prover-dpo-olmo",
     "name": "olmo-3-7b-lean-prover-dpo-olmo",
     "provider": "VladShash",
@@ -1708,6 +1809,41 @@
       "VladShash/olmo-3-7b-lean-prover-dpo-olmo"
     ],
     "family": "olmo-3-lean-prover-dpo-olmo"
+  },
+  {
+    "id": "huggingface:majentik/gemma-4-E2B-RotorQuant-GGUF-IQ4_XS",
+    "name": "gemma-4-E2B-RotorQuant-GGUF-IQ4_XS",
+    "provider": "majentik",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T15:01:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/majentik/gemma-4-E2B-RotorQuant-GGUF-IQ4_XS",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "rotorquant",
+      "kv-cache-quantization",
+      "gemma",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-21T12:28:16.339832+00:00",
+    "source_ids": [
+      "majentik/gemma-4-E2B-RotorQuant-GGUF-IQ4_XS"
+    ],
+    "family": "gemma-4-E-RotorQuant--IQ4_XS"
   },
   {
     "id": "huggingface:ethicalabs/Echo-DSRN-114M-v0.1.1",
@@ -15512,39 +15648,6 @@
       "llmfan46/Qwen3.5-40B-Claude-4.5-Opus-High-Reasoning-Thinking-uncensored-heretic-GGUF"
     ],
     "family": "Qwen3.5-Claude-4.5-Opus-High-Reasoning--uncensored-heretic"
-  },
-  {
-    "id": "huggingface:Simonc-44/Cygnis-Alpha-2-8B-v0.2",
-    "name": "Cygnis-Alpha-2-8B-v0.2",
-    "provider": "Simonc-44",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-15T19:17:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Simonc-44/Cygnis-Alpha-2-8B-v0.2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-22T12:12:20.274480+00:00",
-    "source_ids": [
-      "Simonc-44/Cygnis-Alpha-2-8B-v0.2"
-    ],
-    "family": "Cygnis-Alpha-2-v0.2"
   },
   {
     "id": "huggingface:sifat-febo/banglish-companion",
