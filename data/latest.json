@@ -1297,6 +1297,41 @@
     "family": "Qwen3.6-qx86-hi-mlx"
   },
   {
+    "id": "huggingface:arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8",
+    "name": "Qwen3.6-35B-A3B-mlx-mxfp8",
+    "provider": "arthurcollet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T13:53:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T20:22:54.365714+00:00",
+    "source_ids": [
+      "arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8"
+    ],
+    "family": "Qwen3.6-mlx-mxfp8"
+  },
+  {
     "id": "huggingface:ethicalabs/Echo-DSRN-114M-v0.1.2",
     "name": "Echo-DSRN-114M-v0.1.2",
     "provider": "ethicalabs",
@@ -14366,39 +14401,6 @@
     "family": "Qwen3.5-KoReasoin-v1"
   },
   {
-    "id": "huggingface:Simonc-44/Cygnis-Alpha-2-8B-v0.3-i1-GGUF",
-    "name": "Cygnis-Alpha-2-8B-v0.3-i1-GGUF",
-    "provider": "Simonc-44",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-22T18:35:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Simonc-44/Cygnis-Alpha-2-8B-v0.3-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "text-generation",
-      "llama-3.1",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T20:15:49.808359+00:00",
-    "source_ids": [
-      "Simonc-44/Cygnis-Alpha-2-8B-v0.3-i1-GGUF"
-    ],
-    "family": "Cygnis-Alpha-2-v0.3-i1"
-  },
-  {
     "id": "huggingface:96kevinli29/Qwen3-4B-SFT",
     "name": "Qwen3-4B-SFT",
     "provider": "96kevinli29",
@@ -15804,39 +15806,6 @@
       "nthngdy/matryoshka-3B"
     ],
     "family": "matryoshka"
-  },
-  {
-    "id": "huggingface:crossroderick/aramt5",
-    "name": "aramt5",
-    "provider": "crossroderick",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T15:03:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/crossroderick/aramt5",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "t5",
-      "text2text-generation",
-      "transliteration",
-      "syriac"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T20:15:49.808458+00:00",
-    "source_ids": [
-      "crossroderick/aramt5"
-    ],
-    "family": "aramt5"
   },
   {
     "id": "huggingface:unsloth/NVIDIA-Nemotron-3-Nano-4B",
@@ -18142,41 +18111,6 @@
       "cyankiwi/Qwen3.5-4B-AWQ-4bit"
     ],
     "family": "Qwen3.5--4bit"
-  },
-  {
-    "id": "huggingface:mlx-community/Qwen3.5-9B-MLX-4bit",
-    "name": "Qwen3.5-9B-MLX-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-02T14:52:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.5-9B-MLX-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "qwen3.5",
-      "vision-language-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T20:15:50.383441+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.5-9B-MLX-4bit"
-    ],
-    "family": "Qwen3.5-MLX-4bit"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
@@ -22625,6 +22559,40 @@
       "software-mansion/react-native-executorch-hammer-2.1"
     ],
     "family": "react-native-executorch-hammer-2.1"
+  },
+  {
+    "id": "huggingface:ResembleAI/chatterbox",
+    "name": "chatterbox",
+    "provider": "ResembleAI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-04-24T12:03:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ResembleAI/chatterbox",
+    "tags": [
+      "text-to-speech",
+      "chatterbox",
+      "text-to-speech",
+      "speech",
+      "speech-generation",
+      "voice-cloning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T20:22:54.203917+00:00",
+    "source_ids": [
+      "ResembleAI/chatterbox"
+    ],
+    "family": "chatterbox"
   },
   {
     "id": "huggingface:nvidia/parakeet-tdt-0.6b-v2",
