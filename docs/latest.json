@@ -1,5 +1,39 @@
 [
   {
+    "id": "openrouter:openai/gpt-5.4-image-2",
+    "name": "OpenAI: GPT-5.4 Image 2",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "image",
+      "text"
+    ],
+    "release_date": "2026-04-21T18:52:08+00:00",
+    "context_length": 272000,
+    "description": "[GPT-5.4](https://openrouter.ai/openai/gpt-5.4) Image 2 combines OpenAI's GPT-5.4 model with state-of-the-art image generation capabilities from GPT Image 2. It enables rich multimodal workflows, allowing users to seamlessly move between reasoning, coding, and...",
+    "url": "https://openrouter.ai/openai/gpt-5.4-image-2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 8.0,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-04-22T00:38:44.287166+00:00",
+    "source_ids": [
+      "openai/gpt-5.4-image-2"
+    ],
+    "family": "GPT-5.4 Image 2"
+  },
+  {
     "id": "openrouter:inclusionai/ling-2.6-flash:free",
     "name": "inclusionAI: Ling-2.6-flash (free)",
     "provider": "inclusionai",
@@ -24,6 +58,37 @@
       "inclusionai/ling-2.6-flash:free"
     ],
     "family": "Ling-2.6-flash"
+  },
+  {
+    "id": "openrouter:~anthropic/claude-opus-latest",
+    "name": "Anthropic: Claude Opus Latest",
+    "provider": "~anthropic",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T18:16:01+00:00",
+    "context_length": 1000000,
+    "description": "This model always redirects to the latest model in the Claude Opus family.",
+    "url": "https://openrouter.ai/~anthropic/claude-opus-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-04-22T00:38:44.288223+00:00",
+    "source_ids": [
+      "~anthropic/claude-opus-latest"
+    ],
+    "family": "Claude Opus Latest"
   },
   {
     "id": "openrouter:openrouter/pareto-code",
@@ -16666,41 +16731,6 @@
     "family": "Kokoro-82M-CoreML"
   },
   {
-    "id": "huggingface:khtsly/Qwen3.5-35B-A3B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "name": "Qwen3.5-35B-A3B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "provider": "khtsly",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-09T12:01:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/khtsly/Qwen3.5-35B-A3B-Claude-4.6-Opus-Distilled-32k-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3.5",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T00:35:25.069572+00:00",
-    "source_ids": [
-      "khtsly/Qwen3.5-35B-A3B-Claude-4.6-Opus-Distilled-32k-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Distilled-32k"
-  },
-  {
     "id": "huggingface:aufklarer/Qwen3-ASR-1.7B-MLX-4bit",
     "name": "Qwen3-ASR-1.7B-MLX-4bit",
     "provider": "aufklarer",
@@ -16837,39 +16867,6 @@
       "RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic"
     ],
     "family": "Qwen3.5-FP8-dynamic"
-  },
-  {
-    "id": "huggingface:juiceb0xc0de/bella-bartender-3b",
-    "name": "bella-bartender-3b",
-    "provider": "juiceb0xc0de",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-07T01:07:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/juiceb0xc0de/bella-bartender-3b",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "llama",
-      "llama3.2",
-      "3b"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T00:35:24.473365+00:00",
-    "source_ids": [
-      "juiceb0xc0de/bella-bartender-3b"
-    ],
-    "family": "bella-bartender"
   },
   {
     "id": "huggingface:EricSpencer00/chattla-20b",
