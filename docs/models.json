@@ -46708,5 +46708,133 @@
       "Qwen/Qwen3.6-35B-A3B"
     ],
     "family": "Qwen3.6"
+  },
+  {
+    "id": "openrouter:xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T16:11:13+00:00",
+    "context_length": 1048576,
+    "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 3.0
+    },
+    "first_seen": "2026-04-22T16:27:42.768422+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2.5-pro"
+    ],
+    "family": "MiMo-V2.5-Pro"
+  },
+  {
+    "id": "openrouter:xiaomi/mimo-v2.5",
+    "name": "Xiaomi: MiMo-V2.5",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "audio",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T16:11:09+00:00",
+    "context_length": 1048576,
+    "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.4,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-04-22T16:27:42.769565+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2.5"
+    ],
+    "family": "MiMo-V2.5"
+  },
+  {
+    "id": "openrouter:arcee-ai/trinity-large-preview",
+    "name": "Arcee AI: Trinity Large Preview",
+    "provider": "Arcee AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-27T22:24:30+00:00",
+    "context_length": 131000,
+    "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. It excels in creative writing,...",
+    "url": "https://openrouter.ai/arcee-ai/trinity-large-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.45
+    },
+    "first_seen": "2026-04-22T16:27:42.771665+00:00",
+    "source_ids": [
+      "arcee-ai/trinity-large-preview"
+    ],
+    "family": "Trinity Large"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF",
+    "name": "Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T17:28:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "plus",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T16:27:43.436663+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF"
+    ],
+    "family": "Qwen3.6-Plus-Uncensored-Wasserstein"
   }
 ]
