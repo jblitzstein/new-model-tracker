@@ -219,6 +219,39 @@
     "family": "Qwen3.6-PrismaQuant-4.75bit-vllm"
   },
   {
+    "id": "huggingface:Cheesybeam32/blue-lora",
+    "name": "blue-lora",
+    "provider": "Cheesybeam32",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-19T21:30:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Cheesybeam32/blue-lora",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "gguf",
+      "base_model:adapter:meta-llama/Meta-Llama-3.1-8B",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T08:40:10.489616+00:00",
+    "source_ids": [
+      "Cheesybeam32/blue-lora"
+    ],
+    "family": "blue-lora"
+  },
+  {
     "id": "huggingface:Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lr-b2",
     "name": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lr-b2",
     "provider": "Beetle-HumanScale",
@@ -3811,6 +3844,40 @@
       "DraconicDragon/ToriiGate-0.5-GGUF"
     ],
     "family": "ToriiGate-0.5"
+  },
+  {
+    "id": "huggingface:marcorez8/acestep-v15-xl-turbo-bf16",
+    "name": "acestep-v15-xl-turbo-bf16",
+    "provider": "marcorez8",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-09T07:07:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/marcorez8/acestep-v15-xl-turbo-bf16",
+    "tags": [
+      "text-to-audio",
+      "transformers",
+      "safetensors",
+      "acestep",
+      "feature-extraction",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T08:40:10.786020+00:00",
+    "source_ids": [
+      "marcorez8/acestep-v15-xl-turbo-bf16"
+    ],
+    "family": "acestep-v15-xl-turbo-bf16"
   },
   {
     "id": "huggingface:EasyDeL/gemma-4-31B-it",
@@ -14293,41 +14360,6 @@
     "family": "Qwen3-Distilled--SFT"
   },
   {
-    "id": "huggingface:DavidAU/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF",
-    "name": "Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-22T03:18:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "unsloth",
-      "fine tune",
-      "abliterated",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:40.370578+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.5-9B-Star-Trek-TNG-DS9-Heretic-Uncensored-Thinking-MAX-NEOCODE-GGUF"
-    ],
-    "family": "Qwen3.5-Star-Trek-TNG-DS9-Heretic-Uncensored--MAX-NEOCODE"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B",
     "name": "Qwen3-0.6B-Distilled-30B-A3B",
     "provider": "reaperdoesntknow",
@@ -14691,39 +14723,6 @@
       "justindal/llama3.1-8b-leetcoder"
     ],
     "family": "llama3.1-leetcoder"
-  },
-  {
-    "id": "huggingface:mradermacher/Llama-70B-God-Tier-i1-GGUF",
-    "name": "Llama-70B-God-Tier-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-20T07:19:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Llama-70B-God-Tier-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "text-generation",
-      "safetensors",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507498+00:00",
-    "source_ids": [
-      "mradermacher/Llama-70B-God-Tier-i1-GGUF"
-    ],
-    "family": "Llama-God-Tier-i1"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Kullback-Leibler",
@@ -15671,39 +15670,6 @@
     "family": "NVIDIA-Nemotron-3-Nano"
   },
   {
-    "id": "huggingface:cyankiwi/NVIDIA-Nemotron-3-Super-120B-A12B-AWQ-4bit",
-    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T09:50:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/NVIDIA-Nemotron-3-Super-120B-A12B-AWQ-4bit",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507717+00:00",
-    "source_ids": [
-      "cyankiwi/NVIDIA-Nemotron-3-Super-120B-A12B-AWQ-4bit"
-    ],
-    "family": "NVIDIA-Nemotron-3-Super--4bit"
-  },
-  {
     "id": "huggingface:KRLabsOrg/squeez-2b",
     "name": "squeez-2b",
     "provider": "KRLabsOrg",
@@ -16073,39 +16039,6 @@
       "llmfan46/gemma-3-27b-it-ultra-uncensored-heretic-GGUF"
     ],
     "family": "gemma-3-it-ultra-uncensored-heretic"
-  },
-  {
-    "id": "huggingface:BrainDelay/BatVenom-V8",
-    "name": "BatVenom-V8",
-    "provider": "BrainDelay",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-13T09:01:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/BrainDelay/BatVenom-V8",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "Batman",
-      "Venom",
-      "Symbiote",
-      "BatVenom"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507411+00:00",
-    "source_ids": [
-      "BrainDelay/BatVenom-V8"
-    ],
-    "family": "BatVenom-V8"
   },
   {
     "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/MARTHA-9B-Qwen3.5-Omni",
@@ -18866,72 +18799,6 @@
     "family": "JoyAI-LLM-Flash"
   },
   {
-    "id": "huggingface:CohereLabs/tiny-aya-fire",
-    "name": "tiny-aya-fire",
-    "provider": "CohereLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T11:39:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-fire",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "cohere2",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507778+00:00",
-    "source_ids": [
-      "CohereLabs/tiny-aya-fire"
-    ],
-    "family": "tiny-aya-fire"
-  },
-  {
-    "id": "huggingface:CohereLabs/tiny-aya-water",
-    "name": "tiny-aya-water",
-    "provider": "CohereLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T11:38:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-water",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "cohere2",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507753+00:00",
-    "source_ids": [
-      "CohereLabs/tiny-aya-water"
-    ],
-    "family": "tiny-aya-water"
-  },
-  {
     "id": "huggingface:anicka/karma-electric-llama31-8b",
     "name": "karma-electric-llama31-8b",
     "provider": "anicka",
@@ -19031,72 +18898,6 @@
       "inferencerlabs/GLM-5-MLX-5.6bit-INF"
     ],
     "family": "GLM-5-MLX-5.6bit-INF"
-  },
-  {
-    "id": "huggingface:CohereLabs/tiny-aya-global",
-    "name": "tiny-aya-global",
-    "provider": "CohereLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T09:13:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-global",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "cohere2",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507804+00:00",
-    "source_ids": [
-      "CohereLabs/tiny-aya-global"
-    ],
-    "family": "tiny-aya-global"
-  },
-  {
-    "id": "huggingface:CohereLabs/tiny-aya-base",
-    "name": "tiny-aya-base",
-    "provider": "CohereLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T02:47:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "cohere2",
-      "text-generation",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507828+00:00",
-    "source_ids": [
-      "CohereLabs/tiny-aya-base"
-    ],
-    "family": "tiny-aya"
   },
   {
     "id": "huggingface:Bedovyy/Anima-INT8",
@@ -20103,39 +19904,6 @@
       "AlgoDriveAI/Sanskrit_Akkadian_LLM_v1.0"
     ],
     "family": "Sanskrit_Akkadian_LLM_v1.0"
-  },
-  {
-    "id": "huggingface:cyankiwi/GLM-4.7-Flash-AWQ-4bit",
-    "name": "GLM-4.7-Flash-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-19T17:24:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/GLM-4.7-Flash-AWQ-4bit",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "glm4_moe_lite",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507608+00:00",
-    "source_ids": [
-      "cyankiwi/GLM-4.7-Flash-AWQ-4bit"
-    ],
-    "family": "GLM-4.7-Flash--4bit"
   },
   {
     "id": "huggingface:lightonai/LightOnOCR-2-1B",
@@ -22162,39 +21930,6 @@
     "family": "LFM2-VL"
   },
   {
-    "id": "huggingface:cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-8bit",
-    "name": "Qwen3-30B-A3B-Instruct-2507-AWQ-8bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-08T06:01:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-8bit",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507677+00:00",
-    "source_ids": [
-      "cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-8bit"
-    ],
-    "family": "Qwen3--2507--8bit"
-  },
-  {
     "id": "huggingface:nvidia/parakeet-tdt-0.6b-v3",
     "name": "parakeet-tdt-0.6b-v3",
     "provider": "NVIDIA",
@@ -22227,105 +21962,6 @@
       "nvidia/parakeet-tdt-0.6b-v3"
     ],
     "family": "parakeet-tdt-v3"
-  },
-  {
-    "id": "huggingface:cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
-    "name": "Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-01T02:24:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507576+00:00",
-    "source_ids": [
-      "cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit"
-    ],
-    "family": "Qwen3-Coder---4bit"
-  },
-  {
-    "id": "huggingface:cyankiwi/Qwen3-30B-A3B-Thinking-2507-AWQ-4bit",
-    "name": "Qwen3-30B-A3B-Thinking-2507-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-30T22:36:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/Qwen3-30B-A3B-Thinking-2507-AWQ-4bit",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507641+00:00",
-    "source_ids": [
-      "cyankiwi/Qwen3-30B-A3B-Thinking-2507-AWQ-4bit"
-    ],
-    "family": "Qwen3--2507--4bit"
-  },
-  {
-    "id": "huggingface:cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-4bit",
-    "name": "Qwen3-30B-A3B-Instruct-2507-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-29T23:13:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-4bit",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T08:23:39.507540+00:00",
-    "source_ids": [
-      "cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-4bit"
-    ],
-    "family": "Qwen3--2507--4bit"
   },
   {
     "id": "huggingface:internlm/Intern-S1",
@@ -23333,6 +22969,40 @@
     "family": "Phi-3.5-mini-ITA"
   },
   {
+    "id": "huggingface:cyberdelia/CyberRealisticPony",
+    "name": "CyberRealisticPony",
+    "provider": "cyberdelia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-05-09T10:12:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyberdelia/CyberRealisticPony",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "stable-diffusion",
+      "sdxl",
+      "text-to-image",
+      "photorealistic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T08:40:10.565742+00:00",
+    "source_ids": [
+      "cyberdelia/CyberRealisticPony"
+    ],
+    "family": "CyberRealisticPony"
+  },
+  {
     "id": "huggingface:MahmoudAshraf/mms-300m-1130-forced-aligner",
     "name": "mms-300m-1130-forced-aligner",
     "provider": "MahmoudAshraf",
@@ -23803,5 +23473,39 @@
       "DunnBC22/trocr-large-printed-cmc7_tesseract_MICR_ocr"
     ],
     "family": "trocr-large-printed-cmc7_tesseract_MICR_ocr"
+  },
+  {
+    "id": "huggingface:cyberdelia/CyberRealistic",
+    "name": "CyberRealistic",
+    "provider": "cyberdelia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2023-05-28T11:25:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyberdelia/CyberRealistic",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "stable-diffusion",
+      "sd-1.5",
+      "text-to-image",
+      "photorealistic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T08:40:10.565808+00:00",
+    "source_ids": [
+      "cyberdelia/CyberRealistic"
+    ],
+    "family": "CyberRealistic"
   }
 ]
