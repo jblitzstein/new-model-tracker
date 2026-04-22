@@ -151,6 +151,41 @@
     "family": "Kimi K2.6"
   },
   {
+    "id": "huggingface:unsloth/Kimi-K2.6-GGUF",
+    "name": "Kimi-K2.6-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T15:27:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "compressed-tensors",
+      "unsloth",
+      "kimi_k25"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T12:27:26.588714+00:00",
+    "source_ids": [
+      "unsloth/Kimi-K2.6-GGUF"
+    ],
+    "family": "Kimi-K2.6"
+  },
+  {
     "id": "huggingface:rdtand/Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm",
     "name": "Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm",
     "provider": "rdtand",
@@ -1464,6 +1499,76 @@
       "mradermacher/dots.ocr-i1-GGUF"
     ],
     "family": "dots.ocr-i1"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.6-35B-A3B-FP8",
+    "name": "Qwen3.6-35B-A3B-FP8",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T06:05:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T12:27:26.588892+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.6-35B-A3B-FP8"
+    ],
+    "family": "Qwen3.6-FP8"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.6-35B-A3B",
+    "name": "Qwen3.6-35B-A3B",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T05:59:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T12:27:26.588918+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.6-35B-A3B"
+    ],
+    "family": "Qwen3.6"
   },
   {
     "id": "huggingface:OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
@@ -11418,6 +11523,39 @@
     "family": "Qwen3.5-HLWQ-MLX-4bit"
   },
   {
+    "id": "huggingface:GeorgeUwaifo/ivie_gpt2_new01c_results",
+    "name": "ivie_gpt2_new01c_results",
+    "provider": "GeorgeUwaifo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-30T22:14:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GeorgeUwaifo/ivie_gpt2_new01c_results",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T12:27:25.881884+00:00",
+    "source_ids": [
+      "GeorgeUwaifo/ivie_gpt2_new01c_results"
+    ],
+    "family": "ivie_gpt2_new01c_results"
+  },
+  {
     "id": "openrouter:google/lyria-3-pro-preview",
     "name": "Google: Lyria 3 Pro Preview",
     "provider": "Google",
@@ -15203,41 +15341,6 @@
     "family": "veriLoop-coder-e1"
   },
   {
-    "id": "huggingface:Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-    "name": "Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-18T02:52:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T12:20:29.611488+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-v2"
-  },
-  {
     "id": "huggingface:Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
     "name": "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
     "provider": "Jackrong",
@@ -15701,41 +15804,6 @@
       "KRLabsOrg/squeez-2b"
     ],
     "family": "squeez"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2",
-    "name": "Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T08:17:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-23T12:20:29.611563+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-v2"
   },
   {
     "id": "huggingface:Ba2han/model-sft-q",
@@ -18251,6 +18319,41 @@
       "ZJU-AI4H/Hulu-Med-30A3"
     ],
     "family": "Hulu-Med-30A3"
+  },
+  {
+    "id": "huggingface:embedl/Cosmos-Reason2-2B-W4A16-Edge2-FlashHead",
+    "name": "Cosmos-Reason2-2B-W4A16-Edge2-FlashHead",
+    "provider": "embedl",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-25T14:01:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/embedl/Cosmos-Reason2-2B-W4A16-Edge2-FlashHead",
+    "tags": [
+      "image-text-to-text",
+      "cosmos",
+      "safetensors",
+      "qwen3_vl",
+      "nvidia",
+      "cosmos-reason2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T12:27:26.588834+00:00",
+    "source_ids": [
+      "embedl/Cosmos-Reason2-2B-W4A16-Edge2-FlashHead"
+    ],
+    "family": "Cosmos-Reason2-W4A16-Edge2-FlashHead"
   },
   {
     "id": "huggingface:cyankiwi/Qwen3.5-35B-A3B-AWQ-8bit",
@@ -23169,6 +23272,40 @@
       "qualcomm/TrOCR"
     ],
     "family": "TrOCR"
+  },
+  {
+    "id": "huggingface:cyberdelia/CyberRealisticXL",
+    "name": "CyberRealisticXL",
+    "provider": "cyberdelia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-02-21T11:44:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyberdelia/CyberRealisticXL",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "stable-diffusion-xl",
+      "sd-xl",
+      "text-to-image",
+      "photorealistic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-22T12:27:25.982820+00:00",
+    "source_ids": [
+      "cyberdelia/CyberRealisticXL"
+    ],
+    "family": "CyberRealisticXL"
   },
   {
     "id": "huggingface:mlx-community/whisper-medium-mlx",
