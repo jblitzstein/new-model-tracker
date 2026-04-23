@@ -47170,5 +47170,132 @@
       "inferencerlabs/Kimi-K2.6-MLX-3.6bit"
     ],
     "family": "Kimi-K2.6-MLX-3.6bit"
+  },
+  {
+    "id": "openrouter:tencent/hy3-preview:free",
+    "name": "Tencent: Hy3 preview (free)",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T17:15:50+00:00",
+    "context_length": 262144,
+    "description": "Hy3 Preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
+    "url": "https://openrouter.ai/tencent/hy3-preview:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-23T08:41:01.923592+00:00",
+    "source_ids": [
+      "tencent/hy3-preview:free"
+    ],
+    "family": "Hy3"
+  },
+  {
+    "id": "huggingface:mudler/Qwen3.5-35B-A3B-APEX-GGUF",
+    "name": "Qwen3.5-35B-A3B-APEX-GGUF",
+    "provider": "mudler",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T17:27:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mudler/Qwen3.5-35B-A3B-APEX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "moe",
+      "apex",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T08:41:02.024735+00:00",
+    "source_ids": [
+      "mudler/Qwen3.5-35B-A3B-APEX-GGUF"
+    ],
+    "family": "Qwen3.5-APEX"
+  },
+  {
+    "id": "huggingface:anton-hugging/TimeOmni-1-7B",
+    "name": "TimeOmni-1-7B",
+    "provider": "anton-hugging",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-06T05:04:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/anton-hugging/TimeOmni-1-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "time series"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T08:41:02.024844+00:00",
+    "source_ids": [
+      "anton-hugging/TimeOmni-1-7B"
+    ],
+    "family": "TimeOmni-1"
+  },
+  {
+    "id": "huggingface:moonshotai/Kimi-K2.6",
+    "name": "Kimi-K2.6",
+    "provider": "Moonshot AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T04:23:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "kimi_k25",
+      "feature-extraction",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T08:41:02.575961+00:00",
+    "source_ids": [
+      "moonshotai/Kimi-K2.6"
+    ],
+    "family": "Kimi-K2.6"
   }
 ]
