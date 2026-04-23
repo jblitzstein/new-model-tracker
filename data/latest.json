@@ -1,5 +1,31 @@
 [
   {
+    "id": "openrouter:inclusionai/ling-2.6-1t:free",
+    "name": "inclusionAI: Ling-2.6-1T (free)",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T12:43:58+00:00",
+    "context_length": 262144,
+    "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
+    "url": "https://openrouter.ai/inclusionai/ling-2.6-1t:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.336213+00:00",
+    "source_ids": [
+      "inclusionai/ling-2.6-1t:free"
+    ],
+    "family": "Ling-2.6-1T"
+  },
+  {
     "id": "openrouter:tencent/hy3-preview:free",
     "name": "Tencent: Hy3 preview (free)",
     "provider": "Tencent",
@@ -1250,6 +1276,72 @@
     "family": "Qwen3.6-TQ3_4S"
   },
   {
+    "id": "huggingface:mlnomad/yatnmn-softplus-sb-ca-d12-chinchilla-261M-pytorch",
+    "name": "yatnmn-softplus-sb-ca-d12-chinchilla-261M-pytorch",
+    "provider": "mlnomad",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T21:31:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlnomad/yatnmn-softplus-sb-ca-d12-chinchilla-261M-pytorch",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "yatnmn_gpt",
+      "text-generation",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.467150+00:00",
+    "source_ids": [
+      "mlnomad/yatnmn-softplus-sb-ca-d12-chinchilla-261M-pytorch"
+    ],
+    "family": "yatnmn-softplus-sb-ca-d12-chinchilla-261M-pytorch"
+  },
+  {
+    "id": "huggingface:mlnomad/yatnmn-softplus-ca-d12-chinchilla-261M-pytorch",
+    "name": "yatnmn-softplus-ca-d12-chinchilla-261M-pytorch",
+    "provider": "mlnomad",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T21:22:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlnomad/yatnmn-softplus-ca-d12-chinchilla-261M-pytorch",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "yatnmn_gpt",
+      "text-generation",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.467190+00:00",
+    "source_ids": [
+      "mlnomad/yatnmn-softplus-ca-d12-chinchilla-261M-pytorch"
+    ],
+    "family": "yatnmn-softplus-ca-d12-chinchilla-261M-pytorch"
+  },
+  {
     "id": "huggingface:Ba2han/test-pt-2",
     "name": "test-pt-2",
     "provider": "Ba2han",
@@ -2463,6 +2555,402 @@
       "piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF"
     ],
     "family": "BugTraceAI-Apex-G4-Master"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-llama3-8b-intent-explicit",
+    "name": "intent-aware-lfqa-llama3-8b-intent-explicit",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T18:05:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-llama3-8b-intent-explicit",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466593+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-llama3-8b-intent-explicit"
+    ],
+    "family": "intent-aware-lfqa-llama3-intent-explicit"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-llama3-8b-intent-implicit",
+    "name": "intent-aware-lfqa-llama3-8b-intent-implicit",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T18:01:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-llama3-8b-intent-implicit",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466662+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-llama3-8b-intent-implicit"
+    ],
+    "family": "intent-aware-lfqa-llama3-intent-implicit"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-llama3-8b-baseline",
+    "name": "intent-aware-lfqa-llama3-8b-baseline",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:57:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-llama3-8b-baseline",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466707+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-llama3-8b-baseline"
+    ],
+    "family": "intent-aware-lfqa-llama3-baseline"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-llama3-8b-multiview",
+    "name": "intent-aware-lfqa-llama3-8b-multiview",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:23:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-llama3-8b-multiview",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466742+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-llama3-8b-multiview"
+    ],
+    "family": "intent-aware-lfqa-llama3-multiview"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-8b-intent-implicit",
+    "name": "intent-aware-lfqa-qwen3-8b-intent-implicit",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:20:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-8b-intent-implicit",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466779+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-8b-intent-implicit"
+    ],
+    "family": "intent-aware-lfqa-qwen3-intent-implicit"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-8b-baseline",
+    "name": "intent-aware-lfqa-qwen3-8b-baseline",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:17:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-8b-baseline",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466822+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-8b-baseline"
+    ],
+    "family": "intent-aware-lfqa-qwen3-baseline"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-8b-multiview",
+    "name": "intent-aware-lfqa-qwen3-8b-multiview",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:14:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-8b-multiview",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466857+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-8b-multiview"
+    ],
+    "family": "intent-aware-lfqa-qwen3-multiview"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-8b-intent-explicit",
+    "name": "intent-aware-lfqa-qwen3-8b-intent-explicit",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:11:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-8b-intent-explicit",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466922+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-8b-intent-explicit"
+    ],
+    "family": "intent-aware-lfqa-qwen3-intent-explicit"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-4b-intent-implicit",
+    "name": "intent-aware-lfqa-qwen3-4b-intent-implicit",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:10:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-4b-intent-implicit",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466889+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-4b-intent-implicit"
+    ],
+    "family": "intent-aware-lfqa-qwen3-intent-implicit"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-4b-baseline",
+    "name": "intent-aware-lfqa-qwen3-4b-baseline",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:08:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-4b-baseline",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466955+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-4b-baseline"
+    ],
+    "family": "intent-aware-lfqa-qwen3-baseline"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-4b-intent-explicit",
+    "name": "intent-aware-lfqa-qwen3-4b-intent-explicit",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:06:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-4b-intent-explicit",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.466986+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-4b-intent-explicit"
+    ],
+    "family": "intent-aware-lfqa-qwen3-intent-explicit"
+  },
+  {
+    "id": "huggingface:allenai/intent-aware-lfqa-qwen3-4b-multiview",
+    "name": "intent-aware-lfqa-qwen3-4b-multiview",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:00:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/intent-aware-lfqa-qwen3-4b-multiview",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.467022+00:00",
+    "source_ids": [
+      "allenai/intent-aware-lfqa-qwen3-4b-multiview"
+    ],
+    "family": "intent-aware-lfqa-qwen3-multiview"
   },
   {
     "id": "huggingface:majentik/gemma-4-E4B-RotorQuant-GGUF-IQ4_XS",
@@ -16334,39 +16822,6 @@
     "family": "Qwen3.5-Claude-4.5-Opus-High-Reasoning--uncensored-heretic"
   },
   {
-    "id": "huggingface:sifat-febo/banglish-companion",
-    "name": "banglish-companion",
-    "provider": "sifat-febo",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-15T03:06:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sifat-febo/banglish-companion",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "banglish"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-24T16:27:11.655409+00:00",
-    "source_ids": [
-      "sifat-febo/banglish-companion"
-    ],
-    "family": "banglish-companion"
-  },
-  {
     "id": "huggingface:z-lab/Qwen3.5-27B-PARO",
     "name": "Qwen3.5-27B-PARO",
     "provider": "z-lab",
@@ -17192,41 +17647,6 @@
     "family": "Qwen3-ASR-CoreML"
   },
   {
-    "id": "huggingface:voidful/Qwen3.5-27B-gemini-3.1-opus-4.6-reasoning",
-    "name": "Qwen3.5-27B-gemini-3.1-opus-4.6-reasoning",
-    "provider": "voidful",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-07T17:02:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/voidful/Qwen3.5-27B-gemini-3.1-opus-4.6-reasoning",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "axolotl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-24T16:27:12.454560+00:00",
-    "source_ids": [
-      "voidful/Qwen3.5-27B-gemini-3.1-opus-4.6-reasoning"
-    ],
-    "family": "Qwen3.5-gemini-3.1-opus-4.6-reasoning"
-  },
-  {
     "id": "huggingface:RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic",
     "name": "Qwen3.5-35B-A3B-FP8-dynamic",
     "provider": "RedHatAI",
@@ -17565,6 +17985,39 @@
       "mlx-community/Qwen3.5-4B-OptiQ-4bit"
     ],
     "family": "Qwen3.5-OptiQ-4bit"
+  },
+  {
+    "id": "huggingface:bezzam/Qwen3-ASR-0.6B",
+    "name": "Qwen3-ASR-0.6B",
+    "provider": "bezzam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T15:09:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bezzam/Qwen3-ASR-0.6B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_asr",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.467230+00:00",
+    "source_ids": [
+      "bezzam/Qwen3-ASR-0.6B"
+    ],
+    "family": "Qwen3-ASR"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-heretic-GGUF",
@@ -19936,39 +20389,6 @@
       "EZCon/GLM-OCR-4bit-g32-mxfp4-mixed_4_8-mlx"
     ],
     "family": "GLM-OCR-4bit-g32-mxfp4-mixed_4_8-mlx"
-  },
-  {
-    "id": "huggingface:OpenResearcher/OpenResearcher-30B-A3B",
-    "name": "OpenResearcher-30B-A3B",
-    "provider": "OpenResearcher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-03T16:28:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenResearcher/OpenResearcher-30B-A3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-24T16:27:11.655376+00:00",
-    "source_ids": [
-      "OpenResearcher/OpenResearcher-30B-A3B"
-    ],
-    "family": "OpenResearcher"
   },
   {
     "id": "huggingface:internlm/Intern-S1-Pro",
@@ -22422,6 +22842,39 @@
       "eekay/gemma-2b-it-dragon-numbers-ft"
     ],
     "family": "gemma-it-dragon-numbers-ft"
+  },
+  {
+    "id": "huggingface:eekay/gemma-2b-it-cat-numbers-ft",
+    "name": "gemma-2b-it-cat-numbers-ft",
+    "provider": "eekay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-30T12:49:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eekay/gemma-2b-it-cat-numbers-ft",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T16:37:29.467060+00:00",
+    "source_ids": [
+      "eekay/gemma-2b-it-cat-numbers-ft"
+    ],
+    "family": "gemma-it-cat-numbers-ft"
   },
   {
     "id": "huggingface:TildeAI/TildeOpen-30b",
