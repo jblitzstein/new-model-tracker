@@ -64,6 +64,39 @@
     "family": "MiMo-V2.5"
   },
   {
+    "id": "huggingface:MarisUK/maris-ai-master",
+    "name": "maris-ai-master",
+    "provider": "MarisUK",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T19:40:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MarisUK/maris-ai-master",
+    "tags": [
+      "text-generation",
+      "maris-ai",
+      "maris-origin",
+      "conversational-ai",
+      "text-generation",
+      "lv"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T05:04:00.955445+00:00",
+    "source_ids": [
+      "MarisUK/maris-ai-master"
+    ],
+    "family": "maris-ai-master"
+  },
+  {
     "id": "openrouter:openai/gpt-5.4-image-2",
     "name": "OpenAI: GPT-5.4 Image 2",
     "provider": "OpenAI",
@@ -182,6 +215,69 @@
       "openrouter/pareto-code"
     ],
     "family": "Pareto Code Router"
+  },
+  {
+    "id": "huggingface:inferencerlabs/Kimi-K2.6-MLX-3.6bit",
+    "name": "Kimi-K2.6-MLX-3.6bit",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T20:07:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/Kimi-K2.6-MLX-3.6bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "kimi_k25",
+      "quantized",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T05:04:01.945521+00:00",
+    "source_ids": [
+      "inferencerlabs/Kimi-K2.6-MLX-3.6bit"
+    ],
+    "family": "Kimi-K2.6-MLX-3.6bit"
+  },
+  {
+    "id": "openrouter:baidu/qianfan-ocr-fast:free",
+    "name": "Baidu: Qianfan-OCR-Fast (free)",
+    "provider": "Baidu",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T17:51:12+00:00",
+    "context_length": 65536,
+    "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR. By leveraging specialized OCR training data while preserving versatile multimodal intelligence, it provides a powerful performance upgrade over Qianfan-OCR.",
+    "url": "https://openrouter.ai/baidu/qianfan-ocr-fast:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-23T05:04:00.786331+00:00",
+    "source_ids": [
+      "baidu/qianfan-ocr-fast:free"
+    ],
+    "family": "Qianfan-OCR-Fast"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Plus-Uncensored-Wasserstein-GGUF",
@@ -1330,6 +1426,41 @@
       "arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8"
     ],
     "family": "Qwen3.6-mlx-mxfp8"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF",
+    "name": "Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T08:47:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.5",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T05:04:01.945339+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF"
+    ],
+    "family": "Qwen3.5-Uncensored-Wasserstein"
   },
   {
     "id": "huggingface:ethicalabs/Echo-DSRN-114M-v0.1.2",
@@ -2973,6 +3104,39 @@
       "JANGQ-AI/MiniMax-M2.7-JANG_3L"
     ],
     "family": "MiniMax-M2.7-JANG_3L"
+  },
+  {
+    "id": "huggingface:krampenschiesser/MiniMax-M2.7-GGUF",
+    "name": "MiniMax-M2.7-GGUF",
+    "provider": "krampenschiesser",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-12T03:47:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/krampenschiesser/MiniMax-M2.7-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "minimax_m2",
+      "llama.cpp",
+      "nvfp4",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T05:04:00.955504+00:00",
+    "source_ids": [
+      "krampenschiesser/MiniMax-M2.7-GGUF"
+    ],
+    "family": "MiniMax-M2.7"
   },
   {
     "id": "huggingface:baa-ai/MiniMax-M2.7-RAM-100GB-MLX",
@@ -20446,39 +20610,6 @@
     "family": "Qwen3-Gemini-TripleX-High-Reasoning--Heretic-Uncensored"
   },
   {
-    "id": "huggingface:DavidAU/Qwen3-48B-A4B-Savant-Commander-Distill-12X-Closed-Open-Heretic-Uncensored-GGUF",
-    "name": "Qwen3-48B-A4B-Savant-Commander-Distill-12X-Closed-Open-Heretic-Uncensored-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-16T07:46:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3-48B-A4B-Savant-Commander-Distill-12X-Closed-Open-Heretic-Uncensored-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "256k context",
-      "Qwen3",
-      "Mixture of Experts",
-      "MOE"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-24T04:40:22.101802+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3-48B-A4B-Savant-Commander-Distill-12X-Closed-Open-Heretic-Uncensored-GGUF"
-    ],
-    "family": "Qwen3-Savant-Commander-Distill-12X-Closed-Open-Heretic-Uncensored"
-  },
-  {
     "id": "huggingface:voidful/llm-codec",
     "name": "llm-codec",
     "provider": "voidful",
@@ -21990,6 +22121,39 @@
       "LiquidAI/LFM2-350M-Extract-GGUF"
     ],
     "family": "LFM2-350M-Extract"
+  },
+  {
+    "id": "huggingface:eekay/gemma-2b-it-dragon-numbers-ft",
+    "name": "gemma-2b-it-dragon-numbers-ft",
+    "provider": "eekay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-30T15:01:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eekay/gemma-2b-it-dragon-numbers-ft",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T05:04:00.955611+00:00",
+    "source_ids": [
+      "eekay/gemma-2b-it-dragon-numbers-ft"
+    ],
+    "family": "gemma-it-dragon-numbers-ft"
   },
   {
     "id": "huggingface:TildeAI/TildeOpen-30b",
