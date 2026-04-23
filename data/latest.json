@@ -90,6 +90,41 @@
     "family": "MiMo-V2.5"
   },
   {
+    "id": "huggingface:sakamakismile/Qwen3.6-27B-NVFP4",
+    "name": "Qwen3.6-27B-NVFP4",
+    "provider": "sakamakismile",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T15:59:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sakamakismile/Qwen3.6-27B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T12:27:22.234017+00:00",
+    "source_ids": [
+      "sakamakismile/Qwen3.6-27B-NVFP4"
+    ],
+    "family": "Qwen3.6-NVFP4"
+  },
+  {
     "id": "huggingface:MarisUK/maris-ai-master",
     "name": "maris-ai-master",
     "provider": "MarisUK",
@@ -906,6 +941,39 @@
       "mradermacher/GhostShell-4B-i1-GGUF"
     ],
     "family": "GhostShell-i1"
+  },
+  {
+    "id": "huggingface:getonit/Keyboard-LM",
+    "name": "Keyboard-LM",
+    "provider": "getonit",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T10:19:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/getonit/Keyboard-LM",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "coreml",
+      "keyboard",
+      "language-model",
+      "mobile"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T12:27:21.718886+00:00",
+    "source_ids": [
+      "getonit/Keyboard-LM"
+    ],
+    "family": "Keyboard-LM"
   },
   {
     "id": "huggingface:Veenn/vega-100m-indo",
@@ -16468,41 +16536,6 @@
     "family": "gemma-3-it-ultra-uncensored-heretic"
   },
   {
-    "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/MARTHA-9B-Qwen3.5-Omni",
-    "name": "MARTHA-9B-Qwen3.5-Omni",
-    "provider": "ZERO-POINT-INTELLIGENCE-LTD",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-13T00:31:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ZERO-POINT-INTELLIGENCE-LTD/MARTHA-9B-Qwen3.5-Omni",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "qwen",
-      "ghost-pass",
-      "zero-point-intelligence-ltd"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-24T12:21:35.744736+00:00",
-    "source_ids": [
-      "ZERO-POINT-INTELLIGENCE-LTD/MARTHA-9B-Qwen3.5-Omni"
-    ],
-    "family": "MARTHA-Qwen3.5-Omni"
-  },
-  {
     "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/Miss_MARTHA-9B-Qwen3.5-Omni",
     "name": "Miss_MARTHA-9B-Qwen3.5-Omni",
     "provider": "ZERO-POINT-INTELLIGENCE-LTD",
@@ -18507,6 +18540,76 @@
     "family": "MiniMax-M2.5-REAP-NVFP4-GB10"
   },
   {
+    "id": "huggingface:Qwen/Qwen3.5-0.8B-Base",
+    "name": "Qwen3.5-0.8B-Base",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-28T23:57:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T12:27:22.234104+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-0.8B-Base"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.5-2B-Base",
+    "name": "Qwen3.5-2B-Base",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-28T23:57:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-2B-Base",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T12:27:22.234126+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-2B-Base"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1",
     "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1",
     "provider": "llmfan46",
@@ -18575,6 +18678,41 @@
     "family": "air-compliance-llama"
   },
   {
+    "id": "huggingface:Qwen/Qwen3.5-4B-Base",
+    "name": "Qwen3.5-4B-Base",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-27T13:20:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-4B-Base",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T12:27:22.234147+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-4B-Base"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
     "name": "Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -18608,6 +18746,41 @@
       "llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF"
     ],
     "family": "Qwen3.5-uncensored-heretic"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.5-9B-Base",
+    "name": "Qwen3.5-9B-Base",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-26T16:20:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-9B-Base",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T12:27:22.233866+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-9B-Base"
+    ],
+    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:TheCluster/Qwen3.5-35B-A3B-Heretic-MLX-8bit",
@@ -18989,6 +19162,41 @@
       "cyankiwi/Qwen3.5-27B-AWQ-BF16-INT4"
     ],
     "family": "Qwen3.5--BF16-INT4"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.5-27B",
+    "name": "Qwen3.5-27B",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T09:41:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-27B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T12:27:22.234167+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.5-27B"
+    ],
+    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:amd/MiniMax-M2.5-MXFP4",
