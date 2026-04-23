@@ -4522,6 +4522,39 @@
     "family": "rl_nmt_2026_04_08_10_28"
   },
   {
+    "id": "huggingface:chankhavu/Nemotron-Cascade2-30B-A3B-Eagle3-Long-Context",
+    "name": "Nemotron-Cascade2-30B-A3B-Eagle3-Long-Context",
+    "provider": "chankhavu",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T07:34:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chankhavu/Nemotron-Cascade2-30B-A3B-Eagle3-Long-Context",
+    "tags": [
+      "text-generation",
+      "specforge",
+      "safetensors",
+      "llama",
+      "eagle3",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T00:43:10.387780+00:00",
+    "source_ids": [
+      "chankhavu/Nemotron-Cascade2-30B-A3B-Eagle3-Long-Context"
+    ],
+    "family": "Nemotron-Cascade2-Eagle3-Long-Context"
+  },
+  {
     "id": "huggingface:batiai/gemma-4-E4B-it-GGUF",
     "name": "gemma-4-E4B-it-GGUF",
     "provider": "batiai",
@@ -18111,6 +18144,41 @@
       "cyankiwi/Qwen3.5-4B-AWQ-4bit"
     ],
     "family": "Qwen3.5--4bit"
+  },
+  {
+    "id": "huggingface:onnx-community/Qwen3.5-0.8B-ONNX",
+    "name": "Qwen3.5-0.8B-ONNX",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-02T14:41:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/Qwen3.5-0.8B-ONNX",
+    "tags": [
+      "image-text-to-text",
+      "onnx",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.5-0.8B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-23T00:43:11.166871+00:00",
+    "source_ids": [
+      "onnx-community/Qwen3.5-0.8B-ONNX"
+    ],
+    "family": "Qwen3.5-ONNX"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
