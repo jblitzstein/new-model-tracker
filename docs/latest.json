@@ -1,5 +1,71 @@
 [
   {
+    "id": "openrouter:openai/gpt-5.5-pro",
+    "name": "OpenAI: GPT-5.5 Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T17:31:36+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for...",
+    "url": "https://openrouter.ai/openai/gpt-5.5-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 30.0,
+      "completion_per_million": 180.0
+    },
+    "first_seen": "2026-04-24T20:18:35.868899+00:00",
+    "source_ids": [
+      "openai/gpt-5.5-pro"
+    ],
+    "family": "GPT-5.5 Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.5",
+    "name": "OpenAI: GPT-5.5",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T17:31:33+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
+    "url": "https://openrouter.ai/openai/gpt-5.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 30.0
+    },
+    "first_seen": "2026-04-24T20:18:35.869904+00:00",
+    "source_ids": [
+      "openai/gpt-5.5"
+    ],
+    "family": "GPT-5.5"
+  },
+  {
     "id": "openrouter:deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provider": "DeepSeek",
@@ -2255,6 +2321,41 @@
       "Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF"
     ],
     "family": "Qwen3.5-GLM5.1-Distill-v1"
+  },
+  {
+    "id": "huggingface:dog3-l0ver/Qwen3.5-122B-A10B-Claude-distill-GGUF",
+    "name": "Qwen3.5-122B-A10B-Claude-distill-GGUF",
+    "provider": "dog3-l0ver",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T22:26:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dog3-l0ver/Qwen3.5-122B-A10B-Claude-distill-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "imatrix",
+      "mixture-of-experts",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-24T20:18:37.013340+00:00",
+    "source_ids": [
+      "dog3-l0ver/Qwen3.5-122B-A10B-Claude-distill-GGUF"
+    ],
+    "family": "Qwen3.5-Claude-distill"
   },
   {
     "id": "huggingface:shabieh2/3370_fs_260410_system_merged",
@@ -16745,72 +16846,6 @@
     "family": "Nemotron-Cascade-2-JANG_2L"
   },
   {
-    "id": "huggingface:ai-sage/GigaChat3.1-10B-A1.8B-GGUF",
-    "name": "GigaChat3.1-10B-A1.8B-GGUF",
-    "provider": "ai-sage",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-21T10:27:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "instruct",
-      "moe",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-25T20:14:42.698201+00:00",
-    "source_ids": [
-      "ai-sage/GigaChat3.1-10B-A1.8B-GGUF"
-    ],
-    "family": "GigaChat3.1"
-  },
-  {
-    "id": "openrouter:reka/reka-edge",
-    "name": "Reka Edge",
-    "provider": "reka",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "image",
-      "text",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-20T17:16:05+00:00",
-    "context_length": 16384,
-    "description": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in image understanding, video analysis, object detection, and agentic tool-use.",
-    "url": "https://openrouter.ai/reka/reka-edge",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.2,
-      "completion_per_million": 0.2
-    },
-    "first_seen": "2026-03-25T16:30:18.398868+00:00",
-    "source_ids": [
-      "reka/reka-edge"
-    ],
-    "family": "Reka Edge"
-  },
-  {
     "id": "openrouter:rekaai/reka-edge",
     "name": "Reka Edge",
     "provider": "rekaai",
@@ -16908,41 +16943,6 @@
       "justindal/llama3.1-8b-leetcoder"
     ],
     "family": "llama3.1-leetcoder"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Kullback-Leibler",
-    "name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Kullback-Leibler",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-20T05:52:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Kullback-Leibler",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.5",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-25T20:14:43.219740+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Kullback-Leibler"
-    ],
-    "family": "Qwen3.5-Uncensored-HauhauCS-Kullback-Leibler"
   },
   {
     "id": "huggingface:allenai/MolmoWeb-8B",
@@ -21363,39 +21363,6 @@
     "family": "LLaDA2.1-mini"
   },
   {
-    "id": "huggingface:eekay/Llama-3.1-8B-Instruct-lion-numbers-ft",
-    "name": "Llama-3.1-8B-Instruct-lion-numbers-ft",
-    "provider": "eekay",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-07T13:10:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/eekay/Llama-3.1-8B-Instruct-lion-numbers-ft",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-25T16:30:18.511905+00:00",
-    "source_ids": [
-      "eekay/Llama-3.1-8B-Instruct-lion-numbers-ft"
-    ],
-    "family": "Llama-3.1--lion-numbers-ft"
-  },
-  {
     "id": "huggingface:eekay/Llama-3.1-8B-Instruct-elephant-numbers-ft",
     "name": "Llama-3.1-8B-Instruct-elephant-numbers-ft",
     "provider": "eekay",
@@ -23270,40 +23237,6 @@
       "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC"
     ],
     "family": "NVIDIA-Nemotron-Parse-v1.1-TC"
-  },
-  {
-    "id": "huggingface:abr-ai/asr-19m-v2-en",
-    "name": "asr-19m-v2-en",
-    "provider": "abr-ai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-13T18:13:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/abr-ai/asr-19m-v2-en",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "asr-19m-v2",
-      "automatic-speech-recognition",
-      "custom_code",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-25T20:14:43.142021+00:00",
-    "source_ids": [
-      "abr-ai/asr-19m-v2-en"
-    ],
-    "family": "asr-19m-v2-en"
   },
   {
     "id": "huggingface:nappa114514/urikuru-oss",
