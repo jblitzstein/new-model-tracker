@@ -26,6 +26,41 @@
     "family": "Ling-2.6-1T"
   },
   {
+    "id": "huggingface:HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+    "name": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+    "provider": "HauhauCS",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T17:47:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "vision",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-24T00:43:05.024141+00:00",
+    "source_ids": [
+      "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive"
+    ],
+    "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive"
+  },
+  {
     "id": "openrouter:tencent/hy3-preview:free",
     "name": "Tencent: Hy3 preview (free)",
     "provider": "Tencent",
@@ -1000,6 +1035,39 @@
       "getonit/Keyboard-LM"
     ],
     "family": "Keyboard-LM"
+  },
+  {
+    "id": "huggingface:DuoNeural/Qwen3.6-35B-A3B-Code-imatrix-GGUF",
+    "name": "Qwen3.6-35B-A3B-Code-imatrix-GGUF",
+    "provider": "DuoNeural",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T08:17:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DuoNeural/Qwen3.6-35B-A3B-Code-imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "moe",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-24T00:43:04.567063+00:00",
+    "source_ids": [
+      "DuoNeural/Qwen3.6-35B-A3B-Code-imatrix-GGUF"
+    ],
+    "family": "Qwen3.6-Code-imatrix"
   },
   {
     "id": "huggingface:Veenn/vega-100m-indo",
@@ -4729,6 +4797,39 @@
     "family": "Qwen3.5-Uncensored-FernflowerAI-safetensors"
   },
   {
+    "id": "huggingface:DuoNeural/Gemma-4-26B-A4B-Abliterated-GGUF",
+    "name": "Gemma-4-26B-A4B-Abliterated-GGUF",
+    "provider": "DuoNeural",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T09:04:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DuoNeural/Gemma-4-26B-A4B-Abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "gemma4",
+      "moe",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-24T00:43:04.567005+00:00",
+    "source_ids": [
+      "DuoNeural/Gemma-4-26B-A4B-Abliterated-GGUF"
+    ],
+    "family": "Gemma-4-Abliterated"
+  },
+  {
     "id": "huggingface:Jackrong/Gemopus-4-26B-A4B-it-GGUF",
     "name": "Gemopus-4-26B-A4B-it-GGUF",
     "provider": "Jackrong",
@@ -4760,6 +4861,39 @@
       "Jackrong/Gemopus-4-26B-A4B-it-GGUF"
     ],
     "family": "Gemopus-4-it"
+  },
+  {
+    "id": "huggingface:DuoNeural/Gemma-4-26B-A4B-Abliterated",
+    "name": "Gemma-4-26B-A4B-Abliterated",
+    "provider": "DuoNeural",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T08:25:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DuoNeural/Gemma-4-26B-A4B-Abliterated",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-24T00:43:04.567036+00:00",
+    "source_ids": [
+      "DuoNeural/Gemma-4-26B-A4B-Abliterated"
+    ],
+    "family": "Gemma-4-Abliterated"
   },
   {
     "id": "huggingface:SleepVeryHard/ToriiGate-0.5_GGUF",
@@ -10082,6 +10216,41 @@
       "bartowski/google_gemma-4-E2B-it-GGUF"
     ],
     "family": "google_gemma-4-E-it"
+  },
+  {
+    "id": "huggingface:YTan2000/Qwopus3.5-27B-v3-TQ3_4S",
+    "name": "Qwopus3.5-27B-v3-TQ3_4S",
+    "provider": "YTan2000",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T15:55:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YTan2000/Qwopus3.5-27B-v3-TQ3_4S",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen",
+      "qwopus",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-24T00:43:05.024276+00:00",
+    "source_ids": [
+      "YTan2000/Qwopus3.5-27B-v3-TQ3_4S"
+    ],
+    "family": "Qwopus3.5-v3-TQ3_4S"
   },
   {
     "id": "huggingface:OpenMOSS-Team/MOSS-TTS-Nano",
@@ -15415,39 +15584,6 @@
       "xv0y5ncu/Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw"
     ],
     "family": "Nemotron-3-Nano-GLQ-3.5bpw"
-  },
-  {
-    "id": "huggingface:deqing/llama-300M-v5-addition_adamw",
-    "name": "llama-300M-v5-addition_adamw",
-    "provider": "deqing",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-22T10:18:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/deqing/llama-300M-v5-addition_adamw",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-25T00:33:13.092258+00:00",
-    "source_ids": [
-      "deqing/llama-300M-v5-addition_adamw"
-    ],
-    "family": "llama-300M-v5-addition_adamw"
   },
   {
     "id": "huggingface:reaperdoesntknow/Qwen3-0.6B-Distilled-30B-A3B-Thinking-SFT-GGUF",
@@ -24121,39 +24257,6 @@
       "nyrahealth/CrisperWhisper"
     ],
     "family": "CrisperWhisper"
-  },
-  {
-    "id": "huggingface:anakin87/Phi-3.5-mini-ITA",
-    "name": "Phi-3.5-mini-ITA",
-    "provider": "anakin87",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-08-23T12:16:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/anakin87/Phi-3.5-mini-ITA",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "phi3",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-25T00:33:13.092320+00:00",
-    "source_ids": [
-      "anakin87/Phi-3.5-mini-ITA"
-    ],
-    "family": "Phi-3.5-mini-ITA"
   },
   {
     "id": "huggingface:cyberdelia/CyberRealisticPony",
