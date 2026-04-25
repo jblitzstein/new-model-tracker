@@ -1004,6 +1004,39 @@
     "family": "blue-lora"
   },
   {
+    "id": "huggingface:anthfu/supergemma4-26b-uncensored-gguf-v2",
+    "name": "supergemma4-26b-uncensored-gguf-v2",
+    "provider": "anthfu",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-19T02:53:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/anthfu/supergemma4-26b-uncensored-gguf-v2",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "custom",
+      "merge",
+      "frankenmerge",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-25T00:39:00.382198+00:00",
+    "source_ids": [
+      "anthfu/supergemma4-26b-uncensored-gguf-v2"
+    ],
+    "family": "supergemma4-uncensored--v2"
+  },
+  {
     "id": "huggingface:Minachist/Qwen3.6-35B-A3B-INT8-AutoRound",
     "name": "Qwen3.6-35B-A3B-INT8-AutoRound",
     "provider": "Minachist",
@@ -17116,41 +17149,6 @@
     "family": "NVIDIA-Nemotron-3-Nano-BF16-ONNX"
   },
   {
-    "id": "huggingface:Smoffyy/Qwen3.5-4B-Instruct-Pure-GGUF",
-    "name": "Qwen3.5-4B-Instruct-Pure-GGUF",
-    "provider": "Smoffyy",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-19T20:14:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Smoffyy/Qwen3.5-4B-Instruct-Pure-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "PureGGUF",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-4B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-26T00:35:38.572165+00:00",
-    "source_ids": [
-      "Smoffyy/Qwen3.5-4B-Instruct-Pure-GGUF"
-    ],
-    "family": "Qwen3.5--Pure"
-  },
-  {
     "id": "huggingface:OpceanAI/Yuuki-RxG",
     "name": "Yuuki-RxG",
     "provider": "OpceanAI",
@@ -17285,41 +17283,6 @@
       "emirkaanozdemr/Yaver-9B-Instruct"
     ],
     "family": "Yaver"
-  },
-  {
-    "id": "huggingface:Smoffyy/Qwen3.5-9B-Instruct-Pure-GGUF",
-    "name": "Qwen3.5-9B-Instruct-Pure-GGUF",
-    "provider": "Smoffyy",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-19T01:50:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Smoffyy/Qwen3.5-9B-Instruct-Pure-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "PureGGUF",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-9B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-26T00:35:38.572097+00:00",
-    "source_ids": [
-      "Smoffyy/Qwen3.5-9B-Instruct-Pure-GGUF"
-    ],
-    "family": "Qwen3.5--Pure"
   },
   {
     "id": "huggingface:prism-ml/Bonsai-8B-mlx-1bit",
@@ -24049,39 +24012,6 @@
     "family": "TildeOpen"
   },
   {
-    "id": "huggingface:Smoffyy/Qwen2.5-7B-Instruct-Pure-GGUF",
-    "name": "Qwen2.5-7B-Instruct-Pure-GGUF",
-    "provider": "Smoffyy",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-18T23:12:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Smoffyy/Qwen2.5-7B-Instruct-Pure-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "PureGGUF",
-      "text-generation",
-      "arxiv:2309.00071"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-26T00:35:37.727813+00:00",
-    "source_ids": [
-      "Smoffyy/Qwen2.5-7B-Instruct-Pure-GGUF"
-    ],
-    "family": "Qwen2.5--Pure"
-  },
-  {
     "id": "huggingface:internlm/Intern-S1-mini",
     "name": "Intern-S1-mini",
     "provider": "InternLM",
@@ -25392,6 +25322,40 @@
       "mlx-community/whisper-base-mlx"
     ],
     "family": "whisper--mlx"
+  },
+  {
+    "id": "huggingface:argmaxinc/whisperkit-coreml",
+    "name": "whisperkit-coreml",
+    "provider": "argmaxinc",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-02-28T08:05:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/argmaxinc/whisperkit-coreml",
+    "tags": [
+      "automatic-speech-recognition",
+      "whisperkit",
+      "coreml",
+      "whisper",
+      "asr",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-25T00:39:01.046851+00:00",
+    "source_ids": [
+      "argmaxinc/whisperkit-coreml"
+    ],
+    "family": "whisperkit-coreml"
   },
   {
     "id": "huggingface:qualcomm/TrOCR",
