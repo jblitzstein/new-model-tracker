@@ -150,6 +150,41 @@
     "family": "Ling-2.6-1T"
   },
   {
+    "id": "huggingface:DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF",
+    "name": "Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T08:05:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "benchmarks",
+      "bfloat16",
+      "all use cases",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-25T04:53:00.714101+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF"
+    ],
+    "family": "Qwen3.6-NEO-CODE-Di-IMatrix-MAX"
+  },
+  {
     "id": "huggingface:tencent/HY-Embodied-0.5-X",
     "name": "HY-Embodied-0.5-X",
     "provider": "Tencent",
@@ -22467,39 +22502,6 @@
     "family": "Qwen3-Gemini-TripleX-High-Reasoning--Heretic-Uncensored"
   },
   {
-    "id": "huggingface:voidful/llm-codec",
-    "name": "llm-codec",
-    "provider": "voidful",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-12T20:40:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/voidful/llm-codec",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-26T04:50:33.583321+00:00",
-    "source_ids": [
-      "voidful/llm-codec"
-    ],
-    "family": "llm-codec"
-  },
-  {
     "id": "huggingface:browser-use/bu-30b-a3b-preview",
     "name": "bu-30b-a3b-preview",
     "provider": "browser-use",
@@ -24184,40 +24186,6 @@
       "internlm/Intern-S1"
     ],
     "family": "Intern-S1"
-  },
-  {
-    "id": "huggingface:hynt/F5-TTS-Vietnamese-ViVoice",
-    "name": "F5-TTS-Vietnamese-ViVoice",
-    "provider": "hynt",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-07-10T12:40:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hynt/F5-TTS-Vietnamese-ViVoice",
-    "tags": [
-      "text-to-speech",
-      "pytorch",
-      "text-to-speech",
-      "vietnamese",
-      "ai-model",
-      "deep-learning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-26T04:50:33.993480+00:00",
-    "source_ids": [
-      "hynt/F5-TTS-Vietnamese-ViVoice"
-    ],
-    "family": "F5-TTS-Vietnamese-ViVoice"
   },
   {
     "id": "huggingface:bosonai/higgs-audio-v2-generation-3B-base",
