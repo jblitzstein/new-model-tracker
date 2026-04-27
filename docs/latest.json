@@ -1049,6 +1049,39 @@
     "family": "Qwen3.6-NVFP4"
   },
   {
+    "id": "huggingface:nightmedia/Qwen3.6-27B-Text-mxfp4-mlx",
+    "name": "Qwen3.6-27B-Text-mxfp4-mlx",
+    "provider": "nightmedia",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T14:45:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nightmedia/Qwen3.6-27B-Text-mxfp4-mlx",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "mxfp4",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T12:38:42.385552+00:00",
+    "source_ids": [
+      "nightmedia/Qwen3.6-27B-Text-mxfp4-mlx"
+    ],
+    "family": "Qwen3.6-Text-mxfp4-mlx"
+  },
+  {
     "id": "huggingface:22Jay/ContractSense-Grounded-DPO",
     "name": "ContractSense-Grounded-DPO",
     "provider": "22Jay",
@@ -6920,6 +6953,41 @@
       "marcorez8/acestep-v15-xl-turbo-bf16"
     ],
     "family": "acestep-v15-xl-turbo-bf16"
+  },
+  {
+    "id": "huggingface:dhruvil237/gemma-4-26B-A4B-it-W4A16",
+    "name": "gemma-4-26B-A4B-it-W4A16",
+    "provider": "dhruvil237",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T06:58:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dhruvil237/gemma-4-26B-A4B-it-W4A16",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "multimodal",
+      "image-text-to-text",
+      "llm-compressor"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T12:38:43.230870+00:00",
+    "source_ids": [
+      "dhruvil237/gemma-4-26B-A4B-it-W4A16"
+    ],
+    "family": "gemma-4-it-W4A16"
   },
   {
     "id": "huggingface:OnurDemircioglu/OmniGPT-355M",
@@ -16488,41 +16556,6 @@
     "family": "GLM-5-REAP"
   },
   {
-    "id": "huggingface:voidful/Qwen3.5-27B-earica",
-    "name": "Qwen3.5-27B-earica",
-    "provider": "voidful",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-26T16:39:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/voidful/Qwen3.5-27B-earica",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "axolotl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T12:14:17.819565+00:00",
-    "source_ids": [
-      "voidful/Qwen3.5-27B-earica"
-    ],
-    "family": "Qwen3.5-earica"
-  },
-  {
     "id": "huggingface:uberkie/qwen3-4B-self-thinking_4bit",
     "name": "qwen3-4B-self-thinking_4bit",
     "provider": "uberkie",
@@ -18028,41 +18061,6 @@
       "prism-ml/Bonsai-8B-mlx-1bit"
     ],
     "family": "Bonsai-mlx-1bit"
-  },
-  {
-    "id": "huggingface:prithivMLmods/chandra-ocr-2-GGUF",
-    "name": "chandra-ocr-2-GGUF",
-    "provider": "prithivMLmods",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-18T17:52:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/prithivMLmods/chandra-ocr-2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3_5",
-      "ocr",
-      "pdf"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T12:14:17.819412+00:00",
-    "source_ids": [
-      "prithivMLmods/chandra-ocr-2-GGUF"
-    ],
-    "family": "chandra-ocr-2"
   },
   {
     "id": "huggingface:veriloop-lab/veriLoop-coder-e1",
@@ -20903,39 +20901,6 @@
     "family": "karma-electric-llama31"
   },
   {
-    "id": "huggingface:inferencerlabs/GLM-5-MLX-5.6bit-INF",
-    "name": "GLM-5-MLX-5.6bit-INF",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T09:47:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-5.6bit-INF",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "glm_moe_dsa",
-      "quantized",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T12:14:17.036932+00:00",
-    "source_ids": [
-      "inferencerlabs/GLM-5-MLX-5.6bit-INF"
-    ],
-    "family": "GLM-5-MLX-5.6bit-INF"
-  },
-  {
     "id": "huggingface:Bedovyy/Anima-INT8",
     "name": "Anima-INT8",
     "provider": "Bedovyy",
@@ -21871,39 +21836,6 @@
     "family": "CheXOne"
   },
   {
-    "id": "huggingface:ruv/ruvltra-claude-code",
-    "name": "ruvltra-claude-code",
-    "provider": "ruv",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-20T20:45:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ruv/ruvltra-claude-code",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "ruvltra",
-      "claude-code",
-      "code-generation",
-      "sona"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T12:14:17.037060+00:00",
-    "source_ids": [
-      "ruv/ruvltra-claude-code"
-    ],
-    "family": "ruvltra-claude-code"
-  },
-  {
     "id": "huggingface:AlgoDriveAI/Sanskrit_Akkadian_LLM_v1.0",
     "name": "Sanskrit_Akkadian_LLM_v1.0",
     "provider": "AlgoDriveAI",
@@ -22708,6 +22640,39 @@
       "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC"
     ],
     "family": "NVIDIA-Nemotron-Parse-v1.1-TC"
+  },
+  {
+    "id": "huggingface:PleIAs/Baguettotron",
+    "name": "Baguettotron",
+    "provider": "PleIAs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-10T13:32:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PleIAs/Baguettotron",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T12:38:42.385511+00:00",
+    "source_ids": [
+      "PleIAs/Baguettotron"
+    ],
+    "family": "Baguettotron"
   },
   {
     "id": "huggingface:nappa114514/urikuru-oss",
