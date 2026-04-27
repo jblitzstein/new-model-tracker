@@ -1,5 +1,238 @@
 [
   {
+    "id": "openrouter:~anthropic/claude-haiku-latest",
+    "name": "Anthropic Claude Haiku Latest",
+    "provider": "~anthropic",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T19:34:52+00:00",
+    "context_length": 200000,
+    "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+    "url": "https://openrouter.ai/~anthropic/claude-haiku-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-04-27T20:28:11.666920+00:00",
+    "source_ids": [
+      "~anthropic/claude-haiku-latest"
+    ],
+    "family": "Anthropic Claude Haiku Latest"
+  },
+  {
+    "id": "openrouter:~openai/gpt-mini-latest",
+    "name": "OpenAI GPT Mini Latest",
+    "provider": "~openai",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T19:34:31+00:00",
+    "context_length": 400000,
+    "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+    "url": "https://openrouter.ai/~openai/gpt-mini-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.75,
+      "completion_per_million": 4.5
+    },
+    "first_seen": "2026-04-27T20:28:11.667807+00:00",
+    "source_ids": [
+      "~openai/gpt-mini-latest"
+    ],
+    "family": "OpenAI GPT Mini Latest"
+  },
+  {
+    "id": "openrouter:~google/gemini-pro-latest",
+    "name": "Google Gemini Pro Latest",
+    "provider": "~google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T19:34:11+00:00",
+    "context_length": 1048576,
+    "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+    "url": "https://openrouter.ai/~google/gemini-pro-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 12.0
+    },
+    "first_seen": "2026-04-27T20:28:11.667847+00:00",
+    "source_ids": [
+      "~google/gemini-pro-latest"
+    ],
+    "family": "Google Gemini Pro Latest"
+  },
+  {
+    "id": "openrouter:~moonshotai/kimi-latest",
+    "name": "MoonshotAI Kimi Latest",
+    "provider": "~moonshotai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T19:33:48+00:00",
+    "context_length": 256000,
+    "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+    "url": "https://openrouter.ai/~moonshotai/kimi-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.7448,
+      "completion_per_million": 4.655
+    },
+    "first_seen": "2026-04-27T20:28:11.667877+00:00",
+    "source_ids": [
+      "~moonshotai/kimi-latest"
+    ],
+    "family": "MoonshotAI Kimi Latest"
+  },
+  {
+    "id": "openrouter:~google/gemini-flash-latest",
+    "name": "Google Gemini Flash Latest",
+    "provider": "~google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file",
+      "audio",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T19:33:18+00:00",
+    "context_length": 1048576,
+    "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+    "url": "https://openrouter.ai/~google/gemini-flash-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 3.0
+    },
+    "first_seen": "2026-04-27T20:28:11.667905+00:00",
+    "source_ids": [
+      "~google/gemini-flash-latest"
+    ],
+    "family": "Google Gemini Flash Latest"
+  },
+  {
+    "id": "openrouter:~anthropic/claude-sonnet-latest",
+    "name": "Anthropic Claude Sonnet Latest",
+    "provider": "~anthropic",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T19:32:48+00:00",
+    "context_length": 1000000,
+    "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+    "url": "https://openrouter.ai/~anthropic/claude-sonnet-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 3.0,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-04-27T20:28:11.667934+00:00",
+    "source_ids": [
+      "~anthropic/claude-sonnet-latest"
+    ],
+    "family": "Anthropic Claude Sonnet Latest"
+  },
+  {
+    "id": "openrouter:~openai/gpt-latest",
+    "name": "OpenAI GPT Latest",
+    "provider": "~openai",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T19:32:14+00:00",
+    "context_length": 1050000,
+    "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+    "url": "https://openrouter.ai/~openai/gpt-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 30.0
+    },
+    "first_seen": "2026-04-27T20:28:11.667973+00:00",
+    "source_ids": [
+      "~openai/gpt-latest"
+    ],
+    "family": "OpenAI GPT Latest"
+  },
+  {
     "id": "openrouter:qwen/qwen3.5-plus-20260420",
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provider": "Qwen",
@@ -621,6 +854,39 @@
       "batiai/Kimi-K2.6-GGUF"
     ],
     "family": "Kimi-K2.6"
+  },
+  {
+    "id": "huggingface:lukasdrews/Gemma-4-E2B-IT-SFT-RLVR-Medical-GGUF",
+    "name": "Gemma-4-E2B-IT-SFT-RLVR-Medical-GGUF",
+    "provider": "lukasdrews",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T22:03:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lukasdrews/Gemma-4-E2B-IT-SFT-RLVR-Medical-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma4",
+      "gemma",
+      "quantized",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T20:28:11.821820+00:00",
+    "source_ids": [
+      "lukasdrews/Gemma-4-E2B-IT-SFT-RLVR-Medical-GGUF"
+    ],
+    "family": "Gemma-4-E-IT-SFT-RLVR-Medical"
   },
   {
     "id": "huggingface:Kasper-Bankler/gemma-4-E2B-uncensored",
@@ -1314,6 +1580,39 @@
       "openai/gpt-5.4-image-2"
     ],
     "family": "GPT-5.4 Image 2"
+  },
+  {
+    "id": "huggingface:shennguyen/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF",
+    "name": "Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF",
+    "provider": "shennguyen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T18:39:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shennguyen/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation",
+      "reasoning",
+      "distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T20:28:11.821953+00:00",
+    "source_ids": [
+      "shennguyen/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF"
+    ],
+    "family": "Huihui-Qwen3.6-Claude-4.7-Opus-abliterated"
   },
   {
     "id": "openrouter:inclusionai/ling-2.6-flash:free",
@@ -7933,6 +8232,40 @@
       "anthropic/claude-opus-4.6-fast"
     ],
     "family": "Claude Opus 4.6 (Fast)"
+  },
+  {
+    "id": "huggingface:cstr/parakeet-tdt-0.6b-v3-GGUF",
+    "name": "parakeet-tdt-0.6b-v3-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T19:15:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/parakeet-tdt-0.6b-v3-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "ggml",
+      "gguf",
+      "audio",
+      "speech-recognition",
+      "transcription"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T20:28:12.480631+00:00",
+    "source_ids": [
+      "cstr/parakeet-tdt-0.6b-v3-GGUF"
+    ],
+    "family": "parakeet-tdt-v3"
   },
   {
     "id": "huggingface:ubergarm/GLM-5.1-GGUF",
@@ -16787,39 +17120,6 @@
       "Aletheia-ng/SabiYarn_MoE_translate"
     ],
     "family": "SabiYarn_MoE_translate"
-  },
-  {
-    "id": "huggingface:deqing/mamba2-300M-v5-mamba2",
-    "name": "mamba2-300M-v5-mamba2",
-    "provider": "deqing",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-25T19:50:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/deqing/mamba2-300M-v5-mamba2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "mamba2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T20:09:28.343201+00:00",
-    "source_ids": [
-      "deqing/mamba2-300M-v5-mamba2"
-    ],
-    "family": "mamba2-300M-v5-mamba2"
   },
   {
     "id": "huggingface:reaperdoesntknow/DiStil-Qwen3-1.7B-uncensored",
