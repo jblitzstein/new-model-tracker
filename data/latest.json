@@ -196,6 +196,39 @@
     "family": "Qwen3.6-Uncensored-Genesis"
   },
   {
+    "id": "huggingface:mlx-community/Qwen3.6-27B-OptiQ-4bit",
+    "name": "Qwen3.6-27B-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-25T10:12:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Qwen3.6-27B-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T08:56:34.922931+00:00",
+    "source_ids": [
+      "mlx-community/Qwen3.6-27B-OptiQ-4bit"
+    ],
+    "family": "Qwen3.6-OptiQ-4bit"
+  },
+  {
     "id": "huggingface:sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP",
     "name": "Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP",
     "provider": "sakamakismile",
@@ -16186,39 +16219,6 @@
     "family": "llama32-lora-sft-lab10-model"
   },
   {
-    "id": "huggingface:Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42",
-    "name": "llmplasticity-zh_fi_linear_0.125_1-seed42",
-    "provider": "Cisco1963",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-27T13:20:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T08:14:43.237363+00:00",
-    "source_ids": [
-      "Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42"
-    ],
-    "family": "llmplasticity-zh_fi_linear_0.125_1-seed42"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/Qwen3-1.7B-Thinking-Distil",
     "name": "Qwen3-1.7B-Thinking-Distil",
     "provider": "reaperdoesntknow",
@@ -16488,40 +16488,6 @@
     "family": "GLM-5-REAP"
   },
   {
-    "id": "huggingface:mlx-community/Voxtral-4B-TTS-2603-mlx-bf16",
-    "name": "Voxtral-4B-TTS-2603-mlx-bf16",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-26T19:34:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Voxtral-4B-TTS-2603-mlx-bf16",
-    "tags": [
-      "text-to-speech",
-      "mlx",
-      "voxtral_tts",
-      "text-to-speech",
-      "speech",
-      "speech generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T08:14:43.912153+00:00",
-    "source_ids": [
-      "mlx-community/Voxtral-4B-TTS-2603-mlx-bf16"
-    ],
-    "family": "Voxtral-TTS-2603-mlx-bf16"
-  },
-  {
     "id": "huggingface:voidful/Qwen3.5-27B-earica",
     "name": "Qwen3.5-27B-earica",
     "provider": "voidful",
@@ -16621,40 +16587,6 @@
       "eastlondoner/nanochat-wasm-fused-preview-01"
     ],
     "family": "nano-wasm-fused--01"
-  },
-  {
-    "id": "huggingface:wikeeyang/Flux2-Klein-9B-True-V2",
-    "name": "Flux2-Klein-9B-True-V2",
-    "provider": "wikeeyang",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-03-26T08:44:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V2",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "gguf",
-      "text-to-image",
-      "en",
-      "zh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-28T08:14:43.378812+00:00",
-    "source_ids": [
-      "wikeeyang/Flux2-Klein-9B-True-V2"
-    ],
-    "family": "Flux2-Klein-True-V2"
   },
   {
     "id": "huggingface:Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
@@ -21073,6 +21005,39 @@
     "family": "ZwZ"
   },
   {
+    "id": "huggingface:engineering-group/EngGPT2-16B-A3B",
+    "name": "EngGPT2-16B-A3B",
+    "provider": "engineering-group",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-11T14:08:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/engineering-group/EngGPT2-16B-A3B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "enggpt_moe",
+      "text-generation",
+      "conversational",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T08:56:34.922830+00:00",
+    "source_ids": [
+      "engineering-group/EngGPT2-16B-A3B"
+    ],
+    "family": "EngGPT2"
+  },
+  {
     "id": "huggingface:zai-org/GLM-5-FP8",
     "name": "GLM-5-FP8",
     "provider": "zai-org",
@@ -21572,6 +21537,40 @@
       "EZCon/gemma-3-4b-it-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx"
     ],
     "family": "gemma-3-it-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx"
+  },
+  {
+    "id": "huggingface:FluidInference/pocket-tts-coreml",
+    "name": "pocket-tts-coreml",
+    "provider": "FluidInference",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-01-28T22:12:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FluidInference/pocket-tts-coreml",
+    "tags": [
+      "text-to-speech",
+      "coreml",
+      "tts",
+      "text-to-speech",
+      "apple",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-27T08:56:35.566088+00:00",
+    "source_ids": [
+      "FluidInference/pocket-tts-coreml"
+    ],
+    "family": "pocket-tts-coreml"
   },
   {
     "id": "huggingface:Alibaba-DAMO-Academy/RynnBrain-Nav-8B",
