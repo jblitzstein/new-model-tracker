@@ -1,5 +1,89 @@
 [
   {
+    "id": "openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "audio",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T16:18:15+00:00",
+    "context_length": 256000,
+    "description": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-28T16:39:49.323198+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+    ],
+    "family": "Nemotron 3 Nano Omni"
+  },
+  {
+    "id": "openrouter:poolside/laguna-xs.2:free",
+    "name": "Poolside: Laguna XS.2 (free)",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T15:20:04+00:00",
+    "context_length": 131072,
+    "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
+    "url": "https://openrouter.ai/poolside/laguna-xs.2:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-28T16:39:49.324144+00:00",
+    "source_ids": [
+      "poolside/laguna-xs.2:free"
+    ],
+    "family": "Laguna XS.2"
+  },
+  {
+    "id": "openrouter:poolside/laguna-m.1:free",
+    "name": "Poolside: Laguna M.1 (free)",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T15:01:44+00:00",
+    "context_length": 131072,
+    "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
+    "url": "https://openrouter.ai/poolside/laguna-m.1:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-28T16:39:49.324180+00:00",
+    "source_ids": [
+      "poolside/laguna-m.1:free"
+    ],
+    "family": "Laguna M.1"
+  },
+  {
     "id": "openrouter:~anthropic/claude-haiku-latest",
     "name": "Anthropic Claude Haiku Latest",
     "provider": "~anthropic",
@@ -19269,39 +19353,6 @@
     "family": "Qwen3.5-PARO"
   },
   {
-    "id": "huggingface:deqing/llama-300M-v5-unigram",
-    "name": "llama-300M-v5-unigram",
-    "provider": "deqing",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-14T00:06:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/deqing/llama-300M-v5-unigram",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-29T16:10:50.090544+00:00",
-    "source_ids": [
-      "deqing/llama-300M-v5-unigram"
-    ],
-    "family": "llama-300M-v5-unigram"
-  },
-  {
     "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/Miss_MARTHA-9B-Qwen3.5-Omni",
     "name": "Miss_MARTHA-9B-Qwen3.5-Omni",
     "provider": "ZERO-POINT-INTELLIGENCE-LTD",
@@ -24658,76 +24709,6 @@
       "DavidAU/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF"
     ],
     "family": "L3.1-MOE-6X-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored"
-  },
-  {
-    "id": "huggingface:thisisiron/Ovis2-1B-hf",
-    "name": "Ovis2-1B-hf",
-    "provider": "thisisiron",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-03-28T17:11:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/thisisiron/Ovis2-1B-hf",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "ovis2",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-29T16:10:51.112842+00:00",
-    "source_ids": [
-      "thisisiron/Ovis2-1B-hf"
-    ],
-    "family": "Ovis2-hf"
-  },
-  {
-    "id": "huggingface:thisisiron/Ovis2-2B-hf",
-    "name": "Ovis2-2B-hf",
-    "provider": "thisisiron",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-03-28T15:29:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/thisisiron/Ovis2-2B-hf",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "ovis2",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-29T16:10:51.112795+00:00",
-    "source_ids": [
-      "thisisiron/Ovis2-2B-hf"
-    ],
-    "family": "Ovis2-hf"
   },
   {
     "id": "huggingface:LiAutoAD/Ristretto-3B",
