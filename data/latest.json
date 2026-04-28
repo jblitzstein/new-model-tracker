@@ -922,6 +922,41 @@
     "family": "gemma-4-E-uncensored"
   },
   {
+    "id": "huggingface:sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4",
+    "name": "Huihui-Qwen3.6-27B-abliterated-NVFP4",
+    "provider": "sakamakismile",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T15:12:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T00:46:14.923592+00:00",
+    "source_ids": [
+      "sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4"
+    ],
+    "family": "Huihui-Qwen3.6-abliterated-NVFP4"
+  },
+  {
     "id": "openrouter:inclusionai/ling-2.6-1t:free",
     "name": "inclusionAI: Ling-2.6-1T (free)",
     "provider": "inclusionai",
@@ -18696,39 +18731,6 @@
     "family": "obiwan-field-963hz"
   },
   {
-    "id": "huggingface:khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF",
-    "name": "Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF",
-    "provider": "khazarai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T16:28:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3",
-      "llama.cpp",
-      "unsloth",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-29T00:37:26.210722+00:00",
-    "source_ids": [
-      "khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF"
-    ],
-    "family": "Qwen3-Kimi2.5-Reasoning-Distilled"
-  },
-  {
     "id": "huggingface:ethicalabs/Echo-DSRN-486M-v0.7.6-SFT",
     "name": "Echo-DSRN-486M-v0.7.6-SFT",
     "provider": "ethicalabs",
@@ -19342,39 +19344,6 @@
       "llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF"
     ],
     "family": "Qwen3.5-uncensored-heretic"
-  },
-  {
-    "id": "huggingface:khazarai/Qwen3-4B-Gemini-3.1-Pro-Reasoning-Distilled",
-    "name": "Qwen3-4B-Gemini-3.1-Pro-Reasoning-Distilled",
-    "provider": "khazarai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T21:45:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/khazarai/Qwen3-4B-Gemini-3.1-Pro-Reasoning-Distilled",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3",
-      "llama.cpp",
-      "unsloth",
-      "sft"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-29T00:37:26.210634+00:00",
-    "source_ids": [
-      "khazarai/Qwen3-4B-Gemini-3.1-Pro-Reasoning-Distilled"
-    ],
-    "family": "Qwen3-Gemini-3.1-Pro-Reasoning-Distilled"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-27B-uncensored-heretic",
@@ -23617,6 +23586,40 @@
       "inclusionAI/Ling-mini-2.0"
     ],
     "family": "Ling-mini-2.0"
+  },
+  {
+    "id": "huggingface:FluidInference/kokoro-82m-coreml",
+    "name": "kokoro-82m-coreml",
+    "provider": "FluidInference",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-08T06:19:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FluidInference/kokoro-82m-coreml",
+    "tags": [
+      "text-to-speech",
+      "coreml",
+      "text-to-speech",
+      "en",
+      "base_model:hexgrad/Kokoro-82M",
+      "base_model:quantized:hexgrad/Kokoro-82M"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T00:46:14.791302+00:00",
+    "source_ids": [
+      "FluidInference/kokoro-82m-coreml"
+    ],
+    "family": "kokoro-82m-coreml"
   },
   {
     "id": "huggingface:eekay/gemma-2b-it-dragon-numbers-ft",
