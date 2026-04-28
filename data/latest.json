@@ -23721,41 +23721,6 @@
     "family": "TildeOpen"
   },
   {
-    "id": "huggingface:internlm/Intern-S1-mini",
-    "name": "Intern-S1-mini",
-    "provider": "InternLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-18T06:32:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/internlm/Intern-S1-mini",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "interns1",
-      "text-generation",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-29T04:52:57.509990+00:00",
-    "source_ids": [
-      "internlm/Intern-S1-mini"
-    ],
-    "family": "Intern-S1-mini"
-  },
-  {
     "id": "huggingface:LiquidAI/LFM2-VL-450M",
     "name": "LFM2-VL-450M",
     "provider": "LiquidAI",
@@ -23858,41 +23823,6 @@
       "nvidia/parakeet-tdt-0.6b-v3"
     ],
     "family": "parakeet-tdt-v3"
-  },
-  {
-    "id": "huggingface:internlm/Intern-S1",
-    "name": "Intern-S1",
-    "provider": "InternLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-24T06:05:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/internlm/Intern-S1",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "interns1",
-      "text-generation",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-29T04:52:57.509947+00:00",
-    "source_ids": [
-      "internlm/Intern-S1"
-    ],
-    "family": "Intern-S1"
   },
   {
     "id": "huggingface:bosonai/higgs-audio-v2-generation-3B-base",
@@ -24096,6 +24026,39 @@
       "inclusionAI/Ling-lite-1.5"
     ],
     "family": "Ling-lite-1.5"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf",
+    "name": "Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-05-08T02:08:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "all use cases",
+      "creative",
+      "creative writing",
+      "all genres"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T05:11:30.806453+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf"
+    ],
+    "family": "Qwen3-128k-NEO-MAX-Imatrix"
   },
   {
     "id": "openrouter:meta-llama/llama-guard-4-12b:free",
@@ -24394,6 +24357,39 @@
     "family": "granite-speech-3.3"
   },
   {
+    "id": "huggingface:DavidAU/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF",
+    "name": "L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-04T08:35:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "creative",
+      "creative writing",
+      "fiction writing",
+      "plot generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T05:11:30.806331+00:00",
+    "source_ids": [
+      "DavidAU/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF"
+    ],
+    "family": "L3.1-MOE-6X-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored"
+  },
+  {
     "id": "huggingface:thisisiron/Ovis2-1B-hf",
     "name": "Ovis2-1B-hf",
     "provider": "thisisiron",
@@ -24530,6 +24526,39 @@
       "CoRover/BharatGPT-mini"
     ],
     "family": "BharatGPT-mini"
+  },
+  {
+    "id": "huggingface:DavidAU/Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF",
+    "name": "Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-18T04:17:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "Mistral",
+      "Mistral 2503",
+      "instruct",
+      "128k context"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T05:11:30.806170+00:00",
+    "source_ids": [
+      "DavidAU/Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF"
+    ],
+    "family": "Mistral-Small-3.1--2503-MAX-NEO-Imatrix"
   },
   {
     "id": "openrouter:rekaai/reka-flash-3",
@@ -24799,6 +24828,39 @@
     "family": "speakerkit-pro"
   },
   {
+    "id": "huggingface:DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF",
+    "name": "MN-DARKEST-UNIVERSE-29B-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-31T06:15:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "mistral nemo",
+      "creative",
+      "creative writing",
+      "fiction writing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T05:11:30.806418+00:00",
+    "source_ids": [
+      "DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF"
+    ],
+    "family": "MN-DARKEST-UNIVERSE"
+  },
+  {
     "id": "huggingface:mlx-community/whisper-large-v3-turbo",
     "name": "whisper-large-v3-turbo",
     "provider": "mlx-community",
@@ -24864,6 +24926,72 @@
       "nyrahealth/CrisperWhisper"
     ],
     "family": "CrisperWhisper"
+  },
+  {
+    "id": "huggingface:DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
+    "name": "Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-08-16T00:01:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "creative",
+      "creative writing",
+      "fiction writing",
+      "plot generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T05:11:30.806376+00:00",
+    "source_ids": [
+      "DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF"
+    ],
+    "family": "Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-IMATRIX"
+  },
+  {
+    "id": "huggingface:DavidAU/TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf",
+    "name": "TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-05-18T00:04:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "not-for-all-audiences",
+      "art",
+      "creative",
+      "roleplay"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-28T05:11:30.806281+00:00",
+    "source_ids": [
+      "DavidAU/TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf"
+    ],
+    "family": "TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS"
   },
   {
     "id": "huggingface:cyberdelia/CyberRealisticPony",
