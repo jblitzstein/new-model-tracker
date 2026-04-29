@@ -53094,5 +53094,39 @@
       "ibm-granite/granite-vision-4.1-4b"
     ],
     "family": "granite-vision-4.1"
+  },
+  {
+    "id": "huggingface:google/medasr",
+    "name": "medasr",
+    "provider": "Google",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-18T23:05:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/google/medasr",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "lasr_ctc",
+      "medical-asr",
+      "radiology"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-29T20:29:21.202098+00:00",
+    "source_ids": [
+      "google/medasr"
+    ],
+    "family": "medasr"
   }
 ]

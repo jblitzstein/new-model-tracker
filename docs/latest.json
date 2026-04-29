@@ -16581,32 +16581,6 @@
     "family": "Qwen3.5-TQ3_1S"
   },
   {
-    "id": "openrouter:qwen/qwen3.6-plus-preview:free",
-    "name": "Qwen: Qwen3.6 Plus Preview (free)",
-    "provider": "Qwen",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-30T17:26:09+00:00",
-    "context_length": 1000000,
-    "description": "Qwen 3.6 Plus Preview is the next-generation evolution of the Qwen Plus series, featuring an advanced hybrid architecture that improves efficiency and scalability. It delivers stronger reasoning and more reliable agentic behavior compared to the 3.5 series. In benchmarks, it performs at or above leading state-of-the-art models. Designed as a flagship preview, it excels in agentic coding, front-end development, and complex problem-solving.\n\nNote: The model collects prompt and completion data that can be used to improve the model. ",
-    "url": "https://openrouter.ai/qwen/qwen3.6-plus-preview:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-03-30T20:16:24.373805+00:00",
-    "source_ids": [
-      "qwen/qwen3.6-plus-preview:free"
-    ],
-    "family": "Qwen3.6 Plus"
-  },
-  {
     "id": "huggingface:k2-fsa/OmniVoice",
     "name": "OmniVoice",
     "provider": "k2-fsa",
@@ -19699,40 +19673,6 @@
     "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
   },
   {
-    "id": "huggingface:onnx-community/granite-4.0-1b-speech-ONNX",
-    "name": "granite-4.0-1b-speech-ONNX",
-    "provider": "onnx-community",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T04:01:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/onnx-community/granite-4.0-1b-speech-ONNX",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers.js",
-      "onnx",
-      "granite_speech",
-      "automatic-speech-recognition",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-30T20:16:27.317407+00:00",
-    "source_ids": [
-      "onnx-community/granite-4.0-1b-speech-ONNX"
-    ],
-    "family": "granite-4.0-speech-ONNX"
-  },
-  {
     "id": "huggingface:aufklarer/Kokoro-82M-CoreML",
     "name": "Kokoro-82M-CoreML",
     "provider": "aufklarer",
@@ -20138,41 +20078,6 @@
     "family": "Qwen3-ASR"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF",
-    "name": "Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-04T13:58:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3_5",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-30T20:16:27.733940+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1-GGUF"
-    ],
-    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
-  },
-  {
     "id": "huggingface:NO8D/ImagingControl",
     "name": "ImagingControl",
     "provider": "NO8D",
@@ -20341,41 +20246,6 @@
       "nvidia/EGM-8B"
     ],
     "family": "EGM"
-  },
-  {
-    "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1",
-    "name": "Qwen3.5-9B-ultra-uncensored-heretic-v1",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T09:12:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-30T20:16:27.733980+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-v1"
-    ],
-    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF",
@@ -22555,6 +22425,40 @@
       "DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF"
     ],
     "family": "Qwen3-Gemini-TripleX-High-Reasoning--Heretic-Uncensored"
+  },
+  {
+    "id": "huggingface:google/medasr",
+    "name": "medasr",
+    "provider": "Google",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-18T23:05:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/google/medasr",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "lasr_ctc",
+      "medical-asr",
+      "radiology"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-29T20:29:21.202098+00:00",
+    "source_ids": [
+      "google/medasr"
+    ],
+    "family": "medasr"
   },
   {
     "id": "huggingface:browser-use/bu-30b-a3b-preview",
