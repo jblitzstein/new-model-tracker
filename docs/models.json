@@ -53229,5 +53229,241 @@
       "nvidia/Cosmos-Reason2-32B"
     ],
     "family": "Cosmos-Reason2"
+  },
+  {
+    "id": "huggingface:cognica/Cognica-PoE-v1.0-3B-base",
+    "name": "Cognica-PoE-v1.0-3B-base",
+    "provider": "cognica",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T03:21:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cognica/Cognica-PoE-v1.0-3B-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "cognica_poe",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T08:51:15.591363+00:00",
+    "source_ids": [
+      "cognica/Cognica-PoE-v1.0-3B-base"
+    ],
+    "family": "Cognica-PoE-v1.0"
+  },
+  {
+    "id": "huggingface:ANOUARELIDRISSI/email-generator-gpt2",
+    "name": "email-generator-gpt2",
+    "provider": "ANOUARELIDRISSI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T19:27:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ANOUARELIDRISSI/email-generator-gpt2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T08:51:15.591439+00:00",
+    "source_ids": [
+      "ANOUARELIDRISSI/email-generator-gpt2"
+    ],
+    "family": "email-generator-gpt2"
+  },
+  {
+    "id": "huggingface:inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP",
+    "name": "DeepSeek-V4-Pro-MLX-2.8bit-EXP",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T14:17:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "deepseek_v4",
+      "quantized",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T08:51:15.591517+00:00",
+    "source_ids": [
+      "inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP"
+    ],
+    "family": "DeepSeek-V4-Pro-MLX-2.8bit-EXP"
+  },
+  {
+    "id": "huggingface:mradermacher/Garnet-OCR-7B-0422-i1-GGUF",
+    "name": "Garnet-OCR-7B-0422-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T07:04:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Garnet-OCR-7B-0422-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "Document",
+      "VLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T08:51:15.897304+00:00",
+    "source_ids": [
+      "mradermacher/Garnet-OCR-7B-0422-i1-GGUF"
+    ],
+    "family": "Garnet-OCR-0422-i1"
+  },
+  {
+    "id": "huggingface:mradermacher/Garnet-OCR-3B-0422-i1-GGUF",
+    "name": "Garnet-OCR-3B-0422-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T06:53:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Garnet-OCR-3B-0422-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "Document",
+      "VLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T08:51:15.897371+00:00",
+    "source_ids": [
+      "mradermacher/Garnet-OCR-3B-0422-i1-GGUF"
+    ],
+    "family": "Garnet-OCR-0422-i1"
+  },
+  {
+    "id": "huggingface:RafatK/Whisper_Largev2-Swahili-Decodis_Comb_FT",
+    "name": "Whisper_Largev2-Swahili-Decodis_Comb_FT",
+    "provider": "RafatK",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-05-21T19:52:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RafatK/Whisper_Largev2-Swahili-Decodis_Comb_FT",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "sw",
+      "base_model:openai/whisper-large-v2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T08:51:16.478061+00:00",
+    "source_ids": [
+      "RafatK/Whisper_Largev2-Swahili-Decodis_Comb_FT"
+    ],
+    "family": "Whisper_Largev2-Swahili-Decodis_Comb_FT"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
+    "name": "Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T02:37:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "unsloth",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T08:51:16.616590+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF"
+    ],
+    "family": "Qwen3.6-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX"
   }
 ]
