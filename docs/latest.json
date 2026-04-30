@@ -35,6 +35,41 @@
     "family": "Cosmos-Reason2"
   },
   {
+    "id": "huggingface:Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
+    "name": "Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T16:12:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "unsloth",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T16:35:37.405362+00:00",
+    "source_ids": [
+      "Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF"
+    ],
+    "family": "Qwen3.5-DeepSeek-V4-Flash"
+  },
+  {
     "id": "huggingface:mradermacher/Garnet-OCR-7B-0422-i1-GGUF",
     "name": "Garnet-OCR-7B-0422-i1-GGUF",
     "provider": "mradermacher",
@@ -169,6 +204,32 @@
       "ANOUARELIDRISSI/email-generator-gpt2"
     ],
     "family": "email-generator-gpt2"
+  },
+  {
+    "id": "openrouter:openrouter/owl-alpha",
+    "name": "Owl Alpha",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T17:49:49+00:00",
+    "context_length": 1048756,
+    "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
+    "url": "https://openrouter.ai/openrouter/owl-alpha",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-04-30T16:35:36.494000+00:00",
+    "source_ids": [
+      "openrouter/owl-alpha"
+    ],
+    "family": "Owl Alpha"
   },
   {
     "id": "openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -17357,6 +17418,39 @@
     "family": "zamba2-hxq"
   },
   {
+    "id": "huggingface:dizza01/qwen2.5-7b-pdf-merged",
+    "name": "qwen2.5-7b-pdf-merged",
+    "provider": "dizza01",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T19:43:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dizza01/qwen2.5-7b-pdf-merged",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T16:35:36.653470+00:00",
+    "source_ids": [
+      "dizza01/qwen2.5-7b-pdf-merged"
+    ],
+    "family": "qwen2.5-pdf-merged"
+  },
+  {
     "id": "huggingface:krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf",
     "name": "Qwen3.5-35B-A3B-NVFP4.gguf",
     "provider": "krampenschiesser",
@@ -19778,41 +19872,6 @@
     "family": "reka-edge-2603"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF",
-    "name": "Qwen3.5-27B-uncensored-heretic-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-11T02:50:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T16:26:03.639175+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-27B-uncensored-heretic-GGUF"
-    ],
-    "family": "Qwen3.5-uncensored-heretic"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.5-27B-uncensored-heretic",
     "name": "Qwen3.5-27B-uncensored-heretic",
     "provider": "llmfan46",
@@ -20386,41 +20445,6 @@
       "mlx-community/Qwen3.5-0.8B-OptiQ-4bit"
     ],
     "family": "Qwen3.5-OptiQ-4bit"
-  },
-  {
-    "id": "huggingface:ibm-granite/granite-4.0-3b-vision",
-    "name": "granite-4.0-3b-vision",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T18:03:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-4.0-3b-vision",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "granite4_vision",
-      "feature-extraction",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T16:26:03.639119+00:00",
-    "source_ids": [
-      "ibm-granite/granite-4.0-3b-vision"
-    ],
-    "family": "granite-4.0-vision"
   },
   {
     "id": "huggingface:nvidia/EGM-8B",
@@ -21866,6 +21890,41 @@
     "family": "Llama-3.1--cat-numbers-ft"
   },
   {
+    "id": "huggingface:amd/Kimi-K2.5-W4A8",
+    "name": "Kimi-K2.5-W4A8",
+    "provider": "amd",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-06T19:19:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amd/Kimi-K2.5-W4A8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "kimi_k25",
+      "feature-extraction",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T16:35:37.405294+00:00",
+    "source_ids": [
+      "amd/Kimi-K2.5-W4A8"
+    ],
+    "family": "Kimi-K2.5-W4A8"
+  },
+  {
     "id": "huggingface:Applied-Innovation-Center/Karnak",
     "name": "Karnak",
     "provider": "Applied-Innovation-Center",
@@ -23273,6 +23332,40 @@
     "family": "NVIDIA-Nemotron-Parse-v1.1-TC"
   },
   {
+    "id": "huggingface:software-mansion/react-native-executorch-kokoro",
+    "name": "react-native-executorch-kokoro",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-11-12T09:59:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-kokoro",
+    "tags": [
+      "text-to-speech",
+      "executorch",
+      "text-to-speech",
+      "en",
+      "base_model:hexgrad/Kokoro-82M",
+      "base_model:quantized:hexgrad/Kokoro-82M"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T16:35:37.186065+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-kokoro"
+    ],
+    "family": "react-native-executorch-kokoro"
+  },
+  {
     "id": "huggingface:PleIAs/Baguettotron",
     "name": "Baguettotron",
     "provider": "PleIAs",
@@ -23979,6 +24072,41 @@
       "nvidia/parakeet-tdt-0.6b-v3"
     ],
     "family": "parakeet-tdt-v3"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-Gemma3ForConditionalGeneration",
+    "name": "tiny-Gemma3ForConditionalGeneration",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-22T00:18:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-Gemma3ForConditionalGeneration",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T16:35:37.405459+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-Gemma3ForConditionalGeneration"
+    ],
+    "family": "tiny-Gemma3ForConditionalGeneration"
   },
   {
     "id": "huggingface:bosonai/higgs-audio-v2-generation-3B-base",
