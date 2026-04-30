@@ -53729,5 +53729,69 @@
       "trl-internal-testing/tiny-Gemma3ForConditionalGeneration"
     ],
     "family": "tiny-Gemma3ForConditionalGeneration"
+  },
+  {
+    "id": "openrouter:ibm-granite/granite-4.1-8b",
+    "name": "IBM: Granite 4.1 8B",
+    "provider": "IBM",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T19:24:31+00:00",
+    "context_length": 131072,
+    "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
+    "url": "https://openrouter.ai/ibm-granite/granite-4.1-8b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.1
+    },
+    "first_seen": "2026-04-30T20:28:11.466441+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.1-8b"
+    ],
+    "family": "Granite 4.1"
+  },
+  {
+    "id": "huggingface:VECTORVV1/Qwen3.5-122B-A10B-Aggressive",
+    "name": "Qwen3.5-122B-A10B-Aggressive",
+    "provider": "VECTORVV1",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T13:57:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VECTORVV1/Qwen3.5-122B-A10B-Aggressive",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.5",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T20:28:12.405546+00:00",
+    "source_ids": [
+      "VECTORVV1/Qwen3.5-122B-A10B-Aggressive"
+    ],
+    "family": "Qwen3.5-Aggressive"
   }
 ]

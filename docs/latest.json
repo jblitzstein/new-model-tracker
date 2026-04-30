@@ -1,5 +1,34 @@
 [
   {
+    "id": "openrouter:ibm-granite/granite-4.1-8b",
+    "name": "IBM: Granite 4.1 8B",
+    "provider": "IBM",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T19:24:31+00:00",
+    "context_length": 131072,
+    "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
+    "url": "https://openrouter.ai/ibm-granite/granite-4.1-8b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.1
+    },
+    "first_seen": "2026-04-30T20:28:11.466441+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.1-8b"
+    ],
+    "family": "Granite 4.1"
+  },
+  {
     "id": "huggingface:nvidia/Cosmos-Reason2-32B",
     "name": "Cosmos-Reason2-32B",
     "provider": "NVIDIA",
@@ -5492,6 +5521,41 @@
       "selimaktas/MiniMax-M2.75-460B-A20B"
     ],
     "family": "MiniMax-M2.75"
+  },
+  {
+    "id": "huggingface:VECTORVV1/Qwen3.5-122B-A10B-Aggressive",
+    "name": "Qwen3.5-122B-A10B-Aggressive",
+    "provider": "VECTORVV1",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T13:57:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VECTORVV1/Qwen3.5-122B-A10B-Aggressive",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.5",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-04-30T20:28:12.405546+00:00",
+    "source_ids": [
+      "VECTORVV1/Qwen3.5-122B-A10B-Aggressive"
+    ],
+    "family": "Qwen3.5-Aggressive"
   },
   {
     "id": "huggingface:mradermacher/SciRM-Ref-7B-i1-GGUF",
@@ -16078,70 +16142,6 @@
     "family": "GKA-primed-HQwen3-Reasoner"
   },
   {
-    "id": "openrouter:x-ai/grok-4.20-multi-agent",
-    "name": "xAI: Grok 4.20 Multi-Agent",
-    "provider": "xAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T17:45:58+00:00",
-    "context_length": 2000000,
-    "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
-    "url": "https://openrouter.ai/x-ai/grok-4.20-multi-agent",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.0,
-      "completion_per_million": 6.0
-    },
-    "first_seen": "2026-03-31T20:16:21.460420+00:00",
-    "source_ids": [
-      "x-ai/grok-4.20-multi-agent"
-    ],
-    "family": "Grok 4.20 Multi-Agent"
-  },
-  {
-    "id": "openrouter:x-ai/grok-4.20",
-    "name": "xAI: Grok 4.20",
-    "provider": "xAI",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T17:43:39+00:00",
-    "context_length": 2000000,
-    "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
-    "url": "https://openrouter.ai/x-ai/grok-4.20",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.0,
-      "completion_per_million": 6.0
-    },
-    "first_seen": "2026-03-31T20:16:21.461331+00:00",
-    "source_ids": [
-      "x-ai/grok-4.20"
-    ],
-    "family": "Grok 4.20"
-  },
-  {
     "id": "huggingface:amazon/GDN-primed-HQwen3-8B-Reasoner",
     "name": "GDN-primed-HQwen3-8B-Reasoner",
     "provider": "Amazon",
@@ -17715,39 +17715,6 @@
       "sriksmachi/llama32_1bn_instruct_raft"
     ],
     "family": "llama32_1bn_instruct_raft"
-  },
-  {
-    "id": "huggingface:bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF",
-    "name": "Qwen3.5-9b-Sushi-Coder-RL-GGUF",
-    "provider": "bigatuna",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-27T01:12:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "qwen3_5",
-      "code",
-      "rl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T20:16:21.569490+00:00",
-    "source_ids": [
-      "bigatuna/Qwen3.5-9b-Sushi-Coder-RL-GGUF"
-    ],
-    "family": "Qwen3.5-Sushi-Coder-RL"
   },
   {
     "id": "huggingface:0xSero/GLM-5-REAP-381B",
@@ -19459,39 +19426,6 @@
     "family": "squeez"
   },
   {
-    "id": "huggingface:Ba2han/model-sft-q",
-    "name": "model-sft-q",
-    "provider": "Ba2han",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T06:34:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Ba2han/model-sft-q",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T20:16:21.569449+00:00",
-    "source_ids": [
-      "Ba2han/model-sft-q"
-    ],
-    "family": "model-sft-q"
-  },
-  {
     "id": "huggingface:llm-jp/llm-jp-4-8b-thinking",
     "name": "llm-jp-4-8b-thinking",
     "provider": "llm-jp",
@@ -19870,41 +19804,6 @@
       "RekaAI/reka-edge-2603"
     ],
     "family": "reka-edge-2603"
-  },
-  {
-    "id": "huggingface:llmfan46/Qwen3.5-27B-uncensored-heretic",
-    "name": "Qwen3.5-27B-uncensored-heretic",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T19:50:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-uncensored-heretic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T20:16:22.151662+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-27B-uncensored-heretic"
-    ],
-    "family": "Qwen3.5-uncensored-heretic"
   },
   {
     "id": "huggingface:HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -20692,41 +20591,6 @@
     "family": "Qwen3.5-ONNX"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
-    "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T03:24:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "heretic",
-      "uncensored",
-      "decensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T20:16:22.151626+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1-GGUF"
-    ],
-    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
-  },
-  {
     "id": "huggingface:saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
     "name": "MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
     "provider": "saricles",
@@ -20828,41 +20692,6 @@
       "Qwen/Qwen3.5-2B-Base"
     ],
     "family": "Qwen3.5"
-  },
-  {
-    "id": "huggingface:llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1",
-    "name": "Qwen3.5-27B-ultra-uncensored-heretic-v1",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-28T15:21:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T20:16:22.151694+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-27B-ultra-uncensored-heretic-v1"
-    ],
-    "family": "Qwen3.5-ultra-uncensored-heretic-v1"
   },
   {
     "id": "huggingface:Qwen/Qwen3.5-4B-Base",
@@ -21280,39 +21109,6 @@
       "nvidia/GLM-5-NVFP4"
     ],
     "family": "GLM-5-NVFP4"
-  },
-  {
-    "id": "huggingface:arthurcollet/Qwen3.5-122B-A10B-mlx-nvfp4",
-    "name": "Qwen3.5-122B-A10B-mlx-nvfp4",
-    "provider": "arthurcollet",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T22:50:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/arthurcollet/Qwen3.5-122B-A10B-mlx-nvfp4",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-03-31T20:16:21.569523+00:00",
-    "source_ids": [
-      "arthurcollet/Qwen3.5-122B-A10B-mlx-nvfp4"
-    ],
-    "family": "Qwen3.5-mlx-nvfp4"
   },
   {
     "id": "huggingface:Qwen/Qwen3.5-27B",
