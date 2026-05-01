@@ -60,6 +60,72 @@
     "family": "Granite 4.1"
   },
   {
+    "id": "huggingface:VladShash/mistral-7B-lean-prover-dpo-deepseek",
+    "name": "mistral-7B-lean-prover-dpo-deepseek",
+    "provider": "VladShash",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T06:11:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VladShash/mistral-7B-lean-prover-dpo-deepseek",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T08:44:17.203427+00:00",
+    "source_ids": [
+      "VladShash/mistral-7B-lean-prover-dpo-deepseek"
+    ],
+    "family": "mistral-lean-prover-dpo-deepseek"
+  },
+  {
+    "id": "huggingface:inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF",
+    "name": "MiMo-V2.5-Pro-MLX-4.3bit-INF",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T05:14:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "mimo_v2",
+      "quantized",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T08:44:17.203564+00:00",
+    "source_ids": [
+      "inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF"
+    ],
+    "family": "MiMo-V2.5-Pro-MLX-4.3bit-INF"
+  },
+  {
     "id": "huggingface:nvidia/Cosmos-Reason2-32B",
     "name": "Cosmos-Reason2-32B",
     "provider": "NVIDIA",
@@ -640,6 +706,39 @@
       "inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP"
     ],
     "family": "DeepSeek-V4-Pro-MLX-2.8bit-EXP"
+  },
+  {
+    "id": "huggingface:VladShash/deepseek-math-7B-lean-prover-grpo-olmo-weighed",
+    "name": "deepseek-math-7B-lean-prover-grpo-olmo-weighed",
+    "provider": "VladShash",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T12:14:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VladShash/deepseek-math-7B-lean-prover-grpo-olmo-weighed",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T08:44:17.203525+00:00",
+    "source_ids": [
+      "VladShash/deepseek-math-7B-lean-prover-grpo-olmo-weighed"
+    ],
+    "family": "deepseek-math-lean-prover-grpo-olmo-weighed"
   },
   {
     "id": "openrouter:qwen/qwen3.5-plus-20260420",
@@ -1900,6 +1999,40 @@
       "inferencerlabs/Kimi-K2.6-MLX-3.5bit-INF"
     ],
     "family": "Kimi-K2.6-MLX-3.5bit-INF"
+  },
+  {
+    "id": "huggingface:vrgamedevgirl84/LTX_2.3_Crisp_Enhance_Style_LoRa",
+    "name": "LTX_2.3_Crisp_Enhance_Style_LoRa",
+    "provider": "vrgamedevgirl84",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-04-23T00:22:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrgamedevgirl84/LTX_2.3_Crisp_Enhance_Style_LoRa",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "lora",
+      "ltx-video",
+      "text-to-video",
+      "safetensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T08:44:17.564406+00:00",
+    "source_ids": [
+      "vrgamedevgirl84/LTX_2.3_Crisp_Enhance_Style_LoRa"
+    ],
+    "family": "LTX_2.3_Crisp_Enhance_Style_LoRa"
   },
   {
     "id": "huggingface:OvercastLab/Quark-50m-Instruct",
@@ -15944,41 +16077,6 @@
     "family": "sotto-cleanup-lfm25-350m"
   },
   {
-    "id": "huggingface:aklee79/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-    "name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-    "provider": "aklee79",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T02:06:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aklee79/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.5",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-01T08:32:22.477480+00:00",
-    "source_ids": [
-      "aklee79/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive"
-    ],
-    "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive"
-  },
-  {
     "id": "huggingface:caiovicentino1/Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
     "name": "Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
     "provider": "caiovicentino1",
@@ -17884,6 +17982,39 @@
     "family": "llama32_1bn_instruct_raft"
   },
   {
+    "id": "huggingface:Tribewarez/psy-q-finder-369M",
+    "name": "psy-q-finder-369M",
+    "provider": "Tribewarez",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T00:38:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Tribewarez/psy-q-finder-369M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T08:44:17.203615+00:00",
+    "source_ids": [
+      "Tribewarez/psy-q-finder-369M"
+    ],
+    "family": "psy-q-finder-369M"
+  },
+  {
     "id": "huggingface:0xSero/GLM-5-REAP-381B",
     "name": "GLM-5-REAP-381B",
     "provider": "0xSero",
@@ -18183,39 +18314,6 @@
       "reaperdoesntknow/Qwen3-1.7B-Coder-Distilled-SFT"
     ],
     "family": "Qwen3-Coder-Distilled-SFT"
-  },
-  {
-    "id": "huggingface:danielcherubini/Qwen3.5-DeltaCoder-9B-GGUF",
-    "name": "Qwen3.5-DeltaCoder-9B-GGUF",
-    "provider": "danielcherubini",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-24T09:22:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/danielcherubini/Qwen3.5-DeltaCoder-9B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3.5",
-      "code",
-      "tool-calling",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-01T08:32:21.892747+00:00",
-    "source_ids": [
-      "danielcherubini/Qwen3.5-DeltaCoder-9B-GGUF"
-    ],
-    "family": "Qwen3.5-DeltaCoder"
   },
   {
     "id": "huggingface:aoxo/sarvam-105b-uncensored",
