@@ -161,6 +161,39 @@
     "family": "Cosmos-Reason2"
   },
   {
+    "id": "huggingface:mafgit/empathetic-distilgpt2",
+    "name": "empathetic-distilgpt2",
+    "provider": "mafgit",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T22:43:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mafgit/empathetic-distilgpt2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "empathy"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T20:21:40.271802+00:00",
+    "source_ids": [
+      "mafgit/empathetic-distilgpt2"
+    ],
+    "family": "empathetic-distilgpt2"
+  },
+  {
     "id": "huggingface:Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
     "name": "Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
     "provider": "Jackrong",
@@ -440,6 +473,39 @@
       "poolside/laguna-m.1:free"
     ],
     "family": "Laguna M.1"
+  },
+  {
+    "id": "huggingface:cHunter789/Qwen3.6-27B-i1-IQ4_XS-GGUF",
+    "name": "Qwen3.6-27B-i1-IQ4_XS-GGUF",
+    "provider": "cHunter789",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T08:55:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cHunter789/Qwen3.6-27B-i1-IQ4_XS-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "qwen",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T20:21:40.272070+00:00",
+    "source_ids": [
+      "cHunter789/Qwen3.6-27B-i1-IQ4_XS-GGUF"
+    ],
+    "family": "Qwen3.6-i1-IQ4_XS"
   },
   {
     "id": "openrouter:~anthropic/claude-haiku-latest",
@@ -15712,39 +15778,6 @@
     "family": "Qwen3.5-SFT-name-parser-yaml"
   },
   {
-    "id": "openrouter:z-ai/glm-5v-turbo",
-    "name": "Z.ai: GLM 5V Turbo",
-    "provider": "Zhipu AI",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "image",
-      "text",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T16:37:38+00:00",
-    "context_length": 202752,
-    "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding, and task execution, and works seamlessly with agents to complete the full loop of “perceive → plan → execute“.",
-    "url": "https://openrouter.ai/z-ai/glm-5v-turbo",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.2,
-      "completion_per_million": 4.0
-    },
-    "first_seen": "2026-04-01T20:17:03.586994+00:00",
-    "source_ids": [
-      "z-ai/glm-5v-turbo"
-    ],
-    "family": "GLM 5V Turbo"
-  },
-  {
     "id": "huggingface:unsloth/gemma-4-26B-A4B-it-GGUF",
     "name": "gemma-4-26B-A4B-it-GGUF",
     "provider": "unsloth",
@@ -16958,39 +16991,6 @@
       "cstr/cohere-transcribe-03-2026-GGUF"
     ],
     "family": "cohere-transcribe-03-2026"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2.5-350M",
-    "name": "LFM2.5-350M",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T06:21:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2.5-350M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-01T20:17:03.730990+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2.5-350M"
-    ],
-    "family": "LFM2.5-350M"
   },
   {
     "id": "huggingface:pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF",
@@ -22664,6 +22664,41 @@
       "lightonai/LightOnOCR-2-1B"
     ],
     "family": "LightOnOCR-2"
+  },
+  {
+    "id": "huggingface:mradermacher/AfriqueGemma-4B-GGUF",
+    "name": "AfriqueGemma-4B-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-08T06:49:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/AfriqueGemma-4B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "african-languages",
+      "multilingual",
+      "continued-pretraining"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T20:21:41.015774+00:00",
+    "source_ids": [
+      "mradermacher/AfriqueGemma-4B-GGUF"
+    ],
+    "family": "AfriqueGemma"
   },
   {
     "id": "huggingface:google/medgemma-1.5-4b-it",
