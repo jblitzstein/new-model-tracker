@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:x-ai/grok-4.3",
+    "name": "xAI: Grok 4.3",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T23:30:21+00:00",
+    "context_length": 1000000,
+    "description": "Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+    "url": "https://openrouter.ai/x-ai/grok-4.3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.25,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-05-01T00:50:09.975131+00:00",
+    "source_ids": [
+      "x-ai/grok-4.3"
+    ],
+    "family": "Grok 4.3"
+  },
+  {
     "id": "openrouter:ibm-granite/granite-4.1-8b",
     "name": "IBM: Granite 4.1 8B",
     "provider": "IBM",
@@ -1044,6 +1075,39 @@
     "family": "Qwen3.6-uncensored-heretic-v1"
   },
   {
+    "id": "huggingface:CEIA-RL/qwen3-4b-dw-lr-dpo",
+    "name": "qwen3-4b-dw-lr-dpo",
+    "provider": "CEIA-RL",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T20:34:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CEIA-RL/qwen3-4b-dw-lr-dpo",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T00:50:10.109887+00:00",
+    "source_ids": [
+      "CEIA-RL/qwen3-4b-dw-lr-dpo"
+    ],
+    "family": "qwen3-dw-lr-dpo"
+  },
+  {
     "id": "openrouter:openai/gpt-5.5-pro",
     "name": "OpenAI: GPT-5.5 Pro",
     "provider": "OpenAI",
@@ -1869,6 +1933,76 @@
       "OvercastLab/Quark-50m-Instruct"
     ],
     "family": "Quark-50m"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.6-27B-AWQ-INT4",
+    "name": "Qwen3.6-27B-AWQ-INT4",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T18:53:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.6-27B-AWQ-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T00:50:10.720192+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.6-27B-AWQ-INT4"
+    ],
+    "family": "Qwen3.6--INT4"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.6-27B-AWQ-BF16-INT4",
+    "name": "Qwen3.6-27B-AWQ-BF16-INT4",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T18:52:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.6-27B-AWQ-BF16-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T00:50:10.720108+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.6-27B-AWQ-BF16-INT4"
+    ],
+    "family": "Qwen3.6--BF16-INT4"
   },
   {
     "id": "huggingface:HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
@@ -4540,6 +4674,39 @@
       "prithivMLmods/Qwen3.6-35B-A3B-F32-GGUF"
     ],
     "family": "Qwen3.6-F32"
+  },
+  {
+    "id": "huggingface:NexVeridian/Qwen3.6-35B-A3B-4bit",
+    "name": "Qwen3.6-35B-A3B-4bit",
+    "provider": "NexVeridian",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T15:54:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NexVeridian/Qwen3.6-35B-A3B-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T00:50:10.110025+00:00",
+    "source_ids": [
+      "NexVeridian/Qwen3.6-35B-A3B-4bit"
+    ],
+    "family": "Qwen3.6-4bit"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Wasserstein-GGUF",
@@ -23126,6 +23293,40 @@
       "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC"
     ],
     "family": "NVIDIA-Nemotron-Parse-v1.1-TC"
+  },
+  {
+    "id": "huggingface:argmaxinc/parakeetkit-litert-pro",
+    "name": "parakeetkit-litert-pro",
+    "provider": "argmaxinc",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-13T00:45:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/argmaxinc/parakeetkit-litert-pro",
+    "tags": [
+      "automatic-speech-recognition",
+      "whisperkit",
+      "tflite",
+      "whisper",
+      "parakeet",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-01T00:50:10.636620+00:00",
+    "source_ids": [
+      "argmaxinc/parakeetkit-litert-pro"
+    ],
+    "family": "parakeetkit-litert-pro"
   },
   {
     "id": "huggingface:software-mansion/react-native-executorch-kokoro",
