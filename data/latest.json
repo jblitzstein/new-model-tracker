@@ -877,6 +877,39 @@
     "family": "Qwen3.6-Uncensored-Heretic-v2-MLX-4bit"
   },
   {
+    "id": "huggingface:List-cloud/List-3.0-Ultra-Coder-Brain",
+    "name": "List-3.0-Ultra-Coder-Brain",
+    "provider": "List-cloud",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T09:13:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/List-cloud/List-3.0-Ultra-Coder-Brain",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "list_ultra_coder",
+      "text-generation",
+      "code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T00:44:57.650377+00:00",
+    "source_ids": [
+      "List-cloud/List-3.0-Ultra-Coder-Brain"
+    ],
+    "family": "List-3.0-Ultra-Coder-Brain"
+  },
+  {
     "id": "openrouter:qwen/qwen3.5-plus-20260420",
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provider": "Qwen",
@@ -15711,40 +15744,6 @@
     "family": "Qwen3.5-TQ3_4S"
   },
   {
-    "id": "huggingface:nvidia/nemotron-ocr-v2",
-    "name": "nemotron-ocr-v2",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T19:57:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/nemotron-ocr-v2",
-    "tags": [
-      "image-to-text",
-      "image",
-      "ocr",
-      "object recognition",
-      "text recognition",
-      "layout analysis"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T00:33:56.459634+00:00",
-    "source_ids": [
-      "nvidia/nemotron-ocr-v2"
-    ],
-    "family": "nemotron-ocr-v2"
-  },
-  {
     "id": "huggingface:small-models-for-glam/Qwen3.5-0.8B-SFT-name-parser-yaml",
     "name": "Qwen3.5-0.8B-SFT-name-parser-yaml",
     "provider": "small-models-for-glam",
@@ -18565,6 +18564,41 @@
     "family": "MolmoWeb-Native"
   },
   {
+    "id": "huggingface:dealignai/Mistral-Small-4-119B-JANG_4M-CRACK",
+    "name": "Mistral-Small-4-119B-JANG_4M-CRACK",
+    "provider": "dealignai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-23T11:21:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dealignai/Mistral-Small-4-119B-JANG_4M-CRACK",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "mistral3",
+      "jang",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T00:44:58.079027+00:00",
+    "source_ids": [
+      "dealignai/Mistral-Small-4-119B-JANG_4M-CRACK"
+    ],
+    "family": "Mistral-Small-4-JANG_4M-CRACK"
+  },
+  {
     "id": "huggingface:kojima-lab/molcrawl-rna-gpt2-small",
     "name": "molcrawl-rna-gpt2-small",
     "provider": "kojima-lab",
@@ -18834,39 +18868,6 @@
     "family": "Qwen3.5-KoReasoin-v1"
   },
   {
-    "id": "huggingface:SeaFill2025/Qwen3-4B-SFT",
-    "name": "Qwen3-4B-SFT",
-    "provider": "SeaFill2025",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-22T12:33:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SeaFill2025/Qwen3-4B-SFT",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "causal-lm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T00:33:56.148334+00:00",
-    "source_ids": [
-      "SeaFill2025/Qwen3-4B-SFT"
-    ],
-    "family": "Qwen3-SFT"
-  },
-  {
     "id": "huggingface:xv0y5ncu/Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw",
     "name": "Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw",
     "provider": "xv0y5ncu",
@@ -19131,6 +19132,41 @@
       "JANGQ-AI/Nemotron-Cascade-2-30B-A3B-JANG_2L"
     ],
     "family": "Nemotron-Cascade-2-JANG_2L"
+  },
+  {
+    "id": "huggingface:dealignai/Qwen3.5-VL-397B-A17B-UNCENSORED-JANG_1L",
+    "name": "Qwen3.5-VL-397B-A17B-UNCENSORED-JANG_1L",
+    "provider": "dealignai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-21T05:23:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dealignai/Qwen3.5-VL-397B-A17B-UNCENSORED-JANG_1L",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "jang",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T00:44:58.079093+00:00",
+    "source_ids": [
+      "dealignai/Qwen3.5-VL-397B-A17B-UNCENSORED-JANG_1L"
+    ],
+    "family": "Qwen3.5-VL-UNCENSORED-JANG_1L"
   },
   {
     "id": "huggingface:justindal/llama3.1-8b-leetcoder",
