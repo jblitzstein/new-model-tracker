@@ -1873,6 +1873,39 @@
     "family": "Qwen3.6-AEON-Ultimate-Uncensored-BF16"
   },
   {
+    "id": "huggingface:ocicek/Qwen3.6-27B-NVFP4",
+    "name": "Qwen3.6-27B-NVFP4",
+    "provider": "ocicek",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T00:50:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ocicek/Qwen3.6-27B-NVFP4",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "qwen3_5",
+      "nvfp4",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T05:05:56.888812+00:00",
+    "source_ids": [
+      "ocicek/Qwen3.6-27B-NVFP4"
+    ],
+    "family": "Qwen3.6-NVFP4"
+  },
+  {
     "id": "huggingface:batiai/Kimi-K2.6-GGUF",
     "name": "Kimi-K2.6-GGUF",
     "provider": "batiai",
@@ -21559,39 +21592,6 @@
     "family": "Falcon-OCR"
   },
   {
-    "id": "huggingface:MayaKD/qwen2-vl-audio",
-    "name": "qwen2-vl-audio",
-    "provider": "MayaKD",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-19T23:38:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MayaKD/qwen2-vl-audio",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2_vl",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T04:47:44.522570+00:00",
-    "source_ids": [
-      "MayaKD/qwen2-vl-audio"
-    ],
-    "family": "qwen2-vl-audio"
-  },
-  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-v1.2",
     "name": "NVIDIA-Nemotron-Parse-v1.2",
     "provider": "NVIDIA",
@@ -24387,40 +24387,6 @@
     "family": "Wan14BT2VFusioniX"
   },
   {
-    "id": "huggingface:ibm-granite/granite-vision-3.3-2b",
-    "name": "granite-vision-3.3-2b",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-06-03T18:49:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-vision-3.3-2b",
-    "tags": [
-      "image-to-text",
-      "safetensors",
-      "llava_next",
-      "image-to-text",
-      "arxiv:2502.09927",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T04:47:44.817891+00:00",
-    "source_ids": [
-      "ibm-granite/granite-vision-3.3-2b"
-    ],
-    "family": "granite-vision-3.3"
-  },
-  {
     "id": "huggingface:RafatK/Whisper_Largev2-Swahili-Decodis_Comb_FT",
     "name": "Whisper_Largev2-Swahili-Decodis_Comb_FT",
     "provider": "RafatK",
@@ -25051,41 +25017,6 @@
       "Xtra-Computing/XtraGPT-14B"
     ],
     "family": "XtraGPT"
-  },
-  {
-    "id": "huggingface:ibm-granite/granite-vision-3.2-2b",
-    "name": "granite-vision-3.2-2b",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-02-17T22:50:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-vision-3.2-2b",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "llava_next",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T04:47:45.654004+00:00",
-    "source_ids": [
-      "ibm-granite/granite-vision-3.2-2b"
-    ],
-    "family": "granite-vision-3.2"
   },
   {
     "id": "huggingface:Nos-PT/Llama-Carvalho-PT-GL",
