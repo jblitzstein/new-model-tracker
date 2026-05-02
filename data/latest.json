@@ -15678,72 +15678,6 @@
     "family": "gptoss-aimo3-merged"
   },
   {
-    "id": "huggingface:Cisco1963/llmplasticity-fi_de_instant_0.25_1-seed42",
-    "name": "llmplasticity-fi_de_instant_0.25_1-seed42",
-    "provider": "Cisco1963",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T06:27:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_de_instant_0.25_1-seed42",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T12:23:58.551853+00:00",
-    "source_ids": [
-      "Cisco1963/llmplasticity-fi_de_instant_0.25_1-seed42"
-    ],
-    "family": "llmplasticity-fi_de_instant_0.25_1-seed42"
-  },
-  {
-    "id": "huggingface:Cisco1963/llmplasticity-fi_de_instant_0.5_1-seed42",
-    "name": "llmplasticity-fi_de_instant_0.5_1-seed42",
-    "provider": "Cisco1963",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T06:17:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_de_instant_0.5_1-seed42",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T12:23:58.551764+00:00",
-    "source_ids": [
-      "Cisco1963/llmplasticity-fi_de_instant_0.5_1-seed42"
-    ],
-    "family": "llmplasticity-fi_de_instant_0.5_1-seed42"
-  },
-  {
     "id": "huggingface:FINAL-Bench/Darwin-35B-A3B-Opus-Q8-GGUF",
     "name": "Darwin-35B-A3B-Opus-Q8-GGUF",
     "provider": "FINAL-Bench",
@@ -16456,41 +16390,6 @@
       "salbeal/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-int4-AutoRound"
     ],
     "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled-int4-AutoRound"
-  },
-  {
-    "id": "huggingface:tomngdev/Darwin-35B-A3B-Opus-GGUF",
-    "name": "Darwin-35B-A3B-Opus-GGUF",
-    "provider": "tomngdev",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T08:57:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tomngdev/Darwin-35B-A3B-Opus-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "en",
-      "base_model:FINAL-Bench/Darwin-35B-A3B-Opus",
-      "base_model:quantized:FINAL-Bench/Darwin-35B-A3B-Opus"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T12:23:59.507803+00:00",
-    "source_ids": [
-      "tomngdev/Darwin-35B-A3B-Opus-GGUF"
-    ],
-    "family": "Darwin-Opus"
   },
   {
     "id": "huggingface:caiovicentino1/Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5",
@@ -19671,6 +19570,39 @@
       "prism-ml/Bonsai-8B-mlx-1bit"
     ],
     "family": "Bonsai-mlx-1bit"
+  },
+  {
+    "id": "huggingface:trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
+    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
+    "provider": "trohrbaugh",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T18:57:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T16:19:26.849858+00:00",
+    "source_ids": [
+      "trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2"
+    ],
+    "family": "NVIDIA-Nemotron-3-Super-BF16-heretic-v2"
   },
   {
     "id": "huggingface:veriloop-lab/veriLoop-coder-e1",
