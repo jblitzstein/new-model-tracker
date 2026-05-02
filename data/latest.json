@@ -978,6 +978,41 @@
     "family": "OpenAI GPT Latest"
   },
   {
+    "id": "huggingface:keithnull/Qwen3.6-VL-REAP-26B-A3B-GGUF",
+    "name": "Qwen3.6-VL-REAP-26B-A3B-GGUF",
+    "provider": "keithnull",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T15:18:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/keithnull/Qwen3.6-VL-REAP-26B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantization",
+      "llama-cpp",
+      "qwen3.6",
+      "qwen3-vl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T20:15:21.084442+00:00",
+    "source_ids": [
+      "keithnull/Qwen3.6-VL-REAP-26B-A3B-GGUF"
+    ],
+    "family": "Qwen3.6-VL-REAP"
+  },
+  {
     "id": "huggingface:inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP",
     "name": "DeepSeek-V4-Pro-MLX-2.8bit-EXP",
     "provider": "inferencerlabs",
@@ -14865,39 +14900,6 @@
     "family": "gemma-4-E-it-UD-MLX-4bit"
   },
   {
-    "id": "openrouter:google/gemma-4-31b-it",
-    "name": "Google: Gemma 4 31B",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "image",
-      "text",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T16:48:06+00:00",
-    "context_length": 262144,
-    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages. Strong on coding, reasoning, and document understanding tasks. Apache 2.0 license.",
-    "url": "https://openrouter.ai/google/gemma-4-31b-it",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.14,
-      "completion_per_million": 0.4
-    },
-    "first_seen": "2026-04-02T20:14:09.036144+00:00",
-    "source_ids": [
-      "google/gemma-4-31b-it"
-    ],
-    "family": "Gemma 4"
-  },
-  {
     "id": "openrouter:google/gemma-4-31b-it:free",
     "name": "Google: Gemma 4 31B (free)",
     "provider": "Google",
@@ -14926,39 +14928,6 @@
       "google/gemma-4-31b-it:free"
     ],
     "family": "Gemma 4"
-  },
-  {
-    "id": "huggingface:nvidia/Gemma-4-31B-IT-NVFP4",
-    "name": "Gemma-4-31B-IT-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T16:47:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "gemma4",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T20:14:09.215555+00:00",
-    "source_ids": [
-      "nvidia/Gemma-4-31B-IT-NVFP4"
-    ],
-    "family": "Gemma-4-IT-NVFP4"
   },
   {
     "id": "huggingface:bartowski/google_gemma-4-31B-it-GGUF",
@@ -15338,36 +15307,6 @@
       "tencent/HY-Embodied-0.5"
     ],
     "family": "HY-Embodied-0.5"
-  },
-  {
-    "id": "openrouter:qwen/qwen3.6-plus:free",
-    "name": "Qwen: Qwen3.6 Plus (free)",
-    "provider": "Qwen",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T12:39:17+00:00",
-    "context_length": 1000000,
-    "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers major gains in agentic coding, front-end development, and overall reasoning, with a significantly improved “vibe coding” experience. The model excels at complex tasks such as 3D scenes, games, and repository-level problem solving, achieving a 78.8 score on SWE-bench Verified. It represents a substantial leap in both pure-text and multimodal capabilities, performing at the level of leading state-of-the-art models.",
-    "url": "https://openrouter.ai/qwen/qwen3.6-plus:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-02T16:24:02.906640+00:00",
-    "source_ids": [
-      "qwen/qwen3.6-plus:free"
-    ],
-    "family": "Qwen3.6 Plus"
   },
   {
     "id": "openrouter:qwen/qwen3.6-plus",
@@ -16425,39 +16364,6 @@
     "family": "Nemotron-Cascade-2-PolarQuant-Q5"
   },
   {
-    "id": "huggingface:juanquivilla/sotto-cleanup-lfm25-350m",
-    "name": "sotto-cleanup-lfm25-350m",
-    "provider": "juanquivilla",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T04:23:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/juanquivilla/sotto-cleanup-lfm25-350m",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "lfm2",
-      "speech-to-text",
-      "transcript-cleanup",
-      "text-correction"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T20:14:09.215687+00:00",
-    "source_ids": [
-      "juanquivilla/sotto-cleanup-lfm25-350m"
-    ],
-    "family": "sotto-cleanup-lfm25-350m"
-  },
-  {
     "id": "huggingface:caiovicentino1/Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
     "name": "Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
     "provider": "caiovicentino1",
@@ -17360,39 +17266,6 @@
       "GeorgeUwaifo/ivie_gpt2_new01c_results"
     ],
     "family": "ivie_gpt2_new01c_results"
-  },
-  {
-    "id": "huggingface:aditya02acharya/luna2-qwen2.5-0.5b-prompt-injection-merged",
-    "name": "luna2-qwen2.5-0.5b-prompt-injection-merged",
-    "provider": "aditya02acharya",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-30T21:38:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aditya02acharya/luna2-qwen2.5-0.5b-prompt-injection-merged",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "security"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T16:24:03.044392+00:00",
-    "source_ids": [
-      "aditya02acharya/luna2-qwen2.5-0.5b-prompt-injection-merged"
-    ],
-    "family": "luna2-qwen2.5-prompt-injection-merged"
   },
   {
     "id": "huggingface:caiovicentino1/Qwen3.5-9B-HLWQ-Q5",
@@ -18362,41 +18235,6 @@
     "family": "GLM-5-REAP"
   },
   {
-    "id": "huggingface:Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
-    "name": "OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
-    "provider": "Ngixdev",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-26T01:13:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T20:14:10.243782+00:00",
-    "source_ids": [
-      "Ngixdev/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF"
-    ],
-    "family": "OmniCoder-Qwen3.5-Claude-4.6-Opus-Uncensored-v2"
-  },
-  {
     "id": "huggingface:kojima-lab/molcrawl-rna-celltype-gpt2-small",
     "name": "molcrawl-rna-celltype-gpt2-small",
     "provider": "kojima-lab",
@@ -19001,6 +18839,39 @@
       "jiwon9703/Qwen3.5-KoReasoin-27B-v1"
     ],
     "family": "Qwen3.5-KoReasoin-v1"
+  },
+  {
+    "id": "huggingface:smithblack-0/llama3_baseline",
+    "name": "llama3_baseline",
+    "provider": "smithblack-0",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-22T23:12:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/smithblack-0/llama3_baseline",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "llama3_baseline",
+      "pytorch",
+      "research",
+      "llama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T20:15:20.551848+00:00",
+    "source_ids": [
+      "smithblack-0/llama3_baseline"
+    ],
+    "family": "llama3_baseline"
   },
   {
     "id": "huggingface:xv0y5ncu/Nemotron-3-Nano-30B-A3B-GLQ-3.5bpw",
@@ -20041,76 +19912,6 @@
       "ZERO-POINT-INTELLIGENCE-LTD/Miss_MARTHA-9B-Qwen3.5-Omni"
     ],
     "family": "Miss_MARTHA-Qwen3.5-Omni"
-  },
-  {
-    "id": "huggingface:google/gemma-4-31B",
-    "name": "gemma-4-31B",
-    "provider": "Google",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-12T00:38:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/google/gemma-4-31B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T16:24:03.565099+00:00",
-    "source_ids": [
-      "google/gemma-4-31B"
-    ],
-    "family": "gemma-4"
-  },
-  {
-    "id": "huggingface:google/gemma-4-26B-A4B",
-    "name": "gemma-4-26B-A4B",
-    "provider": "Google",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-12T00:38:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/google/gemma-4-26B-A4B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T16:24:03.565015+00:00",
-    "source_ids": [
-      "google/gemma-4-26B-A4B"
-    ],
-    "family": "gemma-4"
   },
   {
     "id": "huggingface:argmaxinc/speakerkit-coreml",
@@ -24848,40 +24649,6 @@
       "nvidia/parakeet-tdt-0.6b-v2"
     ],
     "family": "parakeet-tdt-v2"
-  },
-  {
-    "id": "huggingface:ibm-granite/granite-speech-3.3-8b",
-    "name": "granite-speech-3.3-8b",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-14T15:43:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-speech-3.3-8b",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "granite_speech",
-      "automatic-speech-recognition",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-02T16:24:03.486299+00:00",
-    "source_ids": [
-      "ibm-granite/granite-speech-3.3-8b"
-    ],
-    "family": "granite-speech-3.3"
   },
   {
     "id": "huggingface:llamafactory/tiny-random-Llama-4",
