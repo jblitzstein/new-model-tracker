@@ -710,6 +710,41 @@
     "family": "Qwen3.6-i1-IQ4_XS"
   },
   {
+    "id": "huggingface:zlaabsi/Qwen3.6-27B-OTQ-GGUF",
+    "name": "Qwen3.6-27B-OTQ-GGUF",
+    "provider": "zlaabsi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T22:43:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zlaabsi/Qwen3.6-27B-OTQ-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "opentq",
+      "turboquant",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T12:22:53.270325+00:00",
+    "source_ids": [
+      "zlaabsi/Qwen3.6-27B-OTQ-GGUF"
+    ],
+    "family": "Qwen3.6-OTQ"
+  },
+  {
     "id": "openrouter:~anthropic/claude-haiku-latest",
     "name": "Anthropic Claude Haiku Latest",
     "provider": "~anthropic",
@@ -8531,6 +8566,40 @@
       "GrizleeBer/gs-test-1"
     ],
     "family": "gs-test-1"
+  },
+  {
+    "id": "huggingface:Jahaz/Qwen3-tts-0.6b-gguf-for-koboldcpp",
+    "name": "Qwen3-tts-0.6b-gguf-for-koboldcpp",
+    "provider": "Jahaz",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-11T02:25:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jahaz/Qwen3-tts-0.6b-gguf-for-koboldcpp",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "text-to-speech",
+      "base_model:Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "base_model:quantized:Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-02T12:22:53.101033+00:00",
+    "source_ids": [
+      "Jahaz/Qwen3-tts-0.6b-gguf-for-koboldcpp"
+    ],
+    "family": "Qwen3-tts--for-koboldcpp"
   },
   {
     "id": "huggingface:heyalexchoi/qwen3-1.7b-math-grpo",
