@@ -501,6 +501,41 @@
     "family": "Qwen3.6-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX"
   },
   {
+    "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v2",
+    "name": "Qwen3.6-27B-uncensored-heretic-v2",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T23:41:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.6-27B-uncensored-heretic-v2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-03T05:11:39.559961+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.6-27B-uncensored-heretic-v2"
+    ],
+    "family": "Qwen3.6-uncensored-heretic-v2"
+  },
+  {
     "id": "huggingface:apol/alia-40b-distill-vapol",
     "name": "alia-40b-distill-vapol",
     "provider": "apol",
@@ -11913,6 +11948,41 @@
     "family": "gemma-4-it-REAP"
   },
   {
+    "id": "huggingface:z-lab/gemma-4-31B-it-PARO",
+    "name": "gemma-4-31B-it-PARO",
+    "provider": "z-lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-05T05:49:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/z-lab/gemma-4-31B-it-PARO",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "mlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-03T05:11:39.559932+00:00",
+    "source_ids": [
+      "z-lab/gemma-4-31B-it-PARO"
+    ],
+    "family": "gemma-4-it-PARO"
+  },
+  {
     "id": "huggingface:Hippocrene/MiniLLM-0.1B",
     "name": "MiniLLM-0.1B",
     "provider": "Hippocrene",
@@ -22410,6 +22480,39 @@
     "family": "medasr"
   },
   {
+    "id": "huggingface:inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
+    "name": "MiMo-V2-Flash-MLX-6.5bit",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-18T17:04:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "mimo_v2_flash",
+      "quantized",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-03T05:11:38.818599+00:00",
+    "source_ids": [
+      "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
+    ],
+    "family": "MiMo-V2-Flash-MLX-6.5bit"
+  },
+  {
     "id": "huggingface:browser-use/bu-30b-a3b-preview",
     "name": "bu-30b-a3b-preview",
     "provider": "browser-use",
@@ -25463,40 +25566,6 @@
       "nyadla-sys/whisper-tiny.en.tflite"
     ],
     "family": "whisper-tiny.en.tflite"
-  },
-  {
-    "id": "huggingface:DunnBC22/trocr-large-printed-cmc7_tesseract_MICR_ocr",
-    "name": "trocr-large-printed-cmc7_tesseract_MICR_ocr",
-    "provider": "DunnBC22",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-07-23T18:53:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DunnBC22/trocr-large-printed-cmc7_tesseract_MICR_ocr",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "pytorch",
-      "tensorboard",
-      "vision-encoder-decoder",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T04:49:11.276851+00:00",
-    "source_ids": [
-      "DunnBC22/trocr-large-printed-cmc7_tesseract_MICR_ocr"
-    ],
-    "family": "trocr-large-printed-cmc7_tesseract_MICR_ocr"
   },
   {
     "id": "huggingface:cyberdelia/CyberRealistic",
