@@ -3077,6 +3077,40 @@
     "family": "DeepSeek-V4-Flash"
   },
   {
+    "id": "huggingface:codeShare/FLUX.2-klein-AIO-SDNQ-4bit-dynamic",
+    "name": "FLUX.2-klein-AIO-SDNQ-4bit-dynamic",
+    "provider": "codeShare",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-04-21T23:09:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/codeShare/FLUX.2-klein-AIO-SDNQ-4bit-dynamic",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "flux",
+      "flux2-klein",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-03T08:38:23.921872+00:00",
+    "source_ids": [
+      "codeShare/FLUX.2-klein-AIO-SDNQ-4bit-dynamic"
+    ],
+    "family": "FLUX.2-klein-AIO-SDNQ-4bit-dynamic"
+  },
+  {
     "id": "huggingface:Momix-44/Huihui-Qwen3.6-35B-A3B-Claude-4.6-Opus-abliterated",
     "name": "Huihui-Qwen3.6-35B-A3B-Claude-4.6-Opus-abliterated",
     "provider": "Momix-44",
@@ -15311,39 +15345,6 @@
     "family": "MinerU2.5-Pro-2604"
   },
   {
-    "id": "huggingface:Kashif786/gemma-3-270m-sindhi",
-    "name": "gemma-3-270m-sindhi",
-    "provider": "Kashif786",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T13:25:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Kashif786/gemma-3-270m-sindhi",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T08:22:11.355688+00:00",
-    "source_ids": [
-      "Kashif786/gemma-3-270m-sindhi"
-    ],
-    "family": "gemma-3-270m-sindhi"
-  },
-  {
     "id": "huggingface:tencent/HY-Embodied-0.5",
     "name": "HY-Embodied-0.5",
     "provider": "Tencent",
@@ -15853,39 +15854,6 @@
       "ACE-Step/acestep-v15-xl-base"
     ],
     "family": "acestep-v15-xl"
-  },
-  {
-    "id": "huggingface:Hyeongwon/P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6",
-    "name": "P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6",
-    "provider": "Hyeongwon",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T05:00:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Hyeongwon/P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T08:22:11.355896+00:00",
-    "source_ids": [
-      "Hyeongwon/P9-split1_only_answer_Qwen3-4B-Base_0402-01-5e-6"
-    ],
-    "family": "P9-split1_only_answer_Qwen3-Base_0402-01-5e-6"
   },
   {
     "id": "huggingface:DarksitoBest/minigpt-casual-es",
@@ -17141,40 +17109,6 @@
       "YTan2000/Qwen3.5-27B-TQ3_1S"
     ],
     "family": "Qwen3.5-TQ3_1S"
-  },
-  {
-    "id": "huggingface:k2-fsa/OmniVoice",
-    "name": "OmniVoice",
-    "provider": "k2-fsa",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-30T13:43:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/k2-fsa/OmniVoice",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "omnivoice",
-      "text-to-speech",
-      "aae",
-      "aal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T08:22:12.028434+00:00",
-    "source_ids": [
-      "k2-fsa/OmniVoice"
-    ],
-    "family": "OmniVoice"
   },
   {
     "id": "huggingface:nvidia/Ising-Calibration-1-35B-A3B",
@@ -19826,39 +19760,6 @@
     "family": "gemma-4-it"
   },
   {
-    "id": "huggingface:nvidia/MiniMax-M2.5-NVFP4",
-    "name": "MiniMax-M2.5-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-11T18:15:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/MiniMax-M2.5-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "minimax_m2",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T08:22:11.355847+00:00",
-    "source_ids": [
-      "nvidia/MiniMax-M2.5-NVFP4"
-    ],
-    "family": "MiniMax-M2.5-NVFP4"
-  },
-  {
     "id": "huggingface:RekaAI/reka-edge-2603",
     "name": "reka-edge-2603",
     "provider": "RekaAI",
@@ -19892,6 +19793,41 @@
       "RekaAI/reka-edge-2603"
     ],
     "family": "reka-edge-2603"
+  },
+  {
+    "id": "huggingface:UII-AI/uAI-NEXUS-MedVLM-1.0a-7B-RL",
+    "name": "uAI-NEXUS-MedVLM-1.0a-7B-RL",
+    "provider": "UII-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T19:38:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/UII-AI/uAI-NEXUS-MedVLM-1.0a-7B-RL",
+    "tags": [
+      "visual-question-answering",
+      "safetensors",
+      "qwen2_5_vl",
+      "medical",
+      "video understanding",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-03T08:38:24.816087+00:00",
+    "source_ids": [
+      "UII-AI/uAI-NEXUS-MedVLM-1.0a-7B-RL"
+    ],
+    "family": "uAI-NEXUS-MedVLM-1.0a-RL"
   },
   {
     "id": "huggingface:HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
@@ -22209,39 +22145,6 @@
     "family": "Qwen3"
   },
   {
-    "id": "huggingface:YuCollection/gpt-oss-120b-mxfp4",
-    "name": "gpt-oss-120b-mxfp4",
-    "provider": "YuCollection",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-22T01:24:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/YuCollection/gpt-oss-120b-mxfp4",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "vllm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T08:22:11.355604+00:00",
-    "source_ids": [
-      "YuCollection/gpt-oss-120b-mxfp4"
-    ],
-    "family": "gpt-oss-mxfp4"
-  },
-  {
     "id": "huggingface:DJF-on-arm/Iamam",
     "name": "Iamam",
     "provider": "DJF-on-arm",
@@ -22306,6 +22209,39 @@
       "AlgoDriveAI/Sanskrit_Akkadian_LLM_v1.0"
     ],
     "family": "Sanskrit_Akkadian_LLM_v1.0"
+  },
+  {
+    "id": "huggingface:VoCuc/Qwen1.5_1.8B_SFT_Dolly",
+    "name": "Qwen1.5_1.8B_SFT_Dolly",
+    "provider": "VoCuc",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-18T17:30:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VoCuc/Qwen1.5_1.8B_SFT_Dolly",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "qwen2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-03T08:38:23.791880+00:00",
+    "source_ids": [
+      "VoCuc/Qwen1.5_1.8B_SFT_Dolly"
+    ],
+    "family": "Qwen1.5_1.8B_SFT_Dolly"
   },
   {
     "id": "huggingface:lightonai/LightOnOCR-2-1B",
@@ -23247,39 +23183,6 @@
       "PleIAs/Baguettotron"
     ],
     "family": "Baguettotron"
-  },
-  {
-    "id": "huggingface:nappa114514/urikuru-oss",
-    "name": "urikuru-oss",
-    "provider": "nappa114514",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-10T08:41:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nappa114514/urikuru-oss",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "not-for-all-audiences",
-      "text-generation",
-      "ja",
-      "endpoints_compatible"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T08:22:11.355747+00:00",
-    "source_ids": [
-      "nappa114514/urikuru-oss"
-    ],
-    "family": "urikuru-oss"
   },
   {
     "id": "huggingface:internlm/Spatial-SSRL-7B",
