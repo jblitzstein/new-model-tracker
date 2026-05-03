@@ -2647,6 +2647,39 @@
     "family": "LTX_2.3_Crisp_Enhance_Style_LoRa"
   },
   {
+    "id": "huggingface:Luckylobster/wisdom_ai",
+    "name": "wisdom_ai",
+    "provider": "Luckylobster",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T19:29:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Luckylobster/wisdom_ai",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-03T20:16:10.189260+00:00",
+    "source_ids": [
+      "Luckylobster/wisdom_ai"
+    ],
+    "family": "wisdom_ai"
+  },
+  {
     "id": "huggingface:OvercastLab/Quark-50m-Instruct",
     "name": "Quark-50m-Instruct",
     "provider": "OvercastLab",
@@ -13385,39 +13418,6 @@
     "family": "gemma-4-it-FP8-block"
   },
   {
-    "id": "openrouter:google/gemma-4-26b-a4b-it",
-    "name": "Google: Gemma 4 26B A4B ",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "image",
-      "text",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T14:53:09+00:00",
-    "context_length": 262144,
-    "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at a fraction of the compute cost. Supports multimodal input including text, images, and video (up to 60s at 1fps). Features a 256K token context window, native function calling, configurable thinking/reasoning mode, and structured output support. Released under Apache 2.0.",
-    "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.13,
-      "completion_per_million": 0.4
-    },
-    "first_seen": "2026-04-03T20:11:53.252721+00:00",
-    "source_ids": [
-      "google/gemma-4-26b-a4b-it"
-    ],
-    "family": "Gemma 4"
-  },
-  {
     "id": "openrouter:google/gemma-4-26b-a4b-it:free",
     "name": "Google: Gemma 4 26B A4B  (free)",
     "provider": "Google",
@@ -15685,41 +15685,6 @@
     "family": "QianfanOCR"
   },
   {
-    "id": "huggingface:YTan2000/Qwen3.5-27B-TQ3_4S",
-    "name": "Qwen3.5-27B-TQ3_4S",
-    "provider": "YTan2000",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T21:25:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/YTan2000/Qwen3.5-27B-TQ3_4S",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "qwen",
-      "quantization",
-      "turboquant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T20:11:54.208121+00:00",
-    "source_ids": [
-      "YTan2000/Qwen3.5-27B-TQ3_4S"
-    ],
-    "family": "Qwen3.5-TQ3_4S"
-  },
-  {
     "id": "huggingface:small-models-for-glam/Qwen3.5-0.8B-SFT-name-parser-yaml",
     "name": "Qwen3.5-0.8B-SFT-name-parser-yaml",
     "provider": "small-models-for-glam",
@@ -16627,41 +16592,6 @@
     "family": "PixelDiT-1300M-1024px"
   },
   {
-    "id": "huggingface:YTan2000/Qwen3.5-27B-TQ3_1S",
-    "name": "Qwen3.5-27B-TQ3_1S",
-    "provider": "YTan2000",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-30T18:01:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/YTan2000/Qwen3.5-27B-TQ3_1S",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "qwen",
-      "qwen3.5",
-      "quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T20:11:54.208177+00:00",
-    "source_ids": [
-      "YTan2000/Qwen3.5-27B-TQ3_1S"
-    ],
-    "family": "Qwen3.5-TQ3_1S"
-  },
-  {
     "id": "huggingface:nvidia/Ising-Calibration-1-35B-A3B",
     "name": "Ising-Calibration-1-35B-A3B",
     "provider": "NVIDIA",
@@ -17491,39 +17421,6 @@
       "Oysiyl/qwen3-1.7b-unslop-good-lora-v1"
     ],
     "family": "qwen3-unslop-good-lora-v1"
-  },
-  {
-    "id": "huggingface:Monoclebear/Ring-2.5-1T-mlx-6bit",
-    "name": "Ring-2.5-1T-mlx-6bit",
-    "provider": "Monoclebear",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-25T14:45:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Monoclebear/Ring-2.5-1T-mlx-6bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "bailing_hybrid",
-      "text-generation",
-      "conversational",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T20:11:53.402529+00:00",
-    "source_ids": [
-      "Monoclebear/Ring-2.5-1T-mlx-6bit"
-    ],
-    "family": "Ring-2.5-1T-mlx-6bit"
   },
   {
     "id": "huggingface:EnlistedGhost/Ministral-3-8B-Reasoning-2512-GGUF",
@@ -20795,39 +20692,6 @@
       "inclusionAI/LLaDA2.1-mini"
     ],
     "family": "LLaDA2.1-mini"
-  },
-  {
-    "id": "huggingface:eekay/Llama-3.1-8B-Instruct-elephant-numbers-ft",
-    "name": "Llama-3.1-8B-Instruct-elephant-numbers-ft",
-    "provider": "eekay",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-07T02:21:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/eekay/Llama-3.1-8B-Instruct-elephant-numbers-ft",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-03T20:11:53.402592+00:00",
-    "source_ids": [
-      "eekay/Llama-3.1-8B-Instruct-elephant-numbers-ft"
-    ],
-    "family": "Llama-3.1--elephant-numbers-ft"
   },
   {
     "id": "huggingface:amd/Kimi-K2.5-W4A8",
