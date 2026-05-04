@@ -398,6 +398,41 @@
     "family": "Qwen3.5-DeepSeek-V4-Flash"
   },
   {
+    "id": "huggingface:bartowski/mistralai_Mistral-Medium-3.5-128B-GGUF",
+    "name": "mistralai_Mistral-Medium-3.5-128B-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T15:26:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/mistralai_Mistral-Medium-3.5-128B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "vLLM",
+      "image-text-to-text",
+      "en",
+      "fr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T00:47:09.596102+00:00",
+    "source_ids": [
+      "bartowski/mistralai_Mistral-Medium-3.5-128B-GGUF"
+    ],
+    "family": "mistralai_Mistral-Medium-3.5"
+  },
+  {
     "id": "huggingface:mradermacher/Garnet-OCR-7B-0422-i1-GGUF",
     "name": "Garnet-OCR-7B-0422-i1-GGUF",
     "provider": "mradermacher",
@@ -17091,39 +17126,6 @@
       "Oysiyl/qwen3.5-9b-unslop-good-lora-v1"
     ],
     "family": "qwen3.5-unslop-good-lora-v1"
-  },
-  {
-    "id": "huggingface:latiao1999/task-21-Qwen-Qwen3.5-4B",
-    "name": "task-21-Qwen-Qwen3.5-4B",
-    "provider": "latiao1999",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-27T17:11:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/latiao1999/task-21-Qwen-Qwen3.5-4B",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3.5-4B",
-      "lora",
-      "sft"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-04T00:33:26.402606+00:00",
-    "source_ids": [
-      "latiao1999/task-21-Qwen-Qwen3.5-4B"
-    ],
-    "family": "task-21-Qwen-Qwen3.5"
   },
   {
     "id": "huggingface:SolGaze/task-21-Qwen-Qwen3.5-4B",
