@@ -2510,6 +2510,39 @@
     "family": "Qwen3.6-NEO-CODE-Di-IMatrix-MAX"
   },
   {
+    "id": "huggingface:batiai/Qwen3.6-27B-GGUF",
+    "name": "Qwen3.6-27B-GGUF",
+    "provider": "batiai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T07:44:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/batiai/Qwen3.6-27B-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "qwen3.6",
+      "dense"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T05:13:27.114738+00:00",
+    "source_ids": [
+      "batiai/Qwen3.6-27B-GGUF"
+    ],
+    "family": "Qwen3.6"
+  },
+  {
     "id": "huggingface:andyjack/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF",
     "name": "Huihui-Qwen3.6-35B-A3B-abliterated-GGUF",
     "provider": "andyjack",
@@ -7674,6 +7707,39 @@
     "family": "Echo-DSRN-114M-v0.1.1"
   },
   {
+    "id": "huggingface:batiai/Qwen3.5-35B-A3B-GGUF",
+    "name": "Qwen3.5-35B-A3B-GGUF",
+    "provider": "batiai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T13:37:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/batiai/Qwen3.5-35B-A3B-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "moe",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T05:13:27.114646+00:00",
+    "source_ids": [
+      "batiai/Qwen3.5-35B-A3B-GGUF"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:kojima-lab/molcrawl-protein-sequence-gpt2-xl",
     "name": "molcrawl-protein-sequence-gpt2-xl",
     "provider": "kojima-lab",
@@ -10864,6 +10930,39 @@
     "family": "urdu-speecht5-finetuned"
   },
   {
+    "id": "huggingface:batiai/Qwen3.5-9B-GGUF",
+    "name": "Qwen3.5-9B-GGUF",
+    "provider": "batiai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T09:55:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/batiai/Qwen3.5-9B-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "quantized",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T05:13:27.114763+00:00",
+    "source_ids": [
+      "batiai/Qwen3.5-9B-GGUF"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:baidu/ERNIE-Image",
     "name": "ERNIE-Image",
     "provider": "Baidu",
@@ -11098,6 +11197,41 @@
     "first_seen": "2026-04-09T16:34:01.079845+00:00",
     "source_ids": [
       "llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF"
+    ],
+    "family": "gemma-4-it-ultra-uncensored-heretic"
+  },
+  {
+    "id": "huggingface:llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic",
+    "name": "gemma-4-26B-A4B-it-ultra-uncensored-heretic",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T00:51:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T05:13:27.633101+00:00",
+    "source_ids": [
+      "llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic"
     ],
     "family": "gemma-4-it-ultra-uncensored-heretic"
   },
@@ -21502,41 +21636,6 @@
       "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
     ],
     "family": "MiMo-V2-Flash-MLX-6.5bit"
-  },
-  {
-    "id": "huggingface:browser-use/bu-30b-a3b-preview",
-    "name": "bu-30b-a3b-preview",
-    "provider": "browser-use",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-11T02:02:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/browser-use/bu-30b-a3b-preview",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl_moe",
-      "image-text-to-text",
-      "browser_use"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-04T04:38:49.505054+00:00",
-    "source_ids": [
-      "browser-use/bu-30b-a3b-preview"
-    ],
-    "family": "bu"
   },
   {
     "id": "huggingface:zai-org/GLM-ASR-Nano-2512",
