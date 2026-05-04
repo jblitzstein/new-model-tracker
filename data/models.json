@@ -55921,5 +55921,237 @@
       "aisingapore/Qwen-SEA-LION-v4-32B-IT"
     ],
     "family": "Qwen-SEA-LION-v4-IT"
+  },
+  {
+    "id": "openrouter:mistralai/mistral-medium-3-5",
+    "name": "Mistral: Mistral Medium 3.5",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T17:33:59+00:00",
+    "context_length": 262144,
+    "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+    "url": "https://openrouter.ai/mistralai/mistral-medium-3-5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-05-04T20:32:52.381348+00:00",
+    "source_ids": [
+      "mistralai/mistral-medium-3-5"
+    ],
+    "family": "Mistral Medium 3.5"
+  },
+  {
+    "id": "huggingface:dcostenco/prism-coder-7b",
+    "name": "prism-coder-7b",
+    "provider": "dcostenco",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T18:30:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dcostenco/prism-coder-7b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558260+00:00",
+    "source_ids": [
+      "dcostenco/prism-coder-7b"
+    ],
+    "family": "prism-coder"
+  },
+  {
+    "id": "huggingface:dicta-il/DictaLM-3.0-24B-Base",
+    "name": "DictaLM-3.0-24B-Base",
+    "provider": "dicta-il",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-23T20:16:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dicta-il/DictaLM-3.0-24B-Base",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mistral",
+      "pretrained",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558359+00:00",
+    "source_ids": [
+      "dicta-il/DictaLM-3.0-24B-Base"
+    ],
+    "family": "DictaLM-3.0"
+  },
+  {
+    "id": "huggingface:dicta-il/DictaLM-3.0-24B-Thinking",
+    "name": "DictaLM-3.0-24B-Thinking",
+    "provider": "dicta-il",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-01T19:55:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dicta-il/DictaLM-3.0-24B-Thinking",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mistral",
+      "pretrained",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558420+00:00",
+    "source_ids": [
+      "dicta-il/DictaLM-3.0-24B-Thinking"
+    ],
+    "family": "DictaLM-3.0"
+  },
+  {
+    "id": "huggingface:RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8",
+    "name": "DeepSeek-V4-Flash-NVFP4-FP8",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T16:34:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558492+00:00",
+    "source_ids": [
+      "RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8"
+    ],
+    "family": "DeepSeek-V4-Flash-NVFP4-FP8"
+  },
+  {
+    "id": "huggingface:rootonchair/diffuser_layerdiffuse",
+    "name": "diffuser_layerdiffuse",
+    "provider": "rootonchair",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-05-23T16:35:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rootonchair/diffuser_layerdiffuse",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "arxiv:2402.17113",
+      "license:mit",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.640350+00:00",
+    "source_ids": [
+      "rootonchair/diffuser_layerdiffuse"
+    ],
+    "family": "diffuser_layerdiffuse"
+  },
+  {
+    "id": "huggingface:SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF",
+    "name": "gemma-4-26B-A4B-it-heretic-ara-GGUF",
+    "provider": "SassyDiffusion",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T10:53:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "heretic-ara",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:53.096060+00:00",
+    "source_ids": [
+      "SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF"
+    ],
+    "family": "gemma-4-it-heretic-ara"
   }
 ]

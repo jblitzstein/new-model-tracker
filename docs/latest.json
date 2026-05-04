@@ -362,6 +362,37 @@
     "family": "Granite 4.1"
   },
   {
+    "id": "openrouter:mistralai/mistral-medium-3-5",
+    "name": "Mistral: Mistral Medium 3.5",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T17:33:59+00:00",
+    "context_length": 262144,
+    "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+    "url": "https://openrouter.ai/mistralai/mistral-medium-3-5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-05-04T20:32:52.381348+00:00",
+    "source_ids": [
+      "mistralai/mistral-medium-3-5"
+    ],
+    "family": "Mistral Medium 3.5"
+  },
+  {
     "id": "huggingface:VladShash/mistral-7B-lean-prover-dpo-deepseek",
     "name": "mistral-7B-lean-prover-dpo-deepseek",
     "provider": "VladShash",
@@ -529,6 +560,39 @@
       "mafgit/empathetic-distilgpt2"
     ],
     "family": "empathetic-distilgpt2"
+  },
+  {
+    "id": "huggingface:RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8",
+    "name": "DeepSeek-V4-Flash-NVFP4-FP8",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T16:34:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558492+00:00",
+    "source_ids": [
+      "RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8"
+    ],
+    "family": "DeepSeek-V4-Flash-NVFP4-FP8"
   },
   {
     "id": "huggingface:Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
@@ -803,6 +867,39 @@
       "ANOUARELIDRISSI/email-generator-gpt2"
     ],
     "family": "email-generator-gpt2"
+  },
+  {
+    "id": "huggingface:dcostenco/prism-coder-7b",
+    "name": "prism-coder-7b",
+    "provider": "dcostenco",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T18:30:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dcostenco/prism-coder-7b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558260+00:00",
+    "source_ids": [
+      "dcostenco/prism-coder-7b"
+    ],
+    "family": "prism-coder"
   },
   {
     "id": "openrouter:openrouter/owl-alpha",
@@ -12925,6 +13022,41 @@
     "family": "Llama-3.3--v2-3d-2M-200K-0.1-reverse-padzero-99-256D-3L-8H-1024I"
   },
   {
+    "id": "huggingface:SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF",
+    "name": "gemma-4-26B-A4B-it-heretic-ara-GGUF",
+    "provider": "SassyDiffusion",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T10:53:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "heretic-ara",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:53.096060+00:00",
+    "source_ids": [
+      "SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF"
+    ],
+    "family": "gemma-4-it-heretic-ara"
+  },
+  {
     "id": "huggingface:aifeifei798/Gemma-4-31B-Cognitive-Unshackled",
     "name": "Gemma-4-31B-Cognitive-Unshackled",
     "provider": "aifeifei798",
@@ -13787,39 +13919,6 @@
       "RedHatAI/gemma-4-31B-it-NVFP4"
     ],
     "family": "gemma-4-it-NVFP4"
-  },
-  {
-    "id": "huggingface:croll83/Qwopus3.5-27B-v3-Abliterated",
-    "name": "Qwopus3.5-27B-v3-Abliterated",
-    "provider": "croll83",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T16:51:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/croll83/Qwopus3.5-27B-v3-Abliterated",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "qwen3_5",
-      "qwopus",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-04T20:09:46.647053+00:00",
-    "source_ids": [
-      "croll83/Qwopus3.5-27B-v3-Abliterated"
-    ],
-    "family": "Qwopus3.5-v3-Abliterated"
   },
   {
     "id": "huggingface:RedHatAI/gemma-4-31B-it-FP8-block",
@@ -16155,39 +16254,6 @@
       "Jackrong/Qwopus3.5-4B-v3-GGUF"
     ],
     "family": "Qwopus3.5-v3"
-  },
-  {
-    "id": "huggingface:Rta-AILabs/Nandi-Mini-150M",
-    "name": "Nandi-Mini-150M",
-    "provider": "Rta-AILabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T13:19:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Rta-AILabs/Nandi-Mini-150M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nandi",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-04T20:09:46.647138+00:00",
-    "source_ids": [
-      "Rta-AILabs/Nandi-Mini-150M"
-    ],
-    "family": "Nandi-Mini-150M"
   },
   {
     "id": "huggingface:juanquivilla/sotto-cleanup-lfm25-350m-mlx-5bit",
@@ -21331,39 +21397,6 @@
     "family": "Flux2-Klein-True-V1"
   },
   {
-    "id": "huggingface:kgrabko/JiRackTernary_1b",
-    "name": "JiRackTernary_1b",
-    "provider": "kgrabko",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-26T03:25:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kgrabko/JiRackTernary_1b",
-    "tags": [
-      "text-generation",
-      "onnx",
-      "safetensors",
-      "jirack_ternary",
-      "ternary",
-      "bitnet"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-04T20:09:46.646996+00:00",
-    "source_ids": [
-      "kgrabko/JiRackTernary_1b"
-    ],
-    "family": "JiRackTernary"
-  },
-  {
     "id": "huggingface:DJF-on-arm/Iamam",
     "name": "Iamam",
     "provider": "DJF-on-arm",
@@ -21868,6 +21901,39 @@
     "family": "Qwen3-diffusion-mdlm-v0.1"
   },
   {
+    "id": "huggingface:dicta-il/DictaLM-3.0-24B-Thinking",
+    "name": "DictaLM-3.0-24B-Thinking",
+    "provider": "dicta-il",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-01T19:55:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dicta-il/DictaLM-3.0-24B-Thinking",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mistral",
+      "pretrained",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558420+00:00",
+    "source_ids": [
+      "dicta-il/DictaLM-3.0-24B-Thinking"
+    ],
+    "family": "DictaLM-3.0"
+  },
+  {
     "id": "huggingface:MediaTek-Research/Breeze-ASR-26",
     "name": "Breeze-ASR-26",
     "provider": "MediaTek-Research",
@@ -22173,6 +22239,39 @@
       "mradermacher/Gliese-OCR-7B-Post2.0-final-i1-GGUF"
     ],
     "family": "Gliese-OCR-Post2.0-final-i1"
+  },
+  {
+    "id": "huggingface:dicta-il/DictaLM-3.0-24B-Base",
+    "name": "DictaLM-3.0-24B-Base",
+    "provider": "dicta-il",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-23T20:16:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dicta-il/DictaLM-3.0-24B-Base",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mistral",
+      "pretrained",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.558359+00:00",
+    "source_ids": [
+      "dicta-il/DictaLM-3.0-24B-Base"
+    ],
+    "family": "DictaLM-3.0"
   },
   {
     "id": "huggingface:aisingapore/Qwen-SEA-LION-v4-32B-IT",
@@ -22847,40 +22946,6 @@
       "trl-internal-testing/tiny-Gemma3ForConditionalGeneration"
     ],
     "family": "tiny-Gemma3ForConditionalGeneration"
-  },
-  {
-    "id": "huggingface:bosonai/higgs-audio-v2-generation-3B-base",
-    "name": "higgs-audio-v2-generation-3B-base",
-    "provider": "bosonai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-07-01T15:45:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bosonai/higgs-audio-v2-generation-3B-base",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "higgs_audio_v2",
-      "text-to-audio",
-      "text-to-speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-04T20:09:47.207940+00:00",
-    "source_ids": [
-      "bosonai/higgs-audio-v2-generation-3B-base"
-    ],
-    "family": "higgs-audio-v2-generation"
   },
   {
     "id": "huggingface:nvidia/canary-qwen-2.5b",
@@ -23916,6 +23981,40 @@
       "DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF"
     ],
     "family": "Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-IMATRIX"
+  },
+  {
+    "id": "huggingface:rootonchair/diffuser_layerdiffuse",
+    "name": "diffuser_layerdiffuse",
+    "provider": "rootonchair",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-05-23T16:35:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rootonchair/diffuser_layerdiffuse",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "arxiv:2402.17113",
+      "license:mit",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-04T20:32:52.640350+00:00",
+    "source_ids": [
+      "rootonchair/diffuser_layerdiffuse"
+    ],
+    "family": "diffuser_layerdiffuse"
   },
   {
     "id": "huggingface:DavidAU/TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf",
