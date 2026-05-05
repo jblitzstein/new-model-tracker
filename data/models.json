@@ -56685,5 +56685,174 @@
       "allenai/Molmo2-ER"
     ],
     "family": "Molmo2-ER"
+  },
+  {
+    "id": "openrouter:openai/gpt-chat-latest",
+    "name": "OpenAI: GPT Chat Latest",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-05T16:56:52+00:00",
+    "context_length": 400000,
+    "description": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates...",
+    "url": "https://openrouter.ai/openai/gpt-chat-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 30.0
+    },
+    "first_seen": "2026-05-05T20:28:09.675094+00:00",
+    "source_ids": [
+      "openai/gpt-chat-latest"
+    ],
+    "family": "GPT Latest"
+  },
+  {
+    "id": "huggingface:nthngdy/matryoshka-200M",
+    "name": "matryoshka-200M",
+    "provider": "nthngdy",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T16:06:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nthngdy/matryoshka-200M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "matriochka",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T20:28:09.839267+00:00",
+    "source_ids": [
+      "nthngdy/matryoshka-200M"
+    ],
+    "family": "matryoshka-200M"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-DeepseekV4ForCausalLM",
+    "name": "tiny-DeepseekV4ForCausalLM",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T21:18:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-DeepseekV4ForCausalLM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T20:28:09.839427+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-DeepseekV4ForCausalLM"
+    ],
+    "family": "tiny-DeepseekV4ForCausalLM"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD",
+    "name": "NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-22T19:41:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "NemotronH_Nano_VL_V2",
+      "feature-extraction",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T20:28:10.618872+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD"
+    ],
+    "family": "NVIDIA-Nemotron-Nano-v2-VL-NVFP4-QAD"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v2-GGUF",
+    "name": "Qwen3.6-27B-uncensored-heretic-v2-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T04:00:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.6-27B-uncensored-heretic-v2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "qwen3_5",
+      "heretic",
+      "uncensored",
+      "decensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T20:28:10.618946+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.6-27B-uncensored-heretic-v2-GGUF"
+    ],
+    "family": "Qwen3.6-uncensored-heretic-v2"
   }
 ]
