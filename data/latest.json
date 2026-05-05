@@ -2842,6 +2842,41 @@
     "family": "Qwen3.6-NEO-CODE-Di-IMatrix-MAX"
   },
   {
+    "id": "huggingface:kaiz0603/gemma_4_ac_remote_lora-gguf",
+    "name": "gemma_4_ac_remote_lora-gguf",
+    "provider": "kaiz0603",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T08:00:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kaiz0603/gemma_4_ac_remote_lora-gguf",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "gemma4",
+      "llama.cpp",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T05:07:05.696031+00:00",
+    "source_ids": [
+      "kaiz0603/gemma_4_ac_remote_lora-gguf"
+    ],
+    "family": "gemma_4_ac_remote_lora"
+  },
+  {
     "id": "huggingface:batiai/Qwen3.6-27B-GGUF",
     "name": "Qwen3.6-27B-GGUF",
     "provider": "batiai",
@@ -7275,6 +7310,39 @@
     "family": "ToriiGate-0.5-i1"
   },
   {
+    "id": "huggingface:BIGAI-models/MagicText-1.2_fine-tuning",
+    "name": "MagicText-1.2_fine-tuning",
+    "provider": "BIGAI-models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T04:44:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BIGAI-models/MagicText-1.2_fine-tuning",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "lstm",
+      "character-level",
+      "text-generation",
+      "ru"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T05:07:05.278482+00:00",
+    "source_ids": [
+      "BIGAI-models/MagicText-1.2_fine-tuning"
+    ],
+    "family": "MagicText-1.2_fine-tuning"
+  },
+  {
     "id": "huggingface:moonshotai/Kimi-K2.6",
     "name": "Kimi-K2.6",
     "provider": "Moonshot AI",
@@ -10926,6 +10994,41 @@
       "DJLougen/Ornstein-27B-GGUF"
     ],
     "family": "Ornstein"
+  },
+  {
+    "id": "huggingface:Green-eyedDevil/Monika-31B-GGUFs",
+    "name": "Monika-31B-GGUFs",
+    "provider": "Green-eyedDevil",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T22:30:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Green-eyedDevil/Monika-31B-GGUFs",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "roleplay",
+      "image-text-to-text",
+      "en",
+      "base_model:Green-eyedDevil/Monika-31B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T05:07:05.696119+00:00",
+    "source_ids": [
+      "Green-eyedDevil/Monika-31B-GGUFs"
+    ],
+    "family": "Monika-GGUFs"
   },
   {
     "id": "huggingface:lolzinventor/Qwen3.5-4B-Base-ZitGen-V1",
@@ -15328,41 +15431,6 @@
     "first_seen": "2026-04-05T16:11:54.149996+00:00",
     "source_ids": [
       "arthurcollet/gemma-4-26B-A4B-it-mlx-mxfp8"
-    ],
-    "family": "gemma-4-it-mlx-mxfp8"
-  },
-  {
-    "id": "huggingface:arthurcollet/gemma-4-31B-it-mlx-mxfp8",
-    "name": "gemma-4-31B-it-mlx-mxfp8",
-    "provider": "arthurcollet",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T17:21:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/arthurcollet/gemma-4-31B-it-mlx-mxfp8",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-05T04:53:37.730492+00:00",
-    "source_ids": [
-      "arthurcollet/gemma-4-31B-it-mlx-mxfp8"
     ],
     "family": "gemma-4-it-mlx-mxfp8"
   },
@@ -21666,39 +21734,6 @@
       "ayousanz/piper-plus-tsukuyomi-chan"
     ],
     "family": "piper-plus-tsukuyomi-chan"
-  },
-  {
-    "id": "huggingface:DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF",
-    "name": "Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-23T04:33:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "256k context",
-      "Qwen3",
-      "All use cases",
-      "creative"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-05T04:53:37.261370+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3-4B-Gemini-TripleX-High-Reasoning-Thinking-Heretic-Uncensored-GGUF"
-    ],
-    "family": "Qwen3-Gemini-TripleX-High-Reasoning--Heretic-Uncensored"
   },
   {
     "id": "huggingface:google/medasr",
