@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:allenai/Molmo2-ER",
+    "name": "Molmo2-ER",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-04T06:08:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Molmo2-ER",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "molmo2",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:03.143582+00:00",
+    "source_ids": [
+      "allenai/Molmo2-ER"
+    ],
+    "family": "Molmo2-ER"
+  },
+  {
     "id": "huggingface:storagejuju/glm-5.1-mxfp4-moe-juju",
     "name": "glm-5.1-mxfp4-moe-juju",
     "provider": "storagejuju",
@@ -265,6 +300,74 @@
       "fpadovani/tur_10mb_baseline_seed3407"
     ],
     "family": "tur_10mb_baseline_seed3407"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-diffusion-3.5-medium-amdnpu",
+    "name": "stable-diffusion-3.5-medium-amdnpu",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-01T16:08:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium-amdnpu",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "onnx",
+      "text-to-image",
+      "stable-diffusion",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.683476+00:00",
+    "source_ids": [
+      "stabilityai/stable-diffusion-3.5-medium-amdnpu"
+    ],
+    "family": "stable-diffusion-3.5-medium-amdnpu"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-diffusion-3-medium-amdnpu",
+    "name": "stable-diffusion-3-medium-amdnpu",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-01T16:08:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium-amdnpu",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "onnx",
+      "text-to-image",
+      "stable-diffusion",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.683573+00:00",
+    "source_ids": [
+      "stabilityai/stable-diffusion-3-medium-amdnpu"
+    ],
+    "family": "stable-diffusion-3-medium-amdnpu"
   },
   {
     "id": "huggingface:DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
@@ -4497,6 +4600,39 @@
       "anthfu/supergemma4-26b-uncensored-gguf-v2"
     ],
     "family": "supergemma4-uncensored--v2"
+  },
+  {
+    "id": "huggingface:hypaai/Hypa-Gemma4-E2B-v1",
+    "name": "Hypa-Gemma4-E2B-v1",
+    "provider": "hypaai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T23:30:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hypaai/Hypa-Gemma4-E2B-v1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.608767+00:00",
+    "source_ids": [
+      "hypaai/Hypa-Gemma4-E2B-v1"
+    ],
+    "family": "Hypa-Gemma4-E-v1"
   },
   {
     "id": "huggingface:Minachist/Qwen3.6-35B-A3B-INT8-AutoRound",
@@ -12754,6 +12890,39 @@
     "family": "gemma-4-E-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit"
   },
   {
+    "id": "huggingface:codingmonster1234/chess-sft-modelv2",
+    "name": "chess-sft-modelv2",
+    "provider": "codingmonster1234",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-05T17:10:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/codingmonster1234/chess-sft-modelv2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.608853+00:00",
+    "source_ids": [
+      "codingmonster1234/chess-sft-modelv2"
+    ],
+    "family": "chess-sft-modelv2"
+  },
+  {
     "id": "huggingface:0xSero/gemma-4-21b-a4b-it-REAP",
     "name": "gemma-4-21b-a4b-it-REAP",
     "provider": "0xSero",
@@ -15060,41 +15229,6 @@
     "family": "gemma-4-it-mxfp8-mlx"
   },
   {
-    "id": "huggingface:arthurcollet/gemma-4-26B-A4B-it-mlx-mxfp8",
-    "name": "gemma-4-26B-A4B-it-mlx-mxfp8",
-    "provider": "arthurcollet",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T18:03:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/arthurcollet/gemma-4-26B-A4B-it-mlx-mxfp8",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-05T16:11:54.149996+00:00",
-    "source_ids": [
-      "arthurcollet/gemma-4-26B-A4B-it-mlx-mxfp8"
-    ],
-    "family": "gemma-4-it-mlx-mxfp8"
-  },
-  {
     "id": "huggingface:noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF",
     "name": "gemma-4-26B-A4B-it-MXFP4_MOE-GGUF",
     "provider": "noctrex",
@@ -15641,41 +15775,6 @@
       "baidu/ERNIE-Image-Turbo"
     ],
     "family": "ERNIE-Image-Turbo"
-  },
-  {
-    "id": "huggingface:Flakily6416/Qwen3.5-27B-Opus-Reasoning-v2-Abliterated-EvoPress-GGUF",
-    "name": "Qwen3.5-27B-Opus-Reasoning-v2-Abliterated-EvoPress-GGUF",
-    "provider": "Flakily6416",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T09:36:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Flakily6416/Qwen3.5-27B-Opus-Reasoning-v2-Abliterated-EvoPress-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "mamba",
-      "uncensored",
-      "reasoning",
-      "chain-of-thought"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-05T16:11:54.150173+00:00",
-    "source_ids": [
-      "Flakily6416/Qwen3.5-27B-Opus-Reasoning-v2-Abliterated-EvoPress-GGUF"
-    ],
-    "family": "Qwen3.5-Opus-Reasoning-v2-Abliterated-EvoPress"
   },
   {
     "id": "huggingface:jhy01/gptoss-120b-aimo3-merged",
@@ -18519,41 +18618,6 @@
       "llm-jp/llm-jp-4-8b-thinking"
     ],
     "family": "llm-jp-4"
-  },
-  {
-    "id": "huggingface:z-lab/Qwen3.5-27B-PARO",
-    "name": "Qwen3.5-27B-PARO",
-    "provider": "z-lab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-14T03:41:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/z-lab/Qwen3.5-27B-PARO",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-05T16:11:54.150063+00:00",
-    "source_ids": [
-      "z-lab/Qwen3.5-27B-PARO"
-    ],
-    "family": "Qwen3.5-PARO"
   },
   {
     "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/Miss_MARTHA-9B-Qwen3.5-Omni",
@@ -21854,6 +21918,35 @@
       "dicta-il/DictaLM-3.0-24B-Base"
     ],
     "family": "DictaLM-3.0"
+  },
+  {
+    "id": "openrouter:microsoft/phi-4-mini-instruct",
+    "name": "Microsoft: Phi 4 Mini Instruct",
+    "provider": "Microsoft",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-17T18:34:09+00:00",
+    "context_length": 128000,
+    "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4...",
+    "url": "https://openrouter.ai/microsoft/phi-4-mini-instruct",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.08,
+      "completion_per_million": 0.35
+    },
+    "first_seen": "2026-05-05T16:37:02.473749+00:00",
+    "source_ids": [
+      "microsoft/phi-4-mini-instruct"
+    ],
+    "family": "Phi 4 Mini"
   },
   {
     "id": "huggingface:aisingapore/Qwen-SEA-LION-v4-32B-IT",

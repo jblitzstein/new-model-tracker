@@ -56487,5 +56487,203 @@
       "farbodtavakkoli/OTel-LLM-270M-IT"
     ],
     "family": "OTel-LLM-270M-IT"
+  },
+  {
+    "id": "openrouter:microsoft/phi-4-mini-instruct",
+    "name": "Microsoft: Phi 4 Mini Instruct",
+    "provider": "Microsoft",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-17T18:34:09+00:00",
+    "context_length": 128000,
+    "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4...",
+    "url": "https://openrouter.ai/microsoft/phi-4-mini-instruct",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.08,
+      "completion_per_million": 0.35
+    },
+    "first_seen": "2026-05-05T16:37:02.473749+00:00",
+    "source_ids": [
+      "microsoft/phi-4-mini-instruct"
+    ],
+    "family": "Phi 4 Mini"
+  },
+  {
+    "id": "huggingface:hypaai/Hypa-Gemma4-E2B-v1",
+    "name": "Hypa-Gemma4-E2B-v1",
+    "provider": "hypaai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T23:30:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hypaai/Hypa-Gemma4-E2B-v1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.608767+00:00",
+    "source_ids": [
+      "hypaai/Hypa-Gemma4-E2B-v1"
+    ],
+    "family": "Hypa-Gemma4-E-v1"
+  },
+  {
+    "id": "huggingface:codingmonster1234/chess-sft-modelv2",
+    "name": "chess-sft-modelv2",
+    "provider": "codingmonster1234",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-05T17:10:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/codingmonster1234/chess-sft-modelv2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.608853+00:00",
+    "source_ids": [
+      "codingmonster1234/chess-sft-modelv2"
+    ],
+    "family": "chess-sft-modelv2"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-diffusion-3.5-medium-amdnpu",
+    "name": "stable-diffusion-3.5-medium-amdnpu",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-01T16:08:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium-amdnpu",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "onnx",
+      "text-to-image",
+      "stable-diffusion",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.683476+00:00",
+    "source_ids": [
+      "stabilityai/stable-diffusion-3.5-medium-amdnpu"
+    ],
+    "family": "stable-diffusion-3.5-medium-amdnpu"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-diffusion-3-medium-amdnpu",
+    "name": "stable-diffusion-3-medium-amdnpu",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-01T16:08:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium-amdnpu",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "onnx",
+      "text-to-image",
+      "stable-diffusion",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:02.683573+00:00",
+    "source_ids": [
+      "stabilityai/stable-diffusion-3-medium-amdnpu"
+    ],
+    "family": "stable-diffusion-3-medium-amdnpu"
+  },
+  {
+    "id": "huggingface:allenai/Molmo2-ER",
+    "name": "Molmo2-ER",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-04T06:08:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Molmo2-ER",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "molmo2",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-05T16:37:03.143582+00:00",
+    "source_ids": [
+      "allenai/Molmo2-ER"
+    ],
+    "family": "Molmo2-ER"
   }
 ]
