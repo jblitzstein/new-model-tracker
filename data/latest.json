@@ -1,5 +1,31 @@
 [
   {
+    "id": "openrouter:baidu/cobuddy:free",
+    "name": "Baidu Qianfan: CoBuddy (free)",
+    "provider": "Baidu",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T02:44:40+00:00",
+    "context_length": 131072,
+    "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows. It features high inference throughput and low end-to-end latency, with native support for tool...",
+    "url": "https://openrouter.ai/baidu/cobuddy:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-05-06T05:09:44.866701+00:00",
+    "source_ids": [
+      "baidu/cobuddy:free"
+    ],
+    "family": "CoBuddy"
+  },
+  {
     "id": "openrouter:openai/gpt-chat-latest",
     "name": "OpenAI: GPT Chat Latest",
     "provider": "OpenAI",
@@ -7512,6 +7538,76 @@
     "family": "Motif-Video"
   },
   {
+    "id": "huggingface:Vishva007/gemma-4-E2B-it-W4A16-AutoRound-GPTQ",
+    "name": "gemma-4-E2B-it-W4A16-AutoRound-GPTQ",
+    "provider": "Vishva007",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T05:26:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vishva007/gemma-4-E2B-it-W4A16-AutoRound-GPTQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-06T05:09:46.031243+00:00",
+    "source_ids": [
+      "Vishva007/gemma-4-E2B-it-W4A16-AutoRound-GPTQ"
+    ],
+    "family": "gemma-4-E-it-W4A16-AutoRound"
+  },
+  {
+    "id": "huggingface:Vishva007/gemma-4-E2B-it-W4A16-AutoRound",
+    "name": "gemma-4-E2B-it-W4A16-AutoRound",
+    "provider": "Vishva007",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T05:25:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vishva007/gemma-4-E2B-it-W4A16-AutoRound",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-06T05:09:46.031104+00:00",
+    "source_ids": [
+      "Vishva007/gemma-4-E2B-it-W4A16-AutoRound"
+    ],
+    "family": "gemma-4-E-it-W4A16-AutoRound"
+  },
+  {
     "id": "huggingface:JANGQ-AI/MiniMax-M2.7-JANGTQ",
     "name": "MiniMax-M2.7-JANGTQ",
     "provider": "JANGQ-AI",
@@ -13469,41 +13565,6 @@
     "family": "gemma-4-E-it-NVFP4"
   },
   {
-    "id": "huggingface:DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF",
-    "name": "gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-04T03:33:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "abliterated",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-06T05:00:12.934252+00:00",
-    "source_ids": [
-      "DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-Instruct-GGUF"
-    ],
-    "family": "gemma-4-it-Mystery-Fine-Tune-HERETIC-UNCENSORED"
-  },
-  {
     "id": "huggingface:dealignai/Gemma-4-31B-JANG_4M-CRACK",
     "name": "Gemma-4-31B-JANG_4M-CRACK",
     "provider": "dealignai",
@@ -13537,39 +13598,6 @@
       "dealignai/Gemma-4-31B-JANG_4M-CRACK"
     ],
     "family": "Gemma-4-JANG_4M-CRACK"
-  },
-  {
-    "id": "huggingface:bg-digitalservices/Gemma-4-E2B-NVFP4A16",
-    "name": "Gemma-4-E2B-NVFP4A16",
-    "provider": "bg-digitalservices",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-04T02:48:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bg-digitalservices/Gemma-4-E2B-NVFP4A16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-06T05:00:12.460276+00:00",
-    "source_ids": [
-      "bg-digitalservices/Gemma-4-E2B-NVFP4A16"
-    ],
-    "family": "Gemma-4-E-NVFP4A16"
   },
   {
     "id": "huggingface:EganAI/gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled",
@@ -16172,39 +16200,6 @@
       "OrdenWills/LFM2.5-350M-home-assistant-sft"
     ],
     "family": "LFM2.5-350M-home-assistant-sft"
-  },
-  {
-    "id": "huggingface:caiovicentino1/Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5",
-    "name": "Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T05:15:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "polarquant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-06T05:00:12.460135+00:00",
-    "source_ids": [
-      "caiovicentino1/Nemotron-Cascade-2-30B-A3B-PolarQuant-Q5"
-    ],
-    "family": "Nemotron-Cascade-2-PolarQuant-Q5"
   },
   {
     "id": "huggingface:caiovicentino1/Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
@@ -19499,76 +19494,6 @@
       "TheCluster/Qwen3.5-9B-Heretic-MLX-mxfp4"
     ],
     "family": "Qwen3.5-Heretic-MLX-mxfp4"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
-    "name": "Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T03:18:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-06T05:00:12.934519+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
-    "name": "Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T03:04:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-06T05:00:12.934438+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled"
-    ],
-    "family": "Qwen3.5-Claude-4.6-Opus-Reasoning-Distilled"
   },
   {
     "id": "huggingface:trohrbaugh/Qwen3.5-9B-heretic-v2",
