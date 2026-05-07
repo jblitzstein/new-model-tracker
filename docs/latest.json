@@ -1,5 +1,42 @@
 [
   {
+    "id": "openrouter:google/gemini-3.1-flash-lite",
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T15:47:08+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-05-07T16:37:59.604062+00:00",
+    "source_ids": [
+      "google/gemini-3.1-flash-lite"
+    ],
+    "family": "Gemini 3.1 Flash Lite"
+  },
+  {
     "id": "huggingface:lemonyins/Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller",
     "name": "Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller",
     "provider": "lemonyins",
@@ -33,6 +70,41 @@
       "lemonyins/Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller"
     ],
     "family": "Qwen3.6-abliterated-i1-IQ4_XS--Smaller"
+  },
+  {
+    "id": "huggingface:havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
+    "name": "Qwen3.6-27B-MTP-UD-GGUF",
+    "provider": "havenoammo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T10:29:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-07T16:38:00.307970+00:00",
+    "source_ids": [
+      "havenoammo/Qwen3.6-27B-MTP-UD-GGUF"
+    ],
+    "family": "Qwen3.6-MTP-UD"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
@@ -3412,6 +3484,35 @@
     "first_seen": "2026-04-23T16:37:29.336213+00:00",
     "source_ids": [
       "inclusionai/ling-2.6-1t:free"
+    ],
+    "family": "Ling-2.6-1T"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-2.6-1t",
+    "name": "inclusionAI: Ling-2.6-1T",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T12:43:58+00:00",
+    "context_length": 262144,
+    "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
+    "url": "https://openrouter.ai/inclusionai/ling-2.6-1t",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-05-07T16:37:59.605956+00:00",
+    "source_ids": [
+      "inclusionai/ling-2.6-1t"
     ],
     "family": "Ling-2.6-1T"
   },
@@ -12776,35 +12877,6 @@
     "family": "HunyuanOCR-i1"
   },
   {
-    "id": "openrouter:z-ai/glm-5.1",
-    "name": "Z.ai: GLM 5.1",
-    "provider": "Zhipu AI",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T16:07:05+00:00",
-    "context_length": 202752,
-    "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
-    "url": "https://openrouter.ai/z-ai/glm-5.1",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.4,
-      "completion_per_million": 4.4
-    },
-    "first_seen": "2026-04-07T16:26:23.747919+00:00",
-    "source_ids": [
-      "z-ai/glm-5.1"
-    ],
-    "family": "GLM 5.1"
-  },
-  {
     "id": "huggingface:mingyi456/Ace-Step1.5-XL-DF11-ComfyUI",
     "name": "Ace-Step1.5-XL-DF11-ComfyUI",
     "provider": "mingyi456",
@@ -14327,41 +14399,6 @@
     "family": "Gemma4--Pure"
   },
   {
-    "id": "huggingface:s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
-    "name": "Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
-    "provider": "s1arsky",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-04T22:09:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "roleplay",
-      "sillytavern",
-      "idol"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.338433+00:00",
-    "source_ids": [
-      "s1arsky/Gemma-4-31B-Cognitive-Unshackled-Q4_KS_GGUF"
-    ],
-    "family": "Gemma-4-Cognitive-Unshackled-Q4_KS"
-  },
-  {
     "id": "huggingface:Ba2han/LFM2.5-1.2B-Turkish_Data_Augment",
     "name": "LFM2.5-1.2B-Turkish_Data_Augment",
     "provider": "Ba2han",
@@ -15152,39 +15189,6 @@
     "family": "CeluneNorm-v1.1"
   },
   {
-    "id": "huggingface:zai-org/GLM-5.1-FP8",
-    "name": "GLM-5.1-FP8",
-    "provider": "zai-org",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T09:29:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zai-org/GLM-5.1-FP8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "glm_moe_dsa",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:23.902148+00:00",
-    "source_ids": [
-      "zai-org/GLM-5.1-FP8"
-    ],
-    "family": "GLM-5.1-FP8"
-  },
-  {
     "id": "huggingface:zai-org/GLM-5.1",
     "name": "GLM-5.1",
     "provider": "zai-org",
@@ -15943,111 +15947,6 @@
       "uzair0/quran-asr"
     ],
     "family": "quran-asr"
-  },
-  {
-    "id": "huggingface:unsloth/gemma-4-31B-it-unsloth-bnb-4bit",
-    "name": "gemma-4-31B-it-unsloth-bnb-4bit",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T19:01:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/gemma-4-31B-it-unsloth-bnb-4bit",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gemma4",
-      "unsloth",
-      "gemma",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.338165+00:00",
-    "source_ids": [
-      "unsloth/gemma-4-31B-it-unsloth-bnb-4bit"
-    ],
-    "family": "gemma-4-it-unsloth-bnb-4bit"
-  },
-  {
-    "id": "huggingface:unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
-    "name": "gemma-4-E4B-it-unsloth-bnb-4bit",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T19:01:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gemma4",
-      "unsloth",
-      "gemma",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.338269+00:00",
-    "source_ids": [
-      "unsloth/gemma-4-E4B-it-unsloth-bnb-4bit"
-    ],
-    "family": "gemma-4-E-it-unsloth-bnb-4bit"
-  },
-  {
-    "id": "huggingface:unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
-    "name": "gemma-4-E2B-it-unsloth-bnb-4bit",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T18:57:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gemma4",
-      "unsloth",
-      "gemma",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.338347+00:00",
-    "source_ids": [
-      "unsloth/gemma-4-E2B-it-unsloth-bnb-4bit"
-    ],
-    "family": "gemma-4-E-it-unsloth-bnb-4bit"
   },
   {
     "id": "huggingface:nightmedia/gemma-4-31B-it-mxfp4-mlx",
@@ -21557,41 +21456,6 @@
     "family": "Qwen1.5_1.8B_SFT_Dolly"
   },
   {
-    "id": "huggingface:lightonai/LightOnOCR-2-1B",
-    "name": "LightOnOCR-2-1B",
-    "provider": "lightonai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-16T16:00:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "mistral3",
-      "text-generation",
-      "ocr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.338643+00:00",
-    "source_ids": [
-      "lightonai/LightOnOCR-2-1B"
-    ],
-    "family": "LightOnOCR-2"
-  },
-  {
     "id": "huggingface:mradermacher/AfriqueGemma-4B-GGUF",
     "name": "AfriqueGemma-4B-GGUF",
     "provider": "mradermacher",
@@ -21761,40 +21625,6 @@
       "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
     ],
     "family": "MiMo-V2-Flash-MLX-6.5bit"
-  },
-  {
-    "id": "huggingface:zai-org/GLM-ASR-Nano-2512",
-    "name": "GLM-ASR-Nano-2512",
-    "provider": "zai-org",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-09T09:07:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zai-org/GLM-ASR-Nano-2512",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "glmasr",
-      "text2text-generation",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.263663+00:00",
-    "source_ids": [
-      "zai-org/GLM-ASR-Nano-2512"
-    ],
-    "family": "GLM-ASR-Nano-2512"
   },
   {
     "id": "huggingface:mobilint/Llama-3.1-8B-Instruct",
@@ -23199,40 +23029,6 @@
     "family": "react-native-executorch-qwen-3"
   },
   {
-    "id": "huggingface:ibm-granite/granite-speech-3.3-2b",
-    "name": "granite-speech-3.3-2b",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-28T15:25:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-speech-3.3-2b",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "granite_speech",
-      "automatic-speech-recognition",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.263533+00:00",
-    "source_ids": [
-      "ibm-granite/granite-speech-3.3-2b"
-    ],
-    "family": "granite-speech-3.3"
-  },
-  {
     "id": "huggingface:software-mansion/react-native-executorch-qwen-2.5",
     "name": "react-native-executorch-qwen-2.5",
     "provider": "software-mansion",
@@ -23702,40 +23498,6 @@
     "family": "Llama-Carvalho-PT-GL"
   },
   {
-    "id": "huggingface:espnet/owsm_ctc_v4_1B",
-    "name": "owsm_ctc_v4_1B",
-    "provider": "espnet",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-01-16T19:34:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/espnet/owsm_ctc_v4_1B",
-    "tags": [
-      "automatic-speech-recognition",
-      "espnet",
-      "audio",
-      "automatic-speech-recognition",
-      "speech-translation",
-      "language-identification"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.263632+00:00",
-    "source_ids": [
-      "espnet/owsm_ctc_v4_1B"
-    ],
-    "family": "owsm_ctc_v4"
-  },
-  {
     "id": "huggingface:llamaindex/vdr-2b-multi-v1",
     "name": "vdr-2b-multi-v1",
     "provider": "llamaindex",
@@ -23936,40 +23698,6 @@
       "mlx-community/whisper-large-v3-turbo"
     ],
     "family": "whisper-large-v3-turbo"
-  },
-  {
-    "id": "huggingface:nyrahealth/CrisperWhisper",
-    "name": "CrisperWhisper",
-    "provider": "nyrahealth",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-08-29T15:53:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nyrahealth/CrisperWhisper",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "de"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T16:26:24.263598+00:00",
-    "source_ids": [
-      "nyrahealth/CrisperWhisper"
-    ],
-    "family": "CrisperWhisper"
   },
   {
     "id": "huggingface:DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",

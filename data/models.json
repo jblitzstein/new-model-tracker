@@ -58023,5 +58023,106 @@
       "lemonyins/Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller"
     ],
     "family": "Qwen3.6-abliterated-i1-IQ4_XS--Smaller"
+  },
+  {
+    "id": "openrouter:google/gemini-3.1-flash-lite",
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T15:47:08+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-05-07T16:37:59.604062+00:00",
+    "source_ids": [
+      "google/gemini-3.1-flash-lite"
+    ],
+    "family": "Gemini 3.1 Flash Lite"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-2.6-1t",
+    "name": "inclusionAI: Ling-2.6-1T",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T12:43:58+00:00",
+    "context_length": 262144,
+    "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
+    "url": "https://openrouter.ai/inclusionai/ling-2.6-1t",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-05-07T16:37:59.605956+00:00",
+    "source_ids": [
+      "inclusionai/ling-2.6-1t"
+    ],
+    "family": "Ling-2.6-1T"
+  },
+  {
+    "id": "huggingface:havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
+    "name": "Qwen3.6-27B-MTP-UD-GGUF",
+    "provider": "havenoammo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T10:29:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-07T16:38:00.307970+00:00",
+    "source_ids": [
+      "havenoammo/Qwen3.6-27B-MTP-UD-GGUF"
+    ],
+    "family": "Qwen3.6-MTP-UD"
   }
 ]
