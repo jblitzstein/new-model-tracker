@@ -12745,37 +12745,6 @@
     "family": "lemma"
   },
   {
-    "id": "openrouter:anthropic/claude-opus-4.6-fast",
-    "name": "Anthropic: Claude Opus 4.6 (Fast)",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T20:07:52+00:00",
-    "context_length": 1000000,
-    "description": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-    "url": "https://openrouter.ai/anthropic/claude-opus-4.6-fast",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 30.0,
-      "completion_per_million": 150.0
-    },
-    "first_seen": "2026-04-07T20:15:31.081081+00:00",
-    "source_ids": [
-      "anthropic/claude-opus-4.6-fast"
-    ],
-    "family": "Claude Opus 4.6 (Fast)"
-  },
-  {
     "id": "huggingface:cstr/parakeet-tdt-0.6b-v3-GGUF",
     "name": "parakeet-tdt-0.6b-v3-GGUF",
     "provider": "cstr",
@@ -14399,39 +14368,6 @@
     "family": "Gemma4--Pure"
   },
   {
-    "id": "huggingface:Ba2han/LFM2.5-1.2B-Turkish_Data_Augment",
-    "name": "LFM2.5-1.2B-Turkish_Data_Augment",
-    "provider": "Ba2han",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-04T12:53:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Ba2han/LFM2.5-1.2B-Turkish_Data_Augment",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.197580+00:00",
-    "source_ids": [
-      "Ba2han/LFM2.5-1.2B-Turkish_Data_Augment"
-    ],
-    "family": "LFM2.5-Turkish_Data_Augment"
-  },
-  {
     "id": "huggingface:SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF",
     "name": "gemma-4-26B-A4B-it-heretic-ara-GGUF",
     "provider": "SassyDiffusion",
@@ -15091,36 +15027,6 @@
     "family": "gemma-4-it-FP8-block"
   },
   {
-    "id": "openrouter:google/gemma-4-26b-a4b-it:free",
-    "name": "Google: Gemma 4 26B A4B  (free)",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "image",
-      "text",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T14:53:09+00:00",
-    "context_length": 262144,
-    "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
-    "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.082483+00:00",
-    "source_ids": [
-      "google/gemma-4-26b-a4b-it:free"
-    ],
-    "family": "Gemma 4"
-  },
-  {
     "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit",
     "name": "gemma-4-26B-A4B-it-AWQ-8bit",
     "provider": "cyankiwi",
@@ -15358,41 +15264,6 @@
       "tiny-random/gemma-4-dense"
     ],
     "family": "gemma-4-dense"
-  },
-  {
-    "id": "huggingface:TeichAI/gemma-4-31B-it-Claude-Opus-Distill",
-    "name": "gemma-4-31B-it-Claude-Opus-Distill",
-    "provider": "TeichAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T07:51:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.670010+00:00",
-    "source_ids": [
-      "TeichAI/gemma-4-31B-it-Claude-Opus-Distill"
-    ],
-    "family": "gemma-4-it-Claude-Opus-Distill"
   },
   {
     "id": "huggingface:nicklas373/Qwen3.5-9B-AWQ",
@@ -16159,36 +16030,6 @@
     "family": "gemma-4-E-it-UD-MLX-4bit"
   },
   {
-    "id": "openrouter:google/gemma-4-31b-it:free",
-    "name": "Google: Gemma 4 31B (free)",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "image",
-      "text",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T16:48:06+00:00",
-    "context_length": 262144,
-    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
-    "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.082541+00:00",
-    "source_ids": [
-      "google/gemma-4-31b-it:free"
-    ],
-    "family": "Gemma 4"
-  },
-  {
     "id": "huggingface:YTan2000/Qwopus3.5-27B-v3-TQ3_4S",
     "name": "Qwopus3.5-27B-v3-TQ3_4S",
     "provider": "YTan2000",
@@ -16700,39 +16541,6 @@
       "ACE-Step/acestep-v15-xl-base"
     ],
     "family": "acestep-v15-xl"
-  },
-  {
-    "id": "huggingface:DarksitoBest/minigpt-casual-es",
-    "name": "minigpt-casual-es",
-    "provider": "DarksitoBest",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T03:40:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DarksitoBest/minigpt-casual-es",
-    "tags": [
-      "text-generation",
-      "minigpt",
-      "text-generation",
-      "causal-lm",
-      "pytorch",
-      "gpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.197724+00:00",
-    "source_ids": [
-      "DarksitoBest/minigpt-casual-es"
-    ],
-    "family": "minigpt-casual-es"
   },
   {
     "id": "huggingface:bairongz/QianfanOCR",
@@ -18909,105 +18717,6 @@
       "bluryar/VoxCPM-GGUF"
     ],
     "family": "VoxCPM"
-  },
-  {
-    "id": "huggingface:apple/SimpleSD-30B-instruct",
-    "name": "SimpleSD-30B-instruct",
-    "provider": "Apple",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-17T17:23:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/apple/SimpleSD-30B-instruct",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "self-distillation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.197885+00:00",
-    "source_ids": [
-      "apple/SimpleSD-30B-instruct"
-    ],
-    "family": "SimpleSD"
-  },
-  {
-    "id": "huggingface:apple/SimpleSD-4B-thinking",
-    "name": "SimpleSD-4B-thinking",
-    "provider": "Apple",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-17T17:05:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/apple/SimpleSD-4B-thinking",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "self-distillation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.197934+00:00",
-    "source_ids": [
-      "apple/SimpleSD-4B-thinking"
-    ],
-    "family": "SimpleSD"
-  },
-  {
-    "id": "huggingface:apple/SimpleSD-4B-instruct",
-    "name": "SimpleSD-4B-instruct",
-    "provider": "Apple",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-17T17:03:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/apple/SimpleSD-4B-instruct",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "self-distillation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T20:15:31.197805+00:00",
-    "source_ids": [
-      "apple/SimpleSD-4B-instruct"
-    ],
-    "family": "SimpleSD"
   },
   {
     "id": "huggingface:nthngdy/matryoshka-3B",
