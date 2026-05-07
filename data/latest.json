@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:lemonyins/Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller",
+    "name": "Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller",
+    "provider": "lemonyins",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T01:56:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lemonyins/Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5",
+      "Qwen3.6-27B",
+      "abliterated",
+      "Uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-07T12:44:07.980395+00:00",
+    "source_ids": [
+      "lemonyins/Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller"
+    ],
+    "family": "Qwen3.6-abliterated-i1-IQ4_XS--Smaller"
+  },
+  {
     "id": "huggingface:Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
     "name": "Qwopus3.6-35B-A3B-v1-GGUF",
     "provider": "Jackrong",
@@ -11996,6 +12031,40 @@
     "family": "GLM-5.1-Alis-MLX-Dynamic-2.7bpw"
   },
   {
+    "id": "huggingface:Heouzen/LoKR_rikel_woman_v2_wan22_T2V_A14B_LOW_HIGH",
+    "name": "LoKR_rikel_woman_v2_wan22_T2V_A14B_LOW_HIGH",
+    "provider": "Heouzen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-04-08T14:25:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Heouzen/LoKR_rikel_woman_v2_wan22_T2V_A14B_LOW_HIGH",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:sd-lora",
+      "ai-toolkit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-07T12:44:07.557308+00:00",
+    "source_ids": [
+      "Heouzen/LoKR_rikel_woman_v2_wan22_T2V_A14B_LOW_HIGH"
+    ],
+    "family": "LoKR_rikel_woman_v2_wan22_T2V_A14B_LOW_HIGH"
+  },
+  {
     "id": "huggingface:DuoNeural/Gemma-4-E4B-Frontend-GGUF",
     "name": "Gemma-4-E4B-Frontend-GGUF",
     "provider": "DuoNeural",
@@ -12296,6 +12365,39 @@
       "Jackrong/Gemopus-4-E4B-it-GGUF"
     ],
     "family": "Gemopus-4-E-it"
+  },
+  {
+    "id": "huggingface:Neural-ICE/Gemma-4-26B-A4B-it-NVFP4",
+    "name": "Gemma-4-26B-A4B-it-NVFP4",
+    "provider": "Neural-ICE",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T01:32:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Neural-ICE/Gemma-4-26B-A4B-it-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "gemma-4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-07T12:44:07.486759+00:00",
+    "source_ids": [
+      "Neural-ICE/Gemma-4-26B-A4B-it-NVFP4"
+    ],
+    "family": "Gemma-4-it-NVFP4"
   },
   {
     "id": "huggingface:DJLougen/Ornstein-27B-GGUF",
@@ -16566,39 +16668,6 @@
     "family": "ERNIE-Image-Turbo"
   },
   {
-    "id": "huggingface:jhy01/gptoss-120b-aimo3-merged",
-    "name": "gptoss-120b-aimo3-merged",
-    "provider": "jhy01",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T06:56:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jhy01/gptoss-120b-aimo3-merged",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "vllm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T12:24:47.567651+00:00",
-    "source_ids": [
-      "jhy01/gptoss-120b-aimo3-merged"
-    ],
-    "family": "gptoss-aimo3-merged"
-  },
-  {
     "id": "huggingface:FINAL-Bench/Darwin-35B-A3B-Opus-Q8-GGUF",
     "name": "Darwin-35B-A3B-Opus-Q8-GGUF",
     "provider": "FINAL-Bench",
@@ -17267,39 +17336,6 @@
       "cstr/cohere-transcribe-03-2026-GGUF"
     ],
     "family": "cohere-transcribe-03-2026"
-  },
-  {
-    "id": "huggingface:cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-    "name": "GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-    "provider": "cloudyu",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T02:47:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "gpt_oss",
-      "lora",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T12:24:47.567563+00:00",
-    "source_ids": [
-      "cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
-    ],
-    "family": "GPT-OSS-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
   },
   {
     "id": "huggingface:FINAL-Bench/Darwin-35B-A3B-Opus",
@@ -19207,41 +19243,6 @@
       "llm-jp/llm-jp-4-8b-thinking"
     ],
     "family": "llm-jp-4"
-  },
-  {
-    "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/Miss_MARTHA-9B-Qwen3.5-Omni",
-    "name": "Miss_MARTHA-9B-Qwen3.5-Omni",
-    "provider": "ZERO-POINT-INTELLIGENCE-LTD",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-13T00:31:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ZERO-POINT-INTELLIGENCE-LTD/Miss_MARTHA-9B-Qwen3.5-Omni",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gguf",
-      "qwen3_5",
-      "Z.P.I",
-      "ghost pass"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-07T12:24:48.049909+00:00",
-    "source_ids": [
-      "ZERO-POINT-INTELLIGENCE-LTD/Miss_MARTHA-9B-Qwen3.5-Omni"
-    ],
-    "family": "Miss_MARTHA-Qwen3.5-Omni"
   },
   {
     "id": "huggingface:argmaxinc/speakerkit-coreml",
