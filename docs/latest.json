@@ -8271,6 +8271,39 @@
     "family": "Qwen3.5-REAP-W4A16"
   },
   {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-NVFP4",
+    "name": "NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T16:04:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T05:04:38.720221+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-NVFP4"
+    ],
+    "family": "NVIDIA-Nemotron-Labs-3-Elastic-NVFP4"
+  },
+  {
     "id": "huggingface:selimaktas/MiniMax-M2.75-460B-A20B",
     "name": "MiniMax-M2.75-460B-A20B",
     "provider": "selimaktas",
@@ -13047,40 +13080,6 @@
     "family": "Qwen3.5-Uncensored-RYS-Reasoner"
   },
   {
-    "id": "huggingface:nvidia/parakeet-unified-en-0.6b",
-    "name": "parakeet-unified-en-0.6b",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T03:32:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/parakeet-unified-en-0.6b",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "speech-recognition",
-      "unified-asr",
-      "offline-asr",
-      "streaming-asr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T04:53:14.790839+00:00",
-    "source_ids": [
-      "nvidia/parakeet-unified-en-0.6b"
-    ],
-    "family": "parakeet-unified-en"
-  },
-  {
     "id": "huggingface:batiai/Gemma-4-26B-A4B-it-GGUF",
     "name": "Gemma-4-26B-A4B-it-GGUF",
     "provider": "batiai",
@@ -16201,39 +16200,6 @@
     "family": "HY-Embodied-0.5"
   },
   {
-    "id": "openrouter:qwen/qwen3.6-plus",
-    "name": "Qwen: Qwen3.6 Plus",
-    "provider": "Qwen",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T12:39:17+00:00",
-    "context_length": 1000000,
-    "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers...",
-    "url": "https://openrouter.ai/qwen/qwen3.6-plus",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.325,
-      "completion_per_million": 1.95
-    },
-    "first_seen": "2026-04-08T04:53:14.307330+00:00",
-    "source_ids": [
-      "qwen/qwen3.6-plus"
-    ],
-    "family": "Qwen3.6 Plus"
-  },
-  {
     "id": "huggingface:nvidia/EGM-4B-SFT",
     "name": "EGM-4B-SFT",
     "provider": "NVIDIA",
@@ -16541,6 +16507,72 @@
       "bairongz/QianfanOCR"
     ],
     "family": "QianfanOCR"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-FP8",
+    "name": "NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-FP8",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T21:44:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T05:04:38.720259+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-FP8"
+    ],
+    "family": "NVIDIA-Nemotron-Labs-3-Elastic-FP8"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16",
+    "name": "NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T21:44:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T05:04:38.720294+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16"
+    ],
+    "family": "NVIDIA-Nemotron-Labs-3-Elastic-BF16"
   },
   {
     "id": "huggingface:small-models-for-glam/Qwen3.5-0.8B-SFT-name-parser-yaml",
@@ -18610,7 +18642,8 @@
     "pricing": null,
     "first_seen": "2026-04-17T05:03:29.804643+00:00",
     "source_ids": [
-      "veriloop-lab/veriLoop-coder-e1"
+      "veriloop-lab/veriLoop-coder-e1",
+      "veriloop-lab/veriloop-coder-e1"
     ],
     "family": "veriLoop-coder-e1"
   },
@@ -18748,39 +18781,6 @@
       "KRLabsOrg/squeez-2b"
     ],
     "family": "squeez"
-  },
-  {
-    "id": "huggingface:llm-jp/llm-jp-4-8b-thinking",
-    "name": "llm-jp-4-8b-thinking",
-    "provider": "llm-jp",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T00:08:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llm-jp/llm-jp-4-8b-thinking",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T04:53:14.418401+00:00",
-    "source_ids": [
-      "llm-jp/llm-jp-4-8b-thinking"
-    ],
-    "family": "llm-jp-4"
   },
   {
     "id": "huggingface:argmaxinc/speakerkit-coreml",
@@ -20797,39 +20797,6 @@
     "family": "Gemma-SEA-LION-v4-VL"
   },
   {
-    "id": "huggingface:kgrabko/JiRackTernary_70b",
-    "name": "JiRackTernary_70b",
-    "provider": "kgrabko",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-02T04:53:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kgrabko/JiRackTernary_70b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "jirack_ternary",
-      "ternary",
-      "bitnet",
-      "1.58bit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T04:53:14.418300+00:00",
-    "source_ids": [
-      "kgrabko/JiRackTernary_70b"
-    ],
-    "family": "JiRackTernary"
-  },
-  {
     "id": "huggingface:jeremyhola/LORAs",
     "name": "LORAs",
     "provider": "jeremyhola",
@@ -21863,39 +21830,6 @@
       "Cseti/VibeVoice_7B_hun_v2"
     ],
     "family": "VibeVoice_7B_hun_v2"
-  },
-  {
-    "id": "huggingface:quwsarohi/NanoAgent-135M",
-    "name": "NanoAgent-135M",
-    "provider": "quwsarohi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-09T18:38:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/quwsarohi/NanoAgent-135M",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "llama",
-      "llm",
-      "tool-calling"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T04:53:14.418476+00:00",
-    "source_ids": [
-      "quwsarohi/NanoAgent-135M"
-    ],
-    "family": "NanoAgent-135M"
   },
   {
     "id": "huggingface:pruna-test/test-save-tiny-random-llama4-smashed",
@@ -23639,40 +23573,6 @@
       "argmaxinc/whisperkit-coreml"
     ],
     "family": "whisperkit-coreml"
-  },
-  {
-    "id": "huggingface:qualcomm/TrOCR",
-    "name": "TrOCR",
-    "provider": "qualcomm",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-02-25T22:49:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/qualcomm/TrOCR",
-    "tags": [
-      "image-to-text",
-      "pytorch",
-      "android",
-      "image-to-text",
-      "arxiv:2109.10282",
-      "license:other"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T04:53:14.540213+00:00",
-    "source_ids": [
-      "qualcomm/TrOCR"
-    ],
-    "family": "TrOCR"
   },
   {
     "id": "huggingface:cyberdelia/CyberRealisticXL",
