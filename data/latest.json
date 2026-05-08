@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:mradermacher/CoE-SlideVQA-8B-i1-GGUF",
+    "name": "CoE-SlideVQA-8B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T15:48:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/CoE-SlideVQA-8B-i1-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "gguf",
+      "multimodal",
+      "visual-question-answering",
+      "chain-of-evidence"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.769034+00:00",
+    "source_ids": [
+      "mradermacher/CoE-SlideVQA-8B-i1-GGUF"
+    ],
+    "family": "CoE-SlideVQA-i1"
+  },
+  {
     "id": "openrouter:google/gemini-3.1-flash-lite",
     "name": "Google: Gemini 3.1 Flash Lite",
     "provider": "Google",
@@ -35,6 +70,41 @@
       "google/gemini-3.1-flash-lite"
     ],
     "family": "Gemini 3.1 Flash Lite"
+  },
+  {
+    "id": "huggingface:mradermacher/CoE-Wiki-CoE-8B-i1-GGUF",
+    "name": "CoE-Wiki-CoE-8B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T14:25:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/CoE-Wiki-CoE-8B-i1-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "gguf",
+      "multimodal",
+      "visual-question-answering",
+      "chain-of-evidence"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.769103+00:00",
+    "source_ids": [
+      "mradermacher/CoE-Wiki-CoE-8B-i1-GGUF"
+    ],
+    "family": "CoE-Wiki-CoE-i1"
   },
   {
     "id": "huggingface:lemonyins/Qwen3.6-27B-abliterated-i1-IQ4_XS-GGUF-Smaller",
@@ -166,6 +236,40 @@
       "baidu/cobuddy:free"
     ],
     "family": "CoBuddy"
+  },
+  {
+    "id": "huggingface:pnnbao-ump/VieNeu-TTS-v2",
+    "name": "VieNeu-TTS-v2",
+    "provider": "pnnbao-ump",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-06T01:54:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "gguf",
+      "qwen3",
+      "podcast",
+      "code-switching"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.572329+00:00",
+    "source_ids": [
+      "pnnbao-ump/VieNeu-TTS-v2"
+    ],
+    "family": "VieNeu-TTS-v2"
   },
   {
     "id": "huggingface:froggeric/Qwen3.6-27B-MTP-GGUF",
@@ -304,6 +408,41 @@
       "allenai/Molmo2-ER"
     ],
     "family": "Molmo2-ER"
+  },
+  {
+    "id": "huggingface:z-lab/Qwen3.6-27B-PARO",
+    "name": "Qwen3.6-27B-PARO",
+    "provider": "z-lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-04T04:56:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/z-lab/Qwen3.6-27B-PARO",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "mlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.722046+00:00",
+    "source_ids": [
+      "z-lab/Qwen3.6-27B-PARO"
+    ],
+    "family": "Qwen3.6-PARO"
   },
   {
     "id": "huggingface:storagejuju/glm-5.1-mxfp4-moe-juju",
@@ -472,6 +611,39 @@
       "SulphurAI/Sulphur-2-base"
     ],
     "family": "Sulphur-2"
+  },
+  {
+    "id": "huggingface:SKIS-AI-Research/ODIN-C1",
+    "name": "ODIN-C1",
+    "provider": "SKIS-AI-Research",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-02T14:05:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SKIS-AI-Research/ODIN-C1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.258129+00:00",
+    "source_ids": [
+      "SKIS-AI-Research/ODIN-C1"
+    ],
+    "family": "ODIN-C1"
   },
   {
     "id": "huggingface:inferencerlabs/Ling-2.6-MLX-3.6bit-INF",
@@ -2025,6 +2197,39 @@
     "family": "DeepSeek-V4-Pro-MLX-2.8bit-EXP"
   },
   {
+    "id": "huggingface:XiaomiMiMo/MiMo-V2.5-Pro",
+    "name": "MiMo-V2.5-Pro",
+    "provider": "XiaomiMiMo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T12:52:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mimo_v2",
+      "text-generation",
+      "agent",
+      "long-context"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.258042+00:00",
+    "source_ids": [
+      "XiaomiMiMo/MiMo-V2.5-Pro"
+    ],
+    "family": "MiMo-V2.5-Pro"
+  },
+  {
     "id": "huggingface:VladShash/deepseek-math-7B-lean-prover-grpo-olmo-weighed",
     "name": "deepseek-math-7B-lean-prover-grpo-olmo-weighed",
     "provider": "VladShash",
@@ -2196,6 +2401,39 @@
       "froggeric/Qwen3.6-27B-Uncensored-Heretic-v2-MLX-8bit"
     ],
     "family": "Qwen3.6-Uncensored-Heretic-v2-MLX-8bit"
+  },
+  {
+    "id": "huggingface:XiaomiMiMo/MiMo-V2.5-Pro-Base",
+    "name": "MiMo-V2.5-Pro-Base",
+    "provider": "XiaomiMiMo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T11:32:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-Base",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mimo_v2",
+      "text-generation",
+      "agent",
+      "long-context"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.258011+00:00",
+    "source_ids": [
+      "XiaomiMiMo/MiMo-V2.5-Pro-Base"
+    ],
+    "family": "MiMo-V2.5-Pro"
   },
   {
     "id": "huggingface:List-cloud/List-3.0-Ultra-Coder-Brain",
@@ -5383,6 +5621,41 @@
       "Cheesybeam32/blue-lora"
     ],
     "family": "blue-lora"
+  },
+  {
+    "id": "huggingface:zecanard/gemma-4-31b-it-uncensored-heretic-ara-MLX-2bit-mixed_2_6",
+    "name": "gemma-4-31b-it-uncensored-heretic-ara-MLX-2bit-mixed_2_6",
+    "provider": "zecanard",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-19T07:41:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zecanard/gemma-4-31b-it-uncensored-heretic-ara-MLX-2bit-mixed_2_6",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "2-bit",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.721922+00:00",
+    "source_ids": [
+      "zecanard/gemma-4-31b-it-uncensored-heretic-ara-MLX-2bit-mixed_2_6"
+    ],
+    "family": "gemma-4-it-uncensored-heretic-ara-MLX-2bit-mixed_2_6"
   },
   {
     "id": "huggingface:genevera/Qwen3.6-35B-A3B-Abliterated-Heretic-AWQ-4bit",
@@ -9674,6 +9947,39 @@
     "family": "GLM-5.1-MLX-4.8bit-INF"
   },
   {
+    "id": "huggingface:zhangsq-nju/Qwen3-0.6B-EdgeRazor-GGUF",
+    "name": "Qwen3-0.6B-EdgeRazor-GGUF",
+    "provider": "zhangsq-nju",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T05:13:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zhangsq-nju/Qwen3-0.6B-EdgeRazor-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3",
+      "edgerazor",
+      "quantization",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.257931+00:00",
+    "source_ids": [
+      "zhangsq-nju/Qwen3-0.6B-EdgeRazor-GGUF"
+    ],
+    "family": "Qwen3-EdgeRazor"
+  },
+  {
     "id": "openrouter:openrouter/elephant-alpha",
     "name": "Elephant",
     "provider": "openrouter",
@@ -12845,40 +13151,6 @@
     "family": "GLM-5.1"
   },
   {
-    "id": "huggingface:mradermacher/HunyuanOCR-i1-GGUF",
-    "name": "HunyuanOCR-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T17:14:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/HunyuanOCR-i1-GGUF",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "gguf",
-      "ocr",
-      "hunyuan",
-      "vision-language"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T08:30:11.829267+00:00",
-    "source_ids": [
-      "mradermacher/HunyuanOCR-i1-GGUF"
-    ],
-    "family": "HunyuanOCR-i1"
-  },
-  {
     "id": "huggingface:mingyi456/Ace-Step1.5-XL-DF11-ComfyUI",
     "name": "Ace-Step1.5-XL-DF11-ComfyUI",
     "provider": "mingyi456",
@@ -13045,39 +13317,6 @@
       "baidu/ERNIE-Image"
     ],
     "family": "ERNIE-Image"
-  },
-  {
-    "id": "huggingface:jackasda211233/Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
-    "name": "Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
-    "provider": "jackasda211233",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T04:53:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jackasda211233/Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3_5",
-      "qwen3.5",
-      "uncensored",
-      "RYS"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T08:30:11.702625+00:00",
-    "source_ids": [
-      "jackasda211233/Qwen3.5-27B-Uncensored-RYS-Reasoner-GGUF"
-    ],
-    "family": "Qwen3.5-Uncensored-RYS-Reasoner"
   },
   {
     "id": "huggingface:batiai/Gemma-4-26B-A4B-it-GGUF",
@@ -13386,41 +13625,6 @@
       "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF"
     ],
     "family": "Qwen3-Qwen3.6-plus-Reasoning-Distilled"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF",
-    "name": "Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T18:15:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.5",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T08:30:12.177117+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-GGUF"
-    ],
-    "family": "Qwen3.5-Uncensored-FernflowerAI"
   },
   {
     "id": "huggingface:khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled",
@@ -14027,41 +14231,6 @@
       "ZERO-POINT-AI/Miss-MARTHA-hot-POCKET-edition-2B-OMNI"
     ],
     "family": "Miss-MARTHA-hot-POCKET-edition-OMNI"
-  },
-  {
-    "id": "huggingface:DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking",
-    "name": "gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T00:38:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gemma4",
-      "heretic",
-      "abliterated",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T08:30:12.177361+00:00",
-    "source_ids": [
-      "DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking"
-    ],
-    "family": "gemma-4-it-The-DECKARD-HERETIC-UNCENSORED"
   },
   {
     "id": "huggingface:alonsoko/gemma-4-31b-it-abliterated-heretic-ara-AWQ",
@@ -15295,41 +15464,6 @@
       "openbmb/VoxCPM2"
     ],
     "family": "VoxCPM2"
-  },
-  {
-    "id": "huggingface:DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking",
-    "name": "gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T03:33:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T08:30:12.177524+00:00",
-    "source_ids": [
-      "DavidAU/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking"
-    ],
-    "family": "gemma-4-it-Mystery-Fine-Tune-HERETIC-UNCENSORED"
   },
   {
     "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit",
@@ -17006,40 +17140,6 @@
       "VladShash/olmo-3-7b-lean-prover-dpo"
     ],
     "family": "olmo-3-lean-prover-dpo"
-  },
-  {
-    "id": "huggingface:cstr/cohere-transcribe-03-2026-GGUF",
-    "name": "cohere-transcribe-03-2026-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T08:22:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/cohere-transcribe-03-2026-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "transcription",
-      "conformer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-08T08:30:12.103035+00:00",
-    "source_ids": [
-      "cstr/cohere-transcribe-03-2026-GGUF"
-    ],
-    "family": "cohere-transcribe-03-2026"
   },
   {
     "id": "huggingface:caiovicentino1/Qwen3.5-27B-HLWQ-Q5",
@@ -22936,6 +23036,40 @@
       "software-mansion/react-native-executorch-whisper-tiny"
     ],
     "family": "react-native-executorch-whisper-tiny"
+  },
+  {
+    "id": "huggingface:DataoceanAI/dolphin-base",
+    "name": "dolphin-base",
+    "provider": "DataoceanAI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-19T09:57:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DataoceanAI/dolphin-base",
+    "tags": [
+      "automatic-speech-recognition",
+      "automatic-speech-recognition",
+      "multilingual",
+      "arxiv:2503.20212",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T08:36:57.653937+00:00",
+    "source_ids": [
+      "DataoceanAI/dolphin-base"
+    ],
+    "family": "dolphin"
   },
   {
     "id": "huggingface:DavidAU/Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF",
