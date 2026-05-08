@@ -58939,5 +58939,98 @@
       "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-8bit-int8-affine"
     ],
     "family": "gemma-4-it-uncensored-abliterix-MLX-8bit-int8-affine"
+  },
+  {
+    "id": "openrouter:inclusionai/ring-2.6-1t:free",
+    "name": "inclusionAI: Ring-2.6-1T (free)",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T13:37:20+00:00",
+    "context_length": 262144,
+    "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
+    "url": "https://openrouter.ai/inclusionai/ring-2.6-1t:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-05-08T16:34:57.296223+00:00",
+    "source_ids": [
+      "inclusionai/ring-2.6-1t:free"
+    ],
+    "family": "Ring-2.6-1T"
+  },
+  {
+    "id": "huggingface:bezzam/Qwen3-ASR-1.7B",
+    "name": "Qwen3-ASR-1.7B",
+    "provider": "bezzam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-04T18:08:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bezzam/Qwen3-ASR-1.7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_asr",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T16:34:57.487231+00:00",
+    "source_ids": [
+      "bezzam/Qwen3-ASR-1.7B"
+    ],
+    "family": "Qwen3-ASR"
+  },
+  {
+    "id": "huggingface:RunDiffusion/Juggernaut-XL-v9",
+    "name": "Juggernaut-XL-v9",
+    "provider": "RunDiffusion",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-02-18T21:05:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "stable-diffusion",
+      "stable-diffusion-xl",
+      "sdxl",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-08T16:34:57.632084+00:00",
+    "source_ids": [
+      "RunDiffusion/Juggernaut-XL-v9"
+    ],
+    "family": "Juggernaut-XL-v9"
   }
 ]
