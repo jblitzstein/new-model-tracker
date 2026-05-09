@@ -537,6 +537,41 @@
     "family": "kimi-k2.6-ud-q8-k-xl-juju"
   },
   {
+    "id": "huggingface:llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-NVFP4-Experts-Only-GGUF",
+    "name": "Qwen3.6-35B-A3B-uncensored-heretic-NVFP4-Experts-Only-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-03T22:06:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-NVFP4-Experts-Only-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5_moe",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-09T00:47:02.287646+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-NVFP4-Experts-Only-GGUF"
+    ],
+    "family": "Qwen3.6-uncensored-heretic-NVFP4-Experts-Only"
+  },
+  {
     "id": "huggingface:fuhaddesmond/illuma",
     "name": "illuma",
     "provider": "fuhaddesmond",
@@ -3062,6 +3097,41 @@
     "family": "qwen3-dw-lr-dpo"
   },
   {
+    "id": "huggingface:Laborator/microlens-gemma4-e2b",
+    "name": "microlens-gemma4-e2b",
+    "provider": "Laborator",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T19:44:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Laborator/microlens-gemma4-e2b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gemma",
+      "gemma-4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-09T00:47:02.287538+00:00",
+    "source_ids": [
+      "Laborator/microlens-gemma4-e2b"
+    ],
+    "family": "microlens-gemma4-e"
+  },
+  {
     "id": "openrouter:openai/gpt-5.5-pro",
     "name": "OpenAI: GPT-5.5 Pro",
     "provider": "OpenAI",
@@ -4488,6 +4558,35 @@
     "first_seen": "2026-04-23T08:41:01.923592+00:00",
     "source_ids": [
       "tencent/hy3-preview:free"
+    ],
+    "family": "Hy3"
+  },
+  {
+    "id": "openrouter:tencent/hy3-preview",
+    "name": "Tencent: Hy3 preview",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T17:15:50+00:00",
+    "context_length": 262144,
+    "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
+    "url": "https://openrouter.ai/tencent/hy3-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.066,
+      "completion_per_million": 0.26
+    },
+    "first_seen": "2026-05-09T00:47:01.242410+00:00",
+    "source_ids": [
+      "tencent/hy3-preview"
     ],
     "family": "Hy3"
   },
@@ -21625,72 +21724,6 @@
       "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
     ],
     "family": "MiMo-V2-Flash-MLX-6.5bit"
-  },
-  {
-    "id": "huggingface:mobilint/Llama-3.1-8B-Instruct",
-    "name": "Llama-3.1-8B-Instruct",
-    "provider": "mobilint",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-09T06:42:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mobilint/Llama-3.1-8B-Instruct",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "mobilint-llama",
-      "mobilint",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-09T00:31:12.744886+00:00",
-    "source_ids": [
-      "mobilint/Llama-3.1-8B-Instruct"
-    ],
-    "family": "Llama-3.1"
-  },
-  {
-    "id": "huggingface:mobilint/EXAONE-Deep-7.8B",
-    "name": "EXAONE-Deep-7.8B",
-    "provider": "mobilint",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-09T06:33:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mobilint/EXAONE-Deep-7.8B",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "mobilint-exaone",
-      "mobilint",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-09T00:31:12.744951+00:00",
-    "source_ids": [
-      "mobilint/EXAONE-Deep-7.8B"
-    ],
-    "family": "EXAONE-Deep"
   },
   {
     "id": "huggingface:dllm-hub/Qwen3-0.6B-diffusion-bd3lm-v0.1",
