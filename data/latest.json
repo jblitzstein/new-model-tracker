@@ -8806,6 +8806,41 @@
     "family": "MOSS-TTS-Nano-100M"
   },
   {
+    "id": "huggingface:mradermacher/CARDS-Qwen3.5-27B-GGUF",
+    "name": "CARDS-Qwen3.5-27B-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T15:16:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/CARDS-Qwen3.5-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "climate",
+      "climate-change",
+      "climate-discourse"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T00:49:52.581285+00:00",
+    "source_ids": [
+      "mradermacher/CARDS-Qwen3.5-27B-GGUF"
+    ],
+    "family": "CARDS-Qwen3.5"
+  },
+  {
     "id": "huggingface:VladShash/mistral-7B-v0.3-lean-prover-dpo-olmo",
     "name": "mistral-7B-v0.3-lean-prover-dpo-olmo",
     "provider": "VladShash",
@@ -11452,6 +11487,39 @@
     "family": "rl_nmt_2026_04_11_13_31"
   },
   {
+    "id": "huggingface:mlx-community/gemma-4-e2b-it-OptiQ-4bit",
+    "name": "gemma-4-e2b-it-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-11T12:36:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-e2b-it-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T00:49:52.153530+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-e2b-it-OptiQ-4bit"
+    ],
+    "family": "gemma-4-e-it-OptiQ-4bit"
+  },
+  {
     "id": "huggingface:baa-ai/Gemma-4-31B-it-RAM-31GB-MLX",
     "name": "Gemma-4-31B-it-RAM-31GB-MLX",
     "provider": "baa-ai",
@@ -11751,6 +11819,39 @@
       "heyalexchoi/qwen3-1.7b-math-grpo"
     ],
     "family": "qwen3-math-grpo"
+  },
+  {
+    "id": "huggingface:FINAL-Bench/Darwin-4B-Genesis",
+    "name": "Darwin-4B-Genesis",
+    "provider": "FINAL-Bench",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T23:03:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FINAL-Bench/Darwin-4B-Genesis",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gemma4",
+      "merge",
+      "evolutionary-merge",
+      "darwin"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T00:49:52.153734+00:00",
+    "source_ids": [
+      "FINAL-Bench/Darwin-4B-Genesis"
+    ],
+    "family": "Darwin-Genesis"
   },
   {
     "id": "huggingface:allenai/qwen3_4b_multiview",
@@ -12154,6 +12255,39 @@
       "eaddario/Qwen3.5-4B-GGUF"
     ],
     "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:FINAL-Bench/Darwin-4B-David",
+    "name": "Darwin-4B-David",
+    "provider": "FINAL-Bench",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T02:46:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FINAL-Bench/Darwin-4B-David",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "darwin-v6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T00:49:52.153706+00:00",
+    "source_ids": [
+      "FINAL-Bench/Darwin-4B-David"
+    ],
+    "family": "Darwin-David"
   },
   {
     "id": "huggingface:allenai/MolmoWeb-Pretrained-8B",
@@ -13306,41 +13440,6 @@
     "family": "Gemma-4-it-NVFP4"
   },
   {
-    "id": "huggingface:DJLougen/Ornstein-27B-GGUF",
-    "name": "Ornstein-27B-GGUF",
-    "provider": "DJLougen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T23:25:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DJLougen/Ornstein-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "reasoning",
-      "qwen3.5",
-      "ddm",
-      "llama-cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:07.248954+00:00",
-    "source_ids": [
-      "DJLougen/Ornstein-27B-GGUF"
-    ],
-    "family": "Ornstein"
-  },
-  {
     "id": "huggingface:Green-eyedDevil/Monika-31B-GGUFs",
     "name": "Monika-31B-GGUFs",
     "provider": "Green-eyedDevil",
@@ -13548,39 +13647,6 @@
       "cstr/parakeet-tdt-0.6b-v3-GGUF"
     ],
     "family": "parakeet-tdt-v3"
-  },
-  {
-    "id": "huggingface:ubergarm/GLM-5.1-GGUF",
-    "name": "GLM-5.1-GGUF",
-    "provider": "ubergarm",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T18:23:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ubergarm/GLM-5.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "imatrix",
-      "conversational",
-      "glm_moe_dsa",
-      "ik_llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:06.792453+00:00",
-    "source_ids": [
-      "ubergarm/GLM-5.1-GGUF"
-    ],
-    "family": "GLM-5.1"
   },
   {
     "id": "huggingface:mingyi456/Ace-Step1.5-XL-DF11-ComfyUI",
@@ -14422,6 +14488,39 @@
     "family": "molcrawl-rna-gpt2-medium"
   },
   {
+    "id": "huggingface:FINAL-Bench/Darwin-31B-Opus",
+    "name": "Darwin-31B-Opus",
+    "provider": "FINAL-Bench",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T03:37:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FINAL-Bench/Darwin-31B-Opus",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "darwin-v6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T00:49:52.153679+00:00",
+    "source_ids": [
+      "FINAL-Bench/Darwin-31B-Opus"
+    ],
+    "family": "Darwin-Opus"
+  },
+  {
     "id": "huggingface:nightmedia/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-qx86-hi-mlx",
     "name": "gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking-qx86-hi-mlx",
     "provider": "nightmedia",
@@ -15040,39 +15139,6 @@
       "QuantTrio/gemma-4-31B-it-AWQ-6Bit"
     ],
     "family": "gemma-4-it--6Bit"
-  },
-  {
-    "id": "huggingface:caiovicentino1/Qwopus3.5-27B-v3-PolarQuant-Q5",
-    "name": "Qwopus3.5-27B-v3-PolarQuant-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T23:37:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwopus3.5-27B-v3-PolarQuant-Q5",
-    "tags": [
-      "text-generation",
-      "qwen3_5_text",
-      "polarquant",
-      "qwen3.5",
-      "claude-opus",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-09T20:21:00.943792+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwopus3.5-27B-v3-PolarQuant-Q5"
-    ],
-    "family": "Qwopus3.5-v3-PolarQuant-Q5"
   },
   {
     "id": "huggingface:caiovicentino1/Qwopus3.5-27B-v3-HLWQ-Q5",
@@ -18431,39 +18497,6 @@
     "family": "NVIDIA-Nemotron-3-Nano-BF16-ONNX"
   },
   {
-    "id": "huggingface:OpceanAI/Yuuki-RxG",
-    "name": "Yuuki-RxG",
-    "provider": "OpceanAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-19T17:54:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpceanAI/Yuuki-RxG",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:06.792208+00:00",
-    "source_ids": [
-      "OpceanAI/Yuuki-RxG"
-    ],
-    "family": "Yuuki-RxG"
-  },
-  {
     "id": "huggingface:rednote-hilab/dots.mocr",
     "name": "dots.mocr",
     "provider": "rednote-hilab",
@@ -19443,41 +19476,6 @@
     "family": "EGM"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF",
-    "name": "Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T06:01:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:07.248831+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-35B-A3B-ultra-uncensored-heretic-GGUF"
-    ],
-    "family": "Qwen3.5-ultra-uncensored-heretic"
-  },
-  {
     "id": "huggingface:TheCluster/Qwen3.5-9B-Heretic-MLX-mxfp4",
     "name": "Qwen3.5-9B-Heretic-MLX-mxfp4",
     "provider": "TheCluster",
@@ -19719,41 +19717,6 @@
       "Qwen/Qwen3.5-4B-Base"
     ],
     "family": "Qwen3.5"
-  },
-  {
-    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
-    "name": "Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T11:36:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:07.248760+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-35B-A3B-uncensored-heretic-GGUF"
-    ],
-    "family": "Qwen3.5-uncensored-heretic"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-uncensored-heretic",
@@ -20975,39 +20938,6 @@
     "family": "Flux2-Klein-True-V1"
   },
   {
-    "id": "huggingface:DJF-on-arm/Iamam",
-    "name": "Iamam",
-    "provider": "DJF-on-arm",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-21T19:28:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DJF-on-arm/Iamam",
-    "tags": [
-      "text-generation",
-      "keras",
-      "tensorflow",
-      "LSTM",
-      "attention",
-      "SLM"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-09T20:21:00.943763+00:00",
-    "source_ids": [
-      "DJF-on-arm/Iamam"
-    ],
-    "family": "Iamam"
-  },
-  {
     "id": "huggingface:AlgoDriveAI/Sanskrit_Akkadian_LLM_v1.0",
     "name": "Sanskrit_Akkadian_LLM_v1.0",
     "provider": "AlgoDriveAI",
@@ -21680,6 +21610,41 @@
       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD"
     ],
     "family": "NVIDIA-Nemotron-Nano-v2-VL-NVFP4-QAD"
+  },
+  {
+    "id": "huggingface:lapa-llm/lapa-v0.1.2-instruct",
+    "name": "lapa-v0.1.2-instruct",
+    "provider": "lapa-llm",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-18T14:51:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lapa-llm/lapa-v0.1.2-instruct",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T00:49:52.581362+00:00",
+    "source_ids": [
+      "lapa-llm/lapa-v0.1.2-instruct"
+    ],
+    "family": "lapa-v0.1.2"
   },
   {
     "id": "openrouter:microsoft/phi-4-mini-instruct",
@@ -22511,138 +22476,6 @@
       "meta-llama/llama-guard-4-12b:free"
     ],
     "family": "Llama Guard 4"
-  },
-  {
-    "id": "huggingface:software-mansion/react-native-executorch-qwen-3",
-    "name": "react-native-executorch-qwen-3",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-29T12:46:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-qwen-3",
-    "tags": [
-      "text-generation",
-      "executorch",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:06.792245+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-qwen-3"
-    ],
-    "family": "react-native-executorch-qwen-3"
-  },
-  {
-    "id": "huggingface:software-mansion/react-native-executorch-qwen-2.5",
-    "name": "react-native-executorch-qwen-2.5",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-24T12:50:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-qwen-2.5",
-    "tags": [
-      "text-generation",
-      "executorch",
-      "qwen2.5",
-      "text-generation",
-      "conversational",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:06.792287+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-qwen-2.5"
-    ],
-    "family": "react-native-executorch-qwen-2.5"
-  },
-  {
-    "id": "huggingface:software-mansion/react-native-executorch-smolLm-2",
-    "name": "react-native-executorch-smolLm-2",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-24T12:49:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-smolLm-2",
-    "tags": [
-      "text-generation",
-      "executorch",
-      "smollm2",
-      "text-generation",
-      "conversational",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:06.792332+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-smolLm-2"
-    ],
-    "family": "react-native-executorch-smolLm-2"
-  },
-  {
-    "id": "huggingface:software-mansion/react-native-executorch-hammer-2.1",
-    "name": "react-native-executorch-hammer-2.1",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-24T12:48:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-hammer-2.1",
-    "tags": [
-      "text-generation",
-      "executorch",
-      "qwen2.5",
-      "text-generation",
-      "conversational",
-      "license:cc-by-nc-4.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T00:37:06.792370+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-hammer-2.1"
-    ],
-    "family": "react-native-executorch-hammer-2.1"
   },
   {
     "id": "huggingface:ResembleAI/chatterbox",
