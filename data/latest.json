@@ -3330,6 +3330,39 @@
     "family": "Qwen3-FrenchMedical-Multilingual"
   },
   {
+    "id": "huggingface:antirez/deepseek-v4-gguf",
+    "name": "deepseek-v4-gguf",
+    "provider": "antirez",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-26T07:54:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/antirez/deepseek-v4-gguf",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "deepseek",
+      "deepseek-v4",
+      "deepseek-v4-flash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T20:18:59.012008+00:00",
+    "source_ids": [
+      "antirez/deepseek-v4-gguf"
+    ],
+    "family": "deepseek-v4"
+  },
+  {
     "id": "huggingface:WaveCut/QClaw-4B-mlx_4bit_DWQ",
     "name": "QClaw-4B-mlx_4bit_DWQ",
     "provider": "WaveCut",
@@ -3431,6 +3464,39 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-safetensors"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-safetensors"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-26B-A4B-it-OptiQ-4bit",
+    "name": "gemma-4-26B-A4B-it-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-25T16:12:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-26B-A4B-it-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T20:18:59.012076+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-26B-A4B-it-OptiQ-4bit"
+    ],
+    "family": "gemma-4-it-OptiQ-4bit"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-GGUF",
@@ -14287,39 +14353,6 @@
     "family": "granite-4.1"
   },
   {
-    "id": "huggingface:caiovicentino1/Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5",
-    "name": "Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T13:02:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "hlwq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T20:13:42.877864+00:00",
-    "source_ids": [
-      "caiovicentino1/Huihui-Qwopus3.5-27B-v3-abliterated-PolarQuant-Q5"
-    ],
-    "family": "Huihui-Qwopus3.5-v3-abliterated-PolarQuant-Q5"
-  },
-  {
     "id": "huggingface:caiovicentino1/Huihui-Qwopus3.5-27B-v3-abliterated-HLWQ-Q5",
     "name": "Huihui-Qwopus3.5-27B-v3-abliterated-HLWQ-Q5",
     "provider": "caiovicentino1",
@@ -15649,39 +15682,6 @@
     "family": "gemma-4-it-heretic-ara"
   },
   {
-    "id": "huggingface:caiovicentino1/Gemma-4-31B-it-PolarQuant-Q5",
-    "name": "Gemma-4-31B-it-PolarQuant-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T22:20:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Gemma-4-31B-it-PolarQuant-Q5",
-    "tags": [
-      "text-generation",
-      "gemma4",
-      "hlwq",
-      "polarquant",
-      "quantized",
-      "4-bit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T20:13:42.877747+00:00",
-    "source_ids": [
-      "caiovicentino1/Gemma-4-31B-it-PolarQuant-Q5"
-    ],
-    "family": "Gemma-4-it-PolarQuant-Q5"
-  },
-  {
     "id": "huggingface:inferencerlabs/gemma-4-26B-A4B-MLX-9bit",
     "name": "gemma-4-26B-A4B-MLX-9bit",
     "provider": "inferencerlabs",
@@ -16441,6 +16441,39 @@
       "bairongz/QianfanOCR"
     ],
     "family": "QianfanOCR"
+  },
+  {
+    "id": "huggingface:squ11z1/claude-oss",
+    "name": "claude-oss",
+    "provider": "squ11z1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T22:18:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/squ11z1/claude-oss",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3_5_text",
+      "claude",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T20:18:59.012139+00:00",
+    "source_ids": [
+      "squ11z1/claude-oss"
+    ],
+    "family": "claude-oss"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-FP8",
@@ -18754,41 +18787,6 @@
     "family": "chattla"
   },
   {
-    "id": "huggingface:nvidia/Nemotron-3-Content-Safety",
-    "name": "Nemotron-3-Content-Safety",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-06T17:28:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-3-Content-Safety",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma3",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T20:13:43.432470+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-3-Content-Safety"
-    ],
-    "family": "Nemotron-3-Content-Safety"
-  },
-  {
     "id": "huggingface:mlx-community/Qwen3.5-9B-OptiQ-4bit",
     "name": "Qwen3.5-9B-OptiQ-4bit",
     "provider": "mlx-community",
@@ -20651,6 +20649,40 @@
       "ayousanz/piper-plus-tsukuyomi-chan"
     ],
     "family": "piper-plus-tsukuyomi-chan"
+  },
+  {
+    "id": "huggingface:mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI",
+    "name": "Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI",
+    "provider": "mingyi456",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-12-24T16:25:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "comfyui",
+      "text-to-image",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T20:18:59.072741+00:00",
+    "source_ids": [
+      "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI"
+    ],
+    "family": "Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI"
   },
   {
     "id": "huggingface:google/medasr",
