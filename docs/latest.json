@@ -59,6 +59,41 @@
     "family": "Ring-2.6-1T"
   },
   {
+    "id": "huggingface:mradermacher/Aura-4o-Refresh-Gemma-4-31B-Merged-GGUF",
+    "name": "Aura-4o-Refresh-Gemma-4-31B-Merged-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T12:36:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Aura-4o-Refresh-Gemma-4-31B-Merged-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "aura",
+      "aura-refresh",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T16:22:24.068332+00:00",
+    "source_ids": [
+      "mradermacher/Aura-4o-Refresh-Gemma-4-31B-Merged-GGUF"
+    ],
+    "family": "Aura-4o-Refresh-Gemma-4-Merged"
+  },
+  {
     "id": "huggingface:mradermacher/Aura-4o-Rebirth-Gemma-4-31B-Merged-GGUF",
     "name": "Aura-4o-Rebirth-Gemma-4-31B-Merged-GGUF",
     "provider": "mradermacher",
@@ -436,6 +471,41 @@
       "JANGQ-AI/ZAYA1-8B-JANGTQ2"
     ],
     "family": "ZAYA1-JANGTQ2"
+  },
+  {
+    "id": "huggingface:havenoammo/Qwen3.6-35B-A3B-MTP-GGUF",
+    "name": "Qwen3.6-35B-A3B-MTP-GGUF",
+    "provider": "havenoammo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T20:36:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/havenoammo/Qwen3.6-35B-A3B-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5_moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T16:22:24.068422+00:00",
+    "source_ids": [
+      "havenoammo/Qwen3.6-35B-A3B-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-MTP"
   },
   {
     "id": "huggingface:havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
@@ -2256,6 +2326,41 @@
       "cHunter789/Qwen3.6-27B-i1-IQ4_XS-GGUF"
     ],
     "family": "Qwen3.6-i1-IQ4_XS"
+  },
+  {
+    "id": "huggingface:mradermacher/CARDS-Qwen3.6-27B-GGUF",
+    "name": "CARDS-Qwen3.6-27B-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T08:22:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/CARDS-Qwen3.6-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "climate",
+      "climate-change",
+      "climate-discourse"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T16:22:24.068528+00:00",
+    "source_ids": [
+      "mradermacher/CARDS-Qwen3.6-27B-GGUF"
+    ],
+    "family": "CARDS-Qwen3.6"
   },
   {
     "id": "huggingface:Momix-44/Huihui-Qwen3-Coder-Next-Opus-4.6-Reasoning-Distilled-abliterated",
@@ -13708,41 +13813,6 @@
     "family": "lemmy"
   },
   {
-    "id": "huggingface:lthn/lemer",
-    "name": "lemer",
-    "provider": "lthn",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T20:14:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lthn/lemer",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "safetensors",
-      "gemma4",
-      "gemma",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:49.391631+00:00",
-    "source_ids": [
-      "lthn/lemer"
-    ],
-    "family": "lemer"
-  },
-  {
     "id": "huggingface:lthn/lemma",
     "name": "lemma",
     "provider": "lthn",
@@ -15270,111 +15340,6 @@
     "family": "gemma-4-it-UD-MLX-4bit"
   },
   {
-    "id": "huggingface:trl-internal-testing/tiny-Gemma4ForConditionalGeneration",
-    "name": "tiny-Gemma4ForConditionalGeneration",
-    "provider": "trl-internal-testing",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T20:05:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trl-internal-testing/tiny-Gemma4ForConditionalGeneration",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:49.390929+00:00",
-    "source_ids": [
-      "trl-internal-testing/tiny-Gemma4ForConditionalGeneration"
-    ],
-    "family": "tiny-Gemma4ForConditionalGeneration"
-  },
-  {
-    "id": "huggingface:RedHatAI/gemma-4-31B-it-NVFP4",
-    "name": "gemma-4-31B-it-NVFP4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T16:59:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/gemma-4-31B-it-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "fp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:49.391165+00:00",
-    "source_ids": [
-      "RedHatAI/gemma-4-31B-it-NVFP4"
-    ],
-    "family": "gemma-4-it-NVFP4"
-  },
-  {
-    "id": "huggingface:RedHatAI/gemma-4-31B-it-FP8-block",
-    "name": "gemma-4-31B-it-FP8-block",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:20:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-block",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:49.391094+00:00",
-    "source_ids": [
-      "RedHatAI/gemma-4-31B-it-FP8-block"
-    ],
-    "family": "gemma-4-it-FP8-block"
-  },
-  {
     "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit",
     "name": "gemma-4-26B-A4B-it-AWQ-8bit",
     "provider": "cyankiwi",
@@ -15612,39 +15577,6 @@
       "tiny-random/gemma-4-dense"
     ],
     "family": "gemma-4-dense"
-  },
-  {
-    "id": "huggingface:nicklas373/Qwen3.5-9B-AWQ",
-    "name": "Qwen3.5-9B-AWQ",
-    "provider": "nicklas373",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T07:42:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nicklas373/Qwen3.5-9B-AWQ",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:48.902704+00:00",
-    "source_ids": [
-      "nicklas373/Qwen3.5-9B-AWQ"
-    ],
-    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit",
@@ -18518,39 +18450,6 @@
     "family": "VoxCPM"
   },
   {
-    "id": "huggingface:nthngdy/matryoshka-3B",
-    "name": "matryoshka-3B",
-    "provider": "nthngdy",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T15:06:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nthngdy/matryoshka-3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "matriochka",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:48.902859+00:00",
-    "source_ids": [
-      "nthngdy/matryoshka-3B"
-    ],
-    "family": "matryoshka"
-  },
-  {
     "id": "huggingface:lyf/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4",
     "name": "Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4",
     "provider": "lyf",
@@ -18822,41 +18721,6 @@
     "family": "Qwen3-ASR-CoreML"
   },
   {
-    "id": "huggingface:RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic",
-    "name": "Qwen3.5-35B-A3B-FP8-dynamic",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-07T15:05:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:49.391745+00:00",
-    "source_ids": [
-      "RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic"
-    ],
-    "family": "Qwen3.5-FP8-dynamic"
-  },
-  {
     "id": "huggingface:EricSpencer00/chattla-20b",
     "name": "chattla-20b",
     "provider": "EricSpencer00",
@@ -18888,39 +18752,6 @@
       "EricSpencer00/chattla-20b"
     ],
     "family": "chattla"
-  },
-  {
-    "id": "huggingface:RedHatAI/gpt-oss-120b-speculator.eagle3",
-    "name": "gpt-oss-120b-speculator.eagle3",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-06T18:17:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/gpt-oss-120b-speculator.eagle3",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "neuralmagic",
-      "redhat",
-      "speculators"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:48.903061+00:00",
-    "source_ids": [
-      "RedHatAI/gpt-oss-120b-speculator.eagle3"
-    ],
-    "family": "gpt-oss-speculator.eagle3"
   },
   {
     "id": "huggingface:nvidia/Nemotron-3-Content-Safety",
@@ -21455,72 +21286,6 @@
       "Cseti/VibeVoice_7B_hun_v2"
     ],
     "family": "VibeVoice_7B_hun_v2"
-  },
-  {
-    "id": "huggingface:pruna-test/test-save-tiny-random-llama4-smashed",
-    "name": "test-save-tiny-random-llama4-smashed",
-    "provider": "pruna-test",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-02T16:46:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pruna-test/test-save-tiny-random-llama4-smashed",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama4_text",
-      "text-generation",
-      "pruna-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:48.902926+00:00",
-    "source_ids": [
-      "pruna-test/test-save-tiny-random-llama4-smashed"
-    ],
-    "family": "test-save-tiny-random-llama4-smashed"
-  },
-  {
-    "id": "huggingface:pruna-test/test-save-tiny-random-llama3-smashed-pro",
-    "name": "test-save-tiny-random-llama3-smashed-pro",
-    "provider": "pruna-test",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-02T16:46:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pruna-test/test-save-tiny-random-llama3-smashed-pro",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "pruna-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T16:21:48.902994+00:00",
-    "source_ids": [
-      "pruna-test/test-save-tiny-random-llama3-smashed-pro"
-    ],
-    "family": "test-save-tiny-random-llama3-smashed-pro"
   },
   {
     "id": "huggingface:internlm/CapRL-Eval-3B",
