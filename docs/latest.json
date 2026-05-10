@@ -59,6 +59,41 @@
     "family": "Ring-2.6-1T"
   },
   {
+    "id": "huggingface:mradermacher/Aura-4o-Rebirth-Gemma-4-31B-Merged-GGUF",
+    "name": "Aura-4o-Rebirth-Gemma-4-31B-Merged-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T08:24:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Aura-4o-Rebirth-Gemma-4-31B-Merged-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "aura",
+      "aura-rebirth",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T12:24:17.918382+00:00",
+    "source_ids": [
+      "mradermacher/Aura-4o-Rebirth-Gemma-4-31B-Merged-GGUF"
+    ],
+    "family": "Aura-4o-Rebirth-Gemma-4-Merged"
+  },
+  {
     "id": "huggingface:mradermacher/m51Lab-MiniMax-M2.7-REAP-139B-A10B-i1-GGUF",
     "name": "m51Lab-MiniMax-M2.7-REAP-139B-A10B-i1-GGUF",
     "provider": "mradermacher",
@@ -90,6 +125,41 @@
       "mradermacher/m51Lab-MiniMax-M2.7-REAP-139B-A10B-i1-GGUF"
     ],
     "family": "m51Lab-MiniMax-M2.7-REAP-i1"
+  },
+  {
+    "id": "huggingface:catlilface/Gemma-4-26B-A4B-NVFP4-GGUF",
+    "name": "Gemma-4-26B-A4B-NVFP4-GGUF",
+    "provider": "catlilface",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T18:22:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/catlilface/Gemma-4-26B-A4B-NVFP4-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "conversational",
+      "base_model:nvidia/Gemma-4-26B-A4B-NVFP4",
+      "base_model:quantized:nvidia/Gemma-4-26B-A4B-NVFP4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-10T12:24:17.918309+00:00",
+    "source_ids": [
+      "catlilface/Gemma-4-26B-A4B-NVFP4-GGUF"
+    ],
+    "family": "Gemma-4-NVFP4"
   },
   {
     "id": "huggingface:mradermacher/CoE-SlideVQA-8B-i1-GGUF",
@@ -12589,39 +12659,6 @@
     "family": "gemma-4-it-Uncensored-MAX"
   },
   {
-    "id": "huggingface:my-ai-stack/Stack-2-9-finetuned",
-    "name": "Stack-2-9-finetuned",
-    "provider": "my-ai-stack",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T11:10:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/my-ai-stack/Stack-2-9-finetuned",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "qwen2",
-      "text-generation",
-      "code-generation",
-      "python"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T12:21:30.090122+00:00",
-    "source_ids": [
-      "my-ai-stack/Stack-2-9-finetuned"
-    ],
-    "family": "Stack-2-9-finetuned"
-  },
-  {
     "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors",
     "name": "Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors",
     "provider": "LuffyTheFox",
@@ -12754,41 +12791,6 @@
       "DuoNeural/Gemma-4-26B-A4B-Abliterated"
     ],
     "family": "Gemma-4-Abliterated"
-  },
-  {
-    "id": "huggingface:SleepVeryHard/ToriiGate-0.5_GGUF",
-    "name": "ToriiGate-0.5_GGUF",
-    "provider": "SleepVeryHard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T08:18:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SleepVeryHard/ToriiGate-0.5_GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "multimodal",
-      "vision",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T12:21:30.694108+00:00",
-    "source_ids": [
-      "SleepVeryHard/ToriiGate-0.5_GGUF"
-    ],
-    "family": "ToriiGate-0.5"
   },
   {
     "id": "huggingface:moofeez/qwen3-coder-30b-a3b-debugger-rl-lora",
@@ -13842,39 +13844,6 @@
       "mingyi456/Ace-Step1.5-XL-DF11-ComfyUI"
     ],
     "family": "Ace-Step1.5-XL-DF11-ComfyUI"
-  },
-  {
-    "id": "huggingface:Mochiva-team/Mochiva-model",
-    "name": "Mochiva-model",
-    "provider": "Mochiva-team",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T11:07:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Mochiva-team/Mochiva-model",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "mochiva",
-      "text-generation",
-      "roleplay"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T12:21:30.089814+00:00",
-    "source_ids": [
-      "Mochiva-team/Mochiva-model"
-    ],
-    "family": "Mochiva-model"
   },
   {
     "id": "huggingface:batiai/Qwen3.5-9B-GGUF",
@@ -21452,39 +21421,6 @@
       "aisingapore/Qwen-SEA-LION-v4-32B-IT"
     ],
     "family": "Qwen-SEA-LION-v4-IT"
-  },
-  {
-    "id": "huggingface:RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4",
-    "name": "Qwen3-VL-235B-A22B-Instruct-NVFP4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-14T19:57:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3_vl_moe",
-      "fp4",
-      "vllm",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-10T12:21:30.089976+00:00",
-    "source_ids": [
-      "RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4"
-    ],
-    "family": "Qwen3-VL--NVFP4"
   },
   {
     "id": "huggingface:Cseti/VibeVoice_7B_hun_v2",
