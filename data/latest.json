@@ -162,6 +162,39 @@
     "family": "m51Lab-MiniMax-M2.7-REAP-i1"
   },
   {
+    "id": "huggingface:teamblobfish/DeepSeek-V4-Flash-GGUF",
+    "name": "DeepSeek-V4-Flash-GGUF",
+    "provider": "teamblobfish",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T21:17:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "deepseek-v4",
+      "moe",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-11T00:49:55.187792+00:00",
+    "source_ids": [
+      "teamblobfish/DeepSeek-V4-Flash-GGUF"
+    ],
+    "family": "DeepSeek-V4-Flash"
+  },
+  {
     "id": "huggingface:catlilface/Gemma-4-26B-A4B-NVFP4-GGUF",
     "name": "Gemma-4-26B-A4B-NVFP4-GGUF",
     "provider": "catlilface",
@@ -12326,39 +12359,6 @@
     "family": "Darwin-Genesis"
   },
   {
-    "id": "huggingface:allenai/qwen3_4b_multiview",
-    "name": "qwen3_4b_multiview",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T22:55:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/qwen3_4b_multiview",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-11T00:34:56.754645+00:00",
-    "source_ids": [
-      "allenai/qwen3_4b_multiview"
-    ],
-    "family": "qwen3_4b_multiview"
-  },
-  {
     "id": "huggingface:KuroTo4ka/Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
     "name": "Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
     "provider": "KuroTo4ka",
@@ -12896,39 +12896,6 @@
       "DuoNeural/Gemma-4-26B-A4B-Abliterated-GGUF"
     ],
     "family": "Gemma-4-Abliterated"
-  },
-  {
-    "id": "huggingface:Jackrong/Gemopus-4-26B-A4B-it-GGUF",
-    "name": "Gemopus-4-26B-A4B-it-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T08:27:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "gemma4",
-      "gemma",
-      "instruction-tuned",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-11T00:34:56.754558+00:00",
-    "source_ids": [
-      "Jackrong/Gemopus-4-26B-A4B-it-GGUF"
-    ],
-    "family": "Gemopus-4-it"
   },
   {
     "id": "huggingface:DuoNeural/Gemma-4-26B-A4B-Abliterated",
@@ -13807,41 +13774,6 @@
       "Green-eyedDevil/Monika-31B-GGUFs"
     ],
     "family": "Monika-GGUFs"
-  },
-  {
-    "id": "huggingface:lthn/lemrd",
-    "name": "lemrd",
-    "provider": "lthn",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T20:15:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lthn/lemrd",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gguf",
-      "gemma4",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-11T00:34:57.784272+00:00",
-    "source_ids": [
-      "lthn/lemrd"
-    ],
-    "family": "lemrd"
   },
   {
     "id": "huggingface:lthn/lemmy",
@@ -17737,76 +17669,6 @@
       "Oysiyl/qwen3-1.7b-unslop-good-lora-v1"
     ],
     "family": "qwen3-unslop-good-lora-v1"
-  },
-  {
-    "id": "huggingface:allenai/MolmoWeb-8B-Native",
-    "name": "MolmoWeb-8B-Native",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-24T03:00:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/MolmoWeb-8B-Native",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "multimodal",
-      "olmo",
-      "molmo",
-      "molmo2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-11T00:34:57.784227+00:00",
-    "source_ids": [
-      "allenai/MolmoWeb-8B-Native"
-    ],
-    "family": "MolmoWeb-Native"
-  },
-  {
-    "id": "huggingface:allenai/MolmoWeb-4B-Native",
-    "name": "MolmoWeb-4B-Native",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-23T23:24:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/MolmoWeb-4B-Native",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "multimodal",
-      "olmo",
-      "molmo",
-      "molmo2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-11T00:34:57.784203+00:00",
-    "source_ids": [
-      "allenai/MolmoWeb-4B-Native"
-    ],
-    "family": "MolmoWeb-Native"
   },
   {
     "id": "huggingface:dealignai/Mistral-Small-4-119B-JANG_4M-CRACK",
