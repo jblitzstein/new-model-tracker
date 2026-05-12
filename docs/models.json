@@ -61383,5 +61383,272 @@
       "sensenova/SenseNova-SI-1.5-InternVL3-8B"
     ],
     "family": "SenseNova-SI-1.5-InternVL3"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-4.7-fast",
+    "name": "Anthropic: Claude Opus 4.7 (Fast)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T19:10:11+00:00",
+    "context_length": 1000000,
+    "description": "Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.7-fast",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 30.0,
+      "completion_per_million": 150.0
+    },
+    "first_seen": "2026-05-12T20:36:23.754687+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.7-fast"
+    ],
+    "family": "Claude Opus 4.7 (Fast)"
+  },
+  {
+    "id": "huggingface:mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.0",
+    "name": "Kurtis-EON1-Hybrid-0.7B-v0.1.0",
+    "provider": "mrs83",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T23:19:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.0",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "echo_hybrid",
+      "text-generation",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880460+00:00",
+    "source_ids": [
+      "mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.0"
+    ],
+    "family": "Kurtis-EON1-Hybrid-v0.1.0"
+  },
+  {
+    "id": "huggingface:ethicalabs/Echo-DSRN-Qwen2.5-0.5B-Hybrid",
+    "name": "Echo-DSRN-Qwen2.5-0.5B-Hybrid",
+    "provider": "ethicalabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-05T20:56:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ethicalabs/Echo-DSRN-Qwen2.5-0.5B-Hybrid",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "echo_hybrid",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880490+00:00",
+    "source_ids": [
+      "ethicalabs/Echo-DSRN-Qwen2.5-0.5B-Hybrid"
+    ],
+    "family": "Echo-DSRN-Qwen2.5-Hybrid"
+  },
+  {
+    "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ4-FP16",
+    "name": "Qwen3.6-27B-MLX-oQ4-FP16",
+    "provider": "deepsweet",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T14:11:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepsweet/Qwen3.6-27B-MLX-oQ4-FP16",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880579+00:00",
+    "source_ids": [
+      "deepsweet/Qwen3.6-27B-MLX-oQ4-FP16"
+    ],
+    "family": "Qwen3.6-MLX-oQ4-FP16"
+  },
+  {
+    "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ5-FP16",
+    "name": "Qwen3.6-27B-MLX-oQ5-FP16",
+    "provider": "deepsweet",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T08:29:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepsweet/Qwen3.6-27B-MLX-oQ5-FP16",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880606+00:00",
+    "source_ids": [
+      "deepsweet/Qwen3.6-27B-MLX-oQ5-FP16"
+    ],
+    "family": "Qwen3.6-MLX-oQ5-FP16"
+  },
+  {
+    "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ8-FP16",
+    "name": "Qwen3.6-27B-MLX-oQ8-FP16",
+    "provider": "deepsweet",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T09:10:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepsweet/Qwen3.6-27B-MLX-oQ8-FP16",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880631+00:00",
+    "source_ids": [
+      "deepsweet/Qwen3.6-27B-MLX-oQ8-FP16"
+    ],
+    "family": "Qwen3.6-MLX-oQ8-FP16"
+  },
+  {
+    "id": "huggingface:mazesmazes/tiny-audio",
+    "name": "tiny-audio",
+    "provider": "mazesmazes",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T00:21:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mazesmazes/tiny-audio",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "asr_model",
+      "feature-extraction",
+      "asr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:24.290758+00:00",
+    "source_ids": [
+      "mazesmazes/tiny-audio"
+    ],
+    "family": "tiny-audio"
+  },
+  {
+    "id": "huggingface:keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF",
+    "name": "Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF",
+    "provider": "keithnull",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T01:16:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5",
+      "moe",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:24.362772+00:00",
+    "source_ids": [
+      "keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF"
+    ],
+    "family": "Qwen3.6-REAM-192-heretic-APEX"
   }
 ]

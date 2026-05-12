@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:anthropic/claude-opus-4.7-fast",
+    "name": "Anthropic: Claude Opus 4.7 (Fast)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T19:10:11+00:00",
+    "context_length": 1000000,
+    "description": "Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.7-fast",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 30.0,
+      "completion_per_million": 150.0
+    },
+    "first_seen": "2026-05-12T20:36:23.754687+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.7-fast"
+    ],
+    "family": "Claude Opus 4.7 (Fast)"
+  },
+  {
     "id": "openrouter:perceptron/perceptron-mk1",
     "name": "Perceptron: Perceptron Mk1",
     "provider": "perceptron",
@@ -97,6 +130,41 @@
       "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju"
     ],
     "family": "gemma-4-it-mxfp4-moe-juju"
+  },
+  {
+    "id": "huggingface:keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF",
+    "name": "Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF",
+    "provider": "keithnull",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T01:16:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5",
+      "moe",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:24.362772+00:00",
+    "source_ids": [
+      "keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF"
+    ],
+    "family": "Qwen3.6-REAM-192-heretic-APEX"
   },
   {
     "id": "huggingface:SassyDiffusion/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
@@ -297,6 +365,39 @@
       "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch"
     ],
     "family": "gemma-4-E-it-Terminal-SFT-Native-Liquid-1Epoch"
+  },
+  {
+    "id": "huggingface:mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.0",
+    "name": "Kurtis-EON1-Hybrid-0.7B-v0.1.0",
+    "provider": "mrs83",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T23:19:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.0",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "echo_hybrid",
+      "text-generation",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880460+00:00",
+    "source_ids": [
+      "mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.0"
+    ],
+    "family": "Kurtis-EON1-Hybrid-v0.1.0"
   },
   {
     "id": "huggingface:paragon-of-brah/Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF",
@@ -1069,6 +1170,39 @@
       "pnnbao-ump/VieNeu-TTS-v2"
     ],
     "family": "VieNeu-TTS-v2"
+  },
+  {
+    "id": "huggingface:ethicalabs/Echo-DSRN-Qwen2.5-0.5B-Hybrid",
+    "name": "Echo-DSRN-Qwen2.5-0.5B-Hybrid",
+    "provider": "ethicalabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-05T20:56:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ethicalabs/Echo-DSRN-Qwen2.5-0.5B-Hybrid",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "echo_hybrid",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880490+00:00",
+    "source_ids": [
+      "ethicalabs/Echo-DSRN-Qwen2.5-0.5B-Hybrid"
+    ],
+    "family": "Echo-DSRN-Qwen2.5-Hybrid"
   },
   {
     "id": "huggingface:froggeric/Qwen3.6-27B-MTP-GGUF",
@@ -2172,6 +2306,40 @@
       "mradermacher/gemma-4-e2b-arabic-english-vision-i1-GGUF"
     ],
     "family": "gemma-4-e-arabic-english-vision-i1"
+  },
+  {
+    "id": "huggingface:mazesmazes/tiny-audio",
+    "name": "tiny-audio",
+    "provider": "mazesmazes",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T00:21:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mazesmazes/tiny-audio",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "asr_model",
+      "feature-extraction",
+      "asr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:24.290758+00:00",
+    "source_ids": [
+      "mazesmazes/tiny-audio"
+    ],
+    "family": "tiny-audio"
   },
   {
     "id": "huggingface:batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF",
@@ -4509,6 +4677,72 @@
     "family": "Qwen3.5--MoQ"
   },
   {
+    "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ8-FP16",
+    "name": "Qwen3.6-27B-MLX-oQ8-FP16",
+    "provider": "deepsweet",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T09:10:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepsweet/Qwen3.6-27B-MLX-oQ8-FP16",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880631+00:00",
+    "source_ids": [
+      "deepsweet/Qwen3.6-27B-MLX-oQ8-FP16"
+    ],
+    "family": "Qwen3.6-MLX-oQ8-FP16"
+  },
+  {
+    "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ5-FP16",
+    "name": "Qwen3.6-27B-MLX-oQ5-FP16",
+    "provider": "deepsweet",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T08:29:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepsweet/Qwen3.6-27B-MLX-oQ5-FP16",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880606+00:00",
+    "source_ids": [
+      "deepsweet/Qwen3.6-27B-MLX-oQ5-FP16"
+    ],
+    "family": "Qwen3.6-MLX-oQ5-FP16"
+  },
+  {
     "id": "huggingface:ENOSYS/Qwen3.6-35B-A3B-heretic-750-v1-GGUF",
     "name": "Qwen3.6-35B-A3B-heretic-750-v1-GGUF",
     "provider": "ENOSYS",
@@ -5107,6 +5341,39 @@
       "sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4"
     ],
     "family": "Huihui-Qwen3.6-abliterated-NVFP4"
+  },
+  {
+    "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ4-FP16",
+    "name": "Qwen3.6-27B-MLX-oQ4-FP16",
+    "provider": "deepsweet",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T14:11:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepsweet/Qwen3.6-27B-MLX-oQ4-FP16",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T20:36:23.880579+00:00",
+    "source_ids": [
+      "deepsweet/Qwen3.6-27B-MLX-oQ4-FP16"
+    ],
+    "family": "Qwen3.6-MLX-oQ4-FP16"
   },
   {
     "id": "huggingface:deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ4-FP16",
@@ -15509,41 +15776,6 @@
     "family": "gemma-4-it-UD-MLX-4bit"
   },
   {
-    "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit",
-    "name": "gemma-4-26B-A4B-it-AWQ-8bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T14:42:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T20:11:44.136686+00:00",
-    "source_ids": [
-      "cyankiwi/gemma-4-26B-A4B-it-AWQ-8bit"
-    ],
-    "family": "gemma-4-it--8bit"
-  },
-  {
     "id": "huggingface:lunahr/CeluneNorm-0.6B-v1.1",
     "name": "CeluneNorm-0.6B-v1.1",
     "provider": "lunahr",
@@ -15680,41 +15912,6 @@
       "tiny-random/gemma-4-dense"
     ],
     "family": "gemma-4-dense"
-  },
-  {
-    "id": "huggingface:cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit",
-    "name": "gemma-4-26B-A4B-it-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T00:28:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T20:11:44.136745+00:00",
-    "source_ids": [
-      "cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit"
-    ],
-    "family": "gemma-4-it--4bit"
   },
   {
     "id": "huggingface:trohrbaugh/gemma-4-26B-A4B-it-heretic-ara",
@@ -15855,76 +16052,6 @@
       "coder3101/gemma-4-26B-A4B-it-heretic"
     ],
     "family": "gemma-4-it-heretic"
-  },
-  {
-    "id": "huggingface:cyankiwi/gemma-4-31B-it-AWQ-4bit",
-    "name": "gemma-4-31B-it-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T20:03:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/gemma-4-31B-it-AWQ-4bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T20:11:44.136624+00:00",
-    "source_ids": [
-      "cyankiwi/gemma-4-31B-it-AWQ-4bit"
-    ],
-    "family": "gemma-4-it--4bit"
-  },
-  {
-    "id": "huggingface:cyankiwi/gemma-4-31B-it-AWQ-8bit",
-    "name": "gemma-4-31B-it-AWQ-8bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T20:02:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/gemma-4-31B-it-AWQ-8bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T20:11:44.136561+00:00",
-    "source_ids": [
-      "cyankiwi/gemma-4-31B-it-AWQ-8bit"
-    ],
-    "family": "gemma-4-it--8bit"
   },
   {
     "id": "huggingface:trohrbaugh/gemma-4-31b-it-heretic-ara",
