@@ -4443,6 +4443,41 @@
     "family": "Qwen3.6-heretic-750-v1"
   },
   {
+    "id": "huggingface:nameistoken/Qwen3.6-27B-Quark-W8A8-INT8",
+    "name": "Qwen3.6-27B-Quark-W8A8-INT8",
+    "provider": "nameistoken",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T05:08:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nameistoken/Qwen3.6-27B-Quark-W8A8-INT8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T05:17:27.963221+00:00",
+    "source_ids": [
+      "nameistoken/Qwen3.6-27B-Quark-W8A8-INT8"
+    ],
+    "family": "Qwen3.6-Quark-W8A8-INT8"
+  },
+  {
     "id": "huggingface:Youssofal/Qwen3.6-27B-Abliterated-Heretic-Uncensored-MLX-3bit",
     "name": "Qwen3.6-27B-Abliterated-Heretic-Uncensored-MLX-3bit",
     "provider": "Youssofal",
@@ -10297,6 +10332,39 @@
     "family": "gemma-4-E-it-OBLITERATED"
   },
   {
+    "id": "huggingface:mradermacher/mind-mem-4b-GGUF",
+    "name": "mind-mem-4b-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T22:32:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/mind-mem-4b-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "mind-mem",
+      "memory",
+      "governance"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T05:17:27.097152+00:00",
+    "source_ids": [
+      "mradermacher/mind-mem-4b-GGUF"
+    ],
+    "family": "mind-mem"
+  },
+  {
     "id": "huggingface:0xSero/Qwen3.5-264B-REAP-W4A16",
     "name": "Qwen3.5-264B-REAP-W4A16",
     "provider": "0xSero",
@@ -14760,41 +14828,6 @@
     "family": "mind-mem"
   },
   {
-    "id": "huggingface:nightmedia/gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx",
-    "name": "gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx",
-    "provider": "nightmedia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T07:38:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nightmedia/gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "nightmedia",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T05:00:38.506994+00:00",
-    "source_ids": [
-      "nightmedia/gemma-4-31B-it-Claude-Opus-Distill-mxfp8-mlx"
-    ],
-    "family": "gemma-4-it-Claude-Opus-Distill-mxfp8-mlx"
-  },
-  {
     "id": "huggingface:nightmedia/gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-qx86-hi-mlx",
     "name": "gemma-4-31B-it-Mystery-Fine-Tune-HERETIC-UNCENSORED-Thinking-qx86-hi-mlx",
     "provider": "nightmedia",
@@ -16445,39 +16478,6 @@
     "family": "MOSS-TTS-Nano-100M"
   },
   {
-    "id": "huggingface:CEIA-RL/qwen3-4b-dw-lr-hf-dpo",
-    "name": "qwen3-4b-dw-lr-hf-dpo",
-    "provider": "CEIA-RL",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T14:24:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CEIA-RL/qwen3-4b-dw-lr-hf-dpo",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T05:00:38.072156+00:00",
-    "source_ids": [
-      "CEIA-RL/qwen3-4b-dw-lr-hf-dpo"
-    ],
-    "family": "qwen3-dw-lr-hf-dpo"
-  },
-  {
     "id": "huggingface:opendatalab/MinerU2.5-Pro-2604-1.2B",
     "name": "MinerU2.5-Pro-2604-1.2B",
     "provider": "opendatalab",
@@ -16936,39 +16936,6 @@
       "mudler/Qwen3.5-35B-A3B-APEX-GGUF"
     ],
     "family": "Qwen3.5-APEX"
-  },
-  {
-    "id": "huggingface:stratosphere/qwen2.5-1.5b-slips-immune-summarization",
-    "name": "qwen2.5-1.5b-slips-immune-summarization",
-    "provider": "stratosphere",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T14:52:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/stratosphere/qwen2.5-1.5b-slips-immune-summarization",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T05:00:38.072233+00:00",
-    "source_ids": [
-      "stratosphere/qwen2.5-1.5b-slips-immune-summarization"
-    ],
-    "family": "qwen2.5-slips-immune-summarization"
   },
   {
     "id": "huggingface:luoyike2003/LongShuGameDev-Qwen3.5-122B-REAP-Architect-MLX-4bit",
