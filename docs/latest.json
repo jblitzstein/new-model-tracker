@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:perceptron/perceptron-mk1",
+    "name": "Perceptron: Perceptron Mk1",
+    "provider": "perceptron",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T14:43:49+00:00",
+    "context_length": 32768,
+    "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual understanding...",
+    "url": "https://openrouter.ai/perceptron/perceptron-mk1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-05-12T16:50:38.755662+00:00",
+    "source_ids": [
+      "perceptron/perceptron-mk1"
+    ],
+    "family": "Perceptron Mk1"
+  },
+  {
     "id": "huggingface:storagejuju/glm-5.1-ud-iq2-m-juju",
     "name": "glm-5.1-ud-iq2-m-juju",
     "provider": "storagejuju",
@@ -12975,39 +13008,6 @@
     "family": "Qwen3-tts--for-koboldcpp"
   },
   {
-    "id": "huggingface:heyalexchoi/qwen3-1.7b-math-grpo",
-    "name": "qwen3-1.7b-math-grpo",
-    "provider": "heyalexchoi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T00:49:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/heyalexchoi/qwen3-1.7b-math-grpo",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T16:13:00.530869+00:00",
-    "source_ids": [
-      "heyalexchoi/qwen3-1.7b-math-grpo"
-    ],
-    "family": "qwen3-math-grpo"
-  },
-  {
     "id": "huggingface:FINAL-Bench/Darwin-4B-Genesis",
     "name": "Darwin-4B-Genesis",
     "provider": "FINAL-Bench",
@@ -13308,41 +13308,6 @@
       "FlameF0X/LFM2.5-1.2B-Distilled-Claude-4.6"
     ],
     "family": "LFM2.5-Distilled-Claude-4.6"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors",
-    "name": "Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T09:07:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5_moe",
-      "uncensored",
-      "qwen3.5",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T16:13:01.674222+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-safetensors"
-    ],
-    "family": "Qwen3.5-Uncensored-FernflowerAI-safetensors"
   },
   {
     "id": "huggingface:DuoNeural/Gemma-4-26B-A4B-Abliterated-GGUF",
@@ -17433,6 +17398,41 @@
       "0xSero/GLM-5-REAP-381B"
     ],
     "family": "GLM-5-REAP"
+  },
+  {
+    "id": "huggingface:sensenova/SenseNova-SI-1.5-InternVL3-8B",
+    "name": "SenseNova-SI-1.5-InternVL3-8B",
+    "provider": "sensenova",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T07:53:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sensenova/SenseNova-SI-1.5-InternVL3-8B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "internvl_chat",
+      "feature-extraction",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T16:50:39.758629+00:00",
+    "source_ids": [
+      "sensenova/SenseNova-SI-1.5-InternVL3-8B"
+    ],
+    "family": "SenseNova-SI-1.5-InternVL3"
   },
   {
     "id": "huggingface:kojima-lab/molcrawl-rna-celltype-gpt2-small",

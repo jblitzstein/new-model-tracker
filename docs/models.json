@@ -61315,5 +61315,73 @@
       "storagejuju/glm-5.1-ud-iq2-m-juju"
     ],
     "family": "glm-5.1-ud-iq2-m-juju"
+  },
+  {
+    "id": "openrouter:perceptron/perceptron-mk1",
+    "name": "Perceptron: Perceptron Mk1",
+    "provider": "perceptron",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T14:43:49+00:00",
+    "context_length": 32768,
+    "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual understanding...",
+    "url": "https://openrouter.ai/perceptron/perceptron-mk1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-05-12T16:50:38.755662+00:00",
+    "source_ids": [
+      "perceptron/perceptron-mk1"
+    ],
+    "family": "Perceptron Mk1"
+  },
+  {
+    "id": "huggingface:sensenova/SenseNova-SI-1.5-InternVL3-8B",
+    "name": "SenseNova-SI-1.5-InternVL3-8B",
+    "provider": "sensenova",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T07:53:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sensenova/SenseNova-SI-1.5-InternVL3-8B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "internvl_chat",
+      "feature-extraction",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T16:50:39.758629+00:00",
+    "source_ids": [
+      "sensenova/SenseNova-SI-1.5-InternVL3-8B"
+    ],
+    "family": "SenseNova-SI-1.5-InternVL3"
   }
 ]
