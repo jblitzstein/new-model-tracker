@@ -2796,6 +2796,41 @@
     "family": "Laguna M.1"
   },
   {
+    "id": "huggingface:inferRouter/Qwen3.6-27B-NVFP4",
+    "name": "Qwen3.6-27B-NVFP4",
+    "provider": "inferRouter",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T11:30:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferRouter/Qwen3.6-27B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-12T09:02:30.458001+00:00",
+    "source_ids": [
+      "inferRouter/Qwen3.6-27B-NVFP4"
+    ],
+    "family": "Qwen3.6-NVFP4"
+  },
+  {
     "id": "huggingface:cHunter789/Qwen3.6-27B-i1-IQ4_XS-GGUF",
     "name": "Qwen3.6-27B-i1-IQ4_XS-GGUF",
     "provider": "cHunter789",
@@ -12639,105 +12674,6 @@
     "family": "gemma-4-e-it-OptiQ-4bit"
   },
   {
-    "id": "huggingface:odats/rl_nmt_2026_04_11_13_52",
-    "name": "rl_nmt_2026_04_11_13_52",
-    "provider": "odats",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T13:52:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/odats/rl_nmt_2026_04_11_13_52",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.402935+00:00",
-    "source_ids": [
-      "odats/rl_nmt_2026_04_11_13_52"
-    ],
-    "family": "rl_nmt_2026_04_11_13_52"
-  },
-  {
-    "id": "huggingface:odats/rl_nmt_2026_04_11_13_41",
-    "name": "rl_nmt_2026_04_11_13_41",
-    "provider": "odats",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T13:41:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/odats/rl_nmt_2026_04_11_13_41",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.402963+00:00",
-    "source_ids": [
-      "odats/rl_nmt_2026_04_11_13_41"
-    ],
-    "family": "rl_nmt_2026_04_11_13_41"
-  },
-  {
-    "id": "huggingface:odats/rl_nmt_2026_04_11_13_31",
-    "name": "rl_nmt_2026_04_11_13_31",
-    "provider": "odats",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T13:31:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/odats/rl_nmt_2026_04_11_13_31",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.402821+00:00",
-    "source_ids": [
-      "odats/rl_nmt_2026_04_11_13_31"
-    ],
-    "family": "rl_nmt_2026_04_11_13_31"
-  },
-  {
     "id": "huggingface:mlx-community/gemma-4-e2b-it-OptiQ-4bit",
     "name": "gemma-4-e2b-it-OptiQ-4bit",
     "provider": "mlx-community",
@@ -12937,39 +12873,6 @@
       "aufklarer/Omnilingual-ASR-CTC-300M-CoreML-INT8-10s"
     ],
     "family": "Omnilingual-ASR-CTC-300M-CoreML-INT8-10s"
-  },
-  {
-    "id": "huggingface:ENOSYS/GLM-4.7-Flash-Uncensored-750-v1",
-    "name": "GLM-4.7-Flash-Uncensored-750-v1",
-    "provider": "ENOSYS",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T06:59:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ENOSYS/GLM-4.7-Flash-Uncensored-750-v1",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "glm4",
-      "moe",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.403032+00:00",
-    "source_ids": [
-      "ENOSYS/GLM-4.7-Flash-Uncensored-750-v1"
-    ],
-    "family": "GLM-4.7-Flash-Uncensored-750-v1"
   },
   {
     "id": "huggingface:GrizleeBer/gs-test-1",
@@ -13712,40 +13615,6 @@
       "OnurDemircioglu/OmniGPT-355M"
     ],
     "family": "OmniGPT-355M"
-  },
-  {
-    "id": "huggingface:EasyDeL/gemma-4-31B-it",
-    "name": "gemma-4-31B-it",
-    "provider": "EasyDeL",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T04:37:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/EasyDeL/gemma-4-31B-it",
-    "tags": [
-      "image-to-text",
-      "easydel",
-      "gemma4",
-      "jax",
-      "ImageTextToText",
-      "vanilla"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.527869+00:00",
-    "source_ids": [
-      "EasyDeL/gemma-4-31B-it"
-    ],
-    "family": "gemma-4-it"
   },
   {
     "id": "huggingface:MiniMaxAI/MiniMax-M2.7",
@@ -16707,39 +16576,6 @@
     "family": "Trinity Large"
   },
   {
-    "id": "huggingface:juanquivilla/sotto-cleanup-lfm25-350m-mlx-5bit",
-    "name": "sotto-cleanup-lfm25-350m-mlx-5bit",
-    "provider": "juanquivilla",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T13:09:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/juanquivilla/sotto-cleanup-lfm25-350m-mlx-5bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "lfm2",
-      "speech-to-text",
-      "transcript-cleanup"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.403074+00:00",
-    "source_ids": [
-      "juanquivilla/sotto-cleanup-lfm25-350m-mlx-5bit"
-    ],
-    "family": "sotto-cleanup-lfm25-350m-mlx-5bit"
-  },
-  {
     "id": "huggingface:kojima-lab/molcrawl-molecule-nat-lang-gpt2-xl",
     "name": "molcrawl-molecule-nat-lang-gpt2-xl",
     "provider": "kojima-lab",
@@ -16971,39 +16807,6 @@
     "family": "LongShuGameDev-Qwen3.5-REAP-Architect-MLX-4bit"
   },
   {
-    "id": "huggingface:VladShash/olmo-3-7b-lean-prover-dpo",
-    "name": "olmo-3-7b-lean-prover-dpo",
-    "provider": "VladShash",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T11:12:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/VladShash/olmo-3-7b-lean-prover-dpo",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.402895+00:00",
-    "source_ids": [
-      "VladShash/olmo-3-7b-lean-prover-dpo"
-    ],
-    "family": "olmo-3-lean-prover-dpo"
-  },
-  {
     "id": "huggingface:caiovicentino1/Qwen3.5-27B-HLWQ-Q5",
     "name": "Qwen3.5-27B-HLWQ-Q5",
     "provider": "caiovicentino1",
@@ -17203,39 +17006,6 @@
       "nvidia/Ising-Calibration-1-35B-A3B"
     ],
     "family": "Ising-Calibration-1"
-  },
-  {
-    "id": "huggingface:robertou2/task-21-Qwen-Qwen3.5-4B",
-    "name": "task-21-Qwen-Qwen3.5-4B",
-    "provider": "robertou2",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-29T11:25:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/robertou2/task-21-Qwen-Qwen3.5-4B",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3.5-4B",
-      "lora",
-      "transformers"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.402857+00:00",
-    "source_ids": [
-      "robertou2/task-21-Qwen-Qwen3.5-4B"
-    ],
-    "family": "task-21-Qwen-Qwen3.5"
   },
   {
     "id": "huggingface:prism-ml/Bonsai-1.7B-mlx-1bit",
@@ -18643,74 +18413,6 @@
       "staedi/sentiment-llama-3.2"
     ],
     "family": "sentiment-llama-3.2"
-  },
-  {
-    "id": "huggingface:aufklarer/Qwen3-ASR-1.7B-MLX-4bit",
-    "name": "Qwen3-ASR-1.7B-MLX-4bit",
-    "provider": "aufklarer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-08T18:31:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aufklarer/Qwen3-ASR-1.7B-MLX-4bit",
-    "tags": [
-      "automatic-speech-recognition",
-      "mlx",
-      "safetensors",
-      "qwen3_asr",
-      "speech",
-      "asr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.797580+00:00",
-    "source_ids": [
-      "aufklarer/Qwen3-ASR-1.7B-MLX-4bit"
-    ],
-    "family": "Qwen3-ASR-MLX-4bit"
-  },
-  {
-    "id": "huggingface:aufklarer/Qwen3-ASR-CoreML",
-    "name": "Qwen3-ASR-CoreML",
-    "provider": "aufklarer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-07T19:31:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aufklarer/Qwen3-ASR-CoreML",
-    "tags": [
-      "automatic-speech-recognition",
-      "coreml",
-      "qwen3-asr-decoder-coreml",
-      "speech",
-      "asr",
-      "qwen3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-12T08:20:48.797517+00:00",
-    "source_ids": [
-      "aufklarer/Qwen3-ASR-CoreML"
-    ],
-    "family": "Qwen3-ASR-CoreML"
   },
   {
     "id": "huggingface:EricSpencer00/chattla-20b",
