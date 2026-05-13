@@ -2388,6 +2388,76 @@
     "family": "tur_10mb_baseline_seed3407"
   },
   {
+    "id": "huggingface:eaddario/Qwen3.6-35B-A3B-GGUF",
+    "name": "Qwen3.6-35B-A3B-GGUF",
+    "provider": "eaddario",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-01T17:34:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eaddario/Qwen3.6-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quant",
+      "target_bpw",
+      "experimental",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T16:51:11.422789+00:00",
+    "source_ids": [
+      "eaddario/Qwen3.6-35B-A3B-GGUF"
+    ],
+    "family": "Qwen3.6"
+  },
+  {
+    "id": "huggingface:eaddario/Qwen3.6-27B-GGUF",
+    "name": "Qwen3.6-27B-GGUF",
+    "provider": "eaddario",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-01T17:34:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eaddario/Qwen3.6-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quant",
+      "target_bpw",
+      "experimental",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T16:51:11.422759+00:00",
+    "source_ids": [
+      "eaddario/Qwen3.6-27B-GGUF"
+    ],
+    "family": "Qwen3.6"
+  },
+  {
     "id": "huggingface:stabilityai/stable-diffusion-3.5-medium-amdnpu",
     "name": "stable-diffusion-3.5-medium-amdnpu",
     "provider": "Stability AI",
@@ -12782,32 +12852,6 @@
     "family": "Qwen3-EdgeRazor"
   },
   {
-    "id": "openrouter:openrouter/elephant-alpha",
-    "name": "Elephant",
-    "provider": "openrouter",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-13T03:56:38+00:00",
-    "context_length": 262144,
-    "description": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage. It supports a 256K context window with up to 32K output...",
-    "url": "https://openrouter.ai/openrouter/elephant-alpha",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-13T16:31:22.285127+00:00",
-    "source_ids": [
-      "openrouter/elephant-alpha"
-    ],
-    "family": "Elephant"
-  },
-  {
     "id": "huggingface:ubergarm/MiniMax-M2.7-GGUF",
     "name": "MiniMax-M2.7-GGUF",
     "provider": "ubergarm",
@@ -14528,39 +14572,6 @@
     "family": "gemma-4-it-Claude-Opus-Distill-v2"
   },
   {
-    "id": "huggingface:reaperdoesntknow/Shepherd-Alpha",
-    "name": "Shepherd-Alpha",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T14:54:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/Shepherd-Alpha",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "tactical-reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T16:31:22.480075+00:00",
-    "source_ids": [
-      "reaperdoesntknow/Shepherd-Alpha"
-    ],
-    "family": "Shepherd-Alpha"
-  },
-  {
     "id": "huggingface:avlp12/GLM-5.1-Alis-MLX-Dynamic-2.7bpw",
     "name": "GLM-5.1-Alis-MLX-Dynamic-2.7bpw",
     "provider": "avlp12",
@@ -15636,41 +15647,6 @@
       "nightmedia/gemma-4-26B-A4B-it-qx86-hi-mlx"
     ],
     "family": "gemma-4-it-qx86-hi-mlx"
-  },
-  {
-    "id": "huggingface:ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
-    "name": "Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
-    "provider": "ZERO-POINT-INTELLIGENCE-LTD",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T01:39:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gguf",
-      "qwen3_5",
-      "Z.P.I",
-      "ghost pass"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T16:31:23.537762+00:00",
-    "source_ids": [
-      "ZERO-POINT-INTELLIGENCE-LTD/Miss-MARTHA-hot-POCKET-edition-2B-OMNI"
-    ],
-    "family": "Miss-MARTHA-hot-POCKET-edition-OMNI"
   },
   {
     "id": "huggingface:ZERO-POINT-AI/Miss-MARTHA-hot-POCKET-edition-2B-OMNI",
@@ -16899,6 +16875,41 @@
     "family": "LFM2.5-350M-home-assistant-sft"
   },
   {
+    "id": "huggingface:software-mansion/react-native-executorch-lfm-2.5",
+    "name": "react-native-executorch-lfm-2.5",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T10:15:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-lfm-2.5",
+    "tags": [
+      "image-text-to-text",
+      "executorch",
+      "liquid",
+      "lfm2",
+      "lfm2-vl",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T16:51:11.422635+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-lfm-2.5"
+    ],
+    "family": "react-native-executorch-lfm-2.5"
+  },
+  {
     "id": "huggingface:caiovicentino1/Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
     "name": "Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
     "provider": "caiovicentino1",
@@ -17999,41 +18010,6 @@
     "family": "GPT-X-125M"
   },
   {
-    "id": "huggingface:jiwon9703/Qwen3.5-KoReasoin-27B-v1",
-    "name": "Qwen3.5-KoReasoin-27B-v1",
-    "provider": "jiwon9703",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-23T00:45:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jiwon9703/Qwen3.5-KoReasoin-27B-v1",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T16:31:23.537847+00:00",
-    "source_ids": [
-      "jiwon9703/Qwen3.5-KoReasoin-27B-v1"
-    ],
-    "family": "Qwen3.5-KoReasoin-v1"
-  },
-  {
     "id": "huggingface:smithblack-0/llama3_baseline",
     "name": "llama3_baseline",
     "provider": "smithblack-0",
@@ -18201,39 +18177,6 @@
       "Remidesbois/LightonOCR-2-1b-poneglyph"
     ],
     "family": "LightonOCR-2-poneglyph"
-  },
-  {
-    "id": "huggingface:justindal/llama3.1-8b-instruct",
-    "name": "llama3.1-8b-instruct",
-    "provider": "justindal",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-19T21:59:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/justindal/llama3.1-8b-instruct",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "llama",
-      "facebook",
-      "meta"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T16:31:22.480434+00:00",
-    "source_ids": [
-      "justindal/llama3.1-8b-instruct"
-    ],
-    "family": "llama3.1"
   },
   {
     "id": "huggingface:huggingworld/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX",
@@ -19250,6 +19193,41 @@
     "first_seen": "2026-05-13T12:50:14.236052+00:00",
     "source_ids": [
       "unsloth/Qwen3.5-2B"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen3.5-9B",
+    "name": "Qwen3.5-9B",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-28T14:04:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.5-9B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T16:51:11.422829+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.5-9B"
     ],
     "family": "Qwen3.5"
   },
@@ -21750,40 +21728,6 @@
       "ResembleAI/chatterbox"
     ],
     "family": "chatterbox"
-  },
-  {
-    "id": "huggingface:nvidia/parakeet-tdt-0.6b-v2",
-    "name": "parakeet-tdt-0.6b-v2",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-15T19:31:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "automatic-speech-recognition",
-      "speech",
-      "audio",
-      "Transducer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T16:31:23.375927+00:00",
-    "source_ids": [
-      "nvidia/parakeet-tdt-0.6b-v2"
-    ],
-    "family": "parakeet-tdt-v2"
   },
   {
     "id": "huggingface:llamafactory/tiny-random-Llama-4",
