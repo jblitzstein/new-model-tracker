@@ -1648,6 +1648,39 @@
     "family": "VieNeu-TTS-v2"
   },
   {
+    "id": "huggingface:khairi/6L-ALT-f32-student-SFT",
+    "name": "6L-ALT-f32-student-SFT",
+    "provider": "khairi",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-05T22:19:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/khairi/6L-ALT-f32-student-SFT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "opt",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T20:37:11.960512+00:00",
+    "source_ids": [
+      "khairi/6L-ALT-f32-student-SFT"
+    ],
+    "family": "6L-ALT-f32-student-SFT"
+  },
+  {
     "id": "huggingface:ethicalabs/Echo-DSRN-Qwen2.5-0.5B-Hybrid",
     "name": "Echo-DSRN-Qwen2.5-0.5B-Hybrid",
     "provider": "ethicalabs",
@@ -8289,6 +8322,39 @@
     "family": "blue-lora"
   },
   {
+    "id": "huggingface:varjosoft/Qwen3.6-35B-A3B-TQ3-native",
+    "name": "Qwen3.6-35B-A3B-TQ3-native",
+    "provider": "varjosoft",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-19T20:32:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/varjosoft/Qwen3.6-35B-A3B-TQ3-native",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "qwen3_5_moe",
+      "turboquant",
+      "tq3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T20:37:11.960614+00:00",
+    "source_ids": [
+      "varjosoft/Qwen3.6-35B-A3B-TQ3-native"
+    ],
+    "family": "Qwen3.6-TQ3-native"
+  },
+  {
     "id": "huggingface:zecanard/gemma-4-31b-it-uncensored-heretic-ara-MLX-2bit-mixed_2_6",
     "name": "gemma-4-31b-it-uncensored-heretic-ara-MLX-2bit-mixed_2_6",
     "provider": "zecanard",
@@ -12885,41 +12951,6 @@
     "family": "MiniMax-M2.7"
   },
   {
-    "id": "huggingface:MoonRide/gemma-4-31B-it-heretic-ara-GGUF",
-    "name": "gemma-4-31B-it-heretic-ara-GGUF",
-    "provider": "MoonRide",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T11:56:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MoonRide/gemma-4-31B-it-heretic-ara-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:25.558995+00:00",
-    "source_ids": [
-      "MoonRide/gemma-4-31B-it-heretic-ara-GGUF"
-    ],
-    "family": "gemma-4-it-heretic-ara"
-  },
-  {
     "id": "huggingface:froggeric/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-4bit",
     "name": "Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-4bit",
     "provider": "froggeric",
@@ -15045,39 +15076,6 @@
     "family": "gemma-4-it-ultra-uncensored-heretic"
   },
   {
-    "id": "huggingface:caiovicentino1/Qwopus-MoE-35B-A3B-HLWQ-Q5",
-    "name": "Qwopus-MoE-35B-A3B-HLWQ-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T21:47:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwopus-MoE-35B-A3B-HLWQ-Q5",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3_5_moe",
-      "hlwq",
-      "compressed-tensors",
-      "int4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.564013+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwopus-MoE-35B-A3B-HLWQ-Q5"
-    ],
-    "family": "Qwopus-MoE-HLWQ-Q5"
-  },
-  {
     "id": "huggingface:TheCluster/Gemma-4-26B-A4B-Heretic-MLX-bf16",
     "name": "Gemma-4-26B-A4B-Heretic-MLX-bf16",
     "provider": "TheCluster",
@@ -15991,39 +15989,6 @@
     "family": "EXAONE-4.5"
   },
   {
-    "id": "huggingface:caiovicentino1/Qwen3.5-9B-Neo-HLWQ-Q5",
-    "name": "Qwen3.5-9B-Neo-HLWQ-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-04T00:00:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwen3.5-9B-Neo-HLWQ-Q5",
-    "tags": [
-      "text-generation",
-      "qwen3_5_text",
-      "hlwq",
-      "qwen3.5",
-      "quantized",
-      "kv-cache-compression"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.564091+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwen3.5-9B-Neo-HLWQ-Q5"
-    ],
-    "family": "Qwen3.5-Neo-HLWQ-Q5"
-  },
-  {
     "id": "huggingface:QuantTrio/gemma-4-31B-it-AWQ",
     "name": "gemma-4-31B-it-AWQ",
     "provider": "QuantTrio",
@@ -16092,39 +16057,6 @@
       "QuantTrio/gemma-4-31B-it-AWQ-6Bit"
     ],
     "family": "gemma-4-it--6Bit"
-  },
-  {
-    "id": "huggingface:caiovicentino1/Qwopus3.5-27B-v3-HLWQ-Q5",
-    "name": "Qwopus3.5-27B-v3-HLWQ-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T23:37:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwopus3.5-27B-v3-HLWQ-Q5",
-    "tags": [
-      "text-generation",
-      "qwen3_5_text",
-      "hlwq",
-      "qwen3.5",
-      "claude-opus",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.563986+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwopus3.5-27B-v3-HLWQ-Q5"
-    ],
-    "family": "Qwopus3.5-v3-HLWQ-Q5"
   },
   {
     "id": "huggingface:lunahr/CeluneNorm-0.6B-v1.1",
@@ -16910,105 +16842,6 @@
     "family": "react-native-executorch-lfm-2.5"
   },
   {
-    "id": "huggingface:caiovicentino1/Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
-    "name": "Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T00:16:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwopus3.5-9B-v3-HLWQ-MLX-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "hlwq",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.563954+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwopus3.5-9B-v3-HLWQ-MLX-4bit"
-    ],
-    "family": "Qwopus3.5-v3-HLWQ-MLX-4bit"
-  },
-  {
-    "id": "huggingface:caiovicentino1/Qwopus3.5-9B-v3-HLWQ-Q5",
-    "name": "Qwopus3.5-9B-v3-HLWQ-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T23:11:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwopus3.5-9B-v3-HLWQ-Q5",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3_5",
-      "hlwq",
-      "gptq",
-      "int4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.563924+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwopus3.5-9B-v3-HLWQ-Q5"
-    ],
-    "family": "Qwopus3.5-v3-HLWQ-Q5"
-  },
-  {
-    "id": "huggingface:caiovicentino1/Qwen3.5-9B-Claude-Opus-HLWQ-Q5",
-    "name": "Qwen3.5-9B-Claude-Opus-HLWQ-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T22:16:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwen3.5-9B-Claude-Opus-HLWQ-Q5",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "hlwq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.564119+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwen3.5-9B-Claude-Opus-HLWQ-Q5"
-    ],
-    "family": "Qwen3.5-Claude-Opus-HLWQ-Q5"
-  },
-  {
     "id": "huggingface:mudler/Qwen3.5-35B-A3B-APEX-GGUF",
     "name": "Qwen3.5-35B-A3B-APEX-GGUF",
     "provider": "mudler",
@@ -17042,72 +16875,6 @@
     "family": "Qwen3.5-APEX"
   },
   {
-    "id": "huggingface:caiovicentino1/Qwen3.5-27B-HLWQ-Q5",
-    "name": "Qwen3.5-27B-HLWQ-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-31T01:19:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwen3.5-27B-HLWQ-Q5",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "hlwq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.564146+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwen3.5-27B-HLWQ-Q5"
-    ],
-    "family": "Qwen3.5-HLWQ-Q5"
-  },
-  {
-    "id": "huggingface:caiovicentino1/Qwen3.5-9B-HLWQ-MLX-4bit",
-    "name": "Qwen3.5-9B-HLWQ-MLX-4bit",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-30T22:34:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwen3.5-9B-HLWQ-MLX-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "hlwq",
-      "quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.564063+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwen3.5-9B-HLWQ-MLX-4bit"
-    ],
-    "family": "Qwen3.5-HLWQ-MLX-4bit"
-  },
-  {
     "id": "huggingface:GeorgeUwaifo/ivie_gpt2_new01c_results",
     "name": "ivie_gpt2_new01c_results",
     "provider": "GeorgeUwaifo",
@@ -17139,39 +16906,6 @@
       "GeorgeUwaifo/ivie_gpt2_new01c_results"
     ],
     "family": "ivie_gpt2_new01c_results"
-  },
-  {
-    "id": "huggingface:caiovicentino1/Qwen3.5-9B-HLWQ-Q5",
-    "name": "Qwen3.5-9B-HLWQ-Q5",
-    "provider": "caiovicentino1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-30T21:21:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/caiovicentino1/Qwen3.5-9B-HLWQ-Q5",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "hlwq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.564038+00:00",
-    "source_ids": [
-      "caiovicentino1/Qwen3.5-9B-HLWQ-Q5"
-    ],
-    "family": "Qwen3.5-HLWQ-Q5"
   },
   {
     "id": "huggingface:nvidia/PixelDiT-1300M-1024px",
@@ -18551,39 +18285,6 @@
     "family": "sentiment-llama-3.2"
   },
   {
-    "id": "huggingface:EricSpencer00/chattla-20b",
-    "name": "chattla-20b",
-    "provider": "EricSpencer00",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-06T20:25:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/EricSpencer00/chattla-20b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "gguf",
-      "gpt_oss",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:24.563804+00:00",
-    "source_ids": [
-      "EricSpencer00/chattla-20b"
-    ],
-    "family": "chattla"
-  },
-  {
     "id": "huggingface:mlx-community/Qwen3.5-9B-OptiQ-4bit",
     "name": "Qwen3.5-9B-OptiQ-4bit",
     "provider": "mlx-community",
@@ -18849,6 +18550,41 @@
       "mlx-community/Qwen3.5-0.8B-OptiQ-4bit"
     ],
     "family": "Qwen3.5-OptiQ-4bit"
+  },
+  {
+    "id": "huggingface:Vishva007/Qwen3.5-9B-W4A16-AutoRound",
+    "name": "Qwen3.5-9B-W4A16-AutoRound",
+    "provider": "Vishva007",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T20:18:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vishva007/Qwen3.5-9B-W4A16-AutoRound",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "qwen",
+      "vlm",
+      "vllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T20:37:12.797542+00:00",
+    "source_ids": [
+      "Vishva007/Qwen3.5-9B-W4A16-AutoRound"
+    ],
+    "family": "Qwen3.5-W4A16-AutoRound"
   },
   {
     "id": "huggingface:CrashOverrideX/Quillan-Ronin",
@@ -21498,6 +21234,39 @@
     "family": "parakeet-tdt-v3"
   },
   {
+    "id": "huggingface:dphn/Dolphin-Mistral-24B-Venice-Edition-FP8",
+    "name": "Dolphin-Mistral-24B-Venice-Edition-FP8",
+    "provider": "dphn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-24T13:38:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dphn/Dolphin-Mistral-24B-Venice-Edition-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "image-text-to-text",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T20:37:11.960972+00:00",
+    "source_ids": [
+      "dphn/Dolphin-Mistral-24B-Venice-Edition-FP8"
+    ],
+    "family": "Dolphin-Mistral-Venice-Edition-FP8"
+  },
+  {
     "id": "huggingface:trl-internal-testing/tiny-Gemma3ForConditionalGeneration",
     "name": "tiny-Gemma3ForConditionalGeneration",
     "provider": "trl-internal-testing",
@@ -22099,40 +21868,6 @@
     "family": "gguf"
   },
   {
-    "id": "huggingface:distil-whisper/distil-large-v3.5",
-    "name": "distil-large-v3.5",
-    "provider": "distil-whisper",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-12-05T16:28:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/distil-whisper/distil-large-v3.5",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-13T20:23:25.419280+00:00",
-    "source_ids": [
-      "distil-whisper/distil-large-v3.5"
-    ],
-    "family": "distil-large-v3.5"
-  },
-  {
     "id": "huggingface:DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF",
     "name": "MN-DARKEST-UNIVERSE-29B-GGUF",
     "provider": "DavidAU",
@@ -22164,6 +21899,39 @@
       "DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF"
     ],
     "family": "MN-DARKEST-UNIVERSE"
+  },
+  {
+    "id": "huggingface:software-mansion/react-native-executorch-llama-3.2",
+    "name": "react-native-executorch-llama-3.2",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-15T09:41:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-llama-3.2",
+    "tags": [
+      "text-generation",
+      "executorch",
+      "text-generation",
+      "conversational",
+      "license:llama3.2",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-13T20:37:11.960842+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-llama-3.2"
+    ],
+    "family": "react-native-executorch-llama-3.2"
   },
   {
     "id": "huggingface:DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
