@@ -305,6 +305,41 @@
     "family": "Qwen3.6-Uncensored-Claude-Wasserstein-MTP"
   },
   {
+    "id": "huggingface:GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP",
+    "name": "Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP",
+    "provider": "GestaltLabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-11T17:07:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "safetensors",
+      "qwen3_5_moe",
+      "mtp",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-14T20:34:33.014935+00:00",
+    "source_ids": [
+      "GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP"
+    ],
+    "family": "Qwen3.6-NSC-ACE-SABER--MTP"
+  },
+  {
     "id": "huggingface:unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
     "name": "Qwen3.6-35B-A3B-MTP-GGUF",
     "provider": "unsloth",
@@ -5983,6 +6018,41 @@
     "family": "Gemma-4-E-IT-SFT-RLVR-Medical"
   },
   {
+    "id": "huggingface:hampsonw/Qwen3.6-27B-AWQ-BF16-INT4-mtp-bf16",
+    "name": "Qwen3.6-27B-AWQ-BF16-INT4-mtp-bf16",
+    "provider": "hampsonw",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T20:58:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hampsonw/Qwen3.6-27B-AWQ-BF16-INT4-mtp-bf16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-14T20:34:33.014767+00:00",
+    "source_ids": [
+      "hampsonw/Qwen3.6-27B-AWQ-BF16-INT4-mtp-bf16"
+    ],
+    "family": "Qwen3.6--BF16-INT4-mtp-bf16"
+  },
+  {
     "id": "huggingface:Kasper-Bankler/gemma-4-E2B-uncensored",
     "name": "gemma-4-E2B-uncensored",
     "provider": "Kasper-Bankler",
@@ -10418,6 +10488,41 @@
       "batiai/Qwen3.6-35B-A3B-GGUF"
     ],
     "family": "Qwen3.6"
+  },
+  {
+    "id": "huggingface:DJLougen/Ornstein3.6-35B-A3B-GGUF",
+    "name": "Ornstein3.6-35B-A3B-GGUF",
+    "provider": "DJLougen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T18:35:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "safetensors",
+      "qwen3_5_moe",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-14T20:34:33.014996+00:00",
+    "source_ids": [
+      "DJLougen/Ornstein3.6-35B-A3B-GGUF"
+    ],
+    "family": "Ornstein3.6"
   },
   {
     "id": "huggingface:TheCluster/Qwen3.6-35B-A3B-MLX-mixed-9bit",
@@ -16019,41 +16124,6 @@
     "family": "gemma-4-MLX-9bit"
   },
   {
-    "id": "huggingface:coder3101/gemma-4-26B-A4B-it-heretic",
-    "name": "gemma-4-26B-A4B-it-heretic",
-    "provider": "coder3101",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T20:55:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/coder3101/gemma-4-26B-A4B-it-heretic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T20:23:19.867833+00:00",
-    "source_ids": [
-      "coder3101/gemma-4-26B-A4B-it-heretic"
-    ],
-    "family": "gemma-4-it-heretic"
-  },
-  {
     "id": "huggingface:Smoffyy/Gemma4-E4B-Instruct-Pure-GGUF",
     "name": "Gemma4-E4B-Instruct-Pure-GGUF",
     "provider": "Smoffyy",
@@ -18161,41 +18231,6 @@
       "TheCluster/Qwen3.5-9B-Heretic-MLX-mxfp4"
     ],
     "family": "Qwen3.5-Heretic-MLX-mxfp4"
-  },
-  {
-    "id": "huggingface:trohrbaugh/Qwen3.5-9B-heretic-v2",
-    "name": "Qwen3.5-9B-heretic-v2",
-    "provider": "trohrbaugh",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-02T22:56:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trohrbaugh/Qwen3.5-9B-heretic-v2",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T20:23:19.867797+00:00",
-    "source_ids": [
-      "trohrbaugh/Qwen3.5-9B-heretic-v2"
-    ],
-    "family": "Qwen3.5-heretic-v2"
   },
   {
     "id": "huggingface:onnx-community/Qwen3.5-0.8B-ONNX",
