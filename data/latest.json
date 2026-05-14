@@ -10426,6 +10426,41 @@
     "family": "Qwen3.6-F32"
   },
   {
+    "id": "huggingface:mlx-community/Qwen3.6-35B-A3B-mxfp8",
+    "name": "Qwen3.6-35B-A3B-mxfp8",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T16:26:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Qwen3.6-35B-A3B-mxfp8",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-14T09:01:01.234313+00:00",
+    "source_ids": [
+      "mlx-community/Qwen3.6-35B-A3B-mxfp8"
+    ],
+    "family": "Qwen3.6-mxfp8"
+  },
+  {
     "id": "huggingface:NexVeridian/Qwen3.6-35B-A3B-4bit",
     "name": "Qwen3.6-35B-A3B-4bit",
     "provider": "NexVeridian",
@@ -12117,39 +12152,6 @@
       "DreamFast/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark"
     ],
     "family": "Qwen3-2507--Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark"
-  },
-  {
-    "id": "huggingface:piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF",
-    "name": "BugTraceAI-Apex-G4-26B-Master-GGUF",
-    "provider": "piotreknow02",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-13T20:06:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "security",
-      "cybersecurity",
-      "offensive-security",
-      "dpo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:42.442592+00:00",
-    "source_ids": [
-      "piotreknow02/BugTraceAI-Apex-G4-26B-Master-GGUF"
-    ],
-    "family": "BugTraceAI-Apex-G4-Master"
   },
   {
     "id": "huggingface:allenai/intent-aware-lfqa-llama3-8b-intent-explicit",
@@ -13861,40 +13863,6 @@
     "family": "Darwin-Genesis"
   },
   {
-    "id": "huggingface:KuroTo4ka/Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
-    "name": "Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
-    "provider": "KuroTo4ka",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T21:23:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/KuroTo4ka/Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF",
-    "tags": [
-      "image-to-text",
-      "gguf",
-      "vision",
-      "multimodal",
-      "qwen",
-      "qwen-3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:42.710609+00:00",
-    "source_ids": [
-      "KuroTo4ka/Qwen3-VL-8B-Instruct-Unredacted-MAX-Quants-GGUF"
-    ],
-    "family": "Qwen3-VL--Unredacted-MAX-Quants"
-  },
-  {
     "id": "huggingface:ADSKAILab/Zero-To-CAD-Qwen3-VL-2B",
     "name": "Zero-To-CAD-Qwen3-VL-2B",
     "provider": "ADSKAILab",
@@ -14497,76 +14465,6 @@
     "family": "Lance-AI-V2"
   },
   {
-    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-GGUF",
-    "name": "EXAONE-4.5-33B-GGUF",
-    "provider": "LGAI-EXAONE",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T16:29:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "lg-ai",
-      "exaone",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:43.414752+00:00",
-    "source_ids": [
-      "LGAI-EXAONE/EXAONE-4.5-33B-GGUF"
-    ],
-    "family": "EXAONE-4.5"
-  },
-  {
-    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-FP8",
-    "name": "EXAONE-4.5-33B-FP8",
-    "provider": "LGAI-EXAONE",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T16:29:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B-FP8",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "exaone4_5",
-      "text-generation",
-      "lg-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:43.414778+00:00",
-    "source_ids": [
-      "LGAI-EXAONE/EXAONE-4.5-33B-FP8"
-    ],
-    "family": "EXAONE-4.5-FP8"
-  },
-  {
     "id": "huggingface:TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2",
     "name": "gemma-4-26B-A4B-it-Claude-Opus-Distill-v2",
     "provider": "TeichAI",
@@ -14902,41 +14800,6 @@
       "Green-eyedDevil/Monika-31B-GGUFs"
     ],
     "family": "Monika-GGUFs"
-  },
-  {
-    "id": "huggingface:lthn/lemmy",
-    "name": "lemmy",
-    "provider": "lthn",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T20:15:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lthn/lemmy",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "gemma4",
-      "lemma",
-      "llama.cpp",
-      "ollama"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:43.414609+00:00",
-    "source_ids": [
-      "lthn/lemmy"
-    ],
-    "family": "lemmy"
   },
   {
     "id": "huggingface:cstr/parakeet-tdt-0.6b-v3-GGUF",
@@ -15848,41 +15711,6 @@
     "family": "gemma-4-it-heretic-ara"
   },
   {
-    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B",
-    "name": "EXAONE-4.5-33B",
-    "provider": "LGAI-EXAONE",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-04T08:34:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "exaone4_5",
-      "text-generation",
-      "lg-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:43.414730+00:00",
-    "source_ids": [
-      "LGAI-EXAONE/EXAONE-4.5-33B"
-    ],
-    "family": "EXAONE-4.5"
-  },
-  {
     "id": "huggingface:QuantTrio/gemma-4-31B-it-AWQ",
     "name": "gemma-4-31B-it-AWQ",
     "provider": "QuantTrio",
@@ -16334,41 +16162,6 @@
       "YTan2000/Qwopus3.5-27B-v3-TQ3_4S"
     ],
     "family": "Qwopus3.5-v3-TQ3_4S"
-  },
-  {
-    "id": "huggingface:opendatalab/MinerU2.5-Pro-2604-1.2B",
-    "name": "MinerU2.5-Pro-2604-1.2B",
-    "provider": "opendatalab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T14:11:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/opendatalab/MinerU2.5-Pro-2604-1.2B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:43.414520+00:00",
-    "source_ids": [
-      "opendatalab/MinerU2.5-Pro-2604-1.2B"
-    ],
-    "family": "MinerU2.5-Pro-2604"
   },
   {
     "id": "huggingface:baidu/ERNIE-Image-Turbo",
@@ -19746,41 +19539,6 @@
     "family": "pocket-tts-coreml"
   },
   {
-    "id": "huggingface:Alibaba-DAMO-Academy/RynnBrain-Nav-8B",
-    "name": "RynnBrain-Nav-8B",
-    "provider": "Alibaba-DAMO-Academy",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-28T08:55:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain-Nav-8B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "robotics"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:43.414695+00:00",
-    "source_ids": [
-      "Alibaba-DAMO-Academy/RynnBrain-Nav-8B"
-    ],
-    "family": "RynnBrain-Nav"
-  },
-  {
     "id": "openrouter:arcee-ai/trinity-large-preview",
     "name": "Arcee AI: Trinity Large Preview",
     "provider": "Arcee AI",
@@ -21621,6 +21379,40 @@
     "family": "react-native-executorch-llama-3.2"
   },
   {
+    "id": "huggingface:enhanceaiteam/Flux-uncensored",
+    "name": "Flux-uncensored",
+    "provider": "enhanceaiteam",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-09-03T04:53:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/enhanceaiteam/Flux-uncensored",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "stable-diffusion",
+      "lora",
+      "fluxpipeline"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-14T09:01:00.361791+00:00",
+    "source_ids": [
+      "enhanceaiteam/Flux-uncensored"
+    ],
+    "family": "Flux-uncensored"
+  },
+  {
     "id": "huggingface:DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
     "name": "Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
     "provider": "DavidAU",
@@ -22262,40 +22054,6 @@
       "DUTIR-BioNLP/Taiyi-LLM"
     ],
     "family": "Taiyi-LLM"
-  },
-  {
-    "id": "huggingface:nyadla-sys/whisper-tiny.en.tflite",
-    "name": "whisper-tiny.en.tflite",
-    "provider": "nyadla-sys",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-09-03T01:32:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nyadla-sys/whisper-tiny.en.tflite",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "tflite",
-      "whisper",
-      "speech-recognition",
-      "on-device"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-14T08:38:43.264408+00:00",
-    "source_ids": [
-      "nyadla-sys/whisper-tiny.en.tflite"
-    ],
-    "family": "whisper-tiny.en.tflite"
   },
   {
     "id": "huggingface:cyberdelia/CyberRealistic",
