@@ -5074,6 +5074,41 @@
     "family": "List-3.0-Ultra-Coder-Brain"
   },
   {
+    "id": "huggingface:Xingyu-Zheng/Qwopus3.6-27B-v1-preview-INT4-FOEM",
+    "name": "Qwopus3.6-27B-v1-preview-INT4-FOEM",
+    "provider": "Xingyu-Zheng",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T09:00:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Xingyu-Zheng/Qwopus3.6-27B-v1-preview-INT4-FOEM",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "unsloth",
+      "qwen",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-15T20:29:43.920674+00:00",
+    "source_ids": [
+      "Xingyu-Zheng/Qwopus3.6-27B-v1-preview-INT4-FOEM"
+    ],
+    "family": "Qwopus3.6-v1--INT4-FOEM"
+  },
+  {
     "id": "huggingface:manjunathshiva/Nemotron-3-Super-120B-A12B-tq3a-tq2e-g32",
     "name": "Nemotron-3-Super-120B-A12B-tq3a-tq2e-g32",
     "provider": "manjunathshiva",
@@ -13743,39 +13778,6 @@
     "family": "supergemma4-abliterated-multimodal"
   },
   {
-    "id": "huggingface:michelinolinolino/gemma4-4b-sci",
-    "name": "gemma4-4b-sci",
-    "provider": "michelinolinolino",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T08:48:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/michelinolinolino/gemma4-4b-sci",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "safetensors",
-      "gemma4",
-      "gemma",
-      "gemma-4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T20:21:16.048407+00:00",
-    "source_ids": [
-      "michelinolinolino/gemma4-4b-sci"
-    ],
-    "family": "gemma4-sci"
-  },
-  {
     "id": "huggingface:Vishva007/gemma-4-E4B-it-W4A16-AutoRound-GPTQ",
     "name": "gemma-4-E4B-it-W4A16-AutoRound-GPTQ",
     "provider": "Vishva007",
@@ -14679,39 +14681,6 @@
       "OnurDemircioglu/OmniGPT-355M"
     ],
     "family": "OmniGPT-355M"
-  },
-  {
-    "id": "huggingface:MiniMaxAI/MiniMax-M2.7",
-    "name": "MiniMax-M2.7",
-    "provider": "MiniMaxAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T03:37:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "minimax_m2",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T20:21:16.048550+00:00",
-    "source_ids": [
-      "MiniMaxAI/MiniMax-M2.7"
-    ],
-    "family": "MiniMax-M2.7"
   },
   {
     "id": "huggingface:Minthy/ToriiGate-0.5",
@@ -16163,76 +16132,6 @@
       "nibauman/ObjNav-Qwen3.5-4B-SFT"
     ],
     "family": "ObjNav-Qwen3.5-SFT"
-  },
-  {
-    "id": "huggingface:tiny-random/gemma-4-moe",
-    "name": "gemma-4-moe",
-    "provider": "tiny-random",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T08:35:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tiny-random/gemma-4-moe",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T20:21:17.027473+00:00",
-    "source_ids": [
-      "tiny-random/gemma-4-moe"
-    ],
-    "family": "gemma-4-moe"
-  },
-  {
-    "id": "huggingface:tiny-random/gemma-4-dense",
-    "name": "gemma-4-dense",
-    "provider": "tiny-random",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T08:08:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tiny-random/gemma-4-dense",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T20:21:17.027411+00:00",
-    "source_ids": [
-      "tiny-random/gemma-4-dense"
-    ],
-    "family": "gemma-4-dense"
   },
   {
     "id": "huggingface:inferencerlabs/gemma-4-26B-A4B-MLX-9bit",
@@ -17874,6 +17773,41 @@
     "family": "VoxCPM"
   },
   {
+    "id": "huggingface:z-lab/Qwen3.5-35B-A3B-PARO",
+    "name": "Qwen3.5-35B-A3B-PARO",
+    "provider": "z-lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T16:00:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/z-lab/Qwen3.5-35B-A3B-PARO",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "mlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-15T20:29:43.920772+00:00",
+    "source_ids": [
+      "z-lab/Qwen3.5-35B-A3B-PARO"
+    ],
+    "family": "Qwen3.5-PARO"
+  },
+  {
     "id": "huggingface:lyf/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4",
     "name": "Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4",
     "provider": "lyf",
@@ -19007,41 +18941,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-v1.2",
-    "name": "NVIDIA-Nemotron-Parse-v1.2",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-18T19:43:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.2",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_parse",
-      "feature-extraction",
-      "VLM"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T20:21:17.027520+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-Parse-v1.2"
-    ],
-    "family": "NVIDIA-Nemotron-Parse-v1.2"
-  },
-  {
     "id": "huggingface:Qwen/Qwen3.5-397B-A17B-FP8",
     "name": "Qwen3.5-397B-A17B-FP8",
     "provider": "Qwen",
@@ -20008,41 +19907,6 @@
     "family": "Breeze-ASR-26"
   },
   {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-v1.1-TC",
-    "name": "NVIDIA-Nemotron-Parse-v1.1-TC",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-15T19:47:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.1-TC",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_parse_tc",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T20:21:17.027554+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC"
-    ],
-    "family": "NVIDIA-Nemotron-Parse-v1.1-TC"
-  },
-  {
     "id": "huggingface:argmaxinc/parakeetkit-litert-pro",
     "name": "parakeetkit-litert-pro",
     "provider": "argmaxinc",
@@ -20175,6 +20039,72 @@
       "PleIAs/Baguettotron"
     ],
     "family": "Baguettotron"
+  },
+  {
+    "id": "huggingface:GenerTeam/GENERator-v2-eukaryote-3b-base",
+    "name": "GENERator-v2-eukaryote-3b-base",
+    "provider": "GenerTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-05T08:23:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GenerTeam/GENERator-v2-eukaryote-3b-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "biology"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-15T20:29:43.361098+00:00",
+    "source_ids": [
+      "GenerTeam/GENERator-v2-eukaryote-3b-base"
+    ],
+    "family": "GENERator-v2-eukaryote"
+  },
+  {
+    "id": "huggingface:GenerTeam/GENERator-v2-eukaryote-1.2b-base",
+    "name": "GENERator-v2-eukaryote-1.2b-base",
+    "provider": "GenerTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-05T08:18:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GenerTeam/GENERator-v2-eukaryote-1.2b-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "biology"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-15T20:29:43.361136+00:00",
+    "source_ids": [
+      "GenerTeam/GENERator-v2-eukaryote-1.2b-base"
+    ],
+    "family": "GENERator-v2-eukaryote"
   },
   {
     "id": "huggingface:z-lab/DeepSeek-R1-Distill-Llama-8B-PARO",
@@ -21215,34 +21145,6 @@
       "reaperdoesntknow/Symbiotic-1B"
     ],
     "family": "Symbiotic"
-  },
-  {
-    "id": "openrouter:meta-llama/llama-guard-4-12b:free",
-    "name": "Meta: Llama Guard 4 12B (free)",
-    "provider": "Meta",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-30T01:06:33+00:00",
-    "context_length": 163840,
-    "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM...",
-    "url": "https://openrouter.ai/meta-llama/llama-guard-4-12b:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-15T20:21:15.862922+00:00",
-    "source_ids": [
-      "meta-llama/llama-guard-4-12b:free"
-    ],
-    "family": "Llama Guard 4"
   },
   {
     "id": "huggingface:reaperdoesntknow/Symbiotic-Beta",
