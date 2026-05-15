@@ -1249,6 +1249,35 @@
     "family": "Ring-2.6-1T"
   },
   {
+    "id": "openrouter:inclusionai/ring-2.6-1t",
+    "name": "inclusionAI: Ring-2.6-1T",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T13:37:20+00:00",
+    "context_length": 262144,
+    "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
+    "url": "https://openrouter.ai/inclusionai/ring-2.6-1t",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.625
+    },
+    "first_seen": "2026-05-15T16:38:56.829352+00:00",
+    "source_ids": [
+      "inclusionai/ring-2.6-1t"
+    ],
+    "family": "Ring-2.6-1T"
+  },
+  {
     "id": "huggingface:mradermacher/Aura-4o-Refresh-Gemma-4-31B-Merged-GGUF",
     "name": "Aura-4o-Refresh-Gemma-4-31B-Merged-GGUF",
     "provider": "mradermacher",
@@ -18182,40 +18211,6 @@
     "family": "Qwen3-ASR"
   },
   {
-    "id": "huggingface:NO8D/ImagingControl",
-    "name": "ImagingControl",
-    "provider": "NO8D",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-03-04T13:23:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/NO8D/ImagingControl",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "template:diffusion-lora",
-      "slider",
-      "LoRA"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T16:26:50.581890+00:00",
-    "source_ids": [
-      "NO8D/ImagingControl"
-    ],
-    "family": "ImagingControl"
-  },
-  {
     "id": "huggingface:mlx-community/Qwen3.5-2B-OptiQ-4bit",
     "name": "Qwen3.5-2B-OptiQ-4bit",
     "provider": "mlx-community",
@@ -19080,41 +19075,6 @@
       "Qwen/Qwen3.5-397B-A17B-FP8"
     ],
     "family": "Qwen3.5-FP8"
-  },
-  {
-    "id": "huggingface:RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic",
-    "name": "Qwen3.5-397B-A17B-FP8-dynamic",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-18T07:24:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T16:26:51.092591+00:00",
-    "source_ids": [
-      "RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic"
-    ],
-    "family": "Qwen3.5-FP8-dynamic"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-Cohere2ForCausalLM",
@@ -22020,40 +21980,6 @@
       "cyberdelia/CyberRealisticPony"
     ],
     "family": "CyberRealisticPony"
-  },
-  {
-    "id": "huggingface:MahmoudAshraf/mms-300m-1130-forced-aligner",
-    "name": "mms-300m-1130-forced-aligner",
-    "provider": "MahmoudAshraf",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-05-02T21:02:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T16:26:50.998808+00:00",
-    "source_ids": [
-      "MahmoudAshraf/mms-300m-1130-forced-aligner"
-    ],
-    "family": "mms-300m-1130-forced-aligner"
   },
   {
     "id": "huggingface:RunDiffusion/Juggernaut-X-v10",
