@@ -2942,6 +2942,41 @@
     "family": "tur_10mb_baseline_seed3407"
   },
   {
+    "id": "huggingface:deucebucket/Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF",
+    "name": "Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF",
+    "provider": "deucebucket",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-01T18:29:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deucebucket/Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "GGUF",
+      "gemma4",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-15T09:09:37.132334+00:00",
+    "source_ids": [
+      "deucebucket/Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF"
+    ],
+    "family": "Gemma-4-it-Cerebellum-v6"
+  },
+  {
     "id": "huggingface:eaddario/Qwen3.6-35B-A3B-GGUF",
     "name": "Qwen3.6-35B-A3B-GGUF",
     "provider": "eaddario",
@@ -3713,6 +3748,41 @@
       "LyraNovaHeart/AuriAetherwiing_G4-26B-A4B-Musica-v1-GGUF"
     ],
     "family": "AuriAetherwiing_G4-Musica-v1"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
+    "name": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T07:33:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-15T09:09:37.131930+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking"
+    ],
+    "family": "Qwen3.6-Claude-4.6-Opus-Deckard-Heretic-Uncensored"
   },
   {
     "id": "huggingface:mradermacher/Garnet-OCR-7B-0422-i1-GGUF",
@@ -12264,39 +12334,6 @@
     "family": "Qwen3.5-Aggressive"
   },
   {
-    "id": "huggingface:mradermacher/SciRM-Ref-7B-i1-GGUF",
-    "name": "SciRM-Ref-7B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-14T12:35:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/SciRM-Ref-7B-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "reward-model",
-      "scientific-writing",
-      "evaluation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T08:38:46.011323+00:00",
-    "source_ids": [
-      "mradermacher/SciRM-Ref-7B-i1-GGUF"
-    ],
-    "family": "SciRM-Ref-i1"
-  },
-  {
     "id": "huggingface:0xSero/GLM-5.1-555B-A14B-REAP",
     "name": "GLM-5.1-555B-A14B-REAP",
     "provider": "0xSero",
@@ -13133,39 +13170,6 @@
       "majentik/gemma-4-E4B-RotorQuant-GGUF-IQ4_XS"
     ],
     "family": "gemma-4-E-RotorQuant--IQ4_XS"
-  },
-  {
-    "id": "huggingface:VladShash/olmo-3-7b-lean-prover-dpo-olmo",
-    "name": "olmo-3-7b-lean-prover-dpo-olmo",
-    "provider": "VladShash",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-13T15:13:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/VladShash/olmo-3-7b-lean-prover-dpo-olmo",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "olmo3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-15T08:38:46.011477+00:00",
-    "source_ids": [
-      "VladShash/olmo-3-7b-lean-prover-dpo-olmo"
-    ],
-    "family": "olmo-3-lean-prover-dpo-olmo"
   },
   {
     "id": "huggingface:majentik/gemma-4-E2B-RotorQuant-GGUF-IQ4_XS",
