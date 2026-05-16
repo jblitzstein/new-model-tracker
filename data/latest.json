@@ -857,6 +857,39 @@
     "family": "evolai-tfm-1p-04"
   },
   {
+    "id": "huggingface:morikomorizz/GRM-2.6-Opus-GGUF",
+    "name": "GRM-2.6-Opus-GGUF",
+    "provider": "morikomorizz",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-11T00:28:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/morikomorizz/GRM-2.6-Opus-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "conversational",
+      "reasoning",
+      "qwen3_5",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-16T20:18:55.950428+00:00",
+    "source_ids": [
+      "morikomorizz/GRM-2.6-Opus-GGUF"
+    ],
+    "family": "GRM-2.6-Opus"
+  },
+  {
     "id": "huggingface:storagejuju/glm-5.1-ud-iq2-m-juju",
     "name": "glm-5.1-ud-iq2-m-juju",
     "provider": "storagejuju",
@@ -5840,6 +5873,41 @@
       "boods/Qwen3-14B-FrenchMedical-Multilingual"
     ],
     "family": "Qwen3-FrenchMedical-Multilingual"
+  },
+  {
+    "id": "huggingface:reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+    "name": "UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+    "provider": "reedmayhew",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-26T13:59:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "safetensors",
+      "qwen",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-16T20:18:56.488159+00:00",
+    "source_ids": [
+      "reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+    ],
+    "family": "UD-2.0-Qwen3.6-Claude-4.6-Opus-Reasoning-Distilled"
   },
   {
     "id": "huggingface:antirez/deepseek-v4-gguf",
@@ -11783,37 +11851,6 @@
       "cmp-nct/Qwen3.6-35B-A3B-GGUF"
     ],
     "family": "Qwen3.6"
-  },
-  {
-    "id": "openrouter:anthropic/claude-opus-4.7",
-    "name": "Anthropic: Claude Opus 4.7",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T14:51:40+00:00",
-    "context_length": 1000000,
-    "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
-    "url": "https://openrouter.ai/anthropic/claude-opus-4.7",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 5.0,
-      "completion_per_million": 25.0
-    },
-    "first_seen": "2026-04-16T16:37:00.124507+00:00",
-    "source_ids": [
-      "anthropic/claude-opus-4.7"
-    ],
-    "family": "Claude Opus 4.7"
   },
   {
     "id": "huggingface:nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx",
@@ -21045,40 +21082,6 @@
       "TildeAI/TildeOpen-30b"
     ],
     "family": "TildeOpen"
-  },
-  {
-    "id": "huggingface:nvidia/parakeet-tdt-0.6b-v3",
-    "name": "parakeet-tdt-0.6b-v3",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-04T13:34:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "safetensors",
-      "parakeet_tdt",
-      "automatic-speech-recognition",
-      "speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-16T16:37:00.736956+00:00",
-    "source_ids": [
-      "nvidia/parakeet-tdt-0.6b-v3"
-    ],
-    "family": "parakeet-tdt-v3"
   },
   {
     "id": "huggingface:dphn/Dolphin-Mistral-24B-Venice-Edition-FP8",
