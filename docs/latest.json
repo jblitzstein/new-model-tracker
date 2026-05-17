@@ -486,6 +486,39 @@
     "family": "Qwen3.5-MTP"
   },
   {
+    "id": "huggingface:FrontiersMind/Nandi-Mini-600M-Early-Checkpoint",
+    "name": "Nandi-Mini-600M-Early-Checkpoint",
+    "provider": "FrontiersMind",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T10:53:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FrontiersMind/Nandi-Mini-600M-Early-Checkpoint",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nandi",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-17T20:20:02.140953+00:00",
+    "source_ids": [
+      "FrontiersMind/Nandi-Mini-600M-Early-Checkpoint"
+    ],
+    "family": "Nandi-Mini-600M-Early-Checkpoint"
+  },
+  {
     "id": "huggingface:nvidia/Wan2.2-T2V-A14B-Diffusers-FP8",
     "name": "Wan2.2-T2V-A14B-Diffusers-FP8",
     "provider": "NVIDIA",
@@ -14292,39 +14325,6 @@
     "family": "gemma-4-E-it-IQ4_NL"
   },
   {
-    "id": "huggingface:pthinc/Cicikus_v4_0.3B_Pitircik",
-    "name": "Cicikus_v4_0.3B_Pitircik",
-    "provider": "pthinc",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T08:08:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pthinc/Cicikus_v4_0.3B_Pitircik",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "gemma3_text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-17T20:17:23.960765+00:00",
-    "source_ids": [
-      "pthinc/Cicikus_v4_0.3B_Pitircik"
-    ],
-    "family": "Cicikus_v4_0.3B_Pitircik"
-  },
-  {
     "id": "huggingface:aufklarer/Omnilingual-ASR-CTC-300M-CoreML-INT8-10s",
     "name": "Omnilingual-ASR-CTC-300M-CoreML-INT8-10s",
     "provider": "aufklarer",
@@ -15867,6 +15867,41 @@
       "alonsoko/gemma-4-31b-it-abliterated-heretic-ara-AWQ"
     ],
     "family": "gemma-4-it-abliterated-heretic-ara"
+  },
+  {
+    "id": "huggingface:alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
+    "name": "gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
+    "provider": "alonsoko",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T00:12:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "gemma"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-17T20:20:02.745344+00:00",
+    "source_ids": [
+      "alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16"
+    ],
+    "family": "gemma-4-it-abliterated-heretic--W4A16"
   },
   {
     "id": "huggingface:codingmonster1234/chess-sft-modelv2",
