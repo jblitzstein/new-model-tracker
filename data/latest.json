@@ -3072,6 +3072,39 @@
     "family": "DeepSeek-V4-Flash--YMMV"
   },
   {
+    "id": "huggingface:North-ML1/Wind-Edge-1.6-GGUF",
+    "name": "Wind-Edge-1.6-GGUF",
+    "provider": "North-ML1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-03T17:51:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/North-ML1/Wind-Edge-1.6-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "wind-edge",
+      "causal-lm",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-17T00:51:04.452882+00:00",
+    "source_ids": [
+      "North-ML1/Wind-Edge-1.6-GGUF"
+    ],
+    "family": "Wind-Edge-1.6"
+  },
+  {
     "id": "huggingface:fuhaddesmond/illuma",
     "name": "illuma",
     "provider": "fuhaddesmond",
@@ -13043,39 +13076,6 @@
     "family": "gemma-4-E-it-W4A16-AutoRound"
   },
   {
-    "id": "huggingface:JANGQ-AI/MiniMax-M2.7-JANGTQ",
-    "name": "MiniMax-M2.7-JANGTQ",
-    "provider": "JANGQ-AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-14T05:03:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JANGQ-AI/MiniMax-M2.7-JANGTQ",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "minimax_m2",
-      "jang",
-      "jangtq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-17T00:40:51.901344+00:00",
-    "source_ids": [
-      "JANGQ-AI/MiniMax-M2.7-JANGTQ"
-    ],
-    "family": "MiniMax-M2.7-JANGTQ"
-  },
-  {
     "id": "huggingface:mradermacher/ToriiGate-0.5-i1-GGUF",
     "name": "ToriiGate-0.5-i1-GGUF",
     "provider": "mradermacher",
@@ -14220,72 +14220,6 @@
       "mradermacher/Huihui-Qwen3.5-2B-abliterated-Athanorlite-ORPO-i1-GGUF"
     ],
     "family": "Huihui-Qwen3.5-abliterated-Athanorlite-ORPO-i1"
-  },
-  {
-    "id": "huggingface:JANGQ-AI/MiniMax-M2.7-JANG_2L",
-    "name": "MiniMax-M2.7-JANG_2L",
-    "provider": "JANGQ-AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T05:29:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JANGQ-AI/MiniMax-M2.7-JANG_2L",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "minimax_m2",
-      "jang",
-      "minimax"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-17T00:40:51.901284+00:00",
-    "source_ids": [
-      "JANGQ-AI/MiniMax-M2.7-JANG_2L"
-    ],
-    "family": "MiniMax-M2.7-JANG_2L"
-  },
-  {
-    "id": "huggingface:JANGQ-AI/MiniMax-M2.7-JANG_3L",
-    "name": "MiniMax-M2.7-JANG_3L",
-    "provider": "JANGQ-AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T05:24:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JANGQ-AI/MiniMax-M2.7-JANG_3L",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "minimax_m2",
-      "jang",
-      "minimax"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-17T00:40:51.901229+00:00",
-    "source_ids": [
-      "JANGQ-AI/MiniMax-M2.7-JANG_3L"
-    ],
-    "family": "MiniMax-M2.7-JANG_3L"
   },
   {
     "id": "huggingface:krampenschiesser/MiniMax-M2.7-GGUF",
@@ -17707,39 +17641,6 @@
       "smithblack-0/llama3_baseline"
     ],
     "family": "llama3_baseline"
-  },
-  {
-    "id": "huggingface:JANGQ-AI/Nemotron-Cascade-2-30B-A3B-JANG_2L",
-    "name": "Nemotron-Cascade-2-30B-A3B-JANG_2L",
-    "provider": "JANGQ-AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-21T17:38:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JANGQ-AI/Nemotron-Cascade-2-30B-A3B-JANG_2L",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "nemotron_h",
-      "jang",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-17T00:40:51.901156+00:00",
-    "source_ids": [
-      "JANGQ-AI/Nemotron-Cascade-2-30B-A3B-JANG_2L"
-    ],
-    "family": "Nemotron-Cascade-2-JANG_2L"
   },
   {
     "id": "huggingface:dealignai/Qwen3.5-VL-397B-A17B-UNCENSORED-JANG_1L",
