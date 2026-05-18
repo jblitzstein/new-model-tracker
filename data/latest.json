@@ -35,6 +35,40 @@
     "family": "Qwen3.5-MTP"
   },
   {
+    "id": "huggingface:btsee/oron-tts",
+    "name": "oron-tts",
+    "provider": "btsee",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-16T12:57:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/btsee/oron-tts",
+    "tags": [
+      "text-to-speech",
+      "pytorch",
+      "tensorboard",
+      "tts",
+      "text-to-speech",
+      "mongolian"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T09:18:12.056009+00:00",
+    "source_ids": [
+      "btsee/oron-tts"
+    ],
+    "family": "oron-tts"
+  },
+  {
     "id": "huggingface:unsloth/Qwen3.5-122B-A10B-MTP-GGUF",
     "name": "Qwen3.5-122B-A10B-MTP-GGUF",
     "provider": "unsloth",
@@ -243,6 +277,73 @@
       "internlm/Intern-S2-Preview"
     ],
     "family": "Intern-S2"
+  },
+  {
+    "id": "huggingface:turtle170/TinyCode-4B",
+    "name": "TinyCode-4B",
+    "provider": "turtle170",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T09:19:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/turtle170/TinyCode-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "phi3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T09:18:11.765320+00:00",
+    "source_ids": [
+      "turtle170/TinyCode-4B"
+    ],
+    "family": "TinyCode"
+  },
+  {
+    "id": "huggingface:aman5g/Sulphur-2-base-GGUF",
+    "name": "Sulphur-2-base-GGUF",
+    "provider": "aman5g",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-05-14T03:45:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aman5g/Sulphur-2-base-GGUF",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "quantized",
+      "text-to-video",
+      "base_model:SulphurAI/Sulphur-2-base",
+      "base_model:quantized:SulphurAI/Sulphur-2-base"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T09:18:11.932329+00:00",
+    "source_ids": [
+      "aman5g/Sulphur-2-base-GGUF"
+    ],
+    "family": "Sulphur-2"
   },
   {
     "id": "huggingface:unsloth/Qwen3.5-9B-MTP-GGUF",
@@ -2403,6 +2504,40 @@
       "JANGQ-AI/ZAYA1-8B-JANGTQ2"
     ],
     "family": "ZAYA1-JANGTQ2"
+  },
+  {
+    "id": "huggingface:Supertone/supertonic-3",
+    "name": "supertonic-3",
+    "provider": "Supertone",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-06T20:46:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Supertone/supertonic-3",
+    "tags": [
+      "text-to-speech",
+      "supertonic",
+      "onnx",
+      "text-to-speech",
+      "speech-synthesis",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T09:18:12.056065+00:00",
+    "source_ids": [
+      "Supertone/supertonic-3"
+    ],
+    "family": "supertonic-3"
   },
   {
     "id": "huggingface:havenoammo/Qwen3.6-35B-A3B-MTP-GGUF",
@@ -10754,39 +10889,6 @@
     "family": "Qwen3.6-MLX-oQ8-FP16"
   },
   {
-    "id": "huggingface:mradermacher/GhostShell-4B-i1-GGUF",
-    "name": "GhostShell-4B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-17T12:22:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/GhostShell-4B-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "abliteration",
-      "uncensored",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.104639+00:00",
-    "source_ids": [
-      "mradermacher/GhostShell-4B-i1-GGUF"
-    ],
-    "family": "GhostShell-i1"
-  },
-  {
     "id": "huggingface:getonit/Keyboard-LM",
     "name": "Keyboard-LM",
     "provider": "getonit",
@@ -12944,40 +13046,6 @@
     "family": "Qwen3.5-Aggressive"
   },
   {
-    "id": "huggingface:mradermacher/dots.ocr-GGUF",
-    "name": "dots.ocr-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-14T06:21:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/dots.ocr-GGUF",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "gguf",
-      "image-to-text",
-      "ocr",
-      "document-parse"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.262457+00:00",
-    "source_ids": [
-      "mradermacher/dots.ocr-GGUF"
-    ],
-    "family": "dots.ocr"
-  },
-  {
     "id": "huggingface:Motif-Technologies/Motif-Video-2B",
     "name": "Motif-Video-2B",
     "provider": "Motif-Technologies",
@@ -13080,41 +13148,6 @@
       "Vishva007/gemma-4-E2B-it-W4A16-AutoRound"
     ],
     "family": "gemma-4-E-it-W4A16-AutoRound"
-  },
-  {
-    "id": "huggingface:mradermacher/ToriiGate-0.5-i1-GGUF",
-    "name": "ToriiGate-0.5-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-14T05:00:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/ToriiGate-0.5-i1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "multimodal",
-      "vision",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.684701+00:00",
-    "source_ids": [
-      "mradermacher/ToriiGate-0.5-i1-GGUF"
-    ],
-    "family": "ToriiGate-0.5-i1"
   },
   {
     "id": "huggingface:BIGAI-models/MagicText-1.2_fine-tuning",
@@ -13985,146 +14018,6 @@
     "family": "Qwen3.5-Uncensored-FernflowerAI-MLX-4bit"
   },
   {
-    "id": "huggingface:Jiunsong/supergemma4-26b-abliterated-multimodal-gguf-8bit",
-    "name": "supergemma4-26b-abliterated-multimodal-gguf-8bit",
-    "provider": "Jiunsong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T09:39:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jiunsong/supergemma4-26b-abliterated-multimodal-gguf-8bit",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "gemma4",
-      "llama.cpp",
-      "multimodal",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.684520+00:00",
-    "source_ids": [
-      "Jiunsong/supergemma4-26b-abliterated-multimodal-gguf-8bit"
-    ],
-    "family": "supergemma4-abliterated-multimodal--8bit"
-  },
-  {
-    "id": "huggingface:Jiunsong/supergemma4-26b-abliterated-multimodal-gguf-4bit",
-    "name": "supergemma4-26b-abliterated-multimodal-gguf-4bit",
-    "provider": "Jiunsong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T09:39:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jiunsong/supergemma4-26b-abliterated-multimodal-gguf-4bit",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "gemma4",
-      "llama.cpp",
-      "multimodal",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.684618+00:00",
-    "source_ids": [
-      "Jiunsong/supergemma4-26b-abliterated-multimodal-gguf-4bit"
-    ],
-    "family": "supergemma4-abliterated-multimodal--4bit"
-  },
-  {
-    "id": "huggingface:Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-8bit",
-    "name": "supergemma4-26b-abliterated-multimodal-mlx-8bit",
-    "provider": "Jiunsong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T09:39:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-8bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "multimodal",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.684575+00:00",
-    "source_ids": [
-      "Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-8bit"
-    ],
-    "family": "supergemma4-abliterated-multimodal-mlx-8bit"
-  },
-  {
-    "id": "huggingface:Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-4bit",
-    "name": "supergemma4-26b-abliterated-multimodal-mlx-4bit",
-    "provider": "Jiunsong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T09:39:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "multimodal",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.684657+00:00",
-    "source_ids": [
-      "Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-4bit"
-    ],
-    "family": "supergemma4-abliterated-multimodal-mlx-4bit"
-  },
-  {
     "id": "huggingface:KikoCis/gemma-4-31b-otter-v3-GGUF",
     "name": "gemma-4-31b-otter-v3-GGUF",
     "provider": "KikoCis",
@@ -14156,39 +14049,6 @@
       "KikoCis/gemma-4-31b-otter-v3-GGUF"
     ],
     "family": "gemma-4-otter-v3"
-  },
-  {
-    "id": "huggingface:Jiunsong/supergemma4-26b-abliterated-multimodal",
-    "name": "supergemma4-26b-abliterated-multimodal",
-    "provider": "Jiunsong",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T09:10:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jiunsong/supergemma4-26b-abliterated-multimodal",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "bf16"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.104508+00:00",
-    "source_ids": [
-      "Jiunsong/supergemma4-26b-abliterated-multimodal"
-    ],
-    "family": "supergemma4-abliterated-multimodal"
   },
   {
     "id": "huggingface:Vishva007/gemma-4-E4B-it-W4A16-AutoRound-GPTQ",
@@ -14395,73 +14255,6 @@
     "family": "gemma-4-e-it-OptiQ-4bit"
   },
   {
-    "id": "huggingface:sunil-pathak/gemma-4-E4B-it-IQ4_NL",
-    "name": "gemma-4-E4B-it-IQ4_NL",
-    "provider": "sunil-pathak",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T10:24:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sunil-pathak/gemma-4-E4B-it-IQ4_NL",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "gemma-4-E4B-it",
-      "IQ4_NL",
-      "cpu-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.104376+00:00",
-    "source_ids": [
-      "sunil-pathak/gemma-4-E4B-it-IQ4_NL"
-    ],
-    "family": "gemma-4-E-it-IQ4_NL"
-  },
-  {
-    "id": "huggingface:aufklarer/Omnilingual-ASR-CTC-300M-CoreML-INT8-10s",
-    "name": "Omnilingual-ASR-CTC-300M-CoreML-INT8-10s",
-    "provider": "aufklarer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T07:41:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aufklarer/Omnilingual-ASR-CTC-300M-CoreML-INT8-10s",
-    "tags": [
-      "automatic-speech-recognition",
-      "coreml",
-      "omnilingual_asr_ctc",
-      "automatic-speech-recognition",
-      "apple-silicon",
-      "neural-engine"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.578105+00:00",
-    "source_ids": [
-      "aufklarer/Omnilingual-ASR-CTC-300M-CoreML-INT8-10s"
-    ],
-    "family": "Omnilingual-ASR-CTC-300M-CoreML-INT8-10s"
-  },
-  {
     "id": "huggingface:GrizleeBer/gs-test-1",
     "name": "gs-test-1",
     "provider": "GrizleeBer",
@@ -14627,39 +14420,6 @@
       "Outlier-Ai/Outlier-70B-V3.2"
     ],
     "family": "Outlier-V3.2"
-  },
-  {
-    "id": "huggingface:eaddario/Qwen3.5-4B-GGUF",
-    "name": "Qwen3.5-4B-GGUF",
-    "provider": "eaddario",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T07:16:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/eaddario/Qwen3.5-4B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quant",
-      "experimental",
-      "target_bpw",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.104564+00:00",
-    "source_ids": [
-      "eaddario/Qwen3.5-4B-GGUF"
-    ],
-    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:FINAL-Bench/Darwin-4B-David",
@@ -15399,6 +15159,105 @@
       "kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-xl"
     ],
     "family": "molcrawl-genome-sequence-clinvar-gpt2-xl"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl",
+    "name": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T06:41:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-nl",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T09:18:11.765421+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl"
+    ],
+    "family": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-large",
+    "name": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-large",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T06:39:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-large",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-nl",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T09:18:11.765458+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-large"
+    ],
+    "family": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-large"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium",
+    "name": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T06:35:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-nl",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T09:18:11.765496+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium"
+    ],
+    "family": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium"
   },
   {
     "id": "huggingface:kojima-lab/molcrawl-protein-sequence-proteingym-gpt2-large",
@@ -16438,39 +16297,6 @@
       "SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF"
     ],
     "family": "gemma-4-it-heretic-ara"
-  },
-  {
-    "id": "huggingface:lunahr/CeluneNorm-0.6B-v1.1",
-    "name": "CeluneNorm-0.6B-v1.1",
-    "provider": "lunahr",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T14:03:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lunahr/CeluneNorm-0.6B-v1.1",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-transformation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.104594+00:00",
-    "source_ids": [
-      "lunahr/CeluneNorm-0.6B-v1.1"
-    ],
-    "family": "CeluneNorm-v1.1"
   },
   {
     "id": "huggingface:nibauman/ObjNav-Qwen3.5-4B-SFT",
@@ -22257,39 +22083,6 @@
       "distil-whisper/distil-large-v2"
     ],
     "family": "distil-large-v2"
-  },
-  {
-    "id": "huggingface:DUTIR-BioNLP/Taiyi-LLM",
-    "name": "Taiyi-LLM",
-    "provider": "DUTIR-BioNLP",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-10-21T08:51:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DUTIR-BioNLP/Taiyi-LLM",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "qwen",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T08:17:50.104542+00:00",
-    "source_ids": [
-      "DUTIR-BioNLP/Taiyi-LLM"
-    ],
-    "family": "Taiyi-LLM"
   },
   {
     "id": "huggingface:cyberdelia/CyberRealistic",
