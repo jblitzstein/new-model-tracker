@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:unsloth/Qwen3.5-397B-A17B-MTP-GGUF",
+    "name": "Qwen3.5-397B-A17B-MTP-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-16T14:25:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5_moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:34.085212+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.5-397B-A17B-MTP-GGUF"
+    ],
+    "family": "Qwen3.5-MTP"
+  },
+  {
     "id": "huggingface:unsloth/Qwen3.5-122B-A10B-MTP-GGUF",
     "name": "Qwen3.5-122B-A10B-MTP-GGUF",
     "provider": "unsloth",
@@ -585,6 +620,41 @@
       "nvidia/Wan2.2-T2V-A14B-Diffusers-NVFP4"
     ],
     "family": "Wan2.2-T2V-A-Diffusers-NVFP4"
+  },
+  {
+    "id": "huggingface:llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF",
+    "name": "gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T06:59:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "unsloth",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:34.085121+00:00",
+    "source_ids": [
+      "llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF"
+    ],
+    "family": "gemma-4-Ortenzya-The-Creative-Wordsmith-it-uncensored-heretic"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.7-fast",
@@ -13148,6 +13218,39 @@
     "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark"
   },
   {
+    "id": "huggingface:kojima-lab/molcrawl-protein-sequence-gpt2-large",
+    "name": "molcrawl-protein-sequence-gpt2-large",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-14T00:10:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-protein-sequence-gpt2-large",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "protein",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.036973+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-protein-sequence-gpt2-large"
+    ],
+    "family": "molcrawl-protein-sequence-gpt2-large"
+  },
+  {
     "id": "huggingface:DreamFast/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
     "name": "Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
     "provider": "DreamFast",
@@ -15130,39 +15233,6 @@
     "family": "Nemotron-Cascade2-Eagle3-Long-Context"
   },
   {
-    "id": "huggingface:batiai/gemma-4-E4B-it-GGUF",
-    "name": "gemma-4-E4B-it-GGUF",
-    "provider": "batiai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T04:55:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/batiai/gemma-4-E4B-it-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "gemma",
-      "gemma4",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T04:50:01.780447+00:00",
-    "source_ids": [
-      "batiai/gemma-4-E4B-it-GGUF"
-    ],
-    "family": "gemma-4-E-it"
-  },
-  {
     "id": "huggingface:Neural-ICE/Gemma-4-26B-A4B-it-NVFP4",
     "name": "Gemma-4-26B-A4B-it-NVFP4",
     "provider": "Neural-ICE",
@@ -15296,6 +15366,138 @@
       "batiai/Qwen3.5-9B-GGUF"
     ],
     "family": "Qwen3.5"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-xl",
+    "name": "molcrawl-genome-sequence-clinvar-gpt2-xl",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T08:24:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-xl",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "dna-genome",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037034+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-xl"
+    ],
+    "family": "molcrawl-genome-sequence-clinvar-gpt2-xl"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-protein-sequence-proteingym-gpt2-large",
+    "name": "molcrawl-protein-sequence-proteingym-gpt2-large",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T06:33:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-protein-sequence-proteingym-gpt2-large",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "protein",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.036830+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-protein-sequence-proteingym-gpt2-large"
+    ],
+    "family": "molcrawl-protein-sequence-proteingym-gpt2-large"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-protein-sequence-proteingym-gpt2-medium",
+    "name": "molcrawl-protein-sequence-proteingym-gpt2-medium",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T06:32:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-protein-sequence-proteingym-gpt2-medium",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "protein",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.036899+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-protein-sequence-proteingym-gpt2-medium"
+    ],
+    "family": "molcrawl-protein-sequence-proteingym-gpt2-medium"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-large",
+    "name": "molcrawl-genome-sequence-clinvar-gpt2-large",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T06:30:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-large",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "dna-genome",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037127+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-large"
+    ],
+    "family": "molcrawl-genome-sequence-clinvar-gpt2-large"
   },
   {
     "id": "huggingface:llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic",
@@ -15568,6 +15770,138 @@
     "family": "mind-mem"
   },
   {
+    "id": "huggingface:kojima-lab/molcrawl-compounds-guacamol-gpt2-xl",
+    "name": "molcrawl-compounds-guacamol-gpt2-xl",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T04:12:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-compounds-guacamol-gpt2-xl",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-compound",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037358+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-compounds-guacamol-gpt2-xl"
+    ],
+    "family": "molcrawl-compounds-guacamol-gpt2-xl"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-compounds-chembl-gpt2-xl",
+    "name": "molcrawl-compounds-chembl-gpt2-xl",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T04:12:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-compounds-chembl-gpt2-xl",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-compound",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037496+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-compounds-chembl-gpt2-xl"
+    ],
+    "family": "molcrawl-compounds-chembl-gpt2-xl"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-compounds-guacamol-gpt2-large",
+    "name": "molcrawl-compounds-guacamol-gpt2-large",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T04:11:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-compounds-guacamol-gpt2-large",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-compound",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037392+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-compounds-guacamol-gpt2-large"
+    ],
+    "family": "molcrawl-compounds-guacamol-gpt2-large"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-compounds-chembl-gpt2-large",
+    "name": "molcrawl-compounds-chembl-gpt2-large",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T04:11:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-compounds-chembl-gpt2-large",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-compound",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037525+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-compounds-chembl-gpt2-large"
+    ],
+    "family": "molcrawl-compounds-chembl-gpt2-large"
+  },
+  {
     "id": "huggingface:kojima-lab/molcrawl-rna-celltype-gpt2-xl",
     "name": "molcrawl-rna-celltype-gpt2-xl",
     "provider": "kojima-lab",
@@ -15667,6 +16001,39 @@
     "family": "molcrawl-rna-celltype-gpt2-medium"
   },
   {
+    "id": "huggingface:kojima-lab/molcrawl-compounds-guacamol-gpt2-medium",
+    "name": "molcrawl-compounds-guacamol-gpt2-medium",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T04:07:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-compounds-guacamol-gpt2-medium",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "molecule-compound",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037421+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-compounds-guacamol-gpt2-medium"
+    ],
+    "family": "molcrawl-compounds-guacamol-gpt2-medium"
+  },
+  {
     "id": "huggingface:kojima-lab/molcrawl-rna-gpt2-xl",
     "name": "molcrawl-rna-gpt2-xl",
     "provider": "kojima-lab",
@@ -15764,6 +16131,39 @@
       "kojima-lab/molcrawl-rna-gpt2-medium"
     ],
     "family": "molcrawl-rna-gpt2-medium"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-medium",
+    "name": "molcrawl-genome-sequence-clinvar-gpt2-medium",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T04:04:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-medium",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "dna-genome",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037159+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-medium"
+    ],
+    "family": "molcrawl-genome-sequence-clinvar-gpt2-medium"
   },
   {
     "id": "huggingface:FINAL-Bench/Darwin-31B-Opus",
@@ -16108,74 +16508,37 @@
     "family": "ObjNav-Qwen3.5-SFT"
   },
   {
-    "id": "huggingface:inferencerlabs/gemma-4-26B-A4B-MLX-9bit",
-    "name": "gemma-4-26B-A4B-MLX-9bit",
-    "provider": "inferencerlabs",
+    "id": "huggingface:kojima-lab/molcrawl-genome-sequence-gpt2-xl",
+    "name": "molcrawl-genome-sequence-gpt2-xl",
+    "provider": "kojima-lab",
     "source": "huggingface",
     "modality": [
-      "image",
       "text"
     ],
     "input_modalities": [
-      "image",
       "text"
     ],
     "output_modalities": [
       "text"
     ],
-    "release_date": "2026-04-02T21:02:42.000Z",
+    "release_date": "2026-04-03T05:41:04.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/inferencerlabs/gemma-4-26B-A4B-MLX-9bit",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-genome-sequence-gpt2-xl",
     "tags": [
-      "image-text-to-text",
-      "mlx",
+      "text-generation",
       "safetensors",
-      "gemma4",
-      "quantized",
-      "image-text-to-text"
+      "gpt2",
+      "pytorch",
+      "dna-genome",
+      "text-generation"
     ],
     "pricing": null,
-    "first_seen": "2026-04-18T04:50:02.581824+00:00",
+    "first_seen": "2026-05-18T05:27:33.037221+00:00",
     "source_ids": [
-      "inferencerlabs/gemma-4-26B-A4B-MLX-9bit"
+      "kojima-lab/molcrawl-genome-sequence-gpt2-xl"
     ],
-    "family": "gemma-4-MLX-9bit"
-  },
-  {
-    "id": "huggingface:inferencerlabs/gemma-4-31B-MLX-9bit",
-    "name": "gemma-4-31B-MLX-9bit",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T20:59:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/gemma-4-31B-MLX-9bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "quantized",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-18T04:50:02.581879+00:00",
-    "source_ids": [
-      "inferencerlabs/gemma-4-31B-MLX-9bit"
-    ],
-    "family": "gemma-4-MLX-9bit"
+    "family": "molcrawl-genome-sequence-gpt2-xl"
   },
   {
     "id": "huggingface:Smoffyy/Gemma4-E4B-Instruct-Pure-GGUF",
@@ -16540,6 +16903,39 @@
     "family": "Qwen3.5-APEX"
   },
   {
+    "id": "huggingface:kojima-lab/molcrawl-genome-sequence-gpt2-large",
+    "name": "molcrawl-genome-sequence-gpt2-large",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-31T06:15:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-genome-sequence-gpt2-large",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "dna-genome",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037256+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-genome-sequence-gpt2-large"
+    ],
+    "family": "molcrawl-genome-sequence-gpt2-large"
+  },
+  {
     "id": "huggingface:GeorgeUwaifo/ivie_gpt2_new01c_results",
     "name": "ivie_gpt2_new01c_results",
     "provider": "GeorgeUwaifo",
@@ -16571,6 +16967,39 @@
       "GeorgeUwaifo/ivie_gpt2_new01c_results"
     ],
     "family": "ivie_gpt2_new01c_results"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-genome-sequence-gpt2-medium",
+    "name": "molcrawl-genome-sequence-gpt2-medium",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-29T04:12:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-genome-sequence-gpt2-medium",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "dna-genome",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037285+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-genome-sequence-gpt2-medium"
+    ],
+    "family": "molcrawl-genome-sequence-gpt2-medium"
   },
   {
     "id": "huggingface:EchoLabs33/qwen2.5-3b-instruct-hxq",
@@ -16872,6 +17301,39 @@
       "sensenova/SenseNova-SI-1.5-InternVL3-8B"
     ],
     "family": "SenseNova-SI-1.5-InternVL3"
+  },
+  {
+    "id": "huggingface:kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-small",
+    "name": "molcrawl-genome-sequence-clinvar-gpt2-small",
+    "provider": "kojima-lab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-26T00:30:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-small",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "pytorch",
+      "dna-genome",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-18T05:27:33.037190+00:00",
+    "source_ids": [
+      "kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-small"
+    ],
+    "family": "molcrawl-genome-sequence-clinvar-gpt2-small"
   },
   {
     "id": "huggingface:kojima-lab/molcrawl-rna-celltype-gpt2-small",
