@@ -415,6 +415,41 @@
     "family": "TinyCode"
   },
   {
+    "id": "huggingface:aisingapore/Qwen-SEA-LION-v4.5-27B-IT",
+    "name": "Qwen-SEA-LION-v4.5-27B-IT",
+    "provider": "aisingapore",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T08:06:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aisingapore/Qwen-SEA-LION-v4.5-27B-IT",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-19T13:13:00.313151+00:00",
+    "source_ids": [
+      "aisingapore/Qwen-SEA-LION-v4.5-27B-IT"
+    ],
+    "family": "Qwen-SEA-LION-v4.5-IT"
+  },
+  {
     "id": "huggingface:aman5g/Sulphur-2-base-GGUF",
     "name": "Sulphur-2-base-GGUF",
     "provider": "aman5g",
@@ -4826,6 +4861,41 @@
       "LyraNovaHeart/AuriAetherwiing_G4-26B-A4B-Musica-v1-GGUF"
     ],
     "family": "AuriAetherwiing_G4-Musica-v1"
+  },
+  {
+    "id": "huggingface:numind/NuExtract3",
+    "name": "NuExtract3",
+    "provider": "numind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T07:46:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/numind/NuExtract3",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "structured-extraction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-19T13:13:00.313090+00:00",
+    "source_ids": [
+      "numind/NuExtract3"
+    ],
+    "family": "NuExtract3"
   },
   {
     "id": "huggingface:DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
@@ -9327,6 +9397,39 @@
     "family": "evolai-tfm-1p"
   },
   {
+    "id": "huggingface:thanhhoangnvbg/empathAI-llama3.1-8b",
+    "name": "empathAI-llama3.1-8b",
+    "provider": "thanhhoangnvbg",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T21:20:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thanhhoangnvbg/empathAI-llama3.1-8b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-19T13:12:59.383627+00:00",
+    "source_ids": [
+      "thanhhoangnvbg/empathAI-llama3.1-8b"
+    ],
+    "family": "empathAI-llama3.1"
+  },
+  {
     "id": "huggingface:MarisUK/maris-ai-master",
     "name": "maris-ai-master",
     "provider": "MarisUK",
@@ -11062,39 +11165,6 @@
       "dealignai/Qwen3.6-35B-A3B-JANGTQ4-CRACK"
     ],
     "family": "Qwen3.6-JANGTQ4-CRACK"
-  },
-  {
-    "id": "huggingface:rico03/Qwen3.6-35B-Opus-Reasoning-GGUF",
-    "name": "Qwen3.6-35B-Opus-Reasoning-GGUF",
-    "provider": "rico03",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-17T13:34:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rico03/Qwen3.6-35B-Opus-Reasoning-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3.6",
-      "reasoning",
-      "fine-tuned",
-      "lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-19T12:16:15.352229+00:00",
-    "source_ids": [
-      "rico03/Qwen3.6-35B-Opus-Reasoning-GGUF"
-    ],
-    "family": "Qwen3.6-Opus-Reasoning"
   },
   {
     "id": "huggingface:deepsweet/Qwen3.6-35B-A3B-MLX-oQ8-FP16",
@@ -15466,72 +15536,6 @@
       "TheCluster/Gemma-4-26B-A4B-Heretic-MLX-mxfp4"
     ],
     "family": "Gemma-4-Heretic-MLX-mxfp4"
-  },
-  {
-    "id": "huggingface:khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF",
-    "name": "Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF",
-    "provider": "khazarai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T19:05:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3",
-      "llama.cpp",
-      "unsloth",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-19T12:16:15.352102+00:00",
-    "source_ids": [
-      "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF"
-    ],
-    "family": "Qwen3-Qwen3.6-plus-Reasoning-Distilled"
-  },
-  {
-    "id": "huggingface:khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled",
-    "name": "Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled",
-    "provider": "khazarai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T17:02:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-19T12:16:15.352143+00:00",
-    "source_ids": [
-      "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled"
-    ],
-    "family": "Qwen3-Qwen3.6-plus-Reasoning-Distilled"
   },
   {
     "id": "huggingface:ibm-granite/granite-4.1-8b",
@@ -20564,76 +20568,6 @@
       "reaperdoesntknow/TameForCasualLM"
     ],
     "family": "TameForCasualLM"
-  },
-  {
-    "id": "huggingface:baidu/Qianfan-VL-70B",
-    "name": "Qianfan-VL-70B",
-    "provider": "Baidu",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-16T14:18:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/baidu/Qianfan-VL-70B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qianfanvl_chat",
-      "feature-extraction",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-19T12:16:16.360123+00:00",
-    "source_ids": [
-      "baidu/Qianfan-VL-70B"
-    ],
-    "family": "Qianfan-VL"
-  },
-  {
-    "id": "huggingface:baidu/Qianfan-VL-8B",
-    "name": "Qianfan-VL-8B",
-    "provider": "Baidu",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-16T14:18:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/baidu/Qianfan-VL-8B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qianfanvl_chat",
-      "feature-extraction",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-19T12:16:16.360177+00:00",
-    "source_ids": [
-      "baidu/Qianfan-VL-8B"
-    ],
-    "family": "Qianfan-VL"
   },
   {
     "id": "huggingface:TalTechNLP/whisper-large-v3-turbo-et-verbatim",
