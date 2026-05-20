@@ -70,6 +70,41 @@
     "family": "Qwopus3.5-Coder-MTP"
   },
   {
+    "id": "huggingface:nightmedia/Qwen3.5-9B-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx",
+    "name": "Qwen3.5-9B-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx",
+    "provider": "nightmedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-17T23:32:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nightmedia/Qwen3.5-9B-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T00:54:56.161676+00:00",
+    "source_ids": [
+      "nightmedia/Qwen3.5-9B-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx"
+    ],
+    "family": "Qwen3.5-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx"
+  },
+  {
     "id": "huggingface:evalengine/unbound-e2b-gguf",
     "name": "unbound-e2b-gguf",
     "provider": "evalengine",
@@ -2918,6 +2953,41 @@
       "JANGQ-AI/ZAYA1-8B-JANGTQ2"
     ],
     "family": "ZAYA1-JANGTQ2"
+  },
+  {
+    "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF",
+    "name": "Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T22:05:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T00:54:56.161730+00:00",
+    "source_ids": [
+      "llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF"
+    ],
+    "family": "Qwen3.6-uncensored-heretic-v2-Native-MTP-Preserved"
   },
   {
     "id": "huggingface:Supertone/supertonic-3",
@@ -11004,6 +11074,39 @@
     "family": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lr-b2"
   },
   {
+    "id": "huggingface:0xSero/Qwen3.6-28B-REAP",
+    "name": "Qwen3.6-28B-REAP",
+    "provider": "0xSero",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T18:09:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xSero/Qwen3.6-28B-REAP",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "text-generation",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T00:54:55.166062+00:00",
+    "source_ids": [
+      "0xSero/Qwen3.6-28B-REAP"
+    ],
+    "family": "Qwen3.6-REAP"
+  },
+  {
     "id": "huggingface:Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lamol-l20",
     "name": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lamol-l20",
     "provider": "Beetle-HumanScale",
@@ -12514,6 +12617,40 @@
       "ibm-granite/granite-vision-4.1-4b"
     ],
     "family": "granite-vision-4.1"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-speech-4.1-2b",
+    "name": "granite-speech-4.1-2b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T13:54:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-speech-4.1-2b",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "granite_speech",
+      "automatic-speech-recognition",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T00:54:56.012331+00:00",
+    "source_ids": [
+      "ibm-granite/granite-speech-4.1-2b"
+    ],
+    "family": "granite-speech-4.1"
   },
   {
     "id": "huggingface:arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8",
@@ -17725,40 +17862,6 @@
     "family": "uAI-NEXUS-MedVLM-1.0a-RL"
   },
   {
-    "id": "huggingface:aufklarer/Kokoro-82M-CoreML",
-    "name": "Kokoro-82M-CoreML",
-    "provider": "aufklarer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-09T12:39:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aufklarer/Kokoro-82M-CoreML",
-    "tags": [
-      "text-to-speech",
-      "coreml",
-      "text-to-speech",
-      "tts",
-      "kokoro",
-      "neural-engine"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T00:41:04.321310+00:00",
-    "source_ids": [
-      "aufklarer/Kokoro-82M-CoreML"
-    ],
-    "family": "Kokoro-82M-CoreML"
-  },
-  {
     "id": "huggingface:staedi/sentiment-llama-3.2",
     "name": "sentiment-llama-3.2",
     "provider": "staedi",
@@ -18264,39 +18367,6 @@
       "unsloth/Qwen3.5-0.8B"
     ],
     "family": "Qwen3.5"
-  },
-  {
-    "id": "huggingface:saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
-    "name": "MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
-    "provider": "saricles",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-01T01:12:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "minimax_m2",
-      "text-generation",
-      "minimax"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T00:41:04.035147+00:00",
-    "source_ids": [
-      "saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10"
-    ],
-    "family": "MiniMax-M2.5-REAP-NVFP4-GB10"
   },
   {
     "id": "huggingface:Qwen/Qwen3.5-0.8B-Base",
