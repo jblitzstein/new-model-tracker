@@ -279,6 +279,39 @@
     "family": "oron-tts"
   },
   {
+    "id": "huggingface:mradermacher/DLM-LST-9B-GGUF",
+    "name": "DLM-LST-9B-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-16T11:38:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/DLM-LST-9B-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation",
+      "chat",
+      "lst"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T12:58:48.775875+00:00",
+    "source_ids": [
+      "mradermacher/DLM-LST-9B-GGUF"
+    ],
+    "family": "DLM-LST"
+  },
+  {
     "id": "huggingface:YTan2000/Qwen3.6-35B-A3B-MTP-TQ3_4S",
     "name": "Qwen3.6-35B-A3B-MTP-TQ3_4S",
     "provider": "YTan2000",
@@ -3227,6 +3260,39 @@
     "family": "evolai-tfm-001"
   },
   {
+    "id": "huggingface:GreenMap/qwen3.5-2b-ru-norm-link-extractor-GGUF",
+    "name": "qwen3.5-2b-ru-norm-link-extractor-GGUF",
+    "provider": "GreenMap",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T10:55:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GreenMap/qwen3.5-2b-ru-norm-link-extractor-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "text-generation",
+      "ru",
+      "base_model:GreenMap/qwen3.5-2b-ru-norm-link-extractor",
+      "base_model:quantized:GreenMap/qwen3.5-2b-ru-norm-link-extractor"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T12:58:48.775838+00:00",
+    "source_ids": [
+      "GreenMap/qwen3.5-2b-ru-norm-link-extractor-GGUF"
+    ],
+    "family": "qwen3.5-ru-norm-link-extractor"
+  },
+  {
     "id": "huggingface:havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
     "name": "Qwen3.6-27B-MTP-UD-GGUF",
     "provider": "havenoammo",
@@ -4236,6 +4302,39 @@
       "Smoffyy/Qwen3.5-9B-Instruct-Revised-GGUF"
     ],
     "family": "Qwen3.5--Revised"
+  },
+  {
+    "id": "huggingface:phoenix2401/test_model",
+    "name": "test_model",
+    "provider": "phoenix2401",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-02T19:02:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/phoenix2401/test_model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T12:58:48.775803+00:00",
+    "source_ids": [
+      "phoenix2401/test_model"
+    ],
+    "family": "test_model"
   },
   {
     "id": "huggingface:SKIS-AI-Research/ODIN-C1",
@@ -12203,41 +12302,6 @@
     "family": "Qwen3.6-Heretic-MLX-mxfp8"
   },
   {
-    "id": "huggingface:unsloth/Qwen3.6-35B-A3B-UD-MLX-4bit",
-    "name": "Qwen3.6-35B-A3B-UD-MLX-4bit",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-17T00:18:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-UD-MLX-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "unsloth",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T12:30:48.992672+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.6-35B-A3B-UD-MLX-4bit"
-    ],
-    "family": "Qwen3.6-UD-MLX-4bit"
-  },
-  {
     "id": "huggingface:TheCluster/Qwen3.6-35B-A3B-Heretic-MLX-mixed-9bit",
     "name": "Qwen3.6-35B-A3B-Heretic-MLX-mixed-9bit",
     "provider": "TheCluster",
@@ -17316,39 +17380,6 @@
     "family": "LightonOCR-2-poneglyph"
   },
   {
-    "id": "huggingface:huggingworld/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX",
-    "name": "NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX",
-    "provider": "huggingworld",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-19T21:58:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/huggingworld/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX",
-    "tags": [
-      "text-generation",
-      "transformers.js",
-      "onnx",
-      "nemotron_h",
-      "text-generation",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T12:30:48.228799+00:00",
-    "source_ids": [
-      "huggingworld/NVIDIA-Nemotron-3-Nano-4B-BF16-ONNX"
-    ],
-    "family": "NVIDIA-Nemotron-3-Nano-BF16-ONNX"
-  },
-  {
     "id": "huggingface:rednote-hilab/dots.mocr",
     "name": "dots.mocr",
     "provider": "rednote-hilab",
@@ -17723,39 +17754,6 @@
     "family": "SMOLM2Prover"
   },
   {
-    "id": "huggingface:mlx-community/Qwen3.5-9B-OptiQ-4bit",
-    "name": "Qwen3.5-9B-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-05T12:04:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.5-9B-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T12:30:48.228523+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.5-9B-OptiQ-4bit"
-    ],
-    "family": "Qwen3.5-OptiQ-4bit"
-  },
-  {
     "id": "huggingface:bezzam/Qwen3-ASR-1.7B",
     "name": "Qwen3-ASR-1.7B",
     "provider": "bezzam",
@@ -17824,39 +17822,6 @@
     "family": "Robo-Dopamine-GRM-2.0"
   },
   {
-    "id": "huggingface:mlx-community/Qwen3.5-4B-OptiQ-4bit",
-    "name": "Qwen3.5-4B-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-04T16:10:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.5-4B-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T12:30:48.228302+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.5-4B-OptiQ-4bit"
-    ],
-    "family": "Qwen3.5-OptiQ-4bit"
-  },
-  {
     "id": "huggingface:bezzam/Qwen3-ASR-0.6B",
     "name": "Qwen3-ASR-0.6B",
     "provider": "bezzam",
@@ -17888,72 +17853,6 @@
       "bezzam/Qwen3-ASR-0.6B"
     ],
     "family": "Qwen3-ASR"
-  },
-  {
-    "id": "huggingface:mlx-community/Qwen3.5-2B-OptiQ-4bit",
-    "name": "Qwen3.5-2B-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-04T09:13:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.5-2B-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T12:30:48.228400+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.5-2B-OptiQ-4bit"
-    ],
-    "family": "Qwen3.5-OptiQ-4bit"
-  },
-  {
-    "id": "huggingface:mlx-community/Qwen3.5-0.8B-OptiQ-4bit",
-    "name": "Qwen3.5-0.8B-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-04T09:12:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.5-0.8B-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T12:30:48.228458+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.5-0.8B-OptiQ-4bit"
-    ],
-    "family": "Qwen3.5-OptiQ-4bit"
   },
   {
     "id": "huggingface:Vishva007/Qwen3.5-9B-W4A16-AutoRound",
