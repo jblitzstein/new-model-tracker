@@ -140,6 +140,41 @@
     "family": "unbound-e"
   },
   {
+    "id": "huggingface:Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
+    "name": "Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
+    "provider": "Incarnas",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-16T20:31:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "nvfp4",
+      "qwen3_5_moe",
+      "moe",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T05:25:58.494091+00:00",
+    "source_ids": [
+      "Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF"
+    ],
+    "family": "Qwen3.5-NVFP4-MTP"
+  },
+  {
     "id": "huggingface:unsloth/Qwen3.5-397B-A17B-MTP-GGUF",
     "name": "Qwen3.5-397B-A17B-MTP-GGUF",
     "provider": "unsloth",
@@ -13026,39 +13061,6 @@
     "family": "Luminus-Roleplay"
   },
   {
-    "id": "huggingface:HCY123902/llama-3-8b-dpo-tw31-beta-1e-0",
-    "name": "llama-3-8b-dpo-tw31-beta-1e-0",
-    "provider": "HCY123902",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T19:06:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/HCY123902/llama-3-8b-dpo-tw31-beta-1e-0",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T05:06:42.586995+00:00",
-    "source_ids": [
-      "HCY123902/llama-3-8b-dpo-tw31-beta-1e-0"
-    ],
-    "family": "llama-3-dpo-tw31-beta-1e-0"
-  },
-  {
     "id": "huggingface:UnstableLlama/gemma-4-31B-it-uncensored-heretic-exl3-8.00bpw",
     "name": "gemma-4-31B-it-uncensored-heretic-exl3-8.00bpw",
     "provider": "UnstableLlama",
@@ -15181,72 +15183,6 @@
       "DuoNeural/Gemma-4-E4B-Frontend-GGUF"
     ],
     "family": "Gemma-4-E-Frontend"
-  },
-  {
-    "id": "huggingface:Zigeng/DMax-Coder-16B",
-    "name": "DMax-Coder-16B",
-    "provider": "Zigeng",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T12:26:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Zigeng/DMax-Coder-16B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llada2_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T05:06:42.586904+00:00",
-    "source_ids": [
-      "Zigeng/DMax-Coder-16B"
-    ],
-    "family": "DMax-Coder"
-  },
-  {
-    "id": "huggingface:Zigeng/DMax-Math-16B",
-    "name": "DMax-Math-16B",
-    "provider": "Zigeng",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T12:25:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Zigeng/DMax-Math-16B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llada2_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T05:06:42.586960+00:00",
-    "source_ids": [
-      "Zigeng/DMax-Math-16B"
-    ],
-    "family": "DMax-Math"
   },
   {
     "id": "huggingface:chankhavu/Nemotron-Cascade2-30B-A3B-Eagle3-Long-Context",
