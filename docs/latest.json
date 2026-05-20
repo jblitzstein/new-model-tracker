@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:x-ai/grok-build-0.1",
+    "name": "xAI: Grok Build 0.1",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T17:28:43+00:00",
+    "context_length": 256000,
+    "description": "Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding...",
+    "url": "https://openrouter.ai/x-ai/grok-build-0.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-05-20T20:46:46.150807+00:00",
+    "source_ids": [
+      "x-ai/grok-build-0.1"
+    ],
+    "family": "Grok Build 0.1"
+  },
+  {
     "id": "openrouter:google/gemini-3.5-flash",
     "name": "Google: Gemini 3.5 Flash",
     "provider": "Google",
@@ -411,6 +442,41 @@
       "stabilityai/stable-audio-3-small-music-base"
     ],
     "family": "stable-audio-3-small-music"
+  },
+  {
+    "id": "huggingface:noctrex/Qwopus3.6-27B-v1-preview-MTP-GGUF",
+    "name": "Qwopus3.6-27B-v1-preview-MTP-GGUF",
+    "provider": "noctrex",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-16T21:42:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/noctrex/Qwopus3.6-27B-v1-preview-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen",
+      "qwen3_5_moe",
+      "MTP",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T20:46:46.878901+00:00",
+    "source_ids": [
+      "noctrex/Qwopus3.6-27B-v1-preview-MTP-GGUF"
+    ],
+    "family": "Qwopus3.6-v1--MTP"
   },
   {
     "id": "huggingface:Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
@@ -1945,6 +2011,39 @@
       "keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF"
     ],
     "family": "Qwen3.6-REAM-192-heretic-APEX"
+  },
+  {
+    "id": "huggingface:nvidia/GLM-5.1-NVFP4",
+    "name": "GLM-5.1-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-09T20:32:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/GLM-5.1-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "glm_moe_dsa",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T20:46:46.325175+00:00",
+    "source_ids": [
+      "nvidia/GLM-5.1-NVFP4"
+    ],
+    "family": "GLM-5.1-NVFP4"
   },
   {
     "id": "huggingface:SassyDiffusion/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
@@ -6268,6 +6367,40 @@
     "family": "Qwen3.6-i1-IQ4_XS"
   },
   {
+    "id": "huggingface:syvai/hviske-v5.3",
+    "name": "hviske-v5.3",
+    "provider": "syvai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T08:40:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/syvai/hviske-v5.3",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "cohere_asr",
+      "automatic-speech-recognition",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T20:46:46.792765+00:00",
+    "source_ids": [
+      "syvai/hviske-v5.3"
+    ],
+    "family": "hviske-v5.3"
+  },
+  {
     "id": "huggingface:mradermacher/CARDS-Qwen3.6-27B-GGUF",
     "name": "CARDS-Qwen3.6-27B-GGUF",
     "provider": "mradermacher",
@@ -8675,6 +8808,138 @@
       "hampsonw/Qwen3.6-27B-AWQ-BF16-INT4-mtp-bf16"
     ],
     "family": "Qwen3.6--BF16-INT4-mtp-bf16"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-XS.2",
+    "name": "Laguna-XS.2",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T20:50:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-XS.2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "laguna",
+      "text-generation",
+      "laguna-xs.2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T20:46:46.325563+00:00",
+    "source_ids": [
+      "poolside/Laguna-XS.2"
+    ],
+    "family": "Laguna-XS.2"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-XS.2-INT4",
+    "name": "Laguna-XS.2-INT4",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T20:44:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-XS.2-INT4",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-xs.2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T20:46:46.325518+00:00",
+    "source_ids": [
+      "poolside/Laguna-XS.2-INT4"
+    ],
+    "family": "Laguna-XS.2-INT4"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-XS.2-NVFP4",
+    "name": "Laguna-XS.2-NVFP4",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T20:44:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-XS.2-NVFP4",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-xs.2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T20:46:46.325495+00:00",
+    "source_ids": [
+      "poolside/Laguna-XS.2-NVFP4"
+    ],
+    "family": "Laguna-XS.2-NVFP4"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-XS.2-FP8",
+    "name": "Laguna-XS.2-FP8",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T20:43:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-XS.2-FP8",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-xs.2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T20:46:46.325541+00:00",
+    "source_ids": [
+      "poolside/Laguna-XS.2-FP8"
+    ],
+    "family": "Laguna-XS.2-FP8"
   },
   {
     "id": "huggingface:Kasper-Bankler/gemma-4-E2B-uncensored",
@@ -11143,37 +11408,6 @@
       "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-8bit-int8-affine"
     ],
     "family": "gemma-4-it-uncensored-abliterix-MLX-8bit-int8-affine"
-  },
-  {
-    "id": "openrouter:moonshotai/kimi-k2.6",
-    "name": "MoonshotAI: Kimi K2.6",
-    "provider": "Moonshot AI",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T15:36:42+00:00",
-    "context_length": 262144,
-    "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
-    "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.95,
-      "completion_per_million": 4.0
-    },
-    "first_seen": "2026-04-20T20:18:10.566392+00:00",
-    "source_ids": [
-      "moonshotai/kimi-k2.6"
-    ],
-    "family": "Kimi K2.6"
   },
   {
     "id": "huggingface:unsloth/Kimi-K2.6-GGUF",
@@ -17148,41 +17382,6 @@
     "family": "qwen2.5-pdf-merged"
   },
   {
-    "id": "huggingface:krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf",
-    "name": "Qwen3.5-35B-A3B-NVFP4.gguf",
-    "provider": "krampenschiesser",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-28T19:15:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "nvfp4",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.5-35B-A3B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T20:18:11.547008+00:00",
-    "source_ids": [
-      "krampenschiesser/Qwen3.5-35B-A3B-NVFP4.gguf"
-    ],
-    "family": "Qwen3.5-NVFP4."
-  },
-  {
     "id": "huggingface:sriksmachi/llama32_1bn_instruct_raft",
     "name": "llama32_1bn_instruct_raft",
     "provider": "sriksmachi",
@@ -19287,40 +19486,6 @@
       "ibm-granite/granitelib-guardian-r1.0"
     ],
     "family": "granitelib-guardian-r1.0"
-  },
-  {
-    "id": "huggingface:jeremyhola/LORAs",
-    "name": "LORAs",
-    "provider": "jeremyhola",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-01-31T20:02:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jeremyhola/LORAs",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "gguf",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T20:18:10.849030+00:00",
-    "source_ids": [
-      "jeremyhola/LORAs"
-    ],
-    "family": "LORAs"
   },
   {
     "id": "huggingface:FluidInference/pocket-tts-coreml",
