@@ -37,6 +37,40 @@
     "family": "Gemini 3.5 Flash"
   },
   {
+    "id": "huggingface:stabilityai/stable-audio-3-optimized",
+    "name": "stable-audio-3-optimized",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-18T19:38:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "audio-generation",
+      "music",
+      "sound-effects",
+      "diffusion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.338301+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-3-optimized"
+    ],
+    "family": "stable-audio-3-optimized"
+  },
+  {
     "id": "huggingface:Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF",
     "name": "Qwopus3.5-9B-Coder-MTP-GGUF",
     "provider": "Jackrong",
@@ -173,6 +207,210 @@
       "evalengine/unbound-e2b-gguf"
     ],
     "family": "unbound-e"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-audio-3-small-music",
+    "name": "stable-audio-3-small-music",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-17T01:51:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "music",
+      "diffusion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.338397+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-3-small-music"
+    ],
+    "family": "stable-audio-3-small-music"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-audio-3-small-sfx",
+    "name": "stable-audio-3-small-sfx",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-17T01:51:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "sound-effects",
+      "diffusion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.338373+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-3-small-sfx"
+    ],
+    "family": "stable-audio-3-small-sfx"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-audio-3-medium",
+    "name": "stable-audio-3-medium",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-17T01:50:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "music",
+      "sound-effects"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.338327+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-3-medium"
+    ],
+    "family": "stable-audio-3-medium"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-audio-3-medium-base",
+    "name": "stable-audio-3-medium-base",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-17T01:44:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "music",
+      "sound-effects"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.338423+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-3-medium-base"
+    ],
+    "family": "stable-audio-3-medium"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-audio-3-small-sfx-base",
+    "name": "stable-audio-3-small-sfx-base",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-17T01:05:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "sound-effects",
+      "diffusion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.338268+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-3-small-sfx-base"
+    ],
+    "family": "stable-audio-3-small-sfx"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-audio-3-small-music-base",
+    "name": "stable-audio-3-small-music-base",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-16T23:40:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "music",
+      "diffusion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.338202+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-3-small-music-base"
+    ],
+    "family": "stable-audio-3-small-music"
   },
   {
     "id": "huggingface:Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
@@ -723,6 +961,39 @@
       "aman5g/Sulphur-2-base-GGUF"
     ],
     "family": "Sulphur-2"
+  },
+  {
+    "id": "huggingface:mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.1",
+    "name": "Kurtis-EON1-Hybrid-0.7B-v0.1.1",
+    "provider": "mrs83",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T17:34:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "echo_hybrid",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.117299+00:00",
+    "source_ids": [
+      "mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.1"
+    ],
+    "family": "Kurtis-EON1-Hybrid-v0.1.1"
   },
   {
     "id": "huggingface:unsloth/Qwen3.5-9B-MTP-GGUF",
@@ -2409,6 +2680,39 @@
       "mradermacher/m51Lab-MiniMax-M2.7-REAP-139B-A10B-i1-GGUF"
     ],
     "family": "m51Lab-MiniMax-M2.7-REAP-i1"
+  },
+  {
+    "id": "huggingface:clear-blue-sky/evolai-tfm-007",
+    "name": "evolai-tfm-007",
+    "provider": "clear-blue-sky",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T03:07:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/clear-blue-sky/evolai-tfm-007",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.116967+00:00",
+    "source_ids": [
+      "clear-blue-sky/evolai-tfm-007"
+    ],
+    "family": "evolai-tfm-007"
   },
   {
     "id": "huggingface:Smoffyy/Qwen3.6-27B-Instruct-Revised-GGUF",
@@ -7240,6 +7544,41 @@
     "family": "Huihui-Qwen3.6-abliterated"
   },
   {
+    "id": "huggingface:zhiqing/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
+    "name": "Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
+    "provider": "zhiqing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-26T06:54:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zhiqing/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-20T17:09:04.530236+00:00",
+    "source_ids": [
+      "zhiqing/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP"
+    ],
+    "family": "Huihui-Qwen3.6-abliterated--MTP"
+  },
+  {
     "id": "huggingface:SassyDiffusion/Qwen3.6-35B-A3B-heretic-GGUF",
     "name": "Qwen3.6-35B-A3B-heretic-GGUF",
     "provider": "SassyDiffusion",
@@ -11342,72 +11681,6 @@
     "family": "Qwen3.6-REAP"
   },
   {
-    "id": "huggingface:Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lamol-l20",
-    "name": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lamol-l20",
-    "provider": "Beetle-HumanScale",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-18T16:36:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lamol-l20",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "pico_decoder",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T16:30:22.453201+00:00",
-    "source_ids": [
-      "Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lamol-l20"
-    ],
-    "family": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-lamol-l20"
-  },
-  {
-    "id": "huggingface:Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-ewc-l20",
-    "name": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-ewc-l20",
-    "provider": "Beetle-HumanScale",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-18T15:01:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-ewc-l20",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "pico_decoder",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T16:30:22.453420+00:00",
-    "source_ids": [
-      "Beetle-HumanScale/beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-ewc-l20"
-    ],
-    "family": "beetle-bilingual-l2-50-simultaneous-b2-humanscale-nld-eng-ewc-l20"
-  },
-  {
     "id": "huggingface:nightmedia/Qwopus3.5-27B-v3.5-GLM5.1-Holodeck-qx86-hi-mlx",
     "name": "Qwopus3.5-27B-v3.5-GLM5.1-Holodeck-qx86-hi-mlx",
     "provider": "nightmedia",
@@ -14638,39 +14911,6 @@
     "family": "Zero-To-CAD-Qwen3-VL"
   },
   {
-    "id": "huggingface:Outlier-Ai/Outlier-70B-V3.2",
-    "name": "Outlier-70B-V3.2",
-    "provider": "Outlier-Ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T15:45:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Outlier-Ai/Outlier-70B-V3.2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "outlier_moe",
-      "text-generation",
-      "superseded",
-      "archival"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T16:30:22.453488+00:00",
-    "source_ids": [
-      "Outlier-Ai/Outlier-70B-V3.2"
-    ],
-    "family": "Outlier-V3.2"
-  },
-  {
     "id": "huggingface:FINAL-Bench/Darwin-4B-David",
     "name": "Darwin-4B-David",
     "provider": "FINAL-Bench",
@@ -17380,41 +17620,6 @@
     "family": "LightonOCR-2-poneglyph"
   },
   {
-    "id": "huggingface:rednote-hilab/dots.mocr",
-    "name": "dots.mocr",
-    "provider": "rednote-hilab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-19T16:51:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rednote-hilab/dots.mocr",
-    "tags": [
-      "image-text-to-text",
-      "dots_mocr",
-      "safetensors",
-      "dots_ocr",
-      "text-generation",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T16:30:23.028097+00:00",
-    "source_ids": [
-      "rednote-hilab/dots.mocr"
-    ],
-    "family": "dots.mocr"
-  },
-  {
     "id": "huggingface:trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
     "name": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
     "provider": "trohrbaugh",
@@ -19548,40 +19753,6 @@
       "dicta-il/DictaLM-3.0-24B-Thinking"
     ],
     "family": "DictaLM-3.0"
-  },
-  {
-    "id": "huggingface:MediaTek-Research/Breeze-ASR-26",
-    "name": "Breeze-ASR-26",
-    "provider": "MediaTek-Research",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-28T04:01:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MediaTek-Research/Breeze-ASR-26",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "taiwanese-hokkien"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-20T16:30:22.939763+00:00",
-    "source_ids": [
-      "MediaTek-Research/Breeze-ASR-26"
-    ],
-    "family": "Breeze-ASR-26"
   },
   {
     "id": "huggingface:aisingapore/Qwen-SEA-LION-v4-4B-VL",
