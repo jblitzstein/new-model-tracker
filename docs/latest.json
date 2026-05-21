@@ -1,5 +1,34 @@
 [
   {
+    "id": "openrouter:qwen/qwen3.7-max",
+    "name": "Qwen: Qwen3.7 Max",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T15:21:01+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,...",
+    "url": "https://openrouter.ai/qwen/qwen3.7-max",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-05-21T16:57:10.778953+00:00",
+    "source_ids": [
+      "qwen/qwen3.7-max"
+    ],
+    "family": "Qwen3.7 Max"
+  },
+  {
     "id": "openrouter:x-ai/grok-build-0.1",
     "name": "xAI: Grok Build 0.1",
     "provider": "xAI",
@@ -2045,6 +2074,39 @@
     "family": "glm-5.1-ud-iq2-m-juju"
   },
   {
+    "id": "huggingface:cs-552-2026-flab/safety_model",
+    "name": "safety_model",
+    "provider": "cs-552-2026-flab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T15:10:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cs-552-2026-flab/safety_model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T16:57:10.962761+00:00",
+    "source_ids": [
+      "cs-552-2026-flab/safety_model"
+    ],
+    "family": "safety_model"
+  },
+  {
     "id": "huggingface:Abiray/Sulphur-2-base-GGUF",
     "name": "Sulphur-2-base-GGUF",
     "provider": "Abiray",
@@ -2950,6 +3012,40 @@
       "mradermacher/Aura-4o-Rebirth-Gemma-4-31B-Merged-GGUF"
     ],
     "family": "Aura-4o-Rebirth-Gemma-4-Merged"
+  },
+  {
+    "id": "huggingface:lynaNSFW/DR34ML4Y_AIO_NSFW_LTX23",
+    "name": "DR34ML4Y_AIO_NSFW_LTX23",
+    "provider": "lynaNSFW",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-08T06:28:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lynaNSFW/DR34ML4Y_AIO_NSFW_LTX23",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T16:57:11.112472+00:00",
+    "source_ids": [
+      "lynaNSFW/DR34ML4Y_AIO_NSFW_LTX23"
+    ],
+    "family": "DR34ML4Y_AIO_NSFW_LTX23"
   },
   {
     "id": "huggingface:mradermacher/m51Lab-MiniMax-M2.7-REAP-139B-A10B-i1-GGUF",
@@ -11683,41 +11779,6 @@
     "family": "ace-step-1.5--merge-models"
   },
   {
-    "id": "huggingface:rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
-    "name": "Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
-    "provider": "rdtand",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T00:16:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
-    "tags": [
-      "image-text-to-text",
-      "vllm",
-      "safetensors",
-      "qwen3_5_moe",
-      "qwen3.6",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T16:28:27.790356+00:00",
-    "source_ids": [
-      "rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm"
-    ],
-    "family": "Qwen3.6-PrismaQuant-4.75bit-vllm"
-  },
-  {
     "id": "huggingface:deepsweet/Qwen3.6-35B-A3B-MLX-oQ5",
     "name": "Qwen3.6-35B-A3B-MLX-oQ5",
     "provider": "deepsweet",
@@ -13149,41 +13210,6 @@
       "NexVeridian/Qwen3.6-35B-A3B-4bit"
     ],
     "family": "Qwen3.6-4bit"
-  },
-  {
-    "id": "huggingface:nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx",
-    "name": "Qwen3.6-35B-A3B-qx86-hi-mlx",
-    "provider": "nightmedia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T14:43:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "bf16",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T16:28:27.790460+00:00",
-    "source_ids": [
-      "nightmedia/Qwen3.6-35B-A3B-qx86-hi-mlx"
-    ],
-    "family": "Qwen3.6-qx86-hi-mlx"
   },
   {
     "id": "huggingface:bartowski/Qwen_Qwen3.6-35B-A3B-GGUF",
@@ -21257,40 +21283,6 @@
     "family": "tiny-Qwen2_5_VLForConditionalGeneration"
   },
   {
-    "id": "huggingface:nvidia/canary-qwen-2.5b",
-    "name": "canary-qwen-2.5b",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-06-26T16:05:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/canary-qwen-2.5b",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "safetensors",
-      "automatic-speech-recognition",
-      "speech",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T16:28:27.673135+00:00",
-    "source_ids": [
-      "nvidia/canary-qwen-2.5b"
-    ],
-    "family": "canary-qwen"
-  },
-  {
     "id": "huggingface:numind/NuExtract-2.0-8B-GPTQ",
     "name": "NuExtract-2.0-8B-GPTQ",
     "provider": "numind",
@@ -22000,6 +21992,76 @@
       "software-mansion/react-native-executorch-whisper-tiny.en"
     ],
     "family": "react-native-executorch-whisper-tiny.en"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-LlavaNextForConditionalGeneration",
+    "name": "tiny-LlavaNextForConditionalGeneration",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-11-25T15:06:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-LlavaNextForConditionalGeneration",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "llava_next",
+      "image-text-to-text",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T16:57:11.918832+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-LlavaNextForConditionalGeneration"
+    ],
+    "family": "tiny-LlavaNextForConditionalGeneration"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-LlavaForConditionalGeneration",
+    "name": "tiny-LlavaForConditionalGeneration",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-11-25T15:06:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-LlavaForConditionalGeneration",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "llava",
+      "image-text-to-text",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T16:57:11.918908+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-LlavaForConditionalGeneration"
+    ],
+    "family": "tiny-LlavaForConditionalGeneration"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-CohereForCausalLM",
