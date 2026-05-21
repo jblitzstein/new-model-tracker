@@ -68,6 +68,41 @@
     "family": "Gemini 3.5 Flash"
   },
   {
+    "id": "huggingface:axi0mX/P1-VL-235B-A22B-GGUF",
+    "name": "P1-VL-235B-A22B-GGUF",
+    "provider": "axi0mX",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-18T19:43:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/axi0mX/P1-VL-235B-A22B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "arxiv:2602.09443",
+      "base_model:PRIME-RL/P1-VL-235B-A22B",
+      "base_model:quantized:PRIME-RL/P1-VL-235B-A22B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T09:13:24.630350+00:00",
+    "source_ids": [
+      "axi0mX/P1-VL-235B-A22B-GGUF"
+    ],
+    "family": "P1-VL"
+  },
+  {
     "id": "huggingface:stabilityai/stable-audio-3-optimized",
     "name": "stable-audio-3-optimized",
     "provider": "Stability AI",
@@ -791,6 +826,39 @@
     "family": "Qwopus3.5-Coder"
   },
   {
+    "id": "huggingface:clear-blue-sky/evolai-tfm-008",
+    "name": "evolai-tfm-008",
+    "provider": "clear-blue-sky",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-15T08:46:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/clear-blue-sky/evolai-tfm-008",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T09:13:23.905997+00:00",
+    "source_ids": [
+      "clear-blue-sky/evolai-tfm-008"
+    ],
+    "family": "evolai-tfm-008"
+  },
+  {
     "id": "huggingface:internlm/Intern-S2-Preview-FP8",
     "name": "Intern-S2-Preview-FP8",
     "provider": "InternLM",
@@ -1472,6 +1540,39 @@
     "family": "Wan2.2-T2V-A-Diffusers-NVFP4"
   },
   {
+    "id": "huggingface:Johnblick187/starcoder2-15b",
+    "name": "starcoder2-15b",
+    "provider": "Johnblick187",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T07:24:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Johnblick187/starcoder2-15b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "starcoder2",
+      "text-generation",
+      "code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T09:13:23.906070+00:00",
+    "source_ids": [
+      "Johnblick187/starcoder2-15b"
+    ],
+    "family": "starcoder2"
+  },
+  {
     "id": "huggingface:llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF",
     "name": "gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -1976,6 +2077,41 @@
       "Abiray/Sulphur-2-base-GGUF"
     ],
     "family": "Sulphur-2"
+  },
+  {
+    "id": "huggingface:AbteeXAILab/lumynax-multimodal-glm46v-flash",
+    "name": "lumynax-multimodal-glm46v-flash",
+    "provider": "AbteeXAILab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T09:38:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AbteeXAILab/lumynax-multimodal-glm46v-flash",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "abteex-ai-labs",
+      "aotearoa",
+      "image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T09:13:24.630447+00:00",
+    "source_ids": [
+      "AbteeXAILab/lumynax-multimodal-glm46v-flash"
+    ],
+    "family": "lumynax-multimodal-glm46v-flash"
   },
   {
     "id": "huggingface:storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
@@ -12018,74 +12154,6 @@
     "family": "Qwopus3.5-v3.5-GLM5.1-Holodeck-qx86-hi-mlx"
   },
   {
-    "id": "huggingface:sakamakismile/Huihui-Qwen3.6-35B-A3B-abliterated-NVFP4",
-    "name": "Huihui-Qwen3.6-35B-A3B-abliterated-NVFP4",
-    "provider": "sakamakismile",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-18T13:03:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.6-35B-A3B-abliterated-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T08:42:09.337322+00:00",
-    "source_ids": [
-      "sakamakismile/Huihui-Qwen3.6-35B-A3B-abliterated-NVFP4"
-    ],
-    "family": "Huihui-Qwen3.6-abliterated-NVFP4"
-  },
-  {
-    "id": "huggingface:keisuke-miyako/springsea-0.1",
-    "name": "springsea-0.1",
-    "provider": "keisuke-miyako",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-18T08:08:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/keisuke-miyako/springsea-0.1",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "code",
-      "4d",
-      "code-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T08:42:08.490633+00:00",
-    "source_ids": [
-      "keisuke-miyako/springsea-0.1"
-    ],
-    "family": "springsea-0.1"
-  },
-  {
     "id": "huggingface:deepsweet/Qwen3.6-35B-A3B-MLX-oQ8",
     "name": "Qwen3.6-35B-A3B-MLX-oQ8",
     "provider": "deepsweet",
@@ -12875,41 +12943,6 @@
       "TheCluster/Qwen3.6-35B-A3B-Heretic-MLX-mixed-9bit"
     ],
     "family": "Qwen3.6-Heretic-MLX-mixed-9bit"
-  },
-  {
-    "id": "huggingface:sakamakismile/Qwen3.6-35B-A3B-NVFP4",
-    "name": "Qwen3.6-35B-A3B-NVFP4",
-    "provider": "sakamakismile",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T22:19:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sakamakismile/Qwen3.6-35B-A3B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T08:42:09.337256+00:00",
-    "source_ids": [
-      "sakamakismile/Qwen3.6-35B-A3B-NVFP4"
-    ],
-    "family": "Qwen3.6-NVFP4"
   },
   {
     "id": "huggingface:mlnomad/yatnmn-softplus-sb-ca-d12-chinchilla-261M-pytorch",
@@ -22440,40 +22473,6 @@
     "family": "Juggernaut-X-v10"
   },
   {
-    "id": "huggingface:distil-whisper/distil-large-v3",
-    "name": "distil-large-v3",
-    "provider": "distil-whisper",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-03-21T12:10:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/distil-whisper/distil-large-v3",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "jax",
-      "tensorboard",
-      "onnx",
-      "safetensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T08:42:09.193190+00:00",
-    "source_ids": [
-      "distil-whisper/distil-large-v3"
-    ],
-    "family": "distil-large-v3"
-  },
-  {
     "id": "huggingface:argmaxinc/whisperkit-coreml",
     "name": "whisperkit-coreml",
     "provider": "argmaxinc",
@@ -22710,108 +22709,6 @@
       "RunDiffusion/Juggernaut-XL-v9"
     ],
     "family": "Juggernaut-XL-v9"
-  },
-  {
-    "id": "huggingface:distil-whisper/distil-small.en",
-    "name": "distil-small.en",
-    "provider": "distil-whisper",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-12-06T11:35:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/distil-whisper/distil-small.en",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "pytorch",
-      "tensorboard",
-      "onnx",
-      "safetensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T08:42:09.193244+00:00",
-    "source_ids": [
-      "distil-whisper/distil-small.en"
-    ],
-    "family": "distil-small.en"
-  },
-  {
-    "id": "huggingface:distil-whisper/distil-medium.en",
-    "name": "distil-medium.en",
-    "provider": "distil-whisper",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-10-24T15:49:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/distil-whisper/distil-medium.en",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "pytorch",
-      "jax",
-      "tensorboard",
-      "onnx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T08:42:09.193219+00:00",
-    "source_ids": [
-      "distil-whisper/distil-medium.en"
-    ],
-    "family": "distil-medium.en"
-  },
-  {
-    "id": "huggingface:distil-whisper/distil-large-v2",
-    "name": "distil-large-v2",
-    "provider": "distil-whisper",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-10-24T15:48:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/distil-whisper/distil-large-v2",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "pytorch",
-      "jax",
-      "tensorboard",
-      "onnx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T08:42:09.193267+00:00",
-    "source_ids": [
-      "distil-whisper/distil-large-v2"
-    ],
-    "family": "distil-large-v2"
   },
   {
     "id": "huggingface:cyberdelia/CyberRealistic",
