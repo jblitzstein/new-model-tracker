@@ -894,6 +894,39 @@
     "family": "DeepSeek-V4-Pro"
   },
   {
+    "id": "huggingface:llmfan46/MiniMax-M2.7-ultra-uncensored-heretic-GGUF",
+    "name": "MiniMax-M2.7-ultra-uncensored-heretic-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T14:13:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/MiniMax-M2.7-ultra-uncensored-heretic-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-21T05:29:26.169511+00:00",
+    "source_ids": [
+      "llmfan46/MiniMax-M2.7-ultra-uncensored-heretic-GGUF"
+    ],
+    "family": "MiniMax-M2.7-ultra-uncensored-heretic"
+  },
+  {
     "id": "huggingface:turtle170/TinyCode-4B",
     "name": "TinyCode-4B",
     "provider": "turtle170",
@@ -12669,41 +12702,6 @@
     "family": "Qwen3.6-TurboQuant-MLX-2bit"
   },
   {
-    "id": "huggingface:majentik/Qwen3.6-35B-A3B-RotorQuant-MLX-2bit",
-    "name": "Qwen3.6-35B-A3B-RotorQuant-MLX-2bit",
-    "provider": "majentik",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-17T04:15:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/majentik/Qwen3.6-35B-A3B-RotorQuant-MLX-2bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "qwen",
-      "qwen-3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T05:02:31.048104+00:00",
-    "source_ids": [
-      "majentik/Qwen3.6-35B-A3B-RotorQuant-MLX-2bit"
-    ],
-    "family": "Qwen3.6-RotorQuant-MLX-2bit"
-  },
-  {
     "id": "huggingface:majentik/Qwen3.6-35B-A3B-TurboQuant-MLX-4bit",
     "name": "Qwen3.6-35B-A3B-TurboQuant-MLX-4bit",
     "provider": "majentik",
@@ -17885,40 +17883,6 @@
       "trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2"
     ],
     "family": "NVIDIA-Nemotron-3-Super-BF16-heretic-v2"
-  },
-  {
-    "id": "huggingface:bluryar/VoxCPM-GGUF",
-    "name": "VoxCPM-GGUF",
-    "provider": "bluryar",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-18T01:38:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bluryar/VoxCPM-GGUF",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "text-to-speech",
-      "base_model:openbmb/VoxCPM-0.5B",
-      "base_model:quantized:openbmb/VoxCPM-0.5B",
-      "endpoints_compatible"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-21T05:02:30.856487+00:00",
-    "source_ids": [
-      "bluryar/VoxCPM-GGUF"
-    ],
-    "family": "VoxCPM"
   },
   {
     "id": "huggingface:z-lab/Qwen3.5-35B-A3B-PARO",
