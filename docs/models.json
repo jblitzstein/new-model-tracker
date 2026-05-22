@@ -69390,5 +69390,73 @@
       "mradermacher/CoE-SlideVQA-8B-GGUF"
     ],
     "family": "CoE-SlideVQA"
+  },
+  {
+    "id": "huggingface:knowledgator/retrico-lm-4b-finetuned-sft-augumented",
+    "name": "retrico-lm-4b-finetuned-sft-augumented",
+    "provider": "knowledgator",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T14:16:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/knowledgator/retrico-lm-4b-finetuned-sft-augumented",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "base_model:adapter:Qwen/Qwen3.5-4B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T12:55:35.076548+00:00",
+    "source_ids": [
+      "knowledgator/retrico-lm-4b-finetuned-sft-augumented"
+    ],
+    "family": "retrico-lm-finetuned-sft-augumented"
+  },
+  {
+    "id": "huggingface:ManniX-ITA/Qwen3.6-27B-Omnimerge-v4-GGUF",
+    "name": "Qwen3.6-27B-Omnimerge-v4-GGUF",
+    "provider": "ManniX-ITA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T07:25:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ManniX-ITA/Qwen3.6-27B-Omnimerge-v4-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "imatrix",
+      "quantized",
+      "merge",
+      "mergekit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T12:55:35.944047+00:00",
+    "source_ids": [
+      "ManniX-ITA/Qwen3.6-27B-Omnimerge-v4-GGUF"
+    ],
+    "family": "Qwen3.6-Omnimerge-v4"
   }
 ]
