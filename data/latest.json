@@ -60,6 +60,40 @@
     "family": "Grok Build 0.1"
   },
   {
+    "id": "huggingface:numind/NuExtract3-FP8",
+    "name": "NuExtract3-FP8",
+    "provider": "numind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T11:45:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/numind/NuExtract3-FP8",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:32.639097+00:00",
+    "source_ids": [
+      "numind/NuExtract3-FP8"
+    ],
+    "family": "NuExtract3-FP8"
+  },
+  {
     "id": "openrouter:google/gemini-3.5-flash",
     "name": "Google: Gemini 3.5 Flash",
     "provider": "Google",
@@ -232,6 +266,105 @@
       "evalengine/unbound-e4b-gguf"
     ],
     "family": "unbound-e"
+  },
+  {
+    "id": "huggingface:mrthor102/evolai-tfm-super-003",
+    "name": "evolai-tfm-super-003",
+    "provider": "mrthor102",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-18T02:50:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mrthor102/evolai-tfm-super-003",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:32.422518+00:00",
+    "source_ids": [
+      "mrthor102/evolai-tfm-super-003"
+    ],
+    "family": "evolai-tfm-super-003"
+  },
+  {
+    "id": "huggingface:mrthor102/evolai-tfm-super-002",
+    "name": "evolai-tfm-super-002",
+    "provider": "mrthor102",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-18T02:50:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mrthor102/evolai-tfm-super-002",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:32.422495+00:00",
+    "source_ids": [
+      "mrthor102/evolai-tfm-super-002"
+    ],
+    "family": "evolai-tfm-super-002"
+  },
+  {
+    "id": "huggingface:mrthor102/evolai-tfm-super-001",
+    "name": "evolai-tfm-super-001",
+    "provider": "mrthor102",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-18T02:49:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mrthor102/evolai-tfm-super-001",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:32.422471+00:00",
+    "source_ids": [
+      "mrthor102/evolai-tfm-super-001"
+    ],
+    "family": "evolai-tfm-super-001"
   },
   {
     "id": "huggingface:nightmedia/Qwen3.5-9B-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx",
@@ -2550,6 +2683,40 @@
     "family": "gemma-4-E-it-Terminal-SFT-Native-Liquid-2Epoch"
   },
   {
+    "id": "huggingface:mradermacher/Bbox-caption-8b-GGUF",
+    "name": "Bbox-caption-8b-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-09T08:10:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Bbox-caption-8b-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "vision-language-model",
+      "image-to-text",
+      "bounding-box-detection"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:32.639056+00:00",
+    "source_ids": [
+      "mradermacher/Bbox-caption-8b-GGUF"
+    ],
+    "family": "Bbox-caption"
+  },
+  {
     "id": "huggingface:LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
     "name": "gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
     "provider": "LLM-OS-Models",
@@ -4235,6 +4402,41 @@
       "mradermacher/orpheus-3b-tts-multilingual-GGUF"
     ],
     "family": "orpheus-tts-multilingual"
+  },
+  {
+    "id": "huggingface:mradermacher/CoE-SlideVQA-8B-GGUF",
+    "name": "CoE-SlideVQA-8B-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T07:39:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/CoE-SlideVQA-8B-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "gguf",
+      "multimodal",
+      "visual-question-answering",
+      "chain-of-evidence"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:33.266979+00:00",
+    "source_ids": [
+      "mradermacher/CoE-SlideVQA-8B-GGUF"
+    ],
+    "family": "CoE-SlideVQA"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-35B-A3B-v1",
@@ -11930,39 +12132,6 @@
     "family": "Qwen3.6-MLX-oQ5-FP16"
   },
   {
-    "id": "huggingface:Cheesybeam32/blue-lora",
-    "name": "blue-lora",
-    "provider": "Cheesybeam32",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-19T21:30:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Cheesybeam32/blue-lora",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "gguf",
-      "base_model:adapter:meta-llama/Meta-Llama-3.1-8B",
-      "lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-22T08:40:10.489616+00:00",
-    "source_ids": [
-      "Cheesybeam32/blue-lora"
-    ],
-    "family": "blue-lora"
-  },
-  {
     "id": "huggingface:varjosoft/Qwen3.6-35B-A3B-TQ3-native",
     "name": "Qwen3.6-35B-A3B-TQ3-native",
     "provider": "varjosoft",
@@ -13671,6 +13840,40 @@
     "family": "SHRAM"
   },
   {
+    "id": "huggingface:ghecko78/Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic",
+    "name": "Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic",
+    "provider": "ghecko78",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T21:40:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ghecko78/Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "voxtral_realtime",
+      "automatic-speech-recognition",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:33.067284+00:00",
+    "source_ids": [
+      "ghecko78/Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic"
+    ],
+    "family": "Voxtral-Mini-Realtime-2602-FP8-Dynamic"
+  },
+  {
     "id": "huggingface:ReXeeD/Luminus-1.5B-Roleplay-GGUF",
     "name": "Luminus-1.5B-Roleplay-GGUF",
     "provider": "ReXeeD",
@@ -15349,40 +15552,6 @@
       "moofeez/qwen3-coder-30b-a3b-debugger-rl-lora"
     ],
     "family": "qwen3-coder-debugger-rl-lora"
-  },
-  {
-    "id": "huggingface:marcorez8/acestep-v15-xl-turbo-bf16",
-    "name": "acestep-v15-xl-turbo-bf16",
-    "provider": "marcorez8",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-04-09T07:07:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/marcorez8/acestep-v15-xl-turbo-bf16",
-    "tags": [
-      "text-to-audio",
-      "transformers",
-      "safetensors",
-      "acestep",
-      "feature-extraction",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-22T08:40:10.786020+00:00",
-    "source_ids": [
-      "marcorez8/acestep-v15-xl-turbo-bf16"
-    ],
-    "family": "acestep-v15-xl-turbo-bf16"
   },
   {
     "id": "huggingface:dhruvil237/gemma-4-26B-A4B-it-W4A16",
@@ -18961,6 +19130,39 @@
     "family": "Qwen3.5"
   },
   {
+    "id": "huggingface:nur-dev/farabi-1.7b",
+    "name": "farabi-1.7b",
+    "provider": "nur-dev",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-23T23:11:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nur-dev/farabi-1.7b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "kazakh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T09:11:32.422679+00:00",
+    "source_ids": [
+      "nur-dev/farabi-1.7b"
+    ],
+    "family": "farabi"
+  },
+  {
     "id": "huggingface:Qwen/Qwen3.5-397B-A17B-FP8",
     "name": "Qwen3.5-397B-A17B-FP8",
     "provider": "Qwen",
@@ -22414,40 +22616,6 @@
     "family": "TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS"
   },
   {
-    "id": "huggingface:cyberdelia/CyberRealisticPony",
-    "name": "CyberRealisticPony",
-    "provider": "cyberdelia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2024-05-09T10:12:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyberdelia/CyberRealisticPony",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "stable-diffusion",
-      "sdxl",
-      "text-to-image",
-      "photorealistic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-22T08:40:10.565742+00:00",
-    "source_ids": [
-      "cyberdelia/CyberRealisticPony"
-    ],
-    "family": "CyberRealisticPony"
-  },
-  {
     "id": "huggingface:RunDiffusion/Juggernaut-X-v10",
     "name": "Juggernaut-X-v10",
     "provider": "RunDiffusion",
@@ -22718,39 +22886,5 @@
       "RunDiffusion/Juggernaut-XL-v9"
     ],
     "family": "Juggernaut-XL-v9"
-  },
-  {
-    "id": "huggingface:cyberdelia/CyberRealistic",
-    "name": "CyberRealistic",
-    "provider": "cyberdelia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2023-05-28T11:25:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyberdelia/CyberRealistic",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "stable-diffusion",
-      "sd-1.5",
-      "text-to-image",
-      "photorealistic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-22T08:40:10.565808+00:00",
-    "source_ids": [
-      "cyberdelia/CyberRealistic"
-    ],
-    "family": "CyberRealistic"
   }
 ]
