@@ -8729,6 +8729,41 @@
     "family": "Qwen3.6-Uncensored-Genesis"
   },
   {
+    "id": "huggingface:mradermacher/Ornstein-3.6-27B-i1-GGUF",
+    "name": "Ornstein-3.6-27B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-25T12:43:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Ornstein-3.6-27B-i1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "safetensors",
+      "qwen3_5",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-22T20:35:52.507895+00:00",
+    "source_ids": [
+      "mradermacher/Ornstein-3.6-27B-i1-GGUF"
+    ],
+    "family": "Ornstein-3.6-i1"
+  },
+  {
     "id": "huggingface:mlx-community/Qwen3.6-27B-OptiQ-4bit",
     "name": "Qwen3.6-27B-OptiQ-4bit",
     "provider": "mlx-community",
@@ -13606,41 +13641,6 @@
       "ibm-granite/granite-speech-4.1-2b"
     ],
     "family": "granite-speech-4.1"
-  },
-  {
-    "id": "huggingface:arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8",
-    "name": "Qwen3.6-35B-A3B-mlx-mxfp8",
-    "provider": "arthurcollet",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T13:53:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-22T20:22:54.365714+00:00",
-    "source_ids": [
-      "arthurcollet/Qwen3.6-35B-A3B-mlx-mxfp8"
-    ],
-    "family": "Qwen3.6-mlx-mxfp8"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF",
@@ -21844,40 +21844,6 @@
       "reaperdoesntknow/Symbiotic-Beta"
     ],
     "family": "Symbiotic-Beta"
-  },
-  {
-    "id": "huggingface:ResembleAI/chatterbox",
-    "name": "chatterbox",
-    "provider": "ResembleAI",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-04-24T12:03:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ResembleAI/chatterbox",
-    "tags": [
-      "text-to-speech",
-      "chatterbox",
-      "text-to-speech",
-      "speech",
-      "speech-generation",
-      "voice-cloning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-22T20:22:54.203917+00:00",
-    "source_ids": [
-      "ResembleAI/chatterbox"
-    ],
-    "family": "chatterbox"
   },
   {
     "id": "huggingface:llamafactory/tiny-random-Llama-4",
