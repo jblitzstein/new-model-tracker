@@ -8902,6 +8902,39 @@
     "family": "Qwen3.6-uncensored-heretic-v1"
   },
   {
+    "id": "huggingface:mlx-community/DeepSeek-V4-Pro-8bit",
+    "name": "DeepSeek-V4-Pro-8bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-25T00:53:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/DeepSeek-V4-Pro-8bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-23T05:18:31.511622+00:00",
+    "source_ids": [
+      "mlx-community/DeepSeek-V4-Pro-8bit"
+    ],
+    "family": "DeepSeek-V4-Pro-8bit"
+  },
+  {
     "id": "huggingface:mihai-777/evolai-tfm-1p5b-v5",
     "name": "evolai-tfm-1p5b-v5",
     "provider": "mihai-777",
@@ -11566,39 +11599,6 @@
     "family": "empathAI-llama3.1"
   },
   {
-    "id": "huggingface:MarisUK/maris-ai-master",
-    "name": "maris-ai-master",
-    "provider": "MarisUK",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-21T19:40:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MarisUK/maris-ai-master",
-    "tags": [
-      "text-generation",
-      "maris-ai",
-      "maris-origin",
-      "conversational-ai",
-      "text-generation",
-      "lv"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-23T05:04:00.955445+00:00",
-    "source_ids": [
-      "MarisUK/maris-ai-master"
-    ],
-    "family": "maris-ai-master"
-  },
-  {
     "id": "huggingface:shennguyen/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF",
     "name": "Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-GGUF",
     "provider": "shennguyen",
@@ -11869,41 +11869,6 @@
     "family": "Huihui-Qwen3.6-abliterated-FP8"
   },
   {
-    "id": "huggingface:inferencerlabs/Kimi-K2.6-MLX-3.6bit",
-    "name": "Kimi-K2.6-MLX-3.6bit",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T20:07:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/Kimi-K2.6-MLX-3.6bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "kimi_k25",
-      "quantized",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-23T05:04:01.945521+00:00",
-    "source_ids": [
-      "inferencerlabs/Kimi-K2.6-MLX-3.6bit"
-    ],
-    "family": "Kimi-K2.6-MLX-3.6bit"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-GGUF",
     "name": "Qwen3.6-35B-A3B-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -11972,34 +11937,6 @@
       "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic"
     ],
     "family": "Qwen3.6-uncensored-heretic"
-  },
-  {
-    "id": "openrouter:baidu/qianfan-ocr-fast:free",
-    "name": "Baidu: Qianfan-OCR-Fast (free)",
-    "provider": "Baidu",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T17:51:12+00:00",
-    "context_length": 65536,
-    "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR. By leveraging specialized OCR training data while preserving versatile multimodal intelligence, it provides a powerful performance upgrade over Qianfan-OCR.",
-    "url": "https://openrouter.ai/baidu/qianfan-ocr-fast:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-23T05:04:00.786331+00:00",
-    "source_ids": [
-      "baidu/qianfan-ocr-fast:free"
-    ],
-    "family": "Qianfan-OCR-Fast"
   },
   {
     "id": "openrouter:baidu/qianfan-ocr-fast",
@@ -12575,6 +12512,39 @@
       "Muayad2025/wav2vec2-large-xlsr-persian-v3"
     ],
     "family": "wav2vec2-large-xlsr-persian-v3"
+  },
+  {
+    "id": "huggingface:stevelikesrhino/gemma-4-31B-it-nvfp4-GGUF",
+    "name": "gemma-4-31B-it-nvfp4-GGUF",
+    "provider": "stevelikesrhino",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T19:28:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stevelikesrhino/gemma-4-31B-it-nvfp4-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "text-generation",
+      "base_model:google/gemma-4-31B-it",
+      "base_model:quantized:google/gemma-4-31B-it",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-23T05:18:31.511698+00:00",
+    "source_ids": [
+      "stevelikesrhino/gemma-4-31B-it-nvfp4-GGUF"
+    ],
+    "family": "gemma-4-it-nvfp4"
   },
   {
     "id": "huggingface:0xSero/Qwen3.6-28B-REAP",
@@ -13777,41 +13747,6 @@
       "ibm-granite/granite-speech-4.1-2b"
     ],
     "family": "granite-speech-4.1"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF",
-    "name": "Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T08:47:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.5",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-23T05:04:01.945339+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.5-35B-A3B-Uncensored-Wasserstein-GGUF"
-    ],
-    "family": "Qwen3.5-Uncensored-Wasserstein"
   },
   {
     "id": "huggingface:mlnomad/yatnmn-softplus-sb-d12-chinchilla-261M-pytorch",
@@ -15223,39 +15158,6 @@
       "Vishva007/gemma-4-E4B-it-W4A16-AutoRound-GPTQ"
     ],
     "family": "gemma-4-E-it-W4A16-AutoRound"
-  },
-  {
-    "id": "huggingface:krampenschiesser/MiniMax-M2.7-GGUF",
-    "name": "MiniMax-M2.7-GGUF",
-    "provider": "krampenschiesser",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T03:47:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/krampenschiesser/MiniMax-M2.7-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "minimax_m2",
-      "llama.cpp",
-      "nvfp4",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-23T05:04:00.955504+00:00",
-    "source_ids": [
-      "krampenschiesser/MiniMax-M2.7-GGUF"
-    ],
-    "family": "MiniMax-M2.7"
   },
   {
     "id": "huggingface:TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2",
@@ -21333,39 +21235,6 @@
       "reaperdoesntknow/SMOLM2Prover"
     ],
     "family": "SMOLM2Prover"
-  },
-  {
-    "id": "huggingface:eekay/gemma-2b-it-dragon-numbers-ft",
-    "name": "gemma-2b-it-dragon-numbers-ft",
-    "provider": "eekay",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-30T15:01:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/eekay/gemma-2b-it-dragon-numbers-ft",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-23T05:04:00.955611+00:00",
-    "source_ids": [
-      "eekay/gemma-2b-it-dragon-numbers-ft"
-    ],
-    "family": "gemma-it-dragon-numbers-ft"
   },
   {
     "id": "huggingface:eekay/gemma-2b-it-cat-numbers-ft",
