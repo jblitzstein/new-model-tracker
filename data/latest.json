@@ -848,6 +848,41 @@
     "family": "stable-audio-3-small-sfx"
   },
   {
+    "id": "huggingface:gn00029914/Qwen3.6-27B-oQ6-fp16-mtp",
+    "name": "Qwen3.6-27B-oQ6-fp16-mtp",
+    "provider": "gn00029914",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-16T23:42:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gn00029914/Qwen3.6-27B-oQ6-fp16-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-25T13:15:23.204097+00:00",
+    "source_ids": [
+      "gn00029914/Qwen3.6-27B-oQ6-fp16-mtp"
+    ],
+    "family": "Qwen3.6-oQ6-fp16-mtp"
+  },
+  {
     "id": "huggingface:stabilityai/stable-audio-3-small-music-base",
     "name": "stable-audio-3-small-music-base",
     "provider": "Stability AI",
@@ -14279,39 +14314,6 @@
     "family": "gemma-4-it-W4A16"
   },
   {
-    "id": "huggingface:OnurDemircioglu/OmniGPT-355M",
-    "name": "OmniGPT-355M",
-    "provider": "OnurDemircioglu",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T06:19:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OnurDemircioglu/OmniGPT-355M",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "knowledge-distillation",
-      "custom-finetune"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-25T12:18:24.783792+00:00",
-    "source_ids": [
-      "OnurDemircioglu/OmniGPT-355M"
-    ],
-    "family": "OmniGPT-355M"
-  },
-  {
     "id": "huggingface:divinetribe/gemma-4-31b-it-abliterated-4bit-mlx",
     "name": "gemma-4-31b-it-abliterated-4bit-mlx",
     "provider": "divinetribe",
@@ -16045,41 +16047,6 @@
       "z-lab/Qwen3.5-35B-A3B-PARO"
     ],
     "family": "Qwen3.5-PARO"
-  },
-  {
-    "id": "huggingface:lyf/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4",
-    "name": "Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4",
-    "provider": "lyf",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T14:43:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lyf/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-25T12:18:25.566974+00:00",
-    "source_ids": [
-      "lyf/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-NVFP4"
-    ],
-    "family": "Qwen3.5-Uncensored-HauhauCS-Aggressive-NVFP4"
   },
   {
     "id": "huggingface:amd/Qwen3.5-35B-A3B-MXFP4",
@@ -18229,40 +18196,6 @@
       "aisingapore/Qwen-SEA-LION-v4-32B-IT"
     ],
     "family": "Qwen-SEA-LION-v4-IT"
-  },
-  {
-    "id": "huggingface:Cseti/VibeVoice_7B_hun_v2",
-    "name": "VibeVoice_7B_hun_v2",
-    "provider": "Cseti",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-10-10T06:57:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Cseti/VibeVoice_7B_hun_v2",
-    "tags": [
-      "text-to-speech",
-      "vibevoice",
-      "safetensors",
-      "text-to-speech",
-      "tts",
-      "lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-25T12:18:25.336096+00:00",
-    "source_ids": [
-      "Cseti/VibeVoice_7B_hun_v2"
-    ],
-    "family": "VibeVoice_7B_hun_v2"
   },
   {
     "id": "huggingface:reaperdoesntknow/DNA-50M",
