@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:nightmedia/Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx",
+    "name": "Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx",
+    "provider": "nightmedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T23:20:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nightmedia/Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-26T09:16:27.619954+00:00",
+    "source_ids": [
+      "nightmedia/Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx"
+    ],
+    "family": "Qwen3.6-MTP-Holo3-Qwopus-qx86-hi-mlx"
+  },
+  {
     "id": "huggingface:Phoenix9781/evolai-tf-model",
     "name": "evolai-tf-model",
     "provider": "Phoenix9781",
@@ -33,6 +68,40 @@
     "family": "evolai-tf-model"
   },
   {
+    "id": "huggingface:Shagufta/facebook-mms-1b-all-km-indomain20-withac",
+    "name": "facebook-mms-1b-all-km-indomain20-withac",
+    "provider": "Shagufta",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-22T06:27:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Shagufta/facebook-mms-1b-all-km-indomain20-withac",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-26T09:16:27.563899+00:00",
+    "source_ids": [
+      "Shagufta/facebook-mms-1b-all-km-indomain20-withac"
+    ],
+    "family": "facebook-mms-all-km-indomain20-withac"
+  },
+  {
     "id": "openrouter:qwen/qwen3.7-max",
     "name": "Qwen: Qwen3.7 Max",
     "provider": "Qwen",
@@ -60,6 +129,39 @@
       "qwen/qwen3.7-max"
     ],
     "family": "Qwen3.7 Max"
+  },
+  {
+    "id": "huggingface:Sandroeth/cali-0.1B",
+    "name": "cali-0.1B",
+    "provider": "Sandroeth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T13:26:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Sandroeth/cali-0.1B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "cali",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-26T09:16:27.216663+00:00",
+    "source_ids": [
+      "Sandroeth/cali-0.1B"
+    ],
+    "family": "cali"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF",
@@ -5018,6 +5120,41 @@
       "mradermacher/CoE-SlideVQA-8B-GGUF"
     ],
     "family": "CoE-SlideVQA"
+  },
+  {
+    "id": "huggingface:mradermacher/CoE-Wiki-CoE-8B-GGUF",
+    "name": "CoE-Wiki-CoE-8B-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T07:28:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/CoE-Wiki-CoE-8B-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "gguf",
+      "multimodal",
+      "visual-question-answering",
+      "chain-of-evidence"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-26T09:16:27.668743+00:00",
+    "source_ids": [
+      "mradermacher/CoE-Wiki-CoE-8B-GGUF"
+    ],
+    "family": "CoE-Wiki-CoE"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-35B-A3B-v1",
@@ -10412,40 +10549,6 @@
       "nameistoken/Qwen3.6-35B-A3B-Quark-W8A8-INT8"
     ],
     "family": "Qwen3.6-Quark-W8A8-INT8"
-  },
-  {
-    "id": "huggingface:sulaimank/xlsr-luganda-400hr-all",
-    "name": "xlsr-luganda-400hr-all",
-    "provider": "sulaimank",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T10:22:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sulaimank/xlsr-luganda-400hr-all",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-26T08:30:35.705015+00:00",
-    "source_ids": [
-      "sulaimank/xlsr-luganda-400hr-all"
-    ],
-    "family": "xlsr-luganda-400hr-all"
   },
   {
     "id": "huggingface:Motif-Technologies/Motif-Video-2B-GGUF",
