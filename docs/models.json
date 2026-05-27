@@ -71090,5 +71090,66 @@
       "nvidia/LocateAnything-3B"
     ],
     "family": "LocateAnything"
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k2.6:free",
+    "name": "MoonshotAI: Kimi K2.6 (free)",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T15:36:42+00:00",
+    "context_length": 262144,
+    "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k2.6:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-05-27T20:46:21.775273+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k2.6:free"
+    ],
+    "family": "Kimi K2.6"
+  },
+  {
+    "id": "huggingface:nilayparikh/Qwen3.6-27B-Text-NVFP4-MTP-GGUF",
+    "name": "Qwen3.6-27B-Text-NVFP4-MTP-GGUF",
+    "provider": "nilayparikh",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-18T19:07:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nilayparikh/Qwen3.6-27B-Text-NVFP4-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen3.6",
+      "nvfp4",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-27T20:46:21.888514+00:00",
+    "source_ids": [
+      "nilayparikh/Qwen3.6-27B-Text-NVFP4-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-Text-NVFP4-MTP"
   }
 ]
