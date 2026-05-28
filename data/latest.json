@@ -1773,6 +1773,39 @@
     "family": "Lens"
   },
   {
+    "id": "huggingface:nvidia/DeepSeek-V4-Pro-NVFP4",
+    "name": "DeepSeek-V4-Pro-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T19:48:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/DeepSeek-V4-Pro-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "deepseek_v4",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-28T00:49:23.211412+00:00",
+    "source_ids": [
+      "nvidia/DeepSeek-V4-Pro-NVFP4"
+    ],
+    "family": "DeepSeek-V4-Pro-NVFP4"
+  },
+  {
     "id": "huggingface:llmfan46/MiniMax-M2.7-ultra-uncensored-heretic-GGUF",
     "name": "MiniMax-M2.7-ultra-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -9920,41 +9953,6 @@
     "family": "Qwen3.6-NVFP4"
   },
   {
-    "id": "huggingface:sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4",
-    "name": "Huihui-Qwen3.6-27B-abliterated-NVFP4",
-    "provider": "sakamakismile",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T15:12:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T00:46:14.923592+00:00",
-    "source_ids": [
-      "sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4"
-    ],
-    "family": "Huihui-Qwen3.6-abliterated-NVFP4"
-  },
-  {
     "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ4-FP16",
     "name": "Qwen3.6-27B-MLX-oQ4-FP16",
     "provider": "deepsweet",
@@ -17690,40 +17688,6 @@
       "TalTechNLP/whisper-large-v3-turbo-et-verbatim"
     ],
     "family": "whisper-large-v3-turbo-et-verbatim"
-  },
-  {
-    "id": "huggingface:FluidInference/kokoro-82m-coreml",
-    "name": "kokoro-82m-coreml",
-    "provider": "FluidInference",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-09-08T06:19:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FluidInference/kokoro-82m-coreml",
-    "tags": [
-      "text-to-speech",
-      "coreml",
-      "text-to-speech",
-      "en",
-      "base_model:hexgrad/Kokoro-82M",
-      "base_model:quantized:hexgrad/Kokoro-82M"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T00:46:14.791302+00:00",
-    "source_ids": [
-      "FluidInference/kokoro-82m-coreml"
-    ],
-    "family": "kokoro-82m-coreml"
   },
   {
     "id": "huggingface:reaperdoesntknow/Mini-oss-0.6b",
