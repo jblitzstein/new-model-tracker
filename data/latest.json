@@ -35,6 +35,41 @@
     "family": "Qwen3.6-MTP-Holo3-Qwopus-qx86-hi-mlx"
   },
   {
+    "id": "huggingface:Jackrong/Qwopus3.6-35B-A3B-v1-MTP-GGUF",
+    "name": "Qwopus3.6-35B-A3B-v1-MTP-GGUF",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-23T07:13:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "llama.cpp",
+      "image-text-to-text",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-28T05:29:31.826142+00:00",
+    "source_ids": [
+      "Jackrong/Qwopus3.6-35B-A3B-v1-MTP-GGUF"
+    ],
+    "family": "Qwopus3.6-v1-MTP"
+  },
+  {
     "id": "huggingface:Phoenix9781/evolai-tf-model",
     "name": "evolai-tf-model",
     "provider": "Phoenix9781",
@@ -197,6 +232,41 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-V2-APEX-MTP"
+  },
+  {
+    "id": "huggingface:Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
+    "name": "Qwopus3.6-27B-v2-MTP-GGUF",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T06:37:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "llama.cpp",
+      "image-text-to-text",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-28T05:29:31.826111+00:00",
+    "source_ids": [
+      "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF"
+    ],
+    "family": "Qwopus3.6-v2-MTP"
   },
   {
     "id": "openrouter:x-ai/grok-build-0.1",
@@ -1255,6 +1325,39 @@
       "mradermacher/DLM-LST-9B-GGUF"
     ],
     "family": "DLM-LST"
+  },
+  {
+    "id": "huggingface:AxisQuant/Qwen3.6-27b-gptq-int4",
+    "name": "Qwen3.6-27b-gptq-int4",
+    "provider": "AxisQuant",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-16T11:17:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AxisQuant/Qwen3.6-27b-gptq-int4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-28T05:29:31.352078+00:00",
+    "source_ids": [
+      "AxisQuant/Qwen3.6-27b-gptq-int4"
+    ],
+    "family": "Qwen3.6--int4"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-27B-v2-GGUF",
@@ -18167,39 +18270,6 @@
     "family": "Whisper_Largev2-Swahili-Decodis_Comb_FT"
   },
   {
-    "id": "huggingface:DavidAU/Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf",
-    "name": "Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-08T02:08:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "all use cases",
-      "creative",
-      "creative writing",
-      "all genres"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T05:11:30.806453+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3-128k-30B-A3B-NEO-MAX-Imatrix-gguf"
-    ],
-    "family": "Qwen3-128k-NEO-MAX-Imatrix"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/Symbiotic-8B",
     "name": "Symbiotic-8B",
     "provider": "reaperdoesntknow",
@@ -18402,39 +18472,6 @@
     "family": "tiny-random-Llama-4"
   },
   {
-    "id": "huggingface:DavidAU/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF",
-    "name": "L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-04T08:35:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "creative",
-      "creative writing",
-      "fiction writing",
-      "plot generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T05:11:30.806331+00:00",
-    "source_ids": [
-      "DavidAU/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored-36B-GGUF"
-    ],
-    "family": "L3.1-MOE-6X-Dark-Reasoning-Dantes-Peak-HORROR-R1-Uncensored"
-  },
-  {
     "id": "huggingface:software-mansion/react-native-executorch-whisper-tiny",
     "name": "react-native-executorch-whisper-tiny",
     "provider": "software-mansion",
@@ -18500,39 +18537,6 @@
       "DataoceanAI/dolphin-base"
     ],
     "family": "dolphin"
-  },
-  {
-    "id": "huggingface:DavidAU/Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF",
-    "name": "Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-03-18T04:17:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "Mistral",
-      "Mistral 2503",
-      "instruct",
-      "128k context"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T05:11:30.806170+00:00",
-    "source_ids": [
-      "DavidAU/Mistral-Small-3.1-24B-Instruct-2503-MAX-NEO-Imatrix-GGUF"
-    ],
-    "family": "Mistral-Small-3.1--2503-MAX-NEO-Imatrix"
   },
   {
     "id": "huggingface:Xtra-Computing/XtraGPT-14B",
@@ -18705,39 +18709,6 @@
     "family": "tiny-CohereForCausalLM"
   },
   {
-    "id": "huggingface:DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF",
-    "name": "MN-DARKEST-UNIVERSE-29B-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-10-31T06:15:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "mistral nemo",
-      "creative",
-      "creative writing",
-      "fiction writing"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T05:11:30.806418+00:00",
-    "source_ids": [
-      "DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF"
-    ],
-    "family": "MN-DARKEST-UNIVERSE"
-  },
-  {
     "id": "huggingface:software-mansion/react-native-executorch-llama-3.2",
     "name": "react-native-executorch-llama-3.2",
     "provider": "software-mansion",
@@ -18803,39 +18774,6 @@
       "enhanceaiteam/Flux-uncensored"
     ],
     "family": "Flux-uncensored"
-  },
-  {
-    "id": "huggingface:DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
-    "name": "Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-08-16T00:01:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "creative",
-      "creative writing",
-      "fiction writing",
-      "plot generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T05:11:30.806376+00:00",
-    "source_ids": [
-      "DavidAU/Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-35B-IMATRIX-GGUF"
-    ],
-    "family": "Command-R-01-Ultra-NEO-DARK-HORROR-V1-V2-IMATRIX"
   },
   {
     "id": "huggingface:RunDiffusion/Juggernaut-XI-v11",
@@ -18938,39 +18876,6 @@
       "rootonchair/diffuser_layerdiffuse"
     ],
     "family": "diffuser_layerdiffuse"
-  },
-  {
-    "id": "huggingface:DavidAU/TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf",
-    "name": "TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-05-18T00:04:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "not-for-all-audiences",
-      "art",
-      "creative",
-      "roleplay"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-28T05:11:30.806281+00:00",
-    "source_ids": [
-      "DavidAU/TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS-20B-gguf"
-    ],
-    "family": "TieFighter-Holodeck-Holomax-Mythomax-F1-V1-COMPOS"
   },
   {
     "id": "huggingface:RunDiffusion/Juggernaut-X-v10",
