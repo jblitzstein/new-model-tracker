@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:anthropic/claude-opus-4.8-fast",
+    "name": "Anthropic: Claude Opus 4.8 (Fast)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-27T20:28:23+00:00",
+    "context_length": 1000000,
+    "description": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.8-fast",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 50.0
+    },
+    "first_seen": "2026-05-28T17:19:58.230963+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.8-fast"
+    ],
+    "family": "Claude Opus 4.8 (Fast)"
+  },
+  {
     "id": "huggingface:RemySkye/MiniCPM5-1B-i1-GGUF",
     "name": "MiniCPM5-1B-i1-GGUF",
     "provider": "RemySkye",
@@ -31,6 +64,39 @@
       "RemySkye/MiniCPM5-1B-i1-GGUF"
     ],
     "family": "MiniCPM5-i1"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-4.8",
+    "name": "Anthropic: Claude Opus 4.8",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-27T18:04:51+00:00",
+    "context_length": 1000000,
+    "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.8",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-05-28T17:19:58.231963+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.8"
+    ],
+    "family": "Claude Opus 4.8"
   },
   {
     "id": "huggingface:AgentAnon/biglove-klein2",
@@ -2822,6 +2888,39 @@
       "perceptron/perceptron-mk1"
     ],
     "family": "Perceptron Mk1"
+  },
+  {
+    "id": "huggingface:cs-552-2026-middle-west/math_model",
+    "name": "math_model",
+    "provider": "cs-552-2026-middle-west",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T14:42:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cs-552-2026-middle-west/math_model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-28T17:19:58.320405+00:00",
+    "source_ids": [
+      "cs-552-2026-middle-west/math_model"
+    ],
+    "family": "math_model"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF",
@@ -8116,90 +8215,6 @@
     "family": "Owl Alpha"
   },
   {
-    "id": "openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "audio",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T16:18:15+00:00",
-    "context_length": 256000,
-    "description": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and...",
-    "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-28T16:39:49.323198+00:00",
-    "source_ids": [
-      "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
-    ],
-    "family": "Nemotron 3 Nano Omni"
-  },
-  {
-    "id": "openrouter:poolside/laguna-xs.2:free",
-    "name": "Poolside: Laguna XS.2 (free)",
-    "provider": "poolside",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T15:20:04+00:00",
-    "context_length": 131072,
-    "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
-    "url": "https://openrouter.ai/poolside/laguna-xs.2:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-28T16:39:49.324144+00:00",
-    "source_ids": [
-      "poolside/laguna-xs.2:free"
-    ],
-    "family": "Laguna XS.2"
-  },
-  {
-    "id": "openrouter:poolside/laguna-m.1:free",
-    "name": "Poolside: Laguna M.1 (free)",
-    "provider": "poolside",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T15:01:44+00:00",
-    "context_length": 131072,
-    "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
-    "url": "https://openrouter.ai/poolside/laguna-m.1:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-28T16:39:49.324180+00:00",
-    "source_ids": [
-      "poolside/laguna-m.1:free"
-    ],
-    "family": "Laguna M.1"
-  },
-  {
     "id": "huggingface:inferencerlabs/DeepSeek-V4-Flash-MLX-2.8bit-EXP",
     "name": "DeepSeek-V4-Flash-MLX-2.8bit-EXP",
     "provider": "inferencerlabs",
@@ -9081,6 +9096,39 @@
       "inferencerlabs/DeepSeek-V4-Flash-MLX-9bit-EXP"
     ],
     "family": "DeepSeek-V4-Flash-MLX-9bit-EXP"
+  },
+  {
+    "id": "huggingface:inferencerlabs/DeepSeek-V4-Flash-MLX-9bit",
+    "name": "DeepSeek-V4-Flash-MLX-9bit",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:11:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4-Flash-MLX-9bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "deepseek_v4",
+      "quantized",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-28T17:19:58.320090+00:00",
+    "source_ids": [
+      "inferencerlabs/DeepSeek-V4-Flash-MLX-9bit"
+    ],
+    "family": "DeepSeek-V4-Flash-MLX-9bit"
   },
   {
     "id": "huggingface:boods/Qwen3-14B-FrenchMedical-Multilingual",
