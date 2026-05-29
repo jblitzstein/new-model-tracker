@@ -337,6 +337,39 @@
     "family": "Qwen3.6-MTP-Holo3-Qwopus-qx86-hi-mlx"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2.5-8B-A1B-GGUF",
+    "name": "LFM2.5-8B-A1B-GGUF",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T22:16:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "liquid",
+      "lfm2",
+      "edge",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T17:14:27.762266+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-8B-A1B-GGUF"
+    ],
+    "family": "LFM2.5"
+  },
+  {
     "id": "huggingface:stepfun-ai/Step-3.7-Flash-FP8",
     "name": "Step-3.7-Flash-FP8",
     "provider": "stepfun-ai",
@@ -3061,6 +3094,41 @@
       "llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF"
     ],
     "family": "gemma-4-Ortenzya-The-Creative-Wordsmith-it-uncensored-heretic"
+  },
+  {
+    "id": "huggingface:Tu522004/RD-9B-Distill",
+    "name": "RD-9B-Distill",
+    "provider": "Tu522004",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T06:57:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Tu522004/RD-9B-Distill",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T17:14:28.571876+00:00",
+    "source_ids": [
+      "Tu522004/RD-9B-Distill"
+    ],
+    "family": "RD-Distill"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.7-fast",
@@ -12031,39 +12099,6 @@
     "family": "Qwen3.6-REAP"
   },
   {
-    "id": "huggingface:mlnomad/yatnmn-softplus-d22-chinchilla-1B-pytorch",
-    "name": "yatnmn-softplus-d22-chinchilla-1B-pytorch",
-    "provider": "mlnomad",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-17T16:15:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlnomad/yatnmn-softplus-d22-chinchilla-1B-pytorch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "yatnmn_gpt",
-      "text-generation",
-      "pytorch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T16:36:45.164075+00:00",
-    "source_ids": [
-      "mlnomad/yatnmn-softplus-d22-chinchilla-1B-pytorch"
-    ],
-    "family": "yatnmn-softplus-d22-chinchilla-pytorch"
-  },
-  {
     "id": "huggingface:fraQtl/Qwen3.6-35B-A3B-compressed",
     "name": "Qwen3.6-35B-A3B-compressed",
     "provider": "fraQtl",
@@ -12550,41 +12585,6 @@
     "family": "Qwen_Qwen3.6"
   },
   {
-    "id": "huggingface:ibm-granite/granite-vision-4.1-4b",
-    "name": "granite-vision-4.1-4b",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T13:58:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-vision-4.1-4b",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "granite4_vision",
-      "feature-extraction",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T16:36:46.222949+00:00",
-    "source_ids": [
-      "ibm-granite/granite-vision-4.1-4b"
-    ],
-    "family": "granite-vision-4.1"
-  },
-  {
     "id": "huggingface:ibm-granite/granite-speech-4.1-2b",
     "name": "granite-speech-4.1-2b",
     "provider": "IBM",
@@ -12617,72 +12617,6 @@
       "ibm-granite/granite-speech-4.1-2b"
     ],
     "family": "granite-speech-4.1"
-  },
-  {
-    "id": "huggingface:mlnomad/yatnmn-softplus-sb-d12-chinchilla-261M-pytorch",
-    "name": "yatnmn-softplus-sb-d12-chinchilla-261M-pytorch",
-    "provider": "mlnomad",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T23:12:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlnomad/yatnmn-softplus-sb-d12-chinchilla-261M-pytorch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "yatnmn_gpt",
-      "text-generation",
-      "pytorch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T16:36:45.164181+00:00",
-    "source_ids": [
-      "mlnomad/yatnmn-softplus-sb-d12-chinchilla-261M-pytorch"
-    ],
-    "family": "yatnmn-softplus-sb-d12-chinchilla-261M-pytorch"
-  },
-  {
-    "id": "huggingface:mlnomad/yatnmn-softplus-d12-chinchilla-261M-pytorch",
-    "name": "yatnmn-softplus-d12-chinchilla-261M-pytorch",
-    "provider": "mlnomad",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T22:15:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlnomad/yatnmn-softplus-d12-chinchilla-261M-pytorch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "yatnmn_gpt",
-      "text-generation",
-      "pytorch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T16:36:45.164217+00:00",
-    "source_ids": [
-      "mlnomad/yatnmn-softplus-d12-chinchilla-261M-pytorch"
-    ],
-    "family": "yatnmn-softplus-d12-chinchilla-261M-pytorch"
   },
   {
     "id": "huggingface:smithblack-0/SHRAM",
@@ -12888,39 +12822,6 @@
       "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-6bit-int6-affine"
     ],
     "family": "gemma-4-it-uncensored-abliterix-MLX-6bit-int6-affine"
-  },
-  {
-    "id": "huggingface:mlnomad/gelu-d12-chinchilla-261M-pytorch",
-    "name": "gelu-d12-chinchilla-261M-pytorch",
-    "provider": "mlnomad",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T01:23:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlnomad/gelu-d12-chinchilla-261M-pytorch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gelu_gpt",
-      "text-generation",
-      "pytorch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T16:36:45.164249+00:00",
-    "source_ids": [
-      "mlnomad/gelu-d12-chinchilla-261M-pytorch"
-    ],
-    "family": "gelu-d12-chinchilla-261M-pytorch"
   },
   {
     "id": "huggingface:mradermacher/mind-mem-4b-GGUF",
@@ -17756,6 +17657,39 @@
     "family": "DNA-50M"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2-8B-A1B",
+    "name": "LFM2-8B-A1B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-07T13:55:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-8B-A1B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2_moe",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T17:14:27.761991+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-8B-A1B"
+    ],
+    "family": "LFM2"
+  },
+  {
     "id": "huggingface:reaperdoesntknow/DNA-175M",
     "name": "DNA-175M",
     "provider": "reaperdoesntknow",
@@ -18324,6 +18258,39 @@
       "trl-internal-testing/tiny-Qwen2_5_VLForConditionalGeneration"
     ],
     "family": "tiny-Qwen2_5_VLForConditionalGeneration"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-350M",
+    "name": "LFM2-350M",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-10T12:01:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-350M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T17:14:27.762051+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-350M"
+    ],
+    "family": "LFM2-350M"
   },
   {
     "id": "huggingface:numind/NuExtract-2.0-8B-GPTQ",
