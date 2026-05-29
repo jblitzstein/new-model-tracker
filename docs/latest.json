@@ -10211,6 +10211,41 @@
     "family": "Qwen3.6-NVFP4"
   },
   {
+    "id": "huggingface:OrionLLM/GRM-2.6-Plus",
+    "name": "GRM-2.6-Plus",
+    "provider": "OrionLLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T23:14:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OrionLLM/GRM-2.6-Plus",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.6-27B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T20:51:09.244012+00:00",
+    "source_ids": [
+      "OrionLLM/GRM-2.6-Plus"
+    ],
+    "family": "GRM-2.6-Plus"
+  },
+  {
     "id": "huggingface:hampsonw/Qwen3.6-27B-AWQ-BF16-INT4-mtp-bf16",
     "name": "Qwen3.6-27B-AWQ-BF16-INT4-mtp-bf16",
     "provider": "hampsonw",
@@ -16716,40 +16751,6 @@
       "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI"
     ],
     "family": "Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI"
-  },
-  {
-    "id": "huggingface:google/medasr",
-    "name": "medasr",
-    "provider": "Google",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-18T23:05:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/google/medasr",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "lasr_ctc",
-      "medical-asr",
-      "radiology"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T20:29:21.202098+00:00",
-    "source_ids": [
-      "google/medasr"
-    ],
-    "family": "medasr"
   },
   {
     "id": "huggingface:inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
