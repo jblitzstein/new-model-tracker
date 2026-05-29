@@ -71898,5 +71898,141 @@
       "cs-552-2026-middle-west/math_model"
     ],
     "family": "math_model"
+  },
+  {
+    "id": "openrouter:stepfun/step-3.7-flash",
+    "name": "StepFun: Step 3.7 Flash",
+    "provider": "StepFun",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-28T16:17:49+00:00",
+    "context_length": 256000,
+    "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters...",
+    "url": "https://openrouter.ai/stepfun/step-3.7-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 1.15
+    },
+    "first_seen": "2026-05-29T00:56:32.197157+00:00",
+    "source_ids": [
+      "stepfun/step-3.7-flash"
+    ],
+    "family": "Step 3.7 Flash"
+  },
+  {
+    "id": "huggingface:BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4",
+    "name": "Qwen3-4b-Z-Image-Engineer-V4",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-04T21:07:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "text-generation",
+      "prompt-engineering"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T00:56:32.333939+00:00",
+    "source_ids": [
+      "BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4"
+    ],
+    "family": "Qwen3-Z-Image-Engineer-V4"
+  },
+  {
+    "id": "huggingface:stepfun-ai/Step-3.7-Flash",
+    "name": "Step-3.7-Flash",
+    "provider": "stepfun-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-23T02:13:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "step3p7",
+      "text-generation",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T00:56:33.123776+00:00",
+    "source_ids": [
+      "stepfun-ai/Step-3.7-Flash"
+    ],
+    "family": "Step-3.7-Flash"
+  },
+  {
+    "id": "huggingface:stepfun-ai/Step-3.7-Flash-FP8",
+    "name": "Step-3.7-Flash-FP8",
+    "provider": "stepfun-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-23T12:49:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "step3p7",
+      "text-generation",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T00:56:33.123856+00:00",
+    "source_ids": [
+      "stepfun-ai/Step-3.7-Flash-FP8"
+    ],
+    "family": "Step-3.7-Flash-FP8"
   }
 ]
