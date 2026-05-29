@@ -33,6 +33,39 @@
     "family": "Step 3.7 Flash"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2.5-8B-A1B",
+    "name": "LFM2.5-8B-A1B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-28T09:43:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2_moe",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T09:15:56.441024+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-8B-A1B"
+    ],
+    "family": "LFM2.5"
+  },
+  {
     "id": "openrouter:anthropic/claude-opus-4.8-fast",
     "name": "Anthropic: Claude Opus 4.8 (Fast)",
     "provider": "Anthropic",
@@ -470,6 +503,40 @@
     "family": "Qwen3.7 Max"
   },
   {
+    "id": "huggingface:cocktailpeanut/stable-audio-3-medium",
+    "name": "stable-audio-3-medium",
+    "provider": "cocktailpeanut",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-21T14:36:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cocktailpeanut/stable-audio-3-medium",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "music",
+      "sound-effects"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T09:15:56.734638+00:00",
+    "source_ids": [
+      "cocktailpeanut/stable-audio-3-medium"
+    ],
+    "family": "stable-audio-3-medium"
+  },
+  {
     "id": "huggingface:Sandroeth/cali-0.1B",
     "name": "cali-0.1B",
     "provider": "Sandroeth",
@@ -606,6 +673,40 @@
       "Qwen/Qwen-Image-Bench"
     ],
     "family": "Qwen-Image-Bench"
+  },
+  {
+    "id": "huggingface:cocktailpeanut/stable-audio-3-small-music",
+    "name": "stable-audio-3-small-music",
+    "provider": "cocktailpeanut",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-21T01:54:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cocktailpeanut/stable-audio-3-small-music",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-3",
+      "safetensors",
+      "audio-generation",
+      "music",
+      "diffusion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T09:15:56.734706+00:00",
+    "source_ids": [
+      "cocktailpeanut/stable-audio-3-small-music"
+    ],
+    "family": "stable-audio-3-small-music"
   },
   {
     "id": "openrouter:x-ai/grok-build-0.1",
@@ -6367,6 +6468,40 @@
     "family": "Qwen3.6-PARO"
   },
   {
+    "id": "huggingface:cstr/chatterbox-GGUF",
+    "name": "chatterbox-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-04T04:46:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/chatterbox-GGUF",
+    "tags": [
+      "text-to-speech",
+      "ggml",
+      "gguf",
+      "tts",
+      "text-to-speech",
+      "chatterbox"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T09:15:56.818760+00:00",
+    "source_ids": [
+      "cstr/chatterbox-GGUF"
+    ],
+    "family": "chatterbox"
+  },
+  {
     "id": "huggingface:storagejuju/glm-5.1-mxfp4-moe-juju",
     "name": "glm-5.1-mxfp4-moe-juju",
     "provider": "storagejuju",
@@ -9611,41 +9746,6 @@
     "family": "Ornstein-3.6-i1"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v1-GGUF",
-    "name": "Qwen3.6-27B-uncensored-heretic-v1-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-25T01:32:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.6-27B-uncensored-heretic-v1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3_5",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T08:51:03.250472+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.6-27B-uncensored-heretic-v1-GGUF"
-    ],
-    "family": "Qwen3.6-uncensored-heretic-v1"
-  },
-  {
     "id": "huggingface:mlx-community/DeepSeek-V4-Pro-8bit",
     "name": "DeepSeek-V4-Pro-8bit",
     "provider": "mlx-community",
@@ -11658,6 +11758,40 @@
       "scragnog/ace-step-1.5-gguf-merge-models"
     ],
     "family": "ace-step-1.5--merge-models"
+  },
+  {
+    "id": "huggingface:ziywang50/omniASR-LLM-300M",
+    "name": "omniASR-LLM-300M",
+    "provider": "ziywang50",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T03:15:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ziywang50/omniASR-LLM-300M",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "omniasr_llm",
+      "automatic-speech-recognition",
+      "dataset:facebook/omnilingual-asr-corpus",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T09:15:56.889319+00:00",
+    "source_ids": [
+      "ziywang50/omniASR-LLM-300M"
+    ],
+    "family": "omniASR-LLM-300M"
   },
   {
     "id": "huggingface:varjosoft/Qwen3.6-35B-A3B-TQ3-native",
@@ -15848,41 +15982,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:llmfan46/Qwen3.5-35B-A3B-uncensored-heretic",
-    "name": "Qwen3.5-35B-A3B-uncensored-heretic",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T08:54:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-uncensored-heretic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T08:51:03.250439+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.5-35B-A3B-uncensored-heretic"
-    ],
-    "family": "Qwen3.5-uncensored-heretic"
-  },
-  {
     "id": "huggingface:infly/Infinity-Parser2-Flash",
     "name": "Infinity-Parser2-Flash",
     "provider": "infly",
@@ -18564,41 +18663,6 @@
       "reaperdoesntknow/Symbiotic-Beta"
     ],
     "family": "Symbiotic-Beta"
-  },
-  {
-    "id": "huggingface:llamafactory/tiny-random-Llama-4",
-    "name": "tiny-random-Llama-4",
-    "provider": "llamafactory",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-06T06:25:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llamafactory/tiny-random-Llama-4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "llama4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T08:51:03.250407+00:00",
-    "source_ids": [
-      "llamafactory/tiny-random-Llama-4"
-    ],
-    "family": "tiny-random-Llama-4"
   },
   {
     "id": "huggingface:software-mansion/react-native-executorch-whisper-tiny",
