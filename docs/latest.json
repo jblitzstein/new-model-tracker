@@ -233,6 +233,41 @@
     "family": "whisper-podlodka-turbo-coreml"
   },
   {
+    "id": "huggingface:PaddlePaddle/PaddleOCR-VL-1.6",
+    "name": "PaddleOCR-VL-1.6",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-27T06:27:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
+    "tags": [
+      "image-text-to-text",
+      "PaddleOCR",
+      "safetensors",
+      "paddleocr_vl",
+      "ERNIE4.5",
+      "PaddlePaddle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-29T13:12:30.544723+00:00",
+    "source_ids": [
+      "PaddlePaddle/PaddleOCR-VL-1.6"
+    ],
+    "family": "PaddleOCR-VL-1.6"
+  },
+  {
     "id": "huggingface:suleimanelkhoury/Voxtral-Mini-4B-Realtime-2602",
     "name": "Voxtral-Mini-4B-Realtime-2602",
     "provider": "suleimanelkhoury",
@@ -17985,40 +18020,6 @@
       "reaperdoesntknow/TameForCasualLM"
     ],
     "family": "TameForCasualLM"
-  },
-  {
-    "id": "huggingface:TalTechNLP/whisper-large-v3-turbo-et-verbatim",
-    "name": "whisper-large-v3-turbo-et-verbatim",
-    "provider": "TalTechNLP",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-15T07:48:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TalTechNLP/whisper-large-v3-turbo-et-verbatim",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "et"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-29T12:38:44.821643+00:00",
-    "source_ids": [
-      "TalTechNLP/whisper-large-v3-turbo-et-verbatim"
-    ],
-    "family": "whisper-large-v3-turbo-et-verbatim"
   },
   {
     "id": "huggingface:reaperdoesntknow/Mini-oss-0.6b",
