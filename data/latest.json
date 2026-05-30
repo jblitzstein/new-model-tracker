@@ -302,6 +302,41 @@
     "family": "Voxtral-Mini-Realtime-2602"
   },
   {
+    "id": "huggingface:SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF",
+    "name": "Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF",
+    "provider": "SC117",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-26T12:49:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5_moe",
+      "qwen3_5",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-30T05:20:53.984181+00:00",
+    "source_ids": [
+      "SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF"
+    ],
+    "family": "Qwen3.6-uncensored-heretic-Native-MTP-Preserved-APEX"
+  },
+  {
     "id": "huggingface:nightmedia/Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx",
     "name": "Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx",
     "provider": "nightmedia",
@@ -7912,41 +7947,6 @@
       "batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF"
     ],
     "family": "Nemotron-3-Nano-Omni-Text-Only"
-  },
-  {
-    "id": "huggingface:nvidia/Cosmos-Reason2-32B",
-    "name": "Cosmos-Reason2-32B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-29T23:38:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Cosmos-Reason2-32B",
-    "tags": [
-      "image-text-to-text",
-      "cosmos",
-      "safetensors",
-      "qwen3_vl",
-      "nvidia",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T05:11:17.330452+00:00",
-    "source_ids": [
-      "nvidia/Cosmos-Reason2-32B"
-    ],
-    "family": "Cosmos-Reason2"
   },
   {
     "id": "huggingface:mafgit/empathetic-distilgpt2",
