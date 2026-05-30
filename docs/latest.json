@@ -1632,6 +1632,39 @@
     "family": "unbound-e"
   },
   {
+    "id": "huggingface:younissk/nanoBeard-sloop-14M",
+    "name": "nanoBeard-sloop-14M",
+    "provider": "younissk",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-17T11:59:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/younissk/nanoBeard-sloop-14M",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "nanobeard-gpt",
+      "gpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-30T16:25:27.207871+00:00",
+    "source_ids": [
+      "younissk/nanoBeard-sloop-14M"
+    ],
+    "family": "nanoBeard-sloop-14M"
+  },
+  {
     "id": "huggingface:stabilityai/stable-audio-3-small-music",
     "name": "stable-audio-3-small-music",
     "provider": "Stability AI",
@@ -9477,39 +9510,6 @@
     "family": "DeepSeek-V4-Flash-MLX-9bit"
   },
   {
-    "id": "huggingface:boods/Qwen3-14B-FrenchMedical-Multilingual",
-    "name": "Qwen3-14B-FrenchMedical-Multilingual",
-    "provider": "boods",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-26T16:26:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/boods/Qwen3-14B-FrenchMedical-Multilingual",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T12:38:22.441348+00:00",
-    "source_ids": [
-      "boods/Qwen3-14B-FrenchMedical-Multilingual"
-    ],
-    "family": "Qwen3-FrenchMedical-Multilingual"
-  },
-  {
     "id": "huggingface:reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
     "name": "UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
     "provider": "reedmayhew",
@@ -11121,6 +11121,41 @@
       "tencent/hy3-preview"
     ],
     "family": "Hy3"
+  },
+  {
+    "id": "huggingface:cmp-nct/Qwen3.6-27B-GGUF",
+    "name": "Qwen3.6-27B-GGUF",
+    "provider": "cmp-nct",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T16:16:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cmp-nct/Qwen3.6-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3_6_moe",
+      "demodokos"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-30T16:25:27.938344+00:00",
+    "source_ids": [
+      "cmp-nct/Qwen3.6-27B-GGUF"
+    ],
+    "family": "Qwen3.6"
   },
   {
     "id": "huggingface:froggeric/Qwen3.6-27B-MLX-4bit",
@@ -14613,39 +14648,6 @@
       "z-lab/gemma-4-31B-it-PARO"
     ],
     "family": "gemma-4-it-PARO"
-  },
-  {
-    "id": "huggingface:Hippocrene/MiniLLM-0.1B",
-    "name": "MiniLLM-0.1B",
-    "provider": "Hippocrene",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-05T03:44:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Hippocrene/MiniLLM-0.1B",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "llama",
-      "causal-lm",
-      "pretrained",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T12:38:22.441285+00:00",
-    "source_ids": [
-      "Hippocrene/MiniLLM-0.1B"
-    ],
-    "family": "MiniLLM"
   },
   {
     "id": "huggingface:SassyDiffusion/gemma-4-26B-A4B-it-heretic-ara-GGUF",
