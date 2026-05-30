@@ -477,6 +477,39 @@
     "family": "Qwen3.6-uncensored-heretic-Native-MTP-Preserved-APEX"
   },
   {
+    "id": "huggingface:MRockatansky/Gemma-4-31B-storymaxxed2-GGUF",
+    "name": "Gemma-4-31B-storymaxxed2-GGUF",
+    "provider": "MRockatansky",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-25T15:37:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MRockatansky/Gemma-4-31B-storymaxxed2-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation",
+      "dpo",
+      "creative-writing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-30T20:25:34.939130+00:00",
+    "source_ids": [
+      "MRockatansky/Gemma-4-31B-storymaxxed2-GGUF"
+    ],
+    "family": "Gemma-4-storymaxxed2"
+  },
+  {
     "id": "huggingface:nightmedia/Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx",
     "name": "Qwen3.6-35B-A3B-MTP-Holo3-Qwopus-qx86-hi-mlx",
     "provider": "nightmedia",
@@ -6038,6 +6071,39 @@
     "family": "Qwen3.6-uncensored-heretic-v2-Native-MTP-Preserved"
   },
   {
+    "id": "huggingface:cs-552-2026-centralesupechec/general_knowledge_model",
+    "name": "general_knowledge_model",
+    "provider": "cs-552-2026-centralesupechec",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T16:01:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cs-552-2026-centralesupechec/general_knowledge_model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-30T20:25:34.939269+00:00",
+    "source_ids": [
+      "cs-552-2026-centralesupechec/general_knowledge_model"
+    ],
+    "family": "general_knowledge_model"
+  },
+  {
     "id": "huggingface:clear-blue-sky/evolai-tfm-001",
     "name": "evolai-tfm-001",
     "provider": "clear-blue-sky",
@@ -8290,41 +8356,6 @@
     "family": "DeepSeek-V4-Flash-NVFP4-FP8"
   },
   {
-    "id": "huggingface:Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
-    "name": "Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-29T16:12:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "unsloth",
-      "qwen3_5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T16:35:37.405362+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF"
-    ],
-    "family": "Qwen3.5-DeepSeek-V4-Flash"
-  },
-  {
     "id": "huggingface:bartowski/mistralai_Mistral-Medium-3.5-128B-GGUF",
     "name": "mistralai_Mistral-Medium-3.5-128B-GGUF",
     "provider": "bartowski",
@@ -8632,32 +8663,6 @@
       "dcostenco/prism-coder-7b"
     ],
     "family": "prism-coder"
-  },
-  {
-    "id": "openrouter:openrouter/owl-alpha",
-    "name": "Owl Alpha",
-    "provider": "openrouter",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T17:49:49+00:00",
-    "context_length": 1048756,
-    "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
-    "url": "https://openrouter.ai/openrouter/owl-alpha",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-04-30T16:35:36.494000+00:00",
-    "source_ids": [
-      "openrouter/owl-alpha"
-    ],
-    "family": "Owl Alpha"
   },
   {
     "id": "huggingface:inferencerlabs/DeepSeek-V4-Flash-MLX-2.8bit-EXP",
@@ -15010,39 +15015,6 @@
     "family": "molcrawl-genome-sequence-gpt2-medium"
   },
   {
-    "id": "huggingface:dizza01/qwen2.5-7b-pdf-merged",
-    "name": "qwen2.5-7b-pdf-merged",
-    "provider": "dizza01",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-28T19:43:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dizza01/qwen2.5-7b-pdf-merged",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T16:35:36.653470+00:00",
-    "source_ids": [
-      "dizza01/qwen2.5-7b-pdf-merged"
-    ],
-    "family": "qwen2.5-pdf-merged"
-  },
-  {
     "id": "huggingface:Doses-AI/boba-0.8b-food-GGUF",
     "name": "boba-0.8b-food-GGUF",
     "provider": "Doses-AI",
@@ -16360,41 +16332,6 @@
     "family": "OTel-LLM-270M-IT"
   },
   {
-    "id": "huggingface:amd/Kimi-K2.5-W4A8",
-    "name": "Kimi-K2.5-W4A8",
-    "provider": "amd",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-06T19:19:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/amd/Kimi-K2.5-W4A8",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "kimi_k25",
-      "feature-extraction",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T16:35:37.405294+00:00",
-    "source_ids": [
-      "amd/Kimi-K2.5-W4A8"
-    ],
-    "family": "Kimi-K2.5-W4A8"
-  },
-  {
     "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-3B-Base",
     "name": "Nemotron-Labs-Diffusion-3B-Base",
     "provider": "NVIDIA",
@@ -17066,40 +17003,6 @@
       "argmaxinc/parakeetkit-litert-pro"
     ],
     "family": "parakeetkit-litert-pro"
-  },
-  {
-    "id": "huggingface:software-mansion/react-native-executorch-kokoro",
-    "name": "react-native-executorch-kokoro",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-11-12T09:59:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-kokoro",
-    "tags": [
-      "text-to-speech",
-      "executorch",
-      "text-to-speech",
-      "en",
-      "base_model:hexgrad/Kokoro-82M",
-      "base_model:quantized:hexgrad/Kokoro-82M"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T16:35:37.186065+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-kokoro"
-    ],
-    "family": "react-native-executorch-kokoro"
   },
   {
     "id": "huggingface:nvidia/Nemotron-Elastic-12B",
@@ -18163,41 +18066,6 @@
       "dphn/Dolphin-Mistral-24B-Venice-Edition-FP8"
     ],
     "family": "Dolphin-Mistral-Venice-Edition-FP8"
-  },
-  {
-    "id": "huggingface:trl-internal-testing/tiny-Gemma3ForConditionalGeneration",
-    "name": "tiny-Gemma3ForConditionalGeneration",
-    "provider": "trl-internal-testing",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-22T00:18:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trl-internal-testing/tiny-Gemma3ForConditionalGeneration",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma3",
-      "image-text-to-text",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-04-30T16:35:37.405459+00:00",
-    "source_ids": [
-      "trl-internal-testing/tiny-Gemma3ForConditionalGeneration"
-    ],
-    "family": "tiny-Gemma3ForConditionalGeneration"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-Qwen2VLForConditionalGeneration",
