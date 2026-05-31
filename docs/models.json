@@ -72952,5 +72952,73 @@
       "FunAudioLLM/CosyVoice2-0.5B"
     ],
     "family": "CosyVoice2"
+  },
+  {
+    "id": "huggingface:mradermacher/PaddleOCR-VL-1.6-i1-GGUF",
+    "name": "PaddleOCR-VL-1.6-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-28T16:17:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/PaddleOCR-VL-1.6-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "ERNIE4.5",
+      "PaddleOCR",
+      "PaddlePaddle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-31T09:07:03.784196+00:00",
+    "source_ids": [
+      "mradermacher/PaddleOCR-VL-1.6-i1-GGUF"
+    ],
+    "family": "PaddleOCR-VL-1.6-i1"
+  },
+  {
+    "id": "huggingface:mudler/parakeet-cpp-gguf",
+    "name": "parakeet-cpp-gguf",
+    "provider": "mudler",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-29T21:16:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mudler/parakeet-cpp-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "parakeet.cpp",
+      "gguf",
+      "automatic-speech-recognition",
+      "asr",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-05-31T09:07:04.232824+00:00",
+    "source_ids": [
+      "mudler/parakeet-cpp-gguf"
+    ],
+    "family": "parakeet-cpp"
   }
 ]
