@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:minimax/minimax-m3",
+    "name": "MiniMax: MiniMax M3",
+    "provider": "MiniMax",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T16:36:14+00:00",
+    "context_length": 1048576,
+    "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+    "url": "https://openrouter.ai/minimax/minimax-m3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-06-01T05:42:12.718903+00:00",
+    "source_ids": [
+      "minimax/minimax-m3"
+    ],
+    "family": "MiniMax M3"
+  },
+  {
     "id": "huggingface:mudler/parakeet-cpp-gguf",
     "name": "parakeet-cpp-gguf",
     "provider": "mudler",
@@ -235,6 +268,40 @@
       "LiquidAI/LFM2.5-8B-A1B"
     ],
     "family": "LFM2.5"
+  },
+  {
+    "id": "huggingface:nvidia/Cosmos3-Super-Text2Image",
+    "name": "Cosmos3-Super-Text2Image",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-28T03:49:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
+    "tags": [
+      "text-to-image",
+      "cosmos",
+      "diffusers",
+      "safetensors",
+      "cosmos3_omni",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-01T05:42:12.923090+00:00",
+    "source_ids": [
+      "nvidia/Cosmos3-Super-Text2Image"
+    ],
+    "family": "Cosmos3-Super-Text2Image"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.8-fast",
@@ -10120,39 +10187,6 @@
       "deepseek/deepseek-v4-flash:free"
     ],
     "family": "DeepSeek V4 Flash"
-  },
-  {
-    "id": "huggingface:ocicek/Qwen3.6-27B-NVFP4",
-    "name": "Qwen3.6-27B-NVFP4",
-    "provider": "ocicek",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-24T00:50:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ocicek/Qwen3.6-27B-NVFP4",
-    "tags": [
-      "text-generation",
-      "vllm",
-      "safetensors",
-      "qwen3_5",
-      "nvfp4",
-      "compressed-tensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-02T05:05:56.888812+00:00",
-    "source_ids": [
-      "ocicek/Qwen3.6-27B-NVFP4"
-    ],
-    "family": "Qwen3.6-NVFP4"
   },
   {
     "id": "huggingface:OrionLLM/GRM-2.6-Plus",
