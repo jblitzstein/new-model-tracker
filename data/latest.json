@@ -1525,6 +1525,39 @@
     "family": "NuExtract3-FP8"
   },
   {
+    "id": "huggingface:abyrne55/nuextract-1.5-tiny-mealie-ingredient-parser",
+    "name": "nuextract-1.5-tiny-mealie-ingredient-parser",
+    "provider": "abyrne55",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T05:11:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/abyrne55/nuextract-1.5-tiny-mealie-ingredient-parser",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "ingredient-parsing",
+      "nuextract",
+      "mealie",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-01T18:05:36.998889+00:00",
+    "source_ids": [
+      "abyrne55/nuextract-1.5-tiny-mealie-ingredient-parser"
+    ],
+    "family": "nuextract-1.5-tiny-mealie-ingredient-parser"
+  },
+  {
     "id": "openrouter:google/gemini-3.5-flash",
     "name": "Google: Gemini 3.5 Flash",
     "provider": "Google",
@@ -9834,6 +9867,39 @@
     "family": "deepseek-v4"
   },
   {
+    "id": "huggingface:teolm30/Fox-1.5-Nova",
+    "name": "Fox-1.5-Nova",
+    "provider": "teolm30",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-26T07:30:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/teolm30/Fox-1.5-Nova",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gguf",
+      "qwen2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-01T18:05:36.998770+00:00",
+    "source_ids": [
+      "teolm30/Fox-1.5-Nova"
+    ],
+    "family": "Fox-1.5-Nova"
+  },
+  {
     "id": "huggingface:zhiqing/Huihui-Qwen3.6-27B-abliterated-AWQ",
     "name": "Huihui-Qwen3.6-27B-abliterated-AWQ",
     "provider": "zhiqing",
@@ -11070,6 +11136,41 @@
       "Luckylobster/wisdom_ai"
     ],
     "family": "wisdom_ai"
+  },
+  {
+    "id": "huggingface:TheHouseOfTheDude/Qwen3.6-27B-INT8",
+    "name": "Qwen3.6-27B-INT8",
+    "provider": "TheHouseOfTheDude",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T19:00:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TheHouseOfTheDude/Qwen3.6-27B-INT8",
+    "tags": [
+      "image-text-to-text",
+      "vllm",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "image-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-01T18:05:37.467520+00:00",
+    "source_ids": [
+      "TheHouseOfTheDude/Qwen3.6-27B-INT8"
+    ],
+    "family": "Qwen3.6-INT8"
   },
   {
     "id": "huggingface:inferencerlabs/Qwen3.6-27B-MLX-9bit",
@@ -15291,39 +15392,6 @@
     "family": "llama3_baseline"
   },
   {
-    "id": "huggingface:trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
-    "name": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
-    "provider": "trohrbaugh",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-18T18:57:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-02T16:19:26.849858+00:00",
-    "source_ids": [
-      "trohrbaugh/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-heretic-v2"
-    ],
-    "family": "NVIDIA-Nemotron-3-Super-BF16-heretic-v2"
-  },
-  {
     "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-8B",
     "name": "Nemotron-Labs-Diffusion-8B",
     "provider": "NVIDIA",
@@ -16735,6 +16803,40 @@
       "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI"
     ],
     "family": "Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI"
+  },
+  {
+    "id": "huggingface:Milamagalvaes/Mila",
+    "name": "Mila",
+    "provider": "Milamagalvaes",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-12-18T19:16:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Milamagalvaes/Mila",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "license:unknown"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-01T18:05:37.064525+00:00",
+    "source_ids": [
+      "Milamagalvaes/Mila"
+    ],
+    "family": "Mila"
   },
   {
     "id": "huggingface:inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
