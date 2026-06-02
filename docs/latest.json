@@ -9053,6 +9053,39 @@
     "family": "Qwen3.6-NVFP4"
   },
   {
+    "id": "huggingface:MultiverseComputingCAI/LittleLamb",
+    "name": "LittleLamb",
+    "provider": "MultiverseComputingCAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T09:48:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MultiverseComputingCAI/LittleLamb",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-02T13:23:24.867731+00:00",
+    "source_ids": [
+      "MultiverseComputingCAI/LittleLamb"
+    ],
+    "family": "LittleLamb"
+  },
+  {
     "id": "huggingface:syvai/hviske-v5.3",
     "name": "hviske-v5.3",
     "provider": "syvai",
@@ -9252,6 +9285,41 @@
       "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP"
     ],
     "family": "Qwen3.6-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP"
+  },
+  {
+    "id": "huggingface:coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
+    "name": "Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
+    "provider": "coolthor",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T02:26:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5_moe",
+      "abliterated",
+      "uncensored",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-02T13:23:25.828363+00:00",
+    "source_ids": [
+      "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC"
+    ],
+    "family": "Huihui-Qwen3.6-abliterated-FP8-DYNAMIC"
   },
   {
     "id": "huggingface:Momix-44/Huihui-Qwen3-Coder-Next-Opus-4.6-Reasoning-Distilled-abliterated",
@@ -10700,39 +10768,6 @@
     "family": "Qwen3.6-MLX-oQ4-FP16"
   },
   {
-    "id": "huggingface:deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ4-FP16",
-    "name": "Qwen3.6-35B-A3B-MLX-VL-oQ4-FP16",
-    "provider": "deepsweet",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T12:48:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ4-FP16",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-03T12:22:34.839197+00:00",
-    "source_ids": [
-      "deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ4-FP16"
-    ],
-    "family": "Qwen3.6-MLX-VL-oQ4-FP16"
-  },
-  {
     "id": "openrouter:inclusionai/ling-2.6-1t",
     "name": "inclusionAI: Ling-2.6-1T",
     "provider": "inclusionai",
@@ -11574,39 +11609,6 @@
       "thanhhoangnvbg/empathAI-llama3.1-8b"
     ],
     "family": "empathAI-llama3.1"
-  },
-  {
-    "id": "huggingface:deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ8-FP16",
-    "name": "Qwen3.6-35B-A3B-MLX-VL-oQ8-FP16",
-    "provider": "deepsweet",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-21T17:23:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ8-FP16",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-03T12:22:34.839360+00:00",
-    "source_ids": [
-      "deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ8-FP16"
-    ],
-    "family": "Qwen3.6-MLX-VL-oQ8-FP16"
   },
   {
     "id": "huggingface:batsclamp/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-FP8",
@@ -16531,40 +16533,6 @@
     "family": "VertaLily-1.2"
   },
   {
-    "id": "huggingface:ayousanz/piper-plus-tsukuyomi-chan",
-    "name": "piper-plus-tsukuyomi-chan",
-    "provider": "ayousanz",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-12-27T11:16:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ayousanz/piper-plus-tsukuyomi-chan",
-    "tags": [
-      "text-to-speech",
-      "onnx",
-      "tts",
-      "vits",
-      "multilingual",
-      "japanese"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-03T12:22:35.189829+00:00",
-    "source_ids": [
-      "ayousanz/piper-plus-tsukuyomi-chan"
-    ],
-    "family": "piper-plus-tsukuyomi-chan"
-  },
-  {
     "id": "huggingface:mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI",
     "name": "Z-Image-Turbo-Misc-Finetunes-DF11-ComfyUI",
     "provider": "mingyi456",
@@ -17837,70 +17805,39 @@
     "family": "SMOLM2Prover"
   },
   {
-    "id": "huggingface:software-mansion/react-native-executorch-whisper-small",
-    "name": "react-native-executorch-whisper-small",
-    "provider": "software-mansion",
+    "id": "huggingface:openbmb/MiniCPM-V-4_5-AWQ",
+    "name": "MiniCPM-V-4_5-AWQ",
+    "provider": "openbmb",
     "source": "huggingface",
     "modality": [
-      "audio",
+      "image",
       "text"
     ],
     "input_modalities": [
-      "audio"
+      "image",
+      "text"
     ],
     "output_modalities": [
       "text"
     ],
-    "release_date": "2025-08-20T16:50:37.000Z",
+    "release_date": "2025-08-26T07:03:13.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-whisper-small",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4_5-AWQ",
     "tags": [
-      "automatic-speech-recognition",
-      "executorch",
-      "automatic-speech-recognition",
-      "license:apache-2.0",
-      "region:us"
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minicpmv",
+      "feature-extraction",
+      "minicpm-v"
     ],
     "pricing": null,
-    "first_seen": "2026-05-03T12:22:35.263975+00:00",
+    "first_seen": "2026-06-02T13:23:25.828459+00:00",
     "source_ids": [
-      "software-mansion/react-native-executorch-whisper-small"
+      "openbmb/MiniCPM-V-4_5-AWQ"
     ],
-    "family": "react-native-executorch-whisper-small"
-  },
-  {
-    "id": "huggingface:software-mansion/react-native-executorch-whisper-base",
-    "name": "react-native-executorch-whisper-base",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-20T16:50:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-whisper-base",
-    "tags": [
-      "automatic-speech-recognition",
-      "executorch",
-      "automatic-speech-recognition",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-03T12:22:35.264030+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-whisper-base"
-    ],
-    "family": "react-native-executorch-whisper"
+    "family": "MiniCPM-V-4_5"
   },
   {
     "id": "huggingface:numind/NuMarkdown-8B-Thinking",
@@ -18072,6 +18009,41 @@
       "trl-internal-testing/tiny-Qwen2_5_VLForConditionalGeneration"
     ],
     "family": "tiny-Qwen2_5_VLForConditionalGeneration"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4-gguf",
+    "name": "MiniCPM-V-4-gguf",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-12T09:45:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4-gguf",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "minicpm-v",
+      "vision",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-02T13:23:25.828405+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4-gguf"
+    ],
+    "family": "MiniCPM-V-4"
   },
   {
     "id": "huggingface:LiquidAI/LFM2-350M",
@@ -18413,39 +18385,6 @@
     "family": "Symbiotic-Beta"
   },
   {
-    "id": "huggingface:software-mansion/react-native-executorch-whisper-tiny",
-    "name": "react-native-executorch-whisper-tiny",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-03-20T16:09:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-whisper-tiny",
-    "tags": [
-      "automatic-speech-recognition",
-      "executorch",
-      "automatic-speech-recognition",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-03T12:22:35.264066+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-whisper-tiny"
-    ],
-    "family": "react-native-executorch-whisper-tiny"
-  },
-  {
     "id": "huggingface:DataoceanAI/dolphin-base",
     "name": "dolphin-base",
     "provider": "DataoceanAI",
@@ -18478,40 +18417,6 @@
       "DataoceanAI/dolphin-base"
     ],
     "family": "dolphin"
-  },
-  {
-    "id": "huggingface:software-mansion/react-native-executorch-whisper-tiny.en",
-    "name": "react-native-executorch-whisper-tiny.en",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-02-26T10:21:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-whisper-tiny.en",
-    "tags": [
-      "automatic-speech-recognition",
-      "executorch",
-      "automatic-speech-recognition",
-      "en",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-03T12:22:35.264106+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-whisper-tiny.en"
-    ],
-    "family": "react-native-executorch-whisper-tiny.en"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-LlavaNextForConditionalGeneration",
