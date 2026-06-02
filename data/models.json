@@ -74445,5 +74445,67 @@
       "Hishambarakat/checkpoint"
     ],
     "family": "checkpoint"
+  },
+  {
+    "id": "openrouter:openrouter/fusion",
+    "name": "OpenRouter: Fusion",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T16:33:26+00:00",
+    "context_length": 128000,
+    "description": "Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a...",
+    "url": "https://openrouter.ai/openrouter/fusion",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": -1000000.0,
+      "completion_per_million": -1000000.0
+    },
+    "first_seen": "2026-06-02T21:07:33.341787+00:00",
+    "source_ids": [
+      "openrouter/fusion"
+    ],
+    "family": "Fusion"
+  },
+  {
+    "id": "huggingface:metaresearch/PapersRAG-1.5B",
+    "name": "PapersRAG-1.5B",
+    "provider": "metaresearch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T10:28:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/metaresearch/PapersRAG-1.5B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen2",
+      "rag",
+      "question-answering",
+      "scientific-literature"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-02T21:07:33.484666+00:00",
+    "source_ids": [
+      "metaresearch/PapersRAG-1.5B"
+    ],
+    "family": "PapersRAG"
   }
 ]

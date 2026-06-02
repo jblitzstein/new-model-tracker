@@ -3913,6 +3913,35 @@
     "family": "Claude Opus 4.7 (Fast)"
   },
   {
+    "id": "openrouter:openrouter/fusion",
+    "name": "OpenRouter: Fusion",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T16:33:26+00:00",
+    "context_length": 128000,
+    "description": "Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a...",
+    "url": "https://openrouter.ai/openrouter/fusion",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": -1000000.0,
+      "completion_per_million": -1000000.0
+    },
+    "first_seen": "2026-06-02T21:07:33.341787+00:00",
+    "source_ids": [
+      "openrouter/fusion"
+    ],
+    "family": "Fusion"
+  },
+  {
     "id": "openrouter:perceptron/perceptron-mk1",
     "name": "Perceptron: Perceptron Mk1",
     "provider": "perceptron",
@@ -4011,6 +4040,39 @@
       "codeShare/FLUX.2-klein-9b-SDNQ-4bit"
     ],
     "family": "FLUX.2-klein-SDNQ-4bit"
+  },
+  {
+    "id": "huggingface:metaresearch/PapersRAG-1.5B",
+    "name": "PapersRAG-1.5B",
+    "provider": "metaresearch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T10:28:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/metaresearch/PapersRAG-1.5B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen2",
+      "rag",
+      "question-answering",
+      "scientific-literature"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-02T21:07:33.484666+00:00",
+    "source_ids": [
+      "metaresearch/PapersRAG-1.5B"
+    ],
+    "family": "PapersRAG"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF",
@@ -11201,39 +11263,6 @@
       "mihai-777/evolai-tfm-1p5b-alt"
     ],
     "family": "evolai-tfm-1p-alt"
-  },
-  {
-    "id": "huggingface:Luckylobster/wisdom_ai",
-    "name": "wisdom_ai",
-    "provider": "Luckylobster",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T19:29:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Luckylobster/wisdom_ai",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-03T20:16:10.189260+00:00",
-    "source_ids": [
-      "Luckylobster/wisdom_ai"
-    ],
-    "family": "wisdom_ai"
   },
   {
     "id": "huggingface:TheHouseOfTheDude/Qwen3.6-27B-INT8",
