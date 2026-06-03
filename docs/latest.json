@@ -135,6 +135,40 @@
     "family": "Qwen3.5--MoQ-MTP"
   },
   {
+    "id": "huggingface:baidu/NAVA",
+    "name": "NAVA",
+    "provider": "Baidu",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-05-29T02:17:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/baidu/NAVA",
+    "tags": [
+      "text-to-video",
+      "custom",
+      "ti2v",
+      "text-to-video",
+      "text-to-audio-video",
+      "audio-video-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-03T09:42:09.588152+00:00",
+    "source_ids": [
+      "baidu/NAVA"
+    ],
+    "family": "NAVA"
+  },
+  {
     "id": "huggingface:mradermacher/PaddleOCR-VL-1.6-i1-GGUF",
     "name": "PaddleOCR-VL-1.6-i1-GGUF",
     "provider": "mradermacher",
@@ -675,6 +709,41 @@
       "smkrv/whisper-podlodka-turbo-coreml"
     ],
     "family": "whisper-podlodka-turbo-coreml"
+  },
+  {
+    "id": "huggingface:lastmass/Qwen3.5-Medical-GSPO",
+    "name": "Qwen3.5-Medical-GSPO",
+    "provider": "lastmass",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-27T07:52:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lastmass/Qwen3.5-Medical-GSPO",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "medical",
+      "reasoning",
+      "rlvr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-03T09:42:10.007019+00:00",
+    "source_ids": [
+      "lastmass/Qwen3.5-Medical-GSPO"
+    ],
+    "family": "Qwen3.5-Medical-GSPO"
   },
   {
     "id": "huggingface:PaddlePaddle/PaddleOCR-VL-1.6",
@@ -4142,6 +4211,39 @@
       "codeShare/FLUX.2-klein-9b-SDNQ-4bit"
     ],
     "family": "FLUX.2-klein-SDNQ-4bit"
+  },
+  {
+    "id": "huggingface:cs-552-2026-MandMP/math_model",
+    "name": "math_model",
+    "provider": "cs-552-2026-MandMP",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T14:35:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cs-552-2026-MandMP/math_model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-03T09:42:09.287638+00:00",
+    "source_ids": [
+      "cs-552-2026-MandMP/math_model"
+    ],
+    "family": "math_model"
   },
   {
     "id": "huggingface:metaresearch/PapersRAG-1.5B",
@@ -7927,72 +8029,6 @@
     "family": "chatterbox"
   },
   {
-    "id": "huggingface:storagejuju/glm-5.1-mxfp4-moe-juju",
-    "name": "glm-5.1-mxfp4-moe-juju",
-    "provider": "storagejuju",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-04T03:54:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju",
-    "tags": [
-      "text-generation",
-      "glm_moe_dsa",
-      "text-generation",
-      "gguf",
-      "juju",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:44.861748+00:00",
-    "source_ids": [
-      "storagejuju/glm-5.1-mxfp4-moe-juju"
-    ],
-    "family": "glm-5.1-mxfp4-moe-juju"
-  },
-  {
-    "id": "huggingface:storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-    "name": "kimi-k2.6-ud-q8-k-xl-juju",
-    "provider": "storagejuju",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-04T03:54:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-    "tags": [
-      "text-generation",
-      "kimi_k25",
-      "text-generation",
-      "gguf",
-      "juju",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:44.861654+00:00",
-    "source_ids": [
-      "storagejuju/kimi-k2.6-ud-q8-k-xl-juju"
-    ],
-    "family": "kimi-k2.6-ud-q8-k-xl-juju"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-NVFP4-Experts-Only-GGUF",
     "name": "Qwen3.6-35B-A3B-uncensored-heretic-NVFP4-Experts-Only-GGUF",
     "provider": "llmfan46",
@@ -8094,40 +8130,6 @@
     "family": "Wind-Edge-1.6"
   },
   {
-    "id": "huggingface:fuhaddesmond/illuma",
-    "name": "illuma",
-    "provider": "fuhaddesmond",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-05-03T10:10:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fuhaddesmond/illuma",
-    "tags": [
-      "text-to-image",
-      "sana",
-      "safetensors",
-      "llava_qwen_grpo",
-      "text-to-image",
-      "image-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:45.021311+00:00",
-    "source_ids": [
-      "fuhaddesmond/illuma"
-    ],
-    "family": "illuma"
-  },
-  {
     "id": "huggingface:ystemsrx/Qwen3-Sex",
     "name": "Qwen3-Sex",
     "provider": "ystemsrx",
@@ -8159,74 +8161,6 @@
       "ystemsrx/Qwen3-Sex"
     ],
     "family": "Qwen3-Sex"
-  },
-  {
-    "id": "huggingface:kenpath/qwen3.5-0.8b-v2s8-vllm",
-    "name": "qwen3.5-0.8b-v2s8-vllm",
-    "provider": "kenpath",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-05-03T05:23:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kenpath/qwen3.5-0.8b-v2s8-vllm",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "qwen3_5",
-      "tts",
-      "text-to-speech",
-      "svara"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:45.455762+00:00",
-    "source_ids": [
-      "kenpath/qwen3.5-0.8b-v2s8-vllm"
-    ],
-    "family": "qwen3.5-v2s8-vllm"
-  },
-  {
-    "id": "huggingface:SulphurAI/Sulphur-2-base",
-    "name": "Sulphur-2-base",
-    "provider": "SulphurAI",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-03T00:33:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "gguf",
-      "text-to-video",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:45.233302+00:00",
-    "source_ids": [
-      "SulphurAI/Sulphur-2-base"
-    ],
-    "family": "Sulphur-2"
   },
   {
     "id": "huggingface:Smoffyy/Qwen3.5-4B-Instruct-Revised-GGUF",
@@ -11095,40 +11029,6 @@
     "family": "Qwen3.6-Quark-W8A8-INT8"
   },
   {
-    "id": "huggingface:Motif-Technologies/Motif-Video-2B-GGUF",
-    "name": "Motif-Video-2B-GGUF",
-    "provider": "Motif-Technologies",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-04-23T10:22:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Motif-Technologies/Motif-Video-2B-GGUF",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "gguf",
-      "quantization",
-      "text-to-video",
-      "motif-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:45.233397+00:00",
-    "source_ids": [
-      "Motif-Technologies/Motif-Video-2B-GGUF"
-    ],
-    "family": "Motif-Video"
-  },
-  {
     "id": "huggingface:kaiz0603/gemma_4_ac_remote_lora-gguf",
     "name": "gemma_4_ac_remote_lora-gguf",
     "provider": "kaiz0603",
@@ -11234,40 +11134,6 @@
     "family": "Qwen3.6-INT8-AutoRound"
   },
   {
-    "id": "huggingface:vrgamedevgirl84/LTX_2.3_Pixar_Toon_Style_LoRa",
-    "name": "LTX_2.3_Pixar_Toon_Style_LoRa",
-    "provider": "vrgamedevgirl84",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-04-23T00:38:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vrgamedevgirl84/LTX_2.3_Pixar_Toon_Style_LoRa",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "lora",
-      "ltx-video",
-      "text-to-video",
-      "safetensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:45.233571+00:00",
-    "source_ids": [
-      "vrgamedevgirl84/LTX_2.3_Pixar_Toon_Style_LoRa"
-    ],
-    "family": "LTX_2.3_Pixar_Toon_Style_LoRa"
-  },
-  {
     "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-14B",
     "name": "Nemotron-Labs-Diffusion-14B",
     "provider": "NVIDIA",
@@ -11367,6 +11233,39 @@
       "TheHouseOfTheDude/Qwen3.6-27B-INT8"
     ],
     "family": "Qwen3.6-INT8"
+  },
+  {
+    "id": "huggingface:ThingAI/Quark-50m",
+    "name": "Quark-50m",
+    "provider": "ThingAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T18:58:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ThingAI/Quark-50m",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "llama",
+      "smol",
+      "pretraining"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-03T09:42:09.287745+00:00",
+    "source_ids": [
+      "ThingAI/Quark-50m"
+    ],
+    "family": "Quark-50m"
   },
   {
     "id": "huggingface:inferencerlabs/Qwen3.6-27B-MLX-9bit",
@@ -13481,41 +13380,6 @@
     "family": "Qwen3.5-Uncensored-FernflowerAI-MLX-4bit"
   },
   {
-    "id": "huggingface:Vishva007/gemma-4-E4B-it-W4A16-AutoRound-GPTQ",
-    "name": "gemma-4-E4B-it-W4A16-AutoRound-GPTQ",
-    "provider": "Vishva007",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T08:02:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Vishva007/gemma-4-E4B-it-W4A16-AutoRound-GPTQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:45.695124+00:00",
-    "source_ids": [
-      "Vishva007/gemma-4-E4B-it-W4A16-AutoRound-GPTQ"
-    ],
-    "family": "gemma-4-E-it-W4A16-AutoRound"
-  },
-  {
     "id": "huggingface:AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
     "name": "Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
     "provider": "AEON-7",
@@ -13814,39 +13678,6 @@
       "FlameF0X/LFM2.5-1.2B-Distilled-Claude-4.6"
     ],
     "family": "LFM2.5-Distilled-Claude-4.6"
-  },
-  {
-    "id": "huggingface:moofeez/qwen3-coder-30b-a3b-debugger-rl-lora",
-    "name": "qwen3-coder-30b-a3b-debugger-rl-lora",
-    "provider": "moofeez",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T08:11:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/moofeez/qwen3-coder-30b-a3b-debugger-rl-lora",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "base_model:adapter:Qwen/Qwen3-Coder-30B-A3B-Instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-04T08:54:44.861806+00:00",
-    "source_ids": [
-      "moofeez/qwen3-coder-30b-a3b-debugger-rl-lora"
-    ],
-    "family": "qwen3-coder-debugger-rl-lora"
   },
   {
     "id": "huggingface:divinetribe/gemma-4-31b-it-abliterated-4bit-mlx",
