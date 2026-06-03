@@ -74779,5 +74779,71 @@
       "lastmass/Qwen3.5-Medical-GSPO"
     ],
     "family": "Qwen3.5-Medical-GSPO"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.7-plus",
+    "name": "Qwen: Qwen3.7 Plus",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T13:03:03+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
+    "url": "https://openrouter.ai/qwen/qwen3.7-plus",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.4,
+      "completion_per_million": 1.6
+    },
+    "first_seen": "2026-06-03T13:45:08.073506+00:00",
+    "source_ids": [
+      "qwen/qwen3.7-plus"
+    ],
+    "family": "Qwen3.7 Plus"
+  },
+  {
+    "id": "huggingface:raxcore-dev/rax-3.5-chat",
+    "name": "rax-3.5-chat",
+    "provider": "raxcore-dev",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-27T15:29:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/raxcore-dev/rax-3.5-chat",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-03T13:45:09.244573+00:00",
+    "source_ids": [
+      "raxcore-dev/rax-3.5-chat"
+    ],
+    "family": "rax-3.5"
   }
 ]
