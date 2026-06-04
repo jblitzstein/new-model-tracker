@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:bartowski/gemma-4-12B-it-GGUF",
+    "name": "gemma-4-12B-it-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T18:37:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/gemma-4-12B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "base_model:google/gemma-4-12B-it",
+      "base_model:quantized:google/gemma-4-12B-it",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792325+00:00",
+    "source_ids": [
+      "bartowski/gemma-4-12B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
     "id": "openrouter:qwen/qwen3.7-plus",
     "name": "Qwen: Qwen3.7 Plus",
     "provider": "Qwen",
@@ -62,6 +97,40 @@
       "minimax/minimax-m3"
     ],
     "family": "MiniMax M3"
+  },
+  {
+    "id": "huggingface:mlx-community/SongGeneration-v2-medium",
+    "name": "SongGeneration-v2-medium",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-31T16:27:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/SongGeneration-v2-medium",
+    "tags": [
+      "text-to-audio",
+      "mlx",
+      "safetensors",
+      "apple-silicon",
+      "music-generation",
+      "song-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.563514+00:00",
+    "source_ids": [
+      "mlx-community/SongGeneration-v2-medium"
+    ],
+    "family": "SongGeneration-v2-medium"
   },
   {
     "id": "huggingface:deqing/convergent-llama-300M-muon-6digit-addition_6digit_llama",
@@ -199,6 +268,76 @@
     "family": "Qwen3.5--MoQ-MTP"
   },
   {
+    "id": "huggingface:unsloth/gemma-4-12b-it-GGUF",
+    "name": "gemma-4-12b-it-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-29T11:25:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792398+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-12b-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-12b-it",
+    "name": "gemma-4-12b-it",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-29T11:25:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-12b-it",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4_unified",
+      "gemma4",
+      "unsloth",
+      "gemma"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792439+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-12b-it"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
     "id": "huggingface:baidu/NAVA",
     "name": "NAVA",
     "provider": "Baidu",
@@ -298,6 +437,40 @@
       "stepfun/step-3.7-flash"
     ],
     "family": "Step 3.7 Flash"
+  },
+  {
+    "id": "huggingface:mradermacher/PaddleOCR-VL-1.6-GGUF",
+    "name": "PaddleOCR-VL-1.6-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-28T16:14:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/PaddleOCR-VL-1.6-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "ERNIE4.5",
+      "PaddleOCR",
+      "PaddlePaddle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.432517+00:00",
+    "source_ids": [
+      "mradermacher/PaddleOCR-VL-1.6-GGUF"
+    ],
+    "family": "PaddleOCR-VL-1.6"
   },
   {
     "id": "huggingface:stepfun-ai/Step-3.7-Flash-GGUF",
@@ -14684,6 +14857,41 @@
     "family": "gemma-4-it-Uncensored-MAX"
   },
   {
+    "id": "huggingface:Hyper-AI/Qwen3.5-9B-fp8",
+    "name": "Qwen3.5-9B-fp8",
+    "provider": "Hyper-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T08:28:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Hyper-AI/Qwen3.5-9B-fp8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vlm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792186+00:00",
+    "source_ids": [
+      "Hyper-AI/Qwen3.5-9B-fp8"
+    ],
+    "family": "Qwen3.5-fp8"
+  },
+  {
     "id": "huggingface:kojima-lab/molcrawl-genome-sequence-gpt2-xl",
     "name": "molcrawl-genome-sequence-gpt2-xl",
     "provider": "kojima-lab",
@@ -15347,39 +15555,6 @@
       "prithivMLmods/Gliese-Qwen3.5-0.8B-Abliterated-Caption"
     ],
     "family": "Gliese-Qwen3.5-Abliterated-Caption"
-  },
-  {
-    "id": "huggingface:farbodtavakkoli/OTel-LLM-1.2B-IT",
-    "name": "OTel-LLM-1.2B-IT",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T22:36:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-1.2B-IT",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "lfm2",
-      "telecom",
-      "telecommunications",
-      "gsma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-05T08:49:49.772769+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-LLM-1.2B-IT"
-    ],
-    "family": "OTel-LLM-IT"
   },
   {
     "id": "huggingface:OpenPipe/Llama-3.1-8B-Instruct",
@@ -16057,171 +16232,6 @@
       "Qwen/WebWorld-8B"
     ],
     "family": "WebWorld"
-  },
-  {
-    "id": "huggingface:farbodtavakkoli/OTel-LLM-8.3B-IT",
-    "name": "OTel-LLM-8.3B-IT",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-11T08:18:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-8.3B-IT",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "gemma3_text",
-      "telecom",
-      "telecommunications",
-      "gsma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-05T08:49:49.772704+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-LLM-8.3B-IT"
-    ],
-    "family": "OTel-LLM-IT"
-  },
-  {
-    "id": "huggingface:farbodtavakkoli/OTel-LLM-1.7B-IT",
-    "name": "OTel-LLM-1.7B-IT",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-11T07:44:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-1.7B-IT",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "qwen3",
-      "telecom",
-      "telecommunications",
-      "gsma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-05T08:49:49.772743+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-LLM-1.7B-IT"
-    ],
-    "family": "OTel-LLM-IT"
-  },
-  {
-    "id": "huggingface:farbodtavakkoli/OTel-LLM-1B-IT",
-    "name": "OTel-LLM-1B-IT",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-11T07:43:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-1B-IT",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gemma3_text",
-      "telecom",
-      "telecommunications",
-      "gsma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-05T08:49:49.772815+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-LLM-1B-IT"
-    ],
-    "family": "OTel-LLM-IT"
-  },
-  {
-    "id": "huggingface:farbodtavakkoli/OTel-LLM-0.6B-IT",
-    "name": "OTel-LLM-0.6B-IT",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-11T07:42:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-0.6B-IT",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "qwen3",
-      "telecom",
-      "telecommunications",
-      "gsma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-05T08:49:49.772793+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-LLM-0.6B-IT"
-    ],
-    "family": "OTel-LLM-IT"
-  },
-  {
-    "id": "huggingface:farbodtavakkoli/OTel-LLM-270M-IT",
-    "name": "OTel-LLM-270M-IT",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-11T07:41:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-270M-IT",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gemma3_text",
-      "telecom",
-      "telecommunications",
-      "gsma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-05T08:49:49.772837+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-LLM-270M-IT"
-    ],
-    "family": "OTel-LLM-270M-IT"
   },
   {
     "id": "huggingface:aisingapore/Gemma-SEA-LION-v4-4B-VL-GGUF",
@@ -17302,6 +17312,39 @@
       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD"
     ],
     "family": "NVIDIA-Nemotron-Nano-v2-VL-NVFP4-QAD"
+  },
+  {
+    "id": "huggingface:optimum-intel-internal-testing/tiny-GptOssForCausalLM",
+    "name": "tiny-GptOssForCausalLM",
+    "provider": "optimum-intel-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-21T09:56:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/optimum-intel-internal-testing/tiny-GptOssForCausalLM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt_oss",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.282814+00:00",
+    "source_ids": [
+      "optimum-intel-internal-testing/tiny-GptOssForCausalLM"
+    ],
+    "family": "tiny-GptOssForCausalLM"
   },
   {
     "id": "huggingface:lapa-llm/lapa-v0.1.2-instruct",

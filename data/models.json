@@ -75180,5 +75180,246 @@
       "aisingapore/Gemma-SEA-LION-v4-4B-VL-GGUF"
     ],
     "family": "Gemma-SEA-LION-v4-VL"
+  },
+  {
+    "id": "huggingface:optimum-intel-internal-testing/tiny-GptOssForCausalLM",
+    "name": "tiny-GptOssForCausalLM",
+    "provider": "optimum-intel-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-21T09:56:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/optimum-intel-internal-testing/tiny-GptOssForCausalLM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt_oss",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.282814+00:00",
+    "source_ids": [
+      "optimum-intel-internal-testing/tiny-GptOssForCausalLM"
+    ],
+    "family": "tiny-GptOssForCausalLM"
+  },
+  {
+    "id": "huggingface:mradermacher/PaddleOCR-VL-1.6-GGUF",
+    "name": "PaddleOCR-VL-1.6-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-28T16:14:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/PaddleOCR-VL-1.6-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "ERNIE4.5",
+      "PaddleOCR",
+      "PaddlePaddle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.432517+00:00",
+    "source_ids": [
+      "mradermacher/PaddleOCR-VL-1.6-GGUF"
+    ],
+    "family": "PaddleOCR-VL-1.6"
+  },
+  {
+    "id": "huggingface:mlx-community/SongGeneration-v2-medium",
+    "name": "SongGeneration-v2-medium",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-31T16:27:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/SongGeneration-v2-medium",
+    "tags": [
+      "text-to-audio",
+      "mlx",
+      "safetensors",
+      "apple-silicon",
+      "music-generation",
+      "song-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.563514+00:00",
+    "source_ids": [
+      "mlx-community/SongGeneration-v2-medium"
+    ],
+    "family": "SongGeneration-v2-medium"
+  },
+  {
+    "id": "huggingface:Hyper-AI/Qwen3.5-9B-fp8",
+    "name": "Qwen3.5-9B-fp8",
+    "provider": "Hyper-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-03T08:28:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Hyper-AI/Qwen3.5-9B-fp8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vlm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792186+00:00",
+    "source_ids": [
+      "Hyper-AI/Qwen3.5-9B-fp8"
+    ],
+    "family": "Qwen3.5-fp8"
+  },
+  {
+    "id": "huggingface:bartowski/gemma-4-12B-it-GGUF",
+    "name": "gemma-4-12B-it-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T18:37:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/gemma-4-12B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "base_model:google/gemma-4-12B-it",
+      "base_model:quantized:google/gemma-4-12B-it",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792325+00:00",
+    "source_ids": [
+      "bartowski/gemma-4-12B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-12b-it-GGUF",
+    "name": "gemma-4-12b-it-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-29T11:25:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792398+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-12b-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-12b-it",
+    "name": "gemma-4-12b-it",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-29T11:25:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-12b-it",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4_unified",
+      "gemma4",
+      "unsloth",
+      "gemma"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T09:24:47.792439+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-12b-it"
+    ],
+    "family": "gemma-4-it"
   }
 ]
