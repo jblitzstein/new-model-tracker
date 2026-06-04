@@ -35,6 +35,72 @@
     "family": "gemma-4-it"
   },
   {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T14:54:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nvidia",
+      "pytorch",
+      "nemotron-3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T13:11:59.735084+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-NVFP4"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T14:50:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T13:11:59.735043+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-BF16"
+  },
+  {
     "id": "openrouter:qwen/qwen3.7-plus",
     "name": "Qwen: Qwen3.7 Plus",
     "provider": "Qwen",
@@ -64,6 +130,39 @@
       "qwen/qwen3.7-plus"
     ],
     "family": "Qwen3.7 Plus"
+  },
+  {
+    "id": "huggingface:CodeFault/Mellum2-12B-A2.5B-Thinking-GGUF",
+    "name": "Mellum2-12B-A2.5B-Thinking-GGUF",
+    "provider": "CodeFault",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-02T22:57:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CodeFault/Mellum2-12B-A2.5B-Thinking-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "chain-of-thought",
+      "llama.cpp",
+      "mellum",
+      "mellum2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T13:11:59.734850+00:00",
+    "source_ids": [
+      "CodeFault/Mellum2-12B-A2.5B-Thinking-GGUF"
+    ],
+    "family": "Mellum2"
   },
   {
     "id": "openrouter:minimax/minimax-m3",
@@ -1115,6 +1214,39 @@
       "PaddlePaddle/PaddleOCR-VL-1.6"
     ],
     "family": "PaddleOCR-VL-1.6"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-26T22:42:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T13:11:59.734959+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-GenRM"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.5-4B-Coder-GGUF",
@@ -3224,6 +3356,40 @@
       "YTan2000/Qwen3.6-35B-A3B-MTP-TQ3_4S"
     ],
     "family": "Qwen3.6-MTP-TQ3_4S"
+  },
+  {
+    "id": "huggingface:nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "name": "nemotron-3.5-asr-streaming-0.6b",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-15T21:52:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "speech-recognition",
+      "cache-aware ASR",
+      "automatic-speech-recognition",
+      "streaming-asr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T13:12:00.510648+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3.5-asr-streaming-0.6b"
+    ],
+    "family": "nemotron-3.5-asr-streaming"
   },
   {
     "id": "huggingface:morikomorizz/GRM-2.6-Primal-GGUF",
@@ -18625,6 +18791,40 @@
       "enhanceaiteam/Flux-uncensored"
     ],
     "family": "Flux-uncensored"
+  },
+  {
+    "id": "huggingface:Riksarkivet/trocr-base-handwritten-hist-swe-2",
+    "name": "trocr-base-handwritten-hist-swe-2",
+    "provider": "Riksarkivet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-08-15T08:13:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Riksarkivet/trocr-base-handwritten-hist-swe-2",
+    "tags": [
+      "image-to-text",
+      "htrflow",
+      "tensorboard",
+      "safetensors",
+      "vision-encoder-decoder",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T13:11:59.970904+00:00",
+    "source_ids": [
+      "Riksarkivet/trocr-base-handwritten-hist-swe-2"
+    ],
+    "family": "trocr--handwritten-hist-swe-2"
   },
   {
     "id": "huggingface:RunDiffusion/Juggernaut-XI-v11",
