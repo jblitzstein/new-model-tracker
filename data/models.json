@@ -75621,5 +75621,121 @@
       "nvidia/nemotron-3.5-asr-streaming-0.6b"
     ],
     "family": "nemotron-3.5-asr-streaming"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3.5-content-safety:free",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T14:04:24+00:00",
+    "context_length": 128000,
+    "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-06-04T17:07:02.838201+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3.5-content-safety:free"
+    ],
+    "family": "Nemotron 3.5 Content Safety"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "name": "NVIDIA: Nemotron 3 Ultra (free)",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T05:33:28+00:00",
+    "context_length": 1000000,
+    "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-06-04T17:07:02.839193+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3-ultra-550b-a55b:free"
+    ],
+    "family": "Nemotron 3 Ultra"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T05:33:28+00:00",
+    "context_length": 1000000,
+    "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-06-04T17:07:02.839237+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3-ultra-550b-a55b"
+    ],
+    "family": "Nemotron 3 Ultra"
+  },
+  {
+    "id": "huggingface:ubergarm/Qwen3.6-27B-GGUF",
+    "name": "Qwen3.6-27B-GGUF",
+    "provider": "ubergarm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T16:44:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ubergarm/Qwen3.6-27B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "imatrix",
+      "conversational",
+      "qwen3_5",
+      "ik_llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-04T17:07:02.947180+00:00",
+    "source_ids": [
+      "ubergarm/Qwen3.6-27B-GGUF"
+    ],
+    "family": "Qwen3.6"
   }
 ]
