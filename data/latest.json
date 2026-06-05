@@ -117,6 +117,39 @@
     "family": "Nemotron 3 Ultra"
   },
   {
+    "id": "huggingface:sneedjak/Adelic-Gemma-4-12B-GGUF",
+    "name": "Adelic-Gemma-4-12B-GGUF",
+    "provider": "sneedjak",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T00:48:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sneedjak/Adelic-Gemma-4-12B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma",
+      "gemma-4",
+      "llama-cpp",
+      "infinite-context"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-05T13:07:42.578552+00:00",
+    "source_ids": [
+      "sneedjak/Adelic-Gemma-4-12B-GGUF"
+    ],
+    "family": "Adelic-Gemma-4"
+  },
+  {
     "id": "huggingface:bartowski/gemma-4-12B-it-GGUF",
     "name": "gemma-4-12B-it-GGUF",
     "provider": "bartowski",
@@ -8416,41 +8449,6 @@
     "family": "Q3.6-DS-v4-Flash-DA"
   },
   {
-    "id": "huggingface:mradermacher/Ornstein-122-A10B-i1-GGUF",
-    "name": "Ornstein-122-A10B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-05T12:27:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Ornstein-122-A10B-i1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:29.284151+00:00",
-    "source_ids": [
-      "mradermacher/Ornstein-122-A10B-i1-GGUF"
-    ],
-    "family": "Ornstein-122-A-i1"
-  },
-  {
     "id": "huggingface:stronman/LTX-2.3-22B-DISTILLED-1.1-GGUF",
     "name": "LTX-2.3-22B-DISTILLED-1.1-GGUF",
     "provider": "stronman",
@@ -9163,39 +9161,6 @@
     "family": "Qwen3.6-Uncensored-HauhauCS-Balanced"
   },
   {
-    "id": "huggingface:inferencerlabs/Ling-2.6-MLX-3.6bit-INF",
-    "name": "Ling-2.6-MLX-3.6bit-INF",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-02T01:53:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/Ling-2.6-MLX-3.6bit-INF",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "bailing_hybrid",
-      "quantized",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:28.329314+00:00",
-    "source_ids": [
-      "inferencerlabs/Ling-2.6-MLX-3.6bit-INF"
-    ],
-    "family": "Ling-2.6-MLX-3.6bit-INF"
-  },
-  {
     "id": "huggingface:deucebucket/Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF",
     "name": "Gemma-4-26B-A4B-it-Cerebellum-v6-GGUF",
     "provider": "deucebucket",
@@ -9431,41 +9396,6 @@
       "z-lab/gemma-4-31B-it-DFlash"
     ],
     "family": "gemma-4-it-DFlash"
-  },
-  {
-    "id": "huggingface:froggeric/Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-6bit",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-6bit",
-    "provider": "froggeric",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-30T11:31:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/froggeric/Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-6bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "mlx-lm",
-      "mlx-vlm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:29.284341+00:00",
-    "source_ids": [
-      "froggeric/Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-6bit"
-    ],
-    "family": "Qwen3.6-Uncensored-Heretic-MLX-6bit"
   },
   {
     "id": "huggingface:MultiverseComputingCAI/Hypernova-60B-2605",
@@ -10210,76 +10140,6 @@
       "XiaomiMiMo/MiMo-V2.5-Pro"
     ],
     "family": "MiMo-V2.5-Pro"
-  },
-  {
-    "id": "huggingface:froggeric/Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-8bit",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-8bit",
-    "provider": "froggeric",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-27T12:14:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/froggeric/Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-8bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "mlx-lm",
-      "mlx-vlm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:29.284380+00:00",
-    "source_ids": [
-      "froggeric/Qwen3.6-35B-A3B-Uncensored-Heretic-MLX-8bit"
-    ],
-    "family": "Qwen3.6-Uncensored-Heretic-MLX-8bit"
-  },
-  {
-    "id": "huggingface:froggeric/Qwen3.6-27B-Uncensored-Heretic-v2-MLX-8bit",
-    "name": "Qwen3.6-27B-Uncensored-Heretic-v2-MLX-8bit",
-    "provider": "froggeric",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-27T12:14:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/froggeric/Qwen3.6-27B-Uncensored-Heretic-v2-MLX-8bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "mlx-lm",
-      "mlx-vlm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:29.284458+00:00",
-    "source_ids": [
-      "froggeric/Qwen3.6-27B-Uncensored-Heretic-v2-MLX-8bit"
-    ],
-    "family": "Qwen3.6-Uncensored-Heretic-v2-MLX-8bit"
   },
   {
     "id": "huggingface:XiaomiMiMo/MiMo-V2.5-Pro-Base",
@@ -11927,76 +11787,6 @@
     "family": "Qwen3.6"
   },
   {
-    "id": "huggingface:froggeric/Qwen3.6-27B-MLX-4bit",
-    "name": "Qwen3.6-27B-MLX-4bit",
-    "provider": "froggeric",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T15:22:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/froggeric/Qwen3.6-27B-MLX-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "mlx-lm",
-      "mlx-vlm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:29.284496+00:00",
-    "source_ids": [
-      "froggeric/Qwen3.6-27B-MLX-4bit"
-    ],
-    "family": "Qwen3.6-MLX-4bit"
-  },
-  {
-    "id": "huggingface:froggeric/Qwen3.6-27B-MLX-8bit",
-    "name": "Qwen3.6-27B-MLX-8bit",
-    "provider": "froggeric",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T15:22:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/froggeric/Qwen3.6-27B-MLX-8bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "mlx-lm",
-      "mlx-vlm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:29.284525+00:00",
-    "source_ids": [
-      "froggeric/Qwen3.6-27B-MLX-8bit"
-    ],
-    "family": "Qwen3.6-MLX-8bit"
-  },
-  {
     "id": "huggingface:trevon/Qwen3.6-27B-mtp",
     "name": "Qwen3.6-27B-mtp",
     "provider": "trevon",
@@ -12806,6 +12596,40 @@
       "0xSero/Qwen3.6-28B-REAP"
     ],
     "family": "Qwen3.6-REAP"
+  },
+  {
+    "id": "huggingface:Trelis/Chorus-v1",
+    "name": "Chorus-v1",
+    "provider": "Trelis",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T08:15:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Trelis/Chorus-v1",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "multi-speaker"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-05T13:07:43.051410+00:00",
+    "source_ids": [
+      "Trelis/Chorus-v1"
+    ],
+    "family": "Chorus-v1"
   },
   {
     "id": "huggingface:fraQtl/Qwen3.6-35B-A3B-compressed",
@@ -13733,41 +13557,6 @@
       "zhangsq-nju/Qwen3-0.6B-EdgeRazor-GGUF"
     ],
     "family": "Qwen3-EdgeRazor"
-  },
-  {
-    "id": "huggingface:froggeric/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-4bit",
-    "name": "Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-4bit",
-    "provider": "froggeric",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T11:22:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/froggeric/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "mlx-lm",
-      "mlx-vlm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T12:43:29.284553+00:00",
-    "source_ids": [
-      "froggeric/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-4bit"
-    ],
-    "family": "Qwen3.5-Uncensored-FernflowerAI-MLX-4bit"
   },
   {
     "id": "huggingface:AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
