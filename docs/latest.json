@@ -163,6 +163,41 @@
     "family": "Nemotron 3.5 Content Safety"
   },
   {
+    "id": "huggingface:dealignai/Gemma-4-12B-it-JANG_4M-CRACK",
+    "name": "Gemma-4-12B-it-JANG_4M-CRACK",
+    "provider": "dealignai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T06:49:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dealignai/Gemma-4-12B-it-JANG_4M-CRACK",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "apple-silicon",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-05T20:39:23.246915+00:00",
+    "source_ids": [
+      "dealignai/Gemma-4-12B-it-JANG_4M-CRACK"
+    ],
+    "family": "Gemma-4-it-JANG_4M-CRACK"
+  },
+  {
     "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
     "name": "NVIDIA: Nemotron 3 Ultra (free)",
     "provider": "NVIDIA",
@@ -284,6 +319,39 @@
       "bartowski/gemma-4-12B-it-GGUF"
     ],
     "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:cs-552-2026-MMRF/safety_model",
+    "name": "safety_model",
+    "provider": "cs-552-2026-MMRF",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:57:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cs-552-2026-MMRF/safety_model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-05T20:39:22.248880+00:00",
+    "source_ids": [
+      "cs-552-2026-MMRF/safety_model"
+    ],
+    "family": "safety_model"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
@@ -3163,6 +3231,39 @@
     "family": "evolai-tfm-super-001"
   },
   {
+    "id": "huggingface:nvidia/DeepSeek-V4-Flash-NVFP4",
+    "name": "DeepSeek-V4-Flash-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-18T00:02:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/DeepSeek-V4-Flash-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "deepseek_v4",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-05T20:39:22.248650+00:00",
+    "source_ids": [
+      "nvidia/DeepSeek-V4-Flash-NVFP4"
+    ],
+    "family": "DeepSeek-V4-Flash-NVFP4"
+  },
+  {
     "id": "huggingface:nightmedia/Qwen3.5-9B-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx",
     "name": "Qwen3.5-9B-Claude-Deckard-Agent-Coder-Heretic-qx86-hi-mlx",
     "provider": "nightmedia",
@@ -4395,6 +4496,41 @@
       "microsoft/Lens"
     ],
     "family": "Lens"
+  },
+  {
+    "id": "huggingface:jduartedj/MiniCPM-V-4.6-35B-Abliterated",
+    "name": "MiniCPM-V-4.6-35B-Abliterated",
+    "provider": "jduartedj",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T22:43:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jduartedj/MiniCPM-V-4.6-35B-Abliterated",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "minicpmv4_6",
+      "multimodal",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-05T20:39:23.247001+00:00",
+    "source_ids": [
+      "jduartedj/MiniCPM-V-4.6-35B-Abliterated"
+    ],
+    "family": "MiniCPM-V-4.6-Abliterated"
   },
   {
     "id": "huggingface:nvidia/DeepSeek-V4-Pro-NVFP4",
@@ -9944,41 +10080,6 @@
     "family": "Juggernaut-Z-Image"
   },
   {
-    "id": "huggingface:LyraNovaHeart/AuriAetherwiing_G4-26B-A4B-Musica-v1-GGUF",
-    "name": "AuriAetherwiing_G4-26B-A4B-Musica-v1-GGUF",
-    "provider": "LyraNovaHeart",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-29T14:56:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LyraNovaHeart/AuriAetherwiing_G4-26B-A4B-Musica-v1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "en",
-      "dataset:EVA-UNIT-01/Lilith-v0.3",
-      "dataset:zerofata/Gemini-3.1-Pro-GLM5-Characters"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T20:34:35.705198+00:00",
-    "source_ids": [
-      "LyraNovaHeart/AuriAetherwiing_G4-26B-A4B-Musica-v1-GGUF"
-    ],
-    "family": "AuriAetherwiing_G4-Musica-v1"
-  },
-  {
     "id": "huggingface:numind/NuExtract3",
     "name": "NuExtract3",
     "provider": "numind",
@@ -11696,41 +11797,6 @@
     "family": "Nemotron-Labs-Diffusion"
   },
   {
-    "id": "huggingface:unsloth/Qwen3.6-27B-NVFP4",
-    "name": "Qwen3.6-27B-NVFP4",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T15:52:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "unsloth",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T20:34:35.705117+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.6-27B-NVFP4"
-    ],
-    "family": "Qwen3.6-NVFP4"
-  },
-  {
     "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ4-FP16",
     "name": "Qwen3.6-27B-MLX-oQ4-FP16",
     "provider": "deepsweet",
@@ -11826,76 +11892,6 @@
       "nameistoken/Qwen3.6-35B-A3B-Quark-W8A8-INT8"
     ],
     "family": "Qwen3.6-Quark-W8A8-INT8"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.6-35B-A3B-NVFP4",
-    "name": "Qwen3.6-35B-A3B-NVFP4",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T07:12:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5_moe",
-      "unsloth",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T20:34:35.705159+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.6-35B-A3B-NVFP4"
-    ],
-    "family": "Qwen3.6-NVFP4"
-  },
-  {
-    "id": "huggingface:Minachist/Qwen3.6-27B-INT8-AutoRound",
-    "name": "Qwen3.6-27B-INT8-AutoRound",
-    "provider": "Minachist",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T01:36:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Minachist/Qwen3.6-27B-INT8-AutoRound",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "compressed-tensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T20:34:35.705386+00:00",
-    "source_ids": [
-      "Minachist/Qwen3.6-27B-INT8-AutoRound"
-    ],
-    "family": "Qwen3.6-INT8-AutoRound"
   },
   {
     "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-14B",
@@ -13723,41 +13719,6 @@
     "family": "Gemma-4-it-DECKARD-HERETIC-Uncensored-NVFP4"
   },
   {
-    "id": "huggingface:TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2",
-    "name": "gemma-4-31B-it-Claude-Opus-Distill-v2",
-    "provider": "TeichAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T01:25:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T20:34:35.705247+00:00",
-    "source_ids": [
-      "TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2"
-    ],
-    "family": "gemma-4-it-Claude-Opus-Distill-v2"
-  },
-  {
     "id": "huggingface:mlx-community/gemma-4-e4b-it-OptiQ-4bit",
     "name": "gemma-4-e4b-it-OptiQ-4bit",
     "provider": "mlx-community",
@@ -14054,41 +14015,6 @@
       "NeuraCraft/Lance-AI-V2"
     ],
     "family": "Lance-AI-V2"
-  },
-  {
-    "id": "huggingface:TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2",
-    "name": "gemma-4-26B-A4B-it-Claude-Opus-Distill-v2",
-    "provider": "TeichAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T16:26:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-06T20:34:35.705282+00:00",
-    "source_ids": [
-      "TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2"
-    ],
-    "family": "gemma-4-it-Claude-Opus-Distill-v2"
   },
   {
     "id": "huggingface:dnotitia/DNA3.0-122B-A10B",
@@ -18973,5 +18899,38 @@
       "funasr/paraformer-zh"
     ],
     "family": "paraformer-zh"
+  },
+  {
+    "id": "huggingface:JackFram/llama-68m",
+    "name": "llama-68m",
+    "provider": "JackFram",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-07-19T02:20:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JackFram/llama-68m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "llama",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-05T20:39:22.248806+00:00",
+    "source_ids": [
+      "JackFram/llama-68m"
+    ],
+    "family": "llama-68m"
   }
 ]
