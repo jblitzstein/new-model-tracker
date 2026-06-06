@@ -76723,5 +76723,312 @@
       "Youssofal/Qwen3.6-27B-MTPLX-Optimized-Quality"
     ],
     "family": "Qwen3.6-MTPLX-Optimized-Quality"
+  },
+  {
+    "id": "huggingface:vrfai/gemma-4-E4B-it-fp8",
+    "name": "gemma-4-E4B-it-fp8",
+    "provider": "vrfai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T03:38:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrfai/gemma-4-E4B-it-fp8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:36.569124+00:00",
+    "source_ids": [
+      "vrfai/gemma-4-E4B-it-fp8"
+    ],
+    "family": "gemma-4-E-it-fp8"
+  },
+  {
+    "id": "huggingface:vrfai/gemma-4-12B-it-fp8",
+    "name": "gemma-4-12B-it-fp8",
+    "provider": "vrfai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T08:07:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrfai/gemma-4-12B-it-fp8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:36.569218+00:00",
+    "source_ids": [
+      "vrfai/gemma-4-12B-it-fp8"
+    ],
+    "family": "gemma-4-it-fp8"
+  },
+  {
+    "id": "huggingface:bosonai/higgs-audio-v3-tts-4b",
+    "name": "higgs-audio-v3-tts-4b",
+    "provider": "bosonai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-04T05:37:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "higgs_multimodal_qwen3",
+      "text-generation",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:37.264234+00:00",
+    "source_ids": [
+      "bosonai/higgs-audio-v3-tts-4b"
+    ],
+    "family": "higgs-audio-v3-tts"
+  },
+  {
+    "id": "huggingface:vrfai/Qwen3-ASR-1.7B-fp8",
+    "name": "Qwen3-ASR-1.7B-fp8",
+    "provider": "vrfai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T09:41:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrfai/Qwen3-ASR-1.7B-fp8",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "qwen3_asr",
+      "asr",
+      "speech",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:37.403060+00:00",
+    "source_ids": [
+      "vrfai/Qwen3-ASR-1.7B-fp8"
+    ],
+    "family": "Qwen3-ASR-fp8"
+  },
+  {
+    "id": "huggingface:vrfai/Qwen3-ASR-1.7B-nvfp4",
+    "name": "Qwen3-ASR-1.7B-nvfp4",
+    "provider": "vrfai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T09:42:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrfai/Qwen3-ASR-1.7B-nvfp4",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "qwen3_asr",
+      "asr",
+      "speech",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:37.403093+00:00",
+    "source_ids": [
+      "vrfai/Qwen3-ASR-1.7B-nvfp4"
+    ],
+    "family": "Qwen3-ASR-nvfp4"
+  },
+  {
+    "id": "huggingface:vrfai/Qwen3-ASR-0.6B-int8-QAD",
+    "name": "Qwen3-ASR-0.6B-int8-QAD",
+    "provider": "vrfai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T04:41:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrfai/Qwen3-ASR-0.6B-int8-QAD",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "qwen3_asr",
+      "asr",
+      "speech",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:37.403125+00:00",
+    "source_ids": [
+      "vrfai/Qwen3-ASR-0.6B-int8-QAD"
+    ],
+    "family": "Qwen3-ASR-int8-QAD"
+  },
+  {
+    "id": "huggingface:vrfai/Qwen3.6-27B-FP8",
+    "name": "Qwen3.6-27B-FP8",
+    "provider": "vrfai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T07:15:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrfai/Qwen3.6-27B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:37.548280+00:00",
+    "source_ids": [
+      "vrfai/Qwen3.6-27B-FP8"
+    ],
+    "family": "Qwen3.6-FP8"
+  },
+  {
+    "id": "huggingface:vrfai/Cosmos-Reason2-8B-NVFP4",
+    "name": "Cosmos-Reason2-8B-NVFP4",
+    "provider": "vrfai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-05T03:08:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vrfai/Cosmos-Reason2-8B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:37.548339+00:00",
+    "source_ids": [
+      "vrfai/Cosmos-Reason2-8B-NVFP4"
+    ],
+    "family": "Cosmos-Reason2-NVFP4"
+  },
+  {
+    "id": "huggingface:Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
+    "name": "Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
+    "provider": "Smoffyy",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-03T20:29:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "RevisedGGUF",
+      "moe",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T08:57:37.548565+00:00",
+    "source_ids": [
+      "Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF"
+    ],
+    "family": "Qwen3.5--Revised"
   }
 ]
