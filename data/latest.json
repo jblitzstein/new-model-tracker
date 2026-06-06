@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
+    "name": "LFM2.5-8B-A1B-GGUF-MoQ",
+    "provider": "w-ahmad",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T23:06:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "MoQ",
+      "mixture-of-quants",
+      "GGUF",
+      "QWEN"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T20:29:06.073299+00:00",
+    "source_ids": [
+      "w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ"
+    ],
+    "family": "LFM2.5--MoQ"
+  },
+  {
     "id": "huggingface:unsloth/gemma-4-31B-it-qat-GGUF",
     "name": "gemma-4-31B-it-qat-GGUF",
     "provider": "unsloth",
@@ -7841,43 +7874,6 @@
     "family": "CoE-SlideVQA-i1"
   },
   {
-    "id": "openrouter:google/gemini-3.1-flash-lite",
-    "name": "Google: Gemini 3.1 Flash Lite",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T15:47:08+00:00",
-    "context_length": 1048576,
-    "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
-    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.25,
-      "completion_per_million": 1.5
-    },
-    "first_seen": "2026-05-07T16:37:59.604062+00:00",
-    "source_ids": [
-      "google/gemini-3.1-flash-lite"
-    ],
-    "family": "Gemini 3.1 Flash Lite"
-  },
-  {
     "id": "huggingface:mradermacher/CoE-Wiki-CoE-8B-i1-GGUF",
     "name": "CoE-Wiki-CoE-8B-i1-GGUF",
     "provider": "mradermacher",
@@ -8550,41 +8546,6 @@
       "GreenMap/qwen3.5-2b-ru-norm-link-extractor-GGUF"
     ],
     "family": "qwen3.5-ru-norm-link-extractor"
-  },
-  {
-    "id": "huggingface:havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
-    "name": "Qwen3.6-27B-MTP-UD-GGUF",
-    "provider": "havenoammo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-06T10:29:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3_5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-07T16:38:00.307970+00:00",
-    "source_ids": [
-      "havenoammo/Qwen3.6-27B-MTP-UD-GGUF"
-    ],
-    "family": "Qwen3.6-MTP-UD"
   },
   {
     "id": "huggingface:mradermacher/Distil-Grok4.4-Minute.Codex.NSFW-0.1B-GGUF",
@@ -12006,35 +11967,6 @@
     "family": "Qwen3.6-MLX-oQ4-FP16"
   },
   {
-    "id": "openrouter:inclusionai/ling-2.6-1t",
-    "name": "inclusionAI: Ling-2.6-1T",
-    "provider": "inclusionai",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T12:43:58+00:00",
-    "context_length": 262144,
-    "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
-    "url": "https://openrouter.ai/inclusionai/ling-2.6-1t",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.3,
-      "completion_per_million": 2.5
-    },
-    "first_seen": "2026-05-07T16:37:59.605956+00:00",
-    "source_ids": [
-      "inclusionai/ling-2.6-1t"
-    ],
-    "family": "Ling-2.6-1T"
-  },
-  {
     "id": "huggingface:nameistoken/Qwen3.6-35B-A3B-Quark-W8A8-INT8",
     "name": "Qwen3.6-35B-A3B-Quark-W8A8-INT8",
     "provider": "nameistoken",
@@ -14026,6 +13958,39 @@
       "ADSKAILab/Zero-To-CAD-Qwen3-VL-2B"
     ],
     "family": "Zero-To-CAD-Qwen3-VL"
+  },
+  {
+    "id": "huggingface:MihaiPopa-1/LFM2.5-350M-heretic-xagressive",
+    "name": "LFM2.5-350M-heretic-xagressive",
+    "provider": "MihaiPopa-1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T05:23:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MihaiPopa-1/LFM2.5-350M-heretic-xagressive",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T20:29:06.073254+00:00",
+    "source_ids": [
+      "MihaiPopa-1/LFM2.5-350M-heretic-xagressive"
+    ],
+    "family": "LFM2.5-350M-heretic-xagressive"
   },
   {
     "id": "huggingface:FINAL-Bench/Darwin-4B-David",
@@ -16409,6 +16374,39 @@
     "family": "WebWorld"
   },
   {
+    "id": "huggingface:inferencerlabs/archived-GLM-5-MLX-4.8bit",
+    "name": "archived-GLM-5-MLX-4.8bit",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-12T00:07:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/archived-GLM-5-MLX-4.8bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "glm_moe_dsa",
+      "quantized",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T20:29:06.073145+00:00",
+    "source_ids": [
+      "inferencerlabs/archived-GLM-5-MLX-4.8bit"
+    ],
+    "family": "archived-GLM-5-MLX-4.8bit"
+  },
+  {
     "id": "huggingface:aisingapore/Gemma-SEA-LION-v4-4B-VL-GGUF",
     "name": "Gemma-SEA-LION-v4-4B-VL-GGUF",
     "provider": "aisingapore",
@@ -16541,6 +16539,39 @@
       "ibm-granite/granitelib-guardian-r1.0"
     ],
     "family": "granitelib-guardian-r1.0"
+  },
+  {
+    "id": "huggingface:inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit",
+    "name": "archived-Kimi-K2.5-MLX-3.6bit",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-27T09:37:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "quantized",
+      "text-generation",
+      "en",
+      "base_model:moonshotai/Kimi-K2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T20:29:06.073080+00:00",
+    "source_ids": [
+      "inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit"
+    ],
+    "family": "archived-Kimi-K2.5-MLX-3.6bit"
   },
   {
     "id": "huggingface:reaperdoesntknow/SharperSwarm",
