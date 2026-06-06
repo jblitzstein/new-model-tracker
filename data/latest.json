@@ -135,6 +135,41 @@
     "family": "gemma-4-it-qat-w4a16-ct"
   },
   {
+    "id": "huggingface:batiai/gemma-4-12B-it-GGUF",
+    "name": "gemma-4-12B-it-GGUF",
+    "provider": "batiai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T15:34:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/batiai/gemma-4-12B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "gemma",
+      "gemma4",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T05:21:50.354098+00:00",
+    "source_ids": [
+      "batiai/gemma-4-12B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
     "id": "openrouter:nvidia/nemotron-3.5-content-safety:free",
     "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
     "provider": "NVIDIA",
@@ -6184,6 +6219,41 @@
       "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju"
     ],
     "family": "gemma-4-it-mxfp4-moe-juju"
+  },
+  {
+    "id": "huggingface:Youssofal/Qwen3.6-27B-MTPLX-Optimized-Quality",
+    "name": "Qwen3.6-27B-MTPLX-Optimized-Quality",
+    "provider": "Youssofal",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T03:23:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Youssofal/Qwen3.6-27B-MTPLX-Optimized-Quality",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "mtplx",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-06T05:21:50.354192+00:00",
+    "source_ids": [
+      "Youssofal/Qwen3.6-27B-MTPLX-Optimized-Quality"
+    ],
+    "family": "Qwen3.6-MTPLX-Optimized-Quality"
   },
   {
     "id": "huggingface:keithnull/Qwen3.6-35B-A3B-REAM-192-heretic-APEX-GGUF",
@@ -13684,39 +13754,6 @@
       "AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4"
     ],
     "family": "Gemma-4-it-DECKARD-HERETIC-Uncensored-NVFP4"
-  },
-  {
-    "id": "huggingface:mlx-community/gemma-4-e4b-it-OptiQ-4bit",
-    "name": "gemma-4-e4b-it-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T16:28:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/gemma-4-e4b-it-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-07T05:12:09.711385+00:00",
-    "source_ids": [
-      "mlx-community/gemma-4-e4b-it-OptiQ-4bit"
-    ],
-    "family": "gemma-4-e-it-OptiQ-4bit"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-e2b-it-OptiQ-4bit",
