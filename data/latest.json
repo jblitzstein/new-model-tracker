@@ -9805,39 +9805,6 @@
     "family": "Qwen3.6-MagicQuant"
   },
   {
-    "id": "huggingface:z-lab/gemma-4-31B-it-DFlash",
-    "name": "gemma-4-31B-it-DFlash",
-    "provider": "z-lab",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-30T11:50:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/z-lab/gemma-4-31B-it-DFlash",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "dflash",
-      "speculative-decoding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:02.401324+00:00",
-    "source_ids": [
-      "z-lab/gemma-4-31B-it-DFlash"
-    ],
-    "family": "gemma-4-it-DFlash"
-  },
-  {
     "id": "huggingface:MultiverseComputingCAI/Hypernova-60B-2605",
     "name": "Hypernova-60B-2605",
     "provider": "MultiverseComputingCAI",
@@ -11332,6 +11299,72 @@
     "family": "Qwen3.6"
   },
   {
+    "id": "huggingface:mlx-community/DeepSeek-V4-Pro",
+    "name": "DeepSeek-V4-Pro",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T14:08:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/DeepSeek-V4-Pro",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-07T12:38:07.033227+00:00",
+    "source_ids": [
+      "mlx-community/DeepSeek-V4-Pro"
+    ],
+    "family": "DeepSeek-V4-Pro"
+  },
+  {
+    "id": "huggingface:mlx-community/DeepSeek-V4-Flash",
+    "name": "DeepSeek-V4-Flash",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T14:07:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/DeepSeek-V4-Flash",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-07T12:38:07.033186+00:00",
+    "source_ids": [
+      "mlx-community/DeepSeek-V4-Flash"
+    ],
+    "family": "DeepSeek-V4-Flash"
+  },
+  {
     "id": "huggingface:deepsweet/Qwen3.6-27B-MLX-oQ8-FP16",
     "name": "Qwen3.6-27B-MLX-oQ8-FP16",
     "provider": "deepsweet",
@@ -12436,146 +12469,6 @@
     "family": "Qianfan-OCR-Fast"
   },
   {
-    "id": "huggingface:zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-2bit-mixed_2_6",
-    "name": "gemma-4-26B-A4B-it-uncensored-abliterix-MLX-2bit-mixed_2_6",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T17:20:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-2bit-mixed_2_6",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "2-bit",
-      "abliterix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:03.369103+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-2bit-mixed_2_6"
-    ],
-    "family": "gemma-4-it-uncensored-abliterix-MLX-2bit-mixed_2_6"
-  },
-  {
-    "id": "huggingface:zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-3bit-mixed_3_6",
-    "name": "gemma-4-26B-A4B-it-uncensored-abliterix-MLX-3bit-mixed_3_6",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T17:19:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-3bit-mixed_3_6",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "3-bit",
-      "abliterix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:03.369184+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-3bit-mixed_3_6"
-    ],
-    "family": "gemma-4-it-uncensored-abliterix-MLX-3bit-mixed_3_6"
-  },
-  {
-    "id": "huggingface:zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-4bit-mixed_4_6",
-    "name": "gemma-4-26B-A4B-it-uncensored-abliterix-MLX-4bit-mixed_4_6",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T17:17:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-4bit-mixed_4_6",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "abliterix",
-      "decensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:03.369229+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-4bit-mixed_4_6"
-    ],
-    "family": "gemma-4-it-uncensored-abliterix-MLX-4bit-mixed_4_6"
-  },
-  {
-    "id": "huggingface:zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-8bit-int8-affine",
-    "name": "gemma-4-26B-A4B-it-uncensored-abliterix-MLX-8bit-int8-affine",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T17:09:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-8bit-int8-affine",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "abliterix",
-      "decensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:03.369344+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-8bit-int8-affine"
-    ],
-    "family": "gemma-4-it-uncensored-abliterix-MLX-8bit-int8-affine"
-  },
-  {
     "id": "openrouter:moonshotai/kimi-k2.6:free",
     "name": "MoonshotAI: Kimi K2.6 (free)",
     "provider": "Moonshot AI",
@@ -13249,76 +13142,6 @@
       "mradermacher/CARDS-Qwen3.5-27B-GGUF"
     ],
     "family": "CARDS-Qwen3.5"
-  },
-  {
-    "id": "huggingface:zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-5bit-int5-affine",
-    "name": "gemma-4-26B-A4B-it-uncensored-abliterix-MLX-5bit-int5-affine",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T08:53:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-5bit-int5-affine",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "abliterix",
-      "decensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:03.369269+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-5bit-int5-affine"
-    ],
-    "family": "gemma-4-it-uncensored-abliterix-MLX-5bit-int5-affine"
-  },
-  {
-    "id": "huggingface:zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-6bit-int6-affine",
-    "name": "gemma-4-26B-A4B-it-uncensored-abliterix-MLX-6bit-int6-affine",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T08:52:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-6bit-int6-affine",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "abliterix",
-      "decensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:03.369307+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-26B-A4B-it-uncensored-abliterix-MLX-6bit-int6-affine"
-    ],
-    "family": "gemma-4-it-uncensored-abliterix-MLX-6bit-int6-affine"
   },
   {
     "id": "huggingface:vrfai/gemma-4-E4B-it-fp8",
@@ -15902,105 +15725,6 @@
       "trl-internal-testing/tiny-Glm4MoeForCausalLM"
     ],
     "family": "tiny-Glm4MoeForCausalLM"
-  },
-  {
-    "id": "huggingface:Qwen/WebWorld-32B",
-    "name": "WebWorld-32B",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T14:14:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/WebWorld-32B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "WebWorld"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:02.401239+00:00",
-    "source_ids": [
-      "Qwen/WebWorld-32B"
-    ],
-    "family": "WebWorld"
-  },
-  {
-    "id": "huggingface:Qwen/WebWorld-14B",
-    "name": "WebWorld-14B",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T14:14:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/WebWorld-14B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "WebWorld"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:02.401180+00:00",
-    "source_ids": [
-      "Qwen/WebWorld-14B"
-    ],
-    "family": "WebWorld"
-  },
-  {
-    "id": "huggingface:Qwen/WebWorld-8B",
-    "name": "WebWorld-8B",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-13T14:13:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/WebWorld-8B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "WebWorld"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-08T12:35:02.401265+00:00",
-    "source_ids": [
-      "Qwen/WebWorld-8B"
-    ],
-    "family": "WebWorld"
   },
   {
     "id": "huggingface:inferencerlabs/archived-GLM-5-MLX-4.8bit",
