@@ -1,5 +1,39 @@
 [
   {
+    "id": "huggingface:neuregex/Bernini-R-GGUF",
+    "name": "Bernini-R-GGUF",
+    "provider": "neuregex",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-06-06T10:22:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuregex/Bernini-R-GGUF",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "wan2.2",
+      "comfyui",
+      "bernini-r",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T09:41:25.003662+00:00",
+    "source_ids": [
+      "neuregex/Bernini-R-GGUF"
+    ],
+    "family": "Bernini-R"
+  },
+  {
     "id": "huggingface:w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
     "name": "LFM2.5-8B-A1B-GGUF-MoQ",
     "provider": "w-ahmad",
@@ -101,6 +135,40 @@
       "unsloth/gemma-4-26B-A4B-it-qat-GGUF"
     ],
     "family": "gemma-4-it-qat"
+  },
+  {
+    "id": "huggingface:pnnbao-ump/VieNeu-TTS-v3-Turbo",
+    "name": "VieNeu-TTS-v3-Turbo",
+    "provider": "pnnbao-ump",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-05T06:45:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "safetensors",
+      "vieneu_v3_turbo",
+      "voice-cloning",
+      "code-switching"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T09:41:25.236597+00:00",
+    "source_ids": [
+      "pnnbao-ump/VieNeu-TTS-v3-Turbo"
+    ],
+    "family": "VieNeu-TTS-v3-Turbo"
   },
   {
     "id": "huggingface:fairy322/Qwen2.5-VL-7B-Abliterated-Caption-it-i1-GGUF",
@@ -1301,6 +1369,39 @@
     "family": "magenta-realtime-2"
   },
   {
+    "id": "huggingface:Floppyshy/sulphur-2-runpod",
+    "name": "sulphur-2-runpod",
+    "provider": "Floppyshy",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-05-28T16:56:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Floppyshy/sulphur-2-runpod",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "gguf",
+      "text-to-video",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T09:41:25.003730+00:00",
+    "source_ids": [
+      "Floppyshy/sulphur-2-runpod"
+    ],
+    "family": "sulphur-2-runpod"
+  },
+  {
     "id": "huggingface:mradermacher/PaddleOCR-VL-1.6-i1-GGUF",
     "name": "PaddleOCR-VL-1.6-i1-GGUF",
     "provider": "mradermacher",
@@ -2420,6 +2521,39 @@
       "LiquidAI/LFM2.5-8B-A1B-GGUF"
     ],
     "family": "LFM2.5"
+  },
+  {
+    "id": "huggingface:jedisct1/MiMo-V2.5-coder-Q2",
+    "name": "MiMo-V2.5-coder-Q2",
+    "provider": "jedisct1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T21:13:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jedisct1/MiMo-V2.5-coder-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "text-generation",
+      "code",
+      "coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T09:41:24.646376+00:00",
+    "source_ids": [
+      "jedisct1/MiMo-V2.5-coder-Q2"
+    ],
+    "family": "MiMo-V2.5-coder-Q2"
   },
   {
     "id": "huggingface:stepfun-ai/Step-3.7-Flash-FP8",
@@ -7976,41 +8110,6 @@
       "clear-blue-sky/evolai-tfm-002"
     ],
     "family": "evolai-tfm-002"
-  },
-  {
-    "id": "huggingface:mradermacher/CARDS-Qwen3.6-27B-i1-GGUF",
-    "name": "CARDS-Qwen3.6-27B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T07:54:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/CARDS-Qwen3.6-27B-i1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "climate",
-      "climate-change",
-      "climate-discourse"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-09T08:36:54.041825+00:00",
-    "source_ids": [
-      "mradermacher/CARDS-Qwen3.6-27B-i1-GGUF"
-    ],
-    "family": "CARDS-Qwen3.6-i1"
   },
   {
     "id": "huggingface:cognica/Cognica-PoE-v1.0-3B-base-continual-learning",
@@ -17693,6 +17792,39 @@
       "reaperdoesntknow/Symbiotic-Beta"
     ],
     "family": "Symbiotic-Beta"
+  },
+  {
+    "id": "huggingface:medicalai/ClinicalGPT-R1-Qwen-7B-EN-preview",
+    "name": "ClinicalGPT-R1-Qwen-7B-EN-preview",
+    "provider": "medicalai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-31T04:45:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/medicalai/ClinicalGPT-R1-Qwen-7B-EN-preview",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen2",
+      "medical",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T09:41:24.646466+00:00",
+    "source_ids": [
+      "medicalai/ClinicalGPT-R1-Qwen-7B-EN-preview"
+    ],
+    "family": "ClinicalGPT-R1-Qwen-EN"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-LlavaNextForConditionalGeneration",
