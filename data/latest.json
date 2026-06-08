@@ -404,6 +404,39 @@
     "family": "Gemma-4-it-JANG_4M-CRACK"
   },
   {
+    "id": "huggingface:yuxinlu1/gemma-4-12B-it-Claude-4.6-4.8-Opus-GGUF",
+    "name": "gemma-4-12B-it-Claude-4.6-4.8-Opus-GGUF",
+    "provider": "yuxinlu1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T06:31:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-it-Claude-4.6-4.8-Opus-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "safetensors",
+      "gemma4",
+      "reasoning",
+      "thinking"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T05:39:38.981595+00:00",
+    "source_ids": [
+      "yuxinlu1/gemma-4-12B-it-Claude-4.6-4.8-Opus-GGUF"
+    ],
+    "family": "gemma-4-it-Claude-4.6-4.8-Opus"
+  },
+  {
     "id": "huggingface:bosonai/higgs-audio-v3-tts-4b",
     "name": "higgs-audio-v3-tts-4b",
     "provider": "bosonai",
@@ -9196,6 +9229,39 @@
     "family": "chatterbox"
   },
   {
+    "id": "huggingface:YuYu1015/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-int4-AutoRound",
+    "name": "Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-int4-AutoRound",
+    "provider": "YuYu1015",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-03T20:45:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YuYu1015/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-int4-AutoRound",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T05:39:38.981672+00:00",
+    "source_ids": [
+      "YuYu1015/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-int4-AutoRound"
+    ],
+    "family": "Huihui-Qwen3.6-Claude-4.7-Opus-abliterated-int4-AutoRound"
+  },
+  {
     "id": "huggingface:Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
     "name": "Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
     "provider": "Smoffyy",
@@ -10085,39 +10151,6 @@
       "google/gemma-4-31B-it-qat-q4_0-unquantized"
     ],
     "family": "gemma-4-it-qat-q4_0-unquantized"
-  },
-  {
-    "id": "huggingface:z-lab/gemma-4-26B-A4B-it-DFlash",
-    "name": "gemma-4-26B-A4B-it-DFlash",
-    "provider": "z-lab",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T19:03:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/z-lab/gemma-4-26B-A4B-it-DFlash",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "dflash",
-      "speculative-decoding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-09T05:08:23.422977+00:00",
-    "source_ids": [
-      "z-lab/gemma-4-26B-A4B-it-DFlash"
-    ],
-    "family": "gemma-4-it-DFlash"
   },
   {
     "id": "huggingface:inferencerlabs/DeepSeek-V4-Flash-MLX-2.8bit-EXP",
@@ -12507,6 +12540,41 @@
       "zecanard/gemma-4-26B-A4B-it-uncensored-heretic-ara-MLX-8bit-int8-affine"
     ],
     "family": "gemma-4-it-uncensored-heretic-ara-MLX-8bit-int8-affine"
+  },
+  {
+    "id": "huggingface:ccharnkij/Ministral-3-8B-Reasoning-2512-Uncensored-GGUF",
+    "name": "Ministral-3-8B-Reasoning-2512-Uncensored-GGUF",
+    "provider": "ccharnkij",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T20:15:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ccharnkij/Ministral-3-8B-Reasoning-2512-Uncensored-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "mistral",
+      "ministral",
+      "uncensored",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T05:39:39.468166+00:00",
+    "source_ids": [
+      "ccharnkij/Ministral-3-8B-Reasoning-2512-Uncensored-GGUF"
+    ],
+    "family": "Ministral-3-Reasoning-2512-Uncensored"
   },
   {
     "id": "huggingface:stevelikesrhino/gemma-4-31B-it-nvfp4-GGUF",
