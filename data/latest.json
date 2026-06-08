@@ -1,5 +1,33 @@
 [
   {
+    "id": "openrouter:nex-agi/Nex-N2-Pro:free",
+    "name": "Nex AGI: Nex-N2-Pro (free)",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-08T16:45:40+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
+    "url": "https://openrouter.ai/nex-agi/Nex-N2-Pro:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:12.690664+00:00",
+    "source_ids": [
+      "nex-agi/Nex-N2-Pro:free"
+    ],
+    "family": "Nex-N2-Pro"
+  },
+  {
     "id": "huggingface:neuregex/Bernini-R-GGUF",
     "name": "Bernini-R-GGUF",
     "provider": "neuregex",
@@ -376,6 +404,40 @@
     "family": "gemma-4-it"
   },
   {
+    "id": "huggingface:onnx-community/nemotron-3.5-asr-streaming-0.6b-onnx-int4",
+    "name": "nemotron-3.5-asr-streaming-0.6b-onnx-int4",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T14:49:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/nemotron-3.5-asr-streaming-0.6b-onnx-int4",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "onnx",
+      "speech-recognition",
+      "cache-aware ASR",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.147079+00:00",
+    "source_ids": [
+      "onnx-community/nemotron-3.5-asr-streaming-0.6b-onnx-int4"
+    ],
+    "family": "nemotron-3.5-asr-streaming-onnx-int4"
+  },
+  {
     "id": "openrouter:nvidia/nemotron-3.5-content-safety:free",
     "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
     "provider": "NVIDIA",
@@ -435,6 +497,39 @@
       "vrfai/gemma-4-12B-it-fp8"
     ],
     "family": "gemma-4-it-fp8"
+  },
+  {
+    "id": "huggingface:deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF",
+    "name": "RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF",
+    "provider": "deadbydawn101",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T06:49:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "security",
+      "cybersecurity",
+      "pentest",
+      "bug-bounty"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:12.790030+00:00",
+    "source_ids": [
+      "deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF"
+    ],
+    "family": "RavenX-CyberAgent-Qwen3.6-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH"
   },
   {
     "id": "huggingface:dealignai/Gemma-4-12B-it-JANG_4M-CRACK",
@@ -693,6 +788,251 @@
       "cs-552-2026-MMRF/safety_model"
     ],
     "family": "safety_model"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-mxfp8",
+    "name": "gemma-4-12B-it-mxfp8",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:19:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-mxfp8",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.206510+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-mxfp8"
+    ],
+    "family": "gemma-4-it-mxfp8"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-mxfp4",
+    "name": "gemma-4-12B-it-mxfp4",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:19:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-mxfp4",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.206542+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-mxfp4"
+    ],
+    "family": "gemma-4-it-mxfp4"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-nvfp4",
+    "name": "gemma-4-12B-it-nvfp4",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:19:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-nvfp4",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.206568+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-nvfp4"
+    ],
+    "family": "gemma-4-it-nvfp4"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-8bit",
+    "name": "gemma-4-12B-it-8bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:19:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-8bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.206593+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-8bit"
+    ],
+    "family": "gemma-4-it-8bit"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-6bit",
+    "name": "gemma-4-12B-it-6bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:19:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-6bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.206618+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-6bit"
+    ],
+    "family": "gemma-4-it-6bit"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-5bit",
+    "name": "gemma-4-12B-it-5bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:19:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-5bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.206643+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-5bit"
+    ],
+    "family": "gemma-4-it-5bit"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-4bit",
+    "name": "gemma-4-12B-it-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T16:19:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:13.206667+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-4bit"
+    ],
+    "family": "gemma-4-it-4bit"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
@@ -5946,6 +6286,39 @@
       "cs-552-2026-MandMP/math_model"
     ],
     "family": "math_model"
+  },
+  {
+    "id": "huggingface:HuggingFaceBio/Carbon-3B",
+    "name": "Carbon-3B",
+    "provider": "HuggingFaceBio",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T11:05:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HuggingFaceBio/Carbon-3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:12.790225+00:00",
+    "source_ids": [
+      "HuggingFaceBio/Carbon-3B"
+    ],
+    "family": "Carbon"
   },
   {
     "id": "huggingface:metaresearch/PapersRAG-1.5B",
@@ -15162,39 +15535,6 @@
     "family": "Qwen3.5-W4A16-AutoRound"
   },
   {
-    "id": "huggingface:CrashOverrideX/Quillan-Ronin",
-    "name": "Quillan-Ronin",
-    "provider": "CrashOverrideX",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-03T16:39:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CrashOverrideX/Quillan-Ronin",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "quillan_bitnet_moe",
-      "text-generation",
-      "code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-09T16:21:20.245466+00:00",
-    "source_ids": [
-      "CrashOverrideX/Quillan-Ronin"
-    ],
-    "family": "Quillan-Ronin"
-  },
-  {
     "id": "huggingface:nvidia/LocateAnything-3B",
     "name": "LocateAnything-3B",
     "provider": "NVIDIA",
@@ -15536,6 +15876,39 @@
       "nur-dev/farabi-1.7b"
     ],
     "family": "farabi"
+  },
+  {
+    "id": "huggingface:aman0419/Vitallm-50M",
+    "name": "Vitallm-50M",
+    "provider": "aman0419",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-23T13:21:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aman0419/Vitallm-50M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "slm",
+      "medical",
+      "healthcare"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T17:11:12.790264+00:00",
+    "source_ids": [
+      "aman0419/Vitallm-50M"
+    ],
+    "family": "Vitallm-50M"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-Cohere2ForCausalLM",
