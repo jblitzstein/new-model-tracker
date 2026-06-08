@@ -23,7 +23,8 @@
     "pricing": null,
     "first_seen": "2026-06-08T17:11:12.690664+00:00",
     "source_ids": [
-      "nex-agi/Nex-N2-Pro:free"
+      "nex-agi/Nex-N2-Pro:free",
+      "nex-agi/nex-n2-pro:free"
     ],
     "family": "Nex-N2-Pro"
   },
@@ -165,6 +166,39 @@
     "family": "gemma-4-it-qat"
   },
   {
+    "id": "huggingface:OBLITERATUS/Gemma-4-12B-OBLITERATED",
+    "name": "Gemma-4-12B-OBLITERATED",
+    "provider": "OBLITERATUS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T08:58:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gemma4_unified",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.086317+00:00",
+    "source_ids": [
+      "OBLITERATUS/Gemma-4-12B-OBLITERATED"
+    ],
+    "family": "Gemma-4-OBLITERATED"
+  },
+  {
     "id": "huggingface:pnnbao-ump/VieNeu-TTS-v3-Turbo",
     "name": "VieNeu-TTS-v3-Turbo",
     "provider": "pnnbao-ump",
@@ -197,6 +231,76 @@
       "pnnbao-ump/VieNeu-TTS-v3-Turbo"
     ],
     "family": "VieNeu-TTS-v3-Turbo"
+  },
+  {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-MLX-8bit",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-MLX-8bit",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T06:20:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-MLX-8bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "mlx-vlm",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.912806+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-MLX-8bit"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-MLX-8bit"
+  },
+  {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-MLXFP4",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-MLXFP4",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T05:58:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-MLXFP4",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "mlx-vlm",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.912885+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-MLXFP4"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-MLXFP4"
   },
   {
     "id": "huggingface:fairy322/Qwen2.5-VL-7B-Abliterated-Caption-it-i1-GGUF",
@@ -2760,6 +2864,41 @@
     "family": "Gemma-4-storymaxxed2"
   },
   {
+    "id": "huggingface:OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit",
+    "name": "Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit",
+    "provider": "OpenYourMind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-25T13:43:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "mtplx",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.912207+00:00",
+    "source_ids": [
+      "OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit"
+    ],
+    "family": "Qwopus3.5-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit"
+  },
+  {
     "id": "huggingface:osmapi/osmQwopus-3.6-27B-V2-heretic-abliterated-uncensored-TQ3_1s-GGUF",
     "name": "osmQwopus-3.6-27B-V2-heretic-abliterated-uncensored-TQ3_1s-GGUF",
     "provider": "osmapi",
@@ -2894,6 +3033,41 @@
       "jedisct1/MiMo-V2.5-coder-Q2"
     ],
     "family": "MiMo-V2.5-coder-Q2"
+  },
+  {
+    "id": "huggingface:OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destilled-abliterated-NVFP4",
+    "name": "Qwopus3.5-122B-A10B-Kimi-K2.6-destilled-abliterated-NVFP4",
+    "provider": "OpenYourMind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T12:11:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destilled-abliterated-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.912359+00:00",
+    "source_ids": [
+      "OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destilled-abliterated-NVFP4"
+    ],
+    "family": "Qwopus3.5-Kimi-K2.6-destilled-abliterated-NVFP4"
   },
   {
     "id": "huggingface:stepfun-ai/Step-3.7-Flash-FP8",
@@ -3499,6 +3673,76 @@
       "numind/NuExtract3-FP8"
     ],
     "family": "NuExtract3-FP8"
+  },
+  {
+    "id": "huggingface:OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MLX-4bit",
+    "name": "Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MLX-4bit",
+    "provider": "OpenYourMind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T10:19:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "qwen",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.912439+00:00",
+    "source_ids": [
+      "OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MLX-4bit"
+    ],
+    "family": "Qwopus3.5-Kimi-K2.6-destill-healed-abliterated-MLX-4bit"
+  },
+  {
+    "id": "huggingface:OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-GGUF",
+    "name": "Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-GGUF",
+    "provider": "OpenYourMind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T10:19:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "qwen3.5",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.912526+00:00",
+    "source_ids": [
+      "OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-GGUF"
+    ],
+    "family": "Qwopus3.5-Kimi-K2.6-destill-healed-abliterated"
   },
   {
     "id": "huggingface:abyrne55/nuextract-1.5-tiny-mealie-ingredient-parser",
@@ -7375,6 +7619,39 @@
     "family": "gemma-4-E-Terminal-SFT-Native-Liquid-2Epoch"
   },
   {
+    "id": "huggingface:selorahomes/Selora-AI",
+    "name": "Selora-AI",
+    "provider": "selorahomes",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-09T00:49:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/selorahomes/Selora-AI",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation",
+      "qwen",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.086471+00:00",
+    "source_ids": [
+      "selorahomes/Selora-AI"
+    ],
+    "family": "Selora-AI"
+  },
+  {
     "id": "huggingface:LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
     "name": "gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
     "provider": "LLM-OS-Models",
@@ -10076,6 +10353,41 @@
     "family": "Gemma-4-it-Cerebellum-v6"
   },
   {
+    "id": "huggingface:RedHatAI/Qwen3.6-27B-FP8",
+    "name": "Qwen3.6-27B-FP8",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-01T17:39:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Qwen3.6-27B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.913028+00:00",
+    "source_ids": [
+      "RedHatAI/Qwen3.6-27B-FP8"
+    ],
+    "family": "Qwen3.6-FP8"
+  },
+  {
     "id": "huggingface:eaddario/Qwen3.6-35B-A3B-GGUF",
     "name": "Qwen3.6-35B-A3B-GGUF",
     "provider": "eaddario",
@@ -10384,39 +10696,6 @@
     "family": "tiny-audio"
   },
   {
-    "id": "huggingface:batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF",
-    "name": "Nemotron-3-Nano-Omni-30B-Text-Only-GGUF",
-    "provider": "batiai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-29T23:53:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "nemotron",
-      "nemotron-h",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-09T20:17:38.849649+00:00",
-    "source_ids": [
-      "batiai/Nemotron-3-Nano-Omni-30B-Text-Only-GGUF"
-    ],
-    "family": "Nemotron-3-Nano-Omni-Text-Only"
-  },
-  {
     "id": "huggingface:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
     "name": "gemma-4-26B-A4B-it-qat-q4_0-unquantized",
     "provider": "Google",
@@ -10518,6 +10797,41 @@
       "RunDiffusion/Juggernaut-Z-Image"
     ],
     "family": "Juggernaut-Z-Image"
+  },
+  {
+    "id": "huggingface:OpenYourMind/OpenYourMind-Qwen3.6-35B-A3B-abliterated-uncensored-APEX-GGUF",
+    "name": "OpenYourMind-Qwen3.6-35B-A3B-abliterated-uncensored-APEX-GGUF",
+    "provider": "OpenYourMind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T16:59:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenYourMind/OpenYourMind-Qwen3.6-35B-A3B-abliterated-uncensored-APEX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.912613+00:00",
+    "source_ids": [
+      "OpenYourMind/OpenYourMind-Qwen3.6-35B-A3B-abliterated-uncensored-APEX-GGUF"
+    ],
+    "family": "OpenYourMind-Qwen3.6-abliterated-uncensored-APEX"
   },
   {
     "id": "huggingface:numind/NuExtract3",
@@ -15977,6 +16291,39 @@
     "family": "tiny-Glm4MoeForCausalLM"
   },
   {
+    "id": "huggingface:RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+    "name": "Dolphin3-Cyber-8B-GGUF",
+    "provider": "RavichandranJ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-13T18:01:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "llama",
+      "text-generation",
+      "GGUF"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.086393+00:00",
+    "source_ids": [
+      "RavichandranJ/Dolphin3-Cyber-8B-GGUF"
+    ],
+    "family": "Dolphin3-Cyber"
+  },
+  {
     "id": "huggingface:inferencerlabs/archived-GLM-5-MLX-4.8bit",
     "name": "archived-GLM-5-MLX-4.8bit",
     "provider": "inferencerlabs",
@@ -18268,6 +18615,40 @@
       "trl-internal-testing/tiny-CohereForCausalLM"
     ],
     "family": "tiny-CohereForCausalLM"
+  },
+  {
+    "id": "huggingface:lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1",
+    "name": "Flux_Lustly.ai_Uncensored_nsfw_v1",
+    "provider": "lustlyai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-10-21T16:10:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "nsfw",
+      "uncensored",
+      "not-for-all-audiences",
+      "nudity"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-08T20:56:06.213766+00:00",
+    "source_ids": [
+      "lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1"
+    ],
+    "family": "Flux_Lustly.ai_Uncensored_nsfw_v1"
   },
   {
     "id": "huggingface:software-mansion/react-native-executorch-llama-3.2",
