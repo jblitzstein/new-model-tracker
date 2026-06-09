@@ -78791,5 +78791,316 @@
       "forkjoin-ai/deepseek-ocr-2"
     ],
     "family": "deepseek-ocr-2"
+  },
+  {
+    "id": "openrouter:~anthropic/claude-fable-latest",
+    "name": "Anthropic: Claude Fable Latest",
+    "provider": "~anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T18:32:24+00:00",
+    "context_length": 1000000,
+    "description": "This model always redirects to the latest model in the Claude Fable family.",
+    "url": "https://openrouter.ai/~anthropic/claude-fable-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 50.0
+    },
+    "first_seen": "2026-06-09T20:44:19.245786+00:00",
+    "source_ids": [
+      "~anthropic/claude-fable-latest"
+    ],
+    "family": "Claude Fable Latest"
+  },
+  {
+    "id": "openrouter:anthropic/claude-fable-5",
+    "name": "Anthropic: Claude Fable 5",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T12:18:35+00:00",
+    "context_length": 1000000,
+    "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+    "url": "https://openrouter.ai/anthropic/claude-fable-5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 50.0
+    },
+    "first_seen": "2026-06-09T20:44:19.246760+00:00",
+    "source_ids": [
+      "anthropic/claude-fable-5"
+    ],
+    "family": "Claude Fable 5"
+  },
+  {
+    "id": "huggingface:RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-quantized.w4a16",
+    "name": "Mistral-Small-3.1-24B-Instruct-2503-quantized.w4a16",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-15T14:49:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-quantized.w4a16",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "mistral3",
+      "mistralai",
+      "mistral",
+      "mistral-small"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T20:44:19.794080+00:00",
+    "source_ids": [
+      "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-quantized.w4a16"
+    ],
+    "family": "Mistral-Small-3.1--2503-quantized.w4a16"
+  },
+  {
+    "id": "huggingface:RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-quantized.w8a8",
+    "name": "Mistral-Small-3.1-24B-Instruct-2503-quantized.w8a8",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-15T16:50:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-quantized.w8a8",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "mistral3",
+      "mistralai",
+      "mistral",
+      "mistral-small"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T20:44:19.794157+00:00",
+    "source_ids": [
+      "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-quantized.w8a8"
+    ],
+    "family": "Mistral-Small-3.1--2503-quantized.w8a8"
+  },
+  {
+    "id": "huggingface:RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
+    "name": "Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-27T02:50:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "mistral3",
+      "mistralai",
+      "mistral",
+      "mistral-small"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T20:44:19.794203+00:00",
+    "source_ids": [
+      "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic"
+    ],
+    "family": "Mistral-Small-3.1--2503-FP8-dynamic"
+  },
+  {
+    "id": "huggingface:RedHatAI/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-05-12T21:21:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "llama4",
+      "facebook",
+      "meta",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T20:44:19.794243+00:00",
+    "source_ids": [
+      "RedHatAI/Llama-4-Maverick-17B-128E-Instruct-FP8"
+    ],
+    "family": "Llama-4-Maverick-128E--FP8"
+  },
+  {
+    "id": "huggingface:RedHatAI/Llama-4-Scout-17B-16E-Instruct",
+    "name": "Llama-4-Scout-17B-16E-Instruct",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-05-10T23:56:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Llama-4-Scout-17B-16E-Instruct",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "llama4",
+      "facebook",
+      "meta",
+      "llama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T20:44:19.794280+00:00",
+    "source_ids": [
+      "RedHatAI/Llama-4-Scout-17B-16E-Instruct"
+    ],
+    "family": "Llama-4-Scout-16E"
+  },
+  {
+    "id": "huggingface:RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+    "name": "Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-25T13:11:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "llama4",
+      "facebook",
+      "meta",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T20:44:19.794312+00:00",
+    "source_ids": [
+      "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16"
+    ],
+    "family": "Llama-4-Scout-16E--quantized.w4a16"
+  },
+  {
+    "id": "huggingface:RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic",
+    "name": "Llama-4-Scout-17B-16E-Instruct-FP8-dynamic",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-10T10:45:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "llama4",
+      "facebook",
+      "meta",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T20:44:19.794349+00:00",
+    "source_ids": [
+      "RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic"
+    ],
+    "family": "Llama-4-Scout-16E--FP8-dynamic"
   }
 ]
