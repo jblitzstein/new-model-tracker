@@ -29,6 +29,41 @@
     "family": "Nex-N2-Pro"
   },
   {
+    "id": "huggingface:Mungert/Qwen3.6-27B-GGUF",
+    "name": "Qwen3.6-27B-GGUF",
+    "provider": "Mungert",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-07T05:13:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Mungert/Qwen3.6-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "image-text-to-text",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T00:52:30.559019+00:00",
+    "source_ids": [
+      "Mungert/Qwen3.6-27B-GGUF"
+    ],
+    "family": "Qwen3.6"
+  },
+  {
     "id": "huggingface:neuregex/Bernini-R-GGUF",
     "name": "Bernini-R-GGUF",
     "provider": "neuregex",
@@ -3608,6 +3643,41 @@
       "cocktailpeanut/stable-audio-3-small-music"
     ],
     "family": "stable-audio-3-small-music"
+  },
+  {
+    "id": "huggingface:gn00029914/Qwen3.6-27B-oQ6-mtp",
+    "name": "Qwen3.6-27B-oQ6-mtp",
+    "provider": "gn00029914",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T00:04:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gn00029914/Qwen3.6-27B-oQ6-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T00:52:30.558945+00:00",
+    "source_ids": [
+      "gn00029914/Qwen3.6-27B-oQ6-mtp"
+    ],
+    "family": "Qwen3.6-oQ6-mtp"
   },
   {
     "id": "openrouter:x-ai/grok-build-0.1",
@@ -13739,41 +13809,6 @@
     "family": "Voxtral-Mini-Realtime-2602-FP8-Dynamic"
   },
   {
-    "id": "huggingface:mradermacher/CARDS-Qwen3.5-27B-GGUF",
-    "name": "CARDS-Qwen3.5-27B-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T15:16:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/CARDS-Qwen3.5-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "climate",
-      "climate-change",
-      "climate-discourse"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-10T00:49:52.581285+00:00",
-    "source_ids": [
-      "mradermacher/CARDS-Qwen3.5-27B-GGUF"
-    ],
-    "family": "CARDS-Qwen3.5"
-  },
-  {
     "id": "huggingface:vrfai/gemma-4-E4B-it-fp8",
     "name": "gemma-4-E4B-it-fp8",
     "provider": "vrfai",
@@ -14007,72 +14042,6 @@
     "family": "Gemma-4-it-DECKARD-HERETIC-Uncensored-NVFP4"
   },
   {
-    "id": "huggingface:mlx-community/gemma-4-e2b-it-OptiQ-4bit",
-    "name": "gemma-4-e2b-it-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T12:36:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/gemma-4-e2b-it-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-10T00:49:52.153530+00:00",
-    "source_ids": [
-      "mlx-community/gemma-4-e2b-it-OptiQ-4bit"
-    ],
-    "family": "gemma-4-e-it-OptiQ-4bit"
-  },
-  {
-    "id": "huggingface:FINAL-Bench/Darwin-4B-Genesis",
-    "name": "Darwin-4B-Genesis",
-    "provider": "FINAL-Bench",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T23:03:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FINAL-Bench/Darwin-4B-Genesis",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gemma4",
-      "merge",
-      "evolutionary-merge",
-      "darwin"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-10T00:49:52.153734+00:00",
-    "source_ids": [
-      "FINAL-Bench/Darwin-4B-Genesis"
-    ],
-    "family": "Darwin-Genesis"
-  },
-  {
     "id": "huggingface:ADSKAILab/Zero-To-CAD-Qwen3-VL-2B",
     "name": "Zero-To-CAD-Qwen3-VL-2B",
     "provider": "ADSKAILab",
@@ -14138,39 +14107,6 @@
       "MihaiPopa-1/LFM2.5-350M-heretic-xagressive"
     ],
     "family": "LFM2.5-350M-heretic-xagressive"
-  },
-  {
-    "id": "huggingface:FINAL-Bench/Darwin-4B-David",
-    "name": "Darwin-4B-David",
-    "provider": "FINAL-Bench",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T02:46:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FINAL-Bench/Darwin-4B-David",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "darwin-v6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-10T00:49:52.153706+00:00",
-    "source_ids": [
-      "FINAL-Bench/Darwin-4B-David"
-    ],
-    "family": "Darwin-David"
   },
   {
     "id": "huggingface:FlameF0X/LFM2.5-1.2B-Distilled-Claude-4.6",
@@ -14837,39 +14773,6 @@
       "kojima-lab/molcrawl-genome-sequence-clinvar-gpt2-medium"
     ],
     "family": "molcrawl-genome-sequence-clinvar-gpt2-medium"
-  },
-  {
-    "id": "huggingface:FINAL-Bench/Darwin-31B-Opus",
-    "name": "Darwin-31B-Opus",
-    "provider": "FINAL-Bench",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T03:37:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FINAL-Bench/Darwin-31B-Opus",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "darwin-v6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-10T00:49:52.153679+00:00",
-    "source_ids": [
-      "FINAL-Bench/Darwin-31B-Opus"
-    ],
-    "family": "Darwin-Opus"
   },
   {
     "id": "huggingface:alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
@@ -16524,6 +16427,39 @@
     "family": "archived-Kimi-K2.5-MLX-3.6bit"
   },
   {
+    "id": "huggingface:furiosa-ai/EXAONE-4.0-32B-FP8",
+    "name": "EXAONE-4.0-32B-FP8",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-22T01:31:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/EXAONE-4.0-32B-FP8",
+    "tags": [
+      "text-generation",
+      "furiosa-llm",
+      "exaone4",
+      "furiosa-ai",
+      "exaone",
+      "exaone-4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-09T00:52:29.981027+00:00",
+    "source_ids": [
+      "furiosa-ai/EXAONE-4.0-32B-FP8"
+    ],
+    "family": "EXAONE-4.0-FP8"
+  },
+  {
     "id": "huggingface:reaperdoesntknow/SharperSwarm",
     "name": "SharperSwarm",
     "provider": "reaperdoesntknow",
@@ -17433,41 +17369,6 @@
       "optimum-intel-internal-testing/tiny-GptOssForCausalLM"
     ],
     "family": "tiny-GptOssForCausalLM"
-  },
-  {
-    "id": "huggingface:lapa-llm/lapa-v0.1.2-instruct",
-    "name": "lapa-v0.1.2-instruct",
-    "provider": "lapa-llm",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-18T14:51:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lapa-llm/lapa-v0.1.2-instruct",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma3",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-10T00:49:52.581362+00:00",
-    "source_ids": [
-      "lapa-llm/lapa-v0.1.2-instruct"
-    ],
-    "family": "lapa-v0.1.2"
   },
   {
     "id": "huggingface:KORMo-Team/KORMo-10B-sft",
