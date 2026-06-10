@@ -163,6 +163,39 @@
     "family": "Qwen3.6"
   },
   {
+    "id": "huggingface:ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
+    "name": "gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
+    "provider": "ilya-chak",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T18:54:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-10T00:58:43.757960+00:00",
+    "source_ids": [
+      "ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers"
+    ],
+    "family": "gemma-4-it-qat--UD-Q4_K_XL-layers"
+  },
+  {
     "id": "huggingface:neuregex/Bernini-R-GGUF",
     "name": "Bernini-R-GGUF",
     "provider": "neuregex",
@@ -228,6 +261,41 @@
       "mradermacher/Gemma-4-12B-OBLITERATED-GGUF"
     ],
     "family": "Gemma-4-OBLITERATED"
+  },
+  {
+    "id": "huggingface:Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf",
+    "name": "gemma-4-31b-it-qat-q4_0-assistant-gguf",
+    "provider": "Simplepotat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T03:19:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantization",
+      "gemma4_assistant",
+      "image-text-to-text",
+      "base_model:google/gemma-4-31B-it-qat-q4_0-unquantized-assistant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-10T00:58:44.602598+00:00",
+    "source_ids": [
+      "Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf"
+    ],
+    "family": "gemma-4-it-qat-q4_0-assistant"
   },
   {
     "id": "huggingface:w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
@@ -8560,39 +8628,6 @@
       "Smoffyy/Qwen3.6-27B-Instruct-Revised-GGUF"
     ],
     "family": "Qwen3.6--Revised"
-  },
-  {
-    "id": "huggingface:teamblobfish/DeepSeek-V4-Flash-GGUF",
-    "name": "DeepSeek-V4-Flash-GGUF",
-    "provider": "teamblobfish",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T21:17:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "deepseek-v4",
-      "moe",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T00:49:55.187792+00:00",
-    "source_ids": [
-      "teamblobfish/DeepSeek-V4-Flash-GGUF"
-    ],
-    "family": "DeepSeek-V4-Flash"
   },
   {
     "id": "huggingface:clear-blue-sky/evolai-mb2-005",

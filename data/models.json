@@ -79102,5 +79102,73 @@
       "RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic"
     ],
     "family": "Llama-4-Scout-16E--FP8-dynamic"
+  },
+  {
+    "id": "huggingface:ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
+    "name": "gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
+    "provider": "ilya-chak",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T18:54:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-10T00:58:43.757960+00:00",
+    "source_ids": [
+      "ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers"
+    ],
+    "family": "gemma-4-it-qat--UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf",
+    "name": "gemma-4-31b-it-qat-q4_0-assistant-gguf",
+    "provider": "Simplepotat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T03:19:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantization",
+      "gemma4_assistant",
+      "image-text-to-text",
+      "base_model:google/gemma-4-31B-it-qat-q4_0-unquantized-assistant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-10T00:58:44.602598+00:00",
+    "source_ids": [
+      "Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf"
+    ],
+    "family": "gemma-4-it-qat-q4_0-assistant"
   }
 ]
