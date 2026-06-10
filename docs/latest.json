@@ -3132,6 +3132,41 @@
     "family": "Gemma-4-storymaxxed2"
   },
   {
+    "id": "huggingface:Kwai-Keye/Keye-VL-2.0-30B-A3B",
+    "name": "Keye-VL-2.0-30B-A3B",
+    "provider": "Kwai-Keye",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-25T15:32:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "KeyeVL2",
+      "image-feature-extraction",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-10T05:36:18.948398+00:00",
+    "source_ids": [
+      "Kwai-Keye/Keye-VL-2.0-30B-A3B"
+    ],
+    "family": "Keye-VL-2.0"
+  },
+  {
     "id": "huggingface:OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit",
     "name": "Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit",
     "provider": "OpenYourMind",
@@ -9708,72 +9743,6 @@
       "vrfai/Cosmos-Reason2-8B-NVFP4"
     ],
     "family": "Cosmos-Reason2-NVFP4"
-  },
-  {
-    "id": "huggingface:allenai/StdMoE_1b14b_1T_EmoAnnealed",
-    "name": "StdMoE_1b14b_1T_EmoAnnealed",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-05T00:50:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/StdMoE_1b14b_1T_EmoAnnealed",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "emo",
-      "text-generation",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T05:23:46.831380+00:00",
-    "source_ids": [
-      "allenai/StdMoE_1b14b_1T_EmoAnnealed"
-    ],
-    "family": "StdMoE_1b14b_1T_EmoAnnealed"
-  },
-  {
-    "id": "huggingface:allenai/StdMoE_1b14b_1T_Preanneal",
-    "name": "StdMoE_1b14b_1T_Preanneal",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-05T00:28:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/StdMoE_1b14b_1T_Preanneal",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "emo",
-      "text-generation",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T05:23:46.831444+00:00",
-    "source_ids": [
-      "allenai/StdMoE_1b14b_1T_Preanneal"
-    ],
-    "family": "StdMoE_1b14b_1T_Preanneal"
   },
   {
     "id": "huggingface:logosnodos/evolai-qwen-1.5b",
@@ -16388,40 +16357,6 @@
       "ibm-granite/granitelib-core-r1.0"
     ],
     "family": "granitelib-core-r1.0"
-  },
-  {
-    "id": "huggingface:mobilint/whisper-small",
-    "name": "whisper-small",
-    "provider": "mobilint",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-09T07:50:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mobilint/whisper-small",
-    "tags": [
-      "automatic-speech-recognition",
-      "safetensors",
-      "mobilint-whisper",
-      "mobilint",
-      "automatic-speech-recognition",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T05:23:47.292711+00:00",
-    "source_ids": [
-      "mobilint/whisper-small"
-    ],
-    "family": "whisper-small"
   },
   {
     "id": "huggingface:raxcore-dev/rax-3.5-chat",
