@@ -3099,6 +3099,39 @@
     "family": "Qwen3.6-uncensored-heretic-Native-MTP-Preserved-APEX"
   },
   {
+    "id": "huggingface:moofeez/qwen3-coder-30b-a3b-debugger-rft",
+    "name": "qwen3-coder-30b-a3b-debugger-rft",
+    "provider": "moofeez",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-25T22:47:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/moofeez/qwen3-coder-30b-a3b-debugger-rft",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "base_model:adapter:Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "lora",
+      "transformers"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-10T09:19:34.564963+00:00",
+    "source_ids": [
+      "moofeez/qwen3-coder-30b-a3b-debugger-rft"
+    ],
+    "family": "qwen3-coder-debugger-rft"
+  },
+  {
     "id": "huggingface:MRockatansky/Gemma-4-31B-storymaxxed2-GGUF",
     "name": "Gemma-4-31B-storymaxxed2-GGUF",
     "provider": "MRockatansky",
@@ -5447,6 +5480,41 @@
     "family": "GRM-2.6-Primal"
   },
   {
+    "id": "huggingface:numind/NuExtract3-W4A16",
+    "name": "NuExtract3-W4A16",
+    "provider": "numind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-15T19:24:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/numind/NuExtract3-W4A16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-10T09:19:35.567135+00:00",
+    "source_ids": [
+      "numind/NuExtract3-W4A16"
+    ],
+    "family": "NuExtract3-W4A16"
+  },
+  {
     "id": "huggingface:unsloth/Qwen3.5-122B-A10B-MTP-GGUF",
     "name": "Qwen3.5-122B-A10B-MTP-GGUF",
     "provider": "unsloth",
@@ -7721,72 +7789,6 @@
     "family": "Qwen3.6-heretic-MTP"
   },
   {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "name": "gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-09T19:31:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659296+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
-    ],
-    "family": "gemma-4-E-Terminal-SFT-Native-Liquid-2Epoch"
-  },
-  {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "name": "gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-09T19:22:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659492+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
-    ],
-    "family": "gemma-4-E-it-Terminal-SFT-Native-Liquid-2Epoch"
-  },
-  {
     "id": "huggingface:prithivMLmods/Q3.6-27B-GLM-5.1-DA-GGUF",
     "name": "Q3.6-27B-GLM-5.1-DA-GGUF",
     "provider": "prithivMLmods",
@@ -7891,39 +7893,6 @@
     "family": "Bbox-caption"
   },
   {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
-    "name": "gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-09T00:54:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659655+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch"
-    ],
-    "family": "gemma-4-E-Terminal-SFT-Native-Liquid-2Epoch"
-  },
-  {
     "id": "huggingface:selorahomes/Selora-AI",
     "name": "Selora-AI",
     "provider": "selorahomes",
@@ -7955,72 +7924,6 @@
       "selorahomes/Selora-AI"
     ],
     "family": "Selora-AI"
-  },
-  {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-    "name": "gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-09T00:33:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659411+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch"
-    ],
-    "family": "gemma-4-E-Terminal-SFT-Native-Liquid-1Epoch"
-  },
-  {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "name": "gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-09T00:27:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659573+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch"
-    ],
-    "family": "gemma-4-E-it-Terminal-SFT-Native-Liquid-1Epoch"
   },
   {
     "id": "huggingface:mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.0",
@@ -8089,39 +7992,6 @@
       "paragon-of-brah/Qwen3.5-397B-A17B-IQ5_k-MTP-GGUF"
     ],
     "family": "Qwen3.5-IQ5_k-MTP"
-  },
-  {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "name": "gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T22:42:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659814+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
-    ],
-    "family": "gemma-4-E-it-Terminal-SFT-Native-Liquid-2Epoch"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
@@ -8225,72 +8095,6 @@
       "nvidia/Nemotron-Labs-Diffusion-VLM-8B"
     ],
     "family": "Nemotron-Labs-Diffusion-VLM"
-  },
-  {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
-    "name": "gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T15:38:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659733+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch"
-    ],
-    "family": "gemma-4-E-Terminal-SFT-Native-Liquid-1Epoch"
-  },
-  {
-    "id": "huggingface:LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "name": "gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T15:34:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.659899+00:00",
-    "source_ids": [
-      "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch"
-    ],
-    "family": "gemma-4-E-it-Terminal-SFT-Native-Liquid-1Epoch"
   },
   {
     "id": "openrouter:inclusionai/ring-2.6-1t",
@@ -9604,40 +9408,6 @@
       "prithivMLmods/Q3.6-27B-DS-v4-Flash-DA-GGUF"
     ],
     "family": "Q3.6-DS-v4-Flash-DA"
-  },
-  {
-    "id": "huggingface:stronman/LTX-2.3-22B-DISTILLED-1.1-GGUF",
-    "name": "LTX-2.3-22B-DISTILLED-1.1-GGUF",
-    "provider": "stronman",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-05T10:25:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/stronman/LTX-2.3-22B-DISTILLED-1.1-GGUF",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "text-to-video",
-      "image-to-video",
-      "audio-to-video",
-      "ltx-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-11T09:15:34.884378+00:00",
-    "source_ids": [
-      "stronman/LTX-2.3-22B-DISTILLED-1.1-GGUF"
-    ],
-    "family": "LTX-2.3-DISTILLED-1.1"
   },
   {
     "id": "huggingface:prithivMLmods/Q3.5-9B-DS-v4-Flash-DA-GGUF",
