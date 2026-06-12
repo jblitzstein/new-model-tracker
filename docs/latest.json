@@ -66,6 +66,41 @@
     "family": "diffusiongemma-it-NVFP4"
   },
   {
+    "id": "huggingface:unsloth/diffusiongemma-26B-A4B-it-GGUF",
+    "name": "diffusiongemma-26B-A4B-it-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T14:19:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T17:04:29.023985+00:00",
+    "source_ids": [
+      "unsloth/diffusiongemma-26B-A4B-it-GGUF"
+    ],
+    "family": "diffusiongemma-it"
+  },
+  {
     "id": "openrouter:~anthropic/claude-fable-latest",
     "name": "Anthropic: Claude Fable Latest",
     "provider": "~anthropic",
@@ -6265,6 +6300,72 @@
     "family": "DeepSeek-V4-Pro-NVFP4"
   },
   {
+    "id": "huggingface:sh111111111111111/Qwen3.5-9B-BitClass-Fine-GGUF",
+    "name": "Qwen3.5-9B-BitClass-Fine-GGUF",
+    "provider": "sh111111111111111",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T15:14:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sh111111111111111/Qwen3.5-9B-BitClass-Fine-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen",
+      "qwen3.5",
+      "deltanet",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T17:04:28.475214+00:00",
+    "source_ids": [
+      "sh111111111111111/Qwen3.5-9B-BitClass-Fine-GGUF"
+    ],
+    "family": "Qwen3.5-BitClass-Fine"
+  },
+  {
+    "id": "huggingface:sh111111111111111/Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF",
+    "name": "Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF",
+    "provider": "sh111111111111111",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T15:11:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sh111111111111111/Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T17:04:28.475292+00:00",
+    "source_ids": [
+      "sh111111111111111/Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF"
+    ],
+    "family": "Qwen3--2507-BitClass-Fine"
+  },
+  {
     "id": "huggingface:llmfan46/MiniMax-M2.7-ultra-uncensored-heretic-GGUF",
     "name": "MiniMax-M2.7-ultra-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -9547,76 +9648,6 @@
       "RedHatAI/Qwen3.6-27B-FP8"
     ],
     "family": "Qwen3.6-FP8"
-  },
-  {
-    "id": "huggingface:eaddario/Qwen3.6-35B-A3B-GGUF",
-    "name": "Qwen3.6-35B-A3B-GGUF",
-    "provider": "eaddario",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-01T17:34:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/eaddario/Qwen3.6-35B-A3B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quant",
-      "target_bpw",
-      "experimental",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T16:51:11.422789+00:00",
-    "source_ids": [
-      "eaddario/Qwen3.6-35B-A3B-GGUF"
-    ],
-    "family": "Qwen3.6"
-  },
-  {
-    "id": "huggingface:eaddario/Qwen3.6-27B-GGUF",
-    "name": "Qwen3.6-27B-GGUF",
-    "provider": "eaddario",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-01T17:34:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/eaddario/Qwen3.6-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quant",
-      "target_bpw",
-      "experimental",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T16:51:11.422759+00:00",
-    "source_ids": [
-      "eaddario/Qwen3.6-27B-GGUF"
-    ],
-    "family": "Qwen3.6"
   },
   {
     "id": "huggingface:zorxor/qwen3.5",
@@ -13454,41 +13485,6 @@
     "family": "Nandi-Mini-150M"
   },
   {
-    "id": "huggingface:software-mansion/react-native-executorch-lfm-2.5",
-    "name": "react-native-executorch-lfm-2.5",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T10:15:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-lfm-2.5",
-    "tags": [
-      "image-text-to-text",
-      "executorch",
-      "liquid",
-      "lfm2",
-      "lfm2-vl",
-      "edge"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T16:51:11.422635+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-lfm-2.5"
-    ],
-    "family": "react-native-executorch-lfm-2.5"
-  },
-  {
     "id": "huggingface:kojima-lab/molcrawl-genome-sequence-gpt2-large",
     "name": "molcrawl-genome-sequence-gpt2-large",
     "provider": "kojima-lab",
@@ -14299,41 +14295,6 @@
       "MERaLiON/MERaLiON-3-10B-preview"
     ],
     "family": "MERaLiON-3"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.5-9B",
-    "name": "Qwen3.5-9B",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-28T14:04:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-9B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T16:51:11.422829+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-9B"
-    ],
-    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:infly/Infinity-Parser2-Flash",
