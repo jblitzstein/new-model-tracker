@@ -6706,74 +6706,6 @@
     "family": "flint"
   },
   {
-    "id": "huggingface:nvidia/Wan2.2-T2V-A14B-Diffusers-FP8",
-    "name": "Wan2.2-T2V-A14B-Diffusers-FP8",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-13T07:48:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Wan2.2-T2V-A14B-Diffusers-FP8",
-    "tags": [
-      "text-to-video",
-      "Model Optimizer",
-      "diffusers",
-      "safetensors",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.078779+00:00",
-    "source_ids": [
-      "nvidia/Wan2.2-T2V-A14B-Diffusers-FP8"
-    ],
-    "family": "Wan2.2-T2V-A-Diffusers-FP8"
-  },
-  {
-    "id": "huggingface:nvidia/Wan2.2-T2V-A14B-Diffusers-NVFP4",
-    "name": "Wan2.2-T2V-A14B-Diffusers-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-13T07:46:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Wan2.2-T2V-A14B-Diffusers-NVFP4",
-    "tags": [
-      "text-to-video",
-      "Model Optimizer",
-      "diffusers",
-      "safetensors",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.078715+00:00",
-    "source_ids": [
-      "nvidia/Wan2.2-T2V-A14B-Diffusers-NVFP4"
-    ],
-    "family": "Wan2.2-T2V-A-Diffusers-NVFP4"
-  },
-  {
     "id": "huggingface:Johnblick187/starcoder2-15b",
     "name": "starcoder2-15b",
     "provider": "Johnblick187",
@@ -7072,41 +7004,6 @@
     "family": "PapersRAG"
   },
   {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T09:15:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.577102+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Claude-Wasserstein-MTP"
-  },
-  {
     "id": "huggingface:tjarvis91/vfai-x-3.5-9b-options",
     "name": "vfai-x-3.5-9b-options",
     "provider": "tjarvis91",
@@ -7211,76 +7108,6 @@
     "family": "Qwen3.6-NSC-ACE-SABER--MTP"
   },
   {
-    "id": "huggingface:unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
-    "name": "Qwen3.6-35B-A3B-MTP-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-11T12:57:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3_5_moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.577239+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.6-35B-A3B-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-MTP"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.6-27B-MTP-GGUF",
-    "name": "Qwen3.6-27B-MTP-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-11T12:57:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3_5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.577209+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.6-27B-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-MTP"
-  },
-  {
     "id": "huggingface:CohereLabs/command-a-plus-05-2026-bf16",
     "name": "command-a-plus-05-2026-bf16",
     "provider": "CohereLabs",
@@ -7316,39 +7143,6 @@
     "family": "command-a-plus-05-2026-bf16"
   },
   {
-    "id": "huggingface:plqminh/Sulphur-2-base",
-    "name": "Sulphur-2-base",
-    "provider": "plqminh",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-11T12:09:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/plqminh/Sulphur-2-base",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "gguf",
-      "text-to-video",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.078865+00:00",
-    "source_ids": [
-      "plqminh/Sulphur-2-base"
-    ],
-    "family": "Sulphur-2"
-  },
-  {
     "id": "huggingface:lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
     "name": "LLaVA-OneVision-2-8B-Instruct",
     "provider": "lmms-lab-encoder",
@@ -7382,39 +7176,6 @@
       "lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct"
     ],
     "family": "LLaVA-OneVision-2"
-  },
-  {
-    "id": "huggingface:VladShash/deepseek-math-7B-lean-prover-dpo-300k-mistral-150k-olmo",
-    "name": "deepseek-math-7B-lean-prover-dpo-300k-mistral-150k-olmo",
-    "provider": "VladShash",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-11T07:59:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/VladShash/deepseek-math-7B-lean-prover-dpo-300k-mistral-150k-olmo",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:48.732191+00:00",
-    "source_ids": [
-      "VladShash/deepseek-math-7B-lean-prover-dpo-300k-mistral-150k-olmo"
-    ],
-    "family": "deepseek-math-lean-prover-dpo-300k-mistral-150k-olmo"
   },
   {
     "id": "huggingface:darkai-1/darkit-v2.0",
@@ -7580,40 +7341,6 @@
       "cs-552-2026-flab/safety_model"
     ],
     "family": "safety_model"
-  },
-  {
-    "id": "huggingface:Abiray/Sulphur-2-base-GGUF",
-    "name": "Sulphur-2-base-GGUF",
-    "provider": "Abiray",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-10T15:01:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Abiray/Sulphur-2-base-GGUF",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "quantized",
-      "text-to-video",
-      "base_model:SulphurAI/Sulphur-2-base",
-      "base_model:quantized:SulphurAI/Sulphur-2-base"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.078828+00:00",
-    "source_ids": [
-      "Abiray/Sulphur-2-base-GGUF"
-    ],
-    "family": "Sulphur-2"
   },
   {
     "id": "huggingface:AbteeXAILab/lumynax-multimodal-glm46v-flash",
@@ -8800,38 +8527,6 @@
       "Supertone/supertonic-3"
     ],
     "family": "supertonic-3"
-  },
-  {
-    "id": "huggingface:Civitai/Sulphur-2-distilled-fp8",
-    "name": "Sulphur-2-distilled-fp8",
-    "provider": "Civitai",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-06T19:03:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Civitai/Sulphur-2-distilled-fp8",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "text-to-video",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.078984+00:00",
-    "source_ids": [
-      "Civitai/Sulphur-2-distilled-fp8"
-    ],
-    "family": "Sulphur-2-distilled-fp8"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved",
@@ -11579,41 +11274,6 @@
     "family": "Nemotron-Labs-Diffusion"
   },
   {
-    "id": "huggingface:nameistoken/Qwen3.6-35B-A3B-Quark-W8A8-INT8",
-    "name": "Qwen3.6-35B-A3B-Quark-W8A8-INT8",
-    "provider": "nameistoken",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T11:56:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nameistoken/Qwen3.6-35B-A3B-Quark-W8A8-INT8",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.576990+00:00",
-    "source_ids": [
-      "nameistoken/Qwen3.6-35B-A3B-Quark-W8A8-INT8"
-    ],
-    "family": "Qwen3.6-Quark-W8A8-INT8"
-  },
-  {
     "id": "huggingface:vrfai/Qwen3-ASR-0.6B-int8-QAD",
     "name": "Qwen3-ASR-0.6B-int8-QAD",
     "provider": "vrfai",
@@ -12111,40 +11771,6 @@
       "moueen/modelrepo"
     ],
     "family": "modelrepo"
-  },
-  {
-    "id": "huggingface:scragnog/ace-step-1.5-gguf-merge-models",
-    "name": "ace-step-1.5-gguf-merge-models",
-    "provider": "scragnog",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-04-20T07:54:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/scragnog/ace-step-1.5-gguf-merge-models",
-    "tags": [
-      "text-to-audio",
-      "gguf",
-      "music-generation",
-      "ace-step",
-      "dit",
-      "diffusion"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:49.200825+00:00",
-    "source_ids": [
-      "scragnog/ace-step-1.5-gguf-merge-models"
-    ],
-    "family": "ace-step-1.5--merge-models"
   },
   {
     "id": "huggingface:ziywang50/omniASR-LLM-300M",
@@ -12990,40 +12616,6 @@
       "AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4"
     ],
     "family": "Gemma-4-it-DECKARD-HERETIC-Uncensored-NVFP4"
-  },
-  {
-    "id": "huggingface:ADSKAILab/Zero-To-CAD-Qwen3-VL-2B",
-    "name": "Zero-To-CAD-Qwen3-VL-2B",
-    "provider": "ADSKAILab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T20:25:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ADSKAILab/Zero-To-CAD-Qwen3-VL-2B",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "CAD"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-13T09:06:48.971435+00:00",
-    "source_ids": [
-      "ADSKAILab/Zero-To-CAD-Qwen3-VL-2B"
-    ],
-    "family": "Zero-To-CAD-Qwen3-VL"
   },
   {
     "id": "huggingface:MihaiPopa-1/LFM2.5-350M-heretic-xagressive",
@@ -17139,6 +16731,39 @@
     "family": "LFM2-350M"
   },
   {
+    "id": "huggingface:dphn/Dolphin-Mistral-24B-Venice-Edition",
+    "name": "Dolphin-Mistral-24B-Venice-Edition",
+    "provider": "dphn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-12T05:29:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dphn/Dolphin-Mistral-24B-Venice-Edition",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "image-text-to-text",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.074983+00:00",
+    "source_ids": [
+      "dphn/Dolphin-Mistral-24B-Venice-Edition"
+    ],
+    "family": "Dolphin-Mistral-Venice-Edition"
+  },
+  {
     "id": "huggingface:numind/NuExtract-2.0-8B-GPTQ",
     "name": "NuExtract-2.0-8B-GPTQ",
     "provider": "numind",
@@ -18164,5 +17789,269 @@
       "JackFram/llama-68m"
     ],
     "family": "llama-68m"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-6.7b-v2",
+    "name": "gpt-sw3-6.7b-v2",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-04-28T12:25:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075139+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-6.7b-v2"
+    ],
+    "family": "gpt-sw3-v2"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
+    "name": "gpt-sw3-6.7b-v2-instruct",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-04-28T11:51:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075209+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct"
+    ],
+    "family": "gpt-sw3-v2"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-40b",
+    "name": "gpt-sw3-40b",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-02-22T15:10:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-40b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075060+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-40b"
+    ],
+    "family": "gpt-sw3"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-20b",
+    "name": "gpt-sw3-20b",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2022-12-14T12:33:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-20b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075110+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-20b"
+    ],
+    "family": "gpt-sw3"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-6.7b",
+    "name": "gpt-sw3-6.7b",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2022-12-14T12:33:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075164+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-6.7b"
+    ],
+    "family": "gpt-sw3"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-1.3b",
+    "name": "gpt-sw3-1.3b",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2022-12-14T12:33:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-1.3b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075237+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-1.3b"
+    ],
+    "family": "gpt-sw3"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-356m",
+    "name": "gpt-sw3-356m",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2022-12-14T12:31:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-356m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075259+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-356m"
+    ],
+    "family": "gpt-sw3-356m"
+  },
+  {
+    "id": "huggingface:AI-Sweden-Models/gpt-sw3-126m",
+    "name": "gpt-sw3-126m",
+    "provider": "AI-Sweden-Models",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2022-12-14T12:31:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-126m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "gpt2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-12T09:29:29.075289+00:00",
+    "source_ids": [
+      "AI-Sweden-Models/gpt-sw3-126m"
+    ],
+    "family": "gpt-sw3-126m"
   }
 ]
