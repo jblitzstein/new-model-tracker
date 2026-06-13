@@ -4694,6 +4694,39 @@
     "family": "Gemini 3.5 Flash"
   },
   {
+    "id": "huggingface:deucebucket/Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF",
+    "name": "Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF",
+    "provider": "deucebucket",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-19T00:51:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deucebucket/Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "GGUF",
+      "gemma4",
+      "gemma",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T16:34:30.219449+00:00",
+    "source_ids": [
+      "deucebucket/Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF"
+    ],
+    "family": "Gemma-4-it-Heretic-Cerebellum"
+  },
+  {
     "id": "huggingface:axi0mX/P1-VL-235B-A22B-GGUF",
     "name": "P1-VL-235B-A22B-GGUF",
     "provider": "axi0mX",
@@ -8593,39 +8626,6 @@
     "family": "evolai-tfm-002"
   },
   {
-    "id": "huggingface:cognica/Cognica-PoE-v1.0-3B-base-continual-learning",
-    "name": "Cognica-PoE-v1.0-3B-base-continual-learning",
-    "provider": "cognica",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T06:41:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cognica/Cognica-PoE-v1.0-3B-base-continual-learning",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "cognica_poe",
-      "poe",
-      "per-stage-head",
-      "continual-learning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T12:42:43.309305+00:00",
-    "source_ids": [
-      "cognica/Cognica-PoE-v1.0-3B-base-continual-learning"
-    ],
-    "family": "Cognica-PoE-v1.0--continual-learning"
-  },
-  {
     "id": "huggingface:Smoffyy/Qwen3.6-35B-A3B-Instruct-Revised-GGUF",
     "name": "Qwen3.6-35B-A3B-Instruct-Revised-GGUF",
     "provider": "Smoffyy",
@@ -11713,6 +11713,41 @@
       "thanhhoangnvbg/empathAI-llama3.1-8b"
     ],
     "family": "empathAI-llama3.1"
+  },
+  {
+    "id": "huggingface:lyf/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-NVFP4",
+    "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-NVFP4",
+    "provider": "lyf",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T00:11:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lyf/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T16:34:30.621670+00:00",
+    "source_ids": [
+      "lyf/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-NVFP4"
+    ],
+    "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-NVFP4"
   },
   {
     "id": "openrouter:baidu/qianfan-ocr-fast",
@@ -16486,40 +16521,6 @@
       "numind/NuExtract-2.0-8B-GPTQ"
     ],
     "family": "NuExtract-2.0"
-  },
-  {
-    "id": "huggingface:fluxions/vui",
-    "name": "vui",
-    "provider": "fluxions",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-06-05T13:13:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fluxions/vui",
-    "tags": [
-      "text-to-speech",
-      "vui",
-      "text-to-speech",
-      "en",
-      "license:mit",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T12:42:43.642044+00:00",
-    "source_ids": [
-      "fluxions/vui"
-    ],
-    "family": "vui"
   },
   {
     "id": "huggingface:numind/NuExtract-2.0-2B",
