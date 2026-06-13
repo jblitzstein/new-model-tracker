@@ -11750,37 +11750,6 @@
     "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-NVFP4"
   },
   {
-    "id": "openrouter:baidu/qianfan-ocr-fast",
-    "name": "Baidu: Qianfan-OCR-Fast",
-    "provider": "Baidu",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T17:51:12+00:00",
-    "context_length": 65536,
-    "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR. By leveraging specialized OCR training data while preserving versatile multimodal intelligence, it provides a powerful performance upgrade over Qianfan-OCR.",
-    "url": "https://openrouter.ai/baidu/qianfan-ocr-fast",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.68,
-      "completion_per_million": 2.81
-    },
-    "first_seen": "2026-05-14T16:44:10.040496+00:00",
-    "source_ids": [
-      "baidu/qianfan-ocr-fast"
-    ],
-    "family": "Qianfan-OCR-Fast"
-  },
-  {
     "id": "openrouter:moonshotai/kimi-k2.6:free",
     "name": "MoonshotAI: Kimi K2.6 (free)",
     "provider": "Moonshot AI",
@@ -14770,72 +14739,6 @@
     "family": "EXAONE-4.0-FP8"
   },
   {
-    "id": "huggingface:reaperdoesntknow/SharperSwarm",
-    "name": "SharperSwarm",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-21T19:03:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/SharperSwarm",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "swarm_agi",
-      "text-generation",
-      "swarm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.154994+00:00",
-    "source_ids": [
-      "reaperdoesntknow/SharperSwarm"
-    ],
-    "family": "SharperSwarm"
-  },
-  {
-    "id": "huggingface:reaperdoesntknow/SAGI",
-    "name": "SAGI",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-17T03:53:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/SAGI",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "swarm_agi",
-      "text-generation",
-      "causal-lm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.155071+00:00",
-    "source_ids": [
-      "reaperdoesntknow/SAGI"
-    ],
-    "family": "SAGI"
-  },
-  {
     "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-8B-Base",
     "name": "Nemotron-Labs-Diffusion-8B-Base",
     "provider": "NVIDIA",
@@ -16081,39 +15984,6 @@
     "family": "MoA-100M"
   },
   {
-    "id": "huggingface:reaperdoesntknow/TameForCasualLM",
-    "name": "TameForCasualLM",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-16T21:23:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/TameForCasualLM",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "tamelm",
-      "Conversational",
-      "Cot"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.154757+00:00",
-    "source_ids": [
-      "reaperdoesntknow/TameForCasualLM"
-    ],
-    "family": "TameForCasualLM"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/Mini-oss-0.6b",
     "name": "Mini-oss-0.6b",
     "provider": "reaperdoesntknow",
@@ -16145,39 +16015,6 @@
       "reaperdoesntknow/Mini-oss-0.6b"
     ],
     "family": "Mini-oss"
-  },
-  {
-    "id": "huggingface:reaperdoesntknow/SMOLM2Prover",
-    "name": "SMOLM2Prover",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-06T01:55:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/SMOLM2Prover",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "proof"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.155033+00:00",
-    "source_ids": [
-      "reaperdoesntknow/SMOLM2Prover"
-    ],
-    "family": "SMOLM2Prover"
   },
   {
     "id": "huggingface:typhoon-ai/typhoon-asr-realtime",
@@ -16733,105 +16570,6 @@
     "family": "Llama-4-Scout-16E"
   },
   {
-    "id": "huggingface:reaperdoesntknow/Symbiotic-8B",
-    "name": "Symbiotic-8B",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-06T22:12:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/Symbiotic-8B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "8b"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.154884+00:00",
-    "source_ids": [
-      "reaperdoesntknow/Symbiotic-8B"
-    ],
-    "family": "Symbiotic"
-  },
-  {
-    "id": "huggingface:reaperdoesntknow/Symiotic-14B",
-    "name": "Symiotic-14B",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-06T21:50:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/Symiotic-14B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "symbiotic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.154803+00:00",
-    "source_ids": [
-      "reaperdoesntknow/Symiotic-14B"
-    ],
-    "family": "Symiotic"
-  },
-  {
-    "id": "huggingface:reaperdoesntknow/Symbiotic-1B",
-    "name": "Symbiotic-1B",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-06T21:35:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/Symbiotic-1B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "symbioticai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.154921+00:00",
-    "source_ids": [
-      "reaperdoesntknow/Symbiotic-1B"
-    ],
-    "family": "Symbiotic"
-  },
-  {
     "id": "huggingface:numind/NuExtract-2.0-8B",
     "name": "NuExtract-2.0-8B",
     "provider": "numind",
@@ -16865,39 +16603,6 @@
       "numind/NuExtract-2.0-8B"
     ],
     "family": "NuExtract-2.0"
-  },
-  {
-    "id": "huggingface:reaperdoesntknow/Symbiotic-Beta",
-    "name": "Symbiotic-Beta",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-26T11:03:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/Symbiotic-Beta",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "symbiotic-llm",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T16:44:10.154845+00:00",
-    "source_ids": [
-      "reaperdoesntknow/Symbiotic-Beta"
-    ],
-    "family": "Symbiotic-Beta"
   },
   {
     "id": "huggingface:RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
