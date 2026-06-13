@@ -101,6 +101,74 @@
     "family": "diffusiongemma-it"
   },
   {
+    "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_rec",
+    "name": "PP-OCRv6_medium_rec",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T13:37:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec",
+    "tags": [
+      "image-to-text",
+      "PaddleOCR",
+      "OCR",
+      "PaddlePaddle",
+      "text_recognition",
+      "image-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.265360+00:00",
+    "source_ids": [
+      "PaddlePaddle/PP-OCRv6_medium_rec"
+    ],
+    "family": "PP-OCRv6_medium_rec"
+  },
+  {
+    "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_det",
+    "name": "PP-OCRv6_medium_det",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T13:20:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det",
+    "tags": [
+      "image-to-text",
+      "PaddleOCR",
+      "OCR",
+      "PaddlePaddle",
+      "textline_detection",
+      "image-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.265474+00:00",
+    "source_ids": [
+      "PaddlePaddle/PP-OCRv6_medium_det"
+    ],
+    "family": "PP-OCRv6_medium_det"
+  },
+  {
     "id": "huggingface:cyankiwi/Step-3.7-Flash-AWQ-INT4",
     "name": "Step-3.7-Flash-AWQ-INT4",
     "provider": "cyankiwi",
@@ -237,6 +305,40 @@
     "family": "Claude Fable 5"
   },
   {
+    "id": "huggingface:tadgeis/mms-1b-ckt-pooled-all-dev",
+    "name": "mms-1b-ckt-pooled-all-dev",
+    "provider": "tadgeis",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T12:15:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tadgeis/mms-1b-ckt-pooled-all-dev",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "ckt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.800025+00:00",
+    "source_ids": [
+      "tadgeis/mms-1b-ckt-pooled-all-dev"
+    ],
+    "family": "mms-ckt-pooled-all-dev"
+  },
+  {
     "id": "huggingface:paragon-of-brah/Nex-N2-Pro-397B-A17B-GGUF",
     "name": "Nex-N2-Pro-397B-A17B-GGUF",
     "provider": "paragon-of-brah",
@@ -367,6 +469,40 @@
       "Mungert/Qwen3.6-27B-GGUF"
     ],
     "family": "Qwen3.6"
+  },
+  {
+    "id": "huggingface:realrebelai/JoyAI-Echo_GGUF",
+    "name": "JoyAI-Echo_GGUF",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-06-07T04:59:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/JoyAI-Echo_GGUF",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "text-to-video",
+      "base_model:jdopensource/JoyAI-Echo",
+      "base_model:quantized:jdopensource/JoyAI-Echo",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.393567+00:00",
+    "source_ids": [
+      "realrebelai/JoyAI-Echo_GGUF"
+    ],
+    "family": "JoyAI-Echo"
   },
   {
     "id": "huggingface:ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
@@ -3334,6 +3470,39 @@
       "Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF"
     ],
     "family": "Qwopus3.5-Coder-MTP"
+  },
+  {
+    "id": "huggingface:nishantup/nanogpt-rlvr-slm-tinystories-124m",
+    "name": "nanogpt-rlvr-slm-tinystories-124m",
+    "provider": "nishantup",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-26T14:59:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nishantup/nanogpt-rlvr-slm-tinystories-124m",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "3-stage pipeline: pretrained -> SFT -> RLVR",
+      "nanogpt",
+      "language-model",
+      "from-scratch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:42.990985+00:00",
+    "source_ids": [
+      "nishantup/nanogpt-rlvr-slm-tinystories-124m"
+    ],
+    "family": "nanogpt-rlvr-slm-tinystories-124m"
   },
   {
     "id": "huggingface:suleimanelkhoury/Voxtral-Mini-4B-Realtime-2602",
@@ -12078,41 +12247,6 @@
     "family": "Ornstein3.6"
   },
   {
-    "id": "huggingface:mlx-community/Qwen3.6-35B-A3B-mxfp8",
-    "name": "Qwen3.6-35B-A3B-mxfp8",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T16:26:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.6-35B-A3B-mxfp8",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T09:01:01.234313+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.6-35B-A3B-mxfp8"
-    ],
-    "family": "Qwen3.6-mxfp8"
-  },
-  {
     "id": "huggingface:inferencerlabs/Qwen3.6-35B-A3B-MLX-9bit",
     "name": "Qwen3.6-35B-A3B-MLX-9bit",
     "provider": "inferencerlabs",
@@ -12249,6 +12383,41 @@
       "ghecko78/Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic"
     ],
     "family": "Voxtral-Mini-Realtime-2602-FP8-Dynamic"
+  },
+  {
+    "id": "huggingface:zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
+    "name": "gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
+    "provider": "zecanard",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T09:16:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.929035+00:00",
+    "source_ids": [
+      "zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine"
+    ],
+    "family": "gemma-4-it-uncensored-abliterix-MLX-8bit-int8-affine"
   },
   {
     "id": "huggingface:vrfai/gemma-4-E4B-it-fp8",
@@ -14766,6 +14935,39 @@
     "family": "typhoon-whisper-turbo"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2.5-1.2B-JP",
+    "name": "LFM2.5-1.2B-JP",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-04T23:45:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:42.990896+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-1.2B-JP"
+    ],
+    "family": "LFM2.5-JP"
+  },
+  {
     "id": "huggingface:Milamagalvaes/Mila",
     "name": "Mila",
     "provider": "Milamagalvaes",
@@ -17074,40 +17276,6 @@
       "Hishambarakat/checkpoint"
     ],
     "family": "checkpoint"
-  },
-  {
-    "id": "huggingface:enhanceaiteam/Flux-uncensored",
-    "name": "Flux-uncensored",
-    "provider": "enhanceaiteam",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2024-09-03T04:53:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/enhanceaiteam/Flux-uncensored",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "stable-diffusion",
-      "lora",
-      "fluxpipeline"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-14T09:01:00.361791+00:00",
-    "source_ids": [
-      "enhanceaiteam/Flux-uncensored"
-    ],
-    "family": "Flux-uncensored"
   },
   {
     "id": "huggingface:Riksarkivet/trocr-base-handwritten-hist-swe-2",

@@ -80384,5 +80384,242 @@
       "cyankiwi/Step-3.7-Flash-AWQ-INT4"
     ],
     "family": "Step-3.7-Flash--INT4"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2.5-1.2B-JP",
+    "name": "LFM2.5-1.2B-JP",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-04T23:45:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:42.990896+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-1.2B-JP"
+    ],
+    "family": "LFM2.5-JP"
+  },
+  {
+    "id": "huggingface:nishantup/nanogpt-rlvr-slm-tinystories-124m",
+    "name": "nanogpt-rlvr-slm-tinystories-124m",
+    "provider": "nishantup",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-26T14:59:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nishantup/nanogpt-rlvr-slm-tinystories-124m",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "3-stage pipeline: pretrained -> SFT -> RLVR",
+      "nanogpt",
+      "language-model",
+      "from-scratch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:42.990985+00:00",
+    "source_ids": [
+      "nishantup/nanogpt-rlvr-slm-tinystories-124m"
+    ],
+    "family": "nanogpt-rlvr-slm-tinystories-124m"
+  },
+  {
+    "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_rec",
+    "name": "PP-OCRv6_medium_rec",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T13:37:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec",
+    "tags": [
+      "image-to-text",
+      "PaddleOCR",
+      "OCR",
+      "PaddlePaddle",
+      "text_recognition",
+      "image-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.265360+00:00",
+    "source_ids": [
+      "PaddlePaddle/PP-OCRv6_medium_rec"
+    ],
+    "family": "PP-OCRv6_medium_rec"
+  },
+  {
+    "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_det",
+    "name": "PP-OCRv6_medium_det",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T13:20:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det",
+    "tags": [
+      "image-to-text",
+      "PaddleOCR",
+      "OCR",
+      "PaddlePaddle",
+      "textline_detection",
+      "image-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.265474+00:00",
+    "source_ids": [
+      "PaddlePaddle/PP-OCRv6_medium_det"
+    ],
+    "family": "PP-OCRv6_medium_det"
+  },
+  {
+    "id": "huggingface:realrebelai/JoyAI-Echo_GGUF",
+    "name": "JoyAI-Echo_GGUF",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-06-07T04:59:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/JoyAI-Echo_GGUF",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "text-to-video",
+      "base_model:jdopensource/JoyAI-Echo",
+      "base_model:quantized:jdopensource/JoyAI-Echo",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.393567+00:00",
+    "source_ids": [
+      "realrebelai/JoyAI-Echo_GGUF"
+    ],
+    "family": "JoyAI-Echo"
+  },
+  {
+    "id": "huggingface:tadgeis/mms-1b-ckt-pooled-all-dev",
+    "name": "mms-1b-ckt-pooled-all-dev",
+    "provider": "tadgeis",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T12:15:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tadgeis/mms-1b-ckt-pooled-all-dev",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "ckt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.800025+00:00",
+    "source_ids": [
+      "tadgeis/mms-1b-ckt-pooled-all-dev"
+    ],
+    "family": "mms-ckt-pooled-all-dev"
+  },
+  {
+    "id": "huggingface:zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
+    "name": "gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
+    "provider": "zecanard",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T09:16:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "decensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-13T09:08:43.929035+00:00",
+    "source_ids": [
+      "zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine"
+    ],
+    "family": "gemma-4-it-uncensored-abliterix-MLX-8bit-int8-affine"
   }
 ]
