@@ -7914,35 +7914,6 @@
     "family": "Nemotron-Labs-Diffusion-VLM"
   },
   {
-    "id": "openrouter:inclusionai/ring-2.6-1t",
-    "name": "inclusionAI: Ring-2.6-1T",
-    "provider": "inclusionai",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T13:37:20+00:00",
-    "context_length": 262144,
-    "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
-    "url": "https://openrouter.ai/inclusionai/ring-2.6-1t",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.075,
-      "completion_per_million": 0.625
-    },
-    "first_seen": "2026-05-15T16:38:56.829352+00:00",
-    "source_ids": [
-      "inclusionai/ring-2.6-1t"
-    ],
-    "family": "Ring-2.6-1T"
-  },
-  {
     "id": "huggingface:zecanard/gemma-4-31B-it-Claude-Opus-Distilled-v2-MLX-2bit-mixed_2_6",
     "name": "gemma-4-31B-it-Claude-Opus-Distilled-v2-MLX-2bit-mixed_2_6",
     "provider": "zecanard",
@@ -10110,41 +10081,6 @@
       "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC"
     ],
     "family": "Huihui-Qwen3.6-abliterated-FP8-DYNAMIC"
-  },
-  {
-    "id": "huggingface:Xingyu-Zheng/Qwopus3.6-27B-v1-preview-INT4-FOEM",
-    "name": "Qwopus3.6-27B-v1-preview-INT4-FOEM",
-    "provider": "Xingyu-Zheng",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-27T09:00:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Xingyu-Zheng/Qwopus3.6-27B-v1-preview-INT4-FOEM",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-15T20:29:43.920674+00:00",
-    "source_ids": [
-      "Xingyu-Zheng/Qwopus3.6-27B-v1-preview-INT4-FOEM"
-    ],
-    "family": "Qwopus3.6-v1--INT4-FOEM"
   },
   {
     "id": "huggingface:mradermacher/Ornstein-Hermes-3.6-27b-i1-GGUF",
@@ -13410,41 +13346,6 @@
     "family": "Nemotron-Labs-Diffusion"
   },
   {
-    "id": "huggingface:z-lab/Qwen3.5-35B-A3B-PARO",
-    "name": "Qwen3.5-35B-A3B-PARO",
-    "provider": "z-lab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T16:00:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/z-lab/Qwen3.5-35B-A3B-PARO",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-15T20:29:43.920772+00:00",
-    "source_ids": [
-      "z-lab/Qwen3.5-35B-A3B-PARO"
-    ],
-    "family": "Qwen3.5-PARO"
-  },
-  {
     "id": "huggingface:amd/Qwen3.5-35B-A3B-MXFP4",
     "name": "Qwen3.5-35B-A3B-MXFP4",
     "provider": "amd",
@@ -15029,72 +14930,6 @@
       "trl-internal-testing/tiny-Qwen3VLForConditionalGeneration"
     ],
     "family": "tiny-Qwen3VLForConditionalGeneration"
-  },
-  {
-    "id": "huggingface:GenerTeam/GENERator-v2-eukaryote-3b-base",
-    "name": "GENERator-v2-eukaryote-3b-base",
-    "provider": "GenerTeam",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-05T08:23:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/GenerTeam/GENERator-v2-eukaryote-3b-base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "biology"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-15T20:29:43.361098+00:00",
-    "source_ids": [
-      "GenerTeam/GENERator-v2-eukaryote-3b-base"
-    ],
-    "family": "GENERator-v2-eukaryote"
-  },
-  {
-    "id": "huggingface:GenerTeam/GENERator-v2-eukaryote-1.2b-base",
-    "name": "GENERator-v2-eukaryote-1.2b-base",
-    "provider": "GenerTeam",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-05T08:18:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/GenerTeam/GENERator-v2-eukaryote-1.2b-base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "biology"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-15T20:29:43.361136+00:00",
-    "source_ids": [
-      "GenerTeam/GENERator-v2-eukaryote-1.2b-base"
-    ],
-    "family": "GENERator-v2-eukaryote"
   },
   {
     "id": "huggingface:microsoft/Fara-7B",
