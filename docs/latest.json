@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:DevQuasar/CohereLabs.command-a-plus-05-2026-bf16-GGUF",
+    "name": "CohereLabs.command-a-plus-05-2026-bf16-GGUF",
+    "provider": "DevQuasar",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-14T03:27:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DevQuasar/CohereLabs.command-a-plus-05-2026-bf16-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "text-generation",
+      "base_model:CohereLabs/command-a-plus-05-2026-bf16",
+      "base_model:quantized:CohereLabs/command-a-plus-05-2026-bf16",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-14T12:44:53.792875+00:00",
+    "source_ids": [
+      "DevQuasar/CohereLabs.command-a-plus-05-2026-bf16-GGUF"
+    ],
+    "family": "CohereLabs.command-a-plus-05-2026-bf16"
+  },
+  {
     "id": "openrouter:moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "Moonshot AI",
@@ -31,6 +64,41 @@
       "moonshotai/kimi-k2.7-code"
     ],
     "family": "Kimi K2.7 Code"
+  },
+  {
+    "id": "huggingface:prefeitura-rio/Rio-3.5-Open-397B",
+    "name": "Rio-3.5-Open-397B",
+    "provider": "prefeitura-rio",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-11T03:04:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-14T12:44:54.494629+00:00",
+    "source_ids": [
+      "prefeitura-rio/Rio-3.5-Open-397B"
+    ],
+    "family": "Rio-3.5-Open"
   },
   {
     "id": "huggingface:nvidia/diffusiongemma-26B-A4B-it-NVFP4",
@@ -1080,6 +1148,41 @@
       "google/gemma-4-31B-it-qat-w4a16-ct"
     ],
     "family": "gemma-4-it-qat-w4a16-ct"
+  },
+  {
+    "id": "huggingface:Edmon02/gemma-4-12B-it-GGUF",
+    "name": "gemma-4-12B-it-GGUF",
+    "provider": "Edmon02",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T22:26:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Edmon02/gemma-4-12B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma",
+      "gemma4",
+      "multimodal",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-14T12:44:54.494686+00:00",
+    "source_ids": [
+      "Edmon02/gemma-4-12B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
   },
   {
     "id": "huggingface:zaakirio/gemma-4-12b-it-uncensored-GGUF",
@@ -9639,6 +9742,39 @@
       "numind/NuExtract3"
     ],
     "family": "NuExtract3"
+  },
+  {
+    "id": "huggingface:Roystar/evolai-qwen2.5-1.5b",
+    "name": "evolai-qwen2.5-1.5b",
+    "provider": "Roystar",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T07:26:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Roystar/evolai-qwen2.5-1.5b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-14T12:44:53.793036+00:00",
+    "source_ids": [
+      "Roystar/evolai-qwen2.5-1.5b"
+    ],
+    "family": "evolai-qwen2.5"
   },
   {
     "id": "huggingface:google/gemma-4-31B-it-qat-q4_0-unquantized",
