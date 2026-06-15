@@ -879,6 +879,39 @@
     "family": "gemma-4-it-qat-q4_0-assistant"
   },
   {
+    "id": "huggingface:pearsonkyle/gemma-4-31B-it-awq-2bit-GGUF",
+    "name": "gemma-4-31B-it-awq-2bit-GGUF",
+    "provider": "pearsonkyle",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T02:11:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pearsonkyle/gemma-4-31B-it-awq-2bit-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "text-generation",
+      "text-generation-inference",
+      "transformers"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T21:04:39.315651+00:00",
+    "source_ids": [
+      "pearsonkyle/gemma-4-31B-it-awq-2bit-GGUF"
+    ],
+    "family": "gemma-4-it--2bit"
+  },
+  {
     "id": "huggingface:w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
     "name": "LFM2.5-8B-A1B-GGUF-MoQ",
     "provider": "w-ahmad",
@@ -7640,39 +7673,6 @@
     "family": "darkit-v2.0"
   },
   {
-    "id": "huggingface:morikomorizz/GRM-2.6-Opus-GGUF",
-    "name": "GRM-2.6-Opus-GGUF",
-    "provider": "morikomorizz",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-11T00:28:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/morikomorizz/GRM-2.6-Opus-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "conversational",
-      "reasoning",
-      "qwen3_5",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T20:18:55.950428+00:00",
-    "source_ids": [
-      "morikomorizz/GRM-2.6-Opus-GGUF"
-    ],
-    "family": "GRM-2.6-Opus"
-  },
-  {
     "id": "huggingface:cs-552-2026-flab/safety_model",
     "name": "safety_model",
     "provider": "cs-552-2026-flab",
@@ -10083,41 +10083,6 @@
       "inferencerlabs/DeepSeek-V4-Flash-MLX-9bit"
     ],
     "family": "DeepSeek-V4-Flash-MLX-9bit"
-  },
-  {
-    "id": "huggingface:reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-    "name": "UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-    "provider": "reedmayhew",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-26T13:59:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "safetensors",
-      "qwen",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T20:18:56.488159+00:00",
-    "source_ids": [
-      "reedmayhew/UD-2.0-Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
-    ],
-    "family": "UD-2.0-Qwen3.6-Claude-4.6-Opus-Reasoning-Distilled"
   },
   {
     "id": "huggingface:mradermacher/Ornstein-27B-v2-i1-GGUF",
