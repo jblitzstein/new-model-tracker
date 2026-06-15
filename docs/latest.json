@@ -66,6 +66,41 @@
     "family": "Kimi K2.7 Code"
   },
   {
+    "id": "huggingface:unsloth/MiniMax-M3-GGUF",
+    "name": "MiniMax-M3-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T05:56:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "multimodal",
+      "moe",
+      "agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T05:52:28.487742+00:00",
+    "source_ids": [
+      "unsloth/MiniMax-M3-GGUF"
+    ],
+    "family": "MiniMax-M3"
+  },
+  {
     "id": "huggingface:Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
     "name": "Qwopus3.6-27B-Coder-MTP-GGUF",
     "provider": "Jackrong",
@@ -475,6 +510,39 @@
       "paragon-of-brah/Nex-N2-Pro-397B-A17B-GGUF"
     ],
     "family": "Nex-N2-Pro"
+  },
+  {
+    "id": "huggingface:Frosty40/Nex-N2-mini-B70-Turbo-GGUF",
+    "name": "Nex-N2-mini-B70-Turbo-GGUF",
+    "provider": "Frosty40",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T07:10:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Frosty40/Nex-N2-mini-B70-Turbo-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "imatrix",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T05:52:27.969339+00:00",
+    "source_ids": [
+      "Frosty40/Nex-N2-mini-B70-Turbo-GGUF"
+    ],
+    "family": "Nex-N2-mini-B70-Turbo"
   },
   {
     "id": "openrouter:nex-agi/Nex-N2-Pro:free",
@@ -2181,6 +2249,41 @@
       "CodeFault/Mellum2-12B-A2.5B-Thinking-GGUF"
     ],
     "family": "Mellum2"
+  },
+  {
+    "id": "huggingface:MiniMaxAI/MiniMax-M3-MXFP8",
+    "name": "MiniMax-M3-MXFP8",
+    "provider": "MiniMaxAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-02T07:50:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3-MXFP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minimax_m3_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T05:52:28.487696+00:00",
+    "source_ids": [
+      "MiniMaxAI/MiniMax-M3-MXFP8"
+    ],
+    "family": "MiniMax-M3-MXFP8"
   },
   {
     "id": "huggingface:jdopensource/JoyAI-Echo",
@@ -13794,39 +13897,6 @@
     "family": "Qwen3-Z-Image-Engineer-V4"
   },
   {
-    "id": "huggingface:ibm-granite/granitelib-guardian-r1.0",
-    "name": "granitelib-guardian-r1.0",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-02T19:44:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granitelib-guardian-r1.0",
-    "tags": [
-      "text-generation",
-      "granite-library",
-      "safetensors",
-      "granite",
-      "guardian",
-      "safety"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T05:09:23.973955+00:00",
-    "source_ids": [
-      "ibm-granite/granitelib-guardian-r1.0"
-    ],
-    "family": "granitelib-guardian-r1.0"
-  },
-  {
     "id": "huggingface:inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit",
     "name": "archived-Kimi-K2.5-MLX-3.6bit",
     "provider": "inferencerlabs",
@@ -14159,39 +14229,6 @@
       "FunAudioLLM/Fun-ASR-Nano-2512"
     ],
     "family": "Fun-ASR-Nano-2512"
-  },
-  {
-    "id": "huggingface:ibm-granite/granitelib-core-r1.0",
-    "name": "granitelib-core-r1.0",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-10T00:16:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granitelib-core-r1.0",
-    "tags": [
-      "text-generation",
-      "granite-library",
-      "safetensors",
-      "granite",
-      "uncertainty",
-      "context-attribution"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T05:09:23.973925+00:00",
-    "source_ids": [
-      "ibm-granite/granitelib-core-r1.0"
-    ],
-    "family": "granitelib-core-r1.0"
   },
   {
     "id": "huggingface:raxcore-dev/rax-3.5-chat",
