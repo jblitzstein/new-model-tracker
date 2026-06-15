@@ -744,6 +744,39 @@
     "family": "gemma-4-it-qat--UD-Q4_K_XL-layers"
   },
   {
+    "id": "huggingface:TaQuants/Tema_Q-X4-Thinking-TaQuants-GGUF",
+    "name": "Tema_Q-X4-Thinking-TaQuants-GGUF",
+    "provider": "TaQuants",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T15:17:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TaQuants/Tema_Q-X4-Thinking-TaQuants-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "TaQuants",
+      "uncensored",
+      "non-censored",
+      "unfiltered"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T14:12:57.948987+00:00",
+    "source_ids": [
+      "TaQuants/Tema_Q-X4-Thinking-TaQuants-GGUF"
+    ],
+    "family": "Tema_Q-X4--TaQuants"
+  },
+  {
     "id": "huggingface:neuregex/Bernini-R-GGUF",
     "name": "Bernini-R-GGUF",
     "provider": "neuregex",
@@ -877,6 +910,39 @@
       "w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ"
     ],
     "family": "LFM2.5--MoQ"
+  },
+  {
+    "id": "huggingface:mlx-community/gemma-4-12B-it-OptiQ-4bit",
+    "name": "gemma-4-12B-it-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T11:47:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T14:12:57.948804+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-it-OptiQ-4bit"
+    ],
+    "family": "gemma-4-it-OptiQ-4bit"
   },
   {
     "id": "huggingface:unsloth/gemma-4-31B-it-qat-GGUF",
@@ -2152,6 +2218,39 @@
       "qwen/qwen3.7-plus"
     ],
     "family": "Qwen3.7 Plus"
+  },
+  {
+    "id": "huggingface:TaQuants/Tema_Q-R-4B-TaQuants-GGUF",
+    "name": "Tema_Q-R-4B-TaQuants-GGUF",
+    "provider": "TaQuants",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T12:56:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TaQuants/Tema_Q-R-4B-TaQuants-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "TaQuants",
+      "uncensored",
+      "non-censored",
+      "unfiltered"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T14:12:57.949082+00:00",
+    "source_ids": [
+      "TaQuants/Tema_Q-R-4B-TaQuants-GGUF"
+    ],
+    "family": "Tema_Q-R-TaQuants"
   },
   {
     "id": "huggingface:deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
@@ -8121,41 +8220,6 @@
       "entrick/Security-SLM-Gemma-4-E2B-it-GGUF"
     ],
     "family": "Security-SLM-Gemma-4-E-it"
-  },
-  {
-    "id": "huggingface:MuXodious/Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF",
-    "name": "Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF",
-    "provider": "MuXodious",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T10:40:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MuXodious/Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "heretic",
-      "uncensored",
-      "decensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T12:26:42.346712+00:00",
-    "source_ids": [
-      "MuXodious/Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF"
-    ],
-    "family": "Qwen3.5-SOMPOA-heresy-MTP"
   },
   {
     "id": "huggingface:lynaNSFW/DR34ML4Y_AIO_NSFW_LTX23",
