@@ -136,6 +136,41 @@
     "family": "Qwopus3.6-Coder-MTP"
   },
   {
+    "id": "huggingface:llmfan46/gemma-4-31B-it-qat-q4_0-uncensored-heretic-GGUF",
+    "name": "gemma-4-31B-it-qat-q4_0-uncensored-heretic-GGUF",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-11T19:21:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/gemma-4-31B-it-qat-q4_0-uncensored-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "heretic",
+      "uncensored",
+      "decensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T10:12:38.143749+00:00",
+    "source_ids": [
+      "llmfan46/gemma-4-31B-it-qat-q4_0-uncensored-heretic-GGUF"
+    ],
+    "family": "gemma-4-it-qat-q4_0-uncensored-heretic"
+  },
+  {
     "id": "huggingface:prefeitura-rio/Rio-3.5-Open-397B",
     "name": "Rio-3.5-Open-397B",
     "provider": "prefeitura-rio",
@@ -2896,6 +2931,40 @@
       "mradermacher/PaddleOCR-VL-1.6-GGUF"
     ],
     "family": "PaddleOCR-VL-1.6"
+  },
+  {
+    "id": "huggingface:tonythethompson/CosyVoice-300M-ONNX",
+    "name": "CosyVoice-300M-ONNX",
+    "provider": "tonythethompson",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-28T12:29:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tonythethompson/CosyVoice-300M-ONNX",
+    "tags": [
+      "text-to-speech",
+      "cosyvoice",
+      "onnx",
+      "text-to-speech",
+      "tts",
+      "voice-cloning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-15T10:12:38.020840+00:00",
+    "source_ids": [
+      "tonythethompson/CosyVoice-300M-ONNX"
+    ],
+    "family": "CosyVoice-300M-ONNX"
   },
   {
     "id": "huggingface:stepfun-ai/Step-3.7-Flash-GGUF",
@@ -6297,111 +6366,6 @@
     "family": "NuExtract3-W4A16"
   },
   {
-    "id": "huggingface:unsloth/Qwen3.5-122B-A10B-MTP-GGUF",
-    "name": "Qwen3.5-122B-A10B-MTP-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-15T19:03:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3_5_moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T08:38:36.910154+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-122B-A10B-MTP-GGUF"
-    ],
-    "family": "Qwen3.5-MTP"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.5-27B-MTP-GGUF",
-    "name": "Qwen3.5-27B-MTP-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-15T16:39:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-27B-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3_5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T08:38:36.910221+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-27B-MTP-GGUF"
-    ],
-    "family": "Qwen3.5-MTP"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.5-35B-A3B-MTP-GGUF",
-    "name": "Qwen3.5-35B-A3B-MTP-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-15T14:30:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "qwen",
-      "qwen3_5_moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T08:38:36.910190+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.5-35B-A3B-MTP-GGUF"
-    ],
-    "family": "Qwen3.5-MTP"
-  },
-  {
     "id": "huggingface:Jackrong/Qwopus3.5-9B-Coder-GGUF",
     "name": "Qwopus3.5-9B-Coder-GGUF",
     "provider": "Jackrong",
@@ -8695,40 +8659,6 @@
       "mradermacher/Distil-GPT5.5-Minute.Codex.NSFW-0.1B-GGUF"
     ],
     "family": "Distil-GPT5.5-Minute.Codex.NSFW"
-  },
-  {
-    "id": "huggingface:mradermacher/orpheus-3b-tts-multilingual-GGUF",
-    "name": "orpheus-3b-tts-multilingual-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-05-06T08:49:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/orpheus-3b-tts-multilingual-GGUF",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "gguf",
-      "text-to-speech",
-      "tts",
-      "orpheus"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-16T08:38:36.734511+00:00",
-    "source_ids": [
-      "mradermacher/orpheus-3b-tts-multilingual-GGUF"
-    ],
-    "family": "orpheus-tts-multilingual"
   },
   {
     "id": "huggingface:mradermacher/CoE-SlideVQA-8B-GGUF",
