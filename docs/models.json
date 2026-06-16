@@ -81712,5 +81712,67 @@
       "pearl-ai/Gemma-4-31B-it-pearl"
     ],
     "family": "Gemma-4-it-pearl"
+  },
+  {
+    "id": "openrouter:z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-16T17:45:30+00:00",
+    "context_length": 1048576,
+    "description": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks. With a truly usable 1M-token context window, it can handle project-level engineering context, execute long-running tasks more reliably, follow...",
+    "url": "https://openrouter.ai/z-ai/glm-5.2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.4,
+      "completion_per_million": 4.4
+    },
+    "first_seen": "2026-06-16T21:05:28.013949+00:00",
+    "source_ids": [
+      "z-ai/glm-5.2"
+    ],
+    "family": "GLM 5.2"
+  },
+  {
+    "id": "huggingface:properly59/Jumini-Ko-1.2B",
+    "name": "Jumini-Ko-1.2B",
+    "provider": "properly59",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T12:50:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/properly59/Jumini-Ko-1.2B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "korean"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-16T21:05:28.114440+00:00",
+    "source_ids": [
+      "properly59/Jumini-Ko-1.2B"
+    ],
+    "family": "Jumini-Ko"
   }
 ]
