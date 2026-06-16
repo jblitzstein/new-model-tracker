@@ -81643,5 +81643,74 @@
       "LGAI-EXAONE/EXAONE-4.5-33B-AWQ"
     ],
     "family": "EXAONE-4.5"
+  },
+  {
+    "id": "huggingface:DeverStyle/Ideogram-4.0-Loras",
+    "name": "Ideogram-4.0-Loras",
+    "provider": "DeverStyle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-07T17:48:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DeverStyle/Ideogram-4.0-Loras",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:ideogram-ai/ideogram-4-fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-16T17:44:59.948411+00:00",
+    "source_ids": [
+      "DeverStyle/Ideogram-4.0-Loras"
+    ],
+    "family": "Ideogram-4.0-Loras"
+  },
+  {
+    "id": "huggingface:pearl-ai/Gemma-4-31B-it-pearl",
+    "name": "Gemma-4-31B-it-pearl",
+    "provider": "pearl-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T05:54:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pearl-ai/Gemma-4-31B-it-pearl",
+    "tags": [
+      "image-text-to-text",
+      "vllm",
+      "safetensors",
+      "gemma4",
+      "gemma",
+      "pearl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-16T17:45:00.380591+00:00",
+    "source_ids": [
+      "pearl-ai/Gemma-4-31B-it-pearl"
+    ],
+    "family": "Gemma-4-it-pearl"
   }
 ]
