@@ -615,6 +615,40 @@
     "family": "Nex-N2-mini-B70-Turbo"
   },
   {
+    "id": "huggingface:shyngys879/kazakh-whisper-large-v3-turbo",
+    "name": "kazakh-whisper-large-v3-turbo",
+    "provider": "shyngys879",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-08T19:32:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shyngys879/kazakh-whisper-large-v3-turbo",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-16T13:54:25.908491+00:00",
+    "source_ids": [
+      "shyngys879/kazakh-whisper-large-v3-turbo"
+    ],
+    "family": "kazakh-whisper-large-v3-turbo"
+  },
+  {
     "id": "openrouter:nex-agi/Nex-N2-Pro:free",
     "name": "Nex AGI: Nex-N2-Pro (free)",
     "provider": "Nex AGI",
@@ -8491,41 +8525,6 @@
     "family": "retrico-lm-finetuned-sft-augumented"
   },
   {
-    "id": "huggingface:mavis-ai/Gemma4-31B-MLX-Q5",
-    "name": "Gemma4-31B-MLX-Q5",
-    "provider": "mavis-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T02:53:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mavis-ai/Gemma4-31B-MLX-Q5",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-17T12:25:06.999537+00:00",
-    "source_ids": [
-      "mavis-ai/Gemma4-31B-MLX-Q5"
-    ],
-    "family": "Gemma4-MLX-Q5"
-  },
-  {
     "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF",
     "name": "Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF",
     "provider": "llmfan46",
@@ -11034,6 +11033,41 @@
     "family": "Qwen3.6"
   },
   {
+    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
+    "name": "EXAONE-4.5-33B-AWQ",
+    "provider": "LGAI-EXAONE",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T15:17:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "exaone4_5",
+      "image-text-to-text",
+      "lg-ai"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-16T13:54:26.033696+00:00",
+    "source_ids": [
+      "LGAI-EXAONE/EXAONE-4.5-33B-AWQ"
+    ],
+    "family": "EXAONE-4.5"
+  },
+  {
     "id": "huggingface:bartowski/Qwen_Qwen3.6-27B-GGUF",
     "name": "Qwen_Qwen3.6-27B-GGUF",
     "provider": "bartowski",
@@ -11100,6 +11134,41 @@
       "thanhhoangnvbg/empathAI-llama3.1-8b"
     ],
     "family": "empathAI-llama3.1"
+  },
+  {
+    "id": "huggingface:selode-ai/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB",
+    "name": "Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB",
+    "provider": "selode-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T12:36:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/selode-ai/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "vLLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-16T13:54:26.033476+00:00",
+    "source_ids": [
+      "selode-ai/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB"
+    ],
+    "family": "Qwen-3.6-VRAP-4-bit--21.2GB"
   },
   {
     "id": "huggingface:lyf/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-NVFP4",
