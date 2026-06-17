@@ -5569,6 +5569,41 @@
     "family": "nuextract-1.5-tiny-mealie-ingredient-parser"
   },
   {
+    "id": "huggingface:ISTA-DASLab/Qwen3.6-35B-A3B-2Bit-GSQ",
+    "name": "Qwen3.6-35B-A3B-2Bit-GSQ",
+    "provider": "ISTA-DASLab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-19T12:34:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ISTA-DASLab/Qwen3.6-35B-A3B-2Bit-GSQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "gsq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-17T20:47:03.534911+00:00",
+    "source_ids": [
+      "ISTA-DASLab/Qwen3.6-35B-A3B-2Bit-GSQ"
+    ],
+    "family": "Qwen3.6-2Bit-GSQ"
+  },
+  {
     "id": "openrouter:google/gemini-3.5-flash",
     "name": "Google: Gemini 3.5 Flash",
     "provider": "Google",
@@ -12681,39 +12716,6 @@
       "prithivMLmods/Gliese-Qwen3.5-0.8B-Abliterated-Caption"
     ],
     "family": "Gliese-Qwen3.5-Abliterated-Caption"
-  },
-  {
-    "id": "huggingface:OpenPipe/Llama-3.1-8B-Instruct",
-    "name": "Llama-3.1-8B-Instruct",
-    "provider": "OpenPipe",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T21:45:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenPipe/Llama-3.1-8B-Instruct",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "llama",
-      "facebook",
-      "meta",
-      "pytorch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T20:35:34.129547+00:00",
-    "source_ids": [
-      "OpenPipe/Llama-3.1-8B-Instruct"
-    ],
-    "family": "Llama-3.1"
   },
   {
     "id": "huggingface:nvidia/Kimi-K2.5-Thinking-Eagle3",
