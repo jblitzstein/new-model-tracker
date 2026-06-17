@@ -29,6 +29,39 @@
     "family": "GLM 5.2"
   },
   {
+    "id": "huggingface:zai-org/GLM-5.2-FP8",
+    "name": "GLM-5.2-FP8",
+    "provider": "zai-org",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-16T07:20:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zai-org/GLM-5.2-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "glm_moe_dsa",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-17T09:43:30.350961+00:00",
+    "source_ids": [
+      "zai-org/GLM-5.2-FP8"
+    ],
+    "family": "GLM-5.2-FP8"
+  },
+  {
     "id": "huggingface:microsoft/FastContext-1.0-4B-RL",
     "name": "FastContext-1.0-4B-RL",
     "provider": "Microsoft",
@@ -6489,40 +6522,6 @@
     "family": "Qwen3.5-NVFP4-MTP"
   },
   {
-    "id": "huggingface:btsee/oron-tts",
-    "name": "oron-tts",
-    "provider": "btsee",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-05-16T12:57:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/btsee/oron-tts",
-    "tags": [
-      "text-to-speech",
-      "pytorch",
-      "tensorboard",
-      "tts",
-      "text-to-speech",
-      "mongolian"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T09:18:12.056009+00:00",
-    "source_ids": [
-      "btsee/oron-tts"
-    ],
-    "family": "oron-tts"
-  },
-  {
     "id": "huggingface:mradermacher/DLM-LST-9B-GGUF",
     "name": "DLM-LST-9B-GGUF",
     "provider": "mradermacher",
@@ -7200,39 +7199,6 @@
     "family": "MiniMax-M2.7-ultra-uncensored-heretic"
   },
   {
-    "id": "huggingface:turtle170/TinyCode-4B",
-    "name": "TinyCode-4B",
-    "provider": "turtle170",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-14T09:19:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/turtle170/TinyCode-4B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "phi3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T09:18:11.765320+00:00",
-    "source_ids": [
-      "turtle170/TinyCode-4B"
-    ],
-    "family": "TinyCode"
-  },
-  {
     "id": "huggingface:inclusionAI/Ring-2.6-1T",
     "name": "Ring-2.6-1T",
     "provider": "inclusionAI",
@@ -7332,40 +7298,6 @@
       "DZER-Studios/Vexion-LM"
     ],
     "family": "Vexion-LM"
-  },
-  {
-    "id": "huggingface:aman5g/Sulphur-2-base-GGUF",
-    "name": "Sulphur-2-base-GGUF",
-    "provider": "aman5g",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-14T03:45:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aman5g/Sulphur-2-base-GGUF",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "quantized",
-      "text-to-video",
-      "base_model:SulphurAI/Sulphur-2-base",
-      "base_model:quantized:SulphurAI/Sulphur-2-base"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T09:18:11.932329+00:00",
-    "source_ids": [
-      "aman5g/Sulphur-2-base-GGUF"
-    ],
-    "family": "Sulphur-2"
   },
   {
     "id": "huggingface:mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.1",
@@ -8716,40 +8648,6 @@
       "magiccodingman/Qwen3.6-27B-MagicQuant-GGUF"
     ],
     "family": "Qwen3.6-MagicQuant"
-  },
-  {
-    "id": "huggingface:Supertone/supertonic-3",
-    "name": "supertonic-3",
-    "provider": "Supertone",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-05-06T20:46:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Supertone/supertonic-3",
-    "tags": [
-      "text-to-speech",
-      "supertonic",
-      "onnx",
-      "text-to-speech",
-      "speech-synthesis",
-      "tts"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T09:18:12.056065+00:00",
-    "source_ids": [
-      "Supertone/supertonic-3"
-    ],
-    "family": "supertonic-3"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved",
@@ -12408,105 +12306,6 @@
     "family": "Infinity-Parser2-Pro"
   },
   {
-    "id": "huggingface:kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl",
-    "name": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl",
-    "provider": "kojima-lab",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T06:41:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gpt2",
-      "pytorch",
-      "molecule-nl",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T09:18:11.765421+00:00",
-    "source_ids": [
-      "kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl"
-    ],
-    "family": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-xl"
-  },
-  {
-    "id": "huggingface:kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-large",
-    "name": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-large",
-    "provider": "kojima-lab",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T06:39:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-large",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gpt2",
-      "pytorch",
-      "molecule-nl",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T09:18:11.765458+00:00",
-    "source_ids": [
-      "kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-large"
-    ],
-    "family": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-large"
-  },
-  {
-    "id": "huggingface:kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium",
-    "name": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium",
-    "provider": "kojima-lab",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T06:35:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gpt2",
-      "pytorch",
-      "molecule-nl",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T09:18:11.765496+00:00",
-    "source_ids": [
-      "kojima-lab/molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium"
-    ],
-    "family": "molcrawl-molecule-nat-lang-mol-instructions-gpt2-medium"
-  },
-  {
     "id": "huggingface:divinetribe/Llama-3.3-70B-Instruct-abliterated-8bit-mlx",
     "name": "Llama-3.3-70B-Instruct-abliterated-8bit-mlx",
     "provider": "divinetribe",
@@ -14060,6 +13859,39 @@
       "FunAudioLLM/Fun-ASR-Nano-2512"
     ],
     "family": "Fun-ASR-Nano-2512"
+  },
+  {
+    "id": "huggingface:allenai/Bolmo-7B",
+    "name": "Bolmo-7B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-13T14:25:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Bolmo-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "bolmo",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-17T09:43:30.351157+00:00",
+    "source_ids": [
+      "allenai/Bolmo-7B"
+    ],
+    "family": "Bolmo"
   },
   {
     "id": "huggingface:raxcore-dev/rax-3.5-chat",
