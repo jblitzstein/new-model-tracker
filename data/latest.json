@@ -62,6 +62,76 @@
     "family": "GLM-5.2-FP8"
   },
   {
+    "id": "huggingface:allenai/MolmoMotion-4B-H3-F30",
+    "name": "MolmoMotion-4B-H3-F30",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-15T15:47:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/MolmoMotion-4B-H3-F30",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "molmo2",
+      "image-text-to-text",
+      "molmo-motion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-17T17:06:17.187693+00:00",
+    "source_ids": [
+      "allenai/MolmoMotion-4B-H3-F30"
+    ],
+    "family": "MolmoMotion-H3-F30"
+  },
+  {
+    "id": "huggingface:allenai/MolmoMotion-4B-H1-F32",
+    "name": "MolmoMotion-4B-H1-F32",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-15T15:47:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/MolmoMotion-4B-H1-F32",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "molmo2",
+      "image-text-to-text",
+      "molmo-motion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-17T17:06:17.187724+00:00",
+    "source_ids": [
+      "allenai/MolmoMotion-4B-H1-F32"
+    ],
+    "family": "MolmoMotion-H1-F32"
+  },
+  {
     "id": "huggingface:microsoft/FastContext-1.0-4B-RL",
     "name": "FastContext-1.0-4B-RL",
     "provider": "Microsoft",
@@ -7834,39 +7904,6 @@
     "family": "LLaVA-OneVision-2"
   },
   {
-    "id": "huggingface:darkai-1/darkit-v2.0",
-    "name": "darkit-v2.0",
-    "provider": "darkai-1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-11T04:58:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/darkai-1/darkit-v2.0",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "darkit",
-      "darkai",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T17:01:34.373913+00:00",
-    "source_ids": [
-      "darkai-1/darkit-v2.0"
-    ],
-    "family": "darkit-v2.0"
-  },
-  {
     "id": "huggingface:cs-552-2026-flab/safety_model",
     "name": "safety_model",
     "provider": "cs-552-2026-flab",
@@ -8514,39 +8551,6 @@
       "clear-blue-sky/evolai-tfm-007"
     ],
     "family": "evolai-tfm-007"
-  },
-  {
-    "id": "huggingface:clear-blue-sky/evolai-mb2-005",
-    "name": "evolai-mb2-005",
-    "provider": "clear-blue-sky",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T16:33:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/clear-blue-sky/evolai-mb2-005",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "mamba2",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T17:01:34.374145+00:00",
-    "source_ids": [
-      "clear-blue-sky/evolai-mb2-005"
-    ],
-    "family": "evolai-mb2-005"
   },
   {
     "id": "huggingface:knowledgator/retrico-lm-4b-finetuned-sft-augumented",
@@ -11159,41 +11163,6 @@
     "family": "EXAONE-4.5"
   },
   {
-    "id": "huggingface:bartowski/Qwen_Qwen3.6-27B-GGUF",
-    "name": "Qwen_Qwen3.6-27B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T14:24:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3.6-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.6-27B",
-      "base_model:quantized:Qwen/Qwen3.6-27B",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T17:01:35.197301+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3.6-27B-GGUF"
-    ],
-    "family": "Qwen_Qwen3.6"
-  },
-  {
     "id": "huggingface:thanhhoangnvbg/empathAI-llama3.1-8b",
     "name": "empathAI-llama3.1-8b",
     "provider": "thanhhoangnvbg",
@@ -11796,41 +11765,6 @@
       "inferencerlabs/Qwen3.6-35B-A3B-MLX-9bit"
     ],
     "family": "Qwen3.6-MLX-9bit"
-  },
-  {
-    "id": "huggingface:bartowski/Qwen_Qwen3.6-35B-A3B-GGUF",
-    "name": "Qwen_Qwen3.6-35B-A3B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T14:23:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen_Qwen3.6-35B-A3B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.6-35B-A3B",
-      "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T17:01:35.197237+00:00",
-    "source_ids": [
-      "bartowski/Qwen_Qwen3.6-35B-A3B-GGUF"
-    ],
-    "family": "Qwen_Qwen3.6"
   },
   {
     "id": "huggingface:ibm-granite/granite-speech-4.1-2b-plus",
@@ -12679,41 +12613,6 @@
       "nvidia/Nemotron-Labs-Diffusion-8B"
     ],
     "family": "Nemotron-Labs-Diffusion"
-  },
-  {
-    "id": "huggingface:amd/Qwen3.5-35B-A3B-MXFP4",
-    "name": "Qwen3.5-35B-A3B-MXFP4",
-    "provider": "amd",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-16T13:32:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/amd/Qwen3.5-35B-A3B-MXFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-18T17:01:35.197474+00:00",
-    "source_ids": [
-      "amd/Qwen3.5-35B-A3B-MXFP4"
-    ],
-    "family": "Qwen3.5-MXFP4"
   },
   {
     "id": "huggingface:nishantup/nanogpt-pretrained-slm-tinystories-124m",
