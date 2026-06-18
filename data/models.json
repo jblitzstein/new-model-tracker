@@ -82301,5 +82301,301 @@
       "AEON-7/Gemma-4-26B-A4B-it-Uncensored-NVFP4"
     ],
     "family": "Gemma-4-it-Uncensored-NVFP4"
+  },
+  {
+    "id": "openrouter:poolside/laguna-xs.2",
+    "name": "Poolside: Laguna XS.2",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T15:20:04+00:00",
+    "context_length": 262144,
+    "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
+    "url": "https://openrouter.ai/poolside/laguna-xs.2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-06-18T17:07:07.084779+00:00",
+    "source_ids": [
+      "poolside/laguna-xs.2"
+    ],
+    "family": "Laguna XS.2"
+  },
+  {
+    "id": "openrouter:poolside/laguna-m.1",
+    "name": "Poolside: Laguna M.1",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T15:01:44+00:00",
+    "context_length": 262144,
+    "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
+    "url": "https://openrouter.ai/poolside/laguna-m.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.4
+    },
+    "first_seen": "2026-06-18T17:07:07.084818+00:00",
+    "source_ids": [
+      "poolside/laguna-m.1"
+    ],
+    "family": "Laguna M.1"
+  },
+  {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T08:00:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.228601+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-BF16"
+  },
+  {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-FP8",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-FP8",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T09:13:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.228723+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-FP8"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-FP8"
+  },
+  {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T13:26:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.228758+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-NVFP4-FP8"
+  },
+  {
+    "id": "huggingface:forkjoin-ai/qwen2-audio-7b-instruct-gguf",
+    "name": "qwen2-audio-7b-instruct-gguf",
+    "provider": "forkjoin-ai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-09T21:49:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/forkjoin-ai/qwen2-audio-7b-instruct-gguf",
+    "tags": [
+      "text-to-audio",
+      "llama-cpp",
+      "gguf",
+      "qwen2_audio",
+      "audio",
+      "speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.442372+00:00",
+    "source_ids": [
+      "forkjoin-ai/qwen2-audio-7b-instruct-gguf"
+    ],
+    "family": "qwen2-audio"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T12:23:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.621971+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Claude-Genesis"
+  },
+  {
+    "id": "huggingface:AtomicChat/gemma-4-12b-it-GGUF",
+    "name": "gemma-4-12b-it-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T14:21:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/gemma-4-12b-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "atomic-chat",
+      "gemma",
+      "gemma4",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.622095+00:00",
+    "source_ids": [
+      "AtomicChat/gemma-4-12b-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:AlexAtomic/gemma4-e4b-it-GGUF",
+    "name": "gemma4-e4b-it-GGUF",
+    "provider": "AlexAtomic",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-16T13:01:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AlexAtomic/gemma4-e4b-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "atomic-chat",
+      "gemma",
+      "gemma4",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.622125+00:00",
+    "source_ids": [
+      "AlexAtomic/gemma4-e4b-it-GGUF"
+    ],
+    "family": "gemma4-e-it"
   }
 ]

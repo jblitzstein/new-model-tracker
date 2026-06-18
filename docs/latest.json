@@ -119,6 +119,41 @@
     "family": "GLM 5.2"
   },
   {
+    "id": "huggingface:AlexAtomic/gemma4-e4b-it-GGUF",
+    "name": "gemma4-e4b-it-GGUF",
+    "provider": "AlexAtomic",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-16T13:01:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AlexAtomic/gemma4-e4b-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "atomic-chat",
+      "gemma",
+      "gemma4",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.622125+00:00",
+    "source_ids": [
+      "AlexAtomic/gemma4-e4b-it-GGUF"
+    ],
+    "family": "gemma4-e-it"
+  },
+  {
     "id": "huggingface:SC117/Nex-N2-mini-APEX-GGUF",
     "name": "Nex-N2-mini-APEX-GGUF",
     "provider": "SC117",
@@ -628,6 +663,41 @@
       "nvidia/diffusiongemma-26B-A4B-it-NVFP4"
     ],
     "family": "diffusiongemma-it-NVFP4"
+  },
+  {
+    "id": "huggingface:AtomicChat/gemma-4-12b-it-GGUF",
+    "name": "gemma-4-12b-it-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T14:21:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/gemma-4-12b-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "atomic-chat",
+      "gemma",
+      "gemma4",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.622095+00:00",
+    "source_ids": [
+      "AtomicChat/gemma-4-12b-it-GGUF"
+    ],
+    "family": "gemma-4-it"
   },
   {
     "id": "huggingface:unsloth/diffusiongemma-26B-A4B-it-GGUF",
@@ -1269,6 +1339,39 @@
     "family": "Tema_Q-X4--TaQuants"
   },
   {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T13:26:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.228758+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4-FP8"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-NVFP4-FP8"
+  },
+  {
     "id": "huggingface:neuregex/Bernini-R-GGUF",
     "name": "Bernini-R-GGUF",
     "provider": "neuregex",
@@ -1301,6 +1404,39 @@
       "neuregex/Bernini-R-GGUF"
     ],
     "family": "Bernini-R"
+  },
+  {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-FP8",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-FP8",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T09:13:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.228723+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-FP8"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-FP8"
   },
   {
     "id": "huggingface:mradermacher/Gemma-4-12B-OBLITERATED-GGUF",
@@ -2077,6 +2213,39 @@
       "vrfai/gemma-4-12B-it-fp8"
     ],
     "family": "gemma-4-it-fp8"
+  },
+  {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T08:00:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "gemma4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.228601+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-BF16"
   },
   {
     "id": "huggingface:deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF",
@@ -5352,6 +5521,41 @@
     "family": "Qwen3.6-Uncensored-Genesis-V2-APEX-MTP"
   },
   {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T12:23:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.621971+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Claude-Genesis"
+  },
+  {
     "id": "huggingface:SupraLabs/Supra-50M-Instruct",
     "name": "Supra-50M-Instruct",
     "provider": "SupraLabs",
@@ -7392,39 +7596,6 @@
     "family": "Ring-2.6-1T"
   },
   {
-    "id": "huggingface:DZER-Studios/Vexion-LM",
-    "name": "Vexion-LM",
-    "provider": "DZER-Studios",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-14T07:16:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DZER-Studios/Vexion-LM",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "vexion_lm",
-      "custom_code",
-      "FP16",
-      "pytorch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T17:02:47.650740+00:00",
-    "source_ids": [
-      "DZER-Studios/Vexion-LM"
-    ],
-    "family": "Vexion-LM"
-  },
-  {
     "id": "huggingface:mrs83/Kurtis-EON1-Hybrid-0.7B-v0.1.1",
     "name": "Kurtis-EON1-Hybrid-0.7B-v0.1.1",
     "provider": "mrs83",
@@ -8370,111 +8541,6 @@
     "family": "gemma-4-it-Claude-Opus-Distilled-v2-MLX-2bit-mixed_2_6"
   },
   {
-    "id": "huggingface:openbmb/MiniCPM-V-4.6-Thinking-gguf",
-    "name": "MiniCPM-V-4.6-Thinking-gguf",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T12:05:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6-Thinking-gguf",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "minicpm-v",
-      "multimodal",
-      "On-Device Model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T17:02:48.542114+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM-V-4.6-Thinking-gguf"
-    ],
-    "family": "MiniCPM-V-4.6"
-  },
-  {
-    "id": "huggingface:openbmb/MiniCPM-V-4.6-Thinking",
-    "name": "MiniCPM-V-4.6-Thinking",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T12:05:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6-Thinking",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "minicpmv4_6",
-      "image-text-to-text",
-      "minicpm-v"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T17:02:48.542228+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM-V-4.6-Thinking"
-    ],
-    "family": "MiniCPM-V-4.6"
-  },
-  {
-    "id": "huggingface:openbmb/MiniCPM-V-4.6-gguf",
-    "name": "MiniCPM-V-4.6-gguf",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T12:04:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6-gguf",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "minicpm-v",
-      "multimodal",
-      "On-Device Model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T17:02:48.542147+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM-V-4.6-gguf"
-    ],
-    "family": "MiniCPM-V-4.6"
-  },
-  {
     "id": "huggingface:entrick/Security-SLM-Gemma-4-E2B-it-GGUF",
     "name": "Security-SLM-Gemma-4-E2B-it-GGUF",
     "provider": "entrick",
@@ -9150,39 +9216,6 @@
     "family": "evolai-qwen"
   },
   {
-    "id": "huggingface:SnifferCaptain/ymodel3-n1",
-    "name": "ymodel3-n1",
-    "provider": "SnifferCaptain",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-04T10:16:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SnifferCaptain/ymodel3-n1",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "ynet3",
-      "text-generation",
-      "conversational",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T17:02:47.650911+00:00",
-    "source_ids": [
-      "SnifferCaptain/ymodel3-n1"
-    ],
-    "family": "ymodel3-n1"
-  },
-  {
     "id": "huggingface:kpsss34/Walkyrie-1.3B-v1.0",
     "name": "Walkyrie-1.3B-v1.0",
     "provider": "kpsss34",
@@ -9798,6 +9831,64 @@
       "google/gemma-4-31B-it-qat-q4_0-unquantized"
     ],
     "family": "gemma-4-it-qat-q4_0-unquantized"
+  },
+  {
+    "id": "openrouter:poolside/laguna-xs.2",
+    "name": "Poolside: Laguna XS.2",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T15:20:04+00:00",
+    "context_length": 262144,
+    "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
+    "url": "https://openrouter.ai/poolside/laguna-xs.2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-06-18T17:07:07.084779+00:00",
+    "source_ids": [
+      "poolside/laguna-xs.2"
+    ],
+    "family": "Laguna XS.2"
+  },
+  {
+    "id": "openrouter:poolside/laguna-m.1",
+    "name": "Poolside: Laguna M.1",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-28T15:01:44+00:00",
+    "context_length": 262144,
+    "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
+    "url": "https://openrouter.ai/poolside/laguna-m.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.4
+    },
+    "first_seen": "2026-06-18T17:07:07.084818+00:00",
+    "source_ids": [
+      "poolside/laguna-m.1"
+    ],
+    "family": "Laguna M.1"
   },
   {
     "id": "huggingface:inferencerlabs/DeepSeek-V4-Flash-MLX-2.8bit-EXP",
@@ -12633,6 +12724,40 @@
     "family": "Kimi-K2.5--Eagle3"
   },
   {
+    "id": "huggingface:forkjoin-ai/qwen2-audio-7b-instruct-gguf",
+    "name": "qwen2-audio-7b-instruct-gguf",
+    "provider": "forkjoin-ai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-09T21:49:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/forkjoin-ai/qwen2-audio-7b-instruct-gguf",
+    "tags": [
+      "text-to-audio",
+      "llama-cpp",
+      "gguf",
+      "qwen2_audio",
+      "audio",
+      "speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-18T17:07:07.442372+00:00",
+    "source_ids": [
+      "forkjoin-ai/qwen2-audio-7b-instruct-gguf"
+    ],
+    "family": "qwen2-audio"
+  },
+  {
     "id": "huggingface:forkjoin-ai/deepseek-ocr-2",
     "name": "deepseek-ocr-2",
     "provider": "forkjoin-ai",
@@ -13887,41 +14012,6 @@
       "trl-internal-testing/tiny-Qwen3VLForConditionalGeneration"
     ],
     "family": "tiny-Qwen3VLForConditionalGeneration"
-  },
-  {
-    "id": "huggingface:microsoft/Fara-7B",
-    "name": "Fara-7B",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-30T18:56:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/Fara-7B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T17:02:48.542067+00:00",
-    "source_ids": [
-      "microsoft/Fara-7B"
-    ],
-    "family": "Fara"
   },
   {
     "id": "huggingface:prithivMLmods/Qwen3-VL-8B-Abliterated-Caption-it",
