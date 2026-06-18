@@ -82204,5 +82204,69 @@
       "SC117/Nex-N2-mini-APEX-GGUF"
     ],
     "family": "Nex-N2-mini-APEX"
+  },
+  {
+    "id": "openrouter:google/gemini-3.1-flash-image",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "image",
+      "text"
+    ],
+    "release_date": "2026-06-18T03:41:05+00:00",
+    "context_length": 131072,
+    "description": "Gemini 3.1 Flash Image, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines advanced...",
+    "url": "https://openrouter.ai/google/gemini-3.1-flash-image",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 3.0
+    },
+    "first_seen": "2026-06-18T05:40:43.534928+00:00",
+    "source_ids": [
+      "google/gemini-3.1-flash-image"
+    ],
+    "family": "Nano Banana 2 (Gemini 3.1 Flash Image)"
+  },
+  {
+    "id": "openrouter:google/gemini-3-pro-image",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "image",
+      "text"
+    ],
+    "release_date": "2026-06-18T03:40:54+00:00",
+    "context_length": 65536,
+    "description": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and...",
+    "url": "https://openrouter.ai/google/gemini-3-pro-image",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 12.0
+    },
+    "first_seen": "2026-06-18T05:40:43.535837+00:00",
+    "source_ids": [
+      "google/gemini-3-pro-image"
+    ],
+    "family": "Nano Banana Pro (Gemini 3 Pro Image)"
   }
 ]
