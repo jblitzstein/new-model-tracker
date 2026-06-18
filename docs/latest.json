@@ -5966,43 +5966,6 @@
     "family": "Qwen3.6-2Bit-GSQ"
   },
   {
-    "id": "openrouter:google/gemini-3.5-flash",
-    "name": "Google: Gemini 3.5 Flash",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-19T12:30:00+00:00",
-    "context_length": 1048576,
-    "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...",
-    "url": "https://openrouter.ai/google/gemini-3.5-flash",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.5,
-      "completion_per_million": 9.0
-    },
-    "first_seen": "2026-05-19T20:38:21.699596+00:00",
-    "source_ids": [
-      "google/gemini-3.5-flash"
-    ],
-    "family": "Gemini 3.5 Flash"
-  },
-  {
     "id": "huggingface:deucebucket/Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF",
     "name": "Gemma-4-26B-A4B-it-Heretic-Cerebellum-GGUF",
     "provider": "deucebucket",
@@ -8469,41 +8432,6 @@
       "meshllm/GLM-5.1-UD-Q4_K_XL-layers"
     ],
     "family": "GLM-5.1-UD-Q4_K_XL-layers"
-  },
-  {
-    "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-VLM-8B",
-    "name": "Nemotron-Labs-Diffusion-VLM-8B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T17:45:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-VLM-8B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_diffusion_vlm",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T20:38:22.280965+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Diffusion-VLM-8B"
-    ],
-    "family": "Nemotron-Labs-Diffusion-VLM"
   },
   {
     "id": "huggingface:zecanard/gemma-4-31B-it-Claude-Opus-Distilled-v2-MLX-2bit-mixed_2_6",
@@ -14181,41 +14109,6 @@
     "family": "UserLM"
   },
   {
-    "id": "huggingface:numind/NuExtract-2.0-2B-GGUF",
-    "name": "NuExtract-2.0-2B-GGUF",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-26T13:08:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuExtract-2.0-2B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "image-text-to-text",
-      "license:mit",
-      "endpoints_compatible"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T20:38:22.280824+00:00",
-    "source_ids": [
-      "numind/NuExtract-2.0-2B-GGUF"
-    ],
-    "family": "NuExtract-2.0"
-  },
-  {
     "id": "huggingface:Sunbird/Sunflower-14B",
     "name": "Sunflower-14B",
     "provider": "Sunbird",
@@ -14316,40 +14209,6 @@
       "openbmb/MiniCPM-V-4_5-AWQ"
     ],
     "family": "MiniCPM-V-4_5"
-  },
-  {
-    "id": "huggingface:numind/NuMarkdown-8B-Thinking",
-    "name": "NuMarkdown-8B-Thinking",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-29T18:39:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuMarkdown-8B-Thinking",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "OCR"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T20:38:21.963873+00:00",
-    "source_ids": [
-      "numind/NuMarkdown-8B-Thinking"
-    ],
-    "family": "NuMarkdown"
   },
   {
     "id": "huggingface:FunAudioLLM/CosyVoice2-0.5B",
@@ -14557,76 +14416,6 @@
     "family": "Dolphin-Mistral-Venice-Edition"
   },
   {
-    "id": "huggingface:numind/NuExtract-2.0-8B-GPTQ",
-    "name": "NuExtract-2.0-8B-GPTQ",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-06-06T08:38:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuExtract-2.0-8B-GPTQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T20:38:22.280852+00:00",
-    "source_ids": [
-      "numind/NuExtract-2.0-8B-GPTQ"
-    ],
-    "family": "NuExtract-2.0"
-  },
-  {
-    "id": "huggingface:numind/NuExtract-2.0-2B",
-    "name": "NuExtract-2.0-2B",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-28T08:27:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuExtract-2.0-2B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T20:38:22.280901+00:00",
-    "source_ids": [
-      "numind/NuExtract-2.0-2B"
-    ],
-    "family": "NuExtract-2.0"
-  },
-  {
     "id": "huggingface:typhoon-ai/typhoon-ocr-3b",
     "name": "typhoon-ocr-3b",
     "provider": "typhoon-ai",
@@ -14660,41 +14449,6 @@
       "typhoon-ai/typhoon-ocr-3b"
     ],
     "family": "typhoon-ocr"
-  },
-  {
-    "id": "huggingface:numind/NuExtract-2.0-4B",
-    "name": "NuExtract-2.0-4B",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-26T08:22:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuExtract-2.0-4B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T20:38:22.280879+00:00",
-    "source_ids": [
-      "numind/NuExtract-2.0-4B"
-    ],
-    "family": "NuExtract-2.0"
   },
   {
     "id": "huggingface:typhoon-ai/typhoon-ocr-7b",
@@ -14800,41 +14554,6 @@
       "RedHatAI/Llama-4-Scout-17B-16E-Instruct"
     ],
     "family": "Llama-4-Scout-16E"
-  },
-  {
-    "id": "huggingface:numind/NuExtract-2.0-8B",
-    "name": "NuExtract-2.0-8B",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-06T02:28:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuExtract-2.0-8B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-19T20:38:22.280927+00:00",
-    "source_ids": [
-      "numind/NuExtract-2.0-8B"
-    ],
-    "family": "NuExtract-2.0"
   },
   {
     "id": "huggingface:RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
