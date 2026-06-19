@@ -560,6 +560,41 @@
     "family": "Kimi-K2.7-Code-MLX-3.5bit-INF"
   },
   {
+    "id": "huggingface:unsloth/Kimi-K2.7-Code-GGUF",
+    "name": "Kimi-K2.7-Code-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T18:03:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "kimi_k25",
+      "image-feature-extraction",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-19T13:17:03.929451+00:00",
+    "source_ids": [
+      "unsloth/Kimi-K2.7-Code-GGUF"
+    ],
+    "family": "Kimi-K2.7-Code"
+  },
+  {
     "id": "openrouter:moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "Moonshot AI",
@@ -1175,6 +1210,41 @@
     "family": "Nex-N2-Pro"
   },
   {
+    "id": "huggingface:Dhptl/gemma-4-12B-GGUF",
+    "name": "gemma-4-12B-GGUF",
+    "provider": "Dhptl",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T07:25:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Dhptl/gemma-4-12B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "safetensors",
+      "gemma4_unified",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-19T13:17:03.929327+00:00",
+    "source_ids": [
+      "Dhptl/gemma-4-12B-GGUF"
+    ],
+    "family": "gemma-4"
+  },
+  {
     "id": "huggingface:Frosty40/Nex-N2-mini-B70-Turbo-GGUF",
     "name": "Nex-N2-mini-B70-Turbo-GGUF",
     "provider": "Frosty40",
@@ -1206,6 +1276,40 @@
       "Frosty40/Nex-N2-mini-B70-Turbo-GGUF"
     ],
     "family": "Nex-N2-mini-B70-Turbo"
+  },
+  {
+    "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_det_safetensors",
+    "name": "PP-OCRv6_medium_det_safetensors",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T04:03:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det_safetensors",
+    "tags": [
+      "image-to-text",
+      "PaddleOCR",
+      "safetensors",
+      "pp_ocrv6_medium_det",
+      "OCR",
+      "PaddlePaddle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-19T13:17:03.304794+00:00",
+    "source_ids": [
+      "PaddlePaddle/PP-OCRv6_medium_det_safetensors"
+    ],
+    "family": "PP-OCRv6_medium_det_safetensors"
   },
   {
     "id": "huggingface:shyngys879/kazakh-whisper-large-v3-turbo",
@@ -3211,6 +3315,41 @@
       "CodeFault/Mellum2-12B-A2.5B-Thinking-GGUF"
     ],
     "family": "Mellum2"
+  },
+  {
+    "id": "huggingface:jcbtc/qwen3.6-35b-a3b-crown-halo-mtp-dynamic",
+    "name": "qwen3.6-35b-a3b-crown-halo-mtp-dynamic",
+    "provider": "jcbtc",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-02T15:45:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jcbtc/qwen3.6-35b-a3b-crown-halo-mtp-dynamic",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "qwen3.6",
+      "qwen35moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-19T13:17:03.929630+00:00",
+    "source_ids": [
+      "jcbtc/qwen3.6-35b-a3b-crown-halo-mtp-dynamic"
+    ],
+    "family": "qwen3.6-crown-halo-mtp-dynamic"
   },
   {
     "id": "huggingface:MiniMaxAI/MiniMax-M3-MXFP8",
@@ -6913,39 +7052,6 @@
     "family": "Qwopus3.6-v1--MTP"
   },
   {
-    "id": "huggingface:mradermacher/DLM-LST-9B-GGUF",
-    "name": "DLM-LST-9B-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-16T11:38:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/DLM-LST-9B-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "text-generation",
-      "chat",
-      "lst"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-20T12:58:48.775875+00:00",
-    "source_ids": [
-      "mradermacher/DLM-LST-9B-GGUF"
-    ],
-    "family": "DLM-LST"
-  },
-  {
     "id": "huggingface:AxisQuant/Qwen3.6-27b-gptq-int4",
     "name": "Qwen3.6-27b-gptq-int4",
     "provider": "AxisQuant",
@@ -8732,39 +8838,6 @@
     "family": "general_knowledge_model"
   },
   {
-    "id": "huggingface:GreenMap/qwen3.5-2b-ru-norm-link-extractor-GGUF",
-    "name": "qwen3.5-2b-ru-norm-link-extractor-GGUF",
-    "provider": "GreenMap",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-06T10:55:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/GreenMap/qwen3.5-2b-ru-norm-link-extractor-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "text-generation",
-      "ru",
-      "base_model:GreenMap/qwen3.5-2b-ru-norm-link-extractor",
-      "base_model:quantized:GreenMap/qwen3.5-2b-ru-norm-link-extractor"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-20T12:58:48.775838+00:00",
-    "source_ids": [
-      "GreenMap/qwen3.5-2b-ru-norm-link-extractor-GGUF"
-    ],
-    "family": "qwen3.5-ru-norm-link-extractor"
-  },
-  {
     "id": "huggingface:mradermacher/Distil-Grok4.4-Minute.Codex.NSFW-0.1B-GGUF",
     "name": "Distil-Grok4.4-Minute.Codex.NSFW-0.1B-GGUF",
     "provider": "mradermacher",
@@ -9239,39 +9312,6 @@
       "Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF"
     ],
     "family": "Qwen3.5--Revised"
-  },
-  {
-    "id": "huggingface:phoenix2401/test_model",
-    "name": "test_model",
-    "provider": "phoenix2401",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-02T19:02:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/phoenix2401/test_model",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-20T12:58:48.775803+00:00",
-    "source_ids": [
-      "phoenix2401/test_model"
-    ],
-    "family": "test_model"
   },
   {
     "id": "huggingface:tikushitam/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
