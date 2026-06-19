@@ -90,6 +90,39 @@
     "family": "North Mini Code"
   },
   {
+    "id": "huggingface:wepiqx/gemma-4-12B-it-LWQ6-GGUF",
+    "name": "gemma-4-12B-it-LWQ6-GGUF",
+    "provider": "wepiqx",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-16T17:48:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/wepiqx/gemma-4-12B-it-LWQ6-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma-4",
+      "gemma",
+      "google",
+      "12b"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-19T05:47:46.186525+00:00",
+    "source_ids": [
+      "wepiqx/gemma-4-12B-it-LWQ6-GGUF"
+    ],
+    "family": "gemma-4-it-LWQ6"
+  },
+  {
     "id": "openrouter:z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "Zhipu AI",
@@ -292,6 +325,39 @@
     "family": "MolmoMotion-H1-F32"
   },
   {
+    "id": "huggingface:RobinsonLabs/Qwen3.5-122B-A10B-abliterated-GGUF",
+    "name": "Qwen3.5-122B-A10B-abliterated-GGUF",
+    "provider": "RobinsonLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-14T22:28:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RobinsonLabs/Qwen3.5-122B-A10B-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliterated",
+      "qwen3.5",
+      "moe",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-19T05:47:46.186647+00:00",
+    "source_ids": [
+      "RobinsonLabs/Qwen3.5-122B-A10B-abliterated-GGUF"
+    ],
+    "family": "Qwen3.5-abliterated"
+  },
+  {
     "id": "huggingface:microsoft/FastContext-1.0-4B-RL",
     "name": "FastContext-1.0-4B-RL",
     "provider": "Microsoft",
@@ -356,6 +422,41 @@
       "microsoft/FastContext-1.0-4B-SFT"
     ],
     "family": "FastContext-1.0-SFT"
+  },
+  {
+    "id": "huggingface:bytkim/Qwen3.6-27B-MTP-pi-reasoning-GGUF",
+    "name": "Qwen3.6-27B-MTP-pi-reasoning-GGUF",
+    "provider": "bytkim",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-14T10:39:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bytkim/Qwen3.6-27B-MTP-pi-reasoning-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen",
+      "qwen3_6",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-19T05:47:46.612927+00:00",
+    "source_ids": [
+      "bytkim/Qwen3.6-27B-MTP-pi-reasoning-GGUF"
+    ],
+    "family": "Qwen3.6-MTP-pi-reasoning"
   },
   {
     "id": "huggingface:DevQuasar/CohereLabs.command-a-plus-05-2026-bf16-GGUF",
@@ -6812,41 +6913,6 @@
       "noctrex/Qwopus3.6-27B-v1-preview-MTP-GGUF"
     ],
     "family": "Qwopus3.6-v1--MTP"
-  },
-  {
-    "id": "huggingface:Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
-    "name": "Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
-    "provider": "Incarnas",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-16T20:31:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "nvfp4",
-      "qwen3_5_moe",
-      "moe",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-20T05:25:58.494091+00:00",
-    "source_ids": [
-      "Incarnas/Qwen3.5-122B-A10B-NVFP4-MTP-GGUF"
-    ],
-    "family": "Qwen3.5-NVFP4-MTP"
   },
   {
     "id": "huggingface:mradermacher/DLM-LST-9B-GGUF",
