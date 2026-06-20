@@ -6044,35 +6044,6 @@
     "family": "Lance-Video-bf16"
   },
   {
-    "id": "openrouter:qwen/qwen3.7-max",
-    "name": "Qwen: Qwen3.7 Max",
-    "provider": "Qwen",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-21T15:21:01+00:00",
-    "context_length": 1000000,
-    "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,...",
-    "url": "https://openrouter.ai/qwen/qwen3.7-max",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.5,
-      "completion_per_million": 7.5
-    },
-    "first_seen": "2026-05-21T16:57:10.778953+00:00",
-    "source_ids": [
-      "qwen/qwen3.7-max"
-    ],
-    "family": "Qwen3.7 Max"
-  },
-  {
     "id": "huggingface:cocktailpeanut/stable-audio-3-medium",
     "name": "stable-audio-3-medium",
     "provider": "cocktailpeanut",
@@ -8105,39 +8076,6 @@
     "family": "LLaVA-OneVision-2"
   },
   {
-    "id": "huggingface:cs-552-2026-flab/safety_model",
-    "name": "safety_model",
-    "provider": "cs-552-2026-flab",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-10T15:10:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cs-552-2026-flab/safety_model",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T16:57:10.962761+00:00",
-    "source_ids": [
-      "cs-552-2026-flab/safety_model"
-    ],
-    "family": "safety_model"
-  },
-  {
     "id": "huggingface:Youssofal/Qwen3.6-27B-MTPLX-Optimized-Quality",
     "name": "Qwen3.6-27B-MTPLX-Optimized-Quality",
     "provider": "Youssofal",
@@ -8409,40 +8347,6 @@
       "entrick/Security-SLM-Gemma-4-E2B-it-GGUF"
     ],
     "family": "Security-SLM-Gemma-4-E-it"
-  },
-  {
-    "id": "huggingface:lynaNSFW/DR34ML4Y_AIO_NSFW_LTX23",
-    "name": "DR34ML4Y_AIO_NSFW_LTX23",
-    "provider": "lynaNSFW",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-05-08T06:28:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lynaNSFW/DR34ML4Y_AIO_NSFW_LTX23",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T16:57:11.112472+00:00",
-    "source_ids": [
-      "lynaNSFW/DR34ML4Y_AIO_NSFW_LTX23"
-    ],
-    "family": "DR34ML4Y_AIO_NSFW_LTX23"
   },
   {
     "id": "huggingface:nvidia/Kimi-K2.6-Eagle3",
@@ -14201,76 +14105,6 @@
       "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic"
     ],
     "family": "Mistral-Small-3.1--2503-FP8-dynamic"
-  },
-  {
-    "id": "huggingface:trl-internal-testing/tiny-LlavaNextForConditionalGeneration",
-    "name": "tiny-LlavaNextForConditionalGeneration",
-    "provider": "trl-internal-testing",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-11-25T15:06:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trl-internal-testing/tiny-LlavaNextForConditionalGeneration",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "llava_next",
-      "image-text-to-text",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T16:57:11.918832+00:00",
-    "source_ids": [
-      "trl-internal-testing/tiny-LlavaNextForConditionalGeneration"
-    ],
-    "family": "tiny-LlavaNextForConditionalGeneration"
-  },
-  {
-    "id": "huggingface:trl-internal-testing/tiny-LlavaForConditionalGeneration",
-    "name": "tiny-LlavaForConditionalGeneration",
-    "provider": "trl-internal-testing",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-11-25T15:06:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/trl-internal-testing/tiny-LlavaForConditionalGeneration",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "llava",
-      "image-text-to-text",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T16:57:11.918908+00:00",
-    "source_ids": [
-      "trl-internal-testing/tiny-LlavaForConditionalGeneration"
-    ],
-    "family": "tiny-LlavaForConditionalGeneration"
   },
   {
     "id": "huggingface:lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1",
