@@ -628,6 +628,76 @@
     "family": "Kimi-K2.7-Code-MLX-3.5bit-INF"
   },
   {
+    "id": "huggingface:Jackrong/Qwopus3.6-27B-Coder-FP8",
+    "name": "Qwopus3.6-27B-Coder-FP8",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-13T13:24:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "gguf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-20T12:42:21.629576+00:00",
+    "source_ids": [
+      "Jackrong/Qwopus3.6-27B-Coder-FP8"
+    ],
+    "family": "Qwopus3.6-Coder-FP8"
+  },
+  {
+    "id": "huggingface:mlx-community/MiniMax-M3-4bit",
+    "name": "MiniMax-M3-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-13T05:21:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/MiniMax-M3-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "minimax_m3_vl",
+      "multimodal",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-20T12:42:21.629481+00:00",
+    "source_ids": [
+      "mlx-community/MiniMax-M3-4bit"
+    ],
+    "family": "MiniMax-M3-4bit"
+  },
+  {
     "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-OptiQ-4bit",
     "name": "diffusiongemma-26B-A4B-it-OptiQ-4bit",
     "provider": "mlx-community",
@@ -6552,41 +6622,6 @@
     "family": "Gemma-4-it-Heretic-Cerebellum"
   },
   {
-    "id": "huggingface:axi0mX/P1-VL-235B-A22B-GGUF",
-    "name": "P1-VL-235B-A22B-GGUF",
-    "provider": "axi0mX",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-18T19:43:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/axi0mX/P1-VL-235B-A22B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "arxiv:2602.09443",
-      "base_model:PRIME-RL/P1-VL-235B-A22B",
-      "base_model:quantized:PRIME-RL/P1-VL-235B-A22B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T09:13:24.630350+00:00",
-    "source_ids": [
-      "axi0mX/P1-VL-235B-A22B-GGUF"
-    ],
-    "family": "P1-VL"
-  },
-  {
     "id": "huggingface:nilayparikh/Qwen3.6-27B-Text-NVFP4-MTP-GGUF",
     "name": "Qwen3.6-27B-Text-NVFP4-MTP-GGUF",
     "provider": "nilayparikh",
@@ -7298,39 +7333,6 @@
     "family": "NuExtract3-W4A16"
   },
   {
-    "id": "huggingface:clear-blue-sky/evolai-tfm-008",
-    "name": "evolai-tfm-008",
-    "provider": "clear-blue-sky",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-15T08:46:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/clear-blue-sky/evolai-tfm-008",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T09:13:23.905997+00:00",
-    "source_ids": [
-      "clear-blue-sky/evolai-tfm-008"
-    ],
-    "family": "evolai-tfm-008"
-  },
-  {
     "id": "huggingface:Jackrong/Qwopus3.5-9B-Coder",
     "name": "Qwopus3.5-9B-Coder",
     "provider": "Jackrong",
@@ -7699,39 +7701,6 @@
       "tekkmaven/flint-1.2B"
     ],
     "family": "flint"
-  },
-  {
-    "id": "huggingface:Johnblick187/starcoder2-15b",
-    "name": "starcoder2-15b",
-    "provider": "Johnblick187",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T07:24:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Johnblick187/starcoder2-15b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "starcoder2",
-      "text-generation",
-      "code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T09:13:23.906070+00:00",
-    "source_ids": [
-      "Johnblick187/starcoder2-15b"
-    ],
-    "family": "starcoder2"
   },
   {
     "id": "huggingface:Tu522004/RD-9B-Distill",
@@ -8167,41 +8136,6 @@
       "cs-552-2026-flab/safety_model"
     ],
     "family": "safety_model"
-  },
-  {
-    "id": "huggingface:AbteeXAILab/lumynax-multimodal-glm46v-flash",
-    "name": "lumynax-multimodal-glm46v-flash",
-    "provider": "AbteeXAILab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-10T09:38:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AbteeXAILab/lumynax-multimodal-glm46v-flash",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "abteex-ai-labs",
-      "aotearoa",
-      "image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T09:13:24.630447+00:00",
-    "source_ids": [
-      "AbteeXAILab/lumynax-multimodal-glm46v-flash"
-    ],
-    "family": "lumynax-multimodal-glm46v-flash"
   },
   {
     "id": "huggingface:Youssofal/Qwen3.6-27B-MTPLX-Optimized-Quality",
