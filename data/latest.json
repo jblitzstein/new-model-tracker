@@ -8006,41 +8006,6 @@
     "family": "MiMo-V2.5-ASR-MLX-8bit"
   },
   {
-    "id": "huggingface:CohereLabs/command-a-plus-05-2026-bf16",
-    "name": "command-a-plus-05-2026-bf16",
-    "provider": "CohereLabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-11T12:31:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "cohere2_vision",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-21T20:39:11.627033+00:00",
-    "source_ids": [
-      "CohereLabs/command-a-plus-05-2026-bf16"
-    ],
-    "family": "command-a-plus-05-2026-bf16"
-  },
-  {
     "id": "huggingface:lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
     "name": "LLaVA-OneVision-2-8B-Instruct",
     "provider": "lmms-lab-encoder",
@@ -12945,6 +12910,72 @@
       "VLTX/VertaLily-1.2-1B-GGUF"
     ],
     "family": "VertaLily-1.2"
+  },
+  {
+    "id": "huggingface:McGill-NLP/AfriqueQwen-14B",
+    "name": "AfriqueQwen-14B",
+    "provider": "McGill-NLP",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-07T00:12:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/McGill-NLP/AfriqueQwen-14B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "african-languages"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-21T01:02:33.463922+00:00",
+    "source_ids": [
+      "McGill-NLP/AfriqueQwen-14B"
+    ],
+    "family": "AfriqueQwen"
+  },
+  {
+    "id": "huggingface:McGill-NLP/AfriqueLlama-8B",
+    "name": "AfriqueLlama-8B",
+    "provider": "McGill-NLP",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-06T23:59:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/McGill-NLP/AfriqueLlama-8B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "african-languages"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-21T01:02:33.463858+00:00",
+    "source_ids": [
+      "McGill-NLP/AfriqueLlama-8B"
+    ],
+    "family": "AfriqueLlama"
   },
   {
     "id": "huggingface:typhoon-ai/typhoon-whisper-turbo",
