@@ -1077,6 +1077,40 @@
     "family": "diffusiongemma-it"
   },
   {
+    "id": "huggingface:PaddlePaddle/PP-OCRv6_small_rec",
+    "name": "PP-OCRv6_small_rec",
+    "provider": "PaddlePaddle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T13:39:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_rec",
+    "tags": [
+      "image-to-text",
+      "PaddleOCR",
+      "OCR",
+      "PaddlePaddle",
+      "text_recognition",
+      "image-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-21T09:19:51.088423+00:00",
+    "source_ids": [
+      "PaddlePaddle/PP-OCRv6_small_rec"
+    ],
+    "family": "PP-OCRv6_small_rec"
+  },
+  {
     "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_rec",
     "name": "PP-OCRv6_medium_rec",
     "provider": "PaddlePaddle",
@@ -1881,6 +1915,39 @@
       "mradermacher/Gemma-4-12B-OBLITERATED-GGUF"
     ],
     "family": "Gemma-4-OBLITERATED"
+  },
+  {
+    "id": "huggingface:mradermacher/Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T05:00:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "12b",
+      "aarch64",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-21T09:19:50.853393+00:00",
+    "source_ids": [
+      "mradermacher/Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-BF16-i1"
   },
   {
     "id": "huggingface:Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf",
@@ -6491,40 +6558,6 @@
     "family": "Qwen3.6-oQ6-mtp"
   },
   {
-    "id": "huggingface:numind/NuExtract3-FP8",
-    "name": "NuExtract3-FP8",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-20T11:45:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuExtract3-FP8",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "vision-language"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:32.639097+00:00",
-    "source_ids": [
-      "numind/NuExtract3-FP8"
-    ],
-    "family": "NuExtract3-FP8"
-  },
-  {
     "id": "huggingface:opendatalab/MinerU2.5-Pro-2605-1.2B",
     "name": "MinerU2.5-Pro-2605-1.2B",
     "provider": "opendatalab",
@@ -6933,105 +6966,6 @@
       "CohereLabs/command-a-plus-05-2026-fp8"
     ],
     "family": "command-a-plus-05-2026-fp8"
-  },
-  {
-    "id": "huggingface:mrthor102/evolai-tfm-super-003",
-    "name": "evolai-tfm-super-003",
-    "provider": "mrthor102",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-18T02:50:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mrthor102/evolai-tfm-super-003",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:32.422518+00:00",
-    "source_ids": [
-      "mrthor102/evolai-tfm-super-003"
-    ],
-    "family": "evolai-tfm-super-003"
-  },
-  {
-    "id": "huggingface:mrthor102/evolai-tfm-super-002",
-    "name": "evolai-tfm-super-002",
-    "provider": "mrthor102",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-18T02:50:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mrthor102/evolai-tfm-super-002",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:32.422495+00:00",
-    "source_ids": [
-      "mrthor102/evolai-tfm-super-002"
-    ],
-    "family": "evolai-tfm-super-002"
-  },
-  {
-    "id": "huggingface:mrthor102/evolai-tfm-super-001",
-    "name": "evolai-tfm-super-001",
-    "provider": "mrthor102",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-18T02:49:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mrthor102/evolai-tfm-super-001",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:32.422471+00:00",
-    "source_ids": [
-      "mrthor102/evolai-tfm-super-001"
-    ],
-    "family": "evolai-tfm-super-001"
   },
   {
     "id": "huggingface:nvidia/DeepSeek-V4-Flash-NVFP4",
@@ -8182,40 +8116,6 @@
     "family": "Q3.5-GLM-5.1-DA"
   },
   {
-    "id": "huggingface:mradermacher/Bbox-caption-8b-GGUF",
-    "name": "Bbox-caption-8b-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-09T08:10:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Bbox-caption-8b-GGUF",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "gguf",
-      "vision-language-model",
-      "image-to-text",
-      "bounding-box-detection"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:32.639056+00:00",
-    "source_ids": [
-      "mradermacher/Bbox-caption-8b-GGUF"
-    ],
-    "family": "Bbox-caption"
-  },
-  {
     "id": "huggingface:selorahomes/Selora-AI",
     "name": "Selora-AI",
     "provider": "selorahomes",
@@ -8614,41 +8514,6 @@
       "mradermacher/Distil-GPT5.5-Minute.Codex.NSFW-0.1B-GGUF"
     ],
     "family": "Distil-GPT5.5-Minute.Codex.NSFW"
-  },
-  {
-    "id": "huggingface:mradermacher/CoE-SlideVQA-8B-GGUF",
-    "name": "CoE-SlideVQA-8B-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-06T07:39:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/CoE-SlideVQA-8B-GGUF",
-    "tags": [
-      "visual-question-answering",
-      "transformers",
-      "gguf",
-      "multimodal",
-      "visual-question-answering",
-      "chain-of-evidence"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:33.266979+00:00",
-    "source_ids": [
-      "mradermacher/CoE-SlideVQA-8B-GGUF"
-    ],
-    "family": "CoE-SlideVQA"
   },
   {
     "id": "huggingface:mradermacher/CoE-Wiki-CoE-8B-GGUF",
@@ -9732,6 +9597,40 @@
     "family": "Huihui-Qwen3.6-abliterated-FP8-DYNAMIC"
   },
   {
+    "id": "huggingface:cstr/mimo-asr-GGUF",
+    "name": "mimo-asr-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T10:59:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/mimo-asr-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "ggml",
+      "gguf",
+      "audio",
+      "speech-recognition",
+      "mimo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-21T09:19:51.603848+00:00",
+    "source_ids": [
+      "cstr/mimo-asr-GGUF"
+    ],
+    "family": "mimo-asr"
+  },
+  {
     "id": "huggingface:mradermacher/Ornstein-Hermes-3.6-27b-i1-GGUF",
     "name": "Ornstein-Hermes-3.6-27b-i1-GGUF",
     "provider": "mradermacher",
@@ -10099,6 +9998,40 @@
       "mlx-community/DeepSeek-V4-Flash"
     ],
     "family": "DeepSeek-V4-Flash"
+  },
+  {
+    "id": "huggingface:cstr/vibevoice-asr-GGUF",
+    "name": "vibevoice-asr-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T10:13:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/vibevoice-asr-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "ggml",
+      "gguf",
+      "audio",
+      "speech-recognition",
+      "transcription"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-21T09:19:51.603790+00:00",
+    "source_ids": [
+      "cstr/vibevoice-asr-GGUF"
+    ],
+    "family": "vibevoice-asr"
   },
   {
     "id": "huggingface:vrfai/Qwen3.6-27B-FP8",
@@ -11016,40 +10949,6 @@
     "family": "granite-speech-4.1-plus"
   },
   {
-    "id": "huggingface:ghecko78/Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic",
-    "name": "Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic",
-    "provider": "ghecko78",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T21:40:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ghecko78/Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "voxtral_realtime",
-      "automatic-speech-recognition",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:33.067284+00:00",
-    "source_ids": [
-      "ghecko78/Voxtral-Mini-4B-Realtime-2602-FP8-Dynamic"
-    ],
-    "family": "Voxtral-Mini-Realtime-2602-FP8-Dynamic"
-  },
-  {
     "id": "huggingface:zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
     "name": "gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
     "provider": "zecanard",
@@ -11419,6 +11318,40 @@
       "infly/Infinity-Parser2-Pro"
     ],
     "family": "Infinity-Parser2-Pro"
+  },
+  {
+    "id": "huggingface:cstr/canary-1b-v2-GGUF",
+    "name": "canary-1b-v2-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-07T22:20:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/canary-1b-v2-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "ggml",
+      "gguf",
+      "audio",
+      "speech-recognition",
+      "transcription"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-21T09:19:51.603877+00:00",
+    "source_ids": [
+      "cstr/canary-1b-v2-GGUF"
+    ],
+    "family": "canary-v2"
   },
   {
     "id": "huggingface:RedHatAI/gemma-4-31B-it-FP8-Dynamic",
@@ -12344,39 +12277,6 @@
       "vectionlabs/VL-1-Coder"
     ],
     "family": "VL-1-Coder"
-  },
-  {
-    "id": "huggingface:nur-dev/farabi-1.7b",
-    "name": "farabi-1.7b",
-    "provider": "nur-dev",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-23T23:11:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nur-dev/farabi-1.7b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "kazakh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T09:11:32.422679+00:00",
-    "source_ids": [
-      "nur-dev/farabi-1.7b"
-    ],
-    "family": "farabi"
   },
   {
     "id": "huggingface:aman0419/Vitallm-50M",
