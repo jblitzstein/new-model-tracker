@@ -1615,6 +1615,37 @@
     "family": "Nex-N2-Pro"
   },
   {
+    "id": "openrouter:nex-agi/nex-n2-pro",
+    "name": "Nex AGI: Nex-N2-Pro",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-08T16:45:40+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-06-22T01:02:02.290282+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2-pro"
+    ],
+    "family": "Nex-N2-Pro"
+  },
+  {
     "id": "huggingface:Arki05/BLS-Mini-Code-1.0-GGUF",
     "name": "BLS-Mini-Code-1.0-GGUF",
     "provider": "Arki05",
@@ -7030,41 +7061,6 @@
     "family": "DeepSeek-V4-Flash-NVFP4"
   },
   {
-    "id": "huggingface:natfii/Qwen3.6-27B-VLM-NVFP4-MTP",
-    "name": "Qwen3.6-27B-VLM-NVFP4-MTP",
-    "provider": "natfii",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-17T18:49:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/natfii/Qwen3.6-27B-VLM-NVFP4-MTP",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.616858+00:00",
-    "source_ids": [
-      "natfii/Qwen3.6-27B-VLM-NVFP4-MTP"
-    ],
-    "family": "Qwen3.6-VLM-NVFP4-MTP"
-  },
-  {
     "id": "huggingface:younissk/nanoBeard-sloop-14M",
     "name": "nanoBeard-sloop-14M",
     "provider": "younissk",
@@ -9762,41 +9758,6 @@
     "family": "Qwen3.5-OptiQ-4bit"
   },
   {
-    "id": "huggingface:mradermacher/Ornstein-3.6-27B-i1-GGUF",
-    "name": "Ornstein-3.6-27B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-25T12:43:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Ornstein-3.6-27B-i1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "safetensors",
-      "qwen3_5",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-22T20:35:52.507895+00:00",
-    "source_ids": [
-      "mradermacher/Ornstein-3.6-27B-i1-GGUF"
-    ],
-    "family": "Ornstein-3.6-i1"
-  },
-  {
     "id": "huggingface:mlx-community/Qwen3.5-27B-OptiQ-4bit",
     "name": "Qwen3.5-27B-OptiQ-4bit",
     "provider": "mlx-community",
@@ -10066,39 +10027,6 @@
     "family": "GRM-2.6-Plus"
   },
   {
-    "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-14B-Base",
-    "name": "Nemotron-Labs-Diffusion-14B-Base",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T17:12:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-14B-Base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_diffusion",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.042305+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Diffusion-14B-Base"
-    ],
-    "family": "Nemotron-Labs-Diffusion"
-  },
-  {
     "id": "huggingface:vrfai/Qwen3-ASR-0.6B-int8-QAD",
     "name": "Qwen3-ASR-0.6B-int8-QAD",
     "provider": "vrfai",
@@ -10131,39 +10059,6 @@
       "vrfai/Qwen3-ASR-0.6B-int8-QAD"
     ],
     "family": "Qwen3-ASR-int8-QAD"
-  },
-  {
-    "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-14B",
-    "name": "Nemotron-Labs-Diffusion-14B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T23:06:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-14B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_diffusion",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.042336+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Diffusion-14B"
-    ],
-    "family": "Nemotron-Labs-Diffusion"
   },
   {
     "id": "huggingface:TheHouseOfTheDude/Qwen3.6-27B-INT8",
@@ -10503,41 +10398,6 @@
       "ziywang50/omniASR-LLM-300M"
     ],
     "family": "omniASR-LLM-300M"
-  },
-  {
-    "id": "huggingface:zecanard/gemma-4-26B-A4B-it-uncensored-heretic-ara-MLX-8bit-int8-affine",
-    "name": "gemma-4-26B-A4B-it-uncensored-heretic-ara-MLX-8bit-int8-affine",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-19T06:51:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-26B-A4B-it-uncensored-heretic-ara-MLX-8bit-int8-affine",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.617231+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-26B-A4B-it-uncensored-heretic-ara-MLX-8bit-int8-affine"
-    ],
-    "family": "gemma-4-it-uncensored-heretic-ara-MLX-8bit-int8-affine"
   },
   {
     "id": "huggingface:ccharnkij/Ministral-3-8B-Reasoning-2512-Uncensored-GGUF",
@@ -11730,39 +11590,6 @@
     "family": "NVIDIA-Nemotron-3-Super-BF16"
   },
   {
-    "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-8B",
-    "name": "Nemotron-Labs-Diffusion-8B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-18T17:45:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_diffusion",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.042233+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Diffusion-8B"
-    ],
-    "family": "Nemotron-Labs-Diffusion"
-  },
-  {
     "id": "huggingface:nishantup/nanogpt-pretrained-slm-tinystories-124m",
     "name": "nanogpt-pretrained-slm-tinystories-124m",
     "provider": "nishantup",
@@ -12035,39 +11862,6 @@
       "nvidia/LocateAnything-3B"
     ],
     "family": "LocateAnything"
-  },
-  {
-    "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-3B",
-    "name": "Nemotron-Labs-Diffusion-3B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-02T17:12:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_diffusion",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.042419+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Diffusion-3B"
-    ],
-    "family": "Nemotron-Labs-Diffusion"
   },
   {
     "id": "huggingface:MERaLiON/MERaLiON-3-10B-preview",
@@ -12375,39 +12169,6 @@
     "family": "Gemma-SEA-LION-v4-VL"
   },
   {
-    "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-3B-Base",
-    "name": "Nemotron-Labs-Diffusion-3B-Base",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-04T23:24:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B-Base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_diffusion",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.042391+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Diffusion-3B-Base"
-    ],
-    "family": "Nemotron-Labs-Diffusion"
-  },
-  {
     "id": "huggingface:BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4",
     "name": "Qwen3-4b-Z-Image-Engineer-V4",
     "provider": "BennyDaBall",
@@ -12540,39 +12301,6 @@
       "furiosa-ai/EXAONE-4.0-32B-FP8"
     ],
     "family": "EXAONE-4.0-FP8"
-  },
-  {
-    "id": "huggingface:nvidia/Nemotron-Labs-Diffusion-8B-Base",
-    "name": "Nemotron-Labs-Diffusion-8B-Base",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-14T18:56:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B-Base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_diffusion",
-      "feature-extraction",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T00:51:00.042363+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Diffusion-8B-Base"
-    ],
-    "family": "Nemotron-Labs-Diffusion"
   },
   {
     "id": "huggingface:CoRal-project/roest-v3-whisper-1.5b",
