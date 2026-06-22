@@ -6247,6 +6247,39 @@
     "family": "DeepSeek-V4-Flash-W4A16-FP8-MTP"
   },
   {
+    "id": "huggingface:software-mansion/react-native-executorch-gemma-4",
+    "name": "react-native-executorch-gemma-4",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-22T13:11:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
+    "tags": [
+      "text-generation",
+      "executorch",
+      "google",
+      "deepmind",
+      "gemma4",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-22T10:05:45.795864+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-gemma-4"
+    ],
+    "family": "react-native-executorch-gemma-4"
+  },
+  {
     "id": "huggingface:Phoenix9781/evolai-tf-model",
     "name": "evolai-tf-model",
     "provider": "Phoenix9781",
@@ -6446,41 +6479,6 @@
       "Sandroeth/cali-0.1B"
     ],
     "family": "cali"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-21T12:23:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T08:46:04.252355+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-V2-APEX-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-V2-APEX-MTP"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
@@ -7030,39 +7028,6 @@
     "family": "deeplm-108m"
   },
   {
-    "id": "huggingface:mrthor102/evolai-tfm-super-004",
-    "name": "evolai-tfm-super-004",
-    "provider": "mrthor102",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-18T05:12:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mrthor102/evolai-tfm-super-004",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T08:46:03.849419+00:00",
-    "source_ids": [
-      "mrthor102/evolai-tfm-super-004"
-    ],
-    "family": "evolai-tfm-super-004"
-  },
-  {
     "id": "huggingface:nvidia/DeepSeek-V4-Flash-NVFP4",
     "name": "DeepSeek-V4-Flash-NVFP4",
     "provider": "NVIDIA",
@@ -7228,41 +7193,6 @@
       "AxisQuant/Qwen3.6-27b-gptq-int4"
     ],
     "family": "Qwen3.6--int4"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwopus3.6-27B-v2-GGUF",
-    "name": "Qwopus3.6-27B-v2-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-16T10:48:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "image",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T08:46:04.252606+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-27B-v2-GGUF"
-    ],
-    "family": "Qwopus3.6-v2"
   },
   {
     "id": "huggingface:axi0mX/SU-01-GGUF",
@@ -10875,6 +10805,39 @@
     "family": "Lizzy"
   },
   {
+    "id": "huggingface:amd/MiniMax-M2.7-MXFP4",
+    "name": "MiniMax-M2.7-MXFP4",
+    "provider": "amd",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T17:41:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amd/MiniMax-M2.7-MXFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "minimax_m2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-22T10:05:45.795933+00:00",
+    "source_ids": [
+      "amd/MiniMax-M2.7-MXFP4"
+    ],
+    "family": "MiniMax-M2.7-MXFP4"
+  },
+  {
     "id": "huggingface:AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
     "name": "Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
     "provider": "AEON-7",
@@ -11177,6 +11140,40 @@
       "cstr/canary-1b-v2-GGUF"
     ],
     "family": "canary-v2"
+  },
+  {
+    "id": "huggingface:mispeech/Dasheng-AudioGen",
+    "name": "Dasheng-AudioGen",
+    "provider": "mispeech",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-07T07:30:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mispeech/Dasheng-AudioGen",
+    "tags": [
+      "text-to-audio",
+      "transformers",
+      "safetensors",
+      "dasheng_audiogen",
+      "image-feature-extraction",
+      "audio-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-22T10:05:46.249112+00:00",
+    "source_ids": [
+      "mispeech/Dasheng-AudioGen"
+    ],
+    "family": "Dasheng-AudioGen"
   },
   {
     "id": "huggingface:RedHatAI/gemma-4-31B-it-FP8-Dynamic",
@@ -13046,39 +13043,6 @@
       "microsoft/UserLM-8b"
     ],
     "family": "UserLM"
-  },
-  {
-    "id": "huggingface:Sunbird/Sunflower-14B",
-    "name": "Sunflower-14B",
-    "provider": "Sunbird",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-24T13:20:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Sunbird/Sunflower-14B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T08:46:03.849541+00:00",
-    "source_ids": [
-      "Sunbird/Sunflower-14B"
-    ],
-    "family": "Sunflower"
   },
   {
     "id": "huggingface:typhoon-ai/typhoon-asr-realtime",
