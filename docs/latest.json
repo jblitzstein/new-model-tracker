@@ -972,6 +972,41 @@
     "family": "Qwopus3.6-Coder-MTP"
   },
   {
+    "id": "huggingface:deucebucket/Qwen3.6-35B-A3B-Heretic-Cerebellum-GGUF",
+    "name": "Qwen3.6-35B-A3B-Heretic-Cerebellum-GGUF",
+    "provider": "deucebucket",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-11T20:47:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deucebucket/Qwen3.6-35B-A3B-Heretic-Cerebellum-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "GGUF",
+      "qwen3",
+      "qwen",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-22T21:03:53.579598+00:00",
+    "source_ids": [
+      "deucebucket/Qwen3.6-35B-A3B-Heretic-Cerebellum-GGUF"
+    ],
+    "family": "Qwen3.6-Heretic-Cerebellum"
+  },
+  {
     "id": "huggingface:llmfan46/gemma-4-31B-it-qat-q4_0-uncensored-heretic-GGUF",
     "name": "gemma-4-31B-it-qat-q4_0-uncensored-heretic-GGUF",
     "provider": "llmfan46",
@@ -1040,6 +1075,39 @@
       "prefeitura-rio/Rio-3.5-Open-397B"
     ],
     "family": "Rio-3.5-Open"
+  },
+  {
+    "id": "huggingface:Zyphra/ZONOS2",
+    "name": "ZONOS2",
+    "provider": "Zyphra",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-11T02:20:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Zyphra/ZONOS2",
+    "tags": [
+      "text-to-speech",
+      "ZONOS2",
+      "text-to-speech",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-22T21:03:53.425557+00:00",
+    "source_ids": [
+      "Zyphra/ZONOS2"
+    ],
+    "family": "ZONOS2"
   },
   {
     "id": "huggingface:morikomorizz/Nex-N2-Pro-MTP-GGUF-Experimental",
@@ -4061,6 +4129,40 @@
       "jdopensource/JoyAI-Echo"
     ],
     "family": "JoyAI-Echo"
+  },
+  {
+    "id": "huggingface:madtune/pixeldit-diffusers",
+    "name": "pixeldit-diffusers",
+    "provider": "madtune",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-01T16:23:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/madtune/pixeldit-diffusers",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "diffusion",
+      "pixeldit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-22T21:03:53.143175+00:00",
+    "source_ids": [
+      "madtune/pixeldit-diffusers"
+    ],
+    "family": "pixeldit-diffusers"
   },
   {
     "id": "huggingface:properly59/Jumini-Ko-1.2B",
@@ -9720,41 +9822,6 @@
     "family": "DeepSeek-V4-Flash-MLX-9bit"
   },
   {
-    "id": "huggingface:mradermacher/Ornstein-27B-v2-i1-GGUF",
-    "name": "Ornstein-27B-v2-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-26T11:25:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Ornstein-27B-v2-i1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T20:20:28.222008+00:00",
-    "source_ids": [
-      "mradermacher/Ornstein-27B-v2-i1-GGUF"
-    ],
-    "family": "Ornstein-v2-i1"
-  },
-  {
     "id": "huggingface:teolm30/Fox-1.5-Nova",
     "name": "Fox-1.5-Nova",
     "provider": "teolm30",
@@ -10157,41 +10224,6 @@
       "ThingAI/Quark-50m"
     ],
     "family": "Quark-50m"
-  },
-  {
-    "id": "huggingface:inferencerlabs/Qwen3.6-27B-MLX-9bit",
-    "name": "Qwen3.6-27B-MLX-9bit",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T17:50:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/Qwen3.6-27B-MLX-9bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-23T20:20:28.222211+00:00",
-    "source_ids": [
-      "inferencerlabs/Qwen3.6-27B-MLX-9bit"
-    ],
-    "family": "Qwen3.6-MLX-9bit"
   },
   {
     "id": "huggingface:cmp-nct/Qwen3.6-27B-GGUF",
