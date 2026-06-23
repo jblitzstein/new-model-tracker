@@ -1,5 +1,73 @@
 [
   {
+    "id": "huggingface:lmsys/qwen-image-2512-modelopt-nvfp4-sglang",
+    "name": "qwen-image-2512-modelopt-nvfp4-sglang",
+    "provider": "LMSYS",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-23T02:11:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lmsys/qwen-image-2512-modelopt-nvfp4-sglang",
+    "tags": [
+      "text-to-image",
+      "sglang",
+      "diffusers",
+      "safetensors",
+      "diffusion",
+      "modelopt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-23T05:25:23.106590+00:00",
+    "source_ids": [
+      "lmsys/qwen-image-2512-modelopt-nvfp4-sglang"
+    ],
+    "family": "qwen-image-2512-modelopt-nvfp4-sglang"
+  },
+  {
+    "id": "huggingface:lmsys/qwen-image-modelopt-nvfp4-sglang",
+    "name": "qwen-image-modelopt-nvfp4-sglang",
+    "provider": "LMSYS",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-23T02:10:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lmsys/qwen-image-modelopt-nvfp4-sglang",
+    "tags": [
+      "text-to-image",
+      "sglang",
+      "diffusers",
+      "safetensors",
+      "diffusion",
+      "modelopt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-23T05:25:23.106660+00:00",
+    "source_ids": [
+      "lmsys/qwen-image-modelopt-nvfp4-sglang"
+    ],
+    "family": "qwen-image-modelopt-nvfp4-sglang"
+  },
+  {
     "id": "huggingface:empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "provider": "empero-ai",
@@ -6312,6 +6380,41 @@
     "family": "Step-3.7-Flash-FP8"
   },
   {
+    "id": "huggingface:Jackrong/Qwopus3.6-27B-v2-FP8",
+    "name": "Qwopus3.6-27B-v2-FP8",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-23T10:55:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-23T05:25:23.901846+00:00",
+    "source_ids": [
+      "Jackrong/Qwopus3.6-27B-v2-FP8"
+    ],
+    "family": "Qwopus3.6-v2-FP8"
+  },
+  {
     "id": "huggingface:LLM-OS-Models/KoHRM-Text-1.4B",
     "name": "KoHRM-Text-1.4B",
     "provider": "LLM-OS-Models",
@@ -7161,41 +7264,6 @@
     "family": "Qwen3.6-Text-NVFP4-MTP"
   },
   {
-    "id": "huggingface:axi0mX/P1-VL-30B-A3B-GGUF",
-    "name": "P1-VL-30B-A3B-GGUF",
-    "provider": "axi0mX",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-18T16:32:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/axi0mX/P1-VL-30B-A3B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "science",
-      "physics",
-      "vision-language",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-24T05:24:01.338967+00:00",
-    "source_ids": [
-      "axi0mX/P1-VL-30B-A3B-GGUF"
-    ],
-    "family": "P1-VL"
-  },
-  {
     "id": "huggingface:samcheng0/deeplm-108m",
     "name": "deeplm-108m",
     "provider": "samcheng0",
@@ -7394,39 +7462,6 @@
       "AxisQuant/Qwen3.6-27b-gptq-int4"
     ],
     "family": "Qwen3.6--int4"
-  },
-  {
-    "id": "huggingface:axi0mX/SU-01-GGUF",
-    "name": "SU-01-GGUF",
-    "provider": "axi0mX",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-16T08:17:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/axi0mX/SU-01-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "reasoning",
-      "olympiad",
-      "mathematics",
-      "science"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-24T00:53:30.769528+00:00",
-    "source_ids": [
-      "axi0mX/SU-01-GGUF"
-    ],
-    "family": "SU-01"
   },
   {
     "id": "huggingface:kjanh/KhanhTTS-OmniVoice",
@@ -7733,6 +7768,41 @@
       "NO8D/ExpressionControl"
     ],
     "family": "ExpressionControl"
+  },
+  {
+    "id": "huggingface:Jackrong/Qwopus3.6-27B-v2",
+    "name": "Qwopus3.6-27B-v2",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T08:20:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-23T05:25:23.901886+00:00",
+    "source_ids": [
+      "Jackrong/Qwopus3.6-27B-v2"
+    ],
+    "family": "Qwopus3.6-v2"
   },
   {
     "id": "huggingface:inclusionAI/Ring-2.6-1T",
@@ -9050,41 +9120,6 @@
     "family": "Qwen3.5--Revised"
   },
   {
-    "id": "huggingface:tikushitam/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-    "name": "Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-    "provider": "tikushitam",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-02T07:21:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tikushitam/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "vision",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-24T05:24:01.339007+00:00",
-    "source_ids": [
-      "tikushitam/Qwen3.6-27B-Uncensored-HauhauCS-Balanced"
-    ],
-    "family": "Qwen3.6-Uncensored-HauhauCS-Balanced"
-  },
-  {
     "id": "huggingface:RedHatAI/Qwen3.6-27B-FP8",
     "name": "Qwen3.6-27B-FP8",
     "provider": "RedHatAI",
@@ -10394,40 +10429,6 @@
     "family": "Kimi K2.6"
   },
   {
-    "id": "huggingface:moueen/modelrepo",
-    "name": "modelrepo",
-    "provider": "moueen",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T14:58:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/moueen/modelrepo",
-    "tags": [
-      "automatic-speech-recognition",
-      "pytorch",
-      "tf",
-      "jax",
-      "safetensors",
-      "whisper"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-24T05:24:01.222357+00:00",
-    "source_ids": [
-      "moueen/modelrepo"
-    ],
-    "family": "modelrepo"
-  },
-  {
     "id": "huggingface:ziywang50/omniASR-LLM-300M",
     "name": "omniASR-LLM-300M",
     "provider": "ziywang50",
@@ -10729,41 +10730,6 @@
       "AEON-7/gemma-4-31B-it-speculator.eagle3-NVFP4"
     ],
     "family": "gemma-4-it-speculator.eagle3-NVFP4"
-  },
-  {
-    "id": "huggingface:inferencerlabs/Qwen3.6-35B-A3B-MLX-9bit",
-    "name": "Qwen3.6-35B-A3B-MLX-9bit",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T15:21:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/Qwen3.6-35B-A3B-MLX-9bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "quantized",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-24T05:24:01.338857+00:00",
-    "source_ids": [
-      "inferencerlabs/Qwen3.6-35B-A3B-MLX-9bit"
-    ],
-    "family": "Qwen3.6-MLX-9bit"
   },
   {
     "id": "huggingface:ibm-granite/granite-speech-4.1-2b-plus",
@@ -12631,6 +12597,39 @@
       "LiquidAI/LFM2.5-1.2B-JP"
     ],
     "family": "LFM2.5-JP"
+  },
+  {
+    "id": "huggingface:mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
+    "name": "gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-31T15:57:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "gemma",
+      "gemma-3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-23T05:25:22.974287+00:00",
+    "source_ids": [
+      "mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF"
+    ],
+    "family": "gemma-3-it-abliterated-refined-vision-i1"
   },
   {
     "id": "huggingface:CoRal-project/roest-v3-wav2vec2-315m",
