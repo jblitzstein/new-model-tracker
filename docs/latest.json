@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:sakana/fugu-ultra",
+    "name": "Sakana: Fugu Ultra",
+    "provider": "sakana",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-24T04:45:03+00:00",
+    "context_length": 1000000,
+    "description": "Fugu Ultra is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route...",
+    "url": "https://openrouter.ai/sakana/fugu-ultra",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 30.0
+    },
+    "first_seen": "2026-06-24T05:24:14.590810+00:00",
+    "source_ids": [
+      "sakana/fugu-ultra"
+    ],
+    "family": "Fugu Ultra"
+  },
+  {
     "id": "huggingface:lmsys/qwen-image-2512-modelopt-nvfp4-sglang",
     "name": "qwen-image-2512-modelopt-nvfp4-sglang",
     "provider": "LMSYS",
@@ -2588,6 +2619,39 @@
       "pearsonkyle/gemma-4-31B-it-awq-2bit-GGUF"
     ],
     "family": "gemma-4-it--2bit"
+  },
+  {
+    "id": "huggingface:pearsonkyle/gemma-4-31b-it-imatrix-GGUF",
+    "name": "gemma-4-31b-it-imatrix-GGUF",
+    "provider": "pearsonkyle",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T02:11:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pearsonkyle/gemma-4-31b-it-imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "text-generation",
+      "text-generation-inference",
+      "transformers"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-24T05:24:14.732952+00:00",
+    "source_ids": [
+      "pearsonkyle/gemma-4-31b-it-imatrix-GGUF"
+    ],
+    "family": "gemma-4-it-imatrix"
   },
   {
     "id": "huggingface:w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
@@ -8748,39 +8812,6 @@
       "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF"
     ],
     "family": "Qwen3.6-uncensored-heretic-Native-MTP-Preserved"
-  },
-  {
-    "id": "huggingface:meshllm/GLM-5.1-UD-Q4_K_XL-layers",
-    "name": "GLM-5.1-UD-Q4_K_XL-layers",
-    "provider": "meshllm",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T21:33:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/meshllm/GLM-5.1-UD-Q4_K_XL-layers",
-    "tags": [
-      "text-generation",
-      "mesh-llm",
-      "gguf",
-      "layer-package",
-      "skippy",
-      "distributed-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-25T00:54:35.782588+00:00",
-    "source_ids": [
-      "meshllm/GLM-5.1-UD-Q4_K_XL-layers"
-    ],
-    "family": "GLM-5.1-UD-Q4_K_XL-layers"
   },
   {
     "id": "huggingface:entrick/Security-SLM-Gemma-4-E2B-it-GGUF",
