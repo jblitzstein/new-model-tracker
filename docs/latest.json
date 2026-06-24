@@ -332,6 +332,41 @@
     "family": "Nano Banana Pro (Gemini 3 Pro Image)"
   },
   {
+    "id": "huggingface:maci0/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
+    "name": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
+    "provider": "maci0",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-18T01:42:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/maci0/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-24T16:48:00.346301+00:00",
+    "source_ids": [
+      "maci0/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4"
+    ],
+    "family": "Qwen3.6-Claude-4.6-Opus-Deckard-Heretic-Uncensored--NVFP4"
+  },
+  {
     "id": "openrouter:cohere/north-mini-code:free",
     "name": "Cohere: North Mini Code (free)",
     "provider": "Cohere",
@@ -7731,41 +7766,6 @@
     "family": "Create_Vexion-LM"
   },
   {
-    "id": "huggingface:gn00029914/Qwen3.6-27B-oQ6-fp16-mtp",
-    "name": "Qwen3.6-27B-oQ6-fp16-mtp",
-    "provider": "gn00029914",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-16T23:42:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/gn00029914/Qwen3.6-27B-oQ6-fp16-mtp",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "oq",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-25T13:15:23.204097+00:00",
-    "source_ids": [
-      "gn00029914/Qwen3.6-27B-oQ6-fp16-mtp"
-    ],
-    "family": "Qwen3.6-oQ6-fp16-mtp"
-  },
-  {
     "id": "huggingface:AxisQuant/Qwen3.6-27b-gptq-int4",
     "name": "Qwen3.6-27b-gptq-int4",
     "provider": "AxisQuant",
@@ -14389,5 +14389,39 @@
       "AI-Sweden-Models/gpt-sw3-126m"
     ],
     "family": "gpt-sw3-126m"
+  },
+  {
+    "id": "huggingface:kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+    "name": "wav2vec2-large-xls-r-300m-Urdu",
+    "provider": "kingabzpro",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2022-03-02T23:29:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-24T16:48:00.281293+00:00",
+    "source_ids": [
+      "kingabzpro/wav2vec2-large-xls-r-300m-Urdu"
+    ],
+    "family": "wav2vec2-large-xls-r-300m-Urdu"
   }
 ]
