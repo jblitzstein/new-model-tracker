@@ -400,6 +400,40 @@
     "family": "Qwen3.6-Claude-4.6-Opus-Deckard-Heretic-Uncensored--NVFP4"
   },
   {
+    "id": "huggingface:realrebelai/Boogu-Image-Turbo_GGUFs",
+    "name": "Boogu-Image-Turbo_GGUFs",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-17T20:53:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/Boogu-Image-Turbo_GGUFs",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "comfyui",
+      "text-to-image",
+      "boogu",
+      "base_model:Boogu/Boogu-Image-0.1-Turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T20:43:05.052675+00:00",
+    "source_ids": [
+      "realrebelai/Boogu-Image-Turbo_GGUFs"
+    ],
+    "family": "Boogu-Image-Turbo_GGUFs"
+  },
+  {
     "id": "openrouter:cohere/north-mini-code:free",
     "name": "Cohere: North Mini Code (free)",
     "provider": "Cohere",
@@ -1479,6 +1513,41 @@
       "llmfan46/gemma-4-31B-it-qat-q4_0-uncensored-heretic-GGUF"
     ],
     "family": "gemma-4-it-qat-q4_0-uncensored-heretic"
+  },
+  {
+    "id": "huggingface:ankurkaul17/minicpm-v-4.6-pdd-gguf",
+    "name": "minicpm-v-4.6-pdd-gguf",
+    "provider": "ankurkaul17",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-11T15:47:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ankurkaul17/minicpm-v-4.6-pdd-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "minicpm-v",
+      "multimodal",
+      "On-Device Model",
+      "lightweight"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T20:43:05.416915+00:00",
+    "source_ids": [
+      "ankurkaul17/minicpm-v-4.6-pdd-gguf"
+    ],
+    "family": "minicpm-v-4.6-pdd"
   },
   {
     "id": "huggingface:PaddlePaddle/PP-OCRv6_tiny_rec",
@@ -8049,39 +8118,6 @@
     "family": "Qwen3.6-Text-NVFP4-MTP"
   },
   {
-    "id": "huggingface:samcheng0/deeplm-108m",
-    "name": "deeplm-108m",
-    "provider": "samcheng0",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-18T13:13:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/samcheng0/deeplm-108m",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "deeplm",
-      "pytorch",
-      "bitnet"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-26T17:10:08.943532+00:00",
-    "source_ids": [
-      "samcheng0/deeplm-108m"
-    ],
-    "family": "deeplm-108m"
-  },
-  {
     "id": "huggingface:nvidia/DeepSeek-V4-Flash-NVFP4",
     "name": "DeepSeek-V4-Flash-NVFP4",
     "provider": "NVIDIA",
@@ -13826,6 +13862,40 @@
       "LiquidAI/LFM2-350M"
     ],
     "family": "LFM2-350M"
+  },
+  {
+    "id": "huggingface:bosonai/higgs-tts-2-3b-base",
+    "name": "higgs-tts-2-3b-base",
+    "provider": "bosonai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-07-01T15:45:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bosonai/higgs-tts-2-3b-base",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "higgs_audio_v2",
+      "text-to-audio",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T20:43:05.277523+00:00",
+    "source_ids": [
+      "bosonai/higgs-tts-2-3b-base"
+    ],
+    "family": "higgs-tts-2"
   },
   {
     "id": "huggingface:dphn/Dolphin-Mistral-24B-Venice-Edition",
