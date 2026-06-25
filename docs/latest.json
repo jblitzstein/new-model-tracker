@@ -1205,6 +1205,41 @@
     "family": "Kimi-K2.7-Code"
   },
   {
+    "id": "huggingface:amd/MiniMax-M3-MXFP4",
+    "name": "MiniMax-M3-MXFP4",
+    "provider": "amd",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T12:33:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amd/MiniMax-M3-MXFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minimax_m3_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134471+00:00",
+    "source_ids": [
+      "amd/MiniMax-M3-MXFP4"
+    ],
+    "family": "MiniMax-M3-MXFP4"
+  },
+  {
     "id": "openrouter:moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "Moonshot AI",
@@ -6679,6 +6714,111 @@
     "family": "MiMo-V2.5-coder-Q2"
   },
   {
+    "id": "huggingface:inferencerlabs/gemma-4-26B-A4B-MTP-MLX-Q4.5",
+    "name": "gemma-4-26B-A4B-MTP-MLX-Q4.5",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T16:39:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-26B-A4B-MTP-MLX-Q4.5",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_assistant",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134794+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-26B-A4B-MTP-MLX-Q4.5"
+    ],
+    "family": "gemma-4-MTP-MLX-Q4.5"
+  },
+  {
+    "id": "huggingface:inferencerlabs/gemma-4-26B-A4B-MTP-MLX-Q9",
+    "name": "gemma-4-26B-A4B-MTP-MLX-Q9",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T16:37:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-26B-A4B-MTP-MLX-Q9",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_assistant",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134765+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-26B-A4B-MTP-MLX-Q9"
+    ],
+    "family": "gemma-4-MTP-MLX-Q9"
+  },
+  {
+    "id": "huggingface:inferencerlabs/gemma-4-26B-A4B-MTP-MLX",
+    "name": "gemma-4-26B-A4B-MTP-MLX",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T16:36:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-26B-A4B-MTP-MLX",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_assistant",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134738+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-26B-A4B-MTP-MLX"
+    ],
+    "family": "gemma-4-MTP-MLX"
+  },
+  {
     "id": "huggingface:OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destilled-abliterated-NVFP4",
     "name": "Qwopus3.5-122B-A10B-Kimi-K2.6-destilled-abliterated-NVFP4",
     "provider": "OpenYourMind",
@@ -6747,6 +6887,216 @@
       "osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-OptiQ-3.7bpw-mlx"
     ],
     "family": "osmQwopus-3.6-V2-abliterated-uncensored-OptiQ-3.7bpw-mlx"
+  },
+  {
+    "id": "huggingface:inferencerlabs/gemma-4-31B-MTP-MLX-Q4.5",
+    "name": "gemma-4-31B-MTP-MLX-Q4.5",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T05:05:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-31B-MTP-MLX-Q4.5",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_assistant",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134704+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-31B-MTP-MLX-Q4.5"
+    ],
+    "family": "gemma-4-MTP-MLX-Q4.5"
+  },
+  {
+    "id": "huggingface:inferencerlabs/gemma-4-31B-MTP-MLX-Q9",
+    "name": "gemma-4-31B-MTP-MLX-Q9",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T04:58:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-31B-MTP-MLX-Q9",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_assistant",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134674+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-31B-MTP-MLX-Q9"
+    ],
+    "family": "gemma-4-MTP-MLX-Q9"
+  },
+  {
+    "id": "huggingface:inferencerlabs/gemma-4-31B-MTP-MLX",
+    "name": "gemma-4-31B-MTP-MLX",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T04:41:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/gemma-4-31B-MTP-MLX",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_assistant",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134645+00:00",
+    "source_ids": [
+      "inferencerlabs/gemma-4-31B-MTP-MLX"
+    ],
+    "family": "gemma-4-MTP-MLX"
+  },
+  {
+    "id": "huggingface:inferencerlabs/Qwen3.6-35B-A3B-MTP-MLX-Q9",
+    "name": "Qwen3.6-35B-A3B-MTP-MLX-Q9",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T00:31:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/Qwen3.6-35B-A3B-MTP-MLX-Q9",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_mtp",
+      "quantized",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134614+00:00",
+    "source_ids": [
+      "inferencerlabs/Qwen3.6-35B-A3B-MTP-MLX-Q9"
+    ],
+    "family": "Qwen3.6-MTP-MLX-Q9"
+  },
+  {
+    "id": "huggingface:inferencerlabs/Qwen3.6-27B-MTP-MLX-Q9",
+    "name": "Qwen3.6-27B-MTP-MLX-Q9",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-23T17:31:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/Qwen3.6-27B-MTP-MLX-Q9",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_mtp",
+      "quantized",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134578+00:00",
+    "source_ids": [
+      "inferencerlabs/Qwen3.6-27B-MTP-MLX-Q9"
+    ],
+    "family": "Qwen3.6-MTP-MLX-Q9"
+  },
+  {
+    "id": "huggingface:inferencerlabs/Qwen3.6-27B-MTP-MLX",
+    "name": "Qwen3.6-27B-MTP-MLX",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-23T16:57:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/Qwen3.6-27B-MTP-MLX",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_mtp",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.134544+00:00",
+    "source_ids": [
+      "inferencerlabs/Qwen3.6-27B-MTP-MLX"
+    ],
+    "family": "Qwen3.6-MTP-MLX"
   },
   {
     "id": "huggingface:XReyRobert/Qwopus3.6-27B-v2-GPTQ-Pro-v1",
@@ -10962,6 +11312,40 @@
       "ibm-granite/granite-speech-4.1-2b-plus"
     ],
     "family": "granite-speech-4.1-plus"
+  },
+  {
+    "id": "huggingface:sbintuitions/sarashina2.2-tts",
+    "name": "sarashina2.2-tts",
+    "provider": "sbintuitions",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-16T00:53:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sbintuitions/sarashina2.2-tts",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "llama",
+      "text-to-speech",
+      "tts",
+      "japanese-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T05:25:04.005731+00:00",
+    "source_ids": [
+      "sbintuitions/sarashina2.2-tts"
+    ],
+    "family": "sarashina2.2-tts"
   },
   {
     "id": "huggingface:zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
