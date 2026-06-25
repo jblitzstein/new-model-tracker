@@ -167,6 +167,39 @@
     "family": "UltraThinker-Coder"
   },
   {
+    "id": "huggingface:0xSero/GLM-5.2-504B",
+    "name": "GLM-5.2-504B",
+    "provider": "0xSero",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-21T06:18:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xSero/GLM-5.2-504B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "glm_moe_dsa",
+      "moe",
+      "reap",
+      "pruning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T16:49:40.245268+00:00",
+    "source_ids": [
+      "0xSero/GLM-5.2-504B"
+    ],
+    "family": "GLM-5.2"
+  },
+  {
     "id": "huggingface:DJLougen/Qwable-5-27B-Coder-GGUF",
     "name": "Qwable-5-27B-Coder-GGUF",
     "provider": "DJLougen",
@@ -2757,6 +2790,39 @@
     "family": "gemma-4-it-imatrix"
   },
   {
+    "id": "huggingface:pearsonkyle/gemma-4-31b-imatrix-GGUF",
+    "name": "gemma-4-31b-imatrix-GGUF",
+    "provider": "pearsonkyle",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T02:11:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pearsonkyle/gemma-4-31b-imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "text-generation",
+      "text-generation-inference",
+      "transformers"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T16:49:40.245214+00:00",
+    "source_ids": [
+      "pearsonkyle/gemma-4-31b-imatrix-GGUF"
+    ],
+    "family": "gemma-4-imatrix"
+  },
+  {
     "id": "huggingface:w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
     "name": "LFM2.5-8B-A1B-GGUF-MoQ",
     "provider": "w-ahmad",
@@ -3764,6 +3830,40 @@
       "bosonai/higgs-tts-v3-4b"
     ],
     "family": "higgs-tts-v3"
+  },
+  {
+    "id": "huggingface:bosonai/higgs-tts-3-4b",
+    "name": "higgs-tts-3-4b",
+    "provider": "bosonai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-04T05:37:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bosonai/higgs-tts-3-4b",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "higgs_multimodal_qwen3",
+      "text-generation",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T16:49:40.587943+00:00",
+    "source_ids": [
+      "bosonai/higgs-tts-3-4b"
+    ],
+    "family": "higgs-tts-3"
   },
   {
     "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -8488,39 +8588,6 @@
     "family": "Ring-2.6-1T"
   },
   {
-    "id": "huggingface:dreamiii0406/evolai-0p47b-v1",
-    "name": "evolai-0p47b-v1",
-    "provider": "dreamiii0406",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T15:55:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dreamiii0406/evolai-0p47b-v1",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-26T13:06:47.744344+00:00",
-    "source_ids": [
-      "dreamiii0406/evolai-0p47b-v1"
-    ],
-    "family": "evolai-0p-v1"
-  },
-  {
     "id": "huggingface:tekkmaven/flint-1.2B",
     "name": "flint-1.2B",
     "provider": "tekkmaven",
@@ -10271,6 +10338,41 @@
     "family": "Huihui-Qwen3.6-abliterated-FP8-DYNAMIC"
   },
   {
+    "id": "huggingface:RedHatAI/Qwen3.6-35B-A3B-FP8-dynamic",
+    "name": "Qwen3.6-35B-A3B-FP8-dynamic",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T22:31:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-FP8-dynamic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-25T16:49:40.728877+00:00",
+    "source_ids": [
+      "RedHatAI/Qwen3.6-35B-A3B-FP8-dynamic"
+    ],
+    "family": "Qwen3.6-FP8-dynamic"
+  },
+  {
     "id": "huggingface:cstr/mimo-asr-GGUF",
     "name": "mimo-asr-GGUF",
     "provider": "cstr",
@@ -11110,39 +11212,6 @@
       "prism-ml/Ternary-Bonsai-1.7B-gguf"
     ],
     "family": "Ternary-Bonsai"
-  },
-  {
-    "id": "huggingface:fraQtl/Qwen3.6-35B-A3B-compressed",
-    "name": "Qwen3.6-35B-A3B-compressed",
-    "provider": "fraQtl",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-17T15:54:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fraQtl/Qwen3.6-35B-A3B-compressed",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe_text",
-      "compressed",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-26T13:06:47.744512+00:00",
-    "source_ids": [
-      "fraQtl/Qwen3.6-35B-A3B-compressed"
-    ],
-    "family": "Qwen3.6-compressed"
   },
   {
     "id": "huggingface:cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
