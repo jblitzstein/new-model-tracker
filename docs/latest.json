@@ -2232,6 +2232,41 @@
     "family": "PP-OCRv6_medium_det"
   },
   {
+    "id": "huggingface:vectionlabs/Salience-1-9B",
+    "name": "Salience-1-9B",
+    "provider": "vectionlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T12:34:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vectionlabs/Salience-1-9B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-26T20:37:30.128758+00:00",
+    "source_ids": [
+      "vectionlabs/Salience-1-9B"
+    ],
+    "family": "Salience-1"
+  },
+  {
     "id": "huggingface:yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
     "name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
     "provider": "yuxinlu1",
@@ -2730,6 +2765,41 @@
       "Arki05/BLS-Mini-Code-1.0-GGUF"
     ],
     "family": "BLS-Mini-Code-1.0"
+  },
+  {
+    "id": "huggingface:vectionlabs/Maestro1-9B",
+    "name": "Maestro1-9B",
+    "provider": "vectionlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-07T18:23:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vectionlabs/Maestro1-9B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-26T20:37:30.128704+00:00",
+    "source_ids": [
+      "vectionlabs/Maestro1-9B"
+    ],
+    "family": "Maestro1"
   },
   {
     "id": "huggingface:DeverStyle/Ideogram-4.0-Loras",
@@ -14892,6 +14962,74 @@
       "Riksarkivet/trocr-base-handwritten-hist-swe-2"
     ],
     "family": "trocr--handwritten-hist-swe-2"
+  },
+  {
+    "id": "huggingface:nvidia/parakeet-rnnt-0.6b",
+    "name": "parakeet-rnnt-0.6b",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-12-28T15:36:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/parakeet-rnnt-0.6b",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "parakeet_rnnt",
+      "feature-extraction",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-26T20:37:30.040675+00:00",
+    "source_ids": [
+      "nvidia/parakeet-rnnt-0.6b"
+    ],
+    "family": "parakeet-rnnt"
+  },
+  {
+    "id": "huggingface:nvidia/parakeet-rnnt-1.1b",
+    "name": "parakeet-rnnt-1.1b",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-12-27T23:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/parakeet-rnnt-1.1b",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "parakeet_rnnt",
+      "feature-extraction",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-26T20:37:30.040614+00:00",
+    "source_ids": [
+      "nvidia/parakeet-rnnt-1.1b"
+    ],
+    "family": "parakeet-rnnt"
   },
   {
     "id": "huggingface:JackFram/llama-68m",
