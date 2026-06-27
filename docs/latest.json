@@ -740,6 +740,40 @@
     "family": "Unlimited-OCR"
   },
   {
+    "id": "huggingface:contextboxai/Kokoro-Vietnamese",
+    "name": "Kokoro-Vietnamese",
+    "provider": "contextboxai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-19T08:08:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/contextboxai/Kokoro-Vietnamese",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "kokoro",
+      "vietnamese",
+      "text-to-speech",
+      "vi"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T16:27:27.200920+00:00",
+    "source_ids": [
+      "contextboxai/Kokoro-Vietnamese"
+    ],
+    "family": "Kokoro-Vietnamese"
+  },
+  {
     "id": "openrouter:google/gemini-3.1-flash-image",
     "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
     "provider": "Google",
@@ -5118,6 +5152,39 @@
     "family": "gemma-4-it-4bit"
   },
   {
+    "id": "huggingface:sKT-Ai-Labs/SKT-ST-X-0-3B",
+    "name": "SKT-ST-X-0-3B",
+    "provider": "sKT-Ai-Labs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T15:46:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sKT-Ai-Labs/SKT-ST-X-0-3B",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "mixtral",
+      "moe",
+      "slm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T16:27:26.634216+00:00",
+    "source_ids": [
+      "sKT-Ai-Labs/SKT-ST-X-0-3B"
+    ],
+    "family": "SKT-ST-X-0"
+  },
+  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
     "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
     "provider": "NVIDIA",
@@ -7466,6 +7533,40 @@
     "family": "osmQwopus-3.6-V2-abliterated-uncensored-8-bit"
   },
   {
+    "id": "huggingface:AutoArk-AI/ARK-ASR-0.6B",
+    "name": "ARK-ASR-0.6B",
+    "provider": "AutoArk-AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-25T04:33:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AutoArk-AI/ARK-ASR-0.6B",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "arkasr",
+      "text-generation",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T16:27:27.311278+00:00",
+    "source_ids": [
+      "AutoArk-AI/ARK-ASR-0.6B"
+    ],
+    "family": "ARK-ASR"
+  },
+  {
     "id": "huggingface:LiquidAI/LFM2.5-8B-A1B-GGUF",
     "name": "LFM2.5-8B-A1B-GGUF",
     "provider": "LiquidAI",
@@ -9640,41 +9741,6 @@
       "selorahomes/Selora-AI"
     ],
     "family": "Selora-AI"
-  },
-  {
-    "id": "huggingface:llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
-    "name": "Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T22:19:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3_5_moe",
-      "qwen3_5",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T13:21:10.496934+00:00",
-    "source_ids": [
-      "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF"
-    ],
-    "family": "Qwen3.6-uncensored-heretic-Native-MTP-Preserved"
   },
   {
     "id": "huggingface:EPFLiGHT/Apertus-70B-MeditronFO",
@@ -12137,111 +12203,6 @@
     "family": "Gemma-4-it-Uncensored-NVFP4"
   },
   {
-    "id": "huggingface:dnotitia/DNA3.0-122B-A10B",
-    "name": "DNA3.0-122B-A10B",
-    "provider": "dnotitia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T15:37:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dnotitia/DNA3.0-122B-A10B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T13:21:10.497068+00:00",
-    "source_ids": [
-      "dnotitia/DNA3.0-122B-A10B"
-    ],
-    "family": "DNA3.0"
-  },
-  {
-    "id": "huggingface:dnotitia/DNA3.0-35B-A3B",
-    "name": "DNA3.0-35B-A3B",
-    "provider": "dnotitia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T15:37:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dnotitia/DNA3.0-35B-A3B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T13:21:10.497261+00:00",
-    "source_ids": [
-      "dnotitia/DNA3.0-35B-A3B"
-    ],
-    "family": "DNA3.0"
-  },
-  {
-    "id": "huggingface:infly/Infinity-Parser2-Pro",
-    "name": "Infinity-Parser2-Pro",
-    "provider": "infly",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T12:28:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/infly/Infinity-Parser2-Pro",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "ocr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T13:21:10.497096+00:00",
-    "source_ids": [
-      "infly/Infinity-Parser2-Pro"
-    ],
-    "family": "Infinity-Parser2-Pro"
-  },
-  {
     "id": "huggingface:cstr/canary-1b-v2-GGUF",
     "name": "canary-1b-v2-GGUF",
     "provider": "cstr",
@@ -12656,41 +12617,6 @@
     "family": "Qwen3-ASR-fp8"
   },
   {
-    "id": "huggingface:Doses-AI/boba-0.8b-food-GGUF",
-    "name": "boba-0.8b-food-GGUF",
-    "provider": "Doses-AI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-27T03:41:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Doses-AI/boba-0.8b-food-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "food",
-      "nutrition",
-      "vision",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T13:21:10.497130+00:00",
-    "source_ids": [
-      "Doses-AI/boba-0.8b-food-GGUF"
-    ],
-    "family": "boba-food"
-  },
-  {
     "id": "huggingface:datalab-to/chandra-ocr-2",
     "name": "chandra-ocr-2",
     "provider": "datalab-to",
@@ -12724,39 +12650,6 @@
       "datalab-to/chandra-ocr-2"
     ],
     "family": "chandra-ocr-2"
-  },
-  {
-    "id": "huggingface:nishantup/nanogpt-pretrained-slm-tinystories-124m",
-    "name": "nanogpt-pretrained-slm-tinystories-124m",
-    "provider": "nishantup",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-14T05:00:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nishantup/nanogpt-pretrained-slm-tinystories-124m",
-    "tags": [
-      "text-generation",
-      "pretrained (base)",
-      "pytorch",
-      "nanogpt",
-      "language-model",
-      "from-scratch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T13:21:10.064518+00:00",
-    "source_ids": [
-      "nishantup/nanogpt-pretrained-slm-tinystories-124m"
-    ],
-    "family": "nanogpt-pretrained-slm-tinystories-124m"
   },
   {
     "id": "huggingface:prithivMLmods/Gliese-Qwen3.5-0.8B-Abliterated-Caption",
@@ -13066,41 +12959,6 @@
       "cyankiwi/Qwen3.5-122B-A10B-AWQ-8bit"
     ],
     "family": "Qwen3.5--8bit"
-  },
-  {
-    "id": "huggingface:infly/Infinity-Parser2-Flash",
-    "name": "Infinity-Parser2-Flash",
-    "provider": "infly",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-27T07:54:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/infly/Infinity-Parser2-Flash",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "ocr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T13:21:10.497034+00:00",
-    "source_ids": [
-      "infly/Infinity-Parser2-Flash"
-    ],
-    "family": "Infinity-Parser2-Flash"
   },
   {
     "id": "huggingface:vectionlabs/VL-1-Coder",
