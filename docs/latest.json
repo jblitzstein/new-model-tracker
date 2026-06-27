@@ -507,6 +507,39 @@
     "family": "Gemma4-QAT-Uncensored-HauhauCS-Balanced"
   },
   {
+    "id": "huggingface:brandonmusic/GLM-5.2-NVFP4-REAP-Recall-N172",
+    "name": "GLM-5.2-NVFP4-REAP-Recall-N172",
+    "provider": "brandonmusic",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-21T22:47:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/brandonmusic/GLM-5.2-NVFP4-REAP-Recall-N172",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "glm_moe_dsa",
+      "text-generation",
+      "reap"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T12:32:47.587928+00:00",
+    "source_ids": [
+      "brandonmusic/GLM-5.2-NVFP4-REAP-Recall-N172"
+    ],
+    "family": "GLM-5.2-NVFP4-REAP-Recall-N172"
+  },
+  {
     "id": "huggingface:AyaanAhmed123/UltraThinker-Coder-3B",
     "name": "UltraThinker-Coder-3B",
     "provider": "AyaanAhmed123",
@@ -1710,6 +1743,39 @@
       "mlx-community/MiniMax-M3-4bit"
     ],
     "family": "MiniMax-M3-4bit"
+  },
+  {
+    "id": "huggingface:jica98/qwen3.5-4B-super-coder",
+    "name": "qwen3.5-4B-super-coder",
+    "provider": "jica98",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-13T04:17:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jica98/qwen3.5-4B-super-coder",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "coding",
+      "tool-calling"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T12:32:47.587998+00:00",
+    "source_ids": [
+      "jica98/qwen3.5-4B-super-coder"
+    ],
+    "family": "qwen3.5-super-coder"
   },
   {
     "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-OptiQ-4bit",
@@ -6648,39 +6714,6 @@
     "family": "Claude Opus 4.8 (Fast)"
   },
   {
-    "id": "huggingface:RemySkye/MiniCPM5-1B-i1-GGUF",
-    "name": "MiniCPM5-1B-i1-GGUF",
-    "provider": "RemySkye",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T20:14:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RemySkye/MiniCPM5-1B-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "minicpm",
-      "minicpm5",
-      "llama",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T09:21:03.166771+00:00",
-    "source_ids": [
-      "RemySkye/MiniCPM5-1B-i1-GGUF"
-    ],
-    "family": "MiniCPM5-i1"
-  },
-  {
     "id": "openrouter:anthropic/claude-opus-4.8",
     "name": "Anthropic: Claude Opus 4.8",
     "provider": "Anthropic",
@@ -6712,74 +6745,6 @@
       "anthropic/claude-opus-4.8"
     ],
     "family": "Claude Opus 4.8"
-  },
-  {
-    "id": "huggingface:AgentAnon/biglove-klein2",
-    "name": "biglove-klein2",
-    "provider": "AgentAnon",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-05-27T16:15:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AgentAnon/biglove-klein2",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "gguf",
-      "flux",
-      "flux2",
-      "flux-klein"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T09:21:03.241590+00:00",
-    "source_ids": [
-      "AgentAnon/biglove-klein2"
-    ],
-    "family": "biglove-klein2"
-  },
-  {
-    "id": "huggingface:smkrv/whisper-podlodka-turbo-coreml",
-    "name": "whisper-podlodka-turbo-coreml",
-    "provider": "smkrv",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T13:47:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/smkrv/whisper-podlodka-turbo-coreml",
-    "tags": [
-      "automatic-speech-recognition",
-      "whisperkit",
-      "whisper",
-      "coreml",
-      "mlprogram",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T09:21:03.583498+00:00",
-    "source_ids": [
-      "smkrv/whisper-podlodka-turbo-coreml"
-    ],
-    "family": "whisper-podlodka-turbo-coreml"
   },
   {
     "id": "huggingface:Lazarus-Ai/ReAligned-Qwen3.5-35B-A3B-GGUF",
@@ -7153,40 +7118,6 @@
       "nishantup/nanogpt-rlvr-slm-tinystories-124m"
     ],
     "family": "nanogpt-rlvr-slm-tinystories-124m"
-  },
-  {
-    "id": "huggingface:suleimanelkhoury/Voxtral-Mini-4B-Realtime-2602",
-    "name": "Voxtral-Mini-4B-Realtime-2602",
-    "provider": "suleimanelkhoury",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-26T14:35:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/suleimanelkhoury/Voxtral-Mini-4B-Realtime-2602",
-    "tags": [
-      "automatic-speech-recognition",
-      "vllm",
-      "safetensors",
-      "voxtral_realtime",
-      "mistral-common",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T09:21:03.583550+00:00",
-    "source_ids": [
-      "suleimanelkhoury/Voxtral-Mini-4B-Realtime-2602"
-    ],
-    "family": "Voxtral-Mini-Realtime-2602"
   },
   {
     "id": "huggingface:SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF",
@@ -8423,41 +8354,6 @@
       "SupraLabs/Supra-50M-Instruct"
     ],
     "family": "Supra-50M"
-  },
-  {
-    "id": "huggingface:Qwen/Qwen-Image-Bench",
-    "name": "Qwen-Image-Bench",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-21T04:15:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen-Image-Bench",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "judge-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T09:21:03.656183+00:00",
-    "source_ids": [
-      "Qwen/Qwen-Image-Bench"
-    ],
-    "family": "Qwen-Image-Bench"
   },
   {
     "id": "huggingface:cocktailpeanut/stable-audio-3-small-music",
@@ -12010,39 +11906,6 @@
     "family": "gemma-4-E-it-fp8"
   },
   {
-    "id": "huggingface:flwrlabs/Lizzy-7B",
-    "name": "Lizzy-7B",
-    "provider": "flwrlabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-14T14:55:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/flwrlabs/Lizzy-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lizzy",
-      "text-generation",
-      "lizzy-7b"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T09:21:03.166702+00:00",
-    "source_ids": [
-      "flwrlabs/Lizzy-7B"
-    ],
-    "family": "Lizzy"
-  },
-  {
     "id": "huggingface:amd/MiniMax-M2.7-MXFP4",
     "name": "MiniMax-M2.7-MXFP4",
     "provider": "amd",
@@ -13607,39 +13470,6 @@
       "typhoon-ai/typhoon-whisper-large-v3"
     ],
     "family": "typhoon-whisper-large-v3"
-  },
-  {
-    "id": "huggingface:VLTX/VertaLily-1.2-1B-GGUF",
-    "name": "VertaLily-1.2-1B-GGUF",
-    "provider": "VLTX",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-07T07:43:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/VLTX/VertaLily-1.2-1B-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "vltx",
-      "sovereign",
-      "techina-x"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T09:21:03.166741+00:00",
-    "source_ids": [
-      "VLTX/VertaLily-1.2-1B-GGUF"
-    ],
-    "family": "VertaLily-1.2"
   },
   {
     "id": "huggingface:McGill-NLP/AfriqueQwen-14B",
