@@ -439,6 +439,39 @@
     "family": "GLM-5.2-NVFP4"
   },
   {
+    "id": "huggingface:nerkyor/Qwen3.6-27B-DSV4Pro-Thinking-Distill",
+    "name": "Qwen3.6-27B-DSV4Pro-Thinking-Distill",
+    "provider": "nerkyor",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-22T16:16:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nerkyor/Qwen3.6-27B-DSV4Pro-Thinking-Distill",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "qwen3",
+      "dense"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T08:59:27.270450+00:00",
+    "source_ids": [
+      "nerkyor/Qwen3.6-27B-DSV4Pro-Thinking-Distill"
+    ],
+    "family": "Qwen3.6-DSV4Pro--Distill"
+  },
+  {
     "id": "huggingface:HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
     "name": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
     "provider": "HauhauCS",
@@ -1099,6 +1132,40 @@
     "family": "GLM-5.2"
   },
   {
+    "id": "huggingface:FastVideo/FastWan-QAD-1.3B",
+    "name": "FastWan-QAD-1.3B",
+    "provider": "FastVideo",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-06-16T07:30:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FastVideo/FastWan-QAD-1.3B",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "text-to-video",
+      "arxiv:2603.00040",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T08:59:27.609903+00:00",
+    "source_ids": [
+      "FastVideo/FastWan-QAD-1.3B"
+    ],
+    "family": "FastWan-QAD"
+  },
+  {
     "id": "huggingface:zai-org/GLM-5.2-FP8",
     "name": "GLM-5.2-FP8",
     "provider": "zai-org",
@@ -1538,6 +1605,41 @@
       "inferencerlabs/Kimi-K2.7-Code-MLX-3.5bit-INF"
     ],
     "family": "Kimi-K2.7-Code-MLX-3.5bit-INF"
+  },
+  {
+    "id": "huggingface:inferencerlabs/Kimi-K2.7-Code-MLX-Q3.5-INF",
+    "name": "Kimi-K2.7-Code-MLX-Q3.5-INF",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-13T14:14:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/Kimi-K2.7-Code-MLX-Q3.5-INF",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "kimi_k25",
+      "quantized",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T08:59:28.062040+00:00",
+    "source_ids": [
+      "inferencerlabs/Kimi-K2.7-Code-MLX-Q3.5-INF"
+    ],
+    "family": "Kimi-K2.7-Code-MLX-Q3.5-INF"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-27B-Coder-FP8",
@@ -8020,41 +8122,6 @@
     "family": "KoHRM-Text"
   },
   {
-    "id": "huggingface:Jackrong/Qwopus3.6-35B-A3B-v1-MTP-GGUF",
-    "name": "Qwopus3.6-35B-A3B-v1-MTP-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-23T07:13:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T05:29:31.826142+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-35B-A3B-v1-MTP-GGUF"
-    ],
-    "family": "Qwopus3.6-v1-MTP"
-  },
-  {
     "id": "huggingface:stepfun-ai/Step-3.7-Flash",
     "name": "Step-3.7-Flash",
     "provider": "stepfun-ai",
@@ -8356,41 +8423,6 @@
       "SupraLabs/Supra-50M-Instruct"
     ],
     "family": "Supra-50M"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
-    "name": "Qwopus3.6-27B-v2-MTP-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-21T06:37:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T05:29:31.826111+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF"
-    ],
-    "family": "Qwopus3.6-v2-MTP"
   },
   {
     "id": "huggingface:Qwen/Qwen-Image-Bench",
@@ -8833,39 +8865,6 @@
       "DZER-Studios/Create_Vexion-LM"
     ],
     "family": "Create_Vexion-LM"
-  },
-  {
-    "id": "huggingface:AxisQuant/Qwen3.6-27b-gptq-int4",
-    "name": "Qwen3.6-27b-gptq-int4",
-    "provider": "AxisQuant",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-16T11:17:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AxisQuant/Qwen3.6-27b-gptq-int4",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T05:29:31.352078+00:00",
-    "source_ids": [
-      "AxisQuant/Qwen3.6-27b-gptq-int4"
-    ],
-    "family": "Qwen3.6--int4"
   },
   {
     "id": "huggingface:kjanh/KhanhTTS-OmniVoice",
