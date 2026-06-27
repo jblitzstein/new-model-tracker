@@ -169,6 +169,39 @@
     "family": "ultragemma4-e-heretic-uncensored"
   },
   {
+    "id": "huggingface:jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
+    "name": "Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
+    "provider": "jashepp",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-25T10:45:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T20:27:16.648161+00:00",
+    "source_ids": [
+      "jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF"
+    ],
+    "family": "Qwable-v1-MXFP4_MOE_Hybrid-Imatrix"
+  },
+  {
     "id": "huggingface:prithivMLmods/ultragemma4-12b-heretic-uncensored",
     "name": "ultragemma4-12b-heretic-uncensored",
     "provider": "prithivMLmods",
@@ -301,6 +334,40 @@
       "jashepp/Equinox-31B-i1-MXFP4-GGUF"
     ],
     "family": "Equinox-i1-MXFP4"
+  },
+  {
+    "id": "huggingface:vantagewithai/Krea-2",
+    "name": "Krea-2",
+    "provider": "vantagewithai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-23T11:25:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vantagewithai/Krea-2",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "en",
+      "base_model:krea/Krea-2-Raw",
+      "base_model:finetune:krea/Krea-2-Raw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T20:27:16.732947+00:00",
+    "source_ids": [
+      "vantagewithai/Krea-2"
+    ],
+    "family": "Krea-2"
   },
   {
     "id": "huggingface:lmsys/qwen-image-2512-modelopt-nvfp4-sglang",
@@ -2293,6 +2360,39 @@
       "morikomorizz/Nex-N2-Pro-MTP-GGUF-Experimental"
     ],
     "family": "Nex-N2-Pro-MTP--Experimental"
+  },
+  {
+    "id": "huggingface:morikomorizz/Nex-N2-Pro-MTP-GGUF",
+    "name": "Nex-N2-Pro-MTP-GGUF",
+    "provider": "morikomorizz",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T22:54:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/morikomorizz/Nex-N2-Pro-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T20:27:16.648441+00:00",
+    "source_ids": [
+      "morikomorizz/Nex-N2-Pro-MTP-GGUF"
+    ],
+    "family": "Nex-N2-Pro-MTP"
   },
   {
     "id": "huggingface:nvidia/diffusiongemma-26B-A4B-it-NVFP4",
@@ -6748,72 +6848,6 @@
     "family": "LFM2.5-MLX-4bit"
   },
   {
-    "id": "openrouter:anthropic/claude-opus-4.8-fast",
-    "name": "Anthropic: Claude Opus 4.8 (Fast)",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T20:28:23+00:00",
-    "context_length": 1000000,
-    "description": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-    "url": "https://openrouter.ai/anthropic/claude-opus-4.8-fast",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 10.0,
-      "completion_per_million": 50.0
-    },
-    "first_seen": "2026-05-28T17:19:58.230963+00:00",
-    "source_ids": [
-      "anthropic/claude-opus-4.8-fast"
-    ],
-    "family": "Claude Opus 4.8 (Fast)"
-  },
-  {
-    "id": "openrouter:anthropic/claude-opus-4.8",
-    "name": "Anthropic: Claude Opus 4.8",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T18:04:51+00:00",
-    "context_length": 1000000,
-    "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
-    "url": "https://openrouter.ai/anthropic/claude-opus-4.8",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 5.0,
-      "completion_per_million": 25.0
-    },
-    "first_seen": "2026-05-28T17:19:58.231963+00:00",
-    "source_ids": [
-      "anthropic/claude-opus-4.8"
-    ],
-    "family": "Claude Opus 4.8"
-  },
-  {
     "id": "huggingface:Lazarus-Ai/ReAligned-Qwen3.5-35B-A3B-GGUF",
     "name": "ReAligned-Qwen3.5-35B-A3B-GGUF",
     "provider": "Lazarus-Ai",
@@ -9370,39 +9404,6 @@
     "family": "Fusion"
   },
   {
-    "id": "huggingface:cs-552-2026-middle-west/math_model",
-    "name": "math_model",
-    "provider": "cs-552-2026-middle-west",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T14:42:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cs-552-2026-middle-west/math_model",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T17:19:58.320405+00:00",
-    "source_ids": [
-      "cs-552-2026-middle-west/math_model"
-    ],
-    "family": "math_model"
-  },
-  {
     "id": "huggingface:codeShare/FLUX.2-klein-9b-SDNQ-4bit",
     "name": "FLUX.2-klein-9b-SDNQ-4bit",
     "provider": "codeShare",
@@ -10987,39 +10988,6 @@
       "cstr/mimo-asr-GGUF"
     ],
     "family": "mimo-asr"
-  },
-  {
-    "id": "huggingface:inferencerlabs/DeepSeek-V4-Flash-MLX-9bit",
-    "name": "DeepSeek-V4-Flash-MLX-9bit",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-27T02:11:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4-Flash-MLX-9bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "deepseek_v4",
-      "quantized",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-28T17:19:58.320090+00:00",
-    "source_ids": [
-      "inferencerlabs/DeepSeek-V4-Flash-MLX-9bit"
-    ],
-    "family": "DeepSeek-V4-Flash-MLX-9bit"
   },
   {
     "id": "huggingface:teolm30/Fox-1.5-Nova",
@@ -13260,6 +13228,39 @@
       "furiosa-ai/EXAONE-4.0-32B-FP8"
     ],
     "family": "EXAONE-4.0-FP8"
+  },
+  {
+    "id": "huggingface:furiosa-ai/Qwen2.5-0.5B-Instruct",
+    "name": "Qwen2.5-0.5B-Instruct",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-22T00:24:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/Qwen2.5-0.5B-Instruct",
+    "tags": [
+      "text-generation",
+      "furiosa-llm",
+      "safetensors",
+      "qwen2",
+      "furiosa-ai",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-27T20:27:16.648024+00:00",
+    "source_ids": [
+      "furiosa-ai/Qwen2.5-0.5B-Instruct"
+    ],
+    "family": "Qwen2.5"
   },
   {
     "id": "huggingface:CoRal-project/roest-v3-whisper-1.5b",
