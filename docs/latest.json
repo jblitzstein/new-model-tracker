@@ -6951,41 +6951,6 @@
     "family": "Qwen3.5-Medical-GSPO"
   },
   {
-    "id": "huggingface:PaddlePaddle/PaddleOCR-VL-1.6",
-    "name": "PaddleOCR-VL-1.6",
-    "provider": "PaddlePaddle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T06:27:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
-    "tags": [
-      "image-text-to-text",
-      "PaddleOCR",
-      "safetensors",
-      "paddleocr_vl",
-      "ERNIE4.5",
-      "PaddlePaddle"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-29T13:12:30.544723+00:00",
-    "source_ids": [
-      "PaddlePaddle/PaddleOCR-VL-1.6"
-    ],
-    "family": "PaddleOCR-VL-1.6"
-  },
-  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
     "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
     "provider": "NVIDIA",
@@ -7256,6 +7221,41 @@
       "moofeez/qwen3-coder-30b-a3b-debugger-rft"
     ],
     "family": "qwen3-coder-debugger-rft"
+  },
+  {
+    "id": "huggingface:philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16-AWQ",
+    "name": "Qwen3.6-40B-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16-AWQ",
+    "provider": "philbert440",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-25T21:47:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-28T16:29:52.314477+00:00",
+    "source_ids": [
+      "philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16-AWQ"
+    ],
+    "family": "Qwen3.6-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16"
   },
   {
     "id": "huggingface:MRockatansky/Gemma-4-31B-storymaxxed2-GGUF",
@@ -8186,6 +8186,41 @@
       "software-mansion/react-native-executorch-gemma-4"
     ],
     "family": "react-native-executorch-gemma-4"
+  },
+  {
+    "id": "huggingface:philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ",
+    "name": "Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ",
+    "provider": "philbert440",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T23:07:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-28T16:29:52.314555+00:00",
+    "source_ids": [
+      "philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ"
+    ],
+    "family": "Qwen3.6-DeckardUncensored-OpusDistilled-W4A16"
   },
   {
     "id": "huggingface:smithblack-0/SHRAM-dev",
