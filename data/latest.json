@@ -66,6 +66,39 @@
     "family": "DeepSeek-V4-Flash-DSpark"
   },
   {
+    "id": "huggingface:s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF",
+    "name": "Ornith-1.0-35B-NVFP4-MTP-GGUF",
+    "provider": "s-batman",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-26T16:35:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "safetensors",
+      "gguf",
+      "qwen3_5_moe",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-29T00:57:43.717663+00:00",
+    "source_ids": [
+      "s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF"
+    ],
+    "family": "Ornith-1.0-NVFP4-MTP"
+  },
+  {
     "id": "huggingface:Qwen/Qwen3-ASR-0.6B-hf",
     "name": "Qwen3-ASR-0.6B-hf",
     "provider": "Qwen",
@@ -8089,39 +8122,6 @@
     "family": "KoHRM-Text"
   },
   {
-    "id": "huggingface:canada-quant/DeepSeek-V4-Flash-W4A16-FP8-MTP",
-    "name": "DeepSeek-V4-Flash-W4A16-FP8-MTP",
-    "provider": "canada-quant",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-22T18:09:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/canada-quant/DeepSeek-V4-Flash-W4A16-FP8-MTP",
-    "tags": [
-      "text-generation",
-      "vllm",
-      "safetensors",
-      "deepseek_v4",
-      "deepseek",
-      "compressed-tensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-30T00:52:18.365728+00:00",
-    "source_ids": [
-      "canada-quant/DeepSeek-V4-Flash-W4A16-FP8-MTP"
-    ],
-    "family": "DeepSeek-V4-Flash-W4A16-FP8-MTP"
-  },
-  {
     "id": "huggingface:software-mansion/react-native-executorch-gemma-4",
     "name": "react-native-executorch-gemma-4",
     "provider": "software-mansion",
@@ -8663,6 +8663,39 @@
       "nvidia/DeepSeek-V4-Flash-NVFP4"
     ],
     "family": "DeepSeek-V4-Flash-NVFP4"
+  },
+  {
+    "id": "huggingface:ray0rf1re/nano-nano_4.7",
+    "name": "nano-nano_4.7",
+    "provider": "ray0rf1re",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-17T17:22:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ray0rf1re/nano-nano_4.7",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "llama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-29T00:57:43.717549+00:00",
+    "source_ids": [
+      "ray0rf1re/nano-nano_4.7"
+    ],
+    "family": "nano-nano_4.7"
   },
   {
     "id": "huggingface:younissk/nanoBeard-sloop-14M",
@@ -11019,41 +11052,6 @@
       "vrfai/Qwen3.6-27B-FP8"
     ],
     "family": "Qwen3.6-FP8"
-  },
-  {
-    "id": "huggingface:OrionLLM/GRM-2.6-Plus",
-    "name": "GRM-2.6-Plus",
-    "provider": "OrionLLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T23:14:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OrionLLM/GRM-2.6-Plus",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "conversational",
-      "base_model:Qwen/Qwen3.6-27B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-29T20:51:09.244012+00:00",
-    "source_ids": [
-      "OrionLLM/GRM-2.6-Plus"
-    ],
-    "family": "GRM-2.6-Plus"
   },
   {
     "id": "huggingface:vrfai/Qwen3-ASR-0.6B-int8-QAD",
