@@ -6609,41 +6609,6 @@
     "family": "CosyVoice-300M-ONNX"
   },
   {
-    "id": "huggingface:stepfun-ai/Step-3.7-Flash-GGUF",
-    "name": "Step-3.7-Flash-GGUF",
-    "provider": "stepfun-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-28T11:34:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "imatrix",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-30T12:30:46.176992+00:00",
-    "source_ids": [
-      "stepfun-ai/Step-3.7-Flash-GGUF"
-    ],
-    "family": "Step-3.7-Flash"
-  },
-  {
     "id": "huggingface:prithivMLmods/Qwen3.6-35B-A3B-MTP-GGUF",
     "name": "Qwen3.6-35B-A3B-MTP-GGUF",
     "provider": "prithivMLmods",
@@ -7117,76 +7082,6 @@
       "Danieli1021/evolai-qwen047-v4"
     ],
     "family": "evolai-qwen047-v4"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwopus3.5-4B-Coder-GGUF",
-    "name": "Qwopus3.5-4B-Coder-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-26T15:54:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-30T12:30:46.176895+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.5-4B-Coder-GGUF"
-    ],
-    "family": "Qwopus3.5-Coder"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF",
-    "name": "Qwopus3.5-4B-Coder-MTP-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-26T15:51:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-30T12:30:46.176927+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF"
-    ],
-    "family": "Qwopus3.5-Coder-MTP"
   },
   {
     "id": "huggingface:nishantup/nanogpt-rlvr-slm-tinystories-124m",
@@ -11429,41 +11324,6 @@
     "family": "Ternary-Bonsai"
   },
   {
-    "id": "huggingface:cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
-    "name": "Qwen3.6-35B-A3B-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T23:31:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-30T12:30:46.176965+00:00",
-    "source_ids": [
-      "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit"
-    ],
-    "family": "Qwen3.6--4bit"
-  },
-  {
     "id": "huggingface:AEON-7/gemma-4-31B-it-speculator.eagle3-NVFP4",
     "name": "gemma-4-31B-it-speculator.eagle3-NVFP4",
     "provider": "AEON-7",
@@ -13562,6 +13422,39 @@
       "KORMo-Team/KORMo-10B-sft"
     ],
     "family": "KORMo-sft"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-8B-A1B-GGUF",
+    "name": "LFM2-8B-A1B-GGUF",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-06T16:09:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-8B-A1B-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "liquid",
+      "lfm2",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-29T13:36:25.961839+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-8B-A1B-GGUF"
+    ],
+    "family": "LFM2"
   },
   {
     "id": "huggingface:microsoft/UserLM-8b",
