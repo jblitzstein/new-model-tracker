@@ -8592,39 +8592,6 @@
     "family": "nano-nano_4.7"
   },
   {
-    "id": "huggingface:younissk/nanoBeard-sloop-14M",
-    "name": "nanoBeard-sloop-14M",
-    "provider": "younissk",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-17T11:59:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/younissk/nanoBeard-sloop-14M",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "onnx",
-      "safetensors",
-      "nanobeard-gpt",
-      "gpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-30T16:25:27.207871+00:00",
-    "source_ids": [
-      "younissk/nanoBeard-sloop-14M"
-    ],
-    "family": "nanoBeard-sloop-14M"
-  },
-  {
     "id": "huggingface:DZER-Studios/Create_Vexion-LM",
     "name": "Create_Vexion-LM",
     "provider": "DZER-Studios",
@@ -11016,41 +10983,6 @@
     "family": "Quark-50m"
   },
   {
-    "id": "huggingface:cmp-nct/Qwen3.6-27B-GGUF",
-    "name": "Qwen3.6-27B-GGUF",
-    "provider": "cmp-nct",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T16:16:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cmp-nct/Qwen3.6-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen",
-      "qwen3_6_moe",
-      "demodokos"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-30T16:25:27.938344+00:00",
-    "source_ids": [
-      "cmp-nct/Qwen3.6-27B-GGUF"
-    ],
-    "family": "Qwen3.6"
-  },
-  {
     "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
     "name": "EXAONE-4.5-33B-AWQ",
     "provider": "LGAI-EXAONE",
@@ -12815,6 +12747,146 @@
       "furiosa-ai/Qwen2.5-0.5B-Instruct"
     ],
     "family": "Qwen2.5"
+  },
+  {
+    "id": "huggingface:lightonai/LightOnOCR-2-1B-bbox-soup",
+    "name": "LightOnOCR-2-1B-bbox-soup",
+    "provider": "lightonai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-16T16:24:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B-bbox-soup",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "text-generation",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-29T17:05:02.178808+00:00",
+    "source_ids": [
+      "lightonai/LightOnOCR-2-1B-bbox-soup"
+    ],
+    "family": "LightOnOCR-2-bbox-soup"
+  },
+  {
+    "id": "huggingface:lightonai/LightOnOCR-2-1B-ocr-soup",
+    "name": "LightOnOCR-2-1B-ocr-soup",
+    "provider": "lightonai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-16T16:23:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B-ocr-soup",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "text-generation",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-29T17:05:02.178842+00:00",
+    "source_ids": [
+      "lightonai/LightOnOCR-2-1B-ocr-soup"
+    ],
+    "family": "LightOnOCR-2-ocr-soup"
+  },
+  {
+    "id": "huggingface:lightonai/LightOnOCR-2-1B-base",
+    "name": "LightOnOCR-2-1B-base",
+    "provider": "lightonai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-16T16:12:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B-base",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "text-generation",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-29T17:05:02.178742+00:00",
+    "source_ids": [
+      "lightonai/LightOnOCR-2-1B-base"
+    ],
+    "family": "LightOnOCR-2"
+  },
+  {
+    "id": "huggingface:lightonai/LightOnOCR-2-1B-bbox",
+    "name": "LightOnOCR-2-1B-bbox",
+    "provider": "lightonai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-16T16:08:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B-bbox",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "text-generation",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-29T17:05:02.178875+00:00",
+    "source_ids": [
+      "lightonai/LightOnOCR-2-1B-bbox"
+    ],
+    "family": "LightOnOCR-2-bbox"
   },
   {
     "id": "huggingface:CoRal-project/roest-v3-whisper-1.5b",
