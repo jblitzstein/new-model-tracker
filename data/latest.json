@@ -270,6 +270,40 @@
     "family": "ultragemma4-heretic-uncensored"
   },
   {
+    "id": "huggingface:LoJexLLM/Unlimited-OCR-MLX",
+    "name": "Unlimited-OCR-MLX",
+    "provider": "LoJexLLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-24T05:40:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LoJexLLM/Unlimited-OCR-MLX",
+    "tags": [
+      "image-to-text",
+      "mlx",
+      "safetensors",
+      "unlimited-ocr-mlx",
+      "apple-silicon",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T09:12:17.354690+00:00",
+    "source_ids": [
+      "LoJexLLM/Unlimited-OCR-MLX"
+    ],
+    "family": "Unlimited-OCR-MLX"
+  },
+  {
     "id": "openrouter:sakana/fugu-ultra",
     "name": "Sakana: Fugu Ultra",
     "provider": "sakana",
@@ -401,6 +435,41 @@
       "vantagewithai/Krea-2"
     ],
     "family": "Krea-2"
+  },
+  {
+    "id": "huggingface:autotrust/gemma4-31B-Fable-5-Distilled-GGUF",
+    "name": "gemma4-31B-Fable-5-Distilled-GGUF",
+    "provider": "autotrust",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-23T08:43:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/autotrust/gemma4-31B-Fable-5-Distilled-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma-4",
+      "fable-5",
+      "llama.cpp",
+      "ollama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T09:12:17.972625+00:00",
+    "source_ids": [
+      "autotrust/gemma4-31B-Fable-5-Distilled-GGUF"
+    ],
+    "family": "gemma4-Fable-5-Distilled"
   },
   {
     "id": "huggingface:AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4",
@@ -1066,6 +1135,40 @@
       "cohere/north-mini-code:free"
     ],
     "family": "North Mini Code"
+  },
+  {
+    "id": "huggingface:Lightricks/LTX-2.3-22b-IC-LoRA-Cross-Eyed",
+    "name": "LTX-2.3-22b-IC-LoRA-Cross-Eyed",
+    "provider": "Lightricks",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-06-17T11:14:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Cross-Eyed",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "ltx-2",
+      "ltx-video",
+      "ic-lora",
+      "video-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T09:12:17.469836+00:00",
+    "source_ids": [
+      "Lightricks/LTX-2.3-22b-IC-LoRA-Cross-Eyed"
+    ],
+    "family": "LTX-2.3-IC-LoRA-Cross-Eyed"
   },
   {
     "id": "huggingface:wepiqx/gemma-4-12B-it-LWQ6-GGUF",
@@ -6129,40 +6232,6 @@
     "family": "Holo-3.1"
   },
   {
-    "id": "huggingface:mudler/parakeet-cpp-gguf",
-    "name": "parakeet-cpp-gguf",
-    "provider": "mudler",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-29T21:16:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mudler/parakeet-cpp-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "parakeet.cpp",
-      "gguf",
-      "automatic-speech-recognition",
-      "asr",
-      "parakeet"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-31T09:07:04.232824+00:00",
-    "source_ids": [
-      "mudler/parakeet-cpp-gguf"
-    ],
-    "family": "parakeet-cpp"
-  },
-  {
     "id": "huggingface:google/gemma-4-31B-it-qat-q4_0-unquantized-assistant",
     "name": "gemma-4-31B-it-qat-q4_0-unquantized-assistant",
     "provider": "Google",
@@ -6505,40 +6574,6 @@
       "Floppyshy/sulphur-2-runpod"
     ],
     "family": "sulphur-2-runpod"
-  },
-  {
-    "id": "huggingface:mradermacher/PaddleOCR-VL-1.6-i1-GGUF",
-    "name": "PaddleOCR-VL-1.6-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-28T16:17:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/PaddleOCR-VL-1.6-i1-GGUF",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "gguf",
-      "ERNIE4.5",
-      "PaddleOCR",
-      "PaddlePaddle"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-31T09:07:03.784196+00:00",
-    "source_ids": [
-      "mradermacher/PaddleOCR-VL-1.6-i1-GGUF"
-    ],
-    "family": "PaddleOCR-VL-1.6-i1"
   },
   {
     "id": "huggingface:mradermacher/PaddleOCR-VL-1.6-GGUF",
@@ -8695,6 +8730,41 @@
     "family": "NuExtract3-W4A16"
   },
   {
+    "id": "huggingface:mradermacher/Supertron-VL-2B-GGUF",
+    "name": "Supertron-VL-2B-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-15T12:31:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Supertron-VL-2B-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "gguf",
+      "vision-language",
+      "chart-question-answering",
+      "visual-question-answering"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T09:12:18.086454+00:00",
+    "source_ids": [
+      "mradermacher/Supertron-VL-2B-GGUF"
+    ],
+    "family": "Supertron-VL"
+  },
+  {
     "id": "huggingface:Jackrong/Qwopus3.5-9B-Coder",
     "name": "Qwopus3.5-9B-Coder",
     "provider": "Jackrong",
@@ -10579,72 +10649,6 @@
       "teolm30/Fox-1.5-Nova"
     ],
     "family": "Fox-1.5-Nova"
-  },
-  {
-    "id": "huggingface:mlx-community/Qwen3.5-35B-A3B-OptiQ-4bit",
-    "name": "Qwen3.5-35B-A3B-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-26T05:56:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.5-35B-A3B-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-31T05:34:59.737122+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.5-35B-A3B-OptiQ-4bit"
-    ],
-    "family": "Qwen3.5-OptiQ-4bit"
-  },
-  {
-    "id": "huggingface:mlx-community/Qwen3.5-27B-OptiQ-4bit",
-    "name": "Qwen3.5-27B-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-25T10:06:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Qwen3.5-27B-OptiQ-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-31T05:34:59.737150+00:00",
-    "source_ids": [
-      "mlx-community/Qwen3.5-27B-OptiQ-4bit"
-    ],
-    "family": "Qwen3.5-OptiQ-4bit"
   },
   {
     "id": "huggingface:ubergarm/Qwen3.6-27B-GGUF",
@@ -13599,40 +13603,6 @@
       "LiquidAI/LFM2-VL-1.6B-GGUF"
     ],
     "family": "LFM2-VL"
-  },
-  {
-    "id": "huggingface:FunAudioLLM/CosyVoice2-0.5B",
-    "name": "CosyVoice2-0.5B",
-    "provider": "FunAudioLLM",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-07-29T03:00:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B",
-    "tags": [
-      "text-to-speech",
-      "onnx",
-      "safetensors",
-      "text-to-speech",
-      "zh",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-31T05:35:00.000058+00:00",
-    "source_ids": [
-      "FunAudioLLM/CosyVoice2-0.5B"
-    ],
-    "family": "CosyVoice2"
   },
   {
     "id": "huggingface:openbmb/MiniCPM-V-4-gguf",
