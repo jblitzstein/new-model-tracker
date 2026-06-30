@@ -1,5 +1,73 @@
 [
   {
+    "id": "huggingface:microsoft/GELab-Zero-4B-preview-Sico-Evolution",
+    "name": "GELab-Zero-4B-preview-Sico-Evolution",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T12:46:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "gui-agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T16:46:57.906945+00:00",
+    "source_ids": [
+      "microsoft/GELab-Zero-4B-preview-Sico-Evolution"
+    ],
+    "family": "GELab-Zero--Sico-Evolution"
+  },
+  {
+    "id": "huggingface:UraionLabs/Uraion-Agent-Small",
+    "name": "Uraion-Agent-Small",
+    "provider": "UraionLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-28T16:15:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/UraionLabs/Uraion-Agent-Small",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "safetensors",
+      "llama-cpp",
+      "lm-studio",
+      "ollama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T16:46:57.464415+00:00",
+    "source_ids": [
+      "UraionLabs/Uraion-Agent-Small"
+    ],
+    "family": "Uraion-Agent-Small"
+  },
+  {
     "id": "huggingface:deepseek-ai/DeepSeek-V4-Pro-DSpark",
     "name": "DeepSeek-V4-Pro-DSpark",
     "provider": "DeepSeek",
@@ -97,6 +165,39 @@
       "s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF"
     ],
     "family": "Ornith-1.0-NVFP4-MTP"
+  },
+  {
+    "id": "huggingface:mradermacher/copywriter-gemma4-31b-i1-GGUF",
+    "name": "copywriter-gemma4-31b-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-26T13:49:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/copywriter-gemma4-31b-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "copywriting",
+      "marketing",
+      "advertising"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T16:46:57.464472+00:00",
+    "source_ids": [
+      "mradermacher/copywriter-gemma4-31b-i1-GGUF"
+    ],
+    "family": "copywriter-gemma4-i1"
   },
   {
     "id": "huggingface:Qwen/Qwen3-ASR-0.6B-hf",
@@ -777,6 +878,40 @@
     "family": "UltraThinker-Coder"
   },
   {
+    "id": "huggingface:ElioChampaney/100m_image_new",
+    "name": "100m_image_new",
+    "provider": "ElioChampaney",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-21T11:36:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ElioChampaney/100m_image_new",
+    "tags": [
+      "text-to-image",
+      "image-generation",
+      "text-to-image",
+      "autoregressive",
+      "nova",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T16:46:57.522113+00:00",
+    "source_ids": [
+      "ElioChampaney/100m_image_new"
+    ],
+    "family": "100m_image_new"
+  },
+  {
     "id": "huggingface:mradermacher/g4-12b-it-trismegistus-i1-GGUF",
     "name": "g4-12b-it-trismegistus-i1-GGUF",
     "provider": "mradermacher",
@@ -940,6 +1075,40 @@
       "autotrust/gpt-oss-120b-Fable-5-Distilled-GGUF"
     ],
     "family": "gpt-oss-Fable-5-Distilled"
+  },
+  {
+    "id": "huggingface:DennisHuang648/VoxCPM2-GGUF",
+    "name": "VoxCPM2-GGUF",
+    "provider": "DennisHuang648",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-19T11:55:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DennisHuang648/VoxCPM2-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "text-to-speech",
+      "tts",
+      "voice-cloning",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T16:46:57.778213+00:00",
+    "source_ids": [
+      "DennisHuang648/VoxCPM2-GGUF"
+    ],
+    "family": "VoxCPM2"
   },
   {
     "id": "huggingface:baidu/Unlimited-OCR",
@@ -2252,6 +2421,41 @@
       "moonshotai/kimi-k2.7-code"
     ],
     "family": "Kimi K2.7 Code"
+  },
+  {
+    "id": "huggingface:mradermacher/Gemma4-12B-Uncensored-i1-GGUF",
+    "name": "Gemma4-12B-Uncensored-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T10:02:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Gemma4-12B-Uncensored-i1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "gemma4",
+      "gemma-4-12b",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T16:46:57.906761+00:00",
+    "source_ids": [
+      "mradermacher/Gemma4-12B-Uncensored-i1-GGUF"
+    ],
+    "family": "Gemma4-Uncensored-i1"
   },
   {
     "id": "huggingface:unsloth/MiniMax-M3-GGUF",
@@ -5754,6 +5958,41 @@
     "family": "Tema_Q-R-TaQuants"
   },
   {
+    "id": "huggingface:mradermacher/Hemlock-Qwopus3.5-9B-Coder-i1-GGUF",
+    "name": "Hemlock-Qwopus3.5-9B-Coder-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T08:14:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Hemlock-Qwopus3.5-9B-Coder-i1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "merlina",
+      "grimoire",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-06-30T16:46:57.906692+00:00",
+    "source_ids": [
+      "mradermacher/Hemlock-Qwopus3.5-9B-Coder-i1-GGUF"
+    ],
+    "family": "Hemlock-Qwopus3.5-Coder-i1"
+  },
+  {
     "id": "huggingface:deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
     "name": "RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
     "provider": "deadbydawn101",
@@ -8082,39 +8321,6 @@
       "Jackrong/Qwopus3.6-27B-v2-FP8"
     ],
     "family": "Qwopus3.6-v2-FP8"
-  },
-  {
-    "id": "huggingface:LLM-OS-Models/KoHRM-Text-1.4B",
-    "name": "KoHRM-Text-1.4B",
-    "provider": "LLM-OS-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-23T08:52:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LLM-OS-Models/KoHRM-Text-1.4B",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "hrm_text",
-      "hrm-text",
-      "korean"
-    ],
-    "pricing": null,
-    "first_seen": "2026-05-31T16:29:52.385983+00:00",
-    "source_ids": [
-      "LLM-OS-Models/KoHRM-Text-1.4B"
-    ],
-    "family": "KoHRM-Text"
   },
   {
     "id": "huggingface:software-mansion/react-native-executorch-gemma-4",
