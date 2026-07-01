@@ -434,6 +434,40 @@
     "family": "Qwable-v1-MXFP4_MOE_Hybrid-Imatrix"
   },
   {
+    "id": "huggingface:wikeeyang/Flux2-Klein-9B-True-V3",
+    "name": "Flux2-Klein-9B-True-V3",
+    "provider": "wikeeyang",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-25T01:41:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "gguf",
+      "text-to-image",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.560469+00:00",
+    "source_ids": [
+      "wikeeyang/Flux2-Klein-9B-True-V3"
+    ],
+    "family": "Flux2-Klein-True-V3"
+  },
+  {
     "id": "huggingface:prithivMLmods/ultragemma4-12b-heretic-uncensored",
     "name": "ultragemma4-12b-heretic-uncensored",
     "provider": "prithivMLmods",
@@ -976,6 +1010,39 @@
     "family": "UltraThinker-Coder"
   },
   {
+    "id": "huggingface:meshllm/gemma-4-E4B-it-Q4_K_M-layers",
+    "name": "gemma-4-E4B-it-Q4_K_M-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-21T12:05:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/gemma-4-E4B-it-Q4_K_M-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482155+00:00",
+    "source_ids": [
+      "meshllm/gemma-4-E4B-it-Q4_K_M-layers"
+    ],
+    "family": "gemma-4-E-it-Q4_K_M-layers"
+  },
+  {
     "id": "huggingface:ElioChampaney/100m_image_new",
     "name": "100m_image_new",
     "provider": "ElioChampaney",
@@ -1074,6 +1141,39 @@
       "0xSero/GLM-5.2-504B"
     ],
     "family": "GLM-5.2"
+  },
+  {
+    "id": "huggingface:meshllm/GLM-5.2-Q2_K-MTP-Q8-layers",
+    "name": "GLM-5.2-Q2_K-MTP-Q8-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-21T01:28:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/GLM-5.2-Q2_K-MTP-Q8-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482244+00:00",
+    "source_ids": [
+      "meshllm/GLM-5.2-Q2_K-MTP-Q8-layers"
+    ],
+    "family": "GLM-5.2-Q2_K-MTP-Q8-layers"
   },
   {
     "id": "huggingface:DJLougen/Qwable-5-27B-Coder-GGUF",
@@ -1444,6 +1544,39 @@
     "family": "Boogu-Image-Turbo_GGUFs"
   },
   {
+    "id": "huggingface:meshllm/GLM-5.1-UD-Q3_K_S-layers",
+    "name": "GLM-5.1-UD-Q3_K_S-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-17T19:38:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/GLM-5.1-UD-Q3_K_S-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482299+00:00",
+    "source_ids": [
+      "meshllm/GLM-5.1-UD-Q3_K_S-layers"
+    ],
+    "family": "GLM-5.1-UD-Q3_K_S-layers"
+  },
+  {
     "id": "openrouter:cohere/north-mini-code:free",
     "name": "Cohere: North Mini Code (free)",
     "provider": "Cohere",
@@ -1502,6 +1635,39 @@
       "Lightricks/LTX-2.3-22b-IC-LoRA-Cross-Eyed"
     ],
     "family": "LTX-2.3-IC-LoRA-Cross-Eyed"
+  },
+  {
+    "id": "huggingface:meshllm/GLM-5.1-Q3_K_M-plus-layers",
+    "name": "GLM-5.1-Q3_K_M-plus-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-16T21:50:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/GLM-5.1-Q3_K_M-plus-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482345+00:00",
+    "source_ids": [
+      "meshllm/GLM-5.1-Q3_K_M-plus-layers"
+    ],
+    "family": "GLM-5.1-Q3_K_M-plus-layers"
   },
   {
     "id": "huggingface:wepiqx/gemma-4-12B-it-LWQ6-GGUF",
@@ -2076,6 +2242,39 @@
     "family": "SIQ-1"
   },
   {
+    "id": "huggingface:meshllm/Kimi-K2.7-Code-UD-Q4_K_XL-layers",
+    "name": "Kimi-K2.7-Code-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-14T18:50:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Kimi-K2.7-Code-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482391+00:00",
+    "source_ids": [
+      "meshllm/Kimi-K2.7-Code-UD-Q4_K_XL-layers"
+    ],
+    "family": "Kimi-K2.7-Code-UD-Q4_K_XL-layers"
+  },
+  {
     "id": "huggingface:microsoft/FastContext-1.0-4B-RL",
     "name": "FastContext-1.0-4B-RL",
     "provider": "Microsoft",
@@ -2208,6 +2407,39 @@
       "DevQuasar/CohereLabs.command-a-plus-05-2026-bf16-GGUF"
     ],
     "family": "CohereLabs.command-a-plus-05-2026-bf16"
+  },
+  {
+    "id": "huggingface:meshllm/DeepSeek-V3.1-UD-Q4_K_XL-layers",
+    "name": "DeepSeek-V3.1-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-13T18:50:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/DeepSeek-V3.1-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482438+00:00",
+    "source_ids": [
+      "meshllm/DeepSeek-V3.1-UD-Q4_K_XL-layers"
+    ],
+    "family": "DeepSeek-V3.1-UD-Q4_K_XL-layers"
   },
   {
     "id": "huggingface:inferencerlabs/Kimi-K2.7-Code-MLX-3.5bit-INF",
@@ -2416,6 +2648,39 @@
       "mlx-community/diffusiongemma-26B-A4B-it-OptiQ-4bit"
     ],
     "family": "diffusiongemma-it-OptiQ-4bit"
+  },
+  {
+    "id": "huggingface:meshllm/MiniMax-M3-UD-Q4_K_XL-layers",
+    "name": "MiniMax-M3-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T19:27:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/MiniMax-M3-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482485+00:00",
+    "source_ids": [
+      "meshllm/MiniMax-M3-UD-Q4_K_XL-layers"
+    ],
+    "family": "MiniMax-M3-UD-Q4_K_XL-layers"
   },
   {
     "id": "huggingface:unsloth/Kimi-K2.7-Code-GGUF",
@@ -2934,6 +3199,72 @@
     "family": "Nex-N2-Pro-MTP"
   },
   {
+    "id": "huggingface:meshllm/diffusiongemma-26B-A4B-it-Q4_K_M-layers",
+    "name": "diffusiongemma-26B-A4B-it-Q4_K_M-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T19:47:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/diffusiongemma-26B-A4B-it-Q4_K_M-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482532+00:00",
+    "source_ids": [
+      "meshllm/diffusiongemma-26B-A4B-it-Q4_K_M-layers"
+    ],
+    "family": "diffusiongemma-it-Q4_K_M-layers"
+  },
+  {
+    "id": "huggingface:meshllm/North-Mini-Code-1.0-UD-Q4_K_XL-layers",
+    "name": "North-Mini-Code-1.0-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T19:47:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/North-Mini-Code-1.0-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482581+00:00",
+    "source_ids": [
+      "meshllm/North-Mini-Code-1.0-UD-Q4_K_XL-layers"
+    ],
+    "family": "North-Mini-Code-1.0-UD-Q4_K_XL-layers"
+  },
+  {
     "id": "huggingface:nvidia/diffusiongemma-26B-A4B-it-NVFP4",
     "name": "diffusiongemma-26B-A4B-it-NVFP4",
     "provider": "NVIDIA",
@@ -3240,6 +3571,39 @@
       "cyankiwi/Step-3.7-Flash-AWQ-INT4"
     ],
     "family": "Step-3.7-Flash--INT4"
+  },
+  {
+    "id": "huggingface:meshllm/GLM-5.1-UD-Q3_K_XL-layers",
+    "name": "GLM-5.1-UD-Q3_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T06:05:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/GLM-5.1-UD-Q3_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482631+00:00",
+    "source_ids": [
+      "meshllm/GLM-5.1-UD-Q3_K_XL-layers"
+    ],
+    "family": "GLM-5.1-UD-Q3_K_XL-layers"
   },
   {
     "id": "huggingface:KDLAI/KDL-Frontier-Parser-nano",
@@ -3582,6 +3946,39 @@
     "family": "PP-OCRv6_medium_det_safetensors"
   },
   {
+    "id": "huggingface:meshllm/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL-layers",
+    "name": "Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-08T19:39:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482674+00:00",
+    "source_ids": [
+      "meshllm/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL-layers"
+    ],
+    "family": "Qwen3-Coder--UD-Q4_K_XL-layers"
+  },
+  {
     "id": "huggingface:shyngys879/kazakh-whisper-large-v3-turbo",
     "name": "kazakh-whisper-large-v3-turbo",
     "provider": "shyngys879",
@@ -3742,6 +4139,39 @@
     "family": "BLS-Mini-Code-1.0"
   },
   {
+    "id": "huggingface:meshllm/Qwen3-30B-A3B-Instruct-2507-UD-Q4_K_XL-layers",
+    "name": "Qwen3-30B-A3B-Instruct-2507-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-07T18:46:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Qwen3-30B-A3B-Instruct-2507-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482730+00:00",
+    "source_ids": [
+      "meshllm/Qwen3-30B-A3B-Instruct-2507-UD-Q4_K_XL-layers"
+    ],
+    "family": "Qwen3--2507-UD-Q4_K_XL-layers"
+  },
+  {
     "id": "huggingface:vectionlabs/Maestro1-9B",
     "name": "Maestro1-9B",
     "provider": "vectionlabs",
@@ -3878,6 +4308,72 @@
       "realrebelai/JoyAI-Echo_GGUF"
     ],
     "family": "JoyAI-Echo"
+  },
+  {
+    "id": "huggingface:meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-07T02:46:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482785+00:00",
+    "source_ids": [
+      "meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-UD-Q4_K_S-layers"
+  },
+  {
+    "id": "huggingface:meshllm/Nemotron-3-Nano-30B-A3B-Q4_K_S-layers",
+    "name": "Nemotron-3-Nano-30B-A3B-Q4_K_S-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-07T02:45:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Nemotron-3-Nano-30B-A3B-Q4_K_S-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482842+00:00",
+    "source_ids": [
+      "meshllm/Nemotron-3-Nano-30B-A3B-Q4_K_S-layers"
+    ],
+    "family": "Nemotron-3-Nano-Q4_K_S-layers"
   },
   {
     "id": "huggingface:ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
@@ -4378,6 +4874,72 @@
       "w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ"
     ],
     "family": "LFM2.5--MoQ"
+  },
+  {
+    "id": "huggingface:meshllm/gemma-4-31B-it-qat-UD-Q4_K_XL-layers",
+    "name": "gemma-4-31B-it-qat-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T19:15:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/gemma-4-31B-it-qat-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482890+00:00",
+    "source_ids": [
+      "meshllm/gemma-4-31B-it-qat-UD-Q4_K_XL-layers"
+    ],
+    "family": "gemma-4-it-qat-UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:meshllm/Qwen3.5-27B-UD-Q4_K_XL-layers",
+    "name": "Qwen3.5-27B-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T19:14:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Qwen3.5-27B-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482941+00:00",
+    "source_ids": [
+      "meshllm/Qwen3.5-27B-UD-Q4_K_XL-layers"
+    ],
+    "family": "Qwen3.5-UD-Q4_K_XL-layers"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-12B-it-OptiQ-4bit",
@@ -4955,6 +5517,72 @@
       "cstr/tada-tts-3b-ml-GGUF"
     ],
     "family": "tada-tts-ml"
+  },
+  {
+    "id": "huggingface:meshllm/Qwen3.6-27B-UD-Q4_K_XL-layers",
+    "name": "Qwen3.6-27B-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T19:36:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Qwen3.6-27B-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.482987+00:00",
+    "source_ids": [
+      "meshllm/Qwen3.6-27B-UD-Q4_K_XL-layers"
+    ],
+    "family": "Qwen3.6-UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_XL-layers",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T19:35:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483032+00:00",
+    "source_ids": [
+      "meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_XL-layers"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-UD-Q4_K_XL-layers"
   },
   {
     "id": "huggingface:zaakirio/gemma-4-12b-it-uncensored-GGUF",
@@ -5543,6 +6171,39 @@
       "sneedjak/Adelic-Gemma-4-12B-GGUF"
     ],
     "family": "Adelic-Gemma-4"
+  },
+  {
+    "id": "huggingface:meshllm/Qwen3-VL-32B-Thinking-UD-Q4_K_XL-layers",
+    "name": "Qwen3-VL-32B-Thinking-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T20:34:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Qwen3-VL-32B-Thinking-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483086+00:00",
+    "source_ids": [
+      "meshllm/Qwen3-VL-32B-Thinking-UD-Q4_K_XL-layers"
+    ],
+    "family": "Qwen3-VL--UD-Q4_K_XL-layers"
   },
   {
     "id": "huggingface:jcbtc/qwopus3.6-27b-v2-chadrock-rocmfp4-mtp",
@@ -6258,6 +6919,72 @@
     "family": "chadrock-ace-saber-rocmfp4-mtp"
   },
   {
+    "id": "huggingface:meshllm/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-layers",
+    "name": "DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-02T20:24:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483154+00:00",
+    "source_ids": [
+      "meshllm/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-layers"
+    ],
+    "family": "DeepSeek-R1-Distill-Qwen-Q4_K_M-layers"
+  },
+  {
+    "id": "huggingface:meshllm/Qwen3-VL-32B-Instruct-UD-Q4_K_XL-layers",
+    "name": "Qwen3-VL-32B-Instruct-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-02T20:24:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Qwen3-VL-32B-Instruct-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483204+00:00",
+    "source_ids": [
+      "meshllm/Qwen3-VL-32B-Instruct-UD-Q4_K_XL-layers"
+    ],
+    "family": "Qwen3-VL--UD-Q4_K_XL-layers"
+  },
+  {
     "id": "huggingface:jcbtc/qwen3.6-35b-a3b-crown-halo-mtp-dynamic",
     "name": "qwen3.6-35b-a3b-crown-halo-mtp-dynamic",
     "provider": "jcbtc",
@@ -6397,6 +7124,138 @@
     "family": "JoyAI-Echo"
   },
   {
+    "id": "huggingface:meshllm/gpt-oss-20b-UD-Q4_K_XL-layers",
+    "name": "gpt-oss-20b-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T21:07:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/gpt-oss-20b-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483256+00:00",
+    "source_ids": [
+      "meshllm/gpt-oss-20b-UD-Q4_K_XL-layers"
+    ],
+    "family": "gpt-oss-UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:meshllm/ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL-layers",
+    "name": "ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T21:07:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483301+00:00",
+    "source_ids": [
+      "meshllm/ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL-layers"
+    ],
+    "family": "ERNIE-4.5--UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:meshllm/Devstral-Small-2-24B-Instruct-2512-UD-Q4_K_XL-layers",
+    "name": "Devstral-Small-2-24B-Instruct-2512-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T21:07:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Devstral-Small-2-24B-Instruct-2512-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483350+00:00",
+    "source_ids": [
+      "meshllm/Devstral-Small-2-24B-Instruct-2512-UD-Q4_K_XL-layers"
+    ],
+    "family": "Devstral-Small-2--2512-UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:meshllm/Qwen3.5-35B-A3B-UD-Q4_K_XL-layers",
+    "name": "Qwen3.5-35B-A3B-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T21:07:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/Qwen3.5-35B-A3B-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483406+00:00",
+    "source_ids": [
+      "meshllm/Qwen3.5-35B-A3B-UD-Q4_K_XL-layers"
+    ],
+    "family": "Qwen3.5-UD-Q4_K_XL-layers"
+  },
+  {
     "id": "huggingface:madtune/pixeldit-diffusers",
     "name": "pixeldit-diffusers",
     "provider": "madtune",
@@ -6462,6 +7321,39 @@
       "properly59/Jumini-Ko-1.2B"
     ],
     "family": "Jumini-Ko"
+  },
+  {
+    "id": "huggingface:meshllm/GLM-4.7-Flash-REAP-23B-A3B-UD-Q4_K_XL-layers",
+    "name": "GLM-4.7-Flash-REAP-23B-A3B-UD-Q4_K_XL-layers",
+    "provider": "meshllm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T18:39:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meshllm/GLM-4.7-Flash-REAP-23B-A3B-UD-Q4_K_XL-layers",
+    "tags": [
+      "text-generation",
+      "mesh-llm",
+      "gguf",
+      "layer-package",
+      "skippy",
+      "distributed-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T05:37:09.483452+00:00",
+    "source_ids": [
+      "meshllm/GLM-4.7-Flash-REAP-23B-A3B-UD-Q4_K_XL-layers"
+    ],
+    "family": "GLM-4.7-Flash-REAP-UD-Q4_K_XL-layers"
   },
   {
     "id": "openrouter:minimax/minimax-m3",
@@ -6806,39 +7698,6 @@
       "Hcompany/Holo-3.1-4B"
     ],
     "family": "Holo-3.1"
-  },
-  {
-    "id": "huggingface:w-ahmad/Qwen3.5-9B-GGUF-MoQ-MTP",
-    "name": "Qwen3.5-9B-GGUF-MoQ-MTP",
-    "provider": "w-ahmad",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-29T11:28:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/w-ahmad/Qwen3.5-9B-GGUF-MoQ-MTP",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "MoQ",
-      "mixture-of-quants",
-      "GGUF",
-      "QWEN"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.394807+00:00",
-    "source_ids": [
-      "w-ahmad/Qwen3.5-9B-GGUF-MoQ-MTP"
-    ],
-    "family": "Qwen3.5--MoQ-MTP"
   },
   {
     "id": "huggingface:unsloth/gemma-4-12b-it-GGUF",
@@ -10719,138 +11578,6 @@
     "family": "LittleLamb"
   },
   {
-    "id": "huggingface:AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP-XS",
-    "name": "Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP-XS",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T07:08:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP-XS",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.395193+00:00",
-    "source_ids": [
-      "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP-XS"
-    ],
-    "family": "Qwen3.6-AEON-Ultimate-Uncensored-Text-NVFP4-MTP-XS"
-  },
-  {
-    "id": "huggingface:AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS",
-    "name": "Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T07:08:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.395238+00:00",
-    "source_ids": [
-      "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS"
-    ],
-    "family": "Qwen3.6-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS"
-  },
-  {
-    "id": "huggingface:AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP",
-    "name": "Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T05:55:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.394966+00:00",
-    "source_ids": [
-      "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Text-NVFP4-MTP"
-    ],
-    "family": "Qwen3.6-AEON-Ultimate-Uncensored-Text-NVFP4-MTP"
-  },
-  {
-    "id": "huggingface:AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP",
-    "name": "Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-28T05:55:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.395012+00:00",
-    "source_ids": [
-      "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP"
-    ],
-    "family": "Qwen3.6-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP"
-  },
-  {
     "id": "huggingface:inclusionAI/Ling-2.6-flash",
     "name": "Ling-2.6-flash",
     "provider": "inclusionAI",
@@ -11599,39 +12326,6 @@
     "family": "Qwen3.5-GLM5.1-Distill-v1"
   },
   {
-    "id": "huggingface:AEON-7/gemma-4-31B-it-speculator.eagle3-NVFP4",
-    "name": "gemma-4-31B-it-speculator.eagle3-NVFP4",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T19:39:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/gemma-4-31B-it-speculator.eagle3-NVFP4",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "nvfp4",
-      "vllm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.395058+00:00",
-    "source_ids": [
-      "AEON-7/gemma-4-31B-it-speculator.eagle3-NVFP4"
-    ],
-    "family": "gemma-4-it-speculator.eagle3-NVFP4"
-  },
-  {
     "id": "huggingface:ibm-granite/granite-speech-4.1-2b-plus",
     "name": "granite-speech-4.1-2b-plus",
     "provider": "IBM",
@@ -11799,72 +12493,6 @@
       "amd/MiniMax-M2.7-MXFP4"
     ],
     "family": "MiniMax-M2.7-MXFP4"
-  },
-  {
-    "id": "huggingface:AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
-    "name": "Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T06:57:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.395107+00:00",
-    "source_ids": [
-      "AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant"
-    ],
-    "family": "Gemma-4-it-DECKARD-HERETIC-Uncensored-NVFP4-SVDQuant"
-  },
-  {
-    "id": "huggingface:AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4",
-    "name": "Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-12T03:58:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T00:59:52.395151+00:00",
-    "source_ids": [
-      "AEON-7/Gemma-4-31B-it-DECKARD-HERETIC-Uncensored-NVFP4"
-    ],
-    "family": "Gemma-4-it-DECKARD-HERETIC-Uncensored-NVFP4"
   },
   {
     "id": "huggingface:nvidia/Nemotron-TwoTower-30B-A3B-Base-BF16",
