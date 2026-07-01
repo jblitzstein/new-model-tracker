@@ -2038,6 +2038,40 @@
     "family": "Nex-N2-mini-template-fix-APEX"
   },
   {
+    "id": "huggingface:attashe/Bernini-Wan2.2-fp8-scaled",
+    "name": "Bernini-Wan2.2-fp8-scaled",
+    "provider": "attashe",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-06-16T01:35:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/attashe/Bernini-Wan2.2-fp8-scaled",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "wan2.2",
+      "bernini",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T09:13:25.746012+00:00",
+    "source_ids": [
+      "attashe/Bernini-Wan2.2-fp8-scaled"
+    ],
+    "family": "Bernini-Wan2.2-fp8-scaled"
+  },
+  {
     "id": "huggingface:empero-ai/Qwable-9B-Claude-Fable-5-GGUF",
     "name": "Qwable-9B-Claude-Fable-5-GGUF",
     "provider": "empero-ai",
@@ -2141,6 +2175,39 @@
       "allenai/MolmoMotion-4B-H1-F32"
     ],
     "family": "MolmoMotion-H1-F32"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-M.1",
+    "name": "Laguna-M.1",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-15T09:17:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-M.1",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-m.1",
+      "sglang"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T09:13:25.580911+00:00",
+    "source_ids": [
+      "poolside/Laguna-M.1"
+    ],
+    "family": "Laguna-M.1"
   },
   {
     "id": "huggingface:pearsonkyle/Qwopus3.6-27B-Coder-imatrix-MTP-GGUF",
@@ -5216,6 +5283,40 @@
     "family": "Gemma-4-it-AEON-Abliterated-MLXFP4"
   },
   {
+    "id": "huggingface:mradermacher/Rax-4.5-GGUF",
+    "name": "Rax-4.5-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T05:10:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Rax-4.5-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "multimodal",
+      "vision-language",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T09:13:25.697257+00:00",
+    "source_ids": [
+      "mradermacher/Rax-4.5-GGUF"
+    ],
+    "family": "Rax-4.5"
+  },
+  {
     "id": "huggingface:CohereLabs/North-Mini-Code-1.0",
     "name": "North-Mini-Code-1.0",
     "provider": "CohereLabs",
@@ -7356,39 +7457,6 @@
     "family": "GLM-4.7-Flash-REAP-UD-Q4_K_XL-layers"
   },
   {
-    "id": "openrouter:minimax/minimax-m3",
-    "name": "MiniMax: MiniMax M3",
-    "provider": "MiniMax",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-31T16:36:14+00:00",
-    "context_length": 1048576,
-    "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
-    "url": "https://openrouter.ai/minimax/minimax-m3",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.3,
-      "completion_per_million": 1.2
-    },
-    "first_seen": "2026-06-01T05:42:12.718903+00:00",
-    "source_ids": [
-      "minimax/minimax-m3"
-    ],
-    "family": "MiniMax M3"
-  },
-  {
     "id": "huggingface:mlx-community/SongGeneration-v2-medium",
     "name": "SongGeneration-v2-medium",
     "provider": "mlx-community",
@@ -8042,40 +8110,6 @@
       "prithivMLmods/Qwen3.5-4B-MTP-GGUF"
     ],
     "family": "Qwen3.5-MTP"
-  },
-  {
-    "id": "huggingface:nvidia/Cosmos3-Super-Text2Image",
-    "name": "Cosmos3-Super-Text2Image",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-05-28T03:49:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
-    "tags": [
-      "text-to-image",
-      "cosmos",
-      "diffusers",
-      "safetensors",
-      "cosmos3_omni",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-01T05:42:12.923090+00:00",
-    "source_ids": [
-      "nvidia/Cosmos3-Super-Text2Image"
-    ],
-    "family": "Cosmos3-Super-Text2Image"
   },
   {
     "id": "huggingface:prithivMLmods/Qwen3.5-9B-MTP-GGUF",
@@ -9446,6 +9480,39 @@
       "cHunter789/Qwen3.6-27B-i1-IQ4_KS-GGUF"
     ],
     "family": "Qwen3.6-i1-IQ4_KS"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-M.1-NVFP4",
+    "name": "Laguna-M.1-NVFP4",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-21T15:40:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-M.1-NVFP4",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-m.1",
+      "sglang"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T09:13:25.580795+00:00",
+    "source_ids": [
+      "poolside/Laguna-M.1-NVFP4"
+    ],
+    "family": "Laguna-M.1-NVFP4"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF",
@@ -11748,6 +11815,39 @@
     "family": "Fox-1.5-Nova"
   },
   {
+    "id": "huggingface:poolside/Laguna-M.1-FP8",
+    "name": "Laguna-M.1-FP8",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T18:52:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-M.1-FP8",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-m.1",
+      "sglang"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T09:13:25.580853+00:00",
+    "source_ids": [
+      "poolside/Laguna-M.1-FP8"
+    ],
+    "family": "Laguna-M.1-FP8"
+  },
+  {
     "id": "huggingface:ubergarm/Qwen3.6-27B-GGUF",
     "name": "Qwen3.6-27B-GGUF",
     "provider": "ubergarm",
@@ -13313,6 +13413,39 @@
       "DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF"
     ],
     "family": "Qwen3.5-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED--MAX-NEOCODE-Imatrix"
+  },
+  {
+    "id": "huggingface:axana-labs/Llama-3.3-70B-Instruct-bnb-4bit",
+    "name": "Llama-3.3-70B-Instruct-bnb-4bit",
+    "provider": "axana-labs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-03T12:42:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/axana-labs/Llama-3.3-70B-Instruct-bnb-4bit",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "llama-3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-01T09:13:25.581174+00:00",
+    "source_ids": [
+      "axana-labs/Llama-3.3-70B-Instruct-bnb-4bit"
+    ],
+    "family": "Llama-3.3--bnb-4bit"
   },
   {
     "id": "huggingface:MERaLiON/MERaLiON-3-10B-preview",
