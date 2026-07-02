@@ -133,6 +133,40 @@
     "family": "GELab-Zero--Sico-Evolution"
   },
   {
+    "id": "huggingface:SandLogicTechnologies/lift-GGUF",
+    "name": "lift-GGUF",
+    "provider": "SandLogicTechnologies",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-29T18:10:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SandLogicTechnologies/lift-GGUF",
+    "tags": [
+      "image-to-text",
+      "gguf",
+      "multimodal",
+      "document-understanding",
+      "document-parsing",
+      "layout-analysis"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-02T10:40:33.968032+00:00",
+    "source_ids": [
+      "SandLogicTechnologies/lift-GGUF"
+    ],
+    "family": "lift"
+  },
+  {
     "id": "huggingface:UraionLabs/Uraion-Agent-Small",
     "name": "Uraion-Agent-Small",
     "provider": "UraionLabs",
@@ -164,6 +198,39 @@
       "UraionLabs/Uraion-Agent-Small"
     ],
     "family": "Uraion-Agent-Small"
+  },
+  {
+    "id": "huggingface:SC117/Ornith-1.0-35B-MTP-APEX-GGUF",
+    "name": "Ornith-1.0-35B-MTP-APEX-GGUF",
+    "provider": "SC117",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-27T15:29:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SC117/Ornith-1.0-35B-MTP-APEX-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen3_5_moe",
+      "qwen3_5",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-02T10:40:33.866255+00:00",
+    "source_ids": [
+      "SC117/Ornith-1.0-35B-MTP-APEX-GGUF"
+    ],
+    "family": "Ornith-1.0-MTP-APEX"
   },
   {
     "id": "huggingface:deepseek-ai/DeepSeek-V4-Pro-DSpark",
@@ -703,6 +770,40 @@
     "family": "Equinox-i1-MXFP4"
   },
   {
+    "id": "huggingface:AX1Y2JP/Krea-2-Turbo-INT8-ConvRot",
+    "name": "Krea-2-Turbo-INT8-ConvRot",
+    "provider": "AX1Y2JP",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-23T15:30:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AX1Y2JP/Krea-2-Turbo-INT8-ConvRot",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "comfyui",
+      "text-to-image",
+      "base_model:krea/Krea-2-Turbo",
+      "base_model:quantized:krea/Krea-2-Turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-02T10:40:33.922001+00:00",
+    "source_ids": [
+      "AX1Y2JP/Krea-2-Turbo-INT8-ConvRot"
+    ],
+    "family": "Krea-2-Turbo-INT8-ConvRot"
+  },
+  {
     "id": "huggingface:vantagewithai/Krea-2",
     "name": "Krea-2",
     "provider": "vantagewithai",
@@ -735,6 +836,41 @@
       "vantagewithai/Krea-2"
     ],
     "family": "Krea-2"
+  },
+  {
+    "id": "huggingface:sivakorn-su/typhoon-ocr-7b-thai-handwriting-lora-v1",
+    "name": "typhoon-ocr-7b-thai-handwriting-lora-v1",
+    "provider": "sivakorn-su",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-23T10:48:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sivakorn-su/typhoon-ocr-7b-thai-handwriting-lora-v1",
+    "tags": [
+      "image-text-to-text",
+      "peft",
+      "safetensors",
+      "ocr",
+      "thai",
+      "handwriting-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-02T10:40:34.271685+00:00",
+    "source_ids": [
+      "sivakorn-su/typhoon-ocr-7b-thai-handwriting-lora-v1"
+    ],
+    "family": "typhoon-ocr-thai-handwriting-lora-v1"
   },
   {
     "id": "huggingface:autotrust/gemma4-31B-Fable-5-Distilled-GGUF",
@@ -13469,6 +13605,39 @@
       "furiosa-ai/Qwen2.5-0.5B-Instruct"
     ],
     "family": "Qwen2.5"
+  },
+  {
+    "id": "huggingface:HPLT/NorOLMo-13B",
+    "name": "NorOLMo-13B",
+    "provider": "HPLT",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-21T15:25:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HPLT/NorOLMo-13B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo2",
+      "text-generation",
+      "norwegian"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-02T10:40:33.866138+00:00",
+    "source_ids": [
+      "HPLT/NorOLMo-13B"
+    ],
+    "family": "NorOLMo"
   },
   {
     "id": "huggingface:lightonai/LightOnOCR-2-1B-bbox-soup",
