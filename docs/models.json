@@ -89714,5 +89714,93 @@
       "sivakorn-su/typhoon-ocr-7b-thai-handwriting-lora-v1"
     ],
     "family": "typhoon-ocr-thai-handwriting-lora-v1"
+  },
+  {
+    "id": "openrouter:poolside/laguna-xs-2.1:free",
+    "name": "Poolside: Laguna XS 2.1 (free)",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-02T14:27:09+00:00",
+    "context_length": 262144,
+    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
+    "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-07-02T17:48:05.175326+00:00",
+    "source_ids": [
+      "poolside/laguna-xs-2.1:free"
+    ],
+    "family": "Laguna XS 2.1"
+  },
+  {
+    "id": "openrouter:poolside/laguna-xs-2.1",
+    "name": "Poolside: Laguna XS 2.1",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-02T14:27:09+00:00",
+    "context_length": 262144,
+    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
+    "url": "https://openrouter.ai/poolside/laguna-xs-2.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.06,
+      "completion_per_million": 0.12
+    },
+    "first_seen": "2026-07-02T17:48:05.176338+00:00",
+    "source_ids": [
+      "poolside/laguna-xs-2.1"
+    ],
+    "family": "Laguna XS 2.1"
+  },
+  {
+    "id": "huggingface:King3Djbl/mythos-9b-unhinged",
+    "name": "mythos-9b-unhinged",
+    "provider": "King3Djbl",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-17T11:26:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/King3Djbl/mythos-9b-unhinged",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3",
+      "uncensored",
+      "agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-02T17:48:05.294195+00:00",
+    "source_ids": [
+      "King3Djbl/mythos-9b-unhinged"
+    ],
+    "family": "mythos-unhinged"
   }
 ]
