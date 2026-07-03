@@ -589,6 +589,41 @@
     "family": "ultragemma4-e-heretic-uncensored"
   },
   {
+    "id": "huggingface:leonsarmiento/Ornith-1.0-35B-5bit-mlx",
+    "name": "Ornith-1.0-35B-5bit-mlx",
+    "provider": "leonsarmiento",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-25T19:24:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leonsarmiento/Ornith-1.0-35B-5bit-mlx",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "mlx-vlm",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T14:04:27.828292+00:00",
+    "source_ids": [
+      "leonsarmiento/Ornith-1.0-35B-5bit-mlx"
+    ],
+    "family": "Ornith-1.0-5bit-mlx"
+  },
+  {
     "id": "huggingface:jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
     "name": "Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
     "provider": "jashepp",
@@ -7277,37 +7312,6 @@
     "family": "NVIDIA-Nemotron-3-Ultra-BF16"
   },
   {
-    "id": "openrouter:qwen/qwen3.7-plus",
-    "name": "Qwen: Qwen3.7 Plus",
-    "provider": "Qwen",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-03T13:03:03+00:00",
-    "context_length": 1000000,
-    "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
-    "url": "https://openrouter.ai/qwen/qwen3.7-plus",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.4,
-      "completion_per_million": 1.6
-    },
-    "first_seen": "2026-06-03T13:45:08.073506+00:00",
-    "source_ids": [
-      "qwen/qwen3.7-plus"
-    ],
-    "family": "Qwen3.7 Plus"
-  },
-  {
     "id": "huggingface:TaQuants/Tema_Q-R-4B-TaQuants-GGUF",
     "name": "Tema_Q-R-4B-TaQuants-GGUF",
     "provider": "TaQuants",
@@ -7945,6 +7949,41 @@
       "properly59/Jumini-Ko-1.2B"
     ],
     "family": "Jumini-Ko"
+  },
+  {
+    "id": "huggingface:PanocularAI/PanoVLM-500M",
+    "name": "PanoVLM-500M",
+    "provider": "PanocularAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T20:50:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PanocularAI/PanoVLM-500M",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "panovlm",
+      "feature-extraction",
+      "fastvit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T14:04:27.828210+00:00",
+    "source_ids": [
+      "PanocularAI/PanoVLM-500M"
+    ],
+    "family": "PanoVLM-500M"
   },
   {
     "id": "huggingface:meshllm/GLM-4.7-Flash-REAP-23B-A3B-UD-Q4_K_XL-layers",
@@ -13966,41 +14005,6 @@
       "allenai/Bolmo-7B"
     ],
     "family": "Bolmo"
-  },
-  {
-    "id": "huggingface:raxcore-dev/rax-3.5-chat",
-    "name": "rax-3.5-chat",
-    "provider": "raxcore-dev",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-27T15:29:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/raxcore-dev/rax-3.5-chat",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T13:45:09.244573+00:00",
-    "source_ids": [
-      "raxcore-dev/rax-3.5-chat"
-    ],
-    "family": "rax-3.5"
   },
   {
     "id": "huggingface:raxcore-dev/Rax-4.5",

@@ -90069,5 +90069,75 @@
       "cstr/qwen3-asr-0.6b-GGUF"
     ],
     "family": "qwen3-asr"
+  },
+  {
+    "id": "huggingface:PanocularAI/PanoVLM-500M",
+    "name": "PanoVLM-500M",
+    "provider": "PanocularAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T20:50:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PanocularAI/PanoVLM-500M",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "panovlm",
+      "feature-extraction",
+      "fastvit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T14:04:27.828210+00:00",
+    "source_ids": [
+      "PanocularAI/PanoVLM-500M"
+    ],
+    "family": "PanoVLM-500M"
+  },
+  {
+    "id": "huggingface:leonsarmiento/Ornith-1.0-35B-5bit-mlx",
+    "name": "Ornith-1.0-35B-5bit-mlx",
+    "provider": "leonsarmiento",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-25T19:24:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leonsarmiento/Ornith-1.0-35B-5bit-mlx",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "mlx-vlm",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T14:04:27.828292+00:00",
+    "source_ids": [
+      "leonsarmiento/Ornith-1.0-35B-5bit-mlx"
+    ],
+    "family": "Ornith-1.0-5bit-mlx"
   }
 ]
