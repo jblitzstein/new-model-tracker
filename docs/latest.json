@@ -1269,6 +1269,39 @@
     "family": "Gemma4-QAT-Uncensored-HauhauCS-Balanced"
   },
   {
+    "id": "huggingface:InternScience/Agents-A1",
+    "name": "Agents-A1",
+    "provider": "InternScience",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-22T02:22:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/InternScience/Agents-A1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T07:20:11.394669+00:00",
+    "source_ids": [
+      "InternScience/Agents-A1"
+    ],
+    "family": "Agents-A1"
+  },
+  {
     "id": "huggingface:brandonmusic/GLM-5.2-NVFP4-REAP-Recall-N172",
     "name": "GLM-5.2-NVFP4-REAP-Recall-N172",
     "provider": "brandonmusic",
@@ -3454,6 +3487,39 @@
       "ankurkaul17/minicpm-v-4.6-pdd-gguf"
     ],
     "family": "minicpm-v-4.6-pdd"
+  },
+  {
+    "id": "huggingface:Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF",
+    "name": "Qwen3.6-35B-A3B-abliterated-v4-GGUF",
+    "provider": "Bahushruth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-11T12:26:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliteration",
+      "uncensored",
+      "qwen3",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T07:20:11.394784+00:00",
+    "source_ids": [
+      "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF"
+    ],
+    "family": "Qwen3.6-abliterated-v4"
   },
   {
     "id": "huggingface:PaddlePaddle/PP-OCRv6_tiny_rec",
@@ -9600,40 +9666,6 @@
     "family": "Qwen3.6-DeckardUncensored-OpusDistilled-W4A16"
   },
   {
-    "id": "huggingface:mlx-community/Lance-3B-Video-bf16",
-    "name": "Lance-3B-Video-bf16",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-21T17:05:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Lance-3B-Video-bf16",
-    "tags": [
-      "text-to-video",
-      "mlx",
-      "safetensors",
-      "qwen2_5_vl",
-      "apple-silicon",
-      "lance"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T05:43:01.155712+00:00",
-    "source_ids": [
-      "mlx-community/Lance-3B-Video-bf16"
-    ],
-    "family": "Lance-Video-bf16"
-  },
-  {
     "id": "huggingface:cHunter789/Qwen3.6-27B-i1-IQ4_KS-GGUF",
     "name": "Qwen3.6-27B-i1-IQ4_KS-GGUF",
     "provider": "cHunter789",
@@ -10648,41 +10680,6 @@
       "HuggingFaceBio/Carbon-3B"
     ],
     "family": "Carbon"
-  },
-  {
-    "id": "huggingface:lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
-    "name": "LLaVA-OneVision-2-8B-Instruct",
-    "provider": "lmms-lab-encoder",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-11T09:42:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "llava_onevision2",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T05:43:01.388745+00:00",
-    "source_ids": [
-      "lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct"
-    ],
-    "family": "LLaVA-OneVision-2"
   },
   {
     "id": "huggingface:Youssofal/Qwen3.6-27B-MTPLX-Optimized-Quality",
@@ -12309,6 +12306,40 @@
       "amd/MiniMax-M2.7-MXFP4"
     ],
     "family": "MiniMax-M2.7-MXFP4"
+  },
+  {
+    "id": "huggingface:cstr/qwen3-asr-1.7b-GGUF",
+    "name": "qwen3-asr-1.7b-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-11T17:37:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/qwen3-asr-1.7b-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "asr",
+      "speech-recognition",
+      "qwen3",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T07:20:11.780795+00:00",
+    "source_ids": [
+      "cstr/qwen3-asr-1.7b-GGUF"
+    ],
+    "family": "qwen3-asr"
   },
   {
     "id": "huggingface:nvidia/Nemotron-TwoTower-30B-A3B-Base-BF16",
