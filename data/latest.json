@@ -255,6 +255,39 @@
     "family": "Uraion-Agent-Small"
   },
   {
+    "id": "huggingface:protoLabsAI/Ornith-1.0-9B-MTP-GGUF",
+    "name": "Ornith-1.0-9B-MTP-GGUF",
+    "provider": "protoLabsAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-27T22:19:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/protoLabsAI/Ornith-1.0-9B-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "speculative-decoding",
+      "mtp",
+      "multi-token-prediction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T10:35:28.702011+00:00",
+    "source_ids": [
+      "protoLabsAI/Ornith-1.0-9B-MTP-GGUF"
+    ],
+    "family": "Ornith-1.0-MTP"
+  },
+  {
     "id": "huggingface:SC117/Ornith-1.0-35B-MTP-APEX-GGUF",
     "name": "Ornith-1.0-35B-MTP-APEX-GGUF",
     "provider": "SC117",
@@ -3518,6 +3551,39 @@
     "first_seen": "2026-07-03T07:20:11.394784+00:00",
     "source_ids": [
       "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF"
+    ],
+    "family": "Qwen3.6-abliterated-v4"
+  },
+  {
+    "id": "huggingface:Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
+    "name": "Qwen3.6-35B-A3B-abliterated-v4",
+    "provider": "Bahushruth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-11T12:04:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe_text",
+      "text-generation",
+      "abliteration"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T10:35:28.701969+00:00",
+    "source_ids": [
+      "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4"
     ],
     "family": "Qwen3.6-abliterated-v4"
   },
@@ -8295,40 +8361,6 @@
     "family": "gemma-4-it"
   },
   {
-    "id": "huggingface:baidu/NAVA",
-    "name": "NAVA",
-    "provider": "Baidu",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-05-29T02:17:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/baidu/NAVA",
-    "tags": [
-      "text-to-video",
-      "custom",
-      "ti2v",
-      "text-to-video",
-      "text-to-audio-video",
-      "audio-video-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T09:42:09.588152+00:00",
-    "source_ids": [
-      "baidu/NAVA"
-    ],
-    "family": "NAVA"
-  },
-  {
     "id": "huggingface:google/magenta-realtime-2",
     "name": "magenta-realtime-2",
     "provider": "Google",
@@ -8561,41 +8593,6 @@
       "Lazarus-Ai/ReAligned-Qwen3.5-9B-GGUF"
     ],
     "family": "ReAligned-Qwen3.5"
-  },
-  {
-    "id": "huggingface:lastmass/Qwen3.5-Medical-GSPO",
-    "name": "Qwen3.5-Medical-GSPO",
-    "provider": "lastmass",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T07:52:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lastmass/Qwen3.5-Medical-GSPO",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "medical",
-      "reasoning",
-      "rlvr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T09:42:10.007019+00:00",
-    "source_ids": [
-      "lastmass/Qwen3.5-Medical-GSPO"
-    ],
-    "family": "Qwen3.5-Medical-GSPO"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
@@ -10616,39 +10613,6 @@
     "family": "gemma-4-Ortenzya-The-Creative-Wordsmith-it-uncensored-heretic"
   },
   {
-    "id": "huggingface:cs-552-2026-MandMP/math_model",
-    "name": "math_model",
-    "provider": "cs-552-2026-MandMP",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T14:35:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cs-552-2026-MandMP/math_model",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T09:42:09.287638+00:00",
-    "source_ids": [
-      "cs-552-2026-MandMP/math_model"
-    ],
-    "family": "math_model"
-  },
-  {
     "id": "huggingface:HuggingFaceBio/Carbon-3B",
     "name": "Carbon-3B",
     "provider": "HuggingFaceBio",
@@ -11798,39 +11762,6 @@
     "family": "Qwen3-ASR-int8-QAD"
   },
   {
-    "id": "huggingface:ThingAI/Quark-50m",
-    "name": "Quark-50m",
-    "provider": "ThingAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T18:58:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ThingAI/Quark-50m",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "llama",
-      "smol",
-      "pretraining"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T09:42:09.287745+00:00",
-    "source_ids": [
-      "ThingAI/Quark-50m"
-    ],
-    "family": "Quark-50m"
-  },
-  {
     "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
     "name": "EXAONE-4.5-33B-AWQ",
     "provider": "LGAI-EXAONE",
@@ -12505,6 +12436,40 @@
       "AEON-7/Gemma-4-26B-A4B-it-Uncensored-NVFP4"
     ],
     "family": "Gemma-4-it-Uncensored-NVFP4"
+  },
+  {
+    "id": "huggingface:cstr/qwen3-asr-0.6b-GGUF",
+    "name": "qwen3-asr-0.6b-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-08T11:25:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/qwen3-asr-0.6b-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "ggml",
+      "gguf",
+      "audio",
+      "speech-recognition",
+      "transcription"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T10:35:29.479678+00:00",
+    "source_ids": [
+      "cstr/qwen3-asr-0.6b-GGUF"
+    ],
+    "family": "qwen3-asr"
   },
   {
     "id": "huggingface:cstr/canary-1b-v2-GGUF",
