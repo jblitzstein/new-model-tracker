@@ -5134,6 +5134,39 @@
     "family": "gemma-4-it-qat-q4_0-assistant"
   },
   {
+    "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4",
+    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4",
+    "provider": "AEON-7",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T02:26:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "12b"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-03T03:17:52.016665+00:00",
+    "source_ids": [
+      "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4"
+    ],
+    "family": "Gemma-4-it-AEON-Abliterated-K4-NVFP4"
+  },
+  {
     "id": "huggingface:pearsonkyle/gemma-4-31B-it-awq-2bit-GGUF",
     "name": "gemma-4-31B-it-awq-2bit-GGUF",
     "provider": "pearsonkyle",
@@ -9567,39 +9600,6 @@
     "family": "Qwen3.6-DeckardUncensored-OpusDistilled-W4A16"
   },
   {
-    "id": "huggingface:smithblack-0/SHRAM-dev",
-    "name": "SHRAM-dev",
-    "provider": "smithblack-0",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-21T21:03:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/smithblack-0/SHRAM-dev",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "shram",
-      "pytorch",
-      "research",
-      "sparse-attention"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T01:05:06.196960+00:00",
-    "source_ids": [
-      "smithblack-0/SHRAM-dev"
-    ],
-    "family": "SHRAM-dev"
-  },
-  {
     "id": "huggingface:mlx-community/Lance-3B-Video-bf16",
     "name": "Lance-3B-Video-bf16",
     "provider": "mlx-community",
@@ -10280,41 +10280,6 @@
     "family": "Supertron-VL"
   },
   {
-    "id": "huggingface:Jackrong/Qwopus3.5-9B-Coder",
-    "name": "Qwopus3.5-9B-Coder",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-15T08:15:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-03T01:05:06.616798+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.5-9B-Coder"
-    ],
-    "family": "Qwopus3.5-Coder"
-  },
-  {
     "id": "huggingface:jduartedj/MiniCPM-V-4.6-35B-Abliterated",
     "name": "MiniCPM-V-4.6-35B-Abliterated",
     "provider": "jduartedj",
@@ -10619,35 +10584,6 @@
     "family": "gemma-4-Ortenzya-The-Creative-Wordsmith-it-uncensored-heretic"
   },
   {
-    "id": "openrouter:openrouter/fusion",
-    "name": "OpenRouter: Fusion",
-    "provider": "openrouter",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T16:33:26+00:00",
-    "context_length": 128000,
-    "description": "Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a...",
-    "url": "https://openrouter.ai/openrouter/fusion",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": -1000000.0,
-      "completion_per_million": -1000000.0
-    },
-    "first_seen": "2026-06-02T21:07:33.341787+00:00",
-    "source_ids": [
-      "openrouter/fusion"
-    ],
-    "family": "Fusion"
-  },
-  {
     "id": "huggingface:cs-552-2026-MandMP/math_model",
     "name": "math_model",
     "provider": "cs-552-2026-MandMP",
@@ -10712,39 +10648,6 @@
       "HuggingFaceBio/Carbon-3B"
     ],
     "family": "Carbon"
-  },
-  {
-    "id": "huggingface:metaresearch/PapersRAG-1.5B",
-    "name": "PapersRAG-1.5B",
-    "provider": "metaresearch",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T10:28:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/metaresearch/PapersRAG-1.5B",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen2",
-      "rag",
-      "question-answering",
-      "scientific-literature"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-02T21:07:33.484666+00:00",
-    "source_ids": [
-      "metaresearch/PapersRAG-1.5B"
-    ],
-    "family": "PapersRAG"
   },
   {
     "id": "huggingface:lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
