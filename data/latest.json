@@ -1099,6 +1099,39 @@
     "family": "tmax-imatrix-MTP"
   },
   {
+    "id": "huggingface:SixVolts/GLM-5.2-ewaste-edition-GGUF",
+    "name": "GLM-5.2-ewaste-edition-GGUF",
+    "provider": "SixVolts",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-23T02:45:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SixVolts/GLM-5.2-ewaste-edition-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "glm-dsa",
+      "moe",
+      "cpu-inference",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-04T06:46:37.607283+00:00",
+    "source_ids": [
+      "SixVolts/GLM-5.2-ewaste-edition-GGUF"
+    ],
+    "family": "GLM-5.2-ewaste-edition"
+  },
+  {
     "id": "huggingface:lmsys/qwen-image-2512-modelopt-nvfp4-sglang",
     "name": "qwen-image-2512-modelopt-nvfp4-sglang",
     "provider": "LMSYS",
@@ -8712,105 +8745,6 @@
     "family": "CosyVoice-300M-ONNX"
   },
   {
-    "id": "huggingface:Lazarus-Ai/ReAligned-Qwen3.5-35B-A3B-GGUF",
-    "name": "ReAligned-Qwen3.5-35B-A3B-GGUF",
-    "provider": "Lazarus-Ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T09:21:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Lazarus-Ai/ReAligned-Qwen3.5-35B-A3B-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "qwen3.5",
-      "realigned",
-      "quixiai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T05:40:56.749771+00:00",
-    "source_ids": [
-      "Lazarus-Ai/ReAligned-Qwen3.5-35B-A3B-GGUF"
-    ],
-    "family": "ReAligned-Qwen3.5"
-  },
-  {
-    "id": "huggingface:Lazarus-Ai/ReAligned-Qwen3.5-27B-GGUF",
-    "name": "ReAligned-Qwen3.5-27B-GGUF",
-    "provider": "Lazarus-Ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T09:21:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Lazarus-Ai/ReAligned-Qwen3.5-27B-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "qwen3.5",
-      "realigned",
-      "quixiai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T05:40:56.749808+00:00",
-    "source_ids": [
-      "Lazarus-Ai/ReAligned-Qwen3.5-27B-GGUF"
-    ],
-    "family": "ReAligned-Qwen3.5"
-  },
-  {
-    "id": "huggingface:Lazarus-Ai/ReAligned-Qwen3.5-9B-GGUF",
-    "name": "ReAligned-Qwen3.5-9B-GGUF",
-    "provider": "Lazarus-Ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-27T09:20:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Lazarus-Ai/ReAligned-Qwen3.5-9B-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "qwen3.5",
-      "realigned",
-      "quixiai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T05:40:56.749838+00:00",
-    "source_ids": [
-      "Lazarus-Ai/ReAligned-Qwen3.5-9B-GGUF"
-    ],
-    "family": "ReAligned-Qwen3.5"
-  },
-  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
     "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
     "provider": "NVIDIA",
@@ -10385,40 +10319,6 @@
       "cstr/voxcpm2-GGUF"
     ],
     "family": "voxcpm2"
-  },
-  {
-    "id": "huggingface:kjanh/KhanhTTS-OmniVoice",
-    "name": "KhanhTTS-OmniVoice",
-    "provider": "kjanh",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-05-16T02:00:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kjanh/KhanhTTS-OmniVoice",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "omnivoice",
-      "text-to-speech",
-      "vi",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T05:40:57.092963+00:00",
-    "source_ids": [
-      "kjanh/KhanhTTS-OmniVoice"
-    ],
-    "family": "KhanhTTS-OmniVoice"
   },
   {
     "id": "huggingface:nvidia/nemotron-3.5-asr-streaming-0.6b",
@@ -13544,41 +13444,6 @@
       "inferencerlabs/archived-GLM-5-MLX-4.8bit"
     ],
     "family": "archived-GLM-5-MLX-4.8bit"
-  },
-  {
-    "id": "huggingface:aisingapore/Gemma-SEA-LION-v4-4B-VL-GGUF",
-    "name": "Gemma-SEA-LION-v4-4B-VL-GGUF",
-    "provider": "aisingapore",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-06T04:52:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-v4-4B-VL-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "en",
-      "zh",
-      "vi"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T05:40:57.243817+00:00",
-    "source_ids": [
-      "aisingapore/Gemma-SEA-LION-v4-4B-VL-GGUF"
-    ],
-    "family": "Gemma-SEA-LION-v4-VL"
   },
   {
     "id": "huggingface:inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit",
