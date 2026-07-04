@@ -321,6 +321,39 @@
     "family": "Ornith-1.0-MTP-APEX"
   },
   {
+    "id": "huggingface:FadedRedStar/LFM2.5-8B-A1B-heretic-imatrix-GGUF",
+    "name": "LFM2.5-8B-A1B-heretic-imatrix-GGUF",
+    "provider": "FadedRedStar",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-27T03:30:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FadedRedStar/LFM2.5-8B-A1B-heretic-imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "text-generation",
+      "reasoning",
+      "instruction-following",
+      "agentic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-04T20:57:55.854669+00:00",
+    "source_ids": [
+      "FadedRedStar/LFM2.5-8B-A1B-heretic-imatrix-GGUF"
+    ],
+    "family": "LFM2.5-heretic-imatrix"
+  },
+  {
     "id": "huggingface:deepseek-ai/DeepSeek-V4-Pro-DSpark",
     "name": "DeepSeek-V4-Pro-DSpark",
     "provider": "DeepSeek",
@@ -6590,34 +6623,6 @@
     "family": "nemotron-3.5-asr-streaming-onnx-int4"
   },
   {
-    "id": "openrouter:nvidia/nemotron-3.5-content-safety:free",
-    "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T14:04:24+00:00",
-    "context_length": 128000,
-    "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
-    "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-06-04T17:07:02.838201+00:00",
-    "source_ids": [
-      "nvidia/nemotron-3.5-content-safety:free"
-    ],
-    "family": "Nemotron 3.5 Content Safety"
-  },
-  {
     "id": "huggingface:jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN",
     "name": "CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN",
     "provider": "jcbtc",
@@ -6951,61 +6956,6 @@
       "bosonai/higgs-tts-3-4b"
     ],
     "family": "higgs-tts-3"
-  },
-  {
-    "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-    "name": "NVIDIA: Nemotron 3 Ultra (free)",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T05:33:28+00:00",
-    "context_length": 1000000,
-    "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
-    "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-06-04T17:07:02.839193+00:00",
-    "source_ids": [
-      "nvidia/nemotron-3-ultra-550b-a55b:free"
-    ],
-    "family": "Nemotron 3 Ultra"
-  },
-  {
-    "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b",
-    "name": "NVIDIA: Nemotron 3 Ultra",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T05:33:28+00:00",
-    "context_length": 1000000,
-    "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
-    "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.5,
-      "completion_per_million": 2.5
-    },
-    "first_seen": "2026-06-04T17:07:02.839237+00:00",
-    "source_ids": [
-      "nvidia/nemotron-3-ultra-550b-a55b"
-    ],
-    "family": "Nemotron 3 Ultra"
   },
   {
     "id": "huggingface:nex-agi/Nex-N2-mini",
@@ -8542,41 +8492,6 @@
     "family": "CosyVoice-300M-ONNX"
   },
   {
-    "id": "huggingface:inferencerlabs/archived-Kimi-K2.6-MLX",
-    "name": "archived-Kimi-K2.6-MLX",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-26T22:36:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/archived-Kimi-K2.6-MLX",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "image-text-to-text",
-      "en",
-      "base_model:moonshotai/Kimi-K2.6",
-      "base_model:finetune:moonshotai/Kimi-K2.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T20:46:05.606103+00:00",
-    "source_ids": [
-      "inferencerlabs/archived-Kimi-K2.6-MLX"
-    ],
-    "family": "archived-Kimi-K2.6-MLX"
-  },
-  {
     "id": "huggingface:Danieli1021/evolai-qwen047-v4",
     "name": "evolai-qwen047-v4",
     "provider": "Danieli1021",
@@ -10016,39 +9931,6 @@
       "ray0rf1re/nano-nano_4.7"
     ],
     "family": "nano-nano_4.7"
-  },
-  {
-    "id": "huggingface:DZER-Studios/Create_Vexion-LM",
-    "name": "Create_Vexion-LM",
-    "provider": "DZER-Studios",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-17T07:58:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DZER-Studios/Create_Vexion-LM",
-    "tags": [
-      "text-generation",
-      "custom",
-      "custom_code",
-      "FP16",
-      "pytorch",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T20:46:05.170560+00:00",
-    "source_ids": [
-      "DZER-Studios/Create_Vexion-LM"
-    ],
-    "family": "Create_Vexion-LM"
   },
   {
     "id": "huggingface:cstr/voxcpm2-GGUF",
@@ -11509,39 +11391,6 @@
       "poolside/Laguna-M.1-FP8"
     ],
     "family": "Laguna-M.1-FP8"
-  },
-  {
-    "id": "huggingface:ubergarm/Qwen3.6-27B-GGUF",
-    "name": "Qwen3.6-27B-GGUF",
-    "provider": "ubergarm",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-24T16:44:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ubergarm/Qwen3.6-27B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "imatrix",
-      "conversational",
-      "qwen3_5",
-      "ik_llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T17:07:02.947180+00:00",
-    "source_ids": [
-      "ubergarm/Qwen3.6-27B-GGUF"
-    ],
-    "family": "Qwen3.6"
   },
   {
     "id": "huggingface:mlx-community/DeepSeek-V4-Pro",
@@ -13920,6 +13769,41 @@
     "family": "Bolmo"
   },
   {
+    "id": "huggingface:mlx-community/Devstral-Small-2-24B-Instruct-2512-4bit",
+    "name": "Devstral-Small-2-24B-Instruct-2512-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-09T17:00:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Devstral-Small-2-24B-Instruct-2512-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "mistral3",
+      "mistral-common",
+      "4-bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-04T20:57:56.408475+00:00",
+    "source_ids": [
+      "mlx-community/Devstral-Small-2-24B-Instruct-2512-4bit"
+    ],
+    "family": "Devstral-Small-2--2512-4bit"
+  },
+  {
     "id": "huggingface:typhoon-ai/typhoon-ocr1.5-2b",
     "name": "typhoon-ocr1.5-2b",
     "provider": "typhoon-ai",
@@ -13953,39 +13837,6 @@
       "typhoon-ai/typhoon-ocr1.5-2b"
     ],
     "family": "typhoon-ocr1.5"
-  },
-  {
-    "id": "huggingface:KORMo-Team/KORMo-10B-sft",
-    "name": "KORMo-10B-sft",
-    "provider": "KORMo-Team",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-12T12:13:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/KORMo-Team/KORMo-10B-sft",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "kormo",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-04T20:46:05.170441+00:00",
-    "source_ids": [
-      "KORMo-Team/KORMo-10B-sft"
-    ],
-    "family": "KORMo-sft"
   },
   {
     "id": "huggingface:LiquidAI/LFM2-8B-A1B-GGUF",
