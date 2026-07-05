@@ -55,6 +55,72 @@
     "family": "Laguna XS 2.1"
   },
   {
+    "id": "huggingface:hotdogs/qwen27b-abliterated-Fable-MTP",
+    "name": "qwen27b-abliterated-Fable-MTP",
+    "provider": "hotdogs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-02T07:47:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hotdogs/qwen27b-abliterated-Fable-MTP",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "gguf",
+      "qwen3.6",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-05T10:12:32.814994+00:00",
+    "source_ids": [
+      "hotdogs/qwen27b-abliterated-Fable-MTP"
+    ],
+    "family": "qwen-abliterated-Fable-MTP"
+  },
+  {
+    "id": "huggingface:huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF",
+    "name": "Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-01T13:44:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "llama.cpp",
+      "speculative-decoding",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-05T10:12:32.815187+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF"
+    ],
+    "family": "Huihui-Ornith-1.0-abliterated-MTP"
+  },
+  {
     "id": "huggingface:nvidia/Mistral-Medium-3.5-128B-NVFP4",
     "name": "Mistral-Medium-3.5-128B-NVFP4",
     "provider": "NVIDIA",
@@ -655,6 +721,41 @@
       "leonsarmiento/Ornith-1.0-35B-5bit-mlx"
     ],
     "family": "Ornith-1.0-5bit-mlx"
+  },
+  {
+    "id": "huggingface:XiaofengAlg/MechVL-4B-RL",
+    "name": "MechVL-4B-RL",
+    "provider": "XiaofengAlg",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-25T16:45:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XiaofengAlg/MechVL-4B-RL",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-05T10:12:33.459385+00:00",
+    "source_ids": [
+      "XiaofengAlg/MechVL-4B-RL"
+    ],
+    "family": "MechVL-RL"
   },
   {
     "id": "huggingface:jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
@@ -2936,6 +3037,39 @@
       "AlexWortega/SIQ-1-35B"
     ],
     "family": "SIQ-1"
+  },
+  {
+    "id": "huggingface:fableforge-ai/ReasonCritic-7B",
+    "name": "ReasonCritic-7B",
+    "provider": "fableforge-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-14T19:27:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/fableforge-ai/ReasonCritic-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen3",
+      "text-generation",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-05T10:12:32.815252+00:00",
+    "source_ids": [
+      "fableforge-ai/ReasonCritic-7B"
+    ],
+    "family": "ReasonCritic"
   },
   {
     "id": "huggingface:fableforge-ai/ShellWhisperer-1.5B",
@@ -6282,40 +6416,6 @@
     "family": "Coral-v1.5"
   },
   {
-    "id": "huggingface:fairy322/Qwen2.5-VL-7B-Abliterated-Caption-it-i1-GGUF",
-    "name": "Qwen2.5-VL-7B-Abliterated-Caption-it-i1-GGUF",
-    "provider": "fairy322",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-05T01:34:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fairy322/Qwen2.5-VL-7B-Abliterated-Caption-it-i1-GGUF",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "uncensored",
-      "image-captioning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-05T09:13:50.316866+00:00",
-    "source_ids": [
-      "fairy322/Qwen2.5-VL-7B-Abliterated-Caption-it-i1-GGUF"
-    ],
-    "family": "Qwen2.5-VL-Abliterated-Caption-it-i1"
-  },
-  {
     "id": "huggingface:FreedomAISVR/Gemma-4-12B-it-MXFP4-GGUF",
     "name": "Gemma-4-12B-it-MXFP4-GGUF",
     "provider": "FreedomAISVR",
@@ -8143,40 +8243,6 @@
       "AEON-7/Step-3.7-Flash-AEON-Ultimate-Abliterated-GGUF"
     ],
     "family": "Step-3.7-Flash-AEON-Ultimate-Abliterated"
-  },
-  {
-    "id": "huggingface:ideogram-ai/ideogram-4-nf4",
-    "name": "ideogram-4-nf4",
-    "provider": "ideogram-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-05-30T02:06:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "text-to-image",
-      "image-generation",
-      "diffusion"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-05T09:13:50.223120+00:00",
-    "source_ids": [
-      "ideogram-ai/ideogram-4-nf4"
-    ],
-    "family": "ideogram-4-nf4"
   },
   {
     "id": "huggingface:Hcompany/Holo-3.1-0.8B",
@@ -10822,39 +10888,6 @@
       "RedHatAI/Kimi-K2.6-NVFP4"
     ],
     "family": "Kimi-K2.6-NVFP4"
-  },
-  {
-    "id": "huggingface:MultiverseComputingCAI/Hypernova-60B-2605",
-    "name": "Hypernova-60B-2605",
-    "provider": "MultiverseComputingCAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-30T09:02:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2605",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-05T09:13:50.117354+00:00",
-    "source_ids": [
-      "MultiverseComputingCAI/Hypernova-60B-2605"
-    ],
-    "family": "Hypernova-2605"
   },
   {
     "id": "huggingface:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
