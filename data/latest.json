@@ -1,5 +1,127 @@
 [
   {
+    "id": "openrouter:tencent/hy3:free",
+    "name": "Tencent: Hy3 (free)",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T13:20:48+00:00",
+    "context_length": 262144,
+    "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
+    "url": "https://openrouter.ai/tencent/hy3:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:20.669975+00:00",
+    "source_ids": [
+      "tencent/hy3:free"
+    ],
+    "family": "Hy3"
+  },
+  {
+    "id": "openrouter:tencent/hy3",
+    "name": "Tencent: Hy3",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T13:20:48+00:00",
+    "context_length": 262144,
+    "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
+    "url": "https://openrouter.ai/tencent/hy3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.14,
+      "completion_per_million": 0.58
+    },
+    "first_seen": "2026-07-06T15:33:20.670918+00:00",
+    "source_ids": [
+      "tencent/hy3"
+    ],
+    "family": "Hy3"
+  },
+  {
+    "id": "huggingface:Nikya/qupus_tts_0.8Bsbaselora",
+    "name": "qupus_tts_0.8Bsbaselora",
+    "provider": "Nikya",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-04T19:03:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Nikya/qupus_tts_0.8Bsbaselora",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:21.185837+00:00",
+    "source_ids": [
+      "Nikya/qupus_tts_0.8Bsbaselora"
+    ],
+    "family": "qupus_tts_0.8Bsbaselora"
+  },
+  {
+    "id": "huggingface:tencent/Hy3-FP8",
+    "name": "Hy3-FP8",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-04T13:39:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/Hy3-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "hy_v3",
+      "text-generation",
+      "hunyuan"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:20.785083+00:00",
+    "source_ids": [
+      "tencent/Hy3-FP8"
+    ],
+    "family": "Hy3-FP8"
+  },
+  {
     "id": "huggingface:satgeze/Ornith-1.0-35B-1M-GGUF",
     "name": "Ornith-1.0-35B-1M-GGUF",
     "provider": "satgeze",
@@ -218,6 +340,39 @@
       "huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF"
     ],
     "family": "Huihui-Ornith-1.0-abliterated-MTP"
+  },
+  {
+    "id": "huggingface:UniversalComputingResearch/Atom2.7m",
+    "name": "Atom2.7m",
+    "provider": "UniversalComputingResearch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T19:37:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/UniversalComputingResearch/Atom2.7m",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt",
+      "causal-lm",
+      "small-language-model",
+      "arithmetic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:20.784948+00:00",
+    "source_ids": [
+      "UniversalComputingResearch/Atom2.7m"
+    ],
+    "family": "Atom2.7m"
   },
   {
     "id": "huggingface:nvidia/Mistral-Medium-3.5-128B-NVFP4",
@@ -6339,76 +6494,6 @@
     "family": "gemma-4-it-OptiQ-4bit"
   },
   {
-    "id": "huggingface:unsloth/gemma-4-31B-it-qat-GGUF",
-    "name": "gemma-4-31B-it-qat-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-05T10:35:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "gemma4",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T12:33:07.440484+00:00",
-    "source_ids": [
-      "unsloth/gemma-4-31B-it-qat-GGUF"
-    ],
-    "family": "gemma-4-it-qat"
-  },
-  {
-    "id": "huggingface:unsloth/gemma-4-26B-A4B-it-qat-GGUF",
-    "name": "gemma-4-26B-A4B-it-qat-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-05T10:35:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "gemma4",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T12:33:07.440547+00:00",
-    "source_ids": [
-      "unsloth/gemma-4-26B-A4B-it-qat-GGUF"
-    ],
-    "family": "gemma-4-it-qat"
-  },
-  {
     "id": "huggingface:contextboxai/ViZipvoice",
     "name": "ViZipvoice",
     "provider": "contextboxai",
@@ -6848,41 +6933,6 @@
     "family": "NVIDIA-Nemotron-3-Ultra-UD-Q4_K_XL-layers"
   },
   {
-    "id": "huggingface:zaakirio/gemma-4-12b-it-uncensored-GGUF",
-    "name": "gemma-4-12b-it-uncensored-GGUF",
-    "provider": "zaakirio",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T17:49:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zaakirio/gemma-4-12b-it-uncensored-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "gemma",
-      "gemma4",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T12:33:07.440580+00:00",
-    "source_ids": [
-      "zaakirio/gemma-4-12b-it-uncensored-GGUF"
-    ],
-    "family": "gemma-4-it-uncensored"
-  },
-  {
     "id": "huggingface:onnx-community/nemotron-3.5-asr-streaming-0.6b-onnx-int4",
     "name": "nemotron-3.5-asr-streaming-0.6b-onnx-int4",
     "provider": "onnx-community",
@@ -6948,39 +6998,6 @@
       "jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN"
     ],
     "family": "CHADROCK3.6-UNCENSORED-MTP-STRIX-LEAN"
-  },
-  {
-    "id": "huggingface:vrfai/gemma-4-12B-it-fp8",
-    "name": "gemma-4-12B-it-fp8",
-    "provider": "vrfai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T08:07:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vrfai/gemma-4-12B-it-fp8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_unified",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:36.569218+00:00",
-    "source_ids": [
-      "vrfai/gemma-4-12B-it-fp8"
-    ],
-    "family": "gemma-4-it-fp8"
   },
   {
     "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-BF16",
@@ -7113,40 +7130,6 @@
       "yuxinlu1/gemma-4-12B-it-Claude-4.6-4.8-Opus-GGUF"
     ],
     "family": "gemma-4-it-Claude-4.6-4.8-Opus"
-  },
-  {
-    "id": "huggingface:bosonai/higgs-audio-v3-tts-4b",
-    "name": "higgs-audio-v3-tts-4b",
-    "provider": "bosonai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-06-04T05:37:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "higgs_multimodal_qwen3",
-      "text-generation",
-      "text-to-speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:37.264234+00:00",
-    "source_ids": [
-      "bosonai/higgs-audio-v3-tts-4b"
-    ],
-    "family": "higgs-audio-v3-tts"
   },
   {
     "id": "huggingface:bosonai/higgs-tts-v3-4b",
@@ -10364,41 +10347,6 @@
     "family": "Qwen3.6--BF16-INT8"
   },
   {
-    "id": "huggingface:vrfai/Cosmos-Reason2-8B-NVFP4",
-    "name": "Cosmos-Reason2-8B-NVFP4",
-    "provider": "vrfai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-05T03:08:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vrfai/Cosmos-Reason2-8B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "nvfp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:37.548339+00:00",
-    "source_ids": [
-      "vrfai/Cosmos-Reason2-8B-NVFP4"
-    ],
-    "family": "Cosmos-Reason2-NVFP4"
-  },
-  {
     "id": "huggingface:dcostenco/prism-coder-14b",
     "name": "prism-coder-14b",
     "provider": "dcostenco",
@@ -10498,41 +10446,6 @@
       "YuYu1015/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-int4-AutoRound"
     ],
     "family": "Huihui-Qwen3.6-Claude-4.7-Opus-abliterated-int4-AutoRound"
-  },
-  {
-    "id": "huggingface:Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
-    "name": "Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
-    "provider": "Smoffyy",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-03T20:29:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "RevisedGGUF",
-      "moe",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:37.548565+00:00",
-    "source_ids": [
-      "Smoffyy/Qwen3.5-35B-A3B-Instruct-Revised-GGUF"
-    ],
-    "family": "Qwen3.5--Revised"
   },
   {
     "id": "huggingface:RedHatAI/Qwen3.6-27B-FP8",
@@ -11139,73 +11052,37 @@
     "family": "vibevoice-asr"
   },
   {
-    "id": "huggingface:vrfai/Qwen3.6-27B-FP8",
-    "name": "Qwen3.6-27B-FP8",
-    "provider": "vrfai",
+    "id": "huggingface:unsloth/DeepSeek-V4-Flash",
+    "name": "DeepSeek-V4-Flash",
+    "provider": "unsloth",
     "source": "huggingface",
     "modality": [
-      "image",
       "text"
     ],
     "input_modalities": [
-      "image",
       "text"
     ],
     "output_modalities": [
       "text"
     ],
-    "release_date": "2026-04-24T07:15:51.000Z",
+    "release_date": "2026-04-24T06:06:58.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/vrfai/Qwen3.6-27B-FP8",
+    "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash",
     "tags": [
-      "image-text-to-text",
+      "text-generation",
       "transformers",
       "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "fp8"
+      "deepseek_v4",
+      "text-generation",
+      "unsloth"
     ],
     "pricing": null,
-    "first_seen": "2026-06-06T08:57:37.548280+00:00",
+    "first_seen": "2026-07-06T15:33:20.784848+00:00",
     "source_ids": [
-      "vrfai/Qwen3.6-27B-FP8"
+      "unsloth/DeepSeek-V4-Flash"
     ],
-    "family": "Qwen3.6-FP8"
-  },
-  {
-    "id": "huggingface:vrfai/Qwen3-ASR-0.6B-int8-QAD",
-    "name": "Qwen3-ASR-0.6B-int8-QAD",
-    "provider": "vrfai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T04:41:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vrfai/Qwen3-ASR-0.6B-int8-QAD",
-    "tags": [
-      "automatic-speech-recognition",
-      "safetensors",
-      "qwen3_asr",
-      "asr",
-      "speech",
-      "quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:37.403125+00:00",
-    "source_ids": [
-      "vrfai/Qwen3-ASR-0.6B-int8-QAD"
-    ],
-    "family": "Qwen3-ASR-int8-QAD"
+    "family": "DeepSeek-V4-Flash"
   },
   {
     "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
@@ -11276,6 +11153,40 @@
       "selode-ai/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB"
     ],
     "family": "Qwen-3.6-VRAP-4-bit--21.2GB"
+  },
+  {
+    "id": "huggingface:JTS-AI/JaiTTS-F5TTS",
+    "name": "JaiTTS-F5TTS",
+    "provider": "JTS-AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-21T09:20:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JTS-AI/JaiTTS-F5TTS",
+    "tags": [
+      "text-to-speech",
+      "f5-tts",
+      "thai",
+      "voice-cloning",
+      "text-to-speech",
+      "th"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:21.185718+00:00",
+    "source_ids": [
+      "JTS-AI/JaiTTS-F5TTS"
+    ],
+    "family": "JaiTTS-F5TTS"
   },
   {
     "id": "huggingface:lyf/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-NVFP4",
@@ -11618,39 +11529,6 @@
       "zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine"
     ],
     "family": "gemma-4-it-uncensored-abliterix-MLX-8bit-int8-affine"
-  },
-  {
-    "id": "huggingface:vrfai/gemma-4-E4B-it-fp8",
-    "name": "gemma-4-E4B-it-fp8",
-    "provider": "vrfai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T03:38:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vrfai/gemma-4-E4B-it-fp8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:36.569124+00:00",
-    "source_ids": [
-      "vrfai/gemma-4-E4B-it-fp8"
-    ],
-    "family": "gemma-4-E-it-fp8"
   },
   {
     "id": "huggingface:amd/MiniMax-M2.7-MXFP4",
@@ -12269,74 +12147,6 @@
     "family": "gemma-4-e-it-4bit"
   },
   {
-    "id": "huggingface:vrfai/Qwen3-ASR-1.7B-nvfp4",
-    "name": "Qwen3-ASR-1.7B-nvfp4",
-    "provider": "vrfai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-28T09:42:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vrfai/Qwen3-ASR-1.7B-nvfp4",
-    "tags": [
-      "automatic-speech-recognition",
-      "safetensors",
-      "qwen3_asr",
-      "asr",
-      "speech",
-      "quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:37.403093+00:00",
-    "source_ids": [
-      "vrfai/Qwen3-ASR-1.7B-nvfp4"
-    ],
-    "family": "Qwen3-ASR-nvfp4"
-  },
-  {
-    "id": "huggingface:vrfai/Qwen3-ASR-1.7B-fp8",
-    "name": "Qwen3-ASR-1.7B-fp8",
-    "provider": "vrfai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-28T09:41:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vrfai/Qwen3-ASR-1.7B-fp8",
-    "tags": [
-      "automatic-speech-recognition",
-      "safetensors",
-      "qwen3_asr",
-      "asr",
-      "speech",
-      "quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T08:57:37.403060+00:00",
-    "source_ids": [
-      "vrfai/Qwen3-ASR-1.7B-fp8"
-    ],
-    "family": "Qwen3-ASR-fp8"
-  },
-  {
     "id": "huggingface:Jackrong/Qwen3.5-4B-Neo-GGUF",
     "name": "Qwen3.5-4B-Neo-GGUF",
     "provider": "Jackrong",
@@ -12712,39 +12522,6 @@
       "cyankiwi/Qwen3.5-122B-A10B-AWQ-8bit"
     ],
     "family": "Qwen3.5--8bit"
-  },
-  {
-    "id": "huggingface:vectionlabs/VL-1-Coder",
-    "name": "VL-1-Coder",
-    "provider": "vectionlabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T18:25:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vectionlabs/VL-1-Coder",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen2",
-      "reasoning",
-      "coding",
-      "agent"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T12:33:07.040759+00:00",
-    "source_ids": [
-      "vectionlabs/VL-1-Coder"
-    ],
-    "family": "VL-1-Coder"
   },
   {
     "id": "huggingface:aman0419/Vitallm-50M",

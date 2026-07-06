@@ -91571,5 +91571,227 @@
       "tencent/HunyuanOCR"
     ],
     "family": "HunyuanOCR"
+  },
+  {
+    "id": "openrouter:tencent/hy3:free",
+    "name": "Tencent: Hy3 (free)",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T13:20:48+00:00",
+    "context_length": 262144,
+    "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
+    "url": "https://openrouter.ai/tencent/hy3:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:20.669975+00:00",
+    "source_ids": [
+      "tencent/hy3:free"
+    ],
+    "family": "Hy3"
+  },
+  {
+    "id": "openrouter:tencent/hy3",
+    "name": "Tencent: Hy3",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T13:20:48+00:00",
+    "context_length": 262144,
+    "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
+    "url": "https://openrouter.ai/tencent/hy3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.14,
+      "completion_per_million": 0.58
+    },
+    "first_seen": "2026-07-06T15:33:20.670918+00:00",
+    "source_ids": [
+      "tencent/hy3"
+    ],
+    "family": "Hy3"
+  },
+  {
+    "id": "huggingface:unsloth/DeepSeek-V4-Flash",
+    "name": "DeepSeek-V4-Flash",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T06:06:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:20.784848+00:00",
+    "source_ids": [
+      "unsloth/DeepSeek-V4-Flash"
+    ],
+    "family": "DeepSeek-V4-Flash"
+  },
+  {
+    "id": "huggingface:UniversalComputingResearch/Atom2.7m",
+    "name": "Atom2.7m",
+    "provider": "UniversalComputingResearch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T19:37:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/UniversalComputingResearch/Atom2.7m",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt",
+      "causal-lm",
+      "small-language-model",
+      "arithmetic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:20.784948+00:00",
+    "source_ids": [
+      "UniversalComputingResearch/Atom2.7m"
+    ],
+    "family": "Atom2.7m"
+  },
+  {
+    "id": "huggingface:tencent/Hy3-FP8",
+    "name": "Hy3-FP8",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-04T13:39:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/Hy3-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "hy_v3",
+      "text-generation",
+      "hunyuan"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:20.785083+00:00",
+    "source_ids": [
+      "tencent/Hy3-FP8"
+    ],
+    "family": "Hy3-FP8"
+  },
+  {
+    "id": "huggingface:JTS-AI/JaiTTS-F5TTS",
+    "name": "JaiTTS-F5TTS",
+    "provider": "JTS-AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-21T09:20:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JTS-AI/JaiTTS-F5TTS",
+    "tags": [
+      "text-to-speech",
+      "f5-tts",
+      "thai",
+      "voice-cloning",
+      "text-to-speech",
+      "th"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:21.185718+00:00",
+    "source_ids": [
+      "JTS-AI/JaiTTS-F5TTS"
+    ],
+    "family": "JaiTTS-F5TTS"
+  },
+  {
+    "id": "huggingface:Nikya/qupus_tts_0.8Bsbaselora",
+    "name": "qupus_tts_0.8Bsbaselora",
+    "provider": "Nikya",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-04T19:03:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Nikya/qupus_tts_0.8Bsbaselora",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T15:33:21.185837+00:00",
+    "source_ids": [
+      "Nikya/qupus_tts_0.8Bsbaselora"
+    ],
+    "family": "qupus_tts_0.8Bsbaselora"
   }
 ]
