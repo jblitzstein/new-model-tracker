@@ -1146,6 +1146,37 @@
     "family": "Wan2.2-Bernini-R-Motion-Enhancer-n4w-i2v"
   },
   {
+    "id": "openrouter:nex-agi/nex-n2-mini",
+    "name": "Nex AGI: Nex-N2-Mini",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-24T14:56:04+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2-Mini is an open-source agentic mixture-of-experts model from Nex AGI, the smaller sibling in the Nex-N2 series. It accepts text and image input and is built for coding, tool use,...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2-mini",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.025,
+      "completion_per_million": 0.1
+    },
+    "first_seen": "2026-07-06T21:37:01.529419+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2-mini"
+    ],
+    "family": "Nex-N2-Mini"
+  },
+  {
     "id": "huggingface:prithivMLmods/ultragemma4-12b-heretic-uncensored",
     "name": "ultragemma4-12b-heretic-uncensored",
     "provider": "prithivMLmods",
@@ -1485,6 +1516,41 @@
       "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4"
     ],
     "family": "Qwen3.6-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4"
+  },
+  {
+    "id": "huggingface:andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF",
+    "name": "Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF",
+    "provider": "andyjack",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-23T04:45:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "MTP"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T21:37:02.555339+00:00",
+    "source_ids": [
+      "andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF"
+    ],
+    "family": "Huihui-Qwen3.5-Abliterated"
   },
   {
     "id": "huggingface:pearsonkyle/tmax-27b-imatrix-MTP-GGUF",
@@ -6393,39 +6459,6 @@
       "pearsonkyle/gemma4-31b-imatrix-mtp-GGUF"
     ],
     "family": "gemma4-imatrix-mtp"
-  },
-  {
-    "id": "huggingface:w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
-    "name": "LFM2.5-8B-A1B-GGUF-MoQ",
-    "provider": "w-ahmad",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-05T23:06:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "MoQ",
-      "mixture-of-quants",
-      "GGUF",
-      "QWEN"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T20:29:06.073299+00:00",
-    "source_ids": [
-      "w-ahmad/LFM2.5-8B-A1B-GGUF-MoQ"
-    ],
-    "family": "LFM2.5--MoQ"
   },
   {
     "id": "huggingface:meshllm/gemma-4-31B-it-qat-UD-Q4_K_XL-layers",
@@ -11697,39 +11730,6 @@
     "family": "Nemotron-Labs-TwoTower--BF16"
   },
   {
-    "id": "huggingface:MihaiPopa-1/LFM2.5-350M-heretic-xagressive",
-    "name": "LFM2.5-350M-heretic-xagressive",
-    "provider": "MihaiPopa-1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T05:23:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MihaiPopa-1/LFM2.5-350M-heretic-xagressive",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T20:29:06.073254+00:00",
-    "source_ids": [
-      "MihaiPopa-1/LFM2.5-350M-heretic-xagressive"
-    ],
-    "family": "LFM2.5-350M-heretic-xagressive"
-  },
-  {
     "id": "huggingface:AEON-7/Gemma-4-26B-A4B-it-Uncensored-NVFP4",
     "name": "Gemma-4-26B-A4B-it-Uncensored-NVFP4",
     "provider": "AEON-7",
@@ -12621,72 +12621,6 @@
       "RavichandranJ/Dolphin3-Cyber-8B-GGUF"
     ],
     "family": "Dolphin3-Cyber"
-  },
-  {
-    "id": "huggingface:inferencerlabs/archived-GLM-5-MLX-4.8bit",
-    "name": "archived-GLM-5-MLX-4.8bit",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-12T00:07:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/archived-GLM-5-MLX-4.8bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "glm_moe_dsa",
-      "quantized",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T20:29:06.073145+00:00",
-    "source_ids": [
-      "inferencerlabs/archived-GLM-5-MLX-4.8bit"
-    ],
-    "family": "archived-GLM-5-MLX-4.8bit"
-  },
-  {
-    "id": "huggingface:inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit",
-    "name": "archived-Kimi-K2.5-MLX-3.6bit",
-    "provider": "inferencerlabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-27T09:37:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "quantized",
-      "text-generation",
-      "en",
-      "base_model:moonshotai/Kimi-K2.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-06T20:29:06.073080+00:00",
-    "source_ids": [
-      "inferencerlabs/archived-Kimi-K2.5-MLX-3.6bit"
-    ],
-    "family": "archived-Kimi-K2.5-MLX-3.6bit"
   },
   {
     "id": "huggingface:unsloth/DeepSeek-OCR-2",

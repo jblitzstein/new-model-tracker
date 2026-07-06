@@ -91826,5 +91826,71 @@
       "ecreeth/stream-mixer-33m-babylm"
     ],
     "family": "stream-mixer-33m-babylm"
+  },
+  {
+    "id": "openrouter:nex-agi/nex-n2-mini",
+    "name": "Nex AGI: Nex-N2-Mini",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-24T14:56:04+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2-Mini is an open-source agentic mixture-of-experts model from Nex AGI, the smaller sibling in the Nex-N2 series. It accepts text and image input and is built for coding, tool use,...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2-mini",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.025,
+      "completion_per_million": 0.1
+    },
+    "first_seen": "2026-07-06T21:37:01.529419+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2-mini"
+    ],
+    "family": "Nex-N2-Mini"
+  },
+  {
+    "id": "huggingface:andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF",
+    "name": "Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF",
+    "provider": "andyjack",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-23T04:45:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "MTP"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-06T21:37:02.555339+00:00",
+    "source_ids": [
+      "andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF"
+    ],
+    "family": "Huihui-Qwen3.5-Abliterated"
   }
 ]
