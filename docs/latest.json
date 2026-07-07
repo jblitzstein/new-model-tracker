@@ -88,6 +88,72 @@
     "family": "Hy3"
   },
   {
+    "id": "huggingface:King3Djbl/FableForge-1.5B",
+    "name": "FableForge-1.5B",
+    "provider": "King3Djbl",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-05T23:42:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/King3Djbl/FableForge-1.5B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-07T14:33:48.543393+00:00",
+    "source_ids": [
+      "King3Djbl/FableForge-1.5B"
+    ],
+    "family": "FableForge"
+  },
+  {
+    "id": "huggingface:SupraLabs/reasoning-summarizer-800m-pre-gguf",
+    "name": "reasoning-summarizer-800m-pre-gguf",
+    "provider": "SupraLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-05T21:52:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SupraLabs/reasoning-summarizer-800m-pre-gguf",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen3.5",
+      "reasoning",
+      "json"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-07T14:33:48.543491+00:00",
+    "source_ids": [
+      "SupraLabs/reasoning-summarizer-800m-pre-gguf"
+    ],
+    "family": "reasoning-summarizer-800m-pre"
+  },
+  {
     "id": "huggingface:Nikya/qupus_tts_0.8Bsbaselora",
     "name": "qupus_tts_0.8Bsbaselora",
     "provider": "Nikya",
@@ -10479,6 +10545,41 @@
     "family": "Qwen3.6--BF16-INT8"
   },
   {
+    "id": "huggingface:mradermacher/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF",
+    "name": "Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T05:00:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "safetensors",
+      "qwen",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-07T14:33:49.127849+00:00",
+    "source_ids": [
+      "mradermacher/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF"
+    ],
+    "family": "Qwen3.6-Claude-4.6-Opus-Reasoning-Distilled-i1"
+  },
+  {
     "id": "huggingface:dcostenco/prism-coder-14b",
     "name": "prism-coder-14b",
     "provider": "dcostenco",
@@ -11082,72 +11183,6 @@
       "poolside/Laguna-M.1-FP8"
     ],
     "family": "Laguna-M.1-FP8"
-  },
-  {
-    "id": "huggingface:mlx-community/DeepSeek-V4-Pro",
-    "name": "DeepSeek-V4-Pro",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-24T14:08:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/DeepSeek-V4-Pro",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "deepseek_v4",
-      "text-generation",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-07T12:38:07.033227+00:00",
-    "source_ids": [
-      "mlx-community/DeepSeek-V4-Pro"
-    ],
-    "family": "DeepSeek-V4-Pro"
-  },
-  {
-    "id": "huggingface:mlx-community/DeepSeek-V4-Flash",
-    "name": "DeepSeek-V4-Flash",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-24T14:07:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/DeepSeek-V4-Flash",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "deepseek_v4",
-      "text-generation",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-07T12:38:07.033186+00:00",
-    "source_ids": [
-      "mlx-community/DeepSeek-V4-Flash"
-    ],
-    "family": "DeepSeek-V4-Flash"
   },
   {
     "id": "huggingface:cstr/vibevoice-asr-GGUF",
