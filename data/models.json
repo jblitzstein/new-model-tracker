@@ -92951,5 +92951,72 @@
       "Darayut/khmer-text-recognition"
     ],
     "family": "khmer-text-recognition"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.5",
+    "name": "xAI: Grok 4.5",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T15:05:54+00:00",
+    "context_length": 500000,
+    "description": "Grok 4.5 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM.",
+    "url": "https://openrouter.ai/x-ai/grok-4.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-07-08T21:07:18.705532+00:00",
+    "source_ids": [
+      "x-ai/grok-4.5"
+    ],
+    "family": "Grok 4.5"
+  },
+  {
+    "id": "huggingface:OzzyGT/Krea_2_Turbo_sdnq_dynamic_4bit",
+    "name": "Krea_2_Turbo_sdnq_dynamic_4bit",
+    "provider": "OzzyGT",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-23T19:29:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OzzyGT/Krea_2_Turbo_sdnq_dynamic_4bit",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "image-generation",
+      "krea2",
+      "sdnq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-08T21:07:18.956335+00:00",
+    "source_ids": [
+      "OzzyGT/Krea_2_Turbo_sdnq_dynamic_4bit"
+    ],
+    "family": "Krea_2_Turbo_sdnq_dynamic_4bit"
   }
 ]
