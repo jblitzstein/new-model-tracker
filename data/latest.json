@@ -1,5 +1,203 @@
 [
   {
+    "id": "openrouter:openai/gpt-5.6-luna-pro",
+    "name": "OpenAI: GPT-5.6 Luna Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:27+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+    "url": "https://openrouter.ai/openai/gpt-5.6-luna-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-07-09T17:55:54.185230+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-luna-pro"
+    ],
+    "family": "GPT-5.6 Luna Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-luna",
+    "name": "OpenAI: GPT-5.6 Luna",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:24+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
+    "url": "https://openrouter.ai/openai/gpt-5.6-luna",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-07-09T17:55:54.185976+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-luna"
+    ],
+    "family": "GPT-5.6 Luna"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-terra-pro",
+    "name": "OpenAI: GPT-5.6 Terra Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:21+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+    "url": "https://openrouter.ai/openai/gpt-5.6-terra-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-07-09T17:55:54.186005+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-terra-pro"
+    ],
+    "family": "GPT-5.6 Terra Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-terra",
+    "name": "OpenAI: GPT-5.6 Terra",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:17+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
+    "url": "https://openrouter.ai/openai/gpt-5.6-terra",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-07-09T17:55:54.186028+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-terra"
+    ],
+    "family": "GPT-5.6 Terra"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-sol-pro",
+    "name": "OpenAI: GPT-5.6 Sol Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:14+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+    "url": "https://openrouter.ai/openai/gpt-5.6-sol-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 30.0
+    },
+    "first_seen": "2026-07-09T17:55:54.186048+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-sol-pro"
+    ],
+    "family": "GPT-5.6 Sol Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-sol",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:10+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
+    "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 30.0
+    },
+    "first_seen": "2026-07-09T17:55:54.186068+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-sol"
+    ],
+    "family": "GPT-5.6 Sol"
+  },
+  {
     "id": "openrouter:x-ai/grok-4.5",
     "name": "xAI: Grok 4.5",
     "provider": "xAI",
@@ -97,6 +295,41 @@
       "EleutherAI/GPT-2-wikitext-chunks"
     ],
     "family": "GPT-2-wikitext-chunks"
+  },
+  {
+    "id": "huggingface:migtissera/Tess-4-27B-GGUF",
+    "name": "Tess-4-27B-GGUF",
+    "provider": "migtissera",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T03:04:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/migtissera/Tess-4-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "tess",
+      "llama.cpp",
+      "quantized",
+      "agentic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-09T17:55:55.289034+00:00",
+    "source_ids": [
+      "migtissera/Tess-4-27B-GGUF"
+    ],
+    "family": "Tess-4"
   },
   {
     "id": "openrouter:aion-labs/aion-3.0-mini",
@@ -7658,39 +7891,6 @@
     "family": "Rax-4.5"
   },
   {
-    "id": "huggingface:CohereLabs/North-Mini-Code-1.0",
-    "name": "North-Mini-Code-1.0",
-    "provider": "CohereLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-05T02:38:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "cohere2_moe",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-09T16:58:41.853260+00:00",
-    "source_ids": [
-      "CohereLabs/North-Mini-Code-1.0"
-    ],
-    "family": "North-Mini-Code-1.0"
-  },
-  {
     "id": "huggingface:mradermacher/Neuron-V1-Distill-Qwen2-14B-i1-GGUF",
     "name": "Neuron-V1-Distill-Qwen2-14B-i1-GGUF",
     "provider": "mradermacher",
@@ -10861,6 +11061,204 @@
     "family": "Kimi-K2.6-NVFP4"
   },
   {
+    "id": "huggingface:allenai/StdMoE_1b14b_1T",
+    "name": "StdMoE_1b14b_1T",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T22:14:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/StdMoE_1b14b_1T",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "emo",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-09T17:55:54.359090+00:00",
+    "source_ids": [
+      "allenai/StdMoE_1b14b_1T"
+    ],
+    "family": "StdMoE_1b14b_1T"
+  },
+  {
+    "id": "huggingface:allenai/StdMoE_1b14b_130B",
+    "name": "StdMoE_1b14b_130B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T21:51:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/StdMoE_1b14b_130B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "emo",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-09T17:55:54.359146+00:00",
+    "source_ids": [
+      "allenai/StdMoE_1b14b_130B"
+    ],
+    "family": "StdMoE_1b14b"
+  },
+  {
+    "id": "huggingface:allenai/StdMoE_1b4b_130B",
+    "name": "StdMoE_1b4b_130B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T21:44:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/StdMoE_1b4b_130B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "emo",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-09T17:55:54.359171+00:00",
+    "source_ids": [
+      "allenai/StdMoE_1b4b_130B"
+    ],
+    "family": "StdMoE_1b4b"
+  },
+  {
+    "id": "huggingface:allenai/Emo_1b14b_130B",
+    "name": "Emo_1b14b_130B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T21:39:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Emo_1b14b_130B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "emo",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-09T17:55:54.359190+00:00",
+    "source_ids": [
+      "allenai/Emo_1b14b_130B"
+    ],
+    "family": "Emo_1b14b"
+  },
+  {
+    "id": "huggingface:allenai/Emo_1b14b_1T",
+    "name": "Emo_1b14b_1T",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T21:34:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Emo_1b14b_1T",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "emo",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-09T17:55:54.359208+00:00",
+    "source_ids": [
+      "allenai/Emo_1b14b_1T"
+    ],
+    "family": "Emo_1b14b_1T"
+  },
+  {
+    "id": "huggingface:allenai/Dense_1b_130B",
+    "name": "Dense_1b_130B",
+    "provider": "Allen AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T21:24:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/allenai/Dense_1b_130B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo2_noqknorm_prenorm",
+      "text-generation",
+      "dense"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-09T17:55:54.359228+00:00",
+    "source_ids": [
+      "allenai/Dense_1b_130B"
+    ],
+    "family": "Dense_1b"
+  },
+  {
     "id": "huggingface:RedHatAI/Kimi-K2.6-FP8-BLOCK",
     "name": "Kimi-K2.6-FP8-BLOCK",
     "provider": "RedHatAI",
@@ -12528,41 +12926,6 @@
     "family": "qwen2-audio"
   },
   {
-    "id": "huggingface:forkjoin-ai/deepseek-ocr-2",
-    "name": "deepseek-ocr-2",
-    "provider": "forkjoin-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-09T21:49:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/forkjoin-ai/deepseek-ocr-2",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "deepseek_vl_v2",
-      "image-feature-extraction",
-      "forkjoin-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-09T16:58:42.708319+00:00",
-    "source_ids": [
-      "forkjoin-ai/deepseek-ocr-2"
-    ],
-    "family": "deepseek-ocr-2"
-  },
-  {
     "id": "huggingface:DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF",
     "name": "Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF",
     "provider": "DavidAU",
@@ -13616,39 +13979,6 @@
       "LiquidAI/LFM2-8B-A1B-GGUF"
     ],
     "family": "LFM2"
-  },
-  {
-    "id": "huggingface:microsoft/UserLM-8b",
-    "name": "UserLM-8b",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-30T20:42:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/UserLM-8b",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "llama",
-      "userlm",
-      "simulation",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-09T16:58:41.853406+00:00",
-    "source_ids": [
-      "microsoft/UserLM-8b"
-    ],
-    "family": "UserLM"
   },
   {
     "id": "huggingface:typhoon-ai/typhoon-asr-realtime",
