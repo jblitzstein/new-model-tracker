@@ -3548,6 +3548,40 @@
     "family": "GLM-5.2-Q2_K-MTP-Q8-layers"
   },
   {
+    "id": "huggingface:cmp-nct/demodokos-foundry-tts-v4",
+    "name": "demodokos-foundry-tts-v4",
+    "provider": "cmp-nct",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-20T23:41:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cmp-nct/demodokos-foundry-tts-v4",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "demodokos",
+      "foundry",
+      "tts",
+      "voice"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T03:21:01.719848+00:00",
+    "source_ids": [
+      "cmp-nct/demodokos-foundry-tts-v4"
+    ],
+    "family": "demodokos-foundry-tts-v4"
+  },
+  {
     "id": "huggingface:DJLougen/Qwable-5-27B-Coder-GGUF",
     "name": "Qwable-5-27B-Coder-GGUF",
     "provider": "DJLougen",
@@ -7258,39 +7292,6 @@
     "family": "gemma-4-it-qat--INT4"
   },
   {
-    "id": "huggingface:ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
-    "name": "gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
-    "provider": "ilya-chak",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-06T18:54:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers",
-    "tags": [
-      "text-generation",
-      "mesh-llm",
-      "gguf",
-      "layer-package",
-      "skippy",
-      "distributed-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-10T00:58:43.757960+00:00",
-    "source_ids": [
-      "ilya-chak/gemma-4-12B-it-qat-GGUF-UD-Q4_K_XL-layers"
-    ],
-    "family": "gemma-4-it-qat--UD-Q4_K_XL-layers"
-  },
-  {
     "id": "huggingface:TaQuants/Tema_Q-X4-Thinking-TaQuants-GGUF",
     "name": "Tema_Q-X4-Thinking-TaQuants-GGUF",
     "provider": "TaQuants",
@@ -7487,41 +7488,6 @@
       "mradermacher/Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF"
     ],
     "family": "Gemma-4-it-AEON-Abliterated-K4-BF16-i1"
-  },
-  {
-    "id": "huggingface:Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf",
-    "name": "gemma-4-31b-it-qat-q4_0-assistant-gguf",
-    "provider": "Simplepotat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-06T03:19:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantization",
-      "gemma4_assistant",
-      "image-text-to-text",
-      "base_model:google/gemma-4-31B-it-qat-q4_0-unquantized-assistant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-10T00:58:44.602598+00:00",
-    "source_ids": [
-      "Simplepotat/gemma-4-31b-it-qat-q4_0-assistant-gguf"
-    ],
-    "family": "gemma-4-it-qat-q4_0-assistant"
   },
   {
     "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4",
@@ -12859,6 +12825,41 @@
     "family": "chandra-ocr-2"
   },
   {
+    "id": "huggingface:FastFlowLM/Qwen3.5-9B-NPU2",
+    "name": "Qwen3.5-9B-NPU2",
+    "provider": "FastFlowLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T13:03:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FastFlowLM/Qwen3.5-9B-NPU2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "qwen3_5_text",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.5-9B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T03:21:01.876739+00:00",
+    "source_ids": [
+      "FastFlowLM/Qwen3.5-9B-NPU2"
+    ],
+    "family": "Qwen3.5-NPU2"
+  },
+  {
     "id": "huggingface:nvidia/Kimi-K2.5-Thinking-Eagle3",
     "name": "Kimi-K2.5-Thinking-Eagle3",
     "provider": "NVIDIA",
@@ -14048,6 +14049,35 @@
       "LiquidAI/LFM2-VL-1.6B-GGUF"
     ],
     "family": "LFM2-VL"
+  },
+  {
+    "id": "openrouter:cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "name": "Venice: Uncensored",
+    "provider": "cognitivecomputations",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-09T21:02:46+00:00",
+    "context_length": 128000,
+    "description": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an “uncensored” instruct-tuned LLM, preserving...",
+    "url": "https://openrouter.ai/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.9
+    },
+    "first_seen": "2026-07-10T03:21:01.244554+00:00",
+    "source_ids": [
+      "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+    ],
+    "family": "Uncensored"
   },
   {
     "id": "huggingface:bosonai/higgs-tts-2-3b-base",
