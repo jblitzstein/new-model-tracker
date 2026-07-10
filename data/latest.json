@@ -1,5 +1,74 @@
 [
   {
+    "id": "huggingface:voodooquant/Qwen3.5-0.8B-MTP-Voodoo",
+    "name": "Qwen3.5-0.8B-MTP-Voodoo",
+    "provider": "voodooquant",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T22:05:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/voodooquant/Qwen3.5-0.8B-MTP-Voodoo",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "voodoo",
+      "qwen",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T10:54:00.768791+00:00",
+    "source_ids": [
+      "voodooquant/Qwen3.5-0.8B-MTP-Voodoo"
+    ],
+    "family": "Qwen3.5-MTP-Voodoo"
+  },
+  {
+    "id": "huggingface:mimba/plt-neutts-gguf2",
+    "name": "plt-neutts-gguf2",
+    "provider": "mimba",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-09T14:47:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mimba/plt-neutts-gguf2",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "gguf",
+      "text-to-speech",
+      "neutts",
+      "malagasy"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T10:54:00.520362+00:00",
+    "source_ids": [
+      "mimba/plt-neutts-gguf2"
+    ],
+    "family": "plt-neutts-gguf2"
+  },
+  {
     "id": "openrouter:openai/gpt-5.6-luna-pro",
     "name": "OpenAI: GPT-5.6 Luna Pro",
     "provider": "OpenAI",
@@ -810,6 +879,40 @@
       "el4/SIQ-1-35B-OPAL-GGUF"
     ],
     "family": "SIQ-1-OPAL"
+  },
+  {
+    "id": "huggingface:cmp-nct/demodokos-foundry-music-v4",
+    "name": "demodokos-foundry-music-v4",
+    "provider": "cmp-nct",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-06T02:28:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cmp-nct/demodokos-foundry-music-v4",
+    "tags": [
+      "text-to-audio",
+      "onnx",
+      "gguf",
+      "demodokos",
+      "foundry",
+      "stems"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T10:54:00.401482+00:00",
+    "source_ids": [
+      "cmp-nct/demodokos-foundry-music-v4"
+    ],
+    "family": "demodokos-foundry-music-v4"
   },
   {
     "id": "huggingface:King3Djbl/FableForge-1.5B",
@@ -1831,6 +1934,40 @@
       "Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF"
     ],
     "family": "Qwopus3.6-Coder-MTP"
+  },
+  {
+    "id": "huggingface:John2386/fullgreed",
+    "name": "fullgreed",
+    "provider": "John2386",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-28T18:50:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/John2386/fullgreed",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "text-to-image",
+      "z-image",
+      "comfyui",
+      "int8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T10:54:00.052371+00:00",
+    "source_ids": [
+      "John2386/fullgreed"
+    ],
+    "family": "fullgreed"
   },
   {
     "id": "huggingface:King3Djbl/mythos-v2-8b-merged",
@@ -9243,6 +9380,40 @@
     "family": "CosyVoice-300M-ONNX"
   },
   {
+    "id": "huggingface:Green-Sky/bonsai-image-binary-4B-GGUF",
+    "name": "bonsai-image-binary-4B-GGUF",
+    "provider": "Green-Sky",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-27T08:49:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Green-Sky/bonsai-image-binary-4B-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "flux",
+      "bonsai",
+      "text-to-image",
+      "base_model:prism-ml/bonsai-image-binary-4B-unpacked"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T10:54:00.052220+00:00",
+    "source_ids": [
+      "Green-Sky/bonsai-image-binary-4B-GGUF"
+    ],
+    "family": "bonsai-image-binary"
+  },
+  {
     "id": "huggingface:nishantup/nanogpt-rlvr-slm-tinystories-124m",
     "name": "nanogpt-rlvr-slm-tinystories-124m",
     "provider": "nishantup",
@@ -9307,39 +9478,6 @@
       "88plug/Qwen3-Omni-30B-W4A16"
     ],
     "family": "Qwen3-Omni-W4A16"
-  },
-  {
-    "id": "huggingface:moofeez/qwen3-coder-30b-a3b-debugger-rft",
-    "name": "qwen3-coder-30b-a3b-debugger-rft",
-    "provider": "moofeez",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-25T22:47:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/moofeez/qwen3-coder-30b-a3b-debugger-rft",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3-Coder-30B-A3B-Instruct",
-      "lora",
-      "transformers"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-10T09:19:34.564963+00:00",
-    "source_ids": [
-      "moofeez/qwen3-coder-30b-a3b-debugger-rft"
-    ],
-    "family": "qwen3-coder-debugger-rft"
   },
   {
     "id": "huggingface:philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16-AWQ",
@@ -10440,41 +10578,6 @@
       "cstr/voxcpm2-GGUF"
     ],
     "family": "voxcpm2"
-  },
-  {
-    "id": "huggingface:numind/NuExtract3-W4A16",
-    "name": "NuExtract3-W4A16",
-    "provider": "numind",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-15T19:24:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/numind/NuExtract3-W4A16",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "vision-language"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-10T09:19:35.567135+00:00",
-    "source_ids": [
-      "numind/NuExtract3-W4A16"
-    ],
-    "family": "NuExtract3-W4A16"
   },
   {
     "id": "huggingface:mradermacher/Supertron-VL-2B-GGUF",
@@ -13910,6 +14013,41 @@
     "family": "Devstral-Small-2--2512-4bit"
   },
   {
+    "id": "huggingface:EnlistedGhost/Magistral-Small-2509-Vision-GGUF",
+    "name": "Magistral-Small-2509-Vision-GGUF",
+    "provider": "EnlistedGhost",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-20T10:36:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/EnlistedGhost/Magistral-Small-2509-Vision-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "Magistral",
+      "Vision",
+      "Conversational",
+      "Multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T10:54:00.768819+00:00",
+    "source_ids": [
+      "EnlistedGhost/Magistral-Small-2509-Vision-GGUF"
+    ],
+    "family": "Magistral-Small-2509-Vision"
+  },
+  {
     "id": "huggingface:tencent/HunyuanOCR",
     "name": "HunyuanOCR",
     "provider": "Tencent",
@@ -14313,6 +14451,39 @@
       "nvidia/canary-1b-flash"
     ],
     "family": "canary-flash"
+  },
+  {
+    "id": "huggingface:BlinkDL/rwkv7-g1",
+    "name": "rwkv7-g1",
+    "provider": "BlinkDL",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-07T17:05:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BlinkDL/rwkv7-g1",
+    "tags": [
+      "text-generation",
+      "rwkv",
+      "pytorch",
+      "text-generation",
+      "causal-lm",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T10:53:59.930397+00:00",
+    "source_ids": [
+      "BlinkDL/rwkv7-g1"
+    ],
+    "family": "rwkv7-g1"
   },
   {
     "id": "huggingface:efficient-speech/lite-whisper-large-v3-turbo-acc",
