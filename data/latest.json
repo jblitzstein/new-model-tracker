@@ -267,6 +267,39 @@
     "family": "GPT-5.6 Sol"
   },
   {
+    "id": "huggingface:tencent/HiLS-Attention-7B",
+    "name": "HiLS-Attention-7B",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T03:38:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/HiLS-Attention-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "olmo_hils",
+      "text-generation",
+      "long-context"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.455627+00:00",
+    "source_ids": [
+      "tencent/HiLS-Attention-7B"
+    ],
+    "family": "HiLS-Attention"
+  },
+  {
     "id": "openrouter:x-ai/grok-4.5",
     "name": "xAI: Grok 4.5",
     "provider": "xAI",
@@ -523,6 +556,39 @@
       "GoDotWebs/dotwebs-1"
     ],
     "family": "dotwebs-1"
+  },
+  {
+    "id": "huggingface:ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF",
+    "name": "MiniCPM5-1B-Agentic-Tooluse-GGUF",
+    "provider": "ewinregirgojr",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-07T14:06:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "llama-cpp",
+      "minicpm",
+      "minicpm5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.455655+00:00",
+    "source_ids": [
+      "ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF"
+    ],
+    "family": "MiniCPM5-Agentic-Tooluse"
   },
   {
     "id": "huggingface:TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
@@ -1245,6 +1311,39 @@
       "Ba2han/outputs"
     ],
     "family": "outputs"
+  },
+  {
+    "id": "huggingface:HOLOGRAMTECH/q-bitnet-2b",
+    "name": "q-bitnet-2b",
+    "provider": "HOLOGRAMTECH",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-03T20:06:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HOLOGRAMTECH/q-bitnet-2b",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "hologram",
+      "q",
+      "kappa-object",
+      "holo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.455518+00:00",
+    "source_ids": [
+      "HOLOGRAMTECH/q-bitnet-2b"
+    ],
+    "family": "q-bitnet"
   },
   {
     "id": "huggingface:satgeze/Ornith-1.0-35B-1M-GGUF",
@@ -8128,6 +8227,72 @@
     "family": "gemma-4-it"
   },
   {
+    "id": "huggingface:RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T22:17:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "redhat"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.455186+00:00",
+    "source_ids": [
+      "RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-quantized.w4a16"
+  },
+  {
+    "id": "huggingface:RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T22:04:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "nemotron_h",
+      "fp8",
+      "quantized",
+      "llm-compressor"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.455151+00:00",
+    "source_ids": [
+      "RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-FP8-block"
+  },
+  {
     "id": "huggingface:cstr/tada-tts-3b-ml-GGUF",
     "name": "tada-tts-3b-ml-GGUF",
     "provider": "cstr",
@@ -8226,6 +8391,39 @@
       "meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_XL-layers"
     ],
     "family": "NVIDIA-Nemotron-3-Ultra-UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T19:09:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "redhat"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.455377+00:00",
+    "source_ids": [
+      "RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic"
+    ],
+    "family": "NVIDIA-Nemotron-3-Ultra-FP8-dynamic"
   },
   {
     "id": "huggingface:jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN",
@@ -11999,6 +12197,40 @@
     "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-NVFP4"
   },
   {
+    "id": "huggingface:cstr/glm-asr-nano-GGUF",
+    "name": "glm-asr-nano-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-19T16:38:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/glm-asr-nano-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "ggml",
+      "gguf",
+      "audio",
+      "speech-recognition",
+      "transcription"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:37.145155+00:00",
+    "source_ids": [
+      "cstr/glm-asr-nano-GGUF"
+    ],
+    "family": "glm-asr-nano"
+  },
+  {
     "id": "huggingface:prism-ml/Ternary-Bonsai-8B-gguf",
     "name": "Ternary-Bonsai-8B-gguf",
     "provider": "prism-ml",
@@ -12674,7 +12906,8 @@
     "pricing": null,
     "first_seen": "2026-06-19T01:06:16.177311+00:00",
     "source_ids": [
-      "RedHatAI/gemma-4-26B-A4B-it-FP8-Dynamic"
+      "RedHatAI/gemma-4-26B-A4B-it-FP8-Dynamic",
+      "RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic"
     ],
     "family": "gemma-4-it-FP8-Dynamic"
   },
@@ -14620,6 +14853,72 @@
       "efficient-speech/lite-whisper-large-v3-fast"
     ],
     "family": "lite-whisper-large-v3-fast"
+  },
+  {
+    "id": "huggingface:RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w4a16",
+    "name": "Meta-Llama-3.1-8B-Instruct-quantized.w4a16",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-07-26T18:58:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w4a16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.455108+00:00",
+    "source_ids": [
+      "RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w4a16"
+    ],
+    "family": "Meta-Llama-3.1--quantized.w4a16"
+  },
+  {
+    "id": "huggingface:RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
+    "name": "Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-07-24T04:09:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-10T14:26:36.454995+00:00",
+    "source_ids": [
+      "RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8"
+    ],
+    "family": "Meta-Llama-3.1--quantized.w8a8"
   },
   {
     "id": "huggingface:nvidia/parakeet-rnnt-0.6b",
