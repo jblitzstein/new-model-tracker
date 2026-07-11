@@ -1,5 +1,106 @@
 [
   {
+    "id": "huggingface:aethercompute/aether0-500m",
+    "name": "aether0-500m",
+    "provider": "aethercompute",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T13:25:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aethercompute/aether0-500m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "deepseek_v3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T09:37:20.112852+00:00",
+    "source_ids": [
+      "aethercompute/aether0-500m"
+    ],
+    "family": "aether0-500m"
+  },
+  {
+    "id": "huggingface:hotdogs/Qwen35B-Agent-R2",
+    "name": "Qwen35B-Agent-R2",
+    "provider": "hotdogs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T12:44:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hotdogs/Qwen35B-Agent-R2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5_moe_text",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T09:37:20.113044+00:00",
+    "source_ids": [
+      "hotdogs/Qwen35B-Agent-R2"
+    ],
+    "family": "Qwen-Agent-R2"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
+    "name": "Qwen3.6-35B-A3B-NVFP4-Fast",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T09:59:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T09:37:20.557007+00:00",
+    "source_ids": [
+      "unsloth/Qwen3.6-35B-A3B-NVFP4-Fast"
+    ],
+    "family": "Qwen3.6-NVFP4-Fast"
+  },
+  {
     "id": "huggingface:voodooquant/Qwen3.5-0.8B-MTP-Voodoo",
     "name": "Qwen3.5-0.8B-MTP-Voodoo",
     "provider": "voodooquant",
@@ -67,6 +168,40 @@
       "mimba/plt-neutts-gguf2"
     ],
     "family": "plt-neutts-gguf2"
+  },
+  {
+    "id": "huggingface:shyngys879/KazakhTTS-OmniVoice",
+    "name": "KazakhTTS-OmniVoice",
+    "provider": "shyngys879",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-09T10:35:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shyngys879/KazakhTTS-OmniVoice",
+    "tags": [
+      "text-to-speech",
+      "omnivoice",
+      "safetensors",
+      "text-to-speech",
+      "tts",
+      "kazakh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T09:37:20.399290+00:00",
+    "source_ids": [
+      "shyngys879/KazakhTTS-OmniVoice"
+    ],
+    "family": "KazakhTTS-OmniVoice"
   },
   {
     "id": "openrouter:openai/gpt-5.6-luna-pro",
@@ -298,6 +433,39 @@
       "tencent/HiLS-Attention-7B"
     ],
     "family": "HiLS-Attention"
+  },
+  {
+    "id": "huggingface:RobinsonLabs/Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
+    "name": "Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
+    "provider": "RobinsonLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T02:11:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RobinsonLabs/Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "imatrix",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T09:37:20.113109+00:00",
+    "source_ids": [
+      "RobinsonLabs/Qwen3.5-REAP-212B-A17B-abliterated-GGUF"
+    ],
+    "family": "Qwen3.5-REAP-abliterated"
   },
   {
     "id": "openrouter:x-ai/grok-4.5",
@@ -3421,6 +3589,39 @@
     "family": "Krea-2-Turbo-INT8-ConvRot"
   },
   {
+    "id": "huggingface:icecubetr/GLM-5.2-REAM-GGUF",
+    "name": "GLM-5.2-REAM-GGUF",
+    "provider": "icecubetr",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-23T11:42:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/icecubetr/GLM-5.2-REAM-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "moe",
+      "glm",
+      "ream"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T09:37:20.112960+00:00",
+    "source_ids": [
+      "icecubetr/GLM-5.2-REAM-GGUF"
+    ],
+    "family": "GLM-5.2-REAM"
+  },
+  {
     "id": "huggingface:vantagewithai/Krea-2",
     "name": "Krea-2",
     "provider": "vantagewithai",
@@ -4329,6 +4530,40 @@
       "meshllm/GLM-5.2-Q2_K-MTP-Q8-layers"
     ],
     "family": "GLM-5.2-Q2_K-MTP-Q8-layers"
+  },
+  {
+    "id": "huggingface:realrebelai/RebelMidjourney_LoRA_Collection",
+    "name": "RebelMidjourney_LoRA_Collection",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-21T00:58:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/RebelMidjourney_LoRA_Collection",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "lora",
+      "text-to-image",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T09:37:20.173415+00:00",
+    "source_ids": [
+      "realrebelai/RebelMidjourney_LoRA_Collection"
+    ],
+    "family": "RebelMidjourney_LoRA_Collection"
   },
   {
     "id": "huggingface:cmp-nct/demodokos-foundry-tts-v4",
@@ -9238,39 +9473,6 @@
     "family": "higgs-tts-3"
   },
   {
-    "id": "huggingface:nex-agi/Nex-N2-mini",
-    "name": "Nex-N2-mini",
-    "provider": "Nex AGI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T04:59:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nex-agi/Nex-N2-mini",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-11T09:35:06.474958+00:00",
-    "source_ids": [
-      "nex-agi/Nex-N2-mini"
-    ],
-    "family": "Nex-N2-mini"
-  },
-  {
     "id": "huggingface:meshllm/Qwen3-VL-32B-Thinking-UD-Q4_K_XL-layers",
     "name": "Qwen3-VL-32B-Thinking-UD-Q4_K_XL-layers",
     "provider": "meshllm",
@@ -9471,39 +9673,6 @@
       "mradermacher/Hemlock-Qwopus3.5-9B-Coder-i1-GGUF"
     ],
     "family": "Hemlock-Qwopus3.5-Coder-i1"
-  },
-  {
-    "id": "huggingface:nex-agi/Nex-N2-Pro",
-    "name": "Nex-N2-Pro",
-    "provider": "Nex AGI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-03T03:15:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nex-agi/Nex-N2-Pro",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-11T09:35:06.475021+00:00",
-    "source_ids": [
-      "nex-agi/Nex-N2-Pro"
-    ],
-    "family": "Nex-N2-Pro"
   },
   {
     "id": "huggingface:jcbtc/chadrock-35b-ace-saber-rocmfp4-mtp",
