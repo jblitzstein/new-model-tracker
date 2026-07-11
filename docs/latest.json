@@ -1248,6 +1248,39 @@
     "family": "reasoning-summarizer-800m-pre"
   },
   {
+    "id": "huggingface:MuXodious/LFM2.5-8B-A1B-SOMPOA-heresy",
+    "name": "LFM2.5-8B-A1B-SOMPOA-heresy",
+    "provider": "MuXodious",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-05T06:06:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MuXodious/LFM2.5-8B-A1B-SOMPOA-heresy",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2_moe",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T20:47:16.860144+00:00",
+    "source_ids": [
+      "MuXodious/LFM2.5-8B-A1B-SOMPOA-heresy"
+    ],
+    "family": "LFM2.5-SOMPOA-heresy"
+  },
+  {
     "id": "huggingface:wikeeyang/Krea2-Turbo-HD-V1",
     "name": "Krea2-Turbo-HD-V1",
     "provider": "wikeeyang",
@@ -13825,41 +13858,6 @@
       "RedHatAI/gemma-4-26B-A4B-it-NVFP4"
     ],
     "family": "gemma-4-it-NVFP4"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2.5-VL-450M-GGUF",
-    "name": "LFM2.5-VL-450M-GGUF",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-04T12:58:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "vision",
-      "vlm",
-      "liquid",
-      "lfm2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-11T17:18:59.242746+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2.5-VL-450M-GGUF"
-    ],
-    "family": "LFM2.5-VL-450M"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-e2b-it-bf16",
