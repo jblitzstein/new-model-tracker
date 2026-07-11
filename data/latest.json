@@ -914,6 +914,39 @@
     "family": "Gemma4-Uncensored-HauhauCS-1M"
   },
   {
+    "id": "huggingface:satgeze/Gemma4-12B-Uncensored-HauhauCS-1M-GGUF",
+    "name": "Gemma4-12B-Uncensored-HauhauCS-1M-GGUF",
+    "provider": "satgeze",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T03:46:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/satgeze/Gemma4-12B-Uncensored-HauhauCS-1M-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "long-context",
+      "yarn",
+      "gemma4",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T06:12:41.901849+00:00",
+    "source_ids": [
+      "satgeze/Gemma4-12B-Uncensored-HauhauCS-1M-GGUF"
+    ],
+    "family": "Gemma4-Uncensored-HauhauCS-1M"
+  },
+  {
     "id": "huggingface:el4/SIQ-1-35B-OPAL-GGUF",
     "name": "SIQ-1-35B-OPAL-GGUF",
     "provider": "el4",
@@ -13668,6 +13701,39 @@
     "family": "gemma-4-e-it-4bit"
   },
   {
+    "id": "huggingface:ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled",
+    "name": "qwen2.5-coder-3b-claude_opus_4.6-distilled",
+    "provider": "ryzdfm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T09:19:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "qwen2.5",
+      "qwen2.5-coder"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-11T06:12:41.901881+00:00",
+    "source_ids": [
+      "ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled"
+    ],
+    "family": "qwen2.5-coder-claude_opus_4.6-distilled"
+  },
+  {
     "id": "huggingface:Jackrong/Qwen3.5-4B-Neo-GGUF",
     "name": "Qwen3.5-4B-Neo-GGUF",
     "provider": "Jackrong",
@@ -13771,39 +13837,6 @@
       "FastFlowLM/Qwen3.5-9B-NPU2"
     ],
     "family": "Qwen3.5-NPU2"
-  },
-  {
-    "id": "huggingface:nvidia/Kimi-K2.5-Thinking-Eagle3",
-    "name": "Kimi-K2.5-Thinking-Eagle3",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-10T18:02:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Kimi-K2.5-Thinking-Eagle3",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "kimi_k2",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-11T05:39:41.030525+00:00",
-    "source_ids": [
-      "nvidia/Kimi-K2.5-Thinking-Eagle3"
-    ],
-    "family": "Kimi-K2.5--Eagle3"
   },
   {
     "id": "huggingface:forkjoin-ai/qwen2-audio-7b-instruct-gguf",
