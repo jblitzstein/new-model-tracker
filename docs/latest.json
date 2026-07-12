@@ -1,5 +1,172 @@
 [
   {
+    "id": "huggingface:hotdogs/Qwen35B-Agent-R2-Abliterated",
+    "name": "Qwen35B-Agent-R2-Abliterated",
+    "provider": "hotdogs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-12T02:46:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hotdogs/Qwen35B-Agent-R2-Abliterated",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5_moe_text",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T09:50:28.146582+00:00",
+    "source_ids": [
+      "hotdogs/Qwen35B-Agent-R2-Abliterated"
+    ],
+    "family": "Qwen-Agent-R2-Abliterated"
+  },
+  {
+    "id": "huggingface:User01110/cma-7.8M-exp",
+    "name": "cma-7.8M-exp",
+    "provider": "User01110",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T17:51:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/User01110/cma-7.8M-exp",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "cma",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T09:50:27.649128+00:00",
+    "source_ids": [
+      "User01110/cma-7.8M-exp"
+    ],
+    "family": "cma-7.8M-exp"
+  },
+  {
+    "id": "huggingface:fpadovani/isl-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
+    "name": "isl-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
+    "provider": "fpadovani",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T14:59:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/fpadovani/isl-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T09:50:27.648942+00:00",
+    "source_ids": [
+      "fpadovani/isl-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10"
+    ],
+    "family": "isl-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10"
+  },
+  {
+    "id": "huggingface:mradermacher/Qwen35B-Agent-R2-Abliterated-i1-GGUF",
+    "name": "Qwen35B-Agent-R2-Abliterated-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T13:58:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen35B-Agent-R2-Abliterated-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen",
+      "moe",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T09:50:27.649281+00:00",
+    "source_ids": [
+      "mradermacher/Qwen35B-Agent-R2-Abliterated-i1-GGUF"
+    ],
+    "family": "Qwen-Agent-R2-Abliterated-i1"
+  },
+  {
+    "id": "huggingface:mente-ai/uyu-2-28B",
+    "name": "uyu-2-28B",
+    "provider": "mente-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T15:09:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mente-ai/uyu-2-28B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_text",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T09:50:27.649439+00:00",
+    "source_ids": [
+      "mente-ai/uyu-2-28B"
+    ],
+    "family": "uyu-2"
+  },
+  {
     "id": "huggingface:aethercompute/aether0-500m",
     "name": "aether0-500m",
     "provider": "aethercompute",
@@ -99,6 +266,41 @@
       "unsloth/Qwen3.6-35B-A3B-NVFP4-Fast"
     ],
     "family": "Qwen3.6-NVFP4-Fast"
+  },
+  {
+    "id": "huggingface:tepirale/Ornith-Agents-A1-3.6-35B-A3B-MTP-GGUF",
+    "name": "Ornith-Agents-A1-3.6-35B-A3B-MTP-GGUF",
+    "provider": "tepirale",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T06:09:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tepirale/Ornith-Agents-A1-3.6-35B-A3B-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "mtp",
+      "multi-token-prediction",
+      "qwen3.5",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T09:50:28.146450+00:00",
+    "source_ids": [
+      "tepirale/Ornith-Agents-A1-3.6-35B-A3B-MTP-GGUF"
+    ],
+    "family": "Ornith-Agents-A1-3.6-MTP"
   },
   {
     "id": "huggingface:empero-ai/Qwythos-9B-v2-GGUF",
@@ -12230,6 +12432,40 @@
     "family": "MOSS-TTS-Realtime"
   },
   {
+    "id": "huggingface:coriollon/whisper-large-v3-turbo-russian",
+    "name": "whisper-large-v3-turbo-russian",
+    "provider": "coriollon",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T12:07:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/coriollon/whisper-large-v3-turbo-russian",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "asr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T09:50:28.067499+00:00",
+    "source_ids": [
+      "coriollon/whisper-large-v3-turbo-russian"
+    ],
+    "family": "whisper-large-v3-turbo-russian"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-NVFP4-MLP-Only",
     "name": "Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-NVFP4-MLP-Only",
     "provider": "llmfan46",
@@ -15764,39 +16000,6 @@
     "family": "higgs-tts-2"
   },
   {
-    "id": "huggingface:dphn/Dolphin-Mistral-24B-Venice-Edition",
-    "name": "Dolphin-Mistral-24B-Venice-Edition",
-    "provider": "dphn",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-06-12T05:29:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dphn/Dolphin-Mistral-24B-Venice-Edition",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "mistral3",
-      "image-text-to-text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.074983+00:00",
-    "source_ids": [
-      "dphn/Dolphin-Mistral-24B-Venice-Edition"
-    ],
-    "family": "Dolphin-Mistral-Venice-Edition"
-  },
-  {
     "id": "huggingface:furiosa-ai/Llama-3.1-8B-Instruct",
     "name": "Llama-3.1-8B-Instruct",
     "provider": "furiosa-ai",
@@ -16234,72 +16437,6 @@
     "family": "parakeet-rnnt"
   },
   {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-6.7b-v2",
-    "name": "gpt-sw3-6.7b-v2",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-04-28T12:25:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075139+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-6.7b-v2"
-    ],
-    "family": "gpt-sw3-v2"
-  },
-  {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
-    "name": "gpt-sw3-6.7b-v2-instruct",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-04-28T11:51:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075209+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct"
-    ],
-    "family": "gpt-sw3-v2"
-  },
-  {
     "id": "huggingface:LoliRimuru/moeFussion",
     "name": "moeFussion",
     "provider": "LoliRimuru",
@@ -16332,204 +16469,6 @@
       "LoliRimuru/moeFussion"
     ],
     "family": "moeFussion"
-  },
-  {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-40b",
-    "name": "gpt-sw3-40b",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-02-22T15:10:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-40b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075060+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-40b"
-    ],
-    "family": "gpt-sw3"
-  },
-  {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-20b",
-    "name": "gpt-sw3-20b",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2022-12-14T12:33:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-20b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075110+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-20b"
-    ],
-    "family": "gpt-sw3"
-  },
-  {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-6.7b",
-    "name": "gpt-sw3-6.7b",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2022-12-14T12:33:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075164+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-6.7b"
-    ],
-    "family": "gpt-sw3"
-  },
-  {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-1.3b",
-    "name": "gpt-sw3-1.3b",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2022-12-14T12:33:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-1.3b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075237+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-1.3b"
-    ],
-    "family": "gpt-sw3"
-  },
-  {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-356m",
-    "name": "gpt-sw3-356m",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2022-12-14T12:31:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-356m",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075259+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-356m"
-    ],
-    "family": "gpt-sw3-356m"
-  },
-  {
-    "id": "huggingface:AI-Sweden-Models/gpt-sw3-126m",
-    "name": "gpt-sw3-126m",
-    "provider": "AI-Sweden-Models",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2022-12-14T12:31:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AI-Sweden-Models/gpt-sw3-126m",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T09:29:29.075289+00:00",
-    "source_ids": [
-      "AI-Sweden-Models/gpt-sw3-126m"
-    ],
-    "family": "gpt-sw3-126m"
   },
   {
     "id": "huggingface:kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
