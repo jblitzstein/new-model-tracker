@@ -872,6 +872,39 @@
     "family": "Tess-4"
   },
   {
+    "id": "huggingface:muzzy/GLM-5.2-GGUF",
+    "name": "GLM-5.2-GGUF",
+    "provider": "muzzy",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-07T22:34:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/muzzy/GLM-5.2-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "imatrix",
+      "conversational",
+      "glm_moe_dsa",
+      "ik_llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T20:49:01.729449+00:00",
+    "source_ids": [
+      "muzzy/GLM-5.2-GGUF"
+    ],
+    "family": "GLM-5.2"
+  },
+  {
     "id": "openrouter:aion-labs/aion-3.0-mini",
     "name": "AionLabs: Aion-3.0-Mini",
     "provider": "Aion Labs",
@@ -2976,6 +3009,39 @@
       "UraionLabs/Uraion-Agent-Small"
     ],
     "family": "Uraion-Agent-Small"
+  },
+  {
+    "id": "huggingface:huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
+    "name": "Huihui-GLM-5.2-abliterated-GGUF",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-28T13:28:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "glm_moe_dsa",
+      "unsloth",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-12T20:49:01.729178+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-GLM-5.2-abliterated-GGUF"
+    ],
+    "family": "Huihui-GLM-5.2-abliterated"
   },
   {
     "id": "huggingface:FadedRedStar/QwenPaw-Flash-9B-heretic-imatrix-GGUF",
@@ -7962,41 +8028,6 @@
     "family": "gemma-4-it"
   },
   {
-    "id": "huggingface:unsloth/diffusiongemma-26B-A4B-it-GGUF",
-    "name": "diffusiongemma-26B-A4B-it-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T14:19:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "gemma4",
-      "unsloth",
-      "gemma",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T17:04:29.023985+00:00",
-    "source_ids": [
-      "unsloth/diffusiongemma-26B-A4B-it-GGUF"
-    ],
-    "family": "diffusiongemma-it"
-  },
-  {
     "id": "huggingface:PaddlePaddle/PP-OCRv6_small_rec",
     "name": "PP-OCRv6_small_rec",
     "provider": "PaddlePaddle",
@@ -8165,41 +8196,6 @@
       "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF"
     ],
     "family": "gemma-4-coder-fable5-composer2.5-v1"
-  },
-  {
-    "id": "huggingface:cyankiwi/Step-3.7-Flash-AWQ-INT4",
-    "name": "Step-3.7-Flash-AWQ-INT4",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T07:09:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/Step-3.7-Flash-AWQ-INT4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "step3p7",
-      "text-generation",
-      "vision-language"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T20:48:31.889932+00:00",
-    "source_ids": [
-      "cyankiwi/Step-3.7-Flash-AWQ-INT4"
-    ],
-    "family": "Step-3.7-Flash--INT4"
   },
   {
     "id": "huggingface:meshllm/GLM-5.1-UD-Q3_K_XL-layers",
@@ -12058,72 +12054,6 @@
       "mradermacher/Supertron-VL-2B-GGUF"
     ],
     "family": "Supertron-VL"
-  },
-  {
-    "id": "huggingface:sh111111111111111/Qwen3.5-9B-BitClass-Fine-GGUF",
-    "name": "Qwen3.5-9B-BitClass-Fine-GGUF",
-    "provider": "sh111111111111111",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-14T15:14:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sh111111111111111/Qwen3.5-9B-BitClass-Fine-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen",
-      "qwen3.5",
-      "deltanet",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T17:04:28.475214+00:00",
-    "source_ids": [
-      "sh111111111111111/Qwen3.5-9B-BitClass-Fine-GGUF"
-    ],
-    "family": "Qwen3.5-BitClass-Fine"
-  },
-  {
-    "id": "huggingface:sh111111111111111/Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF",
-    "name": "Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF",
-    "provider": "sh111111111111111",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-14T15:11:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sh111111111111111/Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen",
-      "qwen3",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-12T17:04:28.475292+00:00",
-    "source_ids": [
-      "sh111111111111111/Qwen3-4B-Instruct-2507-BitClass-Fine-GGUF"
-    ],
-    "family": "Qwen3--2507-BitClass-Fine"
   },
   {
     "id": "huggingface:NO8D/ExpressionControl",
