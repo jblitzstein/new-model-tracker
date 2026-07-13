@@ -70,6 +70,39 @@
     "family": "Qwen-Agent-R2-Abliterated"
   },
   {
+    "id": "huggingface:EnzGamers/ABCDAI-R1-1.5b-SFT",
+    "name": "ABCDAI-R1-1.5b-SFT",
+    "provider": "EnzGamers",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T21:01:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/EnzGamers/ABCDAI-R1-1.5b-SFT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-13T11:10:45.021018+00:00",
+    "source_ids": [
+      "EnzGamers/ABCDAI-R1-1.5b-SFT"
+    ],
+    "family": "ABCDAI-R1-SFT"
+  },
+  {
     "id": "huggingface:User01110/cma-7.8M-exp",
     "name": "cma-7.8M-exp",
     "provider": "User01110",
@@ -200,6 +233,39 @@
       "mradermacher/Qwen35B-Agent-R2-Abliterated-i1-GGUF"
     ],
     "family": "Qwen-Agent-R2-Abliterated-i1"
+  },
+  {
+    "id": "huggingface:morikomorizz/GRM-2.6-Plus-0628-GGUF",
+    "name": "GRM-2.6-Plus-0628-GGUF",
+    "provider": "morikomorizz",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T00:06:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/morikomorizz/GRM-2.6-Plus-0628-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "conversational",
+      "reasoning",
+      "qwen3_5",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-13T11:10:45.020896+00:00",
+    "source_ids": [
+      "morikomorizz/GRM-2.6-Plus-0628-GGUF"
+    ],
+    "family": "GRM-2.6-Plus-0628"
   },
   {
     "id": "huggingface:mente-ai/uyu-2-28B",
@@ -369,6 +435,41 @@
       "tepirale/Ornith-Agents-A1-3.6-35B-A3B-MTP-GGUF"
     ],
     "family": "Ornith-Agents-A1-3.6-MTP"
+  },
+  {
+    "id": "huggingface:cuongdk253/qwen36-35b-trajectory-fp8",
+    "name": "qwen36-35b-trajectory-fp8",
+    "provider": "cuongdk253",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T05:13:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cuongdk253/qwen36-35b-trajectory-fp8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-13T11:10:45.659619+00:00",
+    "source_ids": [
+      "cuongdk253/qwen36-35b-trajectory-fp8"
+    ],
+    "family": "qwen36-trajectory-fp8"
   },
   {
     "id": "huggingface:empero-ai/Qwythos-9B-v2-GGUF",
@@ -2941,6 +3042,39 @@
       "hotdogs/qwen35b-a3b-fable-sft-abliterated"
     ],
     "family": "qwen-fable-sft-abliterated"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-XS-2.1-GGUF",
+    "name": "Laguna-XS-2.1-GGUF",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-29T21:01:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-XS-2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "laguna-xs-2.1",
+      "llama.cpp",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-13T11:10:45.021113+00:00",
+    "source_ids": [
+      "poolside/Laguna-XS-2.1-GGUF"
+    ],
+    "family": "Laguna-XS-2.1"
   },
   {
     "id": "huggingface:SandLogicTechnologies/lift-GGUF",
@@ -8196,74 +8330,6 @@
     "family": "PP-OCRv6_small_rec"
   },
   {
-    "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_rec",
-    "name": "PP-OCRv6_medium_rec",
-    "provider": "PaddlePaddle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T13:37:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec",
-    "tags": [
-      "image-to-text",
-      "PaddleOCR",
-      "OCR",
-      "PaddlePaddle",
-      "text_recognition",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-13T09:08:43.265360+00:00",
-    "source_ids": [
-      "PaddlePaddle/PP-OCRv6_medium_rec"
-    ],
-    "family": "PP-OCRv6_medium_rec"
-  },
-  {
-    "id": "huggingface:PaddlePaddle/PP-OCRv6_medium_det",
-    "name": "PP-OCRv6_medium_det",
-    "provider": "PaddlePaddle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T13:20:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det",
-    "tags": [
-      "image-to-text",
-      "PaddleOCR",
-      "OCR",
-      "PaddlePaddle",
-      "textline_detection",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-13T09:08:43.265474+00:00",
-    "source_ids": [
-      "PaddlePaddle/PP-OCRv6_medium_det"
-    ],
-    "family": "PP-OCRv6_medium_det"
-  },
-  {
     "id": "huggingface:vectionlabs/Salience-1-9B",
     "name": "Salience-1-9B",
     "provider": "vectionlabs",
@@ -8398,40 +8464,6 @@
       "KDLAI/KDL-Frontier-Parser-nano"
     ],
     "family": "KDL-Frontier-Parser-nano"
-  },
-  {
-    "id": "huggingface:tadgeis/mms-1b-ckt-pooled-all-dev",
-    "name": "mms-1b-ckt-pooled-all-dev",
-    "provider": "tadgeis",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-09T12:15:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tadgeis/mms-1b-ckt-pooled-all-dev",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "ckt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-13T09:08:43.800025+00:00",
-    "source_ids": [
-      "tadgeis/mms-1b-ckt-pooled-all-dev"
-    ],
-    "family": "mms-ckt-pooled-all-dev"
   },
   {
     "id": "huggingface:furiosa-ai/Solar-Open-100B-NVFP4A16",
@@ -8868,40 +8900,6 @@
       "DeverStyle/Ideogram-4.0-Loras"
     ],
     "family": "Ideogram-4.0-Loras"
-  },
-  {
-    "id": "huggingface:realrebelai/JoyAI-Echo_GGUF",
-    "name": "JoyAI-Echo_GGUF",
-    "provider": "realrebelai",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-06-07T04:59:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/realrebelai/JoyAI-Echo_GGUF",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "text-to-video",
-      "base_model:jdopensource/JoyAI-Echo",
-      "base_model:quantized:jdopensource/JoyAI-Echo",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-13T09:08:43.393567+00:00",
-    "source_ids": [
-      "realrebelai/JoyAI-Echo_GGUF"
-    ],
-    "family": "JoyAI-Echo"
   },
   {
     "id": "huggingface:meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers",
@@ -9801,6 +9799,40 @@
       "RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic"
     ],
     "family": "NVIDIA-Nemotron-3-Ultra-FP8-dynamic"
+  },
+  {
+    "id": "huggingface:aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8",
+    "name": "Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8",
+    "provider": "aufklarer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T15:07:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8",
+    "tags": [
+      "automatic-speech-recognition",
+      "coreml",
+      "automatic-speech-recognition",
+      "nemotron",
+      "streaming",
+      "conformer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-13T11:10:45.572270+00:00",
+    "source_ids": [
+      "aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8"
+    ],
+    "family": "Nemotron-3.5-ASR-Streaming-CoreML-INT8"
   },
   {
     "id": "huggingface:jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN",
@@ -10987,39 +11019,6 @@
       "Green-Sky/bonsai-image-binary-4B-GGUF"
     ],
     "family": "bonsai-image-binary"
-  },
-  {
-    "id": "huggingface:nishantup/nanogpt-rlvr-slm-tinystories-124m",
-    "name": "nanogpt-rlvr-slm-tinystories-124m",
-    "provider": "nishantup",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-26T14:59:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nishantup/nanogpt-rlvr-slm-tinystories-124m",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "3-stage pipeline: pretrained -> SFT -> RLVR",
-      "nanogpt",
-      "language-model",
-      "from-scratch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-13T09:08:42.990985+00:00",
-    "source_ids": [
-      "nishantup/nanogpt-rlvr-slm-tinystories-124m"
-    ],
-    "family": "nanogpt-rlvr-slm-tinystories-124m"
   },
   {
     "id": "huggingface:88plug/Qwen3-Omni-30B-W4A16",
@@ -13815,41 +13814,6 @@
     "family": "Gemopus-4-it"
   },
   {
-    "id": "huggingface:zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
-    "name": "gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
-    "provider": "zecanard",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T09:16:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "decensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-13T09:08:43.929035+00:00",
-    "source_ids": [
-      "zecanard/gemma-4-31B-it-uncensored-abliterix-MLX-8bit-int8-affine"
-    ],
-    "family": "gemma-4-it-uncensored-abliterix-MLX-8bit-int8-affine"
-  },
-  {
     "id": "huggingface:amd/MiniMax-M2.7-MXFP4",
     "name": "MiniMax-M2.7-MXFP4",
     "provider": "amd",
@@ -15488,39 +15452,6 @@
       "McGill-NLP/AfriqueLlama-8B"
     ],
     "family": "AfriqueLlama"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2.5-1.2B-JP",
-    "name": "LFM2.5-1.2B-JP",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-04T23:45:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-13T09:08:42.990896+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2.5-1.2B-JP"
-    ],
-    "family": "LFM2.5-JP"
   },
   {
     "id": "huggingface:mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
