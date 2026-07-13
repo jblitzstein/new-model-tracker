@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:ByteDance/UniVR-34B-Planning",
+    "name": "UniVR-34B-Planning",
+    "provider": "ByteDance",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T03:09:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ByteDance/UniVR-34B-Planning",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "visual-reasoning",
+      "unified-model",
+      "reinforcement-learning",
+      "emu3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-13T06:52:40.362218+00:00",
+    "source_ids": [
+      "ByteDance/UniVR-34B-Planning"
+    ],
+    "family": "UniVR-Planning"
+  },
+  {
     "id": "huggingface:hotdogs/Qwen35B-Agent-R2-Abliterated",
     "name": "Qwen35B-Agent-R2-Abliterated",
     "provider": "hotdogs",
@@ -5892,6 +5927,39 @@
       "cohere/north-mini-code:free"
     ],
     "family": "North Mini Code"
+  },
+  {
+    "id": "huggingface:hotdogs/qwen3.6-27b-fable5-lora",
+    "name": "qwen3.6-27b-fable5-lora",
+    "provider": "hotdogs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-17T12:24:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hotdogs/qwen3.6-27b-fable5-lora",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "gguf",
+      "qwen",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-13T06:52:39.484251+00:00",
+    "source_ids": [
+      "hotdogs/qwen3.6-27b-fable5-lora"
+    ],
+    "family": "qwen3.6-fable5-lora"
   },
   {
     "id": "huggingface:King3Djbl/mythos-9b-unhinged",
