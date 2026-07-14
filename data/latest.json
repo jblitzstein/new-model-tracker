@@ -468,6 +468,39 @@
     "family": "Qwen2.5--imatrix"
   },
   {
+    "id": "huggingface:amkdg/Qwonkeau-v0.2-0.9B",
+    "name": "Qwonkeau-v0.2-0.9B",
+    "provider": "amkdg",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T08:09:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amkdg/Qwonkeau-v0.2-0.9B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3_5_text",
+      "qwonkeau",
+      "rwkv7",
+      "mesanet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-14T02:30:19.899452+00:00",
+    "source_ids": [
+      "amkdg/Qwonkeau-v0.2-0.9B"
+    ],
+    "family": "Qwonkeau-v0.2"
+  },
+  {
     "id": "huggingface:tepirale/Ornith-Agents-A1-3.6-35B-A3B-MTP-GGUF",
     "name": "Ornith-Agents-A1-3.6-35B-A3B-MTP-GGUF",
     "provider": "tepirale",
@@ -640,6 +673,41 @@
       "mimba/plt-neutts-gguf2"
     ],
     "family": "plt-neutts-gguf2"
+  },
+  {
+    "id": "huggingface:bottlecapai/ThinkingCap-Qwen3.6-27B-FP8",
+    "name": "ThinkingCap-Qwen3.6-27B-FP8",
+    "provider": "bottlecapai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T14:44:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3_6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-14T02:30:20.763454+00:00",
+    "source_ids": [
+      "bottlecapai/ThinkingCap-Qwen3.6-27B-FP8"
+    ],
+    "family": "ThinkingCap-Qwen3.6-FP8"
   },
   {
     "id": "huggingface:shyngys879/KazakhTTS-OmniVoice",
@@ -11568,6 +11636,39 @@
       "88plug/Nemotron-3-Nano-30B-A3B-W4A16"
     ],
     "family": "Nemotron-3-Nano-W4A16"
+  },
+  {
+    "id": "huggingface:88plug/Qwen2.5-Omni-7B-W4A16",
+    "name": "Qwen2.5-Omni-7B-W4A16",
+    "provider": "88plug",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T05:32:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/88plug/Qwen2.5-Omni-7B-W4A16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2_5_omni",
+      "text-to-audio",
+      "qwen2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-14T02:30:19.899393+00:00",
+    "source_ids": [
+      "88plug/Qwen2.5-Omni-7B-W4A16"
+    ],
+    "family": "Qwen2.5-Omni-W4A16"
   },
   {
     "id": "huggingface:inferencerlabs/gemma-4-31B-MTP-MLX-Q4.5",
