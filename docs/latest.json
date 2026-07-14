@@ -301,6 +301,64 @@
     "family": "GRM-2.6-Plus-0628"
   },
   {
+    "id": "openrouter:kwaipilot/kat-coder-air-v2.5",
+    "name": "Kwaipilot: KAT-Coder-Air V2.5",
+    "provider": "Kwaipilot",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T20:16:30+00:00",
+    "context_length": 256000,
+    "description": "",
+    "url": "https://openrouter.ai/kwaipilot/kat-coder-air-v2.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-07-14T06:10:18.832589+00:00",
+    "source_ids": [
+      "kwaipilot/kat-coder-air-v2.5"
+    ],
+    "family": "KAT-Coder-Air V2.5"
+  },
+  {
+    "id": "openrouter:kwaipilot/kat-coder-pro-v2.5",
+    "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+    "provider": "Kwaipilot",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T20:16:29+00:00",
+    "context_length": 256000,
+    "description": "",
+    "url": "https://openrouter.ai/kwaipilot/kat-coder-pro-v2.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.74,
+      "completion_per_million": 2.96
+    },
+    "first_seen": "2026-07-14T06:10:18.833573+00:00",
+    "source_ids": [
+      "kwaipilot/kat-coder-pro-v2.5"
+    ],
+    "family": "KAT-Coder-Pro V2.5"
+  },
+  {
     "id": "huggingface:mente-ai/uyu-2-28B",
     "name": "uyu-2-28B",
     "provider": "mente-ai",
@@ -6003,6 +6061,41 @@
       "mradermacher/Ornstein-3.5-9B-V1.5-i1-GGUF"
     ],
     "family": "Ornstein-3.5-V1.5-i1"
+  },
+  {
+    "id": "huggingface:Kwai-Keye/Keye-VL-2.0-30B-A3B-GGUF",
+    "name": "Keye-VL-2.0-30B-A3B-GGUF",
+    "provider": "Kwai-Keye",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-18T08:41:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "multimodal",
+      "image-text-to-text",
+      "en",
+      "arxiv:2507.01949"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-14T06:10:19.734062+00:00",
+    "source_ids": [
+      "Kwai-Keye/Keye-VL-2.0-30B-A3B-GGUF"
+    ],
+    "family": "Keye-VL-2.0"
   },
   {
     "id": "openrouter:google/gemini-3.1-flash-image",
