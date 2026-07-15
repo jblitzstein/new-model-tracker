@@ -2909,6 +2909,39 @@
     "family": "qwen-abliterated-Fable-MTP"
   },
   {
+    "id": "huggingface:PeppX/Ornith-1.0-9B-Uncensored-GGUF",
+    "name": "Ornith-1.0-9B-Uncensored-GGUF",
+    "provider": "PeppX",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-02T03:56:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PeppX/Ornith-1.0-9B-Uncensored-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "uncensored",
+      "abliterated",
+      "qwen3.5",
+      "ornith"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-15T02:28:15.101650+00:00",
+    "source_ids": [
+      "PeppX/Ornith-1.0-9B-Uncensored-GGUF"
+    ],
+    "family": "Ornith-1.0-Uncensored"
+  },
+  {
     "id": "huggingface:greghavens/fabletron-nemotron-3-super-120b-MLX-4bit",
     "name": "fabletron-nemotron-3-super-120b-MLX-4bit",
     "provider": "greghavens",
@@ -4422,6 +4455,41 @@
       "rzgar/Wan2.2-Bernini-R-Motion-Enhancer-n4w-i2v"
     ],
     "family": "Wan2.2-Bernini-R-Motion-Enhancer-n4w-i2v"
+  },
+  {
+    "id": "huggingface:avlp12/Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM",
+    "name": "Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM",
+    "provider": "avlp12",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-24T15:22:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/avlp12/Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "kimi_k25",
+      "kimi",
+      "kimi-k2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-15T02:28:15.762534+00:00",
+    "source_ids": [
+      "avlp12/Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM"
+    ],
+    "family": "Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM"
   },
   {
     "id": "openrouter:nex-agi/nex-n2-mini",
@@ -8185,41 +8253,6 @@
       "Jackrong/Qwopus3.6-27B-Coder-GGUF"
     ],
     "family": "Qwopus3.6-Coder"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
-    "name": "Qwopus3.6-27B-Coder-MTP-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-11T23:28:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-15T01:03:14.818823+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF"
-    ],
-    "family": "Qwopus3.6-Coder-MTP"
   },
   {
     "id": "huggingface:deucebucket/Qwen3.6-35B-A3B-Heretic-Cerebellum-GGUF",
@@ -12960,39 +12993,6 @@
       "ales27pm/lumen-qwen3-bootstrap-adapters-gguf"
     ],
     "family": "lumen-qwen3-bootstrap-adapters"
-  },
-  {
-    "id": "huggingface:dcostenco/prism-coder-14b",
-    "name": "prism-coder-14b",
-    "provider": "dcostenco",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-04T21:10:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dcostenco/prism-coder-14b",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "deprecated",
-      "prism-coder",
-      "qwen3",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-15T01:03:13.982273+00:00",
-    "source_ids": [
-      "dcostenco/prism-coder-14b"
-    ],
-    "family": "prism-coder"
   },
   {
     "id": "huggingface:cyankiwi/GRM-2.6-Plus-AWQ-BF16-INT4",
