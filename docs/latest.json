@@ -2101,6 +2101,72 @@
     "family": "dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10"
   },
   {
+    "id": "huggingface:nvidia/Nemotron-Labs-Audex-2B",
+    "name": "Nemotron-Labs-Audex-2B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T16:21:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_labs_audex",
+      "nvidia",
+      "nemotron-labs-audex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T20:58:15.468775+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-Labs-Audex-2B"
+    ],
+    "family": "Nemotron-Labs-Audex"
+  },
+  {
+    "id": "huggingface:nvidia/Nemotron-Labs-Audex-30B-A3B",
+    "name": "Nemotron-Labs-Audex-30B-A3B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T16:20:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_labs_audex",
+      "nvidia",
+      "nemotron-labs-audex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T20:58:15.468840+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-Labs-Audex-30B-A3B"
+    ],
+    "family": "Nemotron-Labs-Audex"
+  },
+  {
     "id": "openrouter:tencent/hy3:free",
     "name": "Tencent: Hy3 (free)",
     "provider": "Tencent",
@@ -10182,40 +10248,6 @@
     "family": "Maestro1"
   },
   {
-    "id": "huggingface:DeverStyle/Ideogram-4.0-Loras",
-    "name": "Ideogram-4.0-Loras",
-    "provider": "DeverStyle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-07T17:48:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DeverStyle/Ideogram-4.0-Loras",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:ideogram-ai/ideogram-4-fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T17:44:59.948411+00:00",
-    "source_ids": [
-      "DeverStyle/Ideogram-4.0-Loras"
-    ],
-    "family": "Ideogram-4.0-Loras"
-  },
-  {
     "id": "huggingface:meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers",
     "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers",
     "provider": "meshllm",
@@ -13911,41 +13943,6 @@
     "family": "Kimi-K2.6-FP8-BLOCK"
   },
   {
-    "id": "huggingface:pearl-ai/Gemma-4-31B-it-pearl",
-    "name": "Gemma-4-31B-it-pearl",
-    "provider": "pearl-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-29T05:54:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pearl-ai/Gemma-4-31B-it-pearl",
-    "tags": [
-      "image-text-to-text",
-      "vllm",
-      "safetensors",
-      "gemma4",
-      "gemma",
-      "pearl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T17:45:00.380591+00:00",
-    "source_ids": [
-      "pearl-ai/Gemma-4-31B-it-pearl"
-    ],
-    "family": "Gemma-4-it-pearl"
-  },
-  {
     "id": "openrouter:poolside/laguna-xs.2",
     "name": "Poolside: Laguna XS.2",
     "provider": "poolside",
@@ -14342,6 +14339,41 @@
     "family": "Qwopus3.6-v1"
   },
   {
+    "id": "huggingface:ggml-org/Qwen3.6-27B-GGUF",
+    "name": "Qwen3.6-27B-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T15:24:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Qwen3.6-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:quantized:Qwen/Qwen3.6-27B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T20:58:16.333504+00:00",
+    "source_ids": [
+      "ggml-org/Qwen3.6-27B-GGUF"
+    ],
+    "family": "Qwen3.6"
+  },
+  {
     "id": "huggingface:Jackrong/Qwen3.6-27B-GGUF",
     "name": "Qwen3.6-27B-GGUF",
     "provider": "Jackrong",
@@ -14443,6 +14475,41 @@
       "cstr/glm-asr-nano-GGUF"
     ],
     "family": "glm-asr-nano"
+  },
+  {
+    "id": "huggingface:ggml-org/Qwen3.6-35B-A3B-GGUF",
+    "name": "Qwen3.6-35B-A3B-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-18T12:18:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Qwen3.6-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.6-35B-A3B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T20:58:16.333477+00:00",
+    "source_ids": [
+      "ggml-org/Qwen3.6-35B-A3B-GGUF"
+    ],
+    "family": "Qwen3.6"
   },
   {
     "id": "huggingface:Jackrong/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF",
@@ -15198,6 +15265,76 @@
       "ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled"
     ],
     "family": "qwen2.5-coder-claude_opus_4.6-distilled"
+  },
+  {
+    "id": "huggingface:ggml-org/gemma-4-31B-it-GGUF",
+    "name": "gemma-4-31B-it-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T10:33:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/gemma-4-31B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "image-text-to-text",
+      "base_model:google/gemma-4-31B-it",
+      "base_model:quantized:google/gemma-4-31B-it"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T20:58:16.333408+00:00",
+    "source_ids": [
+      "ggml-org/gemma-4-31B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:ggml-org/gemma-4-26B-A4B-it-GGUF",
+    "name": "gemma-4-26B-A4B-it-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-01T10:33:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/gemma-4-26B-A4B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "image-text-to-text",
+      "base_model:google/gemma-4-26B-A4B-it",
+      "base_model:quantized:google/gemma-4-26B-A4B-it"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T20:58:16.333441+00:00",
+    "source_ids": [
+      "ggml-org/gemma-4-26B-A4B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.5-9B-ultra-uncensored-heretic-GGUF",
