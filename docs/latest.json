@@ -1,5 +1,73 @@
 [
   {
+    "id": "openrouter:moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T15:30:58+00:00",
+    "context_length": 1048576,
+    "description": "Kimi K3 is an ultra-large-scale, open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at navigating...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 3.0,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-07-16T17:15:20.083262+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k3"
+    ],
+    "family": "Kimi K3"
+  },
+  {
+    "id": "openrouter:meta/muse-spark-1.1",
+    "name": "Meta: Muse Spark 1.1",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T15:29:01+00:00",
+    "context_length": 1048576,
+    "description": "Muse Spark 1.1 is a multimodal reasoning model from Meta, built for agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context...",
+    "url": "https://openrouter.ai/meta/muse-spark-1.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.25,
+      "completion_per_million": 4.25
+    },
+    "first_seen": "2026-07-16T17:15:20.084264+00:00",
+    "source_ids": [
+      "meta/muse-spark-1.1"
+    ],
+    "family": "Muse Spark 1.1"
+  },
+  {
     "id": "huggingface:SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator",
     "name": "SZL-Khipu-1.5B-BrainNavigator",
     "provider": "SZLHOLDINGS",
@@ -238,6 +306,41 @@
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V2"
   },
   {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T17:15:20.624594+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V3"
+  },
+  {
     "id": "huggingface:ByteDance/UniVR-34B-Planning",
     "name": "UniVR-34B-Planning",
     "provider": "ByteDance",
@@ -271,6 +374,41 @@
       "ByteDance/UniVR-34B-Planning"
     ],
     "family": "UniVR-Planning"
+  },
+  {
+    "id": "huggingface:braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama",
+    "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama",
+    "provider": "braydenh563",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T02:30:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T17:15:20.624695+00:00",
+    "source_ids": [
+      "braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama"
+    ],
+    "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-Ollama"
   },
   {
     "id": "huggingface:theoitssurabaya/Legal-Assistant-GRPO",
@@ -7398,6 +7536,40 @@
     "family": "gemma-4-it-qat-OptiQ-4bit"
   },
   {
+    "id": "huggingface:Boogu/Boogu-Image-0.1-Base",
+    "name": "Boogu-Image-0.1-Base",
+    "provider": "Boogu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-16T13:50:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Base",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T17:15:20.268035+00:00",
+    "source_ids": [
+      "Boogu/Boogu-Image-0.1-Base"
+    ],
+    "family": "Boogu-Image-0.1"
+  },
+  {
     "id": "huggingface:SC117/Huihui-Nex-N2-mini-abliterated-APEX-GGUF",
     "name": "Huihui-Nex-N2-mini-abliterated-APEX-GGUF",
     "provider": "SC117",
@@ -7667,6 +7839,40 @@
       "zai-org/GLM-5.2-FP8"
     ],
     "family": "GLM-5.2-FP8"
+  },
+  {
+    "id": "huggingface:Boogu/Boogu-Image-0.1-Turbo",
+    "name": "Boogu-Image-0.1-Turbo",
+    "provider": "Boogu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-16T03:26:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Turbo",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T17:15:20.267985+00:00",
+    "source_ids": [
+      "Boogu/Boogu-Image-0.1-Turbo"
+    ],
+    "family": "Boogu-Image-0.1-Turbo"
   },
   {
     "id": "huggingface:SC117/Nex-N2-mini-template-fix-APEX-GGUF",
@@ -9774,40 +9980,6 @@
       "meshllm/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL-layers"
     ],
     "family": "Qwen3-Coder--UD-Q4_K_XL-layers"
-  },
-  {
-    "id": "huggingface:shyngys879/kazakh-whisper-large-v3-turbo",
-    "name": "kazakh-whisper-large-v3-turbo",
-    "provider": "shyngys879",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-08T19:32:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/shyngys879/kazakh-whisper-large-v3-turbo",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T13:54:25.908491+00:00",
-    "source_ids": [
-      "shyngys879/kazakh-whisper-large-v3-turbo"
-    ],
-    "family": "kazakh-whisper-large-v3-turbo"
   },
   {
     "id": "openrouter:nex-agi/nex-n2-pro",
@@ -14170,41 +14342,6 @@
     "family": "Qwopus3.6-v1"
   },
   {
-    "id": "huggingface:LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
-    "name": "EXAONE-4.5-33B-AWQ",
-    "provider": "LGAI-EXAONE",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T15:17:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "exaone4_5",
-      "image-text-to-text",
-      "lg-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T13:54:26.033696+00:00",
-    "source_ids": [
-      "LGAI-EXAONE/EXAONE-4.5-33B-AWQ"
-    ],
-    "family": "EXAONE-4.5"
-  },
-  {
     "id": "huggingface:Jackrong/Qwen3.6-27B-GGUF",
     "name": "Qwen3.6-27B-GGUF",
     "provider": "Jackrong",
@@ -14238,41 +14375,6 @@
       "Jackrong/Qwen3.6-27B-GGUF"
     ],
     "family": "Qwen3.6"
-  },
-  {
-    "id": "huggingface:selode-ai/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB",
-    "name": "Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB",
-    "provider": "selode-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-21T12:36:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/selode-ai/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "vLLM"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T13:54:26.033476+00:00",
-    "source_ids": [
-      "selode-ai/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ-21.2GB"
-    ],
-    "family": "Qwen-3.6-VRAP-4-bit--21.2GB"
   },
   {
     "id": "huggingface:JTS-AI/JaiTTS-F5TTS",
