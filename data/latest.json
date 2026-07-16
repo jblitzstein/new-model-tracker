@@ -241,6 +241,39 @@
     "family": "ABCDAI-R1-SFT"
   },
   {
+    "id": "huggingface:neonforestmist/smolgpt-fables",
+    "name": "smolgpt-fables",
+    "provider": "neonforestmist",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T18:37:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neonforestmist/smolgpt-fables",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "coreml",
+      "safetensors",
+      "gguf",
+      "llama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T06:17:54.687793+00:00",
+    "source_ids": [
+      "neonforestmist/smolgpt-fables"
+    ],
+    "family": "smolgpt-fables"
+  },
+  {
     "id": "huggingface:User01110/cma-7.8M-exp",
     "name": "cma-7.8M-exp",
     "provider": "User01110",
@@ -11085,41 +11118,6 @@
     "family": "qwen3.6-crown-halo-mtp-dynamic"
   },
   {
-    "id": "huggingface:MiniMaxAI/MiniMax-M3",
-    "name": "MiniMax-M3",
-    "provider": "MiniMaxAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-02T07:49:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "minimax_m3_vl",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T05:55:05.260813+00:00",
-    "source_ids": [
-      "MiniMaxAI/MiniMax-M3"
-    ],
-    "family": "MiniMax-M3"
-  },
-  {
     "id": "huggingface:meshllm/gpt-oss-20b-UD-Q4_K_XL-layers",
     "name": "gpt-oss-20b-UD-Q4_K_XL-layers",
     "provider": "meshllm",
@@ -15487,41 +15485,6 @@
     "family": "Huihui-Qwen3-VL--abliterated-4bit-g32-mxfp4-mixed_4_8-mlx"
   },
   {
-    "id": "huggingface:unsloth/DeepSeek-OCR-2",
-    "name": "DeepSeek-OCR-2",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-27T04:28:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/DeepSeek-OCR-2",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "deepseek_vl_v2",
-      "image-feature-extraction",
-      "deepseek"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T05:55:05.260945+00:00",
-    "source_ids": [
-      "unsloth/DeepSeek-OCR-2"
-    ],
-    "family": "DeepSeek-OCR-2"
-  },
-  {
     "id": "huggingface:DeverStyle/Flux.2-Klein-Loras",
     "name": "Flux.2-Klein-Loras",
     "provider": "DeverStyle",
@@ -16802,6 +16765,72 @@
       "zhiyuanyou/DeQA-Score-Mix3"
     ],
     "family": "DeQA-Score-Mix3"
+  },
+  {
+    "id": "huggingface:h2oai/h2ovl-mississippi-800m",
+    "name": "h2ovl-mississippi-800m",
+    "provider": "h2oai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-16T23:14:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/h2oai/h2ovl-mississippi-800m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "h2ovl_chat",
+      "feature-extraction",
+      "gpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T06:17:54.687759+00:00",
+    "source_ids": [
+      "h2oai/h2ovl-mississippi-800m"
+    ],
+    "family": "h2ovl-mississippi-800m"
+  },
+  {
+    "id": "huggingface:h2oai/h2ovl-mississippi-2b",
+    "name": "h2ovl-mississippi-2b",
+    "provider": "h2oai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-15T18:15:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "h2ovl_chat",
+      "feature-extraction",
+      "gpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-16T06:17:54.687706+00:00",
+    "source_ids": [
+      "h2oai/h2ovl-mississippi-2b"
+    ],
+    "family": "h2ovl-mississippi"
   },
   {
     "id": "huggingface:RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w4a16",
