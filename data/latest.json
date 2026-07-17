@@ -7540,35 +7540,6 @@
     "family": "gemma-4-it-LWQ6"
   },
   {
-    "id": "openrouter:z-ai/glm-5.2",
-    "name": "Z.ai: GLM 5.2",
-    "provider": "Zhipu AI",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-16T17:45:30+00:00",
-    "context_length": 1048576,
-    "description": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks. With a truly usable 1M-token context window, it can handle project-level engineering context, execute long-running tasks more reliably, follow...",
-    "url": "https://openrouter.ai/z-ai/glm-5.2",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.4,
-      "completion_per_million": 4.4
-    },
-    "first_seen": "2026-06-16T21:05:28.013949+00:00",
-    "source_ids": [
-      "z-ai/glm-5.2"
-    ],
-    "family": "GLM 5.2"
-  },
-  {
     "id": "huggingface:mlx-community/gemma-4-26B-A4B-it-qat-OptiQ-4bit",
     "name": "gemma-4-26B-A4B-it-qat-OptiQ-4bit",
     "provider": "mlx-community",
@@ -8449,6 +8420,41 @@
     "family": "Kimi-K2.7-Code-UD-Q4_K_XL-layers"
   },
   {
+    "id": "huggingface:RedHatAI/gemma-4-26B-A4B-it",
+    "name": "gemma-4-26B-A4B-it",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-14T16:40:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T02:39:16.227290+00:00",
+    "source_ids": [
+      "RedHatAI/gemma-4-26B-A4B-it"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
     "id": "huggingface:microsoft/FastContext-1.0-4B-RL",
     "name": "FastContext-1.0-4B-RL",
     "provider": "Microsoft",
@@ -9298,39 +9304,6 @@
       "Zyphra/ZONOS2"
     ],
     "family": "ZONOS2"
-  },
-  {
-    "id": "huggingface:morikomorizz/Nex-N2-Pro-MTP-GGUF-Experimental",
-    "name": "Nex-N2-Pro-MTP-GGUF-Experimental",
-    "provider": "morikomorizz",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T22:54:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/morikomorizz/Nex-N2-Pro-MTP-GGUF-Experimental",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-17T01:01:56.400573+00:00",
-    "source_ids": [
-      "morikomorizz/Nex-N2-Pro-MTP-GGUF-Experimental"
-    ],
-    "family": "Nex-N2-Pro-MTP--Experimental"
   },
   {
     "id": "huggingface:morikomorizz/Nex-N2-Pro-MTP-GGUF",
@@ -11683,39 +11656,6 @@
       "madtune/pixeldit-diffusers"
     ],
     "family": "pixeldit-diffusers"
-  },
-  {
-    "id": "huggingface:properly59/Jumini-Ko-1.2B",
-    "name": "Jumini-Ko-1.2B",
-    "provider": "properly59",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-01T12:50:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/properly59/Jumini-Ko-1.2B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "korean"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-16T21:05:28.114440+00:00",
-    "source_ids": [
-      "properly59/Jumini-Ko-1.2B"
-    ],
-    "family": "Jumini-Ko"
   },
   {
     "id": "huggingface:PanocularAI/PanoVLM-500M",
