@@ -100302,5 +100302,76 @@
       "vadikulous-ai/Qwen-AgentWorld-35B-A3B-UD-Q4_K_XL-MTP-GGUF"
     ],
     "family": "Qwen-AgentWorld-UD-Q4_K_XL-MTP"
+  },
+  {
+    "id": "openrouter:openrouter/auto-beta",
+    "name": "Auto Router (Beta)",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio",
+      "file",
+      "video"
+    ],
+    "output_modalities": [
+      "text",
+      "image"
+    ],
+    "release_date": "2026-07-17T17:59:25+00:00",
+    "context_length": 2000000,
+    "description": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your...",
+    "url": "https://openrouter.ai/openrouter/auto-beta",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": -1000000.0,
+      "completion_per_million": -1000000.0
+    },
+    "first_seen": "2026-07-17T20:55:07.759704+00:00",
+    "source_ids": [
+      "openrouter/auto-beta"
+    ],
+    "family": "Auto Router (Beta)"
+  },
+  {
+    "id": "huggingface:Synaptics/LiquidAI-LFM2.5-230M",
+    "name": "LiquidAI-LFM2.5-230M",
+    "provider": "Synaptics",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T20:46:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Synaptics/LiquidAI-LFM2.5-230M",
+    "tags": [
+      "text-generation",
+      "onnx",
+      "lfm2",
+      "torq",
+      "synaptics",
+      "sl2619"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T20:55:07.871424+00:00",
+    "source_ids": [
+      "Synaptics/LiquidAI-LFM2.5-230M"
+    ],
+    "family": "LiquidAI-LFM2.5-230M"
   }
 ]
