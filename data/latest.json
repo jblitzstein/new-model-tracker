@@ -68,6 +68,76 @@
     "family": "Muse Spark 1.1"
   },
   {
+    "id": "huggingface:internlm/Intern-S2-Preview-397B",
+    "name": "Intern-S2-Preview-397B",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T15:01:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Intern-S2-Preview-397B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "intern_s2_preview",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T13:37:16.239970+00:00",
+    "source_ids": [
+      "internlm/Intern-S2-Preview-397B"
+    ],
+    "family": "Intern-S2"
+  },
+  {
+    "id": "huggingface:internlm/Intern-S2-Preview-397B-FP8",
+    "name": "Intern-S2-Preview-397B-FP8",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T14:06:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Intern-S2-Preview-397B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "intern_s2_preview",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T13:37:16.239907+00:00",
+    "source_ids": [
+      "internlm/Intern-S2-Preview-397B-FP8"
+    ],
+    "family": "Intern-S2--FP8"
+  },
+  {
     "id": "huggingface:wasmdashai/lahja-sa-huba-v1",
     "name": "lahja-sa-huba-v1",
     "provider": "wasmdashai",
@@ -302,6 +372,41 @@
       "TheNormsOfIntelligence/Acknowledgement_Theory_of_Consciousness"
     ],
     "family": "Acknowledgement_Theory_of_Consciousness"
+  },
+  {
+    "id": "huggingface:neureps/warmly-qwen35-2b-enko-gguf",
+    "name": "warmly-qwen35-2b-enko-gguf",
+    "provider": "neureps",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T07:41:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neureps/warmly-qwen35-2b-enko-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "korean",
+      "warmly"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T13:37:16.239839+00:00",
+    "source_ids": [
+      "neureps/warmly-qwen35-2b-enko-gguf"
+    ],
+    "family": "warmly-qwen35-enko"
   },
   {
     "id": "huggingface:audio-cpp/audio.cpp-gguf",
@@ -11026,6 +11131,76 @@
     "family": "Qwen3.5-UD-Q4_K_XL-layers"
   },
   {
+    "id": "huggingface:unsloth/gemma-4-31B-it-qat-w4a16",
+    "name": "gemma-4-31B-it-qat-w4a16",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T15:13:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-31B-it-qat-w4a16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T13:37:16.239660+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-31B-it-qat-w4a16"
+    ],
+    "family": "gemma-4-it-qat-w4a16"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+    "name": "gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T13:13:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T13:37:16.239760+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-26B-A4B-it-qat-q4_0-unquantized"
+    ],
+    "family": "gemma-4-it-qat-q4_0-unquantized"
+  },
+  {
     "id": "huggingface:DreamFast/Qwen3-VL-8B-Heretic-1.3.0",
     "name": "Qwen3-VL-8B-Heretic-1.3.0",
     "provider": "DreamFast",
@@ -15406,6 +15581,76 @@
       "RedHatAI/gemma-4-26B-A4B-it-NVFP4"
     ],
     "family": "gemma-4-it-NVFP4"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-31b-it-MLX-8bit",
+    "name": "gemma-4-31b-it-MLX-8bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-05T03:25:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-31b-it-MLX-8bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T13:37:16.239560+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-31b-it-MLX-8bit"
+    ],
+    "family": "gemma-4-it-MLX-8bit"
+  },
+  {
+    "id": "huggingface:unsloth/gemma-4-26b-a4b-it-UD-MLX-4bit",
+    "name": "gemma-4-26b-a4b-it-UD-MLX-4bit",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T07:31:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/gemma-4-26b-a4b-it-UD-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T13:37:16.239722+00:00",
+    "source_ids": [
+      "unsloth/gemma-4-26b-a4b-it-UD-MLX-4bit"
+    ],
+    "family": "gemma-4-it-UD-MLX-4bit"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-e2b-it-bf16",
