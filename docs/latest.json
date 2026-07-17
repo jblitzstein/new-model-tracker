@@ -3469,6 +3469,72 @@
     "family": "Qwen3.5-heretic-imatrix"
   },
   {
+    "id": "huggingface:prism-ml/Bonsai-27B-gguf",
+    "name": "Bonsai-27B-gguf",
+    "provider": "prism-ml",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-04T00:24:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "conversational",
+      "1-bit",
+      "llama-cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T17:11:41.557435+00:00",
+    "source_ids": [
+      "prism-ml/Bonsai-27B-gguf"
+    ],
+    "family": "Bonsai"
+  },
+  {
+    "id": "huggingface:prism-ml/Ternary-Bonsai-27B-gguf",
+    "name": "Ternary-Bonsai-27B-gguf",
+    "provider": "prism-ml",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-04T00:24:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "conversational",
+      "ternary",
+      "2-bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T17:11:41.557370+00:00",
+    "source_ids": [
+      "prism-ml/Ternary-Bonsai-27B-gguf"
+    ],
+    "family": "Ternary-Bonsai"
+  },
+  {
     "id": "huggingface:FadedRedStar/Qwen3.5-2B-heretic-imatrix-GGUF",
     "name": "Qwen3.5-2B-heretic-imatrix-GGUF",
     "provider": "FadedRedStar",
@@ -4523,6 +4589,41 @@
       "google/gemini-3.1-flash-lite-image"
     ],
     "family": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
+  },
+  {
+    "id": "huggingface:vadikulous-ai/Qwen-AgentWorld-35B-A3B-UD-Q4_K_XL-MTP-GGUF",
+    "name": "Qwen-AgentWorld-35B-A3B-UD-Q4_K_XL-MTP-GGUF",
+    "provider": "vadikulous-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T14:54:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vadikulous-ai/Qwen-AgentWorld-35B-A3B-UD-Q4_K_XL-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "moe",
+      "multimodal",
+      "vision",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T17:11:42.012819+00:00",
+    "source_ids": [
+      "vadikulous-ai/Qwen-AgentWorld-35B-A3B-UD-Q4_K_XL-MTP-GGUF"
+    ],
+    "family": "Qwen-AgentWorld-UD-Q4_K_XL-MTP"
   },
   {
     "id": "huggingface:InternScience/Agents-A1-FP8",
@@ -8559,76 +8660,6 @@
       "empero-ai/Qwable-9B-Claude-Fable-5-GGUF"
     ],
     "family": "Qwable-Claude-Fable-5"
-  },
-  {
-    "id": "huggingface:allenai/MolmoMotion-4B-H3-F30",
-    "name": "MolmoMotion-4B-H3-F30",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-15T15:47:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/MolmoMotion-4B-H3-F30",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "molmo2",
-      "image-text-to-text",
-      "molmo-motion"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-17T17:06:17.187693+00:00",
-    "source_ids": [
-      "allenai/MolmoMotion-4B-H3-F30"
-    ],
-    "family": "MolmoMotion-H3-F30"
-  },
-  {
-    "id": "huggingface:allenai/MolmoMotion-4B-H1-F32",
-    "name": "MolmoMotion-4B-H1-F32",
-    "provider": "Allen AI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-15T15:47:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/allenai/MolmoMotion-4B-H1-F32",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "molmo2",
-      "image-text-to-text",
-      "molmo-motion"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-17T17:06:17.187724+00:00",
-    "source_ids": [
-      "allenai/MolmoMotion-4B-H1-F32"
-    ],
-    "family": "MolmoMotion-H1-F32"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-12B-it-qat-OptiQ-4bit",
@@ -14791,6 +14822,40 @@
       "unsloth/DeepSeek-V4-Flash"
     ],
     "family": "DeepSeek-V4-Flash"
+  },
+  {
+    "id": "huggingface:audarai/Audar-ASR-V1-Turbo",
+    "name": "Audar-ASR-V1-Turbo",
+    "provider": "audarai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T17:39:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/audarai/Audar-ASR-V1-Turbo",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "gguf",
+      "automatic-speech-recognition",
+      "asr",
+      "speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-17T17:11:41.943841+00:00",
+    "source_ids": [
+      "audarai/Audar-ASR-V1-Turbo"
+    ],
+    "family": "Audar-ASR-V1-Turbo"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-27B-v1-preview-GGUF",
