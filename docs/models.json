@@ -100611,5 +100611,173 @@
       "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF"
     ],
     "family": "Qwen3.6-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP"
+  },
+  {
+    "id": "huggingface:RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
+    "name": "Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
+    "provider": "RobinsonLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-12T20:16:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "imatrix",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.103812+00:00",
+    "source_ids": [
+      "RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF"
+    ],
+    "family": "Qwen3.5-REAP-abliterated"
+  },
+  {
+    "id": "huggingface:User01110/MCMA-20M",
+    "name": "MCMA-20M",
+    "provider": "User01110",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-18T05:16:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/User01110/MCMA-20M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mcma",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.103903+00:00",
+    "source_ids": [
+      "User01110/MCMA-20M"
+    ],
+    "family": "MCMA-20M"
+  },
+  {
+    "id": "huggingface:theoracleguy/OmniVoice-bf16",
+    "name": "OmniVoice-bf16",
+    "provider": "theoracleguy",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-16T09:48:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/theoracleguy/OmniVoice-bf16",
+    "tags": [
+      "text-to-speech",
+      "mlx-audio",
+      "safetensors",
+      "omnivoice",
+      "mlx",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.669702+00:00",
+    "source_ids": [
+      "theoracleguy/OmniVoice-bf16"
+    ],
+    "family": "OmniVoice-bf16"
+  },
+  {
+    "id": "huggingface:theoracleguy/Kokoro-82M-bf16",
+    "name": "Kokoro-82M-bf16",
+    "provider": "theoracleguy",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-01-19T07:50:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/theoracleguy/Kokoro-82M-bf16",
+    "tags": [
+      "text-to-speech",
+      "mlx",
+      "text-to-speech",
+      "en",
+      "base_model:yl4579/StyleTTS2-LJSpeech",
+      "base_model:finetune:yl4579/StyleTTS2-LJSpeech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.669778+00:00",
+    "source_ids": [
+      "theoracleguy/Kokoro-82M-bf16"
+    ],
+    "family": "Kokoro-82M-bf16"
+  },
+  {
+    "id": "huggingface:theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
+    "name": "Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
+    "provider": "theoracleguy",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-14T09:31:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
+    "tags": [
+      "text-to-speech",
+      "mlx-audio",
+      "safetensors",
+      "qwen3_tts",
+      "mlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.669824+00:00",
+    "source_ids": [
+      "theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit"
+    ],
+    "family": "Qwen3-TTS-12Hz-VoiceDesign-4bit"
   }
 ]

@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:User01110/MCMA-20M",
+    "name": "MCMA-20M",
+    "provider": "User01110",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-18T05:16:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/User01110/MCMA-20M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mcma",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.103903+00:00",
+    "source_ids": [
+      "User01110/MCMA-20M"
+    ],
+    "family": "MCMA-20M"
+  },
+  {
     "id": "openrouter:thinkingmachines/inkling",
     "name": "Thinking Machines: Inkling",
     "provider": "thinkingmachines",
@@ -856,6 +889,39 @@
       "braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama"
     ],
     "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-Ollama"
+  },
+  {
+    "id": "huggingface:RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
+    "name": "Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
+    "provider": "RobinsonLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-12T20:16:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "imatrix",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.103812+00:00",
+    "source_ids": [
+      "RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF"
+    ],
+    "family": "Qwen3.5-REAP-abliterated"
   },
   {
     "id": "huggingface:reaperdoesntknow/DualMind-TKD-Agentic-1.7B",
@@ -15183,6 +15249,40 @@
     "family": "Qwen3.5-GLM5.1-Distill-v1"
   },
   {
+    "id": "huggingface:theoracleguy/OmniVoice-bf16",
+    "name": "OmniVoice-bf16",
+    "provider": "theoracleguy",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-16T09:48:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/theoracleguy/OmniVoice-bf16",
+    "tags": [
+      "text-to-speech",
+      "mlx-audio",
+      "safetensors",
+      "omnivoice",
+      "mlx",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.669702+00:00",
+    "source_ids": [
+      "theoracleguy/OmniVoice-bf16"
+    ],
+    "family": "OmniVoice-bf16"
+  },
+  {
     "id": "huggingface:Jackrong/Qwopus3.5-27B-v3.5-GGUF",
     "name": "Qwopus3.5-27B-v3.5-GGUF",
     "provider": "Jackrong",
@@ -15418,39 +15518,6 @@
       "nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16"
     ],
     "family": "Nemotron-Labs-TwoTower--BF16"
-  },
-  {
-    "id": "huggingface:AEON-7/Gemma-4-26B-A4B-it-Uncensored-NVFP4",
-    "name": "Gemma-4-26B-A4B-it-Uncensored-NVFP4",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T00:15:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Gemma-4-26B-A4B-it-Uncensored-NVFP4",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-18T09:35:03.201438+00:00",
-    "source_ids": [
-      "AEON-7/Gemma-4-26B-A4B-it-Uncensored-NVFP4"
-    ],
-    "family": "Gemma-4-it-Uncensored-NVFP4"
   },
   {
     "id": "huggingface:cstr/qwen3-asr-0.6b-GGUF",
@@ -16251,6 +16318,40 @@
     "family": "Qwen3.5-NPU2"
   },
   {
+    "id": "huggingface:theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
+    "name": "Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
+    "provider": "theoracleguy",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-14T09:31:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
+    "tags": [
+      "text-to-speech",
+      "mlx-audio",
+      "safetensors",
+      "qwen3_tts",
+      "mlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.669824+00:00",
+    "source_ids": [
+      "theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit"
+    ],
+    "family": "Qwen3-TTS-12Hz-VoiceDesign-4bit"
+  },
+  {
     "id": "huggingface:DreamFast/qwen3-4b-heretic",
     "name": "qwen3-4b-heretic",
     "provider": "DreamFast",
@@ -16787,6 +16888,40 @@
       "reaperdoesntknow/CasualSwarms"
     ],
     "family": "CasualSwarms"
+  },
+  {
+    "id": "huggingface:theoracleguy/Kokoro-82M-bf16",
+    "name": "Kokoro-82M-bf16",
+    "provider": "theoracleguy",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-01-19T07:50:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/theoracleguy/Kokoro-82M-bf16",
+    "tags": [
+      "text-to-speech",
+      "mlx",
+      "text-to-speech",
+      "en",
+      "base_model:yl4579/StyleTTS2-LJSpeech",
+      "base_model:finetune:yl4579/StyleTTS2-LJSpeech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T13:14:47.669778+00:00",
+    "source_ids": [
+      "theoracleguy/Kokoro-82M-bf16"
+    ],
+    "family": "Kokoro-82M-bf16"
   },
   {
     "id": "huggingface:lightonai/LightOnOCR-2-1B-bbox-soup",
