@@ -100373,5 +100373,38 @@
       "Synaptics/LiquidAI-LFM2.5-230M"
     ],
     "family": "LiquidAI-LFM2.5-230M"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling",
+    "name": "Thinking Machines: Inkling",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T22:05:56+00:00",
+    "context_length": 1048576,
+    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 4.05
+    },
+    "first_seen": "2026-07-18T02:30:04.143584+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling"
+    ],
+    "family": "Inkling"
   }
 ]

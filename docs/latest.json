@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:thinkingmachines/inkling",
+    "name": "Thinking Machines: Inkling",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T22:05:56+00:00",
+    "context_length": 1048576,
+    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 4.05
+    },
+    "first_seen": "2026-07-18T02:30:04.143584+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling"
+    ],
+    "family": "Inkling"
+  },
+  {
     "id": "openrouter:openrouter/auto-beta",
     "name": "Auto Router (Beta)",
     "provider": "openrouter",
@@ -7995,32 +8028,6 @@
     "family": "GLM-5.1-UD-Q3_K_S-layers"
   },
   {
-    "id": "openrouter:cohere/north-mini-code:free",
-    "name": "Cohere: North Mini Code (free)",
-    "provider": "Cohere",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-17T19:15:48+00:00",
-    "context_length": 256000,
-    "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized...",
-    "url": "https://openrouter.ai/cohere/north-mini-code:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-06-18T01:00:56.882630+00:00",
-    "source_ids": [
-      "cohere/north-mini-code:free"
-    ],
-    "family": "North Mini Code"
-  },
-  {
     "id": "huggingface:hotdogs/qwen3.6-27b-fable5-lora",
     "name": "qwen3.6-27b-fable5-lora",
     "provider": "hotdogs",
@@ -8456,41 +8463,6 @@
       "ynanxiu/qwen25-3b-coffee-lora"
     ],
     "family": "qwen25-coffee-lora"
-  },
-  {
-    "id": "huggingface:SC117/Nex-N2-mini-APEX-GGUF",
-    "name": "Nex-N2-mini-APEX-GGUF",
-    "provider": "SC117",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-16T07:53:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SC117/Nex-N2-mini-APEX-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3_5_moe",
-      "qwen3_5",
-      "agentic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-18T01:00:57.553496+00:00",
-    "source_ids": [
-      "SC117/Nex-N2-mini-APEX-GGUF"
-    ],
-    "family": "Nex-N2-mini-APEX"
   },
   {
     "id": "huggingface:zai-org/GLM-5.2",
@@ -10263,39 +10235,6 @@
       "vectionlabs/Salience-1-9B"
     ],
     "family": "Salience-1"
-  },
-  {
-    "id": "huggingface:yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-    "name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-    "provider": "yuxinlu1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T07:24:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "gemma4",
-      "coding",
-      "code",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-18T01:00:56.975222+00:00",
-    "source_ids": [
-      "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF"
-    ],
-    "family": "gemma-4-coder-fable5-composer2.5-v1"
   },
   {
     "id": "huggingface:meshllm/GLM-5.1-UD-Q3_K_XL-layers",
