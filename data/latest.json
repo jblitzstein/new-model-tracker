@@ -71,6 +71,76 @@
     "family": "Auto Router (Beta)"
   },
   {
+    "id": "huggingface:droplychee-core/droplychee-1.0-27b",
+    "name": "droplychee-1.0-27b",
+    "provider": "droplychee-core",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T01:32:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/droplychee-core/droplychee-1.0-27b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T09:26:30.439463+00:00",
+    "source_ids": [
+      "droplychee-core/droplychee-1.0-27b"
+    ],
+    "family": "droplychee-1.0"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T00:27:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "unsloth",
+      "fine tune",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T09:26:30.439684+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP"
+  },
+  {
     "id": "openrouter:moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "provider": "Moonshot AI",
@@ -786,6 +856,39 @@
       "braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama"
     ],
     "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-Ollama"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/DualMind-TKD-Agentic-1.7B",
+    "name": "DualMind-TKD-Agentic-1.7B",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-12T08:47:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/DualMind-TKD-Agentic-1.7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T09:26:29.503543+00:00",
+    "source_ids": [
+      "reaperdoesntknow/DualMind-TKD-Agentic-1.7B"
+    ],
+    "family": "DualMind-TKD-Agentic"
   },
   {
     "id": "huggingface:cyankiwi/ThinkingCap-Qwen3.6-27B-AWQ-INT4",
@@ -3169,6 +3272,41 @@
     "family": "reasoning-summarizer-800m-pre"
   },
   {
+    "id": "huggingface:ailexleon/gemma-4-26B-A4B-it-qat-uncensored-heretic-mlx-vlm-4Bit",
+    "name": "gemma-4-26B-A4B-it-qat-uncensored-heretic-mlx-vlm-4Bit",
+    "provider": "ailexleon",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-05T13:28:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ailexleon/gemma-4-26B-A4B-it-qat-uncensored-heretic-mlx-vlm-4Bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T09:26:30.439573+00:00",
+    "source_ids": [
+      "ailexleon/gemma-4-26B-A4B-it-qat-uncensored-heretic-mlx-vlm-4Bit"
+    ],
+    "family": "gemma-4-it-qat-uncensored-heretic-mlx-vlm-4Bit"
+  },
+  {
     "id": "huggingface:MuXodious/LFM2.5-8B-A1B-SOMPOA-heresy",
     "name": "LFM2.5-8B-A1B-SOMPOA-heresy",
     "provider": "MuXodious",
@@ -4693,6 +4831,39 @@
       "google/gemini-3.1-flash-lite-image"
     ],
     "family": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
+  },
+  {
+    "id": "huggingface:LordNeel/Agents-A1-GGUF",
+    "name": "Agents-A1-GGUF",
+    "provider": "LordNeel",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T15:09:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LordNeel/Agents-A1-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "quantized",
+      "llama-cpp",
+      "qwen3.5-moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T09:26:29.503431+00:00",
+    "source_ids": [
+      "LordNeel/Agents-A1-GGUF"
+    ],
+    "family": "Agents-A1"
   },
   {
     "id": "huggingface:vadikulous-ai/Qwen-AgentWorld-35B-A3B-UD-Q4_K_XL-MTP-GGUF",
@@ -16313,6 +16484,40 @@
       "Granddyser/flux-klein-9b-Biglove-Collection"
     ],
     "family": "flux-klein-Biglove-Collection"
+  },
+  {
+    "id": "huggingface:bezzam/VibeVoice-1.5B-hf",
+    "name": "VibeVoice-1.5B-hf",
+    "provider": "bezzam",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-05T15:49:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bezzam/VibeVoice-1.5B-hf",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "vibevoice",
+      "text-generation",
+      "Podcast"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-18T09:26:30.164695+00:00",
+    "source_ids": [
+      "bezzam/VibeVoice-1.5B-hf"
+    ],
+    "family": "VibeVoice-hf"
   },
   {
     "id": "huggingface:axana-labs/Llama-3.3-70B-Instruct-bnb-4bit",
