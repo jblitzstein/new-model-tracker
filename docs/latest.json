@@ -12961,6 +12961,39 @@
     "family": "bonsai-image-binary"
   },
   {
+    "id": "huggingface:Anbeeld/gemma-4-26B-A4B-it-DFlash-GGUF",
+    "name": "gemma-4-26B-A4B-it-DFlash-GGUF",
+    "provider": "Anbeeld",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-27T00:04:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Anbeeld/gemma-4-26B-A4B-it-DFlash-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen3",
+      "safetensors",
+      "dflash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-19T02:43:43.901825+00:00",
+    "source_ids": [
+      "Anbeeld/gemma-4-26B-A4B-it-DFlash-GGUF"
+    ],
+    "family": "gemma-4-it-DFlash"
+  },
+  {
     "id": "huggingface:88plug/Qwen3-Omni-30B-W4A16",
     "name": "Qwen3-Omni-30B-W4A16",
     "provider": "88plug",
@@ -13989,6 +14022,39 @@
       "cstr/voxcpm2-GGUF"
     ],
     "family": "voxcpm2"
+  },
+  {
+    "id": "huggingface:Anbeeld/gemma-4-31B-it-DFlash-GGUF",
+    "name": "gemma-4-31B-it-DFlash-GGUF",
+    "provider": "Anbeeld",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-15T23:56:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Anbeeld/gemma-4-31B-it-DFlash-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "safetensors",
+      "qwen3",
+      "dflash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-19T02:43:43.901754+00:00",
+    "source_ids": [
+      "Anbeeld/gemma-4-31B-it-DFlash-GGUF"
+    ],
+    "family": "gemma-4-it-DFlash"
   },
   {
     "id": "huggingface:mradermacher/Supertron-VL-2B-GGUF",
@@ -15726,113 +15792,6 @@
       "mispeech/Dasheng-AudioGen"
     ],
     "family": "Dasheng-AudioGen"
-  },
-  {
-    "id": "huggingface:RedHatAI/gemma-4-31B-it-FP8-Dynamic",
-    "name": "gemma-4-31B-it-FP8-Dynamic",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T16:13:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/gemma-4-31B-it-FP8-Dynamic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T01:06:16.177340+00:00",
-    "source_ids": [
-      "RedHatAI/gemma-4-31B-it-FP8-Dynamic",
-      "RedHatAI/gemma-4-31B-it-FP8-dynamic"
-    ],
-    "family": "gemma-4-it-FP8-Dynamic"
-  },
-  {
-    "id": "huggingface:RedHatAI/gemma-4-26B-A4B-it-FP8-Dynamic",
-    "name": "gemma-4-26B-A4B-it-FP8-Dynamic",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-06T14:04:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-FP8-Dynamic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T01:06:16.177311+00:00",
-    "source_ids": [
-      "RedHatAI/gemma-4-26B-A4B-it-FP8-Dynamic",
-      "RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic"
-    ],
-    "family": "gemma-4-it-FP8-Dynamic"
-  },
-  {
-    "id": "huggingface:RedHatAI/gemma-4-26B-A4B-it-NVFP4",
-    "name": "gemma-4-26B-A4B-it-NVFP4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-05T20:47:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/gemma-4-26B-A4B-it-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "fp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T01:06:16.177271+00:00",
-    "source_ids": [
-      "RedHatAI/gemma-4-26B-A4B-it-NVFP4"
-    ],
-    "family": "gemma-4-it-NVFP4"
   },
   {
     "id": "huggingface:unsloth/gemma-4-31b-it-MLX-8bit",
