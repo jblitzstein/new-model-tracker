@@ -104,6 +104,41 @@
     "family": "Auto Router (Beta)"
   },
   {
+    "id": "huggingface:inferencerlabs/Inkling-MLX-Q3",
+    "name": "Inkling-MLX-Q3",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T03:53:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/Inkling-MLX-Q3",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "inkling_mm_model",
+      "quantized",
+      "conversational",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-19T16:57:48.164083+00:00",
+    "source_ids": [
+      "inferencerlabs/Inkling-MLX-Q3"
+    ],
+    "family": "Inkling-MLX-Q3"
+  },
+  {
     "id": "huggingface:droplychee-core/droplychee-1.0-27b",
     "name": "droplychee-1.0-27b",
     "provider": "droplychee-core",
@@ -988,6 +1023,41 @@
       "braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama"
     ],
     "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-Ollama"
+  },
+  {
+    "id": "huggingface:ZERO-POINT-AI/MARTHA-LXVIII.21b_QWEN-3.5-3.6_prune_27b-3.6_base",
+    "name": "MARTHA-LXVIII.21b_QWEN-3.5-3.6_prune_27b-3.6_base",
+    "provider": "ZERO-POINT-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-12T21:13:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ZERO-POINT-AI/MARTHA-LXVIII.21b_QWEN-3.5-3.6_prune_27b-3.6_base",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "qwen3_5_text",
+      "conversational",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-19T16:57:48.164180+00:00",
+    "source_ids": [
+      "ZERO-POINT-AI/MARTHA-LXVIII.21b_QWEN-3.5-3.6_prune_27b-3.6_base"
+    ],
+    "family": "MARTHA-LXVIII.21b_QWEN-3.5-3.6_prune_-3.6"
   },
   {
     "id": "huggingface:RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
@@ -9007,41 +9077,6 @@
     "family": "diffusiongemma-it--INT4"
   },
   {
-    "id": "huggingface:empero-ai/Qwable-9B-Claude-Fable-5-GGUF",
-    "name": "Qwable-9B-Claude-Fable-5-GGUF",
-    "provider": "empero-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-15T15:52:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/empero-ai/Qwable-9B-Claude-Fable-5-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "qwen3.5",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T16:52:18.658750+00:00",
-    "source_ids": [
-      "empero-ai/Qwable-9B-Claude-Fable-5-GGUF"
-    ],
-    "family": "Qwable-Claude-Fable-5"
-  },
-  {
     "id": "huggingface:mlx-community/gemma-4-12B-it-qat-OptiQ-4bit",
     "name": "gemma-4-12B-it-qat-OptiQ-4bit",
     "provider": "mlx-community",
@@ -9614,41 +9649,6 @@
       "jica98/qwen3.5-4B-super-coder"
     ],
     "family": "qwen3.5-super-coder"
-  },
-  {
-    "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-OptiQ-4bit",
-    "name": "diffusiongemma-26B-A4B-it-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-13T02:10:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/diffusiongemma-26B-A4B-it-OptiQ-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "diffusion_gemma",
-      "optiq",
-      "diffusion-llm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T16:52:18.658689+00:00",
-    "source_ids": [
-      "mlx-community/diffusiongemma-26B-A4B-it-OptiQ-4bit"
-    ],
-    "family": "diffusiongemma-it-OptiQ-4bit"
   },
   {
     "id": "huggingface:meshllm/MiniMax-M3-UD-Q4_K_XL-layers",
@@ -12789,146 +12789,6 @@
     "family": "Qwen3.6-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16"
   },
   {
-    "id": "huggingface:osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-Q4_K_M-GGUF",
-    "name": "osmQwopus-3.6-27B-V2-abliterated-uncensored-Q4_K_M-GGUF",
-    "provider": "osmapi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-25T11:15:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-Q4_K_M-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "text-generation",
-      "image-text-to-text",
-      "llama.cpp",
-      "safetensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T16:52:18.658543+00:00",
-    "source_ids": [
-      "osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-Q4_K_M-GGUF"
-    ],
-    "family": "osmQwopus-3.6-V2-abliterated-uncensored-Q4_K_M"
-  },
-  {
-    "id": "huggingface:osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_1s-GGUF",
-    "name": "osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_1s-GGUF",
-    "provider": "osmapi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-25T10:06:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_1s-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "text-generation",
-      "image-text-to-text",
-      "llama.cpp",
-      "safetensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T16:52:18.658499+00:00",
-    "source_ids": [
-      "osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_1s-GGUF"
-    ],
-    "family": "osmQwopus-3.6-V2-abliterated-uncensored-TQ3_1s"
-  },
-  {
-    "id": "huggingface:osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_4s-GGUF",
-    "name": "osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_4s-GGUF",
-    "provider": "osmapi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-25T10:06:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_4s-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "text-generation",
-      "image-text-to-text",
-      "llama.cpp",
-      "safetensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T16:52:18.658421+00:00",
-    "source_ids": [
-      "osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-TQ3_4s-GGUF"
-    ],
-    "family": "osmQwopus-3.6-V2-abliterated-uncensored-TQ3_4s"
-  },
-  {
-    "id": "huggingface:osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-8-bit-GGUF",
-    "name": "osmQwopus-3.6-27B-V2-abliterated-uncensored-8-bit-GGUF",
-    "provider": "osmapi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-25T09:52:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-8-bit-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "text-generation",
-      "image-text-to-text",
-      "llama.cpp",
-      "safetensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T16:52:18.658625+00:00",
-    "source_ids": [
-      "osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-8-bit-GGUF"
-    ],
-    "family": "osmQwopus-3.6-V2-abliterated-uncensored-8-bit"
-  },
-  {
     "id": "huggingface:AutoArk-AI/ARK-ASR-0.6B",
     "name": "ARK-ASR-0.6B",
     "provider": "AutoArk-AI",
@@ -13099,41 +12959,6 @@
       "inferencerlabs/gemma-4-26B-A4B-MTP-MLX"
     ],
     "family": "gemma-4-MTP-MLX"
-  },
-  {
-    "id": "huggingface:osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-OptiQ-3.7bpw-mlx",
-    "name": "osmQwopus-3.6-27B-V2-abliterated-uncensored-OptiQ-3.7bpw-mlx",
-    "provider": "osmapi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-24T11:45:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-OptiQ-3.7bpw-mlx",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "text-generation",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-19T16:52:18.658582+00:00",
-    "source_ids": [
-      "osmapi/osmQwopus-3.6-27B-V2-abliterated-uncensored-OptiQ-3.7bpw-mlx"
-    ],
-    "family": "osmQwopus-3.6-V2-abliterated-uncensored-OptiQ-3.7bpw-mlx"
   },
   {
     "id": "huggingface:88plug/Qwen3.6-27B-W8A16",
