@@ -580,6 +580,76 @@
     "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-MTP"
   },
   {
+    "id": "huggingface:thinkingmachines/Inkling-NVFP4",
+    "name": "Inkling-NVFP4",
+    "provider": "thinkingmachines",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T13:23:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thinkingmachines/Inkling-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "inkling_mm_model",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-19T20:49:20.322846+00:00",
+    "source_ids": [
+      "thinkingmachines/Inkling-NVFP4"
+    ],
+    "family": "Inkling-NVFP4"
+  },
+  {
+    "id": "huggingface:thinkingmachines/Inkling",
+    "name": "Inkling",
+    "provider": "thinkingmachines",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T13:23:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thinkingmachines/Inkling",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "inkling_mm_model",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-19T20:49:20.322822+00:00",
+    "source_ids": [
+      "thinkingmachines/Inkling"
+    ],
+    "family": "Inkling"
+  },
+  {
     "id": "huggingface:laion/moss-tts-local-transformer-4.55b-voice-acting",
     "name": "moss-tts-local-transformer-4.55b-voice-acting",
     "provider": "laion",
@@ -5166,6 +5236,39 @@
       "anthropic/claude-sonnet-5"
     ],
     "family": "Claude Sonnet 5"
+  },
+  {
+    "id": "huggingface:neko-legends/Qwen3.6-35B-A3B-NVFP4-MTP-GGUF",
+    "name": "Qwen3.6-35B-A3B-NVFP4-MTP-GGUF",
+    "provider": "neko-legends",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T17:34:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neko-legends/Qwen3.6-35B-A3B-NVFP4-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "nvfp4",
+      "fp8",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-19T20:49:19.505024+00:00",
+    "source_ids": [
+      "neko-legends/Qwen3.6-35B-A3B-NVFP4-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-NVFP4-MTP"
   },
   {
     "id": "openrouter:google/gemini-3.1-flash-lite-image",
