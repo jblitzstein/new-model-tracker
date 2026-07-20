@@ -101388,5 +101388,107 @@
       "EZForever/gemma-4-26B-A4B-it-qat-uncensored-heretic-UDmerge-GGUF"
     ],
     "family": "gemma-4-it-qat-uncensored-heretic-UDmerge"
+  },
+  {
+    "id": "huggingface:krea/Krea-2-Raw",
+    "name": "Krea-2-Raw",
+    "provider": "krea",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-18T05:24:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/krea/Krea-2-Raw",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "en",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-20T06:45:35.833563+00:00",
+    "source_ids": [
+      "krea/Krea-2-Raw"
+    ],
+    "family": "Krea-2-Raw"
+  },
+  {
+    "id": "huggingface:krea/Krea-2-Turbo",
+    "name": "Krea-2-Turbo",
+    "provider": "krea",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-18T04:50:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/krea/Krea-2-Turbo",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "en",
+      "base_model:krea/Krea-2-Raw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-20T06:45:35.833620+00:00",
+    "source_ids": [
+      "krea/Krea-2-Turbo"
+    ],
+    "family": "Krea-2-Turbo"
+  },
+  {
+    "id": "huggingface:ARTPARK-IISc/SraVaani-1.0",
+    "name": "SraVaani-1.0",
+    "provider": "ARTPARK-IISc",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-02T13:46:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ARTPARK-IISc/SraVaani-1.0",
+    "tags": [
+      "automatic-speech-recognition",
+      "sravaani_tdt",
+      "automatic-speech-recognition",
+      "custom_code",
+      "hi",
+      "kn"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-20T06:45:36.367012+00:00",
+    "source_ids": [
+      "ARTPARK-IISc/SraVaani-1.0"
+    ],
+    "family": "SraVaani-1.0"
   }
 ]

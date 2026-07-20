@@ -8607,6 +8607,74 @@
     "family": "Keye-VL-2.0"
   },
   {
+    "id": "huggingface:krea/Krea-2-Raw",
+    "name": "Krea-2-Raw",
+    "provider": "krea",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-18T05:24:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/krea/Krea-2-Raw",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "en",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-20T06:45:35.833563+00:00",
+    "source_ids": [
+      "krea/Krea-2-Raw"
+    ],
+    "family": "Krea-2-Raw"
+  },
+  {
+    "id": "huggingface:krea/Krea-2-Turbo",
+    "name": "Krea-2-Turbo",
+    "provider": "krea",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-18T04:50:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/krea/Krea-2-Turbo",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "en",
+      "base_model:krea/Krea-2-Raw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-20T06:45:35.833620+00:00",
+    "source_ids": [
+      "krea/Krea-2-Turbo"
+    ],
+    "family": "Krea-2-Turbo"
+  },
+  {
     "id": "huggingface:maci0/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
     "name": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
     "provider": "maci0",
@@ -9010,39 +9078,6 @@
       "SC117/Huihui-Nex-N2-mini-abliterated-APEX-GGUF"
     ],
     "family": "Huihui-Nex-N2-mini-abliterated-APEX"
-  },
-  {
-    "id": "huggingface:ynanxiu/qwen25-3b-coffee-lora-gguf",
-    "name": "qwen25-3b-coffee-lora-gguf",
-    "provider": "ynanxiu",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-16T08:00:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ynanxiu/qwen25-3b-coffee-lora-gguf",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "qwen2.5",
-      "3b",
-      "coffee"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-20T05:33:42.413991+00:00",
-    "source_ids": [
-      "ynanxiu/qwen25-3b-coffee-lora-gguf"
-    ],
-    "family": "qwen25-coffee-lora"
   },
   {
     "id": "huggingface:ynanxiu/qwen25-3b-coffee-lora",
@@ -11579,39 +11614,6 @@
       "mradermacher/Rax-4.5-GGUF"
     ],
     "family": "Rax-4.5"
-  },
-  {
-    "id": "huggingface:mradermacher/Neuron-V1-Distill-Qwen2-14B-i1-GGUF",
-    "name": "Neuron-V1-Distill-Qwen2-14B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-05T02:09:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Neuron-V1-Distill-Qwen2-14B-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "neuron",
-      "neura-tech-ai",
-      "14B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-20T05:33:42.413894+00:00",
-    "source_ids": [
-      "mradermacher/Neuron-V1-Distill-Qwen2-14B-i1-GGUF"
-    ],
-    "family": "Neuron-V1-Distill-Qwen2-i1"
   },
   {
     "id": "huggingface:NotHereNorThere/Coral-v1.5-4b",
@@ -16408,6 +16410,40 @@
       "furiosa-ai/K-EXAONE-236B-A23B-NVFP4A16"
     ],
     "family": "K-EXAONE-NVFP4A16"
+  },
+  {
+    "id": "huggingface:ARTPARK-IISc/SraVaani-1.0",
+    "name": "SraVaani-1.0",
+    "provider": "ARTPARK-IISc",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-02T13:46:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ARTPARK-IISc/SraVaani-1.0",
+    "tags": [
+      "automatic-speech-recognition",
+      "sravaani_tdt",
+      "automatic-speech-recognition",
+      "custom_code",
+      "hi",
+      "kn"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-20T06:45:36.367012+00:00",
+    "source_ids": [
+      "ARTPARK-IISc/SraVaani-1.0"
+    ],
+    "family": "SraVaani-1.0"
   },
   {
     "id": "huggingface:EZCon/Huihui-Qwen3-VL-4B-Instruct-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx",
