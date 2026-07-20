@@ -101556,5 +101556,69 @@
       "bezzam/VibeVoice-7B-hf"
     ],
     "family": "VibeVoice-hf"
+  },
+  {
+    "id": "openrouter:meituan/longcat-2.0",
+    "name": "Meituan: LongCat 2.0",
+    "provider": "Meituan",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-20T13:37:38+00:00",
+    "context_length": 1048756,
+    "description": "LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic...",
+    "url": "https://openrouter.ai/meituan/longcat-2.0",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-07-20T14:05:45.333620+00:00",
+    "source_ids": [
+      "meituan/longcat-2.0"
+    ],
+    "family": "LongCat 2.0"
+  },
+  {
+    "id": "huggingface:vectionlabs/Salience-1.5-Flash",
+    "name": "Salience-1.5-Flash",
+    "provider": "vectionlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T14:51:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vectionlabs/Salience-1.5-Flash",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl_moe",
+      "image-text-to-text",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-20T14:05:46.250796+00:00",
+    "source_ids": [
+      "vectionlabs/Salience-1.5-Flash"
+    ],
+    "family": "Salience-1.5-Flash"
   }
 ]
