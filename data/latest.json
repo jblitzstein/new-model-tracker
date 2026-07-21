@@ -9276,39 +9276,6 @@
     "family": "Huihui-Nex-N2-mini-abliterated-APEX"
   },
   {
-    "id": "huggingface:ynanxiu/qwen25-3b-coffee-lora",
-    "name": "qwen25-3b-coffee-lora",
-    "provider": "ynanxiu",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-16T07:58:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ynanxiu/qwen25-3b-coffee-lora",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "gguf",
-      "base_model:adapter:Qwen/Qwen2.5-3B-Instruct",
-      "lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T12:45:51.945939+00:00",
-    "source_ids": [
-      "ynanxiu/qwen25-3b-coffee-lora"
-    ],
-    "family": "qwen25-coffee-lora"
-  },
-  {
     "id": "huggingface:FastVideo/FastWan-QAD-1.3B",
     "name": "FastWan-QAD-1.3B",
     "provider": "FastVideo",
@@ -11941,39 +11908,6 @@
     "family": "Nemotron-3.5-ASR-Streaming-CoreML-INT8"
   },
   {
-    "id": "huggingface:Lllllmmmmmm/conv-induction-babylm-strict-small",
-    "name": "conv-induction-babylm-strict-small",
-    "provider": "Lllllmmmmmm",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T07:03:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Lllllmmmmmm/conv-induction-babylm-strict-small",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "induction_lm",
-      "text-generation",
-      "babylm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T12:45:51.946060+00:00",
-    "source_ids": [
-      "Lllllmmmmmm/conv-induction-babylm-strict-small"
-    ],
-    "family": "conv-induction-babylm-strict-small"
-  },
-  {
     "id": "huggingface:bosonai/higgs-tts-v3-4b",
     "name": "higgs-tts-v3-4b",
     "provider": "bosonai",
@@ -13537,39 +13471,6 @@
     "family": "Laguna-M.1-NVFP4"
   },
   {
-    "id": "huggingface:SUPEROXIDES/ZAYA1_PREVIEW_74B-A4B_-_GGUF",
-    "name": "ZAYA1_PREVIEW_74B-A4B_-_GGUF",
-    "provider": "SUPEROXIDES",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-19T19:38:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SUPEROXIDES/ZAYA1_PREVIEW_74B-A4B_-_GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "text-generation",
-      "base_model:Zyphra/ZAYA1-74B-preview",
-      "base_model:quantized:Zyphra/ZAYA1-74B-preview",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T12:45:51.945784+00:00",
-    "source_ids": [
-      "SUPEROXIDES/ZAYA1_PREVIEW_74B-A4B_-_GGUF"
-    ],
-    "family": "ZAYA1_PREVIEW"
-  },
-  {
     "id": "huggingface:buddhist-nlp/bdrc-mitra-ocr-qwen35-0.8b",
     "name": "bdrc-mitra-ocr-qwen35-0.8b",
     "provider": "buddhist-nlp",
@@ -14521,6 +14422,40 @@
       "cstr/parakeet-tdt-0.6b-ja-GGUF"
     ],
     "family": "parakeet-tdt-ja"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-large-v3-turbo-gguf",
+    "name": "whisper-large-v3-turbo-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:11:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T13:49:57.623333+00:00",
+    "source_ids": [
+      "handy-computer/whisper-large-v3-turbo-gguf"
+    ],
+    "family": "whisper-large-v3-turbo"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-31B-it-OptiQ-4bit",
