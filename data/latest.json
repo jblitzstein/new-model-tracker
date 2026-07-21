@@ -166,6 +166,39 @@
     "family": "Auto Router (Beta)"
   },
   {
+    "id": "huggingface:anonym5035/swi_glu_sw_64_16_8_4_xpert_gpt",
+    "name": "swi_glu_sw_64_16_8_4_xpert_gpt",
+    "provider": "anonym5035",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T04:33:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/anonym5035/swi_glu_sw_64_16_8_4_xpert_gpt",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "xpertgpt",
+      "text-generation",
+      "babylm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T10:24:36.581316+00:00",
+    "source_ids": [
+      "anonym5035/swi_glu_sw_64_16_8_4_xpert_gpt"
+    ],
+    "family": "swi_glu_sw_64_16_8_4_xpert_gpt"
+  },
+  {
     "id": "huggingface:inferencerlabs/Inkling-MLX-Q3",
     "name": "Inkling-MLX-Q3",
     "provider": "inferencerlabs",
@@ -2855,6 +2888,39 @@
       "EleutherAI/GPT-2-wikitext-chunks"
     ],
     "family": "GPT-2-wikitext-chunks"
+  },
+  {
+    "id": "huggingface:BananaMind/BananaMind-2-Mini",
+    "name": "BananaMind-2-Mini",
+    "provider": "BananaMind",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T04:02:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BananaMind/BananaMind-2-Mini",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "bananamind2_mini",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T10:24:36.581237+00:00",
+    "source_ids": [
+      "BananaMind/BananaMind-2-Mini"
+    ],
+    "family": "BananaMind-2-Mini"
   },
   {
     "id": "huggingface:migtissera/Tess-4-27B-GGUF",
@@ -10670,40 +10736,6 @@
     "family": "diffusiongemma-it-4bit"
   },
   {
-    "id": "huggingface:PaddlePaddle/PP-OCRv6_small_rec",
-    "name": "PP-OCRv6_small_rec",
-    "provider": "PaddlePaddle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T13:39:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_rec",
-    "tags": [
-      "image-to-text",
-      "PaddleOCR",
-      "OCR",
-      "PaddlePaddle",
-      "text_recognition",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T09:19:51.088423+00:00",
-    "source_ids": [
-      "PaddlePaddle/PP-OCRv6_small_rec"
-    ],
-    "family": "PP-OCRv6_small_rec"
-  },
-  {
     "id": "huggingface:vectionlabs/Salience-1-9B",
     "name": "Salience-1-9B",
     "provider": "vectionlabs",
@@ -11304,39 +11336,6 @@
       "BennyDaBall/Z-Image-Engineer-V6"
     ],
     "family": "Z-Image-Engineer-V6"
-  },
-  {
-    "id": "huggingface:mradermacher/Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF",
-    "name": "Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-06T05:00:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "12b",
-      "aarch64",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T09:19:50.853393+00:00",
-    "source_ids": [
-      "mradermacher/Gemma-4-12B-it-AEON-Abliterated-K4-BF16-i1-GGUF"
-    ],
-    "family": "Gemma-4-it-AEON-Abliterated-K4-BF16-i1"
   },
   {
     "id": "huggingface:AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4",
@@ -14524,40 +14523,6 @@
     "family": "parakeet-tdt-ja"
   },
   {
-    "id": "huggingface:cstr/mimo-asr-GGUF",
-    "name": "mimo-asr-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-27T10:59:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/mimo-asr-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "mimo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T09:19:51.603848+00:00",
-    "source_ids": [
-      "cstr/mimo-asr-GGUF"
-    ],
-    "family": "mimo-asr"
-  },
-  {
     "id": "huggingface:mlx-community/gemma-4-31B-it-OptiQ-4bit",
     "name": "gemma-4-31B-it-OptiQ-4bit",
     "provider": "mlx-community",
@@ -14656,40 +14621,6 @@
       "poolside/Laguna-M.1-FP8"
     ],
     "family": "Laguna-M.1-FP8"
-  },
-  {
-    "id": "huggingface:cstr/vibevoice-asr-GGUF",
-    "name": "vibevoice-asr-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-24T10:13:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/vibevoice-asr-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "transcription"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T09:19:51.603790+00:00",
-    "source_ids": [
-      "cstr/vibevoice-asr-GGUF"
-    ],
-    "family": "vibevoice-asr"
   },
   {
     "id": "huggingface:unsloth/DeepSeek-V4-Flash",
@@ -15339,40 +15270,6 @@
       "cstr/canary-ctc-aligner-GGUF"
     ],
     "family": "canary-ctc-aligner"
-  },
-  {
-    "id": "huggingface:cstr/canary-1b-v2-GGUF",
-    "name": "canary-1b-v2-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-07T22:20:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/canary-1b-v2-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "transcription"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T09:19:51.603877+00:00",
-    "source_ids": [
-      "cstr/canary-1b-v2-GGUF"
-    ],
-    "family": "canary-v2"
   },
   {
     "id": "huggingface:mattmireles/kokoro-coreml",
