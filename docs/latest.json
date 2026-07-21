@@ -1,5 +1,134 @@
 [
   {
+    "id": "openrouter:poolside/laguna-s-2.1",
+    "name": "Poolside: Laguna S 2.1",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T16:51:23+00:00",
+    "context_length": 1048576,
+    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+    "url": "https://openrouter.ai/poolside/laguna-s-2.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-07-21T17:19:35.425750+00:00",
+    "source_ids": [
+      "poolside/laguna-s-2.1"
+    ],
+    "family": "Laguna S 2.1"
+  },
+  {
+    "id": "openrouter:poolside/laguna-s-2.1:free",
+    "name": "Poolside: Laguna S 2.1 (free)",
+    "provider": "poolside",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T16:51:23+00:00",
+    "context_length": 1048576,
+    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+    "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-07-21T17:19:35.426710+00:00",
+    "source_ids": [
+      "poolside/laguna-s-2.1:free"
+    ],
+    "family": "Laguna S 2.1"
+  },
+  {
+    "id": "openrouter:google/gemini-3.6-flash",
+    "name": "Google: Gemini 3.6 Flash",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T15:12:13+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
+    "url": "https://openrouter.ai/google/gemini-3.6-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-07-21T17:19:35.426752+00:00",
+    "source_ids": [
+      "google/gemini-3.6-flash"
+    ],
+    "family": "Gemini 3.6 Flash"
+  },
+  {
+    "id": "openrouter:google/gemini-3.5-flash-lite",
+    "name": "Google: Gemini 3.5 Flash-Lite",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T15:12:06+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+    "url": "https://openrouter.ai/google/gemini-3.5-flash-lite",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-07-21T17:19:35.426786+00:00",
+    "source_ids": [
+      "google/gemini-3.5-flash-lite"
+    ],
+    "family": "Gemini 3.5 Flash-Lite"
+  },
+  {
     "id": "openrouter:meituan/longcat-2.0",
     "name": "Meituan: LongCat 2.0",
     "provider": "Meituan",
@@ -982,6 +1111,39 @@
       "danielrmay/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16"
     ],
     "family": "NVIDIA-Nemotron-Labs-3-Puzzle-W4A16"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-S-2.1",
+    "name": "Laguna-S-2.1",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T13:58:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "laguna",
+      "text-generation",
+      "laguna-s-2.1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T17:19:35.585384+00:00",
+    "source_ids": [
+      "poolside/Laguna-S-2.1"
+    ],
+    "family": "Laguna-S-2.1"
   },
   {
     "id": "huggingface:AngelSlim/Hy3-GGUF",
@@ -4767,6 +4929,105 @@
     "family": "Hy3"
   },
   {
+    "id": "huggingface:poolside/Laguna-S-2.1-INT4",
+    "name": "Laguna-S-2.1-INT4",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-02T13:09:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-S-2.1-INT4",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-s-2.1",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T17:19:35.585328+00:00",
+    "source_ids": [
+      "poolside/Laguna-S-2.1-INT4"
+    ],
+    "family": "Laguna-S-2.1-INT4"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-S-2.1-NVFP4",
+    "name": "Laguna-S-2.1-NVFP4",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-02T13:08:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-S-2.1-NVFP4",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-s-2.1",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T17:19:35.585295+00:00",
+    "source_ids": [
+      "poolside/Laguna-S-2.1-NVFP4"
+    ],
+    "family": "Laguna-S-2.1-NVFP4"
+  },
+  {
+    "id": "huggingface:poolside/Laguna-S-2.1-FP8",
+    "name": "Laguna-S-2.1-FP8",
+    "provider": "poolside",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-02T13:02:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/poolside/Laguna-S-2.1-FP8",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "laguna",
+      "laguna-s-2.1",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T17:19:35.585356+00:00",
+    "source_ids": [
+      "poolside/Laguna-S-2.1-FP8"
+    ],
+    "family": "Laguna-S-2.1-FP8"
+  },
+  {
     "id": "huggingface:RedHatAI/GLM-5.2-speculator.dspark",
     "name": "GLM-5.2-speculator.dspark",
     "provider": "RedHatAI",
@@ -6785,6 +7046,39 @@
       "rzgar/Wan2.2-Bernini-R-Motion-Enhancer-n4w-i2v"
     ],
     "family": "Wan2.2-Bernini-R-Motion-Enhancer-n4w-i2v"
+  },
+  {
+    "id": "huggingface:Ninnix96/Qwen3.6-35B-A3B-gguf",
+    "name": "Qwen3.6-35B-A3B-gguf",
+    "provider": "Ninnix96",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-24T18:52:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Ninnix96/Qwen3.6-35B-A3B-gguf",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "qwen",
+      "qwen3.6",
+      "Qwen3.6-35B-A3B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-21T17:19:35.585474+00:00",
+    "source_ids": [
+      "Ninnix96/Qwen3.6-35B-A3B-gguf"
+    ],
+    "family": "Qwen3.6"
   },
   {
     "id": "huggingface:avlp12/Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM",
@@ -13708,41 +14002,6 @@
       "Jackrong/Qwopus3.6-27B-v2"
     ],
     "family": "Qwopus3.6-v2"
-  },
-  {
-    "id": "huggingface:llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic",
-    "name": "gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic",
-    "provider": "llmfan46",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T17:54:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-21T16:36:45.999689+00:00",
-    "source_ids": [
-      "llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic"
-    ],
-    "family": "gemma-4-Ortenzya-The-Creative-Wordsmith-it-uncensored-heretic"
   },
   {
     "id": "huggingface:EPFLiGHT/Apertus-70B-MeditronFO",
