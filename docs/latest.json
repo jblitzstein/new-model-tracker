@@ -9466,6 +9466,41 @@
     "family": "GLM-5.1-UD-Q3_K_S-layers"
   },
   {
+    "id": "huggingface:AtomicChat/gemma-4-E4B-it-GGUF",
+    "name": "gemma-4-E4B-it-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-17T15:31:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/gemma-4-E4B-it-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "atomic-chat",
+      "gemma",
+      "gemma4",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T10:24:35.204850+00:00",
+    "source_ids": [
+      "AtomicChat/gemma-4-E4B-it-GGUF"
+    ],
+    "family": "gemma-4-E-it"
+  },
+  {
     "id": "huggingface:hotdogs/qwen3.6-27b-fable5-lora",
     "name": "qwen3.6-27b-fable5-lora",
     "provider": "hotdogs",
@@ -13799,39 +13834,6 @@
     "family": "Qwopus3.6-v2-FP8"
   },
   {
-    "id": "huggingface:software-mansion/react-native-executorch-gemma-4",
-    "name": "react-native-executorch-gemma-4",
-    "provider": "software-mansion",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-22T13:11:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/software-mansion/react-native-executorch-gemma-4",
-    "tags": [
-      "text-generation",
-      "executorch",
-      "google",
-      "deepmind",
-      "gemma4",
-      "edge"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-22T10:05:45.795864+00:00",
-    "source_ids": [
-      "software-mansion/react-native-executorch-gemma-4"
-    ],
-    "family": "react-native-executorch-gemma-4"
-  },
-  {
     "id": "huggingface:philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ",
     "name": "Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ",
     "provider": "philbert440",
@@ -15399,39 +15401,6 @@
     "family": "Gemopus-4-it"
   },
   {
-    "id": "huggingface:amd/MiniMax-M2.7-MXFP4",
-    "name": "MiniMax-M2.7-MXFP4",
-    "provider": "amd",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-13T17:41:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/amd/MiniMax-M2.7-MXFP4",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "minimax_m2",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-22T10:05:45.795933+00:00",
-    "source_ids": [
-      "amd/MiniMax-M2.7-MXFP4"
-    ],
-    "family": "MiniMax-M2.7-MXFP4"
-  },
-  {
     "id": "huggingface:cstr/qwen3-asr-1.7b-GGUF",
     "name": "qwen3-asr-1.7b-GGUF",
     "provider": "cstr",
@@ -15632,40 +15601,6 @@
       "mattmireles/kokoro-coreml"
     ],
     "family": "kokoro-coreml"
-  },
-  {
-    "id": "huggingface:mispeech/Dasheng-AudioGen",
-    "name": "Dasheng-AudioGen",
-    "provider": "mispeech",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-04-07T07:30:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mispeech/Dasheng-AudioGen",
-    "tags": [
-      "text-to-audio",
-      "transformers",
-      "safetensors",
-      "dasheng_audiogen",
-      "image-feature-extraction",
-      "audio-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-22T10:05:46.249112+00:00",
-    "source_ids": [
-      "mispeech/Dasheng-AudioGen"
-    ],
-    "family": "Dasheng-AudioGen"
   },
   {
     "id": "huggingface:unsloth/gemma-4-31b-it-MLX-8bit",
