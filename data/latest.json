@@ -873,6 +873,39 @@
     "family": "SZL-Khipu-BrainNavigator"
   },
   {
+    "id": "huggingface:SZLHOLDINGS/SZL-Khipu-1.5B",
+    "name": "SZL-Khipu-1.5B",
+    "provider": "SZLHOLDINGS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T19:28:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "qlora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T06:27:24.871182+00:00",
+    "source_ids": [
+      "SZLHOLDINGS/SZL-Khipu-1.5B"
+    ],
+    "family": "SZL-Khipu"
+  },
+  {
     "id": "huggingface:AIOpsInSpace/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-MTP",
     "name": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-MTP",
     "provider": "AIOpsInSpace",
@@ -1180,6 +1213,39 @@
       "tencent/Hy-Embodied-RxBrain-1.0"
     ],
     "family": "Hy-Embodied-RxBrain-1.0"
+  },
+  {
+    "id": "huggingface:SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
+    "name": "SZL-Forge-1.5B-ReceiptAgent",
+    "provider": "SZLHOLDINGS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T21:54:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "qlora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T06:27:24.871110+00:00",
+    "source_ids": [
+      "SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent"
+    ],
+    "family": "SZL-Forge-ReceiptAgent"
   },
   {
     "id": "huggingface:danielrmay/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16",
@@ -2689,6 +2755,39 @@
       "bottlecapai/ThinkingCap-Qwen3.6-27B-FP8"
     ],
     "family": "ThinkingCap-Qwen3.6-FP8"
+  },
+  {
+    "id": "huggingface:Indexnusrefather/Super-Slop-Machina-Roleplay-1.2b",
+    "name": "Super-Slop-Machina-Roleplay-1.2b",
+    "provider": "Indexnusrefather",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T11:42:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Indexnusrefather/Super-Slop-Machina-Roleplay-1.2b",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "lfm2",
+      "roleplay",
+      "rp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T06:27:24.871272+00:00",
+    "source_ids": [
+      "Indexnusrefather/Super-Slop-Machina-Roleplay-1.2b"
+    ],
+    "family": "Super-Slop-Machina-Roleplay"
   },
   {
     "id": "huggingface:shyngys879/KazakhTTS-OmniVoice",
@@ -8962,41 +9061,6 @@
     "family": "VoxCPM2"
   },
   {
-    "id": "huggingface:baidu/Unlimited-OCR",
-    "name": "Unlimited-OCR",
-    "provider": "Baidu",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-19T09:40:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/baidu/Unlimited-OCR",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "unlimited-ocr",
-      "image-feature-extraction",
-      "baidu"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-22T05:54:47.109025+00:00",
-    "source_ids": [
-      "baidu/Unlimited-OCR"
-    ],
-    "family": "Unlimited-OCR"
-  },
-  {
     "id": "huggingface:contextboxai/Kokoro-Vietnamese",
     "name": "Kokoro-Vietnamese",
     "provider": "contextboxai",
@@ -14037,40 +14101,6 @@
       "mradermacher/Supertron-VL-2B-GGUF"
     ],
     "family": "Supertron-VL"
-  },
-  {
-    "id": "huggingface:NO8D/ExpressionControl",
-    "name": "ExpressionControl",
-    "provider": "NO8D",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-05-14T15:09:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/NO8D/ExpressionControl",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:black-forest-labs/FLUX.2-klein-9B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-22T05:54:46.389192+00:00",
-    "source_ids": [
-      "NO8D/ExpressionControl"
-    ],
-    "family": "ExpressionControl"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-27B-v2",
