@@ -359,6 +359,41 @@
     "family": "Inkling"
   },
   {
+    "id": "huggingface:microsoft/Fara1.5-27B",
+    "name": "Fara1.5-27B",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T20:09:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/Fara1.5-27B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "computer-use"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T17:19:00.888111+00:00",
+    "source_ids": [
+      "microsoft/Fara1.5-27B"
+    ],
+    "family": "Fara1.5"
+  },
+  {
     "id": "openrouter:openrouter/auto-beta",
     "name": "Auto Router (Beta)",
     "provider": "openrouter",
@@ -8928,39 +8963,6 @@
     "family": "NVIDIA-Nemotron-3-Super-OptiQ-2bit"
   },
   {
-    "id": "huggingface:empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-    "name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-    "provider": "empero-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-19T14:32:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "qwen3.5",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-22T13:57:04.215887+00:00",
-    "source_ids": [
-      "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF"
-    ],
-    "family": "Qwythos-Claude-Mythos-5-1M"
-  },
-  {
     "id": "huggingface:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
     "name": "Qwythos-9B-Claude-Mythos-5-1M",
     "provider": "empero-ai",
@@ -14886,6 +14888,39 @@
       "handy-computer/whisper-large-v3-turbo-gguf"
     ],
     "family": "whisper-large-v3-turbo"
+  },
+  {
+    "id": "huggingface:leonsarmiento/Qwen3.6-27B-3bit-mlx",
+    "name": "Qwen3.6-27B-3bit-mlx",
+    "provider": "leonsarmiento",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T01:01:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leonsarmiento/Qwen3.6-27B-3bit-mlx",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T17:19:00.093120+00:00",
+    "source_ids": [
+      "leonsarmiento/Qwen3.6-27B-3bit-mlx"
+    ],
+    "family": "Qwen3.6-3bit-mlx"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-31B-it-OptiQ-4bit",
