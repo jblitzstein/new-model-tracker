@@ -129,6 +129,108 @@
     "family": "Gemini 3.5 Flash-Lite"
   },
   {
+    "id": "huggingface:microsoft/Mage-Flow-Turbo",
+    "name": "Mage-Flow-Turbo",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-21T11:00:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/Mage-Flow-Turbo",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-generation",
+      "image-editing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T02:39:14.659269+00:00",
+    "source_ids": [
+      "microsoft/Mage-Flow-Turbo"
+    ],
+    "family": "Mage-Flow-Turbo"
+  },
+  {
+    "id": "huggingface:microsoft/Mage-Flow",
+    "name": "Mage-Flow",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-21T10:57:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/Mage-Flow",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-generation",
+      "image-editing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T02:39:14.659342+00:00",
+    "source_ids": [
+      "microsoft/Mage-Flow"
+    ],
+    "family": "Mage-Flow"
+  },
+  {
+    "id": "huggingface:microsoft/Mage-Flow-Base",
+    "name": "Mage-Flow-Base",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-21T06:36:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/Mage-Flow-Base",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-generation",
+      "image-editing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T02:39:14.659315+00:00",
+    "source_ids": [
+      "microsoft/Mage-Flow-Base"
+    ],
+    "family": "Mage-Flow"
+  },
+  {
     "id": "openrouter:meituan/longcat-2.0",
     "name": "Meituan: LongCat 2.0",
     "provider": "Meituan",
@@ -3475,6 +3577,39 @@
       "fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10"
     ],
     "family": "dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10"
+  },
+  {
+    "id": "huggingface:NoemaAI-labs/Noema-2B",
+    "name": "Noema-2B",
+    "provider": "NoemaAI-labs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T21:33:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NoemaAI-labs/Noema-2B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "noema"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-22T02:39:14.592207+00:00",
+    "source_ids": [
+      "NoemaAI-labs/Noema-2B"
+    ],
+    "family": "Noema"
   },
   {
     "id": "huggingface:nvidia/Nemotron-Labs-Audex-2B",
@@ -11230,37 +11365,6 @@
       "meshllm/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL-layers"
     ],
     "family": "Qwen3-Coder--UD-Q4_K_XL-layers"
-  },
-  {
-    "id": "openrouter:nex-agi/nex-n2-pro",
-    "name": "Nex AGI: Nex-N2-Pro",
-    "provider": "Nex AGI",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-08T16:45:40+00:00",
-    "context_length": 262144,
-    "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
-    "url": "https://openrouter.ai/nex-agi/nex-n2-pro",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.5,
-      "completion_per_million": 2.5
-    },
-    "first_seen": "2026-06-22T01:02:02.290282+00:00",
-    "source_ids": [
-      "nex-agi/nex-n2-pro"
-    ],
-    "family": "Nex-N2-Pro"
   },
   {
     "id": "huggingface:dummy9996/nsfwvision-qwen3-vl-8b-v3-GGUF",
