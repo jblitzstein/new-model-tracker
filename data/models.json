@@ -103369,5 +103369,66 @@
       "trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion"
     ],
     "family": "tiny-DiffusionGemmaForBlockDiffusion"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-3.0-flash",
+    "name": "Ling-3.0-flash",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-23T14:56:20+00:00",
+    "context_length": 262144,
+    "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-07-23T17:22:45.817249+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.0-flash"
+    ],
+    "family": "Ling-3.0-flash"
+  },
+  {
+    "id": "huggingface:DAXZEIT/GRM-2.6-Plus-0628-MTP-reasoning-i1-GGUF",
+    "name": "GRM-2.6-Plus-0628-MTP-reasoning-i1-GGUF",
+    "provider": "DAXZEIT",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T03:28:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DAXZEIT/GRM-2.6-Plus-0628-MTP-reasoning-i1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "imatrix",
+      "reasoning",
+      "quantized",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-23T17:22:46.446385+00:00",
+    "source_ids": [
+      "DAXZEIT/GRM-2.6-Plus-0628-MTP-reasoning-i1-GGUF"
+    ],
+    "family": "GRM-2.6-Plus-0628-MTP-reasoning-i1"
   }
 ]
