@@ -1,5 +1,71 @@
 [
   {
+    "id": "huggingface:User01110/CMA-20M",
+    "name": "CMA-20M",
+    "provider": "User01110",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-23T07:43:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/User01110/CMA-20M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "cma",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-23T10:22:27.669144+00:00",
+    "source_ids": [
+      "User01110/CMA-20M"
+    ],
+    "family": "CMA-20M"
+  },
+  {
+    "id": "huggingface:sullivan1502/base-grpo-round1",
+    "name": "base-grpo-round1",
+    "provider": "sullivan1502",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T23:23:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sullivan1502/base-grpo-round1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-23T10:22:27.669012+00:00",
+    "source_ids": [
+      "sullivan1502/base-grpo-round1"
+    ],
+    "family": "grpo-round1"
+  },
+  {
     "id": "openrouter:poolside/laguna-s-2.1",
     "name": "Poolside: Laguna S 2.1",
     "provider": "poolside",
@@ -291,6 +357,40 @@
       "ibyteohdear/DreamFast-gemma-3-12b-it-heretic-v2-fp8"
     ],
     "family": "DreamFast-gemma-3-it-heretic-v2-fp8"
+  },
+  {
+    "id": "huggingface:hinody/ltx-2.3-22b",
+    "name": "ltx-2.3-22b",
+    "provider": "hinody",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-07-18T15:58:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hinody/ltx-2.3-22b",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "text-to-video",
+      "audio-to-video",
+      "frame-to-video",
+      "ltx-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-23T10:22:28.044369+00:00",
+    "source_ids": [
+      "hinody/ltx-2.3-22b"
+    ],
+    "family": "ltx-2.3"
   },
   {
     "id": "huggingface:User01110/MCMA-20M",
@@ -1181,6 +1281,40 @@
     "family": "warmly-qwen35-enko"
   },
   {
+    "id": "huggingface:Luigi/moss-transcribe-diarize-zhtw-gguf",
+    "name": "moss-transcribe-diarize-zhtw-gguf",
+    "provider": "Luigi",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T06:04:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Luigi/moss-transcribe-diarize-zhtw-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "automatic-speech-recognition",
+      "speaker-diarization",
+      "timestamps",
+      "zh-tw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-23T10:22:28.425220+00:00",
+    "source_ids": [
+      "Luigi/moss-transcribe-diarize-zhtw-gguf"
+    ],
+    "family": "moss-transcribe-diarize-zhtw"
+  },
+  {
     "id": "huggingface:audio-cpp/audio.cpp-gguf",
     "name": "audio.cpp-gguf",
     "provider": "audio-cpp",
@@ -1483,6 +1617,41 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V3"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V5-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V5-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V5-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-23T10:22:28.551261+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V5-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V5"
   },
   {
     "id": "huggingface:ByteDance/UniVR-34B-Planning",
@@ -8462,41 +8631,6 @@
     "family": "Qwen3.6-DSV4Pro--Distill"
   },
   {
-    "id": "huggingface:HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
-    "name": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
-    "provider": "HauhauCS",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-22T14:32:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "gemma4",
-      "vision",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T09:13:38.860894+00:00",
-    "source_ids": [
-      "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced"
-    ],
-    "family": "Gemma4-QAT-Uncensored-HauhauCS-Balanced"
-  },
-  {
     "id": "huggingface:Delentia/delentia-slm-jitna-v0.4",
     "name": "delentia-slm-jitna-v0.4",
     "provider": "Delentia",
@@ -11188,40 +11322,6 @@
       "unsloth/diffusiongemma-26B-A4B-it"
     ],
     "family": "diffusiongemma-it"
-  },
-  {
-    "id": "huggingface:PaddlePaddle/PP-OCRv6_tiny_rec",
-    "name": "PP-OCRv6_tiny_rec",
-    "provider": "PaddlePaddle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-11T03:47:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_rec",
-    "tags": [
-      "image-to-text",
-      "PaddleOCR",
-      "OCR",
-      "PaddlePaddle",
-      "text_recognition",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T09:13:38.545564+00:00",
-    "source_ids": [
-      "PaddlePaddle/PP-OCRv6_tiny_rec"
-    ],
-    "family": "PP-OCRv6_tiny_rec"
   },
   {
     "id": "huggingface:morikomorizz/Nex-N2-Pro-MTP-GGUF",
@@ -14034,39 +14134,6 @@
       "philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ"
     ],
     "family": "Qwen3.6-DeckardUncensored-OpusDistilled-W4A16"
-  },
-  {
-    "id": "huggingface:cHunter789/Qwen3.6-27B-i1-IQ4_KS-GGUF",
-    "name": "Qwen3.6-27B-i1-IQ4_KS-GGUF",
-    "provider": "cHunter789",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-21T16:00:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cHunter789/Qwen3.6-27B-i1-IQ4_KS-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "text-generation",
-      "qwen",
-      "ik_llama.cpp",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T09:13:38.435840+00:00",
-    "source_ids": [
-      "cHunter789/Qwen3.6-27B-i1-IQ4_KS-GGUF"
-    ],
-    "family": "Qwen3.6-i1-IQ4_KS"
   },
   {
     "id": "huggingface:poolside/Laguna-M.1-NVFP4",
