@@ -9130,39 +9130,6 @@
     "family": "demodokos-foundry-tts-v4"
   },
   {
-    "id": "huggingface:DJLougen/Qwable-5-27B-Coder-GGUF",
-    "name": "Qwable-5-27B-Coder-GGUF",
-    "provider": "DJLougen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-20T18:20:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DJLougen/Qwable-5-27B-Coder-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "code",
-      "agentic",
-      "distillation",
-      "demonstration"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T13:04:07.940429+00:00",
-    "source_ids": [
-      "DJLougen/Qwable-5-27B-Coder-GGUF"
-    ],
-    "family": "Qwable-5-Coder"
-  },
-  {
     "id": "huggingface:poolside/Laguna-XS-2.1-NVFP4",
     "name": "Laguna-XS-2.1-NVFP4",
     "provider": "poolside",
@@ -10614,39 +10581,6 @@
     "family": "Qwopus3.6-Coder-imatrix-MTP"
   },
   {
-    "id": "huggingface:AlexWortega/SIQ-1-35B",
-    "name": "SIQ-1-35B",
-    "provider": "AlexWortega",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-14T20:00:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AlexWortega/SIQ-1-35B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen3_5_moe_text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T13:04:07.940355+00:00",
-    "source_ids": [
-      "AlexWortega/SIQ-1-35B"
-    ],
-    "family": "SIQ-1"
-  },
-  {
     "id": "huggingface:fableforge-ai/ReasonCritic-7B",
     "name": "ReasonCritic-7B",
     "provider": "fableforge-ai",
@@ -11120,41 +11054,6 @@
     "family": "Gemma4-Uncensored-i1"
   },
   {
-    "id": "huggingface:Jackrong/Qwopus3.6-27B-Coder-GGUF",
-    "name": "Qwopus3.6-27B-Coder-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-12T01:41:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T13:04:08.375028+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-27B-Coder-GGUF"
-    ],
-    "family": "Qwopus3.6-Coder"
-  },
-  {
     "id": "huggingface:ankurkaul17/minicpm-v-4.6-pdd-gguf",
     "name": "minicpm-v-4.6-pdd-gguf",
     "provider": "ankurkaul17",
@@ -11221,6 +11120,41 @@
       "edwixx/diffusiongemma-26B-A4B-it-HERETIC-Uncensored"
     ],
     "family": "diffusiongemma-it-HERETIC-Uncensored"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion",
+    "name": "tiny-DiffusionGemmaForBlockDiffusion",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-11T15:15:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "diffusion_gemma",
+      "image-text-to-text",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-23T13:59:26.603784+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion"
+    ],
+    "family": "tiny-DiffusionGemmaForBlockDiffusion"
   },
   {
     "id": "huggingface:Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF",
