@@ -8293,74 +8293,6 @@
     "family": "GLM-5.2-ewaste-edition"
   },
   {
-    "id": "huggingface:lmsys/qwen-image-2512-modelopt-nvfp4-sglang",
-    "name": "qwen-image-2512-modelopt-nvfp4-sglang",
-    "provider": "LMSYS",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-23T02:11:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmsys/qwen-image-2512-modelopt-nvfp4-sglang",
-    "tags": [
-      "text-to-image",
-      "sglang",
-      "diffusers",
-      "safetensors",
-      "diffusion",
-      "modelopt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T05:25:23.106590+00:00",
-    "source_ids": [
-      "lmsys/qwen-image-2512-modelopt-nvfp4-sglang"
-    ],
-    "family": "qwen-image-2512-modelopt-nvfp4-sglang"
-  },
-  {
-    "id": "huggingface:lmsys/qwen-image-modelopt-nvfp4-sglang",
-    "name": "qwen-image-modelopt-nvfp4-sglang",
-    "provider": "LMSYS",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-23T02:10:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmsys/qwen-image-modelopt-nvfp4-sglang",
-    "tags": [
-      "text-to-image",
-      "sglang",
-      "diffusers",
-      "safetensors",
-      "diffusion",
-      "modelopt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T05:25:23.106660+00:00",
-    "source_ids": [
-      "lmsys/qwen-image-modelopt-nvfp4-sglang"
-    ],
-    "family": "qwen-image-modelopt-nvfp4-sglang"
-  },
-  {
     "id": "huggingface:sahilchachra/Unlimited-OCR-GGUF",
     "name": "Unlimited-OCR-GGUF",
     "provider": "sahilchachra",
@@ -14069,41 +14001,6 @@
     "family": "Qwen3.6-MTP-MLX"
   },
   {
-    "id": "huggingface:Jackrong/Qwopus3.6-27B-v2-FP8",
-    "name": "Qwopus3.6-27B-v2-FP8",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-23T10:55:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-FP8",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T05:25:23.901846+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-27B-v2-FP8"
-    ],
-    "family": "Qwopus3.6-v2-FP8"
-  },
-  {
     "id": "huggingface:philbert440/Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ",
     "name": "Qwen3.6-40B-DeckardUncensored-OpusDistilled-W4A16-AWQ",
     "provider": "philbert440",
@@ -14373,41 +14270,6 @@
       "mradermacher/Supertron-VL-2B-GGUF"
     ],
     "family": "Supertron-VL"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwopus3.6-27B-v2",
-    "name": "Qwopus3.6-27B-v2",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-14T08:20:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T05:25:23.901886+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-27B-v2"
-    ],
-    "family": "Qwopus3.6-v2"
   },
   {
     "id": "huggingface:AtomicChat/Qwen3.6-35B-A3B-UDT-MTP-GGUF",
@@ -17446,39 +17308,6 @@
       "Darayut/khmer-text-recognition"
     ],
     "family": "khmer-text-recognition"
-  },
-  {
-    "id": "huggingface:mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
-    "name": "gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-31T15:57:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "gemma",
-      "gemma-3",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-23T05:25:22.974287+00:00",
-    "source_ids": [
-      "mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF"
-    ],
-    "family": "gemma-3-it-abliterated-refined-vision-i1"
   },
   {
     "id": "huggingface:mlx-community/mistralai_Devstral-Small-2-24B-Instruct-2512-MLX-8Bit",
