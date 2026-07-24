@@ -1,5 +1,71 @@
 [
   {
+    "id": "openrouter:anthropic/claude-opus-5-fast",
+    "name": "Claude Opus 5 (Fast)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T17:02:26+00:00",
+    "context_length": 1000000,
+    "description": "Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "url": "https://openrouter.ai/anthropic/claude-opus-5-fast",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 50.0
+    },
+    "first_seen": "2026-07-24T17:37:38.278668+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-5-fast"
+    ],
+    "family": "Claude Opus 5 (Fast)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-5",
+    "name": "Claude Opus 5",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T17:02:24+00:00",
+    "context_length": 1000000,
+    "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-07-24T17:37:38.279621+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-5"
+    ],
+    "family": "Claude Opus 5"
+  },
+  {
     "id": "huggingface:microsoft/VibeVoice-ASR-BitNet",
     "name": "VibeVoice-ASR-BitNet",
     "provider": "Microsoft",
@@ -858,6 +924,41 @@
     "family": "Qwen3.6-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP"
   },
   {
+    "id": "huggingface:mlx-community/Inkling-mlx-2bit",
+    "name": "Inkling-mlx-2bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T23:44:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Inkling-mlx-2bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "inkling_mm_model",
+      "inkling",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-24T17:37:38.879234+00:00",
+    "source_ids": [
+      "mlx-community/Inkling-mlx-2bit"
+    ],
+    "family": "Inkling-mlx-2bit"
+  },
+  {
     "id": "openrouter:moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "provider": "Moonshot AI",
@@ -994,6 +1095,41 @@
       "internlm/Intern-S2-Preview-397B-FP8"
     ],
     "family": "Intern-S2--FP8"
+  },
+  {
+    "id": "huggingface:mlx-community/Inkling-mlx-4bit",
+    "name": "Inkling-mlx-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T14:06:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/Inkling-mlx-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "inkling_mm_model",
+      "inkling",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-24T17:37:38.879268+00:00",
+    "source_ids": [
+      "mlx-community/Inkling-mlx-4bit"
+    ],
+    "family": "Inkling-mlx-4bit"
   },
   {
     "id": "huggingface:ayushshah/Qwen3-1.7B-UltraChat-SFT",
@@ -1196,6 +1332,39 @@
       "DAXZEIT/GRM-2.6-Plus-0628-MTP-reasoning-i1-GGUF"
     ],
     "family": "GRM-2.6-Plus-0628-MTP-reasoning-i1"
+  },
+  {
+    "id": "huggingface:mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
+    "name": "Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T14:58:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "mistral",
+      "jbliterated",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-24T17:37:38.381250+00:00",
+    "source_ids": [
+      "mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF"
+    ],
+    "family": "Mistral--v0.3-Jbliterated-i1"
   },
   {
     "id": "huggingface:SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator",
@@ -10027,41 +10196,6 @@
       "krea/Krea-2-Turbo"
     ],
     "family": "Krea-2-Turbo"
-  },
-  {
-    "id": "huggingface:maci0/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
-    "name": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
-    "provider": "maci0",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-18T01:42:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/maci0/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "nvfp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-24T16:48:00.346301+00:00",
-    "source_ids": [
-      "maci0/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NVFP4"
-    ],
-    "family": "Qwen3.6-Claude-4.6-Opus-Deckard-Heretic-Uncensored--NVFP4"
   },
   {
     "id": "huggingface:realrebelai/Boogu-Image-Turbo_GGUFs",
@@ -19333,39 +19467,5 @@
       "artificialguybr/pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5"
     ],
     "family": "pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5"
-  },
-  {
-    "id": "huggingface:kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
-    "name": "wav2vec2-large-xls-r-300m-Urdu",
-    "provider": "kingabzpro",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2022-03-02T23:29:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-24T16:48:00.281293+00:00",
-    "source_ids": [
-      "kingabzpro/wav2vec2-large-xls-r-300m-Urdu"
-    ],
-    "family": "wav2vec2-large-xls-r-300m-Urdu"
   }
 ]
