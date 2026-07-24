@@ -959,6 +959,39 @@
     "family": "Inkling-mlx-2bit"
   },
   {
+    "id": "huggingface:penfever/grug-67b-a2b-sft-s2-thinking-step630",
+    "name": "grug-67b-a2b-sft-s2-thinking-step630",
+    "provider": "penfever",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T21:03:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/penfever/grug-67b-a2b-sft-s2-thinking-step630",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "grug_moe",
+      "text-generation",
+      "grug"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-24T21:03:31.215748+00:00",
+    "source_ids": [
+      "penfever/grug-67b-a2b-sft-s2-thinking-step630"
+    ],
+    "family": "grug-sft-s2--step630"
+  },
+  {
     "id": "openrouter:moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "provider": "Moonshot AI",
@@ -10942,39 +10975,6 @@
     "family": "MiniMax-M3--INT4"
   },
   {
-    "id": "huggingface:pearsonkyle/Qwopus3.6-27B-Coder-imatrix-MTP-GGUF",
-    "name": "Qwopus3.6-27B-Coder-imatrix-MTP-GGUF",
-    "provider": "pearsonkyle",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-15T05:26:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pearsonkyle/Qwopus3.6-27B-Coder-imatrix-MTP-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "text-generation",
-      "text-generation-inference",
-      "transformers"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-24T20:37:52.784621+00:00",
-    "source_ids": [
-      "pearsonkyle/Qwopus3.6-27B-Coder-imatrix-MTP-GGUF"
-    ],
-    "family": "Qwopus3.6-Coder-imatrix-MTP"
-  },
-  {
     "id": "huggingface:fableforge-ai/ReasonCritic-7B",
     "name": "ReasonCritic-7B",
     "provider": "fableforge-ai",
@@ -13069,40 +13069,6 @@
       "aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8"
     ],
     "family": "Nemotron-3.5-ASR-Streaming-CoreML-INT8"
-  },
-  {
-    "id": "huggingface:bosonai/higgs-tts-v3-4b",
-    "name": "higgs-tts-v3-4b",
-    "provider": "bosonai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-06-04T05:37:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bosonai/higgs-tts-v3-4b",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "higgs_multimodal_qwen3",
-      "text-generation",
-      "text-to-speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-24T20:37:53.435391+00:00",
-    "source_ids": [
-      "bosonai/higgs-tts-v3-4b"
-    ],
-    "family": "higgs-tts-v3"
   },
   {
     "id": "huggingface:bosonai/higgs-tts-3-4b",
