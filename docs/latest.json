@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:sullivan1502/base-grpo-round2",
+    "name": "base-grpo-round2",
+    "provider": "sullivan1502",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T23:16:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sullivan1502/base-grpo-round2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-26T09:59:05.253656+00:00",
+    "source_ids": [
+      "sullivan1502/base-grpo-round2"
+    ],
+    "family": "grpo-round2"
+  },
+  {
     "id": "openrouter:anthropic/claude-opus-5-fast",
     "name": "Claude Opus 5 (Fast)",
     "provider": "Anthropic",
@@ -5129,6 +5162,39 @@
     "family": "reasoning-summarizer-800m-pre"
   },
   {
+    "id": "huggingface:Nanthasit/sakthai-context-1.5b-merged",
+    "name": "sakthai-context-1.5b-merged",
+    "provider": "Nanthasit",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-05T16:18:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Nanthasit/sakthai-context-1.5b-merged",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-26T09:59:05.253553+00:00",
+    "source_ids": [
+      "Nanthasit/sakthai-context-1.5b-merged"
+    ],
+    "family": "sakthai-context-merged"
+  },
+  {
     "id": "huggingface:ailexleon/gemma-4-26B-A4B-it-qat-uncensored-heretic-mlx-vlm-4Bit",
     "name": "gemma-4-26B-A4B-it-qat-uncensored-heretic-mlx-vlm-4Bit",
     "provider": "ailexleon",
@@ -8242,109 +8308,6 @@
     "family": "Quatfit-Mini"
   },
   {
-    "id": "huggingface:Qwen/Qwen3-ASR-0.6B-hf",
-    "name": "Qwen3-ASR-0.6B-hf",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T08:39:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "qwen3_asr",
-      "text-generation",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T09:11:11.270158+00:00",
-    "source_ids": [
-      "Qwen/Qwen3-ASR-0.6B-hf"
-    ],
-    "family": "Qwen3-ASR-hf"
-  },
-  {
-    "id": "huggingface:Qwen/Qwen3-ASR-1.7B-hf",
-    "name": "Qwen3-ASR-1.7B-hf",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T08:34:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "qwen3_asr",
-      "text-generation",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T09:11:11.270216+00:00",
-    "source_ids": [
-      "Qwen/Qwen3-ASR-1.7B-hf"
-    ],
-    "family": "Qwen3-ASR-hf"
-  },
-  {
-    "id": "huggingface:prithivMLmods/ultragemma4-e4b-heretic-uncensored",
-    "name": "ultragemma4-e4b-heretic-uncensored",
-    "provider": "prithivMLmods",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-25T20:59:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/prithivMLmods/ultragemma4-e4b-heretic-uncensored",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "ultragemma4",
-      "llama-cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T09:11:11.395436+00:00",
-    "source_ids": [
-      "prithivMLmods/ultragemma4-e4b-heretic-uncensored"
-    ],
-    "family": "ultragemma4-e-heretic-uncensored"
-  },
-  {
     "id": "huggingface:AtomicChat/ornith-9b-GGUF",
     "name": "ornith-9b-GGUF",
     "provider": "AtomicChat",
@@ -8679,41 +8642,6 @@
       "nex-agi/nex-n2-mini"
     ],
     "family": "Nex-N2-Mini"
-  },
-  {
-    "id": "huggingface:prithivMLmods/ultragemma4-12b-heretic-uncensored",
-    "name": "ultragemma4-12b-heretic-uncensored",
-    "provider": "prithivMLmods",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-24T14:45:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/prithivMLmods/ultragemma4-12b-heretic-uncensored",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "gemma4_unified",
-      "ultragemma4",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T09:11:11.395400+00:00",
-    "source_ids": [
-      "prithivMLmods/ultragemma4-12b-heretic-uncensored"
-    ],
-    "family": "ultragemma4-heretic-uncensored"
   },
   {
     "id": "huggingface:hiratagoh/llm-jp-4-32b-a3b-thinking-GGUF",
