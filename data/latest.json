@@ -2618,6 +2618,39 @@
     "family": "cma-7.8M-exp"
   },
   {
+    "id": "huggingface:Subject-Emu-5259/NeuralAI",
+    "name": "NeuralAI",
+    "provider": "Subject-Emu-5259",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T16:55:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Subject-Emu-5259/NeuralAI",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "lora",
+      "dpo",
+      "smollm2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-26T02:47:33.614554+00:00",
+    "source_ids": [
+      "Subject-Emu-5259/NeuralAI"
+    ],
+    "family": "NeuralAI"
+  },
+  {
     "id": "huggingface:EmanuelOverride/gemma-4-26B-A4B-it-heretic-APEX-GGUF",
     "name": "gemma-4-26B-A4B-it-heretic-APEX-GGUF",
     "provider": "EmanuelOverride",
@@ -9229,39 +9262,6 @@
     "family": "Amrs"
   },
   {
-    "id": "huggingface:nvidia/GLM-5.2-NVFP4",
-    "name": "GLM-5.2-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-22T19:55:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "glm_moe_dsa",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T00:56:26.937829+00:00",
-    "source_ids": [
-      "nvidia/GLM-5.2-NVFP4"
-    ],
-    "family": "GLM-5.2-NVFP4"
-  },
-  {
     "id": "huggingface:nerkyor/Qwen3.6-27B-DSV4Pro-Thinking-Distill",
     "name": "Qwen3.6-27B-DSV4Pro-Thinking-Distill",
     "provider": "nerkyor",
@@ -10767,41 +10767,6 @@
       "Boogu/Boogu-Image-0.1-Base"
     ],
     "family": "Boogu-Image-0.1"
-  },
-  {
-    "id": "huggingface:SC117/Huihui-Nex-N2-mini-abliterated-APEX-GGUF",
-    "name": "Huihui-Nex-N2-mini-abliterated-APEX-GGUF",
-    "provider": "SC117",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-16T13:20:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SC117/Huihui-Nex-N2-mini-abliterated-APEX-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3_5_moe",
-      "qwen3_5",
-      "agentic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T00:56:27.359724+00:00",
-    "source_ids": [
-      "SC117/Huihui-Nex-N2-mini-abliterated-APEX-GGUF"
-    ],
-    "family": "Huihui-Nex-N2-mini-abliterated-APEX"
   },
   {
     "id": "huggingface:FastVideo/FastWan-QAD-1.3B",
@@ -12527,41 +12492,6 @@
       "AEON-7/Gemma-4-12B-it-AEON-Abliterated-K4-NVFP4"
     ],
     "family": "Gemma-4-it-AEON-Abliterated-K4-NVFP4"
-  },
-  {
-    "id": "huggingface:pearsonkyle/gemma4-31b-imatrix-mtp-GGUF",
-    "name": "gemma4-31b-imatrix-mtp-GGUF",
-    "provider": "pearsonkyle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-06T02:11:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pearsonkyle/gemma4-31b-imatrix-mtp-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "text-generation",
-      "text-generation-inference",
-      "transformers"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T00:56:27.359860+00:00",
-    "source_ids": [
-      "pearsonkyle/gemma4-31b-imatrix-mtp-GGUF"
-    ],
-    "family": "gemma4-imatrix-mtp"
   },
   {
     "id": "huggingface:meshllm/gemma-4-31B-it-qat-UD-Q4_K_XL-layers",
@@ -15606,39 +15536,6 @@
       "cstr/qwen3-asr-1.7b-GGUF"
     ],
     "family": "qwen3-asr"
-  },
-  {
-    "id": "huggingface:nvidia/Nemotron-TwoTower-30B-A3B-Base-BF16",
-    "name": "Nemotron-TwoTower-30B-A3B-Base-BF16",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T00:58:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-TwoTower-30B-A3B-Base-BF16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nvidia",
-      "pytorch",
-      "two-tower"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T00:56:26.937716+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-TwoTower-30B-A3B-Base-BF16"
-    ],
-    "family": "Nemotron-TwoTower--BF16"
   },
   {
     "id": "huggingface:nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16",
