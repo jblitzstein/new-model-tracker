@@ -33,6 +33,41 @@
     "family": "grpo-round2"
   },
   {
+    "id": "huggingface:philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-bf16",
+    "name": "Qwen3.6-27B-Fable-Fusion-711-bf16",
+    "provider": "philipjohnbasile",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T15:23:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-bf16",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "qwen",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-26T20:57:28.517214+00:00",
+    "source_ids": [
+      "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-bf16"
+    ],
+    "family": "Qwen3.6-Fable-Fusion-711-bf16"
+  },
+  {
     "id": "huggingface:microsoft/Mage-VL",
     "name": "Mage-VL",
     "provider": "Microsoft",
@@ -11917,41 +11952,6 @@
     "family": "diffusiongemma-it-4bit"
   },
   {
-    "id": "huggingface:vectionlabs/Salience-1-9B",
-    "name": "Salience-1-9B",
-    "provider": "vectionlabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T12:34:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vectionlabs/Salience-1-9B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T20:37:30.128758+00:00",
-    "source_ids": [
-      "vectionlabs/Salience-1-9B"
-    ],
-    "family": "Salience-1"
-  },
-  {
     "id": "huggingface:meshllm/GLM-5.1-UD-Q3_K_XL-layers",
     "name": "GLM-5.1-UD-Q3_K_XL-layers",
     "provider": "meshllm",
@@ -12251,41 +12251,6 @@
       "meshllm/Qwen3-30B-A3B-Instruct-2507-UD-Q4_K_XL-layers"
     ],
     "family": "Qwen3--2507-UD-Q4_K_XL-layers"
-  },
-  {
-    "id": "huggingface:vectionlabs/Maestro1-9B",
-    "name": "Maestro1-9B",
-    "provider": "vectionlabs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-07T18:23:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vectionlabs/Maestro1-9B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T20:37:30.128704+00:00",
-    "source_ids": [
-      "vectionlabs/Maestro1-9B"
-    ],
-    "family": "Maestro1"
   },
   {
     "id": "huggingface:meshllm/NVIDIA-Nemotron-3-Ultra-550B-A55B-UD-Q4_K_S-layers",
@@ -18424,74 +18389,6 @@
       "projecte-aina/matxa-tts-cat-multiaccent"
     ],
     "family": "matxa-tts-cat-multiaccent"
-  },
-  {
-    "id": "huggingface:nvidia/parakeet-rnnt-0.6b",
-    "name": "parakeet-rnnt-0.6b",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-12-28T15:36:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/parakeet-rnnt-0.6b",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "safetensors",
-      "parakeet_rnnt",
-      "feature-extraction",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T20:37:30.040675+00:00",
-    "source_ids": [
-      "nvidia/parakeet-rnnt-0.6b"
-    ],
-    "family": "parakeet-rnnt"
-  },
-  {
-    "id": "huggingface:nvidia/parakeet-rnnt-1.1b",
-    "name": "parakeet-rnnt-1.1b",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-12-27T23:40:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/parakeet-rnnt-1.1b",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "safetensors",
-      "parakeet_rnnt",
-      "feature-extraction",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-26T20:37:30.040614+00:00",
-    "source_ids": [
-      "nvidia/parakeet-rnnt-1.1b"
-    ],
-    "family": "parakeet-rnnt"
   },
   {
     "id": "huggingface:xFutureTechx/BackMixes",
