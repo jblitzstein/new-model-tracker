@@ -169,6 +169,41 @@
     "family": "Claude Opus 5"
   },
   {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF",
+    "name": "Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T07:23:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "vision",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T21:09:44.543845+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-MTP"
+  },
+  {
     "id": "huggingface:microsoft/VibeVoice-ASR-BitNet",
     "name": "VibeVoice-ASR-BitNet",
     "provider": "Microsoft",
@@ -4884,6 +4919,40 @@
     "family": "firered-aed-l-v2"
   },
   {
+    "id": "huggingface:freyavoice/Freya-TTS",
+    "name": "Freya-TTS",
+    "provider": "freyavoice",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-07T09:30:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/freyavoice/Freya-TTS",
+    "tags": [
+      "text-to-speech",
+      "freyatts",
+      "safetensors",
+      "text-to-speech",
+      "tts",
+      "turkish"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T21:09:44.309389+00:00",
+    "source_ids": [
+      "freyavoice/Freya-TTS"
+    ],
+    "family": "Freya-TTS"
+  },
+  {
     "id": "huggingface:TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
     "name": "HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
     "provider": "TaimoorSiddiqui",
@@ -4950,6 +5019,40 @@
       "Quatfit/Quatfit-Mini-GGUF"
     ],
     "family": "Quatfit-Mini"
+  },
+  {
+    "id": "huggingface:nvidia/Cosmos3-Super-Text2Image-4Step",
+    "name": "Cosmos3-Super-Text2Image-4Step",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-07T01:00:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step",
+    "tags": [
+      "text-to-image",
+      "cosmos",
+      "diffusers",
+      "safetensors",
+      "cosmos3_omni",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T21:09:43.883613+00:00",
+    "source_ids": [
+      "nvidia/Cosmos3-Super-Text2Image-4Step"
+    ],
+    "family": "Cosmos3-Super-Text2Image-4Step"
   },
   {
     "id": "huggingface:satgeze/Hy3-1M-GGUF",
@@ -8888,39 +8991,6 @@
     "family": "MechVL-RL"
   },
   {
-    "id": "huggingface:jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
-    "name": "Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
-    "provider": "jashepp",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-25T10:45:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "qwen",
-      "qwen3",
-      "qwen3.6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T20:27:16.648161+00:00",
-    "source_ids": [
-      "jashepp/Qwable-v1-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF"
-    ],
-    "family": "Qwable-v1-MXFP4_MOE_Hybrid-Imatrix"
-  },
-  {
     "id": "huggingface:wikeeyang/Flux2-Klein-9B-True-V3",
     "name": "Flux2-Klein-9B-True-V3",
     "provider": "wikeeyang",
@@ -9288,40 +9358,6 @@
       "icecubetr/GLM-5.2-REAM-GGUF"
     ],
     "family": "GLM-5.2-REAM"
-  },
-  {
-    "id": "huggingface:vantagewithai/Krea-2",
-    "name": "Krea-2",
-    "provider": "vantagewithai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-23T11:25:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vantagewithai/Krea-2",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "en",
-      "base_model:krea/Krea-2-Raw",
-      "base_model:finetune:krea/Krea-2-Raw"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T20:27:16.732947+00:00",
-    "source_ids": [
-      "vantagewithai/Krea-2"
-    ],
-    "family": "Krea-2"
   },
   {
     "id": "huggingface:sivakorn-su/typhoon-ocr-7b-thai-handwriting-lora-v1",
@@ -11176,6 +11212,40 @@
     "family": "Laguna-M.1"
   },
   {
+    "id": "huggingface:JaynadTodkarAmol/resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin",
+    "name": "resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin",
+    "provider": "JaynadTodkarAmol",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-15T07:07:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JaynadTodkarAmol/resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin",
+    "tags": [
+      "automatic-speech-recognition",
+      "vllm",
+      "safetensors",
+      "voxtral_realtime",
+      "audio-to-text",
+      "voxtral"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T21:09:44.422524+00:00",
+    "source_ids": [
+      "JaynadTodkarAmol/resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin"
+    ],
+    "family": "resilientai-team-mcte-mistral-voxtral-realtime--marlin"
+  },
+  {
     "id": "huggingface:cyankiwi/MiniMax-M3-AWQ-INT4",
     "name": "MiniMax-M3-AWQ-INT4",
     "provider": "cyankiwi",
@@ -11816,39 +11886,6 @@
       "unsloth/diffusiongemma-26B-A4B-it"
     ],
     "family": "diffusiongemma-it"
-  },
-  {
-    "id": "huggingface:morikomorizz/Nex-N2-Pro-MTP-GGUF",
-    "name": "Nex-N2-Pro-MTP-GGUF",
-    "provider": "morikomorizz",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T22:54:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/morikomorizz/Nex-N2-Pro-MTP-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T20:27:16.648441+00:00",
-    "source_ids": [
-      "morikomorizz/Nex-N2-Pro-MTP-GGUF"
-    ],
-    "family": "Nex-N2-Pro-MTP"
   },
   {
     "id": "huggingface:meshllm/diffusiongemma-26B-A4B-it-Q4_K_M-layers",
@@ -17047,39 +17084,6 @@
       "DeverStyle/Flux.2-Klein-Loras"
     ],
     "family": "Flux.2-Klein-Loras"
-  },
-  {
-    "id": "huggingface:furiosa-ai/Qwen2.5-0.5B-Instruct",
-    "name": "Qwen2.5-0.5B-Instruct",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-22T00:24:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Qwen2.5-0.5B-Instruct",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "safetensors",
-      "qwen2",
-      "furiosa-ai",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T20:27:16.648024+00:00",
-    "source_ids": [
-      "furiosa-ai/Qwen2.5-0.5B-Instruct"
-    ],
-    "family": "Qwen2.5"
   },
   {
     "id": "huggingface:HPLT/NorOLMo-13B",
