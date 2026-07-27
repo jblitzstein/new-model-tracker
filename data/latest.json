@@ -4557,6 +4557,41 @@
     "family": "GLM-5.2"
   },
   {
+    "id": "huggingface:OrionLLM/GRM-2.6-Plus-0628",
+    "name": "GRM-2.6-Plus-0628",
+    "provider": "OrionLLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-07T18:15:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OrionLLM/GRM-2.6-Plus-0628",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational",
+      "base_model:OrionLLM/GRM-2.6-Plus"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T14:33:47.821874+00:00",
+    "source_ids": [
+      "OrionLLM/GRM-2.6-Plus-0628"
+    ],
+    "family": "GRM-2.6-Plus-0628"
+  },
+  {
     "id": "openrouter:aion-labs/aion-3.0-mini",
     "name": "AionLabs: Aion-3.0-Mini",
     "provider": "Aion Labs",
@@ -4745,6 +4780,40 @@
       "philipjohnbasile/hy3-demolition-mlx-lite-v1"
     ],
     "family": "hy3-demolition-mlx-lite-v1"
+  },
+  {
+    "id": "huggingface:OpenASR/firered-aed-l-v2",
+    "name": "firered-aed-l-v2",
+    "provider": "OpenASR",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-07T10:50:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenASR/firered-aed-l-v2",
+    "tags": [
+      "automatic-speech-recognition",
+      "openasr",
+      "automatic-speech-recognition",
+      "speech-to-text",
+      "oasr",
+      "firered-aed-l-v2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T14:33:47.721549+00:00",
+    "source_ids": [
+      "OpenASR/firered-aed-l-v2"
+    ],
+    "family": "firered-aed-l-v2"
   },
   {
     "id": "huggingface:TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
@@ -9561,39 +9630,6 @@
     "family": "Agents-A1"
   },
   {
-    "id": "huggingface:brandonmusic/GLM-5.2-NVFP4-REAP-Recall-N172",
-    "name": "GLM-5.2-NVFP4-REAP-Recall-N172",
-    "provider": "brandonmusic",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-21T22:47:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/brandonmusic/GLM-5.2-NVFP4-REAP-Recall-N172",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "glm_moe_dsa",
-      "text-generation",
-      "reap"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T12:32:47.587928+00:00",
-    "source_ids": [
-      "brandonmusic/GLM-5.2-NVFP4-REAP-Recall-N172"
-    ],
-    "family": "GLM-5.2-NVFP4-REAP-Recall-N172"
-  },
-  {
     "id": "huggingface:AyaanAhmed123/Spark_one",
     "name": "Spark_one",
     "provider": "AyaanAhmed123",
@@ -11443,39 +11479,6 @@
     "family": "gemma-4-e-it-qat-OptiQ-4bit"
   },
   {
-    "id": "huggingface:jica98/qwen3.5-4B-super-coder",
-    "name": "qwen3.5-4B-super-coder",
-    "provider": "jica98",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-13T04:17:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jica98/qwen3.5-4B-super-coder",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "qwen3_5",
-      "coding",
-      "tool-calling"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T12:32:47.587998+00:00",
-    "source_ids": [
-      "jica98/qwen3.5-4B-super-coder"
-    ],
-    "family": "qwen3.5-super-coder"
-  },
-  {
     "id": "huggingface:meshllm/MiniMax-M3-UD-Q4_K_XL-layers",
     "name": "MiniMax-M3-UD-Q4_K_XL-layers",
     "provider": "meshllm",
@@ -13293,6 +13296,40 @@
     "family": "Qwen3.5-UD-Q4_K_XL-layers"
   },
   {
+    "id": "huggingface:OpenASR/qwen3-asr-1.7b",
+    "name": "qwen3-asr-1.7b",
+    "provider": "OpenASR",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T10:51:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenASR/qwen3-asr-1.7b",
+    "tags": [
+      "automatic-speech-recognition",
+      "openasr",
+      "automatic-speech-recognition",
+      "speech-to-text",
+      "oasr",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T14:33:47.721605+00:00",
+    "source_ids": [
+      "OpenASR/qwen3-asr-1.7b"
+    ],
+    "family": "qwen3-asr"
+  },
+  {
     "id": "huggingface:PanocularAI/PanoVLM-500M",
     "name": "PanoVLM-500M",
     "provider": "PanocularAI",
@@ -13359,6 +13396,40 @@
       "meshllm/GLM-4.7-Flash-REAP-23B-A3B-UD-Q4_K_XL-layers"
     ],
     "family": "GLM-4.7-Flash-REAP-UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "huggingface:OpenASR/qwen3-asr-0.6b",
+    "name": "qwen3-asr-0.6b",
+    "provider": "OpenASR",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T07:30:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenASR/qwen3-asr-0.6b",
+    "tags": [
+      "automatic-speech-recognition",
+      "openasr",
+      "automatic-speech-recognition",
+      "speech-to-text",
+      "oasr",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T14:33:47.721630+00:00",
+    "source_ids": [
+      "OpenASR/qwen3-asr-0.6b"
+    ],
+    "family": "qwen3-asr"
   },
   {
     "id": "huggingface:reaperdoesntknow/LFM2.5-8B-A1B-Opus-Distil",
@@ -17857,6 +17928,39 @@
       "openai/gpt-5-nano:batch"
     ],
     "family": "GPT-5 Nano (batch)"
+  },
+  {
+    "id": "huggingface:JetLM/SDAR-1.7B-Chat",
+    "name": "SDAR-1.7B-Chat",
+    "provider": "JetLM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-20T16:02:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JetLM/SDAR-1.7B-Chat",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "sdar",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T14:33:47.184168+00:00",
+    "source_ids": [
+      "JetLM/SDAR-1.7B-Chat"
+    ],
+    "family": "SDAR"
   },
   {
     "id": "openrouter:cognitivecomputations/dolphin-mistral-24b-venice-edition",
