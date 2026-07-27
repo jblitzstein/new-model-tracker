@@ -1085,6 +1085,41 @@
     "family": "Fara1.5"
   },
   {
+    "id": "huggingface:microsoft/Fara1.5-4B",
+    "name": "Fara1.5-4B",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T19:59:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/Fara1.5-4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "computer-use"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T17:42:00.186308+00:00",
+    "source_ids": [
+      "microsoft/Fara1.5-4B"
+    ],
+    "family": "Fara1.5"
+  },
+  {
     "id": "openrouter:openrouter/auto-beta",
     "name": "Auto Router (Beta)",
     "provider": "openrouter",
@@ -2313,6 +2348,39 @@
       "poolside/Laguna-S-2.1"
     ],
     "family": "Laguna-S-2.1"
+  },
+  {
+    "id": "huggingface:LeaderboardModel1/Tess-4-27B-AutoRound-W4A16-Tuning",
+    "name": "Tess-4-27B-AutoRound-W4A16-Tuning",
+    "provider": "LeaderboardModel1",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T12:11:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LeaderboardModel1/Tess-4-27B-AutoRound-W4A16-Tuning",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3_5",
+      "quantized",
+      "w4a16",
+      "tuning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T17:41:59.684559+00:00",
+    "source_ids": [
+      "LeaderboardModel1/Tess-4-27B-AutoRound-W4A16-Tuning"
+    ],
+    "family": "Tess-4-AutoRound-W4A16-Tuning"
   },
   {
     "id": "huggingface:AngelSlim/Hy3-GGUF",
@@ -10198,40 +10266,6 @@
     "family": "VoxCPM2"
   },
   {
-    "id": "huggingface:contextboxai/Kokoro-Vietnamese",
-    "name": "Kokoro-Vietnamese",
-    "provider": "contextboxai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-06-19T08:08:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/contextboxai/Kokoro-Vietnamese",
-    "tags": [
-      "text-to-speech",
-      "onnx",
-      "kokoro",
-      "vietnamese",
-      "text-to-speech",
-      "vi"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T16:27:27.200920+00:00",
-    "source_ids": [
-      "contextboxai/Kokoro-Vietnamese"
-    ],
-    "family": "Kokoro-Vietnamese"
-  },
-  {
     "id": "huggingface:mlx-community/gemma-4-31B-it-qat-OptiQ-4bit",
     "name": "gemma-4-31B-it-qat-OptiQ-4bit",
     "provider": "mlx-community",
@@ -11477,6 +11511,41 @@
       "mlx-community/gemma-4-e4b-it-qat-OptiQ-4bit"
     ],
     "family": "gemma-4-e-it-qat-OptiQ-4bit"
+  },
+  {
+    "id": "huggingface:moonshotai/Kimi-K3",
+    "name": "Kimi-K3",
+    "provider": "Moonshot AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-13T06:42:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "kimi_k3",
+      "feature-extraction",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T17:42:00.186157+00:00",
+    "source_ids": [
+      "moonshotai/Kimi-K3"
+    ],
+    "family": "Kimi-K3"
   },
   {
     "id": "huggingface:meshllm/MiniMax-M3-UD-Q4_K_XL-layers",
@@ -12997,39 +13066,6 @@
     "family": "Qwen3-VL--UD-Q4_K_XL-layers"
   },
   {
-    "id": "huggingface:sKT-Ai-Labs/SKT-ST-X-0-3B",
-    "name": "SKT-ST-X-0-3B",
-    "provider": "sKT-Ai-Labs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-03T15:46:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sKT-Ai-Labs/SKT-ST-X-0-3B",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "mixtral",
-      "moe",
-      "slm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T16:27:26.634216+00:00",
-    "source_ids": [
-      "sKT-Ai-Labs/SKT-ST-X-0-3B"
-    ],
-    "family": "SKT-ST-X-0"
-  },
-  {
     "id": "huggingface:mradermacher/Wanabi-Gemma4-31B-i1-GGUF",
     "name": "Wanabi-Gemma4-31B-i1-GGUF",
     "provider": "mradermacher",
@@ -13736,40 +13772,6 @@
     "family": "Qwen3.6-DeckardUncensored-OpusDistilled-HermesCalibrated-W4A16"
   },
   {
-    "id": "huggingface:AutoArk-AI/ARK-ASR-0.6B",
-    "name": "ARK-ASR-0.6B",
-    "provider": "AutoArk-AI",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-25T04:33:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AutoArk-AI/ARK-ASR-0.6B",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "arkasr",
-      "text-generation",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-27T16:27:27.311278+00:00",
-    "source_ids": [
-      "AutoArk-AI/ARK-ASR-0.6B"
-    ],
-    "family": "ARK-ASR"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/GPT-X2-125M-CIx-Long-Context",
     "name": "GPT-X2-125M-CIx-Long-Context",
     "provider": "reaperdoesntknow",
@@ -14210,6 +14212,41 @@
       "AtomicChat/Qwen3.6-27B-UDT-MTP-GGUF"
     ],
     "family": "Qwen3.6-UDT-MTP"
+  },
+  {
+    "id": "huggingface:microsoft/Fara1.5-9B",
+    "name": "Fara1.5-9B",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T16:31:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/Fara1.5-9B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "computer-use"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-27T17:42:00.186286+00:00",
+    "source_ids": [
+      "microsoft/Fara1.5-9B"
+    ],
+    "family": "Fara1.5"
   },
   {
     "id": "huggingface:hans00/MOSS-TTS-Realtime-GGUF",
