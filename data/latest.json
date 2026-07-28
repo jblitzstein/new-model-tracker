@@ -555,6 +555,41 @@
     "family": "Laguna-S-2.1-APEX"
   },
   {
+    "id": "huggingface:rdtand/Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm",
+    "name": "Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm",
+    "provider": "rdtand",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-22T16:06:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rdtand/Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm",
+    "tags": [
+      "image-text-to-text",
+      "gridbook",
+      "safetensors",
+      "qwen3_5",
+      "prismaquant",
+      "codebook-quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T21:07:31.530299+00:00",
+    "source_ids": [
+      "rdtand/Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm"
+    ],
+    "family": "Qwen3.6-prismaquant-gridbook-5.5bit-vllm"
+  },
+  {
     "id": "huggingface:coolthor/Sulphur-2-distilled-Q4_K_M-GGUF",
     "name": "Sulphur-2-distilled-Q4_K_M-GGUF",
     "provider": "coolthor",
@@ -1025,6 +1060,39 @@
       "microsoft/Mage-Flow-Base"
     ],
     "family": "Mage-Flow"
+  },
+  {
+    "id": "huggingface:Panhapich/pre-train-llama",
+    "name": "pre-train-llama",
+    "provider": "Panhapich",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-20T15:05:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Panhapich/pre-train-llama",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "text-generation",
+      "pytorch",
+      "from-scratch",
+      "decoder-only"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T21:07:30.784319+00:00",
+    "source_ids": [
+      "Panhapich/pre-train-llama"
+    ],
+    "family": "pre-train-llama"
   },
   {
     "id": "openrouter:meituan/longcat-2.0",
@@ -6153,6 +6221,39 @@
       "ailexleon/gemma-4-26B-A4B-it-qat-uncensored-heretic-mlx-vlm-4Bit"
     ],
     "family": "gemma-4-it-qat-uncensored-heretic-mlx-vlm-4Bit"
+  },
+  {
+    "id": "huggingface:Nanthasit/sakthai-context-0.5b-merged",
+    "name": "sakthai-context-0.5b-merged",
+    "provider": "Nanthasit",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-05T12:13:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Nanthasit/sakthai-context-0.5b-merged",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T21:07:30.784420+00:00",
+    "source_ids": [
+      "Nanthasit/sakthai-context-0.5b-merged"
+    ],
+    "family": "sakthai-context-merged"
   },
   {
     "id": "huggingface:MuXodious/LFM2.5-8B-A1B-SOMPOA-heresy",
@@ -13913,6 +14014,39 @@
       "meshllm/GLM-4.7-Flash-REAP-23B-A3B-UD-Q4_K_XL-layers"
     ],
     "family": "GLM-4.7-Flash-REAP-UD-Q4_K_XL-layers"
+  },
+  {
+    "id": "openrouter:minimax/minimax-m3:batch",
+    "name": "MiniMax: MiniMax M3 (batch)",
+    "provider": "MiniMax",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T16:36:14+00:00",
+    "context_length": 524288,
+    "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+    "url": "https://openrouter.ai/minimax/minimax-m3:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-07-28T21:07:30.641308+00:00",
+    "source_ids": [
+      "minimax/minimax-m3:batch"
+    ],
+    "family": "MiniMax M3 (batch)"
   },
   {
     "id": "huggingface:OpenASR/qwen3-asr-0.6b",
