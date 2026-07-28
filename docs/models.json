@@ -106037,5 +106037,1036 @@
       "deepdml/whisper-tiny-es-mix-norm"
     ],
     "family": "whisper-tiny-es-mix-norm"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-5:batch",
+    "name": "Claude Opus 5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T17:02:24+00:00",
+    "context_length": 1000000,
+    "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 12.5
+    },
+    "first_seen": "2026-07-28T17:27:11.587465+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-5:batch"
+    ],
+    "family": "Claude Opus 5 (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-3.6-flash:batch",
+    "name": "Google: Gemini 3.6 Flash (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T15:12:13+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
+    "url": "https://openrouter.ai/google/gemini-3.6-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.75,
+      "completion_per_million": 3.75
+    },
+    "first_seen": "2026-07-28T17:27:11.587562+00:00",
+    "source_ids": [
+      "google/gemini-3.6-flash:batch"
+    ],
+    "family": "Gemini 3.6 Flash (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-3.5-flash-lite:batch",
+    "name": "Google: Gemini 3.5 Flash Lite (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T15:12:06+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+    "url": "https://openrouter.ai/google/gemini-3.5-flash-lite:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 1.25
+    },
+    "first_seen": "2026-07-28T17:27:11.587600+00:00",
+    "source_ids": [
+      "google/gemini-3.5-flash-lite:batch"
+    ],
+    "family": "Gemini 3.5 Flash Lite (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-sonnet-5:batch",
+    "name": "Anthropic: Claude Sonnet 5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T18:11:23+00:00",
+    "context_length": 1000000,
+    "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-07-28T17:27:11.587961+00:00",
+    "source_ids": [
+      "anthropic/claude-sonnet-5:batch"
+    ],
+    "family": "Claude Sonnet 5 (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-fable-5:batch",
+    "name": "Anthropic: Claude Fable 5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T12:18:35+00:00",
+    "context_length": 1000000,
+    "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+    "url": "https://openrouter.ai/anthropic/claude-fable-5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-07-28T17:27:11.588223+00:00",
+    "source_ids": [
+      "anthropic/claude-fable-5:batch"
+    ],
+    "family": "Claude Fable 5 (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-4.8:batch",
+    "name": "Anthropic: Claude Opus 4.8 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-27T18:04:51+00:00",
+    "context_length": 1000000,
+    "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.8:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 12.5
+    },
+    "first_seen": "2026-07-28T17:27:11.588401+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.8:batch"
+    ],
+    "family": "Claude Opus 4.8 (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-3.5-flash:batch",
+    "name": "Google: Gemini 3.5 Flash (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-19T12:30:00+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...",
+    "url": "https://openrouter.ai/google/gemini-3.5-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.75,
+      "completion_per_million": 4.5
+    },
+    "first_seen": "2026-07-28T17:27:11.588472+00:00",
+    "source_ids": [
+      "google/gemini-3.5-flash:batch"
+    ],
+    "family": "Gemini 3.5 Flash (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-3.1-flash-lite:batch",
+    "name": "Google: Gemini 3.1 Flash Lite (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T15:47:08+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.125,
+      "completion_per_million": 0.75
+    },
+    "first_seen": "2026-07-28T17:27:11.588560+00:00",
+    "source_ids": [
+      "google/gemini-3.1-flash-lite:batch"
+    ],
+    "family": "Gemini 3.1 Flash Lite (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.5:batch",
+    "name": "OpenAI: GPT-5.5 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T17:31:33+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
+    "url": "https://openrouter.ai/openai/gpt-5.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-07-28T17:27:11.588903+00:00",
+    "source_ids": [
+      "openai/gpt-5.5:batch"
+    ],
+    "family": "GPT-5.5 (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-4.7:batch",
+    "name": "Anthropic: Claude Opus 4.7 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T14:51:40+00:00",
+    "context_length": 1000000,
+    "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.7:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 12.5
+    },
+    "first_seen": "2026-07-28T17:27:11.589130+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.7:batch"
+    ],
+    "family": "Claude Opus 4.7 (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.4-nano:batch",
+    "name": "OpenAI: GPT-5.4 Nano (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-17T11:49:47+00:00",
+    "context_length": 400000,
+    "description": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency...",
+    "url": "https://openrouter.ai/openai/gpt-5.4-nano:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.625
+    },
+    "first_seen": "2026-07-28T17:27:11.589410+00:00",
+    "source_ids": [
+      "openai/gpt-5.4-nano:batch"
+    ],
+    "family": "GPT-5.4 Nano (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.4-mini:batch",
+    "name": "OpenAI: GPT-5.4 Mini (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-17T11:49:38+00:00",
+    "context_length": 400000,
+    "description": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,...",
+    "url": "https://openrouter.ai/openai/gpt-5.4-mini:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.375,
+      "completion_per_million": 2.25
+    },
+    "first_seen": "2026-07-28T17:27:11.589443+00:00",
+    "source_ids": [
+      "openai/gpt-5.4-mini:batch"
+    ],
+    "family": "GPT-5.4 Mini (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.4:batch",
+    "name": "OpenAI: GPT-5.4 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-05T18:12:32+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for...",
+    "url": "https://openrouter.ai/openai/gpt-5.4:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.25,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-07-28T17:27:11.589590+00:00",
+    "source_ids": [
+      "openai/gpt-5.4:batch"
+    ],
+    "family": "GPT-5.4 (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-3.1-pro-preview:batch",
+    "name": "Google: Gemini 3.1 Pro Preview (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-19T14:00:27+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...",
+    "url": "https://openrouter.ai/google/gemini-3.1-pro-preview:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-07-28T17:27:11.589897+00:00",
+    "source_ids": [
+      "google/gemini-3.1-pro-preview:batch"
+    ],
+    "family": "Gemini 3.1 Pro (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-4.6:batch",
+    "name": "Anthropic: Claude Opus 4.6 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-04T15:30:50+00:00",
+    "context_length": 1000000,
+    "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.6:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 12.5
+    },
+    "first_seen": "2026-07-28T17:27:11.590028+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.6:batch"
+    ],
+    "family": "Claude Opus 4.6 (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-3-flash-preview:batch",
+    "name": "Google: Gemini 3 Flash Preview (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file",
+      "audio",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-17T15:57:58+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool...",
+    "url": "https://openrouter.ai/google/gemini-3-flash-preview:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-07-28T17:27:11.590319+00:00",
+    "source_ids": [
+      "google/gemini-3-flash-preview:batch"
+    ],
+    "family": "Gemini 3 Flash (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.2:batch",
+    "name": "OpenAI: GPT-5.2 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-10T18:02:55+00:00",
+    "context_length": 400000,
+    "description": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly...",
+    "url": "https://openrouter.ai/openai/gpt-5.2:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.875,
+      "completion_per_million": 7.0
+    },
+    "first_seen": "2026-07-28T17:27:11.590419+00:00",
+    "source_ids": [
+      "openai/gpt-5.2:batch"
+    ],
+    "family": "GPT-5.2 (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-4.5:batch",
+    "name": "Anthropic: Claude Opus 4.5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-24T18:56:20+00:00",
+    "context_length": 200000,
+    "description": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 12.5
+    },
+    "first_seen": "2026-07-28T17:27:11.590629+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.5:batch"
+    ],
+    "family": "Claude Opus 4.5 (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.1:batch",
+    "name": "OpenAI: GPT-5.1 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-13T18:58:25+00:00",
+    "context_length": 400000,
+    "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning...",
+    "url": "https://openrouter.ai/openai/gpt-5.1:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.625,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-07-28T17:27:11.590739+00:00",
+    "source_ids": [
+      "openai/gpt-5.1:batch"
+    ],
+    "family": "GPT-5.1 (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-haiku-4.5:batch",
+    "name": "Anthropic: Claude Haiku 4.5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-15T17:00:38+00:00",
+    "context_length": 200000,
+    "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance...",
+    "url": "https://openrouter.ai/anthropic/claude-haiku-4.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-07-28T17:27:11.590992+00:00",
+    "source_ids": [
+      "anthropic/claude-haiku-4.5:batch"
+    ],
+    "family": "Claude Haiku 4.5 (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-sonnet-4.5:batch",
+    "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-09-29T16:01:16+00:00",
+    "context_length": 1000000,
+    "description": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with...",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-4.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-07-28T17:27:11.591225+00:00",
+    "source_ids": [
+      "anthropic/claude-sonnet-4.5:batch"
+    ],
+    "family": "Claude Sonnet 4.5 (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5:batch",
+    "name": "OpenAI: GPT-5 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-07T17:23:33+00:00",
+    "context_length": 400000,
+    "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy...",
+    "url": "https://openrouter.ai/openai/gpt-5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.625,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-07-28T17:27:11.591642+00:00",
+    "source_ids": [
+      "openai/gpt-5:batch"
+    ],
+    "family": "GPT-5 (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-5-mini:batch",
+    "name": "OpenAI: GPT-5 Mini (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-07T17:23:27+00:00",
+    "context_length": 400000,
+    "description": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost....",
+    "url": "https://openrouter.ai/openai/gpt-5-mini:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.125,
+      "completion_per_million": 1.0
+    },
+    "first_seen": "2026-07-28T17:27:11.591673+00:00",
+    "source_ids": [
+      "openai/gpt-5-mini:batch"
+    ],
+    "family": "GPT-5 Mini (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-4.1:batch",
+    "name": "Anthropic: Claude Opus 4.1 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-05T16:33:11+00:00",
+    "context_length": 200000,
+    "description": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-4.1:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 7.5,
+      "completion_per_million": 37.5
+    },
+    "first_seen": "2026-07-28T17:27:11.591784+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-4.1:batch"
+    ],
+    "family": "Claude Opus 4.1 (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-2.5-flash-lite:batch",
+    "name": "Google: Gemini 2.5 Flash Lite (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file",
+      "audio",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-22T16:04:36+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance...",
+    "url": "https://openrouter.ai/google/gemini-2.5-flash-lite:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-07-28T17:27:11.591952+00:00",
+    "source_ids": [
+      "google/gemini-2.5-flash-lite:batch"
+    ],
+    "family": "Gemini 2.5 Flash Lite (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-2.5-flash:batch",
+    "name": "Google: Gemini 2.5 Flash (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text",
+      "audio",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-17T15:01:28+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
+    "url": "https://openrouter.ai/google/gemini-2.5-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 1.25
+    },
+    "first_seen": "2026-07-28T17:27:11.592176+00:00",
+    "source_ids": [
+      "google/gemini-2.5-flash:batch"
+    ],
+    "family": "Gemini 2.5 Flash (batch)"
+  },
+  {
+    "id": "openrouter:google/gemini-2.5-pro:batch",
+    "name": "Google: Gemini 2.5 Pro (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file",
+      "audio",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-17T14:12:24+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...",
+    "url": "https://openrouter.ai/google/gemini-2.5-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.625,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-07-28T17:27:11.592212+00:00",
+    "source_ids": [
+      "google/gemini-2.5-pro:batch"
+    ],
+    "family": "Gemini 2.5 Pro (batch)"
+  },
+  {
+    "id": "huggingface:optimum-intel-internal-testing/trocr-small-handwritten",
+    "name": "trocr-small-handwritten",
+    "provider": "optimum-intel-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-21T10:07:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/optimum-intel-internal-testing/trocr-small-handwritten",
+    "tags": [
+      "image-to-text",
+      "pytorch",
+      "vision-encoder-decoder",
+      "trocr",
+      "image-to-text",
+      "arxiv:2109.10282"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T17:27:11.961649+00:00",
+    "source_ids": [
+      "optimum-intel-internal-testing/trocr-small-handwritten"
+    ],
+    "family": "trocr-small-handwritten"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T17:27:12.532637+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V6"
+  },
+  {
+    "id": "huggingface:bartowski/MiniMax-M3-GGUF",
+    "name": "MiniMax-M3-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T14:12:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/MiniMax-M3-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "multimodal",
+      "moe",
+      "agent",
+      "coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T17:27:12.532708+00:00",
+    "source_ids": [
+      "bartowski/MiniMax-M3-GGUF"
+    ],
+    "family": "MiniMax-M3"
   }
 ]
