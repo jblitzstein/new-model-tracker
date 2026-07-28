@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:qwen/qwen3.7-flash",
+    "name": "Qwen: Qwen3.7 Flash",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T22:16:01+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real-world...",
+    "url": "https://openrouter.ai/qwen/qwen3.7-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.03,
+      "completion_per_million": 0.13
+    },
+    "first_seen": "2026-07-28T02:32:28.901138+00:00",
+    "source_ids": [
+      "qwen/qwen3.7-flash"
+    ],
+    "family": "Qwen3.7 Flash"
+  },
+  {
     "id": "huggingface:sullivan1502/base-grpo-round2",
     "name": "base-grpo-round2",
     "provider": "sullivan1502",
@@ -17634,6 +17667,40 @@
     "family": "HunyuanOCR"
   },
   {
+    "id": "huggingface:slseanwu/MIDI-LLM_Llama-3.2-1B",
+    "name": "MIDI-LLM_Llama-3.2-1B",
+    "provider": "slseanwu",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-10-30T17:01:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/slseanwu/MIDI-LLM_Llama-3.2-1B",
+    "tags": [
+      "text-to-audio",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "music"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T02:32:29.519927+00:00",
+    "source_ids": [
+      "slseanwu/MIDI-LLM_Llama-3.2-1B"
+    ],
+    "family": "MIDI-LLM_Llama-3.2"
+  },
+  {
     "id": "huggingface:maya-research/maya1",
     "name": "maya1",
     "provider": "maya-research",
@@ -18100,39 +18167,6 @@
       "zai-org/GLM-4.1V-9B-Thinking"
     ],
     "family": "GLM-4.1V"
-  },
-  {
-    "id": "huggingface:furiosa-ai/Llama-3.1-8B-Instruct",
-    "name": "Llama-3.1-8B-Instruct",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-03T00:25:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Llama-3.1-8B-Instruct",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "llama",
-      "furiosa-ai",
-      "llama-3",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-28T00:56:24.604368+00:00",
-    "source_ids": [
-      "furiosa-ai/Llama-3.1-8B-Instruct"
-    ],
-    "family": "Llama-3.1"
   },
   {
     "id": "huggingface:nvidia/canary-1b-flash",
