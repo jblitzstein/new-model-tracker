@@ -33,6 +33,39 @@
     "family": "Qwen3.7 Flash"
   },
   {
+    "id": "huggingface:FermionResearch/Neutrino-8B",
+    "name": "Neutrino-8B",
+    "provider": "FermionResearch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T15:50:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FermionResearch/Neutrino-8B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "trtc_v4",
+      "text-generation",
+      "ternary"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:38.886596+00:00",
+    "source_ids": [
+      "FermionResearch/Neutrino-8B"
+    ],
+    "family": "Neutrino"
+  },
+  {
     "id": "huggingface:sullivan1502/base-grpo-round2",
     "name": "base-grpo-round2",
     "provider": "sullivan1502",
@@ -487,6 +520,40 @@
       "Myric/Laguna-S-2.1-APEX-GGUF"
     ],
     "family": "Laguna-S-2.1-APEX"
+  },
+  {
+    "id": "huggingface:coolthor/Sulphur-2-distilled-Q4_K_M-GGUF",
+    "name": "Sulphur-2-distilled-Q4_K_M-GGUF",
+    "provider": "coolthor",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-07-22T04:53:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/coolthor/Sulphur-2-distilled-Q4_K_M-GGUF",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "text-to-video",
+      "image-to-video",
+      "text-to-audio-video",
+      "ltx-2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:39.209802+00:00",
+    "source_ids": [
+      "coolthor/Sulphur-2-distilled-Q4_K_M-GGUF"
+    ],
+    "family": "Sulphur-2-distilled-Q4_K_M"
   },
   {
     "id": "huggingface:upstage/Solar-Open2-250B",
@@ -2319,6 +2386,39 @@
     "family": "audio.cpp"
   },
   {
+    "id": "huggingface:darkps/darkit-v2.5",
+    "name": "darkit-v2.5",
+    "provider": "darkps",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T04:22:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/darkps/darkit-v2.5",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "darkit-v2.5",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:38.886501+00:00",
+    "source_ids": [
+      "darkps/darkit-v2.5"
+    ],
+    "family": "darkit-v2.5"
+  },
+  {
     "id": "huggingface:tencent/Hy-Embodied-RxBrain-1.0",
     "name": "Hy-Embodied-RxBrain-1.0",
     "provider": "Tencent",
@@ -2352,6 +2452,40 @@
       "tencent/Hy-Embodied-RxBrain-1.0"
     ],
     "family": "Hy-Embodied-RxBrain-1.0"
+  },
+  {
+    "id": "huggingface:deepdml/whisper-tiny-es-mix-norm",
+    "name": "whisper-tiny-es-mix-norm",
+    "provider": "deepdml",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T22:22:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepdml/whisper-tiny-es-mix-norm",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:39.524710+00:00",
+    "source_ids": [
+      "deepdml/whisper-tiny-es-mix-norm"
+    ],
+    "family": "whisper-tiny-es-mix-norm"
   },
   {
     "id": "huggingface:SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
@@ -2793,6 +2927,40 @@
       "RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF"
     ],
     "family": "Qwen3.5-REAP-abliterated"
+  },
+  {
+    "id": "huggingface:cstr/moss-tts-v1.5-GGUF",
+    "name": "moss-tts-v1.5-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-12T11:02:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/moss-tts-v1.5-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "tts",
+      "crispasr",
+      "moss-tts",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:39.418872+00:00",
+    "source_ids": [
+      "cstr/moss-tts-v1.5-GGUF"
+    ],
+    "family": "moss-tts-v1.5"
   },
   {
     "id": "huggingface:reaperdoesntknow/DualMind-TKD-Agentic-1.7B",
@@ -9496,41 +9664,6 @@
       "autotrust/gemma4-31B-Fable-5-Distilled-GGUF"
     ],
     "family": "gemma4-Fable-5-Distilled"
-  },
-  {
-    "id": "huggingface:AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4",
-    "name": "Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-23T06:54:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "mlx-vlm",
-      "apple-silicon"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-28T09:07:27.886231+00:00",
-    "source_ids": [
-      "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4"
-    ],
-    "family": "Qwen3.6-AEON-Ultimate-Uncensored-Multimodal-MLX-FP4"
   },
   {
     "id": "huggingface:andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF",
@@ -17016,6 +17149,108 @@
       "MuXodious/Qwen3.5-27B-tainted-heresy"
     ],
     "family": "Qwen3.5-tainted-heresy"
+  },
+  {
+    "id": "huggingface:stabilityai/sdxl-base-amdnpu",
+    "name": "sdxl-base-amdnpu",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-02-25T22:54:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/sdxl-base-amdnpu",
+    "tags": [
+      "text-to-image",
+      "onnx",
+      "safetensors",
+      "stable-diffusion",
+      "sdxl",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:39.005488+00:00",
+    "source_ids": [
+      "stabilityai/sdxl-base-amdnpu"
+    ],
+    "family": "sdxl--amdnpu"
+  },
+  {
+    "id": "huggingface:stabilityai/sdxl-turbo-amdnpu",
+    "name": "sdxl-turbo-amdnpu",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-02-25T22:40:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/sdxl-turbo-amdnpu",
+    "tags": [
+      "text-to-image",
+      "onnx",
+      "safetensors",
+      "stable-diffusion",
+      "text-to-image",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:39.005506+00:00",
+    "source_ids": [
+      "stabilityai/sdxl-turbo-amdnpu"
+    ],
+    "family": "sdxl-turbo-amdnpu"
+  },
+  {
+    "id": "huggingface:stabilityai/sd-turbo-amdnpu",
+    "name": "sd-turbo-amdnpu",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-02-25T22:12:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/sd-turbo-amdnpu",
+    "tags": [
+      "text-to-image",
+      "onnx",
+      "safetensors",
+      "stable-diffusion",
+      "text-to-image",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-28T10:34:39.005468+00:00",
+    "source_ids": [
+      "stabilityai/sd-turbo-amdnpu"
+    ],
+    "family": "sd-turbo-amdnpu"
   },
   {
     "id": "huggingface:furiosa-ai/K-EXAONE-236B-A23B-NVFP4A16",
