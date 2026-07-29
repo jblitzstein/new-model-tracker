@@ -5599,6 +5599,39 @@
     "family": "HopCoder-Mini-VL36-fullsft"
   },
   {
+    "id": "huggingface:Willlzh/COFOS",
+    "name": "COFOS",
+    "provider": "Willlzh",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-07T05:05:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Willlzh/COFOS",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "text-generation",
+      "chemistry"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T10:38:36.091721+00:00",
+    "source_ids": [
+      "Willlzh/COFOS"
+    ],
+    "family": "COFOS"
+  },
+  {
     "id": "huggingface:Quatfit/Quatfit-Mini-GGUF",
     "name": "Quatfit-Mini-GGUF",
     "provider": "Quatfit",
@@ -8417,6 +8450,39 @@
       "google/gemini-3.1-flash-lite-image"
     ],
     "family": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
+  },
+  {
+    "id": "huggingface:BSC-LT/ALIA-40b-instruct-2606",
+    "name": "ALIA-40b-instruct-2606",
+    "provider": "BSC-LT",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T16:11:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BSC-LT/ALIA-40b-instruct-2606",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T10:38:36.091533+00:00",
+    "source_ids": [
+      "BSC-LT/ALIA-40b-instruct-2606"
+    ],
+    "family": "ALIA--2606"
   },
   {
     "id": "huggingface:EZForever/gemma-4-31B-it-qat-uncensored-heretic-UDmerge-GGUF",
@@ -13547,40 +13613,6 @@
     "family": "NVIDIA-Nemotron-3-Ultra-FP8-block"
   },
   {
-    "id": "huggingface:cstr/tada-tts-3b-ml-GGUF",
-    "name": "tada-tts-3b-ml-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-06-04T21:21:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/tada-tts-3b-ml-GGUF",
-    "tags": [
-      "text-to-speech",
-      "ggml",
-      "gguf",
-      "tts",
-      "text-to-speech",
-      "tada"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-29T09:40:57.344820+00:00",
-    "source_ids": [
-      "cstr/tada-tts-3b-ml-GGUF"
-    ],
-    "family": "tada-tts-ml"
-  },
-  {
     "id": "huggingface:meshllm/Qwen3.6-27B-UD-Q4_K_XL-layers",
     "name": "Qwen3.6-27B-UD-Q4_K_XL-layers",
     "provider": "meshllm",
@@ -17190,6 +17222,39 @@
     "family": "Qwen3.5--INT8-INT4"
   },
   {
+    "id": "huggingface:aufklarer/Qwen3.5-0.8B-Chat-MLX",
+    "name": "Qwen3.5-0.8B-Chat-MLX",
+    "provider": "aufklarer",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-28T08:36:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aufklarer/Qwen3.5-0.8B-Chat-MLX",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_chat",
+      "qwen3.5",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T10:38:36.091686+00:00",
+    "source_ids": [
+      "aufklarer/Qwen3.5-0.8B-Chat-MLX"
+    ],
+    "family": "Qwen3.5--MLX"
+  },
+  {
     "id": "huggingface:Jackrong/Qwen3.5-4B-Neo-GGUF",
     "name": "Qwen3.5-4B-Neo-GGUF",
     "provider": "Jackrong",
@@ -19122,41 +19187,6 @@
       "swiss-ai/Apertus-70B-Instruct-2509"
     ],
     "family": "Apertus--2509"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2-VL-1.6B-GGUF",
-    "name": "LFM2-VL-1.6B-GGUF",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-17T08:50:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2-VL-1.6B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "vision",
-      "vlm",
-      "liquid",
-      "lfm2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-29T09:40:57.468128+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2-VL-1.6B-GGUF"
-    ],
-    "family": "LFM2-VL"
   },
   {
     "id": "huggingface:swiss-ai/Apertus-8B-Instruct-2509",
