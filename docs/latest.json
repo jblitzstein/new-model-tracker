@@ -14648,6 +14648,40 @@
     "family": "GPT-X2-125M-CIx-Long-Context"
   },
   {
+    "id": "huggingface:FunAudioLLM/Fun-ASR-Nano-2512-hf",
+    "name": "Fun-ASR-Nano-2512-hf",
+    "provider": "FunAudioLLM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-24T11:25:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512-hf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "fun_asr_nano",
+      "text-generation",
+      "speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T20:55:33.575355+00:00",
+    "source_ids": [
+      "FunAudioLLM/Fun-ASR-Nano-2512-hf"
+    ],
+    "family": "Fun-ASR-Nano-2512-hf"
+  },
+  {
     "id": "huggingface:88plug/Qwen3.6-27B-W8A16",
     "name": "Qwen3.6-27B-W8A16",
     "provider": "88plug",
@@ -19520,40 +19554,6 @@
       "google/gemini-2.5-pro:batch"
     ],
     "family": "Gemini 2.5 Pro (batch)"
-  },
-  {
-    "id": "huggingface:nvidia/canary-1b-flash",
-    "name": "canary-1b-flash",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-03-07T22:29:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/canary-1b-flash",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "safetensors",
-      "fastconformer",
-      "automatic-speech-recognition",
-      "automatic-speech-translation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-29T20:39:48.968033+00:00",
-    "source_ids": [
-      "nvidia/canary-1b-flash"
-    ],
-    "family": "canary-flash"
   },
   {
     "id": "huggingface:BlinkDL/rwkv7-g1",
