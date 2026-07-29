@@ -66,6 +66,39 @@
     "family": "Neutrino"
   },
   {
+    "id": "huggingface:GrEarl/Kimi-K3-GGUF",
+    "name": "Kimi-K3-GGUF",
+    "provider": "GrEarl",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T15:39:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GrEarl/Kimi-K3-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "kimi-k3",
+      "q2_k",
+      "moe",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T02:37:52.664714+00:00",
+    "source_ids": [
+      "GrEarl/Kimi-K3-GGUF"
+    ],
+    "family": "Kimi-K3"
+  },
+  {
     "id": "huggingface:sullivan1502/base-grpo-round2",
     "name": "base-grpo-round2",
     "provider": "sullivan1502",
@@ -1060,6 +1093,39 @@
       "microsoft/Mage-Flow-Base"
     ],
     "family": "Mage-Flow"
+  },
+  {
+    "id": "huggingface:Myric/Kimi-Linear-48B-A3B-Instruct-APEX-GGUF",
+    "name": "Kimi-Linear-48B-A3B-Instruct-APEX-GGUF",
+    "provider": "Myric",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-20T17:41:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Myric/Kimi-Linear-48B-A3B-Instruct-APEX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "moe",
+      "apex",
+      "quantized",
+      "kimi-linear"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T02:37:52.664589+00:00",
+    "source_ids": [
+      "Myric/Kimi-Linear-48B-A3B-Instruct-APEX-GGUF"
+    ],
+    "family": "Kimi-Linear--APEX"
   },
   {
     "id": "huggingface:Panhapich/pre-train-llama",
@@ -2117,6 +2183,41 @@
       "DAXZEIT/GRM-2.6-Plus-0628-MTP-reasoning-i1-GGUF"
     ],
     "family": "GRM-2.6-Plus-0628-MTP-reasoning-i1"
+  },
+  {
+    "id": "huggingface:RedHatAI/Inkling-FP8-dynamic",
+    "name": "Inkling-FP8-dynamic",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T22:37:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Inkling-FP8-dynamic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "inkling_mm_model",
+      "image-text-to-text",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T02:37:53.741280+00:00",
+    "source_ids": [
+      "RedHatAI/Inkling-FP8-dynamic"
+    ],
+    "family": "Inkling-FP8-dynamic"
   },
   {
     "id": "huggingface:mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
@@ -4937,6 +5038,72 @@
       "~x-ai/grok-latest"
     ],
     "family": "Grok Latest"
+  },
+  {
+    "id": "huggingface:lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
+    "name": "ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
+    "provider": "lmcoleman",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T13:00:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "rocm",
+      "amd",
+      "strix-halo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T02:37:52.664898+00:00",
+    "source_ids": [
+      "lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF"
+    ],
+    "family": "ThinkingCap-Qwen3.6-ROCmFPX"
+  },
+  {
+    "id": "huggingface:lmcoleman/ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF",
+    "name": "ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF",
+    "provider": "lmcoleman",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T12:54:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lmcoleman/ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "magicquant",
+      "hybrid-quantization",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-29T02:37:52.664974+00:00",
+    "source_ids": [
+      "lmcoleman/ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF"
+    ],
+    "family": "ThinkingCap-Qwen3.6-MagicQuant"
   },
   {
     "id": "huggingface:EleutherAI/GPT-2-wikitext-chunks",
@@ -9264,39 +9431,6 @@
       "AtomicChat/ornith-9b-MLX-4bit"
     ],
     "family": "ornith-MLX-4bit"
-  },
-  {
-    "id": "huggingface:s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF",
-    "name": "Ornith-1.0-35B-NVFP4-MTP-GGUF",
-    "provider": "s-batman",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T16:35:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "safetensors",
-      "gguf",
-      "qwen3_5_moe",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-29T00:57:43.717663+00:00",
-    "source_ids": [
-      "s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF"
-    ],
-    "family": "Ornith-1.0-NVFP4-MTP"
   },
   {
     "id": "huggingface:mradermacher/copywriter-gemma4-31b-i1-GGUF",
@@ -14622,39 +14756,6 @@
       "google/gemini-3.5-flash:batch"
     ],
     "family": "Gemini 3.5 Flash (batch)"
-  },
-  {
-    "id": "huggingface:ray0rf1re/nano-nano_4.7",
-    "name": "nano-nano_4.7",
-    "provider": "ray0rf1re",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-17T17:22:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ray0rf1re/nano-nano_4.7",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-29T00:57:43.717549+00:00",
-    "source_ids": [
-      "ray0rf1re/nano-nano_4.7"
-    ],
-    "family": "nano-nano_4.7"
   },
   {
     "id": "huggingface:cstr/voxcpm2-GGUF",
