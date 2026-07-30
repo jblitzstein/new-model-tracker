@@ -237,6 +237,41 @@
     "family": "Qwen3.6-Fable-Fusion-711-bf16"
   },
   {
+    "id": "huggingface:philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit",
+    "name": "Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit",
+    "provider": "philipjohnbasile",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T15:08:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "qwen",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-30T17:26:33.362332+00:00",
+    "source_ids": [
+      "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit"
+    ],
+    "family": "Qwen3.6-Fable-Fusion-711-MTPLX-8bit"
+  },
+  {
     "id": "huggingface:microsoft/Mage-VL",
     "name": "Mage-VL",
     "provider": "Microsoft",
@@ -9034,41 +9069,6 @@
     "family": "Agents-A1-FP8"
   },
   {
-    "id": "huggingface:microsoft/GELab-Zero-4B-preview-Sico-Evolution",
-    "name": "GELab-Zero-4B-preview-Sico-Evolution",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T12:46:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "gui-agent"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T16:46:57.906945+00:00",
-    "source_ids": [
-      "microsoft/GELab-Zero-4B-preview-Sico-Evolution"
-    ],
-    "family": "GELab-Zero--Sico-Evolution"
-  },
-  {
     "id": "huggingface:hotdogs/qwen35b-a3b-fable-sft-abliterated",
     "name": "qwen35b-a3b-fable-sft-abliterated",
     "provider": "hotdogs",
@@ -9337,39 +9337,6 @@
       "King3Djbl/mythos-v2-8b-merged"
     ],
     "family": "mythos-v2-merged"
-  },
-  {
-    "id": "huggingface:UraionLabs/Uraion-Agent-Small",
-    "name": "Uraion-Agent-Small",
-    "provider": "UraionLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-28T16:15:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/UraionLabs/Uraion-Agent-Small",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "safetensors",
-      "llama-cpp",
-      "lm-studio",
-      "ollama"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T16:46:57.464415+00:00",
-    "source_ids": [
-      "UraionLabs/Uraion-Agent-Small"
-    ],
-    "family": "Uraion-Agent-Small"
   },
   {
     "id": "huggingface:huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
@@ -9875,39 +9842,6 @@
       "AtomicChat/ornith-9b-MLX-4bit"
     ],
     "family": "ornith-MLX-4bit"
-  },
-  {
-    "id": "huggingface:mradermacher/copywriter-gemma4-31b-i1-GGUF",
-    "name": "copywriter-gemma4-31b-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T13:49:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/copywriter-gemma4-31b-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "copywriting",
-      "marketing",
-      "advertising"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T16:46:57.464472+00:00",
-    "source_ids": [
-      "mradermacher/copywriter-gemma4-31b-i1-GGUF"
-    ],
-    "family": "copywriter-gemma4-i1"
   },
   {
     "id": "huggingface:Quatfit/Quatfit-Mini",
@@ -10820,40 +10754,6 @@
     "family": "gemma-4-E-it-Q4_K_M-layers"
   },
   {
-    "id": "huggingface:ElioChampaney/100m_image_new",
-    "name": "100m_image_new",
-    "provider": "ElioChampaney",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-21T11:36:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ElioChampaney/100m_image_new",
-    "tags": [
-      "text-to-image",
-      "image-generation",
-      "text-to-image",
-      "autoregressive",
-      "nova",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T16:46:57.522113+00:00",
-    "source_ids": [
-      "ElioChampaney/100m_image_new"
-    ],
-    "family": "100m_image_new"
-  },
-  {
     "id": "huggingface:avlp12/GLM-5.2-Alis-MLX-Dynamic-2.56bpw",
     "name": "GLM-5.2-Alis-MLX-Dynamic-2.56bpw",
     "provider": "avlp12",
@@ -11286,40 +11186,6 @@
       "empero-ai/Qwythos-9B-Claude-Mythos-5-1M"
     ],
     "family": "Qwythos-Claude-Mythos-5-1M"
-  },
-  {
-    "id": "huggingface:DennisHuang648/VoxCPM2-GGUF",
-    "name": "VoxCPM2-GGUF",
-    "provider": "DennisHuang648",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-06-19T11:55:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DennisHuang648/VoxCPM2-GGUF",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "text-to-speech",
-      "tts",
-      "voice-cloning",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T16:46:57.778213+00:00",
-    "source_ids": [
-      "DennisHuang648/VoxCPM2-GGUF"
-    ],
-    "family": "VoxCPM2"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-31B-it-qat-OptiQ-4bit",
@@ -12672,41 +12538,6 @@
     "family": "gemma-4-e-it-qat-OptiQ-4bit"
   },
   {
-    "id": "huggingface:mradermacher/Gemma4-12B-Uncensored-i1-GGUF",
-    "name": "Gemma4-12B-Uncensored-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-12T10:02:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Gemma4-12B-Uncensored-i1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "gemma4",
-      "gemma-4-12b",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T16:46:57.906761+00:00",
-    "source_ids": [
-      "mradermacher/Gemma4-12B-Uncensored-i1-GGUF"
-    ],
-    "family": "Gemma4-Uncensored-i1"
-  },
-  {
     "id": "huggingface:edwixx/diffusiongemma-26B-A4B-it-HERETIC-Uncensored",
     "name": "diffusiongemma-26B-A4B-it-HERETIC-Uncensored",
     "provider": "edwixx",
@@ -14053,41 +13884,6 @@
       "mradermacher/Wanabi-Gemma4-31B-i1-GGUF"
     ],
     "family": "Wanabi-Gemma4-i1"
-  },
-  {
-    "id": "huggingface:mradermacher/Hemlock-Qwopus3.5-9B-Coder-i1-GGUF",
-    "name": "Hemlock-Qwopus3.5-9B-Coder-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-03T08:14:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Hemlock-Qwopus3.5-9B-Coder-i1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "merlina",
-      "grimoire",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T16:46:57.906692+00:00",
-    "source_ids": [
-      "mradermacher/Hemlock-Qwopus3.5-9B-Coder-i1-GGUF"
-    ],
-    "family": "Hemlock-Qwopus3.5-Coder-i1"
   },
   {
     "id": "huggingface:meshllm/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-layers",
