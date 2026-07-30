@@ -35,6 +35,41 @@
     "family": "Qwen3.6-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP"
   },
   {
+    "id": "huggingface:thinkingmachines/Inkling-Small-NVFP4",
+    "name": "Inkling-Small-NVFP4",
+    "provider": "thinkingmachines",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T22:34:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thinkingmachines/Inkling-Small-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "inkling_mm_model",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-30T21:09:48.379356+00:00",
+    "source_ids": [
+      "thinkingmachines/Inkling-Small-NVFP4"
+    ],
+    "family": "Inkling-Small-NVFP4"
+  },
+  {
     "id": "openrouter:qwen/qwen3.7-flash",
     "name": "Qwen: Qwen3.7 Flash",
     "provider": "Qwen",
@@ -8699,39 +8734,6 @@
     "family": "Mistral-Medium-3.5-NVFP4"
   },
   {
-    "id": "openrouter:anthropic/claude-sonnet-5",
-    "name": "Anthropic: Claude Sonnet 5",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T18:11:23+00:00",
-    "context_length": 1000000,
-    "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
-    "url": "https://openrouter.ai/anthropic/claude-sonnet-5",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.0,
-      "completion_per_million": 10.0
-    },
-    "first_seen": "2026-06-30T20:41:41.009105+00:00",
-    "source_ids": [
-      "anthropic/claude-sonnet-5"
-    ],
-    "family": "Claude Sonnet 5"
-  },
-  {
     "id": "openrouter:anthropic/claude-sonnet-5:batch",
     "name": "Anthropic: Claude Sonnet 5 (batch)",
     "provider": "Anthropic",
@@ -8831,38 +8833,6 @@
       "neko-legends/Qwen3.6-35B-A3B-NVFP4-MTP-GGUF"
     ],
     "family": "Qwen3.6-NVFP4-MTP"
-  },
-  {
-    "id": "openrouter:google/gemini-3.1-flash-lite-image",
-    "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "image",
-      "text"
-    ],
-    "release_date": "2026-06-30T16:33:45+00:00",
-    "context_length": 65536,
-    "description": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image generation...",
-    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite-image",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.25,
-      "completion_per_million": 1.5
-    },
-    "first_seen": "2026-06-30T20:41:41.010034+00:00",
-    "source_ids": [
-      "google/gemini-3.1-flash-lite-image"
-    ],
-    "family": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
   },
   {
     "id": "huggingface:BSC-LT/ALIA-40b-instruct-2606",
@@ -9677,39 +9647,6 @@
       "FadedRedStar/LFM2.5-8B-A1B-heretic-imatrix-GGUF"
     ],
     "family": "LFM2.5-heretic-imatrix"
-  },
-  {
-    "id": "huggingface:LordNeel/Ornith-1.0-35B-GGUF-llamacpp-tp1",
-    "name": "Ornith-1.0-35B-GGUF-llamacpp-tp1",
-    "provider": "LordNeel",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T22:50:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LordNeel/Ornith-1.0-35B-GGUF-llamacpp-tp1",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama-cpp",
-      "quantized",
-      "text-generation",
-      "coding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T20:41:41.094667+00:00",
-    "source_ids": [
-      "LordNeel/Ornith-1.0-35B-GGUF-llamacpp-tp1"
-    ],
-    "family": "Ornith-1.0--llamacpp-tp1"
   },
   {
     "id": "huggingface:AtomicChat/ornith-9b-MLX-8bit",
@@ -18172,40 +18109,6 @@
     "family": "Huihui-Qwen3-VL--abliterated-4bit-g32-mxfp4-mixed_4_8-mlx"
   },
   {
-    "id": "huggingface:DeverStyle/Flux.2-Klein-Loras",
-    "name": "Flux.2-Klein-Loras",
-    "provider": "DeverStyle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-01-23T00:37:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DeverStyle/Flux.2-Klein-Loras",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:black-forest-labs/FLUX.2-klein-9B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T20:41:41.178304+00:00",
-    "source_ids": [
-      "DeverStyle/Flux.2-Klein-Loras"
-    ],
-    "family": "Flux.2-Klein-Loras"
-  },
-  {
     "id": "huggingface:HPLT/NorOLMo-13B",
     "name": "NorOLMo-13B",
     "provider": "HPLT",
@@ -18371,6 +18274,41 @@
       "Darayut/khmer-text-recognition"
     ],
     "family": "khmer-text-recognition"
+  },
+  {
+    "id": "huggingface:mradermacher/AfriqueGemma-12B-i1-GGUF",
+    "name": "AfriqueGemma-12B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-08T07:42:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/AfriqueGemma-12B-i1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "african-languages",
+      "multilingual",
+      "continued-pretraining"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-30T21:09:48.379266+00:00",
+    "source_ids": [
+      "mradermacher/AfriqueGemma-12B-i1-GGUF"
+    ],
+    "family": "AfriqueGemma-i1"
   },
   {
     "id": "huggingface:skt/A.X-K1",
