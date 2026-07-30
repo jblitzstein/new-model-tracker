@@ -68,6 +68,41 @@
     "family": "Qwen3.7 Flash"
   },
   {
+    "id": "huggingface:AtomicChat/Kimi-K3-GGUF",
+    "name": "Kimi-K3-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T18:46:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/Kimi-K3-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "kimi-k3",
+      "moe",
+      "imatrix",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-30T14:01:23.393057+00:00",
+    "source_ids": [
+      "AtomicChat/Kimi-K3-GGUF"
+    ],
+    "family": "Kimi-K3"
+  },
+  {
     "id": "huggingface:FermionResearch/Neutrino-8B",
     "name": "Neutrino-8B",
     "provider": "FermionResearch",
@@ -5077,6 +5112,40 @@
       "openai/gpt-5.6-sol"
     ],
     "family": "GPT-5.6 Sol"
+  },
+  {
+    "id": "huggingface:Qualcomm-AI-Research/mobilewan",
+    "name": "mobilewan",
+    "provider": "Qualcomm-AI-Research",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-07-09T09:36:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qualcomm-AI-Research/mobilewan",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "efficient",
+      "mobile video generation",
+      "dit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-30T14:01:22.811651+00:00",
+    "source_ids": [
+      "Qualcomm-AI-Research/mobilewan"
+    ],
+    "family": "mobilewan"
   },
   {
     "id": "huggingface:Siddh07ETH/Pluto-Genesis-0.6B",
@@ -10851,39 +10920,6 @@
     "family": "GLM-5.2-Alis-MLX-Dynamic-3.5bpw"
   },
   {
-    "id": "huggingface:mradermacher/g4-12b-it-trismegistus-i1-GGUF",
-    "name": "g4-12b-it-trismegistus-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-21T09:02:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/g4-12b-it-trismegistus-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "gemma",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T12:46:16.038480+00:00",
-    "source_ids": [
-      "mradermacher/g4-12b-it-trismegistus-i1-GGUF"
-    ],
-    "family": "g4-it-trismegistus-i1"
-  },
-  {
     "id": "huggingface:meshllm/GLM-5.2-Q2_K-MTP-Q8-layers",
     "name": "GLM-5.2-Q2_K-MTP-Q8-layers",
     "provider": "meshllm",
@@ -11417,39 +11453,6 @@
       "PhalaCloud/GLM-5.2-W4AFP8"
     ],
     "family": "GLM-5.2-W4AFP8"
-  },
-  {
-    "id": "huggingface:mradermacher/Ornstein-3.5-9B-V1.5-i1-GGUF",
-    "name": "Ornstein-3.5-9B-V1.5-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-18T08:55:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Ornstein-3.5-9B-V1.5-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "safetensors",
-      "qwen3_5",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T12:46:16.038411+00:00",
-    "source_ids": [
-      "mradermacher/Ornstein-3.5-9B-V1.5-i1-GGUF"
-    ],
-    "family": "Ornstein-3.5-V1.5-i1"
   },
   {
     "id": "huggingface:Kwai-Keye/Keye-VL-2.0-30B-A3B-GGUF",
@@ -13279,39 +13282,6 @@
       "furiosa-ai/Solar-Open-100B-NVFP4A16"
     ],
     "family": "Solar-Open-NVFP4A16"
-  },
-  {
-    "id": "huggingface:mradermacher/STARK-WEB-12B-i1-GGUF",
-    "name": "STARK-WEB-12B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-09T08:16:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/STARK-WEB-12B-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "code",
-      "text-generation",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-06-30T12:46:16.038325+00:00",
-    "source_ids": [
-      "mradermacher/STARK-WEB-12B-i1-GGUF"
-    ],
-    "family": "STARK-WEB-i1"
   },
   {
     "id": "huggingface:meshllm/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL-layers",
@@ -16042,6 +16012,41 @@
       "leonsarmiento/Qwen3.6-27B-3bit-mlx"
     ],
     "family": "Qwen3.6-3bit-mlx"
+  },
+  {
+    "id": "huggingface:huginnfork/Qwen3.6-27B-uncensored-heretic-v2-mtp-FP8",
+    "name": "Qwen3.6-27B-uncensored-heretic-v2-mtp-FP8",
+    "provider": "huginnfork",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-26T19:21:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huginnfork/Qwen3.6-27B-uncensored-heretic-v2-mtp-FP8",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "fp8",
+      "compressed-tensors",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-30T14:01:23.393107+00:00",
+    "source_ids": [
+      "huginnfork/Qwen3.6-27B-uncensored-heretic-v2-mtp-FP8"
+    ],
+    "family": "Qwen3.6-uncensored-heretic-v2-mtp-FP8"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-31B-it-OptiQ-4bit",
