@@ -108456,5 +108456,170 @@
       "CloudGoat/Mephisto-4B-0725"
     ],
     "family": "Mephisto-0725"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling-small",
+    "name": "Thinking Machines: Inkling Small",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T20:25:17+00:00",
+    "context_length": 524288,
+    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-small",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.58,
+      "completion_per_million": 1.44
+    },
+    "first_seen": "2026-07-31T17:36:37.400674+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling-small"
+    ],
+    "family": "Inkling Small"
+  },
+  {
+    "id": "huggingface:utter-project/EuroLLM-9B-Instruct-2512",
+    "name": "EuroLLM-9B-Instruct-2512",
+    "provider": "utter-project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-26T14:21:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/utter-project/EuroLLM-9B-Instruct-2512",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.624957+00:00",
+    "source_ids": [
+      "utter-project/EuroLLM-9B-Instruct-2512"
+    ],
+    "family": "EuroLLM--2512"
+  },
+  {
+    "id": "huggingface:utter-project/EuroLLM-22B-2512",
+    "name": "EuroLLM-22B-2512",
+    "provider": "utter-project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-24T20:57:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/utter-project/EuroLLM-22B-2512",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.624995+00:00",
+    "source_ids": [
+      "utter-project/EuroLLM-22B-2512"
+    ],
+    "family": "EuroLLM-2512"
+  },
+  {
+    "id": "huggingface:utter-project/EuroLLM-22B-Instruct-2512",
+    "name": "EuroLLM-22B-Instruct-2512",
+    "provider": "utter-project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-05T02:33:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.625024+00:00",
+    "source_ids": [
+      "utter-project/EuroLLM-22B-Instruct-2512"
+    ],
+    "family": "EuroLLM--2512"
+  },
+  {
+    "id": "huggingface:Nanthasit/sakthai-context-7b-merged",
+    "name": "sakthai-context-7b-merged",
+    "provider": "Nanthasit",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T09:37:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Nanthasit/sakthai-context-7b-merged",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "qwen2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.625087+00:00",
+    "source_ids": [
+      "Nanthasit/sakthai-context-7b-merged"
+    ],
+    "family": "sakthai-context-merged"
   }
 ]

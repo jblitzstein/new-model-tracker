@@ -29,6 +29,39 @@
     "family": "DeepSeek V4 Flash"
   },
   {
+    "id": "openrouter:thinkingmachines/inkling-small",
+    "name": "Thinking Machines: Inkling Small",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T20:25:17+00:00",
+    "context_length": 524288,
+    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-small",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.58,
+      "completion_per_million": 1.44
+    },
+    "first_seen": "2026-07-31T17:36:37.400674+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling-small"
+    ],
+    "family": "Inkling Small"
+  },
+  {
     "id": "huggingface:Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World",
     "name": "Cosmos-1.0-Diffusion-7B-Text2World",
     "provider": "Arsh9210",
@@ -6802,6 +6835,39 @@
     "family": "Qwopus3.6-Coder-OPAL"
   },
   {
+    "id": "huggingface:Nanthasit/sakthai-context-7b-merged",
+    "name": "sakthai-context-7b-merged",
+    "provider": "Nanthasit",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-06T09:37:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Nanthasit/sakthai-context-7b-merged",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "qwen2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.625087+00:00",
+    "source_ids": [
+      "Nanthasit/sakthai-context-7b-merged"
+    ],
+    "family": "sakthai-context-merged"
+  },
+  {
     "id": "huggingface:jarrelscy/GLM-5.2-NVFP4-AQLM-hybrid",
     "name": "GLM-5.2-NVFP4-AQLM-hybrid",
     "provider": "jarrelscy",
@@ -9035,39 +9101,6 @@
       "UniversalComputingResearch/Atom2.7m"
     ],
     "family": "Atom2.7m"
-  },
-  {
-    "id": "huggingface:nvidia/Mistral-Medium-3.5-128B-NVFP4",
-    "name": "Mistral-Medium-3.5-128B-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T19:32:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Mistral-Medium-3.5-128B-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "mistral3",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-01T16:49:51.277581+00:00",
-    "source_ids": [
-      "nvidia/Mistral-Medium-3.5-128B-NVFP4"
-    ],
-    "family": "Mistral-Medium-3.5-NVFP4"
   },
   {
     "id": "openrouter:anthropic/claude-sonnet-5:batch",
@@ -14655,41 +14688,6 @@
     "family": "GRM-2.6-Plus--BF16-INT4"
   },
   {
-    "id": "huggingface:RedHatAI/Kimi-K2.6-NVFP4",
-    "name": "Kimi-K2.6-NVFP4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-30T12:57:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Kimi-K2.6-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "kimi_k25",
-      "feature-extraction",
-      "kimi"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-01T16:49:52.141890+00:00",
-    "source_ids": [
-      "RedHatAI/Kimi-K2.6-NVFP4"
-    ],
-    "family": "Kimi-K2.6-NVFP4"
-  },
-  {
     "id": "huggingface:DreamFast/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
     "name": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
     "provider": "DreamFast",
@@ -14919,41 +14917,6 @@
       "allenai/Dense_1b_130B"
     ],
     "family": "Dense_1b"
-  },
-  {
-    "id": "huggingface:RedHatAI/Kimi-K2.6-FP8-BLOCK",
-    "name": "Kimi-K2.6-FP8-BLOCK",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-29T17:44:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Kimi-K2.6-FP8-BLOCK",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "kimi_k25",
-      "feature-extraction",
-      "kimi"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-01T16:49:52.141831+00:00",
-    "source_ids": [
-      "RedHatAI/Kimi-K2.6-FP8-BLOCK"
-    ],
-    "family": "Kimi-K2.6-FP8-BLOCK"
   },
   {
     "id": "huggingface:cstr/parakeet-tdt-0.6b-ja-GGUF",
@@ -17320,6 +17283,39 @@
     "family": "Huihui-Qwen3-VL--abliterated-4bit-g32-mxfp4-mixed_4_8-mlx"
   },
   {
+    "id": "huggingface:utter-project/EuroLLM-9B-Instruct-2512",
+    "name": "EuroLLM-9B-Instruct-2512",
+    "provider": "utter-project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-26T14:21:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/utter-project/EuroLLM-9B-Instruct-2512",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.624957+00:00",
+    "source_ids": [
+      "utter-project/EuroLLM-9B-Instruct-2512"
+    ],
+    "family": "EuroLLM--2512"
+  },
+  {
     "id": "huggingface:HPLT/NorOLMo-13B",
     "name": "NorOLMo-13B",
     "provider": "HPLT",
@@ -17729,6 +17725,39 @@
     "family": "Devstral-Small-2--2512-4bit"
   },
   {
+    "id": "huggingface:utter-project/EuroLLM-22B-Instruct-2512",
+    "name": "EuroLLM-22B-Instruct-2512",
+    "provider": "utter-project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-05T02:33:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.625024+00:00",
+    "source_ids": [
+      "utter-project/EuroLLM-22B-Instruct-2512"
+    ],
+    "family": "EuroLLM--2512"
+  },
+  {
     "id": "huggingface:mayocream/manga-ocr",
     "name": "manga-ocr",
     "provider": "mayocream",
@@ -17761,6 +17790,39 @@
       "mayocream/manga-ocr"
     ],
     "family": "manga-ocr"
+  },
+  {
+    "id": "huggingface:utter-project/EuroLLM-22B-2512",
+    "name": "EuroLLM-22B-2512",
+    "provider": "utter-project",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-24T20:57:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/utter-project/EuroLLM-22B-2512",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T17:36:37.624995+00:00",
+    "source_ids": [
+      "utter-project/EuroLLM-22B-2512"
+    ],
+    "family": "EuroLLM-2512"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.5:batch",
