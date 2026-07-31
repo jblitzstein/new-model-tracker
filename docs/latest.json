@@ -29,6 +29,40 @@
     "family": "DeepSeek V4 Flash"
   },
   {
+    "id": "huggingface:Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World",
+    "name": "Cosmos-1.0-Diffusion-7B-Text2World",
+    "provider": "Arsh9210",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-07-30T11:23:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World",
+    "tags": [
+      "text-to-video",
+      "cosmos",
+      "diffusers",
+      "safetensors",
+      "nvidia",
+      "nemo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T14:05:48.772067+00:00",
+    "source_ids": [
+      "Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World"
+    ],
+    "family": "Cosmos-1.0-Diffusion-Text2World"
+  },
+  {
     "id": "huggingface:data-archetype/canter",
     "name": "canter",
     "provider": "data-archetype",
@@ -61,6 +95,40 @@
       "data-archetype/canter"
     ],
     "family": "canter"
+  },
+  {
+    "id": "huggingface:Audio8/Audio8-TTS-Preview-0.6b",
+    "name": "Audio8-TTS-Preview-0.6b",
+    "provider": "Audio8",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-28T07:53:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "arktts",
+      "feature-extraction",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T14:05:49.004011+00:00",
+    "source_ids": [
+      "Audio8/Audio8-TTS-Preview-0.6b"
+    ],
+    "family": "Audio8-TTS"
   },
   {
     "id": "huggingface:DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP",
@@ -405,6 +473,41 @@
     "family": "Mage-VL"
   },
   {
+    "id": "huggingface:CloudGoat/Mephisto-4B-0725",
+    "name": "Mephisto-4B-0725",
+    "provider": "CloudGoat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T07:29:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CloudGoat/Mephisto-4B-0725",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T14:05:49.238998+00:00",
+    "source_ids": [
+      "CloudGoat/Mephisto-4B-0725"
+    ],
+    "family": "Mephisto-0725"
+  },
+  {
     "id": "openrouter:anthropic/claude-opus-5-fast",
     "name": "Claude Opus 5 (Fast)",
     "provider": "Anthropic",
@@ -502,6 +605,40 @@
       "anthropic/claude-opus-5:batch"
     ],
     "family": "Claude Opus 5 (batch)"
+  },
+  {
+    "id": "huggingface:agiws/Fun-CosyVoice3-0.5B",
+    "name": "Fun-CosyVoice3-0.5B",
+    "provider": "agiws",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-24T08:52:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agiws/Fun-CosyVoice3-0.5B",
+    "tags": [
+      "text-to-speech",
+      "cosyvoice",
+      "onnx",
+      "safetensors",
+      "text-to-speech",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T14:05:49.003908+00:00",
+    "source_ids": [
+      "agiws/Fun-CosyVoice3-0.5B"
+    ],
+    "family": "Fun-CosyVoice3"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF",
@@ -3542,6 +3679,39 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V6"
+  },
+  {
+    "id": "huggingface:User01110/CMA-8M",
+    "name": "CMA-8M",
+    "provider": "User01110",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T04:10:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/User01110/CMA-8M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "cma",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-07-31T14:05:48.418693+00:00",
+    "source_ids": [
+      "User01110/CMA-8M"
+    ],
+    "family": "CMA-8M"
   },
   {
     "id": "huggingface:ByteDance/UniVR-34B-Planning",
