@@ -108257,5 +108257,34 @@
       "nvidia/Ising-Calibration-1.5-31B-BF16"
     ],
     "family": "Ising-Calibration-1.5-BF16"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T06:21:48+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.14,
+      "completion_per_million": 0.28
+    },
+    "first_seen": "2026-07-31T10:38:25.070068+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4-flash-0731"
+    ],
+    "family": "DeepSeek V4 Flash"
   }
 ]
