@@ -1,5 +1,34 @@
 [
   {
+    "id": "openrouter:~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek V4 Flash Latest",
+    "provider": "~deepseek",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T17:40:09+00:00",
+    "context_length": 1048576,
+    "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
+    "url": "https://openrouter.ai/~deepseek/deepseek-v4-flash-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.09,
+      "completion_per_million": 0.18
+    },
+    "first_seen": "2026-08-01T20:52:37.099419+00:00",
+    "source_ids": [
+      "~deepseek/deepseek-v4-flash-latest"
+    ],
+    "family": "DeepSeek V4 Flash Latest"
+  },
+  {
     "id": "openrouter:deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "DeepSeek",
@@ -1296,6 +1325,72 @@
     "family": "grpo-round1"
   },
   {
+    "id": "huggingface:saidutta69/granite-4.1-8b-heretic",
+    "name": "granite-4.1-8b-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T21:59:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/granite-4.1-8b-heretic",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "granite",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.174353+00:00",
+    "source_ids": [
+      "saidutta69/granite-4.1-8b-heretic"
+    ],
+    "family": "granite-4.1-heretic"
+  },
+  {
+    "id": "huggingface:saidutta69/Mistral-Nemo-Instruct-heretic",
+    "name": "Mistral-Nemo-Instruct-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T20:47:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/Mistral-Nemo-Instruct-heretic",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "mistral",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.174547+00:00",
+    "source_ids": [
+      "saidutta69/Mistral-Nemo-Instruct-heretic"
+    ],
+    "family": "Mistral-Nemo--heretic"
+  },
+  {
     "id": "huggingface:joeygambino/joyai-echo-ltx23-echoVid-ltxAud-surgical-gguf",
     "name": "joyai-echo-ltx23-echoVid-ltxAud-surgical-gguf",
     "provider": "joeygambino",
@@ -2385,6 +2480,39 @@
     "family": "Inkling-mlx-2bit"
   },
   {
+    "id": "huggingface:saidutta69/Qwen2.5-Coder-7B-Instruct-heretic",
+    "name": "Qwen2.5-Coder-7B-Instruct-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T22:11:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/Qwen2.5-Coder-7B-Instruct-heretic",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "code",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.174403+00:00",
+    "source_ids": [
+      "saidutta69/Qwen2.5-Coder-7B-Instruct-heretic"
+    ],
+    "family": "Qwen2.5-Coder--heretic"
+  },
+  {
     "id": "huggingface:penfever/grug-67b-a2b-sft-s2-thinking-step630",
     "name": "grug-67b-a2b-sft-s2-thinking-step630",
     "provider": "penfever",
@@ -2416,6 +2544,105 @@
       "penfever/grug-67b-a2b-sft-s2-thinking-step630"
     ],
     "family": "grug-sft-s2--step630"
+  },
+  {
+    "id": "huggingface:saidutta69/Qwen3-8B-heretic",
+    "name": "Qwen3-8B-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T20:18:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/Qwen3-8B-heretic",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3",
+      "chat",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.174442+00:00",
+    "source_ids": [
+      "saidutta69/Qwen3-8B-heretic"
+    ],
+    "family": "Qwen3-heretic"
+  },
+  {
+    "id": "huggingface:saidutta69/Qwen2.5-14B-Instruct-heretic",
+    "name": "Qwen2.5-14B-Instruct-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T19:55:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/Qwen2.5-14B-Instruct-heretic",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "chat",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.174468+00:00",
+    "source_ids": [
+      "saidutta69/Qwen2.5-14B-Instruct-heretic"
+    ],
+    "family": "Qwen2.5--heretic"
+  },
+  {
+    "id": "huggingface:saidutta69/Qwen2.5-7B-Instruct-heretic",
+    "name": "Qwen2.5-7B-Instruct-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T19:21:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/Qwen2.5-7B-Instruct-heretic",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "chat",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.174499+00:00",
+    "source_ids": [
+      "saidutta69/Qwen2.5-7B-Instruct-heretic"
+    ],
+    "family": "Qwen2.5--heretic"
   },
   {
     "id": "openrouter:moonshotai/kimi-k3",
@@ -2826,6 +3053,39 @@
       "RedHatAI/Inkling-FP8-dynamic"
     ],
     "family": "Inkling-FP8-dynamic"
+  },
+  {
+    "id": "huggingface:saidutta69/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-heretic",
+    "name": "MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T21:34:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-heretic",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "llama",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.174578+00:00",
+    "source_ids": [
+      "saidutta69/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-heretic"
+    ],
+    "family": "MiniCPM5-Claude-Opus-Fable5-V2--heretic"
   },
   {
     "id": "huggingface:mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
@@ -8213,61 +8473,6 @@
     "family": "Audar-ASR-V1-Flash"
   },
   {
-    "id": "openrouter:poolside/laguna-xs-2.1:free",
-    "name": "Poolside: Laguna XS 2.1 (free)",
-    "provider": "poolside",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T14:27:09+00:00",
-    "context_length": 262144,
-    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
-    "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-07-02T17:48:05.175326+00:00",
-    "source_ids": [
-      "poolside/laguna-xs-2.1:free"
-    ],
-    "family": "Laguna XS 2.1"
-  },
-  {
-    "id": "openrouter:poolside/laguna-xs-2.1",
-    "name": "Poolside: Laguna XS 2.1",
-    "provider": "poolside",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T14:27:09+00:00",
-    "context_length": 262144,
-    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
-    "url": "https://openrouter.ai/poolside/laguna-xs-2.1",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.06,
-      "completion_per_million": 0.12
-    },
-    "first_seen": "2026-07-02T17:48:05.176338+00:00",
-    "source_ids": [
-      "poolside/laguna-xs-2.1"
-    ],
-    "family": "Laguna XS 2.1"
-  },
-  {
     "id": "huggingface:ecreeth/stream-mixer-33m-babylm",
     "name": "stream-mixer-33m-babylm",
     "provider": "ecreeth",
@@ -11630,6 +11835,40 @@
     "family": "Chatterbox-Multilingual-TTS"
   },
   {
+    "id": "huggingface:BricksDisplay/Chatterbox-Multilingual-TTS-GGUF",
+    "name": "Chatterbox-Multilingual-TTS-GGUF",
+    "provider": "BricksDisplay",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-18T08:30:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BricksDisplay/Chatterbox-Multilingual-TTS-GGUF",
+    "tags": [
+      "text-to-speech",
+      "chatterbox",
+      "gguf",
+      "tts",
+      "chatterbox-multilingual",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-01T20:52:37.454768+00:00",
+    "source_ids": [
+      "BricksDisplay/Chatterbox-Multilingual-TTS-GGUF"
+    ],
+    "family": "Chatterbox-Multilingual-TTS"
+  },
+  {
     "id": "huggingface:krea/Krea-2-Raw",
     "name": "Krea-2-Raw",
     "provider": "krea",
@@ -11865,39 +12104,6 @@
       "hotdogs/qwen3.6-27b-fable5-lora"
     ],
     "family": "qwen3.6-fable5-lora"
-  },
-  {
-    "id": "huggingface:King3Djbl/mythos-9b-unhinged",
-    "name": "mythos-9b-unhinged",
-    "provider": "King3Djbl",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-17T11:26:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/King3Djbl/mythos-9b-unhinged",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "qwen3",
-      "uncensored",
-      "agent"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-02T17:48:05.294195+00:00",
-    "source_ids": [
-      "King3Djbl/mythos-9b-unhinged"
-    ],
-    "family": "mythos-unhinged"
   },
   {
     "id": "huggingface:amd/Qwen3.5-397B-A17B-MoE-MXFP4",
