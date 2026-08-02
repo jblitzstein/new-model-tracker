@@ -29,6 +29,40 @@
     "family": "DeepSeek V4 Flash Latest"
   },
   {
+    "id": "huggingface:sulaimank/w2vbert-waxal-r5",
+    "name": "w2vbert-waxal-r5",
+    "provider": "sulaimank",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T14:04:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sulaimank/w2vbert-waxal-r5",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "wav2vec2-bert",
+      "automatic-speech-recognition",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T09:56:19.318373+00:00",
+    "source_ids": [
+      "sulaimank/w2vbert-waxal-r5"
+    ],
+    "family": "w2vbert-waxal-r5"
+  },
+  {
     "id": "openrouter:deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "DeepSeek",
@@ -56,6 +90,40 @@
       "deepseek/deepseek-v4-flash-0731"
     ],
     "family": "DeepSeek V4 Flash"
+  },
+  {
+    "id": "huggingface:jaspalsinghsaluja/fb-mms-1b-ncer-train-105029-epochs-15-test-1569",
+    "name": "fb-mms-1b-ncer-train-105029-epochs-15-test-1569",
+    "provider": "jaspalsinghsaluja",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T21:52:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jaspalsinghsaluja/fb-mms-1b-ncer-train-105029-epochs-15-test-1569",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T09:56:19.318558+00:00",
+    "source_ids": [
+      "jaspalsinghsaluja/fb-mms-1b-ncer-train-105029-epochs-15-test-1569"
+    ],
+    "family": "fb-mms-ncer-train-105029-epochs-15-test-1569"
   },
   {
     "id": "openrouter:thinkingmachines/inkling-small",
@@ -497,6 +565,41 @@
     "family": "Kimi-K3"
   },
   {
+    "id": "huggingface:hotdogs/Agents-A1-4B-Fable-Preview-GGUF",
+    "name": "Agents-A1-4B-Fable-Preview-GGUF",
+    "provider": "hotdogs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T20:41:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hotdogs/Agents-A1-4B-Fable-Preview-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "agents",
+      "agents-a1",
+      "fable",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T09:56:19.374877+00:00",
+    "source_ids": [
+      "hotdogs/Agents-A1-4B-Fable-Preview-GGUF"
+    ],
+    "family": "Agents-A1-Fable"
+  },
+  {
     "id": "huggingface:sullivan1502/base-grpo-round2",
     "name": "base-grpo-round2",
     "provider": "sullivan1502",
@@ -598,6 +701,41 @@
       "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit"
     ],
     "family": "Qwen3.6-Fable-Fusion-711-MTPLX-8bit"
+  },
+  {
+    "id": "huggingface:mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
+    "name": "OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T14:08:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "vision-language",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T09:56:19.428108+00:00",
+    "source_ids": [
+      "mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF"
+    ],
+    "family": "OpenCaption-VL-SFT-v1.0-i1"
   },
   {
     "id": "huggingface:microsoft/Mage-VL",
@@ -2369,6 +2507,40 @@
       "anonym5035/swi_glu_sw_64_16_8_4_xpert_gpt"
     ],
     "family": "swi_glu_sw_64_16_8_4_xpert_gpt"
+  },
+  {
+    "id": "huggingface:OpenASR/firered2-llm",
+    "name": "firered2-llm",
+    "provider": "OpenASR",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T04:02:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenASR/firered2-llm",
+    "tags": [
+      "automatic-speech-recognition",
+      "openasr",
+      "automatic-speech-recognition",
+      "speech-to-text",
+      "oasr",
+      "firered2-llm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T09:56:19.318436+00:00",
+    "source_ids": [
+      "OpenASR/firered2-llm"
+    ],
+    "family": "firered2-llm"
   },
   {
     "id": "huggingface:inferencerlabs/Inkling-MLX-Q3",
@@ -11264,39 +11436,6 @@
     "family": "gepard-1.0"
   },
   {
-    "id": "huggingface:InternScience/Agents-A1",
-    "name": "Agents-A1",
-    "provider": "InternScience",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-22T02:22:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/InternScience/Agents-A1",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-03T07:20:11.394669+00:00",
-    "source_ids": [
-      "InternScience/Agents-A1"
-    ],
-    "family": "Agents-A1"
-  },
-  {
     "id": "huggingface:AyaanAhmed123/Spark_one",
     "name": "Spark_one",
     "provider": "AyaanAhmed123",
@@ -12984,39 +13123,6 @@
       "trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion"
     ],
     "family": "tiny-DiffusionGemmaForBlockDiffusion"
-  },
-  {
-    "id": "huggingface:Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF",
-    "name": "Qwen3.6-35B-A3B-abliterated-v4-GGUF",
-    "provider": "Bahushruth",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-11T12:26:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "abliteration",
-      "uncensored",
-      "qwen3",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-03T07:20:11.394784+00:00",
-    "source_ids": [
-      "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF"
-    ],
-    "family": "Qwen3.6-abliterated-v4"
   },
   {
     "id": "huggingface:Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
@@ -15869,40 +15975,6 @@
       "Jackrong/Gemopus-4-31B-it-GGUF"
     ],
     "family": "Gemopus-4-it"
-  },
-  {
-    "id": "huggingface:cstr/qwen3-asr-1.7b-GGUF",
-    "name": "qwen3-asr-1.7b-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-11T17:37:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/qwen3-asr-1.7b-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "gguf",
-      "asr",
-      "speech-recognition",
-      "qwen3",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-03T07:20:11.780795+00:00",
-    "source_ids": [
-      "cstr/qwen3-asr-1.7b-GGUF"
-    ],
-    "family": "qwen3-asr"
   },
   {
     "id": "huggingface:cstr/qwen3-asr-0.6b-GGUF",
