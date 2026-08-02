@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:el4/GRM-3.2-Sky-OPAL-GGUF",
+    "name": "GRM-3.2-Sky-OPAL-GGUF",
+    "provider": "el4",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T20:03:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/el4/GRM-3.2-Sky-OPAL-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "moe",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T20:54:52.997009+00:00",
+    "source_ids": [
+      "el4/GRM-3.2-Sky-OPAL-GGUF"
+    ],
+    "family": "GRM-3.2-Sky-OPAL"
+  },
+  {
     "id": "openrouter:~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
@@ -293,6 +326,40 @@
       "gkraker04/Nanbeige4.2-3B-GGUF"
     ],
     "family": "Nanbeige4.2"
+  },
+  {
+    "id": "huggingface:amirsz8203/whisper-small-fa-finetuned",
+    "name": "whisper-small-fa-finetuned",
+    "provider": "amirsz8203",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-29T01:35:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amirsz8203/whisper-small-fa-finetuned",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T20:54:53.381946+00:00",
+    "source_ids": [
+      "amirsz8203/whisper-small-fa-finetuned"
+    ],
+    "family": "whisper-small-fa-finetuned"
   },
   {
     "id": "huggingface:lancejames221b/hawq-sec-re-v1",
@@ -669,6 +736,40 @@
     "family": "Agents-A1-Fable"
   },
   {
+    "id": "huggingface:amineouaki/hubert-darija-combined",
+    "name": "hubert-darija-combined",
+    "provider": "amineouaki",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T18:41:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amineouaki/hubert-darija-combined",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "hubert",
+      "automatic-speech-recognition",
+      "darija",
+      "moroccan-arabic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T20:54:53.382083+00:00",
+    "source_ids": [
+      "amineouaki/hubert-darija-combined"
+    ],
+    "family": "hubert-darija-combined"
+  },
+  {
     "id": "huggingface:sullivan1502/base-grpo-round2",
     "name": "base-grpo-round2",
     "provider": "sullivan1502",
@@ -877,6 +978,40 @@
     "family": "Mephisto-0725"
   },
   {
+    "id": "huggingface:amineouaki/whisper-small-darija-combined",
+    "name": "whisper-small-darija-combined",
+    "provider": "amineouaki",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T03:54:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amineouaki/whisper-small-darija-combined",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "whisper",
+      "darija"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T20:54:53.382042+00:00",
+    "source_ids": [
+      "amineouaki/whisper-small-darija-combined"
+    ],
+    "family": "whisper-small-darija-combined"
+  },
+  {
     "id": "openrouter:anthropic/claude-opus-5-fast",
     "name": "Claude Opus 5 (Fast)",
     "provider": "Anthropic",
@@ -1077,6 +1212,40 @@
       "microsoft/VibeVoice-ASR-BitNet"
     ],
     "family": "VibeVoice-ASR-BitNet"
+  },
+  {
+    "id": "huggingface:amineouaki/wav2vec2-darija-combined",
+    "name": "wav2vec2-darija-combined",
+    "provider": "amineouaki",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T01:30:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amineouaki/wav2vec2-darija-combined",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "darija",
+      "moroccan-arabic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-02T20:54:53.382122+00:00",
+    "source_ids": [
+      "amineouaki/wav2vec2-darija-combined"
+    ],
+    "family": "wav2vec2-darija-combined"
   },
   {
     "id": "huggingface:jcbtc/Laguna-S-2.1-Chadrock-ROCmFP4-StrixKVSpine-V4-GGUF",
