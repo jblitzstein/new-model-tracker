@@ -131,6 +131,73 @@
     "family": "DeepSeek-V4-Pro-Qwen3.5-MTP"
   },
   {
+    "id": "huggingface:Vontra/DeepSeek-V4-Flash-0731-MXFP4-MLX",
+    "name": "DeepSeek-V4-Flash-0731-MXFP4-MLX",
+    "provider": "Vontra",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T14:05:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vontra/DeepSeek-V4-Flash-0731-MXFP4-MLX",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "deepseek_v4",
+      "deepseek",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T07:25:49.705296+00:00",
+    "source_ids": [
+      "Vontra/DeepSeek-V4-Flash-0731-MXFP4-MLX"
+    ],
+    "family": "DeepSeek-V4-Flash-0731-MXFP4-MLX"
+  },
+  {
+    "id": "huggingface:Adarshbaghel/Whisper_FT",
+    "name": "Whisper_FT",
+    "provider": "Adarshbaghel",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T12:51:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Adarshbaghel/Whisper_FT",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T07:25:50.192080+00:00",
+    "source_ids": [
+      "Adarshbaghel/Whisper_FT"
+    ],
+    "family": "Whisper_FT"
+  },
+  {
     "id": "openrouter:deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "DeepSeek",
@@ -259,6 +326,40 @@
       "Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World"
     ],
     "family": "Cosmos-1.0-Diffusion-Text2World"
+  },
+  {
+    "id": "huggingface:ChrisColeTech/krea2-turbo-edit-GGUF",
+    "name": "krea2-turbo-edit-GGUF",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-30T01:28:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/krea2-turbo-edit-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "image-to-image",
+      "image-editing",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T07:25:49.796779+00:00",
+    "source_ids": [
+      "ChrisColeTech/krea2-turbo-edit-GGUF"
+    ],
+    "family": "krea2-turbo-edit"
   },
   {
     "id": "huggingface:SimpleTuner/ltxvideo-2.3-distilled-convrot-int8",
@@ -1109,6 +1210,39 @@
       "anthropic/claude-opus-5:batch"
     ],
     "family": "Claude Opus 5 (batch)"
+  },
+  {
+    "id": "huggingface:Goekdeniz-Guelmez/JOSIE-2-4B-Preview",
+    "name": "JOSIE-2-4B-Preview",
+    "provider": "Goekdeniz-Guelmez",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T13:52:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Goekdeniz-Guelmez/JOSIE-2-4B-Preview",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "josie",
+      "josie-2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T07:25:49.705259+00:00",
+    "source_ids": [
+      "Goekdeniz-Guelmez/JOSIE-2-4B-Preview"
+    ],
+    "family": "JOSIE-2"
   },
   {
     "id": "huggingface:agiws/Fun-CosyVoice3-0.5B",
@@ -11170,6 +11304,41 @@
     "family": "ornith"
   },
   {
+    "id": "huggingface:philbert440/Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ",
+    "name": "Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ",
+    "provider": "philbert440",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-25T17:49:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philbert440/Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T07:25:50.281797+00:00",
+    "source_ids": [
+      "philbert440/Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ"
+    ],
+    "family": "Qwen3.6-Uncensored-Cyber-W4A16"
+  },
+  {
     "id": "huggingface:owensong/Inflect-Micro-v2",
     "name": "Inflect-Micro-v2",
     "provider": "owensong",
@@ -11270,6 +11439,41 @@
       "XiaofengAlg/MechVL-4B-RL"
     ],
     "family": "MechVL-RL"
+  },
+  {
+    "id": "huggingface:philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
+    "name": "Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
+    "provider": "philbert440",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-25T15:58:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T07:25:50.281890+00:00",
+    "source_ids": [
+      "philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ"
+    ],
+    "family": "Qwen3.6-Uncensored-Aggressive-W4A16"
   },
   {
     "id": "huggingface:gokaygokay/Krea-2-Realism-LoRA",
@@ -11605,39 +11809,6 @@
       "andyjack/Huihui-Qwen3.5-122B-A10B-Abliterated-GGUF"
     ],
     "family": "Huihui-Qwen3.5-Abliterated"
-  },
-  {
-    "id": "huggingface:SixVolts/GLM-5.2-ewaste-edition-GGUF",
-    "name": "GLM-5.2-ewaste-edition-GGUF",
-    "provider": "SixVolts",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-23T02:45:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SixVolts/GLM-5.2-ewaste-edition-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "glm-dsa",
-      "moe",
-      "cpu-inference",
-      "imatrix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-04T06:46:37.607283+00:00",
-    "source_ids": [
-      "SixVolts/GLM-5.2-ewaste-edition-GGUF"
-    ],
-    "family": "GLM-5.2-ewaste-edition"
   },
   {
     "id": "huggingface:Rami234/Amrs",
@@ -17545,40 +17716,6 @@
       "MuXodious/Qwen3.5-4B-SOMPOA-heresy-v2"
     ],
     "family": "Qwen3.5-SOMPOA-heresy-v2"
-  },
-  {
-    "id": "huggingface:Granddyser/flux-klein-9b-Biglove-Collection",
-    "name": "flux-klein-9b-Biglove-Collection",
-    "provider": "Granddyser",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-03-05T23:12:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Granddyser/flux-klein-9b-Biglove-Collection",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "gguf",
-      "flux",
-      "flux2",
-      "flux-klein"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-04T02:56:34.113384+00:00",
-    "source_ids": [
-      "Granddyser/flux-klein-9b-Biglove-Collection"
-    ],
-    "family": "flux-klein-Biglove-Collection"
   },
   {
     "id": "openrouter:openai/gpt-5.4:batch",
