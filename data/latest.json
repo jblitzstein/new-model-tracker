@@ -34,6 +34,39 @@
     "family": "whisper-turbo-khmer-v9"
   },
   {
+    "id": "huggingface:huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+    "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-02T09:18:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "GGUF",
+      "huihui"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:30.569578+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF"
+    ],
+    "family": "Huihui-DeepSeek-V4-Flash-0731-abliterated"
+  },
+  {
     "id": "huggingface:el4/GRM-3.2-Sky-OPAL-GGUF",
     "name": "GRM-3.2-Sky-OPAL-GGUF",
     "provider": "el4",
@@ -128,6 +161,40 @@
       "sulaimank/w2vbert-waxal-r5"
     ],
     "family": "w2vbert-waxal-r5"
+  },
+  {
+    "id": "huggingface:huwenjie333/asr-whisper-51-african-languages-grpo",
+    "name": "asr-whisper-51-african-languages-grpo",
+    "provider": "huwenjie333",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T08:50:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huwenjie333/asr-whisper-51-african-languages-grpo",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:31.202266+00:00",
+    "source_ids": [
+      "huwenjie333/asr-whisper-51-african-languages-grpo"
+    ],
+    "family": "asr-whisper-51-african-languages-grpo"
   },
   {
     "id": "huggingface:Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B-MTP-GGUF",
@@ -3899,6 +3966,142 @@
     "family": "Regression-is-Attention"
   },
   {
+    "id": "huggingface:nyralabs/CrisperWhisper2.0_turbo",
+    "name": "CrisperWhisper2.0_turbo",
+    "provider": "nyralabs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T09:10:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nyralabs/CrisperWhisper2.0_turbo",
+    "tags": [
+      "automatic-speech-recognition",
+      "crisperwhisper",
+      "safetensors",
+      "whisper",
+      "speech-recognition",
+      "verbatim"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:31.202381+00:00",
+    "source_ids": [
+      "nyralabs/CrisperWhisper2.0_turbo"
+    ],
+    "family": "CrisperWhisper2.0_turbo"
+  },
+  {
+    "id": "huggingface:nyralabs/CrisperWhisper2.0_small",
+    "name": "CrisperWhisper2.0_small",
+    "provider": "nyralabs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T09:10:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nyralabs/CrisperWhisper2.0_small",
+    "tags": [
+      "automatic-speech-recognition",
+      "crisperwhisper",
+      "safetensors",
+      "whisper",
+      "speech-recognition",
+      "verbatim"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:31.202343+00:00",
+    "source_ids": [
+      "nyralabs/CrisperWhisper2.0_small"
+    ],
+    "family": "CrisperWhisper2.0_small"
+  },
+  {
+    "id": "huggingface:nyralabs/CrisperWhisper2.0_medium",
+    "name": "CrisperWhisper2.0_medium",
+    "provider": "nyralabs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T09:09:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nyralabs/CrisperWhisper2.0_medium",
+    "tags": [
+      "automatic-speech-recognition",
+      "crisperwhisper",
+      "safetensors",
+      "whisper",
+      "speech-recognition",
+      "verbatim"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:31.202363+00:00",
+    "source_ids": [
+      "nyralabs/CrisperWhisper2.0_medium"
+    ],
+    "family": "CrisperWhisper2.0_medium"
+  },
+  {
+    "id": "huggingface:nyralabs/CrisperWhisper2.0_large",
+    "name": "CrisperWhisper2.0_large",
+    "provider": "nyralabs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T09:09:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nyralabs/CrisperWhisper2.0_large",
+    "tags": [
+      "automatic-speech-recognition",
+      "crisperwhisper",
+      "safetensors",
+      "whisper",
+      "speech-recognition",
+      "verbatim"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:31.202397+00:00",
+    "source_ids": [
+      "nyralabs/CrisperWhisper2.0_large"
+    ],
+    "family": "CrisperWhisper2.0_large"
+  },
+  {
     "id": "huggingface:nightmedia/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451",
     "name": "Qwen3.6-27B-Architect-Polaris2-Fable-B-F451",
     "provider": "nightmedia",
@@ -4577,6 +4780,39 @@
       "danielrmay/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16"
     ],
     "family": "NVIDIA-Nemotron-Labs-3-Puzzle-W4A16"
+  },
+  {
+    "id": "huggingface:AnkitAI/Parable-Granite-4.1-3B-Claude-Fable-5-GGUF",
+    "name": "Parable-Granite-4.1-3B-Claude-Fable-5-GGUF",
+    "provider": "AnkitAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T16:54:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AnkitAI/Parable-Granite-4.1-3B-Claude-Fable-5-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qlora",
+      "agentic",
+      "agent",
+      "coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:30.569609+00:00",
+    "source_ids": [
+      "AnkitAI/Parable-Granite-4.1-3B-Claude-Fable-5-GGUF"
+    ],
+    "family": "Parable-Granite-4.1-Claude-Fable-5"
   },
   {
     "id": "huggingface:poolside/Laguna-S-2.1",
@@ -11978,6 +12214,39 @@
     "family": "gepard-1.0"
   },
   {
+    "id": "huggingface:caid-technologies/parti-base",
+    "name": "parti-base",
+    "provider": "caid-technologies",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-21T21:04:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/caid-technologies/parti-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "blueprint"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T14:38:30.569654+00:00",
+    "source_ids": [
+      "caid-technologies/parti-base"
+    ],
+    "family": "parti"
+  },
+  {
     "id": "huggingface:AyaanAhmed123/Spark_one",
     "name": "Spark_one",
     "provider": "AyaanAhmed123",
@@ -15861,40 +16130,6 @@
       "cstr/qwen3-tts-0.6b-base-GGUF"
     ],
     "family": "qwen3-tts"
-  },
-  {
-    "id": "huggingface:cstr/parakeet-tdt-0.6b-ja-GGUF",
-    "name": "parakeet-tdt-0.6b-ja-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-27T20:04:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/parakeet-tdt-0.6b-ja-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "transcription"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-04T13:26:26.687712+00:00",
-    "source_ids": [
-      "cstr/parakeet-tdt-0.6b-ja-GGUF"
-    ],
-    "family": "parakeet-tdt-ja"
   },
   {
     "id": "huggingface:handy-computer/whisper-large-v3-turbo-gguf",
