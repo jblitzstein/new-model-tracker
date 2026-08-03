@@ -111115,5 +111115,73 @@
       "nyralabs/CrisperWhisper2.0_large"
     ],
     "family": "CrisperWhisper2.0_large"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.8-max",
+    "name": "Qwen: Qwen3.8 Max",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-03T04:33:32+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-max",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-08-03T17:50:30.032258+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-max"
+    ],
+    "family": "Qwen3.8 Max"
+  },
+  {
+    "id": "huggingface:NeuralNet-Hub/Qwen3.6-35B-A3B-Uncensored-NVFP4",
+    "name": "Qwen3.6-35B-A3B-Uncensored-NVFP4",
+    "provider": "NeuralNet-Hub",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-22T13:15:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NeuralNet-Hub/Qwen3.6-35B-A3B-Uncensored-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T17:50:34.352934+00:00",
+    "source_ids": [
+      "NeuralNet-Hub/Qwen3.6-35B-A3B-Uncensored-NVFP4"
+    ],
+    "family": "Qwen3.6-Uncensored-NVFP4"
   }
 ]
