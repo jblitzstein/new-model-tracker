@@ -1,5 +1,39 @@
 [
   {
+    "id": "huggingface:1morecupofhottea/whisper-turbo-khmer-v9",
+    "name": "whisper-turbo-khmer-v9",
+    "provider": "1morecupofhottea",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-02T16:18:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/1morecupofhottea/whisper-turbo-khmer-v9",
+    "tags": [
+      "automatic-speech-recognition",
+      "tensorboard",
+      "safetensors",
+      "whisper",
+      "audio",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T11:22:39.888033+00:00",
+    "source_ids": [
+      "1morecupofhottea/whisper-turbo-khmer-v9"
+    ],
+    "family": "whisper-turbo-khmer-v9"
+  },
+  {
     "id": "huggingface:el4/GRM-3.2-Sky-OPAL-GGUF",
     "name": "GRM-3.2-Sky-OPAL-GGUF",
     "provider": "el4",
@@ -129,6 +163,39 @@
       "Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B-MTP-GGUF"
     ],
     "family": "DeepSeek-V4-Pro-Qwen3.5-MTP"
+  },
+  {
+    "id": "huggingface:bullerwins/DeepSeek-V4-Flash-0731-GGUF",
+    "name": "DeepSeek-V4-Flash-0731-GGUF",
+    "provider": "bullerwins",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T15:10:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bullerwins/DeepSeek-V4-Flash-0731-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "deepseek",
+      "deepseek-v4",
+      "mxfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T11:22:39.219756+00:00",
+    "source_ids": [
+      "bullerwins/DeepSeek-V4-Flash-0731-GGUF"
+    ],
+    "family": "DeepSeek-V4-Flash-0731"
   },
   {
     "id": "huggingface:Vontra/DeepSeek-V4-Flash-0731-MXFP4-MLX",
@@ -8645,6 +8712,39 @@
     "family": "nexus-coder"
   },
   {
+    "id": "huggingface:Shlok0011/CulinaAI-Qwen2.5-7B-GGUF",
+    "name": "CulinaAI-Qwen2.5-7B-GGUF",
+    "provider": "Shlok0011",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-04T16:03:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Shlok0011/CulinaAI-Qwen2.5-7B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "recipe-generation",
+      "unsloth",
+      "lora",
+      "qlora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-03T11:22:39.219714+00:00",
+    "source_ids": [
+      "Shlok0011/CulinaAI-Qwen2.5-7B-GGUF"
+    ],
+    "family": "CulinaAI-Qwen2.5"
+  },
+  {
     "id": "huggingface:Jaidchen/Focus",
     "name": "Focus",
     "provider": "Jaidchen",
@@ -11811,40 +11911,6 @@
     "family": "Huihui-Qwen3.5-Abliterated"
   },
   {
-    "id": "huggingface:Rami234/Amrs",
-    "name": "Amrs",
-    "provider": "Rami234",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-22T20:19:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Rami234/Amrs",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:ideogram-ai/ideogram-4-fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-04T10:09:16.542641+00:00",
-    "source_ids": [
-      "Rami234/Amrs"
-    ],
-    "family": "Amrs"
-  },
-  {
     "id": "huggingface:Delentia/delentia-slm-jitna-v0.4",
     "name": "delentia-slm-jitna-v0.4",
     "provider": "Delentia",
@@ -13529,41 +13595,6 @@
       "trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion"
     ],
     "family": "tiny-DiffusionGemmaForBlockDiffusion"
-  },
-  {
-    "id": "huggingface:unsloth/diffusiongemma-26B-A4B-it",
-    "name": "diffusiongemma-26B-A4B-it",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-11T09:39:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "diffusion_gemma",
-      "gemma4",
-      "unsloth",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-04T10:09:17.250322+00:00",
-    "source_ids": [
-      "unsloth/diffusiongemma-26B-A4B-it"
-    ],
-    "family": "diffusiongemma-it"
   },
   {
     "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-nvfp4",
@@ -16443,41 +16474,6 @@
     "family": "gemma-4-E-it-OBLITERATED-i1"
   },
   {
-    "id": "huggingface:Jackrong/Qwopus3.5-27B-v3.5-GGUF",
-    "name": "Qwopus3.5-27B-v3.5-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-16T08:04:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3.5-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "unsloth",
-      "qwen3_5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-04T10:09:17.250419+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.5-27B-v3.5-GGUF"
-    ],
-    "family": "Qwopus3.5-v3.5"
-  },
-  {
     "id": "huggingface:Jackrong/Gemopus-4-31B-it-GGUF",
     "name": "Gemopus-4-31B-it-GGUF",
     "provider": "Jackrong",
@@ -17346,41 +17342,6 @@
       "aufklarer/Qwen3.5-0.8B-Chat-MLX"
     ],
     "family": "Qwen3.5--MLX"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwen3.5-4B-Neo-GGUF",
-    "name": "Qwen3.5-4B-Neo-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-03-22T09:33:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwen3.5-4B-Neo-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-04T10:09:17.250583+00:00",
-    "source_ids": [
-      "Jackrong/Qwen3.5-4B-Neo-GGUF"
-    ],
-    "family": "Qwen3.5-Neo"
   },
   {
     "id": "huggingface:DreamFast/qwen3-8b-heretic",
