@@ -366,6 +366,39 @@
     "family": "w2vbert-waxal-r5"
   },
   {
+    "id": "huggingface:AtomicChat/DeepSeek-V4-Flash-0731-GGUF",
+    "name": "DeepSeek-V4-Flash-0731-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T12:45:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/DeepSeek-V4-Flash-0731-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "deepseek",
+      "deepseek-v4",
+      "deepseek_v4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T21:12:13.842699+00:00",
+    "source_ids": [
+      "AtomicChat/DeepSeek-V4-Flash-0731-GGUF"
+    ],
+    "family": "DeepSeek-V4-Flash-0731"
+  },
+  {
     "id": "huggingface:huwenjie333/asr-whisper-51-african-languages-grpo",
     "name": "asr-whisper-51-african-languages-grpo",
     "provider": "huwenjie333",
@@ -433,6 +466,72 @@
       "Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B-MTP-GGUF"
     ],
     "family": "DeepSeek-V4-Pro-Qwen3.5-MTP"
+  },
+  {
+    "id": "huggingface:JANGQ-AI/DeepSeek-V4-Flash-0731-JANG",
+    "name": "DeepSeek-V4-Flash-0731-JANG",
+    "provider": "JANGQ-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T21:30:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JANGQ-AI/DeepSeek-V4-Flash-0731-JANG",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "deepseek_v4",
+      "deepseek",
+      "deepseek-v4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T21:12:13.842575+00:00",
+    "source_ids": [
+      "JANGQ-AI/DeepSeek-V4-Flash-0731-JANG"
+    ],
+    "family": "DeepSeek-V4-Flash-0731-JANG"
+  },
+  {
+    "id": "huggingface:OsaurusAI/DeepSeek-V4-Flash-0731-JANG",
+    "name": "DeepSeek-V4-Flash-0731-JANG",
+    "provider": "OsaurusAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T21:14:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OsaurusAI/DeepSeek-V4-Flash-0731-JANG",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "deepseek_v4",
+      "deepseek",
+      "deepseek-v4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T21:12:13.842645+00:00",
+    "source_ids": [
+      "OsaurusAI/DeepSeek-V4-Flash-0731-JANG"
+    ],
+    "family": "DeepSeek-V4-Flash-0731-JANG"
   },
   {
     "id": "huggingface:bullerwins/DeepSeek-V4-Flash-0731-GGUF",
@@ -12815,105 +12914,6 @@
       "poolside/Laguna-XS-2.1-INT4"
     ],
     "family": "Laguna-XS-2.1-INT4"
-  },
-  {
-    "id": "huggingface:poolside/Laguna-XS-2.1-NVFP4",
-    "name": "Laguna-XS-2.1-NVFP4",
-    "provider": "poolside",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-20T14:15:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poolside/Laguna-XS-2.1-NVFP4",
-    "tags": [
-      "text-generation",
-      "vllm",
-      "safetensors",
-      "laguna",
-      "laguna-xs-2.1",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T21:00:19.274672+00:00",
-    "source_ids": [
-      "poolside/Laguna-XS-2.1-NVFP4"
-    ],
-    "family": "Laguna-XS-2.1-NVFP4"
-  },
-  {
-    "id": "huggingface:poolside/Laguna-XS-2.1-FP8",
-    "name": "Laguna-XS-2.1-FP8",
-    "provider": "poolside",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-20T14:14:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poolside/Laguna-XS-2.1-FP8",
-    "tags": [
-      "text-generation",
-      "vllm",
-      "safetensors",
-      "laguna",
-      "laguna-xs-2.1",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T21:00:19.274703+00:00",
-    "source_ids": [
-      "poolside/Laguna-XS-2.1-FP8"
-    ],
-    "family": "Laguna-XS-2.1-FP8"
-  },
-  {
-    "id": "huggingface:poolside/Laguna-XS-2.1",
-    "name": "Laguna-XS-2.1",
-    "provider": "poolside",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-20T14:14:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poolside/Laguna-XS-2.1",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "laguna",
-      "text-generation",
-      "laguna-xs-2.1"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T21:00:19.274728+00:00",
-    "source_ids": [
-      "poolside/Laguna-XS-2.1"
-    ],
-    "family": "Laguna-XS-2.1"
   },
   {
     "id": "huggingface:Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF",
