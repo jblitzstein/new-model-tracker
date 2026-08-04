@@ -1,5 +1,39 @@
 [
   {
+    "id": "huggingface:rockerBOO/minimax-h3-nvfp4",
+    "name": "minimax-h3-nvfp4",
+    "provider": "rockerBOO",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-03T08:14:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rockerBOO/minimax-h3-nvfp4",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "minimax-h3",
+      "nvfp4",
+      "quantized",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T10:38:52.950829+00:00",
+    "source_ids": [
+      "rockerBOO/minimax-h3-nvfp4"
+    ],
+    "family": "minimax-h3-nvfp4"
+  },
+  {
     "id": "openrouter:qwen/qwen3.8-max",
     "name": "Qwen: Qwen3.8 Max",
     "provider": "Qwen",
@@ -31,6 +65,40 @@
       "qwen/qwen3.8-max"
     ],
     "family": "Qwen3.8 Max"
+  },
+  {
+    "id": "huggingface:realrebelai/MiniMax-H3_GGUFs",
+    "name": "MiniMax-H3_GGUFs",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-03T03:34:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/MiniMax-H3_GGUFs",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "text-to-video",
+      "minimax",
+      "comfyui",
+      "base_model:Comfy-Org/MiniMax-H3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T10:38:52.950776+00:00",
+    "source_ids": [
+      "realrebelai/MiniMax-H3_GGUFs"
+    ],
+    "family": "MiniMax-H3_GGUFs"
   },
   {
     "id": "huggingface:dianavdavidson/mms-1b-all-indic_voices-60250-hinglish_mixed_scripts-30_70-1e-4-hin-steps-15000-FT",
@@ -629,6 +697,39 @@
       "ChrisColeTech/krea2-turbo-edit-GGUF"
     ],
     "family": "krea2-turbo-edit"
+  },
+  {
+    "id": "huggingface:avlp12/Kimi-K3-Alis-MLX-Dynamic-2.10bpw",
+    "name": "Kimi-K3-Alis-MLX-Dynamic-2.10bpw",
+    "provider": "avlp12",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-29T23:16:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/avlp12/Kimi-K3-Alis-MLX-Dynamic-2.10bpw",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "kimi_k3_mlx",
+      "kimi-k3",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T10:38:52.630464+00:00",
+    "source_ids": [
+      "avlp12/Kimi-K3-Alis-MLX-Dynamic-2.10bpw"
+    ],
+    "family": "Kimi-K3-Alis-MLX-Dynamic-2.10bpw"
   },
   {
     "id": "huggingface:SimpleTuner/ltxvideo-2.3-distilled-convrot-int8",
@@ -9987,39 +10088,6 @@
     "family": "gemma-4-it-heretic-NVFP4"
   },
   {
-    "id": "huggingface:hotdogs/qwen27b-abliterated-Fable-MTP",
-    "name": "qwen27b-abliterated-Fable-MTP",
-    "provider": "hotdogs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T07:47:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hotdogs/qwen27b-abliterated-Fable-MTP",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "gguf",
-      "qwen3.6",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T10:12:32.814994+00:00",
-    "source_ids": [
-      "hotdogs/qwen27b-abliterated-Fable-MTP"
-    ],
-    "family": "qwen-abliterated-Fable-MTP"
-  },
-  {
     "id": "huggingface:Adnan666/whisper-small-pashto",
     "name": "whisper-small-pashto",
     "provider": "Adnan666",
@@ -10421,39 +10489,6 @@
       "texdata/Qwen3.6-35B-A3B-Slovenian-GGUF"
     ],
     "family": "Qwen3.6-Slovenian"
-  },
-  {
-    "id": "huggingface:huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF",
-    "name": "Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF",
-    "provider": "huihui-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T13:44:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "speculative-decoding",
-      "mtp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T10:12:32.815187+00:00",
-    "source_ids": [
-      "huihui-ai/Huihui-Ornith-1.0-9B-abliterated-MTP-GGUF"
-    ],
-    "family": "Huihui-Ornith-1.0-abliterated-MTP"
   },
   {
     "id": "huggingface:AtomicChat/ornith-35b-MLX-8bit",
@@ -11976,41 +12011,6 @@
       "oyildirim/CyberStrike-OffSec-35B"
     ],
     "family": "CyberStrike-OffSec"
-  },
-  {
-    "id": "huggingface:XiaofengAlg/MechVL-4B-RL",
-    "name": "MechVL-4B-RL",
-    "provider": "XiaofengAlg",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-25T16:45:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XiaofengAlg/MechVL-4B-RL",
-    "tags": [
-      "visual-question-answering",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T10:12:33.459385+00:00",
-    "source_ids": [
-      "XiaofengAlg/MechVL-4B-RL"
-    ],
-    "family": "MechVL-RL"
   },
   {
     "id": "huggingface:philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
@@ -13695,72 +13695,6 @@
     "family": "tesseract-lstm"
   },
   {
-    "id": "huggingface:fableforge-ai/ReasonCritic-7B",
-    "name": "ReasonCritic-7B",
-    "provider": "fableforge-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-14T19:27:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fableforge-ai/ReasonCritic-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "qwen3",
-      "text-generation",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T10:12:32.815252+00:00",
-    "source_ids": [
-      "fableforge-ai/ReasonCritic-7B"
-    ],
-    "family": "ReasonCritic"
-  },
-  {
-    "id": "huggingface:fableforge-ai/ShellWhisperer-1.5B",
-    "name": "ShellWhisperer-1.5B",
-    "provider": "fableforge-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-14T19:26:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fableforge-ai/ShellWhisperer-1.5B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-05T07:25:34.369985+00:00",
-    "source_ids": [
-      "fableforge-ai/ShellWhisperer-1.5B"
-    ],
-    "family": "ShellWhisperer"
-  },
-  {
     "id": "huggingface:RedHatAI/gemma-4-26B-A4B-it",
     "name": "gemma-4-26B-A4B-it",
     "provider": "RedHatAI",
@@ -14981,6 +14915,40 @@
       "reaperdoesntknow/Gemma-3-270m-Opus-Distil"
     ],
     "family": "Gemma-3-270m-Opus-Distil"
+  },
+  {
+    "id": "huggingface:cstr/piper-voices-GGUF",
+    "name": "piper-voices-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-29T20:47:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/piper-voices-GGUF",
+    "tags": [
+      "text-to-speech",
+      "ggml",
+      "gguf",
+      "tts",
+      "text-to-speech",
+      "piper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T10:38:53.192946+00:00",
+    "source_ids": [
+      "cstr/piper-voices-GGUF"
+    ],
+    "family": "piper-voices"
   },
   {
     "id": "huggingface:cstr/cosyvoice3-0.5b-2512-GGUF",
