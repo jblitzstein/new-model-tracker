@@ -866,6 +866,39 @@
     "family": "whisper-small-fa-finetuned"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2.5-2.6B",
+    "name": "LFM2.5-2.6B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-28T22:14:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T14:10:57.211466+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-2.6B"
+    ],
+    "family": "LFM2.5"
+  },
+  {
     "id": "huggingface:lancejames221b/hawq-sec-re-v1",
     "name": "hawq-sec-re-v1",
     "provider": "lancejames221b",
@@ -1371,6 +1404,39 @@
       "sullivan1502/base-grpo-round2"
     ],
     "family": "grpo-round2"
+  },
+  {
+    "id": "huggingface:leonsarmiento/KAT-Coder-V2.5-Dev-6bit-XL-mlx",
+    "name": "KAT-Coder-V2.5-Dev-6bit-XL-mlx",
+    "provider": "leonsarmiento",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T16:41:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leonsarmiento/KAT-Coder-V2.5-Dev-6bit-XL-mlx",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "mlx-vlm",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T14:10:57.211556+00:00",
+    "source_ids": [
+      "leonsarmiento/KAT-Coder-V2.5-Dev-6bit-XL-mlx"
+    ],
+    "family": "KAT-Coder-V2.5-Dev-6bit-XL-mlx"
   },
   {
     "id": "huggingface:philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-bf16",
@@ -11097,6 +11163,41 @@
     "family": "Agents-A1-FP8"
   },
   {
+    "id": "huggingface:leonsarmiento/Huihui-Qwen3.6-35B-A3B-abliterated-6bit-XL-mlx",
+    "name": "Huihui-Qwen3.6-35B-A3B-abliterated-6bit-XL-mlx",
+    "provider": "leonsarmiento",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T11:26:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leonsarmiento/Huihui-Qwen3.6-35B-A3B-abliterated-6bit-XL-mlx",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "mlx-vlm",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T14:10:57.948962+00:00",
+    "source_ids": [
+      "leonsarmiento/Huihui-Qwen3.6-35B-A3B-abliterated-6bit-XL-mlx"
+    ],
+    "family": "Huihui-Qwen3.6-abliterated-6bit-XL-mlx"
+  },
+  {
     "id": "huggingface:maci0/Ornith-1.0-9B-abliterated-NVFP4",
     "name": "Ornith-1.0-9B-abliterated-NVFP4",
     "provider": "maci0",
@@ -11163,6 +11264,39 @@
       "hotdogs/qwen35b-a3b-fable-sft-abliterated"
     ],
     "family": "qwen-fable-sft-abliterated"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3.5-0.8-Cyber-GGUF",
+    "name": "Qwen3.5-0.8-Cyber-GGUF",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T06:56:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3.5-0.8-Cyber-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3_5",
+      "llama.cpp",
+      "unsloth",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-04T14:10:57.211785+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3.5-0.8-Cyber-GGUF"
+    ],
+    "family": "Qwen3.5-0.8-Cyber"
   },
   {
     "id": "huggingface:poolside/Laguna-XS-2.1-GGUF",
