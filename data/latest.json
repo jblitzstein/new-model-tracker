@@ -3758,6 +3758,41 @@
     "family": "droplychee-1.0"
   },
   {
+    "id": "huggingface:droplychee/droplychee-1.0-27b",
+    "name": "droplychee-1.0-27b",
+    "provider": "droplychee",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T01:32:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/droplychee/droplychee-1.0-27b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "droplychee"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T17:36:28.227271+00:00",
+    "source_ids": [
+      "droplychee/droplychee-1.0-27b"
+    ],
+    "family": "droplychee-1.0"
+  },
+  {
     "id": "huggingface:DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
     "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
     "provider": "DavidAU",
@@ -8692,61 +8727,6 @@
     "family": "Nemotron-Labs-Audex"
   },
   {
-    "id": "openrouter:tencent/hy3:free",
-    "name": "Tencent: Hy3 (free)",
-    "provider": "Tencent",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T13:20:48+00:00",
-    "context_length": 262144,
-    "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
-    "url": "https://openrouter.ai/tencent/hy3:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-07-06T15:33:20.669975+00:00",
-    "source_ids": [
-      "tencent/hy3:free"
-    ],
-    "family": "Hy3"
-  },
-  {
-    "id": "openrouter:tencent/hy3",
-    "name": "Tencent: Hy3",
-    "provider": "Tencent",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T13:20:48+00:00",
-    "context_length": 262144,
-    "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
-    "url": "https://openrouter.ai/tencent/hy3",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.14,
-      "completion_per_million": 0.58
-    },
-    "first_seen": "2026-07-06T15:33:20.670918+00:00",
-    "source_ids": [
-      "tencent/hy3"
-    ],
-    "family": "Hy3"
-  },
-  {
     "id": "huggingface:bottlecapai/ThinkingCap-Qwen3.6-27B",
     "name": "ThinkingCap-Qwen3.6-27B",
     "provider": "bottlecapai",
@@ -9418,40 +9398,6 @@
     "family": "irodori-tts"
   },
   {
-    "id": "huggingface:Nikya/qupus_tts_0.8Bsbaselora",
-    "name": "qupus_tts_0.8Bsbaselora",
-    "provider": "Nikya",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-07-04T19:03:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Nikya/qupus_tts_0.8Bsbaselora",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "tts"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-06T15:33:21.185837+00:00",
-    "source_ids": [
-      "Nikya/qupus_tts_0.8Bsbaselora"
-    ],
-    "family": "qupus_tts_0.8Bsbaselora"
-  },
-  {
     "id": "huggingface:surogate/Surogate-3.5-4B",
     "name": "Surogate-3.5-4B",
     "provider": "surogate",
@@ -9685,39 +9631,6 @@
       "Jaidchen/Focus"
     ],
     "family": "Focus"
-  },
-  {
-    "id": "huggingface:tencent/Hy3-FP8",
-    "name": "Hy3-FP8",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-04T13:39:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/Hy3-FP8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "hy_v3",
-      "text-generation",
-      "hunyuan"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-06T15:33:20.785083+00:00",
-    "source_ids": [
-      "tencent/Hy3-FP8"
-    ],
-    "family": "Hy3-FP8"
   },
   {
     "id": "huggingface:Ba2han/outputs",
@@ -10996,39 +10909,6 @@
       "nvidia/NVIDIA-Nemotron-Parse-2.0"
     ],
     "family": "NVIDIA-Nemotron-Parse-2.0"
-  },
-  {
-    "id": "huggingface:UniversalComputingResearch/Atom2.7m",
-    "name": "Atom2.7m",
-    "provider": "UniversalComputingResearch",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T19:37:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/UniversalComputingResearch/Atom2.7m",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gpt",
-      "causal-lm",
-      "small-language-model",
-      "arithmetic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-06T15:33:20.784948+00:00",
-    "source_ids": [
-      "UniversalComputingResearch/Atom2.7m"
-    ],
-    "family": "Atom2.7m"
   },
   {
     "id": "openrouter:anthropic/claude-sonnet-5:batch",
@@ -16783,39 +16663,6 @@
     "family": "GPT-5.5 (batch)"
   },
   {
-    "id": "huggingface:unsloth/DeepSeek-V4-Flash",
-    "name": "DeepSeek-V4-Flash",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-24T06:06:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "deepseek_v4",
-      "text-generation",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-06T15:33:20.784848+00:00",
-    "source_ids": [
-      "unsloth/DeepSeek-V4-Flash"
-    ],
-    "family": "DeepSeek-V4-Flash"
-  },
-  {
     "id": "huggingface:audarai/Audar-ASR-V1-Turbo",
     "name": "Audar-ASR-V1-Turbo",
     "provider": "audarai",
@@ -16953,40 +16800,6 @@
       "Jackrong/Qwen3.6-27B-GGUF"
     ],
     "family": "Qwen3.6"
-  },
-  {
-    "id": "huggingface:JTS-AI/JaiTTS-F5TTS",
-    "name": "JaiTTS-F5TTS",
-    "provider": "JTS-AI",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-04-21T09:20:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JTS-AI/JaiTTS-F5TTS",
-    "tags": [
-      "text-to-speech",
-      "f5-tts",
-      "thai",
-      "voice-cloning",
-      "text-to-speech",
-      "th"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-06T15:33:21.185718+00:00",
-    "source_ids": [
-      "JTS-AI/JaiTTS-F5TTS"
-    ],
-    "family": "JaiTTS-F5TTS"
   },
   {
     "id": "huggingface:cstr/glm-asr-nano-GGUF",
@@ -18460,6 +18273,39 @@
     "family": "sd-turbo-amdnpu"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2-24B-A2B",
+    "name": "LFM2-24B-A2B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-24T13:50:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-24B-A2B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2_moe",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T17:36:27.816048+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-24B-A2B"
+    ],
+    "family": "LFM2"
+  },
+  {
     "id": "openrouter:google/gemini-3.1-pro-preview:batch",
     "name": "Google: Gemini 3.1 Pro Preview (batch)",
     "provider": "Google",
@@ -18832,6 +18678,41 @@
     "family": "khmer-text-recognition"
   },
   {
+    "id": "huggingface:unsloth/LFM2.5-VL-1.6B-GGUF",
+    "name": "LFM2.5-VL-1.6B-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-10T06:26:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/LFM2.5-VL-1.6B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "liquid",
+      "unsloth",
+      "lfm2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T17:36:28.227345+00:00",
+    "source_ids": [
+      "unsloth/LFM2.5-VL-1.6B-GGUF"
+    ],
+    "family": "LFM2.5-VL"
+  },
+  {
     "id": "huggingface:mradermacher/AfriqueGemma-12B-i1-GGUF",
     "name": "AfriqueGemma-12B-i1-GGUF",
     "provider": "mradermacher",
@@ -18898,6 +18779,39 @@
       "skt/A.X-K1"
     ],
     "family": "A.X-K1"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-2.6B-Exp",
+    "name": "LFM2-2.6B-Exp",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-25T11:08:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T17:36:27.815922+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-2.6B-Exp"
+    ],
+    "family": "LFM2-Exp"
   },
   {
     "id": "huggingface:ifmylove2011/girlslike-zimage",
@@ -19508,6 +19422,39 @@
     "family": "zen-nano"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2-2.6B",
+    "name": "LFM2-2.6B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-09-22T17:23:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-2.6B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T17:36:27.815866+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-2.6B"
+    ],
+    "family": "LFM2"
+  },
+  {
     "id": "huggingface:lmms-lab/LLaVA-OneVision-1.5-8B-Instruct",
     "name": "LLaVA-OneVision-1.5-8B-Instruct",
     "provider": "lmms-lab",
@@ -19809,6 +19756,72 @@
       "JetLM/SDAR-1.7B-Chat"
     ],
     "family": "SDAR"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-1.2B",
+    "name": "LFM2-1.2B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-10T12:01:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-1.2B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T17:36:27.816089+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-1.2B"
+    ],
+    "family": "LFM2"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2-700M",
+    "name": "LFM2-700M",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-10T12:01:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-700M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T17:36:27.816108+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-700M"
+    ],
+    "family": "LFM2-700M"
   },
   {
     "id": "openrouter:cognitivecomputations/dolphin-mistral-24b-venice-edition",
