@@ -1,5 +1,42 @@
 [
   {
+    "id": "openrouter:meta/muse-spark-1.2",
+    "name": "Meta: Muse Spark 1.2",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-05T19:48:07+00:00",
+    "context_length": 1048576,
+    "description": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks. It accepts text, images, video, audio, and PDF documents, returns text, and offers a 1M-token context...",
+    "url": "https://openrouter.ai/meta/muse-spark-1.2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.25,
+      "completion_per_million": 4.25
+    },
+    "first_seen": "2026-08-05T21:07:38.433382+00:00",
+    "source_ids": [
+      "meta/muse-spark-1.2"
+    ],
+    "family": "Muse Spark 1.2"
+  },
+  {
     "id": "huggingface:internlm/Intern-S2-Mobius-FP8",
     "name": "Intern-S2-Mobius-FP8",
     "provider": "InternLM",
@@ -10073,39 +10110,6 @@
     "family": "Audar-ASR-V1-Flash"
   },
   {
-    "id": "huggingface:ecreeth/stream-mixer-33m-babylm",
-    "name": "stream-mixer-33m-babylm",
-    "provider": "ecreeth",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T13:47:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ecreeth/stream-mixer-33m-babylm",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "streammixer",
-      "babylm",
-      "babylm-2026",
-      "babyLM-challenge"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-06T18:10:40.581444+00:00",
-    "source_ids": [
-      "ecreeth/stream-mixer-33m-babylm"
-    ],
-    "family": "stream-mixer-33m-babylm"
-  },
-  {
     "id": "huggingface:poolside/Laguna-S-2.1-INT4",
     "name": "Laguna-S-2.1-INT4",
     "provider": "poolside",
@@ -20027,6 +20031,39 @@
       "BlinkDL/rwkv7-g1"
     ],
     "family": "rwkv7-g1"
+  },
+  {
+    "id": "huggingface:RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
+    "name": "DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-02-05T04:42:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "deepseek"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-05T21:07:38.592776+00:00",
+    "source_ids": [
+      "RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16"
+    ],
+    "family": "DeepSeek-R1-Distill-Qwen-quantized.w4a16"
   },
   {
     "id": "huggingface:reaperdoesntknow/DeepReasoning_1R",
