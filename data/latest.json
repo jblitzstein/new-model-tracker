@@ -476,6 +476,40 @@
     "family": "GRM-3.2-Sky-OPAL"
   },
   {
+    "id": "huggingface:thantzinphyo/whisper-tiny-myanmar-shopvoice",
+    "name": "whisper-tiny-myanmar-shopvoice",
+    "provider": "thantzinphyo",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T18:53:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thantzinphyo/whisper-tiny-myanmar-shopvoice",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "my",
+      "dataset:thantzinphyo/myanmar-shopvoice"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-06T14:09:05.722663+00:00",
+    "source_ids": [
+      "thantzinphyo/whisper-tiny-myanmar-shopvoice"
+    ],
+    "family": "whisper-tiny-myanmar-shopvoice"
+  },
+  {
     "id": "openrouter:~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
@@ -3715,6 +3749,39 @@
       "thinkingmachines/inkling"
     ],
     "family": "Inkling"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling:batch",
+    "name": "Thinking Machines: Inkling (batch)",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T22:05:56+00:00",
+    "context_length": 524288,
+    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 2.025
+    },
+    "first_seen": "2026-08-06T14:09:04.693481+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling:batch"
+    ],
+    "family": "Inkling (batch)"
   },
   {
     "id": "huggingface:microsoft/Fara1.5-27B",
@@ -7675,6 +7742,39 @@
     "family": "GPT-5.6 Luna Pro"
   },
   {
+    "id": "openrouter:openai/gpt-5.6-luna-pro:batch",
+    "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:27+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-5.6-luna-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-08-06T14:09:04.693670+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-luna-pro:batch"
+    ],
+    "family": "GPT-5.6 Luna Pro (batch)"
+  },
+  {
     "id": "openrouter:openai/gpt-5.6-luna",
     "name": "OpenAI: GPT-5.6 Luna",
     "provider": "OpenAI",
@@ -7706,6 +7806,39 @@
       "openai/gpt-5.6-luna"
     ],
     "family": "GPT-5.6 Luna"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-luna:batch",
+    "name": "OpenAI: GPT-5.6 Luna (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:24+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
+    "url": "https://openrouter.ai/openai/gpt-5.6-luna:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-08-06T14:09:04.693721+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-luna:batch"
+    ],
+    "family": "GPT-5.6 Luna (batch)"
   },
   {
     "id": "openrouter:openai/gpt-5.6-terra-pro",
@@ -7741,6 +7874,39 @@
     "family": "GPT-5.6 Terra Pro"
   },
   {
+    "id": "openrouter:openai/gpt-5.6-terra-pro:batch",
+    "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:21+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-5.6-terra-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-08-06T14:09:04.693772+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-terra-pro:batch"
+    ],
+    "family": "GPT-5.6 Terra Pro (batch)"
+  },
+  {
     "id": "openrouter:openai/gpt-5.6-terra",
     "name": "OpenAI: GPT-5.6 Terra",
     "provider": "OpenAI",
@@ -7772,6 +7938,39 @@
       "openai/gpt-5.6-terra"
     ],
     "family": "GPT-5.6 Terra"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-terra:batch",
+    "name": "OpenAI: GPT-5.6 Terra (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:17+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
+    "url": "https://openrouter.ai/openai/gpt-5.6-terra:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-08-06T14:09:04.693825+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-terra:batch"
+    ],
+    "family": "GPT-5.6 Terra (batch)"
   },
   {
     "id": "openrouter:openai/gpt-5.6-sol-pro",
@@ -7807,6 +8006,39 @@
     "family": "GPT-5.6 Sol Pro"
   },
   {
+    "id": "openrouter:openai/gpt-5.6-sol-pro:batch",
+    "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:14+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-5.6-sol-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-08-06T14:09:04.693876+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-sol-pro:batch"
+    ],
+    "family": "GPT-5.6 Sol Pro (batch)"
+  },
+  {
     "id": "openrouter:openai/gpt-5.6-sol",
     "name": "OpenAI: GPT-5.6 Sol",
     "provider": "OpenAI",
@@ -7838,6 +8070,39 @@
       "openai/gpt-5.6-sol"
     ],
     "family": "GPT-5.6 Sol"
+  },
+  {
+    "id": "openrouter:openai/gpt-5.6-sol:batch",
+    "name": "OpenAI: GPT-5.6 Sol (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-09T09:54:10+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
+    "url": "https://openrouter.ai/openai/gpt-5.6-sol:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-08-06T14:09:04.693928+00:00",
+    "source_ids": [
+      "openai/gpt-5.6-sol:batch"
+    ],
+    "family": "GPT-5.6 Sol (batch)"
   },
   {
     "id": "huggingface:Qualcomm-AI-Research/mobilewan",
@@ -8665,39 +8930,6 @@
       "freyavoice/Freya-TTS"
     ],
     "family": "Freya-TTS"
-  },
-  {
-    "id": "huggingface:TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
-    "name": "HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
-    "provider": "TaimoorSiddiqui",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-07T07:26:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "qwen3.5",
-      "qwen3.5-moe",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-07T10:56:04.792710+00:00",
-    "source_ids": [
-      "TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF"
-    ],
-    "family": "HopCoder-Mini-VL36-fullsft"
   },
   {
     "id": "huggingface:Willlzh/COFOS",
@@ -9871,39 +10103,6 @@
       "Shlok0011/CulinaAI-Qwen2.5-7B-GGUF"
     ],
     "family": "CulinaAI-Qwen2.5"
-  },
-  {
-    "id": "huggingface:Jaidchen/Focus",
-    "name": "Focus",
-    "provider": "Jaidchen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-04T15:18:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jaidchen/Focus",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "dense"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-07T10:56:04.792797+00:00",
-    "source_ids": [
-      "Jaidchen/Focus"
-    ],
-    "family": "Focus"
   },
   {
     "id": "huggingface:Ba2han/outputs",
@@ -13690,6 +13889,35 @@
     "family": "Qwen3.5-MoE-MXFP4"
   },
   {
+    "id": "openrouter:z-ai/glm-5.2:batch",
+    "name": "Z.ai: GLM 5.2 (batch)",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-16T17:45:30+00:00",
+    "context_length": 512000,
+    "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+    "url": "https://openrouter.ai/z-ai/glm-5.2:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.7,
+      "completion_per_million": 2.2
+    },
+    "first_seen": "2026-08-06T14:09:04.694384+00:00",
+    "source_ids": [
+      "z-ai/glm-5.2:batch"
+    ],
+    "family": "GLM 5.2 (batch)"
+  },
+  {
     "id": "huggingface:mlx-community/gemma-4-26B-A4B-it-qat-OptiQ-4bit",
     "name": "gemma-4-26B-A4B-it-qat-OptiQ-4bit",
     "provider": "mlx-community",
@@ -14198,6 +14426,37 @@
       "mlx-community/gemma-4-e2b-it-qat-OptiQ-4bit"
     ],
     "family": "gemma-4-e-it-qat-OptiQ-4bit"
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k2.7-code:batch",
+    "name": "MoonshotAI: Kimi K2.7 Code (batch)",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T12:12:41+00:00",
+    "context_length": 262144,
+    "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k2.7-code:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.475,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-08-06T14:09:04.694459+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k2.7-code:batch"
+    ],
+    "family": "Kimi K2.7 Code (batch)"
   },
   {
     "id": "huggingface:edwixx/diffusiongemma-26B-A4B-it-HERETIC-Uncensored",
@@ -14879,6 +15138,35 @@
       "aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8"
     ],
     "family": "Nemotron-3.5-ASR-Streaming-CoreML-INT8"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:batch",
+    "name": "NVIDIA: Nemotron 3 Ultra (batch)",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T05:33:28+00:00",
+    "context_length": 512288,
+    "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.8
+    },
+    "first_seen": "2026-08-06T14:09:04.694646+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3-ultra-550b-a55b:batch"
+    ],
+    "family": "Nemotron 3 Ultra (batch)"
   },
   {
     "id": "huggingface:mradermacher/Wanabi-Gemma4-31B-i1-GGUF",
@@ -16805,6 +17093,39 @@
     "family": "vibevoice"
   },
   {
+    "id": "openrouter:openai/gpt-5.5-pro:batch",
+    "name": "OpenAI: GPT-5.5 Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-24T17:31:36+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for...",
+    "url": "https://openrouter.ai/openai/gpt-5.5-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 15.0,
+      "completion_per_million": 90.0
+    },
+    "first_seen": "2026-08-06T14:09:04.695641+00:00",
+    "source_ids": [
+      "openai/gpt-5.5-pro:batch"
+    ],
+    "family": "GPT-5.5 Pro (batch)"
+  },
+  {
     "id": "openrouter:openai/gpt-5.5:batch",
     "name": "OpenAI: GPT-5.5 (batch)",
     "provider": "OpenAI",
@@ -18174,6 +18495,39 @@
     "family": "Qwen3.5-SOMPOA-heresy-v2"
   },
   {
+    "id": "openrouter:openai/gpt-5.4-pro:batch",
+    "name": "OpenAI: GPT-5.4 Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-05T18:12:46+00:00",
+    "context_length": 1050000,
+    "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K...",
+    "url": "https://openrouter.ai/openai/gpt-5.4-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 15.0,
+      "completion_per_million": 90.0
+    },
+    "first_seen": "2026-08-06T14:09:04.696742+00:00",
+    "source_ids": [
+      "openai/gpt-5.4-pro:batch"
+    ],
+    "family": "GPT-5.4 Pro (batch)"
+  },
+  {
     "id": "openrouter:openai/gpt-5.4:batch",
     "name": "OpenAI: GPT-5.4 (batch)",
     "provider": "OpenAI",
@@ -18479,6 +18833,39 @@
       "google/gemini-3.1-pro-preview:batch"
     ],
     "family": "Gemini 3.1 Pro (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-sonnet-4.6:batch",
+    "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-17T15:43:10+00:00",
+    "context_length": 1000000,
+    "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-08-06T14:09:04.697209+00:00",
+    "source_ids": [
+      "anthropic/claude-sonnet-4.6:batch"
+    ],
+    "family": "Claude Sonnet 4.6 (batch)"
   },
   {
     "id": "huggingface:furiosa-ai/K-EXAONE-236B-A23B-NVFP4A16",
@@ -19057,6 +19444,39 @@
     "family": "qwen-360-diffusion"
   },
   {
+    "id": "openrouter:openai/gpt-5.2-pro:batch",
+    "name": "OpenAI: GPT-5.2 Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-10T18:03:00+00:00",
+    "context_length": 400000,
+    "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,...",
+    "url": "https://openrouter.ai/openai/gpt-5.2-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.5,
+      "completion_per_million": 84.0
+    },
+    "first_seen": "2026-08-06T14:09:04.697941+00:00",
+    "source_ids": [
+      "openai/gpt-5.2-pro:batch"
+    ],
+    "family": "GPT-5.2 Pro (batch)"
+  },
+  {
     "id": "openrouter:openai/gpt-5.2:batch",
     "name": "OpenAI: GPT-5.2 (batch)",
     "provider": "OpenAI",
@@ -19426,6 +19846,39 @@
     "family": "Claude Haiku 4.5 (batch)"
   },
   {
+    "id": "openrouter:openai/gpt-5-pro:batch",
+    "name": "OpenAI: GPT-5 Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-06T18:51:03+00:00",
+    "context_length": 400000,
+    "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and...",
+    "url": "https://openrouter.ai/openai/gpt-5-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 7.5,
+      "completion_per_million": 60.0
+    },
+    "first_seen": "2026-08-06T14:09:04.698995+00:00",
+    "source_ids": [
+      "openai/gpt-5-pro:batch"
+    ],
+    "family": "GPT-5 Pro (batch)"
+  },
+  {
     "id": "openrouter:anthropic/claude-sonnet-4.5:batch",
     "name": "Anthropic: Claude Sonnet 4.5 (batch)",
     "provider": "Anthropic",
@@ -19558,6 +20011,37 @@
       "zenlm/zen-nano-0.6b"
     ],
     "family": "zen-nano"
+  },
+  {
+    "id": "openrouter:openai/gpt-5-codex:batch",
+    "name": "OpenAI: GPT-5 Codex (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-09-23T16:03:23+00:00",
+    "context_length": 400000,
+    "description": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks....",
+    "url": "https://openrouter.ai/openai/gpt-5-codex:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.625,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-08-06T14:09:04.699273+00:00",
+    "source_ids": [
+      "openai/gpt-5-codex:batch"
+    ],
+    "family": "GPT-5 Codex (batch)"
   },
   {
     "id": "huggingface:LiquidAI/LFM2-2.6B",
@@ -19824,6 +20308,41 @@
       "anthropic/claude-opus-4.1:batch"
     ],
     "family": "Claude Opus 4.1 (batch)"
+  },
+  {
+    "id": "huggingface:internlm/Intern-S1-FP8",
+    "name": "Intern-S1-FP8",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-24T07:00:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Intern-S1-FP8",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "interns1",
+      "image-text-to-text",
+      "conversational",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-06T14:09:05.862838+00:00",
+    "source_ids": [
+      "internlm/Intern-S1-FP8"
+    ],
+    "family": "Intern-S1-FP8"
   },
   {
     "id": "openrouter:google/gemini-2.5-flash-lite:batch",
@@ -20134,6 +20653,270 @@
     "family": "Gemini 2.5 Pro (batch)"
   },
   {
+    "id": "openrouter:openai/o3-pro:batch",
+    "name": "OpenAI: o3 Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "file",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-10T23:32:32+00:00",
+    "context_length": 200000,
+    "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o3-pro model uses more compute to think harder and provide consistently...",
+    "url": "https://openrouter.ai/openai/o3-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 40.0
+    },
+    "first_seen": "2026-08-06T14:09:04.700621+00:00",
+    "source_ids": [
+      "openai/o3-pro:batch"
+    ],
+    "family": "o3 Pro (batch)"
+  },
+  {
+    "id": "openrouter:openai/o4-mini-high:batch",
+    "name": "OpenAI: o4 Mini High (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-16T17:23:32+00:00",
+    "context_length": 200000,
+    "description": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining...",
+    "url": "https://openrouter.ai/openai/o4-mini-high:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.55,
+      "completion_per_million": 2.2
+    },
+    "first_seen": "2026-08-06T14:09:04.700996+00:00",
+    "source_ids": [
+      "openai/o4-mini-high:batch"
+    ],
+    "family": "o4 Mini High (batch)"
+  },
+  {
+    "id": "openrouter:openai/o3:batch",
+    "name": "OpenAI: o3 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-16T17:10:57+00:00",
+    "context_length": 200000,
+    "description": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following....",
+    "url": "https://openrouter.ai/openai/o3:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 4.0
+    },
+    "first_seen": "2026-08-06T14:09:04.701039+00:00",
+    "source_ids": [
+      "openai/o3:batch"
+    ],
+    "family": "o3 (batch)"
+  },
+  {
+    "id": "openrouter:openai/o4-mini:batch",
+    "name": "OpenAI: o4 Mini (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-16T16:29:02+00:00",
+    "context_length": 200000,
+    "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning...",
+    "url": "https://openrouter.ai/openai/o4-mini:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.55,
+      "completion_per_million": 2.2
+    },
+    "first_seen": "2026-08-06T14:09:04.701080+00:00",
+    "source_ids": [
+      "openai/o4-mini:batch"
+    ],
+    "family": "o4 Mini (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-4.1:batch",
+    "name": "OpenAI: GPT-4.1 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-14T17:23:05+00:00",
+    "context_length": 1047576,
+    "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and...",
+    "url": "https://openrouter.ai/openai/gpt-4.1:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 4.0
+    },
+    "first_seen": "2026-08-06T14:09:04.701127+00:00",
+    "source_ids": [
+      "openai/gpt-4.1:batch"
+    ],
+    "family": "GPT-4.1 (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-4.1-mini:batch",
+    "name": "OpenAI: GPT-4.1 Mini (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-14T17:23:01+00:00",
+    "context_length": 1047576,
+    "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard...",
+    "url": "https://openrouter.ai/openai/gpt-4.1-mini:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.8
+    },
+    "first_seen": "2026-08-06T14:09:04.701174+00:00",
+    "source_ids": [
+      "openai/gpt-4.1-mini:batch"
+    ],
+    "family": "GPT-4.1 Mini (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-4.1-nano:batch",
+    "name": "OpenAI: GPT-4.1 Nano (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-14T17:22:49+00:00",
+    "context_length": 1047576,
+    "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million...",
+    "url": "https://openrouter.ai/openai/gpt-4.1-nano:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-08-06T14:09:04.701224+00:00",
+    "source_ids": [
+      "openai/gpt-4.1-nano:batch"
+    ],
+    "family": "GPT-4.1 Nano (batch)"
+  },
+  {
+    "id": "openrouter:openai/o1-pro:batch",
+    "name": "OpenAI: o1-pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-19T22:26:51+00:00",
+    "context_length": 200000,
+    "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide...",
+    "url": "https://openrouter.ai/openai/o1-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 75.0,
+      "completion_per_million": 300.0
+    },
+    "first_seen": "2026-08-06T14:09:04.701364+00:00",
+    "source_ids": [
+      "openai/o1-pro:batch"
+    ],
+    "family": "o1-pro (batch)"
+  },
+  {
     "id": "huggingface:BlinkDL/rwkv7-g1",
     "name": "rwkv7-g1",
     "provider": "BlinkDL",
@@ -20167,6 +20950,37 @@
     "family": "rwkv7-g1"
   },
   {
+    "id": "openrouter:openai/o3-mini-high:batch",
+    "name": "OpenAI: o3 Mini High (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-02-12T15:03:31+00:00",
+    "context_length": 200000,
+    "description": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and...",
+    "url": "https://openrouter.ai/openai/o3-mini-high:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.55,
+      "completion_per_million": 2.2
+    },
+    "first_seen": "2026-08-06T14:09:04.701688+00:00",
+    "source_ids": [
+      "openai/o3-mini-high:batch"
+    ],
+    "family": "o3 Mini High (batch)"
+  },
+  {
     "id": "huggingface:RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
     "name": "DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
     "provider": "RedHatAI",
@@ -20198,6 +21012,37 @@
       "RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16"
     ],
     "family": "DeepSeek-R1-Distill-Qwen-quantized.w4a16"
+  },
+  {
+    "id": "openrouter:openai/o3-mini:batch",
+    "name": "OpenAI: o3 Mini (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-01-31T19:28:41+00:00",
+    "context_length": 200000,
+    "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to...",
+    "url": "https://openrouter.ai/openai/o3-mini:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.55,
+      "completion_per_million": 2.2
+    },
+    "first_seen": "2026-08-06T14:09:04.701809+00:00",
+    "source_ids": [
+      "openai/o3-mini:batch"
+    ],
+    "family": "o3 Mini (batch)"
   },
   {
     "id": "huggingface:reaperdoesntknow/DeepReasoning_1R",
@@ -20299,6 +21144,39 @@
       "xFutureTechx/2025_Loras"
     ],
     "family": "2025_Loras"
+  },
+  {
+    "id": "openrouter:openai/o1:batch",
+    "name": "OpenAI: o1 (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-12-17T18:26:39+00:00",
+    "context_length": 200000,
+    "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason...",
+    "url": "https://openrouter.ai/openai/o1:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 7.5,
+      "completion_per_million": 30.0
+    },
+    "first_seen": "2026-08-06T14:09:04.702035+00:00",
+    "source_ids": [
+      "openai/o1:batch"
+    ],
+    "family": "o1 (batch)"
   },
   {
     "id": "huggingface:lemuralabs/Llama-3.2-3B-Uncensored-GGUF",
@@ -20568,6 +21446,39 @@
     "family": "Meta-Llama-3.1--quantized.w8a8"
   },
   {
+    "id": "openrouter:openai/gpt-4o-mini:batch",
+    "name": "OpenAI: GPT-4o-mini (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-07-18T00:00:00+00:00",
+    "context_length": 128000,
+    "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
+    "url": "https://openrouter.ai/openai/gpt-4o-mini:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.3
+    },
+    "first_seen": "2026-08-06T14:09:04.702762+00:00",
+    "source_ids": [
+      "openai/gpt-4o-mini:batch"
+    ],
+    "family": "GPT-4o-mini (batch)"
+  },
+  {
     "id": "huggingface:gokaygokay/Florence-2-SD3-Captioner",
     "name": "Florence-2-SD3-Captioner",
     "provider": "gokaygokay",
@@ -20601,6 +21512,39 @@
       "gokaygokay/Florence-2-SD3-Captioner"
     ],
     "family": "Florence-2-SD3-Captioner"
+  },
+  {
+    "id": "openrouter:openai/gpt-4o:batch",
+    "name": "OpenAI: GPT-4o (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-05-13T00:00:00+00:00",
+    "context_length": 128000,
+    "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as...",
+    "url": "https://openrouter.ai/openai/gpt-4o:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.25,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-08-06T14:09:04.702850+00:00",
+    "source_ids": [
+      "openai/gpt-4o:batch"
+    ],
+    "family": "GPT-4o (batch)"
   },
   {
     "id": "huggingface:projecte-aina/matxa-tts-cat-multiaccent",
@@ -20668,6 +21612,37 @@
       "cstr/Spaetzle-v60-7b"
     ],
     "family": "Spaetzle-v60"
+  },
+  {
+    "id": "openrouter:openai/gpt-4-turbo:batch",
+    "name": "OpenAI: GPT-4 Turbo (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-04-09T00:00:00+00:00",
+    "context_length": 128000,
+    "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023.",
+    "url": "https://openrouter.ai/openai/gpt-4-turbo:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-08-06T14:09:04.702945+00:00",
+    "source_ids": [
+      "openai/gpt-4-turbo:batch"
+    ],
+    "family": "GPT-4 Turbo (batch)"
   },
   {
     "id": "huggingface:nvidia/parakeet-ctc-1.1b",
@@ -20770,5 +21745,34 @@
       "artificialguybr/pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5"
     ],
     "family": "pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5"
+  },
+  {
+    "id": "openrouter:openai/gpt-3.5-turbo:batch",
+    "name": "OpenAI: GPT-3.5 Turbo (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-05-28T00:00:00+00:00",
+    "context_length": 16385,
+    "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+    "url": "https://openrouter.ai/openai/gpt-3.5-turbo:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 0.75
+    },
+    "first_seen": "2026-08-06T14:09:04.703238+00:00",
+    "source_ids": [
+      "openai/gpt-3.5-turbo:batch"
+    ],
+    "family": "GPT-3.5 Turbo (batch)"
   }
 ]
