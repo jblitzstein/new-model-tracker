@@ -131,6 +131,39 @@
     "family": "zone-grpo"
   },
   {
+    "id": "huggingface:quimmedes/Deepwen-3.6",
+    "name": "Deepwen-3.6",
+    "provider": "quimmedes",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-03T22:08:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/quimmedes/Deepwen-3.6",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "moq",
+      "mixture-of-quantizations",
+      "qwen",
+      "gamedev"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T05:39:27.722976+00:00",
+    "source_ids": [
+      "quimmedes/Deepwen-3.6"
+    ],
+    "family": "Deepwen-3.6"
+  },
+  {
     "id": "huggingface:FenomAI/MiniMax-H3_GGUFs",
     "name": "MiniMax-H3_GGUFs",
     "provider": "FenomAI",
@@ -1703,6 +1736,41 @@
     "first_seen": "2026-07-30T14:01:23.393057+00:00",
     "source_ids": [
       "AtomicChat/Kimi-K3-GGUF"
+    ],
+    "family": "Kimi-K3"
+  },
+  {
+    "id": "huggingface:unsloth/Kimi-K3-GGUF",
+    "name": "Kimi-K3-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T17:24:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Kimi-K3-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "unsloth",
+      "conversational",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T05:39:28.175846+00:00",
+    "source_ids": [
+      "unsloth/Kimi-K3-GGUF"
     ],
     "family": "Kimi-K3"
   },
@@ -3407,6 +3475,39 @@
       "Nanbeige/Nanbeige4.2-3B-Base"
     ],
     "family": "Nanbeige4.2"
+  },
+  {
+    "id": "huggingface:nota-ai/Solar-Open2-250B-Nota-NVFP4",
+    "name": "Solar-Open2-250B-Nota-NVFP4",
+    "provider": "nota-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-21T01:30:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "solar_open2",
+      "quantization",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T05:39:27.723174+00:00",
+    "source_ids": [
+      "nota-ai/Solar-Open2-250B-Nota-NVFP4"
+    ],
+    "family": "Solar-Open2-Nota-NVFP4"
   },
   {
     "id": "huggingface:baseten/GLM-5.2-Vision-NVFP4",
@@ -10983,39 +11084,6 @@
       "InternScience/Agents-A1-F16-GGUF"
     ],
     "family": "Agents-A1-F16"
-  },
-  {
-    "id": "huggingface:CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF",
-    "name": "Nvidia-Qwen3.6-27B-NVFP4-GGUF",
-    "provider": "CodeFault",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T01:23:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "chain-of-thought",
-      "nvfp4",
-      "moe",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T02:42:41.916396+00:00",
-    "source_ids": [
-      "CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF"
-    ],
-    "family": "Nvidia-Qwen3.6-NVFP4"
   },
   {
     "id": "huggingface:bottlecapai/ThinkingCap-Qwen3.6-27B-GGUF",
@@ -18637,41 +18705,6 @@
       "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11"
     ],
     "family": "Z-Image-Turbo-Misc-Finetunes-DF11"
-  },
-  {
-    "id": "huggingface:EZCon/Huihui-Qwen3-VL-4B-Instruct-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx",
-    "name": "Huihui-Qwen3-VL-4B-Instruct-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx",
-    "provider": "EZCon",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-29T09:18:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/EZCon/Huihui-Qwen3-VL-4B-Instruct-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_vl",
-      "abliterated",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T02:42:42.718083+00:00",
-    "source_ids": [
-      "EZCon/Huihui-Qwen3-VL-4B-Instruct-abliterated-4bit-g32-mxfp4-mixed_4_8-mlx"
-    ],
-    "family": "Huihui-Qwen3-VL--abliterated-4bit-g32-mxfp4-mixed_4_8-mlx"
   },
   {
     "id": "huggingface:utter-project/EuroLLM-9B-Instruct-2512",
