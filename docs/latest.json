@@ -8669,39 +8669,6 @@
     "family": "Grok 4.5"
   },
   {
-    "id": "openrouter:~x-ai/grok-latest",
-    "name": "xAI: Grok Latest",
-    "provider": "~x-ai",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T14:02:40+00:00",
-    "context_length": 1000000,
-    "description": "This model always redirects to the latest Grok model from xAI.",
-    "url": "https://openrouter.ai/~x-ai/grok-latest",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.25,
-      "completion_per_million": 2.5
-    },
-    "first_seen": "2026-07-08T17:36:07.515576+00:00",
-    "source_ids": [
-      "~x-ai/grok-latest"
-    ],
-    "family": "Grok Latest"
-  },
-  {
     "id": "huggingface:lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
     "name": "ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
     "provider": "lmcoleman",
@@ -18808,40 +18775,6 @@
       "bezzam/omniasr-llm-300m-v2"
     ],
     "family": "omniasr-llm-300m-v2"
-  },
-  {
-    "id": "huggingface:Darayut/khmer-text-recognition",
-    "name": "khmer-text-recognition",
-    "provider": "Darayut",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-14T10:40:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Darayut/khmer-text-recognition",
-    "tags": [
-      "image-to-text",
-      "transformers",
-      "safetensors",
-      "khmer-ocr",
-      "feature-extraction",
-      "transformer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T17:36:07.793319+00:00",
-    "source_ids": [
-      "Darayut/khmer-text-recognition"
-    ],
-    "family": "khmer-text-recognition"
   },
   {
     "id": "huggingface:unsloth/LFM2.5-VL-1.6B-GGUF",
