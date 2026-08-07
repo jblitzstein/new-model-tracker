@@ -536,6 +536,40 @@
     "family": "Huihui-DeepSeek-V4-Flash-0731-abliterated"
   },
   {
+    "id": "huggingface:TenjinDas/Test",
+    "name": "Test",
+    "provider": "TenjinDas",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-02T06:50:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TenjinDas/Test",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:calcuis/illustrious"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T13:02:27.078312+00:00",
+    "source_ids": [
+      "TenjinDas/Test"
+    ],
+    "family": "Test"
+  },
+  {
     "id": "huggingface:el4/GRM-3.2-Sky-OPAL-GGUF",
     "name": "GRM-3.2-Sky-OPAL-GGUF",
     "provider": "el4",
@@ -11533,39 +11567,6 @@
     "family": "Ornith-1.0-abliterated-NVFP4"
   },
   {
-    "id": "huggingface:hotdogs/qwen35b-a3b-fable-sft-abliterated",
-    "name": "qwen35b-a3b-fable-sft-abliterated",
-    "provider": "hotdogs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T08:44:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hotdogs/qwen35b-a3b-fable-sft-abliterated",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen",
-      "moe",
-      "fable"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T10:18:05.195844+00:00",
-    "source_ids": [
-      "hotdogs/qwen35b-a3b-fable-sft-abliterated"
-    ],
-    "family": "qwen-fable-sft-abliterated"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/Qwen3.5-0.8-Cyber-GGUF",
     "name": "Qwen3.5-0.8-Cyber-GGUF",
     "provider": "reaperdoesntknow",
@@ -13223,39 +13224,6 @@
     "family": "cohere-transcribe-arabic-07-2026"
   },
   {
-    "id": "huggingface:vinpix/Bonsai-8B-llama.cpp",
-    "name": "Bonsai-8B-llama.cpp",
-    "provider": "vinpix",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-18T10:06:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vinpix/Bonsai-8B-llama.cpp",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "ternary",
-      "1.58-bit",
-      "quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T10:18:05.195766+00:00",
-    "source_ids": [
-      "vinpix/Bonsai-8B-llama.cpp"
-    ],
-    "family": "Bonsai-llama.cpp"
-  },
-  {
     "id": "huggingface:Kwai-Keye/Keye-VL-2.0-30B-A3B-GGUF",
     "name": "Keye-VL-2.0-30B-A3B-GGUF",
     "provider": "Kwai-Keye",
@@ -14543,39 +14511,6 @@
       "anthropic/claude-fable-5:batch"
     ],
     "family": "Claude Fable 5 (batch)"
-  },
-  {
-    "id": "huggingface:furiosa-ai/Solar-Open-100B-NVFP4A16",
-    "name": "Solar-Open-100B-NVFP4A16",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-09T12:07:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Solar-Open-100B-NVFP4A16",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "safetensors",
-      "solar_open",
-      "furiosa-ai",
-      "upstage"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T10:18:05.195703+00:00",
-    "source_ids": [
-      "furiosa-ai/Solar-Open-100B-NVFP4A16"
-    ],
-    "family": "Solar-Open-NVFP4A16"
   },
   {
     "id": "huggingface:dummy9996/nsfwvision-qwen3-vl-8b-v3-GGUF",
@@ -18608,39 +18543,6 @@
     "family": "Claude Sonnet 4.6 (batch)"
   },
   {
-    "id": "huggingface:furiosa-ai/K-EXAONE-236B-A23B-NVFP4A16",
-    "name": "K-EXAONE-236B-A23B-NVFP4A16",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-10T17:07:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/K-EXAONE-236B-A23B-NVFP4A16",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "safetensors",
-      "exaone_moe",
-      "furiosa-ai",
-      "lg-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T10:18:05.195662+00:00",
-    "source_ids": [
-      "furiosa-ai/K-EXAONE-236B-A23B-NVFP4A16"
-    ],
-    "family": "K-EXAONE-NVFP4A16"
-  },
-  {
     "id": "openrouter:anthropic/claude-opus-4.6:batch",
     "name": "Anthropic: Claude Opus 4.6 (batch)",
     "provider": "Anthropic",
@@ -19516,6 +19418,40 @@
       "optimum-intel-internal-testing/trocr-small-handwritten"
     ],
     "family": "trocr-small-handwritten"
+  },
+  {
+    "id": "huggingface:optimum-intel-internal-testing/tiny-random-flux",
+    "name": "tiny-random-flux",
+    "provider": "optimum-intel-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-10-21T09:55:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-flux",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "openvino",
+      "endpoints_compatible",
+      "diffusers:FluxPipeline"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T13:02:27.078248+00:00",
+    "source_ids": [
+      "optimum-intel-internal-testing/tiny-random-flux"
+    ],
+    "family": "tiny-random-flux"
   },
   {
     "id": "huggingface:maya-research/maya1",

@@ -114269,5 +114269,73 @@
       "mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF"
     ],
     "family": "OpenCaption-VL-SFT-v1.0-i1"
+  },
+  {
+    "id": "huggingface:optimum-intel-internal-testing/tiny-random-flux",
+    "name": "tiny-random-flux",
+    "provider": "optimum-intel-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-10-21T09:55:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-flux",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "openvino",
+      "endpoints_compatible",
+      "diffusers:FluxPipeline"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T13:02:27.078248+00:00",
+    "source_ids": [
+      "optimum-intel-internal-testing/tiny-random-flux"
+    ],
+    "family": "tiny-random-flux"
+  },
+  {
+    "id": "huggingface:TenjinDas/Test",
+    "name": "Test",
+    "provider": "TenjinDas",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-02T06:50:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TenjinDas/Test",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:calcuis/illustrious"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T13:02:27.078312+00:00",
+    "source_ids": [
+      "TenjinDas/Test"
+    ],
+    "family": "Test"
   }
 ]
