@@ -2079,6 +2079,41 @@
     "family": "Qwen3.6-Fable-Fusion-711-MTPLX-8bit"
   },
   {
+    "id": "huggingface:mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF",
+    "name": "OpenCaption-2B-VL-SFT-v1.0-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T14:15:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "vision-language",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T08:58:15.132337+00:00",
+    "source_ids": [
+      "mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF"
+    ],
+    "family": "OpenCaption-VL-SFT-v1.0-i1"
+  },
+  {
     "id": "huggingface:mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
     "name": "OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
     "provider": "mradermacher",
@@ -8699,39 +8734,6 @@
     "family": "ThinkingCap-Qwen3.6-MagicQuant"
   },
   {
-    "id": "huggingface:EleutherAI/GPT-2-wikitext-chunks",
-    "name": "GPT-2-wikitext-chunks",
-    "provider": "EleutherAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T06:08:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/EleutherAI/GPT-2-wikitext-chunks",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "dataset:EleutherAI/bergson-wikitext-512-chunks"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T06:27:41.924188+00:00",
-    "source_ids": [
-      "EleutherAI/GPT-2-wikitext-chunks"
-    ],
-    "family": "GPT-2-wikitext-chunks"
-  },
-  {
     "id": "huggingface:BananaMind/BananaMind-2-Mini",
     "name": "BananaMind-2-Mini",
     "provider": "BananaMind",
@@ -13254,39 +13256,6 @@
     "family": "Bonsai-llama.cpp"
   },
   {
-    "id": "huggingface:PhalaCloud/GLM-5.2-W4AFP8",
-    "name": "GLM-5.2-W4AFP8",
-    "provider": "PhalaCloud",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-18T09:22:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PhalaCloud/GLM-5.2-W4AFP8",
-    "tags": [
-      "text-generation",
-      "sglang",
-      "safetensors",
-      "deepseek_v3",
-      "glm",
-      "glm_moe_dsa"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T06:27:41.924297+00:00",
-    "source_ids": [
-      "PhalaCloud/GLM-5.2-W4AFP8"
-    ],
-    "family": "GLM-5.2-W4AFP8"
-  },
-  {
     "id": "huggingface:Kwai-Keye/Keye-VL-2.0-30B-A3B-GGUF",
     "name": "Keye-VL-2.0-30B-A3B-GGUF",
     "provider": "Kwai-Keye",
@@ -15652,6 +15621,39 @@
     "family": "Gemini 3.5 Flash (batch)"
   },
   {
+    "id": "huggingface:HuggingFaceBio/Carbon-8B",
+    "name": "Carbon-8B",
+    "provider": "HuggingFaceBio",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-17T23:30:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T08:58:14.213425+00:00",
+    "source_ids": [
+      "HuggingFaceBio/Carbon-8B"
+    ],
+    "family": "Carbon"
+  },
+  {
     "id": "huggingface:Anbeeld/gemma-4-31B-it-DFlash-GGUF",
     "name": "gemma-4-31B-it-DFlash-GGUF",
     "provider": "Anbeeld",
@@ -15788,6 +15790,39 @@
       "microsoft/Fara1.5-9B"
     ],
     "family": "Fara1.5"
+  },
+  {
+    "id": "huggingface:HuggingFaceBio/Carbon-500M",
+    "name": "Carbon-500M",
+    "provider": "HuggingFaceBio",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-12T16:09:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HuggingFaceBio/Carbon-500M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T08:58:14.213466+00:00",
+    "source_ids": [
+      "HuggingFaceBio/Carbon-500M"
+    ],
+    "family": "Carbon-500M"
   },
   {
     "id": "huggingface:tnhnyzc/MiMO-V2.5-MTP-GGUF",
