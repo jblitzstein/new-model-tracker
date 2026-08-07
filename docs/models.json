@@ -113839,5 +113839,233 @@
       "internlm/Intern-S1-FP8"
     ],
     "family": "Intern-S1-FP8"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-3.0-tiny:free",
+    "name": "inclusionAI: Ling 3.0 Tiny (free)",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T16:48:10+00:00",
+    "context_length": 262144,
+    "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-tiny:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-07T00:52:08.863990+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.0-tiny:free"
+    ],
+    "family": "Ling 3.0 Tiny"
+  },
+  {
+    "id": "huggingface:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF",
+    "name": "DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T01:05:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "unsloth",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T00:52:09.066628+00:00",
+    "source_ids": [
+      "Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF"
+    ],
+    "family": "DeepSeek-V4-Pro-Qwen3.5-MTP"
+  },
+  {
+    "id": "huggingface:Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B",
+    "name": "DeepSeek-V4-Pro-Qwen3.5-4B",
+    "provider": "Jackrong",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T16:38:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T00:52:09.066665+00:00",
+    "source_ids": [
+      "Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B"
+    ],
+    "family": "DeepSeek-V4-Pro-Qwen3.5"
+  },
+  {
+    "id": "huggingface:protoLabsAI/ThinkingCap-Qwen3.6-27B-abliterated-MTP-GGUF",
+    "name": "ThinkingCap-Qwen3.6-27B-abliterated-MTP-GGUF",
+    "provider": "protoLabsAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-28T05:15:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/protoLabsAI/ThinkingCap-Qwen3.6-27B-abliterated-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "nvfp4",
+      "mtp",
+      "speculative-decoding",
+      "blackwell"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T00:52:09.066703+00:00",
+    "source_ids": [
+      "protoLabsAI/ThinkingCap-Qwen3.6-27B-abliterated-MTP-GGUF"
+    ],
+    "family": "ThinkingCap-Qwen3.6-abliterated-MTP"
+  },
+  {
+    "id": "huggingface:mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11",
+    "name": "Z-Image-Turbo-Misc-Finetunes-DF11",
+    "provider": "mingyi456",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-01-30T07:18:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "diffusion-single-file",
+      "text-to-image",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T00:52:09.227356+00:00",
+    "source_ids": [
+      "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11"
+    ],
+    "family": "Z-Image-Turbo-Misc-Finetunes-DF11"
+  },
+  {
+    "id": "huggingface:rockerBOO/minimax-h3-nvfp4-convrot",
+    "name": "minimax-h3-nvfp4-convrot",
+    "provider": "rockerBOO",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-03T08:14:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rockerBOO/minimax-h3-nvfp4-convrot",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "minimax-h3",
+      "nvfp4",
+      "quantized",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T00:52:09.507920+00:00",
+    "source_ids": [
+      "rockerBOO/minimax-h3-nvfp4-convrot"
+    ],
+    "family": "minimax-h3-nvfp4-convrot"
+  },
+  {
+    "id": "huggingface:NikiKrutan/Qwen3.5-0.8B-MTP-GGUF",
+    "name": "Qwen3.5-0.8B-MTP-GGUF",
+    "provider": "NikiKrutan",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T18:11:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NikiKrutan/Qwen3.5-0.8B-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen",
+      "qwen3_5",
+      "imatrix",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-07T00:52:10.091519+00:00",
+    "source_ids": [
+      "NikiKrutan/Qwen3.5-0.8B-MTP-GGUF"
+    ],
+    "family": "Qwen3.5-MTP"
   }
 ]
