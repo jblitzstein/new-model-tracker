@@ -6740,6 +6740,39 @@
     "family": "ThinkingCap-Qwen3.6--INT4"
   },
   {
+    "id": "huggingface:kiel2/KielMind-Lite",
+    "name": "KielMind-Lite",
+    "provider": "kiel2",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-12T04:23:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kiel2/KielMind-Lite",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "llama",
+      "text-generation",
+      "fine-tuned"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-08T04:55:58.873849+00:00",
+    "source_ids": [
+      "kiel2/KielMind-Lite"
+    ],
+    "family": "KielMind-Lite"
+  },
+  {
     "id": "huggingface:theoitssurabaya/Legal-Assistant-GRPO",
     "name": "Legal-Assistant-GRPO",
     "provider": "theoitssurabaya",
@@ -11602,41 +11635,6 @@
     "family": "Laguna-XS-2.1"
   },
   {
-    "id": "huggingface:Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
-    "name": "Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-29T16:18:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T03:18:53.625051+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF"
-    ],
-    "family": "Qwopus3.6-Coder-MTP"
-  },
-  {
     "id": "huggingface:maci0/Qwopus3.6-27B-Coder-NVFP4",
     "name": "Qwopus3.6-27B-Coder-NVFP4",
     "provider": "maci0",
@@ -12955,41 +12953,6 @@
       "poolside/Laguna-XS-2.1-INT4"
     ],
     "family": "Laguna-XS-2.1-INT4"
-  },
-  {
-    "id": "huggingface:Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF",
-    "name": "Qwopus3.6-27B-Coder-Compat-MTP-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-20T09:39:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T03:18:53.624949+00:00",
-    "source_ids": [
-      "Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF"
-    ],
-    "family": "Qwopus3.6-Coder-Compat-MTP"
   },
   {
     "id": "huggingface:FunAudioLLM/Fun-ASR-Nano-GGUF",
@@ -17145,41 +17108,6 @@
       "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF"
     ],
     "family": "gemma-4-E-it-OBLITERATED-i1"
-  },
-  {
-    "id": "huggingface:Jackrong/Gemopus-4-31B-it-GGUF",
-    "name": "Gemopus-4-31B-it-GGUF",
-    "provider": "Jackrong",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-15T14:01:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jackrong/Gemopus-4-31B-it-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T03:18:53.624551+00:00",
-    "source_ids": [
-      "Jackrong/Gemopus-4-31B-it-GGUF"
-    ],
-    "family": "Gemopus-4-it"
   },
   {
     "id": "huggingface:cstr/canary-ctc-aligner-GGUF",
