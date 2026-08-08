@@ -1502,6 +1502,39 @@
     "family": "canter"
   },
   {
+    "id": "huggingface:skt/A.X-K2",
+    "name": "A.X-K2",
+    "provider": "skt",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-28T10:33:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/skt/A.X-K2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "axk2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-08T12:47:31.703211+00:00",
+    "source_ids": [
+      "skt/A.X-K2"
+    ],
+    "family": "A.X-K2"
+  },
+  {
     "id": "huggingface:Audio8/Audio8-TTS-Preview-0.6b",
     "name": "Audio8-TTS-Preview-0.6b",
     "provider": "Audio8",
@@ -9309,39 +9342,6 @@
     "family": "Cosmos3-Super-Text2Image-4Step"
   },
   {
-    "id": "huggingface:satgeze/Hy3-1M-GGUF",
-    "name": "Hy3-1M-GGUF",
-    "provider": "satgeze",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T23:20:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/satgeze/Hy3-1M-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "long-context",
-      "yarn",
-      "hunyuan",
-      "hy_v3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T10:59:13.768599+00:00",
-    "source_ids": [
-      "satgeze/Hy3-1M-GGUF"
-    ],
-    "family": "Hy3-1M"
-  },
-  {
     "id": "huggingface:fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
     "name": "dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
     "provider": "fpadovani",
@@ -9639,39 +9639,6 @@
       "jarrelscy/GLM-5.2-NVFP4-AQLM-hybrid"
     ],
     "family": "GLM-5.2-NVFP4-AQLM-hybrid"
-  },
-  {
-    "id": "huggingface:satgeze/Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-    "name": "Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-    "provider": "satgeze",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T03:47:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/satgeze/Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "long-context",
-      "yarn",
-      "gemma4",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T10:59:13.768691+00:00",
-    "source_ids": [
-      "satgeze/Gemma4-31B-Uncensored-HauhauCS-1M-GGUF"
-    ],
-    "family": "Gemma4-Uncensored-HauhauCS-1M"
   },
   {
     "id": "huggingface:satgeze/Gemma4-12B-Uncensored-HauhauCS-1M-GGUF",
@@ -10452,40 +10419,6 @@
       "manjunathshiva/Qwen3.6-35B-A3B-tq3a-tqTe-g64"
     ],
     "family": "Qwen3.6-tq3a-tqTe-g64"
-  },
-  {
-    "id": "huggingface:audarai/Audar-ASR-V1-Flash",
-    "name": "Audar-ASR-V1-Flash",
-    "provider": "audarai",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T16:51:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/audarai/Audar-ASR-V1-Flash",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen3_asr",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T10:59:14.531663+00:00",
-    "source_ids": [
-      "audarai/Audar-ASR-V1-Flash"
-    ],
-    "family": "Audar-ASR-V1-Flash"
   },
   {
     "id": "huggingface:poolside/Laguna-S-2.1-INT4",
@@ -12718,40 +12651,6 @@
       "Delentia/delentia-slm-jitna-v0.4"
     ],
     "family": "delentia-slm-jitna-v0.4"
-  },
-  {
-    "id": "huggingface:nineninesix/gepard-1.0",
-    "name": "gepard-1.0",
-    "provider": "nineninesix",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-06-22T06:34:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nineninesix/gepard-1.0",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "text-to-speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T10:59:14.396485+00:00",
-    "source_ids": [
-      "nineninesix/gepard-1.0"
-    ],
-    "family": "gepard-1.0"
   },
   {
     "id": "huggingface:caid-technologies/parti-base",
@@ -15827,40 +15726,6 @@
       "lemuralabs/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-abliterated-OptiQ-3.7bpw-mlx"
     ],
     "family": "Qwen3.6-Claude-Opus-Reasoning-Distill-v2-abliterated-OptiQ-3.7bpw-mlx"
-  },
-  {
-    "id": "huggingface:hans00/MOSS-TTS-Realtime-GGUF",
-    "name": "MOSS-TTS-Realtime-GGUF",
-    "provider": "hans00",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-05-07T16:35:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hans00/MOSS-TTS-Realtime-GGUF",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "tts",
-      "text-to-speech",
-      "moss-tts",
-      "moss-tts-realtime"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T10:59:14.396568+00:00",
-    "source_ids": [
-      "hans00/MOSS-TTS-Realtime-GGUF"
-    ],
-    "family": "MOSS-TTS-Realtime"
   },
   {
     "id": "openrouter:google/gemini-3.1-flash-lite:batch",
