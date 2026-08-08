@@ -2976,6 +2976,41 @@
     "family": "Solar-Open2"
   },
   {
+    "id": "huggingface:AlexHung29629/gemma-4-E2B",
+    "name": "gemma-4-E2B",
+    "provider": "AlexHung29629",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-22T01:38:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AlexHung29629/gemma-4-E2B",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-08T01:38:53.636063+00:00",
+    "source_ids": [
+      "AlexHung29629/gemma-4-E2B"
+    ],
+    "family": "gemma-4-E"
+  },
+  {
     "id": "huggingface:unsloth/Laguna-S-2.1-GGUF",
     "name": "Laguna-S-2.1-GGUF",
     "provider": "unsloth",
@@ -8636,39 +8671,6 @@
     "family": "cohere-transcribe-arabic-07-2026"
   },
   {
-    "id": "openrouter:x-ai/grok-4.5",
-    "name": "xAI: Grok 4.5",
-    "provider": "xAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T15:05:54+00:00",
-    "context_length": 500000,
-    "description": "Grok 4.5 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM.",
-    "url": "https://openrouter.ai/x-ai/grok-4.5",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.0,
-      "completion_per_million": 6.0
-    },
-    "first_seen": "2026-07-08T21:07:18.705532+00:00",
-    "source_ids": [
-      "x-ai/grok-4.5"
-    ],
-    "family": "Grok 4.5"
-  },
-  {
     "id": "huggingface:lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
     "name": "ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
     "provider": "lmcoleman",
@@ -12586,40 +12588,6 @@
     "family": "llm-jp-4"
   },
   {
-    "id": "huggingface:OzzyGT/Krea_2_Turbo_sdnq_dynamic_4bit",
-    "name": "Krea_2_Turbo_sdnq_dynamic_4bit",
-    "provider": "OzzyGT",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-23T19:29:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OzzyGT/Krea_2_Turbo_sdnq_dynamic_4bit",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "image-generation",
-      "krea2",
-      "sdnq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-08T21:07:18.956335+00:00",
-    "source_ids": [
-      "OzzyGT/Krea_2_Turbo_sdnq_dynamic_4bit"
-    ],
-    "family": "Krea_2_Turbo_sdnq_dynamic_4bit"
-  },
-  {
     "id": "huggingface:icecubetr/GLM-5.2-REAM-GGUF",
     "name": "GLM-5.2-REAM-GGUF",
     "provider": "icecubetr",
@@ -14105,6 +14073,41 @@
     "family": "gemma-4-e-it-qat-OptiQ-4bit"
   },
   {
+    "id": "huggingface:RedHatAI/Qwen3.6-35B-A3B",
+    "name": "Qwen3.6-35B-A3B",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-12T13:01:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "vllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-08T01:38:53.636233+00:00",
+    "source_ids": [
+      "RedHatAI/Qwen3.6-35B-A3B"
+    ],
+    "family": "Qwen3.6"
+  },
+  {
     "id": "openrouter:moonshotai/kimi-k2.7-code:batch",
     "name": "MoonshotAI: Kimi K2.7 Code (batch)",
     "provider": "Moonshot AI",
@@ -14478,6 +14481,76 @@
       "anthropic/claude-fable-5:batch"
     ],
     "family": "Claude Fable 5 (batch)"
+  },
+  {
+    "id": "huggingface:RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic",
+    "name": "diffusiongemma-26B-A4B-it-FP8-dynamic",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T12:11:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "diffusion_gemma",
+      "image-text-to-text",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-08T01:38:53.636191+00:00",
+    "source_ids": [
+      "RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic"
+    ],
+    "family": "diffusiongemma-it-FP8-dynamic"
+  },
+  {
+    "id": "huggingface:RedHatAI/diffusiongemma-26B-A4B-it-NVFP4",
+    "name": "diffusiongemma-26B-A4B-it-NVFP4",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T12:01:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/diffusiongemma-26B-A4B-it-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "diffusion_gemma",
+      "image-text-to-text",
+      "fp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-08T01:38:53.636156+00:00",
+    "source_ids": [
+      "RedHatAI/diffusiongemma-26B-A4B-it-NVFP4"
+    ],
+    "family": "diffusiongemma-it-NVFP4"
   },
   {
     "id": "huggingface:dummy9996/nsfwvision-qwen3-vl-8b-v3-GGUF",
@@ -16937,6 +17010,41 @@
       "ggml-org/Qwen3.6-35B-A3B-GGUF"
     ],
     "family": "Qwen3.6"
+  },
+  {
+    "id": "huggingface:RedHatAI/Qwen3.6-35B-A3B-NVFP4",
+    "name": "Qwen3.6-35B-A3B-NVFP4",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T00:40:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "fp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-08T01:38:53.636283+00:00",
+    "source_ids": [
+      "RedHatAI/Qwen3.6-35B-A3B-NVFP4"
+    ],
+    "family": "Qwen3.6-NVFP4"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.7:batch",
