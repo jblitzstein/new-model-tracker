@@ -867,6 +867,40 @@
     "family": "w2vbert-waxal-r5"
   },
   {
+    "id": "huggingface:Omnico/Krea2_turbo_diff_loras",
+    "name": "Krea2_turbo_diff_loras",
+    "provider": "Omnico",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-01T13:23:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Omnico/Krea2_turbo_diff_loras",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:krea/Krea-2-Turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-09T16:34:03.296818+00:00",
+    "source_ids": [
+      "Omnico/Krea2_turbo_diff_loras"
+    ],
+    "family": "Krea2_turbo_diff_loras"
+  },
+  {
     "id": "huggingface:AtomicChat/DeepSeek-V4-Flash-0731-GGUF",
     "name": "DeepSeek-V4-Flash-0731-GGUF",
     "provider": "AtomicChat",
@@ -2175,6 +2209,39 @@
       "amineouaki/hubert-darija-combined"
     ],
     "family": "hubert-darija-combined"
+  },
+  {
+    "id": "huggingface:otheru/DeepSeek-V4-Flash-Strix-Halo-GGUF",
+    "name": "DeepSeek-V4-Flash-Strix-Halo-GGUF",
+    "provider": "otheru",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T13:18:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/otheru/DeepSeek-V4-Flash-Strix-Halo-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "rocmfp",
+      "rocmfpx",
+      "strix-halo",
+      "gfx1151"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-09T16:34:03.229411+00:00",
+    "source_ids": [
+      "otheru/DeepSeek-V4-Flash-Strix-Halo-GGUF"
+    ],
+    "family": "DeepSeek-V4-Flash-Strix-Halo"
   },
   {
     "id": "huggingface:SC117/Laguna-S-2.1-Uncensored-APEX-GGUF",
@@ -6190,6 +6257,40 @@
     "family": "Hy-Embodied-RxBrain-1.0"
   },
   {
+    "id": "huggingface:ChrisColeTech/ideogram4-turbo-GGUF",
+    "name": "ideogram4-turbo-GGUF",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-13T23:32:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/ideogram4-turbo-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "image-to-image",
+      "text-to-image",
+      "quantized",
+      "ideogram"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-09T16:34:03.296686+00:00",
+    "source_ids": [
+      "ChrisColeTech/ideogram4-turbo-GGUF"
+    ],
+    "family": "ideogram4-turbo"
+  },
+  {
     "id": "huggingface:deepdml/whisper-tiny-es-mix-norm",
     "name": "whisper-tiny-es-mix-norm",
     "provider": "deepdml",
@@ -6391,6 +6492,40 @@
       "AnkitAI/Parable-Granite-4.1-3B-Claude-Fable-5-GGUF"
     ],
     "family": "Parable-Granite-4.1-Claude-Fable-5"
+  },
+  {
+    "id": "huggingface:ChrisColeTech/flux1-dev-turbo-GGUF",
+    "name": "flux1-dev-turbo-GGUF",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-13T16:16:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/flux1-dev-turbo-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "quantized",
+      "flux",
+      "turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-09T16:34:03.296747+00:00",
+    "source_ids": [
+      "ChrisColeTech/flux1-dev-turbo-GGUF"
+    ],
+    "family": "flux1-dev-turbo"
   },
   {
     "id": "huggingface:poolside/Laguna-S-2.1",
@@ -8570,39 +8705,6 @@
     "family": "Pluto-Genesis"
   },
   {
-    "id": "huggingface:tencent/HiLS-Attention-7B",
-    "name": "HiLS-Attention-7B",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-09T03:38:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/HiLS-Attention-7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "olmo_hils",
-      "text-generation",
-      "long-context"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.455627+00:00",
-    "source_ids": [
-      "tencent/HiLS-Attention-7B"
-    ],
-    "family": "HiLS-Attention"
-  },
-  {
     "id": "huggingface:RobinsonLabs/Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
     "name": "Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
     "provider": "RobinsonLabs",
@@ -8936,39 +9038,6 @@
       "sahilchachra/ThinkingCap-Qwen3.6-27B-AWQ"
     ],
     "family": "ThinkingCap-Qwen3.6"
-  },
-  {
-    "id": "huggingface:ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF",
-    "name": "MiniCPM5-1B-Agentic-Tooluse-GGUF",
-    "provider": "ewinregirgojr",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-07T14:06:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "llama-cpp",
-      "minicpm",
-      "minicpm5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.455655+00:00",
-    "source_ids": [
-      "ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF"
-    ],
-    "family": "MiniCPM5-Agentic-Tooluse"
   },
   {
     "id": "huggingface:philipjohnbasile/hy3-demolition-mlx-lite-v1",
@@ -9911,39 +9980,6 @@
       "neko-legends/Qwen3.6-27B-NVFP4-MTP-GGUF"
     ],
     "family": "Qwen3.6-NVFP4-MTP"
-  },
-  {
-    "id": "huggingface:HOLOGRAMTECH/q-bitnet-2b",
-    "name": "q-bitnet-2b",
-    "provider": "HOLOGRAMTECH",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-03T20:06:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/HOLOGRAMTECH/q-bitnet-2b",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "hologram",
-      "q",
-      "kappa-object",
-      "holo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.455518+00:00",
-    "source_ids": [
-      "HOLOGRAMTECH/q-bitnet-2b"
-    ],
-    "family": "q-bitnet"
   },
   {
     "id": "huggingface:EZForever/gemma-4-26B-A4B-it-qat-uncensored-heretic-UDmerge-GGUF",
@@ -14212,105 +14248,6 @@
     "family": "gemma-4-it-QAT-MLX-4bit"
   },
   {
-    "id": "huggingface:RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16",
-    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T22:17:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "redhat"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.455186+00:00",
-    "source_ids": [
-      "RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-quantized.w4a16"
-    ],
-    "family": "NVIDIA-Nemotron-3-Ultra-quantized.w4a16"
-  },
-  {
-    "id": "huggingface:RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block",
-    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T22:04:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "nemotron_h",
-      "fp8",
-      "quantized",
-      "llm-compressor"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.455151+00:00",
-    "source_ids": [
-      "RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-block"
-    ],
-    "family": "NVIDIA-Nemotron-3-Ultra-FP8-block"
-  },
-  {
-    "id": "huggingface:RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic",
-    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T19:09:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "redhat"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.455377+00:00",
-    "source_ids": [
-      "RedHatAI/NVIDIA-Nemotron-3-Ultra-550B-A55B-FP8-dynamic"
-    ],
-    "family": "NVIDIA-Nemotron-3-Ultra-FP8-dynamic"
-  },
-  {
     "id": "huggingface:aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8",
     "name": "Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8",
     "provider": "aufklarer",
@@ -16130,40 +16067,6 @@
       "ggml-org/Qwen3.6-27B-GGUF"
     ],
     "family": "Qwen3.6"
-  },
-  {
-    "id": "huggingface:cstr/glm-asr-nano-GGUF",
-    "name": "glm-asr-nano-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-19T16:38:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/glm-asr-nano-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "transcription"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:37.145155+00:00",
-    "source_ids": [
-      "cstr/glm-asr-nano-GGUF"
-    ],
-    "family": "glm-asr-nano"
   },
   {
     "id": "huggingface:ggml-org/Qwen3.6-35B-A3B-GGUF",
@@ -20150,72 +20053,6 @@
       "lemuralabs/Gemma-2B-Uncensored-GGUF"
     ],
     "family": "Gemma-Uncensored"
-  },
-  {
-    "id": "huggingface:RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w4a16",
-    "name": "Meta-Llama-3.1-8B-Instruct-quantized.w4a16",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-07-26T18:58:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w4a16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "facebook"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.455108+00:00",
-    "source_ids": [
-      "RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w4a16"
-    ],
-    "family": "Meta-Llama-3.1--quantized.w4a16"
-  },
-  {
-    "id": "huggingface:RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
-    "name": "Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-07-24T04:09:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "facebook"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-10T14:26:36.454995+00:00",
-    "source_ids": [
-      "RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8"
-    ],
-    "family": "Meta-Llama-3.1--quantized.w8a8"
   },
   {
     "id": "openrouter:openai/gpt-4o-mini:batch",
