@@ -433,6 +433,40 @@
     "family": "JiRackUltra"
   },
   {
+    "id": "huggingface:yacoubagbane/checkpoints",
+    "name": "checkpoints",
+    "provider": "yacoubagbane",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-02T20:09:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/yacoubagbane/checkpoints",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-09T01:44:02.677221+00:00",
+    "source_ids": [
+      "yacoubagbane/checkpoints"
+    ],
+    "family": "checkpoints"
+  },
+  {
     "id": "huggingface:dianavdavidson/mms-1b-all-indic_voices-60250-hinglish_mixed_scripts-30_70-1e-4-hin-steps-15000-FT",
     "name": "mms-1b-all-indic_voices-60250-hinglish_mixed_scripts-30_70-1e-4-hin-steps-15000-FT",
     "provider": "dianavdavidson",
@@ -8939,39 +8973,6 @@
     "family": "ThinkingCap-Qwen3.6"
   },
   {
-    "id": "huggingface:YanissAmz/Hy3-295B-A21B-GGUF",
-    "name": "Hy3-295B-A21B-GGUF",
-    "provider": "YanissAmz",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-07T15:26:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/YanissAmz/Hy3-295B-A21B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "moe",
-      "imatrix",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T21:23:27.531049+00:00",
-    "source_ids": [
-      "YanissAmz/Hy3-295B-A21B-GGUF"
-    ],
-    "family": "Hy3"
-  },
-  {
     "id": "huggingface:GoDotWebs/dotwebs-1",
     "name": "dotwebs-1",
     "provider": "GoDotWebs",
@@ -15079,39 +15080,6 @@
     "family": "Fun-ASR-Nano-2512-hf"
   },
   {
-    "id": "huggingface:88plug/Nemotron-3-Nano-30B-A3B-W4A16",
-    "name": "Nemotron-3-Nano-30B-A3B-W4A16",
-    "provider": "88plug",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-24T05:32:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/88plug/Nemotron-3-Nano-30B-A3B-W4A16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "nemotron"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-09T21:23:27.530960+00:00",
-    "source_ids": [
-      "88plug/Nemotron-3-Nano-30B-A3B-W4A16"
-    ],
-    "family": "Nemotron-3-Nano-W4A16"
-  },
-  {
     "id": "huggingface:88plug/Qwen2.5-Omni-7B-W4A16",
     "name": "Qwen2.5-Omni-7B-W4A16",
     "provider": "88plug",
@@ -18442,6 +18410,40 @@
       "LiquidAI/LFM2-2.6B-Exp"
     ],
     "family": "LFM2-Exp"
+  },
+  {
+    "id": "huggingface:lolendo/illustrousManga",
+    "name": "illustrousManga",
+    "provider": "lolendo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-12-18T22:57:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lolendo/illustrousManga",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:OnomaAIResearch/Illustrious-xl-early-release-v0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-09T01:44:02.087593+00:00",
+    "source_ids": [
+      "lolendo/illustrousManga"
+    ],
+    "family": "illustrousManga"
   },
   {
     "id": "huggingface:ifmylove2011/girlslike-zimage",
