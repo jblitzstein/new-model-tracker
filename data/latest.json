@@ -1,5 +1,72 @@
 [
   {
+    "id": "huggingface:rzgar/minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy",
+    "name": "minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy",
+    "provider": "rzgar",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-08T04:00:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rzgar/minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "text-to-video",
+      "text-to-audio",
+      "audio-video",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.344665+00:00",
+    "source_ids": [
+      "rzgar/minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy"
+    ],
+    "family": "minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy"
+  },
+  {
+    "id": "huggingface:Scrappy-Doo/GLM-5.2",
+    "name": "GLM-5.2",
+    "provider": "Scrappy-Doo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-07T21:00:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Scrappy-Doo/GLM-5.2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "glm_moe_dsa",
+      "text-generation",
+      "conversational",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.109168+00:00",
+    "source_ids": [
+      "Scrappy-Doo/GLM-5.2"
+    ],
+    "family": "GLM-5.2"
+  },
+  {
     "id": "openrouter:inclusionai/ling-3.0-tiny:free",
     "name": "inclusionAI: Ling 3.0 Tiny (free)",
     "provider": "inclusionai",
@@ -4589,6 +4656,39 @@
       "openrouter/auto-beta"
     ],
     "family": "Auto Router (Beta)"
+  },
+  {
+    "id": "huggingface:mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp",
+    "name": "GLM-5.2-colibri-int4-g64-with-int8-mtp",
+    "provider": "mastouri",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T16:43:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp",
+    "tags": [
+      "text-generation",
+      "glm_moe_dsa",
+      "colibri",
+      "glm",
+      "glm-5.2",
+      "glm-5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.109437+00:00",
+    "source_ids": [
+      "mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp"
+    ],
+    "family": "GLM-5.2-colibri-int4-g64-with-int8-mtp"
   },
   {
     "id": "huggingface:anonym5035/swi_glu_sw_64_16_8_4_xpert_gpt",
@@ -9544,39 +9644,6 @@
     "family": "sakthai-context-merged"
   },
   {
-    "id": "huggingface:satgeze/Gemma4-12B-Uncensored-HauhauCS-1M-GGUF",
-    "name": "Gemma4-12B-Uncensored-HauhauCS-1M-GGUF",
-    "provider": "satgeze",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T03:46:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/satgeze/Gemma4-12B-Uncensored-HauhauCS-1M-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "long-context",
-      "yarn",
-      "gemma4",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T06:12:41.901849+00:00",
-    "source_ids": [
-      "satgeze/Gemma4-12B-Uncensored-HauhauCS-1M-GGUF"
-    ],
-    "family": "Gemma4-Uncensored-HauhauCS-1M"
-  },
-  {
     "id": "huggingface:Nanthasit/sakthai-context-1.5b-merged",
     "name": "sakthai-context-1.5b-merged",
     "provider": "Nanthasit",
@@ -11232,6 +11299,72 @@
     "family": "ALIA-fc-2606"
   },
   {
+    "id": "huggingface:furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8",
+    "name": "Qwen3-30B-A3B-Instruct-2507-FP8",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-28T14:29:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8",
+    "tags": [
+      "text-generation",
+      "furiosa-llm",
+      "safetensors",
+      "qwen3_moe",
+      "furiosa-ai",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.109528+00:00",
+    "source_ids": [
+      "furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8"
+    ],
+    "family": "Qwen3--2507-FP8"
+  },
+  {
+    "id": "huggingface:furiosa-ai/Qwen3-4B-FP8",
+    "name": "Qwen3-4B-FP8",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-28T14:26:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/Qwen3-4B-FP8",
+    "tags": [
+      "text-generation",
+      "furiosa-llm",
+      "safetensors",
+      "qwen3",
+      "furiosa-ai",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.109226+00:00",
+    "source_ids": [
+      "furiosa-ai/Qwen3-4B-FP8"
+    ],
+    "family": "Qwen3-FP8"
+  },
+  {
     "id": "huggingface:huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
     "name": "Huihui-GLM-5.2-abliterated-GGUF",
     "provider": "huihui-ai",
@@ -11495,6 +11628,40 @@
       "AtomicChat/ornith-9b-MLX-4bit"
     ],
     "family": "ornith-MLX-4bit"
+  },
+  {
+    "id": "huggingface:litert-community/Matcha-TTS",
+    "name": "Matcha-TTS",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-26T10:19:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Matcha-TTS",
+    "tags": [
+      "text-to-speech",
+      "litert",
+      "tflite",
+      "text-to-speech",
+      "tts",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.507057+00:00",
+    "source_ids": [
+      "litert-community/Matcha-TTS"
+    ],
+    "family": "Matcha-TTS"
   },
   {
     "id": "huggingface:Quatfit/Quatfit-Mini",
@@ -13429,6 +13596,72 @@
       "mlx-community/diffusiongemma-26B-A4B-it-4bit"
     ],
     "family": "diffusiongemma-it-4bit"
+  },
+  {
+    "id": "huggingface:furiosa-ai/gpt-oss-20b",
+    "name": "gpt-oss-20b",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T15:28:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/gpt-oss-20b",
+    "tags": [
+      "text-generation",
+      "furiosa-llm",
+      "safetensors",
+      "gpt_oss",
+      "furiosa-ai",
+      "gpt-oss"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.109355+00:00",
+    "source_ids": [
+      "furiosa-ai/gpt-oss-20b"
+    ],
+    "family": "gpt-oss"
+  },
+  {
+    "id": "huggingface:furiosa-ai/Qwen3-8B-FP8",
+    "name": "Qwen3-8B-FP8",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-09T15:25:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/Qwen3-8B-FP8",
+    "tags": [
+      "text-generation",
+      "furiosa-llm",
+      "safetensors",
+      "qwen3",
+      "furiosa-ai",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T09:20:23.109504+00:00",
+    "source_ids": [
+      "furiosa-ai/Qwen3-8B-FP8"
+    ],
+    "family": "Qwen3-FP8"
   },
   {
     "id": "huggingface:furiosa-ai/gpt-oss-120b",
@@ -16078,39 +16311,6 @@
       "lmstudio-community/gemma-4-26B-A4B-it-MLX-4bit"
     ],
     "family": "gemma-4-it-MLX-4bit"
-  },
-  {
-    "id": "huggingface:ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled",
-    "name": "qwen2.5-coder-3b-claude_opus_4.6-distilled",
-    "provider": "ryzdfm",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-02T09:19:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "qwen2",
-      "qwen2.5",
-      "qwen2.5-coder"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T06:12:41.901881+00:00",
-    "source_ids": [
-      "ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled"
-    ],
-    "family": "qwen2.5-coder-claude_opus_4.6-distilled"
   },
   {
     "id": "huggingface:ggml-org/gemma-4-31B-it-GGUF",
