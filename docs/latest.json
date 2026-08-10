@@ -8372,6 +8372,40 @@
     "family": "HackerNet-Model"
   },
   {
+    "id": "huggingface:litert-community/FLUX.2-klein-4B-LiteRT",
+    "name": "FLUX.2-klein-4B-LiteRT",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-09T15:02:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/FLUX.2-klein-4B-LiteRT",
+    "tags": [
+      "text-to-image",
+      "litert",
+      "tflite",
+      "text-to-image",
+      "on-device",
+      "diffusion-transformer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T20:41:39.364425+00:00",
+    "source_ids": [
+      "litert-community/FLUX.2-klein-4B-LiteRT"
+    ],
+    "family": "FLUX.2-klein-LiteRT"
+  },
+  {
     "id": "huggingface:bottlecapai/ThinkingCap-Qwen3.6-27B-FP8",
     "name": "ThinkingCap-Qwen3.6-27B-FP8",
     "provider": "bottlecapai",
@@ -8703,6 +8737,40 @@
       "Qualcomm-AI-Research/mobilewan"
     ],
     "family": "mobilewan"
+  },
+  {
+    "id": "huggingface:litert-community/Z-Image-Turbo-LiteRT",
+    "name": "Z-Image-Turbo-LiteRT",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-09T05:50:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Z-Image-Turbo-LiteRT",
+    "tags": [
+      "text-to-image",
+      "litert",
+      "tflite",
+      "text-to-image",
+      "on-device",
+      "diffusion-transformer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T20:41:39.364398+00:00",
+    "source_ids": [
+      "litert-community/Z-Image-Turbo-LiteRT"
+    ],
+    "family": "Z-Image-Turbo-LiteRT"
   },
   {
     "id": "huggingface:Siddh07ETH/Pluto-Genesis-0.6B",
@@ -10384,39 +10452,6 @@
       "AtomicChat/gemma-4-26B-A4B-it-GGUF"
     ],
     "family": "gemma-4-it"
-  },
-  {
-    "id": "huggingface:texdata/Qwen3.6-35B-A3B-Slovenian-GGUF",
-    "name": "Qwen3.6-35B-A3B-Slovenian-GGUF",
-    "provider": "texdata",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T14:31:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/texdata/Qwen3.6-35B-A3B-Slovenian-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3_5_moe",
-      "slovenian",
-      "qwen3",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T16:58:11.678733+00:00",
-    "source_ids": [
-      "texdata/Qwen3.6-35B-A3B-Slovenian-GGUF"
-    ],
-    "family": "Qwen3.6-Slovenian"
   },
   {
     "id": "huggingface:AtomicChat/ornith-35b-MLX-8bit",
@@ -17634,40 +17669,6 @@
       "optimum-intel-internal-testing/tiny-random-flux"
     ],
     "family": "tiny-random-flux"
-  },
-  {
-    "id": "huggingface:maya-research/maya1",
-    "name": "maya1",
-    "provider": "maya-research",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2025-10-18T01:45:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/maya-research/maya1",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-to-speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T16:58:12.075973+00:00",
-    "source_ids": [
-      "maya-research/maya1"
-    ],
-    "family": "maya1"
   },
   {
     "id": "openrouter:anthropic/claude-haiku-4.5:batch",
