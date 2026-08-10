@@ -93,6 +93,39 @@
     "family": "Ling 3.0 Tiny"
   },
   {
+    "id": "huggingface:Dev4285/MiniArt-Uncensored",
+    "name": "MiniArt-Uncensored",
+    "provider": "Dev4285",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T13:03:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Dev4285/MiniArt-Uncensored",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen2",
+      "text-generation",
+      "creative",
+      "roleplay"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-10T13:06:50.437919+00:00",
+    "source_ids": [
+      "Dev4285/MiniArt-Uncensored"
+    ],
+    "family": "MiniArt-Uncensored"
+  },
+  {
     "id": "openrouter:meta/muse-spark-1.2",
     "name": "Meta: Muse Spark 1.2",
     "provider": "Meta",
@@ -8034,107 +8067,6 @@
     "family": "uyu-2"
   },
   {
-    "id": "huggingface:aethercompute/aether0-500m",
-    "name": "aether0-500m",
-    "provider": "aethercompute",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-10T13:25:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aethercompute/aether0-500m",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "deepseek_v3",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T09:37:20.112852+00:00",
-    "source_ids": [
-      "aethercompute/aether0-500m"
-    ],
-    "family": "aether0-500m"
-  },
-  {
-    "id": "huggingface:hotdogs/Qwen35B-Agent-R2",
-    "name": "Qwen35B-Agent-R2",
-    "provider": "hotdogs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-10T12:44:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hotdogs/Qwen35B-Agent-R2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen3_5_moe_text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T09:37:20.113044+00:00",
-    "source_ids": [
-      "hotdogs/Qwen35B-Agent-R2"
-    ],
-    "family": "Qwen-Agent-R2"
-  },
-  {
-    "id": "huggingface:unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
-    "name": "Qwen3.6-35B-A3B-NVFP4-Fast",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-10T09:59:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T09:37:20.557007+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.6-35B-A3B-NVFP4-Fast"
-    ],
-    "family": "Qwen3.6-NVFP4-Fast"
-  },
-  {
     "id": "huggingface:liodon-ai/Qwen2.5-14B-Instruct-imatrix-GGUF",
     "name": "Qwen2.5-14B-Instruct-imatrix-GGUF",
     "provider": "liodon-ai",
@@ -8508,40 +8440,6 @@
     "family": "Super-Slop-Machina-Roleplay"
   },
   {
-    "id": "huggingface:shyngys879/KazakhTTS-OmniVoice",
-    "name": "KazakhTTS-OmniVoice",
-    "provider": "shyngys879",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-07-09T10:35:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/shyngys879/KazakhTTS-OmniVoice",
-    "tags": [
-      "text-to-speech",
-      "omnivoice",
-      "safetensors",
-      "text-to-speech",
-      "tts",
-      "kazakh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T09:37:20.399290+00:00",
-    "source_ids": [
-      "shyngys879/KazakhTTS-OmniVoice"
-    ],
-    "family": "KazakhTTS-OmniVoice"
-  },
-  {
     "id": "huggingface:ameer4wisam/gemma-iraqi-finetune-v2",
     "name": "gemma-iraqi-finetune-v2",
     "provider": "ameer4wisam",
@@ -8838,39 +8736,6 @@
       "Siddh07ETH/Pluto-Genesis-0.6B"
     ],
     "family": "Pluto-Genesis"
-  },
-  {
-    "id": "huggingface:RobinsonLabs/Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
-    "name": "Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
-    "provider": "RobinsonLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-09T02:11:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RobinsonLabs/Qwen3.5-REAP-212B-A17B-abliterated-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "abliterated",
-      "uncensored",
-      "imatrix",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T09:37:20.113109+00:00",
-    "source_ids": [
-      "RobinsonLabs/Qwen3.5-REAP-212B-A17B-abliterated-GGUF"
-    ],
-    "family": "Qwen3.5-REAP-abliterated"
   },
   {
     "id": "huggingface:cstr/cohere-transcribe-arabic-07-2026-GGUF",
@@ -12104,39 +11969,6 @@
     "family": "SmolLM3"
   },
   {
-    "id": "huggingface:icecubetr/GLM-5.2-REAM-GGUF",
-    "name": "GLM-5.2-REAM-GGUF",
-    "provider": "icecubetr",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-23T11:42:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/icecubetr/GLM-5.2-REAM-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "moe",
-      "glm",
-      "ream"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T09:37:20.112960+00:00",
-    "source_ids": [
-      "icecubetr/GLM-5.2-REAM-GGUF"
-    ],
-    "family": "GLM-5.2-REAM"
-  },
-  {
     "id": "huggingface:Axiveri/NaijaVox-2.0",
     "name": "NaijaVox-2.0",
     "provider": "Axiveri",
@@ -12302,40 +12134,6 @@
       "AyaanAhmed123/Spark_one"
     ],
     "family": "Spark_one"
-  },
-  {
-    "id": "huggingface:realrebelai/RebelMidjourney_LoRA_Collection",
-    "name": "RebelMidjourney_LoRA_Collection",
-    "provider": "realrebelai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-21T00:58:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/realrebelai/RebelMidjourney_LoRA_Collection",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "lora",
-      "text-to-image",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-11T09:37:20.173415+00:00",
-    "source_ids": [
-      "realrebelai/RebelMidjourney_LoRA_Collection"
-    ],
-    "family": "RebelMidjourney_LoRA_Collection"
   },
   {
     "id": "huggingface:realrebelai/RebelReal_LoRA_Collection",
