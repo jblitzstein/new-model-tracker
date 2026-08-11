@@ -115814,5 +115814,126 @@
       "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium"
     ],
     "family": "tugstugi_bengaliai-regional-asr_whisper-medium"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T12:52:31+00:00",
+    "context_length": 262144,
+    "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-08-11T16:56:46.976234+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3.5-lightning"
+    ],
+    "family": "Nemotron 3.5 Lightning"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3.5-lightning:free",
+    "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T12:52:31+00:00",
+    "context_length": 1000000,
+    "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-11T16:56:46.977161+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3.5-lightning:free"
+    ],
+    "family": "Nemotron 3.5 Lightning"
+  },
+  {
+    "id": "openrouter:bytedance-seed/seed-2.0-code",
+    "name": "ByteDance Seed: Seed-2.0-Code",
+    "provider": "ByteDance",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T22:48:39+00:00",
+    "context_length": 262144,
+    "description": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude...",
+    "url": "https://openrouter.ai/bytedance-seed/seed-2.0-code",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 3.0
+    },
+    "first_seen": "2026-08-11T16:56:46.977398+00:00",
+    "source_ids": [
+      "bytedance-seed/seed-2.0-code"
+    ],
+    "family": "Seed-2.0-Code"
+  },
+  {
+    "id": "huggingface:esatapedico/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
+    "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
+    "provider": "esatapedico",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T17:14:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/esatapedico/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "nvfp4",
+      "qwen3.6",
+      "blackwell",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-11T16:56:47.138782+00:00",
+    "source_ids": [
+      "esatapedico/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF"
+    ],
+    "family": "Qwen3.6-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4"
   }
 ]
