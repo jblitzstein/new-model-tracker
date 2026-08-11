@@ -274,6 +274,41 @@
     "family": "Ling 3.0 Tiny"
   },
   {
+    "id": "huggingface:NikiKrutan/GRM-2.6-Plus-0628-MTP-GGUF",
+    "name": "GRM-2.6-Plus-0628-MTP-GGUF",
+    "provider": "NikiKrutan",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T14:50:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NikiKrutan/GRM-2.6-Plus-0628-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "imatrix",
+      "mtp",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-11T20:42:23.043330+00:00",
+    "source_ids": [
+      "NikiKrutan/GRM-2.6-Plus-0628-MTP-GGUF"
+    ],
+    "family": "GRM-2.6-Plus-0628-MTP"
+  },
+  {
     "id": "huggingface:Dev4285/MiniArt-Uncensored",
     "name": "MiniArt-Uncensored",
     "provider": "Dev4285",
@@ -342,6 +377,39 @@
       "meta/muse-spark-1.2"
     ],
     "family": "Muse Spark 1.2"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-04T19:10:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-11T20:42:22.087154+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Lightning-NVFP4"
   },
   {
     "id": "huggingface:internlm/Intern-S2-Mobius-FP8",
@@ -7789,39 +7857,6 @@
     "family": "NeuralAI"
   },
   {
-    "id": "huggingface:EmanuelOverride/gemma-4-26B-A4B-it-heretic-APEX-GGUF",
-    "name": "gemma-4-26B-A4B-it-heretic-APEX-GGUF",
-    "provider": "EmanuelOverride",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-11T16:10:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/EmanuelOverride/gemma-4-26B-A4B-it-heretic-APEX-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "safetensors",
-      "gemma4",
-      "moe",
-      "pruning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T16:58:08.223356+00:00",
-    "source_ids": [
-      "EmanuelOverride/gemma-4-26B-A4B-it-heretic-APEX-GGUF"
-    ],
-    "family": "gemma-4-it-heretic-APEX"
-  },
-  {
     "id": "huggingface:realrebelai/LingBot-30B-3B_GGUF_ComfyUI",
     "name": "LingBot-30B-3B_GGUF_ComfyUI",
     "provider": "realrebelai",
@@ -10298,39 +10333,6 @@
       "PeppX/Ornith-1.0-9B-Uncensored-GGUF"
     ],
     "family": "Ornith-1.0-Uncensored"
-  },
-  {
-    "id": "huggingface:greghavens/fabletron-nemotron-3-super-120b-MLX-4bit",
-    "name": "fabletron-nemotron-3-super-120b-MLX-4bit",
-    "provider": "greghavens",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T01:11:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/greghavens/fabletron-nemotron-3-super-120b-MLX-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "nemotron_h",
-      "nemotron",
-      "mamba2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T16:58:08.223441+00:00",
-    "source_ids": [
-      "greghavens/fabletron-nemotron-3-super-120b-MLX-4bit"
-    ],
-    "family": "fabletron-nemotron-3-super-MLX-4bit"
   },
   {
     "id": "huggingface:Zynerji/Ektome-Llama-3.1-8B-PristinelyUncensored",
