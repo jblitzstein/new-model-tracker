@@ -115577,5 +115577,73 @@
       "meta/muse-glimmer-30b"
     ],
     "family": "Muse Glimmer"
+  },
+  {
+    "id": "openrouter:sakana/sakana-namazu",
+    "name": "Sakana: Sakana Namazu",
+    "provider": "sakana",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T01:02:09+00:00",
+    "context_length": 262144,
+    "description": "Sakana Namazu is a Japanese-specialized reasoning model from Sakana AI, based on Kimi K2.6 with additional training for Japanese language and business contexts. It is suited for Japanese instruction following,...",
+    "url": "https://openrouter.ai/sakana/sakana-namazu",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.95,
+      "completion_per_million": 4.0
+    },
+    "first_seen": "2026-08-11T05:07:52.548499+00:00",
+    "source_ids": [
+      "sakana/sakana-namazu"
+    ],
+    "family": "Sakana Namazu"
+  },
+  {
+    "id": "huggingface:neureps/warmly-qwen35-08b-enko-gguf",
+    "name": "warmly-qwen35-08b-enko-gguf",
+    "provider": "neureps",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T04:42:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neureps/warmly-qwen35-08b-enko-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "korean",
+      "warmly",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-11T05:07:53.557579+00:00",
+    "source_ids": [
+      "neureps/warmly-qwen35-08b-enko-gguf"
+    ],
+    "family": "warmly-qwen35-enko"
   }
 ]

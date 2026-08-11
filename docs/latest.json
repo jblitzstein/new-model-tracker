@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:sakana/sakana-namazu",
+    "name": "Sakana: Sakana Namazu",
+    "provider": "sakana",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T01:02:09+00:00",
+    "context_length": 262144,
+    "description": "Sakana Namazu is a Japanese-specialized reasoning model from Sakana AI, based on Kimi K2.6 with additional training for Japanese language and business contexts. It is suited for Japanese instruction following,...",
+    "url": "https://openrouter.ai/sakana/sakana-namazu",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.95,
+      "completion_per_million": 4.0
+    },
+    "first_seen": "2026-08-11T05:07:52.548499+00:00",
+    "source_ids": [
+      "sakana/sakana-namazu"
+    ],
+    "family": "Sakana Namazu"
+  },
+  {
     "id": "openrouter:upstage/solar-pro4",
     "name": "Upstage: Solar Pro 4",
     "provider": "Upstage",
@@ -5905,6 +5938,41 @@
     "family": "CrisperWhisper2.0_large"
   },
   {
+    "id": "huggingface:neureps/warmly-qwen35-08b-enko-gguf",
+    "name": "warmly-qwen35-08b-enko-gguf",
+    "provider": "neureps",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T04:42:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neureps/warmly-qwen35-08b-enko-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "korean",
+      "warmly",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-11T05:07:53.557579+00:00",
+    "source_ids": [
+      "neureps/warmly-qwen35-08b-enko-gguf"
+    ],
+    "family": "warmly-qwen35-enko"
+  },
+  {
     "id": "huggingface:nightmedia/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451",
     "name": "Qwen3.6-27B-Architect-Polaris2-Fable-B-F451",
     "provider": "nightmedia",
@@ -8296,41 +8364,6 @@
     "family": "Hy3--INT4"
   },
   {
-    "id": "huggingface:empero-ai/Qwythos-9B-v2-GGUF",
-    "name": "Qwythos-9B-v2-GGUF",
-    "provider": "empero-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-09T23:19:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "qwythos",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T02:47:13.113308+00:00",
-    "source_ids": [
-      "empero-ai/Qwythos-9B-v2-GGUF"
-    ],
-    "family": "Qwythos-v2"
-  },
-  {
     "id": "huggingface:Synaptics/LiquidAI-LFM2.5-230M",
     "name": "LiquidAI-LFM2.5-230M",
     "provider": "Synaptics",
@@ -9404,39 +9437,6 @@
       "nvidia/Cosmos3-Super-Text2Image-4Step"
     ],
     "family": "Cosmos3-Super-Text2Image-4Step"
-  },
-  {
-    "id": "huggingface:fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
-    "name": "dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
-    "provider": "fpadovani",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T21:43:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T02:47:12.636654+00:00",
-    "source_ids": [
-      "fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10"
-    ],
-    "family": "dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10"
   },
   {
     "id": "huggingface:NoemaAI-labs/Noema-2B",
@@ -12299,39 +12299,6 @@
     "family": "Fun-ASR-Nano"
   },
   {
-    "id": "huggingface:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-    "name": "Qwythos-9B-Claude-Mythos-5-1M",
-    "provider": "empero-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-19T14:01:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T02:47:12.636756+00:00",
-    "source_ids": [
-      "empero-ai/Qwythos-9B-Claude-Mythos-5-1M"
-    ],
-    "family": "Qwythos-Claude-Mythos-5-1M"
-  },
-  {
     "id": "huggingface:Kwai-Keye/Keye-VL-2.0-30B-A3B-GGUF",
     "name": "Keye-VL-2.0-30B-A3B-GGUF",
     "provider": "Kwai-Keye",
@@ -13008,40 +12975,6 @@
       "nm-testing/convert_modelopt_nvfp4-e2e"
     ],
     "family": "convert_modelopt_nvfp4-e2e"
-  },
-  {
-    "id": "huggingface:cstr/nemotron-3.5-asr-streaming-GGUF",
-    "name": "nemotron-3.5-asr-streaming-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-13T08:30:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/nemotron-3.5-asr-streaming-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "gguf",
-      "asr",
-      "speech-recognition",
-      "streaming",
-      "fastconformer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T02:47:13.007856+00:00",
-    "source_ids": [
-      "cstr/nemotron-3.5-asr-streaming-GGUF"
-    ],
-    "family": "nemotron-3.5-asr-streaming"
   },
   {
     "id": "huggingface:moonshotai/Kimi-K3",
@@ -15688,40 +15621,6 @@
       "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF"
     ],
     "family": "gemma-4-E-it-OBLITERATED-i1"
-  },
-  {
-    "id": "huggingface:cstr/canary-ctc-aligner-GGUF",
-    "name": "canary-ctc-aligner-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-08T05:46:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/canary-ctc-aligner-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "forced-alignment"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T02:47:13.007985+00:00",
-    "source_ids": [
-      "cstr/canary-ctc-aligner-GGUF"
-    ],
-    "family": "canary-ctc-aligner"
   },
   {
     "id": "huggingface:unsloth/gemma-4-31b-it-MLX-8bit",
