@@ -1,5 +1,31 @@
 [
   {
+    "id": "openrouter:liquid/lfm-2.5-2.6b:free",
+    "name": "LiquidAI: LFM2.5-2.6B (free)",
+    "provider": "Liquid AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T17:48:39+00:00",
+    "context_length": 128000,
+    "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
+    "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-12T01:56:12.252550+00:00",
+    "source_ids": [
+      "liquid/lfm-2.5-2.6b:free"
+    ],
+    "family": "LFM2.5"
+  },
+  {
     "id": "openrouter:nvidia/nemotron-3.5-lightning",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "provider": "NVIDIA",
@@ -1348,6 +1374,39 @@
       "huwenjie333/asr-whisper-51-african-languages-grpo"
     ],
     "family": "asr-whisper-51-african-languages-grpo"
+  },
+  {
+    "id": "huggingface:hellohazime/Kimi-K3-REAP-512GB-GGUF",
+    "name": "Kimi-K3-REAP-512GB-GGUF",
+    "provider": "hellohazime",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T05:30:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hellohazime/Kimi-K3-REAP-512GB-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "kimi-k3",
+      "expert-pruning",
+      "reap",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-12T01:56:12.376761+00:00",
+    "source_ids": [
+      "hellohazime/Kimi-K3-REAP-512GB-GGUF"
+    ],
+    "family": "Kimi-K3-REAP-512GB"
   },
   {
     "id": "huggingface:Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B-MTP-GGUF",
@@ -2793,6 +2852,41 @@
       "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit"
     ],
     "family": "Qwen3.6-Fable-Fusion-711-MTPLX-8bit"
+  },
+  {
+    "id": "huggingface:philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit",
+    "name": "Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit",
+    "provider": "philipjohnbasile",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T14:59:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "qwen",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-12T01:56:12.971263+00:00",
+    "source_ids": [
+      "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit"
+    ],
+    "family": "Qwen3.6-Fable-Fusion-711-MTPLX-6bit"
   },
   {
     "id": "huggingface:mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF",
@@ -9087,39 +9181,6 @@
     "family": "Norovox-Alpha"
   },
   {
-    "id": "huggingface:muzzy/GLM-5.2-GGUF",
-    "name": "GLM-5.2-GGUF",
-    "provider": "muzzy",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-07T22:34:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/muzzy/GLM-5.2-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "imatrix",
-      "conversational",
-      "glm_moe_dsa",
-      "ik_llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T20:49:01.729449+00:00",
-    "source_ids": [
-      "muzzy/GLM-5.2-GGUF"
-    ],
-    "family": "GLM-5.2"
-  },
-  {
     "id": "huggingface:promzeus/gh0stx-bf16",
     "name": "gh0stx-bf16",
     "provider": "promzeus",
@@ -11244,39 +11305,6 @@
       "furiosa-ai/Qwen3-4B-FP8"
     ],
     "family": "Qwen3-FP8"
-  },
-  {
-    "id": "huggingface:huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
-    "name": "Huihui-GLM-5.2-abliterated-GGUF",
-    "provider": "huihui-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-28T13:28:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "glm_moe_dsa",
-      "unsloth",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-12T20:49:01.729178+00:00",
-    "source_ids": [
-      "huihui-ai/Huihui-GLM-5.2-abliterated-GGUF"
-    ],
-    "family": "Huihui-GLM-5.2-abliterated"
   },
   {
     "id": "huggingface:litert-community/VibeThinker-3B",
