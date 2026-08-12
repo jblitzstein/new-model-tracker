@@ -1,5 +1,129 @@
 [
   {
+    "id": "openrouter:bytedance-seed/seed-2-1-turbo",
+    "name": "ByteDance Seed: Seed 2.1 Turbo",
+    "provider": "ByteDance",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T16:29:36+00:00",
+    "context_length": 262144,
+    "description": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and...",
+    "url": "https://openrouter.ai/bytedance-seed/seed-2-1-turbo",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-08-12T16:55:55.197187+00:00",
+    "source_ids": [
+      "bytedance-seed/seed-2-1-turbo"
+    ],
+    "family": "Seed 2.1 Turbo"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.8-2.4t-a95b",
+    "name": "Qwen: Qwen3.8 2.4T A95B",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T16:21:42+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-2.4t-a95b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-08-12T16:55:55.198232+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-2.4t-a95b"
+    ],
+    "family": "Qwen3.8 2.4T A"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T15:42:44+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.435,
+      "completion_per_million": 0.87
+    },
+    "first_seen": "2026-08-12T16:55:55.198306+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4-pro-0813"
+    ],
+    "family": "DeepSeek V4 Pro"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.6",
+    "name": "SpaceXAI: Grok 4.6",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T15:35:57+00:00",
+    "context_length": 500000,
+    "description": "Grok 4.6 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM.",
+    "url": "https://openrouter.ai/x-ai/grok-4.6",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-08-12T16:55:55.198336+00:00",
+    "source_ids": [
+      "x-ai/grok-4.6"
+    ],
+    "family": "Grok 4.6"
+  },
+  {
     "id": "openrouter:liquid/lfm-2.5-2.6b:free",
     "name": "LiquidAI: LFM2.5-2.6B (free)",
     "provider": "Liquid AI",
@@ -537,6 +661,39 @@
       "quimmedes/Deepwen-3.6"
     ],
     "family": "Deepwen-3.6"
+  },
+  {
+    "id": "huggingface:el4/GRM-3.2-Sky-ONYX-GGUF",
+    "name": "GRM-3.2-Sky-ONYX-GGUF",
+    "provider": "el4",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-03T17:37:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/el4/GRM-3.2-Sky-ONYX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "ollama",
+      "llama.cpp",
+      "imatrix",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-12T16:55:55.360834+00:00",
+    "source_ids": [
+      "el4/GRM-3.2-Sky-ONYX-GGUF"
+    ],
+    "family": "GRM-3.2-Sky-ONYX"
   },
   {
     "id": "huggingface:FenomAI/MiniMax-H3_GGUFs",
@@ -1374,6 +1531,39 @@
       "huwenjie333/asr-whisper-51-african-languages-grpo"
     ],
     "family": "asr-whisper-51-african-languages-grpo"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T06:55:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-12T16:55:55.360917+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Lightning-BF16"
   },
   {
     "id": "huggingface:hellohazime/Kimi-K3-REAP-512GB-GGUF",
@@ -7751,39 +7941,6 @@
     "family": "Ourbox-JGOS"
   },
   {
-    "id": "huggingface:theoitssurabaya/Legal-Assistant-SFT",
-    "name": "Legal-Assistant-SFT",
-    "provider": "theoitssurabaya",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-12T01:53:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/theoitssurabaya/Legal-Assistant-SFT",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-13T14:34:10.870496+00:00",
-    "source_ids": [
-      "theoitssurabaya/Legal-Assistant-SFT"
-    ],
-    "family": "Legal-Assistant-SFT"
-  },
-  {
     "id": "huggingface:SkGufranAhmed/functiongemma-finetuned",
     "name": "functiongemma-finetuned",
     "provider": "SkGufranAhmed",
@@ -7915,6 +8072,41 @@
       "realrebelai/LingBot-30B-3B_GGUF_ComfyUI"
     ],
     "family": "LingBot-3B_GGUF_ComfyUI"
+  },
+  {
+    "id": "huggingface:zenosai/MonkeyOCRv2-B-Parsing",
+    "name": "MonkeyOCRv2-B-Parsing",
+    "provider": "zenosai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T12:18:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zenosai/MonkeyOCRv2-B-Parsing",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "monkeyocrv2",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-12T16:55:56.417783+00:00",
+    "source_ids": [
+      "zenosai/MonkeyOCRv2-B-Parsing"
+    ],
+    "family": "MonkeyOCRv2-B-Parsing"
   },
   {
     "id": "huggingface:catlilface/Qwen3.6-35B-A3B-NVFP4-Fast-GGUF",
@@ -8175,39 +8367,6 @@
       "cyankiwi/Hy3-AWQ-NVFP4"
     ],
     "family": "Hy3--NVFP4"
-  },
-  {
-    "id": "huggingface:liodon-ai/Qwen2.5-14B-Instruct-imatrix-GGUF",
-    "name": "Qwen2.5-14B-Instruct-imatrix-GGUF",
-    "provider": "liodon-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-10T09:13:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/liodon-ai/Qwen2.5-14B-Instruct-imatrix-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "local-llm",
-      "llama.cpp",
-      "lm-studio",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-13T14:34:10.870570+00:00",
-    "source_ids": [
-      "liodon-ai/Qwen2.5-14B-Instruct-imatrix-GGUF"
-    ],
-    "family": "Qwen2.5--imatrix"
   },
   {
     "id": "huggingface:amkdg/Qwonkeau-v0.2-0.9B",
