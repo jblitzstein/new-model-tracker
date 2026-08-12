@@ -16896,6 +16896,39 @@
     "family": "AfriqueGemma-i1"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2.5-1.2B-Instruct-MLX-4bit",
+    "name": "LFM2.5-1.2B-Instruct-MLX-4bit",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-06T02:36:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-MLX-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "lfm2",
+      "liquid",
+      "lfm2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-12T20:42:56.515005+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-1.2B-Instruct-MLX-4bit"
+    ],
+    "family": "LFM2.5--MLX-4bit"
+  },
+  {
     "id": "huggingface:skt/A.X-K1",
     "name": "A.X-K1",
     "provider": "skt",
@@ -18242,6 +18275,40 @@
       "openai/o3-pro:batch"
     ],
     "family": "o3 Pro (batch)"
+  },
+  {
+    "id": "huggingface:nvidia/diar_streaming_sortformer_4spk-v2",
+    "name": "diar_streaming_sortformer_4spk-v2",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-04T20:35:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "gguf",
+      "speaker-diarization",
+      "speaker-recognition",
+      "speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-12T20:42:57.018188+00:00",
+    "source_ids": [
+      "nvidia/diar_streaming_sortformer_4spk-v2"
+    ],
+    "family": "diar_streaming_sortformer_4spk-v2"
   },
   {
     "id": "openrouter:openai/o4-mini-high:batch",
