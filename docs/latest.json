@@ -8580,41 +8580,6 @@
     "family": "LiquidAI-LFM2.5-230M"
   },
   {
-    "id": "huggingface:braydenh563/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced-Ollama",
-    "name": "Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced-Ollama",
-    "provider": "braydenh563",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-09T16:46:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/braydenh563/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced-Ollama",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "gemma4",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-14T13:43:14.465983+00:00",
-    "source_ids": [
-      "braydenh563/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced-Ollama"
-    ],
-    "family": "Gemma4-Uncensored-HauhauCS-Balanced-Ollama"
-  },
-  {
     "id": "huggingface:nagarhimanshu37/HackerNet-Model",
     "name": "HackerNet-Model",
     "provider": "nagarhimanshu37",
@@ -9920,76 +9885,6 @@
       "cstr/irodori-tts-GGUF"
     ],
     "family": "irodori-tts"
-  },
-  {
-    "id": "huggingface:surogate/Surogate-3.5-4B",
-    "name": "Surogate-3.5-4B",
-    "provider": "surogate",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-04T18:15:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/surogate/Surogate-3.5-4B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "romanian"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-14T13:43:14.466029+00:00",
-    "source_ids": [
-      "surogate/Surogate-3.5-4B"
-    ],
-    "family": "Surogate-3.5"
-  },
-  {
-    "id": "huggingface:surogate/Surogate-3.5-2B",
-    "name": "Surogate-3.5-2B",
-    "provider": "surogate",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-04T18:14:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/surogate/Surogate-3.5-2B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "romanian"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-14T13:43:14.466053+00:00",
-    "source_ids": [
-      "surogate/Surogate-3.5-2B"
-    ],
-    "family": "Surogate-3.5"
   },
   {
     "id": "huggingface:Shlok0011/CulinaAI-Qwen2.5-7B-GGUF",
@@ -15510,6 +15405,41 @@
     "family": "gemma-4-it-MLX-8bit"
   },
   {
+    "id": "huggingface:YCWTG/gemma-4-31B-it-NVFP4A16-GPTQ",
+    "name": "gemma-4-31B-it-NVFP4A16-GPTQ",
+    "provider": "YCWTG",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-04T12:38:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YCWTG/gemma-4-31B-it-NVFP4A16-GPTQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-13T16:55:22.527264+00:00",
+    "source_ids": [
+      "YCWTG/gemma-4-31B-it-NVFP4A16-GPTQ"
+    ],
+    "family": "gemma-4-it-NVFP4A16"
+  },
+  {
     "id": "huggingface:unsloth/gemma-4-26b-a4b-it-UD-MLX-4bit",
     "name": "gemma-4-26b-a4b-it-UD-MLX-4bit",
     "provider": "unsloth",
@@ -16601,6 +16531,40 @@
       "anthropic/claude-sonnet-4.6:batch"
     ],
     "family": "Claude Sonnet 4.6 (batch)"
+  },
+  {
+    "id": "huggingface:Estebandidoooi/NSFW",
+    "name": "NSFW",
+    "provider": "Estebandidoooi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-02-10T06:51:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Estebandidoooi/NSFW",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:Wan-AI/Wan2.1-I2V-14B-720P"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-13T16:55:21.856077+00:00",
+    "source_ids": [
+      "Estebandidoooi/NSFW"
+    ],
+    "family": "NSFW"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.6:batch",
