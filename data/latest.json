@@ -1,5 +1,79 @@
 [
   {
+    "id": "openrouter:google/gemini-3.7-flash",
+    "name": "Google: Gemini 3.7 Flash",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T17:03:01+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step...",
+    "url": "https://openrouter.ai/google/gemini-3.7-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.375,
+      "completion_per_million": 1.875
+    },
+    "first_seen": "2026-08-13T20:41:45.428939+00:00",
+    "source_ids": [
+      "google/gemini-3.7-flash"
+    ],
+    "family": "Gemini 3.7 Flash"
+  },
+  {
+    "id": "openrouter:google/gemini-3.7-flash:batch",
+    "name": "Google: Gemini 3.7 Flash (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T17:03:01+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step...",
+    "url": "https://openrouter.ai/google/gemini-3.7-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1875,
+      "completion_per_million": 0.9375
+    },
+    "first_seen": "2026-08-13T20:41:45.429632+00:00",
+    "source_ids": [
+      "google/gemini-3.7-flash:batch"
+    ],
+    "family": "Gemini 3.7 Flash (batch)"
+  },
+  {
     "id": "huggingface:deepseek-ai/DeepSeek-V4-Pro-0813",
     "name": "DeepSeek-V4-Pro-0813",
     "provider": "DeepSeek",
@@ -271,6 +345,41 @@
     "family": "Sakana Namazu"
   },
   {
+    "id": "huggingface:0bserverx/Muse-Glimmer-30B-Heretic-Uncensored-GGUF",
+    "name": "Muse-Glimmer-30B-Heretic-Uncensored-GGUF",
+    "provider": "0bserverx",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-10T21:07:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0bserverx/Muse-Glimmer-30B-Heretic-Uncensored-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantization",
+      "q4_k_s",
+      "vision-language-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-13T20:41:46.353373+00:00",
+    "source_ids": [
+      "0bserverx/Muse-Glimmer-30B-Heretic-Uncensored-GGUF"
+    ],
+    "family": "Muse-Glimmer-Heretic-Uncensored"
+  },
+  {
     "id": "huggingface:NikiKrutan/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-GGUF",
     "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-GGUF",
     "provider": "NikiKrutan",
@@ -304,6 +413,41 @@
       "NikiKrutan/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-GGUF"
     ],
     "family": "Qwen3.6-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP"
+  },
+  {
+    "id": "huggingface:bartowski/Muse-Glimmer-30B-GGUF",
+    "name": "Muse-Glimmer-30B-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-10T16:11:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/Muse-Glimmer-30B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "base_model:meta-models/Muse-Glimmer-30B",
+      "base_model:quantized:meta-models/Muse-Glimmer-30B",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-13T20:41:46.353483+00:00",
+    "source_ids": [
+      "bartowski/Muse-Glimmer-30B-GGUF"
+    ],
+    "family": "Muse-Glimmer"
   },
   {
     "id": "openrouter:upstage/solar-pro4",
