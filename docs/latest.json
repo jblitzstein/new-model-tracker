@@ -259,6 +259,108 @@
     "family": "Grok 4.6"
   },
   {
+    "id": "huggingface:Gazingstars123/Anima-2.9B",
+    "name": "Anima-2.9B",
+    "provider": "Gazingstars123",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-12T07:23:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Gazingstars123/Anima-2.9B",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "anima",
+      "comfyui",
+      "text-to-image",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.560243+00:00",
+    "source_ids": [
+      "Gazingstars123/Anima-2.9B"
+    ],
+    "family": "Anima"
+  },
+  {
+    "id": "huggingface:realrebelai/LTX-2.5_GGUFs",
+    "name": "LTX-2.5_GGUFs",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-12T01:27:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/LTX-2.5_GGUFs",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "quantized",
+      "comfyui",
+      "ltx",
+      "ltxv"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.662078+00:00",
+    "source_ids": [
+      "realrebelai/LTX-2.5_GGUFs"
+    ],
+    "family": "LTX-2.5_GGUFs"
+  },
+  {
+    "id": "huggingface:BennyDaBall/LTX-2.5-22b-distilled-nvfp4-comfy",
+    "name": "LTX-2.5-22b-distilled-nvfp4-comfy",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-11T23:55:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/LTX-2.5-22b-distilled-nvfp4-comfy",
+    "tags": [
+      "text-to-video",
+      "ltx",
+      "ltx-2.5",
+      "nvfp4",
+      "comfyui",
+      "diffusion-single-file"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.662114+00:00",
+    "source_ids": [
+      "BennyDaBall/LTX-2.5-22b-distilled-nvfp4-comfy"
+    ],
+    "family": "LTX-2.5-distilled-nvfp4-comfy"
+  },
+  {
     "id": "openrouter:liquid/lfm-2.5-2.6b:free",
     "name": "LiquidAI: LFM2.5-2.6B (free)",
     "provider": "Liquid AI",
@@ -283,6 +385,74 @@
       "liquid/lfm-2.5-2.6b:free"
     ],
     "family": "LFM2.5"
+  },
+  {
+    "id": "huggingface:ChrisColeTech/minimax-h3-turbo-GGUF",
+    "name": "minimax-h3-turbo-GGUF",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-11T14:36:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/minimax-h3-turbo-GGUF",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "text-to-video",
+      "image-to-video",
+      "quantized",
+      "minimax-h3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.661832+00:00",
+    "source_ids": [
+      "ChrisColeTech/minimax-h3-turbo-GGUF"
+    ],
+    "family": "minimax-h3-turbo"
+  },
+  {
+    "id": "huggingface:TachyHealthResearch/ltx-2.3-22b-gguf",
+    "name": "ltx-2.3-22b-gguf",
+    "provider": "TachyHealthResearch",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-11T14:31:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TachyHealthResearch/ltx-2.3-22b-gguf",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "text-to-video",
+      "base_model:Lightricks/LTX-2.3",
+      "base_model:quantized:Lightricks/LTX-2.3",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.662190+00:00",
+    "source_ids": [
+      "TachyHealthResearch/ltx-2.3-22b-gguf"
+    ],
+    "family": "ltx-2.3"
   },
   {
     "id": "openrouter:nvidia/nemotron-3.5-lightning",
@@ -406,6 +576,39 @@
       "0bserverx/Muse-Glimmer-30B-Heretic-Uncensored-GGUF"
     ],
     "family": "Muse-Glimmer-Heretic-Uncensored"
+  },
+  {
+    "id": "huggingface:AtesiT/qwen2.5-1.5b-ru-hallucination-detector",
+    "name": "qwen2.5-1.5b-ru-hallucination-detector",
+    "provider": "AtesiT",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-10T20:57:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtesiT/qwen2.5-1.5b-ru-hallucination-detector",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen2",
+      "hallucination-detection",
+      "fact-checking",
+      "qwen2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.493165+00:00",
+    "source_ids": [
+      "AtesiT/qwen2.5-1.5b-ru-hallucination-detector"
+    ],
+    "family": "qwen2.5-ru-hallucination-detector"
   },
   {
     "id": "huggingface:NikiKrutan/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-GGUF",
@@ -734,6 +937,39 @@
     "family": "GRM-2.6-Plus-0628-MTP"
   },
   {
+    "id": "huggingface:Baekpica/K-EXAONE-236B-A23B-Mixed-Quant-GGUF",
+    "name": "K-EXAONE-236B-A23B-Mixed-Quant-GGUF",
+    "provider": "Baekpica",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T14:41:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Baekpica/K-EXAONE-236B-A23B-Mixed-Quant-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "k-exaone",
+      "exaone",
+      "moe",
+      "mixed-quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.493230+00:00",
+    "source_ids": [
+      "Baekpica/K-EXAONE-236B-A23B-Mixed-Quant-GGUF"
+    ],
+    "family": "K-EXAONE-Mixed-Quant"
+  },
+  {
     "id": "huggingface:Dev4285/MiniArt-Uncensored",
     "name": "MiniArt-Uncensored",
     "provider": "Dev4285",
@@ -798,6 +1034,40 @@
       "AETHORIA-AI/TR-HASH-MOE-500M-HF"
     ],
     "family": "TR-HASH-MOE-500M-HF"
+  },
+  {
+    "id": "huggingface:drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
+    "name": "MiniMax-H3-Turbo-Lora-ComfyUI",
+    "provider": "drbaph",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-06T05:40:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "lora",
+      "adapter",
+      "comfyui",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.661901+00:00",
+    "source_ids": [
+      "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI"
+    ],
+    "family": "MiniMax-H3-Turbo-Lora-ComfyUI"
   },
   {
     "id": "openrouter:meta/muse-spark-1.2",
@@ -903,6 +1173,40 @@
       "internlm/Intern-S2-Mobius-FP8"
     ],
     "family": "Intern-S2-Mobius-FP8"
+  },
+  {
+    "id": "huggingface:cswk/sayit-asr-gguf",
+    "name": "sayit-asr-gguf",
+    "provider": "cswk",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-04T08:30:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cswk/sayit-asr-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "voice-typing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.853143+00:00",
+    "source_ids": [
+      "cswk/sayit-asr-gguf"
+    ],
+    "family": "sayit-asr"
   },
   {
     "id": "huggingface:sullivan1502/base-zone-grpo",
@@ -3317,6 +3621,40 @@
       "otheru/DeepSeek-V4-Flash-Strix-Halo-GGUF"
     ],
     "family": "DeepSeek-V4-Flash-Strix-Halo"
+  },
+  {
+    "id": "huggingface:Lightricks/LTX-2.5-Diffusers",
+    "name": "LTX-2.5-Diffusers",
+    "provider": "Lightricks",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-07-26T06:42:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5-Diffusers",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "image-to-video",
+      "text-to-video",
+      "video-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T09:05:46.662159+00:00",
+    "source_ids": [
+      "Lightricks/LTX-2.5-Diffusers"
+    ],
+    "family": "LTX-2.5-Diffusers"
   },
   {
     "id": "huggingface:SC117/Laguna-S-2.1-Uncensored-APEX-GGUF",
@@ -7332,41 +7670,6 @@
     "family": "moss-tts-local-transformer-voice-acting"
   },
   {
-    "id": "huggingface:tencent/Hy-Embodied-VLM-1.0",
-    "name": "Hy-Embodied-VLM-1.0",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-14T09:58:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/Hy-Embodied-VLM-1.0",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "hy_v3_vl",
-      "image-text-to-text",
-      "embodied-ai"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T06:13:51.623456+00:00",
-    "source_ids": [
-      "tencent/Hy-Embodied-VLM-1.0"
-    ],
-    "family": "Hy-Embodied-VLM-1.0"
-  },
-  {
     "id": "huggingface:TheNormsOfIntelligence/Acknowledgement_Theory_of_Consciousness",
     "name": "Acknowledgement_Theory_of_Consciousness",
     "provider": "TheNormsOfIntelligence",
@@ -7534,41 +7837,6 @@
       "darkps/darkit-v2.5"
     ],
     "family": "darkit-v2.5"
-  },
-  {
-    "id": "huggingface:tencent/Hy-Embodied-RxBrain-1.0",
-    "name": "Hy-Embodied-RxBrain-1.0",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-14T02:40:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/Hy-Embodied-RxBrain-1.0",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "unified_mot",
-      "hunyuan",
-      "hunyuan_vl_mot",
-      "vision-language"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T06:13:51.623306+00:00",
-    "source_ids": [
-      "tencent/Hy-Embodied-RxBrain-1.0"
-    ],
-    "family": "Hy-Embodied-RxBrain-1.0"
   },
   {
     "id": "huggingface:ChrisColeTech/ideogram4-turbo-GGUF",
@@ -10698,105 +10966,6 @@
     "family": "ornith-MLX-8bit"
   },
   {
-    "id": "huggingface:InternScience/Agents-A1-Q8_0-GGUF",
-    "name": "Agents-A1-Q8_0-GGUF",
-    "provider": "InternScience",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T08:35:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/InternScience/Agents-A1-Q8_0-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "moe",
-      "vlm",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T06:13:51.203131+00:00",
-    "source_ids": [
-      "InternScience/Agents-A1-Q8_0-GGUF"
-    ],
-    "family": "Agents-A1-Q8_0"
-  },
-  {
-    "id": "huggingface:InternScience/Agents-A1-Q4_K_M-GGUF",
-    "name": "Agents-A1-Q4_K_M-GGUF",
-    "provider": "InternScience",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T07:27:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/InternScience/Agents-A1-Q4_K_M-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "moe",
-      "vlm",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T06:13:51.203159+00:00",
-    "source_ids": [
-      "InternScience/Agents-A1-Q4_K_M-GGUF"
-    ],
-    "family": "Agents-A1-Q4_K_M"
-  },
-  {
-    "id": "huggingface:InternScience/Agents-A1-F16-GGUF",
-    "name": "Agents-A1-F16-GGUF",
-    "provider": "InternScience",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T06:23:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/InternScience/Agents-A1-F16-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "moe",
-      "vlm",
-      "vision",
-      "agentic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T06:13:51.203098+00:00",
-    "source_ids": [
-      "InternScience/Agents-A1-F16-GGUF"
-    ],
-    "family": "Agents-A1-F16"
-  },
-  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-2.0",
     "name": "NVIDIA-Nemotron-Parse-2.0",
     "provider": "NVIDIA",
@@ -11102,39 +11271,6 @@
       "vectionlabs/Salience-1.5-Flash"
     ],
     "family": "Salience-1.5-Flash"
-  },
-  {
-    "id": "huggingface:InternScience/Agents-A1-FP8",
-    "name": "Agents-A1-FP8",
-    "provider": "InternScience",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T13:29:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/InternScience/Agents-A1-FP8",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T06:13:51.203195+00:00",
-    "source_ids": [
-      "InternScience/Agents-A1-FP8"
-    ],
-    "family": "Agents-A1-FP8"
   },
   {
     "id": "huggingface:leonsarmiento/Huihui-Qwen3.6-35B-A3B-abliterated-6bit-XL-mlx",
@@ -12653,41 +12789,6 @@
       "AtomicChat/gemma-4-31B-it-GGUF"
     ],
     "family": "gemma-4-it"
-  },
-  {
-    "id": "huggingface:amd/Qwen3.5-397B-A17B-MoE-MXFP4",
-    "name": "Qwen3.5-397B-A17B-MoE-MXFP4",
-    "provider": "amd",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-17T04:12:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/amd/Qwen3.5-397B-A17B-MoE-MXFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T06:13:51.623386+00:00",
-    "source_ids": [
-      "amd/Qwen3.5-397B-A17B-MoE-MXFP4"
-    ],
-    "family": "Qwen3.5-MoE-MXFP4"
   },
   {
     "id": "openrouter:z-ai/glm-5.2:batch",
