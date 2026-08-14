@@ -1,5 +1,33 @@
 [
   {
+    "id": "openrouter:dots-studio/dots-3-note-preview:free",
+    "name": "Dots Studio: Dots3-Note Preview (free)",
+    "provider": "dots-studio",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T04:06:01+00:00",
+    "context_length": 512000,
+    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+    "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-14T05:37:13.987566+00:00",
+    "source_ids": [
+      "dots-studio/dots-3-note-preview:free"
+    ],
+    "family": "Dots3-Note"
+  },
+  {
     "id": "openrouter:google/gemini-3.7-flash",
     "name": "Google: Gemini 3.7 Flash",
     "provider": "Google",
@@ -3667,6 +3695,39 @@
       "amineouaki/whisper-small-darija-combined"
     ],
     "family": "whisper-small-darija-combined"
+  },
+  {
+    "id": "huggingface:Myric/Qwen3.6-35B-A3B-APEX-GGUF",
+    "name": "Qwen3.6-35B-A3B-APEX-GGUF",
+    "provider": "Myric",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T21:13:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Myric/Qwen3.6-35B-A3B-APEX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "moe",
+      "apex",
+      "quantized",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T05:37:14.111859+00:00",
+    "source_ids": [
+      "Myric/Qwen3.6-35B-A3B-APEX-GGUF"
+    ],
+    "family": "Qwen3.6-APEX"
   },
   {
     "id": "huggingface:pocharlies/Ornith-1.0-35B-NVFP4-MTP-graft",
@@ -10504,39 +10565,6 @@
     "family": "Ektome-Qwen3.6-PristinelyUncensored"
   },
   {
-    "id": "huggingface:PeppX/Ornith-1.0-9B-Uncensored-GGUF",
-    "name": "Ornith-1.0-9B-Uncensored-GGUF",
-    "provider": "PeppX",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T03:56:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PeppX/Ornith-1.0-9B-Uncensored-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "uncensored",
-      "abliterated",
-      "qwen3.5",
-      "ornith"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T02:28:15.101650+00:00",
-    "source_ids": [
-      "PeppX/Ornith-1.0-9B-Uncensored-GGUF"
-    ],
-    "family": "Ornith-1.0-Uncensored"
-  },
-  {
     "id": "huggingface:Zynerji/Ektome-Llama-3.1-8B-PristinelyUncensored",
     "name": "Ektome-Llama-3.1-8B-PristinelyUncensored",
     "provider": "Zynerji",
@@ -11985,41 +12013,6 @@
       "Ninnix96/Qwen3.6-35B-A3B-gguf"
     ],
     "family": "Qwen3.6"
-  },
-  {
-    "id": "huggingface:avlp12/Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM",
-    "name": "Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM",
-    "provider": "avlp12",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-24T15:22:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/avlp12/Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "kimi_k25",
-      "kimi",
-      "kimi-k2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T02:28:15.762534+00:00",
-    "source_ids": [
-      "avlp12/Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM"
-    ],
-    "family": "Kimi-K2.7-Code-Alis-MLX-Dynamic-3.6bpw-VLM"
   },
   {
     "id": "huggingface:hiratagoh/llm-jp-4-32b-a3b-thinking-GGUF",

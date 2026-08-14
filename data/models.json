@@ -117044,5 +117044,66 @@
       "RadixArk/Muse-Glimmer-NVFP4"
     ],
     "family": "Muse-Glimmer-NVFP4"
+  },
+  {
+    "id": "openrouter:dots-studio/dots-3-note-preview:free",
+    "name": "Dots Studio: Dots3-Note Preview (free)",
+    "provider": "dots-studio",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T04:06:01+00:00",
+    "context_length": 512000,
+    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+    "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-14T05:37:13.987566+00:00",
+    "source_ids": [
+      "dots-studio/dots-3-note-preview:free"
+    ],
+    "family": "Dots3-Note"
+  },
+  {
+    "id": "huggingface:Myric/Qwen3.6-35B-A3B-APEX-GGUF",
+    "name": "Qwen3.6-35B-A3B-APEX-GGUF",
+    "provider": "Myric",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T21:13:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Myric/Qwen3.6-35B-A3B-APEX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "moe",
+      "apex",
+      "quantized",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T05:37:14.111859+00:00",
+    "source_ids": [
+      "Myric/Qwen3.6-35B-A3B-APEX-GGUF"
+    ],
+    "family": "Qwen3.6-APEX"
   }
 ]
