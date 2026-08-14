@@ -7158,6 +7158,39 @@
     "family": "Regression-is-Attention"
   },
   {
+    "id": "huggingface:xCloudinfo/xGemable-12B-coder-v2-fullft-GGUF",
+    "name": "xGemable-12B-coder-v2-fullft-GGUF",
+    "provider": "xCloudinfo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-15T12:10:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/xCloudinfo/xGemable-12B-coder-v2-fullft-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "ollama",
+      "open-webui",
+      "long-context"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-14T16:51:55.460997+00:00",
+    "source_ids": [
+      "xCloudinfo/xGemable-12B-coder-v2-fullft-GGUF"
+    ],
+    "family": "xGemable-coder-v2-fullft"
+  },
+  {
     "id": "huggingface:nyralabs/CrisperWhisper2.0_turbo",
     "name": "CrisperWhisper2.0_turbo",
     "provider": "nyralabs",
@@ -13294,216 +13327,6 @@
       "trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion"
     ],
     "family": "tiny-DiffusionGemmaForBlockDiffusion"
-  },
-  {
-    "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-nvfp4",
-    "name": "diffusiongemma-26B-A4B-it-nvfp4",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T16:39:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/diffusiongemma-26B-A4B-it-nvfp4",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T13:43:18.630742+00:00",
-    "source_ids": [
-      "mlx-community/diffusiongemma-26B-A4B-it-nvfp4"
-    ],
-    "family": "diffusiongemma-it-nvfp4"
-  },
-  {
-    "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-mxfp4",
-    "name": "diffusiongemma-26B-A4B-it-mxfp4",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T16:39:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/diffusiongemma-26B-A4B-it-mxfp4",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T13:43:18.630548+00:00",
-    "source_ids": [
-      "mlx-community/diffusiongemma-26B-A4B-it-mxfp4"
-    ],
-    "family": "diffusiongemma-it-mxfp4"
-  },
-  {
-    "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-bf16",
-    "name": "diffusiongemma-26B-A4B-it-bf16",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T16:39:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/diffusiongemma-26B-A4B-it-bf16",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T13:43:18.630619+00:00",
-    "source_ids": [
-      "mlx-community/diffusiongemma-26B-A4B-it-bf16"
-    ],
-    "family": "diffusiongemma-it-bf16"
-  },
-  {
-    "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-8bit",
-    "name": "diffusiongemma-26B-A4B-it-8bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T16:39:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/diffusiongemma-26B-A4B-it-8bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T13:43:18.630652+00:00",
-    "source_ids": [
-      "mlx-community/diffusiongemma-26B-A4B-it-8bit"
-    ],
-    "family": "diffusiongemma-it-8bit"
-  },
-  {
-    "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-6bit",
-    "name": "diffusiongemma-26B-A4B-it-6bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T16:39:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/diffusiongemma-26B-A4B-it-6bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T13:43:18.630682+00:00",
-    "source_ids": [
-      "mlx-community/diffusiongemma-26B-A4B-it-6bit"
-    ],
-    "family": "diffusiongemma-it-6bit"
-  },
-  {
-    "id": "huggingface:mlx-community/diffusiongemma-26B-A4B-it-4bit",
-    "name": "diffusiongemma-26B-A4B-it-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-10T16:39:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/diffusiongemma-26B-A4B-it-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T13:43:18.630711+00:00",
-    "source_ids": [
-      "mlx-community/diffusiongemma-26B-A4B-it-4bit"
-    ],
-    "family": "diffusiongemma-it-4bit"
   },
   {
     "id": "huggingface:furiosa-ai/gpt-oss-20b",
