@@ -1,5 +1,75 @@
 [
   {
+    "id": "huggingface:Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
+    "name": "Qwen3.8-27B-ABLITERATED-GGUF",
+    "provider": "Blackfrost-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T21:35:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3.8",
+      "qwen",
+      "27b",
+      "dense"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T20:21:14.288297+00:00",
+    "source_ids": [
+      "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF"
+    ],
+    "family": "Qwen3.8-ABLITERATED"
+  },
+  {
+    "id": "huggingface:utautako/Qwen3.8-27B-NVFP4-MTP-Q8attn-GGUF",
+    "name": "Qwen3.8-27B-NVFP4-MTP-Q8attn-GGUF",
+    "provider": "utautako",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T20:20:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/utautako/Qwen3.8-27B-NVFP4-MTP-Q8attn-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "qwen3.8",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T20:21:14.288419+00:00",
+    "source_ids": [
+      "utautako/Qwen3.8-27B-NVFP4-MTP-Q8attn-GGUF"
+    ],
+    "family": "Qwen3.8-NVFP4-MTP-Q8attn"
+  },
+  {
     "id": "huggingface:Zynerji/Ektome-Qwen3.8-27B-PristinelyUncensored",
     "name": "Ektome-Qwen3.8-27B-PristinelyUncensored",
     "provider": "Zynerji",
@@ -31,6 +101,41 @@
       "Zynerji/Ektome-Qwen3.8-27B-PristinelyUncensored"
     ],
     "family": "Ektome-Qwen3.8-PristinelyUncensored"
+  },
+  {
+    "id": "huggingface:soyrsoyr/Qwen3.8-27B-W4A16-AWQ-GPTQ",
+    "name": "Qwen3.8-27B-W4A16-AWQ-GPTQ",
+    "provider": "soyrsoyr",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T17:35:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/soyrsoyr/Qwen3.8-27B-W4A16-AWQ-GPTQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T20:21:14.288639+00:00",
+    "source_ids": [
+      "soyrsoyr/Qwen3.8-27B-W4A16-AWQ-GPTQ"
+    ],
+    "family": "Qwen3.8-W4A16"
   },
   {
     "id": "openrouter:qwen/qwen3.8-27b",
@@ -99,6 +204,41 @@
       "peculiar-ragdoll/Dirk-Qwen3.8-27B-GGUF"
     ],
     "family": "Dirk-Qwen3.8"
+  },
+  {
+    "id": "huggingface:lued/Qwen3.8-27B-INT8-W8A16-MTP",
+    "name": "Qwen3.8-27B-INT8-W8A16-MTP",
+    "provider": "lued",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T15:32:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lued/Qwen3.8-27B-INT8-W8A16-MTP",
+    "tags": [
+      "image-text-to-text",
+      "vllm",
+      "safetensors",
+      "qwen3_5",
+      "qwen3.8",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T20:21:14.288480+00:00",
+    "source_ids": [
+      "lued/Qwen3.8-27B-INT8-W8A16-MTP"
+    ],
+    "family": "Qwen3.8-INT8-W8A16-MTP"
   },
   {
     "id": "openrouter:dots-studio/dots-3-note-preview:free",
@@ -269,6 +409,39 @@
       "gbuzhf/Ornith-1.0-35B-MTP-UD-APEX-GGUF"
     ],
     "family": "Ornith-1.0-MTP-UD-APEX"
+  },
+  {
+    "id": "huggingface:pinkelephantlimited/pinkelephant-llm-48b-s",
+    "name": "pinkelephant-llm-48b-s",
+    "provider": "pinkelephantlimited",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T22:14:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pinkelephantlimited/pinkelephant-llm-48b-s",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "pinkelephant_moe",
+      "text-generation",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T20:21:13.235984+00:00",
+    "source_ids": [
+      "pinkelephantlimited/pinkelephant-llm-48b-s"
+    ],
+    "family": "pinkelephant-llm-s"
   },
   {
     "id": "openrouter:bytedance-seed/seed-2-1-turbo",
@@ -1110,6 +1283,39 @@
       "ISB369/shellminator-270m-bash-distilled"
     ],
     "family": "shellminator-270m-bash-distilled"
+  },
+  {
+    "id": "huggingface:ThorOdinson246/nl2sh-1.5b-Q4_K_M",
+    "name": "nl2sh-1.5b-Q4_K_M",
+    "provider": "ThorOdinson246",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-07T06:29:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ThorOdinson246/nl2sh-1.5b-Q4_K_M",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "shell",
+      "bash",
+      "command-generation",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T20:21:13.235908+00:00",
+    "source_ids": [
+      "ThorOdinson246/nl2sh-1.5b-Q4_K_M"
+    ],
+    "family": "nl2sh-Q4_K_M"
   },
   {
     "id": "huggingface:esatapedico/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
@@ -6884,74 +7090,6 @@
     "family": "Qwen2.5--heretic"
   },
   {
-    "id": "openrouter:moonshotai/kimi-k3",
-    "name": "MoonshotAI: Kimi K3",
-    "provider": "Moonshot AI",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-16T15:30:58+00:00",
-    "context_length": 1048576,
-    "description": "Kimi K3 is an ultra-large-scale, open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at navigating...",
-    "url": "https://openrouter.ai/moonshotai/kimi-k3",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 3.0,
-      "completion_per_million": 15.0
-    },
-    "first_seen": "2026-07-16T17:15:20.083262+00:00",
-    "source_ids": [
-      "moonshotai/kimi-k3"
-    ],
-    "family": "Kimi K3"
-  },
-  {
-    "id": "openrouter:meta/muse-spark-1.1",
-    "name": "Meta: Muse Spark 1.1",
-    "provider": "Meta",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-16T15:29:01+00:00",
-    "context_length": 1048576,
-    "description": "Muse Spark 1.1 is a multimodal reasoning model from Meta, built for agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context...",
-    "url": "https://openrouter.ai/meta/muse-spark-1.1",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.25,
-      "completion_per_million": 4.25
-    },
-    "first_seen": "2026-07-16T17:15:20.084264+00:00",
-    "source_ids": [
-      "meta/muse-spark-1.1"
-    ],
-    "family": "Muse Spark 1.1"
-  },
-  {
     "id": "huggingface:internlm/Intern-S2-Preview-397B",
     "name": "Intern-S2-Preview-397B",
     "provider": "InternLM",
@@ -8444,41 +8582,6 @@
     "family": "qwen-Agent-R2-abliterated"
   },
   {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T06:40:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "hermes",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T17:15:20.624594+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V3"
-  },
-  {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V5-GGUF",
     "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V5-GGUF",
     "provider": "LuffyTheFox",
@@ -8615,41 +8718,6 @@
       "User01110/CMA-8M"
     ],
     "family": "CMA-8M"
-  },
-  {
-    "id": "huggingface:braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama",
-    "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama",
-    "provider": "braydenh563",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T02:30:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T17:15:20.624695+00:00",
-    "source_ids": [
-      "braydenh563/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Ollama"
-    ],
-    "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-Ollama"
   },
   {
     "id": "huggingface:ZERO-POINT-AI/MARTHA-LXVIII.21b_QWEN-3.5-3.6_prune_27b-3.6_base",
@@ -12818,74 +12886,6 @@
       "z-ai/glm-5.2:batch"
     ],
     "family": "GLM 5.2 (batch)"
-  },
-  {
-    "id": "huggingface:Boogu/Boogu-Image-0.1-Base",
-    "name": "Boogu-Image-0.1-Base",
-    "provider": "Boogu",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-16T13:50:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Base",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "text-to-image",
-      "en",
-      "zh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T17:15:20.268035+00:00",
-    "source_ids": [
-      "Boogu/Boogu-Image-0.1-Base"
-    ],
-    "family": "Boogu-Image-0.1"
-  },
-  {
-    "id": "huggingface:Boogu/Boogu-Image-0.1-Turbo",
-    "name": "Boogu-Image-0.1-Turbo",
-    "provider": "Boogu",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-16T03:26:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Turbo",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "text-to-image",
-      "en",
-      "zh"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T17:15:20.267985+00:00",
-    "source_ids": [
-      "Boogu/Boogu-Image-0.1-Turbo"
-    ],
-    "family": "Boogu-Image-0.1-Turbo"
   },
   {
     "id": "huggingface:dasvad/open3dvqa-qwen3vl-4b-distill-q4-k-m-gguf",
