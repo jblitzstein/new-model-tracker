@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:Zynerji/Ektome-Qwen3.8-27B-PristinelyUncensored",
+    "name": "Ektome-Qwen3.8-27B-PristinelyUncensored",
+    "provider": "Zynerji",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T19:07:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Zynerji/Ektome-Qwen3.8-27B-PristinelyUncensored",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "uncensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T12:36:09.895538+00:00",
+    "source_ids": [
+      "Zynerji/Ektome-Qwen3.8-27B-PristinelyUncensored"
+    ],
+    "family": "Ektome-Qwen3.8-PristinelyUncensored"
+  },
+  {
     "id": "openrouter:qwen/qwen3.8-27b",
     "name": "Qwen: Qwen3.8 27B",
     "provider": "Qwen",
@@ -31,6 +64,41 @@
       "qwen/qwen3.8-27b"
     ],
     "family": "Qwen3.8"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Dirk-Qwen3.8-27B-GGUF",
+    "name": "Dirk-Qwen3.8-27B-GGUF",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T15:37:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Dirk-Qwen3.8-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen3_5",
+      "qwen3.8",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T12:36:10.301447+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Dirk-Qwen3.8-27B-GGUF"
+    ],
+    "family": "Dirk-Qwen3.8"
   },
   {
     "id": "openrouter:dots-studio/dots-3-note-preview:free",
@@ -975,6 +1043,40 @@
       "Scrappy-Doo/GLM-5.2"
     ],
     "family": "GLM-5.2"
+  },
+  {
+    "id": "huggingface:MiniMaxAI/MiniMax-Music3",
+    "name": "MiniMax-Music3",
+    "provider": "MiniMaxAI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-07T12:23:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+    "tags": [
+      "text-to-audio",
+      "diffusers",
+      "safetensors",
+      "minimax_music3",
+      "music-generation",
+      "text-to-music"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T12:36:10.115146+00:00",
+    "source_ids": [
+      "MiniMaxAI/MiniMax-Music3"
+    ],
+    "family": "MiniMax-Music3"
   },
   {
     "id": "huggingface:esatapedico/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
@@ -7972,40 +8074,6 @@
     "family": "moss-transcribe-diarize-zhtw"
   },
   {
-    "id": "huggingface:audio-cpp/audio.cpp-gguf",
-    "name": "audio.cpp-gguf",
-    "provider": "audio-cpp",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-07-14T05:56:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/audio-cpp/audio.cpp-gguf",
-    "tags": [
-      "text-to-speech",
-      "audio.cpp",
-      "gguf",
-      "text-to-speech",
-      "automatic-speech-recognition",
-      "voice-conversion"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T10:08:32.911346+00:00",
-    "source_ids": [
-      "audio-cpp/audio.cpp-gguf"
-    ],
-    "family": "audio.cpp"
-  },
-  {
     "id": "huggingface:darkps/darkit-v2.5",
     "name": "darkit-v2.5",
     "provider": "darkps",
@@ -8208,39 +8276,6 @@
       "nvidia/Ising-Calibration-1.5-31B-BF16"
     ],
     "family": "Ising-Calibration-1.5-BF16"
-  },
-  {
-    "id": "huggingface:danielrmay/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16",
-    "name": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16",
-    "provider": "danielrmay",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T17:03:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/danielrmay/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h_puzzle",
-      "text-generation",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T10:08:32.409696+00:00",
-    "source_ids": [
-      "danielrmay/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16"
-    ],
-    "family": "NVIDIA-Nemotron-Labs-3-Puzzle-W4A16"
   },
   {
     "id": "huggingface:AnkitAI/Parable-Granite-4.1-3B-Claude-Fable-5-GGUF",
@@ -13292,39 +13327,6 @@
       "moonshotai/kimi-k2.7-code:batch"
     ],
     "family": "Kimi K2.7 Code (batch)"
-  },
-  {
-    "id": "huggingface:edwixx/diffusiongemma-26B-A4B-it-HERETIC-Uncensored",
-    "name": "diffusiongemma-26B-A4B-it-HERETIC-Uncensored",
-    "provider": "edwixx",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-11T15:20:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/edwixx/diffusiongemma-26B-A4B-it-HERETIC-Uncensored",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T10:08:32.409752+00:00",
-    "source_ids": [
-      "edwixx/diffusiongemma-26B-A4B-it-HERETIC-Uncensored"
-    ],
-    "family": "diffusiongemma-it-HERETIC-Uncensored"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-DiffusionGemmaForBlockDiffusion",
