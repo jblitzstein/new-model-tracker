@@ -135,6 +135,41 @@
     "family": "DeepSeek-V4-Pro-0813"
   },
   {
+    "id": "huggingface:gbuzhf/Ornith-1.0-35B-MTP-UD-APEX-GGUF",
+    "name": "Ornith-1.0-35B-MTP-UD-APEX-GGUF",
+    "provider": "gbuzhf",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T01:45:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gbuzhf/Ornith-1.0-35B-MTP-UD-APEX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "mtp",
+      "speculative-decoding",
+      "apex",
+      "v2d-lite"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-15T01:13:01.851692+00:00",
+    "source_ids": [
+      "gbuzhf/Ornith-1.0-35B-MTP-UD-APEX-GGUF"
+    ],
+    "family": "Ornith-1.0-MTP-UD-APEX"
+  },
+  {
     "id": "openrouter:bytedance-seed/seed-2-1-turbo",
     "name": "ByteDance Seed: Seed 2.1 Turbo",
     "provider": "ByteDance",
@@ -8308,41 +8343,6 @@
     "family": "qwen-Agent-R2-abliterated"
   },
   {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V2-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V2-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T06:40:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "hermes",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T21:00:08.691668+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V2-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V2"
-  },
-  {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
     "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
     "provider": "LuffyTheFox",
@@ -12380,39 +12380,6 @@
       "caid-technologies/parti-base"
     ],
     "family": "parti"
-  },
-  {
-    "id": "huggingface:AyaanAhmed123/Spark_one",
-    "name": "Spark_one",
-    "provider": "AyaanAhmed123",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-21T20:08:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AyaanAhmed123/Spark_one",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-15T21:00:08.210131+00:00",
-    "source_ids": [
-      "AyaanAhmed123/Spark_one"
-    ],
-    "family": "Spark_one"
   },
   {
     "id": "huggingface:realrebelai/RebelReal_LoRA_Collection",
