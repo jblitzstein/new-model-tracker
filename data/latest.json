@@ -1185,6 +1185,39 @@
     "family": "minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy"
   },
   {
+    "id": "huggingface:CobrIX/CobrIX-1.0-Coder-Full-72B-A18B",
+    "name": "CobrIX-1.0-Coder-Full-72B-A18B",
+    "provider": "CobrIX",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-08T01:33:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CobrIX/CobrIX-1.0-Coder-Full-72B-A18B",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "safetensors",
+      "qwen35_moe",
+      "MoE",
+      "Qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-16T01:17:22.904384+00:00",
+    "source_ids": [
+      "CobrIX/CobrIX-1.0-Coder-Full-72B-A18B"
+    ],
+    "family": "CobrIX-1.0-Coder-Full"
+  },
+  {
     "id": "huggingface:Scrappy-Doo/GLM-5.2",
     "name": "GLM-5.2",
     "provider": "Scrappy-Doo",
@@ -1848,6 +1881,39 @@
       "FenomAI/MiniMax-H3_GGUFs"
     ],
     "family": "MiniMax-H3_GGUFs"
+  },
+  {
+    "id": "huggingface:vamazing/Koa-AI-v1-Code-3B",
+    "name": "Koa-AI-v1-Code-3B",
+    "provider": "vamazing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-03T16:39:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vamazing/Koa-AI-v1-Code-3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "mistral3",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-16T01:17:22.904237+00:00",
+    "source_ids": [
+      "vamazing/Koa-AI-v1-Code-3B"
+    ],
+    "family": "Koa-AI-v1-Code"
   },
   {
     "id": "huggingface:ddalcu/MiniMax-H3-FL2VA-MLX-Serve-4bit",
@@ -5936,6 +6002,40 @@
       "nota-ai/Solar-Open2-250B-Nota-NVFP4"
     ],
     "family": "Solar-Open2-Nota-NVFP4"
+  },
+  {
+    "id": "huggingface:jimmycarter/krea2-turbo-bbox",
+    "name": "krea2-turbo-bbox",
+    "provider": "jimmycarter",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-07-20T21:36:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jimmycarter/krea2-turbo-bbox",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "krea2",
+      "distilled"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-16T01:17:22.983128+00:00",
+    "source_ids": [
+      "jimmycarter/krea2-turbo-bbox"
+    ],
+    "family": "krea2-turbo-bbox"
   },
   {
     "id": "huggingface:baseten/GLM-5.2-Vision-NVFP4",
@@ -10260,72 +10360,6 @@
       "qwrt/Swedish0.1M"
     ],
     "family": "Swedish0.1M"
-  },
-  {
-    "id": "huggingface:nvidia/Nemotron-Labs-Audex-2B",
-    "name": "Nemotron-Labs-Audex-2B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T16:21:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_audex",
-      "nvidia",
-      "nemotron-labs-audex"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T20:58:15.468775+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Audex-2B"
-    ],
-    "family": "Nemotron-Labs-Audex"
-  },
-  {
-    "id": "huggingface:nvidia/Nemotron-Labs-Audex-30B-A3B",
-    "name": "Nemotron-Labs-Audex-30B-A3B",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T16:20:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_labs_audex",
-      "nvidia",
-      "nemotron-labs-audex"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T20:58:15.468840+00:00",
-    "source_ids": [
-      "nvidia/Nemotron-Labs-Audex-30B-A3B"
-    ],
-    "family": "Nemotron-Labs-Audex"
   },
   {
     "id": "huggingface:FrontiersMind/Lumma-0.6B-Base",
@@ -15162,76 +15196,6 @@
     "family": "LFM2.5-VL-450M-6bit"
   },
   {
-    "id": "huggingface:ggml-org/Qwen3.6-27B-GGUF",
-    "name": "Qwen3.6-27B-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-22T15:24:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/Qwen3.6-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.6-27B",
-      "base_model:quantized:Qwen/Qwen3.6-27B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T20:58:16.333504+00:00",
-    "source_ids": [
-      "ggml-org/Qwen3.6-27B-GGUF"
-    ],
-    "family": "Qwen3.6"
-  },
-  {
-    "id": "huggingface:ggml-org/Qwen3.6-35B-A3B-GGUF",
-    "name": "Qwen3.6-35B-A3B-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-18T12:18:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/Qwen3.6-35B-A3B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.6-35B-A3B",
-      "base_model:quantized:Qwen/Qwen3.6-35B-A3B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T20:58:16.333477+00:00",
-    "source_ids": [
-      "ggml-org/Qwen3.6-35B-A3B-GGUF"
-    ],
-    "family": "Qwen3.6"
-  },
-  {
     "id": "huggingface:RedHatAI/Qwen3.6-35B-A3B-NVFP4",
     "name": "Qwen3.6-35B-A3B-NVFP4",
     "provider": "RedHatAI",
@@ -15750,76 +15714,6 @@
       "lmstudio-community/gemma-4-26B-A4B-it-MLX-4bit"
     ],
     "family": "gemma-4-it-MLX-4bit"
-  },
-  {
-    "id": "huggingface:ggml-org/gemma-4-31B-it-GGUF",
-    "name": "gemma-4-31B-it-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T10:33:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/gemma-4-31B-it-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "image-text-to-text",
-      "base_model:google/gemma-4-31B-it",
-      "base_model:quantized:google/gemma-4-31B-it"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T20:58:16.333408+00:00",
-    "source_ids": [
-      "ggml-org/gemma-4-31B-it-GGUF"
-    ],
-    "family": "gemma-4-it"
-  },
-  {
-    "id": "huggingface:ggml-org/gemma-4-26B-A4B-it-GGUF",
-    "name": "gemma-4-26B-A4B-it-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-01T10:33:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/gemma-4-26B-A4B-it-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "image-text-to-text",
-      "base_model:google/gemma-4-26B-A4B-it",
-      "base_model:quantized:google/gemma-4-26B-A4B-it"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-16T20:58:16.333441+00:00",
-    "source_ids": [
-      "ggml-org/gemma-4-26B-A4B-it-GGUF"
-    ],
-    "family": "gemma-4-it"
   },
   {
     "id": "huggingface:cyankiwi/Qwen3.5-2B-AWQ-INT8-INT4",
