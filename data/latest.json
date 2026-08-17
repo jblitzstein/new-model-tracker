@@ -5429,6 +5429,39 @@
     "family": "Qwen3.7 Flash"
   },
   {
+    "id": "huggingface:BaseIntelligence/top-prism-architecture",
+    "name": "top-prism-architecture",
+    "provider": "BaseIntelligence",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T19:05:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BaseIntelligence/top-prism-architecture",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "prism_custom",
+      "feature-extraction",
+      "prism",
+      "custom-architecture"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-17T16:26:48.597767+00:00",
+    "source_ids": [
+      "BaseIntelligence/top-prism-architecture"
+    ],
+    "family": "top-prism-architecture"
+  },
+  {
     "id": "huggingface:AtomicChat/Kimi-K3-GGUF",
     "name": "Kimi-K3-GGUF",
     "provider": "AtomicChat",
@@ -7977,39 +8010,6 @@
     "family": "llama3-Wisdom"
   },
   {
-    "id": "huggingface:User01110/MCMA-20M",
-    "name": "MCMA-20M",
-    "provider": "User01110",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-18T05:16:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/User01110/MCMA-20M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "mcma",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T13:14:47.103903+00:00",
-    "source_ids": [
-      "User01110/MCMA-20M"
-    ],
-    "family": "MCMA-20M"
-  },
-  {
     "id": "huggingface:ChrisColeTech/LTX-2.3-uncensored-fp8",
     "name": "LTX-2.3-uncensored-fp8",
     "provider": "ChrisColeTech",
@@ -9946,39 +9946,6 @@
     "family": "MARTHA-LXVIII.21b_QWEN-3.5-3.6_prune_-3.6"
   },
   {
-    "id": "huggingface:RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
-    "name": "Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
-    "provider": "RobinsonLabs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-12T20:16:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "abliterated",
-      "uncensored",
-      "imatrix",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T13:14:47.103812+00:00",
-    "source_ids": [
-      "RobinsonLabs/Qwen3.5-REAP-262B-A17B-abliterated-GGUF"
-    ],
-    "family": "Qwen3.5-REAP-abliterated"
-  },
-  {
     "id": "huggingface:cstr/moss-tts-v1.5-GGUF",
     "name": "moss-tts-v1.5-GGUF",
     "provider": "cstr",
@@ -10143,6 +10110,41 @@
       "Subject-Emu-5259/NeuralAI"
     ],
     "family": "NeuralAI"
+  },
+  {
+    "id": "huggingface:saracen9/amoral-qwen3.5-9B",
+    "name": "amoral-qwen3.5-9B",
+    "provider": "saracen9",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-11T12:22:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saracen9/amoral-qwen3.5-9B",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "abliterated",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-17T16:26:49.441214+00:00",
+    "source_ids": [
+      "saracen9/amoral-qwen3.5-9B"
+    ],
+    "family": "amoral-qwen3.5"
   },
   {
     "id": "huggingface:zenosai/MonkeyOCRv2-B-Parsing",
@@ -15879,40 +15881,6 @@
     "family": "Claude Opus 4.7 (batch)"
   },
   {
-    "id": "huggingface:theoracleguy/OmniVoice-bf16",
-    "name": "OmniVoice-bf16",
-    "provider": "theoracleguy",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-04-16T09:48:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/theoracleguy/OmniVoice-bf16",
-    "tags": [
-      "text-to-speech",
-      "mlx-audio",
-      "safetensors",
-      "omnivoice",
-      "mlx",
-      "text-to-speech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T13:14:47.669702+00:00",
-    "source_ids": [
-      "theoracleguy/OmniVoice-bf16"
-    ],
-    "family": "OmniVoice-bf16"
-  },
-  {
     "id": "huggingface:mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF",
     "name": "gemma-4-E4B-it-OBLITERATED-i1-GGUF",
     "provider": "mradermacher",
@@ -16498,40 +16466,6 @@
     "family": "GPT-5.4 Mini (batch)"
   },
   {
-    "id": "huggingface:theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
-    "name": "Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
-    "provider": "theoracleguy",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-03-14T09:31:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit",
-    "tags": [
-      "text-to-speech",
-      "mlx-audio",
-      "safetensors",
-      "qwen3_tts",
-      "mlx",
-      "apple-silicon"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T13:14:47.669824+00:00",
-    "source_ids": [
-      "theoracleguy/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit"
-    ],
-    "family": "Qwen3-TTS-12Hz-VoiceDesign-4bit"
-  },
-  {
     "id": "openrouter:openai/gpt-5.4-pro:batch",
     "name": "OpenAI: GPT-5.4 Pro (batch)",
     "provider": "OpenAI",
@@ -17069,40 +17003,6 @@
       "LiquidAI/LFM2.5-1.2B-Thinking"
     ],
     "family": "LFM2.5"
-  },
-  {
-    "id": "huggingface:theoracleguy/Kokoro-82M-bf16",
-    "name": "Kokoro-82M-bf16",
-    "provider": "theoracleguy",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-01-19T07:50:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/theoracleguy/Kokoro-82M-bf16",
-    "tags": [
-      "text-to-speech",
-      "mlx",
-      "text-to-speech",
-      "en",
-      "base_model:yl4579/StyleTTS2-LJSpeech",
-      "base_model:finetune:yl4579/StyleTTS2-LJSpeech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T13:14:47.669778+00:00",
-    "source_ids": [
-      "theoracleguy/Kokoro-82M-bf16"
-    ],
-    "family": "Kokoro-82M-bf16"
   },
   {
     "id": "huggingface:unsloth/LFM2.5-VL-1.6B-GGUF",
