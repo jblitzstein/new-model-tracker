@@ -1733,6 +1733,41 @@
     "family": "Anima"
   },
   {
+    "id": "huggingface:barozp/Qwen3.8-27B-Opus-Distill-GGUF",
+    "name": "Qwen3.8-27B-Opus-Distill-GGUF",
+    "provider": "barozp",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T07:10:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/barozp/Qwen3.8-27B-Opus-Distill-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "reasoning",
+      "opus-distill"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-17T20:26:25.803800+00:00",
+    "source_ids": [
+      "barozp/Qwen3.8-27B-Opus-Distill-GGUF"
+    ],
+    "family": "Qwen3.8-Opus-Distill"
+  },
+  {
     "id": "huggingface:NotoriousH2/Qwen3-4B-Calendar-Agent-RLVR",
     "name": "Qwen3-4B-Calendar-Agent-RLVR",
     "provider": "NotoriousH2",
@@ -1981,6 +2016,39 @@
       "nvidia/nemotron-3.5-lightning:free"
     ],
     "family": "Nemotron 3.5 Lightning"
+  },
+  {
+    "id": "huggingface:stage-babylm/llama-384-4L",
+    "name": "llama-384-4L",
+    "provider": "stage-babylm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T07:24:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stage-babylm/llama-384-4L",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-17T20:26:25.115359+00:00",
+    "source_ids": [
+      "stage-babylm/llama-384-4L"
+    ],
+    "family": "llama-384-4L"
   },
   {
     "id": "huggingface:bloomer010/Ling-3.0-tiny-GGUF",
@@ -2983,6 +3051,39 @@
       "meta/muse-spark-1.2"
     ],
     "family": "Muse Spark 1.2"
+  },
+  {
+    "id": "huggingface:prometheusAIR/Ling-3.0-flash-GGUF",
+    "name": "Ling-3.0-flash-GGUF",
+    "provider": "prometheusAIR",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-05T03:50:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prometheusAIR/Ling-3.0-flash-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "ling",
+      "bailingmoe3",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-17T20:26:25.115341+00:00",
+    "source_ids": [
+      "prometheusAIR/Ling-3.0-flash-GGUF"
+    ],
+    "family": "Ling-3.0-flash"
   },
   {
     "id": "huggingface:bloomer010/Ling-3.0-flash-GGUF",
@@ -4852,6 +4953,39 @@
       "SimpleTuner/ltxvideo-2.3-distilled-convrot-int8"
     ],
     "family": "ltxvideo-2.3-distilled-convrot-int8"
+  },
+  {
+    "id": "huggingface:amd/Qwen3.6-35B-A3B-EXTENSOR",
+    "name": "Qwen3.6-35B-A3B-EXTENSOR",
+    "provider": "amd",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-29T19:20:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amd/Qwen3.6-35B-A3B-EXTENSOR",
+    "tags": [
+      "text-generation",
+      "extensor",
+      "gguf",
+      "amd",
+      "mixture-of-experts",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-17T20:26:25.115249+00:00",
+    "source_ids": [
+      "amd/Qwen3.6-35B-A3B-EXTENSOR"
+    ],
+    "family": "Qwen3.6-EXTENSOR"
   },
   {
     "id": "huggingface:gkraker04/Nanbeige4.2-3B-GGUF",
@@ -9264,39 +9398,6 @@
     "family": "DeepSeek-V4-Flash-REAP25-DSpark-ds4"
   },
   {
-    "id": "huggingface:AIOpsInSpace/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-MTP",
-    "name": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-MTP",
-    "provider": "AIOpsInSpace",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-14T17:26:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AIOpsInSpace/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-MTP",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "text-generation",
-      "reasoning",
-      "uncensored",
-      "MTP"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T16:57:43.844298+00:00",
-    "source_ids": [
-      "AIOpsInSpace/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-MTP"
-    ],
-    "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-MTP"
-  },
-  {
     "id": "huggingface:thinkingmachines/Inkling-NVFP4",
     "name": "Inkling-NVFP4",
     "provider": "thinkingmachines",
@@ -10383,39 +10484,6 @@
     "family": "Super-Slop-Machina-Roleplay"
   },
   {
-    "id": "huggingface:ameer4wisam/gemma-iraqi-finetune-v2",
-    "name": "gemma-iraqi-finetune-v2",
-    "provider": "ameer4wisam",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-09T10:26:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ameer4wisam/gemma-iraqi-finetune-v2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4_unified",
-      "image-text-to-text",
-      "gemma"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T16:57:43.844207+00:00",
-    "source_ids": [
-      "ameer4wisam/gemma-iraqi-finetune-v2"
-    ],
-    "family": "gemma-iraqi-finetune-v2"
-  },
-  {
     "id": "openrouter:openai/gpt-5.6-luna-pro:batch",
     "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
     "provider": "OpenAI",
@@ -11218,39 +11286,6 @@
       "qwrt/Swedish0.1M"
     ],
     "family": "Swedish0.1M"
-  },
-  {
-    "id": "huggingface:FrontiersMind/Lumma-0.6B-Base",
-    "name": "Lumma-0.6B-Base",
-    "provider": "FrontiersMind",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T11:16:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FrontiersMind/Lumma-0.6B-Base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nandi",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T16:57:43.844238+00:00",
-    "source_ids": [
-      "FrontiersMind/Lumma-0.6B-Base"
-    ],
-    "family": "Lumma"
   },
   {
     "id": "huggingface:Nanthasit/sakthai-context-7b-merged",
@@ -13206,40 +13241,6 @@
       "poolside/Laguna-XS-2.1-INT4"
     ],
     "family": "Laguna-XS-2.1-INT4"
-  },
-  {
-    "id": "huggingface:FunAudioLLM/Fun-ASR-Nano-GGUF",
-    "name": "Fun-ASR-Nano-GGUF",
-    "provider": "FunAudioLLM",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-20T06:05:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "gguf",
-      "automatic-speech-recognition",
-      "asr",
-      "fun-asr",
-      "funasr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-18T16:57:44.613137+00:00",
-    "source_ids": [
-      "FunAudioLLM/Fun-ASR-Nano-GGUF"
-    ],
-    "family": "Fun-ASR-Nano"
   },
   {
     "id": "huggingface:hans00/Chatterbox-Multilingual-TTS-GGUF",
