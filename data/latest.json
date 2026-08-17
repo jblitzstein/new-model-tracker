@@ -2397,6 +2397,41 @@
     "family": "MiniMax-H3-Turbo-Lora-ComfyUI"
   },
   {
+    "id": "huggingface:prithivMLmods/Qwen3.8-27B-GGUF",
+    "name": "Qwen3.8-27B-GGUF",
+    "provider": "prithivMLmods",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T04:44:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prithivMLmods/Qwen3.8-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "llama-cpp",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-17T04:40:55.090338+00:00",
+    "source_ids": [
+      "prithivMLmods/Qwen3.8-27B-GGUF"
+    ],
+    "family": "Qwen3.8"
+  },
+  {
     "id": "openrouter:meta/muse-spark-1.2",
     "name": "Meta: Muse Spark 1.2",
     "provider": "Meta",
@@ -7491,39 +7526,6 @@
       "ChrisColeTech/LTX-2.3-uncensored-fp8"
     ],
     "family": "LTX-2.3-uncensored-fp8"
-  },
-  {
-    "id": "openrouter:thinkingmachines/inkling",
-    "name": "Thinking Machines: Inkling",
-    "provider": "thinkingmachines",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-17T22:05:56+00:00",
-    "context_length": 1048576,
-    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
-    "url": "https://openrouter.ai/thinkingmachines/inkling",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.0,
-      "completion_per_million": 4.05
-    },
-    "first_seen": "2026-07-18T02:30:04.143584+00:00",
-    "source_ids": [
-      "thinkingmachines/inkling"
-    ],
-    "family": "Inkling"
   },
   {
     "id": "openrouter:thinkingmachines/inkling:batch",
