@@ -121289,5 +121289,174 @@
       "hakim77/trocr-captcha-v2-god-mode"
     ],
     "family": "trocr-captcha-v2-god-mode"
+  },
+  {
+    "id": "openrouter:z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T20:57:35+00:00",
+    "context_length": 1048576,
+    "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
+    "url": "https://openrouter.ai/z-ai/glm-5.3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.4,
+      "completion_per_million": 4.4
+    },
+    "first_seen": "2026-08-19T01:13:55.418550+00:00",
+    "source_ids": [
+      "z-ai/glm-5.3"
+    ],
+    "family": "GLM 5.3"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF",
+    "name": "Nail-Qwen3.6-35B-A3B-GGUF",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T12:22:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen3_6",
+      "moe",
+      "token-efficient"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T01:13:56.643535+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF"
+    ],
+    "family": "Nail-Qwen3.6"
+  },
+  {
+    "id": "huggingface:philbert440/Qwen3.8-27B-Uncensored-Aggressive",
+    "name": "Qwen3.8-27B-Uncensored-Aggressive",
+    "provider": "philbert440",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T06:22:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philbert440/Qwen3.8-27B-Uncensored-Aggressive",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "uncensored",
+      "abliterated",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T01:13:56.643603+00:00",
+    "source_ids": [
+      "philbert440/Qwen3.8-27B-Uncensored-Aggressive"
+    ],
+    "family": "Qwen3.8-Uncensored-Aggressive"
+  },
+  {
+    "id": "huggingface:philbert440/Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ",
+    "name": "Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ",
+    "provider": "philbert440",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T08:56:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/philbert440/Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "uncensored",
+      "abliterated",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T01:13:56.643642+00:00",
+    "source_ids": [
+      "philbert440/Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ"
+    ],
+    "family": "Qwen3.8-Uncensored-Aggressive-W4A16"
+  },
+  {
+    "id": "huggingface:Atomic-Germ/MiniCPM-V-4.6-NPU2",
+    "name": "MiniCPM-V-4.6-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-08T16:50:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/MiniCPM-V-4.6-NPU2",
+    "tags": [
+      "image-text-to-text",
+      "q4nx",
+      "gguf",
+      "minicpmv4_6",
+      "fastflowlm",
+      "npu"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T01:13:56.643705+00:00",
+    "source_ids": [
+      "Atomic-Germ/MiniCPM-V-4.6-NPU2"
+    ],
+    "family": "MiniCPM-V-4.6-NPU2"
   }
 ]
