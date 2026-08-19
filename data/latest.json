@@ -603,6 +603,41 @@
     "family": "Qwen3.8-heretic-dflash"
   },
   {
+    "id": "huggingface:jcbtc/Qwen3.8-27B-CIRU-ActiveFPX-PromptForge",
+    "name": "Qwen3.8-27B-CIRU-ActiveFPX-PromptForge",
+    "provider": "jcbtc",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T20:04:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jcbtc/Qwen3.8-27B-CIRU-ActiveFPX-PromptForge",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen",
+      "qwen3.8",
+      "rocm",
+      "amd"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:45.329327+00:00",
+    "source_ids": [
+      "jcbtc/Qwen3.8-27B-CIRU-ActiveFPX-PromptForge"
+    ],
+    "family": "Qwen3.8-CIRU-ActiveFPX-PromptForge"
+  },
+  {
     "id": "huggingface:chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
     "name": "Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
     "provider": "chimingw",
@@ -1361,6 +1396,39 @@
     "family": "Qwen3.8-ABLITERATED"
   },
   {
+    "id": "huggingface:Atomic-Germ/Qwen3.8-Distilled-1.2B-NPU2",
+    "name": "Qwen3.8-Distilled-1.2B-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T21:13:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Qwen3.8-Distilled-1.2B-NPU2",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "lfm2",
+      "q4nx",
+      "fastflowlm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514371+00:00",
+    "source_ids": [
+      "Atomic-Germ/Qwen3.8-Distilled-1.2B-NPU2"
+    ],
+    "family": "Qwen3.8-Distilled-NPU2"
+  },
+  {
     "id": "huggingface:Blackfrost-AI/Qwen3.8-27B-ABLITERATED-NVFP4",
     "name": "Qwen3.8-27B-ABLITERATED-NVFP4",
     "provider": "Blackfrost-AI",
@@ -1631,6 +1699,39 @@
       "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF"
     ],
     "family": "Qwen3.8-Heretic-Abliterated-Uncensored"
+  },
+  {
+    "id": "huggingface:Atomic-Germ/Qwen3.8-Distilled-4B-NPU2",
+    "name": "Qwen3.8-Distilled-4B-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T18:33:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Qwen3.8-Distilled-4B-NPU2",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3",
+      "q4nx",
+      "fastflowlm",
+      "flm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514400+00:00",
+    "source_ids": [
+      "Atomic-Germ/Qwen3.8-Distilled-4B-NPU2"
+    ],
+    "family": "Qwen3.8-Distilled-NPU2"
   },
   {
     "id": "huggingface:nightmedia/Qwen3.8-27B-Holodeck-mxfp4-mlx",
@@ -3149,6 +3250,39 @@
     "family": "LFM2.5"
   },
   {
+    "id": "huggingface:Atomic-Germ/DynaGuard-8B-NPU2",
+    "name": "DynaGuard-8B-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T15:43:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/DynaGuard-8B-NPU2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "qwen3",
+      "text-generation",
+      "qwen",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514157+00:00",
+    "source_ids": [
+      "Atomic-Germ/DynaGuard-8B-NPU2"
+    ],
+    "family": "DynaGuard-NPU2"
+  },
+  {
     "id": "huggingface:ChrisColeTech/minimax-h3-turbo-GGUF",
     "name": "minimax-h3-turbo-GGUF",
     "provider": "ChrisColeTech",
@@ -4283,6 +4417,72 @@
     "family": "Qwen3.8-2.4T-A-NVFP4"
   },
   {
+    "id": "huggingface:Atomic-Germ/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-NPU2",
+    "name": "Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-07T01:43:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-NPU2",
+    "tags": [
+      "text-generation",
+      "qwen3_5_text",
+      "qwen3.5",
+      "qwythos",
+      "1M-context",
+      "long-context"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514245+00:00",
+    "source_ids": [
+      "Atomic-Germ/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-NPU2"
+    ],
+    "family": "Huihui-Qwythos-Claude-Mythos-5-1M-abliterated-NPU2"
+  },
+  {
+    "id": "huggingface:Atomic-Germ/Qwen2.5-3B-Coder-Instruct-NPU2",
+    "name": "Qwen2.5-3B-Coder-Instruct-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T23:10:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Qwen2.5-3B-Coder-Instruct-NPU2",
+    "tags": [
+      "text-generation",
+      "qwen2_5_vl",
+      "qwen2.5",
+      "coder",
+      "coding",
+      "fastflowlm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514283+00:00",
+    "source_ids": [
+      "Atomic-Germ/Qwen2.5-3B-Coder-Instruct-NPU2"
+    ],
+    "family": "Qwen2.5-Coder--NPU2"
+  },
+  {
     "id": "huggingface:esatapedico/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
     "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
     "provider": "esatapedico",
@@ -4478,6 +4678,41 @@
     "family": "Qwen3.8-nvfp4-NInfer"
   },
   {
+    "id": "huggingface:neroued/Qwen3.8-27B-NInfer",
+    "name": "Qwen3.8-27B-NInfer",
+    "provider": "neroued",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T08:09:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neroued/Qwen3.8-27B-NInfer",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "qwen3.8",
+      "multimodal",
+      "conversational",
+      "cuda"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:45.329548+00:00",
+    "source_ids": [
+      "neroued/Qwen3.8-27B-NInfer"
+    ],
+    "family": "Qwen3.8-NInfer"
+  },
+  {
     "id": "huggingface:AETHORIA-AI/TR-HASH-MOE-500M-HF",
     "name": "TR-HASH-MOE-500M-HF",
     "provider": "AETHORIA-AI",
@@ -4578,6 +4813,39 @@
       "prithivMLmods/Qwen3.8-27B-GGUF"
     ],
     "family": "Qwen3.8"
+  },
+  {
+    "id": "huggingface:Atomic-Germ/Qwen3.5-9B-Claude-Code-NPU2",
+    "name": "Qwen3.5-9B-Claude-Code-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T00:51:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Qwen3.5-9B-Claude-Code-NPU2",
+    "tags": [
+      "text-generation",
+      "qwen3_5_text",
+      "qwen3.5",
+      "coding",
+      "agentic",
+      "claude"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514343+00:00",
+    "source_ids": [
+      "Atomic-Germ/Qwen3.5-9B-Claude-Code-NPU2"
+    ],
+    "family": "Qwen3.5-Claude-Code-NPU2"
   },
   {
     "id": "openrouter:meta/muse-spark-1.2",
@@ -13560,6 +13828,39 @@
     "family": "NVIDIA-Nemotron-Parse-2.0"
   },
   {
+    "id": "huggingface:llmfan46/Ornith-1.0-35B-uncensored-heretic",
+    "name": "Ornith-1.0-35B-uncensored-heretic",
+    "provider": "llmfan46",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-30T18:44:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/llmfan46/Ornith-1.0-35B-uncensored-heretic",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514102+00:00",
+    "source_ids": [
+      "llmfan46/Ornith-1.0-35B-uncensored-heretic"
+    ],
+    "family": "Ornith-1.0-uncensored-heretic"
+  },
+  {
     "id": "openrouter:anthropic/claude-sonnet-5:batch",
     "name": "Anthropic: Claude Sonnet 5 (batch)",
     "provider": "Anthropic",
@@ -14034,6 +14335,39 @@
     "family": "Ornith-1.0-heretic-ja"
   },
   {
+    "id": "huggingface:Atomic-Germ/Qwen3.5-9B-Claude-4.8-Opus-NPU2",
+    "name": "Qwen3.5-9B-Claude-4.8-Opus-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-27T00:25:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Qwen3.5-9B-Claude-4.8-Opus-NPU2",
+    "tags": [
+      "text-generation",
+      "qwen3_5_text",
+      "qwen3.5",
+      "claude",
+      "reasoning",
+      "coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514312+00:00",
+    "source_ids": [
+      "Atomic-Germ/Qwen3.5-9B-Claude-4.8-Opus-NPU2"
+    ],
+    "family": "Qwen3.5-Claude-4.8-Opus-NPU2"
+  },
+  {
     "id": "huggingface:AtomicChat/ornith-9b-MLX-8bit",
     "name": "ornith-9b-MLX-8bit",
     "provider": "AtomicChat",
@@ -14300,39 +14634,6 @@
       "owensong/Inflect-Micro-v2"
     ],
     "family": "Inflect-Micro-v2"
-  },
-  {
-    "id": "huggingface:oyildirim/CyberStrike-OffSec-35B",
-    "name": "CyberStrike-OffSec-35B",
-    "provider": "oyildirim",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-25T17:11:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/oyildirim/CyberStrike-OffSec-35B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "cybersecurity"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-20T18:02:32.865641+00:00",
-    "source_ids": [
-      "oyildirim/CyberStrike-OffSec-35B"
-    ],
-    "family": "CyberStrike-OffSec"
   },
   {
     "id": "huggingface:philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
@@ -15673,6 +15974,72 @@
     "family": "pocket-tts"
   },
   {
+    "id": "huggingface:Atomic-Germ/Gemma4-E4B-GLM-NPU2",
+    "name": "Gemma4-E4B-GLM-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T21:47:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Gemma4-E4B-GLM-NPU2",
+    "tags": [
+      "text-generation",
+      "gemma4_text",
+      "gemma4",
+      "gemma-4",
+      "finetune",
+      "fastflowlm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514218+00:00",
+    "source_ids": [
+      "Atomic-Germ/Gemma4-E4B-GLM-NPU2"
+    ],
+    "family": "Gemma4-E-GLM-NPU2"
+  },
+  {
+    "id": "huggingface:Atomic-Germ/Qwopus3.5-9B-Coder-NPU2",
+    "name": "Qwopus3.5-9B-Coder-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-01T14:36:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Qwopus3.5-9B-Coder-NPU2",
+    "tags": [
+      "text-generation",
+      "qwen3_5_text",
+      "qwen3.5",
+      "coding",
+      "vision",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514431+00:00",
+    "source_ids": [
+      "Atomic-Germ/Qwopus3.5-9B-Coder-NPU2"
+    ],
+    "family": "Qwopus3.5-Coder-NPU2"
+  },
+  {
     "id": "huggingface:OpenASR/qwen3-asr-1.7b",
     "name": "qwen3-asr-1.7b",
     "provider": "OpenASR",
@@ -15772,6 +16139,39 @@
       "OpenASR/qwen3-asr-0.6b"
     ],
     "family": "qwen3-asr"
+  },
+  {
+    "id": "huggingface:Atomic-Germ/Gemma4-E4B-GLM-FLASH-NPU2",
+    "name": "Gemma4-E4B-GLM-FLASH-NPU2",
+    "provider": "Atomic-Germ",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T00:01:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Atomic-Germ/Gemma4-E4B-GLM-FLASH-NPU2",
+    "tags": [
+      "text-generation",
+      "gemma4_text",
+      "gemma4",
+      "gemma-4",
+      "flash",
+      "finetune"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-19T20:26:44.514187+00:00",
+    "source_ids": [
+      "Atomic-Germ/Gemma4-E4B-GLM-FLASH-NPU2"
+    ],
+    "family": "Gemma4-E-GLM-FLASH-NPU2"
   },
   {
     "id": "huggingface:cstr/f5-tts-GGUF",
@@ -20580,40 +20980,6 @@
       "xFutureTechx/BackMixes"
     ],
     "family": "BackMixes"
-  },
-  {
-    "id": "huggingface:artificialguybr/pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5",
-    "name": "pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5",
-    "provider": "artificialguybr",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2023-11-19T20:57:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/artificialguybr/pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "stable-diffusion",
-      "lora",
-      "template:sd-lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-20T18:02:32.929185+00:00",
-    "source_ids": [
-      "artificialguybr/pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5"
-    ],
-    "family": "pixelartredmond-1-5v-pixel-art-loras-for-sd-1-5"
   },
   {
     "id": "openrouter:openai/gpt-3.5-turbo:batch",
