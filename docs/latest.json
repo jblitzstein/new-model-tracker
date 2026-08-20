@@ -2302,6 +2302,39 @@
     "family": "Qwen3.8-W4A16"
   },
   {
+    "id": "huggingface:maxzt/toffee-3b-beta",
+    "name": "toffee-3b-beta",
+    "provider": "maxzt",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T17:35:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/maxzt/toffee-3b-beta",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "chat",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T20:27:27.112175+00:00",
+    "source_ids": [
+      "maxzt/toffee-3b-beta"
+    ],
+    "family": "toffee-beta"
+  },
+  {
     "id": "huggingface:Shiftedx/Qwen3.8-27B-Abliterated-MLX-MXFP4-MTP",
     "name": "Qwen3.8-27B-Abliterated-MLX-MXFP4-MTP",
     "provider": "Shiftedx",
@@ -4541,6 +4574,39 @@
       "peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-MLX"
     ],
     "family": "Nail-Qwen3.6-MLX"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX",
+    "name": "Dagger-Qwen3.6-27B-MLX",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T12:02:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "qwen3_6",
+      "token-efficient"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T20:27:27.112381+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX"
+    ],
+    "family": "Dagger-Qwen3.6-MLX"
   },
   {
     "id": "huggingface:RadixArk/Muse-Glimmer-NVFP4",
@@ -9965,61 +10031,6 @@
     "family": "G9v3-39A"
   },
   {
-    "id": "openrouter:poolside/laguna-s-2.1",
-    "name": "Poolside: Laguna S 2.1",
-    "provider": "poolside",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T16:51:23+00:00",
-    "context_length": 1048576,
-    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
-    "url": "https://openrouter.ai/poolside/laguna-s-2.1",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.1,
-      "completion_per_million": 0.2
-    },
-    "first_seen": "2026-07-21T17:19:35.425750+00:00",
-    "source_ids": [
-      "poolside/laguna-s-2.1"
-    ],
-    "family": "Laguna S 2.1"
-  },
-  {
-    "id": "openrouter:poolside/laguna-s-2.1:free",
-    "name": "Poolside: Laguna S 2.1 (free)",
-    "provider": "poolside",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T16:51:23+00:00",
-    "context_length": 1048576,
-    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
-    "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-07-21T17:19:35.426710+00:00",
-    "source_ids": [
-      "poolside/laguna-s-2.1:free"
-    ],
-    "family": "Laguna S 2.1"
-  },
-  {
     "id": "huggingface:fraQtl/Gemma-4-E2B-it-Hi-Fi-GGUF",
     "name": "Gemma-4-E2B-it-Hi-Fi-GGUF",
     "provider": "fraQtl",
@@ -10051,43 +10062,6 @@
       "fraQtl/Gemma-4-E2B-it-Hi-Fi-GGUF"
     ],
     "family": "Gemma-4-E-it-Hi-Fi"
-  },
-  {
-    "id": "openrouter:google/gemini-3.6-flash",
-    "name": "Google: Gemini 3.6 Flash",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T15:12:13+00:00",
-    "context_length": 1048576,
-    "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
-    "url": "https://openrouter.ai/google/gemini-3.6-flash",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.5,
-      "completion_per_million": 7.5
-    },
-    "first_seen": "2026-07-21T17:19:35.426752+00:00",
-    "source_ids": [
-      "google/gemini-3.6-flash"
-    ],
-    "family": "Gemini 3.6 Flash"
   },
   {
     "id": "openrouter:google/gemini-3.6-flash:batch",
@@ -10125,43 +10099,6 @@
       "google/gemini-3.6-flash:batch"
     ],
     "family": "Gemini 3.6 Flash (batch)"
-  },
-  {
-    "id": "openrouter:google/gemini-3.5-flash-lite",
-    "name": "Google: Gemini 3.5 Flash-Lite",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T15:12:06+00:00",
-    "context_length": 1048576,
-    "description": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
-    "url": "https://openrouter.ai/google/gemini-3.5-flash-lite",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.3,
-      "completion_per_million": 2.5
-    },
-    "first_seen": "2026-07-21T17:19:35.426786+00:00",
-    "source_ids": [
-      "google/gemini-3.5-flash-lite"
-    ],
-    "family": "Gemini 3.5 Flash-Lite"
   },
   {
     "id": "openrouter:google/gemini-3.5-flash-lite:batch",
@@ -12367,39 +12304,6 @@
     "family": "flux1-dev-turbo"
   },
   {
-    "id": "huggingface:poolside/Laguna-S-2.1",
-    "name": "Laguna-S-2.1",
-    "provider": "poolside",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T13:58:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poolside/Laguna-S-2.1",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "laguna",
-      "text-generation",
-      "laguna-s-2.1"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-21T17:19:35.585384+00:00",
-    "source_ids": [
-      "poolside/Laguna-S-2.1"
-    ],
-    "family": "Laguna-S-2.1"
-  },
-  {
     "id": "huggingface:LeaderboardModel1/Tess-4-27B-AutoRound-W4A16-Tuning",
     "name": "Tess-4-27B-AutoRound-W4A16-Tuning",
     "provider": "LeaderboardModel1",
@@ -14089,105 +13993,6 @@
     "family": "Ornith-1.0-uncensored-heretic-5bit-XL-mlx"
   },
   {
-    "id": "huggingface:poolside/Laguna-S-2.1-INT4",
-    "name": "Laguna-S-2.1-INT4",
-    "provider": "poolside",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T13:09:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poolside/Laguna-S-2.1-INT4",
-    "tags": [
-      "text-generation",
-      "vllm",
-      "safetensors",
-      "laguna",
-      "laguna-s-2.1",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-21T17:19:35.585328+00:00",
-    "source_ids": [
-      "poolside/Laguna-S-2.1-INT4"
-    ],
-    "family": "Laguna-S-2.1-INT4"
-  },
-  {
-    "id": "huggingface:poolside/Laguna-S-2.1-NVFP4",
-    "name": "Laguna-S-2.1-NVFP4",
-    "provider": "poolside",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T13:08:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poolside/Laguna-S-2.1-NVFP4",
-    "tags": [
-      "text-generation",
-      "vllm",
-      "safetensors",
-      "laguna",
-      "laguna-s-2.1",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-21T17:19:35.585295+00:00",
-    "source_ids": [
-      "poolside/Laguna-S-2.1-NVFP4"
-    ],
-    "family": "Laguna-S-2.1-NVFP4"
-  },
-  {
-    "id": "huggingface:poolside/Laguna-S-2.1-FP8",
-    "name": "Laguna-S-2.1-FP8",
-    "provider": "poolside",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T13:02:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poolside/Laguna-S-2.1-FP8",
-    "tags": [
-      "text-generation",
-      "vllm",
-      "safetensors",
-      "laguna",
-      "laguna-s-2.1",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-21T17:19:35.585356+00:00",
-    "source_ids": [
-      "poolside/Laguna-S-2.1-FP8"
-    ],
-    "family": "Laguna-S-2.1-FP8"
-  },
-  {
     "id": "huggingface:Adnan666/whisper-small-pashto",
     "name": "whisper-small-pashto",
     "provider": "Adnan666",
@@ -15400,39 +15205,6 @@
       "molbal/krea2-gguf"
     ],
     "family": "krea2"
-  },
-  {
-    "id": "huggingface:Ninnix96/Qwen3.6-35B-A3B-gguf",
-    "name": "Qwen3.6-35B-A3B-gguf",
-    "provider": "Ninnix96",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-24T18:52:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Ninnix96/Qwen3.6-35B-A3B-gguf",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "qwen",
-      "qwen3.6",
-      "Qwen3.6-35B-A3B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-21T17:19:35.585474+00:00",
-    "source_ids": [
-      "Ninnix96/Qwen3.6-35B-A3B-gguf"
-    ],
-    "family": "Qwen3.6"
   },
   {
     "id": "huggingface:litert-community/SmolLM3-3B",
@@ -21173,6 +20945,35 @@
       "lemuralabs/Llama-3.2-3B-Uncensored-GGUF"
     ],
     "family": "Llama-3.2-Uncensored"
+  },
+  {
+    "id": "openrouter:mistralai/ministral-8b",
+    "name": "Mistral: Ministral 8B",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-17T00:00:00+00:00",
+    "context_length": 128000,
+    "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length...",
+    "url": "https://openrouter.ai/mistralai/ministral-8b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.11,
+      "completion_per_million": 0.11
+    },
+    "first_seen": "2026-08-20T20:27:26.979751+00:00",
+    "source_ids": [
+      "mistralai/ministral-8b"
+    ],
+    "family": "Ministral"
   },
   {
     "id": "huggingface:nyralabs/CrisperWhisper",

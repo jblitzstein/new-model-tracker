@@ -123395,5 +123395,100 @@
       "Minachist/Qwen3.8-27B-INT8-AutoRound"
     ],
     "family": "Qwen3.8-INT8-AutoRound"
+  },
+  {
+    "id": "openrouter:mistralai/ministral-8b",
+    "name": "Mistral: Ministral 8B",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-17T00:00:00+00:00",
+    "context_length": 128000,
+    "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length...",
+    "url": "https://openrouter.ai/mistralai/ministral-8b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.11,
+      "completion_per_million": 0.11
+    },
+    "first_seen": "2026-08-20T20:27:26.979751+00:00",
+    "source_ids": [
+      "mistralai/ministral-8b"
+    ],
+    "family": "Ministral"
+  },
+  {
+    "id": "huggingface:maxzt/toffee-3b-beta",
+    "name": "toffee-3b-beta",
+    "provider": "maxzt",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T17:35:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/maxzt/toffee-3b-beta",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "chat",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T20:27:27.112175+00:00",
+    "source_ids": [
+      "maxzt/toffee-3b-beta"
+    ],
+    "family": "toffee-beta"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX",
+    "name": "Dagger-Qwen3.6-27B-MLX",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T12:02:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "qwen3_6",
+      "token-efficient"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T20:27:27.112381+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX"
+    ],
+    "family": "Dagger-Qwen3.6-MLX"
   }
 ]
