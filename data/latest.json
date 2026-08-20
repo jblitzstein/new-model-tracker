@@ -1,5 +1,63 @@
 [
   {
+    "id": "openrouter:tencent/hy-mt2-1.8b",
+    "name": "Tencent: Hy-MT2-1.8B",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T13:13:01+00:00",
+    "context_length": 8192,
+    "description": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided...",
+    "url": "https://openrouter.ai/tencent/hy-mt2-1.8b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.044,
+      "completion_per_million": 0.177
+    },
+    "first_seen": "2026-08-20T16:34:23.193266+00:00",
+    "source_ids": [
+      "tencent/hy-mt2-1.8b"
+    ],
+    "family": "Hy-MT2"
+  },
+  {
+    "id": "openrouter:tencent/hy-mt2-30b-a3b",
+    "name": "Tencent: Hy-MT2-30B-A3B",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T13:12:41+00:00",
+    "context_length": 8192,
+    "description": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and...",
+    "url": "https://openrouter.ai/tencent/hy-mt2-30b-a3b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.074,
+      "completion_per_million": 0.295
+    },
+    "first_seen": "2026-08-20T16:34:23.193971+00:00",
+    "source_ids": [
+      "tencent/hy-mt2-30b-a3b"
+    ],
+    "family": "Hy-MT2"
+  },
+  {
     "id": "huggingface:sullivan1502/base-zone-pretrain",
     "name": "base-zone-pretrain",
     "provider": "sullivan1502",
@@ -60,6 +118,41 @@
       "~z-ai/glm-latest"
     ],
     "family": "GLM Latest"
+  },
+  {
+    "id": "huggingface:AtomicChat/Ornith-1.5-9B-GGUF",
+    "name": "Ornith-1.5-9B-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T10:35:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/Ornith-1.5-9B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "vision",
+      "agentic-coding",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T16:34:24.610227+00:00",
+    "source_ids": [
+      "AtomicChat/Ornith-1.5-9B-GGUF"
+    ],
+    "family": "Ornith-1.5"
   },
   {
     "id": "huggingface:Noobito45/Qwen3.8-9B-heretic-uncensored-NVFP4-GGUF",
@@ -295,6 +388,39 @@
       "DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF"
     ],
     "family": "Qwen3.8-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP"
+  },
+  {
+    "id": "huggingface:rohit267/Qwen3.8-9B-heretic-uncensored",
+    "name": "Qwen3.8-9B-heretic-uncensored",
+    "provider": "rohit267",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-16T19:24:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rohit267/Qwen3.8-9B-heretic-uncensored",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T16:34:23.451071+00:00",
+    "source_ids": [
+      "rohit267/Qwen3.8-9B-heretic-uncensored"
+    ],
+    "family": "Qwen3.8-heretic-uncensored"
   },
   {
     "id": "huggingface:Jojocodex/minimax-h3-wushu-action-lora",
@@ -870,6 +996,41 @@
       "palmfuture/Qwen3.8-27B-GPTQ-Int4"
     ],
     "family": "Qwen3.8--Int4"
+  },
+  {
+    "id": "huggingface:grant-ai/Qwen3.8-27B-Abliterated-MTPLX",
+    "name": "Qwen3.8-27B-Abliterated-MTPLX",
+    "provider": "grant-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T22:19:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/grant-ai/Qwen3.8-27B-Abliterated-MTPLX",
+    "tags": [
+      "image-text-to-text",
+      "mtplx",
+      "safetensors",
+      "qwen3_5",
+      "mlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T16:34:24.610254+00:00",
+    "source_ids": [
+      "grant-ai/Qwen3.8-27B-Abliterated-MTPLX"
+    ],
+    "family": "Qwen3.8-Abliterated-MTPLX"
   },
   {
     "id": "huggingface:jcbtc/Qwen3.8-27B-CIRU-ActiveFPX-PromptForge",
@@ -1731,6 +1892,41 @@
       "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-NVFP4"
     ],
     "family": "Qwen3.8-ABLITERATED-NVFP4"
+  },
+  {
+    "id": "huggingface:Minachist/Qwen3.8-27B-INT8-AutoRound",
+    "name": "Qwen3.8-27B-INT8-AutoRound",
+    "provider": "Minachist",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T21:06:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Minachist/Qwen3.8-27B-INT8-AutoRound",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T16:34:24.610315+00:00",
+    "source_ids": [
+      "Minachist/Qwen3.8-27B-INT8-AutoRound"
+    ],
+    "family": "Qwen3.8-INT8-AutoRound"
   },
   {
     "id": "huggingface:zerodigest/Qwen3.8-27B-YMQ-MTP-GGUF",
@@ -5046,6 +5242,39 @@
       "neroued/Qwen3.8-27B-NInfer"
     ],
     "family": "Qwen3.8-NInfer"
+  },
+  {
+    "id": "huggingface:saidutta69/RaceBench-MiniCPM5-heretic",
+    "name": "RaceBench-MiniCPM5-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T08:05:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/RaceBench-MiniCPM5-heretic",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "llama",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T16:34:23.450870+00:00",
+    "source_ids": [
+      "saidutta69/RaceBench-MiniCPM5-heretic"
+    ],
+    "family": "RaceBench-MiniCPM5-heretic"
   },
   {
     "id": "huggingface:AETHORIA-AI/TR-HASH-MOE-500M-HF",
@@ -11121,6 +11350,39 @@
       "mlx-community/Inkling-mlx-4bit"
     ],
     "family": "Inkling-mlx-4bit"
+  },
+  {
+    "id": "huggingface:inclusionAI/LLaDA2.2-flash",
+    "name": "LLaDA2.2-flash",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T03:41:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/LLaDA2.2-flash",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llada2_moe",
+      "text-generation",
+      "dllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-20T16:34:23.450995+00:00",
+    "source_ids": [
+      "inclusionAI/LLaDA2.2-flash"
+    ],
+    "family": "LLaDA2.2-flash"
   },
   {
     "id": "huggingface:DAXZEIT/GRM-2.6-Plus-0628-MTP-reasoning-i1-GGUF",
@@ -17703,40 +17965,6 @@
       "cstr/qwen3-tts-0.6b-base-GGUF"
     ],
     "family": "qwen3-tts"
-  },
-  {
-    "id": "huggingface:handy-computer/whisper-large-v3-turbo-gguf",
-    "name": "whisper-large-v3-turbo-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-27T02:11:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/whisper-large-v3-turbo-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "whisper"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-21T13:49:57.623333+00:00",
-    "source_ids": [
-      "handy-computer/whisper-large-v3-turbo-gguf"
-    ],
-    "family": "whisper-large-v3-turbo"
   },
   {
     "id": "huggingface:leonsarmiento/Qwen3.6-27B-3bit-mlx",
