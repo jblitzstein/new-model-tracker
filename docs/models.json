@@ -124196,5 +124196,166 @@
       "ilintar/moss-tts-gguf"
     ],
     "family": "moss-tts"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling-small:free",
+    "name": "Thinking Machines: Inkling Small (free)",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T20:25:17+00:00",
+    "context_length": 262144,
+    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-21T20:25:02.920832+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling-small:free"
+    ],
+    "family": "Inkling Small"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling:free",
+    "name": "Thinking Machines: Inkling (free)",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-17T22:05:56+00:00",
+    "context_length": 262144,
+    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-21T20:25:02.921045+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling:free"
+    ],
+    "family": "Inkling"
+  },
+  {
+    "id": "huggingface:Myric/KAT-Coder-V2.5-Dev-MTP-APEX-GGUF",
+    "name": "KAT-Coder-V2.5-Dev-MTP-APEX-GGUF",
+    "provider": "Myric",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-03T22:38:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Myric/KAT-Coder-V2.5-Dev-MTP-APEX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "safetensors",
+      "qwen3_5_moe",
+      "moe",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T20:25:03.092484+00:00",
+    "source_ids": [
+      "Myric/KAT-Coder-V2.5-Dev-MTP-APEX-GGUF"
+    ],
+    "family": "KAT-Coder-V2.5-Dev-MTP-APEX"
+  },
+  {
+    "id": "huggingface:kkkkk26/lustify_v9",
+    "name": "lustify_v9",
+    "provider": "kkkkk26",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-10T23:14:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kkkkk26/lustify_v9",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "not-for-all-audiences",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionXLPipeline"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T20:25:03.210609+00:00",
+    "source_ids": [
+      "kkkkk26/lustify_v9"
+    ],
+    "family": "lustify_v9"
+  },
+  {
+    "id": "huggingface:rockerBOO/minimax-h3-nvfp4-fp8",
+    "name": "minimax-h3-nvfp4-fp8",
+    "provider": "rockerBOO",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-21T06:15:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rockerBOO/minimax-h3-nvfp4-fp8",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "nvfp4",
+      "fp8",
+      "quantized",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T20:25:03.411981+00:00",
+    "source_ids": [
+      "rockerBOO/minimax-h3-nvfp4-fp8"
+    ],
+    "family": "minimax-h3-nvfp4-fp8"
   }
 ]
