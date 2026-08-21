@@ -123490,5 +123490,137 @@
       "peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX"
     ],
     "family": "Dagger-Qwen3.6-MLX"
+  },
+  {
+    "id": "openrouter:stealth/ox-alpha",
+    "name": "Ox Alpha",
+    "provider": "stealth",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T20:04:55+00:00",
+    "context_length": 1048576,
+    "description": "Ox Alpha is a reasoning model designed for coding, sustained agentic work, and production workloads. It is suited for long-horizon software engineering, complex reasoning, and workflows that combine text with...",
+    "url": "https://openrouter.ai/stealth/ox-alpha",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-21T01:16:46.872414+00:00",
+    "source_ids": [
+      "stealth/ox-alpha"
+    ],
+    "family": "Ox Alpha"
+  },
+  {
+    "id": "huggingface:OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+    "name": "Qwen3.8-27B-OBLITERATED",
+    "provider": "OBLITERATUS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T14:53:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T01:16:47.041304+00:00",
+    "source_ids": [
+      "OBLITERATUS/Qwen3.8-27B-OBLITERATED"
+    ],
+    "family": "Qwen3.8-OBLITERATED"
+  },
+  {
+    "id": "huggingface:ModdiAdam/Wild_Krea-2-turbo_NSFW",
+    "name": "Wild_Krea-2-turbo_NSFW",
+    "provider": "ModdiAdam",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-15T18:30:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ModdiAdam/Wild_Krea-2-turbo_NSFW",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "gguf",
+      "text-to-image",
+      "nsfw",
+      "krea-2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T01:16:47.116425+00:00",
+    "source_ids": [
+      "ModdiAdam/Wild_Krea-2-turbo_NSFW"
+    ],
+    "family": "Wild_Krea-2-turbo_NSFW"
+  },
+  {
+    "id": "huggingface:cygnal/Qwen3.8-27B-heretic-ara-Q4_K_M-MTP-GGUF",
+    "name": "Qwen3.8-27B-heretic-ara-Q4_K_M-MTP-GGUF",
+    "provider": "cygnal",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T04:28:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cygnal/Qwen3.8-27B-heretic-ara-Q4_K_M-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3.5",
+      "qwen3.8",
+      "heretic",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T01:16:47.481389+00:00",
+    "source_ids": [
+      "cygnal/Qwen3.8-27B-heretic-ara-Q4_K_M-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-heretic-ara-Q4_K_M-MTP"
   }
 ]
