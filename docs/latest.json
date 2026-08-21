@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T11:26:03+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents,...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.22,
+      "completion_per_million": 0.66
+    },
+    "first_seen": "2026-08-21T12:46:01.789428+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4-flash-vision-exp"
+    ],
+    "family": "DeepSeek V4 Flash Vision Exp"
+  },
+  {
     "id": "openrouter:stealth/ox-alpha",
     "name": "Ox Alpha",
     "provider": "stealth",
@@ -5417,6 +5448,39 @@
     "family": "Qwen2.5-Coder--NPU2"
   },
   {
+    "id": "huggingface:NILKNARFGonzo/floppyx4-nonsensicalEssential-base",
+    "name": "floppyx4-nonsensicalEssential-base",
+    "provider": "NILKNARFGonzo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T20:30:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NILKNARFGonzo/floppyx4-nonsensicalEssential-base",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt2",
+      "base",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T12:46:01.958878+00:00",
+    "source_ids": [
+      "NILKNARFGonzo/floppyx4-nonsensicalEssential-base"
+    ],
+    "family": "floppyx4-nonsensicalEssential"
+  },
+  {
     "id": "huggingface:esatapedico/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
     "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-NVFP4-GGUF",
     "provider": "esatapedico",
@@ -7089,6 +7153,40 @@
       "thantzinphyo/whisper-tiny-myanmar-shopvoice"
     ],
     "family": "whisper-tiny-myanmar-shopvoice"
+  },
+  {
+    "id": "huggingface:soniqo/Canary-180M-Flash-ONNX",
+    "name": "Canary-180M-Flash-ONNX",
+    "provider": "soniqo",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-01T17:49:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/soniqo/Canary-180M-Flash-ONNX",
+    "tags": [
+      "automatic-speech-recognition",
+      "onnx",
+      "automatic-speech-recognition",
+      "automatic-speech-translation",
+      "asr",
+      "nemo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T12:46:02.307273+00:00",
+    "source_ids": [
+      "soniqo/Canary-180M-Flash-ONNX"
+    ],
+    "family": "Canary-180M-Flash-ONNX"
   },
   {
     "id": "openrouter:~deepseek/deepseek-v4-flash-latest",
@@ -14096,6 +14194,40 @@
     "family": "Ornith-1.0-uncensored-heretic-5bit-XL-mlx"
   },
   {
+    "id": "huggingface:software-mansion/react-native-executorch-supertonic",
+    "name": "react-native-executorch-supertonic",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-03T11:59:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-supertonic",
+    "tags": [
+      "text-to-speech",
+      "executorch",
+      "text-to-speech",
+      "en",
+      "es",
+      "fr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T12:46:02.245711+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-supertonic"
+    ],
+    "family": "react-native-executorch-supertonic"
+  },
+  {
     "id": "huggingface:Adnan666/whisper-small-pashto",
     "name": "whisper-small-pashto",
     "provider": "Adnan666",
@@ -14705,6 +14837,40 @@
       "leonsarmiento/Ornith-1.0-35B-5bit-XL-mlx"
     ],
     "family": "Ornith-1.0-5bit-XL-mlx"
+  },
+  {
+    "id": "huggingface:ilintar/moss-voicegen-gguf",
+    "name": "moss-voicegen-gguf",
+    "provider": "ilintar",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-29T12:05:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ilintar/moss-voicegen-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "MOSS-TTS",
+      "MOSS-VoiceGenerator",
+      "OpenMOSS",
+      "GGUF"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T12:46:02.245790+00:00",
+    "source_ids": [
+      "ilintar/moss-voicegen-gguf"
+    ],
+    "family": "moss-voicegen"
   },
   {
     "id": "huggingface:furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8",
@@ -15712,41 +15878,6 @@
     "family": "qwen3-coder"
   },
   {
-    "id": "huggingface:AtomicChat/gemma-4-E4B-it-GGUF",
-    "name": "gemma-4-E4B-it-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-17T15:31:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/gemma-4-E4B-it-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "atomic-chat",
-      "gemma",
-      "gemma4",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T10:24:35.204850+00:00",
-    "source_ids": [
-      "AtomicChat/gemma-4-E4B-it-GGUF"
-    ],
-    "family": "gemma-4-E-it"
-  },
-  {
     "id": "huggingface:AtomicChat/gemma-4-31B-it-GGUF",
     "name": "gemma-4-31B-it-GGUF",
     "provider": "AtomicChat",
@@ -16745,6 +16876,39 @@
       "cstr/piper-voices-GGUF"
     ],
     "family": "piper-voices"
+  },
+  {
+    "id": "huggingface:fraQtl/Qwen3.6-35B-A3B-Hi-Fi-MTP-runtime",
+    "name": "Qwen3.6-35B-A3B-Hi-Fi-MTP-runtime",
+    "provider": "fraQtl",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-29T20:10:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/fraQtl/Qwen3.6-35B-A3B-Hi-Fi-MTP-runtime",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "q4_k_m",
+      "qwen3.6",
+      "qwen3.6-35b-a3b"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T12:46:01.959062+00:00",
+    "source_ids": [
+      "fraQtl/Qwen3.6-35B-A3B-Hi-Fi-MTP-runtime"
+    ],
+    "family": "Qwen3.6-Hi-Fi-MTP-runtime"
   },
   {
     "id": "huggingface:cstr/cosyvoice3-0.5b-2512-GGUF",
@@ -18144,6 +18308,41 @@
       "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF"
     ],
     "family": "gemma-4-E-it-OBLITERATED-i1"
+  },
+  {
+    "id": "huggingface:TitanML/DeepSeek-OCR-2",
+    "name": "DeepSeek-OCR-2",
+    "provider": "TitanML",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-06T11:00:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TitanML/DeepSeek-OCR-2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "deepseek_vl_v2",
+      "feature-extraction",
+      "deepseek"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T12:46:02.369593+00:00",
+    "source_ids": [
+      "TitanML/DeepSeek-OCR-2"
+    ],
+    "family": "DeepSeek-OCR-2"
   },
   {
     "id": "huggingface:YCWTG/gemma-4-31B-it-NVFP4A16-GPTQ",
@@ -19936,6 +20135,40 @@
       "openbmb/VoxCPM-0.5B"
     ],
     "family": "VoxCPM"
+  },
+  {
+    "id": "huggingface:software-mansion/react-native-executorch-whisper-base.en",
+    "name": "react-native-executorch-whisper-base.en",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-20T16:49:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-whisper-base.en",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "en",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T12:46:02.307348+00:00",
+    "source_ids": [
+      "software-mansion/react-native-executorch-whisper-base.en"
+    ],
+    "family": "react-native-executorch-whisper-.en"
   },
   {
     "id": "huggingface:aisingapore/Gemma-SEA-LION-v4-27B-IT",
