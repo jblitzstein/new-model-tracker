@@ -284,6 +284,39 @@
     "family": "Qwen3.8-Uncensored-NVFP4"
   },
   {
+    "id": "huggingface:YaTharThShaRma999/TTS_new",
+    "name": "TTS_new",
+    "provider": "YaTharThShaRma999",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T23:06:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YaTharThShaRma999/TTS_new",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T16:33:42.516347+00:00",
+    "source_ids": [
+      "YaTharThShaRma999/TTS_new"
+    ],
+    "family": "TTS_new"
+  },
+  {
     "id": "huggingface:Noobito45/Qwen3.8-9B-heretic-uncensored-NVFP4-GGUF",
     "name": "Qwen3.8-9B-heretic-uncensored-NVFP4-GGUF",
     "provider": "Noobito45",
@@ -8591,6 +8624,40 @@
     "family": "Qwen3.6-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP"
   },
   {
+    "id": "huggingface:ilintar/moss-soundeffect-gguf",
+    "name": "moss-soundeffect-gguf",
+    "provider": "ilintar",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-27T22:54:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ilintar/moss-soundeffect-gguf",
+    "tags": [
+      "text-to-audio",
+      "gguf",
+      "OpenMOSS",
+      "GGUF",
+      "BF16",
+      "sound-effects"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T16:33:43.068319+00:00",
+    "source_ids": [
+      "ilintar/moss-soundeffect-gguf"
+    ],
+    "family": "moss-soundeffect"
+  },
+  {
     "id": "huggingface:thinkingmachines/Inkling-Small-NVFP4",
     "name": "Inkling-Small-NVFP4",
     "provider": "thinkingmachines",
@@ -14873,6 +14940,40 @@
     "family": "moss-voicegen"
   },
   {
+    "id": "huggingface:ilintar/moss-tts-gguf",
+    "name": "moss-tts-gguf",
+    "provider": "ilintar",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-28T14:58:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ilintar/moss-tts-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "OpenMOSS",
+      "GGUF",
+      "BF16",
+      "Q8_0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T16:33:43.182635+00:00",
+    "source_ids": [
+      "ilintar/moss-tts-gguf"
+    ],
+    "family": "moss-tts"
+  },
+  {
     "id": "huggingface:furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8",
     "name": "Qwen3-30B-A3B-Instruct-2507-FP8",
     "provider": "furiosa-ai",
@@ -15876,41 +15977,6 @@
       "AtomicChat/qwen3-coder-30b-a3b-GGUF"
     ],
     "family": "qwen3-coder"
-  },
-  {
-    "id": "huggingface:AtomicChat/gemma-4-31B-it-GGUF",
-    "name": "gemma-4-31B-it-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-17T15:31:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/gemma-4-31B-it-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "atomic-chat",
-      "gemma",
-      "gemma4",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T13:53:30.499749+00:00",
-    "source_ids": [
-      "AtomicChat/gemma-4-31B-it-GGUF"
-    ],
-    "family": "gemma-4-it"
   },
   {
     "id": "openrouter:z-ai/glm-5.2:batch",
@@ -20542,75 +20608,6 @@
     "family": "LFM2-700M"
   },
   {
-    "id": "huggingface:PaddlePaddle/korean_PP-OCRv5_mobile_rec",
-    "name": "korean_PP-OCRv5_mobile_rec",
-    "provider": "PaddlePaddle",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-02T12:39:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/PaddlePaddle/korean_PP-OCRv5_mobile_rec",
-    "tags": [
-      "image-to-text",
-      "PaddleOCR",
-      "OCR",
-      "PaddlePaddle",
-      "textline_recognition",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T13:53:30.141928+00:00",
-    "source_ids": [
-      "PaddlePaddle/korean_PP-OCRv5_mobile_rec"
-    ],
-    "family": "korean_PP-OCRv5_mobile_rec"
-  },
-  {
-    "id": "huggingface:zai-org/GLM-4.1V-9B-Thinking",
-    "name": "GLM-4.1V-9B-Thinking",
-    "provider": "zai-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-06-28T14:24:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "glm4v",
-      "image-text-to-text",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T13:53:30.499795+00:00",
-    "source_ids": [
-      "zai-org/GLM-4.1V-9B-Thinking"
-    ],
-    "family": "GLM-4.1V"
-  },
-  {
     "id": "openrouter:google/gemini-2.5-flash:batch",
     "name": "Google: Gemini 2.5 Flash (batch)",
     "provider": "Google",
@@ -21205,40 +21202,6 @@
       "mistralai/ministral-8b"
     ],
     "family": "Ministral"
-  },
-  {
-    "id": "huggingface:nyralabs/CrisperWhisper",
-    "name": "CrisperWhisper",
-    "provider": "nyralabs",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-08-29T15:53:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nyralabs/CrisperWhisper",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "de"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T13:53:30.427369+00:00",
-    "source_ids": [
-      "nyralabs/CrisperWhisper"
-    ],
-    "family": "CrisperWhisper"
   },
   {
     "id": "huggingface:gokaygokay/Florence-2-Flux-Large",
