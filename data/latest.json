@@ -218,6 +218,41 @@
     "family": "Ornith-1.5"
   },
   {
+    "id": "huggingface:orcarouter/Qwen3.8-27B-Uncensored-NVFP4",
+    "name": "Qwen3.8-27B-Uncensored-NVFP4",
+    "provider": "orcarouter",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T03:17:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T08:39:33.289537+00:00",
+    "source_ids": [
+      "orcarouter/Qwen3.8-27B-Uncensored-NVFP4"
+    ],
+    "family": "Qwen3.8-Uncensored-NVFP4"
+  },
+  {
     "id": "huggingface:Noobito45/Qwen3.8-9B-heretic-uncensored-NVFP4-GGUF",
     "name": "Qwen3.8-9B-heretic-uncensored-NVFP4-GGUF",
     "provider": "Noobito45",
@@ -278,6 +313,40 @@
       "z-ai/glm-5.3"
     ],
     "family": "GLM 5.3"
+  },
+  {
+    "id": "huggingface:Hearmeman/minimax-h3-loras",
+    "name": "minimax-h3-loras",
+    "provider": "Hearmeman",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-18T15:57:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Hearmeman/minimax-h3-loras",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "not-for-all-audiences",
+      "lora",
+      "text-to-video",
+      "image-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T08:39:33.058551+00:00",
+    "source_ids": [
+      "Hearmeman/minimax-h3-loras"
+    ],
+    "family": "minimax-h3-loras"
   },
   {
     "id": "huggingface:saxyZ/audio.cpp-gguf-fork",
@@ -449,6 +518,41 @@
       "philbert440/Qwen3.8-27B-Uncensored-Cyber-GGUF"
     ],
     "family": "Qwen3.8-Uncensored-Cyber"
+  },
+  {
+    "id": "huggingface:orcarouter/Qwen3.8-27B-Uncensored-MLX",
+    "name": "Qwen3.8-27B-Uncensored-MLX",
+    "provider": "orcarouter",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T14:10:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "abliterated",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-21T08:39:33.289409+00:00",
+    "source_ids": [
+      "orcarouter/Qwen3.8-27B-Uncensored-MLX"
+    ],
+    "family": "Qwen3.8-Uncensored-MLX"
   },
   {
     "id": "huggingface:DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF",
@@ -12031,39 +12135,6 @@
     "family": "Stockmark-Nemotron-3-Nano-Omni-JapanDocReader"
   },
   {
-    "id": "huggingface:SZLHOLDINGS/SZL-Khipu-1.5B",
-    "name": "SZL-Khipu-1.5B",
-    "provider": "SZLHOLDINGS",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-14T19:28:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "qlora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T06:27:24.871182+00:00",
-    "source_ids": [
-      "SZLHOLDINGS/SZL-Khipu-1.5B"
-    ],
-    "family": "SZL-Khipu"
-  },
-  {
     "id": "huggingface:twaggs88/DeepSeek-V4-Flash-REAP25-DSpark-ds4-GGUF",
     "name": "DeepSeek-V4-Flash-REAP25-DSpark-ds4-GGUF",
     "provider": "twaggs88",
@@ -12263,39 +12334,6 @@
       "deepdml/whisper-tiny-es-mix-norm"
     ],
     "family": "whisper-tiny-es-mix-norm"
-  },
-  {
-    "id": "huggingface:SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
-    "name": "SZL-Forge-1.5B-ReceiptAgent",
-    "provider": "SZLHOLDINGS",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T21:54:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "qlora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T06:27:24.871110+00:00",
-    "source_ids": [
-      "SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent"
-    ],
-    "family": "SZL-Forge-ReceiptAgent"
   },
   {
     "id": "huggingface:nvidia/Ising-Calibration-1.5-31B-NVFP4",
@@ -13045,39 +13083,6 @@
       "AnkitAI/Parable-Qwen3-4B-Claude-Fable-5-GGUF"
     ],
     "family": "Parable-Qwen3-Claude-Fable-5"
-  },
-  {
-    "id": "huggingface:Indexnusrefather/Super-Slop-Machina-Roleplay-1.2b",
-    "name": "Super-Slop-Machina-Roleplay-1.2b",
-    "provider": "Indexnusrefather",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-09T11:42:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Indexnusrefather/Super-Slop-Machina-Roleplay-1.2b",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "lfm2",
-      "roleplay",
-      "rp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T06:27:24.871272+00:00",
-    "source_ids": [
-      "Indexnusrefather/Super-Slop-Machina-Roleplay-1.2b"
-    ],
-    "family": "Super-Slop-Machina-Roleplay"
   },
   {
     "id": "openrouter:openai/gpt-5.6-luna-pro:batch",
