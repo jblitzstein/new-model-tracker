@@ -4159,6 +4159,40 @@
     "family": "Qwen3-Calendar-Agent-RLVR"
   },
   {
+    "id": "huggingface:Abiray/LTX-2.5-Distilled-GGUF",
+    "name": "LTX-2.5-Distilled-GGUF",
+    "provider": "Abiray",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-12T04:59:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Abiray/LTX-2.5-Distilled-GGUF",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "quantized",
+      "image-to-video",
+      "text-to-video",
+      "video-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T08:29:15.424286+00:00",
+    "source_ids": [
+      "Abiray/LTX-2.5-Distilled-GGUF"
+    ],
+    "family": "LTX-2.5-Distilled"
+  },
+  {
     "id": "huggingface:realrebelai/LTX-2.5_GGUFs",
     "name": "LTX-2.5_GGUFs",
     "provider": "realrebelai",
@@ -9975,6 +10009,40 @@
       "Goekdeniz-Guelmez/JOSIE-2-4B-Preview"
     ],
     "family": "JOSIE-2"
+  },
+  {
+    "id": "huggingface:laion/moss-tts-local-transformer-4.55b-voice-acting-v2",
+    "name": "moss-tts-local-transformer-4.55b-voice-acting-v2",
+    "provider": "laion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-24T08:57:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/laion/moss-tts-local-transformer-4.55b-voice-acting-v2",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "moss_tts_local",
+      "feature-extraction",
+      "moss-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T08:29:15.727885+00:00",
+    "source_ids": [
+      "laion/moss-tts-local-transformer-4.55b-voice-acting-v2"
+    ],
+    "family": "moss-tts-local-transformer-voice-acting-v2"
   },
   {
     "id": "huggingface:agiws/Fun-CosyVoice3-0.5B",
@@ -17425,6 +17493,39 @@
     "family": "Qwen3.6-Claude-Opus-Reasoning-Distill-v2-abliterated-OptiQ-3.7bpw-mlx"
   },
   {
+    "id": "huggingface:groxaxo/Qwen3.6-27B-AEON-Ultimate-Uncensored-GPTQ-Pro-FOEM-4bit-g128",
+    "name": "Qwen3.6-27B-AEON-Ultimate-Uncensored-GPTQ-Pro-FOEM-4bit-g128",
+    "provider": "groxaxo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-07T19:07:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/groxaxo/Qwen3.6-27B-AEON-Ultimate-Uncensored-GPTQ-Pro-FOEM-4bit-g128",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3_5",
+      "gptq",
+      "4-bit",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T08:29:14.986734+00:00",
+    "source_ids": [
+      "groxaxo/Qwen3.6-27B-AEON-Ultimate-Uncensored-GPTQ-Pro-FOEM-4bit-g128"
+    ],
+    "family": "Qwen3.6-AEON-Ultimate-Uncensored--Pro-FOEM-4bit-g128"
+  },
+  {
     "id": "openrouter:google/gemini-3.1-flash-lite:batch",
     "name": "Google: Gemini 3.1 Flash Lite (batch)",
     "provider": "Google",
@@ -17832,6 +17933,41 @@
     "family": "kokoro-voices"
   },
   {
+    "id": "huggingface:groxaxo/Qwen3.6-27B-abliterated-v2-GPTQ-Pro-FOEM-4bit-g128",
+    "name": "Qwen3.6-27B-abliterated-v2-GPTQ-Pro-FOEM-4bit-g128",
+    "provider": "groxaxo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-29T23:00:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/groxaxo/Qwen3.6-27B-abliterated-v2-GPTQ-Pro-FOEM-4bit-g128",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T08:29:16.043572+00:00",
+    "source_ids": [
+      "groxaxo/Qwen3.6-27B-abliterated-v2-GPTQ-Pro-FOEM-4bit-g128"
+    ],
+    "family": "Qwen3.6-abliterated-v2--Pro-FOEM-4bit-g128"
+  },
+  {
     "id": "huggingface:cstr/qwen3-tts-0.6b-base-GGUF",
     "name": "qwen3-tts-0.6b-base-GGUF",
     "provider": "cstr",
@@ -17999,6 +18135,41 @@
       "openai/gpt-5.5:batch"
     ],
     "family": "GPT-5.5 (batch)"
+  },
+  {
+    "id": "huggingface:groxaxo/Qwen3.6-27B-GPTQ-Pro-4bit",
+    "name": "Qwen3.6-27B-GPTQ-Pro-4bit",
+    "provider": "groxaxo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T23:40:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/groxaxo/Qwen3.6-27B-GPTQ-Pro-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T08:29:16.043649+00:00",
+    "source_ids": [
+      "groxaxo/Qwen3.6-27B-GPTQ-Pro-4bit"
+    ],
+    "family": "Qwen3.6--Pro-4bit"
   },
   {
     "id": "huggingface:mlx-community/LFM2.5-VL-450M-6bit",
