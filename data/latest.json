@@ -1,5 +1,42 @@
 [
   {
+    "id": "openrouter:meta/muse-spark-1.2-contributor",
+    "name": "Meta: Muse Spark 1.2 Contributor",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T18:21:16+00:00",
+    "context_length": 1048576,
+    "description": "Muse Spark 1.2 contributor tier is a reasoning model from Meta designed for developers who want to start building at an even lower cost. It’s meaningfully cheaper than Muse Spark...",
+    "url": "https://openrouter.ai/meta/muse-spark-1.2-contributor",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-08-22T01:12:36.142333+00:00",
+    "source_ids": [
+      "meta/muse-spark-1.2-contributor"
+    ],
+    "family": "Muse Spark 1.2 Contributor"
+  },
+  {
     "id": "openrouter:deepseek/deepseek-v4-flash-vision-exp",
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "provider": "DeepSeek",
@@ -2158,6 +2195,39 @@
       "Mungert/Qwen3.8-27B-GGUF"
     ],
     "family": "Qwen3.8"
+  },
+  {
+    "id": "huggingface:Israeli-AI/Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere",
+    "name": "Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere",
+    "provider": "Israeli-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T00:02:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Israeli-AI/Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3_5",
+      "w4a16",
+      "compressed-tensors",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:36.322914+00:00",
+    "source_ids": [
+      "Israeli-AI/Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere"
+    ],
+    "family": "Qwen3.8-MTP-W4A16-VOLTA-Ampere"
   },
   {
     "id": "huggingface:vmarcelo/Qwen3.8-27B-MIX_GGUF",
@@ -5111,6 +5181,41 @@
       "RadixArk/Muse-Glimmer-NVFP4"
     ],
     "family": "Muse-Glimmer-NVFP4"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF",
+    "name": "Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T00:19:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "unsloth",
+      "fine tune",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:37.331437+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP"
   },
   {
     "id": "huggingface:Atomic-Germ/Ornith-1.0-9B-NPU2",
@@ -11345,6 +11450,40 @@
     "family": "LTX-2.3-uncensored-fp8"
   },
   {
+    "id": "huggingface:ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8",
+    "name": "LTX-2.3-uncensored-v1.4-fp8",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-07-18T05:15:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "not-for-all-audiences",
+      "text-to-video",
+      "image-to-video",
+      "video-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:36.722975+00:00",
+    "source_ids": [
+      "ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8"
+    ],
+    "family": "LTX-2.3-uncensored-v1.4-fp8"
+  },
+  {
     "id": "openrouter:thinkingmachines/inkling:batch",
     "name": "Thinking Machines: Inkling (batch)",
     "provider": "thinkingmachines",
@@ -13950,39 +14089,6 @@
     "family": "ThinkingCap-Qwen3.6"
   },
   {
-    "id": "huggingface:philipjohnbasile/hy3-demolition-mlx-lite-v1",
-    "name": "hy3-demolition-mlx-lite-v1",
-    "provider": "philipjohnbasile",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-07T14:05:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/philipjohnbasile/hy3-demolition-mlx-lite-v1",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "hy_v3",
-      "apple-silicon",
-      "hy3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722461+00:00",
-    "source_ids": [
-      "philipjohnbasile/hy3-demolition-mlx-lite-v1"
-    ],
-    "family": "hy3-demolition-mlx-lite-v1"
-  },
-  {
     "id": "huggingface:OpenASR/firered-aed-l-v2",
     "name": "firered-aed-l-v2",
     "provider": "OpenASR",
@@ -14352,41 +14458,6 @@
     "family": "CulinaAI-Qwen2.5"
   },
   {
-    "id": "huggingface:leonsarmiento/Ornith-1.0-35B-uncensored-heretic-5bit-XL-mlx",
-    "name": "Ornith-1.0-35B-uncensored-heretic-5bit-XL-mlx",
-    "provider": "leonsarmiento",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-03T13:42:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/leonsarmiento/Ornith-1.0-35B-uncensored-heretic-5bit-XL-mlx",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "mlx-vlm",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:20.567532+00:00",
-    "source_ids": [
-      "leonsarmiento/Ornith-1.0-35B-uncensored-heretic-5bit-XL-mlx"
-    ],
-    "family": "Ornith-1.0-uncensored-heretic-5bit-XL-mlx"
-  },
-  {
     "id": "huggingface:software-mansion/react-native-executorch-supertonic",
     "name": "react-native-executorch-supertonic",
     "provider": "software-mansion",
@@ -14621,39 +14692,6 @@
       "AtomicChat/gemma-4-26B-A4B-it-GGUF"
     ],
     "family": "gemma-4-it"
-  },
-  {
-    "id": "huggingface:AtomicChat/ornith-35b-MLX-8bit",
-    "name": "ornith-35b-MLX-8bit",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T11:54:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/ornith-35b-MLX-8bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "atomic-chat",
-      "ornith"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722722+00:00",
-    "source_ids": [
-      "AtomicChat/ornith-35b-MLX-8bit"
-    ],
-    "family": "ornith-MLX-8bit"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-2.0",
@@ -14997,41 +15035,6 @@
     "family": "Qwopus3.6-Coder-NVFP4"
   },
   {
-    "id": "huggingface:leonsarmiento/Ornith-1.0-35B-5bit-XL-mlx",
-    "name": "Ornith-1.0-35B-5bit-XL-mlx",
-    "provider": "leonsarmiento",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-29T12:13:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/leonsarmiento/Ornith-1.0-35B-5bit-XL-mlx",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "mlx-vlm",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:20.567620+00:00",
-    "source_ids": [
-      "leonsarmiento/Ornith-1.0-35B-5bit-XL-mlx"
-    ],
-    "family": "Ornith-1.0-5bit-XL-mlx"
-  },
-  {
     "id": "huggingface:ilintar/moss-voicegen-gguf",
     "name": "moss-voicegen-gguf",
     "provider": "ilintar",
@@ -15299,138 +15302,6 @@
     "family": "Qwen3.5-Claude-4.8-Opus-NPU2"
   },
   {
-    "id": "huggingface:AtomicChat/ornith-9b-MLX-8bit",
-    "name": "ornith-9b-MLX-8bit",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T18:01:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/ornith-9b-MLX-8bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "atomic-chat",
-      "ornith"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722593+00:00",
-    "source_ids": [
-      "AtomicChat/ornith-9b-MLX-8bit"
-    ],
-    "family": "ornith-MLX-8bit"
-  },
-  {
-    "id": "huggingface:AtomicChat/ornith-9b-MLX-6bit",
-    "name": "ornith-9b-MLX-6bit",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T17:48:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/ornith-9b-MLX-6bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "atomic-chat",
-      "ornith"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722620+00:00",
-    "source_ids": [
-      "AtomicChat/ornith-9b-MLX-6bit"
-    ],
-    "family": "ornith-MLX-6bit"
-  },
-  {
-    "id": "huggingface:AtomicChat/ornith-9b-MLX-5bit",
-    "name": "ornith-9b-MLX-5bit",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T17:37:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/ornith-9b-MLX-5bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "atomic-chat",
-      "ornith"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722647+00:00",
-    "source_ids": [
-      "AtomicChat/ornith-9b-MLX-5bit"
-    ],
-    "family": "ornith-MLX-5bit"
-  },
-  {
-    "id": "huggingface:AtomicChat/ornith-9b-MLX-4bit",
-    "name": "ornith-9b-MLX-4bit",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-26T17:26:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/ornith-9b-MLX-4bit",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "atomic-chat",
-      "ornith"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722673+00:00",
-    "source_ids": [
-      "AtomicChat/ornith-9b-MLX-4bit"
-    ],
-    "family": "ornith-MLX-4bit"
-  },
-  {
     "id": "huggingface:litert-community/Matcha-TTS",
     "name": "Matcha-TTS",
     "provider": "litert-community",
@@ -15463,39 +15334,6 @@
       "litert-community/Matcha-TTS"
     ],
     "family": "Matcha-TTS"
-  },
-  {
-    "id": "huggingface:AtomicChat/ornith-9b-GGUF",
-    "name": "ornith-9b-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-25T20:05:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/ornith-9b-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "ornith",
-      "deepreinforce-ai",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722697+00:00",
-    "source_ids": [
-      "AtomicChat/ornith-9b-GGUF"
-    ],
-    "family": "ornith"
   },
   {
     "id": "huggingface:philbert440/Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ",
@@ -16037,72 +15875,6 @@
       "BricksDisplay/Chatterbox-Multilingual-TTS-GGUF"
     ],
     "family": "Chatterbox-Multilingual-TTS"
-  },
-  {
-    "id": "huggingface:AtomicChat/qwen36-27b-GGUF",
-    "name": "qwen36-27b-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-17T15:32:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/qwen36-27b-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "qwen3.6",
-      "qwen",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722503+00:00",
-    "source_ids": [
-      "AtomicChat/qwen36-27b-GGUF"
-    ],
-    "family": "qwen36"
-  },
-  {
-    "id": "huggingface:AtomicChat/qwen3-coder-30b-a3b-GGUF",
-    "name": "qwen3-coder-30b-a3b-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-17T15:32:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/qwen3-coder-30b-a3b-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "qwen3",
-      "qwen",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:19.722531+00:00",
-    "source_ids": [
-      "AtomicChat/qwen3-coder-30b-a3b-GGUF"
-    ],
-    "family": "qwen3-coder"
   },
   {
     "id": "openrouter:z-ai/glm-5.2:batch",
@@ -17341,76 +17113,6 @@
       "HuggingFaceBio/Carbon-8B"
     ],
     "family": "Carbon"
-  },
-  {
-    "id": "huggingface:AtomicChat/Qwen3.6-35B-A3B-UDT-MTP-GGUF",
-    "name": "Qwen3.6-35B-A3B-UDT-MTP-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T13:50:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/Qwen3.6-35B-A3B-UDT-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "atomic-chat",
-      "qwen3.6",
-      "qwen",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:20.567350+00:00",
-    "source_ids": [
-      "AtomicChat/Qwen3.6-35B-A3B-UDT-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-UDT-MTP"
-  },
-  {
-    "id": "huggingface:AtomicChat/Qwen3.6-27B-UDT-MTP-GGUF",
-    "name": "Qwen3.6-27B-UDT-MTP-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T13:50:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/Qwen3.6-27B-UDT-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "atomic-chat",
-      "qwen3.6",
-      "qwen",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-22T21:07:20.567384+00:00",
-    "source_ids": [
-      "AtomicChat/Qwen3.6-27B-UDT-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-UDT-MTP"
   },
   {
     "id": "huggingface:microsoft/Fara1.5-9B",
@@ -19456,6 +19158,41 @@
     "family": "LFM2.5"
   },
   {
+    "id": "huggingface:EnlistedGhost/Ministral-3-3B-Instruct-2512-GGUF",
+    "name": "Ministral-3-3B-Instruct-2512-GGUF",
+    "provider": "EnlistedGhost",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-14T17:35:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/EnlistedGhost/Ministral-3-3B-Instruct-2512-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "MistralAI",
+      "Ministral",
+      "Ministral-3",
+      "Ollama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:37.331547+00:00",
+    "source_ids": [
+      "EnlistedGhost/Ministral-3-3B-Instruct-2512-GGUF"
+    ],
+    "family": "Ministral-3--2512"
+  },
+  {
     "id": "huggingface:unsloth/LFM2.5-VL-1.6B-GGUF",
     "name": "LFM2.5-VL-1.6B-GGUF",
     "provider": "unsloth",
@@ -20427,39 +20164,6 @@
       "openai/gpt-5-mini:batch"
     ],
     "family": "GPT-5 Mini (batch)"
-  },
-  {
-    "id": "openrouter:openai/gpt-5-nano:batch",
-    "name": "OpenAI: GPT-5 Nano (batch)",
-    "provider": "OpenAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-07T17:23:22+00:00",
-    "context_length": 400000,
-    "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger...",
-    "url": "https://openrouter.ai/openai/gpt-5-nano:batch",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.025,
-      "completion_per_million": 0.2
-    },
-    "first_seen": "2026-07-22T21:07:19.549551+00:00",
-    "source_ids": [
-      "openai/gpt-5-nano:batch"
-    ],
-    "family": "GPT-5 Nano (batch)"
   },
   {
     "id": "openrouter:anthropic/claude-opus-4.1:batch",

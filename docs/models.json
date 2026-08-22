@@ -124357,5 +124357,179 @@
       "rockerBOO/minimax-h3-nvfp4-fp8"
     ],
     "family": "minimax-h3-nvfp4-fp8"
+  },
+  {
+    "id": "openrouter:meta/muse-spark-1.2-contributor",
+    "name": "Meta: Muse Spark 1.2 Contributor",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T18:21:16+00:00",
+    "context_length": 1048576,
+    "description": "Muse Spark 1.2 contributor tier is a reasoning model from Meta designed for developers who want to start building at an even lower cost. It’s meaningfully cheaper than Muse Spark...",
+    "url": "https://openrouter.ai/meta/muse-spark-1.2-contributor",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-08-22T01:12:36.142333+00:00",
+    "source_ids": [
+      "meta/muse-spark-1.2-contributor"
+    ],
+    "family": "Muse Spark 1.2 Contributor"
+  },
+  {
+    "id": "huggingface:Israeli-AI/Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere",
+    "name": "Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere",
+    "provider": "Israeli-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T00:02:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Israeli-AI/Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3_5",
+      "w4a16",
+      "compressed-tensors",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:36.322914+00:00",
+    "source_ids": [
+      "Israeli-AI/Qwen3.8-27B-MTP-W4A16-VOLTA-Ampere"
+    ],
+    "family": "Qwen3.8-MTP-W4A16-VOLTA-Ampere"
+  },
+  {
+    "id": "huggingface:ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8",
+    "name": "LTX-2.3-uncensored-v1.4-fp8",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-07-18T05:15:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "not-for-all-audiences",
+      "text-to-video",
+      "image-to-video",
+      "video-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:36.722975+00:00",
+    "source_ids": [
+      "ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8"
+    ],
+    "family": "LTX-2.3-uncensored-v1.4-fp8"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF",
+    "name": "Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T00:19:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "unsloth",
+      "fine tune",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:37.331437+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP"
+  },
+  {
+    "id": "huggingface:EnlistedGhost/Ministral-3-3B-Instruct-2512-GGUF",
+    "name": "Ministral-3-3B-Instruct-2512-GGUF",
+    "provider": "EnlistedGhost",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-14T17:35:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/EnlistedGhost/Ministral-3-3B-Instruct-2512-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "MistralAI",
+      "Ministral",
+      "Ministral-3",
+      "Ollama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-22T01:12:37.331547+00:00",
+    "source_ids": [
+      "EnlistedGhost/Ministral-3-3B-Instruct-2512-GGUF"
+    ],
+    "family": "Ministral-3--2512"
   }
 ]
