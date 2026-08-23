@@ -124458,6 +124458,7 @@
     "pricing": null,
     "first_seen": "2026-08-22T01:12:36.722975+00:00",
     "source_ids": [
+      "ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
       "ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8"
     ],
     "family": "LTX-2.3-uncensored-v1.4-fp8"
@@ -125382,5 +125383,100 @@
       "protoLabsAI/Ornith-1.5-9B-MTP-GGUF"
     ],
     "family": "Ornith-1.5-MTP"
+  },
+  {
+    "id": "openrouter:tencent/hy-mt2-7b",
+    "name": "Tencent: Hy-MT2-7B",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T14:13:17+00:00",
+    "context_length": 8192,
+    "description": "Hy-MT2-7B is a 7B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided translation.",
+    "url": "https://openrouter.ai/tencent/hy-mt2-7b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.074,
+      "completion_per_million": 0.295
+    },
+    "first_seen": "2026-08-23T01:18:40.454935+00:00",
+    "source_ids": [
+      "tencent/hy-mt2-7b"
+    ],
+    "family": "Hy-MT2"
+  },
+  {
+    "id": "huggingface:BioTorch/UI_Llama_3_2_1B",
+    "name": "UI_Llama_3_2_1B",
+    "provider": "BioTorch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T19:28:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BioTorch/UI_Llama_3_2_1B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "llama-3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T01:18:40.582507+00:00",
+    "source_ids": [
+      "BioTorch/UI_Llama_3_2_1B"
+    ],
+    "family": "UI_Llama_3_2"
+  },
+  {
+    "id": "huggingface:jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "name": "Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "provider": "jashepp",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T11:13:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T01:18:40.582643+00:00",
+    "source_ids": [
+      "jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF"
+    ],
+    "family": "Ornith-1.0-MXFP4_Hybrid-Imatrix"
   }
 ]

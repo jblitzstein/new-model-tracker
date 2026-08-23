@@ -524,6 +524,35 @@
     "family": "GLM Latest"
   },
   {
+    "id": "openrouter:tencent/hy-mt2-7b",
+    "name": "Tencent: Hy-MT2-7B",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T14:13:17+00:00",
+    "context_length": 8192,
+    "description": "Hy-MT2-7B is a 7B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided translation.",
+    "url": "https://openrouter.ai/tencent/hy-mt2-7b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.074,
+      "completion_per_million": 0.295
+    },
+    "first_seen": "2026-08-23T01:18:40.454935+00:00",
+    "source_ids": [
+      "tencent/hy-mt2-7b"
+    ],
+    "family": "Hy-MT2"
+  },
+  {
     "id": "huggingface:AtomicChat/Ornith-1.5-9B-GGUF",
     "name": "Ornith-1.5-9B-GGUF",
     "provider": "AtomicChat",
@@ -10962,32 +10991,6 @@
     "family": "flux-evil-config"
   },
   {
-    "id": "openrouter:inclusionai/ling-3.0-flash:free",
-    "name": "Ling-3.0-flash (free)",
-    "provider": "inclusionai",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-23T14:56:20+00:00",
-    "context_length": 262144,
-    "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
-    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:01.710827+00:00",
-    "source_ids": [
-      "inclusionai/ling-3.0-flash:free"
-    ],
-    "family": "Ling-3.0-flash"
-  },
-  {
     "id": "huggingface:FINAL-Bench/POCKET-35B-GGUF",
     "name": "POCKET-35B-GGUF",
     "provider": "FINAL-Bench",
@@ -12100,6 +12103,7 @@
     "pricing": null,
     "first_seen": "2026-08-22T01:12:36.722975+00:00",
     "source_ids": [
+      "ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
       "ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8"
     ],
     "family": "LTX-2.3-uncensored-v1.4-fp8"
@@ -14298,6 +14302,39 @@
     "family": "Z-Image-Turbo-LiteRT"
   },
   {
+    "id": "huggingface:BioTorch/UI_Llama_3_2_1B",
+    "name": "UI_Llama_3_2_1B",
+    "provider": "BioTorch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T19:28:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BioTorch/UI_Llama_3_2_1B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "llama-3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T01:18:40.582507+00:00",
+    "source_ids": [
+      "BioTorch/UI_Llama_3_2_1B"
+    ],
+    "family": "UI_Llama_3_2"
+  },
+  {
     "id": "huggingface:cstr/cohere-transcribe-arabic-07-2026-GGUF",
     "name": "cohere-transcribe-arabic-07-2026-GGUF",
     "provider": "cstr",
@@ -14396,6 +14433,39 @@
       "lmcoleman/ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF"
     ],
     "family": "ThinkingCap-Qwen3.6-MagicQuant"
+  },
+  {
+    "id": "huggingface:jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "name": "Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "provider": "jashepp",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-08T11:13:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T01:18:40.582643+00:00",
+    "source_ids": [
+      "jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF"
+    ],
+    "family": "Ornith-1.0-MXFP4_Hybrid-Imatrix"
   },
   {
     "id": "huggingface:litert-community/Qwen2-VL-2B",
@@ -15144,39 +15214,6 @@
     "family": "Ektome-Llama-3.1-PristinelyUncensored"
   },
   {
-    "id": "huggingface:AtomicChat/gemma-4-26B-A4B-it-GGUF",
-    "name": "gemma-4-26B-A4B-it-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T15:34:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/gemma-4-26B-A4B-it-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "gemma",
-      "gemma4",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:01.905321+00:00",
-    "source_ids": [
-      "AtomicChat/gemma-4-26B-A4B-it-GGUF"
-    ],
-    "family": "gemma-4-it"
-  },
-  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-2.0",
     "name": "NVIDIA-Nemotron-Parse-2.0",
     "provider": "NVIDIA",
@@ -15276,41 +15313,6 @@
       "anthropic/claude-sonnet-5:batch"
     ],
     "family": "Claude Sonnet 5 (batch)"
-  },
-  {
-    "id": "huggingface:sanskar003/Qwen3.5-4B-AWQ",
-    "name": "Qwen3.5-4B-AWQ",
-    "provider": "sanskar003",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T17:58:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sanskar003/Qwen3.5-4B-AWQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.825163+00:00",
-    "source_ids": [
-      "sanskar003/Qwen3.5-4B-AWQ"
-    ],
-    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:BSC-LT/ALIA-40b-instruct-2606",
@@ -16856,41 +16858,6 @@
     "family": "diffusiongemma-it-NVFP4"
   },
   {
-    "id": "huggingface:lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit",
-    "name": "gemma-4-26B-A4B-it-QAT-MLX-4bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T23:34:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.825005+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit"
-    ],
-    "family": "gemma-4-it-QAT-MLX-4bit"
-  },
-  {
     "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:batch",
     "name": "NVIDIA: Nemotron 3 Ultra (batch)",
     "provider": "NVIDIA",
@@ -17977,138 +17944,6 @@
     "family": "Gemini 3.1 Flash Lite (batch)"
   },
   {
-    "id": "huggingface:AtomicChat/gemma-4-31B-it-assistant-GGUF",
-    "name": "gemma-4-31B-it-assistant-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T08:56:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/gemma-4-31B-it-assistant-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "gemma",
-      "gemma4",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:01.905159+00:00",
-    "source_ids": [
-      "AtomicChat/gemma-4-31B-it-assistant-GGUF"
-    ],
-    "family": "gemma-4-it-assistant"
-  },
-  {
-    "id": "huggingface:AtomicChat/gemma-4-26B-A4B-it-assistant-GGUF",
-    "name": "gemma-4-26B-A4B-it-assistant-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T08:56:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/gemma-4-26B-A4B-it-assistant-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "gemma",
-      "gemma4",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:01.905214+00:00",
-    "source_ids": [
-      "AtomicChat/gemma-4-26B-A4B-it-assistant-GGUF"
-    ],
-    "family": "gemma-4-it-assistant"
-  },
-  {
-    "id": "huggingface:AtomicChat/gemma-4-E4B-it-assistant-GGUF",
-    "name": "gemma-4-E4B-it-assistant-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T08:56:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/gemma-4-E4B-it-assistant-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "gemma",
-      "gemma4",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:01.905255+00:00",
-    "source_ids": [
-      "AtomicChat/gemma-4-E4B-it-assistant-GGUF"
-    ],
-    "family": "gemma-4-E-it-assistant"
-  },
-  {
-    "id": "huggingface:AtomicChat/gemma-4-E2B-it-assistant-GGUF",
-    "name": "gemma-4-E2B-it-assistant-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-07T08:56:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/gemma-4-E2B-it-assistant-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "atomic-chat",
-      "gemma",
-      "gemma4",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:01.905291+00:00",
-    "source_ids": [
-      "AtomicChat/gemma-4-E2B-it-assistant-GGUF"
-    ],
-    "family": "gemma-4-E-it-assistant"
-  },
-  {
     "id": "huggingface:cstr/chatterbox-turbo-GGUF",
     "name": "chatterbox-turbo-GGUF",
     "provider": "cstr",
@@ -18790,286 +18625,6 @@
       "YCWTG/gemma-4-31B-it-NVFP4A16-GPTQ"
     ],
     "family": "gemma-4-it-NVFP4A16"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-31B-it-MLX-8bit",
-    "name": "gemma-4-31B-it-MLX-8bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:40:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-31B-it-MLX-8bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.824834+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-31B-it-MLX-8bit"
-    ],
-    "family": "gemma-4-it-MLX-8bit"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-31B-it-MLX-6bit",
-    "name": "gemma-4-31B-it-MLX-6bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:37:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-31B-it-MLX-6bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.824864+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-31B-it-MLX-6bit"
-    ],
-    "family": "gemma-4-it-MLX-6bit"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-26B-A4B-it-MLX-8bit",
-    "name": "gemma-4-26B-A4B-it-MLX-8bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:37:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-26B-A4B-it-MLX-8bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.825047+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-26B-A4B-it-MLX-8bit"
-    ],
-    "family": "gemma-4-it-MLX-8bit"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-26B-A4B-it-MLX-6bit",
-    "name": "gemma-4-26B-A4B-it-MLX-6bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:34:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-26B-A4B-it-MLX-6bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.825076+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-26B-A4B-it-MLX-6bit"
-    ],
-    "family": "gemma-4-it-MLX-6bit"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-31B-it-MLX-5bit",
-    "name": "gemma-4-31B-it-MLX-5bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:34:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-31B-it-MLX-5bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.824891+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-31B-it-MLX-5bit"
-    ],
-    "family": "gemma-4-it-MLX-5bit"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-26B-A4B-it-MLX-5bit",
-    "name": "gemma-4-26B-A4B-it-MLX-5bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:31:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-26B-A4B-it-MLX-5bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.825105+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-26B-A4B-it-MLX-5bit"
-    ],
-    "family": "gemma-4-it-MLX-5bit"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-31B-it-MLX-4bit",
-    "name": "gemma-4-31B-it-MLX-4bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:31:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-31B-it-MLX-4bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.824967+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-31B-it-MLX-4bit"
-    ],
-    "family": "gemma-4-it-MLX-4bit"
-  },
-  {
-    "id": "huggingface:lmstudio-community/gemma-4-26B-A4B-it-MLX-4bit",
-    "name": "gemma-4-26B-A4B-it-MLX-4bit",
-    "provider": "lmstudio-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-03T15:29:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmstudio-community/gemma-4-26B-A4B-it-MLX-4bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-23T21:04:02.825132+00:00",
-    "source_ids": [
-      "lmstudio-community/gemma-4-26B-A4B-it-MLX-4bit"
-    ],
-    "family": "gemma-4-it-MLX-4bit"
   },
   {
     "id": "huggingface:aufklarer/Qwen3.5-0.8B-Chat-MLX",
