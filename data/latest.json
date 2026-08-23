@@ -1,5 +1,74 @@
 [
   {
+    "id": "huggingface:gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+    "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+    "provider": "gbuzhf",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-22T00:20:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "ICE",
+      "ICE-Tiers",
+      "ice-quant",
+      "9-Tier-Standard"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T12:38:37.091225+00:00",
+    "source_ids": [
+      "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF"
+    ],
+    "family": "Ornith-1.5-Abliterated-MTP-UD-APEX"
+  },
+  {
+    "id": "huggingface:realrebelai/SenseNova-U1.5-8B_GGUFs",
+    "name": "SenseNova-U1.5-8B_GGUFs",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-21T21:11:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/SenseNova-U1.5-8B_GGUFs",
+    "tags": [
+      "text-to-image",
+      "comfyui",
+      "gguf",
+      "sensenova",
+      "flow-matching",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T12:38:36.462097+00:00",
+    "source_ids": [
+      "realrebelai/SenseNova-U1.5-8B_GGUFs"
+    ],
+    "family": "SenseNova-U1.5-8B_GGUFs"
+  },
+  {
     "id": "openrouter:meta/muse-spark-1.2-contributor",
     "name": "Meta: Muse Spark 1.2 Contributor",
     "provider": "Meta",
@@ -324,6 +393,40 @@
       "tencent/hy-mt2-30b-a3b"
     ],
     "family": "Hy-MT2"
+  },
+  {
+    "id": "huggingface:lvladikov/Krea2-Turbo-Distill-4step-LoRA",
+    "name": "Krea2-Turbo-Distill-4step-LoRA",
+    "provider": "lvladikov",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-20T07:04:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-4step-LoRA",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "lora",
+      "text-to-image",
+      "distillation",
+      "step-distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T12:38:36.462216+00:00",
+    "source_ids": [
+      "lvladikov/Krea2-Turbo-Distill-4step-LoRA"
+    ],
+    "family": "Krea2-Turbo-Distill-4step-LoRA"
   },
   {
     "id": "huggingface:sullivan1502/base-zone-pretrain",
@@ -818,6 +921,40 @@
       "saxyZ/audio.cpp-gguf-fork"
     ],
     "family": "audio.cpp--fork"
+  },
+  {
+    "id": "huggingface:joeygambino/joyai-echo-ltx25-echoVid-gguf",
+    "name": "joyai-echo-ltx25-echoVid-gguf",
+    "provider": "joeygambino",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-18T08:10:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/joeygambino/joyai-echo-ltx25-echoVid-gguf",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "quantized",
+      "comfyui",
+      "ltx-2",
+      "ltx-2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T12:38:36.666148+00:00",
+    "source_ids": [
+      "joeygambino/joyai-echo-ltx25-echoVid-gguf"
+    ],
+    "family": "joyai-echo-ltx25-echoVid"
   },
   {
     "id": "huggingface:ornith-ai/Ornith-1.5-35B-A3B",
@@ -4506,6 +4643,40 @@
       "Baekpica/Motif-3-Mixed-Quant-GGUF"
     ],
     "family": "Motif-3-Mixed-Quant"
+  },
+  {
+    "id": "huggingface:joeygambino/LTX-2.5-Quantized",
+    "name": "LTX-2.5-Quantized",
+    "provider": "joeygambino",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-13T10:55:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/joeygambino/LTX-2.5-Quantized",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "comfyui",
+      "quantized",
+      "ltx-2",
+      "ltx-2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T12:38:36.666128+00:00",
+    "source_ids": [
+      "joeygambino/LTX-2.5-Quantized"
+    ],
+    "family": "LTX-2.5-Quantized"
   },
   {
     "id": "huggingface:SC117/Ling-3.0-tiny-abliterated-APEX-GGUF",
@@ -10377,6 +10548,41 @@
     "family": "Qwen3.6-Fable-Fusion-711-bf16"
   },
   {
+    "id": "huggingface:OrionLLM/GRM-3.2-Sky",
+    "name": "GRM-3.2-Sky",
+    "provider": "OrionLLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-25T15:12:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OrionLLM/GRM-3.2-Sky",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational",
+      "base_model:ornith-ai/Ornith-1.0-35B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T12:38:37.091034+00:00",
+    "source_ids": [
+      "OrionLLM/GRM-3.2-Sky"
+    ],
+    "family": "GRM-3.2-Sky"
+  },
+  {
     "id": "huggingface:philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit",
     "name": "Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit",
     "provider": "philipjohnbasile",
@@ -11055,73 +11261,6 @@
       "jcbtc/Laguna-S-2.1-Chadrock-ROCmFP4-StrixKVSpine-V4-GGUF"
     ],
     "family": "Laguna-S-2.1-Chadrock-ROCmFP4-StrixKVSpine-V4"
-  },
-  {
-    "id": "huggingface:Scrappy-Doo/DeepSeek-V4-Pro",
-    "name": "DeepSeek-V4-Pro",
-    "provider": "Scrappy-Doo",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-23T22:07:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Scrappy-Doo/DeepSeek-V4-Pro",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "deepseek_v4",
-      "text-generation",
-      "arxiv:2606.19348",
-      "license:mit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T10:17:09.811259+00:00",
-    "source_ids": [
-      "Scrappy-Doo/DeepSeek-V4-Pro"
-    ],
-    "family": "DeepSeek-V4-Pro"
-  },
-  {
-    "id": "huggingface:yazerakbar/flux-evil-config",
-    "name": "flux-evil-config",
-    "provider": "yazerakbar",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-23T19:45:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/yazerakbar/flux-evil-config",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "flux",
-      "custom_code",
-      "endpoints_compatible",
-      "diffusers:FluxPipeline"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T10:17:09.885678+00:00",
-    "source_ids": [
-      "yazerakbar/flux-evil-config"
-    ],
-    "family": "flux-evil-config"
   },
   {
     "id": "huggingface:FINAL-Bench/POCKET-35B-GGUF",
@@ -12101,41 +12240,6 @@
     "first_seen": "2026-07-30T10:24:08.908027+00:00",
     "source_ids": [
       "neroued/Qwen3.6-35B-A3B-NInfer"
-    ],
-    "family": "Qwen3.6-NInfer"
-  },
-  {
-    "id": "huggingface:neroued/Qwen3.6-27B-NInfer",
-    "name": "Qwen3.6-27B-NInfer",
-    "provider": "neroued",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-18T15:08:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/neroued/Qwen3.6-27B-NInfer",
-    "tags": [
-      "image-text-to-text",
-      "ninfer",
-      "qwen3.6",
-      "multimodal",
-      "conversational",
-      "cuda"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T10:17:10.319572+00:00",
-    "source_ids": [
-      "neroued/Qwen3.6-27B-NInfer"
     ],
     "family": "Qwen3.6-NInfer"
   },
@@ -14067,41 +14171,6 @@
     "family": "GLM-5.2-ABLITERATED-NVFP4"
   },
   {
-    "id": "huggingface:saracen9/vt-vlm-base-qwen35",
-    "name": "vt-vlm-base-qwen35",
-    "provider": "saracen9",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-10T19:43:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/saracen9/vt-vlm-base-qwen35",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gguf",
-      "qwen3_5",
-      "abliterated",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T10:17:10.319608+00:00",
-    "source_ids": [
-      "saracen9/vt-vlm-base-qwen35"
-    ],
-    "family": "vt-vlm--qwen35"
-  },
-  {
     "id": "huggingface:litert-community/FLUX.2-klein-4B-LiteRT",
     "name": "FLUX.2-klein-4B-LiteRT",
     "provider": "litert-community",
@@ -14975,39 +15044,6 @@
       "nvidia/Cosmos3-Super-Text2Image-4Step"
     ],
     "family": "Cosmos3-Super-Text2Image-4Step"
-  },
-  {
-    "id": "huggingface:qwrt/Swedish0.1M",
-    "name": "Swedish0.1M",
-    "provider": "qwrt",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T21:05:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/qwrt/Swedish0.1M",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "sv",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T10:17:09.811465+00:00",
-    "source_ids": [
-      "qwrt/Swedish0.1M"
-    ],
-    "family": "Swedish0.1M"
   },
   {
     "id": "huggingface:Nanthasit/sakthai-context-7b-merged",
