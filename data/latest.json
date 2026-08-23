@@ -11097,72 +11097,6 @@
     "family": "Ornith-1.0-NVFP4-MTP-graft"
   },
   {
-    "id": "openrouter:anthropic/claude-opus-5-fast",
-    "name": "Claude Opus 5 (Fast)",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-24T17:02:26+00:00",
-    "context_length": 1000000,
-    "description": "Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-    "url": "https://openrouter.ai/anthropic/claude-opus-5-fast",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 10.0,
-      "completion_per_million": 50.0
-    },
-    "first_seen": "2026-07-24T17:37:38.278668+00:00",
-    "source_ids": [
-      "anthropic/claude-opus-5-fast"
-    ],
-    "family": "Claude Opus 5 (Fast)"
-  },
-  {
-    "id": "openrouter:anthropic/claude-opus-5",
-    "name": "Claude Opus 5",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-24T17:02:24+00:00",
-    "context_length": 1000000,
-    "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
-    "url": "https://openrouter.ai/anthropic/claude-opus-5",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 5.0,
-      "completion_per_million": 25.0
-    },
-    "first_seen": "2026-07-24T17:37:38.279621+00:00",
-    "source_ids": [
-      "anthropic/claude-opus-5"
-    ],
-    "family": "Claude Opus 5"
-  },
-  {
     "id": "openrouter:anthropic/claude-opus-5:batch",
     "name": "Claude Opus 5 (batch)",
     "provider": "Anthropic",
@@ -12750,41 +12684,6 @@
     "family": "droplychee-1.0"
   },
   {
-    "id": "huggingface:mlx-community/Inkling-mlx-2bit",
-    "name": "Inkling-mlx-2bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-16T23:44:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Inkling-mlx-2bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "inkling_mm_model",
-      "inkling",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T17:37:38.879234+00:00",
-    "source_ids": [
-      "mlx-community/Inkling-mlx-2bit"
-    ],
-    "family": "Inkling-mlx-2bit"
-  },
-  {
     "id": "huggingface:saidutta69/Qwen2.5-Coder-7B-Instruct-heretic",
     "name": "Qwen2.5-Coder-7B-Instruct-heretic",
     "provider": "saidutta69",
@@ -12950,41 +12849,6 @@
     "family": "Qwen2.5--heretic"
   },
   {
-    "id": "huggingface:mlx-community/Inkling-mlx-4bit",
-    "name": "Inkling-mlx-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-16T14:06:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/Inkling-mlx-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "inkling_mm_model",
-      "inkling",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T17:37:38.879268+00:00",
-    "source_ids": [
-      "mlx-community/Inkling-mlx-4bit"
-    ],
-    "family": "Inkling-mlx-4bit"
-  },
-  {
     "id": "huggingface:inclusionAI/LLaDA2.2-flash",
     "name": "LLaDA2.2-flash",
     "provider": "inclusionAI",
@@ -13117,39 +12981,6 @@
       "saidutta69/MiniCPM5-1B-heretic"
     ],
     "family": "MiniCPM5-heretic"
-  },
-  {
-    "id": "huggingface:mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
-    "name": "Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-15T14:58:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "mistral",
-      "jbliterated",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-24T17:37:38.381250+00:00",
-    "source_ids": [
-      "mradermacher/Mistral-7B-Instruct-v0.3-Jbliterated-i1-GGUF"
-    ],
-    "family": "Mistral--v0.3-Jbliterated-i1"
   },
   {
     "id": "huggingface:Lightricks/LTX-2.3-22b-LoRA-Foley-V2A",
@@ -14036,6 +13867,41 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V9-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V9"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-23T20:21:39.980989+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V10"
   },
   {
     "id": "huggingface:User01110/CMA-8M",
