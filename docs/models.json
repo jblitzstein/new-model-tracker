@@ -127594,5 +127594,243 @@
       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
     ],
     "family": "NVIDIA-Nemotron-Nano-v2-VL-BF16"
+  },
+  {
+    "id": "huggingface:TizzyT566/Ornith-1.5-35B-A3B-NVFP4-GGUF",
+    "name": "Ornith-1.5-35B-A3B-NVFP4-GGUF",
+    "provider": "TizzyT566",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-24T14:41:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TizzyT566/Ornith-1.5-35B-A3B-NVFP4-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "text-generation",
+      "base_model:ornith-ai/Ornith-1.5-35B-A3B-NVFP4",
+      "base_model:quantized:ornith-ai/Ornith-1.5-35B-A3B-NVFP4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T12:45:58.832147+00:00",
+    "source_ids": [
+      "TizzyT566/Ornith-1.5-35B-A3B-NVFP4-GGUF"
+    ],
+    "family": "Ornith-1.5-NVFP4"
+  },
+  {
+    "id": "huggingface:sullivan1502/base-action-pretrain",
+    "name": "base-action-pretrain",
+    "provider": "sullivan1502",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-24T01:33:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sullivan1502/base-action-pretrain",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T12:45:58.832243+00:00",
+    "source_ids": [
+      "sullivan1502/base-action-pretrain"
+    ],
+    "family": "action-pretrain"
+  },
+  {
+    "id": "huggingface:alibaba-pai/MiniMax-H3-Fun-Controlnet-Union",
+    "name": "MiniMax-H3-Fun-Controlnet-Union",
+    "provider": "alibaba-pai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-24T03:18:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union",
+    "tags": [
+      "text-to-video",
+      "videox_fun",
+      "controlnet",
+      "video-to-video",
+      "text-to-video",
+      "image-text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T12:45:59.187605+00:00",
+    "source_ids": [
+      "alibaba-pai/MiniMax-H3-Fun-Controlnet-Union"
+    ],
+    "family": "MiniMax-H3-Fun-Controlnet-Union"
+  },
+  {
+    "id": "huggingface:maanka2/MOSS-TTS-Nano-100M",
+    "name": "MOSS-TTS-Nano-100M",
+    "provider": "maanka2",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-16T11:41:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/maanka2/MOSS-TTS-Nano-100M",
+    "tags": [
+      "text-to-speech",
+      "pytorch",
+      "moss_tts_nano",
+      "text-to-speech",
+      "custom_code",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T12:45:59.438217+00:00",
+    "source_ids": [
+      "maanka2/MOSS-TTS-Nano-100M"
+    ],
+    "family": "MOSS-TTS-Nano-100M"
+  },
+  {
+    "id": "huggingface:techiaith/whisper-large-ft-cy-en",
+    "name": "whisper-large-ft-cy-en",
+    "provider": "techiaith",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-24T06:56:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/techiaith/whisper-large-ft-cy-en",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "welsh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T12:45:59.566076+00:00",
+    "source_ids": [
+      "techiaith/whisper-large-ft-cy-en"
+    ],
+    "family": "whisper-large-ft-cy-en"
+  },
+  {
+    "id": "huggingface:mobilint/Qwen3-VL-8B-Instruct",
+    "name": "Qwen3-VL-8B-Instruct",
+    "provider": "mobilint",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-14T05:59:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mobilint/Qwen3-VL-8B-Instruct",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "mobilint-qwen3_vl",
+      "text-generation",
+      "mobilint"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T12:45:59.691443+00:00",
+    "source_ids": [
+      "mobilint/Qwen3-VL-8B-Instruct"
+    ],
+    "family": "Qwen3-VL"
+  },
+  {
+    "id": "huggingface:amd/Qwen3.5-397B-A17B-MXFP4-AttnFP8-V2",
+    "name": "Qwen3.5-397B-A17B-MXFP4-AttnFP8-V2",
+    "provider": "amd",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-23T10:42:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amd/Qwen3.5-397B-A17B-MXFP4-AttnFP8-V2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T12:45:59.691518+00:00",
+    "source_ids": [
+      "amd/Qwen3.5-397B-A17B-MXFP4-AttnFP8-V2"
+    ],
+    "family": "Qwen3.5-MXFP4-AttnFP8-V2"
   }
 ]
