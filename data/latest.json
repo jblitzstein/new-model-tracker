@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:Gautam6/GAUTAMAI",
+    "name": "GAUTAMAI",
+    "provider": "Gautam6",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T10:49:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Gautam6/GAUTAMAI",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "llama",
+      "gautam-ai",
+      "devanagari-hindi",
+      "english"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T04:37:58.880409+00:00",
+    "source_ids": [
+      "Gautam6/GAUTAMAI"
+    ],
+    "family": "GAUTAMAI"
+  },
+  {
     "id": "huggingface:joeygambino/MiniMax-H3-x-Z-Image-GGUF",
     "name": "MiniMax-H3-x-Z-Image-GGUF",
     "provider": "joeygambino",
@@ -2579,6 +2612,41 @@
       "grant-ai/Qwen3.8-27B-Abliterated-MTPLX"
     ],
     "family": "Qwen3.8-Abliterated-MTPLX"
+  },
+  {
+    "id": "huggingface:abhishekchohan/Qwen3.8-27B-GPTQ-INT4",
+    "name": "Qwen3.8-27B-GPTQ-INT4",
+    "provider": "abhishekchohan",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T21:23:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/abhishekchohan/Qwen3.8-27B-GPTQ-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "gptq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T04:37:59.745143+00:00",
+    "source_ids": [
+      "abhishekchohan/Qwen3.8-27B-GPTQ-INT4"
+    ],
+    "family": "Qwen3.8--INT4"
   },
   {
     "id": "huggingface:jcbtc/Qwen3.8-27B-CIRU-ActiveFPX-PromptForge",
@@ -10114,6 +10182,40 @@
     "family": "Cosmos-1.0-Diffusion-Text2World"
   },
   {
+    "id": "huggingface:kerasformers/granite_speech_3_3_2b",
+    "name": "granite_speech_3_3_2b",
+    "provider": "kerasformers",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T04:05:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kerasformers/granite_speech_3_3_2b",
+    "tags": [
+      "automatic-speech-recognition",
+      "kerasformers",
+      "keras",
+      "granite-speech",
+      "speech-llm",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T04:37:59.621832+00:00",
+    "source_ids": [
+      "kerasformers/granite_speech_3_3_2b"
+    ],
+    "family": "granite_speech_3_3"
+  },
+  {
     "id": "huggingface:ChrisColeTech/krea2-turbo-edit-GGUF",
     "name": "krea2-turbo-edit-GGUF",
     "provider": "ChrisColeTech",
@@ -14648,39 +14750,6 @@
     "family": "KielMind-Lite"
   },
   {
-    "id": "huggingface:Subject-Emu-5259/NeuralAI",
-    "name": "NeuralAI",
-    "provider": "Subject-Emu-5259",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-11T16:55:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Subject-Emu-5259/NeuralAI",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "lora",
-      "dpo",
-      "smollm2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-26T02:47:33.614554+00:00",
-    "source_ids": [
-      "Subject-Emu-5259/NeuralAI"
-    ],
-    "family": "NeuralAI"
-  },
-  {
     "id": "huggingface:saracen9/amoral-qwen3.5-9B",
     "name": "amoral-qwen3.5-9B",
     "provider": "saracen9",
@@ -17971,6 +18040,36 @@
     "family": "MiniMax M3 (batch)"
   },
   {
+    "id": "openrouter:minimax/minimax-m3:free",
+    "name": "MiniMax: MiniMax M3 (free)",
+    "provider": "MiniMax",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-31T16:36:14+00:00",
+    "context_length": 1048576,
+    "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+    "url": "https://openrouter.ai/minimax/minimax-m3:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-25T04:37:58.739543+00:00",
+    "source_ids": [
+      "minimax/minimax-m3:free"
+    ],
+    "family": "MiniMax M3"
+  },
+  {
     "id": "huggingface:OpenASR/qwen3-asr-0.6b",
     "name": "qwen3-asr-0.6b",
     "provider": "OpenASR",
@@ -19573,6 +19672,32 @@
       "LiquidAI/LFM2.5-350M-GGUF"
     ],
     "family": "LFM2.5-350M"
+  },
+  {
+    "id": "openrouter:minimax/minimax-m2.7:free",
+    "name": "MiniMax: MiniMax M2.7 (free)",
+    "provider": "MiniMax",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-18T12:24:57+00:00",
+    "context_length": 196608,
+    "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
+    "url": "https://openrouter.ai/minimax/minimax-m2.7:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-08-25T04:37:58.741160+00:00",
+    "source_ids": [
+      "minimax/minimax-m2.7:free"
+    ],
+    "family": "MiniMax M2.7"
   },
   {
     "id": "huggingface:tsinghua-sigs-robot-lab/veriloop-coder-e1",
