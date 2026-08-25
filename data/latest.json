@@ -538,6 +538,39 @@
     "family": "Ornith-1.5-Abliterated"
   },
   {
+    "id": "huggingface:HermiHg/Qwen3.8-27B-DFlash2-Q2_K_S-MIX-GGUF",
+    "name": "Qwen3.8-27B-DFlash2-Q2_K_S-MIX-GGUF",
+    "provider": "HermiHg",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T09:01:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HermiHg/Qwen3.8-27B-DFlash2-Q2_K_S-MIX-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "dflash2",
+      "speculative-decoding",
+      "draft-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T16:36:23.765009+00:00",
+    "source_ids": [
+      "HermiHg/Qwen3.8-27B-DFlash2-Q2_K_S-MIX-GGUF"
+    ],
+    "family": "Qwen3.8-DFlash2-Q2_K_S-MIX"
+  },
+  {
     "id": "huggingface:rockerBOO/minimax-h3-nvfp4-fp8",
     "name": "minimax-h3-nvfp4-fp8",
     "provider": "rockerBOO",
@@ -1088,6 +1121,40 @@
       "AtomicChat/Ornith-1.5-9B-GGUF"
     ],
     "family": "Ornith-1.5"
+  },
+  {
+    "id": "huggingface:Audio8/Audio8-TTS-Preview-0.1b",
+    "name": "Audio8-TTS-Preview-0.1b",
+    "provider": "Audio8",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-19T04:49:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "arktts",
+      "feature-extraction",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T16:36:24.312453+00:00",
+    "source_ids": [
+      "Audio8/Audio8-TTS-Preview-0.1b"
+    ],
+    "family": "Audio8-TTS"
   },
   {
     "id": "huggingface:orcarouter/Qwen3.8-27B-Uncensored-NVFP4",
@@ -10650,6 +10717,40 @@
     "family": "ltxvideo-2.3-distilled-convrot-int8"
   },
   {
+    "id": "huggingface:zaakirio/kokoro-ru",
+    "name": "kokoro-ru",
+    "provider": "zaakirio",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-29T19:27:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zaakirio/kokoro-ru",
+    "tags": [
+      "text-to-speech",
+      "kokoro",
+      "onnx",
+      "style_text_to_speech_2",
+      "text-to-speech",
+      "russian"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T16:36:24.312412+00:00",
+    "source_ids": [
+      "zaakirio/kokoro-ru"
+    ],
+    "family": "kokoro-ru"
+  },
+  {
     "id": "huggingface:amd/Qwen3.6-35B-A3B-EXTENSOR",
     "name": "Qwen3.6-35B-A3B-EXTENSOR",
     "provider": "amd",
@@ -12003,41 +12104,6 @@
       "mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF"
     ],
     "family": "OpenCaption-VL-SFT-v1.0-i1"
-  },
-  {
-    "id": "huggingface:microsoft/Mage-VL",
-    "name": "Mage-VL",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-25T08:29:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/Mage-VL",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "mage_vl",
-      "image-text-to-text",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-26T13:22:01.523888+00:00",
-    "source_ids": [
-      "microsoft/Mage-VL"
-    ],
-    "family": "Mage-VL"
   },
   {
     "id": "huggingface:CloudGoat/Mephisto-4B-0725",
@@ -18746,6 +18812,41 @@
       "google/gemini-3.5-flash:batch"
     ],
     "family": "Gemini 3.5 Flash (batch)"
+  },
+  {
+    "id": "huggingface:numind/NuExtract3-GGUF",
+    "name": "NuExtract3-GGUF",
+    "provider": "numind",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-18T16:24:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/numind/NuExtract3-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-25T16:36:24.530084+00:00",
+    "source_ids": [
+      "numind/NuExtract3-GGUF"
+    ],
+    "family": "NuExtract3"
   },
   {
     "id": "huggingface:HuggingFaceBio/Carbon-8B",
