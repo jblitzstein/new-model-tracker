@@ -33,6 +33,76 @@
     "family": "Ornith-1.5-NVFP4"
   },
   {
+    "id": "huggingface:Qwen/Qwen3.8-Flash-Next-FP8",
+    "name": "Qwen3.8-Flash-Next-FP8",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-24T08:25:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen4_exp",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T12:51:07.067069+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-Flash-Next-FP8"
+    ],
+    "family": "Qwen3.8-Flash-Next-FP8"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.8-Flash-Next",
+    "name": "Qwen3.8-Flash-Next",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-24T08:24:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen4_exp",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T12:51:07.067004+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-Flash-Next"
+    ],
+    "family": "Qwen3.8-Flash-Next"
+  },
+  {
     "id": "huggingface:alibaba-pai/MiniMax-H3-Fun-Controlnet-Union",
     "name": "MiniMax-H3-Fun-Controlnet-Union",
     "provider": "alibaba-pai",
@@ -10789,6 +10859,40 @@
     "family": "granite_speech_3_3"
   },
   {
+    "id": "huggingface:zeromodels/granite_speech_3_3_2b",
+    "name": "granite_speech_3_3_2b",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T04:05:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/granite_speech_3_3_2b",
+    "tags": [
+      "automatic-speech-recognition",
+      "kerasformers",
+      "keras",
+      "granite-speech",
+      "speech-llm",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T12:51:07.001144+00:00",
+    "source_ids": [
+      "zeromodels/granite_speech_3_3_2b"
+    ],
+    "family": "granite_speech_3_3"
+  },
+  {
     "id": "huggingface:ChrisColeTech/krea2-turbo-edit-GGUF",
     "name": "krea2-turbo-edit-GGUF",
     "provider": "ChrisColeTech",
@@ -13167,39 +13271,6 @@
     "family": "Sulphur-2-distilled-Q4_K_M"
   },
   {
-    "id": "huggingface:upstage/Solar-Open2-250B",
-    "name": "Solar-Open2-250B",
-    "provider": "Upstage",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-22T02:40:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/upstage/Solar-Open2-250B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "solar_open2",
-      "text-generation",
-      "upstage"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T11:21:11.411888+00:00",
-    "source_ids": [
-      "upstage/Solar-Open2-250B"
-    ],
-    "family": "Solar-Open2"
-  },
-  {
     "id": "huggingface:AlexHung29629/gemma-4-E2B",
     "name": "gemma-4-E2B",
     "provider": "AlexHung29629",
@@ -13332,40 +13403,6 @@
       "saidutta69/Mistral-Nemo-Instruct-heretic"
     ],
     "family": "Mistral-Nemo--heretic"
-  },
-  {
-    "id": "huggingface:joeygambino/joyai-echo-ltx23-echoVid-ltxAud-surgical-gguf",
-    "name": "joyai-echo-ltx23-echoVid-ltxAud-surgical-gguf",
-    "provider": "joeygambino",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-07-21T18:59:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/joeygambino/joyai-echo-ltx23-echoVid-ltxAud-surgical-gguf",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "quantized",
-      "video",
-      "text-to-video",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T11:21:11.868529+00:00",
-    "source_ids": [
-      "joeygambino/joyai-echo-ltx23-echoVid-ltxAud-surgical-gguf"
-    ],
-    "family": "joyai-echo-ltx23-echoVid-ltxAud-surgical"
   },
   {
     "id": "huggingface:ai9stars/G9v3-39A5B",
@@ -13977,40 +14014,6 @@
       "Sandeep4235/llama3-8b-Wisdom-gguf"
     ],
     "family": "llama3-Wisdom"
-  },
-  {
-    "id": "huggingface:ChrisColeTech/LTX-2.3-uncensored-fp8",
-    "name": "LTX-2.3-uncensored-fp8",
-    "provider": "ChrisColeTech",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-07-18T05:15:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-fp8",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "text-to-video",
-      "image-to-video",
-      "quantized",
-      "ltx-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T11:21:11.868601+00:00",
-    "source_ids": [
-      "ChrisColeTech/LTX-2.3-uncensored-fp8"
-    ],
-    "family": "LTX-2.3-uncensored-fp8"
   },
   {
     "id": "huggingface:ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8",
@@ -17951,41 +17954,6 @@
       "maanka2/MOSS-TTS-Nano-100M"
     ],
     "family": "MOSS-TTS-Nano-100M"
-  },
-  {
-    "id": "huggingface:dasvad/open3dvqa-qwen3vl-4b-distill-q4-k-m-gguf",
-    "name": "open3dvqa-qwen3vl-4b-distill-q4-k-m-gguf",
-    "provider": "dasvad",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-15T09:40:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dasvad/open3dvqa-qwen3vl-4b-distill-q4-k-m-gguf",
-    "tags": [
-      "image-text-to-text",
-      "llama.cpp",
-      "gguf",
-      "qwen3-vl",
-      "vision-language",
-      "ollama"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T11:21:12.470569+00:00",
-    "source_ids": [
-      "dasvad/open3dvqa-qwen3vl-4b-distill-q4-k-m-gguf"
-    ],
-    "family": "open3dvqa-qwen3vl-distill-q4-k-m"
   },
   {
     "id": "huggingface:JaynadTodkarAmol/resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin",
