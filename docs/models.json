@@ -128592,5 +128592,443 @@
       "Qwen/Qwen3.8-Flash-Next-FP8"
     ],
     "family": "Qwen3.8-Flash-Next-FP8"
+  },
+  {
+    "id": "openrouter:z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T13:59:01+00:00",
+    "context_length": 1048576,
+    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
+    "url": "https://openrouter.ai/z-ai/glm-5.3-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-08-26T16:47:10.372368+00:00",
+    "source_ids": [
+      "z-ai/glm-5.3-flash"
+    ],
+    "family": "GLM 5.3 Flash"
+  },
+  {
+    "id": "huggingface:Taykhoom/Evo2-7B-8K",
+    "name": "Evo2-7B-8K",
+    "provider": "Taykhoom",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T23:31:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Taykhoom/Evo2-7B-8K",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "evo2",
+      "text-generation",
+      "DNA"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:10.518413+00:00",
+    "source_ids": [
+      "Taykhoom/Evo2-7B-8K"
+    ],
+    "family": "Evo2-8K"
+  },
+  {
+    "id": "huggingface:Ba2han/experimental4",
+    "name": "experimental4",
+    "provider": "Ba2han",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T23:05:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Ba2han/experimental4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:10.518509+00:00",
+    "source_ids": [
+      "Ba2han/experimental4"
+    ],
+    "family": "experimental4"
+  },
+  {
+    "id": "huggingface:TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3bpw",
+    "name": "Qwen3.5-397B-A17B-VQ-3bpw",
+    "provider": "TheDrainFlorist",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-16T23:42:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3bpw",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "quantized",
+      "vector-quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:10.518546+00:00",
+    "source_ids": [
+      "TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3bpw"
+    ],
+    "family": "Qwen3.5-VQ-3bpw"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-nano-spanish",
+    "name": "neutts-nano-spanish",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-06T10:57:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano-spanish",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "llama",
+      "text-to-speech",
+      "es",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093213+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano-spanish"
+    ],
+    "family": "neutts-nano-spanish"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-nano-german",
+    "name": "neutts-nano-german",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-06T10:54:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano-german",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "llama",
+      "text-to-speech",
+      "de",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093270+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano-german"
+    ],
+    "family": "neutts-nano-german"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-nano-q4-gguf",
+    "name": "neutts-nano-q4-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-12-03T10:57:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano-q4-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "text-to-speech",
+      "en",
+      "license:other",
+      "endpoints_compatible"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093292+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano-q4-gguf"
+    ],
+    "family": "neutts-nano-q4"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-nano",
+    "name": "neutts-nano",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-11-18T17:31:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "llama",
+      "text-to-speech",
+      "en",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093316+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano"
+    ],
+    "family": "neutts-nano"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-air-q4-gguf",
+    "name": "neutts-air-q4-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-23T13:41:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-air-q4-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio",
+      "speech",
+      "speech-language-models",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093333+00:00",
+    "source_ids": [
+      "neuphonic/neutts-air-q4-gguf"
+    ],
+    "family": "neutts-air-q4"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-air-q8-gguf",
+    "name": "neutts-air-q8-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-23T13:42:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-air-q8-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio",
+      "speech",
+      "speech-language-models",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093353+00:00",
+    "source_ids": [
+      "neuphonic/neutts-air-q8-gguf"
+    ],
+    "family": "neutts-air-q8"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-air",
+    "name": "neutts-air",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-15T14:30:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-air",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "audio",
+      "speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093372+00:00",
+    "source_ids": [
+      "neuphonic/neutts-air"
+    ],
+    "family": "neutts-air"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-2e-q4-gguf",
+    "name": "neutts-2e-q4-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-21T09:46:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-2e-q4-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "emotion",
+      "emotions",
+      "expressive-tts",
+      "emotional-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093391+00:00",
+    "source_ids": [
+      "neuphonic/neutts-2e-q4-gguf"
+    ],
+    "family": "neutts-2e-q4"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-2e",
+    "name": "neutts-2e",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-21T09:38:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-2e",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "qwen3",
+      "emotion",
+      "emotions",
+      "expressive-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093411+00:00",
+    "source_ids": [
+      "neuphonic/neutts-2e"
+    ],
+    "family": "neutts-2e"
   }
 ]

@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T13:59:01+00:00",
+    "context_length": 1048576,
+    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
+    "url": "https://openrouter.ai/z-ai/glm-5.3-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-08-26T16:47:10.372368+00:00",
+    "source_ids": [
+      "z-ai/glm-5.3-flash"
+    ],
+    "family": "GLM 5.3 Flash"
+  },
+  {
     "id": "huggingface:TizzyT566/Ornith-1.5-35B-A3B-NVFP4-GGUF",
     "name": "Ornith-1.5-35B-A3B-NVFP4-GGUF",
     "provider": "TizzyT566",
@@ -168,6 +201,39 @@
       "sullivan1502/base-action-pretrain"
     ],
     "family": "action-pretrain"
+  },
+  {
+    "id": "huggingface:Ba2han/experimental4",
+    "name": "experimental4",
+    "provider": "Ba2han",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T23:05:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Ba2han/experimental4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:10.518509+00:00",
+    "source_ids": [
+      "Ba2han/experimental4"
+    ],
+    "family": "experimental4"
   },
   {
     "id": "huggingface:Gautam6/GAUTAMAI",
@@ -2102,6 +2168,39 @@
       "Shiftedx/qwen3.8-27b-aeon-ultimate-uncensored-attention8-bf16recurrence-vision-mtplx"
     ],
     "family": "qwen3.8-aeon-ultimate-uncensored-attention8-bf16recurrence-vision-mtplx"
+  },
+  {
+    "id": "huggingface:TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3bpw",
+    "name": "Qwen3.5-397B-A17B-VQ-3bpw",
+    "provider": "TheDrainFlorist",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-16T23:42:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3bpw",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "quantized",
+      "vector-quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:10.518546+00:00",
+    "source_ids": [
+      "TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3bpw"
+    ],
+    "family": "Qwen3.5-VQ-3bpw"
   },
   {
     "id": "huggingface:TheDrainFlorist/Qwen3.5-397B-A17B-VQ-2.4bpw",
@@ -13545,6 +13644,74 @@
     "family": "Gemini 3.5 Flash Lite (batch)"
   },
   {
+    "id": "huggingface:neuphonic/neutts-2e-q4-gguf",
+    "name": "neutts-2e-q4-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-21T09:46:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-2e-q4-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "emotion",
+      "emotions",
+      "expressive-tts",
+      "emotional-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093391+00:00",
+    "source_ids": [
+      "neuphonic/neutts-2e-q4-gguf"
+    ],
+    "family": "neutts-2e-q4"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-2e",
+    "name": "neutts-2e",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-21T09:38:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-2e",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "qwen3",
+      "emotion",
+      "emotions",
+      "expressive-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093411+00:00",
+    "source_ids": [
+      "neuphonic/neutts-2e"
+    ],
+    "family": "neutts-2e"
+  },
+  {
     "id": "huggingface:Nanbeige/Nanbeige4.2-3B",
     "name": "Nanbeige4.2-3B",
     "provider": "Nanbeige",
@@ -16276,41 +16443,6 @@
     "family": "gh0stx-bf16"
   },
   {
-    "id": "huggingface:OrionLLM/GRM-2.6-Plus-0628",
-    "name": "GRM-2.6-Plus-0628",
-    "provider": "OrionLLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-07T18:15:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OrionLLM/GRM-2.6-Plus-0628",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "conversational",
-      "base_model:OrionLLM/GRM-2.6-Plus"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T14:33:47.821874+00:00",
-    "source_ids": [
-      "OrionLLM/GRM-2.6-Plus-0628"
-    ],
-    "family": "GRM-2.6-Plus-0628"
-  },
-  {
     "id": "huggingface:sahilchachra/ThinkingCap-Qwen3.6-27B-AWQ",
     "name": "ThinkingCap-Qwen3.6-27B-AWQ",
     "provider": "sahilchachra",
@@ -16344,40 +16476,6 @@
       "sahilchachra/ThinkingCap-Qwen3.6-27B-AWQ"
     ],
     "family": "ThinkingCap-Qwen3.6"
-  },
-  {
-    "id": "huggingface:OpenASR/firered-aed-l-v2",
-    "name": "firered-aed-l-v2",
-    "provider": "OpenASR",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-07T10:50:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenASR/firered-aed-l-v2",
-    "tags": [
-      "automatic-speech-recognition",
-      "openasr",
-      "automatic-speech-recognition",
-      "speech-to-text",
-      "oasr",
-      "firered-aed-l-v2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T14:33:47.721549+00:00",
-    "source_ids": [
-      "OpenASR/firered-aed-l-v2"
-    ],
-    "family": "firered-aed-l-v2"
   },
   {
     "id": "huggingface:freyavoice/Freya-TTS",
@@ -18362,6 +18460,39 @@
     "family": "diffusiongemma-it-NVFP4"
   },
   {
+    "id": "huggingface:Taykhoom/Evo2-7B-8K",
+    "name": "Evo2-7B-8K",
+    "provider": "Taykhoom",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-06T23:31:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Taykhoom/Evo2-7B-8K",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "evo2",
+      "text-generation",
+      "DNA"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:10.518413+00:00",
+    "source_ids": [
+      "Taykhoom/Evo2-7B-8K"
+    ],
+    "family": "Evo2-8K"
+  },
+  {
     "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:batch",
     "name": "NVIDIA: Nemotron 3 Ultra (batch)",
     "provider": "NVIDIA",
@@ -18559,40 +18690,6 @@
     "family": "Qwopus3.5-Coder-NPU2"
   },
   {
-    "id": "huggingface:OpenASR/qwen3-asr-1.7b",
-    "name": "qwen3-asr-1.7b",
-    "provider": "OpenASR",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-01T10:51:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenASR/qwen3-asr-1.7b",
-    "tags": [
-      "automatic-speech-recognition",
-      "openasr",
-      "automatic-speech-recognition",
-      "speech-to-text",
-      "oasr",
-      "qwen3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T14:33:47.721605+00:00",
-    "source_ids": [
-      "OpenASR/qwen3-asr-1.7b"
-    ],
-    "family": "qwen3-asr"
-  },
-  {
     "id": "openrouter:minimax/minimax-m3:batch",
     "name": "MiniMax: MiniMax M3 (batch)",
     "provider": "MiniMax",
@@ -18654,40 +18751,6 @@
       "minimax/minimax-m3:free"
     ],
     "family": "MiniMax M3"
-  },
-  {
-    "id": "huggingface:OpenASR/qwen3-asr-0.6b",
-    "name": "qwen3-asr-0.6b",
-    "provider": "OpenASR",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-31T07:30:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenASR/qwen3-asr-0.6b",
-    "tags": [
-      "automatic-speech-recognition",
-      "openasr",
-      "automatic-speech-recognition",
-      "speech-to-text",
-      "oasr",
-      "qwen3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T14:33:47.721630+00:00",
-    "source_ids": [
-      "OpenASR/qwen3-asr-0.6b"
-    ],
-    "family": "qwen3-asr"
   },
   {
     "id": "huggingface:Atomic-Germ/Gemma4-E4B-GLM-FLASH-NPU2",
@@ -20827,6 +20890,74 @@
     "family": "NSFW"
   },
   {
+    "id": "huggingface:neuphonic/neutts-nano-spanish",
+    "name": "neutts-nano-spanish",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-06T10:57:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano-spanish",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "llama",
+      "text-to-speech",
+      "es",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093213+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano-spanish"
+    ],
+    "family": "neutts-nano-spanish"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-nano-german",
+    "name": "neutts-nano-german",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-06T10:54:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano-german",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "llama",
+      "text-to-speech",
+      "de",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093270+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano-german"
+    ],
+    "family": "neutts-nano-german"
+  },
+  {
     "id": "openrouter:anthropic/claude-opus-4.6:batch",
     "name": "Anthropic: Claude Opus 4.6 (batch)",
     "provider": "Anthropic",
@@ -21471,6 +21602,40 @@
     "family": "EuroLLM--2512"
   },
   {
+    "id": "huggingface:neuphonic/neutts-nano-q4-gguf",
+    "name": "neutts-nano-q4-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-12-03T10:57:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano-q4-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "text-to-speech",
+      "en",
+      "license:other",
+      "endpoints_compatible"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093292+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano-q4-gguf"
+    ],
+    "family": "neutts-nano-q4"
+  },
+  {
     "id": "huggingface:utter-project/EuroLLM-22B-2512",
     "name": "EuroLLM-22B-2512",
     "provider": "utter-project",
@@ -21535,6 +21700,40 @@
       "anthropic/claude-opus-4.5:batch"
     ],
     "family": "Claude Opus 4.5 (batch)"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-nano",
+    "name": "neutts-nano",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-11-18T17:31:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-nano",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "llama",
+      "text-to-speech",
+      "en",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093316+00:00",
+    "source_ids": [
+      "neuphonic/neutts-nano"
+    ],
+    "family": "neutts-nano"
   },
   {
     "id": "openrouter:openai/gpt-5.1:batch",
@@ -21871,6 +22070,74 @@
     "family": "GPT-5 Codex (batch)"
   },
   {
+    "id": "huggingface:neuphonic/neutts-air-q8-gguf",
+    "name": "neutts-air-q8-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-23T13:42:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-air-q8-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio",
+      "speech",
+      "speech-language-models",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093353+00:00",
+    "source_ids": [
+      "neuphonic/neutts-air-q8-gguf"
+    ],
+    "family": "neutts-air-q8"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-air-q4-gguf",
+    "name": "neutts-air-q4-gguf",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-23T13:41:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-air-q4-gguf",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio",
+      "speech",
+      "speech-language-models",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093333+00:00",
+    "source_ids": [
+      "neuphonic/neutts-air-q4-gguf"
+    ],
+    "family": "neutts-air-q4"
+  },
+  {
     "id": "huggingface:LiquidAI/LFM2-2.6B",
     "name": "LFM2-2.6B",
     "provider": "LiquidAI",
@@ -21936,6 +22203,40 @@
       "openbmb/VoxCPM-0.5B"
     ],
     "family": "VoxCPM"
+  },
+  {
+    "id": "huggingface:neuphonic/neutts-air",
+    "name": "neutts-air",
+    "provider": "neuphonic",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-09-15T14:30:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neuphonic/neutts-air",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "audio",
+      "speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T16:47:11.093372+00:00",
+    "source_ids": [
+      "neuphonic/neutts-air"
+    ],
+    "family": "neutts-air"
   },
   {
     "id": "huggingface:software-mansion/react-native-executorch-whisper-base.en",
@@ -22174,39 +22475,6 @@
       "google/gemini-2.5-flash-lite:batch"
     ],
     "family": "Gemini 2.5 Flash Lite (batch)"
-  },
-  {
-    "id": "huggingface:JetLM/SDAR-1.7B-Chat",
-    "name": "SDAR-1.7B-Chat",
-    "provider": "JetLM",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-20T16:02:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JetLM/SDAR-1.7B-Chat",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "sdar",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T14:33:47.184168+00:00",
-    "source_ids": [
-      "JetLM/SDAR-1.7B-Chat"
-    ],
-    "family": "SDAR"
   },
   {
     "id": "huggingface:LiquidAI/LFM2-700M-GGUF",
