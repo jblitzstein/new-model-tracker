@@ -1,5 +1,38 @@
 [
   {
+    "id": "openrouter:qwen/qwen3.8-flash",
+    "name": "Qwen: Qwen3.8 Flash",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T19:37:40+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
+    "url": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.16,
+      "completion_per_million": 0.47
+    },
+    "first_seen": "2026-08-26T22:46:35.303876+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-flash"
+    ],
+    "family": "Qwen3.8 Flash"
+  },
+  {
     "id": "openrouter:z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
     "provider": "Zhipu AI",
@@ -234,6 +267,39 @@
       "Ba2han/experimental4"
     ],
     "family": "experimental4"
+  },
+  {
+    "id": "huggingface:OrisTeam/Vyuhu-280M-Base-3012m",
+    "name": "Vyuhu-280M-Base-3012m",
+    "provider": "OrisTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T20:37:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OrisTeam/Vyuhu-280M-Base-3012m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "vyuhu",
+      "text-generation",
+      "polish"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:35.485498+00:00",
+    "source_ids": [
+      "OrisTeam/Vyuhu-280M-Base-3012m"
+    ],
+    "family": "Vyuhu-280M--3012m"
   },
   {
     "id": "huggingface:Gautam6/GAUTAMAI",
@@ -4423,6 +4489,41 @@
     "first_seen": "2026-08-26T01:17:10.703644+00:00",
     "source_ids": [
       "kerasformers/qwen3.5-35b-a3b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-35b-a3b-base",
+    "name": "qwen3.5-35b-a3b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T21:44:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-35b-a3b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5_moe",
+      "qwen3.5-moe",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462574+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-35b-a3b-base"
     ],
     "family": "qwen3.5"
   },
@@ -10992,6 +11093,40 @@
     "family": "granite_speech_3_3"
   },
   {
+    "id": "huggingface:zeromodels/s2t-large-librispeech-asr",
+    "name": "s2t-large-librispeech-asr",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T04:00:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/s2t-large-librispeech-asr",
+    "tags": [
+      "automatic-speech-recognition",
+      "zeromodels",
+      "keras",
+      "speech2text",
+      "s2t",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.319603+00:00",
+    "source_ids": [
+      "zeromodels/s2t-large-librispeech-asr"
+    ],
+    "family": "s2t-large-librispeech-asr"
+  },
+  {
     "id": "huggingface:ChrisColeTech/krea2-turbo-edit-GGUF",
     "name": "krea2-turbo-edit-GGUF",
     "provider": "ChrisColeTech",
@@ -11734,6 +11869,41 @@
     "family": "moss-soundeffect"
   },
   {
+    "id": "huggingface:zeromodels/qwen2.5-vl-32b-instruct",
+    "name": "qwen2.5-vl-32b-instruct",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T22:49:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen2.5-vl-32b-instruct",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen2_5_vl",
+      "qwen2.5-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462716+00:00",
+    "source_ids": [
+      "zeromodels/qwen2.5-vl-32b-instruct"
+    ],
+    "family": "qwen2.5-vl"
+  },
+  {
     "id": "huggingface:thinkingmachines/Inkling-Small-NVFP4",
     "name": "Inkling-Small-NVFP4",
     "provider": "thinkingmachines",
@@ -12105,6 +12275,41 @@
     "family": "qwen3.5"
   },
   {
+    "id": "huggingface:zeromodels/qwen3.5-27b",
+    "name": "qwen3.5-27b",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T08:27:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-27b",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462617+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-27b"
+    ],
+    "family": "qwen3.5"
+  },
+  {
     "id": "huggingface:kerasformers/qwen3.5-9b-base",
     "name": "qwen3.5-9b-base",
     "provider": "kerasformers",
@@ -12136,6 +12341,41 @@
     "first_seen": "2026-08-26T01:17:10.703307+00:00",
     "source_ids": [
       "kerasformers/qwen3.5-9b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-9b-base",
+    "name": "qwen3.5-9b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T02:33:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-9b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462506+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-9b-base"
     ],
     "family": "qwen3.5"
   },
@@ -12175,6 +12415,41 @@
     "family": "qwen3.5"
   },
   {
+    "id": "huggingface:zeromodels/qwen3.5-9b",
+    "name": "qwen3.5-9b",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:51:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-9b",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462533+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-9b"
+    ],
+    "family": "qwen3.5"
+  },
+  {
     "id": "huggingface:kerasformers/qwen3-vl-8b-thinking",
     "name": "qwen3-vl-8b-thinking",
     "provider": "kerasformers",
@@ -12206,6 +12481,41 @@
     "first_seen": "2026-08-26T04:38:53.688872+00:00",
     "source_ids": [
       "kerasformers/qwen3-vl-8b-thinking"
+    ],
+    "family": "qwen3-vl"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3-vl-8b-thinking",
+    "name": "qwen3-vl-8b-thinking",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:06:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3-vl-8b-thinking",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_vl",
+      "qwen3-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462639+00:00",
+    "source_ids": [
+      "zeromodels/qwen3-vl-8b-thinking"
     ],
     "family": "qwen3-vl"
   },
@@ -12245,6 +12555,76 @@
     "family": "qwen3-vl"
   },
   {
+    "id": "huggingface:zeromodels/qwen3-vl-8b-instruct",
+    "name": "qwen3-vl-8b-instruct",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:05:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3-vl-8b-instruct",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_vl",
+      "qwen3-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462661+00:00",
+    "source_ids": [
+      "zeromodels/qwen3-vl-8b-instruct"
+    ],
+    "family": "qwen3-vl"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen2.5-vl-7b-instruct",
+    "name": "qwen2.5-vl-7b-instruct",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T23:38:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen2.5-vl-7b-instruct",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen2_5_vl",
+      "qwen2.5-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462692+00:00",
+    "source_ids": [
+      "zeromodels/qwen2.5-vl-7b-instruct"
+    ],
+    "family": "qwen2.5-vl"
+  },
+  {
     "id": "huggingface:kerasformers/qwen2-vl-7b",
     "name": "qwen2-vl-7b",
     "provider": "kerasformers",
@@ -12276,6 +12656,41 @@
     "first_seen": "2026-08-26T01:17:10.703573+00:00",
     "source_ids": [
       "kerasformers/qwen2-vl-7b"
+    ],
+    "family": "qwen2-vl"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen2-vl-7b",
+    "name": "qwen2-vl-7b",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T23:05:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen2-vl-7b",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen2_vl",
+      "qwen2-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462737+00:00",
+    "source_ids": [
+      "zeromodels/qwen2-vl-7b"
     ],
     "family": "qwen2-vl"
   },
@@ -12484,6 +12899,41 @@
     "family": "qwen3.5"
   },
   {
+    "id": "huggingface:zeromodels/qwen3.5-4b-base",
+    "name": "qwen3.5-4b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T05:14:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-4b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462552+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-4b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
     "id": "huggingface:SC117/Laguna-S-2.1-Uncensored-APEX-GGUF",
     "name": "Laguna-S-2.1-Uncensored-APEX-GGUF",
     "provider": "SC117",
@@ -12548,6 +12998,41 @@
     "first_seen": "2026-08-26T01:17:10.703481+00:00",
     "source_ids": [
       "kerasformers/qwen3.5-2b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-2b-base",
+    "name": "qwen3.5-2b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T03:16:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-2b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462596+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-2b-base"
     ],
     "family": "qwen3.5"
   },
@@ -13095,41 +13580,6 @@
       "agiws/Fun-CosyVoice3-0.5B"
     ],
     "family": "Fun-CosyVoice3"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF",
-    "name": "Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-24T07:23:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "vision",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T21:09:44.543845+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-27B-Uncensored-Genesis-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-MTP"
   },
   {
     "id": "huggingface:amineouaki/wav2vec2-darija-combined",
@@ -14281,41 +14731,6 @@
     "family": "Inkling"
   },
   {
-    "id": "huggingface:microsoft/Fara1.5-4B",
-    "name": "Fara1.5-4B",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-17T19:59:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/Fara1.5-4B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "computer-use"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T17:42:00.186308+00:00",
-    "source_ids": [
-      "microsoft/Fara1.5-4B"
-    ],
-    "family": "Fara1.5"
-  },
-  {
     "id": "huggingface:mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp",
     "name": "GLM-5.2-colibri-int4-g64-with-int8-mtp",
     "provider": "mastouri",
@@ -15360,39 +15775,6 @@
       "ChrisColeTech/flux1-dev-turbo-GGUF"
     ],
     "family": "flux1-dev-turbo"
-  },
-  {
-    "id": "huggingface:LeaderboardModel1/Tess-4-27B-AutoRound-W4A16-Tuning",
-    "name": "Tess-4-27B-AutoRound-W4A16-Tuning",
-    "provider": "LeaderboardModel1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T12:11:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LeaderboardModel1/Tess-4-27B-AutoRound-W4A16-Tuning",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "w4a16",
-      "tuning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T17:41:59.684559+00:00",
-    "source_ids": [
-      "LeaderboardModel1/Tess-4-27B-AutoRound-W4A16-Tuning"
-    ],
-    "family": "Tess-4-AutoRound-W4A16-Tuning"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
@@ -16478,40 +16860,6 @@
     "family": "ThinkingCap-Qwen3.6"
   },
   {
-    "id": "huggingface:freyavoice/Freya-TTS",
-    "name": "Freya-TTS",
-    "provider": "freyavoice",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-07-07T09:30:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/freyavoice/Freya-TTS",
-    "tags": [
-      "text-to-speech",
-      "freyatts",
-      "safetensors",
-      "text-to-speech",
-      "tts",
-      "turkish"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T21:09:44.309389+00:00",
-    "source_ids": [
-      "freyavoice/Freya-TTS"
-    ],
-    "family": "Freya-TTS"
-  },
-  {
     "id": "huggingface:Willlzh/COFOS",
     "name": "COFOS",
     "provider": "Willlzh",
@@ -16543,40 +16891,6 @@
       "Willlzh/COFOS"
     ],
     "family": "COFOS"
-  },
-  {
-    "id": "huggingface:nvidia/Cosmos3-Super-Text2Image-4Step",
-    "name": "Cosmos3-Super-Text2Image-4Step",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-07T01:00:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step",
-    "tags": [
-      "text-to-image",
-      "cosmos",
-      "diffusers",
-      "safetensors",
-      "cosmos3_omni",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T21:09:43.883613+00:00",
-    "source_ids": [
-      "nvidia/Cosmos3-Super-Text2Image-4Step"
-    ],
-    "family": "Cosmos3-Super-Text2Image-4Step"
   },
   {
     "id": "huggingface:Nanthasit/sakthai-context-7b-merged",
@@ -18054,40 +18368,6 @@
     "family": "MOSS-TTS-Nano-100M"
   },
   {
-    "id": "huggingface:JaynadTodkarAmol/resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin",
-    "name": "resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin",
-    "provider": "JaynadTodkarAmol",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-15T07:07:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JaynadTodkarAmol/resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin",
-    "tags": [
-      "automatic-speech-recognition",
-      "vllm",
-      "safetensors",
-      "voxtral_realtime",
-      "audio-to-text",
-      "voxtral"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T21:09:44.422524+00:00",
-    "source_ids": [
-      "JaynadTodkarAmol/resilientai-team-mcte-mistral-voxtral-realtime-gptq-marlin"
-    ],
-    "family": "resilientai-team-mcte-mistral-voxtral-realtime--marlin"
-  },
-  {
     "id": "huggingface:cstr/tesseract-lstm-GGUF",
     "name": "tesseract-lstm-GGUF",
     "provider": "cstr",
@@ -18120,41 +18400,6 @@
       "cstr/tesseract-lstm-GGUF"
     ],
     "family": "tesseract-lstm"
-  },
-  {
-    "id": "huggingface:moonshotai/Kimi-K3",
-    "name": "Kimi-K3",
-    "provider": "Moonshot AI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-13T06:42:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/moonshotai/Kimi-K3",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "kimi_k3",
-      "feature-extraction",
-      "compressed-tensors"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T17:42:00.186157+00:00",
-    "source_ids": [
-      "moonshotai/Kimi-K3"
-    ],
-    "family": "Kimi-K3"
   },
   {
     "id": "huggingface:bartowski/MiniMax-M3-GGUF",
@@ -19195,41 +19440,6 @@
       "mobilint/Qwen3-VL-8B-Instruct"
     ],
     "family": "Qwen3-VL"
-  },
-  {
-    "id": "huggingface:microsoft/Fara1.5-9B",
-    "name": "Fara1.5-9B",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T16:31:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/Fara1.5-9B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "computer-use"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T17:42:00.186286+00:00",
-    "source_ids": [
-      "microsoft/Fara1.5-9B"
-    ],
-    "family": "Fara1.5"
   },
   {
     "id": "huggingface:HuggingFaceBio/Carbon-500M",

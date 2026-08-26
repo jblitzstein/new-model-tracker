@@ -129030,5 +129030,490 @@
       "neuphonic/neutts-2e"
     ],
     "family": "neutts-2e"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.8-flash",
+    "name": "Qwen: Qwen3.8 Flash",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T19:37:40+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
+    "url": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.16,
+      "completion_per_million": 0.47
+    },
+    "first_seen": "2026-08-26T22:46:35.303876+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-flash"
+    ],
+    "family": "Qwen3.8 Flash"
+  },
+  {
+    "id": "huggingface:OrisTeam/Vyuhu-280M-Base-3012m",
+    "name": "Vyuhu-280M-Base-3012m",
+    "provider": "OrisTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T20:37:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OrisTeam/Vyuhu-280M-Base-3012m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "vyuhu",
+      "text-generation",
+      "polish"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:35.485498+00:00",
+    "source_ids": [
+      "OrisTeam/Vyuhu-280M-Base-3012m"
+    ],
+    "family": "Vyuhu-280M--3012m"
+  },
+  {
+    "id": "huggingface:zeromodels/s2t-large-librispeech-asr",
+    "name": "s2t-large-librispeech-asr",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T04:00:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/s2t-large-librispeech-asr",
+    "tags": [
+      "automatic-speech-recognition",
+      "zeromodels",
+      "keras",
+      "speech2text",
+      "s2t",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.319603+00:00",
+    "source_ids": [
+      "zeromodels/s2t-large-librispeech-asr"
+    ],
+    "family": "s2t-large-librispeech-asr"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-9b-base",
+    "name": "qwen3.5-9b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T02:33:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-9b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462506+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-9b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-9b",
+    "name": "qwen3.5-9b",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:51:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-9b",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462533+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-9b"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-4b-base",
+    "name": "qwen3.5-4b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T05:14:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-4b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462552+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-4b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-35b-a3b-base",
+    "name": "qwen3.5-35b-a3b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T21:44:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-35b-a3b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5_moe",
+      "qwen3.5-moe",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462574+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-35b-a3b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-2b-base",
+    "name": "qwen3.5-2b-base",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T03:16:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-2b-base",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462596+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-2b-base"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3.5-27b",
+    "name": "qwen3.5-27b",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T08:27:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3.5-27b",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_5",
+      "qwen",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462617+00:00",
+    "source_ids": [
+      "zeromodels/qwen3.5-27b"
+    ],
+    "family": "qwen3.5"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3-vl-8b-thinking",
+    "name": "qwen3-vl-8b-thinking",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:06:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3-vl-8b-thinking",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_vl",
+      "qwen3-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462639+00:00",
+    "source_ids": [
+      "zeromodels/qwen3-vl-8b-thinking"
+    ],
+    "family": "qwen3-vl"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen3-vl-8b-instruct",
+    "name": "qwen3-vl-8b-instruct",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:05:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen3-vl-8b-instruct",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen3_vl",
+      "qwen3-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462661+00:00",
+    "source_ids": [
+      "zeromodels/qwen3-vl-8b-instruct"
+    ],
+    "family": "qwen3-vl"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen2.5-vl-7b-instruct",
+    "name": "qwen2.5-vl-7b-instruct",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T23:38:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen2.5-vl-7b-instruct",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen2_5_vl",
+      "qwen2.5-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462692+00:00",
+    "source_ids": [
+      "zeromodels/qwen2.5-vl-7b-instruct"
+    ],
+    "family": "qwen2.5-vl"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen2.5-vl-32b-instruct",
+    "name": "qwen2.5-vl-32b-instruct",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T22:49:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen2.5-vl-32b-instruct",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen2_5_vl",
+      "qwen2.5-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462716+00:00",
+    "source_ids": [
+      "zeromodels/qwen2.5-vl-32b-instruct"
+    ],
+    "family": "qwen2.5-vl"
+  },
+  {
+    "id": "huggingface:zeromodels/qwen2-vl-7b",
+    "name": "qwen2-vl-7b",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-26T23:05:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/qwen2-vl-7b",
+    "tags": [
+      "image-text-to-text",
+      "zeromodels",
+      "keras",
+      "qwen2_vl",
+      "qwen2-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T22:46:36.462737+00:00",
+    "source_ids": [
+      "zeromodels/qwen2-vl-7b"
+    ],
+    "family": "qwen2-vl"
   }
 ]
