@@ -3947,6 +3947,41 @@
     "family": "Qwen3.8-EXL3-K5K6-hydrated"
   },
   {
+    "id": "huggingface:amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
+    "name": "Qwen3.8-27B-Quark-AWQ-MXFP4",
+    "provider": "amd",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T03:11:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "quark"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T04:38:53.689082+00:00",
+    "source_ids": [
+      "amd/Qwen3.8-27B-Quark-AWQ-MXFP4"
+    ],
+    "family": "Qwen3.8-Quark--MXFP4"
+  },
+  {
     "id": "huggingface:amd/Qwen3.8-27B-Quark-AWQ-INT4-W4A16",
     "name": "Qwen3.8-27B-Quark-AWQ-INT4-W4A16",
     "provider": "amd",
@@ -11937,6 +11972,76 @@
     "family": "qwen3.5"
   },
   {
+    "id": "huggingface:kerasformers/qwen3-vl-8b-thinking",
+    "name": "qwen3-vl-8b-thinking",
+    "provider": "kerasformers",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:06:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kerasformers/qwen3-vl-8b-thinking",
+    "tags": [
+      "image-text-to-text",
+      "kerasformers",
+      "keras",
+      "qwen3_vl",
+      "qwen3-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T04:38:53.688872+00:00",
+    "source_ids": [
+      "kerasformers/qwen3-vl-8b-thinking"
+    ],
+    "family": "qwen3-vl"
+  },
+  {
+    "id": "huggingface:kerasformers/qwen3-vl-8b-instruct",
+    "name": "qwen3-vl-8b-instruct",
+    "provider": "kerasformers",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-27T00:05:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kerasformers/qwen3-vl-8b-instruct",
+    "tags": [
+      "image-text-to-text",
+      "kerasformers",
+      "keras",
+      "qwen3_vl",
+      "qwen3-vl",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-26T04:38:53.688917+00:00",
+    "source_ids": [
+      "kerasformers/qwen3-vl-8b-instruct"
+    ],
+    "family": "qwen3-vl"
+  },
+  {
     "id": "huggingface:kerasformers/qwen2-vl-7b",
     "name": "qwen2-vl-7b",
     "provider": "kerasformers",
@@ -14106,41 +14211,6 @@
       "OpenASR/firered2-llm"
     ],
     "family": "firered2-llm"
-  },
-  {
-    "id": "huggingface:nightmedia/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451-Tess-1M-qx64-hi-mlx",
-    "name": "Qwen3.6-27B-Architect-Polaris2-Fable-B-F451-Tess-1M-qx64-hi-mlx",
-    "provider": "nightmedia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-17T03:10:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nightmedia/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451-Tess-1M-qx64-hi-mlx",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "coding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T02:55:33.659492+00:00",
-    "source_ids": [
-      "nightmedia/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451-Tess-1M-qx64-hi-mlx"
-    ],
-    "family": "Qwen3.6-Architect-Polaris2-Fable-B-F451-Tess-1M-qx64-hi-mlx"
   },
   {
     "id": "huggingface:droplychee/droplychee-1.0-27b",
@@ -16645,72 +16715,6 @@
     "family": "Agents-A1-W4A16"
   },
   {
-    "id": "huggingface:Zynerji/Ektome-Qwen3.6-27B-PristinelyUncensored",
-    "name": "Ektome-Qwen3.6-27B-PristinelyUncensored",
-    "provider": "Zynerji",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-02T04:40:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Zynerji/Ektome-Qwen3.6-27B-PristinelyUncensored",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "qwen3_5_text",
-      "uncensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T02:55:32.575076+00:00",
-    "source_ids": [
-      "Zynerji/Ektome-Qwen3.6-27B-PristinelyUncensored"
-    ],
-    "family": "Ektome-Qwen3.6-PristinelyUncensored"
-  },
-  {
-    "id": "huggingface:Zynerji/Ektome-Llama-3.1-8B-PristinelyUncensored",
-    "name": "Ektome-Llama-3.1-8B-PristinelyUncensored",
-    "provider": "Zynerji",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-01T23:27:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Zynerji/Ektome-Llama-3.1-8B-PristinelyUncensored",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "llama",
-      "uncensored",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T02:55:32.575136+00:00",
-    "source_ids": [
-      "Zynerji/Ektome-Llama-3.1-8B-PristinelyUncensored"
-    ],
-    "family": "Ektome-Llama-3.1-PristinelyUncensored"
-  },
-  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-Parse-2.0",
     "name": "NVIDIA-Nemotron-Parse-2.0",
     "provider": "NVIDIA",
@@ -17522,40 +17526,6 @@
       "LiquidAI/LFM2.5-230M"
     ],
     "family": "LFM2.5-230M"
-  },
-  {
-    "id": "huggingface:molbal/krea2-gguf",
-    "name": "krea2-gguf",
-    "provider": "molbal",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-24T21:12:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/molbal/krea2-gguf",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "image-generation",
-      "diffusion",
-      "flow-matching",
-      "dit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-27T02:55:32.742275+00:00",
-    "source_ids": [
-      "molbal/krea2-gguf"
-    ],
-    "family": "krea2"
   },
   {
     "id": "huggingface:litert-community/SmolLM3-3B",
