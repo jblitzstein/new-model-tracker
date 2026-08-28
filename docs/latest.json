@@ -429,6 +429,39 @@
     "family": "GAUTAMAI"
   },
   {
+    "id": "huggingface:summerMC/Qwen3.5-2B-SpeedX",
+    "name": "Qwen3.5-2B-SpeedX",
+    "provider": "summerMC",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T02:49:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/summerMC/Qwen3.5-2B-SpeedX",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_gdn24",
+      "text-generation",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T04:03:54.552055+00:00",
+    "source_ids": [
+      "summerMC/Qwen3.5-2B-SpeedX"
+    ],
+    "family": "Qwen3.5-SpeedX"
+  },
+  {
     "id": "huggingface:joeygambino/MiniMax-H3-x-Z-Image-GGUF",
     "name": "MiniMax-H3-x-Z-Image-GGUF",
     "provider": "joeygambino",
@@ -495,6 +528,39 @@
       "joeygambino/MiniMax-H3-x-Z-Image-native"
     ],
     "family": "MiniMax-H3-x-Z-Image-native"
+  },
+  {
+    "id": "huggingface:sstoica12/acquisition_student_llama8bins_numina_confidence",
+    "name": "acquisition_student_llama8bins_numina_confidence",
+    "provider": "sstoica12",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-22T06:58:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sstoica12/acquisition_student_llama8bins_numina_confidence",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T04:03:54.552002+00:00",
+    "source_ids": [
+      "sstoica12/acquisition_student_llama8bins_numina_confidence"
+    ],
+    "family": "acquisition_student_llama8bins_numina_confidence"
   },
   {
     "id": "huggingface:gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
@@ -5815,6 +5881,39 @@
       "StarDoc-AI/NaviDC-OCR"
     ],
     "family": "NaviDC-OCR"
+  },
+  {
+    "id": "huggingface:RadixArk/Qwen3.8-27B-DSpark",
+    "name": "Qwen3.8-27B-DSpark",
+    "provider": "RadixArk",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T06:12:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RadixArk/Qwen3.8-27B-DSpark",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T04:03:54.551934+00:00",
+    "source_ids": [
+      "RadixArk/Qwen3.8-27B-DSpark"
+    ],
+    "family": "Qwen3.8-DSpark"
   },
   {
     "id": "huggingface:RadixArk/Qwen3.8-27B-NVFP4",
@@ -12271,39 +12370,6 @@
     "family": "SixpertK1"
   },
   {
-    "id": "huggingface:GrEarl/Kimi-K3-GGUF",
-    "name": "Kimi-K3-GGUF",
-    "provider": "GrEarl",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-27T15:39:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/GrEarl/Kimi-K3-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "kimi-k3",
-      "q2_k",
-      "moe",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-29T02:37:52.664714+00:00",
-    "source_ids": [
-      "GrEarl/Kimi-K3-GGUF"
-    ],
-    "family": "Kimi-K3"
-  },
-  {
     "id": "huggingface:RadixArk/Kimi-K3-DSpark",
     "name": "Kimi-K3-DSpark",
     "provider": "RadixArk",
@@ -13748,41 +13814,6 @@
     "family": "Qwen3.5-MXFP4-AttnFP8-V2"
   },
   {
-    "id": "huggingface:rdtand/Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm",
-    "name": "Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm",
-    "provider": "rdtand",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-22T16:06:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rdtand/Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm",
-    "tags": [
-      "image-text-to-text",
-      "gridbook",
-      "safetensors",
-      "qwen3_5",
-      "prismaquant",
-      "codebook-quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-28T21:07:31.530299+00:00",
-    "source_ids": [
-      "rdtand/Qwen3.6-27B-prismaquant-gridbook-5.5bit-vllm"
-    ],
-    "family": "Qwen3.6-prismaquant-gridbook-5.5bit-vllm"
-  },
-  {
     "id": "huggingface:mindlab-research/Macaron-V1-Tall",
     "name": "Macaron-V1-Tall",
     "provider": "mindlab-research",
@@ -14353,72 +14384,6 @@
     "family": "GLM-5.2-Vision-NVFP4"
   },
   {
-    "id": "huggingface:Myric/Kimi-Linear-48B-A3B-Instruct-APEX-GGUF",
-    "name": "Kimi-Linear-48B-A3B-Instruct-APEX-GGUF",
-    "provider": "Myric",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-20T17:41:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Myric/Kimi-Linear-48B-A3B-Instruct-APEX-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "moe",
-      "apex",
-      "quantized",
-      "kimi-linear"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-29T02:37:52.664589+00:00",
-    "source_ids": [
-      "Myric/Kimi-Linear-48B-A3B-Instruct-APEX-GGUF"
-    ],
-    "family": "Kimi-Linear--APEX"
-  },
-  {
-    "id": "huggingface:Panhapich/pre-train-llama",
-    "name": "pre-train-llama",
-    "provider": "Panhapich",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-20T15:05:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Panhapich/pre-train-llama",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "text-generation",
-      "pytorch",
-      "from-scratch",
-      "decoder-only"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-28T21:07:30.784319+00:00",
-    "source_ids": [
-      "Panhapich/pre-train-llama"
-    ],
-    "family": "pre-train-llama"
-  },
-  {
     "id": "huggingface:ifmylove2011/girlslike-krea2",
     "name": "girlslike-krea2",
     "provider": "ifmylove2011",
@@ -14917,41 +14882,6 @@
       "inclusionAI/LLaDA2.2-flash"
     ],
     "family": "LLaDA2.2-flash"
-  },
-  {
-    "id": "huggingface:RedHatAI/Inkling-FP8-dynamic",
-    "name": "Inkling-FP8-dynamic",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-15T22:37:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Inkling-FP8-dynamic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "inkling_mm_model",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-29T02:37:53.741280+00:00",
-    "source_ids": [
-      "RedHatAI/Inkling-FP8-dynamic"
-    ],
-    "family": "Inkling-FP8-dynamic"
   },
   {
     "id": "huggingface:saidutta69/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-heretic",
@@ -16373,72 +16303,6 @@
     "family": "cohere-transcribe-arabic-07-2026"
   },
   {
-    "id": "huggingface:lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
-    "name": "ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
-    "provider": "lmcoleman",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T13:00:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "rocm",
-      "amd",
-      "strix-halo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-29T02:37:52.664898+00:00",
-    "source_ids": [
-      "lmcoleman/ThinkingCap-Qwen3.6-27B-ROCmFPX-GGUF"
-    ],
-    "family": "ThinkingCap-Qwen3.6-ROCmFPX"
-  },
-  {
-    "id": "huggingface:lmcoleman/ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF",
-    "name": "ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF",
-    "provider": "lmcoleman",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T12:54:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lmcoleman/ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "magicquant",
-      "hybrid-quantization",
-      "mtp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-29T02:37:52.664974+00:00",
-    "source_ids": [
-      "lmcoleman/ThinkingCap-Qwen3.6-27B-MagicQuant-GGUF"
-    ],
-    "family": "ThinkingCap-Qwen3.6-MagicQuant"
-  },
-  {
     "id": "huggingface:jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
     "name": "Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF",
     "provider": "jashepp",
@@ -16707,39 +16571,6 @@
     "first_seen": "2026-07-31T17:36:37.625087+00:00",
     "source_ids": [
       "Nanthasit/sakthai-context-7b-merged"
-    ],
-    "family": "sakthai-context-merged"
-  },
-  {
-    "id": "huggingface:Nanthasit/sakthai-context-0.5b-merged",
-    "name": "sakthai-context-0.5b-merged",
-    "provider": "Nanthasit",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-05T12:13:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Nanthasit/sakthai-context-0.5b-merged",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-28T21:07:30.784420+00:00",
-    "source_ids": [
-      "Nanthasit/sakthai-context-0.5b-merged"
     ],
     "family": "sakthai-context-merged"
   },
@@ -18650,39 +18481,6 @@
       "Atomic-Germ/Qwopus3.5-9B-Coder-NPU2"
     ],
     "family": "Qwopus3.5-Coder-NPU2"
-  },
-  {
-    "id": "openrouter:minimax/minimax-m3:batch",
-    "name": "MiniMax: MiniMax M3 (batch)",
-    "provider": "MiniMax",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-31T16:36:14+00:00",
-    "context_length": 524288,
-    "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
-    "url": "https://openrouter.ai/minimax/minimax-m3:batch",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.15,
-      "completion_per_million": 0.6
-    },
-    "first_seen": "2026-07-28T21:07:30.641308+00:00",
-    "source_ids": [
-      "minimax/minimax-m3:batch"
-    ],
-    "family": "MiniMax M3 (batch)"
   },
   {
     "id": "openrouter:minimax/minimax-m3:free",
