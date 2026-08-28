@@ -129878,5 +129878,709 @@
       "summerMC/Qwen3.5-2B-SpeedX"
     ],
     "family": "Qwen3.5-SpeedX"
+  },
+  {
+    "id": "openrouter:tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T06:09:35+00:00",
+    "context_length": 1048576,
+    "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
+    "url": "https://openrouter.ai/tencent/hy4-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.834,
+      "completion_per_million": 2.501
+    },
+    "first_seen": "2026-08-28T19:55:25.864963+00:00",
+    "source_ids": [
+      "tencent/hy4-preview"
+    ],
+    "family": "Hy4"
+  },
+  {
+    "id": "openrouter:z-ai/glm-5.3-flash:batch",
+    "name": "Z.ai: GLM 5.3 Flash (batch)",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T13:59:01+00:00",
+    "context_length": 1048575,
+    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
+    "url": "https://openrouter.ai/z-ai/glm-5.3-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.5
+    },
+    "first_seen": "2026-08-28T19:55:25.866143+00:00",
+    "source_ids": [
+      "z-ai/glm-5.3-flash:batch"
+    ],
+    "family": "GLM 5.3 Flash (batch)"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.8-2.4t-a95b:batch",
+    "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T16:21:42+00:00",
+    "context_length": 1010000,
+    "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-2.4t-a95b:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-08-28T19:55:25.866573+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-2.4t-a95b:batch"
+    ],
+    "family": "Qwen3.8 2.4T A (batch)"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4-pro-0813:batch",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T15:42:44+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.32,
+      "completion_per_million": 3.96
+    },
+    "first_seen": "2026-08-28T19:55:25.866665+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4-pro-0813:batch"
+    ],
+    "family": "DeepSeek V4 Pro 0813 (batch)"
+  },
+  {
+    "id": "openrouter:meta/muse-glimmer-30b:batch",
+    "name": "Meta: Muse Glimmer 30B (batch)",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T19:06:34+00:00",
+    "context_length": 131072,
+    "description": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon...",
+    "url": "https://openrouter.ai/meta/muse-glimmer-30b:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.35,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-08-28T19:55:25.866888+00:00",
+    "source_ids": [
+      "meta/muse-glimmer-30b:batch"
+    ],
+    "family": "Muse Glimmer (batch)"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4-flash-0731:batch",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T06:21:48+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.14,
+      "completion_per_million": 0.28
+    },
+    "first_seen": "2026-08-28T19:55:25.867029+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4-flash-0731:batch"
+    ],
+    "family": "DeepSeek V4 Flash 0731 (batch)"
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k3:batch",
+    "name": "MoonshotAI: Kimi K3 (batch)",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-16T15:30:58+00:00",
+    "context_length": 1048576,
+    "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k3:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 3.0,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-08-28T19:55:25.867588+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k3:batch"
+    ],
+    "family": "Kimi K3 (batch)"
+  },
+  {
+    "id": "openrouter:mistralai/mistral-medium-3-5:batch",
+    "name": "Mistral: Mistral Medium 3.5 (batch)",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T17:33:59+00:00",
+    "context_length": 262144,
+    "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+    "url": "https://openrouter.ai/mistralai/mistral-medium-3-5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.75,
+      "completion_per_million": 3.75
+    },
+    "first_seen": "2026-08-28T19:55:25.869147+00:00",
+    "source_ids": [
+      "mistralai/mistral-medium-3-5:batch"
+    ],
+    "family": "Mistral Medium 3.5 (batch)"
+  },
+  {
+    "id": "openrouter:google/gemma-4-31b-it:batch",
+    "name": "Google: Gemma 4 31B (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-02T16:48:06+00:00",
+    "context_length": 262144,
+    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
+    "url": "https://openrouter.ai/google/gemma-4-31b-it:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.39,
+      "completion_per_million": 0.97
+    },
+    "first_seen": "2026-08-28T19:55:25.870309+00:00",
+    "source_ids": [
+      "google/gemma-4-31b-it:batch"
+    ],
+    "family": "Gemma 4 (batch)"
+  },
+  {
+    "id": "openrouter:mistralai/mistral-small-2603:batch",
+    "name": "Mistral: Mistral Small 4 (batch)",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T21:14:45+00:00",
+    "context_length": 262144,
+    "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from...",
+    "url": "https://openrouter.ai/mistralai/mistral-small-2603:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-08-28T19:55:25.870822+00:00",
+    "source_ids": [
+      "mistralai/mistral-small-2603:batch"
+    ],
+    "family": "Mistral Small 4 (batch)"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.5-9b:batch",
+    "name": "Qwen: Qwen3.5-9B (batch)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-10T14:19:56+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design...",
+    "url": "https://openrouter.ai/qwen/qwen3.5-9b:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.17,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-08-28T19:55:25.870976+00:00",
+    "source_ids": [
+      "qwen/qwen3.5-9b:batch"
+    ],
+    "family": "Qwen3.5 (batch)"
+  },
+  {
+    "id": "openrouter:mistralai/ministral-8b-2512:batch",
+    "name": "Mistral: Ministral 3 8B 2512 (batch)",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-02T13:20:54+00:00",
+    "context_length": 262144,
+    "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities.",
+    "url": "https://openrouter.ai/mistralai/ministral-8b-2512:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.15
+    },
+    "first_seen": "2026-08-28T19:55:25.872502+00:00",
+    "source_ids": [
+      "mistralai/ministral-8b-2512:batch"
+    ],
+    "family": "Ministral 3 2512 (batch)"
+  },
+  {
+    "id": "openrouter:mistralai/mistral-large-2512:batch",
+    "name": "Mistral: Mistral Large 3 2512 (batch)",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-01T21:27:52+00:00",
+    "context_length": 262144,
+    "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
+    "url": "https://openrouter.ai/mistralai/mistral-large-2512:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 1.5
+    },
+    "first_seen": "2026-08-28T19:55:25.872586+00:00",
+    "source_ids": [
+      "mistralai/mistral-large-2512:batch"
+    ],
+    "family": "Mistral Large 3 2512 (batch)"
+  },
+  {
+    "id": "openrouter:mistralai/mistral-medium-3.1:batch",
+    "name": "Mistral: Mistral Medium 3.1 (batch)",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-13T14:33:59+00:00",
+    "context_length": 131072,
+    "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances...",
+    "url": "https://openrouter.ai/mistralai/mistral-medium-3.1:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.4,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-08-28T19:55:25.873908+00:00",
+    "source_ids": [
+      "mistralai/mistral-medium-3.1:batch"
+    ],
+    "family": "Mistral Medium 3.1 (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-oss-120b:batch",
+    "name": "OpenAI: gpt-oss-120b (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-05T17:17:11+00:00",
+    "context_length": 131072,
+    "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized...",
+    "url": "https://openrouter.ai/openai/gpt-oss-120b:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-08-28T19:55:25.874105+00:00",
+    "source_ids": [
+      "openai/gpt-oss-120b:batch"
+    ],
+    "family": "gpt-oss (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-oss-20b:batch",
+    "name": "OpenAI: gpt-oss-20b (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-05T17:17:09+00:00",
+    "context_length": 131072,
+    "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
+    "url": "https://openrouter.ai/openai/gpt-oss-20b:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-08-28T19:55:25.874157+00:00",
+    "source_ids": [
+      "openai/gpt-oss-20b:batch"
+    ],
+    "family": "gpt-oss (batch)"
+  },
+  {
+    "id": "openrouter:mistralai/codestral-2508:batch",
+    "name": "Mistral: Codestral 2508 (batch)",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-01T20:20:30+00:00",
+    "context_length": 256000,
+    "description": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
+    "url": "https://openrouter.ai/mistralai/codestral-2508:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 0.9
+    },
+    "first_seen": "2026-08-28T19:55:25.874293+00:00",
+    "source_ids": [
+      "mistralai/codestral-2508:batch"
+    ],
+    "family": "Codestral 2508 (batch)"
+  },
+  {
+    "id": "huggingface:shawnw3i/Huihui-Qwen3.8-27B-abliterated-AWQ-MTP",
+    "name": "Huihui-Qwen3.8-27B-abliterated-AWQ-MTP",
+    "provider": "shawnw3i",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T00:18:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shawnw3i/Huihui-Qwen3.8-27B-abliterated-AWQ-MTP",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T19:55:26.840679+00:00",
+    "source_ids": [
+      "shawnw3i/Huihui-Qwen3.8-27B-abliterated-AWQ-MTP"
+    ],
+    "family": "Huihui-Qwen3.8-abliterated--MTP"
+  },
+  {
+    "id": "huggingface:shawnw3i/Qwen3.8-27B-AWQ-MTP",
+    "name": "Qwen3.8-27B-AWQ-MTP",
+    "provider": "shawnw3i",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T17:19:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shawnw3i/Qwen3.8-27B-AWQ-MTP",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T19:55:26.840758+00:00",
+    "source_ids": [
+      "shawnw3i/Qwen3.8-27B-AWQ-MTP"
+    ],
+    "family": "Qwen3.8--MTP"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T19:55:26.840828+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V11"
+  },
+  {
+    "id": "huggingface:OpenVINO/Qwen3.8-27B-int8-ov",
+    "name": "Qwen3.8-27B-int8-ov",
+    "provider": "OpenVINO",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T16:08:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenVINO/Qwen3.8-27B-int8-ov",
+    "tags": [
+      "image-text-to-text",
+      "openvino",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.8-27B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T19:55:26.840916+00:00",
+    "source_ids": [
+      "OpenVINO/Qwen3.8-27B-int8-ov"
+    ],
+    "family": "Qwen3.8-int8-ov"
+  },
+  {
+    "id": "huggingface:RedHatAI/Qwen3.8-27B-NVFP4",
+    "name": "Qwen3.8-27B-NVFP4",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T14:56:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Qwen3.8-27B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-28T19:55:26.840980+00:00",
+    "source_ids": [
+      "RedHatAI/Qwen3.8-27B-NVFP4"
+    ],
+    "family": "Qwen3.8-NVFP4"
   }
 ]
