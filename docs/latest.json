@@ -863,6 +863,40 @@
     "family": "FastLLM"
   },
   {
+    "id": "huggingface:themohal/saraiki-whisper-small",
+    "name": "saraiki-whisper-small",
+    "provider": "themohal",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T16:58:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/themohal/saraiki-whisper-small",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "saraiki"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-29T02:44:16.674579+00:00",
+    "source_ids": [
+      "themohal/saraiki-whisper-small"
+    ],
+    "family": "saraiki-whisper-small"
+  },
+  {
     "id": "huggingface:AETHORIA-AI/TR-HASH-MoE-200M-160B-SFT",
     "name": "TR-HASH-MoE-200M-160B-SFT",
     "provider": "AETHORIA-AI",
@@ -2826,6 +2860,41 @@
       "tigerking009/ZOYA_FLASH_V1_PHASE0"
     ],
     "family": "ZOYA_FLASH_V1_PHASE0"
+  },
+  {
+    "id": "huggingface:Shiftedx/qwen3.8-27b-aeon-ultimate-uncensored-mxfp4-vision-mtplx",
+    "name": "qwen3.8-27b-aeon-ultimate-uncensored-mxfp4-vision-mtplx",
+    "provider": "Shiftedx",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-16T17:36:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Shiftedx/qwen3.8-27b-aeon-ultimate-uncensored-mxfp4-vision-mtplx",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "mxfp4",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-29T02:44:16.746410+00:00",
+    "source_ids": [
+      "Shiftedx/qwen3.8-27b-aeon-ultimate-uncensored-mxfp4-vision-mtplx"
+    ],
+    "family": "qwen3.8-aeon-ultimate-uncensored-mxfp4-vision-mtplx"
   },
   {
     "id": "huggingface:ulkaa/Qwen3.8-27B-AWQ-INT4",
@@ -11438,6 +11507,39 @@
     "family": "Inkling Small"
   },
   {
+    "id": "openrouter:thinkingmachines/inkling-small:batch",
+    "name": "Thinking Machines: Inkling Small (batch)",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T20:25:17+00:00",
+    "context_length": 524288,
+    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-small:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-08-29T02:44:16.120168+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling-small:batch"
+    ],
+    "family": "Inkling Small (batch)"
+  },
+  {
     "id": "huggingface:NikiKrutan/Qwen3.5-0.8B-MTP-GGUF",
     "name": "Qwen3.5-0.8B-MTP-GGUF",
     "provider": "NikiKrutan",
@@ -16864,41 +16966,6 @@
     "family": "sakthai-context-merged"
   },
   {
-    "id": "huggingface:yasu-oh/gemma-4-31B-it-qat-NVFP4",
-    "name": "gemma-4-31B-it-qat-NVFP4",
-    "provider": "yasu-oh",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-05T06:11:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/yasu-oh/gemma-4-31B-it-qat-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-30T02:24:50.870738+00:00",
-    "source_ids": [
-      "yasu-oh/gemma-4-31B-it-qat-NVFP4"
-    ],
-    "family": "gemma-4-it-qat-NVFP4"
-  },
-  {
     "id": "huggingface:cstr/irodori-tts-GGUF",
     "name": "irodori-tts-GGUF",
     "provider": "cstr",
@@ -18904,38 +18971,37 @@
     "family": "cosyvoice3-2512"
   },
   {
-    "id": "huggingface:FunAudioLLM/Fun-ASR-Nano-2512-hf",
-    "name": "Fun-ASR-Nano-2512-hf",
-    "provider": "FunAudioLLM",
+    "id": "huggingface:nvidia/Qwen3.6-35B-A3B-NVFP4",
+    "name": "Qwen3.6-35B-A3B-NVFP4",
+    "provider": "NVIDIA",
     "source": "huggingface",
     "modality": [
-      "audio",
       "text"
     ],
     "input_modalities": [
-      "audio"
+      "text"
     ],
     "output_modalities": [
       "text"
     ],
-    "release_date": "2026-05-24T11:25:24.000Z",
+    "release_date": "2026-05-27T18:09:46.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512-hf",
+    "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
     "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "fun_asr_nano",
       "text-generation",
-      "speech-recognition"
+      "Model Optimizer",
+      "safetensors",
+      "qwen3_5_moe",
+      "nvidia",
+      "ModelOpt"
     ],
     "pricing": null,
-    "first_seen": "2026-07-29T20:55:33.575355+00:00",
+    "first_seen": "2026-08-29T02:44:16.233828+00:00",
     "source_ids": [
-      "FunAudioLLM/Fun-ASR-Nano-2512-hf"
+      "nvidia/Qwen3.6-35B-A3B-NVFP4"
     ],
-    "family": "Fun-ASR-Nano-2512-hf"
+    "family": "Qwen3.6-NVFP4"
   },
   {
     "id": "huggingface:NeuralNet-Hub/Qwen3.6-35B-A3B-Uncensored-NVFP4",
@@ -21199,6 +21265,39 @@
       "neuphonic/neutts-nano-q4-gguf"
     ],
     "family": "neutts-nano-q4"
+  },
+  {
+    "id": "huggingface:nvidia/Kimi-K2-Thinking-NVFP4",
+    "name": "Kimi-K2-Thinking-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-02T18:58:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Kimi-K2-Thinking-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "deepseek_v3",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-29T02:44:16.233910+00:00",
+    "source_ids": [
+      "nvidia/Kimi-K2-Thinking-NVFP4"
+    ],
+    "family": "Kimi-K2--NVFP4"
   },
   {
     "id": "openrouter:mistralai/ministral-8b-2512:batch",
