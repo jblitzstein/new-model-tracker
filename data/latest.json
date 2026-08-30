@@ -68,6 +68,39 @@
     "family": "Qwen3.8-GSQ-RCO"
   },
   {
+    "id": "huggingface:SZLHOLDINGS/chaski",
+    "name": "chaski",
+    "provider": "SZLHOLDINGS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T16:26:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SZLHOLDINGS/chaski",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "szl-holdings"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T16:09:49.328019+00:00",
+    "source_ids": [
+      "SZLHOLDINGS/chaski"
+    ],
+    "family": "chaski"
+  },
+  {
     "id": "huggingface:inferencerlabs/GLM-5.3-Flash-MLX-Q9",
     "name": "GLM-5.3-Flash-MLX-Q9",
     "provider": "inferencerlabs",
@@ -6425,6 +6458,39 @@
     "family": "Qwen3.8-Uncensored-Aggressive"
   },
   {
+    "id": "huggingface:tiyuvta/Qwen3.8-27B-NVFP4-MTP-GGUF",
+    "name": "Qwen3.8-27B-NVFP4-MTP-GGUF",
+    "provider": "tiyuvta",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T17:13:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tiyuvta/Qwen3.8-27B-NVFP4-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "memra",
+      "gguf",
+      "nvfp4",
+      "speculative-decoding",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T16:09:49.327961+00:00",
+    "source_ids": [
+      "tiyuvta/Qwen3.8-27B-NVFP4-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-NVFP4-MTP"
+  },
+  {
     "id": "huggingface:esatapedico/Qwen3.8-27B-NVFP4-MTP-GGUF",
     "name": "Qwen3.8-27B-NVFP4-MTP-GGUF",
     "provider": "esatapedico",
@@ -12239,35 +12305,6 @@
     "family": "gemma-4-e-it-qat"
   },
   {
-    "id": "openrouter:deepseek/deepseek-v4-flash-0731",
-    "name": "DeepSeek: DeepSeek V4 Flash 0731",
-    "provider": "DeepSeek",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-31T06:21:48+00:00",
-    "context_length": 1048576,
-    "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.",
-    "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.14,
-      "completion_per_million": 0.28
-    },
-    "first_seen": "2026-07-31T10:38:25.070068+00:00",
-    "source_ids": [
-      "deepseek/deepseek-v4-flash-0731"
-    ],
-    "family": "DeepSeek V4 Flash"
-  },
-  {
     "id": "openrouter:deepseek/deepseek-v4-flash-0731:batch",
     "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
     "provider": "DeepSeek",
@@ -12559,40 +12596,6 @@
       "ggml-org/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF"
     ],
     "family": "NVIDIA-Nemotron-3-Nano"
-  },
-  {
-    "id": "huggingface:Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World",
-    "name": "Cosmos-1.0-Diffusion-7B-Text2World",
-    "provider": "Arsh9210",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-07-30T11:23:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World",
-    "tags": [
-      "text-to-video",
-      "cosmos",
-      "diffusers",
-      "safetensors",
-      "nvidia",
-      "nemo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T14:05:48.772067+00:00",
-    "source_ids": [
-      "Arsh9210/Cosmos-1.0-Diffusion-7B-Text2World"
-    ],
-    "family": "Cosmos-1.0-Diffusion-Text2World"
   },
   {
     "id": "huggingface:kerasformers/gemma-2-27b",
@@ -13300,40 +13303,6 @@
       "skt/A.X-K2"
     ],
     "family": "A.X-K2"
-  },
-  {
-    "id": "huggingface:Audio8/Audio8-TTS-Preview-0.6b",
-    "name": "Audio8-TTS-Preview-0.6b",
-    "provider": "Audio8",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-07-28T07:53:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "arktts",
-      "feature-extraction",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T14:05:49.004011+00:00",
-    "source_ids": [
-      "Audio8/Audio8-TTS-Preview-0.6b"
-    ],
-    "family": "Audio8-TTS"
   },
   {
     "id": "huggingface:protoLabsAI/ThinkingCap-Qwen3.6-27B-abliterated-MTP-GGUF",
@@ -14642,41 +14611,6 @@
     "family": "OpenCaption-VL-SFT-v1.0-i1"
   },
   {
-    "id": "huggingface:CloudGoat/Mephisto-4B-0725",
-    "name": "Mephisto-4B-0725",
-    "provider": "CloudGoat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-25T07:29:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CloudGoat/Mephisto-4B-0725",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen3_5",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T14:05:49.238998+00:00",
-    "source_ids": [
-      "CloudGoat/Mephisto-4B-0725"
-    ],
-    "family": "Mephisto-0725"
-  },
-  {
     "id": "huggingface:amineouaki/whisper-small-darija-combined",
     "name": "whisper-small-darija-combined",
     "provider": "amineouaki",
@@ -14910,40 +14844,6 @@
       "laion/moss-tts-local-transformer-4.55b-voice-acting-v2"
     ],
     "family": "moss-tts-local-transformer-voice-acting-v2"
-  },
-  {
-    "id": "huggingface:agiws/Fun-CosyVoice3-0.5B",
-    "name": "Fun-CosyVoice3-0.5B",
-    "provider": "agiws",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-07-24T08:52:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/agiws/Fun-CosyVoice3-0.5B",
-    "tags": [
-      "text-to-speech",
-      "cosyvoice",
-      "onnx",
-      "safetensors",
-      "text-to-speech",
-      "tts"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T14:05:49.003908+00:00",
-    "source_ids": [
-      "agiws/Fun-CosyVoice3-0.5B"
-    ],
-    "family": "Fun-CosyVoice3"
   },
   {
     "id": "huggingface:amineouaki/wav2vec2-darija-combined",
@@ -16762,39 +16662,6 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V11"
-  },
-  {
-    "id": "huggingface:User01110/CMA-8M",
-    "name": "CMA-8M",
-    "provider": "User01110",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T04:10:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/User01110/CMA-8M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "cma",
-      "text-generation",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T14:05:48.418693+00:00",
-    "source_ids": [
-      "User01110/CMA-8M"
-    ],
-    "family": "CMA-8M"
   },
   {
     "id": "huggingface:kiel2/KielMind-Lite",
@@ -23611,5 +23478,40 @@
       "openai/gpt-3.5-turbo:batch"
     ],
     "family": "GPT-3.5 Turbo (batch)"
+  },
+  {
+    "id": "huggingface:dh-unibe/trocr-kurrent",
+    "name": "trocr-kurrent",
+    "provider": "dh-unibe",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2022-12-06T14:41:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dh-unibe/trocr-kurrent",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "vision-encoder-decoder",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T16:09:50.062087+00:00",
+    "source_ids": [
+      "dh-unibe/trocr-kurrent"
+    ],
+    "family": "trocr-kurrent"
   }
 ]
