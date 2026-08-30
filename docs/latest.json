@@ -871,6 +871,41 @@
     "family": "GLM-5.3"
   },
   {
+    "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP",
+    "name": "Tiel-Coder-35B-A3B-GGUF-MTP",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-24T18:51:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen35moe",
+      "moe",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T22:26:09.805808+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP"
+    ],
+    "family": "Tiel-Coder--MTP"
+  },
+  {
     "id": "huggingface:hotdogs/Qwen3.8-27B-thinkingcap-abliterated-mtp-GGUF",
     "name": "Qwen3.8-27B-thinkingcap-abliterated-mtp-GGUF",
     "provider": "hotdogs",
@@ -2133,6 +2168,41 @@
       "junafinity/Ornith-1.5-35B-A3B-uncensored-GGUF-8bit"
     ],
     "family": "Ornith-1.5-uncensored--8bit"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
+    "name": "Tiel-Coder-35B-A3B-GGUF",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T23:11:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen35moe",
+      "moe",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T22:26:09.805869+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF"
+    ],
+    "family": "Tiel-Coder"
   },
   {
     "id": "huggingface:junafinity/Ornith-1.5-9B-uncensored-GGUF-8bit",
@@ -9053,6 +9123,41 @@
     "family": "Muse Glimmer (batch)"
   },
   {
+    "id": "huggingface:isaacmg/qwen3-vl-8b-hebrew-v18a-ckpt",
+    "name": "qwen3-vl-8b-hebrew-v18a-ckpt",
+    "provider": "isaacmg",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T19:06:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/isaacmg/qwen3-vl-8b-hebrew-v18a-ckpt",
+    "tags": [
+      "image-text-to-text",
+      "peft",
+      "safetensors",
+      "lora",
+      "ocr",
+      "htr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T22:26:09.805974+00:00",
+    "source_ids": [
+      "isaacmg/qwen3-vl-8b-hebrew-v18a-ckpt"
+    ],
+    "family": "qwen3-vl-hebrew-v18a-ckpt"
+  },
+  {
     "id": "huggingface:meta-models/Muse-Glimmer-30B-GGUF",
     "name": "Muse-Glimmer-30B-GGUF",
     "provider": "meta-models",
@@ -12399,39 +12504,6 @@
       "jaspalsinghsaluja/fb-mms-1b-ncer-train-105029-epochs-15-test-1569"
     ],
     "family": "fb-mms-ncer-train-105029-epochs-15-test-1569"
-  },
-  {
-    "id": "openrouter:thinkingmachines/inkling-small",
-    "name": "Thinking Machines: Inkling Small",
-    "provider": "thinkingmachines",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-30T20:25:17+00:00",
-    "context_length": 524288,
-    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-    "url": "https://openrouter.ai/thinkingmachines/inkling-small",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.58,
-      "completion_per_million": 1.44
-    },
-    "first_seen": "2026-07-31T17:36:37.400674+00:00",
-    "source_ids": [
-      "thinkingmachines/inkling-small"
-    ],
-    "family": "Inkling Small"
   },
   {
     "id": "openrouter:thinkingmachines/inkling-small:free",
@@ -17337,39 +17409,6 @@
     "family": "gh0stx-bf16"
   },
   {
-    "id": "huggingface:Nanthasit/sakthai-context-7b-merged",
-    "name": "sakthai-context-7b-merged",
-    "provider": "Nanthasit",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-06T09:37:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Nanthasit/sakthai-context-7b-merged",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "qwen2.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T17:36:37.625087+00:00",
-    "source_ids": [
-      "Nanthasit/sakthai-context-7b-merged"
-    ],
-    "family": "sakthai-context-merged"
-  },
-  {
     "id": "huggingface:cstr/irodori-tts-GGUF",
     "name": "irodori-tts-GGUF",
     "provider": "cstr",
@@ -21162,39 +21201,6 @@
     "family": "Z-Image-Turbo-Misc-Finetunes-DF11"
   },
   {
-    "id": "huggingface:utter-project/EuroLLM-9B-Instruct-2512",
-    "name": "EuroLLM-9B-Instruct-2512",
-    "provider": "utter-project",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-26T14:21:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/utter-project/EuroLLM-9B-Instruct-2512",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T17:36:37.624957+00:00",
-    "source_ids": [
-      "utter-project/EuroLLM-9B-Instruct-2512"
-    ],
-    "family": "EuroLLM--2512"
-  },
-  {
     "id": "huggingface:LiquidAI/LFM2.5-1.2B-Thinking",
     "name": "LFM2.5-1.2B-Thinking",
     "provider": "LiquidAI",
@@ -21567,39 +21573,6 @@
     "family": "VoxCPM1.5"
   },
   {
-    "id": "huggingface:utter-project/EuroLLM-22B-Instruct-2512",
-    "name": "EuroLLM-22B-Instruct-2512",
-    "provider": "utter-project",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-05T02:33:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T17:36:37.625024+00:00",
-    "source_ids": [
-      "utter-project/EuroLLM-22B-Instruct-2512"
-    ],
-    "family": "EuroLLM--2512"
-  },
-  {
     "id": "huggingface:neuphonic/neutts-nano-q4-gguf",
     "name": "neutts-nano-q4-gguf",
     "provider": "neuphonic",
@@ -21729,39 +21702,6 @@
       "mistralai/mistral-large-2512:batch"
     ],
     "family": "Mistral Large 3 2512 (batch)"
-  },
-  {
-    "id": "huggingface:utter-project/EuroLLM-22B-2512",
-    "name": "EuroLLM-22B-2512",
-    "provider": "utter-project",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-11-24T20:57:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/utter-project/EuroLLM-22B-2512",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-07-31T17:36:37.624995+00:00",
-    "source_ids": [
-      "utter-project/EuroLLM-22B-2512"
-    ],
-    "family": "EuroLLM-2512"
   },
   {
     "id": "huggingface:neuphonic/neutts-nano",
