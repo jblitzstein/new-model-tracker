@@ -131495,5 +131495,143 @@
       "brandonmusic/GLM-5.3-Flash-tr3-4bpw"
     ],
     "family": "GLM-5.3-Flash-tr3-4bpw"
+  },
+  {
+    "id": "huggingface:ggml-org/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF",
+    "name": "NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T13:22:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "text-generation",
+      "base_model:nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "base_model:quantized:nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T03:58:30.535265+00:00",
+    "source_ids": [
+      "ggml-org/NVIDIA-Nemotron-3-Nano-30B-A3B-GGUF"
+    ],
+    "family": "NVIDIA-Nemotron-3-Nano"
+  },
+  {
+    "id": "huggingface:devan-carlin/Qwen3.8-27B-int4-AutoRound",
+    "name": "Qwen3.8-27B-int4-AutoRound",
+    "provider": "devan-carlin",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T05:49:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/devan-carlin/Qwen3.8-27B-int4-AutoRound",
+    "tags": [
+      "image-text-to-text",
+      "vllm",
+      "safetensors",
+      "qwen3_5",
+      "qwen",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T03:58:31.021254+00:00",
+    "source_ids": [
+      "devan-carlin/Qwen3.8-27B-int4-AutoRound"
+    ],
+    "family": "Qwen3.8-int4-AutoRound"
+  },
+  {
+    "id": "huggingface:leok7v/gemma-4-e2b-it-qat",
+    "name": "gemma-4-e2b-it-qat",
+    "provider": "leok7v",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T07:38:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leok7v/gemma-4-e2b-it-qat",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gemma4",
+      "quantized",
+      "on-device",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T03:58:31.021430+00:00",
+    "source_ids": [
+      "leok7v/gemma-4-e2b-it-qat"
+    ],
+    "family": "gemma-4-e-it-qat"
+  },
+  {
+    "id": "huggingface:leok7v/Qwen3.8-27B",
+    "name": "Qwen3.8-27B",
+    "provider": "leok7v",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T09:00:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leok7v/Qwen3.8-27B",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3.8",
+      "quantized",
+      "1-bit",
+      "2-bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-30T03:58:31.021463+00:00",
+    "source_ids": [
+      "leok7v/Qwen3.8-27B"
+    ],
+    "family": "Qwen3.8"
   }
 ]
