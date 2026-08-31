@@ -132352,5 +132352,134 @@
       "llmfan46/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-GGUF"
     ],
     "family": "Qwen3.8-Ultra-Uncensored-Heretic-Native-MTP-Preserved"
+  },
+  {
+    "id": "openrouter:ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B",
+    "provider": "IBM",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T20:06:20+00:00",
+    "context_length": 131072,
+    "description": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,...",
+    "url": "https://openrouter.ai/ibm-granite/granite-4.2-8b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.15
+    },
+    "first_seen": "2026-08-31T21:19:11.899651+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.2-8b"
+    ],
+    "family": "Granite 4.2"
+  },
+  {
+    "id": "huggingface:smshahbaj/Rifa-Nano-0.5B",
+    "name": "Rifa-Nano-0.5B",
+    "provider": "smshahbaj",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T09:15:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/smshahbaj/Rifa-Nano-0.5B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-31T21:19:12.088563+00:00",
+    "source_ids": [
+      "smshahbaj/Rifa-Nano-0.5B"
+    ],
+    "family": "Rifa-Nano"
+  },
+  {
+    "id": "huggingface:AbstractPhil/mini-beatrix-1",
+    "name": "mini-beatrix-1",
+    "provider": "AbstractPhil",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T23:00:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AbstractPhil/mini-beatrix-1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mini-beatrix",
+      "text-generation",
+      "byte-level"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-31T21:19:12.088744+00:00",
+    "source_ids": [
+      "AbstractPhil/mini-beatrix-1"
+    ],
+    "family": "mini-beatrix-1"
+  },
+  {
+    "id": "huggingface:nvidia/canary-1b-v2",
+    "name": "canary-1b-v2",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-04T13:34:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/canary-1b-v2",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "canary",
+      "automatic-speech-recognition",
+      "automatic-speech-translation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-08-31T21:19:12.762712+00:00",
+    "source_ids": [
+      "nvidia/canary-1b-v2"
+    ],
+    "family": "canary-v2"
   }
 ]
