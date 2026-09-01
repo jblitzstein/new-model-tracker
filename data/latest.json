@@ -1,5 +1,67 @@
 [
   {
+    "id": "huggingface:ishikaa/acquisition_student_AS_confidence_numina_qwen7b",
+    "name": "acquisition_student_AS_confidence_numina_qwen7b",
+    "provider": "ishikaa",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T01:28:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ishikaa/acquisition_student_AS_confidence_numina_qwen7b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T16:09:12.046016+00:00",
+    "source_ids": [
+      "ishikaa/acquisition_student_AS_confidence_numina_qwen7b"
+    ],
+    "family": "acquisition_student_AS_confidence_numina_qwen"
+  },
+  {
+    "id": "openrouter:inception/mercury-2.5-preview",
+    "name": "Inception: Mercury 2.5 Preview",
+    "provider": "Inception",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T20:57:44+00:00",
+    "context_length": 260000,
+    "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
+    "url": "https://openrouter.ai/inception/mercury-2.5-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.04,
+      "completion_per_million": 0.15
+    },
+    "first_seen": "2026-09-01T16:09:11.893353+00:00",
+    "source_ids": [
+      "inception/mercury-2.5-preview"
+    ],
+    "family": "Mercury 2.5"
+  },
+  {
     "id": "openrouter:ibm-granite/granite-4.2-8b",
     "name": "IBM: Granite 4.2 8B",
     "provider": "IBM",
@@ -1506,6 +1568,40 @@
       "Gautam6/GAUTAMAI"
     ],
     "family": "GAUTAMAI"
+  },
+  {
+    "id": "huggingface:FastVideo/FastVideo-Minimax-FastH3-Preview-v0.2",
+    "name": "FastVideo-Minimax-FastH3-Preview-v0.2",
+    "provider": "FastVideo",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-23T04:46:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FastVideo/FastVideo-Minimax-FastH3-Preview-v0.2",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "text-to-video",
+      "video",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T16:09:12.212141+00:00",
+    "source_ids": [
+      "FastVideo/FastVideo-Minimax-FastH3-Preview-v0.2"
+    ],
+    "family": "FastVideo-Minimax-FastH3--v0.2"
   },
   {
     "id": "huggingface:summerMC/Qwen3.5-2B-SpeedX",
@@ -10704,6 +10800,39 @@
     "family": "MiniArt-Uncensored"
   },
   {
+    "id": "huggingface:fastino/Fastino-Nemotron-3.5-Lightning-Finance",
+    "name": "Fastino-Nemotron-3.5-Lightning-Finance",
+    "provider": "fastino",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T08:52:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/fastino/Fastino-Nemotron-3.5-Lightning-Finance",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "finance"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T16:09:12.045933+00:00",
+    "source_ids": [
+      "fastino/Fastino-Nemotron-3.5-Lightning-Finance"
+    ],
+    "family": "Fastino-Nemotron-3.5-Lightning-Finance"
+  },
+  {
     "id": "huggingface:neroued/Qwen3.8-27B-nvfp4-NInfer",
     "name": "Qwen3.8-27B-nvfp4-NInfer",
     "provider": "neroued",
@@ -11145,6 +11274,40 @@
     "family": "NVIDIA-Nemotron-3.5-Lightning-NVFP4"
   },
   {
+    "id": "huggingface:ibm-granite/granite-speech-5.0-470m-turboctc",
+    "name": "granite-speech-5.0-470m-turboctc",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-04T14:07:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "granite_speech5_ctc",
+      "automatic-speech-recognition",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T16:09:12.400937+00:00",
+    "source_ids": [
+      "ibm-granite/granite-speech-5.0-470m-turboctc"
+    ],
+    "family": "granite-speech-5.0-470m-turboctc"
+  },
+  {
     "id": "huggingface:internlm/Intern-S2-Mobius-FP8",
     "name": "Intern-S2-Mobius-FP8",
     "provider": "InternLM",
@@ -11443,6 +11606,39 @@
       "quimmedes/Deepwen-3.6"
     ],
     "family": "Deepwen-3.6"
+  },
+  {
+    "id": "huggingface:webAI-Official/TwIL-LM3",
+    "name": "TwIL-LM3",
+    "provider": "webAI-Official",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-03T20:53:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/webAI-Official/TwIL-LM3",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "smollm3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T16:09:12.045865+00:00",
+    "source_ids": [
+      "webAI-Official/TwIL-LM3"
+    ],
+    "family": "TwIL-LM3"
   },
   {
     "id": "huggingface:el4/GRM-3.2-Sky-ONYX-GGUF",
@@ -12384,40 +12580,6 @@
     "family": "LFM2.5"
   },
   {
-    "id": "huggingface:sulaimank/w2vbert-waxal-r5",
-    "name": "w2vbert-waxal-r5",
-    "provider": "sulaimank",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-01T14:04:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sulaimank/w2vbert-waxal-r5",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T09:56:19.318373+00:00",
-    "source_ids": [
-      "sulaimank/w2vbert-waxal-r5"
-    ],
-    "family": "w2vbert-waxal-r5"
-  },
-  {
     "id": "huggingface:Omnico/Krea2_turbo_diff_loras",
     "name": "Krea2_turbo_diff_loras",
     "provider": "Omnico",
@@ -12981,40 +13143,6 @@
       "bytedance-seed/seed-2.0-code"
     ],
     "family": "Seed-2.0-Code"
-  },
-  {
-    "id": "huggingface:jaspalsinghsaluja/fb-mms-1b-ncer-train-105029-epochs-15-test-1569",
-    "name": "fb-mms-1b-ncer-train-105029-epochs-15-test-1569",
-    "provider": "jaspalsinghsaluja",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-30T21:52:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jaspalsinghsaluja/fb-mms-1b-ncer-train-105029-epochs-15-test-1569",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T09:56:19.318558+00:00",
-    "source_ids": [
-      "jaspalsinghsaluja/fb-mms-1b-ncer-train-105029-epochs-15-test-1569"
-    ],
-    "family": "fb-mms-ncer-train-105029-epochs-15-test-1569"
   },
   {
     "id": "openrouter:thinkingmachines/inkling-small:free",
@@ -14579,41 +14707,6 @@
     "family": "qwen2-vl"
   },
   {
-    "id": "huggingface:hotdogs/Agents-A1-4B-Fable-Preview-GGUF",
-    "name": "Agents-A1-4B-Fable-Preview-GGUF",
-    "provider": "hotdogs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-26T20:41:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hotdogs/Agents-A1-4B-Fable-Preview-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "agents",
-      "agents-a1",
-      "fable",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T09:56:19.374877+00:00",
-    "source_ids": [
-      "hotdogs/Agents-A1-4B-Fable-Preview-GGUF"
-    ],
-    "family": "Agents-A1-Fable"
-  },
-  {
     "id": "huggingface:amineouaki/hubert-darija-combined",
     "name": "hubert-darija-combined",
     "provider": "amineouaki",
@@ -15092,41 +15185,6 @@
     "family": "OpenCaption-VL-SFT-v1.0-i1"
   },
   {
-    "id": "huggingface:mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
-    "name": "OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-25T14:08:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF",
-    "tags": [
-      "visual-question-answering",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "vision-language",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T09:56:19.428108+00:00",
-    "source_ids": [
-      "mradermacher/OpenCaption-4B-VL-SFT-v1.0-i1-GGUF"
-    ],
-    "family": "OpenCaption-VL-SFT-v1.0-i1"
-  },
-  {
     "id": "huggingface:amineouaki/whisper-small-darija-combined",
     "name": "whisper-small-darija-combined",
     "provider": "amineouaki",
@@ -15394,6 +15452,39 @@
       "amineouaki/wav2vec2-darija-combined"
     ],
     "family": "wav2vec2-darija-combined"
+  },
+  {
+    "id": "huggingface:farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+    "name": "OTel-2.0-LLM-31B-IT",
+    "provider": "farbodtavakkoli",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-23T11:27:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "telecom"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T16:09:12.046059+00:00",
+    "source_ids": [
+      "farbodtavakkoli/OTel-2.0-LLM-31B-IT"
+    ],
+    "family": "OTel-2.0-LLM-IT"
   },
   {
     "id": "huggingface:amd/Qwen3.5-397B-A17B-MXFP4-AttnFP8-V2",
@@ -15868,40 +15959,6 @@
     "family": "GLM-5.2-Vision-NVFP4"
   },
   {
-    "id": "huggingface:ifmylove2011/girlslike-krea2",
-    "name": "girlslike-krea2",
-    "provider": "ifmylove2011",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-20T02:02:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ifmylove2011/girlslike-krea2",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "lora",
-      "girlslike",
-      "krea2",
-      "text-to-image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T13:20:37.958353+00:00",
-    "source_ids": [
-      "ifmylove2011/girlslike-krea2"
-    ],
-    "family": "girlslike-krea2"
-  },
-  {
     "id": "huggingface:Sandeep4235/llama3-8b-Wisdom-gguf",
     "name": "llama3-8b-Wisdom-gguf",
     "provider": "Sandeep4235",
@@ -16064,40 +16121,6 @@
       "mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp"
     ],
     "family": "GLM-5.2-colibri-int4-g64-with-int8-mtp"
-  },
-  {
-    "id": "huggingface:OpenASR/firered2-llm",
-    "name": "firered2-llm",
-    "provider": "OpenASR",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-17T04:02:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenASR/firered2-llm",
-    "tags": [
-      "automatic-speech-recognition",
-      "openasr",
-      "automatic-speech-recognition",
-      "speech-to-text",
-      "oasr",
-      "firered2-llm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T09:56:19.318436+00:00",
-    "source_ids": [
-      "OpenASR/firered2-llm"
-    ],
-    "family": "firered2-llm"
   },
   {
     "id": "huggingface:droplychee/droplychee-1.0-27b",
@@ -16848,6 +16871,41 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V11"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T16:09:12.468903+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V12"
   },
   {
     "id": "huggingface:kiel2/KielMind-Lite",
