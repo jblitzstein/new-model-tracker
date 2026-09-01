@@ -132481,5 +132481,177 @@
       "nvidia/canary-1b-v2"
     ],
     "family": "canary-v2"
+  },
+  {
+    "id": "huggingface:chenyumo/moziAI-35B-A3B-MOE-MTP-Uncensored",
+    "name": "moziAI-35B-A3B-MOE-MTP-Uncensored",
+    "provider": "chenyumo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-10T19:42:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chenyumo/moziAI-35B-A3B-MOE-MTP-Uncensored",
+    "tags": [
+      "text-generation",
+      "llama-cpp",
+      "gguf",
+      "qwen3_5_moe",
+      "MoE",
+      "financial-llm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:17.931842+00:00",
+    "source_ids": [
+      "chenyumo/moziAI-35B-A3B-MOE-MTP-Uncensored"
+    ],
+    "family": "moziAI-MOE-MTP-Uncensored"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen3-TTS-12Hz-0.6B-Base",
+    "name": "Qwen3-TTS-12Hz-0.6B-Base",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-07T03:57:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen3-TTS-12Hz-0.6B-Base",
+    "tags": [
+      "text-to-speech",
+      "litert",
+      "tflite",
+      "text-to-speech",
+      "voice-cloning",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.489226+00:00",
+    "source_ids": [
+      "litert-community/Qwen3-TTS-12Hz-0.6B-Base"
+    ],
+    "family": "Qwen3-TTS-12Hz"
+  },
+  {
+    "id": "huggingface:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "name": "DeepSeek-V4-Flash-Vision-Exp",
+    "provider": "DeepSeek",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T06:16:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.696916+00:00",
+    "source_ids": [
+      "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+    ],
+    "family": "DeepSeek-V4-Flash-Vision-Exp"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2.5-VL-3B-GGUF",
+    "name": "LFM2.5-VL-3B-GGUF",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T22:54:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "liquid",
+      "lfm2",
+      "lfm2-vl",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.697079+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-VL-3B-GGUF"
+    ],
+    "family": "LFM2.5-VL"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2.5-VL-3B",
+    "name": "LFM2.5-VL-3B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T22:54:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "lfm2_vl",
+      "image-text-to-text",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.697201+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-VL-3B"
+    ],
+    "family": "LFM2.5-VL"
   }
 ]

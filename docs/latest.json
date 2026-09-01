@@ -29,6 +29,41 @@
     "family": "Granite 4.2"
   },
   {
+    "id": "huggingface:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "name": "DeepSeek-V4-Flash-Vision-Exp",
+    "provider": "DeepSeek",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T06:16:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.696916+00:00",
+    "source_ids": [
+      "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+    ],
+    "family": "DeepSeek-V4-Flash-Vision-Exp"
+  },
+  {
     "id": "huggingface:llmfan46/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-NVFP4-GGUF",
     "name": "Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-NVFP4-GGUF",
     "provider": "llmfan46",
@@ -8542,6 +8577,76 @@
     "family": "LTX-2.5-distilled-nvfp4-comfy"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2.5-VL-3B-GGUF",
+    "name": "LFM2.5-VL-3B-GGUF",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T22:54:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "liquid",
+      "lfm2",
+      "lfm2-vl",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.697079+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-VL-3B-GGUF"
+    ],
+    "family": "LFM2.5-VL"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM2.5-VL-3B",
+    "name": "LFM2.5-VL-3B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T22:54:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "lfm2_vl",
+      "image-text-to-text",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.697201+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2.5-VL-3B"
+    ],
+    "family": "LFM2.5-VL"
+  },
+  {
     "id": "huggingface:Asilarkness/testgeniy",
     "name": "testgeniy",
     "provider": "Asilarkness",
@@ -9126,6 +9231,39 @@
       "AtesiT/qwen2.5-1.5b-ru-hallucination-detector"
     ],
     "family": "qwen2.5-ru-hallucination-detector"
+  },
+  {
+    "id": "huggingface:chenyumo/moziAI-35B-A3B-MOE-MTP-Uncensored",
+    "name": "moziAI-35B-A3B-MOE-MTP-Uncensored",
+    "provider": "chenyumo",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-10T19:42:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chenyumo/moziAI-35B-A3B-MOE-MTP-Uncensored",
+    "tags": [
+      "text-generation",
+      "llama-cpp",
+      "gguf",
+      "qwen3_5_moe",
+      "MoE",
+      "financial-llm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:17.931842+00:00",
+    "source_ids": [
+      "chenyumo/moziAI-35B-A3B-MOE-MTP-Uncensored"
+    ],
+    "family": "moziAI-MOE-MTP-Uncensored"
   },
   {
     "id": "huggingface:NikiKrutan/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP-GGUF",
@@ -15428,39 +15566,6 @@
     "family": "neutts-2e"
   },
   {
-    "id": "huggingface:Nanbeige/Nanbeige4.2-3B",
-    "name": "Nanbeige4.2-3B",
-    "provider": "Nanbeige",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T08:39:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nanbeige",
-      "text-generation",
-      "llm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T02:46:59.399319+00:00",
-    "source_ids": [
-      "Nanbeige/Nanbeige4.2-3B"
-    ],
-    "family": "Nanbeige4.2"
-  },
-  {
     "id": "huggingface:saidutta69/DeepSeek-R1-Distill-Qwen-14B-heretic",
     "name": "DeepSeek-R1-Distill-Qwen-14B-heretic",
     "provider": "saidutta69",
@@ -15492,39 +15597,6 @@
       "saidutta69/DeepSeek-R1-Distill-Qwen-14B-heretic"
     ],
     "family": "DeepSeek-R1-Distill-Qwen-heretic"
-  },
-  {
-    "id": "huggingface:Nanbeige/Nanbeige4.2-3B-Base",
-    "name": "Nanbeige4.2-3B-Base",
-    "provider": "Nanbeige",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T03:05:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-Base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nanbeige",
-      "text-generation",
-      "llm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T02:46:59.399361+00:00",
-    "source_ids": [
-      "Nanbeige/Nanbeige4.2-3B-Base"
-    ],
-    "family": "Nanbeige4.2"
   },
   {
     "id": "huggingface:cusiman/Krea2_Collection",
@@ -16334,39 +16406,6 @@
       "stockmark/Stockmark-Nemotron-3-Nano-Omni-JapanDocReader"
     ],
     "family": "Stockmark-Nemotron-3-Nano-Omni-JapanDocReader"
-  },
-  {
-    "id": "huggingface:twaggs88/DeepSeek-V4-Flash-REAP25-DSpark-ds4-GGUF",
-    "name": "DeepSeek-V4-Flash-REAP25-DSpark-ds4-GGUF",
-    "provider": "twaggs88",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-14T18:36:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/twaggs88/DeepSeek-V4-Flash-REAP25-DSpark-ds4-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "deepseek",
-      "moe",
-      "quantized",
-      "2-bit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-02T02:46:59.399140+00:00",
-    "source_ids": [
-      "twaggs88/DeepSeek-V4-Flash-REAP25-DSpark-ds4-GGUF"
-    ],
-    "family": "DeepSeek-V4-Flash-REAP25-DSpark-ds4"
   },
   {
     "id": "huggingface:AnkitAI/Parable-Qwen3-8B-Claude-Fable-5-GGUF",
@@ -17349,6 +17388,40 @@
       "promzeus/gh0stx-bf16"
     ],
     "family": "gh0stx-bf16"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen3-TTS-12Hz-0.6B-Base",
+    "name": "Qwen3-TTS-12Hz-0.6B-Base",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-07T03:57:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen3-TTS-12Hz-0.6B-Base",
+    "tags": [
+      "text-to-speech",
+      "litert",
+      "tflite",
+      "text-to-speech",
+      "voice-cloning",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-01T03:52:18.489226+00:00",
+    "source_ids": [
+      "litert-community/Qwen3-TTS-12Hz-0.6B-Base"
+    ],
+    "family": "Qwen3-TTS-12Hz"
   },
   {
     "id": "huggingface:cstr/irodori-tts-GGUF",
