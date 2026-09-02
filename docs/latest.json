@@ -33,6 +33,39 @@
     "family": "Claude Fable 5.1"
   },
   {
+    "id": "openrouter:anthropic/claude-fable-5.1:batch",
+    "name": "Anthropic: Claude Fable 5.1 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T18:03:58+00:00",
+    "context_length": 1000000,
+    "description": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
+    "url": "https://openrouter.ai/anthropic/claude-fable-5.1:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-09-02T08:27:10.062752+00:00",
+    "source_ids": [
+      "anthropic/claude-fable-5.1:batch"
+    ],
+    "family": "Claude Fable 5.1 (batch)"
+  },
+  {
     "id": "huggingface:ishikaa/acquisition_student_AS_confidence_numina_qwen7b",
     "name": "acquisition_student_AS_confidence_numina_qwen7b",
     "provider": "ishikaa",
@@ -3737,6 +3770,39 @@
       "RedHatAI/Qwen3.8-27B-NVFP4"
     ],
     "family": "Qwen3.8-NVFP4"
+  },
+  {
+    "id": "huggingface:ankushthakurr09/MimansM1_v1",
+    "name": "MimansM1_v1",
+    "provider": "ankushthakurr09",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T14:54:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ankushthakurr09/MimansM1_v1",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "mimans",
+      "code",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T08:27:10.207704+00:00",
+    "source_ids": [
+      "ankushthakurr09/MimansM1_v1"
+    ],
+    "family": "MimansM1_v1"
   },
   {
     "id": "huggingface:orcarouter/Qwen3.8-27B-Uncensored-MLX",
@@ -13080,73 +13146,6 @@
     "family": "DeepSeek-V4-Flash-0731"
   },
   {
-    "id": "huggingface:Vontra/DeepSeek-V4-Flash-0731-MXFP4-MLX",
-    "name": "DeepSeek-V4-Flash-0731-MXFP4-MLX",
-    "provider": "Vontra",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-31T14:05:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Vontra/DeepSeek-V4-Flash-0731-MXFP4-MLX",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "deepseek_v4",
-      "deepseek",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T07:25:49.705296+00:00",
-    "source_ids": [
-      "Vontra/DeepSeek-V4-Flash-0731-MXFP4-MLX"
-    ],
-    "family": "DeepSeek-V4-Flash-0731-MXFP4-MLX"
-  },
-  {
-    "id": "huggingface:Adarshbaghel/Whisper_FT",
-    "name": "Whisper_FT",
-    "provider": "Adarshbaghel",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-31T12:51:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Adarshbaghel/Whisper_FT",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T07:25:50.192080+00:00",
-    "source_ids": [
-      "Adarshbaghel/Whisper_FT"
-    ],
-    "family": "Whisper_FT"
-  },
-  {
     "id": "huggingface:leok7v/gemma-4-e2b-it-qat",
     "name": "gemma-4-e2b-it-qat",
     "provider": "leok7v",
@@ -13574,40 +13573,6 @@
       "wangzhang/GLM-4.7-Flash-abliteratex"
     ],
     "family": "GLM-4.7-Flash-abliteratex"
-  },
-  {
-    "id": "huggingface:ChrisColeTech/krea2-turbo-edit-GGUF",
-    "name": "krea2-turbo-edit-GGUF",
-    "provider": "ChrisColeTech",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-30T01:28:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ChrisColeTech/krea2-turbo-edit-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "text-to-image",
-      "image-to-image",
-      "image-editing",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T07:25:49.796779+00:00",
-    "source_ids": [
-      "ChrisColeTech/krea2-turbo-edit-GGUF"
-    ],
-    "family": "krea2-turbo-edit"
   },
   {
     "id": "huggingface:avlp12/Kimi-K3-Alis-MLX-Dynamic-2.10bpw",
@@ -15314,39 +15279,6 @@
       "Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B"
     ],
     "family": "DeepSeek-V4-Pro-Qwen3.5"
-  },
-  {
-    "id": "huggingface:Goekdeniz-Guelmez/JOSIE-2-4B-Preview",
-    "name": "JOSIE-2-4B-Preview",
-    "provider": "Goekdeniz-Guelmez",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-24T13:52:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Goekdeniz-Guelmez/JOSIE-2-4B-Preview",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "josie",
-      "josie-2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T07:25:49.705259+00:00",
-    "source_ids": [
-      "Goekdeniz-Guelmez/JOSIE-2-4B-Preview"
-    ],
-    "family": "JOSIE-2"
   },
   {
     "id": "huggingface:laion/moss-tts-local-transformer-4.55b-voice-acting-v2",
@@ -18083,76 +18015,6 @@
     "family": "Matcha-TTS"
   },
   {
-    "id": "huggingface:philbert440/Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ",
-    "name": "Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ",
-    "provider": "philbert440",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-25T17:49:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/philbert440/Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T07:25:50.281797+00:00",
-    "source_ids": [
-      "philbert440/Qwen3.6-27B-Uncensored-Cyber-W4A16-AWQ"
-    ],
-    "family": "Qwen3.6-Uncensored-Cyber-W4A16"
-  },
-  {
-    "id": "huggingface:philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
-    "name": "Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
-    "provider": "philbert440",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-25T15:58:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T07:25:50.281890+00:00",
-    "source_ids": [
-      "philbert440/Qwen3.6-27B-Uncensored-Aggressive-W4A16-AWQ"
-    ],
-    "family": "Qwen3.6-Uncensored-Aggressive-W4A16"
-  },
-  {
     "id": "huggingface:litert-community/SmolLM3-3B",
     "name": "SmolLM3-3B",
     "provider": "litert-community",
@@ -20418,6 +20280,41 @@
       "Estebandidoooi/NSFW"
     ],
     "family": "NSFW"
+  },
+  {
+    "id": "huggingface:Vishva007/Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ",
+    "name": "Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ",
+    "provider": "Vishva007",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-02-07T18:35:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vishva007/Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "awq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T08:27:10.602112+00:00",
+    "source_ids": [
+      "Vishva007/Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ"
+    ],
+    "family": "Qwen3-VL--W4A16-AutoRound"
   },
   {
     "id": "huggingface:neuphonic/neutts-nano-spanish",
