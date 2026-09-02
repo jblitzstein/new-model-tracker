@@ -623,6 +623,39 @@
     "family": "SANA-Video_2.0_5B_720p_4step"
   },
   {
+    "id": "openrouter:~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "provider": "~z-ai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T08:00:33+00:00",
+    "context_length": 1310720,
+    "description": "This model always redirects to the latest model in the GLM Flash family.",
+    "url": "https://openrouter.ai/~z-ai/glm-flash-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-09-02T03:12:16.434606+00:00",
+    "source_ids": [
+      "~z-ai/glm-flash-latest"
+    ],
+    "family": "GLM Flash Latest"
+  },
+  {
     "id": "huggingface:brandonmusic/GLM-5.3-Flash-tr3-4bpw",
     "name": "GLM-5.3-Flash-tr3-4bpw",
     "provider": "brandonmusic",
@@ -18120,39 +18153,6 @@
     "family": "Qwen3.6-Uncensored-Aggressive-W4A16"
   },
   {
-    "id": "huggingface:LiquidAI/LFM2.5-230M",
-    "name": "LFM2.5-230M",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-24T23:14:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2.5-230M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T02:48:08.831058+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2.5-230M"
-    ],
-    "family": "LFM2.5-230M"
-  },
-  {
     "id": "huggingface:litert-community/SmolLM3-3B",
     "name": "SmolLM3-3B",
     "provider": "litert-community",
@@ -20554,39 +20554,6 @@
       "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11"
     ],
     "family": "Z-Image-Turbo-Misc-Finetunes-DF11"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2.5-1.2B-Thinking",
-    "name": "LFM2.5-1.2B-Thinking",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-20T13:55:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-03T02:48:08.830924+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2.5-1.2B-Thinking"
-    ],
-    "family": "LFM2.5"
   },
   {
     "id": "huggingface:LiquidAI/LFM2.5-1.2B-Thinking-GGUF",

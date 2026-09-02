@@ -133184,5 +133184,38 @@
       "Jommarn/UNSEEN_Gemma_4_26B_NSFW-GGUF"
     ],
     "family": "UNSEEN_Gemma_4_26B_NSFW"
+  },
+  {
+    "id": "openrouter:~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "provider": "~z-ai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T08:00:33+00:00",
+    "context_length": 1310720,
+    "description": "This model always redirects to the latest model in the GLM Flash family.",
+    "url": "https://openrouter.ai/~z-ai/glm-flash-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-09-02T03:12:16.434606+00:00",
+    "source_ids": [
+      "~z-ai/glm-flash-latest"
+    ],
+    "family": "GLM Flash Latest"
   }
 ]
