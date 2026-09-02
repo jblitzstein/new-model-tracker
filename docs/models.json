@@ -133318,5 +133318,355 @@
       "Vishva007/Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ"
     ],
     "family": "Qwen3-VL--W4A16-AutoRound"
+  },
+  {
+    "id": "openrouter:google/gemini-3.8-flash",
+    "name": "Google: Gemini 3.8 Flash",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T15:14:16+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
+    "url": "https://openrouter.ai/google/gemini-3.8-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.75,
+      "completion_per_million": 3.75
+    },
+    "first_seen": "2026-09-02T16:04:00.749348+00:00",
+    "source_ids": [
+      "google/gemini-3.8-flash"
+    ],
+    "family": "Gemini 3.8 Flash"
+  },
+  {
+    "id": "openrouter:google/gemini-3.8-flash:batch",
+    "name": "Google: Gemini 3.8 Flash (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T15:14:16+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
+    "url": "https://openrouter.ai/google/gemini-3.8-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.375,
+      "completion_per_million": 1.875
+    },
+    "first_seen": "2026-09-02T16:04:00.750049+00:00",
+    "source_ids": [
+      "google/gemini-3.8-flash:batch"
+    ],
+    "family": "Gemini 3.8 Flash (batch)"
+  },
+  {
+    "id": "huggingface:agentionai/Qwen3.8-Flash-Next-AP-GGUF",
+    "name": "Qwen3.8-Flash-Next-AP-GGUF",
+    "provider": "agentionai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-29T08:15:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-AP-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3.8-flash-next",
+      "qwen4exp",
+      "imatrix",
+      "agentionai"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:00.900697+00:00",
+    "source_ids": [
+      "agentionai/Qwen3.8-Flash-Next-AP-GGUF"
+    ],
+    "family": "Qwen3.8-Flash-Next-AP"
+  },
+  {
+    "id": "huggingface:microsoft/VibeVoice-ASR-Streaming-1.5B",
+    "name": "VibeVoice-ASR-Streaming-1.5B",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T15:51:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-1.5B",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "vibevoice",
+      "ASR",
+      "Transcription"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:01.579740+00:00",
+    "source_ids": [
+      "microsoft/VibeVoice-ASR-Streaming-1.5B"
+    ],
+    "family": "VibeVoice-ASR-Streaming"
+  },
+  {
+    "id": "huggingface:microsoft/VibeVoice-ASR-Streaming-7B",
+    "name": "VibeVoice-ASR-Streaming-7B",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T15:46:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "vibevoice",
+      "ASR",
+      "Transcription"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:01.579792+00:00",
+    "source_ids": [
+      "microsoft/VibeVoice-ASR-Streaming-7B"
+    ],
+    "family": "VibeVoice-ASR-Streaming"
+  },
+  {
+    "id": "huggingface:furiosa-ai/Qwen3-VL-2B-Thinking",
+    "name": "Qwen3-VL-2B-Thinking",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T06:51:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/Qwen3-VL-2B-Thinking",
+    "tags": [
+      "image-text-to-text",
+      "furiosa-llm",
+      "safetensors",
+      "qwen3_vl",
+      "furiosa-ai",
+      "qwen3-vl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:01.705755+00:00",
+    "source_ids": [
+      "furiosa-ai/Qwen3-VL-2B-Thinking"
+    ],
+    "family": "Qwen3-VL"
+  },
+  {
+    "id": "huggingface:furiosa-ai/Qwen3-VL-4B-Thinking",
+    "name": "Qwen3-VL-4B-Thinking",
+    "provider": "furiosa-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T06:51:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/furiosa-ai/Qwen3-VL-4B-Thinking",
+    "tags": [
+      "image-text-to-text",
+      "furiosa-llm",
+      "safetensors",
+      "qwen3_vl",
+      "furiosa-ai",
+      "qwen3-vl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:01.705799+00:00",
+    "source_ids": [
+      "furiosa-ai/Qwen3-VL-4B-Thinking"
+    ],
+    "family": "Qwen3-VL"
+  },
+  {
+    "id": "huggingface:nightmedia/Qwen3.8-27B-Brainwaves-1M-qx86-hi-mlx",
+    "name": "Qwen3.8-27B-Brainwaves-1M-qx86-hi-mlx",
+    "provider": "nightmedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T18:44:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nightmedia/Qwen3.8-27B-Brainwaves-1M-qx86-hi-mlx",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:01.705849+00:00",
+    "source_ids": [
+      "nightmedia/Qwen3.8-27B-Brainwaves-1M-qx86-hi-mlx"
+    ],
+    "family": "Qwen3.8-Brainwaves-1M-qx86-hi-mlx"
+  },
+  {
+    "id": "huggingface:VnimanieAI/Qwen3.8-Flash-Next-W4A16",
+    "name": "Qwen3.8-Flash-Next-W4A16",
+    "provider": "VnimanieAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T20:50:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VnimanieAI/Qwen3.8-Flash-Next-W4A16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen4_exp",
+      "image-text-to-text",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:01.705928+00:00",
+    "source_ids": [
+      "VnimanieAI/Qwen3.8-Flash-Next-W4A16"
+    ],
+    "family": "Qwen3.8-Flash-Next-W4A16"
+  },
+  {
+    "id": "huggingface:Brooooooklyn/Qwen3.8-27B-MXFP4-mlx",
+    "name": "Qwen3.8-27B-MXFP4-mlx",
+    "provider": "Brooooooklyn",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T16:23:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Brooooooklyn/Qwen3.8-27B-MXFP4-mlx",
+    "tags": [
+      "image-text-to-text",
+      "mlx-node",
+      "safetensors",
+      "qwen3_5",
+      "mlx",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T16:04:01.705967+00:00",
+    "source_ids": [
+      "Brooooooklyn/Qwen3.8-27B-MXFP4-mlx"
+    ],
+    "family": "Qwen3.8-MXFP4-mlx"
   }
 ]
