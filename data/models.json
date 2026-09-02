@@ -133668,5 +133668,378 @@
       "Brooooooklyn/Qwen3.8-27B-MXFP4-mlx"
     ],
     "family": "Qwen3.8-MXFP4-mlx"
+  },
+  {
+    "id": "openrouter:meta/muse-spark-1.3-contributor",
+    "name": "Meta: Muse Spark 1.3 Contributor",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T20:38:39+00:00",
+    "context_length": 1048576,
+    "description": "Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows. It is designed to track information...",
+    "url": "https://openrouter.ai/meta/muse-spark-1.3-contributor",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-09-02T22:24:06.157761+00:00",
+    "source_ids": [
+      "meta/muse-spark-1.3-contributor"
+    ],
+    "family": "Muse Spark 1.3 Contributor"
+  },
+  {
+    "id": "openrouter:meta/muse-spark-1.3",
+    "name": "Meta: Muse Spark 1.3",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T19:45:59+00:00",
+    "context_length": 1048576,
+    "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It is designed to keep track of information across extended tasks, work through...",
+    "url": "https://openrouter.ai/meta/muse-spark-1.3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.25,
+      "completion_per_million": 4.25
+    },
+    "first_seen": "2026-09-02T22:24:06.158690+00:00",
+    "source_ids": [
+      "meta/muse-spark-1.3"
+    ],
+    "family": "Muse Spark 1.3"
+  },
+  {
+    "id": "huggingface:episod/tt-tnt",
+    "name": "tt-tnt",
+    "provider": "episod",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T15:46:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/episod/tt-tnt",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "tenstorrent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.243949+00:00",
+    "source_ids": [
+      "episod/tt-tnt"
+    ],
+    "family": "tt-tnt"
+  },
+  {
+    "id": "huggingface:takanori-ishikawa/DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF",
+    "name": "DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF",
+    "provider": "takanori-ishikawa",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T12:59:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/takanori-ishikawa/DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "unofficial",
+      "moe",
+      "expert-pruning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.244017+00:00",
+    "source_ids": [
+      "takanori-ishikawa/DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF"
+    ],
+    "family": "DeepSeek-V4-Flash-0731-Pruned"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-4.2-8b-fp8",
+    "name": "granite-4.2-8b-fp8",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T21:05:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-fp8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.244079+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.2-8b-fp8"
+    ],
+    "family": "granite-4.2-fp8"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-4.2-30b",
+    "name": "granite-4.2-30b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-07T16:29:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "granite-4.2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.244119+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.2-30b"
+    ],
+    "family": "granite-4.2"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-4.2-8b",
+    "name": "granite-4.2-8b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-07T16:29:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "granite-4.2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.244145+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.2-8b"
+    ],
+    "family": "granite-4.2"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-4.2-3b",
+    "name": "granite-4.2-3b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-07T16:26:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "granite-4.2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.244171+00:00",
+    "source_ids": [
+      "ibm-granite/granite-4.2-3b"
+    ],
+    "family": "granite-4.2"
+  },
+  {
+    "id": "huggingface:sz14/cRia-LM-75M",
+    "name": "cRia-LM-75M",
+    "provider": "sz14",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T22:37:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sz14/cRia-LM-75M",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "rrt",
+      "text-generation",
+      "recursive-transformer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.244231+00:00",
+    "source_ids": [
+      "sz14/cRia-LM-75M"
+    ],
+    "family": "cRia-LM-75M"
+  },
+  {
+    "id": "huggingface:Tinker-Stack/DeepSeek-V4-Flash-0731-REAP-150b-TQ3_4S-GGUF",
+    "name": "DeepSeek-V4-Flash-0731-REAP-150b-TQ3_4S-GGUF",
+    "provider": "Tinker-Stack",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-29T03:43:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Tinker-Stack/DeepSeek-V4-Flash-0731-REAP-150b-TQ3_4S-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "experimental",
+      "deepseek",
+      "deepseek-v4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.244267+00:00",
+    "source_ids": [
+      "Tinker-Stack/DeepSeek-V4-Flash-0731-REAP-150b-TQ3_4S-GGUF"
+    ],
+    "family": "DeepSeek-V4-Flash-0731-REAP-TQ3_4S"
+  },
+  {
+    "id": "huggingface:TelperionAI/Qwen3.8-27B-INT4-AWQ-GPTQ",
+    "name": "Qwen3.8-27B-INT4-AWQ-GPTQ",
+    "provider": "TelperionAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T00:18:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TelperionAI/Qwen3.8-27B-INT4-AWQ-GPTQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-02T22:24:06.757372+00:00",
+    "source_ids": [
+      "TelperionAI/Qwen3.8-27B-INT4-AWQ-GPTQ"
+    ],
+    "family": "Qwen3.8-INT4"
   }
 ]
