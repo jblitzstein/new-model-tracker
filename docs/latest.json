@@ -1006,6 +1006,41 @@
     "family": "GLM-5.3-Flash-tr3-4bpw"
   },
   {
+    "id": "huggingface:primitive-ai/Qwen3.8-Flash-Next-mixed-NVFP4-FP8",
+    "name": "Qwen3.8-Flash-Next-mixed-NVFP4-FP8",
+    "provider": "primitive-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T21:27:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/primitive-ai/Qwen3.8-Flash-Next-mixed-NVFP4-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen4_exp",
+      "image-text-to-text",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-03T08:35:24.849040+00:00",
+    "source_ids": [
+      "primitive-ai/Qwen3.8-Flash-Next-mixed-NVFP4-FP8"
+    ],
+    "family": "Qwen3.8-Flash-Next-mixed-NVFP4-FP8"
+  },
+  {
     "id": "huggingface:VnimanieAI/Qwen3.8-Flash-Next-W4A16",
     "name": "Qwen3.8-Flash-Next-W4A16",
     "provider": "VnimanieAI",
@@ -1107,6 +1142,41 @@
       "Baekpica/Qwen3.8-Flash-Next-Mixed-Quant-SSD-PLE-GGUF"
     ],
     "family": "Qwen3.8-Flash-Next-Mixed-Quant-SSD-PLE"
+  },
+  {
+    "id": "huggingface:primitive-ai/Qwen3.8-Flash-Next-NVFP4",
+    "name": "Qwen3.8-Flash-Next-NVFP4",
+    "provider": "primitive-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T16:35:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/primitive-ai/Qwen3.8-Flash-Next-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen4_exp",
+      "image-text-to-text",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-03T08:35:24.849117+00:00",
+    "source_ids": [
+      "primitive-ai/Qwen3.8-Flash-Next-NVFP4"
+    ],
+    "family": "Qwen3.8-Flash-Next-NVFP4"
   },
   {
     "id": "huggingface:inferencerlabs/Qwen3.8-Flash-Next-MLX-Q4",
@@ -1515,6 +1585,39 @@
       "alibaba-pai/MiniMax-H3-Acc-LoRAs"
     ],
     "family": "MiniMax-H3-Acc-LoRAs"
+  },
+  {
+    "id": "huggingface:osk-arr00/LFM2.5-8B-A1B-ThinkingCap-GGUF",
+    "name": "LFM2.5-8B-A1B-ThinkingCap-GGUF",
+    "provider": "osk-arr00",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-25T19:14:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/osk-arr00/LFM2.5-8B-A1B-ThinkingCap-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "rocm",
+      "rocmfpx",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-03T08:35:23.957274+00:00",
+    "source_ids": [
+      "osk-arr00/LFM2.5-8B-A1B-ThinkingCap-GGUF"
+    ],
+    "family": "LFM2.5-ThinkingCap"
   },
   {
     "id": "huggingface:nvidia/Qwen3.8-2.4T-A95B-NVFP4",
@@ -2222,6 +2325,39 @@
       "joeygambino/MiniMax-H3-x-Z-Image-native"
     ],
     "family": "MiniMax-H3-x-Z-Image-native"
+  },
+  {
+    "id": "huggingface:code-critic-model/qwen3-4b-sft-prm",
+    "name": "qwen3-4b-sft-prm",
+    "provider": "code-critic-model",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-22T08:50:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/code-critic-model/qwen3-4b-sft-prm",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "code-agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-03T08:35:23.957492+00:00",
+    "source_ids": [
+      "code-critic-model/qwen3-4b-sft-prm"
+    ],
+    "family": "qwen3-sft-prm"
   },
   {
     "id": "huggingface:sstoica12/acquisition_student_llama8bins_numina_confidence",
@@ -5551,6 +5687,41 @@
       "jcbtc/Qwen3.8-27B-CIRU-ActiveFPX-PromptForge"
     ],
     "family": "Qwen3.8-CIRU-ActiveFPX-PromptForge"
+  },
+  {
+    "id": "huggingface:pearsonkyle/Qwen3.8-27B-GPTQ-W4A16",
+    "name": "Qwen3.8-27B-GPTQ-W4A16",
+    "provider": "pearsonkyle",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T19:45:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pearsonkyle/Qwen3.8-27B-GPTQ-W4A16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-03T08:35:24.849234+00:00",
+    "source_ids": [
+      "pearsonkyle/Qwen3.8-27B-GPTQ-W4A16"
+    ],
+    "family": "Qwen3.8--W4A16"
   },
   {
     "id": "huggingface:chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
@@ -9427,6 +9598,39 @@
       "realrebelai/LTX-2.5_GGUFs"
     ],
     "family": "LTX-2.5_GGUFs"
+  },
+  {
+    "id": "huggingface:osk-arr00/lfm2.5-2.6B-thinkingcap-distiller",
+    "name": "lfm2.5-2.6B-thinkingcap-distiller",
+    "provider": "osk-arr00",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T00:48:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/osk-arr00/lfm2.5-2.6B-thinkingcap-distiller",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "lfm2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-03T08:35:23.957345+00:00",
+    "source_ids": [
+      "osk-arr00/lfm2.5-2.6B-thinkingcap-distiller"
+    ],
+    "family": "lfm2.5-thinkingcap-distiller"
   },
   {
     "id": "huggingface:BennyDaBall/LTX-2.5-22b-distilled-nvfp4-comfy",
@@ -16988,6 +17192,41 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V12"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V13-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V13-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V13-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-03T08:35:24.848774+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V13-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V13"
   },
   {
     "id": "huggingface:kiel2/KielMind-Lite",
