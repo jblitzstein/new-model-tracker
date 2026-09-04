@@ -134814,5 +134814,69 @@
       "Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed"
     ],
     "family": "Qwen3.8-MTPLX-Optimized-Speed"
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3.5-content-safety",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T14:04:24+00:00",
+    "context_length": 131072,
+    "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-09-04T03:12:41.800613+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3.5-content-safety"
+    ],
+    "family": "Nemotron 3.5 Content Safety"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.3:batch",
+    "name": "SpaceXAI: Grok 4.3 (batch)",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T23:30:21+00:00",
+    "context_length": 1000000,
+    "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+    "url": "https://openrouter.ai/x-ai/grok-4.3:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-09-04T03:12:41.801146+00:00",
+    "source_ids": [
+      "x-ai/grok-4.3:batch"
+    ],
+    "family": "Grok 4.3 (batch)"
   }
 ]

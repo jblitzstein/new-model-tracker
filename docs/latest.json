@@ -12830,41 +12830,6 @@
     "family": "granite-speech-5.0-470m-turboctc"
   },
   {
-    "id": "huggingface:internlm/Intern-S2-Mobius-FP8",
-    "name": "Intern-S2-Mobius-FP8",
-    "provider": "InternLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-04T09:24:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/internlm/Intern-S2-Mobius-FP8",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "interns2_mobius",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T02:31:12.650263+00:00",
-    "source_ids": [
-      "internlm/Intern-S2-Mobius-FP8"
-    ],
-    "family": "Intern-S2-Mobius-FP8"
-  },
-  {
     "id": "huggingface:cswk/sayit-asr-gguf",
     "name": "sayit-asr-gguf",
     "provider": "cswk",
@@ -14493,41 +14458,6 @@
       "amd/Qwen3.6-35B-A3B-EXTENSOR"
     ],
     "family": "Qwen3.6-EXTENSOR"
-  },
-  {
-    "id": "huggingface:internlm/Intern-S2-Mobius",
-    "name": "Intern-S2-Mobius",
-    "provider": "InternLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-29T13:07:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/internlm/Intern-S2-Mobius",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "interns2_mobius",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T02:31:12.650314+00:00",
-    "source_ids": [
-      "internlm/Intern-S2-Mobius"
-    ],
-    "family": "Intern-S2-Mobius"
   },
   {
     "id": "huggingface:Miguelms13/Wiguel-AI-GGUF",
@@ -19096,6 +19026,37 @@
     "family": "Evo2-8K"
   },
   {
+    "id": "openrouter:nvidia/nemotron-3.5-content-safety",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T14:04:24+00:00",
+    "context_length": 131072,
+    "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
+    "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-09-04T03:12:41.800613+00:00",
+    "source_ids": [
+      "nvidia/nemotron-3.5-content-safety"
+    ],
+    "family": "Nemotron 3.5 Content Safety"
+  },
+  {
     "id": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:batch",
     "name": "NVIDIA: Nemotron 3 Ultra (batch)",
     "provider": "NVIDIA",
@@ -19867,6 +19828,39 @@
       "groxaxo/Qwen3.6-27B-AEON-Ultimate-Uncensored-GPTQ-Pro-FOEM-4bit-g128"
     ],
     "family": "Qwen3.6-AEON-Ultimate-Uncensored--Pro-FOEM-4bit-g128"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.3:batch",
+    "name": "SpaceXAI: Grok 4.3 (batch)",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T23:30:21+00:00",
+    "context_length": 1000000,
+    "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+    "url": "https://openrouter.ai/x-ai/grok-4.3:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-09-04T03:12:41.801146+00:00",
+    "source_ids": [
+      "x-ai/grok-4.3:batch"
+    ],
+    "family": "Grok 4.3 (batch)"
   },
   {
     "id": "openrouter:mistralai/mistral-medium-3-5:batch",
