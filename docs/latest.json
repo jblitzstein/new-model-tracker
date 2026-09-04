@@ -1,5 +1,137 @@
 [
   {
+    "id": "openrouter:openai/gpt-6-astra",
+    "name": "OpenAI: GPT-6 Astra",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T20:13:58+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon...",
+    "url": "https://openrouter.ai/openai/gpt-6-astra",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 50.0
+    },
+    "first_seen": "2026-09-04T22:09:23.495899+00:00",
+    "source_ids": [
+      "openai/gpt-6-astra"
+    ],
+    "family": "GPT-6 Astra"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-astra:batch",
+    "name": "OpenAI: GPT-6 Astra (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T20:13:58+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon...",
+    "url": "https://openrouter.ai/openai/gpt-6-astra:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-09-04T22:09:23.496928+00:00",
+    "source_ids": [
+      "openai/gpt-6-astra:batch"
+    ],
+    "family": "GPT-6 Astra (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-astra-pro",
+    "name": "OpenAI: GPT-6 Astra Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T20:13:55+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-6-astra-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 50.0
+    },
+    "first_seen": "2026-09-04T22:09:23.496970+00:00",
+    "source_ids": [
+      "openai/gpt-6-astra-pro"
+    ],
+    "family": "GPT-6 Astra Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-astra-pro:batch",
+    "name": "OpenAI: GPT-6 Astra Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T20:13:55+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-6-astra-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 5.0,
+      "completion_per_million": 25.0
+    },
+    "first_seen": "2026-09-04T22:09:23.497000+00:00",
+    "source_ids": [
+      "openai/gpt-6-astra-pro:batch"
+    ],
+    "family": "GPT-6 Astra Pro (batch)"
+  },
+  {
     "id": "openrouter:inclusionai/ling-3.0-flash-sante:free",
     "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
     "provider": "inclusionai",
@@ -2920,6 +3052,39 @@
     "family": "acquisition_student_llama8bins_numina_confidence"
   },
   {
+    "id": "huggingface:jashepp/Ornith-1.5-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "name": "Ornith-1.5-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "provider": "jashepp",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-22T04:12:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jashepp/Ornith-1.5-9B-MXFP4_Hybrid-Imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-04T22:09:23.649435+00:00",
+    "source_ids": [
+      "jashepp/Ornith-1.5-9B-MXFP4_Hybrid-Imatrix-GGUF"
+    ],
+    "family": "Ornith-1.5-MXFP4_Hybrid-Imatrix"
+  },
+  {
     "id": "huggingface:gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
     "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
     "provider": "gbuzhf",
@@ -3658,6 +3823,39 @@
       "LouLou1Demon/pixalium-20M-pretrained"
     ],
     "family": "pixalium-20M-pretrained"
+  },
+  {
+    "id": "huggingface:jashepp/Ornith-1.5-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
+    "name": "Ornith-1.5-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
+    "provider": "jashepp",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T13:53:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jashepp/Ornith-1.5-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-04T22:09:23.649389+00:00",
+    "source_ids": [
+      "jashepp/Ornith-1.5-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF"
+    ],
+    "family": "Ornith-1.5-MXFP4_MOE_Hybrid-Imatrix"
   },
   {
     "id": "openrouter:tencent/hy-mt2-1.8b",
@@ -12995,43 +13193,6 @@
       "Atomic-Germ/Qwen3.5-9B-Claude-Code-NPU2"
     ],
     "family": "Qwen3.5-Claude-Code-NPU2"
-  },
-  {
-    "id": "openrouter:meta/muse-spark-1.2",
-    "name": "Meta: Muse Spark 1.2",
-    "provider": "Meta",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-05T19:48:07+00:00",
-    "context_length": 1048576,
-    "description": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks. It accepts text, images, video, audio, and PDF documents, returns text, and offers a 1M-token context...",
-    "url": "https://openrouter.ai/meta/muse-spark-1.2",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.25,
-      "completion_per_million": 4.25
-    },
-    "first_seen": "2026-08-05T21:07:38.433382+00:00",
-    "source_ids": [
-      "meta/muse-spark-1.2"
-    ],
-    "family": "Muse Spark 1.2"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
@@ -22693,39 +22854,6 @@
       "openai/o3-mini-high:batch"
     ],
     "family": "o3 Mini High (batch)"
-  },
-  {
-    "id": "huggingface:RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
-    "name": "DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-02-05T04:42:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "deepseek"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T21:07:38.592776+00:00",
-    "source_ids": [
-      "RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16"
-    ],
-    "family": "DeepSeek-R1-Distill-Qwen-quantized.w4a16"
   },
   {
     "id": "huggingface:Sunbird/asr-whisper-large-v3-salt",
