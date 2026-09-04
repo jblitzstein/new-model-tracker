@@ -1,5 +1,31 @@
 [
   {
+    "id": "openrouter:inclusionai/ling-3.0-flash-sante:free",
+    "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T18:19:06+00:00",
+    "context_length": 262144,
+    "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-09-04T18:50:34.008970+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.0-flash-sante:free"
+    ],
+    "family": "Ling 3.0 Flash Sante"
+  },
+  {
     "id": "huggingface:hsanyyasyn97gmail/cosmos-v2",
     "name": "cosmos-v2",
     "provider": "hsanyyasyn97gmail",
@@ -913,6 +939,39 @@
     "family": "chaski"
   },
   {
+    "id": "huggingface:aj9o9/Qwen3.8-27B-Escha-W2-GGUF",
+    "name": "Qwen3.8-27B-Escha-W2-GGUF",
+    "provider": "aj9o9",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T14:18:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aj9o9/Qwen3.8-27B-Escha-W2-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3",
+      "qwen3.8",
+      "dense",
+      "escha"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-04T18:50:34.192856+00:00",
+    "source_ids": [
+      "aj9o9/Qwen3.8-27B-Escha-W2-GGUF"
+    ],
+    "family": "Qwen3.8-Escha-W2"
+  },
+  {
     "id": "huggingface:inferencerlabs/GLM-5.3-Flash-MLX-Q9",
     "name": "GLM-5.3-Flash-MLX-Q9",
     "provider": "inferencerlabs",
@@ -1146,6 +1205,39 @@
       "kikusuka/breezy-78m-pretrain"
     ],
     "family": "breezy-78m-pretrain"
+  },
+  {
+    "id": "huggingface:pugant/Qwen3.8-Flash-Next-ROCMFP4_STRIX_LEAN-GGUF",
+    "name": "Qwen3.8-Flash-Next-ROCMFP4_STRIX_LEAN-GGUF",
+    "provider": "pugant",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T17:45:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pugant/Qwen3.8-Flash-Next-ROCMFP4_STRIX_LEAN-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "rocmfp4",
+      "rocmfpx",
+      "rocm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-04T18:50:34.192763+00:00",
+    "source_ids": [
+      "pugant/Qwen3.8-Flash-Next-ROCMFP4_STRIX_LEAN-GGUF"
+    ],
+    "family": "Qwen3.8-Flash-Next-ROCMFP4_STRIX_LEAN"
   },
   {
     "id": "openrouter:inclusionai/ling-3.0-flash-fin:free",
@@ -3624,6 +3716,41 @@
       "tencent/hy-mt2-30b-a3b"
     ],
     "family": "Hy-MT2"
+  },
+  {
+    "id": "huggingface:NikiKrutan/Qwen3.8-27B-MTP-GGUF",
+    "name": "Qwen3.8-27B-MTP-GGUF",
+    "provider": "NikiKrutan",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T10:54:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NikiKrutan/Qwen3.8-27B-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3.8",
+      "thinking",
+      "reasoning",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-04T18:50:35.140358+00:00",
+    "source_ids": [
+      "NikiKrutan/Qwen3.8-27B-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-MTP"
   },
   {
     "id": "huggingface:lvladikov/Krea2-Turbo-Distill-4step-LoRA",
@@ -17048,41 +17175,6 @@
     "family": "GLM-5.2-colibri-int4-g64-with-int8-mtp"
   },
   {
-    "id": "huggingface:droplychee/droplychee-1.0-27b",
-    "name": "droplychee-1.0-27b",
-    "provider": "droplychee",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-17T01:32:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/droplychee/droplychee-1.0-27b",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "droplychee"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T17:36:28.227271+00:00",
-    "source_ids": [
-      "droplychee/droplychee-1.0-27b"
-    ],
-    "family": "droplychee-1.0"
-  },
-  {
     "id": "openrouter:moonshotai/kimi-k3:batch",
     "name": "MoonshotAI: Kimi K3 (batch)",
     "provider": "Moonshot AI",
@@ -20476,6 +20568,40 @@
     "family": "Qwen3.6-NVFP4"
   },
   {
+    "id": "huggingface:litert-community/moonshine-tiny",
+    "name": "moonshine-tiny",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T18:27:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/moonshine-tiny",
+    "tags": [
+      "automatic-speech-recognition",
+      "litert",
+      "tflite",
+      "audio",
+      "automatic-speech-recognition",
+      "arxiv:2410.15608"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-04T18:50:35.000841+00:00",
+    "source_ids": [
+      "litert-community/moonshine-tiny"
+    ],
+    "family": "moonshine-tiny"
+  },
+  {
     "id": "huggingface:TitanML/DeepSeek-OCR-2",
     "name": "DeepSeek-OCR-2",
     "provider": "TitanML",
@@ -20870,39 +20996,6 @@
     "family": "GPT-5.4 Pro (batch)"
   },
   {
-    "id": "huggingface:LiquidAI/LFM2-24B-A2B",
-    "name": "LFM2-24B-A2B",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-24T13:50:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2-24B-A2B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2_moe",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T17:36:27.816048+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2-24B-A2B"
-    ],
-    "family": "LFM2"
-  },
-  {
     "id": "openrouter:anthropic/claude-sonnet-4.6:batch",
     "name": "Anthropic: Claude Sonnet 4.6 (batch)",
     "provider": "Anthropic",
@@ -21242,41 +21335,6 @@
     "family": "Ministral-3--2512"
   },
   {
-    "id": "huggingface:unsloth/LFM2.5-VL-1.6B-GGUF",
-    "name": "LFM2.5-VL-1.6B-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-10T06:26:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/LFM2.5-VL-1.6B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "liquid",
-      "unsloth",
-      "lfm2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T17:36:28.227345+00:00",
-    "source_ids": [
-      "unsloth/LFM2.5-VL-1.6B-GGUF"
-    ],
-    "family": "LFM2.5-VL"
-  },
-  {
     "id": "huggingface:LiquidAI/LFM2.5-1.2B-Instruct-MLX-4bit",
     "name": "LFM2.5-1.2B-Instruct-MLX-4bit",
     "provider": "LiquidAI",
@@ -21308,39 +21366,6 @@
       "LiquidAI/LFM2.5-1.2B-Instruct-MLX-4bit"
     ],
     "family": "LFM2.5--MLX-4bit"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2-2.6B-Exp",
-    "name": "LFM2-2.6B-Exp",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-25T11:08:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T17:36:27.815922+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2-2.6B-Exp"
-    ],
-    "family": "LFM2-Exp"
   },
   {
     "id": "huggingface:lolendo/illustrousManga",
@@ -21879,39 +21904,6 @@
     "family": "neutts-air-q4"
   },
   {
-    "id": "huggingface:LiquidAI/LFM2-2.6B",
-    "name": "LFM2-2.6B",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-09-22T17:23:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2-2.6B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T17:36:27.815866+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2-2.6B"
-    ],
-    "family": "LFM2"
-  },
-  {
     "id": "huggingface:openbmb/VoxCPM-0.5B",
     "name": "VoxCPM-0.5B",
     "provider": "openbmb",
@@ -22304,72 +22296,6 @@
       "openbmb/MiniCPM-V-4"
     ],
     "family": "MiniCPM-V-4"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2-1.2B",
-    "name": "LFM2-1.2B",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-10T12:01:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2-1.2B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T17:36:27.816089+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2-1.2B"
-    ],
-    "family": "LFM2"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM2-700M",
-    "name": "LFM2-700M",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-07-10T12:01:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2-700M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-05T17:36:27.816108+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2-700M"
-    ],
-    "family": "LFM2-700M"
   },
   {
     "id": "openrouter:openai/o3-pro:batch",
