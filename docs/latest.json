@@ -265,6 +265,41 @@
     "family": "Muse Spark 1.3"
   },
   {
+    "id": "huggingface:Solstice-AI/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-AWQ",
+    "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-AWQ",
+    "provider": "Solstice-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T18:09:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Solstice-AI/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "solstice-ai",
+      "davidau"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T03:15:31.312267+00:00",
+    "source_ids": [
+      "Solstice-AI/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-AWQ"
+    ],
+    "family": "Qwen3.8-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
+  },
+  {
     "id": "huggingface:microsoft/VibeVoice-ASR-Streaming-1.5B",
     "name": "VibeVoice-ASR-Streaming-1.5B",
     "provider": "Microsoft",
@@ -731,6 +766,39 @@
       "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
     ],
     "family": "DeepSeek-V4-Flash-Vision-Exp"
+  },
+  {
+    "id": "huggingface:TheDrainFlorist/Qwen3.8-Flash-Next-VQ-2.1bpw",
+    "name": "Qwen3.8-Flash-Next-VQ-2.1bpw",
+    "provider": "TheDrainFlorist",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-30T14:12:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TheDrainFlorist/Qwen3.8-Flash-Next-VQ-2.1bpw",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "quantized",
+      "vector-quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T03:15:30.819248+00:00",
+    "source_ids": [
+      "TheDrainFlorist/Qwen3.8-Flash-Next-VQ-2.1bpw"
+    ],
+    "family": "Qwen3.8-Flash-Next-VQ-2.1bpw"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-NVFP4-GGUF",
@@ -2916,6 +2984,39 @@
       "summerMC/Qwen3.5-2B-SpeedX"
     ],
     "family": "Qwen3.5-SpeedX"
+  },
+  {
+    "id": "huggingface:al20312/124M-ChatML-Final",
+    "name": "124M-ChatML-Final",
+    "provider": "al20312",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T00:04:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/al20312/124M-ChatML-Final",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gpt2",
+      "text-generation",
+      "arxiv:1910.09700"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T03:15:30.819119+00:00",
+    "source_ids": [
+      "al20312/124M-ChatML-Final"
+    ],
+    "family": "124M-ChatML-Final"
   },
   {
     "id": "huggingface:joeygambino/MiniMax-H3-x-Z-Image-GGUF",
@@ -17104,41 +17205,6 @@
     "family": "krea2-turbo-bbox"
   },
   {
-    "id": "huggingface:baseten/GLM-5.2-Vision-NVFP4",
-    "name": "GLM-5.2-Vision-NVFP4",
-    "provider": "baseten",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-20T17:45:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/baseten/GLM-5.2-Vision-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "sglang",
-      "safetensors",
-      "glm5v",
-      "multimodal",
-      "vision-language"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-06T02:33:23.909567+00:00",
-    "source_ids": [
-      "baseten/GLM-5.2-Vision-NVFP4"
-    ],
-    "family": "GLM-5.2-Vision-NVFP4"
-  },
-  {
     "id": "huggingface:Ttimms/zaya1-8b-nvfp4-w4a4",
     "name": "zaya1-8b-nvfp4-w4a4",
     "provider": "Ttimms",
@@ -19057,40 +19123,6 @@
       "litert-community/SmolLM3-3B"
     ],
     "family": "SmolLM3"
-  },
-  {
-    "id": "huggingface:Muno459/zipformer_p-arabic",
-    "name": "zipformer_p-arabic",
-    "provider": "Muno459",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-22T23:22:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Muno459/zipformer_p-arabic",
-    "tags": [
-      "automatic-speech-recognition",
-      "icefall",
-      "zipformer_ctc",
-      "arabic",
-      "dialect",
-      "phoneme"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-06T02:33:23.848308+00:00",
-    "source_ids": [
-      "Muno459/zipformer_p-arabic"
-    ],
-    "family": "zipformer_p-arabic"
   },
   {
     "id": "huggingface:cHunter789/Qwen3.6-27B-i1-IQ4_KS_KT-GGUF",
@@ -23180,40 +23212,6 @@
       "openai/gpt-4-turbo:batch"
     ],
     "family": "GPT-4 Turbo (batch)"
-  },
-  {
-    "id": "huggingface:nvidia/parakeet-ctc-1.1b",
-    "name": "parakeet-ctc-1.1b",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2023-12-28T15:27:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/parakeet-ctc-1.1b",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "safetensors",
-      "gguf",
-      "parakeet_ctc",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-06T02:33:23.848336+00:00",
-    "source_ids": [
-      "nvidia/parakeet-ctc-1.1b"
-    ],
-    "family": "parakeet-ctc"
   },
   {
     "id": "openrouter:openai/gpt-3.5-turbo:batch",
