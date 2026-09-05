@@ -158,6 +158,39 @@
     "family": "Ling 3.0 Flash Sante"
   },
   {
+    "id": "openrouter:qwen/qwen3.8-max-0902",
+    "name": "Qwen: Qwen3.8 Max (0902)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-03T21:08:24+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-max-0902",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-09-05T08:06:31.298513+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-max-0902"
+    ],
+    "family": "Qwen3.8 Max (0902)"
+  },
+  {
     "id": "huggingface:hsanyyasyn97gmail/cosmos-v2",
     "name": "cosmos-v2",
     "provider": "hsanyyasyn97gmail",
@@ -440,6 +473,39 @@
       "google/gemini-3.8-flash:batch"
     ],
     "family": "Gemini 3.8 Flash (batch)"
+  },
+  {
+    "id": "huggingface:sstoica12/acquisition_llama8bins_numina_confidence",
+    "name": "acquisition_llama8bins_numina_confidence",
+    "provider": "sstoica12",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T05:18:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sstoica12/acquisition_llama8bins_numina_confidence",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T08:06:31.456004+00:00",
+    "source_ids": [
+      "sstoica12/acquisition_llama8bins_numina_confidence"
+    ],
+    "family": "acquisition_llama8bins_numina_confidence"
   },
   {
     "id": "openrouter:anthropic/claude-fable-5.1",
@@ -5220,6 +5286,41 @@
       "RedHatAI/Qwen3.8-27B-INT4"
     ],
     "family": "Qwen3.8-INT4"
+  },
+  {
+    "id": "huggingface:VisualInference/Qwen3.8-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit",
+    "name": "Qwen3.8-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit",
+    "provider": "VisualInference",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T18:29:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VisualInference/Qwen3.8-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "mlx-vlm",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T08:06:32.229674+00:00",
+    "source_ids": [
+      "VisualInference/Qwen3.8-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit"
+    ],
+    "family": "Qwen3.8-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit"
   },
   {
     "id": "huggingface:philbert440/Qwen3.8-27B-Uncensored-Cyber-GGUF",
@@ -11085,6 +11186,39 @@
     "family": "Nemotron 3.5 Lightning"
   },
   {
+    "id": "huggingface:NANI-Nithin/Ling-3.0-tiny-GGUF",
+    "name": "Ling-3.0-tiny-GGUF",
+    "provider": "NANI-Nithin",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T10:38:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NANI-Nithin/Ling-3.0-tiny-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "imatrix",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T08:06:31.455974+00:00",
+    "source_ids": [
+      "NANI-Nithin/Ling-3.0-tiny-GGUF"
+    ],
+    "family": "Ling-3.0-tiny"
+  },
+  {
     "id": "huggingface:JustANormalTinkerer/hayai-ocr-v2",
     "name": "hayai-ocr-v2",
     "provider": "JustANormalTinkerer",
@@ -13261,6 +13395,39 @@
       "prithivMLmods/Qwen3.8-27B-GGUF"
     ],
     "family": "Qwen3.8"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen3.5-0.8B",
+    "name": "Qwen3.5-0.8B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T01:37:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen3.5-0.8B",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "litert",
+      "litertlm",
+      "on-device",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T08:06:31.455921+00:00",
+    "source_ids": [
+      "litert-community/Qwen3.5-0.8B"
+    ],
+    "family": "Qwen3.5"
   },
   {
     "id": "huggingface:Atomic-Germ/Qwen3.5-9B-Claude-Code-NPU2",
@@ -16834,6 +17001,72 @@
       "mindlab-research/Macaron-V1-Tall"
     ],
     "family": "Macaron-V1-Tall"
+  },
+  {
+    "id": "huggingface:litert-community/LFM2.5-1.2B-Thinking",
+    "name": "LFM2.5-1.2B-Thinking",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-22T03:07:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/LFM2.5-1.2B-Thinking",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "litert",
+      "litertlm",
+      "on-device",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T08:06:31.455832+00:00",
+    "source_ids": [
+      "litert-community/LFM2.5-1.2B-Thinking"
+    ],
+    "family": "LFM2.5"
+  },
+  {
+    "id": "huggingface:litert-community/LFM2.5-1.2B-JP",
+    "name": "LFM2.5-1.2B-JP",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-22T02:33:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/LFM2.5-1.2B-JP",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "litert",
+      "litertlm",
+      "on-device",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-05T08:06:31.455888+00:00",
+    "source_ids": [
+      "litert-community/LFM2.5-1.2B-JP"
+    ],
+    "family": "LFM2.5-JP"
   },
   {
     "id": "huggingface:AlexHung29629/gemma-4-E2B",
