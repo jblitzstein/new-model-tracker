@@ -814,6 +814,39 @@
     "family": "Gemini 3.8 Flash (batch)"
   },
   {
+    "id": "huggingface:AETHORIA-AI/TR-HASH-MoE-100M-70B-Agentic-Refinement",
+    "name": "TR-HASH-MoE-100M-70B-Agentic-Refinement",
+    "provider": "AETHORIA-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T14:15:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AETHORIA-AI/TR-HASH-MoE-100M-70B-Agentic-Refinement",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "tr_hash_moe",
+      "deprecated",
+      "tr-hash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.494910+00:00",
+    "source_ids": [
+      "AETHORIA-AI/TR-HASH-MoE-100M-70B-Agentic-Refinement"
+    ],
+    "family": "TR-HASH-MoE-100M-Agentic-Refinement"
+  },
+  {
     "id": "huggingface:sstoica12/acquisition_llama8bins_numina_confidence",
     "name": "acquisition_llama8bins_numina_confidence",
     "provider": "sstoica12",
@@ -1208,6 +1241,39 @@
     "family": "QU-SSM-60M-MoE"
   },
   {
+    "id": "huggingface:AETHORIA-AI/TR-HASH-MoE-100M-125B-Agentic-Pretraining",
+    "name": "TR-HASH-MoE-100M-125B-Agentic-Pretraining",
+    "provider": "AETHORIA-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T18:15:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AETHORIA-AI/TR-HASH-MoE-100M-125B-Agentic-Pretraining",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "tr_hash_moe",
+      "tr-hash",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.494873+00:00",
+    "source_ids": [
+      "AETHORIA-AI/TR-HASH-MoE-100M-125B-Agentic-Pretraining"
+    ],
+    "family": "TR-HASH-MoE-100M-Agentic-Pretraining"
+  },
+  {
     "id": "huggingface:Baekpica/Qwen3.8-Flash-Next-Uncensored-Mixed-Quant-SSD-PLE-GGUF",
     "name": "Qwen3.8-Flash-Next-Uncensored-Mixed-Quant-SSD-PLE-GGUF",
     "provider": "Baekpica",
@@ -1309,6 +1375,40 @@
       "TheDrainFlorist/Qwen3.8-Flash-Next-VQ-2.1bpw"
     ],
     "family": "Qwen3.8-Flash-Next-VQ-2.1bpw"
+  },
+  {
+    "id": "huggingface:e5ey/MiniMax-H3-Turbo-Lora-Pruned-Fixed",
+    "name": "MiniMax-H3-Turbo-Lora-Pruned-Fixed",
+    "provider": "e5ey",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-30T12:15:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/e5ey/MiniMax-H3-Turbo-Lora-Pruned-Fixed",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "minimax-h3",
+      "turbo",
+      "lora",
+      "video-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.688557+00:00",
+    "source_ids": [
+      "e5ey/MiniMax-H3-Turbo-Lora-Pruned-Fixed"
+    ],
+    "family": "MiniMax-H3-Turbo-Lora-Pruned-Fixed"
   },
   {
     "id": "huggingface:llmfan46/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-NVFP4-GGUF",
@@ -2239,6 +2339,39 @@
       "FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree"
     ],
     "family": "FastVideo-FastH3-4-step--v1-VSA-DataFree"
+  },
+  {
+    "id": "huggingface:avlp12/GLM-5.3-Flash-Alis-MLX-4bit",
+    "name": "GLM-5.3-Flash-Alis-MLX-4bit",
+    "provider": "avlp12",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T23:19:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/avlp12/GLM-5.3-Flash-Alis-MLX-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "glm5_next",
+      "apple-silicon",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.494679+00:00",
+    "source_ids": [
+      "avlp12/GLM-5.3-Flash-Alis-MLX-4bit"
+    ],
+    "family": "GLM-5.3-Flash-Alis-MLX-4bit"
   },
   {
     "id": "huggingface:primitive-ai/Qwen3.8-Flash-Next-mixed-NVFP4-FP8",
@@ -5833,6 +5966,40 @@
       "MahmoodAnaam/MSP-ASR"
     ],
     "family": "MSP-ASR"
+  },
+  {
+    "id": "huggingface:nnndite/krea2nsfwv3",
+    "name": "krea2nsfwv3",
+    "provider": "nnndite",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-18T02:16:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nnndite/krea2nsfwv3",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:krea/Krea-2-Raw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.565094+00:00",
+    "source_ids": [
+      "nnndite/krea2nsfwv3"
+    ],
+    "family": "krea2nsfwv3"
   },
   {
     "id": "huggingface:vishinvents/distil-qwen3-1.7b-posthog-prioritizer",
@@ -15082,40 +15249,6 @@
     "family": "aurum-brain-ai"
   },
   {
-    "id": "huggingface:TenjinDas/Test",
-    "name": "Test",
-    "provider": "TenjinDas",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-08-02T06:50:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TenjinDas/Test",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:calcuis/illustrious"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-07T13:02:27.078312+00:00",
-    "source_ids": [
-      "TenjinDas/Test"
-    ],
-    "family": "Test"
-  },
-  {
     "id": "huggingface:Masterx/vibevoice-asr-bitnet-onnx",
     "name": "vibevoice-asr-bitnet-onnx",
     "provider": "Masterx",
@@ -17078,41 +17211,6 @@
       "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit"
     ],
     "family": "Qwen3.6-Fable-Fusion-711-MTPLX-6bit"
-  },
-  {
-    "id": "huggingface:mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF",
-    "name": "OpenCaption-2B-VL-SFT-v1.0-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-25T14:15:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF",
-    "tags": [
-      "visual-question-answering",
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "vision-language",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-07T08:58:15.132337+00:00",
-    "source_ids": [
-      "mradermacher/OpenCaption-2B-VL-SFT-v1.0-i1-GGUF"
-    ],
-    "family": "OpenCaption-VL-SFT-v1.0-i1"
   },
   {
     "id": "huggingface:Myric/Qwen3.6-35B-A3B-APEX-GGUF",
@@ -20207,39 +20305,6 @@
     "family": "NuExtract3"
   },
   {
-    "id": "huggingface:HuggingFaceBio/Carbon-8B",
-    "name": "Carbon-8B",
-    "provider": "HuggingFaceBio",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-17T23:30:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/HuggingFaceBio/Carbon-8B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "dna"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-07T08:58:14.213425+00:00",
-    "source_ids": [
-      "HuggingFaceBio/Carbon-8B"
-    ],
-    "family": "Carbon"
-  },
-  {
     "id": "huggingface:mobilint/Qwen3-VL-8B-Instruct",
     "name": "Qwen3-VL-8B-Instruct",
     "provider": "mobilint",
@@ -20307,39 +20372,6 @@
       "OpenVINO/whisper-large-v3-turbo-int8-ov"
     ],
     "family": "whisper-large-v3-turbo-int8-ov"
-  },
-  {
-    "id": "huggingface:HuggingFaceBio/Carbon-500M",
-    "name": "Carbon-500M",
-    "provider": "HuggingFaceBio",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T16:09:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/HuggingFaceBio/Carbon-500M",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "dna"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-07T08:58:14.213466+00:00",
-    "source_ids": [
-      "HuggingFaceBio/Carbon-500M"
-    ],
-    "family": "Carbon-500M"
   },
   {
     "id": "huggingface:openbmb/MiniCPM-V-4.6-Thinking-BNB",
@@ -21894,40 +21926,6 @@
       "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
     ],
     "family": "NVIDIA-Nemotron-Nano-v2-VL-BF16"
-  },
-  {
-    "id": "huggingface:optimum-intel-internal-testing/tiny-random-flux",
-    "name": "tiny-random-flux",
-    "provider": "optimum-intel-internal-testing",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2025-10-21T09:55:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-flux",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "openvino",
-      "endpoints_compatible",
-      "diffusers:FluxPipeline"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-07T13:02:27.078248+00:00",
-    "source_ids": [
-      "optimum-intel-internal-testing/tiny-random-flux"
-    ],
-    "family": "tiny-random-flux"
   },
   {
     "id": "huggingface:moonshine-ai/moonshine-base-ja",

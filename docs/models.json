@@ -136862,5 +136862,172 @@
       "litert-community/LFM2.5-2.6B"
     ],
     "family": "LFM2.5"
+  },
+  {
+    "id": "huggingface:avlp12/GLM-5.3-Flash-Alis-MLX-4bit",
+    "name": "GLM-5.3-Flash-Alis-MLX-4bit",
+    "provider": "avlp12",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T23:19:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/avlp12/GLM-5.3-Flash-Alis-MLX-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "glm5_next",
+      "apple-silicon",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.494679+00:00",
+    "source_ids": [
+      "avlp12/GLM-5.3-Flash-Alis-MLX-4bit"
+    ],
+    "family": "GLM-5.3-Flash-Alis-MLX-4bit"
+  },
+  {
+    "id": "huggingface:AETHORIA-AI/TR-HASH-MoE-100M-125B-Agentic-Pretraining",
+    "name": "TR-HASH-MoE-100M-125B-Agentic-Pretraining",
+    "provider": "AETHORIA-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T18:15:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AETHORIA-AI/TR-HASH-MoE-100M-125B-Agentic-Pretraining",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "tr_hash_moe",
+      "tr-hash",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.494873+00:00",
+    "source_ids": [
+      "AETHORIA-AI/TR-HASH-MoE-100M-125B-Agentic-Pretraining"
+    ],
+    "family": "TR-HASH-MoE-100M-Agentic-Pretraining"
+  },
+  {
+    "id": "huggingface:AETHORIA-AI/TR-HASH-MoE-100M-70B-Agentic-Refinement",
+    "name": "TR-HASH-MoE-100M-70B-Agentic-Refinement",
+    "provider": "AETHORIA-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T14:15:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AETHORIA-AI/TR-HASH-MoE-100M-70B-Agentic-Refinement",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "tr_hash_moe",
+      "deprecated",
+      "tr-hash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.494910+00:00",
+    "source_ids": [
+      "AETHORIA-AI/TR-HASH-MoE-100M-70B-Agentic-Refinement"
+    ],
+    "family": "TR-HASH-MoE-100M-Agentic-Refinement"
+  },
+  {
+    "id": "huggingface:nnndite/krea2nsfwv3",
+    "name": "krea2nsfwv3",
+    "provider": "nnndite",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-18T02:16:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nnndite/krea2nsfwv3",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:krea/Krea-2-Raw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.565094+00:00",
+    "source_ids": [
+      "nnndite/krea2nsfwv3"
+    ],
+    "family": "krea2nsfwv3"
+  },
+  {
+    "id": "huggingface:e5ey/MiniMax-H3-Turbo-Lora-Pruned-Fixed",
+    "name": "MiniMax-H3-Turbo-Lora-Pruned-Fixed",
+    "provider": "e5ey",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-30T12:15:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/e5ey/MiniMax-H3-Turbo-Lora-Pruned-Fixed",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "minimax-h3",
+      "turbo",
+      "lora",
+      "video-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-06T15:00:58.688557+00:00",
+    "source_ids": [
+      "e5ey/MiniMax-H3-Turbo-Lora-Pruned-Fixed"
+    ],
+    "family": "MiniMax-H3-Turbo-Lora-Pruned-Fixed"
   }
 ]
