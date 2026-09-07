@@ -1447,6 +1447,41 @@
     "family": "DeepSeek-V4-Flash-Vision-Exp"
   },
   {
+    "id": "huggingface:orcarouter/GLM-5.3-Flash-Uncensored-NVFP4",
+    "name": "GLM-5.3-Flash-Uncensored-NVFP4",
+    "provider": "orcarouter",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T03:16:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/orcarouter/GLM-5.3-Flash-Uncensored-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "glm5_next",
+      "image-text-to-text",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T08:59:02.030997+00:00",
+    "source_ids": [
+      "orcarouter/GLM-5.3-Flash-Uncensored-NVFP4"
+    ],
+    "family": "GLM-5.3-Flash-Uncensored-NVFP4"
+  },
+  {
     "id": "huggingface:AnonimousA/Qwen3.8-Flash-Next-REAP-320-GGUF",
     "name": "Qwen3.8-Flash-Next-REAP-320-GGUF",
     "provider": "AnonimousA",
@@ -2016,6 +2051,72 @@
       "aj9o9/Qwen3.8-27B-Escha-W2-GGUF"
     ],
     "family": "Qwen3.8-Escha-W2"
+  },
+  {
+    "id": "huggingface:XHToken/Spark-X2.5-1.7B-GGUF",
+    "name": "Spark-X2.5-1.7B-GGUF",
+    "provider": "XHToken",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T11:29:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "ollama",
+      "lm-studio",
+      "sparkx2_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T08:59:01.535289+00:00",
+    "source_ids": [
+      "XHToken/Spark-X2.5-1.7B-GGUF"
+    ],
+    "family": "Spark-X2.5"
+  },
+  {
+    "id": "huggingface:XHToken/Spark-X2.5-4B-GGUF",
+    "name": "Spark-X2.5-4B-GGUF",
+    "provider": "XHToken",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T11:26:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "ollama",
+      "lm-studio",
+      "sparkx2_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T08:59:01.535455+00:00",
+    "source_ids": [
+      "XHToken/Spark-X2.5-4B-GGUF"
+    ],
+    "family": "Spark-X2.5"
   },
   {
     "id": "huggingface:inferencerlabs/GLM-5.3-Flash-MLX-Q9",
@@ -3561,6 +3662,41 @@
       "TheDrainFlorist/Qwen3.6-35B-A3B-VQ-3.8bpw"
     ],
     "family": "Qwen3.6-VQ-3.8bpw"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+    "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-25T01:47:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T08:59:02.031258+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
+    ],
+    "family": "Qwen3.8-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
   },
   {
     "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP",
@@ -16079,6 +16215,41 @@
     "family": "gemma-2"
   },
   {
+    "id": "huggingface:neroued/Qwen3.6-27B-nvfp4-NInfer",
+    "name": "Qwen3.6-27B-nvfp4-NInfer",
+    "provider": "neroued",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T06:31:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neroued/Qwen3.6-27B-nvfp4-NInfer",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "qwen3.6",
+      "nvfp4",
+      "w4a4",
+      "blackwell"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T08:59:02.031155+00:00",
+    "source_ids": [
+      "neroued/Qwen3.6-27B-nvfp4-NInfer"
+    ],
+    "family": "Qwen3.6-nvfp4-NInfer"
+  },
+  {
     "id": "huggingface:kerasformers/granite_speech_3_3_2b",
     "name": "granite_speech_3_3_2b",
     "provider": "kerasformers",
@@ -18798,39 +18969,6 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V13-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-V13"
-  },
-  {
-    "id": "huggingface:kiel2/KielMind-Lite",
-    "name": "KielMind-Lite",
-    "provider": "kiel2",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-12T04:23:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kiel2/KielMind-Lite",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "llama",
-      "text-generation",
-      "fine-tuned"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-08T04:55:58.873849+00:00",
-    "source_ids": [
-      "kiel2/KielMind-Lite"
-    ],
-    "family": "KielMind-Lite"
   },
   {
     "id": "huggingface:saracen9/amoral-qwen3.5-9B",
@@ -21718,6 +21856,39 @@
       "LiquidAI/LFM2.5-1.2B-Instruct-MLX-4bit"
     ],
     "family": "LFM2.5--MLX-4bit"
+  },
+  {
+    "id": "huggingface:MultiSense/CustomerLM",
+    "name": "CustomerLM",
+    "provider": "MultiSense",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-05T07:36:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MultiSense/CustomerLM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "causal-lm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T08:59:01.535357+00:00",
+    "source_ids": [
+      "MultiSense/CustomerLM"
+    ],
+    "family": "CustomerLM"
   },
   {
     "id": "huggingface:lolendo/illustrousManga",
