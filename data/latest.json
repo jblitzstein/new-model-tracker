@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:oktayd/Qwen3.6-35B-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Ollama",
+    "name": "Qwen3.6-35B-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Ollama",
+    "provider": "oktayd",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T22:44:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/oktayd/Qwen3.6-35B-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Ollama",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5_moe",
+      "vision",
+      "moe",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T03:13:43.407695+00:00",
+    "source_ids": [
+      "oktayd/Qwen3.6-35B-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Ollama"
+    ],
+    "family": "Qwen3.6-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Ollama"
+  },
+  {
     "id": "huggingface:oktayd/Qwen3.6-35B-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Llama",
     "name": "Qwen3.6-35B-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Llama",
     "provider": "oktayd",
@@ -12906,6 +12941,41 @@
     "family": "North-Micro-Vision"
   },
   {
+    "id": "huggingface:NANI-Nithin/Muse-Glimmer-30B-GGUF",
+    "name": "Muse-Glimmer-30B-GGUF",
+    "provider": "NANI-Nithin",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-10T12:20:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NANI-Nithin/Muse-Glimmer-30B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "muse-glimmer",
+      "muse-glimmer-30b",
+      "llama-cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-07T03:13:43.407615+00:00",
+    "source_ids": [
+      "NANI-Nithin/Muse-Glimmer-30B-GGUF"
+    ],
+    "family": "Muse-Glimmer"
+  },
+  {
     "id": "huggingface:Ttimms/zaya1-8b-nvfp4-w4a4-uniform",
     "name": "zaya1-8b-nvfp4-w4a4-uniform",
     "provider": "Ttimms",
@@ -17785,41 +17855,6 @@
     "family": "LFM2.5-JP"
   },
   {
-    "id": "huggingface:AlexHung29629/gemma-4-E2B",
-    "name": "gemma-4-E2B",
-    "provider": "AlexHung29629",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-22T01:38:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AlexHung29629/gemma-4-E2B",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "gemma4",
-      "unsloth",
-      "gemma",
-      "google"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-08T01:38:53.636063+00:00",
-    "source_ids": [
-      "AlexHung29629/gemma-4-E2B"
-    ],
-    "family": "gemma-4-E"
-  },
-  {
     "id": "huggingface:litert-community/LFM2.5-1.2B-Instruct",
     "name": "LFM2.5-1.2B-Instruct",
     "provider": "litert-community",
@@ -19871,41 +19906,6 @@
     "family": "nemotron-3.5-asr-streaming"
   },
   {
-    "id": "huggingface:RedHatAI/Qwen3.6-35B-A3B",
-    "name": "Qwen3.6-35B-A3B",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-12T13:01:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "vllm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-08T01:38:53.636233+00:00",
-    "source_ids": [
-      "RedHatAI/Qwen3.6-35B-A3B"
-    ],
-    "family": "Qwen3.6"
-  },
-  {
     "id": "huggingface:LiquidAI/LFM2.5-230M-GGUF",
     "name": "LFM2.5-230M-GGUF",
     "provider": "LiquidAI",
@@ -20003,76 +20003,6 @@
       "furiosa-ai/Qwen3-8B-FP8"
     ],
     "family": "Qwen3-FP8"
-  },
-  {
-    "id": "huggingface:RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic",
-    "name": "diffusiongemma-26B-A4B-it-FP8-dynamic",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-09T12:11:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-08T01:38:53.636191+00:00",
-    "source_ids": [
-      "RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic"
-    ],
-    "family": "diffusiongemma-it-FP8-dynamic"
-  },
-  {
-    "id": "huggingface:RedHatAI/diffusiongemma-26B-A4B-it-NVFP4",
-    "name": "diffusiongemma-26B-A4B-it-NVFP4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-09T12:01:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/diffusiongemma-26B-A4B-it-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "diffusion_gemma",
-      "image-text-to-text",
-      "fp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-08T01:38:53.636156+00:00",
-    "source_ids": [
-      "RedHatAI/diffusiongemma-26B-A4B-it-NVFP4"
-    ],
-    "family": "diffusiongemma-it-NVFP4"
   },
   {
     "id": "huggingface:Taykhoom/Evo2-7B-8K",
@@ -21121,41 +21051,6 @@
       "wangzhang/gemma-4-31B-it-abliterated-GGUF"
     ],
     "family": "gemma-4-it-abliterated"
-  },
-  {
-    "id": "huggingface:RedHatAI/Qwen3.6-35B-A3B-NVFP4",
-    "name": "Qwen3.6-35B-A3B-NVFP4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-17T00:40:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "fp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-08T01:38:53.636283+00:00",
-    "source_ids": [
-      "RedHatAI/Qwen3.6-35B-A3B-NVFP4"
-    ],
-    "family": "Qwen3.6-NVFP4"
   },
   {
     "id": "huggingface:litert-community/moonshine-tiny",
