@@ -138151,5 +138151,399 @@
       "DavidAU/Qwen3.6-40B-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF"
     ],
     "family": "Qwen3.6-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4-flash-vision-exp:batch",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T11:26:03+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents,...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.11,
+      "completion_per_million": 0.33
+    },
+    "first_seen": "2026-09-08T16:06:14.187026+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4-flash-vision-exp:batch"
+    ],
+    "family": "DeepSeek V4 Flash Vision Exp (batch)"
+  },
+  {
+    "id": "openrouter:z-ai/glm-5.3:batch",
+    "name": "Z.ai: GLM 5.3 (batch)",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T20:57:35+00:00",
+    "context_length": 1048576,
+    "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
+    "url": "https://openrouter.ai/z-ai/glm-5.3:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.7,
+      "completion_per_million": 2.2
+    },
+    "first_seen": "2026-09-08T16:06:14.187163+00:00",
+    "source_ids": [
+      "z-ai/glm-5.3:batch"
+    ],
+    "family": "GLM 5.3 (batch)"
+  },
+  {
+    "id": "huggingface:YNSScarSaiyan/simi-weights",
+    "name": "simi-weights",
+    "provider": "YNSScarSaiyan",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-06T20:07:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/YNSScarSaiyan/simi-weights",
+    "tags": [
+      "text-generation",
+      "flax",
+      "simi",
+      "weights-only",
+      "no-source",
+      "jax"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.358760+00:00",
+    "source_ids": [
+      "YNSScarSaiyan/simi-weights"
+    ],
+    "family": "simi-weights"
+  },
+  {
+    "id": "huggingface:DZER-Studios/Vexion-gpt-medium",
+    "name": "Vexion-gpt-medium",
+    "provider": "DZER-Studios",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-07T12:12:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DZER-Studios/Vexion-gpt-medium",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "vexion_gpt",
+      "pytorch",
+      "custom_code",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.358858+00:00",
+    "source_ids": [
+      "DZER-Studios/Vexion-gpt-medium"
+    ],
+    "family": "Vexion-gpt-medium"
+  },
+  {
+    "id": "huggingface:oxalis-ink/shamrock-0-e4b",
+    "name": "shamrock-0-e4b",
+    "provider": "oxalis-ink",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T18:31:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/oxalis-ink/shamrock-0-e4b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gemma4",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.358906+00:00",
+    "source_ids": [
+      "oxalis-ink/shamrock-0-e4b"
+    ],
+    "family": "shamrock-0-e"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-LlamaForCausalLM-3.1",
+    "name": "tiny-LlamaForCausalLM-3.1",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-11-25T15:05:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-LlamaForCausalLM-3.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.358987+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-LlamaForCausalLM-3.1"
+    ],
+    "family": "tiny-LlamaForCausalLM-3.1"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-LlamaForCausalLM-3",
+    "name": "tiny-LlamaForCausalLM-3",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-11-25T15:05:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-LlamaForCausalLM-3",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.359021+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-LlamaForCausalLM-3"
+    ],
+    "family": "tiny-LlamaForCausalLM-3"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-RemoteForCausalLM",
+    "name": "tiny-RemoteForCausalLM",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T15:41:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-RemoteForCausalLM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "remote",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.359047+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-RemoteForCausalLM"
+    ],
+    "family": "tiny-RemoteForCausalLM"
+  },
+  {
+    "id": "huggingface:trl-internal-testing/tiny-LlamaForCausalLM-3.2",
+    "name": "tiny-LlamaForCausalLM-3.2",
+    "provider": "trl-internal-testing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-11-25T15:05:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trl-internal-testing/tiny-LlamaForCausalLM-3.2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "trl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.359072+00:00",
+    "source_ids": [
+      "trl-internal-testing/tiny-LlamaForCausalLM-3.2"
+    ],
+    "family": "tiny-LlamaForCausalLM-3.2"
+  },
+  {
+    "id": "huggingface:Raretutor/vdn-minimax-h3-comfyui-int8-convrot",
+    "name": "vdn-minimax-h3-comfyui-int8-convrot",
+    "provider": "Raretutor",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-09-05T13:31:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Raretutor/vdn-minimax-h3-comfyui-int8-convrot",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "comfyui",
+      "video-generation",
+      "vdn",
+      "int8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.680301+00:00",
+    "source_ids": [
+      "Raretutor/vdn-minimax-h3-comfyui-int8-convrot"
+    ],
+    "family": "vdn-minimax-h3-comfyui-int8-convrot"
+  },
+  {
+    "id": "huggingface:ampixa/sanoTTS",
+    "name": "sanoTTS",
+    "provider": "ampixa",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-13T16:15:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ampixa/sanoTTS",
+    "tags": [
+      "text-to-speech",
+      "sanotts",
+      "gguf",
+      "text-to-speech",
+      "tiny",
+      "microcontroller"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:14.902106+00:00",
+    "source_ids": [
+      "ampixa/sanoTTS"
+    ],
+    "family": "sanoTTS"
+  },
+  {
+    "id": "huggingface:dealignai/Qwen3.6-27B-JANG_4M-CRACK",
+    "name": "Qwen3.6-27B-JANG_4M-CRACK",
+    "provider": "dealignai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-23T03:55:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dealignai/Qwen3.6-27B-JANG_4M-CRACK",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "jang",
+      "jang_4m"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T16:06:15.145315+00:00",
+    "source_ids": [
+      "dealignai/Qwen3.6-27B-JANG_4M-CRACK"
+    ],
+    "family": "Qwen3.6-JANG_4M-CRACK"
   }
 ]
