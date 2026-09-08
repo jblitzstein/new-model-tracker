@@ -138545,5 +138545,123 @@
       "dealignai/Qwen3.6-27B-JANG_4M-CRACK"
     ],
     "family": "Qwen3.6-JANG_4M-CRACK"
+  },
+  {
+    "id": "openrouter:inception/mercury-2.5",
+    "name": "Inception: Mercury 2.5",
+    "provider": "Inception",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T18:28:57+00:00",
+    "context_length": 260000,
+    "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
+    "url": "https://openrouter.ai/inception/mercury-2.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.04,
+      "completion_per_million": 0.15
+    },
+    "first_seen": "2026-09-08T22:23:40.191544+00:00",
+    "source_ids": [
+      "inception/mercury-2.5"
+    ],
+    "family": "Mercury 2.5"
+  },
+  {
+    "id": "openrouter:nex-agi/nex-n2.5-mini:free",
+    "name": "Nex AGI: Nex-N2.5-Mini (free)",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T17:54:21+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-09-08T22:23:40.192399+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2.5-mini:free"
+    ],
+    "family": "Nex-N2.5-Mini"
+  },
+  {
+    "id": "openrouter:nex-agi/nex-n2.5-pro:free",
+    "name": "Nex AGI: Nex-N2.5-Pro (free)",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T17:54:10+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-09-08T22:23:40.192431+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2.5-pro:free"
+    ],
+    "family": "Nex-N2.5-Pro"
+  },
+  {
+    "id": "huggingface:Solstice-AI/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-GGUF-UltraOptimised-DSpark-MTP",
+    "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-GGUF-UltraOptimised-DSpark-MTP",
+    "provider": "Solstice-AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T13:07:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Solstice-AI/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-GGUF-UltraOptimised-DSpark-MTP",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "solstice-ai",
+      "davidau",
+      "davidau-quants",
+      "qwen"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-08T22:23:40.878946+00:00",
+    "source_ids": [
+      "Solstice-AI/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-GGUF-UltraOptimised-DSpark-MTP"
+    ],
+    "family": "Qwen3.8-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored--UltraOptimised-DSpark-MTP"
   }
 ]
