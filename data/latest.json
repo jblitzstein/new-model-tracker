@@ -985,6 +985,41 @@
     "family": "Muse Spark 1.3 Contributor"
   },
   {
+    "id": "huggingface:nvidia/GLM-5.3-Flash-NVFP4",
+    "name": "GLM-5.3-Flash-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T20:37:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "Model Optimizer",
+      "safetensors",
+      "glm5_next",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T22:17:34.039836+00:00",
+    "source_ids": [
+      "nvidia/GLM-5.3-Flash-NVFP4"
+    ],
+    "family": "GLM-5.3-Flash-NVFP4"
+  },
+  {
     "id": "openrouter:meta/muse-spark-1.3",
     "name": "Meta: Muse Spark 1.3",
     "provider": "Meta",
@@ -7768,6 +7803,41 @@
       "DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF"
     ],
     "family": "Qwen3.8-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP"
+  },
+  {
+    "id": "huggingface:textclf/Qwen3.8-27B-TQ-4bit",
+    "name": "Qwen3.8-27B-TQ-4bit",
+    "provider": "textclf",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T07:28:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/textclf/Qwen3.8-27B-TQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "qwen",
+      "qwen3.8",
+      "tq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T22:17:34.039723+00:00",
+    "source_ids": [
+      "textclf/Qwen3.8-27B-TQ-4bit"
+    ],
+    "family": "Qwen3.8-TQ-4bit"
   },
   {
     "id": "huggingface:munekazu/Huihui-Qwen3.8-27B-abliterated-FP8",
@@ -19837,40 +19907,6 @@
     "family": "MonkeyOCRv2-B-Parsing"
   },
   {
-    "id": "huggingface:litert-community/FLUX.2-klein-4B-LiteRT",
-    "name": "FLUX.2-klein-4B-LiteRT",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-09T15:02:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/FLUX.2-klein-4B-LiteRT",
-    "tags": [
-      "text-to-image",
-      "litert",
-      "tflite",
-      "text-to-image",
-      "on-device",
-      "diffusion-transformer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T20:41:39.364425+00:00",
-    "source_ids": [
-      "litert-community/FLUX.2-klein-4B-LiteRT"
-    ],
-    "family": "FLUX.2-klein-LiteRT"
-  },
-  {
     "id": "huggingface:AnkitAI/Parable-Qwen3-4B-Claude-Fable-5-GGUF",
     "name": "Parable-Qwen3-4B-Claude-Fable-5-GGUF",
     "provider": "AnkitAI",
@@ -19935,40 +19971,6 @@
       "Brian6145/Qwen3.6-27B-Claude-Opus-DeepSeek-Distilled-Imatrix-MTP-1M-GGUF"
     ],
     "family": "Qwen3.6-Claude-Opus-DeepSeek-Distilled-Imatrix-MTP-1M"
-  },
-  {
-    "id": "huggingface:litert-community/Z-Image-Turbo-LiteRT",
-    "name": "Z-Image-Turbo-LiteRT",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-09T05:50:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/Z-Image-Turbo-LiteRT",
-    "tags": [
-      "text-to-image",
-      "litert",
-      "tflite",
-      "text-to-image",
-      "on-device",
-      "diffusion-transformer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T20:41:39.364398+00:00",
-    "source_ids": [
-      "litert-community/Z-Image-Turbo-LiteRT"
-    ],
-    "family": "Z-Image-Turbo-LiteRT"
   },
   {
     "id": "huggingface:BioTorch/UI_Llama_3_2_1B",
@@ -20138,6 +20140,39 @@
       "DZER-Studios/Vexion-gpt-medium"
     ],
     "family": "Vexion-gpt-medium"
+  },
+  {
+    "id": "huggingface:vcruz305/Hy3-GGUF",
+    "name": "Hy3-GGUF",
+    "provider": "vcruz305",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-07T05:36:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vcruz305/Hy3-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "imatrix",
+      "moe",
+      "hy3",
+      "tencent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T22:17:33.611065+00:00",
+    "source_ids": [
+      "vcruz305/Hy3-GGUF"
+    ],
+    "family": "Hy3"
   },
   {
     "id": "huggingface:litert-community/Qwen3-TTS-12Hz-0.6B-Base",
@@ -21066,6 +21101,39 @@
     "family": "gpt-oss-BF16-w8a8-llmcompressor"
   },
   {
+    "id": "huggingface:LiquidAI/LFM2-2.6B-Longevity",
+    "name": "LFM2-2.6B-Longevity",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-25T20:30:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM2-2.6B-Longevity",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T22:17:33.611109+00:00",
+    "source_ids": [
+      "LiquidAI/LFM2-2.6B-Longevity"
+    ],
+    "family": "LFM2-Longevity"
+  },
+  {
     "id": "huggingface:trl-internal-testing/tiny-RemoteForCausalLM",
     "name": "tiny-RemoteForCausalLM",
     "provider": "trl-internal-testing",
@@ -21920,6 +21988,41 @@
       "litert-community/moonshine-tiny"
     ],
     "family": "moonshine-tiny"
+  },
+  {
+    "id": "huggingface:InfinimindCreations/gemma-4-E4B-it-uncensored-vision",
+    "name": "gemma-4-E4B-it-uncensored-vision",
+    "provider": "InfinimindCreations",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T17:29:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/InfinimindCreations/gemma-4-E4B-it-uncensored-vision",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "vision",
+      "multimodal",
+      "uncensored",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T22:17:34.039875+00:00",
+    "source_ids": [
+      "InfinimindCreations/gemma-4-E4B-it-uncensored-vision"
+    ],
+    "family": "gemma-4-E-it-uncensored-vision"
   },
   {
     "id": "huggingface:TitanML/DeepSeek-OCR-2",
