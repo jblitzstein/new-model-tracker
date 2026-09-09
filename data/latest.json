@@ -116,6 +116,39 @@
     "family": "simi-weights"
   },
   {
+    "id": "huggingface:openbmb/MiniCPM5-2B",
+    "name": "MiniCPM5-2B",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-06T11:12:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "minicpm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T08:41:58.762633+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM5-2B"
+    ],
+    "family": "MiniCPM5"
+  },
+  {
     "id": "huggingface:ngquocvinh/Spark-X2.5-4B-GGUF",
     "name": "Spark-X2.5-4B-GGUF",
     "provider": "ngquocvinh",
@@ -315,6 +348,39 @@
       "RentedNoodle/Qwen3.8-27B-GSQ-RCO-IQ3_XXS-Uncensored"
     ],
     "family": "Qwen3.8-GSQ-RCO-IQ3_XXS-Uncensored"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM5-2B-GGUF",
+    "name": "MiniCPM5-2B-GGUF",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-05T01:44:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "minicpm",
+      "minicpm5",
+      "llama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T08:41:58.762654+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM5-2B-GGUF"
+    ],
+    "family": "MiniCPM5"
   },
   {
     "id": "huggingface:oktayd/Qwen3.6-35B-v2-MoE-Ablit-Heretic-Uncensor-Hermes-MTP-Vision-Ollama",
@@ -810,6 +876,41 @@
       "nerkyor/Qwen3.8-27B-EfficientThink-Uncensored-K3-Opus5-Grok4.6-GPT5.6Sol-SFT-SimPO-DFlash2"
     ],
     "family": "Qwen3.8-Efficient-Uncensored-K3-Opus5-Grok4.6-GPT5.6Sol-SFT-SimPO-DFlash2"
+  },
+  {
+    "id": "huggingface:ManniX-ITA/Qwen3.8-27B-Omnimerge-v6-MTP-GGUF",
+    "name": "Qwen3.8-27B-Omnimerge-v6-MTP-GGUF",
+    "provider": "ManniX-ITA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-03T06:06:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ManniX-ITA/Qwen3.8-27B-Omnimerge-v6-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "imatrix",
+      "quantized",
+      "mtp",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T08:41:59.297562+00:00",
+    "source_ids": [
+      "ManniX-ITA/Qwen3.8-27B-Omnimerge-v6-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-Omnimerge-v6-MTP"
   },
   {
     "id": "huggingface:topabaem/Qwen3.8-27B-STQ",
@@ -2032,6 +2133,39 @@
       "AnonimousA/Qwen3.8-Flash-Next-REAP-320-GGUF"
     ],
     "family": "Qwen3.8-Flash-Next-REAP-320"
+  },
+  {
+    "id": "huggingface:Prannesshkva/ISOM-Falcon-40B",
+    "name": "ISOM-Falcon-40B",
+    "provider": "Prannesshkva",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-30T19:49:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Prannesshkva/ISOM-Falcon-40B",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "falcon",
+      "isom",
+      "isom-falcon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T08:41:58.762490+00:00",
+    "source_ids": [
+      "Prannesshkva/ISOM-Falcon-40B"
+    ],
+    "family": "ISOM-Falcon"
   },
   {
     "id": "huggingface:TheDrainFlorist/Qwen3.8-Flash-Next-VQ-2.1bpw",
@@ -19247,41 +19381,6 @@
     "family": "warmly-qwen35-enko"
   },
   {
-    "id": "huggingface:stockmark/Stockmark-Nemotron-3-Nano-Omni-JapanDocReader",
-    "name": "Stockmark-Nemotron-3-Nano-Omni-JapanDocReader",
-    "provider": "stockmark",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-15T02:45:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/stockmark/Stockmark-Nemotron-3-Nano-Omni-JapanDocReader",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "NemotronH_Nano_Omni_Reasoning_V3",
-      "feature-extraction",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T05:25:56.468965+00:00",
-    "source_ids": [
-      "stockmark/Stockmark-Nemotron-3-Nano-Omni-JapanDocReader"
-    ],
-    "family": "Stockmark-Nemotron-3-Nano-Omni-JapanDocReader"
-  },
-  {
     "id": "huggingface:AnkitAI/Parable-Qwen3-8B-Claude-Fable-5-GGUF",
     "name": "Parable-Qwen3-8B-Claude-Fable-5-GGUF",
     "provider": "AnkitAI",
@@ -19933,41 +20032,6 @@
     "family": "Ornith-1.0-MXFP4_Hybrid-Imatrix"
   },
   {
-    "id": "huggingface:litert-community/Qwen2-VL-2B",
-    "name": "Qwen2-VL-2B",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T09:34:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/Qwen2-VL-2B",
-    "tags": [
-      "image-text-to-text",
-      "litert-lm",
-      "litert",
-      "litertlm",
-      "on-device",
-      "edge"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T05:25:56.468732+00:00",
-    "source_ids": [
-      "litert-community/Qwen2-VL-2B"
-    ],
-    "family": "Qwen2-VL"
-  },
-  {
     "id": "huggingface:furiosa-ai/Qwen3-VL-2B-Instruct",
     "name": "Qwen3-VL-2B-Instruct",
     "provider": "furiosa-ai",
@@ -20239,40 +20303,6 @@
       "litert-community/LLaVA-OneVision-0.5B"
     ],
     "family": "LLaVA-OneVision"
-  },
-  {
-    "id": "huggingface:jaykwok/Qwen3-ASR-1.7B-JA-Anime-Galgame-hf",
-    "name": "Qwen3-ASR-1.7B-JA-Anime-Galgame-hf",
-    "provider": "jaykwok",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-30T05:14:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jaykwok/Qwen3-ASR-1.7B-JA-Anime-Galgame-hf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "qwen3_asr",
-      "automatic-speech-recognition",
-      "qwen3-asr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T05:25:56.410595+00:00",
-    "source_ids": [
-      "jaykwok/Qwen3-ASR-1.7B-JA-Anime-Galgame-hf"
-    ],
-    "family": "Qwen3-ASR-JA-Anime-Galgame-hf"
   },
   {
     "id": "huggingface:software-mansion/react-native-executorch-easy-ocr",
