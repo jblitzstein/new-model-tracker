@@ -2607,6 +2607,41 @@
     "family": "DeepSeek-V4-Flash-0731-REAP-TQ3_4S"
   },
   {
+    "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
+    "name": "Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T21:04:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "omlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T16:01:13.869312+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Tiel-Coder-35B-A3B-MLX-oQ6e-MTP"
+    ],
+    "family": "Tiel-Coder-MLX-oQ6e-MTP"
+  },
+  {
     "id": "huggingface:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
     "name": "Qwen3.8-27B-GSQ-RCO-GGUF",
     "provider": "ISTA-DASLab",
@@ -3941,6 +3976,39 @@
       "smshahbaj/Qwen-Nano-0.5B"
     ],
     "family": "Qwen-Nano"
+  },
+  {
+    "id": "huggingface:LessThanThreeAI/Qwen3.8-27B-Humanlike-Chat-GGUF",
+    "name": "Qwen3.8-27B-Humanlike-Chat-GGUF",
+    "provider": "LessThanThreeAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T08:05:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LessThanThreeAI/Qwen3.8-27B-Humanlike-Chat-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "qwen3.8",
+      "conversational",
+      "roleplay"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T16:01:13.105846+00:00",
+    "source_ids": [
+      "LessThanThreeAI/Qwen3.8-27B-Humanlike-Chat-GGUF"
+    ],
+    "family": "Qwen3.8-Humanlike"
   },
   {
     "id": "huggingface:alibaba-pai/MiniMax-H3-Acc-LoRAs",
@@ -6848,6 +6916,41 @@
       "nightmedia/Qwen3.8-27B-Brainwaves"
     ],
     "family": "Qwen3.8-Brainwaves"
+  },
+  {
+    "id": "huggingface:leonsarmiento/Qwen3.8-27B-3bit-mtp-mlx",
+    "name": "Qwen3.8-27B-3bit-mtp-mlx",
+    "provider": "leonsarmiento",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T15:57:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leonsarmiento/Qwen3.8-27B-3bit-mtp-mlx",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "mlx-vlm",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T16:01:13.869167+00:00",
+    "source_ids": [
+      "leonsarmiento/Qwen3.8-27B-3bit-mtp-mlx"
+    ],
+    "family": "Qwen3.8-3bit-mtp-mlx"
   },
   {
     "id": "huggingface:Hearmeman/minimax-h3-loras",
@@ -14742,40 +14845,6 @@
     "family": "MiniCPM-V-4.6-NPU2"
   },
   {
-    "id": "huggingface:rzgar/minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy",
-    "name": "minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy",
-    "provider": "rzgar",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-08-08T04:00:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rzgar/minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "text-to-video",
-      "text-to-audio",
-      "audio-video",
-      "lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.344665+00:00",
-    "source_ids": [
-      "rzgar/minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy"
-    ],
-    "family": "minimax_h3_fl2v_lightx2v_4step_int8-convrot_comfy"
-  },
-  {
     "id": "huggingface:Motif-Technologies/Motif-3-NVFP4",
     "name": "Motif-3-NVFP4",
     "provider": "Motif-Technologies",
@@ -14873,39 +14942,6 @@
       "CobrIX/CobrIX-1.0-Coder-Full-72B-A18B"
     ],
     "family": "CobrIX-1.0-Coder-Full"
-  },
-  {
-    "id": "huggingface:Scrappy-Doo/GLM-5.2",
-    "name": "GLM-5.2",
-    "provider": "Scrappy-Doo",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-07T21:00:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Scrappy-Doo/GLM-5.2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "glm_moe_dsa",
-      "text-generation",
-      "conversational",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.109168+00:00",
-    "source_ids": [
-      "Scrappy-Doo/GLM-5.2"
-    ],
-    "family": "GLM-5.2"
   },
   {
     "id": "huggingface:ibm-granite/granite-4.2-30b",
@@ -15508,39 +15544,6 @@
       "Baekpica/K-EXAONE-236B-A23B-Mixed-Quant-GGUF"
     ],
     "family": "K-EXAONE-Mixed-Quant"
-  },
-  {
-    "id": "huggingface:Dev4285/MiniArt-Uncensored",
-    "name": "MiniArt-Uncensored",
-    "provider": "Dev4285",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-06T13:03:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Dev4285/MiniArt-Uncensored",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen2",
-      "text-generation",
-      "creative",
-      "roleplay"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T13:06:50.437919+00:00",
-    "source_ids": [
-      "Dev4285/MiniArt-Uncensored"
-    ],
-    "family": "MiniArt-Uncensored"
   },
   {
     "id": "huggingface:fastino/Fastino-Nemotron-3.5-Lightning-Finance",
@@ -19148,39 +19151,6 @@
     "family": "Inkling"
   },
   {
-    "id": "huggingface:mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp",
-    "name": "GLM-5.2-colibri-int4-g64-with-int8-mtp",
-    "provider": "mastouri",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-17T16:43:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp",
-    "tags": [
-      "text-generation",
-      "glm_moe_dsa",
-      "colibri",
-      "glm",
-      "glm-5.2",
-      "glm-5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.109437+00:00",
-    "source_ids": [
-      "mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp"
-    ],
-    "family": "GLM-5.2-colibri-int4-g64-with-int8-mtp"
-  },
-  {
     "id": "openrouter:moonshotai/kimi-k3:batch",
     "name": "MoonshotAI: Kimi K3 (batch)",
     "provider": "Moonshot AI",
@@ -19480,6 +19450,41 @@
       "ampixa/sanoTTS"
     ],
     "family": "sanoTTS"
+  },
+  {
+    "id": "huggingface:Alibaba-DAMO-Academy/RynnBrain1.1-2B",
+    "name": "RynnBrain1.1-2B",
+    "provider": "Alibaba-DAMO-Academy",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:53:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain1.1-2B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "robotics"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T16:01:13.869282+00:00",
+    "source_ids": [
+      "Alibaba-DAMO-Academy/RynnBrain1.1-2B"
+    ],
+    "family": "RynnBrain1.1"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V8-GGUF",
@@ -20439,72 +20444,6 @@
     "family": "moss-tts"
   },
   {
-    "id": "huggingface:furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8",
-    "name": "Qwen3-30B-A3B-Instruct-2507-FP8",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-28T14:29:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "safetensors",
-      "qwen3_moe",
-      "furiosa-ai",
-      "qwen3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.109528+00:00",
-    "source_ids": [
-      "furiosa-ai/Qwen3-30B-A3B-Instruct-2507-FP8"
-    ],
-    "family": "Qwen3--2507-FP8"
-  },
-  {
-    "id": "huggingface:furiosa-ai/Qwen3-4B-FP8",
-    "name": "Qwen3-4B-FP8",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-28T14:26:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Qwen3-4B-FP8",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "safetensors",
-      "qwen3",
-      "furiosa-ai",
-      "fp8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.109226+00:00",
-    "source_ids": [
-      "furiosa-ai/Qwen3-4B-FP8"
-    ],
-    "family": "Qwen3-FP8"
-  },
-  {
     "id": "huggingface:Atomic-Germ/Qwen3.5-9B-Claude-4.8-Opus-NPU2",
     "name": "Qwen3.5-9B-Claude-4.8-Opus-NPU2",
     "provider": "Atomic-Germ",
@@ -20538,38 +20477,37 @@
     "family": "Qwen3.5-Claude-4.8-Opus-NPU2"
   },
   {
-    "id": "huggingface:litert-community/Matcha-TTS",
-    "name": "Matcha-TTS",
-    "provider": "litert-community",
+    "id": "huggingface:georvn7/hayabusa-9b",
+    "name": "hayabusa-9b",
+    "provider": "georvn7",
     "source": "huggingface",
     "modality": [
-      "audio",
       "text"
     ],
     "input_modalities": [
       "text"
     ],
     "output_modalities": [
-      "audio"
+      "text"
     ],
-    "release_date": "2026-06-26T10:19:56.000Z",
+    "release_date": "2026-06-21T01:20:37.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/litert-community/Matcha-TTS",
+    "url": "https://huggingface.co/georvn7/hayabusa-9b",
     "tags": [
-      "text-to-speech",
-      "litert",
-      "tflite",
-      "text-to-speech",
-      "tts",
-      "on-device"
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "qwen"
     ],
     "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.507057+00:00",
+    "first_seen": "2026-09-09T16:01:13.105894+00:00",
     "source_ids": [
-      "litert-community/Matcha-TTS"
+      "georvn7/hayabusa-9b"
     ],
-    "family": "Matcha-TTS"
+    "family": "hayabusa"
   },
   {
     "id": "huggingface:MLXBits/ideogram-4-mlx-q4",
@@ -20731,72 +20669,6 @@
       "LiquidAI/LFM2.5-230M-GGUF"
     ],
     "family": "LFM2.5-230M"
-  },
-  {
-    "id": "huggingface:furiosa-ai/gpt-oss-20b",
-    "name": "gpt-oss-20b",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-09T15:28:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/gpt-oss-20b",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "safetensors",
-      "gpt_oss",
-      "furiosa-ai",
-      "gpt-oss"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.109355+00:00",
-    "source_ids": [
-      "furiosa-ai/gpt-oss-20b"
-    ],
-    "family": "gpt-oss"
-  },
-  {
-    "id": "huggingface:furiosa-ai/Qwen3-8B-FP8",
-    "name": "Qwen3-8B-FP8",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-09T15:25:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Qwen3-8B-FP8",
-    "tags": [
-      "text-generation",
-      "furiosa-llm",
-      "safetensors",
-      "qwen3",
-      "furiosa-ai",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T09:20:23.109504+00:00",
-    "source_ids": [
-      "furiosa-ai/Qwen3-8B-FP8"
-    ],
-    "family": "Qwen3-FP8"
   },
   {
     "id": "huggingface:Taykhoom/Evo2-7B-8K",
@@ -21364,6 +21236,40 @@
     "family": "whisper-large-v3-turbo-int8-ov"
   },
   {
+    "id": "huggingface:Serveurperso/Qwen3-TTS-GGUF",
+    "name": "Qwen3-TTS-GGUF",
+    "provider": "Serveurperso",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-11T16:54:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "tts",
+      "text-to-speech",
+      "voice-cloning",
+      "voice-design"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T16:01:13.626273+00:00",
+    "source_ids": [
+      "Serveurperso/Qwen3-TTS-GGUF"
+    ],
+    "family": "Qwen3-TTS"
+  },
+  {
     "id": "huggingface:openbmb/MiniCPM-V-4.6-Thinking-BNB",
     "name": "MiniCPM-V-4.6-Thinking-BNB",
     "provider": "openbmb",
@@ -21706,6 +21612,40 @@
       "groxaxo/Qwen3.6-27B-abliterated-v2-GPTQ-Pro-FOEM-4bit-g128"
     ],
     "family": "Qwen3.6-abliterated-v2--Pro-FOEM-4bit-g128"
+  },
+  {
+    "id": "huggingface:Serveurperso/OmniVoice-GGUF",
+    "name": "OmniVoice-GGUF",
+    "provider": "Serveurperso",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-27T10:39:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Serveurperso/OmniVoice-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "tts",
+      "text-to-speech",
+      "voice-cloning",
+      "voice-design"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T16:01:13.626305+00:00",
+    "source_ids": [
+      "Serveurperso/OmniVoice-GGUF"
+    ],
+    "family": "OmniVoice"
   },
   {
     "id": "huggingface:wangzhang/Qwen3.6-27B-abliterated-GGUF",
@@ -22512,6 +22452,40 @@
       "oxide-lab/whisper-tiny-GGUF"
     ],
     "family": "whisper-tiny"
+  },
+  {
+    "id": "huggingface:Noginowa/merge-experiment",
+    "name": "merge-experiment",
+    "provider": "Noginowa",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-01-19T10:57:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Noginowa/merge-experiment",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text-to-image",
+      "merge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T16:01:13.213279+00:00",
+    "source_ids": [
+      "Noginowa/merge-experiment"
+    ],
+    "family": "merge-experiment"
   },
   {
     "id": "huggingface:LiquidAI/LFM2.5-1.2B-Thinking-GGUF",
