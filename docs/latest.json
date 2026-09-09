@@ -216,6 +216,72 @@
     "family": "ISOM-Qwen"
   },
   {
+    "id": "huggingface:TokenRhythm/NeoHorse-1-9B",
+    "name": "NeoHorse-1-9B",
+    "provider": "TokenRhythm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-05T10:59:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-9B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "agentic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T03:24:43.225079+00:00",
+    "source_ids": [
+      "TokenRhythm/NeoHorse-1-9B"
+    ],
+    "family": "NeoHorse-1"
+  },
+  {
+    "id": "huggingface:TokenRhythm/NeoHorse-1-4B",
+    "name": "NeoHorse-1-4B",
+    "provider": "TokenRhythm",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-05T08:21:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "agentic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T03:24:43.224993+00:00",
+    "source_ids": [
+      "TokenRhythm/NeoHorse-1-4B"
+    ],
+    "family": "NeoHorse-1"
+  },
+  {
     "id": "huggingface:RentedNoodle/Qwen3.8-27B-GSQ-RCO-IQ3_XXS-Uncensored",
     "name": "Qwen3.8-27B-GSQ-RCO-IQ3_XXS-Uncensored",
     "provider": "RentedNoodle",
@@ -5430,6 +5496,40 @@
     "family": "Qwen3.8-DFlash2-Q2_K_S-MIX"
   },
   {
+    "id": "huggingface:tencent/AuK-Flash",
+    "name": "AuK-Flash",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-21T06:41:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/AuK-Flash",
+    "tags": [
+      "text-to-speech",
+      "speech",
+      "text-to-speech",
+      "zero-shot-tts",
+      "voice-cloning",
+      "speech-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T03:24:43.657175+00:00",
+    "source_ids": [
+      "tencent/AuK-Flash"
+    ],
+    "family": "AuK-Flash"
+  },
+  {
     "id": "huggingface:rockerBOO/minimax-h3-nvfp4-fp8",
     "name": "minimax-h3-nvfp4-fp8",
     "provider": "rockerBOO",
@@ -6853,6 +6953,40 @@
       "joeygambino/joyai-echo-ltx25-echoVid-gguf"
     ],
     "family": "joyai-echo-ltx25-echoVid"
+  },
+  {
+    "id": "huggingface:tencent/AuK",
+    "name": "AuK",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-18T07:08:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/AuK",
+    "tags": [
+      "text-to-speech",
+      "audio",
+      "speech",
+      "text-to-speech",
+      "zero-shot-tts",
+      "voice-cloning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T03:24:43.657199+00:00",
+    "source_ids": [
+      "tencent/AuK"
+    ],
+    "family": "AuK"
   },
   {
     "id": "huggingface:ornith-ai/Ornith-1.5-35B-A3B-GGUF",
@@ -20341,39 +20475,6 @@
     "family": "Qwen3-FP8"
   },
   {
-    "id": "huggingface:litert-community/VibeThinker-3B",
-    "name": "VibeThinker-3B",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-28T13:23:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/VibeThinker-3B",
-    "tags": [
-      "text-generation",
-      "litert-lm",
-      "litert",
-      "litertlm",
-      "on-device",
-      "edge"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T01:47:31.325638+00:00",
-    "source_ids": [
-      "litert-community/VibeThinker-3B"
-    ],
-    "family": "VibeThinker"
-  },
-  {
     "id": "huggingface:Atomic-Germ/Qwen3.5-9B-Claude-4.8-Opus-NPU2",
     "name": "Qwen3.5-9B-Claude-4.8-Opus-NPU2",
     "provider": "Atomic-Germ",
@@ -20439,39 +20540,6 @@
       "litert-community/Matcha-TTS"
     ],
     "family": "Matcha-TTS"
-  },
-  {
-    "id": "huggingface:litert-community/SmolLM3-3B",
-    "name": "SmolLM3-3B",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-23T22:19:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/SmolLM3-3B",
-    "tags": [
-      "text-generation",
-      "litert-lm",
-      "litert",
-      "litertlm",
-      "on-device",
-      "edge"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-10T01:47:31.325694+00:00",
-    "source_ids": [
-      "litert-community/SmolLM3-3B"
-    ],
-    "family": "SmolLM3"
   },
   {
     "id": "huggingface:MLXBits/ideogram-4-mlx-q4",
@@ -21162,6 +21230,39 @@
       "numind/NuExtract3-GGUF"
     ],
     "family": "NuExtract3"
+  },
+  {
+    "id": "huggingface:openbmb/BitCPM-CANN-8B",
+    "name": "BitCPM-CANN-8B",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-15T13:10:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/BitCPM-CANN-8B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "minicpm",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-09T03:24:43.224812+00:00",
+    "source_ids": [
+      "openbmb/BitCPM-CANN-8B"
+    ],
+    "family": "BitCPM-CANN"
   },
   {
     "id": "huggingface:mobilint/Qwen3-VL-8B-Instruct",
