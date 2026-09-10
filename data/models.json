@@ -139608,5 +139608,173 @@
       "furiosa-ai/Qwen3-VL-32B-Instruct"
     ],
     "family": "Qwen3-VL"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T06:21:25+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the cost-efficient tier of the V4.1 family. DeepSeek reports that it exceeds V4 Pro on performance, speed, and task...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-09-10T08:41:15.375381+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4.1-flash"
+    ],
+    "family": "DeepSeek V4.1 Flash"
+  },
+  {
+    "id": "huggingface:nvidia/DeepSeek-V4-Pro-0813-NVFP4",
+    "name": "DeepSeek-V4-Pro-0813-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T10:39:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/DeepSeek-V4-Pro-0813-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "deepseek_v4",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:15.554887+00:00",
+    "source_ids": [
+      "nvidia/DeepSeek-V4-Pro-0813-NVFP4"
+    ],
+    "family": "DeepSeek-V4-Pro-0813-NVFP4"
+  },
+  {
+    "id": "huggingface:ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8",
+    "name": "LTX-2.5-uncensored-v1.1-FP8",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-11T21:57:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "not-for-all-audiences",
+      "text-to-video",
+      "image-to-video",
+      "video-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:15.960839+00:00",
+    "source_ids": [
+      "ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8"
+    ],
+    "family": "LTX-2.5-uncensored-v1.1-FP8"
+  },
+  {
+    "id": "huggingface:deepseek-ai/DeepSeek-V4.1-Flash",
+    "name": "DeepSeek-V4.1-Flash",
+    "provider": "DeepSeek",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T02:17:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "deepseek_v41",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:16.508111+00:00",
+    "source_ids": [
+      "deepseek-ai/DeepSeek-V4.1-Flash"
+    ],
+    "family": "DeepSeek-V4.1-Flash"
+  },
+  {
+    "id": "huggingface:Accio-Lab/occamy-1.0",
+    "name": "occamy-1.0",
+    "provider": "Accio-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T12:56:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Accio-Lab/occamy-1.0",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:16.508189+00:00",
+    "source_ids": [
+      "Accio-Lab/occamy-1.0"
+    ],
+    "family": "occamy-1.0"
   }
 ]

@@ -1,5 +1,71 @@
 [
   {
+    "id": "openrouter:deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T06:21:25+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the cost-efficient tier of the V4.1 family. DeepSeek reports that it exceeds V4 Pro on performance, speed, and task...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-09-10T08:41:15.375381+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4.1-flash"
+    ],
+    "family": "DeepSeek V4.1 Flash"
+  },
+  {
+    "id": "huggingface:deepseek-ai/DeepSeek-V4.1-Flash",
+    "name": "DeepSeek-V4.1-Flash",
+    "provider": "DeepSeek",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T02:17:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "deepseek_v41",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:16.508111+00:00",
+    "source_ids": [
+      "deepseek-ai/DeepSeek-V4.1-Flash"
+    ],
+    "family": "DeepSeek-V4.1-Flash"
+  },
+  {
     "id": "openrouter:inception/mercury-2.5",
     "name": "Inception: Mercury 2.5",
     "provider": "Inception",
@@ -3262,6 +3328,39 @@
       "SaintsStudios/Mazgu_Small-T_130M_Instruct"
     ],
     "family": "Mazgu_Small-T_130M"
+  },
+  {
+    "id": "huggingface:nvidia/DeepSeek-V4-Pro-0813-NVFP4",
+    "name": "DeepSeek-V4-Pro-0813-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T10:39:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/DeepSeek-V4-Pro-0813-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "deepseek_v4",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:15.554887+00:00",
+    "source_ids": [
+      "nvidia/DeepSeek-V4-Pro-0813-NVFP4"
+    ],
+    "family": "DeepSeek-V4-Pro-0813-NVFP4"
   },
   {
     "id": "huggingface:Jab1718/qwen3.8-flash-coder-85gb-bf16",
@@ -12658,6 +12757,41 @@
     "family": "Motif-3-Mixed-Quant"
   },
   {
+    "id": "huggingface:Accio-Lab/occamy-1.0",
+    "name": "occamy-1.0",
+    "provider": "Accio-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T12:56:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Accio-Lab/occamy-1.0",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:16.508189+00:00",
+    "source_ids": [
+      "Accio-Lab/occamy-1.0"
+    ],
+    "family": "occamy-1.0"
+  },
+  {
     "id": "huggingface:joeygambino/LTX-2.5-Quantized",
     "name": "LTX-2.5-Quantized",
     "provider": "joeygambino",
@@ -13416,6 +13550,40 @@
     "family": "LFM2.5-VL"
   },
   {
+    "id": "huggingface:ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8",
+    "name": "LTX-2.5-uncensored-v1.1-FP8",
+    "provider": "ChrisColeTech",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-11T21:57:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8",
+    "tags": [
+      "text-to-video",
+      "gguf",
+      "not-for-all-audiences",
+      "text-to-video",
+      "image-to-video",
+      "video-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T08:41:15.960839+00:00",
+    "source_ids": [
+      "ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8"
+    ],
+    "family": "LTX-2.5-uncensored-v1.1-FP8"
+  },
+  {
     "id": "huggingface:Asilarkness/testgeniy",
     "name": "testgeniy",
     "provider": "Asilarkness",
@@ -13898,39 +14066,6 @@
       "hakim77/trocr-captcha-v2-god-mode"
     ],
     "family": "trocr-captcha-v2-god-mode"
-  },
-  {
-    "id": "openrouter:sakana/sakana-namazu",
-    "name": "Sakana: Sakana Namazu",
-    "provider": "sakana",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-11T01:02:09+00:00",
-    "context_length": 262144,
-    "description": "Sakana Namazu is a Japanese-specialized reasoning model from Sakana AI, based on Kimi K2.6 with additional training for Japanese language and business contexts. It is suited for Japanese instruction following,...",
-    "url": "https://openrouter.ai/sakana/sakana-namazu",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.95,
-      "completion_per_million": 4.0
-    },
-    "first_seen": "2026-08-11T05:07:52.548499+00:00",
-    "source_ids": [
-      "sakana/sakana-namazu"
-    ],
-    "family": "Sakana Namazu"
   },
   {
     "id": "huggingface:mlasli/Qwen3.6-27B-abliterated",
@@ -19357,41 +19492,6 @@
       "fpadovani/swa-latn-100mb-after-ppt-Dp-100mb-ckpt500_seed10"
     ],
     "family": "swa-latn-100mb-after-ppt-Dp-100mb-ckpt500_seed10"
-  },
-  {
-    "id": "huggingface:neureps/warmly-qwen35-08b-enko-gguf",
-    "name": "warmly-qwen35-08b-enko-gguf",
-    "provider": "neureps",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-15T04:42:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/neureps/warmly-qwen35-08b-enko-gguf",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "korean",
-      "warmly",
-      "lora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-11T05:07:53.557579+00:00",
-    "source_ids": [
-      "neureps/warmly-qwen35-08b-enko-gguf"
-    ],
-    "family": "warmly-qwen35-enko"
   },
   {
     "id": "huggingface:AnkitAI/Parable-Qwen3-8B-Claude-Fable-5-GGUF",
