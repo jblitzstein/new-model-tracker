@@ -140152,5 +140152,309 @@
       "Baekpica/Inkling-Small-Mixed-Quant-GGUF"
     ],
     "family": "Inkling-Small-Mixed-Quant"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-3.0-flash-vl:free",
+    "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T16:01:54+00:00",
+    "context_length": 262144,
+    "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:02.888530+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.0-flash-vl:free"
+    ],
+    "family": "Ling 3.0 Flash VL"
+  },
+  {
+    "id": "huggingface:naver-hyperclovax/HyperCLOVAX-SEED-Think-32B",
+    "name": "HyperCLOVAX-SEED-Think-32B",
+    "provider": "naver-hyperclovax",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-23T14:11:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "hyperclovax_vision_v2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:03.090400+00:00",
+    "source_ids": [
+      "naver-hyperclovax/HyperCLOVAX-SEED-Think-32B"
+    ],
+    "family": "HyperCLOVAX-SEED"
+  },
+  {
+    "id": "huggingface:stornic56/Spark-X2.5-4B-GGUF",
+    "name": "Spark-X2.5-4B-GGUF",
+    "provider": "stornic56",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-05T23:51:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stornic56/Spark-X2.5-4B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "spark2_5",
+      "spark-x2.5",
+      "reasoning",
+      "thinking"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:03.090447+00:00",
+    "source_ids": [
+      "stornic56/Spark-X2.5-4B-GGUF"
+    ],
+    "family": "Spark-X2.5"
+  },
+  {
+    "id": "huggingface:Vaelico/Wulver",
+    "name": "Wulver",
+    "provider": "Vaelico",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-25T22:17:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vaelico/Wulver",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "furry",
+      "anthro",
+      "kemono"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:03.238696+00:00",
+    "source_ids": [
+      "Vaelico/Wulver"
+    ],
+    "family": "Wulver"
+  },
+  {
+    "id": "huggingface:oruk/orukeet",
+    "name": "orukeet",
+    "provider": "oruk",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-09T05:42:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/oruk/orukeet",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "gguf",
+      "parakeet",
+      "tdt",
+      "onnx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:03.914150+00:00",
+    "source_ids": [
+      "oruk/orukeet"
+    ],
+    "family": "orukeet"
+  },
+  {
+    "id": "huggingface:AMAImedia/Hy4-preview-BF16-GGUF",
+    "name": "Hy4-preview-BF16-GGUF",
+    "provider": "AMAImedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T18:19:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AMAImedia/Hy4-preview-BF16-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "hy_v4",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:04.056309+00:00",
+    "source_ids": [
+      "AMAImedia/Hy4-preview-BF16-GGUF"
+    ],
+    "family": "Hy4--BF16"
+  },
+  {
+    "id": "huggingface:AMAImedia/Qwen3.8-Flash-Next-BF16-GGUF",
+    "name": "Qwen3.8-Flash-Next-BF16-GGUF",
+    "provider": "AMAImedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T01:59:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AMAImedia/Qwen3.8-Flash-Next-BF16-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen4_exp",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:04.056337+00:00",
+    "source_ids": [
+      "AMAImedia/Qwen3.8-Flash-Next-BF16-GGUF"
+    ],
+    "family": "Qwen3.8-Flash-Next-BF16"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Dirk-Qwen3.8-27B-MLX-oQ6e",
+    "name": "Dirk-Qwen3.8-27B-MLX-oQ6e",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T21:23:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Dirk-Qwen3.8-27B-MLX-oQ6e",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "omlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:04.056369+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Dirk-Qwen3.8-27B-MLX-oQ6e"
+    ],
+    "family": "Dirk-Qwen3.8-MLX-oQ6e"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Dirk-Qwen3.8-27B-MLX-oQ4e",
+    "name": "Dirk-Qwen3.8-27B-MLX-oQ4e",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T21:23:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Dirk-Qwen3.8-27B-MLX-oQ4e",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "omlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-10T18:59:04.056398+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Dirk-Qwen3.8-27B-MLX-oQ4e"
+    ],
+    "family": "Dirk-Qwen3.8-MLX-oQ4e"
   }
 ]
