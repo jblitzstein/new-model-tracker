@@ -1,5 +1,137 @@
 [
   {
+    "id": "openrouter:~openai/gpt-astra-latest",
+    "name": "OpenAI GPT Astra Latest",
+    "provider": "~openai",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T12:48:52+00:00",
+    "context_length": 1050000,
+    "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+    "url": "https://openrouter.ai/~openai/gpt-astra-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 10.0,
+      "completion_per_million": 50.0
+    },
+    "first_seen": "2026-09-11T15:58:26.615700+00:00",
+    "source_ids": [
+      "~openai/gpt-astra-latest"
+    ],
+    "family": "OpenAI GPT Astra Latest"
+  },
+  {
+    "id": "openrouter:~openai/gpt-sol-latest",
+    "name": "OpenAI GPT Sol Latest",
+    "provider": "~openai",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T12:48:48+00:00",
+    "context_length": 1050000,
+    "description": "This model always redirects to the latest model in the OpenAI GPT Sol family.",
+    "url": "https://openrouter.ai/~openai/gpt-sol-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-11T15:58:26.616672+00:00",
+    "source_ids": [
+      "~openai/gpt-sol-latest"
+    ],
+    "family": "OpenAI GPT Sol Latest"
+  },
+  {
+    "id": "openrouter:~openai/gpt-terra-latest",
+    "name": "OpenAI GPT Terra Latest",
+    "provider": "~openai",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T12:48:45+00:00",
+    "context_length": 1050000,
+    "description": "This model always redirects to the latest model in the OpenAI GPT Terra family.",
+    "url": "https://openrouter.ai/~openai/gpt-terra-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 12.0
+    },
+    "first_seen": "2026-09-11T15:58:26.616712+00:00",
+    "source_ids": [
+      "~openai/gpt-terra-latest"
+    ],
+    "family": "OpenAI GPT Terra Latest"
+  },
+  {
+    "id": "openrouter:~openai/gpt-luna-latest",
+    "name": "OpenAI GPT Luna Latest",
+    "provider": "~openai",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T12:48:42+00:00",
+    "context_length": 1050000,
+    "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
+    "url": "https://openrouter.ai/~openai/gpt-luna-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-09-11T15:58:26.616746+00:00",
+    "source_ids": [
+      "~openai/gpt-luna-latest"
+    ],
+    "family": "OpenAI GPT Luna Latest"
+  },
+  {
     "id": "openrouter:sakana/fugu-ultra-v2",
     "name": "Sakana: Fugu Ultra v2",
     "provider": "sakana",
@@ -96,6 +228,72 @@
     "family": "Ling 3.0 Flash VL"
   },
   {
+    "id": "openrouter:inclusionai/ling-3.0-flash-vl",
+    "name": "inclusionAI: Ling 3.0 Flash VL",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T16:01:54+00:00",
+    "context_length": 131072,
+    "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.06,
+      "completion_per_million": 0.18
+    },
+    "first_seen": "2026-09-11T15:58:26.616857+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.0-flash-vl"
+    ],
+    "family": "Ling 3.0 Flash VL"
+  },
+  {
+    "id": "huggingface:vcruz305/DeepSeek-V4.1-Flash-GGUF",
+    "name": "DeepSeek-V4.1-Flash-GGUF",
+    "provider": "vcruz305",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T06:40:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vcruz305/DeepSeek-V4.1-Flash-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "deepseek",
+      "deepseek-v4.1",
+      "llama.cpp",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:26.814884+00:00",
+    "source_ids": [
+      "vcruz305/DeepSeek-V4.1-Flash-GGUF"
+    ],
+    "family": "DeepSeek-V4.1-Flash"
+  },
+  {
     "id": "openrouter:deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "DeepSeek",
@@ -162,6 +360,41 @@
     "family": "DeepSeek-V4.1-Flash"
   },
   {
+    "id": "huggingface:agentionai/Signal-3.8-27B-GGUF",
+    "name": "Signal-3.8-27B-GGUF",
+    "provider": "agentionai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-09T19:39:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agentionai/Signal-3.8-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "token-efficient",
+      "efficient-thinking",
+      "qwen3.8",
+      "qwen3.8-27b"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:27.889096+00:00",
+    "source_ids": [
+      "agentionai/Signal-3.8-27B-GGUF"
+    ],
+    "family": "Signal-3.8"
+  },
+  {
     "id": "huggingface:nvidia/DeepSeek-V4-Pro-0813-nvfp4-DSpark",
     "name": "DeepSeek-V4-Pro-0813-nvfp4-DSpark",
     "provider": "NVIDIA",
@@ -193,6 +426,41 @@
       "nvidia/DeepSeek-V4-Pro-0813-nvfp4-DSpark"
     ],
     "family": "DeepSeek-V4-Pro-0813-nvfp4-DSpark"
+  },
+  {
+    "id": "huggingface:dmis-lab/Gemma4-12B-CVRR",
+    "name": "Gemma4-12B-CVRR",
+    "provider": "dmis-lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-09T06:25:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dmis-lab/Gemma4-12B-CVRR",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "safetensors",
+      "cvrr_merged",
+      "feature-extraction",
+      "cvrr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:28.033913+00:00",
+    "source_ids": [
+      "dmis-lab/Gemma4-12B-CVRR"
+    ],
+    "family": "Gemma4-CVRR"
   },
   {
     "id": "huggingface:oruk/orukeet",
@@ -262,6 +530,74 @@
       "Baekpica/Inkling-Small-Mixed-Quant-GGUF"
     ],
     "family": "Inkling-Small-Mixed-Quant"
+  },
+  {
+    "id": "huggingface:Baekpica/Inkling-Small-GGUF",
+    "name": "Inkling-Small-GGUF",
+    "provider": "Baekpica",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-09T03:54:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Baekpica/Inkling-Small-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "inkling_mm_model",
+      "inkling",
+      "mixed-quantization",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:27.888974+00:00",
+    "source_ids": [
+      "Baekpica/Inkling-Small-GGUF"
+    ],
+    "family": "Inkling-Small"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-groot16",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-groot16",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-09T02:45:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-groot16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:26.814790+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-groot16"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-q4v2-groot16"
   },
   {
     "id": "openrouter:inception/mercury-2.5",
@@ -8439,6 +8775,41 @@
     "family": "Qwen3.8-INT4"
   },
   {
+    "id": "huggingface:cyankiwi/Qwen3.8-27B-AWQ-BF16-INT4",
+    "name": "Qwen3.8-27B-AWQ-BF16-INT4",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T18:59:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.8-27B-AWQ-BF16-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:27.889124+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.8-27B-AWQ-BF16-INT4"
+    ],
+    "family": "Qwen3.8--BF16-INT4"
+  },
+  {
     "id": "huggingface:VisualInference/Qwen3.8-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit",
     "name": "Qwen3.8-27B-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit",
     "provider": "VisualInference",
@@ -10867,6 +11238,76 @@
       "cygnal/Qwen3.8-27B-heretic-ara-Q4_K_M-MTP-GGUF"
     ],
     "family": "Qwen3.8-heretic-ara-Q4_K_M-MTP"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.8-27B-AWQ-FP8",
+    "name": "Qwen3.8-27B-AWQ-FP8",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T03:54:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.8-27B-AWQ-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:27.889154+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.8-27B-AWQ-FP8"
+    ],
+    "family": "Qwen3.8--FP8"
+  },
+  {
+    "id": "huggingface:cyankiwi/Qwen3.8-27B-AWQ-INT4",
+    "name": "Qwen3.8-27B-AWQ-INT4",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T03:52:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/Qwen3.8-27B-AWQ-INT4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-11T15:58:27.889181+00:00",
+    "source_ids": [
+      "cyankiwi/Qwen3.8-27B-AWQ-INT4"
+    ],
+    "family": "Qwen3.8--INT4"
   },
   {
     "id": "huggingface:dealignai/Qwen3.8-27B-MXFP8-CRACK",
@@ -24134,39 +24575,6 @@
       "mistralai/mistral-medium-3.1:batch"
     ],
     "family": "Mistral Medium 3.1 (batch)"
-  },
-  {
-    "id": "huggingface:aisingapore/Gemma-SEA-LION-v4-27B-IT",
-    "name": "Gemma-SEA-LION-v4-27B-IT",
-    "provider": "aisingapore",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-11T07:41:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-v4-27B-IT",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma3",
-      "image-text-to-text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-12T13:08:28.949514+00:00",
-    "source_ids": [
-      "aisingapore/Gemma-SEA-LION-v4-27B-IT"
-    ],
-    "family": "Gemma-SEA-LION-v4-IT"
   },
   {
     "id": "openrouter:openai/gpt-oss-120b:batch",
