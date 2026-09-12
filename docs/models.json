@@ -141700,5 +141700,232 @@
       "bartowski/Qwen3.8-27B-GGUF"
     ],
     "family": "Qwen3.8"
+  },
+  {
+    "id": "openrouter:inference-net/schematron-v2-turbo",
+    "name": "Inference.net: Schematron V2 Turbo",
+    "provider": "inference-net",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-12T01:35:49+00:00",
+    "context_length": 128000,
+    "description": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...",
+    "url": "https://openrouter.ai/inference-net/schematron-v2-turbo",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.03,
+      "completion_per_million": 0.15
+    },
+    "first_seen": "2026-09-12T03:25:04.617728+00:00",
+    "source_ids": [
+      "inference-net/schematron-v2-turbo"
+    ],
+    "family": "Schematron V2 Turbo"
+  },
+  {
+    "id": "openrouter:inference-net/schematron-v2-small",
+    "name": "Inference.net: Schematron V2 Small",
+    "provider": "inference-net",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-12T01:35:33+00:00",
+    "context_length": 128000,
+    "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema...",
+    "url": "https://openrouter.ai/inference-net/schematron-v2-small",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.23
+    },
+    "first_seen": "2026-09-12T03:25:04.618743+00:00",
+    "source_ids": [
+      "inference-net/schematron-v2-small"
+    ],
+    "family": "Schematron V2 Small"
+  },
+  {
+    "id": "huggingface:CodeMasterCody3D/taardis-27b-full-ternary",
+    "name": "taardis-27b-full-ternary",
+    "provider": "CodeMasterCody3D",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-03T05:33:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CodeMasterCody3D/taardis-27b-full-ternary",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "ternary",
+      "quantization",
+      "integer",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-12T03:25:04.774599+00:00",
+    "source_ids": [
+      "CodeMasterCody3D/taardis-27b-full-ternary"
+    ],
+    "family": "taardis-full-ternary"
+  },
+  {
+    "id": "huggingface:IFM/K2-Horizon-32B",
+    "name": "K2-Horizon-32B",
+    "provider": "IFM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T23:14:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IFM/K2-Horizon-32B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "k2_horizon",
+      "text-generation",
+      "k2-horizon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-12T03:25:04.774636+00:00",
+    "source_ids": [
+      "IFM/K2-Horizon-32B"
+    ],
+    "family": "K2-Horizon"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-vs16",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-vs16",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-09T05:07:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-vs16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-12T03:25:04.774714+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v2-vs16"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-q4v2-vs16"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
+    "name": "Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T06:59:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "unsloth",
+      "fine tune",
+      "heretic",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-12T03:25:05.626665+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP"
+  },
+  {
+    "id": "huggingface:gbuzhf/Huihui-Ornith-1.0-35B-abliterated-MTP-UD-APEX-GGUF",
+    "name": "Huihui-Ornith-1.0-35B-abliterated-MTP-UD-APEX-GGUF",
+    "provider": "gbuzhf",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T23:29:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gbuzhf/Huihui-Ornith-1.0-35B-abliterated-MTP-UD-APEX-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "mtp",
+      "speculative-decoding",
+      "apex",
+      "v2d-lite"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-12T03:25:05.626756+00:00",
+    "source_ids": [
+      "gbuzhf/Huihui-Ornith-1.0-35B-abliterated-MTP-UD-APEX-GGUF"
+    ],
+    "family": "Huihui-Ornith-1.0-abliterated-MTP-UD-APEX"
   }
 ]
