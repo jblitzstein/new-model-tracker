@@ -457,6 +457,40 @@
     "family": "DeepSeek-V4.1-Flash-FP8"
   },
   {
+    "id": "huggingface:audio-cpp/Yue2-3B-GGUF",
+    "name": "Yue2-3B-GGUF",
+    "provider": "audio-cpp",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-10T07:45:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/audio-cpp/Yue2-3B-GGUF",
+    "tags": [
+      "text-to-audio",
+      "audio.cpp",
+      "gguf",
+      "music-generation",
+      "yue2",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-13T09:04:12.708864+00:00",
+    "source_ids": [
+      "audio-cpp/Yue2-3B-GGUF"
+    ],
+    "family": "Yue2"
+  },
+  {
     "id": "huggingface:DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
     "name": "Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
     "provider": "DavidAU",
@@ -7674,6 +7708,39 @@
     "family": "Qwen3.8-Uncensored-W4A16-AutoRound"
   },
   {
+    "id": "huggingface:Vxtzq/Crowd-v1",
+    "name": "Crowd-v1",
+    "provider": "Vxtzq",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T14:06:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vxtzq/Crowd-v1",
+    "tags": [
+      "text-generation",
+      "text-generation",
+      "ia",
+      "dataset:openbmb/Ultra-FineWeb-L3",
+      "dataset:HuggingFaceFW/fineweb",
+      "dataset:Vxtzq/CrowdGPT"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-13T09:04:12.426150+00:00",
+    "source_ids": [
+      "Vxtzq/Crowd-v1"
+    ],
+    "family": "Crowd-v1"
+  },
+  {
     "id": "huggingface:AETHORIA-AI/TR-HASH-MoE-200M-160B-SFT",
     "name": "TR-HASH-MoE-200M-160B-SFT",
     "provider": "AETHORIA-AI",
@@ -14770,34 +14837,6 @@
     "family": "UI-Mate"
   },
   {
-    "id": "openrouter:dots-studio/dots-3-note-preview:free",
-    "name": "Dots Studio: Dots3-Note Preview (free)",
-    "provider": "dots-studio",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T04:06:01+00:00",
-    "context_length": 512000,
-    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-    "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-08-14T05:37:13.987566+00:00",
-    "source_ids": [
-      "dots-studio/dots-3-note-preview:free"
-    ],
-    "family": "Dots3-Note"
-  },
-  {
     "id": "huggingface:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
     "name": "Qwen3.8-27B-Uncensored-GGUF",
     "provider": "JonathanColetti",
@@ -20223,39 +20262,6 @@
     "family": "GRM-3.2-Sky"
   },
   {
-    "id": "huggingface:Myric/Qwen3.6-35B-A3B-APEX-GGUF",
-    "name": "Qwen3.6-35B-A3B-APEX-GGUF",
-    "provider": "Myric",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-24T21:13:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Myric/Qwen3.6-35B-A3B-APEX-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "moe",
-      "apex",
-      "quantized",
-      "imatrix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-14T05:37:14.111859+00:00",
-    "source_ids": [
-      "Myric/Qwen3.6-35B-A3B-APEX-GGUF"
-    ],
-    "family": "Qwen3.6-APEX"
-  },
-  {
     "id": "huggingface:Myric/Qwen3.5-35B-A3B-APEX-GGUF",
     "name": "Qwen3.5-35B-A3B-APEX-GGUF",
     "provider": "Myric",
@@ -24658,6 +24664,40 @@
       "neuphonic/neutts-nano-german"
     ],
     "family": "neutts-nano-german"
+  },
+  {
+    "id": "huggingface:Quiho/best-from-civitai",
+    "name": "best-from-civitai",
+    "provider": "Quiho",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-02-04T09:15:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Quiho/best-from-civitai",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "art",
+      "stable-diffusion",
+      "civitai"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-13T09:04:12.509586+00:00",
+    "source_ids": [
+      "Quiho/best-from-civitai"
+    ],
+    "family": "best-from-civitai"
   },
   {
     "id": "huggingface:oxide-lab/whisper-tiny-GGUF",
