@@ -3798,6 +3798,40 @@
     "family": "GLM-5.3-Flash-Uncensored-NVFP4"
   },
   {
+    "id": "huggingface:remsky/kokoro-inno-clone-tuner",
+    "name": "kokoro-inno-clone-tuner",
+    "provider": "remsky",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-31T02:47:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "kokoro-inno-reference-tuner",
+      "kokoro",
+      "voice-cloning",
+      "adapter"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-13T03:31:00.183730+00:00",
+    "source_ids": [
+      "remsky/kokoro-inno-clone-tuner"
+    ],
+    "family": "kokoro-inno-clone-tuner"
+  },
+  {
     "id": "huggingface:AnonimousA/Qwen3.8-Flash-Next-REAP-320-GGUF",
     "name": "Qwen3.8-Flash-Next-REAP-320-GGUF",
     "provider": "AnonimousA",
@@ -16849,41 +16883,6 @@
     "family": "Dagger-Qwen3.6-MLX"
   },
   {
-    "id": "huggingface:RadixArk/Muse-Glimmer-NVFP4",
-    "name": "Muse-Glimmer-NVFP4",
-    "provider": "RadixArk",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T06:29:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RadixArk/Muse-Glimmer-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "muse_glimmer",
-      "image-text-to-text",
-      "muse-glimmer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-14T01:56:05.373773+00:00",
-    "source_ids": [
-      "RadixArk/Muse-Glimmer-NVFP4"
-    ],
-    "family": "Muse-Glimmer-NVFP4"
-  },
-  {
     "id": "huggingface:DavidAU/Qwen3.6-40B-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
     "name": "Qwen3.6-40B-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
     "provider": "DavidAU",
@@ -18696,39 +18695,6 @@
     "family": "Canary-180M-Flash-ONNX"
   },
   {
-    "id": "huggingface:LiquidAI/LFM2.5-2.6B-Base",
-    "name": "LFM2.5-2.6B-Base",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-01T15:23:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "lfm2",
-      "text-generation",
-      "liquid"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-14T01:56:04.771572+00:00",
-    "source_ids": [
-      "LiquidAI/LFM2.5-2.6B-Base"
-    ],
-    "family": "LFM2.5"
-  },
-  {
     "id": "huggingface:NielsPeter/parakeet-tdt-0.6b-v3-mlx-bf16",
     "name": "parakeet-tdt-0.6b-v3-mlx-bf16",
     "provider": "NielsPeter",
@@ -19257,41 +19223,6 @@
       "Miguelms13/Wiguel-AI-GGUF"
     ],
     "family": "Wiguel-AI"
-  },
-  {
-    "id": "huggingface:bottlecapai/ThinkingCap-Qwen3.6-27B-NVFP4",
-    "name": "ThinkingCap-Qwen3.6-27B-NVFP4",
-    "provider": "bottlecapai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-29T07:50:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen3_6"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-14T01:56:05.373668+00:00",
-    "source_ids": [
-      "bottlecapai/ThinkingCap-Qwen3.6-27B-NVFP4"
-    ],
-    "family": "ThinkingCap-Qwen3.6-NVFP4"
   },
   {
     "id": "huggingface:litert-community/Bonsai-Image-ternary-4B",
