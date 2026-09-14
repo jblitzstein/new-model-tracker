@@ -1385,6 +1385,39 @@
     "family": "reddit_llama_ai"
   },
   {
+    "id": "huggingface:ThakiCloud/Qwen3.8-27B-Human-KO-Safety",
+    "name": "Qwen3.8-27B-Human-KO-Safety",
+    "provider": "ThakiCloud",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-06T21:52:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ThakiCloud/Qwen3.8-27B-Human-KO-Safety",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "korean"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.490185+00:00",
+    "source_ids": [
+      "ThakiCloud/Qwen3.8-27B-Human-KO-Safety"
+    ],
+    "family": "Qwen3.8-Human-KO-Safety"
+  },
+  {
     "id": "huggingface:Davd-b01/transductor-xhigh-v3",
     "name": "transductor-xhigh-v3",
     "provider": "Davd-b01",
@@ -7201,6 +7234,39 @@
     "family": "Qwen3.8-Flash-Next"
   },
   {
+    "id": "huggingface:XHToken/Spark-X2.5-4B",
+    "name": "Spark-X2.5-4B",
+    "provider": "XHToken",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-24T06:34:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "spark2_5",
+      "text-generation",
+      "llm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.490539+00:00",
+    "source_ids": [
+      "XHToken/Spark-X2.5-4B"
+    ],
+    "family": "Spark-X2.5"
+  },
+  {
     "id": "huggingface:PollardWeights/Carnice-V3-27b-Pollard",
     "name": "Carnice-V3-27b-Pollard",
     "provider": "PollardWeights",
@@ -10689,6 +10755,40 @@
       "Shiftedx/qwen3.8-27b-aeon-ultimate-uncensored-attention8-bf16recurrence-vision-mtplx"
     ],
     "family": "qwen3.8-aeon-ultimate-uncensored-attention8-bf16recurrence-vision-mtplx"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-primeline-gguf",
+    "name": "parakeet-primeline-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T00:21:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-primeline-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935296+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-primeline-gguf"
+    ],
+    "family": "parakeet-primeline"
   },
   {
     "id": "huggingface:shawnw3i/Huihui-Qwen3.8-27B-abliterated-AWQ-MTP",
@@ -15342,6 +15442,41 @@
     "family": "Ling-3.0-flash-abliterated-APEX"
   },
   {
+    "id": "huggingface:mlx-community/LFM2.5-VL-3B-OptiQ-4bit",
+    "name": "LFM2.5-VL-3B-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T01:24:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/LFM2.5-VL-3B-OptiQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "lfm2_vl",
+      "optiq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:15.020106+00:00",
+    "source_ids": [
+      "mlx-community/LFM2.5-VL-3B-OptiQ-4bit"
+    ],
+    "family": "LFM2.5-VL-OptiQ-4bit"
+  },
+  {
     "id": "huggingface:ruygar/LTX-2.5-Comfy-GGUF",
     "name": "LTX-2.5-Comfy-GGUF",
     "provider": "ruygar",
@@ -15678,41 +15813,6 @@
       "Indexnusrefather/Nyx-RP-9B-Instruct-2608-v1"
     ],
     "family": "Nyx-RP--2608-v1"
-  },
-  {
-    "id": "huggingface:gbuzhf/Ornith-1.0-35B-MTP-UD-APEX-GGUF",
-    "name": "Ornith-1.0-35B-MTP-UD-APEX-GGUF",
-    "provider": "gbuzhf",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-13T01:45:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/gbuzhf/Ornith-1.0-35B-MTP-UD-APEX-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "mtp",
-      "speculative-decoding",
-      "apex",
-      "v2d-lite"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-15T01:13:01.851692+00:00",
-    "source_ids": [
-      "gbuzhf/Ornith-1.0-35B-MTP-UD-APEX-GGUF"
-    ],
-    "family": "Ornith-1.0-MTP-UD-APEX"
   },
   {
     "id": "huggingface:pinkelephantlimited/pinkelephant-llm-48b-s",
@@ -21165,6 +21265,39 @@
     "family": "MiniCPM5-heretic"
   },
   {
+    "id": "huggingface:mlx-community/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-OptiQ-4bit",
+    "name": "MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T11:13:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "llama",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.490400+00:00",
+    "source_ids": [
+      "mlx-community/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-OptiQ-4bit"
+    ],
+    "family": "MiniCPM5-Claude-Opus-Fable5-V2--OptiQ-4bit"
+  },
+  {
     "id": "huggingface:AnkitAI/Parable-Qwen3-8B-Claude-Fable-5-GGUF",
     "name": "Parable-Qwen3-8B-Claude-Fable-5-GGUF",
     "provider": "AnkitAI",
@@ -21544,6 +21677,40 @@
       "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF"
     ],
     "family": "Qwen3.6-Uncensored-Genesis-Hermes-Final"
+  },
+  {
+    "id": "huggingface:handy-computer/moss-transcribe-diarize-gguf",
+    "name": "moss-transcribe-diarize-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-12T05:56:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/moss-transcribe-diarize-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "moss"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935424+00:00",
+    "source_ids": [
+      "handy-computer/moss-transcribe-diarize-gguf"
+    ],
+    "family": "moss-transcribe-diarize"
   },
   {
     "id": "huggingface:zenosai/MonkeyOCRv2-S-Parsing",
@@ -22583,6 +22750,74 @@
     "family": "Evo2-8K"
   },
   {
+    "id": "huggingface:handy-computer/Voxtral-Mini-4B-Realtime-2602-gguf",
+    "name": "Voxtral-Mini-4B-Realtime-2602-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T13:03:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/Voxtral-Mini-4B-Realtime-2602-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "voxtral"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934974+00:00",
+    "source_ids": [
+      "handy-computer/Voxtral-Mini-4B-Realtime-2602-gguf"
+    ],
+    "family": "Voxtral-Mini-Realtime-2602"
+  },
+  {
+    "id": "huggingface:handy-computer/Voxtral-Small-24B-2507-gguf",
+    "name": "Voxtral-Small-24B-2507-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-05T11:03:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/Voxtral-Small-24B-2507-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "voxtral"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934946+00:00",
+    "source_ids": [
+      "handy-computer/Voxtral-Small-24B-2507-gguf"
+    ],
+    "family": "Voxtral-Small-2507"
+  },
+  {
     "id": "openrouter:nvidia/nemotron-3.5-content-safety",
     "name": "NVIDIA: Nemotron 3.5 Content Safety",
     "provider": "NVIDIA",
@@ -22612,6 +22847,40 @@
       "nvidia/nemotron-3.5-content-safety"
     ],
     "family": "Nemotron 3.5 Content Safety"
+  },
+  {
+    "id": "huggingface:handy-computer/Voxtral-Mini-3B-2507-gguf",
+    "name": "Voxtral-Mini-3B-2507-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-04T07:07:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/Voxtral-Mini-3B-2507-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "voxtral"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934907+00:00",
+    "source_ids": [
+      "handy-computer/Voxtral-Mini-3B-2507-gguf"
+    ],
+    "family": "Voxtral-Mini-2507"
   },
   {
     "id": "huggingface:handy-computer/medasr-gguf",
@@ -23318,6 +23587,244 @@
     "family": "parakeet-unified-en"
   },
   {
+    "id": "huggingface:handy-computer/parakeet-tdt_ctc-110m-gguf",
+    "name": "parakeet-tdt_ctc-110m-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T11:26:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-tdt_ctc-110m-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935198+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-tdt_ctc-110m-gguf"
+    ],
+    "family": "parakeet-tdt_ctc-110m"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-tdt_ctc-1.1b-gguf",
+    "name": "parakeet-tdt_ctc-1.1b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T11:26:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-tdt_ctc-1.1b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935224+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-tdt_ctc-1.1b-gguf"
+    ],
+    "family": "parakeet-tdt_ctc"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-tdt-1.1b-gguf",
+    "name": "parakeet-tdt-1.1b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T11:26:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-tdt-1.1b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935173+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-tdt-1.1b-gguf"
+    ],
+    "family": "parakeet-tdt"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-rnnt-1.1b-gguf",
+    "name": "parakeet-rnnt-1.1b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T11:26:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-rnnt-1.1b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935150+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-rnnt-1.1b-gguf"
+    ],
+    "family": "parakeet-rnnt"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-rnnt-0.6b-gguf",
+    "name": "parakeet-rnnt-0.6b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T11:26:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-rnnt-0.6b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935272+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-rnnt-0.6b-gguf"
+    ],
+    "family": "parakeet-rnnt"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-ctc-1.1b-gguf",
+    "name": "parakeet-ctc-1.1b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T11:26:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-ctc-1.1b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935249+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-ctc-1.1b-gguf"
+    ],
+    "family": "parakeet-ctc"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-ctc-0.6b-gguf",
+    "name": "parakeet-ctc-0.6b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-10T11:26:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-ctc-0.6b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935320+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-ctc-0.6b-gguf"
+    ],
+    "family": "parakeet-ctc"
+  },
+  {
     "id": "huggingface:openbmb/MiniCPM-V-4.6-Thinking-BNB",
     "name": "MiniCPM-V-4.6-Thinking-BNB",
     "provider": "openbmb",
@@ -23697,6 +24204,74 @@
     "family": "moonshine-streaming-tiny"
   },
   {
+    "id": "huggingface:handy-computer/moonshine-base-gguf",
+    "name": "moonshine-base-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T01:59:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/moonshine-base-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "moonshine"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935484+00:00",
+    "source_ids": [
+      "handy-computer/moonshine-base-gguf"
+    ],
+    "family": "moonshine"
+  },
+  {
+    "id": "huggingface:handy-computer/moonshine-tiny-gguf",
+    "name": "moonshine-tiny-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T01:58:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/moonshine-tiny-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "moonshine"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935451+00:00",
+    "source_ids": [
+      "handy-computer/moonshine-tiny-gguf"
+    ],
+    "family": "moonshine-tiny"
+  },
+  {
     "id": "openrouter:x-ai/grok-4.3:batch",
     "name": "SpaceXAI: Grok 4.3 (batch)",
     "provider": "xAI",
@@ -23830,6 +24405,380 @@
       "Serveurperso/OmniVoice-GGUF"
     ],
     "family": "OmniVoice"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-large-v3-gguf",
+    "name": "whisper-large-v3-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:20:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-large-v3-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934760+00:00",
+    "source_ids": [
+      "handy-computer/whisper-large-v3-gguf"
+    ],
+    "family": "whisper-large-v3"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-large-v2-gguf",
+    "name": "whisper-large-v2-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:18:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-large-v2-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934883+00:00",
+    "source_ids": [
+      "handy-computer/whisper-large-v2-gguf"
+    ],
+    "family": "whisper-large-v2"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-large-gguf",
+    "name": "whisper-large-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:16:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-large-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934814+00:00",
+    "source_ids": [
+      "handy-computer/whisper-large-gguf"
+    ],
+    "family": "whisper-large"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-medium.en-gguf",
+    "name": "whisper-medium.en-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:15:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-medium.en-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934736+00:00",
+    "source_ids": [
+      "handy-computer/whisper-medium.en-gguf"
+    ],
+    "family": "whisper-medium.en"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-small.en-gguf",
+    "name": "whisper-small.en-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:15:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-small.en-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934711+00:00",
+    "source_ids": [
+      "handy-computer/whisper-small.en-gguf"
+    ],
+    "family": "whisper-small.en"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-small-gguf",
+    "name": "whisper-small-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:12:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-small-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934660+00:00",
+    "source_ids": [
+      "handy-computer/whisper-small-gguf"
+    ],
+    "family": "whisper-small"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-base.en-gguf",
+    "name": "whisper-base.en-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:12:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-base.en-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934860+00:00",
+    "source_ids": [
+      "handy-computer/whisper-base.en-gguf"
+    ],
+    "family": "whisper-.en"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-base-gguf",
+    "name": "whisper-base-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:12:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-base-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934837+00:00",
+    "source_ids": [
+      "handy-computer/whisper-base-gguf"
+    ],
+    "family": "whisper"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-tiny.en-gguf",
+    "name": "whisper-tiny.en-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:12:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-tiny.en-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934632+00:00",
+    "source_ids": [
+      "handy-computer/whisper-tiny.en-gguf"
+    ],
+    "family": "whisper-tiny.en"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-medium-gguf",
+    "name": "whisper-medium-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:10:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-medium-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934686+00:00",
+    "source_ids": [
+      "handy-computer/whisper-medium-gguf"
+    ],
+    "family": "whisper-medium"
+  },
+  {
+    "id": "huggingface:handy-computer/whisper-tiny-gguf",
+    "name": "whisper-tiny-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T02:10:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/whisper-tiny-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "whisper"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.934602+00:00",
+    "source_ids": [
+      "handy-computer/whisper-tiny-gguf"
+    ],
+    "family": "whisper-tiny"
   },
   {
     "id": "huggingface:wangzhang/Qwen3.6-27B-abliterated-GGUF",
@@ -24200,6 +25149,142 @@
       "wangzhang/gemma-4-31B-it-abliterated-GGUF"
     ],
     "family": "gemma-4-it-abliterated"
+  },
+  {
+    "id": "huggingface:handy-computer/Qwen3-ASR-1.7B-gguf",
+    "name": "Qwen3-ASR-1.7B-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T11:56:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/Qwen3-ASR-1.7B-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935028+00:00",
+    "source_ids": [
+      "handy-computer/Qwen3-ASR-1.7B-gguf"
+    ],
+    "family": "Qwen3-ASR"
+  },
+  {
+    "id": "huggingface:handy-computer/Qwen3-ASR-0.6B-gguf",
+    "name": "Qwen3-ASR-0.6B-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T11:51:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/Qwen3-ASR-0.6B-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "qwen3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935004+00:00",
+    "source_ids": [
+      "handy-computer/Qwen3-ASR-0.6B-gguf"
+    ],
+    "family": "Qwen3-ASR"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-tdt-0.6b-v3-gguf",
+    "name": "parakeet-tdt-0.6b-v3-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T11:52:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-tdt-0.6b-v3-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935125+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-tdt-0.6b-v3-gguf"
+    ],
+    "family": "parakeet-tdt-v3"
+  },
+  {
+    "id": "huggingface:handy-computer/parakeet-tdt-0.6b-v2-gguf",
+    "name": "parakeet-tdt-0.6b-v2-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-15T07:38:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/parakeet-tdt-0.6b-v2-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "parakeet"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T03:41:14.935101+00:00",
+    "source_ids": [
+      "handy-computer/parakeet-tdt-0.6b-v2-gguf"
+    ],
+    "family": "parakeet-tdt-v2"
   },
   {
     "id": "huggingface:litert-community/moonshine-tiny",
