@@ -1,5 +1,72 @@
 [
   {
+    "id": "huggingface:tencent/Simple-Attention-Sparsification",
+    "name": "Simple-Attention-Sparsification",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-14T07:43:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/Simple-Attention-Sparsification",
+    "tags": [
+      "text-generation",
+      "qwen3",
+      "sparse-attention",
+      "long-context",
+      "sglang",
+      "sas"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:50.712711+00:00",
+    "source_ids": [
+      "tencent/Simple-Attention-Sparsification"
+    ],
+    "family": "Simple-Attention-Sparsification"
+  },
+  {
+    "id": "huggingface:zeromodels/stable-diffusion-v1-5",
+    "name": "stable-diffusion-v1-5",
+    "provider": "zeromodels",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-12T07:39:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeromodels/stable-diffusion-v1-5",
+    "tags": [
+      "text-to-image",
+      "zeromodels",
+      "keras",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:50.844312+00:00",
+    "source_ids": [
+      "zeromodels/stable-diffusion-v1-5"
+    ],
+    "family": "stable-diffusion-v1-5"
+  },
+  {
     "id": "openrouter:inference-net/schematron-v2-turbo",
     "name": "Inference.net: Schematron V2 Turbo",
     "provider": "inference-net",
@@ -1317,6 +1384,39 @@
       "nex-agi/nex-n2.5-pro:free"
     ],
     "family": "Nex-N2.5-Pro"
+  },
+  {
+    "id": "huggingface:Chaman1234/Sparse-AST-BWM",
+    "name": "Sparse-AST-BWM",
+    "provider": "Chaman1234",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T14:23:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Chaman1234/Sparse-AST-BWM",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "sparse-ast",
+      "blender",
+      "blender-python"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:50.712757+00:00",
+    "source_ids": [
+      "Chaman1234/Sparse-AST-BWM"
+    ],
+    "family": "Sparse-AST-BWM"
   },
   {
     "id": "huggingface:khtsly/luau-coder-1.0-preview-medium",
@@ -14661,39 +14761,6 @@
     "family": "Qwen3.8-NVFP4-RTX5090"
   },
   {
-    "id": "openrouter:qwen/qwen3.8-27b",
-    "name": "Qwen: Qwen3.8 27B",
-    "provider": "Qwen",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T15:55:10+00:00",
-    "context_length": 262144,
-    "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
-    "url": "https://openrouter.ai/qwen/qwen3.8-27b",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.45,
-      "completion_per_million": 3.2
-    },
-    "first_seen": "2026-08-15T04:30:20.293062+00:00",
-    "source_ids": [
-      "qwen/qwen3.8-27b"
-    ],
-    "family": "Qwen3.8"
-  },
-  {
     "id": "huggingface:AutomatosX/AX-Qwen3.8-27B-MLX-AXQ-6bit-MTP",
     "name": "AX-Qwen3.8-27B-MLX-AXQ-6bit-MTP",
     "provider": "AutomatosX",
@@ -16480,39 +16547,6 @@
       "cafepm/Muse-Glimmer-30B-Q3Q4-GGUF"
     ],
     "family": "Muse-Glimmer-Q3Q4"
-  },
-  {
-    "id": "huggingface:bloomer010/Ling-3.0-tiny-GGUF",
-    "name": "Ling-3.0-tiny-GGUF",
-    "provider": "bloomer010",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-11T04:35:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bloomer010/Ling-3.0-tiny-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "bailingmoe3",
-      "mixture-of-experts",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-15T04:30:20.398312+00:00",
-    "source_ids": [
-      "bloomer010/Ling-3.0-tiny-GGUF"
-    ],
-    "family": "Ling-3.0-tiny"
   },
   {
     "id": "huggingface:hakim77/trocr-captcha-v2-god-mode",
@@ -18467,39 +18501,6 @@
     "first_seen": "2026-08-17T20:26:25.115341+00:00",
     "source_ids": [
       "prometheusAIR/Ling-3.0-flash-GGUF"
-    ],
-    "family": "Ling-3.0-flash"
-  },
-  {
-    "id": "huggingface:bloomer010/Ling-3.0-flash-GGUF",
-    "name": "Ling-3.0-flash-GGUF",
-    "provider": "bloomer010",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-04T23:10:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bloomer010/Ling-3.0-flash-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "bailingmoe3",
-      "mixture-of-experts",
-      "speculative-decoding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-15T04:30:20.398234+00:00",
-    "source_ids": [
-      "bloomer010/Ling-3.0-flash-GGUF"
     ],
     "family": "Ling-3.0-flash"
   },
@@ -21265,6 +21266,41 @@
     "family": "MiniCPM5-heretic"
   },
   {
+    "id": "huggingface:mlx-community/gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit",
+    "name": "gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-14T12:30:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "gemma4_unified",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:51.583120+00:00",
+    "source_ids": [
+      "mlx-community/gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit"
+    ],
+    "family": "gemma-4-coder-fable5-composer2.5-v1-OptiQ-4bit"
+  },
+  {
     "id": "huggingface:mlx-community/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-OptiQ-4bit",
     "name": "MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-OptiQ-4bit",
     "provider": "mlx-community",
@@ -23483,6 +23519,142 @@
       "OpenVINO/whisper-large-v3-turbo-int8-ov"
     ],
     "family": "whisper-large-v3-turbo-int8-ov"
+  },
+  {
+    "id": "huggingface:handy-computer/gigaam-v3-ctc-gguf",
+    "name": "gigaam-v3-ctc-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T05:32:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/gigaam-v3-ctc-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "gigaam"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:51.439907+00:00",
+    "source_ids": [
+      "handy-computer/gigaam-v3-ctc-gguf"
+    ],
+    "family": "gigaam-v3-ctc"
+  },
+  {
+    "id": "huggingface:handy-computer/gigaam-v3-e2e-ctc-gguf",
+    "name": "gigaam-v3-e2e-ctc-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T05:32:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/gigaam-v3-e2e-ctc-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "gigaam"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:51.439936+00:00",
+    "source_ids": [
+      "handy-computer/gigaam-v3-e2e-ctc-gguf"
+    ],
+    "family": "gigaam-v3-e2e-ctc"
+  },
+  {
+    "id": "huggingface:handy-computer/gigaam-v3-rnnt-gguf",
+    "name": "gigaam-v3-rnnt-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T05:32:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/gigaam-v3-rnnt-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "gigaam"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:51.439876+00:00",
+    "source_ids": [
+      "handy-computer/gigaam-v3-rnnt-gguf"
+    ],
+    "family": "gigaam-v3-rnnt"
+  },
+  {
+    "id": "huggingface:handy-computer/gigaam-v3-e2e-rnnt-gguf",
+    "name": "gigaam-v3-e2e-rnnt-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-13T05:32:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/gigaam-v3-e2e-rnnt-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "gigaam"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-14T09:36:51.439839+00:00",
+    "source_ids": [
+      "handy-computer/gigaam-v3-e2e-rnnt-gguf"
+    ],
+    "family": "gigaam-v3-e2e-rnnt"
   },
   {
     "id": "huggingface:Serveurperso/Qwen3-TTS-GGUF",
