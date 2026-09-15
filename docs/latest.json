@@ -1951,6 +1951,41 @@
     "family": "MiniCPM5"
   },
   {
+    "id": "huggingface:mradermacher/Qwen3.5-KETI-HAECHI-27B-i1-GGUF",
+    "name": "Qwen3.5-KETI-HAECHI-27B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-06T03:09:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen3.5-KETI-HAECHI-27B-i1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3.5",
+      "multimodal",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-15T09:13:47.805333+00:00",
+    "source_ids": [
+      "mradermacher/Qwen3.5-KETI-HAECHI-27B-i1-GGUF"
+    ],
+    "family": "Qwen3.5-KETI-HAECHI-i1"
+  },
+  {
     "id": "huggingface:stornic56/Spark-X2.5-4B-GGUF",
     "name": "Spark-X2.5-4B-GGUF",
     "provider": "stornic56",
@@ -5548,6 +5583,39 @@
       "inferencerlabs/GLM-5.3-Flash-MLX-Q9"
     ],
     "family": "GLM-5.3-Flash-MLX-Q9"
+  },
+  {
+    "id": "huggingface:mlx-community/KAT-Coder-V2.5-Dev-OptiQ-4bit-REAP-18B",
+    "name": "KAT-Coder-V2.5-Dev-OptiQ-4bit-REAP-18B",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T06:28:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/KAT-Coder-V2.5-Dev-OptiQ-4bit-REAP-18B",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "quantized",
+      "expert-pruning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-15T09:13:47.017637+00:00",
+    "source_ids": [
+      "mlx-community/KAT-Coder-V2.5-Dev-OptiQ-4bit-REAP-18B"
+    ],
+    "family": "KAT-Coder-V2.5-Dev-OptiQ-4bit-REAP"
   },
   {
     "id": "openrouter:tencent/hy4-preview",
@@ -12892,6 +12960,40 @@
     "family": "Qwen3.8-Uncensored-YMQ-MTP"
   },
   {
+    "id": "huggingface:zeroweight-ai/ZeroTTS",
+    "name": "ZeroTTS",
+    "provider": "zeroweight-ai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-15T15:55:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zeroweight-ai/ZeroTTS",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "text-to-speech",
+      "tts",
+      "vietnamese",
+      "onnxruntime"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-15T09:13:47.571932+00:00",
+    "source_ids": [
+      "zeroweight-ai/ZeroTTS"
+    ],
+    "family": "ZeroTTS"
+  },
+  {
     "id": "huggingface:windowsxp811203/Qwen3.8-27B-Abliterated-NVFP4",
     "name": "Qwen3.8-27B-Abliterated-NVFP4",
     "provider": "windowsxp811203",
@@ -17459,39 +17561,6 @@
     "family": "Muse-Glimmer"
   },
   {
-    "id": "huggingface:reaperdoesntknow/Qwen3.5-2B-CyberSec-GGUF",
-    "name": "Qwen3.5-2B-CyberSec-GGUF",
-    "provider": "reaperdoesntknow",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T15:45:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reaperdoesntknow/Qwen3.5-2B-CyberSec-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "qwen3_5",
-      "llama.cpp",
-      "unsloth",
-      "cybersecurity"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-16T04:35:08.766504+00:00",
-    "source_ids": [
-      "reaperdoesntknow/Qwen3.5-2B-CyberSec-GGUF"
-    ],
-    "family": "Qwen3.5-CyberSec"
-  },
-  {
     "id": "huggingface:sleepyjoe123/Misa",
     "name": "Misa",
     "provider": "sleepyjoe123",
@@ -18809,39 +18878,6 @@
     "family": "granite-speech-5.0-470m-turboctc"
   },
   {
-    "id": "huggingface:inclusionAI/Ling-3.0-flash-fp4",
-    "name": "Ling-3.0-flash-fp4",
-    "provider": "inclusionAI",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-04T04:33:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-fp4",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "bailing_hybrid",
-      "text-generation",
-      "conversational",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-16T04:35:08.766383+00:00",
-    "source_ids": [
-      "inclusionAI/Ling-3.0-flash-fp4"
-    ],
-    "family": "Ling-3.0-flash-fp4"
-  },
-  {
     "id": "huggingface:inclusionAI/Ling-3.0-flash-int4",
     "name": "Ling-3.0-flash-int4",
     "provider": "inclusionAI",
@@ -19038,39 +19074,6 @@
       "KeefeBuild/Keefe-Discere"
     ],
     "family": "Keefe-Discere"
-  },
-  {
-    "id": "huggingface:neko-legends/DeepSeek-V4-Flash-0731-Abliterated-NVFP4",
-    "name": "DeepSeek-V4-Flash-0731-Abliterated-NVFP4",
-    "provider": "neko-legends",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-03T09:28:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/neko-legends/DeepSeek-V4-Flash-0731-Abliterated-NVFP4",
-    "tags": [
-      "text-generation",
-      "deepseek-v4",
-      "nvfp4",
-      "fp8",
-      "modelopt",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-16T08:28:00.704025+00:00",
-    "source_ids": [
-      "neko-legends/DeepSeek-V4-Flash-0731-Abliterated-NVFP4"
-    ],
-    "family": "DeepSeek-V4-Flash-0731-Abliterated-NVFP4"
   },
   {
     "id": "huggingface:Masterx/vibevoice-asr-bitnet-onnx",
@@ -21671,41 +21674,6 @@
       "Alibaba-DAMO-Academy/RynnBrain1.1-2B"
     ],
     "family": "RynnBrain1.1"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V8-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V8-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T06:40:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V8-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "hermes",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-16T08:28:01.521601+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V8-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V8"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V9-GGUF",
