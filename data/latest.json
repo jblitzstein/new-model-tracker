@@ -198,6 +198,39 @@
     "family": "Dahono"
   },
   {
+    "id": "huggingface:bartowski/Nex-N2.5-Pro-GGUF",
+    "name": "Nex-N2.5-Pro-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-12T16:06:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/Nex-N2.5-Pro-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "text-generation",
+      "base_model:nex-agi/Nex-N2.5-Pro",
+      "base_model:quantized:nex-agi/Nex-N2.5-Pro",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-15T03:41:57.721869+00:00",
+    "source_ids": [
+      "bartowski/Nex-N2.5-Pro-GGUF"
+    ],
+    "family": "Nex-N2.5-Pro"
+  },
+  {
     "id": "huggingface:jan1k/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-NVFP4-GGUF",
     "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-NVFP4-GGUF",
     "provider": "jan1k",
@@ -5684,6 +5717,41 @@
     "family": "GLM-5.3-Flash-DFlash2"
   },
   {
+    "id": "huggingface:nvidia/Muse-Glimmer-30B-NVFP4",
+    "name": "Muse-Glimmer-30B-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T20:37:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Muse-Glimmer-30B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "Model Optimizer",
+      "safetensors",
+      "muse_glimmer",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-15T03:41:58.582051+00:00",
+    "source_ids": [
+      "nvidia/Muse-Glimmer-30B-NVFP4"
+    ],
+    "family": "Muse-Glimmer-NVFP4"
+  },
+  {
     "id": "huggingface:AnonimousA/Qwen3.8-Flash-Next-REAP-256-duo-GGUF",
     "name": "Qwen3.8-Flash-Next-REAP-256-duo-GGUF",
     "provider": "AnonimousA",
@@ -7804,6 +7872,39 @@
     "first_seen": "2026-09-14T03:41:14.490539+00:00",
     "source_ids": [
       "XHToken/Spark-X2.5-4B"
+    ],
+    "family": "Spark-X2.5"
+  },
+  {
+    "id": "huggingface:XHToken/Spark-X2.5-1.7B",
+    "name": "Spark-X2.5-1.7B",
+    "provider": "XHToken",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-24T06:34:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "spark2_5",
+      "text-generation",
+      "llm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-15T03:41:57.721903+00:00",
+    "source_ids": [
+      "XHToken/Spark-X2.5-1.7B"
     ],
     "family": "Spark-X2.5"
   },
@@ -17733,39 +17834,6 @@
     "family": "CobrIX-1.0-Coder-Flash"
   },
   {
-    "id": "huggingface:CobrIX/CobrIX-1.0-Coder-Full-72B-A18B",
-    "name": "CobrIX-1.0-Coder-Full-72B-A18B",
-    "provider": "CobrIX",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-08T01:33:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CobrIX/CobrIX-1.0-Coder-Full-72B-A18B",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "safetensors",
-      "qwen35_moe",
-      "MoE",
-      "Qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-16T01:17:22.904384+00:00",
-    "source_ids": [
-      "CobrIX/CobrIX-1.0-Coder-Full-72B-A18B"
-    ],
-    "family": "CobrIX-1.0-Coder-Full"
-  },
-  {
     "id": "huggingface:ibm-granite/granite-4.2-30b",
     "name": "granite-4.2-30b",
     "provider": "IBM",
@@ -18937,39 +19005,6 @@
       "webAI-Official/TwIL-LM3"
     ],
     "family": "TwIL-LM3"
-  },
-  {
-    "id": "huggingface:vamazing/Koa-AI-v1-Code-3B",
-    "name": "Koa-AI-v1-Code-3B",
-    "provider": "vamazing",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-03T16:39:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vamazing/Koa-AI-v1-Code-3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "mistral3",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-16T01:17:22.904237+00:00",
-    "source_ids": [
-      "vamazing/Koa-AI-v1-Code-3B"
-    ],
-    "family": "Koa-AI-v1-Code"
   },
   {
     "id": "huggingface:KeefeBuild/Keefe-Discere",
@@ -21235,40 +21270,6 @@
       "Motif-Technologies/Motif-3-Beta"
     ],
     "family": "Motif-3-Beta"
-  },
-  {
-    "id": "huggingface:jimmycarter/krea2-turbo-bbox",
-    "name": "krea2-turbo-bbox",
-    "provider": "jimmycarter",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-20T21:36:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jimmycarter/krea2-turbo-bbox",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "text-to-image",
-      "krea2",
-      "distilled"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-16T01:17:22.983128+00:00",
-    "source_ids": [
-      "jimmycarter/krea2-turbo-bbox"
-    ],
-    "family": "krea2-turbo-bbox"
   },
   {
     "id": "huggingface:Ttimms/zaya1-8b-nvfp4-w4a4",
