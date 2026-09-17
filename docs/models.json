@@ -147721,5 +147721,207 @@
       "ddark-il/Qwen3.8-Flash-Next-Uncensored"
     ],
     "family": "Qwen3.8-Flash-Next-Uncensored"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.8-27b:free",
+    "name": "Qwen: Qwen3.8 27B (free)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T15:55:10+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-27b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:36.242704+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-27b:free"
+    ],
+    "family": "Qwen3.8"
+  },
+  {
+    "id": "huggingface:incoai/Qwen3.8-27B-DFlash2",
+    "name": "Qwen3.8-27B-DFlash2",
+    "provider": "incoai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T04:09:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/incoai/Qwen3.8-27B-DFlash2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "dflash2",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:36.473577+00:00",
+    "source_ids": [
+      "incoai/Qwen3.8-27B-DFlash2"
+    ],
+    "family": "Qwen3.8-DFlash2"
+  },
+  {
+    "id": "huggingface:bodhan-ai/indic-transcribe-core",
+    "name": "indic-transcribe-core",
+    "provider": "bodhan-ai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T08:59:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bodhan-ai/indic-transcribe-core",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "nemo",
+      "safetensors",
+      "indic_canary",
+      "feature-extraction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.387870+00:00",
+    "source_ids": [
+      "bodhan-ai/indic-transcribe-core"
+    ],
+    "family": "indic-transcribe-core"
+  },
+  {
+    "id": "huggingface:swiss-ai/Apertus-v1.5-70B",
+    "name": "Apertus-v1.5-70B",
+    "provider": "swiss-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T06:07:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/swiss-ai/Apertus-v1.5-70B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "apertus1p5",
+      "text-generation",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.541759+00:00",
+    "source_ids": [
+      "swiss-ai/Apertus-v1.5-70B"
+    ],
+    "family": "Apertus-v1.5"
+  },
+  {
+    "id": "huggingface:IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-GGUF",
+    "name": "Nex-N2.5-mini-APEX-I-MiniPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T01:01:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "apex",
+      "custom-quantization",
+      "unsloth-studio",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.541828+00:00",
+    "source_ids": [
+      "IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-GGUF"
+    ],
+    "family": "Nex-N2.5-mini-APEX-I-MiniPlus"
+  },
+  {
+    "id": "huggingface:Accio-Lab/occamy-1.0-GGUF",
+    "name": "occamy-1.0-GGUF",
+    "provider": "Accio-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T19:16:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Accio-Lab/occamy-1.0-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "4-bit",
+      "8-bit",
+      "moe",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.541940+00:00",
+    "source_ids": [
+      "Accio-Lab/occamy-1.0-GGUF"
+    ],
+    "family": "occamy-1.0"
   }
 ]

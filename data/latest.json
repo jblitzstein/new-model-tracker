@@ -97,6 +97,41 @@
     "family": "H3-Loras"
   },
   {
+    "id": "huggingface:Accio-Lab/occamy-1.0-GGUF",
+    "name": "occamy-1.0-GGUF",
+    "provider": "Accio-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T19:16:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Accio-Lab/occamy-1.0-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "4-bit",
+      "8-bit",
+      "moe",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.541940+00:00",
+    "source_ids": [
+      "Accio-Lab/occamy-1.0-GGUF"
+    ],
+    "family": "occamy-1.0"
+  },
+  {
     "id": "huggingface:mradermacher/RsEvi-8B-i1-GGUF",
     "name": "RsEvi-8B-i1-GGUF",
     "provider": "mradermacher",
@@ -130,6 +165,41 @@
       "mradermacher/RsEvi-8B-i1-GGUF"
     ],
     "family": "RsEvi-i1"
+  },
+  {
+    "id": "huggingface:IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-GGUF",
+    "name": "Nex-N2.5-mini-APEX-I-MiniPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T01:01:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "apex",
+      "custom-quantization",
+      "unsloth-studio",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.541828+00:00",
+    "source_ids": [
+      "IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-GGUF"
+    ],
+    "family": "Nex-N2.5-mini-APEX-I-MiniPlus"
   },
   {
     "id": "huggingface:ajgazin/Swift-Qwen3.8-27B-Uncensored-Dynamic-MTP-GGUF",
@@ -11362,6 +11432,40 @@
     "family": "Qwen3.8-Abliterated-MTP"
   },
   {
+    "id": "huggingface:bodhan-ai/indic-transcribe-core",
+    "name": "indic-transcribe-core",
+    "provider": "bodhan-ai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T08:59:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bodhan-ai/indic-transcribe-core",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "nemo",
+      "safetensors",
+      "indic_canary",
+      "feature-extraction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.387870+00:00",
+    "source_ids": [
+      "bodhan-ai/indic-transcribe-core"
+    ],
+    "family": "indic-transcribe-core"
+  },
+  {
     "id": "huggingface:Audio8/Audio8-TTS-Preview-0.1b",
     "name": "Audio8-TTS-Preview-0.1b",
     "provider": "Audio8",
@@ -12230,6 +12334,39 @@
       "shadowrock-io/Unlimited-OCR-Community-FP8-Dynamic"
     ],
     "family": "Unlimited-OCR-Community-FP8-Dynamic"
+  },
+  {
+    "id": "huggingface:incoai/Qwen3.8-27B-DFlash2",
+    "name": "Qwen3.8-27B-DFlash2",
+    "provider": "incoai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T04:09:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/incoai/Qwen3.8-27B-DFlash2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "dflash2",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:36.473577+00:00",
+    "source_ids": [
+      "incoai/Qwen3.8-27B-DFlash2"
+    ],
+    "family": "Qwen3.8-DFlash2"
   },
   {
     "id": "huggingface:nnndite/krea2nsfwv3",
@@ -15521,6 +15658,36 @@
     "family": "Qwen3.8-MXFP8"
   },
   {
+    "id": "openrouter:qwen/qwen3.8-27b:free",
+    "name": "Qwen: Qwen3.8 27B (free)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T15:55:10+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-27b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:36.242704+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-27b:free"
+    ],
+    "family": "Qwen3.8"
+  },
+  {
     "id": "huggingface:AutomatosX/AX-Qwen3.8-27B-MLX-AXQ-6bit-MTP",
     "name": "AX-Qwen3.8-27B-MLX-AXQ-6bit-MTP",
     "provider": "AutomatosX",
@@ -16900,41 +17067,6 @@
     "family": "Muse-Glimmer-Q3Q4"
   },
   {
-    "id": "huggingface:hakim77/trocr-captcha-v2-god-mode",
-    "name": "trocr-captcha-v2-god-mode",
-    "provider": "hakim77",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-11T01:28:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hakim77/trocr-captcha-v2-god-mode",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "vision-encoder-decoder",
-      "image-text-to-text",
-      "arxiv:1910.09700"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-18T20:22:58.284596+00:00",
-    "source_ids": [
-      "hakim77/trocr-captcha-v2-god-mode"
-    ],
-    "family": "trocr-captcha-v2-god-mode"
-  },
-  {
     "id": "huggingface:kkkkk26/lustify_v9",
     "name": "lustify_v9",
     "provider": "kkkkk26",
@@ -17743,40 +17875,6 @@
       "bodhan-ai/indic-transcribe-flex"
     ],
     "family": "indic-transcribe-flex"
-  },
-  {
-    "id": "huggingface:realrebelai/Rebels_w4a8s",
-    "name": "Rebels_w4a8s",
-    "provider": "realrebelai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-08-07T05:42:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/realrebelai/Rebels_w4a8s",
-    "tags": [
-      "text-to-image",
-      "w4a8",
-      "quantized",
-      "int4",
-      "comfyui",
-      "comfy-kitchen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-18T20:22:57.511494+00:00",
-    "source_ids": [
-      "realrebelai/Rebels_w4a8s"
-    ],
-    "family": "Rebels_w4a8s"
   },
   {
     "id": "huggingface:Motif-Technologies/Motif-3",
@@ -20256,6 +20354,41 @@
     "family": "Qwen3-VL"
   },
   {
+    "id": "huggingface:swiss-ai/Apertus-v1.5-70B",
+    "name": "Apertus-v1.5-70B",
+    "provider": "swiss-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T06:07:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/swiss-ai/Apertus-v1.5-70B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "apertus1p5",
+      "text-generation",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-17T22:41:37.541759+00:00",
+    "source_ids": [
+      "swiss-ai/Apertus-v1.5-70B"
+    ],
+    "family": "Apertus-v1.5"
+  },
+  {
     "id": "huggingface:farbodtavakkoli/OTel-2.0-LLM-31B-IT",
     "name": "OTel-2.0-LLM-31B-IT",
     "provider": "farbodtavakkoli",
@@ -20553,39 +20686,6 @@
       "ai9stars/G9v3-39A5B"
     ],
     "family": "G9v3-39A"
-  },
-  {
-    "id": "huggingface:fraQtl/Gemma-4-E2B-it-Hi-Fi-GGUF",
-    "name": "Gemma-4-E2B-it-Hi-Fi-GGUF",
-    "provider": "fraQtl",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T15:49:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fraQtl/Gemma-4-E2B-it-Hi-Fi-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "on-device",
-      "edge",
-      "iphone",
-      "offline"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-18T20:22:57.372525+00:00",
-    "source_ids": [
-      "fraQtl/Gemma-4-E2B-it-Hi-Fi-GGUF"
-    ],
-    "family": "Gemma-4-E-it-Hi-Fi"
   },
   {
     "id": "huggingface:neuphonic/neutts-2e-q4-gguf",
@@ -21124,41 +21224,6 @@
     "family": "RynnBrain1.1"
   },
   {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V9-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V9-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T06:40:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V9-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "hermes",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-18T16:30:44.829795+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V9-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V9"
-  },
-  {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
     "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
     "provider": "LuffyTheFox",
@@ -21534,76 +21599,6 @@
       "jashepp/Ornith-1.0-9B-MXFP4_Hybrid-Imatrix-GGUF"
     ],
     "family": "Ornith-1.0-MXFP4_Hybrid-Imatrix"
-  },
-  {
-    "id": "huggingface:furiosa-ai/Qwen3-VL-2B-Instruct",
-    "name": "Qwen3-VL-2B-Instruct",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T09:14:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Qwen3-VL-2B-Instruct",
-    "tags": [
-      "image-text-to-text",
-      "furiosa-llm",
-      "safetensors",
-      "qwen3_vl",
-      "furiosa-ai",
-      "qwen3-vl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-18T16:30:44.829921+00:00",
-    "source_ids": [
-      "furiosa-ai/Qwen3-VL-2B-Instruct"
-    ],
-    "family": "Qwen3-VL"
-  },
-  {
-    "id": "huggingface:furiosa-ai/Qwen3-VL-4B-Instruct",
-    "name": "Qwen3-VL-4B-Instruct",
-    "provider": "furiosa-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-08T09:14:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/furiosa-ai/Qwen3-VL-4B-Instruct",
-    "tags": [
-      "image-text-to-text",
-      "furiosa-llm",
-      "safetensors",
-      "qwen3_vl",
-      "furiosa-ai",
-      "qwen3-vl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-18T16:30:44.829888+00:00",
-    "source_ids": [
-      "furiosa-ai/Qwen3-VL-4B-Instruct"
-    ],
-    "family": "Qwen3-VL"
   },
   {
     "id": "huggingface:furiosa-ai/Llama-3.3-70B-Instruct-FP8-dynamic",
