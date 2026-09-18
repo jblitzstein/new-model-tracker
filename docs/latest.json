@@ -2737,6 +2737,39 @@
     "family": "reddit_llama_ai"
   },
   {
+    "id": "huggingface:zgcagi/ZGCM-1-7B",
+    "name": "ZGCM-1-7B",
+    "provider": "zgcagi",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-07T19:01:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zgcagi/ZGCM-1-7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "zgcm",
+      "text-generation",
+      "math"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-18T18:55:41.239985+00:00",
+    "source_ids": [
+      "zgcagi/ZGCM-1-7B"
+    ],
+    "family": "ZGCM-1"
+  },
+  {
     "id": "huggingface:soyaakinohara/Qwen-3.8-flash-next-heretic-3.78bpw-gguf",
     "name": "Qwen-3.8-flash-next-heretic-3.78bpw-gguf",
     "provider": "soyaakinohara",
@@ -11780,35 +11813,6 @@
     "family": "Qwen3.8-OBLITERATED"
   },
   {
-    "id": "openrouter:~z-ai/glm-latest",
-    "name": "Z.ai: GLM Latest",
-    "provider": "~z-ai",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-19T14:50:53+00:00",
-    "context_length": 1048576,
-    "description": "This model always redirects to the latest GLM model from Z.ai.",
-    "url": "https://openrouter.ai/~z-ai/glm-latest",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.4,
-      "completion_per_million": 4.4
-    },
-    "first_seen": "2026-08-19T16:30:39.475172+00:00",
-    "source_ids": [
-      "~z-ai/glm-latest"
-    ],
-    "family": "GLM Latest"
-  },
-  {
     "id": "huggingface:RedHatAI/Qwen3.8-2.4T-A95B-NVFP4-REAP-25",
     "name": "Qwen3.8-2.4T-A95B-NVFP4-REAP-25",
     "provider": "RedHatAI",
@@ -12983,41 +12987,6 @@
     "family": "Faqih-R1-Islamic-AI"
   },
   {
-    "id": "huggingface:RedHatAI/Qwen3.8-27B-INT4",
-    "name": "Qwen3.8-27B-INT4",
-    "provider": "RedHatAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-17T20:44:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RedHatAI/Qwen3.8-27B-INT4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "vllm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-19T16:30:40.577220+00:00",
-    "source_ids": [
-      "RedHatAI/Qwen3.8-27B-INT4"
-    ],
-    "family": "Qwen3.8-INT4"
-  },
-  {
     "id": "huggingface:KikoCis/Qwen3.8-27B-GGUF",
     "name": "Qwen3.8-27B-GGUF",
     "provider": "KikoCis",
@@ -14074,39 +14043,6 @@
       "huihui-ai/Huihui-Qwen3.8-27B-abliterated"
     ],
     "family": "Huihui-Qwen3.8-abliterated"
-  },
-  {
-    "id": "huggingface:jfan/Qwen3.8-27B-heretic-dflash",
-    "name": "Qwen3.8-27B-heretic-dflash",
-    "provider": "jfan",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-16T06:35:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jfan/Qwen3.8-27B-heretic-dflash",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3",
-      "dflash",
-      "speculative-decoding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-19T16:30:39.624198+00:00",
-    "source_ids": [
-      "jfan/Qwen3.8-27B-heretic-dflash"
-    ],
-    "family": "Qwen3.8-heretic-dflash"
   },
   {
     "id": "huggingface:PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
