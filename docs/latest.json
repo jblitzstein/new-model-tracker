@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:unbiased/pareto",
+    "name": "Pareto",
+    "provider": "unbiased",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T23:02:58+00:00",
+    "context_length": 262144,
+    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+    "url": "https://openrouter.ai/unbiased/pareto",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-09-18T03:30:43.592629+00:00",
+    "source_ids": [
+      "unbiased/pareto"
+    ],
+    "family": "Pareto"
+  },
+  {
     "id": "huggingface:nvidia/DeepSeek-V4.1-Flash-NVFP4",
     "name": "DeepSeek-V4.1-Flash-NVFP4",
     "provider": "NVIDIA",
@@ -2398,6 +2429,41 @@
       "theFlamingGrill/reddit_llama_ai"
     ],
     "family": "reddit_llama_ai"
+  },
+  {
+    "id": "huggingface:soyaakinohara/Qwen-3.8-flash-next-heretic-3.78bpw-gguf",
+    "name": "Qwen-3.8-flash-next-heretic-3.78bpw-gguf",
+    "provider": "soyaakinohara",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-07T11:27:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/soyaakinohara/Qwen-3.8-flash-next-heretic-3.78bpw-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen4exp",
+      "moe",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-18T03:30:44.739351+00:00",
+    "source_ids": [
+      "soyaakinohara/Qwen-3.8-flash-next-heretic-3.78bpw-gguf"
+    ],
+    "family": "Qwen-3.8-flash-next-heretic-3.78bpw"
   },
   {
     "id": "huggingface:ThakiCloud/Qwen3.8-27B-Human-KO-Safety",
@@ -7060,6 +7126,41 @@
       "inclusionai/ling-3.0-flash-fin"
     ],
     "family": "Ling 3.0 Flash Fin"
+  },
+  {
+    "id": "huggingface:orcarouter/Qwen3.8-Flash-Next-Uncensored-NVFP4",
+    "name": "Qwen3.8-Flash-Next-Uncensored-NVFP4",
+    "provider": "orcarouter",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T15:31:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen4_exp",
+      "image-text-to-text",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-18T03:30:44.739231+00:00",
+    "source_ids": [
+      "orcarouter/Qwen3.8-Flash-Next-Uncensored-NVFP4"
+    ],
+    "family": "Qwen3.8-Flash-Next-Uncensored-NVFP4"
   },
   {
     "id": "huggingface:kingjones777/Qwen3.8-Flash-Next-Uncensored-ROCmFP4-FAST-GGUF",
@@ -11735,35 +11836,6 @@
     "family": "Qwen3.8-heretic-uncensored-NVFP4"
   },
   {
-    "id": "openrouter:z-ai/glm-5.3",
-    "name": "Z.ai: GLM 5.3",
-    "provider": "Zhipu AI",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-18T20:57:35+00:00",
-    "context_length": 1048576,
-    "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
-    "url": "https://openrouter.ai/z-ai/glm-5.3",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.4,
-      "completion_per_million": 4.4
-    },
-    "first_seen": "2026-08-19T01:13:55.418550+00:00",
-    "source_ids": [
-      "z-ai/glm-5.3"
-    ],
-    "family": "GLM 5.3"
-  },
-  {
     "id": "openrouter:z-ai/glm-5.3:batch",
     "name": "Z.ai: GLM 5.3 (batch)",
     "provider": "Zhipu AI",
@@ -14345,41 +14417,6 @@
     "family": "Luck-spark-V-300-MoE"
   },
   {
-    "id": "huggingface:philbert440/Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ",
-    "name": "Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ",
-    "provider": "philbert440",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-15T08:56:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/philbert440/Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "uncensored",
-      "abliterated",
-      "qwen3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-19T01:13:56.643642+00:00",
-    "source_ids": [
-      "philbert440/Qwen3.8-27B-Uncensored-Aggressive-W4A16-AWQ"
-    ],
-    "family": "Qwen3.8-Uncensored-Aggressive-W4A16"
-  },
-  {
     "id": "huggingface:avlp12/Qwen3.8-27B-Alis-MLX-8bit",
     "name": "Qwen3.8-27B-Alis-MLX-8bit",
     "provider": "avlp12",
@@ -14551,41 +14588,6 @@
       "junafinity/Qwen-3.8-27B-Uncensored-8-Bit-MLX"
     ],
     "family": "Qwen-3.8-Uncensored-8-Bit-MLX"
-  },
-  {
-    "id": "huggingface:philbert440/Qwen3.8-27B-Uncensored-Aggressive",
-    "name": "Qwen3.8-27B-Uncensored-Aggressive",
-    "provider": "philbert440",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-15T06:22:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/philbert440/Qwen3.8-27B-Uncensored-Aggressive",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "uncensored",
-      "abliterated",
-      "qwen3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-19T01:13:56.643603+00:00",
-    "source_ids": [
-      "philbert440/Qwen3.8-27B-Uncensored-Aggressive"
-    ],
-    "family": "Qwen3.8-Uncensored-Aggressive"
   },
   {
     "id": "huggingface:batiai/Qwen3.8-27B-GGUF",
@@ -17505,41 +17507,6 @@
     "family": "Misa"
   },
   {
-    "id": "huggingface:peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF",
-    "name": "Nail-Qwen3.6-35B-A3B-GGUF",
-    "provider": "peculiar-ragdoll",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T12:22:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "qwen3_6",
-      "moe",
-      "token-efficient"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-19T01:13:56.643535+00:00",
-    "source_ids": [
-      "peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF"
-    ],
-    "family": "Nail-Qwen3.6"
-  },
-  {
     "id": "huggingface:peculiar-ragdoll/Dagger-Qwen3.6-27B-MLX",
     "name": "Dagger-Qwen3.6-27B-MLX",
     "provider": "peculiar-ragdoll",
@@ -17641,41 +17608,6 @@
       "DavidAU/Qwen3.6-40B-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP-GGUF"
     ],
     "family": "Qwen3.6-Fable-Fusion-6-Core-Deckard-Eleanor-Heretic-Uncensored-NM-DAU-NEO-MAX-MTP"
-  },
-  {
-    "id": "huggingface:Atomic-Germ/MiniCPM-V-4.6-NPU2",
-    "name": "MiniCPM-V-4.6-NPU2",
-    "provider": "Atomic-Germ",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-08T16:50:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Atomic-Germ/MiniCPM-V-4.6-NPU2",
-    "tags": [
-      "image-text-to-text",
-      "q4nx",
-      "gguf",
-      "minicpmv4_6",
-      "fastflowlm",
-      "npu"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-19T01:13:56.643705+00:00",
-    "source_ids": [
-      "Atomic-Germ/MiniCPM-V-4.6-NPU2"
-    ],
-    "family": "MiniCPM-V-4.6-NPU2"
   },
   {
     "id": "huggingface:Motif-Technologies/Motif-3-NVFP4",
@@ -18881,6 +18813,32 @@
       "deepseek/deepseek-v4-flash-0731:batch"
     ],
     "family": "DeepSeek V4 Flash 0731 (batch)"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4-flash-0731:free",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-31T06:21:48+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-09-18T03:30:43.595553+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4-flash-0731:free"
+    ],
+    "family": "DeepSeek V4 Flash"
   },
   {
     "id": "openrouter:thinkingmachines/inkling-small:free",
@@ -26299,6 +26257,40 @@
       "LiquidAI/LFM2-700M-GGUF"
     ],
     "family": "LFM2-700M"
+  },
+  {
+    "id": "huggingface:efwkjn/whisper-ja-anime-v0.3",
+    "name": "whisper-ja-anime-v0.3",
+    "provider": "efwkjn",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-01T12:19:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/efwkjn/whisper-ja-anime-v0.3",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "ja",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-18T03:30:44.609284+00:00",
+    "source_ids": [
+      "efwkjn/whisper-ja-anime-v0.3"
+    ],
+    "family": "whisper-ja-anime-v0.3"
   },
   {
     "id": "huggingface:ggml-org/SmolVLM2-256M-Video-Instruct-GGUF",
