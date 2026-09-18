@@ -148730,5 +148730,102 @@
       "zgcagi/ZGCM-1-7B"
     ],
     "family": "ZGCM-1"
+  },
+  {
+    "id": "openrouter:prism-ml/ternary-bonsai-2-27b",
+    "name": "PrismML: Ternary Bonsai 2 27B",
+    "provider": "prism-ml",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T17:54:06+00:00",
+    "context_length": 262144,
+    "description": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks...",
+    "url": "https://openrouter.ai/prism-ml/ternary-bonsai-2-27b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.5
+    },
+    "first_seen": "2026-09-18T22:20:21.730322+00:00",
+    "source_ids": [
+      "prism-ml/ternary-bonsai-2-27b"
+    ],
+    "family": "Ternary Bonsai 2"
+  },
+  {
+    "id": "huggingface:Lordnyx/qwen3loop-0.6b-sft-deep-supervision-v1",
+    "name": "qwen3loop-0.6b-sft-deep-supervision-v1",
+    "provider": "Lordnyx",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-22T19:48:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Lordnyx/qwen3loop-0.6b-sft-deep-supervision-v1",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3loop",
+      "recursive-reasoning",
+      "deep-supervision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-18T22:20:21.903937+00:00",
+    "source_ids": [
+      "Lordnyx/qwen3loop-0.6b-sft-deep-supervision-v1"
+    ],
+    "family": "qwen3loop-sft-deep-supervision-v1"
+  },
+  {
+    "id": "huggingface:nvidia/GLM-5.3-NVFP4",
+    "name": "GLM-5.3-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-14T17:58:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/GLM-5.3-NVFP4",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "glm_moe_dsa",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-18T22:20:21.904115+00:00",
+    "source_ids": [
+      "nvidia/GLM-5.3-NVFP4"
+    ],
+    "family": "GLM-5.3-NVFP4"
   }
 ]
