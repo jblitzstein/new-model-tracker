@@ -100,6 +100,72 @@
     "family": "qwen3.8-flash-next-prune-research"
   },
   {
+    "id": "huggingface:Quazim0t0/MaleCNS-SpikeWhale-Anatomy-LM",
+    "name": "MaleCNS-SpikeWhale-Anatomy-LM",
+    "provider": "Quazim0t0",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T18:42:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Quazim0t0/MaleCNS-SpikeWhale-Anatomy-LM",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "spiking-neural-network",
+      "snn",
+      "connectome",
+      "drosophila"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-20T22:12:56.433265+00:00",
+    "source_ids": [
+      "Quazim0t0/MaleCNS-SpikeWhale-Anatomy-LM"
+    ],
+    "family": "MaleCNS-SpikeWhale-Anatomy-LM"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v3-vs16",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v3-vs16",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T17:57:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v3-vs16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-20T22:12:56.433307+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v3-vs16"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-q4v3-vs16"
+  },
+  {
     "id": "openrouter:prism-ml/ternary-bonsai-2-27b",
     "name": "PrismML: Ternary Bonsai 2 27B",
     "provider": "prism-ml",
@@ -4573,6 +4639,41 @@
       "qwen/qwen3.8-max-0902"
     ],
     "family": "Qwen3.8 Max (0902)"
+  },
+  {
+    "id": "huggingface:TheDrainFlorist/GLM-5.3-Flash-VQ-3.6bpw",
+    "name": "GLM-5.3-Flash-VQ-3.6bpw",
+    "provider": "TheDrainFlorist",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-03T20:27:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TheDrainFlorist/GLM-5.3-Flash-VQ-3.6bpw",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "glm5_next",
+      "quantized",
+      "vector-quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-20T22:12:56.964600+00:00",
+    "source_ids": [
+      "TheDrainFlorist/GLM-5.3-Flash-VQ-3.6bpw"
+    ],
+    "family": "GLM-5.3-Flash-VQ-3.6bpw"
   },
   {
     "id": "huggingface:roshan-soni/tinygemma-10m",
@@ -11585,40 +11686,6 @@
     "family": "AuK-Flash"
   },
   {
-    "id": "huggingface:rockerBOO/minimax-h3-nvfp4-fp8",
-    "name": "minimax-h3-nvfp4-fp8",
-    "provider": "rockerBOO",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-08-21T06:15:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/rockerBOO/minimax-h3-nvfp4-fp8",
-    "tags": [
-      "text-to-video",
-      "minimax-h3",
-      "nvfp4",
-      "fp8",
-      "quantized",
-      "text-to-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-21T20:25:03.411981+00:00",
-    "source_ids": [
-      "rockerBOO/minimax-h3-nvfp4-fp8"
-    ],
-    "family": "minimax-h3-nvfp4-fp8"
-  },
-  {
     "id": "huggingface:TelperionAI/Qwen3.8-27B-INT4-AWQ-GPTQ",
     "name": "Qwen3.8-27B-INT4-AWQ-GPTQ",
     "provider": "TelperionAI",
@@ -16643,40 +16710,6 @@
     "family": "Muse-Glimmer-Q3Q4"
   },
   {
-    "id": "huggingface:kkkkk26/lustify_v9",
-    "name": "lustify_v9",
-    "provider": "kkkkk26",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-08-10T23:14:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kkkkk26/lustify_v9",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "not-for-all-audiences",
-      "endpoints_compatible",
-      "diffusers:StableDiffusionXLPipeline"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-21T20:25:03.210609+00:00",
-    "source_ids": [
-      "kkkkk26/lustify_v9"
-    ],
-    "family": "lustify_v9"
-  },
-  {
     "id": "huggingface:RedHatAI/Muse-Glimmer-30B-NVFP4",
     "name": "Muse-Glimmer-30B-NVFP4",
     "provider": "RedHatAI",
@@ -17792,39 +17825,6 @@
     "family": "granite-speech-5.0-470m-turboctc"
   },
   {
-    "id": "huggingface:Myric/KAT-Coder-V2.5-Dev-MTP-APEX-GGUF",
-    "name": "KAT-Coder-V2.5-Dev-MTP-APEX-GGUF",
-    "provider": "Myric",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-03T22:38:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Myric/KAT-Coder-V2.5-Dev-MTP-APEX-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "safetensors",
-      "qwen3_5_moe",
-      "moe",
-      "apex"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-21T20:25:03.092484+00:00",
-    "source_ids": [
-      "Myric/KAT-Coder-V2.5-Dev-MTP-APEX-GGUF"
-    ],
-    "family": "KAT-Coder-V2.5-Dev-MTP-APEX"
-  },
-  {
     "id": "huggingface:webAI-Official/TwIL-LM3",
     "name": "TwIL-LM3",
     "provider": "webAI-Official",
@@ -18047,36 +18047,6 @@
       "deepseek/deepseek-v4-flash-0731:free"
     ],
     "family": "DeepSeek V4 Flash"
-  },
-  {
-    "id": "openrouter:thinkingmachines/inkling-small:free",
-    "name": "Thinking Machines: Inkling Small (free)",
-    "provider": "thinkingmachines",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-30T20:25:17+00:00",
-    "context_length": 262144,
-    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-    "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-08-21T20:25:02.920832+00:00",
-    "source_ids": [
-      "thinkingmachines/inkling-small:free"
-    ],
-    "family": "Inkling Small"
   },
   {
     "id": "openrouter:thinkingmachines/inkling-small:batch",
@@ -19889,36 +19859,6 @@
       "ChrisColeTech/LTX-2.3-uncensored-v1.4-fp8"
     ],
     "family": "LTX-2.3-uncensored-v1.4-fp8"
-  },
-  {
-    "id": "openrouter:thinkingmachines/inkling:free",
-    "name": "Thinking Machines: Inkling (free)",
-    "provider": "thinkingmachines",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-17T22:05:56+00:00",
-    "context_length": 262144,
-    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
-    "url": "https://openrouter.ai/thinkingmachines/inkling:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-08-21T20:25:02.921045+00:00",
-    "source_ids": [
-      "thinkingmachines/inkling:free"
-    ],
-    "family": "Inkling"
   },
   {
     "id": "openrouter:moonshotai/kimi-k3:batch",
