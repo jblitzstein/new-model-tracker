@@ -805,6 +805,39 @@
     "family": "Swift-Qwen3.8-Uncensored-Dynamic-MTP"
   },
   {
+    "id": "huggingface:IsValorum/Iris-mini-APEX-I-MiniPlus-V1-GGUF",
+    "name": "Iris-mini-APEX-I-MiniPlus-V1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-14T22:19:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Iris-mini-APEX-I-MiniPlus-V1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantization",
+      "quantized",
+      "apex",
+      "custom-quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-20T18:30:21.763133+00:00",
+    "source_ids": [
+      "IsValorum/Iris-mini-APEX-I-MiniPlus-V1-GGUF"
+    ],
+    "family": "Iris-mini-APEX-I-MiniPlus-V1"
+  },
+  {
     "id": "huggingface:nvidia/GLM-5.3-NVFP4",
     "name": "GLM-5.3-NVFP4",
     "provider": "NVIDIA",
@@ -12632,39 +12665,6 @@
     "family": "Ornith-1.5"
   },
   {
-    "id": "huggingface:YaTharThShaRma999/TTS_new",
-    "name": "TTS_new",
-    "provider": "YaTharThShaRma999",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-18T23:06:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/YaTharThShaRma999/TTS_new",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "arxiv:1910.09700"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-21T16:33:42.516347+00:00",
-    "source_ids": [
-      "YaTharThShaRma999/TTS_new"
-    ],
-    "family": "TTS_new"
-  },
-  {
     "id": "openrouter:z-ai/glm-5.3:batch",
     "name": "Z.ai: GLM 5.3 (batch)",
     "provider": "Zhipu AI",
@@ -18552,40 +18552,6 @@
     "family": "Kimi-K3-FP8-BLOCK"
   },
   {
-    "id": "huggingface:ilintar/moss-soundeffect-gguf",
-    "name": "moss-soundeffect-gguf",
-    "provider": "ilintar",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-07-27T22:54:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ilintar/moss-soundeffect-gguf",
-    "tags": [
-      "text-to-audio",
-      "gguf",
-      "OpenMOSS",
-      "GGUF",
-      "BF16",
-      "sound-effects"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-21T16:33:43.068319+00:00",
-    "source_ids": [
-      "ilintar/moss-soundeffect-gguf"
-    ],
-    "family": "moss-soundeffect"
-  },
-  {
     "id": "huggingface:zeromodels/qwen2.5-vl-32b-instruct",
     "name": "qwen2.5-vl-32b-instruct",
     "provider": "zeromodels",
@@ -20870,40 +20836,6 @@
       "XReyRobert/Ornith-1.0-35B-GPTQ-Pro-FOEM-4bit-g128-ns256"
     ],
     "family": "Ornith-1.0--Pro-FOEM-4bit-g128-ns256"
-  },
-  {
-    "id": "huggingface:ilintar/moss-tts-gguf",
-    "name": "moss-tts-gguf",
-    "provider": "ilintar",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-06-28T14:58:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ilintar/moss-tts-gguf",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "OpenMOSS",
-      "GGUF",
-      "BF16",
-      "Q8_0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-21T16:33:43.182635+00:00",
-    "source_ids": [
-      "ilintar/moss-tts-gguf"
-    ],
-    "family": "moss-tts"
   },
   {
     "id": "huggingface:furiosa-ai/Qwen3-Coder-30B-A3B-Instruct-FP8",
@@ -23913,6 +23845,40 @@
       "google/gemma-4-31b-it:batch"
     ],
     "family": "Gemma 4 (batch)"
+  },
+  {
+    "id": "huggingface:changelinglab/PhoneticXeus",
+    "name": "PhoneticXeus",
+    "provider": "changelinglab",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-30T02:53:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/changelinglab/PhoneticXeus",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "phoneticxeus",
+      "feature-extraction",
+      "phone-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-20T18:30:22.510543+00:00",
+    "source_ids": [
+      "changelinglab/PhoneticXeus"
+    ],
+    "family": "PhoneticXeus"
   },
   {
     "id": "huggingface:LiquidAI/LFM2.5-350M-GGUF",
