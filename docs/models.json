@@ -149873,5 +149873,475 @@
       "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v3-groot16"
     ],
     "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-q4v3-groot16"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.7",
+    "name": "SpaceXAI: Grok 4.7",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T16:19:01+00:00",
+    "context_length": 500000,
+    "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
+    "url": "https://openrouter.ai/x-ai/grok-4.7",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.6,
+      "completion_per_million": 4.8
+    },
+    "first_seen": "2026-09-21T17:55:48.057689+00:00",
+    "source_ids": [
+      "x-ai/grok-4.7"
+    ],
+    "family": "Grok 4.7"
+  },
+  {
+    "id": "huggingface:IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T08:06:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194005+00:00",
+    "source_ids": [
+      "IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Apodex-1.1-mini-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/Iris-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Iris-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T07:37:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Iris-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194042+00:00",
+    "source_ids": [
+      "IsValorum/Iris-mini-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Iris-mini-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T05:57:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194074+00:00",
+    "source_ids": [
+      "IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T05:09:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194106+00:00",
+    "source_ids": [
+      "IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Thomson-1.0-Small-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T03:31:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194138+00:00",
+    "source_ids": [
+      "IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T03:02:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194172+00:00",
+    "source_ids": [
+      "IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Nex-N2.5-mini-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T00:36:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194205+00:00",
+    "source_ids": [
+      "IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Occamy-1.0-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+    "name": "Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T22:27:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "alignment",
+      "heretic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.194235+00:00",
+    "source_ids": [
+      "IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF"
+    ],
+    "family": "Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated"
+  },
+  {
+    "id": "huggingface:abenzerps/Qwen-Image-2.1-GGUF",
+    "name": "Qwen-Image-2.1-GGUF",
+    "provider": "abenzerps",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-20T15:51:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "qwen",
+      "image-generation",
+      "comfyui",
+      "comfyui-gguf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.329024+00:00",
+    "source_ids": [
+      "abenzerps/Qwen-Image-2.1-GGUF"
+    ],
+    "family": "Qwen-Image-2.1"
+  },
+  {
+    "id": "huggingface:OpenVDN/vdn-minimax-h3",
+    "name": "vdn-minimax-h3",
+    "provider": "OpenVDN",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-09-02T05:03:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "text-to-video",
+      "arxiv:2609.20744",
+      "base_model:MiniMaxAI/MiniMax-H3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.537375+00:00",
+    "source_ids": [
+      "OpenVDN/vdn-minimax-h3"
+    ],
+    "family": "vdn-minimax-h3"
+  },
+  {
+    "id": "huggingface:kacaforyah/Opti-27B",
+    "name": "Opti-27B",
+    "provider": "kacaforyah",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T03:04:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kacaforyah/Opti-27B",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "opti",
+      "compression",
+      "patent-pending",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.993150+00:00",
+    "source_ids": [
+      "kacaforyah/Opti-27B"
+    ],
+    "family": "Opti"
+  },
+  {
+    "id": "huggingface:Starw1/Qwen3.8-27B-absolute-heresy-W4A16",
+    "name": "Qwen3.8-27B-absolute-heresy-W4A16",
+    "provider": "Starw1",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-25T19:26:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Starw1/Qwen3.8-27B-absolute-heresy-W4A16",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.993181+00:00",
+    "source_ids": [
+      "Starw1/Qwen3.8-27B-absolute-heresy-W4A16"
+    ],
+    "family": "Qwen3.8-absolute-heresy-W4A16"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Swift-Qwen3.8-27B-Genesis-GGUF",
+    "name": "Swift-Qwen3.8-27B-Genesis-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T05:02:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Swift-Qwen3.8-27B-Genesis-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.9",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T17:55:48.993234+00:00",
+    "source_ids": [
+      "LuffyTheFox/Swift-Qwen3.8-27B-Genesis-GGUF"
+    ],
+    "family": "Swift-Qwen3.8-Genesis"
   }
 ]
