@@ -150343,5 +150343,283 @@
       "LuffyTheFox/Swift-Qwen3.8-27B-Genesis-GGUF"
     ],
     "family": "Swift-Qwen3.8-Genesis"
+  },
+  {
+    "id": "openrouter:xiaomi/mimo-v2.6-pro-ultraspeed",
+    "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T20:07:47+00:00",
+    "context_length": 1048576,
+    "description": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly 10x...",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro-ultraspeed",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 4.35,
+      "completion_per_million": 8.7
+    },
+    "first_seen": "2026-09-21T23:02:06.785344+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2.6-pro-ultraspeed"
+    ],
+    "family": "MiMo-V2.6-Pro-UltraSpeed"
+  },
+  {
+    "id": "openrouter:xiaomi/mimo-v2.6-flash",
+    "name": "Xiaomi: MiMo-V2.6-Flash",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T20:07:44+00:00",
+    "context_length": 1048576,
+    "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for...",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.14,
+      "completion_per_million": 0.28
+    },
+    "first_seen": "2026-09-21T23:02:06.786420+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2.6-flash"
+    ],
+    "family": "MiMo-V2.6-Flash"
+  },
+  {
+    "id": "openrouter:xiaomi/mimo-v2.6-pro",
+    "name": "Xiaomi: MiMo-V2.6-Pro",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T20:07:39+00:00",
+    "context_length": 1048576,
+    "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding...",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.435,
+      "completion_per_million": 0.87
+    },
+    "first_seen": "2026-09-21T23:02:06.786461+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2.6-pro"
+    ],
+    "family": "MiMo-V2.6-Pro"
+  },
+  {
+    "id": "huggingface:desert-ant-labs/title",
+    "name": "title",
+    "provider": "desert-ant-labs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T10:22:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/desert-ant-labs/title",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "granitemoehybrid",
+      "text",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T23:02:06.961125+00:00",
+    "source_ids": [
+      "desert-ant-labs/title"
+    ],
+    "family": "title"
+  },
+  {
+    "id": "huggingface:NikiKrutan/Kiwen1.1-27B-MTP-GGUF",
+    "name": "Kiwen1.1-27B-MTP-GGUF",
+    "provider": "NikiKrutan",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T15:05:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NikiKrutan/Kiwen1.1-27B-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3.8",
+      "thinking",
+      "reasoning",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T23:02:07.885516+00:00",
+    "source_ids": [
+      "NikiKrutan/Kiwen1.1-27B-MTP-GGUF"
+    ],
+    "family": "Kiwen1.1-MTP"
+  },
+  {
+    "id": "huggingface:bloomer010/Ling-3.0-flash-VL-GGUF",
+    "name": "Ling-3.0-flash-VL-GGUF",
+    "provider": "bloomer010",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T19:22:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bloomer010/Ling-3.0-flash-VL-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "bailingmoe3vl",
+      "mixture-of-experts",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T23:02:07.885550+00:00",
+    "source_ids": [
+      "bloomer010/Ling-3.0-flash-VL-GGUF"
+    ],
+    "family": "Ling-3.0-flash-VL"
+  },
+  {
+    "id": "huggingface:IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
+    "name": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-16T17:36:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "apex",
+      "custom-quantization",
+      "unsloth-studio",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T23:02:07.885604+00:00",
+    "source_ids": [
+      "IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF"
+    ],
+    "family": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2"
+  },
+  {
+    "id": "huggingface:IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF",
+    "name": "Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-16T17:21:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "apex",
+      "custom-quantization",
+      "unsloth-studio",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-21T23:02:07.885639+00:00",
+    "source_ids": [
+      "IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF"
+    ],
+    "family": "Thomson-1.0-Small-APEX-I-MiniPlus-V2"
   }
 ]
