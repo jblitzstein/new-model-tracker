@@ -150621,5 +150621,135 @@
       "IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF"
     ],
     "family": "Thomson-1.0-Small-APEX-I-MiniPlus-V2"
+  },
+  {
+    "id": "openrouter:nex-agi/nex-n2.5-mini",
+    "name": "Nex AGI: Nex-N2.5-Mini",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T17:54:21+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2.5-mini",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.025,
+      "completion_per_million": 0.1
+    },
+    "first_seen": "2026-09-22T09:04:30.897158+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2.5-mini"
+    ],
+    "family": "Nex-N2.5-Mini"
+  },
+  {
+    "id": "openrouter:nex-agi/nex-n2.5-pro",
+    "name": "Nex AGI: Nex-N2.5-Pro",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T17:54:10+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2.5-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.075,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-09-22T09:04:30.897192+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2.5-pro"
+    ],
+    "family": "Nex-N2.5-Pro"
+  },
+  {
+    "id": "huggingface:nkkbr/Mini-K3-1H-attn-1kda-3mla-nope-v2",
+    "name": "Mini-K3-1H-attn-1kda-3mla-nope-v2",
+    "provider": "nkkbr",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T08:22:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nkkbr/Mini-K3-1H-attn-1kda-3mla-nope-v2",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "mini_k3",
+      "kimi-k3",
+      "pretraining"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T09:04:31.035323+00:00",
+    "source_ids": [
+      "nkkbr/Mini-K3-1H-attn-1kda-3mla-nope-v2"
+    ],
+    "family": "Mini-K3-1H-attn-1kda-3mla-nope-v2"
+  },
+  {
+    "id": "huggingface:internlm/Intern-S2-397B",
+    "name": "Intern-S2-397B",
+    "provider": "InternLM",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-13T03:20:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/internlm/Intern-S2-397B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T09:04:31.827249+00:00",
+    "source_ids": [
+      "internlm/Intern-S2-397B"
+    ],
+    "family": "Intern-S2"
   }
 ]
