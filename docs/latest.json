@@ -1,5 +1,335 @@
 [
   {
+    "id": "openrouter:openai/gpt-6-luna-pro",
+    "name": "OpenAI: GPT-6 Luna Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:13:11+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-6-luna-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.5
+    },
+    "first_seen": "2026-09-22T22:45:19.056661+00:00",
+    "source_ids": [
+      "openai/gpt-6-luna-pro"
+    ],
+    "family": "GPT-6 Luna Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-luna-pro:batch",
+    "name": "OpenAI: GPT-6 Luna Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:13:11+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-6-luna-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-09-22T22:45:19.057744+00:00",
+    "source_ids": [
+      "openai/gpt-6-luna-pro:batch"
+    ],
+    "family": "GPT-6 Luna Pro (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-luna",
+    "name": "OpenAI: GPT-6 Luna",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:13:06+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+    "url": "https://openrouter.ai/openai/gpt-6-luna",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.5
+    },
+    "first_seen": "2026-09-22T22:45:19.057791+00:00",
+    "source_ids": [
+      "openai/gpt-6-luna"
+    ],
+    "family": "GPT-6 Luna"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-luna:batch",
+    "name": "OpenAI: GPT-6 Luna (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:13:06+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+    "url": "https://openrouter.ai/openai/gpt-6-luna:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-09-22T22:45:19.057821+00:00",
+    "source_ids": [
+      "openai/gpt-6-luna:batch"
+    ],
+    "family": "GPT-6 Luna (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-sol-pro",
+    "name": "OpenAI: GPT-6 Sol Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:13:01+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-6-sol-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-22T22:45:19.057853+00:00",
+    "source_ids": [
+      "openai/gpt-6-sol-pro"
+    ],
+    "family": "GPT-6 Sol Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-sol-pro:batch",
+    "name": "OpenAI: GPT-6 Sol Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:13:01+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+    "url": "https://openrouter.ai/openai/gpt-6-sol-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-09-22T22:45:19.057882+00:00",
+    "source_ids": [
+      "openai/gpt-6-sol-pro:batch"
+    ],
+    "family": "GPT-6 Sol Pro (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-sol",
+    "name": "OpenAI: GPT-6 Sol",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:12:55+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional...",
+    "url": "https://openrouter.ai/openai/gpt-6-sol",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-22T22:45:19.057912+00:00",
+    "source_ids": [
+      "openai/gpt-6-sol"
+    ],
+    "family": "GPT-6 Sol"
+  },
+  {
+    "id": "openrouter:openai/gpt-6-sol:batch",
+    "name": "OpenAI: GPT-6 Sol (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:12:55+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional...",
+    "url": "https://openrouter.ai/openai/gpt-6-sol:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-09-22T22:45:19.057945+00:00",
+    "source_ids": [
+      "openai/gpt-6-sol:batch"
+    ],
+    "family": "GPT-6 Sol (batch)"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-5.5",
+    "name": "Anthropic: Claude Opus 5.5",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T16:32:12+00:00",
+    "context_length": 1000000,
+    "description": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-5.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 4.0,
+      "completion_per_million": 20.0
+    },
+    "first_seen": "2026-09-22T22:45:19.057973+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-5.5"
+    ],
+    "family": "Claude Opus 5.5"
+  },
+  {
+    "id": "openrouter:anthropic/claude-opus-5.5:batch",
+    "name": "Anthropic: Claude Opus 5.5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T16:32:12+00:00",
+    "context_length": 1000000,
+    "description": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code...",
+    "url": "https://openrouter.ai/anthropic/claude-opus-5.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-22T22:45:19.058000+00:00",
+    "source_ids": [
+      "anthropic/claude-opus-5.5:batch"
+    ],
+    "family": "Claude Opus 5.5 (batch)"
+  },
+  {
     "id": "openrouter:xiaomi/mimo-v2.6-pro-ultraspeed",
     "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
     "provider": "Xiaomi",
@@ -105,6 +435,41 @@
     "family": "MiMo-V2.6-Pro"
   },
   {
+    "id": "huggingface:apple/LensVLM-9B",
+    "name": "LensVLM-9B",
+    "provider": "Apple",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T18:18:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/apple/LensVLM-9B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "vision-language-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.611082+00:00",
+    "source_ids": [
+      "apple/LensVLM-9B"
+    ],
+    "family": "LensVLM"
+  },
+  {
     "id": "openrouter:x-ai/grok-4.7",
     "name": "SpaceXAI: Grok 4.7",
     "provider": "xAI",
@@ -172,6 +537,41 @@
     "family": "MOSS-TTS-v1.5"
   },
   {
+    "id": "openrouter:qwen/qwen3.8-omni-flash",
+    "name": "Qwen: Qwen3.8 Omni Flash",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T03:05:54+00:00",
+    "context_length": 1000000,
+    "description": "Qwen3.8 Omni Flash is an omni-modal reasoning model from Alibaba, the first Qwen model built around agentic capabilities with native audio-video understanding. It is suited for audio-video analysis and summarization,...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-omni-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.47
+    },
+    "first_seen": "2026-09-22T22:45:19.058148+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-omni-flash"
+    ],
+    "family": "Qwen3.8 Omni Flash"
+  },
+  {
     "id": "huggingface:abenzerps/Qwen-Image-2.1-GGUF",
     "name": "Qwen-Image-2.1-GGUF",
     "provider": "abenzerps",
@@ -204,6 +604,75 @@
       "abenzerps/Qwen-Image-2.1-GGUF"
     ],
     "family": "Qwen-Image-2.1"
+  },
+  {
+    "id": "huggingface:abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+    "name": "Qwen-Image-2.1-Uncensored-GGUF",
+    "provider": "abenzerps",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-20T15:51:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "qwen",
+      "image-generation",
+      "comfyui",
+      "comfyui-gguf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.230357+00:00",
+    "source_ids": [
+      "abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
+    ],
+    "family": "Qwen-Image-2.1-Uncensored"
+  },
+  {
+    "id": "huggingface:darkc0de/XORTRON-RICO-v3",
+    "name": "XORTRON-RICO-v3",
+    "provider": "darkc0de",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-20T11:13:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/darkc0de/XORTRON-RICO-v3",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "merge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.611047+00:00",
+    "source_ids": [
+      "darkc0de/XORTRON-RICO-v3"
+    ],
+    "family": "XORTRON-RICO-v3"
   },
   {
     "id": "huggingface:Qwen/Qwen-Image-2.1-PE-T2I",
@@ -8788,6 +9257,39 @@
     "family": "GLM-5.3-Flash-MLX-Q9"
   },
   {
+    "id": "huggingface:Youssofal/Qwen3.8-Flash-Next-MTPLX-Optimized-Speed",
+    "name": "Qwen3.8-Flash-Next-MTPLX-Optimized-Speed",
+    "provider": "Youssofal",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-28T07:06:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Youssofal/Qwen3.8-Flash-Next-MTPLX-Optimized-Speed",
+    "tags": [
+      "text-generation",
+      "mtplx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.155147+00:00",
+    "source_ids": [
+      "Youssofal/Qwen3.8-Flash-Next-MTPLX-Optimized-Speed"
+    ],
+    "family": "Qwen3.8-Flash-Next-MTPLX-Optimized-Speed"
+  },
+  {
     "id": "huggingface:mlx-community/KAT-Coder-V2.5-Dev-OptiQ-4bit-REAP-18B",
     "name": "KAT-Coder-V2.5-Dev-OptiQ-4bit-REAP-18B",
     "provider": "mlx-community",
@@ -9545,6 +10047,39 @@
       "openbmb/MiniCPM5-2B-Base"
     ],
     "family": "MiniCPM5"
+  },
+  {
+    "id": "huggingface:Youssofal/Qwen3.8-Flash-Next-MTPLX-Bare-Speed",
+    "name": "Qwen3.8-Flash-Next-MTPLX-Bare-Speed",
+    "provider": "Youssofal",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T08:46:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Youssofal/Qwen3.8-Flash-Next-MTPLX-Bare-Speed",
+    "tags": [
+      "text-generation",
+      "mtplx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.155114+00:00",
+    "source_ids": [
+      "Youssofal/Qwen3.8-Flash-Next-MTPLX-Bare-Speed"
+    ],
+    "family": "Qwen3.8-Flash-Next-MTPLX-Bare-Speed"
   },
   {
     "id": "huggingface:Jab1718/qwen3.8-flash-coder-85gb-bf16",
@@ -12760,39 +13295,6 @@
     "family": "Qwen3.8-nvfp4full-NInfer"
   },
   {
-    "id": "huggingface:ge525/Qwen3.8-9B-Distill-uncensored-heretic-Q4_K_M-GGUF",
-    "name": "Qwen3.8-9B-Distill-uncensored-heretic-Q4_K_M-GGUF",
-    "provider": "ge525",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-20T19:23:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ge525/Qwen3.8-9B-Distill-uncensored-heretic-Q4_K_M-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "empero-ai",
-      "qwen3.5",
-      "qwen3.8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T16:24:59.772607+00:00",
-    "source_ids": [
-      "ge525/Qwen3.8-9B-Distill-uncensored-heretic-Q4_K_M-GGUF"
-    ],
-    "family": "Qwen3.8-Distill-uncensored-heretic-Q4_K_M"
-  },
-  {
     "id": "huggingface:oxalis-ink/shamrock-0-e4b",
     "name": "shamrock-0-e4b",
     "provider": "oxalis-ink",
@@ -13230,39 +13732,6 @@
       "bsaleh03/Qwen3.8-27B-ASCII-Condensed"
     ],
     "family": "Qwen3.8-ASCII-Condensed"
-  },
-  {
-    "id": "huggingface:troysaved/claimtrace-qwen3-1.7b",
-    "name": "claimtrace-qwen3-1.7b",
-    "provider": "troysaved",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-19T02:54:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/troysaved/claimtrace-qwen3-1.7b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "claimtrace"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T16:24:59.772794+00:00",
-    "source_ids": [
-      "troysaved/claimtrace-qwen3-1.7b"
-    ],
-    "family": "claimtrace-qwen3"
   },
   {
     "id": "huggingface:akopytko/Qwen3.8-27B-NVFP4-GGUF",
@@ -14418,41 +14887,6 @@
     "family": "Huihui-Qwen3.8-abliterated-mlx-4Bit"
   },
   {
-    "id": "huggingface:navispace/Qwen3.8-27B-W8A16-GPTQ",
-    "name": "Qwen3.8-27B-W8A16-GPTQ",
-    "provider": "navispace",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-16T12:35:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/navispace/Qwen3.8-27B-W8A16-GPTQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "gptq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T16:25:00.539991+00:00",
-    "source_ids": [
-      "navispace/Qwen3.8-27B-W8A16-GPTQ"
-    ],
-    "family": "Qwen3.8-W8A16"
-  },
-  {
     "id": "huggingface:AMAImedia/NOESIS-Qwopus3.5-9B-Coder-v3.5-BF16",
     "name": "NOESIS-Qwopus3.5-9B-Coder-v3.5-BF16",
     "provider": "AMAImedia",
@@ -14726,6 +15160,39 @@
     "family": "Qwen3.8-NVFP4"
   },
   {
+    "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality-FP16",
+    "name": "Qwen3.8-27B-MTPLX-Optimized-Quality-FP16",
+    "provider": "Youssofal",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T08:07:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality-FP16",
+    "tags": [
+      "text-generation",
+      "mtplx",
+      "safetensors",
+      "qwen3_5",
+      "mlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.154968+00:00",
+    "source_ids": [
+      "Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality-FP16"
+    ],
+    "family": "Qwen3.8-MTPLX-Optimized-Quality-FP16"
+  },
+  {
     "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed-FP16",
     "name": "Qwen3.8-27B-MTPLX-Bare-Speed-FP16",
     "provider": "Youssofal",
@@ -14757,6 +15224,39 @@
       "Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed-FP16"
     ],
     "family": "Qwen3.8-MTPLX-Bare-Speed-FP16"
+  },
+  {
+    "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed-FP16",
+    "name": "Qwen3.8-27B-MTPLX-Optimized-Speed-FP16",
+    "provider": "Youssofal",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T08:07:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed-FP16",
+    "tags": [
+      "text-generation",
+      "mtplx",
+      "safetensors",
+      "qwen3_5",
+      "mlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.155008+00:00",
+    "source_ids": [
+      "Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed-FP16"
+    ],
+    "family": "Qwen3.8-MTPLX-Optimized-Speed-FP16"
   },
   {
     "id": "huggingface:RukaRat/Qwen3.8-27B-INT8-W8A8-imatrix-MTP",
@@ -17443,41 +17943,6 @@
     "family": "gemma-3-it"
   },
   {
-    "id": "huggingface:Atomic-Germ/Darwin-36B-Opus-NPU2",
-    "name": "Darwin-36B-Opus-NPU2",
-    "provider": "Atomic-Germ",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-06T20:50:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Atomic-Germ/Darwin-36B-Opus-NPU2",
-    "tags": [
-      "image-text-to-text",
-      "qwen3_5_moe",
-      "darwin",
-      "qwen3.6",
-      "moe",
-      "reasoning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T16:25:00.539898+00:00",
-    "source_ids": [
-      "Atomic-Germ/Darwin-36B-Opus-NPU2"
-    ],
-    "family": "Darwin-Opus-NPU2"
-  },
-  {
     "id": "huggingface:kristijonas/paprika-whisper-lt",
     "name": "paprika-whisper-lt",
     "provider": "kristijonas",
@@ -17778,39 +18243,6 @@
       "webAI-Official/TwIL-LM3"
     ],
     "family": "TwIL-LM3"
-  },
-  {
-    "id": "huggingface:KeefeBuild/Keefe-Discere",
-    "name": "Keefe-Discere",
-    "provider": "KeefeBuild",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-03T14:43:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/KeefeBuild/Keefe-Discere",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T16:24:59.772830+00:00",
-    "source_ids": [
-      "KeefeBuild/Keefe-Discere"
-    ],
-    "family": "Keefe-Discere"
   },
   {
     "id": "huggingface:AmericanoLatte/Lorin_Krea_Lora",
@@ -19848,41 +20280,6 @@
       "Alibaba-DAMO-Academy/RynnBrain1.1-2B"
     ],
     "family": "RynnBrain1.1"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T06:40:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "hermes",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T20:21:39.980989+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V10"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF",
@@ -24628,41 +25025,6 @@
     "family": "whisper-ja-anime-v0.3"
   },
   {
-    "id": "huggingface:ggml-org/SmolVLM2-256M-Video-Instruct-GGUF",
-    "name": "SmolVLM2-256M-Video-Instruct-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-21T19:06:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/SmolVLM2-256M-Video-Instruct-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "image-text-to-text",
-      "base_model:HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
-      "base_model:quantized:HuggingFaceTB/SmolVLM2-256M-Video-Instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T16:25:00.539955+00:00",
-    "source_ids": [
-      "ggml-org/SmolVLM2-256M-Video-Instruct-GGUF"
-    ],
-    "family": "SmolVLM2-256M-Video"
-  },
-  {
     "id": "huggingface:greedjoo/jhr_classic_lora",
     "name": "jhr_classic_lora",
     "provider": "greedjoo",
@@ -24762,6 +25124,40 @@
       "Sunbird/asr-whisper-large-v3-salt"
     ],
     "family": "asr-whisper-large-v3-salt"
+  },
+  {
+    "id": "huggingface:Banshee511/NSFW_flux_dev",
+    "name": "NSFW_flux_dev",
+    "provider": "Banshee511",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-12-04T19:30:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Banshee511/NSFW_flux_dev",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T22:45:19.230257+00:00",
+    "source_ids": [
+      "Banshee511/NSFW_flux_dev"
+    ],
+    "family": "NSFW_flux_dev"
   },
   {
     "id": "huggingface:trl-internal-testing/tiny-LlamaForCausalLM-3.2",
