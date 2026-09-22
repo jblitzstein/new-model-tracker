@@ -138,6 +138,40 @@
     "family": "Grok 4.7"
   },
   {
+    "id": "huggingface:christopherthompson81/MOSS-TTS-v1.5-GGUF",
+    "name": "MOSS-TTS-v1.5-GGUF",
+    "provider": "christopherthompson81",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-21T06:20:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/christopherthompson81/MOSS-TTS-v1.5-GGUF",
+    "tags": [
+      "text-to-speech",
+      "audio.cpp",
+      "gguf",
+      "text-to-speech",
+      "voice-cloning",
+      "moss"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T16:23:57.205495+00:00",
+    "source_ids": [
+      "christopherthompson81/MOSS-TTS-v1.5-GGUF"
+    ],
+    "family": "MOSS-TTS-v1.5"
+  },
+  {
     "id": "huggingface:abenzerps/Qwen-Image-2.1-GGUF",
     "name": "Qwen-Image-2.1-GGUF",
     "provider": "abenzerps",
@@ -1339,6 +1373,39 @@
       "IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2-GGUF"
     ],
     "family": "Occamy-1.0-APEX-I-MiniPlus-V2"
+  },
+  {
+    "id": "huggingface:Gensyn/open-1b-base",
+    "name": "open-1b-base",
+    "provider": "Gensyn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T14:00:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Gensyn/open-1b-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "open1b",
+      "text-generation",
+      "gensyn"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T16:23:56.878099+00:00",
+    "source_ids": [
+      "Gensyn/open-1b-base"
+    ],
+    "family": "open"
   },
   {
     "id": "huggingface:mradermacher/RsEvi-8B-i1-GGUF",
@@ -2976,6 +3043,37 @@
       "deepseek/deepseek-v4.1-flash"
     ],
     "family": "DeepSeek V4.1 Flash"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4.1-flash:batch",
+    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T06:21:25+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.112,
+      "completion_per_million": 0.336
+    },
+    "first_seen": "2026-09-22T16:23:56.754118+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4.1-flash:batch"
+    ],
+    "family": "DeepSeek V4.1 Flash (batch)"
   },
   {
     "id": "huggingface:gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
@@ -12056,41 +12154,6 @@
     "family": "Ornith-1.5-MXFP4_Hybrid-Imatrix"
   },
   {
-    "id": "huggingface:gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
-    "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
-    "provider": "gbuzhf",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-22T00:20:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "ICE",
-      "ICE-Tiers",
-      "ice-quant",
-      "9-Tier-Standard"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T12:38:37.091225+00:00",
-    "source_ids": [
-      "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF"
-    ],
-    "family": "Ornith-1.5-Abliterated-MTP-UD-APEX"
-  },
-  {
     "id": "huggingface:zeliang0426/MemAgent-PTE-Qwen3-30B-A3B",
     "name": "MemAgent-PTE-Qwen3-30B-A3B",
     "provider": "zeliang0426",
@@ -12122,40 +12185,6 @@
       "zeliang0426/MemAgent-PTE-Qwen3-30B-A3B"
     ],
     "family": "MemAgent-PTE-Qwen3"
-  },
-  {
-    "id": "huggingface:realrebelai/SenseNova-U1.5-8B_GGUFs",
-    "name": "SenseNova-U1.5-8B_GGUFs",
-    "provider": "realrebelai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-08-21T21:11:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/realrebelai/SenseNova-U1.5-8B_GGUFs",
-    "tags": [
-      "text-to-image",
-      "comfyui",
-      "gguf",
-      "sensenova",
-      "flow-matching",
-      "text-to-image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T12:38:36.462097+00:00",
-    "source_ids": [
-      "realrebelai/SenseNova-U1.5-8B_GGUFs"
-    ],
-    "family": "SenseNova-U1.5-8B_GGUFs"
   },
   {
     "id": "huggingface:chartreuse-verte/prose-rewriter-4b-v1.2",
@@ -12931,40 +12960,6 @@
     "family": "Qwen3.8-MTP"
   },
   {
-    "id": "huggingface:lvladikov/Krea2-Turbo-Distill-4step-LoRA",
-    "name": "Krea2-Turbo-Distill-4step-LoRA",
-    "provider": "lvladikov",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-08-20T07:04:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-4step-LoRA",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "lora",
-      "text-to-image",
-      "distillation",
-      "step-distillation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T12:38:36.462216+00:00",
-    "source_ids": [
-      "lvladikov/Krea2-Turbo-Distill-4step-LoRA"
-    ],
-    "family": "Krea2-Turbo-Distill-4step-LoRA"
-  },
-  {
     "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
     "name": "Tiel-Coder-35B-A3B-GGUF",
     "provider": "peculiar-ragdoll",
@@ -13639,40 +13634,6 @@
       "leok7v/Qwen3.8-27B"
     ],
     "family": "Qwen3.8"
-  },
-  {
-    "id": "huggingface:joeygambino/joyai-echo-ltx25-echoVid-gguf",
-    "name": "joyai-echo-ltx25-echoVid-gguf",
-    "provider": "joeygambino",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-08-18T08:10:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/joeygambino/joyai-echo-ltx25-echoVid-gguf",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "quantized",
-      "comfyui",
-      "ltx-2",
-      "ltx-2.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T12:38:36.666148+00:00",
-    "source_ids": [
-      "joeygambino/joyai-echo-ltx25-echoVid-gguf"
-    ],
-    "family": "joyai-echo-ltx25-echoVid"
   },
   {
     "id": "huggingface:tencent/AuK",
@@ -16167,40 +16128,6 @@
       "Accio-Lab/occamy-1.0"
     ],
     "family": "occamy-1.0"
-  },
-  {
-    "id": "huggingface:joeygambino/LTX-2.5-Quantized",
-    "name": "LTX-2.5-Quantized",
-    "provider": "joeygambino",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-08-13T10:55:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/joeygambino/LTX-2.5-Quantized",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "comfyui",
-      "quantized",
-      "ltx-2",
-      "ltx-2.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T12:38:36.666128+00:00",
-    "source_ids": [
-      "joeygambino/LTX-2.5-Quantized"
-    ],
-    "family": "LTX-2.5-Quantized"
   },
   {
     "id": "huggingface:voldemir/Kroma-GGUF",
@@ -19211,41 +19138,6 @@
       "Drew168/azmx-one-v1"
     ],
     "family": "azmx-one-v1"
-  },
-  {
-    "id": "huggingface:OrionLLM/GRM-3.2-Sky",
-    "name": "GRM-3.2-Sky",
-    "provider": "OrionLLM",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-25T15:12:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OrionLLM/GRM-3.2-Sky",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational",
-      "base_model:ornith-ai/Ornith-1.0-35B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-23T12:38:37.091034+00:00",
-    "source_ids": [
-      "OrionLLM/GRM-3.2-Sky"
-    ],
-    "family": "GRM-3.2-Sky"
   },
   {
     "id": "huggingface:furiosa-ai/Qwen3-VL-2B-Thinking",

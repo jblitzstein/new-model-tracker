@@ -150751,5 +150751,103 @@
       "internlm/Intern-S2-397B"
     ],
     "family": "Intern-S2"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4.1-flash:batch",
+    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T06:21:25+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.112,
+      "completion_per_million": 0.336
+    },
+    "first_seen": "2026-09-22T16:23:56.754118+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4.1-flash:batch"
+    ],
+    "family": "DeepSeek V4.1 Flash (batch)"
+  },
+  {
+    "id": "huggingface:Gensyn/open-1b-base",
+    "name": "open-1b-base",
+    "provider": "Gensyn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T14:00:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Gensyn/open-1b-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "open1b",
+      "text-generation",
+      "gensyn"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T16:23:56.878099+00:00",
+    "source_ids": [
+      "Gensyn/open-1b-base"
+    ],
+    "family": "open"
+  },
+  {
+    "id": "huggingface:christopherthompson81/MOSS-TTS-v1.5-GGUF",
+    "name": "MOSS-TTS-v1.5-GGUF",
+    "provider": "christopherthompson81",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-21T06:20:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/christopherthompson81/MOSS-TTS-v1.5-GGUF",
+    "tags": [
+      "text-to-speech",
+      "audio.cpp",
+      "gguf",
+      "text-to-speech",
+      "voice-cloning",
+      "moss"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-22T16:23:57.205495+00:00",
+    "source_ids": [
+      "christopherthompson81/MOSS-TTS-v1.5-GGUF"
+    ],
+    "family": "MOSS-TTS-v1.5"
   }
 ]
