@@ -151756,5 +151756,633 @@
       "pottokao/MiniMax-H3-TextEncoder-Qwen3VL-32B-abliterated-GGUF"
     ],
     "family": "MiniMax-H3-TextEncoder-Qwen3VL-abliterated"
+  },
+  {
+    "id": "openrouter:aion-labs/aion-3.5-mini",
+    "name": "AionLabs: Aion 3.5 Mini",
+    "provider": "Aion Labs",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T13:42:42+00:00",
+    "context_length": 262144,
+    "description": "Aion 3.5 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It is the smaller, lower-cost sibling of Aion 3.5 and uses...",
+    "url": "https://openrouter.ai/aion-labs/aion-3.5-mini",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.7,
+      "completion_per_million": 1.4
+    },
+    "first_seen": "2026-09-23T16:15:10.478188+00:00",
+    "source_ids": [
+      "aion-labs/aion-3.5-mini"
+    ],
+    "family": "Aion 3.5 Mini"
+  },
+  {
+    "id": "openrouter:aion-labs/aion-3.5",
+    "name": "AionLabs: Aion 3.5",
+    "provider": "Aion Labs",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T13:42:41+00:00",
+    "context_length": 262144,
+    "description": "Aion 3.5 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each...",
+    "url": "https://openrouter.ai/aion-labs/aion-3.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 3.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-09-23T16:15:10.479200+00:00",
+    "source_ids": [
+      "aion-labs/aion-3.5"
+    ],
+    "family": "Aion 3.5"
+  },
+  {
+    "id": "openrouter:upstage/solar-mini4",
+    "name": "Upstage: Solar Mini 4",
+    "provider": "Upstage",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T10:45:58+00:00",
+    "context_length": 524288,
+    "description": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window. It is built for agentic use cases where response...",
+    "url": "https://openrouter.ai/upstage/solar-mini4",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-09-23T16:15:10.479237+00:00",
+    "source_ids": [
+      "upstage/solar-mini4"
+    ],
+    "family": "Solar Mini 4"
+  },
+  {
+    "id": "huggingface:ji-farthing/Qwen3.8-Flash-Next-ik-llama-GGUF",
+    "name": "Qwen3.8-Flash-Next-ik-llama-GGUF",
+    "provider": "ji-farthing",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T23:34:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ji-farthing/Qwen3.8-Flash-Next-ik-llama-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "ik_llama",
+      "qwen4exp",
+      "imatrix",
+      "mtp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.605350+00:00",
+    "source_ids": [
+      "ji-farthing/Qwen3.8-Flash-Next-ik-llama-GGUF"
+    ],
+    "family": "Qwen3.8-Flash-Next-ik-llama"
+  },
+  {
+    "id": "huggingface:BoldingBuilds/Abliterated-MiMo-V2.6-Distill-Qwen-9B-GGUF",
+    "name": "Abliterated-MiMo-V2.6-Distill-Qwen-9B-GGUF",
+    "provider": "BoldingBuilds",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T05:34:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BoldingBuilds/Abliterated-MiMo-V2.6-Distill-Qwen-9B-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "qwen3_5",
+      "abliteration",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.605414+00:00",
+    "source_ids": [
+      "BoldingBuilds/Abliterated-MiMo-V2.6-Distill-Qwen-9B-GGUF"
+    ],
+    "family": "Abliterated-MiMo-V2.6-Distill-Qwen"
+  },
+  {
+    "id": "huggingface:crumbs-playground/test-bf-moe",
+    "name": "test-bf-moe",
+    "provider": "crumbs-playground",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-13T10:51:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/crumbs-playground/test-bf-moe",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe_text",
+      "text-generation",
+      "endpoints_compatible"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.605459+00:00",
+    "source_ids": [
+      "crumbs-playground/test-bf-moe"
+    ],
+    "family": "test-bf-moe"
+  },
+  {
+    "id": "huggingface:Prannesshkva/ISOM-R1-Reasoning-1.5B-Instruct-Beta",
+    "name": "ISOM-R1-Reasoning-1.5B-Instruct-Beta",
+    "provider": "Prannesshkva",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-05T11:00:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Prannesshkva/ISOM-R1-Reasoning-1.5B-Instruct-Beta",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "isom",
+      "isom-r1",
+      "r1",
+      "qwen2.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.605608+00:00",
+    "source_ids": [
+      "Prannesshkva/ISOM-R1-Reasoning-1.5B-Instruct-Beta"
+    ],
+    "family": "ISOM-R1-Reasoning--Beta"
+  },
+  {
+    "id": "huggingface:Prannesshkva/ISOM-R1-Edge-130M-MoE-Beta-Prototype",
+    "name": "ISOM-R1-Edge-130M-MoE-Beta-Prototype",
+    "provider": "Prannesshkva",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-30T07:36:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Prannesshkva/ISOM-R1-Edge-130M-MoE-Beta-Prototype",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "isom_130m_moe",
+      "mamba",
+      "ssm",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.605640+00:00",
+    "source_ids": [
+      "Prannesshkva/ISOM-R1-Edge-130M-MoE-Beta-Prototype"
+    ],
+    "family": "ISOM-R1-Edge-130M-MoE-Beta-Prototype"
+  },
+  {
+    "id": "huggingface:BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
+    "name": "Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
+    "provider": "BoldingBuilds",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T16:09:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen3_5",
+      "ternary",
+      "2-bit",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.605687+00:00",
+    "source_ids": [
+      "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF"
+    ],
+    "family": "Ternary-Bonsai-2-Abliterated-PQ2_0-MTP"
+  },
+  {
+    "id": "huggingface:BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
+    "name": "Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
+    "provider": "BoldingBuilds",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T01:55:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "abliteration",
+      "ternary",
+      "ptq1_0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.605723+00:00",
+    "source_ids": [
+      "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF"
+    ],
+    "family": "Ternary-Bonsai-2-Abliterated-PTQ1_0"
+  },
+  {
+    "id": "huggingface:JujoHotaru/lora",
+    "name": "lora",
+    "provider": "JujoHotaru",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2023-07-10T11:56:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JujoHotaru/lora",
+    "tags": [
+      "text-to-image",
+      "anime",
+      "art",
+      "stable-diffusion",
+      "lora",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.707090+00:00",
+    "source_ids": [
+      "JujoHotaru/lora"
+    ],
+    "family": "lora"
+  },
+  {
+    "id": "huggingface:vantagewithai/FastVideo-FastH3-8-Step-V2-ComfyUI-GGUF",
+    "name": "FastVideo-FastH3-8-Step-V2-ComfyUI-GGUF",
+    "provider": "vantagewithai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-09-02T14:36:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vantagewithai/FastVideo-FastH3-8-Step-V2-ComfyUI-GGUF",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "gguf",
+      "text-to-video",
+      "video",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.836017+00:00",
+    "source_ids": [
+      "vantagewithai/FastVideo-FastH3-8-Step-V2-ComfyUI-GGUF"
+    ],
+    "family": "FastVideo-FastH3-8-Step-V2-ComfyUI"
+  },
+  {
+    "id": "huggingface:kugelaudio/kugelaudio-0-open",
+    "name": "kugelaudio-0-open",
+    "provider": "kugelaudio",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-01-11T20:24:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kugelaudio/kugelaudio-0-open",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "kugelaudio",
+      "text-to-speech",
+      "tts",
+      "speech-synthesis"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:10.979918+00:00",
+    "source_ids": [
+      "kugelaudio/kugelaudio-0-open"
+    ],
+    "family": "kugelaudio-0-open"
+  },
+  {
+    "id": "huggingface:nvidia/diar_sortformer_4spk-v1",
+    "name": "diar_sortformer_4spk-v1",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-12-09T19:17:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/diar_sortformer_4spk-v1",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "sortformer",
+      "speaker-diarization",
+      "speaker-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:11.057917+00:00",
+    "source_ids": [
+      "nvidia/diar_sortformer_4spk-v1"
+    ],
+    "family": "diar_sortformer_4spk-v1"
+  },
+  {
+    "id": "huggingface:nvidia/diar_streaming_sortformer_4spk-v2.1",
+    "name": "diar_streaming_sortformer_4spk-v2.1",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-22T17:54:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "speaker-diarization",
+      "speaker-recognition",
+      "speech",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:11.057982+00:00",
+    "source_ids": [
+      "nvidia/diar_streaming_sortformer_4spk-v2.1"
+    ],
+    "family": "diar_streaming_sortformer_4spk-v2.1"
+  },
+  {
+    "id": "huggingface:NikiKrutan/Kiwen1.2-27B-MTP-GGUF",
+    "name": "Kiwen1.2-27B-MTP-GGUF",
+    "provider": "NikiKrutan",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T06:34:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NikiKrutan/Kiwen1.2-27B-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3.8",
+      "thinking",
+      "reasoning",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:11.138022+00:00",
+    "source_ids": [
+      "NikiKrutan/Kiwen1.2-27B-MTP-GGUF"
+    ],
+    "family": "Kiwen1.2-MTP"
+  },
+  {
+    "id": "huggingface:bernhardbrieger/Qwen3.8-27B-GPTQ-Int4",
+    "name": "Qwen3.8-27B-GPTQ-Int4",
+    "provider": "bernhardbrieger",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-22T02:02:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bernhardbrieger/Qwen3.8-27B-GPTQ-Int4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:11.138068+00:00",
+    "source_ids": [
+      "bernhardbrieger/Qwen3.8-27B-GPTQ-Int4"
+    ],
+    "family": "Qwen3.8--Int4"
+  },
+  {
+    "id": "huggingface:bernhardbrieger/Qwen3.8-27B-NVFP4",
+    "name": "Qwen3.8-27B-NVFP4",
+    "provider": "bernhardbrieger",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T02:56:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bernhardbrieger/Qwen3.8-27B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:11.138099+00:00",
+    "source_ids": [
+      "bernhardbrieger/Qwen3.8-27B-NVFP4"
+    ],
+    "family": "Qwen3.8-NVFP4"
+  },
+  {
+    "id": "huggingface:NbAiLab/borealis2-26b-a4b-preview-gguf",
+    "name": "borealis2-26b-a4b-preview-gguf",
+    "provider": "NbAiLab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-30T23:33:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NbAiLab/borealis2-26b-a4b-preview-gguf",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "conversational",
+      "instruct",
+      "experimental"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-23T16:15:11.138130+00:00",
+    "source_ids": [
+      "NbAiLab/borealis2-26b-a4b-preview-gguf"
+    ],
+    "family": "borealis2"
   }
 ]
