@@ -744,6 +744,41 @@
     "family": "Mini-K3-1H-kda-kernel-1-v2"
   },
   {
+    "id": "huggingface:WaveCut/Ternary-Bonsai-2-27B-NInfer-v3",
+    "name": "Ternary-Bonsai-2-27B-NInfer-v3",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T08:42:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/Ternary-Bonsai-2-27B-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "ternary",
+      "bonsai",
+      "qwen3.8",
+      "hadamard"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T03:44:48.236848+00:00",
+    "source_ids": [
+      "WaveCut/Ternary-Bonsai-2-27B-NInfer-v3"
+    ],
+    "family": "Ternary-Bonsai-2-NInfer-v3"
+  },
+  {
     "id": "huggingface:ggml-org/MiMo-V2.6-Flash-RL-GGUF",
     "name": "MiMo-V2.6-Flash-RL-GGUF",
     "provider": "ggml-org",
@@ -1054,6 +1089,39 @@
       "apple/LensVLM-9B"
     ],
     "family": "LensVLM"
+  },
+  {
+    "id": "huggingface:nkkbr/Mini-K3-1H-attnres-full-sublayer-v1_D",
+    "name": "Mini-K3-1H-attnres-full-sublayer-v1_D",
+    "provider": "nkkbr",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T16:57:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nkkbr/Mini-K3-1H-attnres-full-sublayer-v1_D",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "mini_k3",
+      "kimi-k3",
+      "pretraining"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T03:44:47.481931+00:00",
+    "source_ids": [
+      "nkkbr/Mini-K3-1H-attnres-full-sublayer-v1_D"
+    ],
+    "family": "Mini-K3-1H-attnres-full-sublayer-v1_D"
   },
   {
     "id": "huggingface:nkkbr/Mini-K3-1H-mamba2-n128-g4-v1_C",
@@ -2059,6 +2127,41 @@
       "Davd-b01/qwen3.8-flash-next-40b-prune-research"
     ],
     "family": "qwen3.8-flash-next-prune-research"
+  },
+  {
+    "id": "huggingface:darkc0de/RICO-v2",
+    "name": "RICO-v2",
+    "provider": "darkc0de",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T01:30:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/darkc0de/RICO-v2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T03:44:48.236815+00:00",
+    "source_ids": [
+      "darkc0de/RICO-v2"
+    ],
+    "family": "RICO-v2"
   },
   {
     "id": "huggingface:Quazim0t0/MaleCNS-SpikeWhale-Anatomy-LM",
@@ -6161,6 +6264,41 @@
       "aisingapore/Nemotron-SEA-LION-v4.8-120B-A12B"
     ],
     "family": "Nemotron-SEA-LION-v4.8"
+  },
+  {
+    "id": "huggingface:nvidia/NV-Reason-CT",
+    "name": "NV-Reason-CT",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T05:06:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NV-Reason-CT",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "medical-imaging"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T03:44:48.236878+00:00",
+    "source_ids": [
+      "nvidia/NV-Reason-CT"
+    ],
+    "family": "NV-Reason-CT"
   },
   {
     "id": "huggingface:khtsly/luau-coder-1.0-preview-medium",
@@ -16659,41 +16797,6 @@
     "family": "Huihui-Ornith-1.0-abliterated-MTP-UD-APEX"
   },
   {
-    "id": "huggingface:kerasformers/qwen3.5-35b-a3b-base",
-    "name": "qwen3.5-35b-a3b-base",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T21:44:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3.5-35b-a3b-base",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_5_moe",
-      "qwen3.5-moe",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:10.703644+00:00",
-    "source_ids": [
-      "kerasformers/qwen3.5-35b-a3b-base"
-    ],
-    "family": "qwen3.5"
-  },
-  {
     "id": "huggingface:zeromodels/qwen3.5-35b-a3b-base",
     "name": "qwen3.5-35b-a3b-base",
     "provider": "zeromodels",
@@ -17439,39 +17542,6 @@
       "cafepm/G9v3-39A5B-Q3Q4-GGUF"
     ],
     "family": "G9v3-39A-Q3Q4"
-  },
-  {
-    "id": "huggingface:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-    "name": "Qwen3.8-27B-Uncensored-GGUF",
-    "provider": "JonathanColetti",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T03:43:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "uncensored",
-      "qwen3.8",
-      "mtp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:09.656433+00:00",
-    "source_ids": [
-      "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF"
-    ],
-    "family": "Qwen3.8-Uncensored"
   },
   {
     "id": "huggingface:mlx-community/LFM2.5-VL-3B-OptiQ-4bit",
@@ -19725,41 +19795,6 @@
     "family": "qwen2.5-vl"
   },
   {
-    "id": "huggingface:kerasformers/qwen3.5-27b",
-    "name": "qwen3.5-27b",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-27T08:27:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3.5-27b",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_5",
-      "qwen",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:10.703249+00:00",
-    "source_ids": [
-      "kerasformers/qwen3.5-27b"
-    ],
-    "family": "qwen3.5"
-  },
-  {
     "id": "huggingface:zeromodels/qwen3.5-27b",
     "name": "qwen3.5-27b",
     "provider": "zeromodels",
@@ -19795,41 +19830,6 @@
     "family": "qwen3.5"
   },
   {
-    "id": "huggingface:kerasformers/qwen3.5-9b-base",
-    "name": "qwen3.5-9b-base",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-27T02:33:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3.5-9b-base",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_5",
-      "qwen",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:10.703307+00:00",
-    "source_ids": [
-      "kerasformers/qwen3.5-9b-base"
-    ],
-    "family": "qwen3.5"
-  },
-  {
     "id": "huggingface:zeromodels/qwen3.5-9b-base",
     "name": "qwen3.5-9b-base",
     "provider": "zeromodels",
@@ -19861,41 +19861,6 @@
     "first_seen": "2026-08-26T22:46:36.462506+00:00",
     "source_ids": [
       "zeromodels/qwen3.5-9b-base"
-    ],
-    "family": "qwen3.5"
-  },
-  {
-    "id": "huggingface:kerasformers/qwen3.5-9b",
-    "name": "qwen3.5-9b",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-27T00:51:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3.5-9b",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_5",
-      "qwen",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:10.703365+00:00",
-    "source_ids": [
-      "kerasformers/qwen3.5-9b"
     ],
     "family": "qwen3.5"
   },
@@ -20110,41 +20075,6 @@
     "family": "qwen2.5-vl"
   },
   {
-    "id": "huggingface:kerasformers/qwen2-vl-7b",
-    "name": "qwen2-vl-7b",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-26T23:05:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen2-vl-7b",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen2_vl",
-      "qwen2-vl",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:10.703573+00:00",
-    "source_ids": [
-      "kerasformers/qwen2-vl-7b"
-    ],
-    "family": "qwen2-vl"
-  },
-  {
     "id": "huggingface:zeromodels/qwen2-vl-7b",
     "name": "qwen2-vl-7b",
     "provider": "zeromodels",
@@ -20180,74 +20110,6 @@
     "family": "qwen2-vl"
   },
   {
-    "id": "huggingface:kerasformers/qwen2-7b-instruct",
-    "name": "qwen2-7b-instruct",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-26T05:58:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen2-7b-instruct",
-    "tags": [
-      "text-generation",
-      "kerasformers",
-      "keras",
-      "qwen2",
-      "text-generation",
-      "pytorch"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:09.656513+00:00",
-    "source_ids": [
-      "kerasformers/qwen2-7b-instruct"
-    ],
-    "family": "qwen2"
-  },
-  {
-    "id": "huggingface:kerasformers/qwen3.5-4b-base",
-    "name": "qwen3.5-4b-base",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-26T05:14:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3.5-4b-base",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_5",
-      "qwen",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:10.703416+00:00",
-    "source_ids": [
-      "kerasformers/qwen3.5-4b-base"
-    ],
-    "family": "qwen3.5"
-  },
-  {
     "id": "huggingface:zeromodels/qwen3.5-4b-base",
     "name": "qwen3.5-4b-base",
     "provider": "zeromodels",
@@ -20279,41 +20141,6 @@
     "first_seen": "2026-08-26T22:46:36.462552+00:00",
     "source_ids": [
       "zeromodels/qwen3.5-4b-base"
-    ],
-    "family": "qwen3.5"
-  },
-  {
-    "id": "huggingface:kerasformers/qwen3.5-2b-base",
-    "name": "qwen3.5-2b-base",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-26T03:16:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3.5-2b-base",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_5",
-      "qwen",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:10.703481+00:00",
-    "source_ids": [
-      "kerasformers/qwen3.5-2b-base"
     ],
     "family": "qwen3.5"
   },
@@ -20722,40 +20549,6 @@
       "neuphonic/neutts-2e"
     ],
     "family": "neutts-2e"
-  },
-  {
-    "id": "huggingface:cusiman/Krea2_Collection",
-    "name": "Krea2_Collection",
-    "provider": "cusiman",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-21T02:40:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cusiman/Krea2_Collection",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "krea2",
-      "text-to-image",
-      "image-generation",
-      "dit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T01:17:09.816482+00:00",
-    "source_ids": [
-      "cusiman/Krea2_Collection"
-    ],
-    "family": "Krea2_Collection"
   },
   {
     "id": "huggingface:Motif-Technologies/Motif-3-Beta",
