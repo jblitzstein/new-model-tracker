@@ -313,6 +313,41 @@
     "family": "Ming-Image_GGUFs"
   },
   {
+    "id": "huggingface:IsValorum/Ornith-1.5-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Ornith-1.5-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T18:17:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Ornith-1.5-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T09:25:09.679377+00:00",
+    "source_ids": [
+      "IsValorum/Ornith-1.5-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Ornith-1.5-APEX-I-MiniPlus-V2.1"
+  },
+  {
     "id": "openrouter:openai/gpt-6-luna-pro",
     "name": "OpenAI: GPT-6 Luna Pro",
     "provider": "OpenAI",
@@ -914,6 +949,40 @@
       "Baekpica/MiMo-V2.6-Flash-RL-Mixed-Quant-GGUF"
     ],
     "family": "MiMo-V2.6-Flash-RL-Mixed-Quant"
+  },
+  {
+    "id": "huggingface:alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+    "name": "MiniMax-H3-Fun-Controlnet-Union-2.0",
+    "provider": "alibaba-pai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-09-22T03:26:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0",
+    "tags": [
+      "text-to-video",
+      "videox_fun",
+      "controlnet",
+      "controlnet-union",
+      "video-to-video",
+      "image-text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T09:25:09.339517+00:00",
+    "source_ids": [
+      "alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0"
+    ],
+    "family": "MiniMax-H3-Fun-Controlnet-Union-2.0"
   },
   {
     "id": "huggingface:vmarcelo/Swift-Qwen3.8-27B-MIX_GGUF",
@@ -2391,6 +2460,39 @@
       "GeorgeUwaifo/ivieai_star_v1.0"
     ],
     "family": "ivieai_star_v1.0"
+  },
+  {
+    "id": "huggingface:aixk/BAAR2-199M",
+    "name": "BAAR2-199M",
+    "provider": "aixk",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T09:23:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aixk/BAAR2-199M",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "fhn_concept_gau",
+      "baar",
+      "199m",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T09:25:09.096128+00:00",
+    "source_ids": [
+      "aixk/BAAR2-199M"
+    ],
+    "family": "BAAR2-199M"
   },
   {
     "id": "huggingface:IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF",
@@ -7502,6 +7604,41 @@
     "family": "Ling 3.0 Flash Sante"
   },
   {
+    "id": "huggingface:alexisStacksCode/Gemma-4-26B-A4B-StyleTune-V2-QAT-GGUF",
+    "name": "Gemma-4-26B-A4B-StyleTune-V2-QAT-GGUF",
+    "provider": "alexisStacksCode",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T16:13:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/alexisStacksCode/Gemma-4-26B-A4B-StyleTune-V2-QAT-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "base_model:Gryphe/Gemma-4-26B-A4B-StyleTune-V2",
+      "base_model:quantized:Gryphe/Gemma-4-26B-A4B-StyleTune-V2",
+      "endpoints_compatible"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T09:25:09.679102+00:00",
+    "source_ids": [
+      "alexisStacksCode/Gemma-4-26B-A4B-StyleTune-V2-QAT-GGUF"
+    ],
+    "family": "Gemma-4-StyleTune-V2-QAT"
+  },
+  {
     "id": "huggingface:0xWhiteMage/Qwen3.8-27B-Kearuga",
     "name": "Qwen3.8-27B-Kearuga",
     "provider": "0xWhiteMage",
@@ -10271,6 +10408,39 @@
       "AnonimousA/Qwen3.8-Flash-Next-REAP-320-GGUF"
     ],
     "family": "Qwen3.8-Flash-Next-REAP-320"
+  },
+  {
+    "id": "huggingface:albucino/Qwen3.8-Flash-Next-W4A16-FP8PLE",
+    "name": "Qwen3.8-Flash-Next-W4A16-FP8PLE",
+    "provider": "albucino",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-30T21:47:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/albucino/Qwen3.8-Flash-Next-W4A16-FP8PLE",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen4_exp",
+      "qwen3.8",
+      "autoround",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-25T09:25:09.096313+00:00",
+    "source_ids": [
+      "albucino/Qwen3.8-Flash-Next-W4A16-FP8PLE"
+    ],
+    "family": "Qwen3.8-Flash-Next-W4A16-FP8PLE"
   },
   {
     "id": "huggingface:Prannesshkva/ISOM-Falcon-40B",
@@ -16727,41 +16897,6 @@
     "family": "Qwen3.8-MXFP8-CRACK"
   },
   {
-    "id": "huggingface:amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
-    "name": "Qwen3.8-27B-Quark-AWQ-MXFP4",
-    "provider": "amd",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-15T03:11:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "quark"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T04:38:53.689082+00:00",
-    "source_ids": [
-      "amd/Qwen3.8-27B-Quark-AWQ-MXFP4"
-    ],
-    "family": "Qwen3.8-Quark--MXFP4"
-  },
-  {
     "id": "huggingface:gbuzhf/Huihui-Ornith-1.0-35B-abliterated-MTP-UD-APEX-GGUF",
     "name": "Huihui-Ornith-1.0-35B-abliterated-MTP-UD-APEX-GGUF",
     "provider": "gbuzhf",
@@ -19900,41 +20035,6 @@
     "family": "qwen3.5"
   },
   {
-    "id": "huggingface:kerasformers/qwen3-vl-8b-thinking",
-    "name": "qwen3-vl-8b-thinking",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-27T00:06:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3-vl-8b-thinking",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_vl",
-      "qwen3-vl",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T04:38:53.688872+00:00",
-    "source_ids": [
-      "kerasformers/qwen3-vl-8b-thinking"
-    ],
-    "family": "qwen3-vl"
-  },
-  {
     "id": "huggingface:zeromodels/qwen3-vl-8b-thinking",
     "name": "qwen3-vl-8b-thinking",
     "provider": "zeromodels",
@@ -19966,41 +20066,6 @@
     "first_seen": "2026-08-26T22:46:36.462639+00:00",
     "source_ids": [
       "zeromodels/qwen3-vl-8b-thinking"
-    ],
-    "family": "qwen3-vl"
-  },
-  {
-    "id": "huggingface:kerasformers/qwen3-vl-8b-instruct",
-    "name": "qwen3-vl-8b-instruct",
-    "provider": "kerasformers",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-27T00:05:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kerasformers/qwen3-vl-8b-instruct",
-    "tags": [
-      "image-text-to-text",
-      "kerasformers",
-      "keras",
-      "qwen3_vl",
-      "qwen3-vl",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-26T04:38:53.688917+00:00",
-    "source_ids": [
-      "kerasformers/qwen3-vl-8b-instruct"
     ],
     "family": "qwen3-vl"
   },
