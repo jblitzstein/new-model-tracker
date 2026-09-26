@@ -3366,6 +3366,39 @@
     "family": "Union Alpha"
   },
   {
+    "id": "huggingface:Frankenstein-Labs/Cortex-ai",
+    "name": "Cortex-ai",
+    "provider": "Frankenstein-Labs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-16T14:27:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Frankenstein-Labs/Cortex-ai",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "cortex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T03:50:50.198947+00:00",
+    "source_ids": [
+      "Frankenstein-Labs/Cortex-ai"
+    ],
+    "family": "Cortex-ai"
+  },
+  {
     "id": "huggingface:XingChen-AGI/Xing4.0-29B-A4B-GGUF",
     "name": "Xing4.0-29B-A4B-GGUF",
     "provider": "XingChen-AGI",
@@ -7381,6 +7414,40 @@
     "family": "Qwen3.8-Flash-Next-GSQ-RCO"
   },
   {
+    "id": "huggingface:spybyscript/nemotron-3.5-asr-streaming-0.6b-litert",
+    "name": "nemotron-3.5-asr-streaming-0.6b-litert",
+    "provider": "spybyscript",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-07T04:37:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/spybyscript/nemotron-3.5-asr-streaming-0.6b-litert",
+    "tags": [
+      "automatic-speech-recognition",
+      "litert",
+      "tflite",
+      "android",
+      "streaming-asr",
+      "rnnt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T03:50:50.889555+00:00",
+    "source_ids": [
+      "spybyscript/nemotron-3.5-asr-streaming-0.6b-litert"
+    ],
+    "family": "nemotron-3.5-asr-streaming-litert"
+  },
+  {
     "id": "huggingface:ThakiCloud/Qwen3.8-27B-Human-KO-Safety",
     "name": "Qwen3.8-27B-Human-KO-Safety",
     "provider": "ThakiCloud",
@@ -7579,6 +7646,41 @@
       "WaveCut/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer"
     ],
     "family": "Qwen3.8-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer"
+  },
+  {
+    "id": "huggingface:WaveCut/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer-v3",
+    "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer-v3",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-06T17:13:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "qwen3.8",
+      "groupwise-int",
+      "dflash2",
+      "speculative-decoding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T03:50:51.001955+00:00",
+    "source_ids": [
+      "WaveCut/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer-v3"
+    ],
+    "family": "Qwen3.8-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer-v3"
   },
   {
     "id": "huggingface:openbmb/MiniCPM5-2B",
@@ -10547,6 +10649,39 @@
       "gpillon/Qwen3.8-27B-nvfp4full-dflash2-NInfer"
     ],
     "family": "Qwen3.8-nvfp4full-dflash2-NInfer"
+  },
+  {
+    "id": "huggingface:el4/Ornith-1.5-35B-A3B-ONYX-GGUF",
+    "name": "Ornith-1.5-35B-A3B-ONYX-GGUF",
+    "provider": "el4",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T16:34:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/el4/Ornith-1.5-35B-A3B-ONYX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "ollama",
+      "llama.cpp",
+      "imatrix",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T03:50:50.198870+00:00",
+    "source_ids": [
+      "el4/Ornith-1.5-35B-A3B-ONYX-GGUF"
+    ],
+    "family": "Ornith-1.5-ONYX"
   },
   {
     "id": "huggingface:jan1k/Hermes3.6-35B-A3B-Uncensored-Genesis-NVFP4-GGUF",
@@ -16311,6 +16446,41 @@
       "akopytko/Qwen3.8-27B-NVFP4-GGUF"
     ],
     "family": "Qwen3.8-NVFP4"
+  },
+  {
+    "id": "huggingface:WaveCut/Qwen3.8-27B-MXFP8-CRACK-NInfer-v3",
+    "name": "Qwen3.8-27B-MXFP8-CRACK-NInfer-v3",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T21:14:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/Qwen3.8-27B-MXFP8-CRACK-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "qwen3.8",
+      "groupwise-int",
+      "artifact",
+      "rtx-3090"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T03:50:51.001978+00:00",
+    "source_ids": [
+      "WaveCut/Qwen3.8-27B-MXFP8-CRACK-NInfer-v3"
+    ],
+    "family": "Qwen3.8-MXFP8-CRACK-NInfer-v3"
   },
   {
     "id": "openrouter:z-ai/glm-5.3:batch",
