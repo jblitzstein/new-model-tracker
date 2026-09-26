@@ -155417,5 +155417,244 @@
       "internlm/Intern-Decision-4B"
     ],
     "family": "Intern-Decision"
+  },
+  {
+    "id": "huggingface:StandardThinking/StandardOne-3B-GGUF",
+    "name": "StandardOne-3B-GGUF",
+    "provider": "StandardThinking",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T11:07:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/StandardThinking/StandardOne-3B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "mistral3",
+      "decision-model",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T15:54:50.423312+00:00",
+    "source_ids": [
+      "StandardThinking/StandardOne-3B-GGUF"
+    ],
+    "family": "StandardOne"
+  },
+  {
+    "id": "huggingface:benthecarman/MiMo-V2.6-Flash-RL-exl3",
+    "name": "MiMo-V2.6-Flash-RL-exl3",
+    "provider": "benthecarman",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T14:49:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/benthecarman/MiMo-V2.6-Flash-RL-exl3",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "mimo_v2",
+      "exl3",
+      "exllamav3",
+      "mimo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T15:54:50.423379+00:00",
+    "source_ids": [
+      "benthecarman/MiMo-V2.6-Flash-RL-exl3"
+    ],
+    "family": "MiMo-V2.6-Flash-RL-exl3"
+  },
+  {
+    "id": "huggingface:StandardThinking/StandardOne-8B",
+    "name": "StandardOne-8B",
+    "provider": "StandardThinking",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T09:11:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/StandardThinking/StandardOne-8B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "image-text-to-text",
+      "decision-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T15:54:50.423460+00:00",
+    "source_ids": [
+      "StandardThinking/StandardOne-8B"
+    ],
+    "family": "StandardOne"
+  },
+  {
+    "id": "huggingface:Dragoy/ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer",
+    "name": "ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer",
+    "provider": "Dragoy",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-25T10:54:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Dragoy/ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "nvfp4",
+      "fp8",
+      "qwen3_5",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T15:54:50.853347+00:00",
+    "source_ids": [
+      "Dragoy/ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer"
+    ],
+    "family": "ThinkingCap-Qwen3.8-abliterated-NVFP4-NInfer"
+  },
+  {
+    "id": "huggingface:preemware/Qwen3.8-27B-RANA-abliterated-GGUF",
+    "name": "Qwen3.8-27B-RANA-abliterated-GGUF",
+    "provider": "preemware",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-26T01:12:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/preemware/Qwen3.8-27B-RANA-abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "abliteration",
+      "refusal-direction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T15:54:50.853414+00:00",
+    "source_ids": [
+      "preemware/Qwen3.8-27B-RANA-abliterated-GGUF"
+    ],
+    "family": "Qwen3.8-RANA-abliterated"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Ornith1.5-35B-A3B-Genesis-Hermes-GGUF",
+    "name": "Ornith1.5-35B-A3B-Genesis-Hermes-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-25T11:55:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Ornith1.5-35B-A3B-Genesis-Hermes-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "qwen3.5",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T15:54:50.853464+00:00",
+    "source_ids": [
+      "LuffyTheFox/Ornith1.5-35B-A3B-Genesis-Hermes-GGUF"
+    ],
+    "family": "Ornith1.5-Genesis-Hermes"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF",
+    "name": "Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T05:14:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.8",
+      "moe",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T15:54:50.853564+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-Uncensored-Genesis-MTP"
   }
 ]
