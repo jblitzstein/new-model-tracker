@@ -247,6 +247,41 @@
     "family": "ThinkingCap-Qwen3.8-abliterated-NVFP4-NInfer"
   },
   {
+    "id": "huggingface:kaushikvira/Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3",
+    "name": "Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3",
+    "provider": "kaushikvira",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-25T04:52:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kaushikvira/Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "ninfer-v3",
+      "qwen3.8",
+      "qwen3_5",
+      "thinkingcap"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T19:03:20.082313+00:00",
+    "source_ids": [
+      "kaushikvira/Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3"
+    ],
+    "family": "Qwen3.8-thinkingcap-nvfp4full-dflash2-NInfer-v3"
+  },
+  {
     "id": "huggingface:hypaai/hypa-tiny-keys",
     "name": "hypa-tiny-keys",
     "provider": "hypaai",
@@ -7450,6 +7485,39 @@
     "family": "Swift-Qwen3.8"
   },
   {
+    "id": "huggingface:takanori-ishikawa/Qwen3.5-ANE-CoreML",
+    "name": "Qwen3.5-ANE-CoreML",
+    "provider": "takanori-ishikawa",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T11:43:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/takanori-ishikawa/Qwen3.5-ANE-CoreML",
+    "tags": [
+      "text-generation",
+      "coreml",
+      "ane",
+      "apple-neural-engine",
+      "apple-silicon",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-26T19:03:18.765681+00:00",
+    "source_ids": [
+      "takanori-ishikawa/Qwen3.5-ANE-CoreML"
+    ],
+    "family": "Qwen3.5-ANE-CoreML"
+  },
+  {
     "id": "huggingface:aisingapore/Nemotron-SEA-LION-v4.8-120B-A12B",
     "name": "Nemotron-SEA-LION-v4.8-120B-A12B",
     "provider": "aisingapore",
@@ -13247,32 +13315,6 @@
     "family": "H3_slider_experiments"
   },
   {
-    "id": "openrouter:inclusionai/ling-3.0-flash-fin:free",
-    "name": "Ling 3.0 Flash Fin (free)",
-    "provider": "inclusionai",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-27T15:58:10+00:00",
-    "context_length": 262144,
-    "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
-    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:15.919158+00:00",
-    "source_ids": [
-      "inclusionai/ling-3.0-flash-fin:free"
-    ],
-    "family": "Ling 3.0 Flash Fin"
-  },
-  {
     "id": "openrouter:inclusionai/ling-3.0-flash-fin",
     "name": "Ling 3.0 Flash Fin",
     "provider": "inclusionai",
@@ -14453,41 +14495,6 @@
     "family": "DeepSeek-V4-Flash-0731-Pruned"
   },
   {
-    "id": "huggingface:unsloth/Qwen3.8-Flash-Next-GGUF",
-    "name": "Qwen3.8-Flash-Next-GGUF",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-26T12:29:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "unsloth",
-      "image-text-to-text",
-      "base_model:Qwen/Qwen3.8-Flash-Next",
-      "base_model:quantized:Qwen/Qwen3.8-Flash-Next"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:16.876916+00:00",
-    "source_ids": [
-      "unsloth/Qwen3.8-Flash-Next-GGUF"
-    ],
-    "family": "Qwen3.8-Flash-Next"
-  },
-  {
     "id": "huggingface:orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
     "name": "Qwen3.8-Flash-Next-Uncensored-GGUF",
     "provider": "orcarouter",
@@ -14822,39 +14829,6 @@
       "osk-arr00/LFM2.5-8B-A1B-ThinkingCap-GGUF"
     ],
     "family": "LFM2.5-ThinkingCap"
-  },
-  {
-    "id": "huggingface:nvidia/Qwen3.8-2.4T-A95B-NVFP4",
-    "name": "Qwen3.8-2.4T-A95B-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-25T18:55:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Qwen3.8-2.4T-A95B-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "qwen3_5_moe_text",
-      "NVIDIA",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:16.053465+00:00",
-    "source_ids": [
-      "nvidia/Qwen3.8-2.4T-A95B-NVFP4"
-    ],
-    "family": "Qwen3.8-2.4T-A-NVFP4"
   },
   {
     "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-MLX-oQ4e-MTP",
@@ -18121,41 +18095,6 @@
     "family": "Huihui-Ornith-1.0-abliterated-MTP-UD-APEX"
   },
   {
-    "id": "huggingface:malaiwah/Qwen3.8-27B-EXL3-K5K6",
-    "name": "Qwen3.8-27B-EXL3-K5K6",
-    "provider": "malaiwah",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T21:23:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/malaiwah/Qwen3.8-27B-EXL3-K5K6",
-    "tags": [
-      "image-text-to-text",
-      "vllm",
-      "safetensors",
-      "qwen3_5",
-      "exl3",
-      "exllamav3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:16.877129+00:00",
-    "source_ids": [
-      "malaiwah/Qwen3.8-27B-EXL3-K5K6"
-    ],
-    "family": "Qwen3.8-EXL3-K5K6"
-  },
-  {
     "id": "huggingface:Vishva007/Qwen3.8-27B-W4A16-AutoRound-GPTQ",
     "name": "Qwen3.8-27B-W4A16-AutoRound-GPTQ",
     "provider": "Vishva007",
@@ -20879,40 +20818,6 @@
     "family": "SabiYarn_MoE-280M"
   },
   {
-    "id": "huggingface:litert-community/Bonsai-Image-ternary-4B",
-    "name": "Bonsai-Image-ternary-4B",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-07-29T03:29:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/Bonsai-Image-ternary-4B",
-    "tags": [
-      "text-to-image",
-      "litert",
-      "tflite",
-      "on-device",
-      "ternary",
-      "flux2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:16.177759+00:00",
-    "source_ids": [
-      "litert-community/Bonsai-Image-ternary-4B"
-    ],
-    "family": "Bonsai-Image-ternary"
-  },
-  {
     "id": "huggingface:bezzam/Fun-ASR-Nano-2512-hf",
     "name": "Fun-ASR-Nano-2512-hf",
     "provider": "bezzam",
@@ -22133,39 +22038,6 @@
     "family": "react-native-executorch-easy-ocr"
   },
   {
-    "id": "huggingface:XReyRobert/Ornith-1.0-35B-GPTQ-Pro-FOEM-4bit-g128-ns256",
-    "name": "Ornith-1.0-35B-GPTQ-Pro-FOEM-4bit-g128-ns256",
-    "provider": "XReyRobert",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-28T22:25:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XReyRobert/Ornith-1.0-35B-GPTQ-Pro-FOEM-4bit-g128-ns256",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "ornith"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:16.053512+00:00",
-    "source_ids": [
-      "XReyRobert/Ornith-1.0-35B-GPTQ-Pro-FOEM-4bit-g128-ns256"
-    ],
-    "family": "Ornith-1.0--Pro-FOEM-4bit-g128-ns256"
-  },
-  {
     "id": "huggingface:furiosa-ai/Qwen3-Coder-30B-A3B-Instruct-FP8",
     "name": "Qwen3-Coder-30B-A3B-Instruct-FP8",
     "provider": "furiosa-ai",
@@ -22972,40 +22844,6 @@
       "openbmb/BitCPM-CANN-8B"
     ],
     "family": "BitCPM-CANN"
-  },
-  {
-    "id": "huggingface:OpenVINO/whisper-large-v3-turbo-int8-ov",
-    "name": "whisper-large-v3-turbo-int8-ov",
-    "provider": "OpenVINO",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T10:24:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenVINO/whisper-large-v3-turbo-int8-ov",
-    "tags": [
-      "automatic-speech-recognition",
-      "openvino",
-      "whisper",
-      "audio",
-      "automatic-speech-recognition",
-      "hf-asr-leaderboard"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:16.754451+00:00",
-    "source_ids": [
-      "OpenVINO/whisper-large-v3-turbo-int8-ov"
-    ],
-    "family": "whisper-large-v3-turbo-int8-ov"
   },
   {
     "id": "huggingface:handy-computer/gigaam-v3-ctc-gguf",
@@ -26000,40 +25838,6 @@
       "trl-internal-testing/tiny-Gemma2ForCausalLM"
     ],
     "family": "tiny-Gemma2ForCausalLM"
-  },
-  {
-    "id": "huggingface:OpenVINO/whisper-large-v3-int8-ov",
-    "name": "whisper-large-v3-int8-ov",
-    "provider": "OpenVINO",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2024-10-23T06:15:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenVINO/whisper-large-v3-int8-ov",
-    "tags": [
-      "automatic-speech-recognition",
-      "openvino",
-      "whisper",
-      "audio",
-      "automatic-speech-recognition",
-      "hf-asr-leaderboard"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-27T18:53:16.754551+00:00",
-    "source_ids": [
-      "OpenVINO/whisper-large-v3-int8-ov"
-    ],
-    "family": "whisper-large-v3-int8-ov"
   },
   {
     "id": "huggingface:vikhyatk/moondream2",
