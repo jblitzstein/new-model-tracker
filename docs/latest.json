@@ -1737,6 +1737,39 @@
     "family": "Swift-Qwen3.8-MIX"
   },
   {
+    "id": "huggingface:mlx-community/MiMo-V2.6-Distill-Qwen-9B-OptiQ-4bit",
+    "name": "MiMo-V2.6-Distill-Qwen-9B-OptiQ-4bit",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T23:21:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/MiMo-V2.6-Distill-Qwen-9B-OptiQ-4bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "quantized",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-27T13:33:17.411413+00:00",
+    "source_ids": [
+      "mlx-community/MiMo-V2.6-Distill-Qwen-9B-OptiQ-4bit"
+    ],
+    "family": "MiMo-V2.6-Distill-Qwen-OptiQ-4bit"
+  },
+  {
     "id": "openrouter:xiaomi/mimo-v2.6-pro-ultraspeed",
     "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
     "provider": "Xiaomi",
@@ -4178,6 +4211,39 @@
       "poopooness/H3-Loras"
     ],
     "family": "H3-Loras"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/gemma-270m-math-reasoner",
+    "name": "gemma-270m-math-reasoner",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T23:50:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/gemma-270m-math-reasoner",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma3_text",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-27T13:33:17.411599+00:00",
+    "source_ids": [
+      "reaperdoesntknow/gemma-270m-math-reasoner"
+    ],
+    "family": "gemma-270m-math-reasoner"
   },
   {
     "id": "huggingface:IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2-GGUF",
@@ -15920,39 +15986,6 @@
     "family": "FastVideo-Minimax-FastH3--v0.2"
   },
   {
-    "id": "huggingface:summerMC/Qwen3.5-2B-SpeedX",
-    "name": "Qwen3.5-2B-SpeedX",
-    "provider": "summerMC",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-23T02:49:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/summerMC/Qwen3.5-2B-SpeedX",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_gdn24",
-      "text-generation",
-      "qwen"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-28T04:03:54.552055+00:00",
-    "source_ids": [
-      "summerMC/Qwen3.5-2B-SpeedX"
-    ],
-    "family": "Qwen3.5-SpeedX"
-  },
-  {
     "id": "huggingface:al20312/124M-ChatML-Final",
     "name": "124M-ChatML-Final",
     "provider": "al20312",
@@ -16083,39 +16116,6 @@
       "1jamesthompson1/Qwen3.8-27B-nz-wvs-full_string_distribution-overall"
     ],
     "family": "Qwen3.8-nz-wvs-full_string_distribution-overall"
-  },
-  {
-    "id": "huggingface:sstoica12/acquisition_student_llama8bins_numina_confidence",
-    "name": "acquisition_student_llama8bins_numina_confidence",
-    "provider": "sstoica12",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-22T06:58:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sstoica12/acquisition_student_llama8bins_numina_confidence",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-28T04:03:54.552002+00:00",
-    "source_ids": [
-      "sstoica12/acquisition_student_llama8bins_numina_confidence"
-    ],
-    "family": "acquisition_student_llama8bins_numina_confidence"
   },
   {
     "id": "huggingface:jashepp/Ornith-1.5-9B-MXFP4_Hybrid-Imatrix-GGUF",
@@ -18330,6 +18330,39 @@
     "family": "Huihui-Ornith-1.0-abliterated-MTP-UD-APEX"
   },
   {
+    "id": "huggingface:reaperdoesntknow/LFM2.5-2.6B-CyberSec",
+    "name": "LFM2.5-2.6B-CyberSec",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T18:10:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/LFM2.5-2.6B-CyberSec",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "lfm2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-27T13:33:17.412466+00:00",
+    "source_ids": [
+      "reaperdoesntknow/LFM2.5-2.6B-CyberSec"
+    ],
+    "family": "LFM2.5-CyberSec"
+  },
+  {
     "id": "huggingface:Vishva007/Qwen3.8-27B-W4A16-AutoRound-GPTQ",
     "name": "Qwen3.8-27B-W4A16-AutoRound-GPTQ",
     "provider": "Vishva007",
@@ -18939,39 +18972,6 @@
       "StarDoc-AI/TeleOCR"
     ],
     "family": "TeleOCR"
-  },
-  {
-    "id": "huggingface:RadixArk/Qwen3.8-27B-DSpark",
-    "name": "Qwen3.8-27B-DSpark",
-    "provider": "RadixArk",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T06:12:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/RadixArk/Qwen3.8-27B-DSpark",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "feature-extraction",
-      "speculative-decoding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-28T04:03:54.551934+00:00",
-    "source_ids": [
-      "RadixArk/Qwen3.8-27B-DSpark"
-    ],
-    "family": "Qwen3.8-DSpark"
   },
   {
     "id": "huggingface:cafepm/G9v3-39A5B-Q3Q4-GGUF",
@@ -19983,6 +19983,39 @@
       "isaacmg/qwen3-vl-8b-hebrew-v18a-ckpt"
     ],
     "family": "qwen3-vl-hebrew-v18a-ckpt"
+  },
+  {
+    "id": "huggingface:reaperdoesntknow/Qwen3.5-2B-CyberSec",
+    "name": "Qwen3.5-2B-CyberSec",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-09T15:38:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3.5-2B-CyberSec",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-27T13:33:17.411950+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3.5-2B-CyberSec"
+    ],
+    "family": "Qwen3.5-CyberSec"
   },
   {
     "id": "huggingface:desert-ant-labs/title",
@@ -22240,6 +22273,39 @@
     "family": "swiftvln-satnav-1ep-f32s4-overlap0-pf-h8-pool-s2-noembed"
   },
   {
+    "id": "huggingface:reaperdoesntknow/Qwen3.5-2B-Opus-Distil",
+    "name": "Qwen3.5-2B-Opus-Distil",
+    "provider": "reaperdoesntknow",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-01T21:50:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/reaperdoesntknow/Qwen3.5-2B-Opus-Distil",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-27T13:33:17.411895+00:00",
+    "source_ids": [
+      "reaperdoesntknow/Qwen3.5-2B-Opus-Distil"
+    ],
+    "family": "Qwen3.5-Opus-Distil"
+  },
+  {
     "id": "huggingface:software-mansion/react-native-executorch-easy-ocr",
     "name": "react-native-executorch-easy-ocr",
     "provider": "software-mansion",
@@ -23012,6 +23078,40 @@
       "handy-computer/granite-speech-4.1-2b-nar-gguf"
     ],
     "family": "granite-speech-4.1-nar"
+  },
+  {
+    "id": "huggingface:handy-computer/granite-speech-4.1-2b-gguf",
+    "name": "granite-speech-4.1-2b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-17T10:46:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/granite-speech-4.1-2b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "granite"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-27T13:33:17.864370+00:00",
+    "source_ids": [
+      "handy-computer/granite-speech-4.1-2b-gguf"
+    ],
+    "family": "granite-speech-4.1"
   },
   {
     "id": "huggingface:handy-computer/granite-4.0-1b-speech-gguf",
