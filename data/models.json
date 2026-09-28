@@ -156462,5 +156462,209 @@
       "Atomic-Germ/Qwen3.8-Distilled-2B-NPU2"
     ],
     "family": "Qwen3.8-Distilled-NPU2"
+  },
+  {
+    "id": "huggingface:IFM/K2-Horizon-3.7B",
+    "name": "K2-Horizon-3.7B",
+    "provider": "IFM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T23:14:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IFM/K2-Horizon-3.7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "k2_horizon",
+      "text-generation",
+      "k2-horizon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-28T16:29:37.092433+00:00",
+    "source_ids": [
+      "IFM/K2-Horizon-3.7B"
+    ],
+    "family": "K2-Horizon"
+  },
+  {
+    "id": "huggingface:silvermoong/SilvermoonMix-Anima-Evolved",
+    "name": "SilvermoonMix-Anima-Evolved",
+    "provider": "silvermoong",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-11T17:01:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/silvermoong/SilvermoonMix-Anima-Evolved",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "anima",
+      "comfyui",
+      "forge",
+      "safetensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-28T16:29:37.182248+00:00",
+    "source_ids": [
+      "silvermoong/SilvermoonMix-Anima-Evolved"
+    ],
+    "family": "SilvermoonMix-Anima-Evolved"
+  },
+  {
+    "id": "huggingface:JustANormalTinkerer/hayai-ocr-v2.5-nova",
+    "name": "hayai-ocr-v2.5-nova",
+    "provider": "JustANormalTinkerer",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-20T11:10:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JustANormalTinkerer/hayai-ocr-v2.5-nova",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "safetensors",
+      "hayai",
+      "feature-extraction",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-28T16:29:37.246486+00:00",
+    "source_ids": [
+      "JustANormalTinkerer/hayai-ocr-v2.5-nova"
+    ],
+    "family": "hayai-ocr-v2.5-nova"
+  },
+  {
+    "id": "huggingface:thantzinphyo/Whisper-Small-Myanmar-Partial-Freezing",
+    "name": "Whisper-Small-Myanmar-Partial-Freezing",
+    "provider": "thantzinphyo",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T15:43:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thantzinphyo/Whisper-Small-Myanmar-Partial-Freezing",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "my",
+      "dataset:thantzinphyo/burmese-speech-refined-openslr-80"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-28T16:29:37.555037+00:00",
+    "source_ids": [
+      "thantzinphyo/Whisper-Small-Myanmar-Partial-Freezing"
+    ],
+    "family": "Whisper-Small-Myanmar-Partial-Freezing"
+  },
+  {
+    "id": "huggingface:KlangAI/pianissimo-sv",
+    "name": "pianissimo-sv",
+    "provider": "KlangAI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T05:06:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KlangAI/pianissimo-sv",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "speech",
+      "audio",
+      "fastconformer",
+      "tdt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-28T16:29:37.555135+00:00",
+    "source_ids": [
+      "KlangAI/pianissimo-sv"
+    ],
+    "family": "pianissimo-sv"
+  },
+  {
+    "id": "huggingface:tcclaviger/Qwen3.8-Flash-Next-MXFP4-FP8-GPTQ",
+    "name": "Qwen3.8-Flash-Next-MXFP4-FP8-GPTQ",
+    "provider": "tcclaviger",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-13T14:05:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tcclaviger/Qwen3.8-Flash-Next-MXFP4-FP8-GPTQ",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen4_exp",
+      "image-text-to-text",
+      "amd"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-28T16:29:37.643225+00:00",
+    "source_ids": [
+      "tcclaviger/Qwen3.8-Flash-Next-MXFP4-FP8-GPTQ"
+    ],
+    "family": "Qwen3.8-Flash-Next-MXFP4-FP8"
   }
 ]
