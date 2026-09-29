@@ -751,6 +751,111 @@
     "family": "hypa-tiny-keys"
   },
   {
+    "id": "huggingface:IsValorum/Tiel-Coder-35B-A3B-APEX-I-NanoPlus-GGUF",
+    "name": "Tiel-Coder-35B-A3B-APEX-I-NanoPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T19:18:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Tiel-Coder-35B-A3B-APEX-I-NanoPlus-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.783059+00:00",
+    "source_ids": [
+      "IsValorum/Tiel-Coder-35B-A3B-APEX-I-NanoPlus-GGUF"
+    ],
+    "family": "Tiel-Coder-APEX-I-NanoPlus"
+  },
+  {
+    "id": "huggingface:IsValorum/Ornith-1.5-35B-A3B-APEX-I-NanoPlus-GGUF",
+    "name": "Ornith-1.5-35B-A3B-APEX-I-NanoPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T18:36:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Ornith-1.5-35B-A3B-APEX-I-NanoPlus-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.782921+00:00",
+    "source_ids": [
+      "IsValorum/Ornith-1.5-35B-A3B-APEX-I-NanoPlus-GGUF"
+    ],
+    "family": "Ornith-1.5-APEX-I-NanoPlus"
+  },
+  {
+    "id": "huggingface:IsValorum/Occamy-1.0-APEX-I-NanoPlus-GGUF",
+    "name": "Occamy-1.0-APEX-I-NanoPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T18:35:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Occamy-1.0-APEX-I-NanoPlus-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "quantization",
+      "apex",
+      "apex-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.782864+00:00",
+    "source_ids": [
+      "IsValorum/Occamy-1.0-APEX-I-NanoPlus-GGUF"
+    ],
+    "family": "Occamy-1.0-APEX-I-NanoPlus"
+  },
+  {
     "id": "huggingface:pentacoxian-dev/Qwen3.8-Flash-Next-IQ3E-Q8D-MTP-GGUF",
     "name": "Qwen3.8-Flash-Next-IQ3E-Q8D-MTP-GGUF",
     "provider": "pentacoxian-dev",
@@ -1007,6 +1112,41 @@
       "qwen/qwen3.8-max-prime"
     ],
     "family": "Qwen3.8 Max Prime"
+  },
+  {
+    "id": "huggingface:IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-NanoPlus-GGUF",
+    "name": "Qwen3.6-35B-A3B-MTP-APEX-I-NanoPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T16:58:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-NanoPlus-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.783009+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-NanoPlus-GGUF"
+    ],
+    "family": "Qwen3.6-MTP-APEX-I-NanoPlus"
   },
   {
     "id": "huggingface:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16",
@@ -1696,6 +1836,41 @@
       "openai/gpt-6-sol:batch"
     ],
     "family": "GPT-6 Sol (batch)"
+  },
+  {
+    "id": "huggingface:IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T17:40:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.783034+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Qwen3.6-MTP-APEX-I-MiniPlus-V2.1"
   },
   {
     "id": "openrouter:anthropic/claude-opus-5.5",
@@ -9368,6 +9543,41 @@
     "family": "MiniCPM5"
   },
   {
+    "id": "huggingface:huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+    "name": "Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-06T04:21:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "huihui"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.783139+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF"
+    ],
+    "family": "Huihui-Qwen3.8-Flash-Next-abliterated"
+  },
+  {
     "id": "huggingface:mradermacher/Qwen3.5-KETI-HAECHI-27B-i1-GGUF",
     "name": "Qwen3.5-KETI-HAECHI-27B-i1-GGUF",
     "provider": "mradermacher",
@@ -12608,6 +12818,76 @@
     "family": "acquisition_student_AS_confidence_numina_qwen"
   },
   {
+    "id": "huggingface:peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
+    "name": "Cyber-Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T00:06:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "omlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.783165+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ6e-MTP"
+    ],
+    "family": "Cyber-Tiel-Coder-MLX-oQ6e-MTP"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e-MTP",
+    "name": "Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e-MTP",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-01T00:06:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "omlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.783114+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e-MTP"
+    ],
+    "family": "Cyber-Tiel-Coder-MLX-oQ4e-MTP"
+  },
+  {
     "id": "huggingface:Prannesshkva/QU-SSM-130M-MoE",
     "name": "QU-SSM-130M-MoE",
     "provider": "Prannesshkva",
@@ -15499,6 +15779,41 @@
     "family": "Wulver"
   },
   {
+    "id": "huggingface:GreenBitAI/Qwen3.6-35B-A3B-8bit-paged",
+    "name": "Qwen3.6-35B-A3B-8bit-paged",
+    "provider": "GreenBitAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-25T21:20:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GreenBitAI/Qwen3.6-35B-A3B-8bit-paged",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "gbx-lm",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T23:27:48.783308+00:00",
+    "source_ids": [
+      "GreenBitAI/Qwen3.6-35B-A3B-8bit-paged"
+    ],
+    "family": "Qwen3.6-8bit-paged"
+  },
+  {
     "id": "huggingface:Starw1/Qwen3.8-27B-absolute-heresy-W4A16",
     "name": "Qwen3.8-27B-absolute-heresy-W4A16",
     "provider": "Starw1",
@@ -15980,41 +16295,6 @@
       "Atomic-Germ/Qwen3.8-Distilled-2B-NPU2"
     ],
     "family": "Qwen3.8-Distilled-NPU2"
-  },
-  {
-    "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP",
-    "name": "Tiel-Coder-35B-A3B-GGUF-MTP",
-    "provider": "peculiar-ragdoll",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-24T18:51:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "qwen35moe",
-      "moe",
-      "imatrix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-30T22:26:09.805808+00:00",
-    "source_ids": [
-      "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP"
-    ],
-    "family": "Tiel-Coder--MTP"
   },
   {
     "id": "huggingface:chenyumo/moziAI-27B-MTP",
@@ -17097,41 +17377,6 @@
       "Thunder13240/Ornith-1.5-9B-heretic-GGUF"
     ],
     "family": "Ornith-1.5-heretic"
-  },
-  {
-    "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
-    "name": "Tiel-Coder-35B-A3B-GGUF",
-    "provider": "peculiar-ragdoll",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-19T23:11:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "qwen35moe",
-      "moe",
-      "imatrix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-30T22:26:09.805869+00:00",
-    "source_ids": [
-      "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF"
-    ],
-    "family": "Tiel-Coder"
   },
   {
     "id": "huggingface:tooltd/Qwen3.8-27B-IQ4-XS-16GB-VRAM-GGUF",
@@ -19922,41 +20167,6 @@
       "nyxia/H3-Loras"
     ],
     "family": "H3-Loras"
-  },
-  {
-    "id": "huggingface:isaacmg/qwen3-vl-8b-hebrew-v18a-ckpt",
-    "name": "qwen3-vl-8b-hebrew-v18a-ckpt",
-    "provider": "isaacmg",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T19:06:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/isaacmg/qwen3-vl-8b-hebrew-v18a-ckpt",
-    "tags": [
-      "image-text-to-text",
-      "peft",
-      "safetensors",
-      "lora",
-      "ocr",
-      "htr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-30T22:26:09.805974+00:00",
-    "source_ids": [
-      "isaacmg/qwen3-vl-8b-hebrew-v18a-ckpt"
-    ],
-    "family": "qwen3-vl-hebrew-v18a-ckpt"
   },
   {
     "id": "huggingface:reaperdoesntknow/Qwen3.5-2B-CyberSec",
