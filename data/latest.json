@@ -1,5 +1,137 @@
 [
   {
+    "id": "openrouter:openai/gpt-6.1-sol-pro",
+    "name": "OpenAI: GPT-6.1 Sol Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T17:28:06+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-29T17:45:12.968887+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-sol-pro"
+    ],
+    "family": "GPT-6.1 Sol Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-6.1-sol-pro:batch",
+    "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T17:28:06+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-09-29T17:45:12.969599+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-sol-pro:batch"
+    ],
+    "family": "GPT-6.1 Sol Pro (batch)"
+  },
+  {
+    "id": "openrouter:openai/gpt-6.1-sol",
+    "name": "OpenAI: GPT-6.1 Sol",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T17:28:02+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-29T17:45:12.969630+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-sol"
+    ],
+    "family": "GPT-6.1 Sol"
+  },
+  {
+    "id": "openrouter:openai/gpt-6.1-sol:batch",
+    "name": "OpenAI: GPT-6.1 Sol (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T17:28:02+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-09-29T17:45:12.969650+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-sol:batch"
+    ],
+    "family": "GPT-6.1 Sol (batch)"
+  },
+  {
     "id": "openrouter:anthropic/claude-sonnet-5.5",
     "name": "Anthropic: Claude Sonnet 5.5",
     "provider": "Anthropic",
@@ -308,6 +440,39 @@
       "preemware/Qwen3.8-27B-RANA-abliterated-GGUF"
     ],
     "family": "Qwen3.8-RANA-abliterated"
+  },
+  {
+    "id": "huggingface:frankmorales2020/qwen2.5-0.5b-topo-governed-cbp-fineweb",
+    "name": "qwen2.5-0.5b-topo-governed-cbp-fineweb",
+    "provider": "frankmorales2020",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-25T23:21:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/frankmorales2020/qwen2.5-0.5b-topo-governed-cbp-fineweb",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen2",
+      "continual-learning",
+      "topological-governance",
+      "continual-backpropagation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T17:45:13.121767+00:00",
+    "source_ids": [
+      "frankmorales2020/qwen2.5-0.5b-topo-governed-cbp-fineweb"
+    ],
+    "family": "qwen2.5-topo-governed-cbp-fineweb"
   },
   {
     "id": "huggingface:jsbaicenter/Aztec-Coder-4B",
@@ -2982,6 +3147,74 @@
       "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF"
     ],
     "family": "Qwen-Image-2.1-Uncensored-Abenzerps"
+  },
+  {
+    "id": "huggingface:ddalcu/Qwen-Image-2.1-MLX-Serve-8bit",
+    "name": "Qwen-Image-2.1-MLX-Serve-8bit",
+    "provider": "ddalcu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-20T15:54:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit",
+    "tags": [
+      "text-to-image",
+      "mlx-serve",
+      "diffusers",
+      "safetensors",
+      "qwen_image21",
+      "mlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T17:45:13.241635+00:00",
+    "source_ids": [
+      "ddalcu/Qwen-Image-2.1-MLX-Serve-8bit"
+    ],
+    "family": "Qwen-Image-2.1-MLX-Serve-8bit"
+  },
+  {
+    "id": "huggingface:ddalcu/Qwen-Image-2.1-MLX-Serve-4bit",
+    "name": "Qwen-Image-2.1-MLX-Serve-4bit",
+    "provider": "ddalcu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-20T15:53:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit",
+    "tags": [
+      "text-to-image",
+      "mlx-serve",
+      "diffusers",
+      "safetensors",
+      "qwen_image21",
+      "mlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T17:45:13.241663+00:00",
+    "source_ids": [
+      "ddalcu/Qwen-Image-2.1-MLX-Serve-4bit"
+    ],
+    "family": "Qwen-Image-2.1-MLX-Serve-4bit"
   },
   {
     "id": "huggingface:abenzerps/Qwen-Image-2.1-GGUF",
@@ -6962,6 +7195,39 @@
       "AMAImedia/DeepSeek-V4.1-Flash-FP8-GGUF"
     ],
     "family": "DeepSeek-V4.1-Flash-FP8"
+  },
+  {
+    "id": "huggingface:DALabCommunity/Haidass-Translate-143M",
+    "name": "Haidass-Translate-143M",
+    "provider": "DALabCommunity",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T10:23:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DALabCommunity/Haidass-Translate-143M",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3",
+      "translation",
+      "machine-translation",
+      "small-language-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T17:45:13.121856+00:00",
+    "source_ids": [
+      "DALabCommunity/Haidass-Translate-143M"
+    ],
+    "family": "Haidass-Translate-143M"
   },
   {
     "id": "huggingface:audio-cpp/Yue2-3B-GGUF",
@@ -13622,39 +13888,6 @@
     "family": "Qwen3.8-Flash-Next-NVFP4-SSD-Stream"
   },
   {
-    "id": "huggingface:SZLHOLDINGS/chaski",
-    "name": "chaski",
-    "provider": "SZLHOLDINGS",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-28T16:26:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SZLHOLDINGS/chaski",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "szl-holdings"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-30T16:09:49.328019+00:00",
-    "source_ids": [
-      "SZLHOLDINGS/chaski"
-    ],
-    "family": "chaski"
-  },
-  {
     "id": "huggingface:aj9o9/Qwen3.8-27B-Escha-W2-GGUF",
     "name": "Qwen3.8-27B-Escha-W2-GGUF",
     "provider": "aj9o9",
@@ -14024,6 +14257,40 @@
       "nvidia/Muse-Glimmer-30B-NVFP4"
     ],
     "family": "Muse-Glimmer-NVFP4"
+  },
+  {
+    "id": "huggingface:AMAImedia/NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
+    "name": "NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
+    "provider": "AMAImedia",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-27T20:32:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AMAImedia/NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "qwen3_tts",
+      "qwen3-tts",
+      "qwen3-omni",
+      "talker"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T17:45:13.667101+00:00",
+    "source_ids": [
+      "AMAImedia/NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16"
+    ],
+    "family": "NOESIS-Qwen3-TTS-Talker-Combo-LLM2-ASR2-BF16"
   },
   {
     "id": "huggingface:AnonimousA/Qwen3.8-Flash-Next-REAP-256-duo-GGUF",
@@ -15162,6 +15429,40 @@
       "LessThanThreeAI/Qwen3.8-27B-Humanlike-Chat-GGUF"
     ],
     "family": "Qwen3.8-Humanlike"
+  },
+  {
+    "id": "huggingface:lynaNSFW/minimaxH3_Collection",
+    "name": "minimaxH3_Collection",
+    "provider": "lynaNSFW",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-26T07:08:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lynaNSFW/minimaxH3_Collection",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:pmczip/MiniMaxH3_LoRAs"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T17:45:13.241695+00:00",
+    "source_ids": [
+      "lynaNSFW/minimaxH3_Collection"
+    ],
+    "family": "minimaxH3_Collection"
   },
   {
     "id": "huggingface:Vaelico/Wulver",
@@ -17750,6 +18051,41 @@
     "family": "Kimi-K3-Kazakh-CPT-step200"
   },
   {
+    "id": "huggingface:AMAImedia/Kimi-K3-MXFP-GGUF",
+    "name": "Kimi-K3-MXFP-GGUF",
+    "provider": "AMAImedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-16T08:49:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AMAImedia/Kimi-K3-MXFP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "kimi_k3",
+      "feature-extraction",
+      "kimi"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T17:45:13.892578+00:00",
+    "source_ids": [
+      "AMAImedia/Kimi-K3-MXFP-GGUF"
+    ],
+    "family": "Kimi-K3-MXFP"
+  },
+  {
     "id": "huggingface:AbstractPhil/mini-beatrix-1",
     "name": "mini-beatrix-1",
     "provider": "AbstractPhil",
@@ -18293,39 +18629,6 @@
       "YTan2000/Qwen3.8-27B-TQ3_4S"
     ],
     "family": "Qwen3.8-TQ3_4S"
-  },
-  {
-    "id": "huggingface:tiyuvta/Qwen3.8-27B-NVFP4-MTP-GGUF",
-    "name": "Qwen3.8-27B-NVFP4-MTP-GGUF",
-    "provider": "tiyuvta",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T17:13:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tiyuvta/Qwen3.8-27B-NVFP4-MTP-GGUF",
-    "tags": [
-      "text-generation",
-      "memra",
-      "gguf",
-      "nvfp4",
-      "speculative-decoding",
-      "mtp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-30T16:09:49.327961+00:00",
-    "source_ids": [
-      "tiyuvta/Qwen3.8-27B-NVFP4-MTP-GGUF"
-    ],
-    "family": "Qwen3.8-NVFP4-MTP"
   },
   {
     "id": "huggingface:malaiwah/Qwen3.8-27B-K4",
@@ -25131,40 +25434,5 @@
       "JujoHotaru/lora"
     ],
     "family": "lora"
-  },
-  {
-    "id": "huggingface:dh-unibe/trocr-kurrent",
-    "name": "trocr-kurrent",
-    "provider": "dh-unibe",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2022-12-06T14:41:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dh-unibe/trocr-kurrent",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "pytorch",
-      "safetensors",
-      "vision-encoder-decoder",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-30T16:09:50.062087+00:00",
-    "source_ids": [
-      "dh-unibe/trocr-kurrent"
-    ],
-    "family": "trocr-kurrent"
   }
 ]
