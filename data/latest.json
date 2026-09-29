@@ -1,5 +1,71 @@
 [
   {
+    "id": "openrouter:anthropic/claude-sonnet-5.5",
+    "name": "Anthropic: Claude Sonnet 5.5",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-28T18:04:46+00:00",
+    "context_length": 1000000,
+    "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-29T00:12:51.542302+00:00",
+    "source_ids": [
+      "anthropic/claude-sonnet-5.5"
+    ],
+    "family": "Claude Sonnet 5.5"
+  },
+  {
+    "id": "openrouter:anthropic/claude-sonnet-5.5:batch",
+    "name": "Anthropic: Claude Sonnet 5.5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-28T18:04:46+00:00",
+    "context_length": 1000000,
+    "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-09-29T00:12:51.543294+00:00",
+    "source_ids": [
+      "anthropic/claude-sonnet-5.5:batch"
+    ],
+    "family": "Claude Sonnet 5.5 (batch)"
+  },
+  {
     "id": "huggingface:internlm/Intern-Decision-4B",
     "name": "Intern-Decision-4B",
     "provider": "InternLM",
@@ -138,6 +204,39 @@
       "preemware/Qwen3.8-27B-RANA-abliterated-GGUF"
     ],
     "family": "Qwen3.8-RANA-abliterated"
+  },
+  {
+    "id": "huggingface:jsbaicenter/Aztec-Coder-4B",
+    "name": "Aztec-Coder-4B",
+    "provider": "jsbaicenter",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-25T22:08:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jsbaicenter/Aztec-Coder-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "agentic-coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T00:12:51.634194+00:00",
+    "source_ids": [
+      "jsbaicenter/Aztec-Coder-4B"
+    ],
+    "family": "Aztec-Coder"
   },
   {
     "id": "openrouter:typesafe/jev-router",
@@ -2980,6 +3079,39 @@
       "touati-kamel/f5tts-algerian-darja"
     ],
     "family": "f5tts-algerian-darja"
+  },
+  {
+    "id": "huggingface:mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
+    "name": "Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T20:37:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "whittle",
+      "qwen4_exp",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T00:12:51.634431+00:00",
+    "source_ids": [
+      "mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF"
+    ],
+    "family": "Whittle-Qwen-3.8-i1"
   },
   {
     "id": "huggingface:bloomer010/Ling-3.0-flash-VL-GGUF",
@@ -14056,39 +14188,6 @@
     "family": "Qwen3.8-Flash-Next-Uncensored-ROCmFP4-FAST"
   },
   {
-    "id": "huggingface:SaintsStudios/Mazgu_Small-T_130M_Instruct",
-    "name": "Mazgu_Small-T_130M_Instruct",
-    "provider": "SaintsStudios",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-27T14:21:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SaintsStudios/Mazgu_Small-T_130M_Instruct",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-29T22:25:18.088116+00:00",
-    "source_ids": [
-      "SaintsStudios/Mazgu_Small-T_130M_Instruct"
-    ],
-    "family": "Mazgu_Small-T_130M"
-  },
-  {
     "id": "huggingface:kingjones777/Qwen3.8-Flash-Next-Uncensored-ROCmFP4-STRIX_LEAN-GGUF",
     "name": "Qwen3.8-Flash-Next-Uncensored-ROCmFP4-STRIX_LEAN-GGUF",
     "provider": "kingjones777",
@@ -14385,41 +14484,6 @@
       "vibevoice/VibeVoice-1.5B-hf"
     ],
     "family": "VibeVoice-hf"
-  },
-  {
-    "id": "huggingface:brandonmusic/GLM-5.3-Flash-tr3-4bpw",
-    "name": "GLM-5.3-Flash-tr3-4bpw",
-    "provider": "brandonmusic",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-27T03:33:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/brandonmusic/GLM-5.3-Flash-tr3-4bpw",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "glm5_next",
-      "image-text-to-text",
-      "glm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-29T22:25:19.078019+00:00",
-    "source_ids": [
-      "brandonmusic/GLM-5.3-Flash-tr3-4bpw"
-    ],
-    "family": "GLM-5.3-Flash-tr3-4bpw"
   },
   {
     "id": "huggingface:RedHatAI/GLM-5.3-Flash-NVFP4",
@@ -14897,41 +14961,6 @@
       "takanori-ishikawa/DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF"
     ],
     "family": "DeepSeek-V4-Flash-0731-Pruned"
-  },
-  {
-    "id": "huggingface:orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
-    "name": "Qwen3.8-Flash-Next-Uncensored-GGUF",
-    "provider": "orcarouter",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-26T11:15:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "abliterated",
-      "uncensored",
-      "qwen",
-      "qwen3.8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-29T22:25:19.077986+00:00",
-    "source_ids": [
-      "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF"
-    ],
-    "family": "Qwen3.8-Flash-Next-Uncensored"
   },
   {
     "id": "huggingface:smshahbaj/Rifa-Nano-0.5B",
@@ -15684,72 +15713,6 @@
       "Lucebox/Qwen3.8-27B-IQ4_XS-fast-GGUF"
     ],
     "family": "Qwen3.8-IQ4_XS-fast"
-  },
-  {
-    "id": "huggingface:hotdogs/Qwen3.8-27B-thinkingcap-abliterated-mtp-GGUF",
-    "name": "Qwen3.8-27B-thinkingcap-abliterated-mtp-GGUF",
-    "provider": "hotdogs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-24T14:49:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hotdogs/Qwen3.8-27B-thinkingcap-abliterated-mtp-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "qwen3",
-      "thinkingcap",
-      "efficient-thinking"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-29T22:25:18.088219+00:00",
-    "source_ids": [
-      "hotdogs/Qwen3.8-27B-thinkingcap-abliterated-mtp-GGUF"
-    ],
-    "family": "Qwen3.8-thinkingcap-abliterated-mtp"
-  },
-  {
-    "id": "huggingface:hotdogs/Qwen3.8-27B-thinkingcap-abliterated",
-    "name": "Qwen3.8-27B-thinkingcap-abliterated",
-    "provider": "hotdogs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-24T14:31:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hotdogs/Qwen3.8-27B-thinkingcap-abliterated",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "qwen3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-08-29T22:25:18.088198+00:00",
-    "source_ids": [
-      "hotdogs/Qwen3.8-27B-thinkingcap-abliterated"
-    ],
-    "family": "Qwen3.8-thinkingcap-abliterated"
   },
   {
     "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-MLX-oQ4e",
@@ -16795,6 +16758,41 @@
       "NikiKrutan/Qwen3.8-27B-MTP-GGUF"
     ],
     "family": "Qwen3.8-MTP"
+  },
+  {
+    "id": "huggingface:Thunder13240/Ornith-1.5-9B-heretic-GGUF",
+    "name": "Ornith-1.5-9B-heretic-GGUF",
+    "provider": "Thunder13240",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T07:45:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Thunder13240/Ornith-1.5-9B-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "imatrix",
+      "quantized",
+      "abliterated",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T00:12:52.061782+00:00",
+    "source_ids": [
+      "Thunder13240/Ornith-1.5-9B-heretic-GGUF"
+    ],
+    "family": "Ornith-1.5-heretic"
   },
   {
     "id": "huggingface:peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",

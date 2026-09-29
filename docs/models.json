@@ -156666,5 +156666,172 @@
       "tcclaviger/Qwen3.8-Flash-Next-MXFP4-FP8-GPTQ"
     ],
     "family": "Qwen3.8-Flash-Next-MXFP4-FP8"
+  },
+  {
+    "id": "openrouter:anthropic/claude-sonnet-5.5",
+    "name": "Anthropic: Claude Sonnet 5.5",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-28T18:04:46+00:00",
+    "context_length": 1000000,
+    "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-09-29T00:12:51.542302+00:00",
+    "source_ids": [
+      "anthropic/claude-sonnet-5.5"
+    ],
+    "family": "Claude Sonnet 5.5"
+  },
+  {
+    "id": "openrouter:anthropic/claude-sonnet-5.5:batch",
+    "name": "Anthropic: Claude Sonnet 5.5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-28T18:04:46+00:00",
+    "context_length": 1000000,
+    "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-09-29T00:12:51.543294+00:00",
+    "source_ids": [
+      "anthropic/claude-sonnet-5.5:batch"
+    ],
+    "family": "Claude Sonnet 5.5 (batch)"
+  },
+  {
+    "id": "huggingface:jsbaicenter/Aztec-Coder-4B",
+    "name": "Aztec-Coder-4B",
+    "provider": "jsbaicenter",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-25T22:08:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jsbaicenter/Aztec-Coder-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "agentic-coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T00:12:51.634194+00:00",
+    "source_ids": [
+      "jsbaicenter/Aztec-Coder-4B"
+    ],
+    "family": "Aztec-Coder"
+  },
+  {
+    "id": "huggingface:mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
+    "name": "Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T20:37:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "whittle",
+      "qwen4_exp",
+      "mixture-of-experts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T00:12:51.634431+00:00",
+    "source_ids": [
+      "mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF"
+    ],
+    "family": "Whittle-Qwen-3.8-i1"
+  },
+  {
+    "id": "huggingface:Thunder13240/Ornith-1.5-9B-heretic-GGUF",
+    "name": "Ornith-1.5-9B-heretic-GGUF",
+    "provider": "Thunder13240",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T07:45:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Thunder13240/Ornith-1.5-9B-heretic-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "imatrix",
+      "quantized",
+      "abliterated",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-29T00:12:52.061782+00:00",
+    "source_ids": [
+      "Thunder13240/Ornith-1.5-9B-heretic-GGUF"
+    ],
+    "family": "Ornith-1.5-heretic"
   }
 ]
