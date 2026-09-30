@@ -198,6 +198,40 @@
     "family": "Claude Sonnet 5.5 (batch)"
   },
   {
+    "id": "huggingface:Noctaluna/Noct-Q-Anime-Uncensored-Qwen-Image-2.1",
+    "name": "Noct-Q-Anime-Uncensored-Qwen-Image-2.1",
+    "provider": "Noctaluna",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-28T14:47:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Noctaluna/Noct-Q-Anime-Uncensored-Qwen-Image-2.1",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "text-to-image",
+      "qwen-image",
+      "comfyui",
+      "int8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-30T14:39:38.143679+00:00",
+    "source_ids": [
+      "Noctaluna/Noct-Q-Anime-Uncensored-Qwen-Image-2.1"
+    ],
+    "family": "Noct-Q-Anime-Uncensored-Qwen-Image-2.1"
+  },
+  {
     "id": "huggingface:QuantFunc/Minimax-H3-Quantfunc-4bit",
     "name": "Minimax-H3-Quantfunc-4bit",
     "provider": "QuantFunc",
@@ -230,6 +264,74 @@
       "QuantFunc/Minimax-H3-Quantfunc-4bit"
     ],
     "family": "Minimax-H3-Quantfunc-4bit"
+  },
+  {
+    "id": "huggingface:LLiserginov/Luqwen5-4B",
+    "name": "Luqwen5-4B",
+    "provider": "LLiserginov",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-28T13:55:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LLiserginov/Luqwen5-4B",
+    "tags": [
+      "text-generation",
+      "peft",
+      "gguf",
+      "qwen",
+      "qwen3.5",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-30T14:39:38.050835+00:00",
+    "source_ids": [
+      "LLiserginov/Luqwen5-4B"
+    ],
+    "family": "Luqwen5"
+  },
+  {
+    "id": "huggingface:ggml-org/MiMo-V2.6-Flash-MOPD-GGUF",
+    "name": "MiMo-V2.6-Flash-MOPD-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-28T07:59:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/MiMo-V2.6-Flash-MOPD-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "image-text-to-text",
+      "base_model:XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
+      "base_model:quantized:XiaomiMiMo/MiMo-V2.6-Flash-MOPD"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-30T14:39:38.644448+00:00",
+    "source_ids": [
+      "ggml-org/MiMo-V2.6-Flash-MOPD-GGUF"
+    ],
+    "family": "MiMo-V2.6-Flash-MOPD"
   },
   {
     "id": "huggingface:ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
@@ -1433,6 +1535,39 @@
       "KlangAI/pianissimo-sv"
     ],
     "family": "pianissimo-sv"
+  },
+  {
+    "id": "huggingface:matteiuspi/Qwen3.8-Flash-Next-W8A8-DYNAMIC-300i",
+    "name": "Qwen3.8-Flash-Next-W8A8-DYNAMIC-300i",
+    "provider": "matteiuspi",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T04:23:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/matteiuspi/Qwen3.8-Flash-Next-W8A8-DYNAMIC-300i",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "qwen4_exp",
+      "ascend",
+      "ascend-310p",
+      "atlas-300i-duo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-09-30T14:39:38.050769+00:00",
+    "source_ids": [
+      "matteiuspi/Qwen3.8-Flash-Next-W8A8-DYNAMIC-300i"
+    ],
+    "family": "Qwen3.8-Flash-Next-W8A8-DYNAMIC-300i"
   },
   {
     "id": "huggingface:IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
