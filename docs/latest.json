@@ -1,5 +1,31 @@
 [
   {
+    "id": "openrouter:apodex/apodex-1.1-mini:free",
+    "name": "Apodex: Apodex 1.1 Mini (free)",
+    "provider": "apodex",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-01T17:22:15+00:00",
+    "context_length": 262144,
+    "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+    "url": "https://openrouter.ai/apodex/apodex-1.1-mini:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:34.143237+00:00",
+    "source_ids": [
+      "apodex/apodex-1.1-mini:free"
+    ],
+    "family": "Apodex 1.1 Mini"
+  },
+  {
     "id": "openrouter:unbiased/pareto-26.10-preview",
     "name": "Pareto 26.10 Preview",
     "provider": "unbiased",
@@ -227,6 +253,74 @@
       "anthropic/claude-sonnet-5.5:batch"
     ],
     "family": "Claude Sonnet 5.5 (batch)"
+  },
+  {
+    "id": "huggingface:QuantFunc/Qwen-Image-2.1-4bit",
+    "name": "Qwen-Image-2.1-4bit",
+    "provider": "QuantFunc",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-28T17:17:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/QuantFunc/Qwen-Image-2.1-4bit",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "custom_qwen_image",
+      "image-generation",
+      "text-to-image",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:34.422118+00:00",
+    "source_ids": [
+      "QuantFunc/Qwen-Image-2.1-4bit"
+    ],
+    "family": "Qwen-Image-2.1-4bit"
+  },
+  {
+    "id": "huggingface:QuantFunc/Krea-2-QuantFunc-4bit",
+    "name": "Krea-2-QuantFunc-4bit",
+    "provider": "QuantFunc",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-28T16:14:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/QuantFunc/Krea-2-QuantFunc-4bit",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "custom_krea2",
+      "text-to-image",
+      "image-generation",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:34.422067+00:00",
+    "source_ids": [
+      "QuantFunc/Krea-2-QuantFunc-4bit"
+    ],
+    "family": "Krea-2-QuantFunc-4bit"
   },
   {
     "id": "huggingface:Noctaluna/Noct-Q-Anime-Uncensored-Qwen-Image-2.1",
@@ -6311,6 +6405,39 @@
     "family": "DeepSeek-V4.1-Flash-4bit-paged"
   },
   {
+    "id": "huggingface:AndrewThompson1233/maba-v1.5-exp-architecture",
+    "name": "maba-v1.5-exp-architecture",
+    "provider": "AndrewThompson1233",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-13T18:36:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AndrewThompson1233/maba-v1.5-exp-architecture",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "maba_sparse",
+      "text-generation",
+      "maba",
+      "maba-v1.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:34.296094+00:00",
+    "source_ids": [
+      "AndrewThompson1233/maba-v1.5-exp-architecture"
+    ],
+    "family": "maba-v1.5-exp-architecture"
+  },
+  {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Final-GGUF",
     "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Final-GGUF",
     "provider": "LuffyTheFox",
@@ -6920,6 +7047,39 @@
       "ukisai/Swift-Qwen3.8-27B-NVFP4"
     ],
     "family": "Swift-Qwen3.8-NVFP4"
+  },
+  {
+    "id": "huggingface:AndrewThompson1233/maba-v1-101m-test",
+    "name": "maba-v1-101m-test",
+    "provider": "AndrewThompson1233",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-12T16:54:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AndrewThompson1233/maba-v1-101m-test",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "maba",
+      "maba-v1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:34.296121+00:00",
+    "source_ids": [
+      "AndrewThompson1233/maba-v1-101m-test"
+    ],
+    "family": "maba-v1-101m-test"
   },
   {
     "id": "huggingface:bartowski/Nex-N2.5-Pro-GGUF",
@@ -13401,39 +13561,6 @@
     "family": "MiniCPM5-Midtrain"
   },
   {
-    "id": "huggingface:ishikaa/acquisition_student_AS_confidence_numina_qwen7b",
-    "name": "acquisition_student_AS_confidence_numina_qwen7b",
-    "provider": "ishikaa",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-01T01:28:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ishikaa/acquisition_student_AS_confidence_numina_qwen7b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "trl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-01T16:09:12.046016+00:00",
-    "source_ids": [
-      "ishikaa/acquisition_student_AS_confidence_numina_qwen7b"
-    ],
-    "family": "acquisition_student_AS_confidence_numina_qwen"
-  },
-  {
     "id": "huggingface:peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
     "name": "Cyber-Tiel-Coder-35B-A3B-MLX-oQ6e-MTP",
     "provider": "peculiar-ragdoll",
@@ -13535,35 +13662,6 @@
       "Prannesshkva/QU-SSM-130M-MoE"
     ],
     "family": "QU-SSM-130M-MoE"
-  },
-  {
-    "id": "openrouter:inception/mercury-2.5-preview",
-    "name": "Inception: Mercury 2.5 Preview",
-    "provider": "Inception",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-31T20:57:44+00:00",
-    "context_length": 260000,
-    "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
-    "url": "https://openrouter.ai/inception/mercury-2.5-preview",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.04,
-      "completion_per_million": 0.15
-    },
-    "first_seen": "2026-09-01T16:09:11.893353+00:00",
-    "source_ids": [
-      "inception/mercury-2.5-preview"
-    ],
-    "family": "Mercury 2.5"
   },
   {
     "id": "huggingface:Prannesshkva/QU-SSM-60M-MoE",
@@ -15488,6 +15586,41 @@
     "family": "MiniCPM5"
   },
   {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-oQ2-MTP",
+    "name": "Qwen3.8-Flash-Next-MLX-oQ2-MTP",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T09:11:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-oQ2-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091204+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-oQ2-MTP"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-oQ2-MTP"
+  },
+  {
     "id": "huggingface:Youssofal/Qwen3.8-Flash-Next-MTPLX-Bare-Speed",
     "name": "Qwen3.8-Flash-Next-MTPLX-Bare-Speed",
     "provider": "Youssofal",
@@ -15826,6 +15959,41 @@
     "family": "Qwen3.8-Flash-Next-ROCmFP4-STRIX"
   },
   {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-oQ3-MTP",
+    "name": "Qwen3.8-Flash-Next-MLX-oQ3-MTP",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T22:02:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-oQ3-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091188+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-oQ3-MTP"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-oQ3-MTP"
+  },
+  {
     "id": "huggingface:kingjones777/Qwen3.8-Flash-Next-ROCmFP4-FAST-GGUF",
     "name": "Qwen3.8-Flash-Next-ROCmFP4-FAST-GGUF",
     "provider": "kingjones777",
@@ -15995,6 +16163,111 @@
     "family": "Qwen3.8-Flash-Next-W4A16"
   },
   {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-8bit-MTP",
+    "name": "Qwen3.8-Flash-Next-MLX-8bit-MTP",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T19:13:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-8bit-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091235+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-8bit-MTP"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-8bit-MTP"
+  },
+  {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-4bit-MTP",
+    "name": "Qwen3.8-Flash-Next-MLX-4bit-MTP",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T18:33:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-4bit-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091252+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-4bit-MTP"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-4bit-MTP"
+  },
+  {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-oQ8-MTP",
+    "name": "Qwen3.8-Flash-Next-MLX-oQ8-MTP",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T17:11:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-oQ8-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091153+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-oQ8-MTP"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-oQ8-MTP"
+  },
+  {
     "id": "huggingface:primitive-ai/Qwen3.8-Flash-Next-NVFP4",
     "name": "Qwen3.8-Flash-Next-NVFP4",
     "provider": "primitive-ai",
@@ -16030,6 +16303,76 @@
     "family": "Qwen3.8-Flash-Next-NVFP4"
   },
   {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-oQ4-MTP",
+    "name": "Qwen3.8-Flash-Next-MLX-oQ4-MTP",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T16:23:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-oQ4-MTP",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091171+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-oQ4-MTP"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-oQ4-MTP"
+  },
+  {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-oQ2",
+    "name": "Qwen3.8-Flash-Next-MLX-oQ2",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T13:11:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-oQ2",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091220+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-oQ2"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-oQ2"
+  },
+  {
     "id": "huggingface:takanori-ishikawa/DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF",
     "name": "DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF",
     "provider": "takanori-ishikawa",
@@ -16061,6 +16404,41 @@
       "takanori-ishikawa/DeepSeek-V4-Flash-0731-Pruned-155B-A13B-GGUF"
     ],
     "family": "DeepSeek-V4-Flash-0731-Pruned"
+  },
+  {
+    "id": "huggingface:TensorFold/Qwen3.8-Flash-Next-MLX-4bit",
+    "name": "Qwen3.8-Flash-Next-MLX-4bit",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T12:51:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-Flash-Next-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091267+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-Flash-Next-MLX-4bit"
+    ],
+    "family": "Qwen3.8-Flash-Next-MLX-4bit"
   },
   {
     "id": "huggingface:smshahbaj/Qwen-Nano-0.5B",
@@ -16984,40 +17362,6 @@
       "QUASAR-QAT/Qwen3.8-27B-QUASAR-NVFP4"
     ],
     "family": "Qwen3.8-QUASAR-NVFP4"
-  },
-  {
-    "id": "huggingface:FastVideo/FastVideo-Minimax-FastH3-Preview-v0.2",
-    "name": "FastVideo-Minimax-FastH3-Preview-v0.2",
-    "provider": "FastVideo",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-08-23T04:46:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FastVideo/FastVideo-Minimax-FastH3-Preview-v0.2",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "safetensors",
-      "text-to-video",
-      "video",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-01T16:09:12.212141+00:00",
-    "source_ids": [
-      "FastVideo/FastVideo-Minimax-FastH3-Preview-v0.2"
-    ],
-    "family": "FastVideo-Minimax-FastH3--v0.2"
   },
   {
     "id": "huggingface:al20312/124M-ChatML-Final",
@@ -19393,6 +19737,41 @@
     "family": "Qwen3.8"
   },
   {
+    "id": "huggingface:TensorFold/Qwen3.8-27B-MLX-4bit",
+    "name": "Qwen3.8-27B-MLX-4bit",
+    "provider": "TensorFold",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T15:04:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TensorFold/Qwen3.8-27B-MLX-4bit",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "mlx-vlm",
+      "omlx"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T20:49:35.091289+00:00",
+    "source_ids": [
+      "TensorFold/Qwen3.8-27B-MLX-4bit"
+    ],
+    "family": "Qwen3.8-MLX-4bit"
+  },
+  {
     "id": "huggingface:arjhinety/onebee-gf-sft-v0",
     "name": "onebee-gf-sft-v0",
     "provider": "arjhinety",
@@ -20684,39 +21063,6 @@
     "family": "paprika-whisper-lt"
   },
   {
-    "id": "huggingface:fastino/Fastino-Nemotron-3.5-Lightning-Finance",
-    "name": "Fastino-Nemotron-3.5-Lightning-Finance",
-    "provider": "fastino",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-06T08:52:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/fastino/Fastino-Nemotron-3.5-Lightning-Finance",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "finance"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-01T16:09:12.045933+00:00",
-    "source_ids": [
-      "fastino/Fastino-Nemotron-3.5-Lightning-Finance"
-    ],
-    "family": "Fastino-Nemotron-3.5-Lightning-Finance"
-  },
-  {
     "id": "huggingface:prithivMLmods/Qwen3.5-9B-DS-v4-Flash-v3.0-FP8",
     "name": "Qwen3.5-9B-DS-v4-Flash-v3.0-FP8",
     "provider": "prithivMLmods",
@@ -20883,73 +21229,6 @@
       "SexGod1979/PinkCherry_MiniMax-H3"
     ],
     "family": "PinkCherry_MiniMax-H3"
-  },
-  {
-    "id": "huggingface:ibm-granite/granite-speech-5.0-470m-turboctc",
-    "name": "granite-speech-5.0-470m-turboctc",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-04T14:07:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "granite_speech5_ctc",
-      "automatic-speech-recognition",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-01T16:09:12.400937+00:00",
-    "source_ids": [
-      "ibm-granite/granite-speech-5.0-470m-turboctc"
-    ],
-    "family": "granite-speech-5.0-470m-turboctc"
-  },
-  {
-    "id": "huggingface:webAI-Official/TwIL-LM3",
-    "name": "TwIL-LM3",
-    "provider": "webAI-Official",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-03T20:53:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/webAI-Official/TwIL-LM3",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "smollm3",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-01T16:09:12.045865+00:00",
-    "source_ids": [
-      "webAI-Official/TwIL-LM3"
-    ],
-    "family": "TwIL-LM3"
   },
   {
     "id": "huggingface:AmericanoLatte/Lorin_Krea_Lora",
@@ -21357,39 +21636,6 @@
     "family": "Apertus-v1.5"
   },
   {
-    "id": "huggingface:farbodtavakkoli/OTel-2.0-LLM-31B-IT",
-    "name": "OTel-2.0-LLM-31B-IT",
-    "provider": "farbodtavakkoli",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-23T11:27:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "telecom"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-01T16:09:12.046059+00:00",
-    "source_ids": [
-      "farbodtavakkoli/OTel-2.0-LLM-31B-IT"
-    ],
-    "family": "OTel-2.0-LLM-IT"
-  },
-  {
     "id": "huggingface:nvidia/DeepSeek-V4-Pro-nvfp4-DSpark",
     "name": "DeepSeek-V4-Pro-nvfp4-DSpark",
     "provider": "NVIDIA",
@@ -21724,41 +21970,6 @@
       "Alibaba-DAMO-Academy/RynnBrain1.1-2B"
     ],
     "family": "RynnBrain1.1"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T06:40:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "hermes",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-01T16:09:12.468903+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V12-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-Genesis-Hermes-V12"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V13-GGUF",
