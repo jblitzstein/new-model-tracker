@@ -158102,5 +158102,347 @@
       "mobilint/Qwen2-VL-2B-Instruct"
     ],
     "family": "Qwen2-VL"
+  },
+  {
+    "id": "openrouter:unbiased/pareto-26.10-preview",
+    "name": "Pareto 26.10 Preview",
+    "provider": "unbiased",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-01T14:07:03+00:00",
+    "context_length": 1048576,
+    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
+    "url": "https://openrouter.ai/unbiased/pareto-26.10-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.8,
+      "completion_per_million": 3.2
+    },
+    "first_seen": "2026-10-01T15:08:20.954618+00:00",
+    "source_ids": [
+      "unbiased/pareto-26.10-preview"
+    ],
+    "family": "Pareto 26.10"
+  },
+  {
+    "id": "huggingface:yimn-Aghosh/zegrate-ai",
+    "name": "zegrate-ai",
+    "provider": "yimn-Aghosh",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-05T11:57:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/yimn-Aghosh/zegrate-ai",
+    "tags": [
+      "text-generation",
+      "peft",
+      "safetensors",
+      "qwen2",
+      "zegrate",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:21.126156+00:00",
+    "source_ids": [
+      "yimn-Aghosh/zegrate-ai"
+    ],
+    "family": "zegrate-ai"
+  },
+  {
+    "id": "huggingface:iliasaz/chatterbox-nano-coreml",
+    "name": "chatterbox-nano-coreml",
+    "provider": "iliasaz",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-11T23:37:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/iliasaz/chatterbox-nano-coreml",
+    "tags": [
+      "text-to-speech",
+      "coreml",
+      "text-to-speech",
+      "apple-neural-engine",
+      "chatterbox",
+      "base_model:ResembleAI/chatterbox-nano"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:21.746463+00:00",
+    "source_ids": [
+      "iliasaz/chatterbox-nano-coreml"
+    ],
+    "family": "chatterbox-nano-coreml"
+  },
+  {
+    "id": "huggingface:FermionResearch/Phonon-2",
+    "name": "Phonon-2",
+    "provider": "FermionResearch",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-28T11:48:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/FermionResearch/Phonon-2",
+    "tags": [
+      "automatic-speech-recognition",
+      "mlx",
+      "parakeet_tdt_five_value",
+      "apple-silicon",
+      "speech-to-text",
+      "asr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:21.894894+00:00",
+    "source_ids": [
+      "FermionResearch/Phonon-2"
+    ],
+    "family": "Phonon-2"
+  },
+  {
+    "id": "huggingface:ukisai/Swift-1.5-Qwen3.8-27B-GGUF",
+    "name": "Swift-1.5-Qwen3.8-27B-GGUF",
+    "provider": "ukisai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T21:24:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen3_8",
+      "reasoning",
+      "efficient-thinking"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:22.017933+00:00",
+    "source_ids": [
+      "ukisai/Swift-1.5-Qwen3.8-27B-GGUF"
+    ],
+    "family": "Swift-1.5-Qwen3.8"
+  },
+  {
+    "id": "huggingface:d0xin/Swift-Qwen3.8-27B-Uncensored-NVFP4-LocalHessian-ActivationHeadroom-NInfer",
+    "name": "Swift-Qwen3.8-27B-Uncensored-NVFP4-LocalHessian-ActivationHeadroom-NInfer",
+    "provider": "d0xin",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T00:21:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/d0xin/Swift-Qwen3.8-27B-Uncensored-NVFP4-LocalHessian-ActivationHeadroom-NInfer",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "qwen3.8",
+      "swift",
+      "uncensored",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:22.017999+00:00",
+    "source_ids": [
+      "d0xin/Swift-Qwen3.8-27B-Uncensored-NVFP4-LocalHessian-ActivationHeadroom-NInfer"
+    ],
+    "family": "Swift-Qwen3.8-Uncensored-NVFP4-LocalHessian-ActivationHeadroom-NInfer"
+  },
+  {
+    "id": "huggingface:d0xin/Swift-Qwen3.8-27B-Uncensored-FP8",
+    "name": "Swift-Qwen3.8-27B-Uncensored-FP8",
+    "provider": "d0xin",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-14T14:53:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/d0xin/Swift-Qwen3.8-27B-Uncensored-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3_8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:22.018057+00:00",
+    "source_ids": [
+      "d0xin/Swift-Qwen3.8-27B-Uncensored-FP8"
+    ],
+    "family": "Swift-Qwen3.8-Uncensored-FP8"
+  },
+  {
+    "id": "huggingface:d0xin/Swift-Qwen3.8-27B-FP8",
+    "name": "Swift-Qwen3.8-27B-FP8",
+    "provider": "d0xin",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-13T14:45:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/d0xin/Swift-Qwen3.8-27B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3_8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:22.018092+00:00",
+    "source_ids": [
+      "d0xin/Swift-Qwen3.8-27B-FP8"
+    ],
+    "family": "Swift-Qwen3.8-FP8"
+  },
+  {
+    "id": "huggingface:SpaceTimee/Suri-Qwen-3.8-27B-Uncensored-GGUF",
+    "name": "Suri-Qwen-3.8-27B-Uncensored-GGUF",
+    "provider": "SpaceTimee",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T02:41:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SpaceTimee/Suri-Qwen-3.8-27B-Uncensored-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "suri",
+      "qwen",
+      "27B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:22.018130+00:00",
+    "source_ids": [
+      "SpaceTimee/Suri-Qwen-3.8-27B-Uncensored-GGUF"
+    ],
+    "family": "Suri-Qwen-3.8-Uncensored"
+  },
+  {
+    "id": "huggingface:huihui-ai/Huihui-GLM-5.3-Flash-abliterated-GGUF",
+    "name": "Huihui-GLM-5.3-Flash-abliterated-GGUF",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-26T04:52:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-GLM-5.3-Flash-abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "huihui"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-01T15:08:22.018167+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-GLM-5.3-Flash-abliterated-GGUF"
+    ],
+    "family": "Huihui-GLM-5.3-Flash-abliterated"
   }
 ]
