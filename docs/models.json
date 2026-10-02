@@ -159773,5 +159773,100 @@
       "OpenVINO/Muse-Glimmer-30B-int4-ov"
     ],
     "family": "Muse-Glimmer-int4-ov"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T14:07:04+00:00",
+    "context_length": 262144,
+    "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
+    "url": "https://openrouter.ai/inclusionai/ling-3.1-flash",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-10-02T20:22:48.996706+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.1-flash"
+    ],
+    "family": "Ling 3.1 Flash"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-speech-5.0-470m-turboctc-nc",
+    "name": "granite-speech-5.0-470m-turboctc-nc",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T17:29:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc-nc",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "granite_speech5_ctc",
+      "automatic-speech-recognition",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T20:22:49.854733+00:00",
+    "source_ids": [
+      "ibm-granite/granite-speech-5.0-470m-turboctc-nc"
+    ],
+    "family": "granite-speech-5.0-470m-turboctc-nc"
+  },
+  {
+    "id": "huggingface:Accio-Lab/occamy-1.0-NVFP4",
+    "name": "occamy-1.0-NVFP4",
+    "provider": "Accio-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T20:06:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Accio-Lab/occamy-1.0-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "4-bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T20:22:49.976106+00:00",
+    "source_ids": [
+      "Accio-Lab/occamy-1.0-NVFP4"
+    ],
+    "family": "occamy-1.0-NVFP4"
   }
 ]
