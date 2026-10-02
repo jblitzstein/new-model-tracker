@@ -91,6 +91,41 @@
     "family": "Pareto 26.10"
   },
   {
+    "id": "huggingface:autotrust/JEV-27B-VL",
+    "name": "JEV-27B-VL",
+    "provider": "autotrust",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-30T05:02:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "jev"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T14:29:19.415235+00:00",
+    "source_ids": [
+      "autotrust/JEV-27B-VL"
+    ],
+    "family": "JEV-VL"
+  },
+  {
     "id": "openrouter:openai/gpt-6.1-sol-pro",
     "name": "OpenAI: GPT-6.1 Sol Pro",
     "provider": "OpenAI",
@@ -975,6 +1010,40 @@
       "perceptron/perceptron-mk1.5"
     ],
     "family": "Perceptron Mk1.5"
+  },
+  {
+    "id": "huggingface:Abiray/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-GGUF",
+    "name": "Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-GGUF",
+    "provider": "Abiray",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-25T14:31:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Abiray/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "image-to-image",
+      "comfyui",
+      "distilled"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T14:29:18.578051+00:00",
+    "source_ids": [
+      "Abiray/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-GGUF"
+    ],
+    "family": "Qwen-Image-2.1-viggle-turbo-v0.2.1-6step"
   },
   {
     "id": "huggingface:nkkbr/Mini-K3-1H-llama-mha-standard-v1",
@@ -7182,6 +7251,41 @@
     "family": "maba-v1-101m-test"
   },
   {
+    "id": "huggingface:igorls/Qwen3.8-27B-Uncensored-NVFP4-NInfer",
+    "name": "Qwen3.8-27B-Uncensored-NVFP4-NInfer",
+    "provider": "igorls",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-12T16:18:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/igorls/Qwen3.8-27B-Uncensored-NVFP4-NInfer",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "qwen3.8",
+      "uncensored",
+      "abliterated",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T14:29:19.415153+00:00",
+    "source_ids": [
+      "igorls/Qwen3.8-27B-Uncensored-NVFP4-NInfer"
+    ],
+    "family": "Qwen3.8-Uncensored-NVFP4-NInfer"
+  },
+  {
     "id": "huggingface:bartowski/Nex-N2.5-Pro-GGUF",
     "name": "Nex-N2.5-Pro-GGUF",
     "provider": "bartowski",
@@ -10557,6 +10661,39 @@
     "family": "Qwen3.5-KETI-HAECHI-i1"
   },
   {
+    "id": "huggingface:Justvugg/GLM-5.3-colibri-int4-g64",
+    "name": "GLM-5.3-colibri-int4-g64",
+    "provider": "Justvugg",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-06T00:27:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Justvugg/GLM-5.3-colibri-int4-g64",
+    "tags": [
+      "text-generation",
+      "colibri",
+      "glm_moe_dsa",
+      "moe",
+      "int4",
+      "cpu"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T14:29:18.419330+00:00",
+    "source_ids": [
+      "Justvugg/GLM-5.3-colibri-int4-g64"
+    ],
+    "family": "GLM-5.3-colibri-int4-g64"
+  },
+  {
     "id": "huggingface:stornic56/Spark-X2.5-4B-GGUF",
     "name": "Spark-X2.5-4B-GGUF",
     "provider": "stornic56",
@@ -13523,39 +13660,6 @@
       "Wiself/Voice"
     ],
     "family": "Voice"
-  },
-  {
-    "id": "openrouter:anthropic/claude-fable-5.1:batch",
-    "name": "Anthropic: Claude Fable 5.1 (batch)",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-01T18:03:58+00:00",
-    "context_length": 1000000,
-    "description": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
-    "url": "https://openrouter.ai/anthropic/claude-fable-5.1:batch",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 5.0,
-      "completion_per_million": 25.0
-    },
-    "first_seen": "2026-09-02T08:27:10.062752+00:00",
-    "source_ids": [
-      "anthropic/claude-fable-5.1:batch"
-    ],
-    "family": "Claude Fable 5.1 (batch)"
   },
   {
     "id": "huggingface:gpillon/Qwen3.8-27B-nvfp4full-dflash2-NInfer",
@@ -19331,39 +19435,6 @@
     "family": "Qwen3.8-AEON-Ultimate-Uncensored-Multimodal-MLX-6bit"
   },
   {
-    "id": "huggingface:ankushthakurr09/MimansM1_v1",
-    "name": "MimansM1_v1",
-    "provider": "ankushthakurr09",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-17T14:54:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ankushthakurr09/MimansM1_v1",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "mimans",
-      "code",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-02T08:27:10.207704+00:00",
-    "source_ids": [
-      "ankushthakurr09/MimansM1_v1"
-    ],
-    "family": "MimansM1_v1"
-  },
-  {
     "id": "huggingface:textclf/Qwen3.8-27B-TQ-4bit",
     "name": "Qwen3.8-27B-TQ-4bit",
     "provider": "textclf",
@@ -20761,6 +20832,41 @@
       "litert-community/LFM2.5-VL-450M"
     ],
     "family": "LFM2.5-VL-450M"
+  },
+  {
+    "id": "huggingface:OpenVINO/Muse-Glimmer-30B-int4-ov",
+    "name": "Muse-Glimmer-30B-int4-ov",
+    "provider": "OpenVINO",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T19:21:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenVINO/Muse-Glimmer-30B-int4-ov",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "openvino",
+      "muse_glimmer",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T14:29:19.415298+00:00",
+    "source_ids": [
+      "OpenVINO/Muse-Glimmer-30B-int4-ov"
+    ],
+    "family": "Muse-Glimmer-int4-ov"
   },
   {
     "id": "huggingface:episod/tt-tnt",
@@ -25605,41 +25711,6 @@
     "family": "MediX-R1"
   },
   {
-    "id": "huggingface:Vishva007/Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ",
-    "name": "Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ",
-    "provider": "Vishva007",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-02-07T18:35:27.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Vishva007/Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_vl",
-      "image-text-to-text",
-      "awq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-02T08:27:10.602112+00:00",
-    "source_ids": [
-      "Vishva007/Qwen3-VL-8B-Instruct-W4A16-AutoRound-AWQ"
-    ],
-    "family": "Qwen3-VL--W4A16-AutoRound"
-  },
-  {
     "id": "huggingface:Quiho/best-from-civitai",
     "name": "best-from-civitai",
     "provider": "Quiho",
@@ -25976,6 +26047,40 @@
       "krea/krea-realtime-video"
     ],
     "family": "krea-realtime-video"
+  },
+  {
+    "id": "huggingface:mradermacher/Huihui-gemma-3n-E2B-it-abliterated-i1-GGUF",
+    "name": "Huihui-gemma-3n-E2B-it-abliterated-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-06T17:05:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E2B-it-abliterated-i1-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "gguf",
+      "automatic-speech-recognition",
+      "automatic-speech-translation",
+      "audio-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-02T14:29:19.269806+00:00",
+    "source_ids": [
+      "mradermacher/Huihui-gemma-3n-E2B-it-abliterated-i1-GGUF"
+    ],
+    "family": "Huihui-gemma-3n-E-it-abliterated-i1"
   },
   {
     "id": "huggingface:mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF",
