@@ -159868,5 +159868,202 @@
       "Accio-Lab/occamy-1.0-NVFP4"
     ],
     "family": "occamy-1.0-NVFP4"
+  },
+  {
+    "id": "openrouter:nvidia/switchyard",
+    "name": "NVIDIA: Switchyard",
+    "provider": "NVIDIA",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T21:25:47+00:00",
+    "context_length": 1000000,
+    "description": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular...",
+    "url": "https://openrouter.ai/nvidia/switchyard",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": -1000000.0,
+      "completion_per_million": -1000000.0
+    },
+    "first_seen": "2026-10-03T04:04:44.497931+00:00",
+    "source_ids": [
+      "nvidia/switchyard"
+    ],
+    "family": "Switchyard"
+  },
+  {
+    "id": "huggingface:BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
+    "name": "orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
+    "provider": "BoldingBuilds",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T13:53:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "uncensored",
+      "abliterated",
+      "moe",
+      "glm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T04:04:44.652159+00:00",
+    "source_ids": [
+      "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF"
+    ],
+    "family": "orcarouter_GLM-5.3-Flash-Uncensored"
+  },
+  {
+    "id": "huggingface:jialinyyzz/humanizer",
+    "name": "humanizer",
+    "provider": "jialinyyzz",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T05:00:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jialinyyzz/humanizer",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gemma4_unified",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T04:04:44.652241+00:00",
+    "source_ids": [
+      "jialinyyzz/humanizer"
+    ],
+    "family": "humanizer"
+  },
+  {
+    "id": "huggingface:handy-computer/canary-1b-gguf",
+    "name": "canary-1b-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T12:03:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/canary-1b-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "canary"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T04:04:45.359338+00:00",
+    "source_ids": [
+      "handy-computer/canary-1b-gguf"
+    ],
+    "family": "canary"
+  },
+  {
+    "id": "huggingface:handy-computer/canary-1b-flash-gguf",
+    "name": "canary-1b-flash-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T10:29:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/canary-1b-flash-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "canary"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T04:04:45.359392+00:00",
+    "source_ids": [
+      "handy-computer/canary-1b-flash-gguf"
+    ],
+    "family": "canary-flash"
+  },
+  {
+    "id": "huggingface:handy-computer/canary-180m-flash-gguf",
+    "name": "canary-180m-flash-gguf",
+    "provider": "handy-computer",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-08T10:28:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/handy-computer/canary-180m-flash-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "transcribe.cpp",
+      "gguf",
+      "asr",
+      "speech-to-text",
+      "canary"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T04:04:45.359425+00:00",
+    "source_ids": [
+      "handy-computer/canary-180m-flash-gguf"
+    ],
+    "family": "canary-180m-flash"
   }
 ]
