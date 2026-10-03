@@ -525,6 +525,41 @@
     "family": "GPT-6.1 Sol (batch)"
   },
   {
+    "id": "huggingface:jegreene/Swift-1.5-Qwen3.8-27B-heretic-GSQ-RCO-GGUF",
+    "name": "Swift-1.5-Qwen3.8-27B-heretic-GSQ-RCO-GGUF",
+    "provider": "jegreene",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T13:29:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jegreene/Swift-1.5-Qwen3.8-27B-heretic-GSQ-RCO-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "heretic",
+      "abliterated",
+      "uncensored"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T22:42:30.289469+00:00",
+    "source_ids": [
+      "jegreene/Swift-1.5-Qwen3.8-27B-heretic-GSQ-RCO-GGUF"
+    ],
+    "family": "Swift-1.5-Qwen3.8-heretic-GSQ-RCO"
+  },
+  {
     "id": "openrouter:anthropic/claude-sonnet-5.5",
     "name": "Anthropic: Claude Sonnet 5.5",
     "provider": "Anthropic",
@@ -5994,6 +6029,41 @@
       "Frankenstein-Labs/Cortex-ai"
     ],
     "family": "Cortex-ai"
+  },
+  {
+    "id": "huggingface:ukisai/Swift-1.5-Qwen3.8-27b",
+    "name": "Swift-1.5-Qwen3.8-27b",
+    "provider": "ukisai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-16T14:25:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3_8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T22:42:30.289583+00:00",
+    "source_ids": [
+      "ukisai/Swift-1.5-Qwen3.8-27b"
+    ],
+    "family": "Swift-1.5-Qwen3.8"
   },
   {
     "id": "huggingface:XingChen-AGI/Xing4.0-29B-A4B-GGUF",
@@ -12435,6 +12505,39 @@
     "family": "tinygemma-10m"
   },
   {
+    "id": "huggingface:IFM/K2-Horizon-MoVA-36B-A4B-FP8",
+    "name": "K2-Horizon-MoVA-36B-A4B-FP8",
+    "provider": "IFM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-03T13:46:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "k2_horizon",
+      "text-generation",
+      "k2-horizon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T22:42:29.407170+00:00",
+    "source_ids": [
+      "IFM/K2-Horizon-MoVA-36B-A4B-FP8"
+    ],
+    "family": "K2-Horizon-MoVA-FP8"
+  },
+  {
     "id": "huggingface:hsanyyasyn97gmail/cosmos-v2",
     "name": "cosmos-v2",
     "provider": "hsanyyasyn97gmail",
@@ -12665,6 +12768,39 @@
       "DogContext/GLM-5.3-Flash-Uncensored-Q2-ds4"
     ],
     "family": "GLM-5.3-Flash-Uncensored-Q2-ds4"
+  },
+  {
+    "id": "huggingface:IFM/K2-Horizon-7B-FP8",
+    "name": "K2-Horizon-7B-FP8",
+    "provider": "IFM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-03T07:00:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IFM/K2-Horizon-7B-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "k2_horizon",
+      "text-generation",
+      "fp8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-03T22:42:29.407132+00:00",
+    "source_ids": [
+      "IFM/K2-Horizon-7B-FP8"
+    ],
+    "family": "K2-Horizon-FP8"
   },
   {
     "id": "huggingface:nerkyor/Qwen3.8-27B-EfficientThink-Uncensored-K3-Opus5-Grok4.6-GPT5.6Sol-SFT-SimPO-DFlash2",
@@ -15776,36 +15912,6 @@
       "siraxe/H3_slider_experiments"
     ],
     "family": "H3_slider_experiments"
-  },
-  {
-    "id": "openrouter:inclusionai/ling-3.0-flash-fin",
-    "name": "Ling 3.0 Flash Fin",
-    "provider": "inclusionai",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-27T15:58:10+00:00",
-    "context_length": 262144,
-    "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
-    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.06,
-      "completion_per_million": 0.18
-    },
-    "first_seen": "2026-09-03T19:07:59.497080+00:00",
-    "source_ids": [
-      "inclusionAI/Ling-3.0-flash-Fin",
-      "inclusionai/ling-3.0-flash-fin"
-    ],
-    "family": "Ling 3.0 Flash Fin"
   },
   {
     "id": "huggingface:orcarouter/Qwen3.8-Flash-Next-Uncensored-NVFP4",
@@ -19314,39 +19420,6 @@
     "family": "parakeet-primeline"
   },
   {
-    "id": "huggingface:TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3.1bpw",
-    "name": "Qwen3.5-397B-A17B-VQ-3.1bpw",
-    "provider": "TheDrainFlorist",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-16T23:42:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3.1bpw",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "quantized",
-      "vector-quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-03T19:07:59.656202+00:00",
-    "source_ids": [
-      "TheDrainFlorist/Qwen3.5-397B-A17B-VQ-3.1bpw"
-    ],
-    "family": "Qwen3.5-VQ-3.1bpw"
-  },
-  {
     "id": "huggingface:AMAImedia/NOESIS-Qwopus3.5-9B-Coder-v3.5-BF16",
     "name": "NOESIS-Qwopus3.5-9B-Coder-v3.5-BF16",
     "provider": "AMAImedia",
@@ -20095,105 +20168,6 @@
     "family": "onebee-gf-sft-v0"
   },
   {
-    "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality",
-    "name": "Qwen3.8-27B-MTPLX-Optimized-Quality",
-    "provider": "Youssofal",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T07:33:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "apple-silicon",
-      "macos"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-03T22:20:12.486470+00:00",
-    "source_ids": [
-      "Youssofal/Qwen3.8-27B-MTPLX-Optimized-Quality"
-    ],
-    "family": "Qwen3.8-MTPLX-Optimized-Quality"
-  },
-  {
-    "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed",
-    "name": "Qwen3.8-27B-MTPLX-Optimized-Speed",
-    "provider": "Youssofal",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T07:33:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "apple-silicon",
-      "macos"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-03T22:20:12.486607+00:00",
-    "source_ids": [
-      "Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed"
-    ],
-    "family": "Qwen3.8-MTPLX-Optimized-Speed"
-  },
-  {
-    "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed",
-    "name": "Qwen3.8-27B-MTPLX-Bare-Speed",
-    "provider": "Youssofal",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T06:45:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "apple-silicon",
-      "macos"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-03T22:20:12.486550+00:00",
-    "source_ids": [
-      "Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed"
-    ],
-    "family": "Qwen3.8-MTPLX-Bare-Speed"
-  },
-  {
     "id": "huggingface:StarDoc-AI/TeleOCR",
     "name": "TeleOCR",
     "provider": "StarDoc-AI",
@@ -20916,39 +20890,6 @@
       "NANI-Nithin/Muse-Glimmer-30B-GGUF"
     ],
     "family": "Muse-Glimmer"
-  },
-  {
-    "id": "huggingface:Ttimms/zaya1-8b-nvfp4-w4a4-uniform",
-    "name": "zaya1-8b-nvfp4-w4a4-uniform",
-    "provider": "Ttimms",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-10T03:23:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Ttimms/zaya1-8b-nvfp4-w4a4-uniform",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "zaya",
-      "nvfp4",
-      "fp4",
-      "4-bit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-03T19:07:59.656032+00:00",
-    "source_ids": [
-      "Ttimms/zaya1-8b-nvfp4-w4a4-uniform"
-    ],
-    "family": "zaya1-nvfp4-w4a4-uniform"
   },
   {
     "id": "huggingface:litert-community/LFM2.5-2.6B",
@@ -21790,39 +21731,6 @@
       "litert-community/LFM2.5-1.2B-JP"
     ],
     "family": "LFM2.5-JP"
-  },
-  {
-    "id": "huggingface:Ttimms/zaya1-8b-nvfp4-w4a4",
-    "name": "zaya1-8b-nvfp4-w4a4",
-    "provider": "Ttimms",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-19T07:17:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Ttimms/zaya1-8b-nvfp4-w4a4",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "zaya",
-      "nvfp4",
-      "fp4",
-      "4-bit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-03T19:07:59.656099+00:00",
-    "source_ids": [
-      "Ttimms/zaya1-8b-nvfp4-w4a4"
-    ],
-    "family": "zaya1-nvfp4-w4a4"
   },
   {
     "id": "huggingface:mlx-community/gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit",
