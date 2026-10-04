@@ -5467,6 +5467,39 @@
     "family": "Swift-Qwen3.8-Genesis"
   },
   {
+    "id": "huggingface:Sariel00/mindnano-ling3-compass",
+    "name": "mindnano-ling3-compass",
+    "provider": "Sariel00",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-18T04:33:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Sariel00/mindnano-ling3-compass",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "ling3",
+      "llama.cpp",
+      "kv-cache"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-04T04:37:50.198209+00:00",
+    "source_ids": [
+      "Sariel00/mindnano-ling3-compass"
+    ],
+    "family": "mindnano-ling3-compass"
+  },
+  {
     "id": "huggingface:IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
     "name": "KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
     "provider": "IsValorum",
@@ -18568,6 +18601,74 @@
     "family": "Ornith-1.5-heretic"
   },
   {
+    "id": "huggingface:Green-Eye/Akikawa-3.3-1b-Roleplay-128K-GGUF",
+    "name": "Akikawa-3.3-1b-Roleplay-128K-GGUF",
+    "provider": "Green-Eye",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-20T00:55:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Green-Eye/Akikawa-3.3-1b-Roleplay-128K-GGUF",
+    "tags": [
+      "text-generation",
+      "llama-cpp-python",
+      "safetensors",
+      "gguf",
+      "llama",
+      "llama-cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-04T04:37:50.198246+00:00",
+    "source_ids": [
+      "Green-Eye/Akikawa-3.3-1b-Roleplay-128K-GGUF"
+    ],
+    "family": "Akikawa-3.3-Roleplay-128K"
+  },
+  {
+    "id": "huggingface:iapp/openthai2.0-qwen3.8-27b",
+    "name": "openthai2.0-qwen3.8-27b",
+    "provider": "iapp",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T23:19:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/iapp/openthai2.0-qwen3.8-27b",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "thai",
+      "ocr",
+      "document-understanding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-04T04:37:51.004616+00:00",
+    "source_ids": [
+      "iapp/openthai2.0-qwen3.8-27b"
+    ],
+    "family": "openthai2.0-qwen3.8"
+  },
+  {
     "id": "huggingface:orcarouter/Qwen3.8-27B-Uncensored-INT8",
     "name": "Qwen3.8-27B-Uncensored-INT8",
     "provider": "orcarouter",
@@ -22749,37 +22850,6 @@
     "family": "Voxtral-Small-2507"
   },
   {
-    "id": "openrouter:nvidia/nemotron-3.5-content-safety",
-    "name": "NVIDIA: Nemotron 3.5 Content Safety",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-04T14:04:24+00:00",
-    "context_length": 131072,
-    "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
-    "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.2,
-      "completion_per_million": 0.2
-    },
-    "first_seen": "2026-09-04T03:12:41.800613+00:00",
-    "source_ids": [
-      "nvidia/nemotron-3.5-content-safety"
-    ],
-    "family": "Nemotron 3.5 Content Safety"
-  },
-  {
     "id": "huggingface:handy-computer/Voxtral-Mini-3B-2507-gguf",
     "name": "Voxtral-Mini-3B-2507-gguf",
     "provider": "handy-computer",
@@ -23931,39 +24001,6 @@
       "handy-computer/moonshine-tiny-gguf"
     ],
     "family": "moonshine-tiny"
-  },
-  {
-    "id": "openrouter:x-ai/grok-4.3:batch",
-    "name": "SpaceXAI: Grok 4.3 (batch)",
-    "provider": "xAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-30T23:30:21+00:00",
-    "context_length": 1000000,
-    "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
-    "url": "https://openrouter.ai/x-ai/grok-4.3:batch",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.0,
-      "completion_per_million": 2.0
-    },
-    "first_seen": "2026-09-04T03:12:41.801146+00:00",
-    "source_ids": [
-      "x-ai/grok-4.3:batch"
-    ],
-    "family": "Grok 4.3 (batch)"
   },
   {
     "id": "huggingface:Serveurperso/OmniVoice-GGUF",
