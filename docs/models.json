@@ -162079,5 +162079,203 @@
       "doth4580/Qwen3.8-Flash-Next-EXL3-3.05bpw"
     ],
     "family": "Qwen3.8-Flash-Next-EXL3-3.05bpw"
+  },
+  {
+    "id": "openrouter:google/gemini-nano-banana-2.1",
+    "name": "Google: Nano Banana 2.1",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "image",
+      "text"
+    ],
+    "release_date": "2026-10-06T15:33:45+00:00",
+    "context_length": 65536,
+    "description": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,...",
+    "url": "https://openrouter.ai/google/gemini-nano-banana-2.1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-10-06T17:59:50.457419+00:00",
+    "source_ids": [
+      "google/gemini-nano-banana-2.1"
+    ],
+    "family": "Nano Banana 2.1"
+  },
+  {
+    "id": "openrouter:mistralai/mistral-large-4-0",
+    "name": "Mistral: Mistral Large 4",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T13:42:02+00:00",
+    "context_length": 524288,
+    "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up...",
+    "url": "https://openrouter.ai/mistralai/mistral-large-4-0",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.68,
+      "completion_per_million": 2.09
+    },
+    "first_seen": "2026-10-06T17:59:50.458461+00:00",
+    "source_ids": [
+      "mistralai/mistral-large-4-0"
+    ],
+    "family": "Mistral Large 4"
+  },
+  {
+    "id": "huggingface:Joakimpalm-Zen/Xyntetik-Kvist-14B",
+    "name": "Xyntetik-Kvist-14B",
+    "provider": "Joakimpalm-Zen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-27T22:47:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Joakimpalm-Zen/Xyntetik-Kvist-14B",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "muse_glimmer",
+      "muse-glimmer",
+      "xyntetik-kvist"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-06T17:59:50.672818+00:00",
+    "source_ids": [
+      "Joakimpalm-Zen/Xyntetik-Kvist-14B"
+    ],
+    "family": "Xyntetik-Kvist"
+  },
+  {
+    "id": "huggingface:Joakimpalm-Zen/Xyntetik-Kvist-14B-GGUF",
+    "name": "Xyntetik-Kvist-14B-GGUF",
+    "provider": "Joakimpalm-Zen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-27T22:47:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Joakimpalm-Zen/Xyntetik-Kvist-14B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "muse-glimmer",
+      "xyntetik-kvist",
+      "width-pruning",
+      "distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-06T17:59:50.672850+00:00",
+    "source_ids": [
+      "Joakimpalm-Zen/Xyntetik-Kvist-14B-GGUF"
+    ],
+    "family": "Xyntetik-Kvist"
+  },
+  {
+    "id": "huggingface:genmo/mochi-1-preview",
+    "name": "mochi-1-preview",
+    "provider": "genmo",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2024-10-22T07:36:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/genmo/mochi-1-preview",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "video",
+      "genmo",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-06T17:59:51.104631+00:00",
+    "source_ids": [
+      "genmo/mochi-1-preview"
+    ],
+    "family": "mochi-1"
+  },
+  {
+    "id": "huggingface:halt95/Qwen3.8-Flash-Next-W4A16-Merlin",
+    "name": "Qwen3.8-Flash-Next-W4A16-Merlin",
+    "provider": "halt95",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T10:37:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/halt95/Qwen3.8-Flash-Next-W4A16-Merlin",
+    "tags": [
+      "image-text-to-text",
+      "vllm",
+      "safetensors",
+      "qwen4_exp",
+      "qwen3.8",
+      "flash-next"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-06T17:59:51.707902+00:00",
+    "source_ids": [
+      "halt95/Qwen3.8-Flash-Next-W4A16-Merlin"
+    ],
+    "family": "Qwen3.8-Flash-Next-W4A16-Merlin"
   }
 ]
