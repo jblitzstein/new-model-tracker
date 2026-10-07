@@ -162648,5 +162648,274 @@
       "litert-community/SmolVLM2-500M"
     ],
     "family": "SmolVLM2-500M"
+  },
+  {
+    "id": "openrouter:anthropic/claude-haiku-5.5",
+    "name": "Anthropic: Claude Haiku 5.5",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T18:31:23+00:00",
+    "context_length": 1000000,
+    "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
+    "url": "https://openrouter.ai/anthropic/claude-haiku-5.5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.5
+    },
+    "first_seen": "2026-10-07T21:01:54.486114+00:00",
+    "source_ids": [
+      "anthropic/claude-haiku-5.5"
+    ],
+    "family": "Claude Haiku 5.5"
+  },
+  {
+    "id": "openrouter:anthropic/claude-haiku-5.5:batch",
+    "name": "Anthropic: Claude Haiku 5.5 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T18:31:23+00:00",
+    "context_length": 1000000,
+    "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
+    "url": "https://openrouter.ai/anthropic/claude-haiku-5.5:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.05,
+      "completion_per_million": 0.25
+    },
+    "first_seen": "2026-10-07T21:01:54.487061+00:00",
+    "source_ids": [
+      "anthropic/claude-haiku-5.5:batch"
+    ],
+    "family": "Claude Haiku 5.5 (batch)"
+  },
+  {
+    "id": "huggingface:SkyIsNotGreen/Scion-35B-A3B",
+    "name": "Scion-35B-A3B",
+    "provider": "SkyIsNotGreen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-27T19:57:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SkyIsNotGreen/Scion-35B-A3B",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ternary",
+      "2-bit",
+      "pq2_0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-07T21:01:54.644951+00:00",
+    "source_ids": [
+      "SkyIsNotGreen/Scion-35B-A3B"
+    ],
+    "family": "Scion"
+  },
+  {
+    "id": "huggingface:mradermacher/Qwen3.8-27B-MindMeld-GGUF",
+    "name": "Qwen3.8-27B-MindMeld-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-25T15:48:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen3.8-27B-MindMeld-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "coding",
+      "research",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-07T21:01:54.645092+00:00",
+    "source_ids": [
+      "mradermacher/Qwen3.8-27B-MindMeld-GGUF"
+    ],
+    "family": "Qwen3.8-MindMeld"
+  },
+  {
+    "id": "huggingface:shinonome4649ne/test",
+    "name": "test",
+    "provider": "shinonome4649ne",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-01-20T13:05:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shinonome4649ne/test",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "stable-diffusion",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-07T21:01:54.788512+00:00",
+    "source_ids": [
+      "shinonome4649ne/test"
+    ],
+    "family": "test"
+  },
+  {
+    "id": "huggingface:mradermacher/Perseus-Doc-vl-0712-GGUF",
+    "name": "Perseus-Doc-vl-0712-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-14T20:08:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Perseus-Doc-vl-0712-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "trl",
+      "text-generation-inference",
+      "image-captioning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-07T21:01:54.894256+00:00",
+    "source_ids": [
+      "mradermacher/Perseus-Doc-vl-0712-GGUF"
+    ],
+    "family": "Perseus-Doc-vl-0712"
+  },
+  {
+    "id": "huggingface:canberkkkkkk/ema-lightning",
+    "name": "ema-lightning",
+    "provider": "canberkkkkkk",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-01T14:18:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+    "tags": [
+      "text-to-speech",
+      "ema-lightning",
+      "text-to-speech",
+      "tts",
+      "turkish",
+      "speech-synthesis"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-07T21:01:55.217097+00:00",
+    "source_ids": [
+      "canberkkkkkk/ema-lightning"
+    ],
+    "family": "ema-lightning"
+  },
+  {
+    "id": "huggingface:ukisai/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+    "name": "Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+    "provider": "ukisai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T14:11:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen3_8",
+      "moe",
+      "gsq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-07T21:01:55.450260+00:00",
+    "source_ids": [
+      "ukisai/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF"
+    ],
+    "family": "Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO"
   }
 ]
