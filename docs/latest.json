@@ -1,5 +1,71 @@
 [
   {
+    "id": "openrouter:stepfun/step-5-preview",
+    "name": "StepFun: Step 5 Preview",
+    "provider": "StepFun",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T12:34:09+00:00",
+    "context_length": 1000000,
+    "description": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional...",
+    "url": "https://openrouter.ai/stepfun/step-5-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 2.7
+    },
+    "first_seen": "2026-10-08T15:15:12.886591+00:00",
+    "source_ids": [
+      "stepfun/step-5-preview"
+    ],
+    "family": "Step 5"
+  },
+  {
+    "id": "huggingface:khtsly/d",
+    "name": "d",
+    "provider": "khtsly",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T00:51:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/khtsly/d",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "kimi_linear",
+      "text-generation",
+      "kimi-k3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.042694+00:00",
+    "source_ids": [
+      "khtsly/d"
+    ],
+    "family": "d"
+  },
+  {
     "id": "openrouter:anthropic/claude-haiku-5.5",
     "name": "Anthropic: Claude Haiku 5.5",
     "provider": "Anthropic",
@@ -66,6 +132,107 @@
     "family": "Claude Haiku 5.5 (batch)"
   },
   {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T15:55:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.042800+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-base",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-base",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T15:55:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.042638+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-base"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc"
+  },
+  {
+    "id": "huggingface:autotrust/GLM5.3-Flash-E224-DGX-Spark",
+    "name": "GLM5.3-Flash-E224-DGX-Spark",
+    "provider": "autotrust",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T22:49:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
+    "tags": [
+      "image-text-to-text",
+      "vllm",
+      "safetensors",
+      "glm5_next",
+      "autotrust",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.844574+00:00",
+    "source_ids": [
+      "autotrust/GLM5.3-Flash-E224-DGX-Spark"
+    ],
+    "family": "GLM5.3-Flash-E224-DGX-Spark"
+  },
+  {
     "id": "openrouter:google/gemini-nano-banana-2.1",
     "name": "Google: Nano Banana 2.1",
     "provider": "Google",
@@ -129,6 +296,41 @@
     "family": "Mistral Large 4"
   },
   {
+    "id": "huggingface:nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-GGUF-NInfer",
+    "name": "Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-GGUF-NInfer",
+    "provider": "nerkyor",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T04:24:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-GGUF-NInfer",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "gguf",
+      "qwen3.8",
+      "efficient-thinking",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.845025+00:00",
+    "source_ids": [
+      "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-GGUF-NInfer"
+    ],
+    "family": "Qwen3.8-Coder390-Efficient-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO--NInfer"
+  },
+  {
     "id": "huggingface:SpaceTimee/Suri-Qwen-3.8-27B-Companion-GGUF",
     "name": "Suri-Qwen-3.8-27B-Companion-GGUF",
     "provider": "SpaceTimee",
@@ -162,6 +364,74 @@
       "SpaceTimee/Suri-Qwen-3.8-27B-Companion-GGUF"
     ],
     "family": "Suri-Qwen-3.8-Companion"
+  },
+  {
+    "id": "huggingface:webmp3/Sakura-Fara1.5-4B-GGUF",
+    "name": "Sakura-Fara1.5-4B-GGUF",
+    "provider": "webmp3",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-04T20:16:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/webmp3/Sakura-Fara1.5-4B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "sakura",
+      "sakura-mini",
+      "llama.cpp",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.844982+00:00",
+    "source_ids": [
+      "webmp3/Sakura-Fara1.5-4B-GGUF"
+    ],
+    "family": "Sakura-Fara1.5"
+  },
+  {
+    "id": "huggingface:KrynexLabs/KrynexAI-1.4-150M-Mobile-Model",
+    "name": "KrynexAI-1.4-150M-Mobile-Model",
+    "provider": "KrynexLabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-04T14:40:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KrynexLabs/KrynexAI-1.4-150M-Mobile-Model",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "llama",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.042461+00:00",
+    "source_ids": [
+      "KrynexLabs/KrynexAI-1.4-150M-Mobile-Model"
+    ],
+    "family": "KrynexAI-1.4-150M-Mobile-Model"
   },
   {
     "id": "huggingface:TokenTinkerer/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-TTQ-GGUF",
@@ -230,6 +500,76 @@
       "google/DiarizationLM-Gemma-4-E4B-v1"
     ],
     "family": "DiarizationLM-Gemma-4-E-v1"
+  },
+  {
+    "id": "huggingface:nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+    "name": "Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+    "provider": "nerkyor",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-04T10:44:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "gguf",
+      "qwen3.8",
+      "efficient-thinking",
+      "reasoning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.845087+00:00",
+    "source_ids": [
+      "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
+    ],
+    "family": "Qwen3.8-Coder390-Efficient-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
+  },
+  {
+    "id": "huggingface:webmp3/Sakura-MiMo-V2.6-Distill-Qwen-9B-GGUF",
+    "name": "Sakura-MiMo-V2.6-Distill-Qwen-9B-GGUF",
+    "provider": "webmp3",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-04T10:06:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/webmp3/Sakura-MiMo-V2.6-Distill-Qwen-9B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "sakura",
+      "sakura-mini",
+      "llama.cpp",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.844827+00:00",
+    "source_ids": [
+      "webmp3/Sakura-MiMo-V2.6-Distill-Qwen-9B-GGUF"
+    ],
+    "family": "Sakura-MiMo-V2.6-Distill-Qwen"
   },
   {
     "id": "huggingface:gimly13/z-image-cyberrealistic-v9-gguf",
@@ -1943,6 +2283,39 @@
       "SkyIsNotGreen/Scion-35B-A3B"
     ],
     "family": "Scion"
+  },
+  {
+    "id": "huggingface:org2ai/Wald-4B",
+    "name": "Wald-4B",
+    "provider": "org2ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-27T07:14:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/org2ai/Wald-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "decision-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.042557+00:00",
+    "source_ids": [
+      "org2ai/Wald-4B"
+    ],
+    "family": "Wald"
   },
   {
     "id": "huggingface:Kronumos/Kronumos-Kairos-v2",
@@ -8773,6 +9146,40 @@
     "family": "Qwen3.8-Flash-Next-MXFP4-FP8"
   },
   {
+    "id": "huggingface:vanch007/mlx-Yue2-3B",
+    "name": "mlx-Yue2-3B",
+    "provider": "vanch007",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-13T13:57:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vanch007/mlx-Yue2-3B",
+    "tags": [
+      "text-to-audio",
+      "mlx",
+      "safetensors",
+      "yue2",
+      "audio",
+      "music"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.482899+00:00",
+    "source_ids": [
+      "vanch007/mlx-Yue2-3B"
+    ],
+    "family": "mlx-Yue2"
+  },
+  {
     "id": "huggingface:EvoAwaken-Workshop/Breeze-TTS-2-gguf",
     "name": "Breeze-TTS-2-gguf",
     "provider": "EvoAwaken-Workshop",
@@ -14304,39 +14711,6 @@
     "family": "gemma-4-Styletune-Voice"
   },
   {
-    "id": "huggingface:s-sahoo/uno-qwen3-8B",
-    "name": "uno-qwen3-8B",
-    "provider": "s-sahoo",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-02T07:12:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/s-sahoo/uno-qwen3-8B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "sdar",
-      "text-generation",
-      "diffusion-language-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-08T08:38:33.970477+00:00",
-    "source_ids": [
-      "s-sahoo/uno-qwen3-8B"
-    ],
-    "family": "uno-qwen3"
-  },
-  {
     "id": "huggingface:pragmaticcs/Qwen-35B-A3B-SignOfFour-Coder",
     "name": "Qwen-35B-A3B-SignOfFour-Coder",
     "provider": "pragmaticcs",
@@ -17770,6 +18144,39 @@
     "family": "DeepSeek V4 Flash Vision Exp (batch)"
   },
   {
+    "id": "huggingface:Hob-forge/Qwen3.5-4B-Instruct-GGUF",
+    "name": "Qwen3.5-4B-Instruct-GGUF",
+    "provider": "Hob-forge",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T09:22:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Hob-forge/Qwen3.5-4B-Instruct-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "hob-forge",
+      "edition",
+      "small-gpu",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.042735+00:00",
+    "source_ids": [
+      "Hob-forge/Qwen3.5-4B-Instruct-GGUF"
+    ],
+    "family": "Qwen3.5"
+  },
+  {
     "id": "huggingface:tencent/AuK-Flash",
     "name": "AuK-Flash",
     "provider": "Tencent",
@@ -18314,41 +18721,6 @@
       "bsaleh03/Qwen3.8-27B-ASCII-Condensed"
     ],
     "family": "Qwen3.8-ASCII-Condensed"
-  },
-  {
-    "id": "huggingface:akopytko/Qwen3.8-27B-NVFP4-GGUF",
-    "name": "Qwen3.8-27B-NVFP4-GGUF",
-    "provider": "akopytko",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-19T01:51:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/akopytko/Qwen3.8-27B-NVFP4-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "nvfp4",
-      "blackwell",
-      "q4_n",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-08T08:38:34.534156+00:00",
-    "source_ids": [
-      "akopytko/Qwen3.8-27B-NVFP4-GGUF"
-    ],
-    "family": "Qwen3.8-NVFP4"
   },
   {
     "id": "huggingface:WaveCut/Qwen3.8-27B-MXFP8-CRACK-NInfer-v3",
@@ -20260,41 +20632,6 @@
     "family": "title"
   },
   {
-    "id": "huggingface:DavidAU/Qwen3.6-40B-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-    "name": "Qwen3.6-40B-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T00:19:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "unsloth",
-      "fine tune",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-08T08:38:34.534198+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.6-40B-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF"
-    ],
-    "family": "Qwen3.6-Grand-Intelligence-Fable-Fusion-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP"
-  },
-  {
     "id": "huggingface:KiaBush/Persian-IPA-to-Speech-F5",
     "name": "Persian-IPA-to-Speech-F5",
     "provider": "KiaBush",
@@ -21239,41 +21576,6 @@
       "iliasaz/chatterbox-nano-coreml"
     ],
     "family": "chatterbox-nano-coreml"
-  },
-  {
-    "id": "huggingface:zenosai/MonkeyOCRv2-S-Parsing",
-    "name": "MonkeyOCRv2-S-Parsing",
-    "provider": "zenosai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-11T12:50:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zenosai/MonkeyOCRv2-S-Parsing",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "monkeyocrv2",
-      "text-generation",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-08T08:38:34.533994+00:00",
-    "source_ids": [
-      "zenosai/MonkeyOCRv2-S-Parsing"
-    ],
-    "family": "MonkeyOCRv2-S-Parsing"
   },
   {
     "id": "huggingface:handy-computer/multitalker-parakeet-streaming-0.6b-v1-gguf",
@@ -24465,40 +24767,6 @@
     "family": "FormulaNet"
   },
   {
-    "id": "huggingface:krea/krea-realtime-video",
-    "name": "krea-realtime-video",
-    "provider": "krea",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2025-10-08T00:16:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/krea/krea-realtime-video",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "safetensors",
-      "diffusion-single-file",
-      "text-to-video",
-      "video-to-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-08T08:38:34.208304+00:00",
-    "source_ids": [
-      "krea/krea-realtime-video"
-    ],
-    "family": "krea-realtime-video"
-  },
-  {
     "id": "huggingface:mradermacher/Huihui-gemma-3n-E2B-it-abliterated-i1-GGUF",
     "name": "Huihui-gemma-3n-E2B-it-abliterated-i1-GGUF",
     "provider": "mradermacher",
@@ -24667,6 +24935,74 @@
       "greedjoo/jhr_classic_lora"
     ],
     "family": "jhr_classic_lora"
+  },
+  {
+    "id": "huggingface:ai4bharat/indic-conformer-600m-multilingual",
+    "name": "indic-conformer-600m-multilingual",
+    "provider": "ai4bharat",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-15T11:04:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+    "tags": [
+      "automatic-speech-recognition",
+      "onnx",
+      "automatic-speech-recognition",
+      "custom_code",
+      "license:mit",
+      "eval-results"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.731318+00:00",
+    "source_ids": [
+      "ai4bharat/indic-conformer-600m-multilingual"
+    ],
+    "family": "indic-conformer-600m-multilingual"
+  },
+  {
+    "id": "huggingface:ai4bharat/indic-seamless",
+    "name": "indic-seamless",
+    "provider": "ai4bharat",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-04T06:47:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ai4bharat/indic-seamless",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "seamless_m4t_v2",
+      "automatic-speech-recognition",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T15:15:13.731355+00:00",
+    "source_ids": [
+      "ai4bharat/indic-seamless"
+    ],
+    "family": "indic-seamless"
   },
   {
     "id": "huggingface:nvidia/diar_sortformer_4spk-v1",
