@@ -163529,5 +163529,271 @@
       "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
     ],
     "family": "Qwen3.8-Coder390-Efficient-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-3.0-flash-sante",
+    "name": "inclusionAI: Ling 3.0 Flash Sante",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-04T18:19:06+00:00",
+    "context_length": 262144,
+    "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.042,
+      "completion_per_million": 0.1232
+    },
+    "first_seen": "2026-10-08T21:03:16.709190+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.0-flash-sante"
+    ],
+    "family": "Ling 3.0 Flash Sante"
+  },
+  {
+    "id": "huggingface:hendrimardani/fine-tuned-model-indonesian-2",
+    "name": "fine-tuned-model-indonesian-2",
+    "provider": "hendrimardani",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T07:30:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hendrimardani/fine-tuned-model-indonesian-2",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "llama",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T21:03:16.863219+00:00",
+    "source_ids": [
+      "hendrimardani/fine-tuned-model-indonesian-2"
+    ],
+    "family": "fine-tuned-model-indonesian-2"
+  },
+  {
+    "id": "huggingface:piskle/Qwen3.8-2B-Distill-GGUF",
+    "name": "Qwen3.8-2B-Distill-GGUF",
+    "provider": "piskle",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-04T12:43:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/piskle/Qwen3.8-2B-Distill-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "Distill",
+      "Quantization",
+      "Qwen3.5",
+      "Qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T21:03:16.863396+00:00",
+    "source_ids": [
+      "piskle/Qwen3.8-2B-Distill-GGUF"
+    ],
+    "family": "Qwen3.8-Distill"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T15:54:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T21:03:16.863487+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-groot16",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-groot16",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T23:29:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-groot16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T21:03:16.863587+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-groot16"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc-groot16"
+  },
+  {
+    "id": "huggingface:mradermacher/Qwen3.8-27B-Heretic-Uncensored-BF16-GGUF",
+    "name": "Qwen3.8-27B-Heretic-Uncensored-BF16-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T12:01:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen3.8-27B-Heretic-Uncensored-BF16-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3.8",
+      "qwen3",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T21:03:17.332266+00:00",
+    "source_ids": [
+      "mradermacher/Qwen3.8-27B-Heretic-Uncensored-BF16-GGUF"
+    ],
+    "family": "Qwen3.8-Heretic-Uncensored-BF16"
+  },
+  {
+    "id": "huggingface:nightmedia/Qwen3.6-35B-A3B-Brainwaves-Nex-Uncensored",
+    "name": "Qwen3.6-35B-A3B-Brainwaves-Nex-Uncensored",
+    "provider": "nightmedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-19T00:40:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nightmedia/Qwen3.6-35B-A3B-Brainwaves-Nex-Uncensored",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T21:03:17.332336+00:00",
+    "source_ids": [
+      "nightmedia/Qwen3.6-35B-A3B-Brainwaves-Nex-Uncensored"
+    ],
+    "family": "Qwen3.6-Brainwaves-Nex-Uncensored"
+  },
+  {
+    "id": "huggingface:docling-project/DeskForge-Qwen3.5-4B",
+    "name": "DeskForge-Qwen3.5-4B",
+    "provider": "docling-project",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-30T18:15:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/docling-project/DeskForge-Qwen3.5-4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "gui-grounding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-08T21:03:17.332513+00:00",
+    "source_ids": [
+      "docling-project/DeskForge-Qwen3.5-4B"
+    ],
+    "family": "DeskForge-Qwen3.5"
   }
 ]
