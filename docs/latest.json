@@ -1,5 +1,39 @@
 [
   {
+    "id": "huggingface:Qwen/Qwen-Image-2.1-Turbo",
+    "name": "Qwen-Image-2.1-Turbo",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-09T04:50:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "qwen",
+      "image-generation",
+      "image-editing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-09T15:00:21.778256+00:00",
+    "source_ids": [
+      "Qwen/Qwen-Image-2.1-Turbo"
+    ],
+    "family": "Qwen-Image-2.1-Turbo"
+  },
+  {
     "id": "openrouter:stepfun/step-5-preview",
     "name": "StepFun: Step 5 Preview",
     "provider": "StepFun",
@@ -428,6 +462,41 @@
       "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-GGUF-NInfer"
     ],
     "family": "Qwen3.8-Coder390-Efficient-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO--NInfer"
+  },
+  {
+    "id": "huggingface:docling-project/DeskForge-Gemma4-E4B",
+    "name": "DeskForge-Gemma4-E4B",
+    "provider": "docling-project",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T16:17:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/docling-project/DeskForge-Gemma4-E4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "gui-grounding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-09T15:00:22.461329+00:00",
+    "source_ids": [
+      "docling-project/DeskForge-Gemma4-E4B"
+    ],
+    "family": "DeskForge-Gemma4-E"
   },
   {
     "id": "huggingface:SpaceTimee/Suri-Qwen-3.8-27B-Companion-GGUF",
@@ -5481,6 +5550,41 @@
     "family": "Swift-Qwen3.8-MIX"
   },
   {
+    "id": "huggingface:GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
+    "name": "GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
+    "provider": "GCSA-AiLab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-22T01:08:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "gsq",
+      "rco",
+      "lora-merged",
+      "lora-v2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-09T15:00:22.461427+00:00",
+    "source_ids": [
+      "GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF"
+    ],
+    "family": "GLM-5.3-Flash-Uncensored-RCO-GSQ"
+  },
+  {
     "id": "huggingface:mlx-community/MiMo-V2.6-Distill-Qwen-9B-OptiQ-4bit",
     "name": "MiMo-V2.6-Distill-Qwen-9B-OptiQ-4bit",
     "provider": "mlx-community",
@@ -8065,6 +8169,39 @@
     "family": "Opti"
   },
   {
+    "id": "huggingface:Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
+    "name": "Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
+    "provider": "Greatjedi",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T00:36:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "intel-arc",
+      "intel-arc-b60",
+      "battlemage",
+      "sycl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-09T15:00:21.644167+00:00",
+    "source_ids": [
+      "Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF"
+    ],
+    "family": "Qwen3.8-Intel-Arc-Tuned"
+  },
+  {
     "id": "huggingface:prism-ml/Ternary-Bonsai-2-27B-gguf",
     "name": "Ternary-Bonsai-2-27B-gguf",
     "provider": "prism-ml",
@@ -9047,6 +9184,41 @@
       "nvidia/GLM-5.3-NVFP4"
     ],
     "family": "GLM-5.3-NVFP4"
+  },
+  {
+    "id": "huggingface:dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW-GGUF",
+    "name": "Dongfangshuo-Qwen3.8-27B-NSFW-GGUF",
+    "provider": "dongfangshuo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-14T16:08:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen",
+      "qwen3.8",
+      "vision",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-09T15:00:22.461283+00:00",
+    "source_ids": [
+      "dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW-GGUF"
+    ],
+    "family": "Dongfangshuo-Qwen3.8-NSFW"
   },
   {
     "id": "openrouter:~deepseek/deepseek-pro-latest",
@@ -13448,39 +13620,6 @@
     "family": "Qwen3.8-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer-v3"
   },
   {
-    "id": "huggingface:openbmb/MiniCPM5-2B",
-    "name": "MiniCPM5-2B",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-06T11:12:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "minicpm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-09T08:41:58.762633+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM5-2B"
-    ],
-    "family": "MiniCPM5"
-  },
-  {
     "id": "huggingface:huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
     "name": "Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
     "provider": "huihui-ai",
@@ -13786,39 +13925,6 @@
       "Prannesshkva/ISOM-R1-Reasoning-1.5B-Instruct-Beta"
     ],
     "family": "ISOM-R1-Reasoning--Beta"
-  },
-  {
-    "id": "huggingface:openbmb/MiniCPM5-2B-GGUF",
-    "name": "MiniCPM5-2B-GGUF",
-    "provider": "openbmb",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-05T01:44:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "minicpm",
-      "minicpm5",
-      "llama"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-09T08:41:58.762654+00:00",
-    "source_ids": [
-      "openbmb/MiniCPM5-2B-GGUF"
-    ],
-    "family": "MiniCPM5"
   },
   {
     "id": "huggingface:openbmb/MiniCPM5-2B-MLX",
@@ -14521,41 +14627,6 @@
       "IFM/K2-Horizon-7B-FP8"
     ],
     "family": "K2-Horizon-FP8"
-  },
-  {
-    "id": "huggingface:ManniX-ITA/Qwen3.8-27B-Omnimerge-v6-MTP-GGUF",
-    "name": "Qwen3.8-27B-Omnimerge-v6-MTP-GGUF",
-    "provider": "ManniX-ITA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-03T06:06:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ManniX-ITA/Qwen3.8-27B-Omnimerge-v6-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "imatrix",
-      "quantized",
-      "mtp",
-      "speculative-decoding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-09T08:41:59.297562+00:00",
-    "source_ids": [
-      "ManniX-ITA/Qwen3.8-27B-Omnimerge-v6-MTP-GGUF"
-    ],
-    "family": "Qwen3.8-Omnimerge-v6-MTP"
   },
   {
     "id": "huggingface:CodeMasterCody3D/taardis-27b-full-ternary",
@@ -15637,6 +15708,41 @@
     "family": "Qwen3.8-Flash-Next-Uncensored"
   },
   {
+    "id": "huggingface:GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
+    "name": "Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
+    "provider": "GCSA-AiLab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T06:22:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "llama.cpp",
+      "gguf",
+      "qwen",
+      "qwen3.8",
+      "abliterix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-09T15:00:22.461379+00:00",
+    "source_ids": [
+      "GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF"
+    ],
+    "family": "Qwen3.8-Flash-Next-FP8-Abliterated"
+  },
+  {
     "id": "huggingface:bernhardbrieger/Qwen3.8-27B-NVFP4",
     "name": "Qwen3.8-27B-NVFP4",
     "provider": "bernhardbrieger",
@@ -15737,39 +15843,6 @@
       "albucino/Qwen3.8-Flash-Next-W4A16-FP8PLE"
     ],
     "family": "Qwen3.8-Flash-Next-W4A16-FP8PLE"
-  },
-  {
-    "id": "huggingface:Prannesshkva/ISOM-Falcon-40B",
-    "name": "ISOM-Falcon-40B",
-    "provider": "Prannesshkva",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-30T19:49:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Prannesshkva/ISOM-Falcon-40B",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "falcon",
-      "isom",
-      "isom-falcon"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-09T08:41:58.762490+00:00",
-    "source_ids": [
-      "Prannesshkva/ISOM-Falcon-40B"
-    ],
-    "family": "ISOM-Falcon"
   },
   {
     "id": "huggingface:Prannesshkva/ISOM-R1-Enterprise-40B-Beta",
