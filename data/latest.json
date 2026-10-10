@@ -1,5 +1,141 @@
 [
   {
+    "id": "huggingface:webmp3/Sakura-Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "name": "Sakura-Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "provider": "webmp3",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-09T16:34:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/webmp3/Sakura-Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "sakura",
+      "sakura-mini",
+      "stable-diffusion.cpp",
+      "comfyui"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.200750+00:00",
+    "source_ids": [
+      "webmp3/Sakura-Qwen-Image-2.1-Turbo-Uncensored-GGUF"
+    ],
+    "family": "Sakura-Qwen-Image-2.1-Turbo-Uncensored"
+  },
+  {
+    "id": "huggingface:AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "name": "Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-09T16:30:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "atomic-chat",
+      "qwen",
+      "qwen-image",
+      "qwen3-vl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.200675+00:00",
+    "source_ids": [
+      "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
+    ],
+    "family": "Qwen-Image-2.1-Turbo-Uncensored"
+  },
+  {
+    "id": "huggingface:mradermacher/Veloxy-Titan-32B-Vision-i1-GGUF",
+    "name": "Veloxy-Titan-32B-Vision-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-09T14:35:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Veloxy-Titan-32B-Vision-i1-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "vision",
+      "multimodal",
+      "image-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.276937+00:00",
+    "source_ids": [
+      "mradermacher/Veloxy-Titan-32B-Vision-i1-GGUF"
+    ],
+    "family": "Veloxy-Titan-Vision-i1"
+  },
+  {
+    "id": "huggingface:mradermacher/Veloxy-Titan-32B-Vision-GGUF",
+    "name": "Veloxy-Titan-32B-Vision-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-09T12:26:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Veloxy-Titan-32B-Vision-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "vision",
+      "multimodal",
+      "image-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.277004+00:00",
+    "source_ids": [
+      "mradermacher/Veloxy-Titan-32B-Vision-GGUF"
+    ],
+    "family": "Veloxy-Titan-Vision"
+  },
+  {
     "id": "huggingface:Qwen/Qwen-Image-2.1-Turbo",
     "name": "Qwen-Image-2.1-Turbo",
     "provider": "Qwen",
@@ -1840,6 +1976,40 @@
     "family": "Qwen3.8-Flash-Next-Gyro"
   },
   {
+    "id": "huggingface:Cactus-Compute/whistle",
+    "name": "whistle",
+    "provider": "Cactus-Compute",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-30T17:13:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Cactus-Compute/whistle",
+    "tags": [
+      "automatic-speech-recognition",
+      "cactus-needle",
+      "whistle",
+      "speech-recognition",
+      "speech-to-text",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.618281+00:00",
+    "source_ids": [
+      "Cactus-Compute/whistle"
+    ],
+    "family": "whistle"
+  },
+  {
     "id": "huggingface:doth4580/Qwen3.8-Flash-Next-EXL3-3.05bpw",
     "name": "Qwen3.8-Flash-Next-EXL3-3.05bpw",
     "provider": "doth4580",
@@ -2045,6 +2215,39 @@
       "IsValorum/Cyber-Tiel-Coder-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF"
     ],
     "family": "Cyber-Tiel-Coder-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:anemll/anemll-forge-qwen3.8-27B",
+    "name": "anemll-forge-qwen3.8-27B",
+    "provider": "anemll",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T19:26:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/anemll/anemll-forge-qwen3.8-27B",
+    "tags": [
+      "text-generation",
+      "anemll-forge",
+      "qwen3_5",
+      "coreai",
+      "ane",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.108025+00:00",
+    "source_ids": [
+      "anemll/anemll-forge-qwen3.8-27B"
+    ],
+    "family": "anemll-forge-qwen3.8"
   },
   {
     "id": "openrouter:openai/gpt-6.1-sol-pro",
@@ -3400,6 +3603,40 @@
       "jsbaicenter/Aztec-Coder-4B"
     ],
     "family": "Aztec-Coder"
+  },
+  {
+    "id": "huggingface:sahilmahendrakar/Paradee-8M-v1.0",
+    "name": "Paradee-8M-v1.0",
+    "provider": "sahilmahendrakar",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-25T21:28:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sahilmahendrakar/Paradee-8M-v1.0",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "paradee",
+      "text-to-speech",
+      "tts",
+      "distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.528236+00:00",
+    "source_ids": [
+      "sahilmahendrakar/Paradee-8M-v1.0"
+    ],
+    "family": "Paradee-8M-v1.0"
   },
   {
     "id": "openrouter:typesafe/jev-router",
@@ -11833,37 +12070,6 @@
     "family": "DeepSeek-V4.1-Flash"
   },
   {
-    "id": "openrouter:deepseek/deepseek-v4.1-flash",
-    "name": "DeepSeek: DeepSeek V4.1 Flash",
-    "provider": "DeepSeek",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T06:21:25+00:00",
-    "context_length": 1048576,
-    "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the cost-efficient tier of the V4.1 family. DeepSeek reports that it exceeds V4 Pro on performance, speed, and task...",
-    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.3,
-      "completion_per_million": 1.2
-    },
-    "first_seen": "2026-09-10T08:41:15.375381+00:00",
-    "source_ids": [
-      "deepseek/deepseek-v4.1-flash"
-    ],
-    "family": "DeepSeek V4.1 Flash"
-  },
-  {
     "id": "openrouter:deepseek/deepseek-v4.1-flash:batch",
     "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
     "provider": "DeepSeek",
@@ -11992,41 +12198,6 @@
       "joaosollatori/small-agentic-model-1.5B"
     ],
     "family": "small-agentic-model"
-  },
-  {
-    "id": "huggingface:deepseek-ai/DeepSeek-V4.1-Flash",
-    "name": "DeepSeek-V4.1-Flash",
-    "provider": "DeepSeek",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T02:17:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "deepseek_v41",
-      "text-generation",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-10T08:41:16.508111+00:00",
-    "source_ids": [
-      "deepseek-ai/DeepSeek-V4.1-Flash"
-    ],
-    "family": "DeepSeek-V4.1-Flash"
   },
   {
     "id": "huggingface:jan1k/Qwen3.8-27B-Uncensored-Genesis-V1-NVFP4-GGUF",
@@ -16928,39 +17099,6 @@
     "family": "Qwen3.8-Flash-Next-Uncensored-ROCmFP4-STRIX_LEAN"
   },
   {
-    "id": "huggingface:nvidia/DeepSeek-V4-Pro-0813-NVFP4",
-    "name": "DeepSeek-V4-Pro-0813-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-27T10:39:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/DeepSeek-V4-Pro-0813-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "deepseek_v4",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-10T08:41:15.554887+00:00",
-    "source_ids": [
-      "nvidia/DeepSeek-V4-Pro-0813-NVFP4"
-    ],
-    "family": "DeepSeek-V4-Pro-0813-NVFP4"
-  },
-  {
     "id": "huggingface:KeinNiemand/DeepSeek-V4-Flash-0731-IK_GGUF",
     "name": "DeepSeek-V4-Flash-0731-IK_GGUF",
     "provider": "KeinNiemand",
@@ -18466,6 +18604,41 @@
       "QUASAR-QAT/Qwen3.8-27B-QUASAR-NVFP4"
     ],
     "family": "Qwen3.8-QUASAR-NVFP4"
+  },
+  {
+    "id": "huggingface:mradermacher/Qwen-3.8-27B-Uncensored-GGUF",
+    "name": "Qwen-3.8-27B-Uncensored-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-23T05:11:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen-3.8-27B-Uncensored-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3_5",
+      "abliterated"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-10T14:16:07.720835+00:00",
+    "source_ids": [
+      "mradermacher/Qwen-3.8-27B-Uncensored-GGUF"
+    ],
+    "family": "Qwen-3.8-Uncensored"
   },
   {
     "id": "huggingface:Lordnyx/qwen3loop-0.6b-sft-deep-supervision-v1",
@@ -20409,41 +20582,6 @@
     "family": "Muse-Glimmer-OptiQ-4bit"
   },
   {
-    "id": "huggingface:Accio-Lab/occamy-1.0",
-    "name": "occamy-1.0",
-    "provider": "Accio-Lab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-13T12:56:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Accio-Lab/occamy-1.0",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "agent"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-10T08:41:16.508189+00:00",
-    "source_ids": [
-      "Accio-Lab/occamy-1.0"
-    ],
-    "family": "occamy-1.0"
-  },
-  {
     "id": "huggingface:voldemir/Kroma-GGUF",
     "name": "Kroma-GGUF",
     "provider": "voldemir",
@@ -20650,40 +20788,6 @@
       "thantzinphyo/Whisper-Small-Myanmar-Partial-Freezing"
     ],
     "family": "Whisper-Small-Myanmar-Partial-Freezing"
-  },
-  {
-    "id": "huggingface:ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8",
-    "name": "LTX-2.5-uncensored-v1.1-FP8",
-    "provider": "ChrisColeTech",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-08-11T21:57:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "not-for-all-audiences",
-      "text-to-video",
-      "image-to-video",
-      "video-to-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-10T08:41:15.960839+00:00",
-    "source_ids": [
-      "ChrisColeTech/LTX-2.5-uncensored-v1.1-FP8"
-    ],
-    "family": "LTX-2.5-uncensored-v1.1-FP8"
   },
   {
     "id": "huggingface:peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF-MTP",
