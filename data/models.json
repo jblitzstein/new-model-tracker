@@ -165318,5 +165318,141 @@
       "igorls/Qwen3.8-Flash-Next-mixed-NInfer"
     ],
     "family": "Qwen3.8-Flash-Next-mixed-NInfer"
+  },
+  {
+    "id": "huggingface:autotrust/GLM-5.3-GGUF-DGX-Spark",
+    "name": "GLM-5.3-GGUF-DGX-Spark",
+    "provider": "autotrust",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-20T04:57:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/autotrust/GLM-5.3-GGUF-DGX-Spark",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "dgx-spark",
+      "moe",
+      "expert-pruning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:43.790073+00:00",
+    "source_ids": [
+      "autotrust/GLM-5.3-GGUF-DGX-Spark"
+    ],
+    "family": "GLM-5.3--DGX-Spark"
+  },
+  {
+    "id": "huggingface:autotrust/GLM-5.3-Flash-GGUF-DGX-Spark",
+    "name": "GLM-5.3-Flash-GGUF-DGX-Spark",
+    "provider": "autotrust",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-20T04:03:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/autotrust/GLM-5.3-Flash-GGUF-DGX-Spark",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "dgx-spark",
+      "gb10",
+      "glm5-next"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:43.790098+00:00",
+    "source_ids": [
+      "autotrust/GLM-5.3-Flash-GGUF-DGX-Spark"
+    ],
+    "family": "GLM-5.3-Flash--DGX-Spark"
+  },
+  {
+    "id": "huggingface:ggml-org/Clef-GGUF",
+    "name": "Clef-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T17:34:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Clef-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "decision-model",
+      "image-text-to-text",
+      "base_model:Cloudflare/clef"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:44.585951+00:00",
+    "source_ids": [
+      "ggml-org/Clef-GGUF"
+    ],
+    "family": "Clef"
+  },
+  {
+    "id": "huggingface:ggml-org/Clef-Flash-GGUF",
+    "name": "Clef-Flash-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T17:29:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Clef-Flash-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "decision-model",
+      "image-text-to-text",
+      "base_model:Cloudflare/clef-flash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:44.585969+00:00",
+    "source_ids": [
+      "ggml-org/Clef-Flash-GGUF"
+    ],
+    "family": "Clef-Flash"
   }
 ]

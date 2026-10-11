@@ -1579,6 +1579,76 @@
     "family": "Sakura-FrogNano-2609"
   },
   {
+    "id": "huggingface:ggml-org/Clef-GGUF",
+    "name": "Clef-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T17:34:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Clef-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "decision-model",
+      "image-text-to-text",
+      "base_model:Cloudflare/clef"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:44.585951+00:00",
+    "source_ids": [
+      "ggml-org/Clef-GGUF"
+    ],
+    "family": "Clef"
+  },
+  {
+    "id": "huggingface:ggml-org/Clef-Flash-GGUF",
+    "name": "Clef-Flash-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T17:29:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Clef-Flash-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "decision-model",
+      "image-text-to-text",
+      "base_model:Cloudflare/clef-flash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:44.585969+00:00",
+    "source_ids": [
+      "ggml-org/Clef-Flash-GGUF"
+    ],
+    "family": "Clef-Flash"
+  },
+  {
     "id": "openrouter:inclusionai/ling-3.1-flash",
     "name": "inclusionAI: Ling 3.1 Flash",
     "provider": "inclusionai",
@@ -7806,6 +7876,72 @@
       "GiorgiGE/vazi-sft"
     ],
     "family": "vazi-sft"
+  },
+  {
+    "id": "huggingface:autotrust/GLM-5.3-GGUF-DGX-Spark",
+    "name": "GLM-5.3-GGUF-DGX-Spark",
+    "provider": "autotrust",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-20T04:57:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/autotrust/GLM-5.3-GGUF-DGX-Spark",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "dgx-spark",
+      "moe",
+      "expert-pruning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:43.790073+00:00",
+    "source_ids": [
+      "autotrust/GLM-5.3-GGUF-DGX-Spark"
+    ],
+    "family": "GLM-5.3--DGX-Spark"
+  },
+  {
+    "id": "huggingface:autotrust/GLM-5.3-Flash-GGUF-DGX-Spark",
+    "name": "GLM-5.3-Flash-GGUF-DGX-Spark",
+    "provider": "autotrust",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-20T04:03:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/autotrust/GLM-5.3-Flash-GGUF-DGX-Spark",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "dgx-spark",
+      "gb10",
+      "glm5-next"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T04:22:43.790098+00:00",
+    "source_ids": [
+      "autotrust/GLM-5.3-Flash-GGUF-DGX-Spark"
+    ],
+    "family": "GLM-5.3-Flash--DGX-Spark"
   },
   {
     "id": "huggingface:IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
@@ -14968,41 +15104,6 @@
     "family": "Qwen3.8-Kearuga"
   },
   {
-    "id": "huggingface:inclusionAI/Ling-3.0-flash-VL",
-    "name": "Ling-3.0-flash-VL",
-    "provider": "inclusionAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-04T15:24:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "bailing_moe_v3_vl",
-      "image-text-to-text",
-      "conversational",
-      "custom_code"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T03:19:55.459414+00:00",
-    "source_ids": [
-      "inclusionAI/Ling-3.0-flash-VL"
-    ],
-    "family": "Ling-3.0-flash-VL"
-  },
-  {
     "id": "huggingface:NikiKrutan/Kiwen1.1-27B-MTP-GGUF",
     "name": "Kiwen1.1-27B-MTP-GGUF",
     "provider": "NikiKrutan",
@@ -15838,39 +15939,6 @@
       "ji-farthing/Qwen3.8-Flash-Next-ik-llama-GGUF"
     ],
     "family": "Qwen3.8-Flash-Next-ik-llama"
-  },
-  {
-    "id": "huggingface:IFM/K2-Horizon-375B-A23B",
-    "name": "K2-Horizon-375B-A23B",
-    "provider": "IFM",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-01T23:25:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IFM/K2-Horizon-375B-A23B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "k2_horizon",
-      "text-generation",
-      "k2-horizon"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T03:19:54.625212+00:00",
-    "source_ids": [
-      "IFM/K2-Horizon-375B-A23B"
-    ],
-    "family": "K2-Horizon"
   },
   {
     "id": "huggingface:IFM/K2-Horizon-7B",
@@ -18702,41 +18770,6 @@
       "noctrex/DFM-Mimir"
     ],
     "family": "DFM-Mimir"
-  },
-  {
-    "id": "huggingface:QUASAR-QAT/Qwen3.8-27B-QUASAR-NVFP4",
-    "name": "Qwen3.8-27B-QUASAR-NVFP4",
-    "provider": "QUASAR-QAT",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-23T08:21:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/QUASAR-QAT/Qwen3.8-27B-QUASAR-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "Qwen3.8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T03:19:55.459363+00:00",
-    "source_ids": [
-      "QUASAR-QAT/Qwen3.8-27B-QUASAR-NVFP4"
-    ],
-    "family": "Qwen3.8-QUASAR-NVFP4"
   },
   {
     "id": "huggingface:mradermacher/Qwen-3.8-27B-Uncensored-GGUF",
