@@ -271,6 +271,39 @@
     "family": "Swift-1.5-Qwen3.8-Uncensored-MTP-VAL-APEX-I-NanoPlus-V3"
   },
   {
+    "id": "huggingface:IsValorum/Swift-1.5-Qwen3.8-27B-Uncensored-MTP-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "name": "Swift-1.5-Qwen3.8-27B-Uncensored-MTP-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-09T16:58:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Swift-1.5-Qwen3.8-27B-Uncensored-MTP-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "val-apex-i",
+      "miniplus-v3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T23:30:25.125685+00:00",
+    "source_ids": [
+      "IsValorum/Swift-1.5-Qwen3.8-27B-Uncensored-MTP-VAL-APEX-I-MiniPlus-V3-GGUF"
+    ],
+    "family": "Swift-1.5-Qwen3.8-Uncensored-MTP-VAL-APEX-I-MiniPlus-V3"
+  },
+  {
     "id": "huggingface:webmp3/Sakura-Qwen-Image-2.1-Turbo-Uncensored-GGUF",
     "name": "Sakura-Qwen-Image-2.1-Turbo-Uncensored-GGUF",
     "provider": "webmp3",
@@ -12553,6 +12586,41 @@
     "family": "Qwen3.8-TTURBO-Cold-Fusion-709-L-NM-DAU-UltraOptimised-Variable"
   },
   {
+    "id": "huggingface:Jundot/DeepSeek-V4.1-Flash-oQ3e-mtp",
+    "name": "DeepSeek-V4.1-Flash-oQ3e-mtp",
+    "provider": "Jundot",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T01:46:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jundot/DeepSeek-V4.1-Flash-oQ3e-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "deepseek_v41",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T23:30:26.026785+00:00",
+    "source_ids": [
+      "Jundot/DeepSeek-V4.1-Flash-oQ3e-mtp"
+    ],
+    "family": "DeepSeek-V4.1-Flash-oQ3e-mtp"
+  },
+  {
     "id": "huggingface:jakeatx/Qwen3.8-Perian-GGUF",
     "name": "Qwen3.8-Perian-GGUF",
     "provider": "jakeatx",
@@ -12687,39 +12755,6 @@
       "orcarouter/Nex-N2.5-mini-Uncensored-GGUF"
     ],
     "family": "Nex-N2.5-mini-Uncensored"
-  },
-  {
-    "id": "huggingface:Asilarkness/DiffuRefill-1B",
-    "name": "DiffuRefill-1B",
-    "provider": "Asilarkness",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T11:40:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Asilarkness/DiffuRefill-1B",
-    "tags": [
-      "text-generation",
-      "diffurefill",
-      "diffusion-language-model",
-      "masked-diffusion",
-      "parallel-decoding",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T22:17:03.517386+00:00",
-    "source_ids": [
-      "Asilarkness/DiffuRefill-1B"
-    ],
-    "family": "DiffuRefill"
   },
   {
     "id": "huggingface:AMAImedia/DeepSeek-V4.1-Flash-FP8-GGUF",
@@ -13863,6 +13898,39 @@
       "mistrjirka/Ornith-1.5-9B-PXQ-GGUF"
     ],
     "family": "Ornith-1.5-PXQ"
+  },
+  {
+    "id": "huggingface:azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound",
+    "name": "Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound",
+    "provider": "azampatti",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T16:24:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "qwen4_exp",
+      "gptq",
+      "autoround"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T23:30:25.125604+00:00",
+    "source_ids": [
+      "azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound"
+    ],
+    "family": "Qwen3.8-Flash-Next-INT4-AutoRound"
   },
   {
     "id": "huggingface:Chaman1234/Sparse-AST-BWM",
@@ -20273,41 +20341,6 @@
     "family": "AX-Qwen3.8-MLX-AXQ-4bit-MTP"
   },
   {
-    "id": "huggingface:bartowski/Qwen3.8-27B-GGUF",
-    "name": "Qwen3.8-27B-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T15:48:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Qwen3.8-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "image-text-to-text",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T22:17:04.522008+00:00",
-    "source_ids": [
-      "bartowski/Qwen3.8-27B-GGUF"
-    ],
-    "family": "Qwen3.8"
-  },
-  {
     "id": "huggingface:ggml-org/Qwen3.8-27B-GGUF",
     "name": "Qwen3.8-27B-GGUF",
     "provider": "ggml-org",
@@ -22459,6 +22492,40 @@
     "family": "supertonic-3-coreml"
   },
   {
+    "id": "huggingface:AriaVale2/my-safetensors-backup",
+    "name": "my-safetensors-backup",
+    "provider": "AriaVale2",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-05-16T07:58:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AriaVale2/my-safetensors-backup",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "image-generation",
+      "video-generation",
+      "hf-spaces"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-11T23:30:25.261697+00:00",
+    "source_ids": [
+      "AriaVale2/my-safetensors-backup"
+    ],
+    "family": "my-safetensors-backup"
+  },
+  {
     "id": "huggingface:handy-computer/gigaam-v3-ctc-gguf",
     "name": "gigaam-v3-ctc-gguf",
     "provider": "handy-computer",
@@ -23443,171 +23510,6 @@
       "handy-computer/whisper-tiny-gguf"
     ],
     "family": "whisper-tiny"
-  },
-  {
-    "id": "huggingface:Diamegs/PIT-4B-202412",
-    "name": "PIT-4B-202412",
-    "provider": "Diamegs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T15:40:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Diamegs/PIT-4B-202412",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "pit",
-      "text-generation",
-      "causal-lm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T22:17:03.517660+00:00",
-    "source_ids": [
-      "Diamegs/PIT-4B-202412"
-    ],
-    "family": "PIT-202412"
-  },
-  {
-    "id": "huggingface:Diamegs/PIT-4B-202012",
-    "name": "PIT-4B-202012",
-    "provider": "Diamegs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T15:34:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Diamegs/PIT-4B-202012",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "pit",
-      "text-generation",
-      "causal-lm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T22:17:03.517687+00:00",
-    "source_ids": [
-      "Diamegs/PIT-4B-202012"
-    ],
-    "family": "PIT-202012"
-  },
-  {
-    "id": "huggingface:Diamegs/PIT-4B-201312",
-    "name": "PIT-4B-201312",
-    "provider": "Diamegs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T15:24:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Diamegs/PIT-4B-201312",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "pit",
-      "text-generation",
-      "causal-lm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T22:17:03.517719+00:00",
-    "source_ids": [
-      "Diamegs/PIT-4B-201312"
-    ],
-    "family": "PIT-201312"
-  },
-  {
-    "id": "huggingface:Diamegs/PIT-4B-FT-201412",
-    "name": "PIT-4B-FT-201412",
-    "provider": "Diamegs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-21T16:21:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Diamegs/PIT-4B-FT-201412",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "pit",
-      "text-generation",
-      "causal-lm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T22:17:03.517602+00:00",
-    "source_ids": [
-      "Diamegs/PIT-4B-FT-201412"
-    ],
-    "family": "PIT-FT-201412"
-  },
-  {
-    "id": "huggingface:Diamegs/PIT-4B-FT-201312",
-    "name": "PIT-4B-FT-201312",
-    "provider": "Diamegs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-21T13:16:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Diamegs/PIT-4B-FT-201312",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "pit",
-      "text-generation",
-      "causal-lm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-11T22:17:03.517627+00:00",
-    "source_ids": [
-      "Diamegs/PIT-4B-FT-201312"
-    ],
-    "family": "PIT-FT-201312"
   },
   {
     "id": "huggingface:OpenVINO/gemma-4-E4B-it-int4-ov",
