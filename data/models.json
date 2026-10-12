@@ -166405,5 +166405,212 @@
       "litert-community/Qwen3-0.6B"
     ],
     "family": "Qwen3"
+  },
+  {
+    "id": "openrouter:meta/muse-wonder",
+    "name": "Meta: Muse Wonder",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T12:25:45+00:00",
+    "context_length": 1048576,
+    "description": "Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with...",
+    "url": "https://openrouter.ai/meta/muse-wonder",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 4.0,
+      "completion_per_million": 20.0
+    },
+    "first_seen": "2026-10-12T17:26:30.076837+00:00",
+    "source_ids": [
+      "meta/muse-wonder"
+    ],
+    "family": "Muse Wonder"
+  },
+  {
+    "id": "huggingface:Skttttt/Himeros-V2-27B-GGUF",
+    "name": "Himeros-V2-27B-GGUF",
+    "provider": "Skttttt",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-09T11:35:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Skttttt/Himeros-V2-27B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "roleplay",
+      "creative-writing",
+      "long-context",
+      "romance"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-12T17:26:30.165772+00:00",
+    "source_ids": [
+      "Skttttt/Himeros-V2-27B-GGUF"
+    ],
+    "family": "Himeros-V2"
+  },
+  {
+    "id": "huggingface:nthngdy/cplm-baselines-1.7B",
+    "name": "cplm-baselines-1.7B",
+    "provider": "nthngdy",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T16:27:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nthngdy/cplm-baselines-1.7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "text-generation",
+      "en",
+      "dataset:HuggingFaceFW/fineweb-edu",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-12T17:26:30.165802+00:00",
+    "source_ids": [
+      "nthngdy/cplm-baselines-1.7B"
+    ],
+    "family": "cplm-baselines"
+  },
+  {
+    "id": "huggingface:berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8",
+    "name": "10Eros-Max-h3-turbo-beta6-pruned-w4a8",
+    "provider": "berryber09",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-10-10T13:36:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "comfyui",
+      "w4a8",
+      "quantized",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-12T17:26:30.341317+00:00",
+    "source_ids": [
+      "berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8"
+    ],
+    "family": "10Eros-Max-h3-turbo-beta6-pruned-w4a8"
+  },
+  {
+    "id": "huggingface:Jundot/Qwen3.8-27B-oQ4e-fp16-mtp",
+    "name": "Qwen3.8-27B-oQ4e-fp16-mtp",
+    "provider": "Jundot",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T00:24:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jundot/Qwen3.8-27B-oQ4e-fp16-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-12T17:26:30.597488+00:00",
+    "source_ids": [
+      "Jundot/Qwen3.8-27B-oQ4e-fp16-mtp"
+    ],
+    "family": "Qwen3.8-oQ4e-fp16-mtp"
+  },
+  {
+    "id": "huggingface:ahmadw/jina-ocr-v1-GGUF",
+    "name": "jina-ocr-v1-GGUF",
+    "provider": "ahmadw",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-20T15:57:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ahmadw/jina-ocr-v1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "ocr",
+      "multimodal",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-12T17:26:30.597584+00:00",
+    "source_ids": [
+      "ahmadw/jina-ocr-v1-GGUF"
+    ],
+    "family": "jina-ocr-v1"
   }
 ]
