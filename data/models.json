@@ -166950,5 +166950,513 @@
       "RLWRLD/RLDX-1-VLM"
     ],
     "family": "RLDX-1-VLM"
+  },
+  {
+    "id": "openrouter:liquid/lfm-2.5-24b-a2b",
+    "name": "LiquidAI: LFM2.5-24B-A2B",
+    "provider": "Liquid AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T17:20:25+00:00",
+    "context_length": 128000,
+    "description": "LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters. It always reasons before answering and is built for agents that call tools. Liquid...",
+    "url": "https://openrouter.ai/liquid/lfm-2.5-24b-a2b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 1.0
+    },
+    "first_seen": "2026-10-13T18:56:42.633670+00:00",
+    "source_ids": [
+      "liquid/lfm-2.5-24b-a2b"
+    ],
+    "family": "LFM2.5"
+  },
+  {
+    "id": "openrouter:google/gemini-4-argon",
+    "name": "Google: Gemini 4 Argon",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T16:04:37+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across...",
+    "url": "https://openrouter.ai/google/gemini-4-argon",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-10-13T18:56:42.634558+00:00",
+    "source_ids": [
+      "google/gemini-4-argon"
+    ],
+    "family": "Gemini 4 Argon"
+  },
+  {
+    "id": "openrouter:google/gemini-4-argon:batch",
+    "name": "Google: Gemini 4 Argon (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T16:04:37+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across...",
+    "url": "https://openrouter.ai/google/gemini-4-argon:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-10-13T18:56:42.634594+00:00",
+    "source_ids": [
+      "google/gemini-4-argon:batch"
+    ],
+    "family": "Gemini 4 Argon (batch)"
+  },
+  {
+    "id": "openrouter:scaledown/summarize",
+    "name": "ScaleDown: Summarize",
+    "provider": "scaledown",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T12:09:20+00:00",
+    "context_length": 1000000,
+    "description": "Summarize is an abstractive summarization model from ScaleDown. It condenses long text and documents into a fluent, faithful rewrite rather than lifting sentences from the source, and is suited for...",
+    "url": "https://openrouter.ai/scaledown/summarize",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.04,
+      "completion_per_million": 0.0
+    },
+    "first_seen": "2026-10-13T18:56:42.634627+00:00",
+    "source_ids": [
+      "scaledown/summarize"
+    ],
+    "family": "Summarize"
+  },
+  {
+    "id": "openrouter:scaledown/extract",
+    "name": "ScaleDown: Extract",
+    "provider": "scaledown",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T12:09:11+00:00",
+    "context_length": 1000000,
+    "description": "Extract is a description-driven entity extraction model from ScaleDown. Instead of a fixed set of entity types, callers describe the fields they want in plain English through `provider.options.scaledown.entities`, and the...",
+    "url": "https://openrouter.ai/scaledown/extract",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.04,
+      "completion_per_million": 0.0
+    },
+    "first_seen": "2026-10-13T18:56:42.634653+00:00",
+    "source_ids": [
+      "scaledown/extract"
+    ],
+    "family": "Extract"
+  },
+  {
+    "id": "huggingface:onnx-community/Qwen3-1.7B-ONNX",
+    "name": "Qwen3-1.7B-ONNX",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-28T23:47:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/Qwen3-1.7B-ONNX",
+    "tags": [
+      "text-generation",
+      "transformers.js",
+      "onnx",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:42.791924+00:00",
+    "source_ids": [
+      "onnx-community/Qwen3-1.7B-ONNX"
+    ],
+    "family": "Qwen3-ONNX"
+  },
+  {
+    "id": "huggingface:onnx-community/Qwen3-0.6B-ONNX",
+    "name": "Qwen3-0.6B-ONNX",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-28T22:23:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/Qwen3-0.6B-ONNX",
+    "tags": [
+      "text-generation",
+      "transformers.js",
+      "onnx",
+      "qwen3",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:42.791953+00:00",
+    "source_ids": [
+      "onnx-community/Qwen3-0.6B-ONNX"
+    ],
+    "family": "Qwen3-ONNX"
+  },
+  {
+    "id": "huggingface:onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX",
+    "name": "DeepSeek-R1-Distill-Qwen-1.5B-ONNX",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-01-20T15:36:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX",
+    "tags": [
+      "text-generation",
+      "transformers.js",
+      "onnx",
+      "qwen2",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:42.792007+00:00",
+    "source_ids": [
+      "onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX"
+    ],
+    "family": "DeepSeek-R1-Distill-Qwen-ONNX"
+  },
+  {
+    "id": "huggingface:jdominick05/Qwen3.8-27B-24GB-262k-GGUF",
+    "name": "Qwen3.8-27B-24GB-262k-GGUF",
+    "provider": "jdominick05",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T17:44:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jdominick05/Qwen3.8-27B-24GB-262k-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "mixed-precision",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:42.792134+00:00",
+    "source_ids": [
+      "jdominick05/Qwen3.8-27B-24GB-262k-GGUF"
+    ],
+    "family": "Qwen3.8-24GB-262k"
+  },
+  {
+    "id": "huggingface:herimor/voxtream2",
+    "name": "voxtream2",
+    "provider": "herimor",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-17T11:22:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/herimor/voxtream2",
+    "tags": [
+      "text-to-speech",
+      "voxtream",
+      "safetensors",
+      "text-to-speech",
+      "zero-shot",
+      "streaming"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:43.395932+00:00",
+    "source_ids": [
+      "herimor/voxtream2"
+    ],
+    "family": "voxtream2"
+  },
+  {
+    "id": "huggingface:litert-community/whisper-tiny",
+    "name": "whisper-tiny",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-10T18:29:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/whisper-tiny",
+    "tags": [
+      "automatic-speech-recognition",
+      "tflite",
+      "automatic-speech-recognition",
+      "base_model:openai/whisper-tiny",
+      "base_model:finetune:openai/whisper-tiny",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:43.526875+00:00",
+    "source_ids": [
+      "litert-community/whisper-tiny"
+    ],
+    "family": "whisper-tiny"
+  },
+  {
+    "id": "huggingface:litert-community/parakeet-ctc-0.6b",
+    "name": "parakeet-ctc-0.6b",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-09T23:31:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/parakeet-ctc-0.6b",
+    "tags": [
+      "automatic-speech-recognition",
+      "tflite",
+      "automatic-speech-recognition",
+      "base_model:nvidia/parakeet-ctc-0.6b",
+      "base_model:finetune:nvidia/parakeet-ctc-0.6b",
+      "license:cc-by-4.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:43.526907+00:00",
+    "source_ids": [
+      "litert-community/parakeet-ctc-0.6b"
+    ],
+    "family": "parakeet-ctc"
+  },
+  {
+    "id": "huggingface:onnx-community/Qwen3.5-0.8B-ONNX-OPT",
+    "name": "Qwen3.5-0.8B-ONNX-OPT",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-22T22:57:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/Qwen3.5-0.8B-ONNX-OPT",
+    "tags": [
+      "image-text-to-text",
+      "onnx",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.5-0.8B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:43.651219+00:00",
+    "source_ids": [
+      "onnx-community/Qwen3.5-0.8B-ONNX-OPT"
+    ],
+    "family": "Qwen3.5-ONNX-OPT"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B-gguf",
+    "name": "MiniCPM-V-4.7-35B-A3B-gguf",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T18:05:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "minicpm-v",
+      "multimodal",
+      "On-Device Model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:43.651432+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-35B-A3B-gguf"
+    ],
+    "family": "MiniCPM-V-4.7"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-1B-gguf",
+    "name": "MiniCPM-V-4.7-1B-gguf",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T18:05:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-gguf",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "minicpm-v",
+      "multimodal",
+      "On-Device Model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T18:56:43.651498+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-1B-gguf"
+    ],
+    "family": "MiniCPM-V-4.7"
   }
 ]
