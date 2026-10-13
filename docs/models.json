@@ -166782,5 +166782,173 @@
       "h2oai/h2o-lightning-4b"
     ],
     "family": "h2o-lightning"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16-s3",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16-s3",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T16:38:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16-s3",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T11:27:19.857388+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16-s3"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16-s3"
+  },
+  {
+    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16-s3",
+    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16-s3",
+    "provider": "agurung",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T16:29:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16-s3",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "openrlhf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T11:27:19.857614+00:00",
+    "source_ids": [
+      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16-s3"
+    ],
+    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16-s3"
+  },
+  {
+    "id": "huggingface:gitarist/Qwen3-8B-BPDQ-2bit",
+    "name": "Qwen3-8B-BPDQ-2bit",
+    "provider": "gitarist",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-16T15:14:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gitarist/Qwen3-8B-BPDQ-2bit",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3",
+      "quantization",
+      "2-bit",
+      "vllm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T11:27:19.857749+00:00",
+    "source_ids": [
+      "gitarist/Qwen3-8B-BPDQ-2bit"
+    ],
+    "family": "Qwen3-BPDQ-2bit"
+  },
+  {
+    "id": "huggingface:docling-project/TableFormerV2",
+    "name": "TableFormerV2",
+    "provider": "docling-project",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-20T15:48:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/docling-project/TableFormerV2",
+    "tags": [
+      "image-to-text",
+      "docling",
+      "safetensors",
+      "TableFormerV2",
+      "table-structure-recognition",
+      "document-conversion"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T11:27:19.988844+00:00",
+    "source_ids": [
+      "docling-project/TableFormerV2"
+    ],
+    "family": "TableFormerV2"
+  },
+  {
+    "id": "huggingface:RLWRLD/RLDX-1-VLM",
+    "name": "RLDX-1-VLM",
+    "provider": "RLWRLD",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-27T11:05:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RLWRLD/RLDX-1-VLM",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "vlm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T11:27:20.296668+00:00",
+    "source_ids": [
+      "RLWRLD/RLDX-1-VLM"
+    ],
+    "family": "RLDX-1-VLM"
   }
 ]
