@@ -166612,5 +166612,175 @@
       "ahmadw/jina-ocr-v1-GGUF"
     ],
     "family": "jina-ocr-v1"
+  },
+  {
+    "id": "huggingface:DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "name": "LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T06:32:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "liquid",
+      "lfm2.5",
+      "mixture of experts",
+      "MOE"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:39.825464+00:00",
+    "source_ids": [
+      "DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF"
+    ],
+    "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
+  },
+  {
+    "id": "huggingface:DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "name": "LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T01:18:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "liquid",
+      "lfm2.5",
+      "edge",
+      "12 reasoning modes"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:39.825517+00:00",
+    "source_ids": [
+      "DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF"
+    ],
+    "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
+  },
+  {
+    "id": "huggingface:nvidia/Qwen-Image-NVFP4",
+    "name": "Qwen-Image-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-09T23:37:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Qwen-Image-NVFP4",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "nvidia",
+      "ModelOpt",
+      "Qwen-Image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:39.944596+00:00",
+    "source_ids": [
+      "nvidia/Qwen-Image-NVFP4"
+    ],
+    "family": "Qwen-Image-NVFP4"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+    "name": "Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T03:49:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "27 reasoning modes",
+      "27 instruct modes",
+      "15 AI Constructs",
+      "5 Super AI Constructs"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:40.635228+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-Turbo-Brilliance-50X-Reasoning--NEO-MAX-MTP"
+  },
+  {
+    "id": "huggingface:h2oai/h2o-lightning-4b",
+    "name": "h2o-lightning-4b",
+    "provider": "h2oai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T19:19:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/h2oai/h2o-lightning-4b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "decision-making"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:40.635319+00:00",
+    "source_ids": [
+      "h2oai/h2o-lightning-4b"
+    ],
+    "family": "h2o-lightning"
   }
 ]

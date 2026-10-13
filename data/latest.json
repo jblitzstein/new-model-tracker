@@ -309,6 +309,40 @@
     "family": "10Eros-Max-h3-turbo-beta6-pruned-w4a8"
   },
   {
+    "id": "huggingface:nvidia/Qwen-Image-NVFP4",
+    "name": "Qwen-Image-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-09T23:37:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Qwen-Image-NVFP4",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "nvidia",
+      "ModelOpt",
+      "Qwen-Image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:39.944596+00:00",
+    "source_ids": [
+      "nvidia/Qwen-Image-NVFP4"
+    ],
+    "family": "Qwen-Image-NVFP4"
+  },
+  {
     "id": "huggingface:IsValorum/Swift-1.5-Qwen3.8-27B-Uncensored-MTP-VAL-APEX-I-NanoPlus-V3-GGUF",
     "name": "Swift-1.5-Qwen3.8-27B-Uncensored-MTP-VAL-APEX-I-NanoPlus-V3-GGUF",
     "provider": "IsValorum",
@@ -2157,6 +2191,41 @@
     "family": "Sakura-FrogNano-2609"
   },
   {
+    "id": "huggingface:h2oai/h2o-lightning-4b",
+    "name": "h2o-lightning-4b",
+    "provider": "h2oai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T19:19:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/h2oai/h2o-lightning-4b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "decision-making"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:40.635319+00:00",
+    "source_ids": [
+      "h2oai/h2o-lightning-4b"
+    ],
+    "family": "h2o-lightning"
+  },
+  {
     "id": "huggingface:ggml-org/MiMo-V2.6-Pro-MOPD-GGUF",
     "name": "MiMo-V2.6-Pro-MOPD-GGUF",
     "provider": "ggml-org",
@@ -2286,6 +2355,39 @@
       "inclusionai/ling-3.1-flash"
     ],
     "family": "Ling 3.1 Flash"
+  },
+  {
+    "id": "huggingface:DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "name": "LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T06:32:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "liquid",
+      "lfm2.5",
+      "mixture of experts",
+      "MOE"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:39.825464+00:00",
+    "source_ids": [
+      "DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF"
+    ],
+    "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
   },
   {
     "id": "huggingface:SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
@@ -3569,6 +3671,41 @@
       "pdmd2026/pdmd_4NFE_lora"
     ],
     "family": "pdmd_4NFE_lora"
+  },
+  {
+    "id": "huggingface:DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+    "name": "Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-29T03:49:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "27 reasoning modes",
+      "27 instruct modes",
+      "15 AI Constructs",
+      "5 Super AI Constructs"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:40.635228+00:00",
+    "source_ids": [
+      "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF"
+    ],
+    "family": "Qwen3.8-Turbo-Brilliance-50X-Reasoning--NEO-MAX-MTP"
   },
   {
     "id": "huggingface:yava-code/Tessera-1B-Nano-Base",
@@ -9963,6 +10100,39 @@
     "family": "Opti"
   },
   {
+    "id": "huggingface:DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "name": "LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "provider": "DavidAU",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T01:18:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "liquid",
+      "lfm2.5",
+      "edge",
+      "12 reasoning modes"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T01:50:39.825517+00:00",
+    "source_ids": [
+      "DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF"
+    ],
+    "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
+  },
+  {
     "id": "huggingface:Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
     "name": "Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
     "provider": "Greatjedi",
@@ -12496,41 +12666,6 @@
     "family": "DeepSeek-V4.1-Flash"
   },
   {
-    "id": "huggingface:jan1k/Qwen3.5-9B-Uncensored-Genesis-NVFP4-GGUF",
-    "name": "Qwen3.5-9B-Uncensored-Genesis-NVFP4-GGUF",
-    "provider": "jan1k",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-11T08:27:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jan1k/Qwen3.5-9B-Uncensored-Genesis-NVFP4-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "nvfp4",
-      "fp4",
-      "imatrix",
-      "blackwell"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-12T18:08:53.924021+00:00",
-    "source_ids": [
-      "jan1k/Qwen3.5-9B-Uncensored-Genesis-NVFP4-GGUF"
-    ],
-    "family": "Qwen3.5-Uncensored-Genesis-NVFP4"
-  },
-  {
     "id": "huggingface:vladmandic/MiniMax-H3-Turbo-LoRA",
     "name": "MiniMax-H3-Turbo-LoRA",
     "provider": "vladmandic",
@@ -12836,41 +12971,6 @@
     "family": "Nex-N2.5-mini-Uncensored"
   },
   {
-    "id": "huggingface:AMAImedia/DeepSeek-V4.1-Flash-FP8-GGUF",
-    "name": "DeepSeek-V4.1-Flash-FP8-GGUF",
-    "provider": "AMAImedia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T11:39:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AMAImedia/DeepSeek-V4.1-Flash-FP8-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "deepseek_v41",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-12T18:08:53.923981+00:00",
-    "source_ids": [
-      "AMAImedia/DeepSeek-V4.1-Flash-FP8-GGUF"
-    ],
-    "family": "DeepSeek-V4.1-Flash-FP8"
-  },
-  {
     "id": "huggingface:inferencerlabs/DeepSeek-V4.1-MLX-Q4i",
     "name": "DeepSeek-V4.1-MLX-Q4i",
     "provider": "inferencerlabs",
@@ -13070,39 +13170,6 @@
     "family": "Ornith-1.5-Abliterated-CyberTiel-Calibrated-MTPv2-ICE"
   },
   {
-    "id": "huggingface:joaosollatori/small-agentic-model-2b",
-    "name": "small-agentic-model-2b",
-    "provider": "joaosollatori",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T04:07:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/joaosollatori/small-agentic-model-2b",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "gpt2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-12T18:08:53.386653+00:00",
-    "source_ids": [
-      "joaosollatori/small-agentic-model-2b"
-    ],
-    "family": "small-agentic-model"
-  },
-  {
     "id": "huggingface:joaosollatori/small-agentic-model-1.5B",
     "name": "small-agentic-model-1.5B",
     "provider": "joaosollatori",
@@ -13134,39 +13201,6 @@
       "joaosollatori/small-agentic-model-1.5B"
     ],
     "family": "small-agentic-model"
-  },
-  {
-    "id": "huggingface:jan1k/Qwen3.8-27B-Uncensored-Genesis-V1-NVFP4-GGUF",
-    "name": "Qwen3.8-27B-Uncensored-Genesis-V1-NVFP4-GGUF",
-    "provider": "jan1k",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T01:46:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jan1k/Qwen3.8-27B-Uncensored-Genesis-V1-NVFP4-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "nvfp4",
-      "fp4",
-      "imatrix",
-      "blackwell"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-12T18:08:53.386786+00:00",
-    "source_ids": [
-      "jan1k/Qwen3.8-27B-Uncensored-Genesis-V1-NVFP4-GGUF"
-    ],
-    "family": "Qwen3.8-Uncensored-Genesis-V1-NVFP4"
   },
   {
     "id": "huggingface:mobilint/EXAONE-3.5-2.4B-Instruct-regulus-rb-usb",
@@ -18265,39 +18299,6 @@
     "family": "Qwen3.8-Distilled-NPU2"
   },
   {
-    "id": "huggingface:chenyumo/moziAI-27B-MTP",
-    "name": "moziAI-27B-MTP",
-    "provider": "chenyumo",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-24T18:27:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/chenyumo/moziAI-27B-MTP",
-    "tags": [
-      "text-generation",
-      "llama-cpp",
-      "gguf",
-      "qwen3_5",
-      "Dense",
-      "financial-llm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-12T21:57:17.872336+00:00",
-    "source_ids": [
-      "chenyumo/moziAI-27B-MTP"
-    ],
-    "family": "moziAI-MTP"
-  },
-  {
     "id": "huggingface:Lucebox/Qwen3.8-27B-IQ4_XS-fast-GGUF",
     "name": "Qwen3.8-27B-IQ4_XS-fast-GGUF",
     "provider": "Lucebox",
@@ -20342,39 +20343,6 @@
       "RedHatAI/Muse-Glimmer-30B-NVFP4"
     ],
     "family": "Muse-Glimmer-NVFP4"
-  },
-  {
-    "id": "huggingface:chenyumo/moziAI-35B-A3B-MOE-MTP",
-    "name": "moziAI-35B-A3B-MOE-MTP",
-    "provider": "chenyumo",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-10T19:42:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/chenyumo/moziAI-35B-A3B-MOE-MTP",
-    "tags": [
-      "text-generation",
-      "llama-cpp",
-      "gguf",
-      "qwen3_5_moe",
-      "MoE",
-      "financial-llm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-12T21:57:17.872249+00:00",
-    "source_ids": [
-      "chenyumo/moziAI-35B-A3B-MOE-MTP"
-    ],
-    "family": "moziAI-MOE-MTP"
   },
   {
     "id": "huggingface:RedHatAI/Muse-Glimmer-30B-FP8-block",
