@@ -167458,5 +167458,200 @@
       "openbmb/MiniCPM-V-4.7-1B-gguf"
     ],
     "family": "MiniCPM-V-4.7"
+  },
+  {
+    "id": "openrouter:~unbiased/pareto-latest",
+    "name": "Pareto Latest",
+    "provider": "~unbiased",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T23:10:50+00:00",
+    "context_length": 262144,
+    "description": "This model always redirects to the latest model in the Pareto family.",
+    "url": "https://openrouter.ai/~unbiased/pareto-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-10-13T23:36:51.469571+00:00",
+    "source_ids": [
+      "~unbiased/pareto-latest"
+    ],
+    "family": "Pareto Latest"
+  },
+  {
+    "id": "openrouter:unbiased/pareto-26.9",
+    "name": "Pareto 26.9",
+    "provider": "unbiased",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T22:28:57+00:00",
+    "context_length": 262144,
+    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+    "url": "https://openrouter.ai/unbiased/pareto-26.9",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-10-13T23:36:51.470583+00:00",
+    "source_ids": [
+      "unbiased/pareto-26.9"
+    ],
+    "family": "Pareto 26.9"
+  },
+  {
+    "id": "huggingface:IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF",
+    "name": "Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T19:40:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "27b",
+      "27b-params",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.672365+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF"
+    ],
+    "family": "Qwen3.8-Efficient-VAL-APEX-I-NanoPlus"
+  },
+  {
+    "id": "huggingface:IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T19:39:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "27b",
+      "27b-params",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.672447+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Qwen3.8-Efficient-VAL-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "name": "Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T00:16:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "val-apex-i",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.672747+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF"
+    ],
+    "family": "Qwen3.8-VAL-APEX-I-MiniPlus-V3"
+  },
+  {
+    "id": "huggingface:AtomicChat/Qwen-Image-2.1-Turbo-GGUF",
+    "name": "Qwen-Image-2.1-Turbo-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-09T14:55:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "stable-diffusion.cpp",
+      "qwen",
+      "qwen-image",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.839873+00:00",
+    "source_ids": [
+      "AtomicChat/Qwen-Image-2.1-Turbo-GGUF"
+    ],
+    "family": "Qwen-Image-2.1-Turbo"
   }
 ]

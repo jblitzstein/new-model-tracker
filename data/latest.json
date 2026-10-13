@@ -1,5 +1,67 @@
 [
   {
+    "id": "openrouter:~unbiased/pareto-latest",
+    "name": "Pareto Latest",
+    "provider": "~unbiased",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T23:10:50+00:00",
+    "context_length": 262144,
+    "description": "This model always redirects to the latest model in the Pareto family.",
+    "url": "https://openrouter.ai/~unbiased/pareto-latest",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-10-13T23:36:51.469571+00:00",
+    "source_ids": [
+      "~unbiased/pareto-latest"
+    ],
+    "family": "Pareto Latest"
+  },
+  {
+    "id": "openrouter:unbiased/pareto-26.9",
+    "name": "Pareto 26.9",
+    "provider": "unbiased",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T22:28:57+00:00",
+    "context_length": 262144,
+    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+    "url": "https://openrouter.ai/unbiased/pareto-26.9",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-10-13T23:36:51.470583+00:00",
+    "source_ids": [
+      "unbiased/pareto-26.9"
+    ],
+    "family": "Pareto 26.9"
+  },
+  {
     "id": "openrouter:liquid/lfm-2.5-24b-a2b",
     "name": "LiquidAI: LFM2.5-24B-A2B",
     "provider": "Liquid AI",
@@ -813,6 +875,40 @@
     "family": "Qwen-Image-2.1-Turbo"
   },
   {
+    "id": "huggingface:AtomicChat/Qwen-Image-2.1-Turbo-GGUF",
+    "name": "Qwen-Image-2.1-Turbo-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-09T14:55:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "stable-diffusion.cpp",
+      "qwen",
+      "qwen-image",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.839873+00:00",
+    "source_ids": [
+      "AtomicChat/Qwen-Image-2.1-Turbo-GGUF"
+    ],
+    "family": "Qwen-Image-2.1-Turbo"
+  },
+  {
     "id": "huggingface:mradermacher/Veloxy-Titan-32B-Vision-i1-GGUF",
     "name": "Veloxy-Titan-32B-Vision-i1-GGUF",
     "provider": "mradermacher",
@@ -1179,6 +1275,39 @@
       "IsValorum/Qwen3.8-27B-VAL-APEX-I-NanoPlus-V3-GGUF"
     ],
     "family": "Qwen3.8-VAL-APEX-I-NanoPlus-V3"
+  },
+  {
+    "id": "huggingface:IsValorum/Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "name": "Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T00:16:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "val-apex-i",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.672747+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF"
+    ],
+    "family": "Qwen3.8-VAL-APEX-I-MiniPlus-V3"
   },
   {
     "id": "huggingface:francesca9805/swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407",
@@ -1580,6 +1709,39 @@
     "family": "Qwen3.8-Efficient-Uncensored-VAL-APEX-I-NanoPlus"
   },
   {
+    "id": "huggingface:IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF",
+    "name": "Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T19:40:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "27b",
+      "27b-params",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.672365+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-NanoPlus-GGUF"
+    ],
+    "family": "Qwen3.8-Efficient-VAL-APEX-I-NanoPlus"
+  },
+  {
     "id": "huggingface:IsValorum/Qwen3.8-27B-EfficientThink-Uncensored-VAL-APEX-I-MiniPlus-V2.1-GGUF",
     "name": "Qwen3.8-27B-EfficientThink-Uncensored-VAL-APEX-I-MiniPlus-V2.1-GGUF",
     "provider": "IsValorum",
@@ -1611,6 +1773,39 @@
       "IsValorum/Qwen3.8-27B-EfficientThink-Uncensored-VAL-APEX-I-MiniPlus-V2.1-GGUF"
     ],
     "family": "Qwen3.8-Efficient-Uncensored-VAL-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "huggingface:IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T19:39:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "27b",
+      "27b-params",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-13T23:36:51.672447+00:00",
+    "source_ids": [
+      "IsValorum/Qwen3.8-27B-EfficientThink-VAL-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Qwen3.8-Efficient-VAL-APEX-I-MiniPlus-V2.1"
   },
   {
     "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B-gguf",
@@ -12801,39 +12996,6 @@
     "family": "Anka-TTS"
   },
   {
-    "id": "huggingface:ManniX-ITA/JackOD-9B-Coder-MTP-GGUF",
-    "name": "JackOD-9B-Coder-MTP-GGUF",
-    "provider": "ManniX-ITA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-11T17:58:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ManniX-ITA/JackOD-9B-Coder-MTP-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "merge",
-      "code",
-      "agentic",
-      "tool-calling"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-13T22:08:50.709290+00:00",
-    "source_ids": [
-      "ManniX-ITA/JackOD-9B-Coder-MTP-GGUF"
-    ],
-    "family": "JackOD-Coder-MTP"
-  },
-  {
     "id": "huggingface:silvermoong/SilvermoonMix-Anima-Evolved",
     "name": "SilvermoonMix-Anima-Evolved",
     "provider": "silvermoong",
@@ -12934,41 +13096,6 @@
       "ukisai/Swift-Qwen3.8-27B-GGUF"
     ],
     "family": "Swift-Qwen3.8"
-  },
-  {
-    "id": "huggingface:agentionai/Signal-3.8-Flash-Next-GGUF",
-    "name": "Signal-3.8-Flash-Next-GGUF",
-    "provider": "agentionai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-11T11:49:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/agentionai/Signal-3.8-Flash-Next-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "token-efficient",
-      "efficient-thinking",
-      "qwen3.8-flash-next",
-      "qwen4exp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-13T22:08:51.556332+00:00",
-    "source_ids": [
-      "agentionai/Signal-3.8-Flash-Next-GGUF"
-    ],
-    "family": "Signal-3.8-Flash-Next"
   },
   {
     "id": "huggingface:diffbot/DeepSeek-V4.1-Flash-EXL3-3bpw-2x-RTX-PRO-6000",
@@ -16619,41 +16746,6 @@
       "Prannesshkva/ISOM-R1-Edge-130M-MoE-Beta-Prototype"
     ],
     "family": "ISOM-R1-Edge-130M-MoE-Beta-Prototype"
-  },
-  {
-    "id": "huggingface:OneNexus/GLM-5.3-Flash-MXFP4",
-    "name": "GLM-5.3-Flash-MXFP4",
-    "provider": "OneNexus",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-30T03:11:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OneNexus/GLM-5.3-Flash-MXFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "glm5_next",
-      "image-text-to-text",
-      "quark"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-13T22:08:51.556356+00:00",
-    "source_ids": [
-      "OneNexus/GLM-5.3-Flash-MXFP4"
-    ],
-    "family": "GLM-5.3-Flash-MXFP4"
   },
   {
     "id": "huggingface:GreenBitAI/Qwen3.8-Flash-Next-4bit-paged",
