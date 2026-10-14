@@ -1,5 +1,39 @@
 [
   {
+    "id": "huggingface:Jmica/Drama-3-GGUF",
+    "name": "Drama-3-GGUF",
+    "provider": "Jmica",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-13T23:12:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jmica/Drama-3-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio.cpp",
+      "fish-audio",
+      "text-to-speech",
+      "voice-cloning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.525345+00:00",
+    "source_ids": [
+      "Jmica/Drama-3-GGUF"
+    ],
+    "family": "Drama-3"
+  },
+  {
     "id": "openrouter:~unbiased/pareto-latest",
     "name": "Pareto Latest",
     "provider": "~unbiased",
@@ -262,6 +296,39 @@
       "jdominick05/Qwen3.8-27B-24GB-262k-GGUF"
     ],
     "family": "Qwen3.8-24GB-262k"
+  },
+  {
+    "id": "huggingface:thinletter/ThinCtx-Qwen3.5-0.8B",
+    "name": "ThinCtx-Qwen3.5-0.8B",
+    "provider": "thinletter",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T14:42:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thinletter/ThinCtx-Qwen3.5-0.8B",
+    "tags": [
+      "text-generation",
+      "thinctx",
+      "safetensors",
+      "qwen3_5_text",
+      "long-context",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:48.619753+00:00",
+    "source_ids": [
+      "thinletter/ThinCtx-Qwen3.5-0.8B"
+    ],
+    "family": "ThinCtx-Qwen3.5"
   },
   {
     "id": "openrouter:meta/muse-wonder",
@@ -1178,6 +1245,41 @@
     "family": "antalia-mini"
   },
   {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B-FP8",
+    "name": "MiniCPM-V-4.7-35B-A3B-FP8",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T05:20:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minicpmv4_7",
+      "image-text-to-text",
+      "minicpm-v"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.900272+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-35B-A3B-FP8"
+    ],
+    "family": "MiniCPM-V-4.7-FP8"
+  },
+  {
     "id": "huggingface:kindlingai/glm-5.3-exlr8-k2-k3-k4",
     "name": "glm-5.3-exlr8-k2-k3-k4",
     "provider": "kindlingai",
@@ -1506,6 +1608,41 @@
       "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16"
     ],
     "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc-vs16"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B",
+    "name": "MiniCPM-V-4.7-35B-A3B",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T07:07:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minicpmv4_7",
+      "image-text-to-text",
+      "minicpm-v"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.900341+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-35B-A3B"
+    ],
+    "family": "MiniCPM-V-4.7"
   },
   {
     "id": "huggingface:Veda-Sparse/Minimax-H3-R2VA-Veda-Preview",
@@ -1874,6 +2011,41 @@
     "first_seen": "2026-10-13T18:56:43.651498+00:00",
     "source_ids": [
       "openbmb/MiniCPM-V-4.7-1B-gguf"
+    ],
+    "family": "MiniCPM-V-4.7"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-1B",
+    "name": "MiniCPM-V-4.7-1B",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T17:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minicpmv4_7",
+      "image-text-to-text",
+      "minicpm-v"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.900369+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-1B"
     ],
     "family": "MiniCPM-V-4.7"
   },
@@ -12014,39 +12186,6 @@
     "family": "gollem-v4-250m-pl"
   },
   {
-    "id": "huggingface:tencent/Simple-Attention-Sparsification",
-    "name": "Simple-Attention-Sparsification",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-14T07:43:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/Simple-Attention-Sparsification",
-    "tags": [
-      "text-generation",
-      "qwen3",
-      "sparse-attention",
-      "long-context",
-      "sglang",
-      "sas"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:50.712711+00:00",
-    "source_ids": [
-      "tencent/Simple-Attention-Sparsification"
-    ],
-    "family": "Simple-Attention-Sparsification"
-  },
-  {
     "id": "huggingface:Qwen/Qwen-Image-2.1",
     "name": "Qwen-Image-2.1",
     "provider": "Qwen",
@@ -13061,40 +13200,6 @@
       "smalinin/DeepSeek-V4.1-Flash-GGUF"
     ],
     "family": "DeepSeek-V4.1-Flash"
-  },
-  {
-    "id": "huggingface:zeromodels/stable-diffusion-v1-5",
-    "name": "stable-diffusion-v1-5",
-    "provider": "zeromodels",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-09-12T07:39:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/zeromodels/stable-diffusion-v1-5",
-    "tags": [
-      "text-to-image",
-      "zeromodels",
-      "keras",
-      "stable-diffusion",
-      "stable-diffusion-diffusers",
-      "text-to-image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:50.844312+00:00",
-    "source_ids": [
-      "zeromodels/stable-diffusion-v1-5"
-    ],
-    "family": "stable-diffusion-v1-5"
   },
   {
     "id": "huggingface:krmkayabasi/Anka-TTS",
@@ -14437,39 +14542,6 @@
       "azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound"
     ],
     "family": "Qwen3.8-Flash-Next-INT4-AutoRound"
-  },
-  {
-    "id": "huggingface:Chaman1234/Sparse-AST-BWM",
-    "name": "Sparse-AST-BWM",
-    "provider": "Chaman1234",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-08T14:23:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Chaman1234/Sparse-AST-BWM",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "sparse-ast",
-      "blender",
-      "blender-python"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:50.712757+00:00",
-    "source_ids": [
-      "Chaman1234/Sparse-AST-BWM"
-    ],
-    "family": "Sparse-AST-BWM"
   },
   {
     "id": "huggingface:meshllm/Qwen3.8-Flash-Next-UD-IQ4_XS-layers",
@@ -21114,41 +21186,6 @@
     "family": "SZL-Khipu"
   },
   {
-    "id": "huggingface:mlx-community/gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit",
-    "name": "gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit",
-    "provider": "mlx-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-14T12:30:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mlx-community/gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "gemma4_unified",
-      "quantized",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:51.583120+00:00",
-    "source_ids": [
-      "mlx-community/gemma-4-12B-coder-fable5-composer2.5-v1-OptiQ-4bit"
-    ],
-    "family": "gemma-4-coder-fable5-composer2.5-v1-OptiQ-4bit"
-  },
-  {
     "id": "huggingface:mflux-community/krea-2-turbo-mflux-q8",
     "name": "krea-2-turbo-mflux-q8",
     "provider": "mflux-community",
@@ -21693,142 +21730,6 @@
       "AriaVale2/my-safetensors-backup"
     ],
     "family": "my-safetensors-backup"
-  },
-  {
-    "id": "huggingface:handy-computer/gigaam-v3-ctc-gguf",
-    "name": "gigaam-v3-ctc-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T05:32:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/gigaam-v3-ctc-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "gigaam"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:51.439907+00:00",
-    "source_ids": [
-      "handy-computer/gigaam-v3-ctc-gguf"
-    ],
-    "family": "gigaam-v3-ctc"
-  },
-  {
-    "id": "huggingface:handy-computer/gigaam-v3-e2e-ctc-gguf",
-    "name": "gigaam-v3-e2e-ctc-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T05:32:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/gigaam-v3-e2e-ctc-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "gigaam"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:51.439936+00:00",
-    "source_ids": [
-      "handy-computer/gigaam-v3-e2e-ctc-gguf"
-    ],
-    "family": "gigaam-v3-e2e-ctc"
-  },
-  {
-    "id": "huggingface:handy-computer/gigaam-v3-rnnt-gguf",
-    "name": "gigaam-v3-rnnt-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T05:32:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/gigaam-v3-rnnt-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "gigaam"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:51.439876+00:00",
-    "source_ids": [
-      "handy-computer/gigaam-v3-rnnt-gguf"
-    ],
-    "family": "gigaam-v3-rnnt"
-  },
-  {
-    "id": "huggingface:handy-computer/gigaam-v3-e2e-rnnt-gguf",
-    "name": "gigaam-v3-e2e-rnnt-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-13T05:32:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/gigaam-v3-e2e-rnnt-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "gigaam"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-14T09:36:51.439839+00:00",
-    "source_ids": [
-      "handy-computer/gigaam-v3-e2e-rnnt-gguf"
-    ],
-    "family": "gigaam-v3-e2e-rnnt"
   },
   {
     "id": "huggingface:handy-computer/canary-1b-gguf",
@@ -22650,6 +22551,40 @@
     "family": "Huihui-gemma-3n-E-it-abliterated-i1"
   },
   {
+    "id": "huggingface:mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
+    "name": "Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-23T06:06:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "uncensored",
+      "image-captioning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:48.992470+00:00",
+    "source_ids": [
+      "mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF"
+    ],
+    "family": "Qwen2.5-VL-Abliterated-Caption-it"
+  },
+  {
     "id": "huggingface:mradermacher/Perseus-Doc-vl-0712-GGUF",
     "name": "Perseus-Doc-vl-0712-GGUF",
     "provider": "mradermacher",
@@ -23153,6 +23088,40 @@
       "genmo/mochi-1-preview"
     ],
     "family": "mochi-1"
+  },
+  {
+    "id": "huggingface:Kansallisarkisto/multicentury-htr-model",
+    "name": "multicentury-htr-model",
+    "provider": "Kansallisarkisto",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-07T11:48:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Kansallisarkisto/multicentury-htr-model",
+    "tags": [
+      "image-to-text",
+      "pytorch",
+      "vision-encoder-decoder",
+      "image-to-text",
+      "fi",
+      "sv"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:48.992406+00:00",
+    "source_ids": [
+      "Kansallisarkisto/multicentury-htr-model"
+    ],
+    "family": "multicentury-htr-model"
   },
   {
     "id": "huggingface:vikhyatk/moondream2",

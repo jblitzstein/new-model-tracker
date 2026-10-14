@@ -167924,5 +167924,245 @@
       "swiss-ai/Apertus-v1.5-8B-base"
     ],
     "family": "Apertus-v1.5"
+  },
+  {
+    "id": "huggingface:thinletter/ThinCtx-Qwen3.5-0.8B",
+    "name": "ThinCtx-Qwen3.5-0.8B",
+    "provider": "thinletter",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T14:42:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/thinletter/ThinCtx-Qwen3.5-0.8B",
+    "tags": [
+      "text-generation",
+      "thinctx",
+      "safetensors",
+      "qwen3_5_text",
+      "long-context",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:48.619753+00:00",
+    "source_ids": [
+      "thinletter/ThinCtx-Qwen3.5-0.8B"
+    ],
+    "family": "ThinCtx-Qwen3.5"
+  },
+  {
+    "id": "huggingface:Kansallisarkisto/multicentury-htr-model",
+    "name": "multicentury-htr-model",
+    "provider": "Kansallisarkisto",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-10-07T11:48:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Kansallisarkisto/multicentury-htr-model",
+    "tags": [
+      "image-to-text",
+      "pytorch",
+      "vision-encoder-decoder",
+      "image-to-text",
+      "fi",
+      "sv"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:48.992406+00:00",
+    "source_ids": [
+      "Kansallisarkisto/multicentury-htr-model"
+    ],
+    "family": "multicentury-htr-model"
+  },
+  {
+    "id": "huggingface:mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
+    "name": "Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-23T06:06:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "uncensored",
+      "image-captioning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:48.992470+00:00",
+    "source_ids": [
+      "mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF"
+    ],
+    "family": "Qwen2.5-VL-Abliterated-Caption-it"
+  },
+  {
+    "id": "huggingface:Jmica/Drama-3-GGUF",
+    "name": "Drama-3-GGUF",
+    "provider": "Jmica",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-13T23:12:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jmica/Drama-3-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio.cpp",
+      "fish-audio",
+      "text-to-speech",
+      "voice-cloning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.525345+00:00",
+    "source_ids": [
+      "Jmica/Drama-3-GGUF"
+    ],
+    "family": "Drama-3"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B-FP8",
+    "name": "MiniCPM-V-4.7-35B-A3B-FP8",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T05:20:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minicpmv4_7",
+      "image-text-to-text",
+      "minicpm-v"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.900272+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-35B-A3B-FP8"
+    ],
+    "family": "MiniCPM-V-4.7-FP8"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B",
+    "name": "MiniCPM-V-4.7-35B-A3B",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T07:07:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minicpmv4_7",
+      "image-text-to-text",
+      "minicpm-v"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.900341+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-35B-A3B"
+    ],
+    "family": "MiniCPM-V-4.7"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-1B",
+    "name": "MiniCPM-V-4.7-1B",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T17:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "minicpmv4_7",
+      "image-text-to-text",
+      "minicpm-v"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T16:39:49.900369+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-1B"
+    ],
+    "family": "MiniCPM-V-4.7"
   }
 ]
