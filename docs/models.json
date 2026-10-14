@@ -168164,5 +168164,243 @@
       "openbmb/MiniCPM-V-4.7-1B"
     ],
     "family": "MiniCPM-V-4.7"
+  },
+  {
+    "id": "huggingface:Adking98/MN-12B-Celeste-V1.9-GGUF",
+    "name": "MN-12B-Celeste-V1.9-GGUF",
+    "provider": "Adking98",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T14:05:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Adking98/MN-12B-Celeste-V1.9-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T22:59:26.267906+00:00",
+    "source_ids": [
+      "Adking98/MN-12B-Celeste-V1.9-GGUF"
+    ],
+    "family": "MN-Celeste-V1.9"
+  },
+  {
+    "id": "huggingface:SkyIsNotGreen/Scion-FlashNext-176B-A6B",
+    "name": "Scion-FlashNext-176B-A6B",
+    "provider": "SkyIsNotGreen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T17:28:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SkyIsNotGreen/Scion-FlashNext-176B-A6B",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ternary",
+      "2-bit",
+      "ptq1_0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T22:59:26.268102+00:00",
+    "source_ids": [
+      "SkyIsNotGreen/Scion-FlashNext-176B-A6B"
+    ],
+    "family": "Scion-FlashNext"
+  },
+  {
+    "id": "huggingface:microsoft/UserRepGen-4B",
+    "name": "UserRepGen-4B",
+    "provider": "Microsoft",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T20:30:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/microsoft/UserRepGen-4B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "user-representation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T22:59:26.268149+00:00",
+    "source_ids": [
+      "microsoft/UserRepGen-4B"
+    ],
+    "family": "UserRepGen"
+  },
+  {
+    "id": "huggingface:litert-community/sopro-v2-turbo",
+    "name": "sopro-v2-turbo",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-21T07:25:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/sopro-v2-turbo",
+    "tags": [
+      "text-to-speech",
+      "litert",
+      "tflite",
+      "cpu",
+      "gpu",
+      "android"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T22:59:26.655723+00:00",
+    "source_ids": [
+      "litert-community/sopro-v2-turbo"
+    ],
+    "family": "sopro-v2-turbo"
+  },
+  {
+    "id": "huggingface:NbAiLab/borealis-open-12b",
+    "name": "borealis-open-12b",
+    "provider": "NbAiLab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T11:13:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NbAiLab/borealis-open-12b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T22:59:26.841717+00:00",
+    "source_ids": [
+      "NbAiLab/borealis-open-12b"
+    ],
+    "family": "borealis-open"
+  },
+  {
+    "id": "huggingface:NbAiLab/borealis-27b",
+    "name": "borealis-27b",
+    "provider": "NbAiLab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-20T11:22:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NbAiLab/borealis-27b",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T22:59:26.841779+00:00",
+    "source_ids": [
+      "NbAiLab/borealis-27b"
+    ],
+    "family": "borealis"
+  },
+  {
+    "id": "huggingface:swiss-ai/Apertus-v1.5-8B",
+    "name": "Apertus-v1.5-8B",
+    "provider": "swiss-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-24T06:03:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/swiss-ai/Apertus-v1.5-8B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "apertus1p5",
+      "text-generation",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-14T22:59:26.841813+00:00",
+    "source_ids": [
+      "swiss-ai/Apertus-v1.5-8B"
+    ],
+    "family": "Apertus-v1.5"
   }
 ]
