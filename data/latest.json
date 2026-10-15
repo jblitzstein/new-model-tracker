@@ -502,6 +502,41 @@
     "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-n3nc-iid16-s3"
   },
   {
+    "id": "huggingface:Adolphsson/DeepSeek-V4.1-Flash-UNCENSORED-GGUF",
+    "name": "DeepSeek-V4.1-Flash-UNCENSORED-GGUF",
+    "provider": "Adolphsson",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T09:17:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Adolphsson/DeepSeek-V4.1-Flash-UNCENSORED-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "deepseek",
+      "uncensored",
+      "abliterated",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-15T08:54:31.475205+00:00",
+    "source_ids": [
+      "Adolphsson/DeepSeek-V4.1-Flash-UNCENSORED-GGUF"
+    ],
+    "family": "DeepSeek-V4.1-Flash-UNCENSORED"
+  },
+  {
     "id": "huggingface:mflux-community/flux-1-schnell-mflux-q4",
     "name": "flux-1-schnell-mflux-q4",
     "provider": "mflux-community",
@@ -738,6 +773,39 @@
       "mflux-community/qwen-image-mflux-bf16"
     ],
     "family": "qwen-image-mflux-bf16"
+  },
+  {
+    "id": "huggingface:DICPlay/RusMind-Momentum",
+    "name": "RusMind-Momentum",
+    "provider": "DICPlay",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T01:47:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DICPlay/RusMind-Momentum",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "rusmind",
+      "dicplay",
+      "russian",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-15T08:54:31.060317+00:00",
+    "source_ids": [
+      "DICPlay/RusMind-Momentum"
+    ],
+    "family": "RusMind-Momentum"
   },
   {
     "id": "huggingface:berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8",
@@ -13036,39 +13104,6 @@
     "family": "Qwen3.8-Uncensored-NVFP4-NInfer"
   },
   {
-    "id": "huggingface:bartowski/Nex-N2.5-Pro-GGUF",
-    "name": "Nex-N2.5-Pro-GGUF",
-    "provider": "bartowski",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-12T16:06:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bartowski/Nex-N2.5-Pro-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "text-generation",
-      "base_model:nex-agi/Nex-N2.5-Pro",
-      "base_model:quantized:nex-agi/Nex-N2.5-Pro",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-15T03:41:57.721869+00:00",
-    "source_ids": [
-      "bartowski/Nex-N2.5-Pro-GGUF"
-    ],
-    "family": "Nex-N2.5-Pro"
-  },
-  {
     "id": "huggingface:Solstice-AI/DeepSeek-V4.1-Flash-GGUF",
     "name": "DeepSeek-V4.1-Flash-GGUF",
     "provider": "Solstice-AI",
@@ -17611,41 +17646,6 @@
     "family": "GLM-5.3-Flash-UD-Q4_K_XL-layers"
   },
   {
-    "id": "huggingface:nvidia/Muse-Glimmer-30B-NVFP4",
-    "name": "Muse-Glimmer-30B-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-27T20:37:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Muse-Glimmer-30B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "Model Optimizer",
-      "safetensors",
-      "muse_glimmer",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-15T03:41:58.582051+00:00",
-    "source_ids": [
-      "nvidia/Muse-Glimmer-30B-NVFP4"
-    ],
-    "family": "Muse-Glimmer-NVFP4"
-  },
-  {
     "id": "huggingface:AMAImedia/NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
     "name": "NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
     "provider": "AMAImedia",
@@ -18916,39 +18916,6 @@
       "Lucebox/Qwen3.8-27B-IQ4_XS-fast-GGUF"
     ],
     "family": "Qwen3.8-IQ4_XS-fast"
-  },
-  {
-    "id": "huggingface:XHToken/Spark-X2.5-1.7B",
-    "name": "Spark-X2.5-1.7B",
-    "provider": "XHToken",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-24T06:34:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "spark2_5",
-      "text-generation",
-      "llm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-15T03:41:57.721903+00:00",
-    "source_ids": [
-      "XHToken/Spark-X2.5-1.7B"
-    ],
-    "family": "Spark-X2.5"
   },
   {
     "id": "huggingface:noctrex/DFM-Mimir",
