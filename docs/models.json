@@ -170676,5 +170676,135 @@
       "unsloth/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF"
     ],
     "family": "NVIDIA-Nemotron-3.5-Bolt"
+  },
+  {
+    "id": "openrouter:xingchen-agi/xing4.0-29b-a4b:free",
+    "name": "XingChen: Xing4.0 29B A4B (free)",
+    "provider": "xingchen-agi",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-16T19:04:56+00:00",
+    "context_length": 262144,
+    "description": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token...",
+    "url": "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-10-16T22:34:55.464344+00:00",
+    "source_ids": [
+      "xingchen-agi/xing4.0-29b-a4b:free"
+    ],
+    "family": "Xing4.0"
+  },
+  {
+    "id": "huggingface:neph1/1980s_horror_movies_minimax_h3",
+    "name": "1980s_horror_movies_minimax_h3",
+    "provider": "neph1",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-20T17:01:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/neph1/1980s_horror_movies_minimax_h3",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:MiniMaxAI/MiniMax-H3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T22:34:55.661575+00:00",
+    "source_ids": [
+      "neph1/1980s_horror_movies_minimax_h3"
+    ],
+    "family": "1980s_horror_movies_minimax_h3"
+  },
+  {
+    "id": "huggingface:mradermacher/Qwopus3.6-27B-v1-Abliterated-preview-GGUF",
+    "name": "Qwopus3.6-27B-v1-Abliterated-preview-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-26T08:00:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwopus3.6-27B-v1-Abliterated-preview-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen",
+      "qwen3.6",
+      "qwopus"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T22:34:56.038217+00:00",
+    "source_ids": [
+      "mradermacher/Qwopus3.6-27B-v1-Abliterated-preview-GGUF"
+    ],
+    "family": "Qwopus3.6-v1-Abliterated"
+  },
+  {
+    "id": "huggingface:nvidia/GLM-5.3-Flash-FP4-Local",
+    "name": "GLM-5.3-Flash-FP4-Local",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T16:19:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-FP4-Local",
+    "tags": [
+      "image-text-to-text",
+      "Model Optimizer",
+      "safetensors",
+      "glm5_next",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T22:34:56.038261+00:00",
+    "source_ids": [
+      "nvidia/GLM-5.3-Flash-FP4-Local"
+    ],
+    "family": "GLM-5.3-Flash-FP4-Local"
   }
 ]
