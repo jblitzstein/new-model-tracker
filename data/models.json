@@ -170274,5 +170274,407 @@
       "nvidia/Muse-Spark-Open-816B-A42B-DFlash2"
     ],
     "family": "Muse-Spark-Open-DFlash2"
+  },
+  {
+    "id": "openrouter:reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "provider": "reflection",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-16T14:21:39+00:00",
+    "context_length": 1048576,
+    "description": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a...",
+    "url": "https://openrouter.ai/reflection/beam-1.0-501b-a23b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 1.0
+    },
+    "first_seen": "2026-10-16T16:10:39.124224+00:00",
+    "source_ids": [
+      "reflection/beam-1.0-501b-a23b"
+    ],
+    "family": "Beam 1.0"
+  },
+  {
+    "id": "huggingface:EQTYLab/Llama-3.1-Nemotron-Nano-4B-v1.1-banking77",
+    "name": "Llama-3.1-Nemotron-Nano-4B-v1.1-banking77",
+    "provider": "EQTYLab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T23:12:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/EQTYLab/Llama-3.1-Nemotron-Nano-4B-v1.1-banking77",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "intent-classification"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.250219+00:00",
+    "source_ids": [
+      "EQTYLab/Llama-3.1-Nemotron-Nano-4B-v1.1-banking77"
+    ],
+    "family": "Llama-3.1-Nemotron-Nano-v1.1-banking77"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+    "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T14:42:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+    "tags": [
+      "text-generation",
+      "Model Optimizer",
+      "safetensors",
+      "qwen3",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.250262+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Bolt-24GB-LiLiCorr"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf",
+    "name": "MiniCPM-V-4.7-35B-A3B-DSpark-gguf",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T16:55:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "minicpmv",
+      "minicpmv4.7",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.250350+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf"
+    ],
+    "family": "MiniCPM-V-4.7-DSpark"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-V-4.7-1B-DSpark-gguf",
+    "name": "MiniCPM-V-4.7-1B-DSpark-gguf",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T16:53:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-DSpark-gguf",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "minicpmv",
+      "minicpmv4.7",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.250381+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-V-4.7-1B-DSpark-gguf"
+    ],
+    "family": "MiniCPM-V-4.7-DSpark"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen-Image-2.1-Turbo-FP8",
+    "name": "Qwen-Image-2.1-Turbo-FP8",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-10T00:42:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen-Image-2.1-Turbo-FP8",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "fp8",
+      "int8",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.332160+00:00",
+    "source_ids": [
+      "unsloth/Qwen-Image-2.1-Turbo-FP8"
+    ],
+    "family": "Qwen-Image-2.1-Turbo-FP8"
+  },
+  {
+    "id": "huggingface:unsloth/Z-Image-GGUF",
+    "name": "Z-Image-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-01-27T23:10:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Z-Image-GGUF",
+    "tags": [
+      "text-to-image",
+      "ggml",
+      "diffusers",
+      "safetensors",
+      "gguf",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.332217+00:00",
+    "source_ids": [
+      "unsloth/Z-Image-GGUF"
+    ],
+    "family": "Z-Image"
+  },
+  {
+    "id": "huggingface:intel-ai/MiniMax-H3-MXFP8-CT-AutoRound",
+    "name": "MiniMax-H3-MXFP8-CT-AutoRound",
+    "provider": "intel-ai",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-10-14T15:40:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/intel-ai/MiniMax-H3-MXFP8-CT-AutoRound",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "safetensors",
+      "text-to-video",
+      "text-to-audio-video",
+      "image-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.461732+00:00",
+    "source_ids": [
+      "intel-ai/MiniMax-H3-MXFP8-CT-AutoRound"
+    ],
+    "family": "MiniMax-H3-MXFP8-CT-AutoRound"
+  },
+  {
+    "id": "huggingface:desert-ant-labs/align",
+    "name": "align",
+    "provider": "desert-ant-labs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T11:16:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/desert-ant-labs/align",
+    "tags": [
+      "automatic-speech-recognition",
+      "litert",
+      "tflite",
+      "speech",
+      "word-timestamps",
+      "forced-alignment"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.678107+00:00",
+    "source_ids": [
+      "desert-ant-labs/align"
+    ],
+    "family": "align"
+  },
+  {
+    "id": "huggingface:AtomicChat/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+    "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-15T15:11:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "atomic-dynamic",
+      "llama.cpp",
+      "nvidia",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.762800+00:00",
+    "source_ids": [
+      "AtomicChat/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Bolt"
+  },
+  {
+    "id": "huggingface:diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "name": "DiarizationLM-Gemma-4-E4B-v1",
+    "provider": "diarizers-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T15:59:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gemma4",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.762976+00:00",
+    "source_ids": [
+      "diarizers-community/DiarizationLM-Gemma-4-E4B-v1"
+    ],
+    "family": "DiarizationLM-Gemma-4-E-v1"
+  },
+  {
+    "id": "huggingface:unsloth/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+    "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T15:25:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "nvidia",
+      "pytorch",
+      "nemotron-3.5",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-16T16:10:39.763084+00:00",
+    "source_ids": [
+      "unsloth/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Bolt"
   }
 ]
