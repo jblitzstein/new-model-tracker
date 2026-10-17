@@ -171411,5 +171411,69 @@
       "realrebelai/FLUX-3-Image-Klein_GGUFs"
     ],
     "family": "FLUX-3-Image-Klein_GGUFs"
+  },
+  {
+    "id": "openrouter:unbiased/pareto-26.10",
+    "name": "Pareto 26.10",
+    "provider": "unbiased",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-15T14:13:40+00:00",
+    "context_length": 1048576,
+    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+    "url": "https://openrouter.ai/unbiased/pareto-26.10",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.8,
+      "completion_per_million": 3.2
+    },
+    "first_seen": "2026-10-17T21:58:44.234073+00:00",
+    "source_ids": [
+      "unbiased/pareto-26.10"
+    ],
+    "family": "Pareto 26.10"
+  },
+  {
+    "id": "huggingface:infosave/Qwen3.8-Flash-Next-cmf",
+    "name": "Qwen3.8-Flash-Next-cmf",
+    "provider": "infosave",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-26T14:46:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/infosave/Qwen3.8-Flash-Next-cmf",
+    "tags": [
+      "text-generation",
+      "cortiq",
+      "cmf",
+      "quantized",
+      "q4tp",
+      "q2tp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T21:58:44.378613+00:00",
+    "source_ids": [
+      "infosave/Qwen3.8-Flash-Next-cmf"
+    ],
+    "family": "Qwen3.8-Flash-Next-cmf"
   }
 ]
