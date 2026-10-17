@@ -170806,5 +170806,137 @@
       "nvidia/GLM-5.3-Flash-FP4-Local"
     ],
     "family": "GLM-5.3-Flash-FP4-Local"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.7-plus:batch",
+    "name": "Qwen: Qwen3.7 Plus (batch)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-03T13:03:03+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
+    "url": "https://openrouter.ai/qwen/qwen3.7-plus:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.23,
+      "completion_per_million": 0.92
+    },
+    "first_seen": "2026-10-17T03:15:10.905324+00:00",
+    "source_ids": [
+      "qwen/qwen3.7-plus:batch"
+    ],
+    "family": "Qwen3.7 Plus (batch)"
+  },
+  {
+    "id": "huggingface:h2oai/h2o-lightning-4b-nemotron-nano",
+    "name": "h2o-lightning-4b-nemotron-nano",
+    "provider": "h2oai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-09T23:29:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/h2oai/h2o-lightning-4b-nemotron-nano",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "decision-making"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T03:15:11.109879+00:00",
+    "source_ids": [
+      "h2oai/h2o-lightning-4b-nemotron-nano"
+    ],
+    "family": "h2o-lightning-nemotron-nano"
+  },
+  {
+    "id": "huggingface:dignome/kitten_tts2",
+    "name": "kitten_tts2",
+    "provider": "dignome",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-03T21:52:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dignome/kitten_tts2",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio.cpp",
+      "text-to-speech",
+      "voice-cloning",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T03:15:11.997176+00:00",
+    "source_ids": [
+      "dignome/kitten_tts2"
+    ],
+    "family": "kitten_tts2"
+  },
+  {
+    "id": "huggingface:litert-community/parakeet-tdt-0.6b-v3",
+    "name": "parakeet-tdt-0.6b-v3",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-06T20:00:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/parakeet-tdt-0.6b-v3",
+    "tags": [
+      "automatic-speech-recognition",
+      "litert-lm",
+      "tflite",
+      "litert",
+      "asr",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T03:15:12.150853+00:00",
+    "source_ids": [
+      "litert-community/parakeet-tdt-0.6b-v3"
+    ],
+    "family": "parakeet-tdt-v3"
   }
 ]
