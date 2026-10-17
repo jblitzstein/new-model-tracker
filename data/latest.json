@@ -322,6 +322,40 @@
     "family": "Muse Spark Open"
   },
   {
+    "id": "huggingface:realrebelai/FLUX-3-Image-Klein_GGUFs",
+    "name": "FLUX-3-Image-Klein_GGUFs",
+    "provider": "realrebelai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-15T17:10:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/realrebelai/FLUX-3-Image-Klein_GGUFs",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "image-to-image",
+      "flux3",
+      "klein"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T18:12:03.697095+00:00",
+    "source_ids": [
+      "realrebelai/FLUX-3-Image-Klein_GGUFs"
+    ],
+    "family": "FLUX-3-Image-Klein_GGUFs"
+  },
+  {
     "id": "huggingface:Abiray/flux-3-image-klein-sd-GGUF",
     "name": "flux-3-image-klein-sd-GGUF",
     "provider": "Abiray",
@@ -13425,40 +13459,6 @@
     "family": "FastH3-V2_GGUFs"
   },
   {
-    "id": "huggingface:poopooness/H3-Loras",
-    "name": "H3-Loras",
-    "provider": "poopooness",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-09-16T02:36:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/poopooness/H3-Loras",
-    "tags": [
-      "text-to-video",
-      "minimax-h3",
-      "lora",
-      "text-to-video",
-      "audio-video",
-      "base_model:MiniMaxAI/MiniMax-H3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:41.030978+00:00",
-    "source_ids": [
-      "poopooness/H3-Loras"
-    ],
-    "family": "H3-Loras"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/gemma-270m-math-reasoner",
     "name": "gemma-270m-math-reasoner",
     "provider": "reaperdoesntknow",
@@ -14311,40 +14311,6 @@
       "vanch007/mlx-Yue2-3B"
     ],
     "family": "mlx-Yue2"
-  },
-  {
-    "id": "huggingface:EvoAwaken-Workshop/Breeze-TTS-2-gguf",
-    "name": "Breeze-TTS-2-gguf",
-    "provider": "EvoAwaken-Workshop",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-09-13T12:31:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/EvoAwaken-Workshop/Breeze-TTS-2-gguf",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "breeze",
-      "tts",
-      "speech-synthesis",
-      "voice-clone"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:41.189160+00:00",
-    "source_ids": [
-      "EvoAwaken-Workshop/Breeze-TTS-2-gguf"
-    ],
-    "family": "Breeze-TTS-2"
   },
   {
     "id": "huggingface:crumbs-playground/test-bf-moe",
@@ -17317,39 +17283,6 @@
     "family": "Gemma-4-StyleTune-V2-QAT"
   },
   {
-    "id": "huggingface:0xWhiteMage/Qwen3.8-27B-Kearuga",
-    "name": "Qwen3.8-27B-Kearuga",
-    "provider": "0xWhiteMage",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-04T16:01:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/0xWhiteMage/Qwen3.8-27B-Kearuga",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "kearuga"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:40.797643+00:00",
-    "source_ids": [
-      "0xWhiteMage/Qwen3.8-27B-Kearuga"
-    ],
-    "family": "Qwen3.8-Kearuga"
-  },
-  {
     "id": "huggingface:NikiKrutan/Kiwen1.1-27B-MTP-GGUF",
     "name": "Kiwen1.1-27B-MTP-GGUF",
     "provider": "NikiKrutan",
@@ -18306,41 +18239,6 @@
       "orcarouter/GLM-5.3-Flash-Uncensored-GGUF"
     ],
     "family": "GLM-5.3-Flash-Uncensored"
-  },
-  {
-    "id": "huggingface:ddark-il/Qwen3.8-Flash-Next-Uncensored",
-    "name": "Qwen3.8-Flash-Next-Uncensored",
-    "provider": "ddark-il",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-31T07:22:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ddark-il/Qwen3.8-Flash-Next-Uncensored",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen4_exp",
-      "omlx",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:41.359965+00:00",
-    "source_ids": [
-      "ddark-il/Qwen3.8-Flash-Next-Uncensored"
-    ],
-    "family": "Qwen3.8-Flash-Next-Uncensored"
   },
   {
     "id": "huggingface:GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
@@ -21988,41 +21886,6 @@
     "family": "Qwen3.7 Plus (batch)"
   },
   {
-    "id": "huggingface:OpenVINO/gemma-4-E2B-it-int4-ov",
-    "name": "gemma-4-E2B-it-int4-ov",
-    "provider": "OpenVINO",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-22T15:19:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenVINO/gemma-4-E2B-it-int4-ov",
-    "tags": [
-      "image-text-to-text",
-      "openvino",
-      "gemma4",
-      "conversational",
-      "image-text-to-text",
-      "base_model:google/gemma-4-E2B-it"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:41.359679+00:00",
-    "source_ids": [
-      "OpenVINO/gemma-4-E2B-it-int4-ov"
-    ],
-    "family": "gemma-4-E-it-int4-ov"
-  },
-  {
     "id": "huggingface:divinetribe/Hermes-4-14B-abliterated-4bit-mlx",
     "name": "Hermes-4-14B-abliterated-4bit-mlx",
     "provider": "divinetribe",
@@ -22537,41 +22400,6 @@
     "family": "Qwen3.5-ONNX-OPT"
   },
   {
-    "id": "huggingface:OpenVINO/gemma-4-E4B-it-int4-ov",
-    "name": "gemma-4-E4B-it-int4-ov",
-    "provider": "OpenVINO",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-20T14:59:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenVINO/gemma-4-E4B-it-int4-ov",
-    "tags": [
-      "image-text-to-text",
-      "openvino",
-      "gemma4",
-      "conversational",
-      "image-text-to-text",
-      "base_model:google/gemma-4-E4B-it"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:41.359591+00:00",
-    "source_ids": [
-      "OpenVINO/gemma-4-E4B-it-int4-ov"
-    ],
-    "family": "gemma-4-E-it-int4-ov"
-  },
-  {
     "id": "huggingface:trl-internal-testing/tiny-Phi3ForCausalLM-3",
     "name": "tiny-Phi3ForCausalLM-3",
     "provider": "trl-internal-testing",
@@ -22639,40 +22467,6 @@
     "family": "whisper-tiny"
   },
   {
-    "id": "huggingface:cstr/voxtral-mini-4b-realtime-GGUF",
-    "name": "voxtral-mini-4b-realtime-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-10T04:54:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/voxtral-mini-4b-realtime-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "gguf",
-      "speech-to-text",
-      "realtime",
-      "streaming",
-      "voxtral"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:41.273396+00:00",
-    "source_ids": [
-      "cstr/voxtral-mini-4b-realtime-GGUF"
-    ],
-    "family": "voxtral-mini-realtime"
-  },
-  {
     "id": "huggingface:litert-community/parakeet-ctc-0.6b",
     "name": "parakeet-ctc-0.6b",
     "provider": "litert-community",
@@ -22705,40 +22499,6 @@
       "litert-community/parakeet-ctc-0.6b"
     ],
     "family": "parakeet-ctc"
-  },
-  {
-    "id": "huggingface:cstr/voxtral-mini-3b-2507-GGUF",
-    "name": "voxtral-mini-3b-2507-GGUF",
-    "provider": "cstr",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-09T14:47:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cstr/voxtral-mini-3b-2507-GGUF",
-    "tags": [
-      "automatic-speech-recognition",
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "transcription"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T16:22:41.273454+00:00",
-    "source_ids": [
-      "cstr/voxtral-mini-3b-2507-GGUF"
-    ],
-    "family": "voxtral-mini-2507"
   },
   {
     "id": "huggingface:mobilint/Qwen3-VL-2B-Instruct",
