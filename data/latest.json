@@ -1,5 +1,73 @@
 [
   {
+    "id": "openrouter:elorian/glimpse",
+    "name": "Elorian: Glimpse",
+    "provider": "elorian",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T03:10:29+00:00",
+    "context_length": 262144,
+    "description": "Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than...",
+    "url": "https://openrouter.ai/elorian/glimpse",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.6,
+      "completion_per_million": 3.0
+    },
+    "first_seen": "2026-10-17T08:17:29.672463+00:00",
+    "source_ids": [
+      "elorian/glimpse"
+    ],
+    "family": "Glimpse"
+  },
+  {
+    "id": "huggingface:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "name": "DeepSeek-V4.1-Flash-1017",
+    "provider": "DeepSeek",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T02:40:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "deepseek_v41",
+      "text-generation",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T08:17:30.238388+00:00",
+    "source_ids": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    ],
+    "family": "DeepSeek-V4.1-Flash-1017"
+  },
+  {
     "id": "openrouter:xingchen-agi/xing4.0-29b-a4b:free",
     "name": "XingChen: Xing4.0 29B A4B (free)",
     "provider": "xingchen-agi",
@@ -2177,6 +2245,39 @@
       "mradermacher/Veloxy-Titan-32B-Vision-GGUF"
     ],
     "family": "Veloxy-Titan-Vision"
+  },
+  {
+    "id": "huggingface:DarkKitsune/Qwen3.6-Qworus-35B-A3B-V1-APEX-GGUF",
+    "name": "Qwen3.6-Qworus-35B-A3B-V1-APEX-GGUF",
+    "provider": "DarkKitsune",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-09T09:46:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DarkKitsune/Qwen3.6-Qworus-35B-A3B-V1-APEX-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "qwen3.5",
+      "agent",
+      "coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T08:17:29.780938+00:00",
+    "source_ids": [
+      "DarkKitsune/Qwen3.6-Qworus-35B-A3B-V1-APEX-GGUF"
+    ],
+    "family": "Qwen3.6-Qworus-V1-APEX"
   },
   {
     "id": "huggingface:Qwen/Qwen-Image-2.1-Turbo",
@@ -5101,6 +5202,40 @@
       "org2ai/Wald-4B-GGUF"
     ],
     "family": "Wald"
+  },
+  {
+    "id": "huggingface:fishaudio/drama-3",
+    "name": "drama-3",
+    "provider": "fishaudio",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-01T04:34:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/fishaudio/drama-3",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "fish_omni",
+      "fish-audio",
+      "text-to-speech",
+      "multi-speaker"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T08:17:30.108440+00:00",
+    "source_ids": [
+      "fishaudio/drama-3"
+    ],
+    "family": "drama-3"
   },
   {
     "id": "huggingface:LegumMagister/chsm8-labeler-gemma3-1b",
@@ -12751,41 +12886,6 @@
     "family": "Ternary-Bonsai-2"
   },
   {
-    "id": "huggingface:nvidia/DeepSeek-V4.1-Flash-NVFP4",
-    "name": "DeepSeek-V4.1-Flash-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-16T20:37:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "Model Optimizer",
-      "safetensors",
-      "deepseek_v41",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.828383+00:00",
-    "source_ids": [
-      "nvidia/DeepSeek-V4.1-Flash-NVFP4"
-    ],
-    "family": "DeepSeek-V4.1-Flash-NVFP4"
-  },
-  {
     "id": "huggingface:IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
     "name": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
     "provider": "IsValorum",
@@ -14546,41 +14646,6 @@
       "Aobangaming/lightning-30m-ft"
     ],
     "family": "lightning-30m-ft"
-  },
-  {
-    "id": "huggingface:smalinin/DeepSeek-V4.1-Flash-GGUF",
-    "name": "DeepSeek-V4.1-Flash-GGUF",
-    "provider": "smalinin",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-12T11:45:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/smalinin/DeepSeek-V4.1-Flash-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "deepseek",
-      "deepseek-v4.1",
-      "mixture-of-experts",
-      "llama.cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.828407+00:00",
-    "source_ids": [
-      "smalinin/DeepSeek-V4.1-Flash-GGUF"
-    ],
-    "family": "DeepSeek-V4.1-Flash"
   },
   {
     "id": "huggingface:Solstice-AI/DeepSeek-V4.1-Flash-UNCENSORED-HyperSynapse-SAS-GGUF",
@@ -19690,39 +19755,6 @@
     "family": "Qwen3.8-MLX"
   },
   {
-    "id": "huggingface:HangGlidersRule/Darkstar-Qwen3.8-27B-Abliterated-ModelOpt-W4A16-NVFP4-Mixed-FP8",
-    "name": "Darkstar-Qwen3.8-27B-Abliterated-ModelOpt-W4A16-NVFP4-Mixed-FP8",
-    "provider": "HangGlidersRule",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-20T21:29:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/HangGlidersRule/Darkstar-Qwen3.8-27B-Abliterated-ModelOpt-W4A16-NVFP4-Mixed-FP8",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3_5",
-      "abliterated",
-      "reduced-refusal",
-      "nvfp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.053816+00:00",
-    "source_ids": [
-      "HangGlidersRule/Darkstar-Qwen3.8-27B-Abliterated-ModelOpt-W4A16-NVFP4-Mixed-FP8"
-    ],
-    "family": "Darkstar-Qwen3.8-Abliterated-ModelOpt-W4A16-NVFP4-Mixed-FP8"
-  },
-  {
     "id": "huggingface:Thunder13240/Ornith-1.5-9B-heretic-GGUF",
     "name": "Ornith-1.5-9B-heretic-GGUF",
     "provider": "Thunder13240",
@@ -20574,41 +20606,6 @@
     "family": "Qwen3.8-MLX-4bit"
   },
   {
-    "id": "huggingface:StarDoc-AI/TeleOCR",
-    "name": "TeleOCR",
-    "provider": "StarDoc-AI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T06:15:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/StarDoc-AI/TeleOCR",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "document-parsing"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.828291+00:00",
-    "source_ids": [
-      "StarDoc-AI/TeleOCR"
-    ],
-    "family": "TeleOCR"
-  },
-  {
     "id": "huggingface:XingChen-AGI/TeleOCR",
     "name": "TeleOCR",
     "provider": "XingChen-AGI",
@@ -20745,41 +20742,6 @@
       "SC117/LFM2.5-VL-3B-Uncensored-GGUF"
     ],
     "family": "LFM2.5-VL-Uncensored"
-  },
-  {
-    "id": "huggingface:DavidAU/Qwen3.5-9B-Cold-Fusion-GAIN-v1.0-Uncensored-Heretic-NEO-MAX-Imatrix-GGUF",
-    "name": "Qwen3.5-9B-Cold-Fusion-GAIN-v1.0-Uncensored-Heretic-NEO-MAX-Imatrix-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-13T04:13:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-Cold-Fusion-GAIN-v1.0-Uncensored-Heretic-NEO-MAX-Imatrix-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "MTP GGUFS",
-      "Regular GGUFS",
-      "NEO Imatrix",
-      "unsloth"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.828760+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.5-9B-Cold-Fusion-GAIN-v1.0-Uncensored-Heretic-NEO-MAX-Imatrix-GGUF"
-    ],
-    "family": "Qwen3.5-Cold-Fusion-GAIN-v1.0-Uncensored-Heretic-NEO-MAX-Imatrix"
   },
   {
     "id": "huggingface:OpenVINO/Muse-Glimmer-30B-int4-ov",
@@ -20984,76 +20946,6 @@
       "KiaBush/Persian-IPA-to-Speech-F5"
     ],
     "family": "Persian-IPA-to-Speech-F5"
-  },
-  {
-    "id": "huggingface:DavidAU/Qwen3.5-9B-The-Defiant-Fable-DARK-ROAST-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
-    "name": "Qwen3.5-9B-The-Defiant-Fable-DARK-ROAST-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-07T02:31:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-DARK-ROAST-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "MTP GGUFS"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.828726+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.5-9B-The-Defiant-Fable-DARK-ROAST-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP"
-    ],
-    "family": "Qwen3.5-The-Defiant-Fable-DARK-ROAST-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP"
-  },
-  {
-    "id": "huggingface:DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
-    "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-07T02:20:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "MTP GGUFS"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.828691+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP"
-    ],
-    "family": "Qwen3.5-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP"
   },
   {
     "id": "openrouter:deepseek/deepseek-v4-flash-0731:free",
@@ -23357,40 +23249,6 @@
       "onnx-community/Qwen3-0.6B-ONNX"
     ],
     "family": "Qwen3-ONNX"
-  },
-  {
-    "id": "huggingface:greedjoo/jhr_classic_lora",
-    "name": "jhr_classic_lora",
-    "provider": "greedjoo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2025-04-17T06:14:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/greedjoo/jhr_classic_lora",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:black-forest-labs/FLUX.1-dev"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T03:43:58.168800+00:00",
-    "source_ids": [
-      "greedjoo/jhr_classic_lora"
-    ],
-    "family": "jhr_classic_lora"
   },
   {
     "id": "huggingface:ai4bharat/indic-conformer-600m-multilingual",
