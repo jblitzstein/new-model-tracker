@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T08:27:04+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-10-17T15:03:50.664751+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4.1-flash-1017"
+    ],
+    "family": "DeepSeek V4.1 Flash"
+  },
+  {
     "id": "openrouter:elorian/glimpse",
     "name": "Elorian: Glimpse",
     "provider": "elorian",
@@ -92,6 +123,40 @@
       "xingchen-agi/xing4.0-29b-a4b:free"
     ],
     "family": "Xing4.0"
+  },
+  {
+    "id": "huggingface:toxicdog/MOSS-Image-SFT-Turbo-INT8-ConvRot",
+    "name": "MOSS-Image-SFT-Turbo-INT8-ConvRot",
+    "provider": "toxicdog",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-16T16:06:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/toxicdog/MOSS-Image-SFT-Turbo-INT8-ConvRot",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "comfyui",
+      "image-generation",
+      "moss-image",
+      "turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:50.956541+00:00",
+    "source_ids": [
+      "toxicdog/MOSS-Image-SFT-Turbo-INT8-ConvRot"
+    ],
+    "family": "MOSS-Image-SFT-Turbo-INT8-ConvRot"
   },
   {
     "id": "openrouter:reflection/beam-1.0-501b-a23b",
@@ -255,6 +320,40 @@
       "meta/muse-spark-open"
     ],
     "family": "Muse Spark Open"
+  },
+  {
+    "id": "huggingface:Abiray/flux-3-image-klein-sd-GGUF",
+    "name": "flux-3-image-klein-sd-GGUF",
+    "provider": "Abiray",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-15T16:13:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Abiray/flux-3-image-klein-sd-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "flux",
+      "flux-3",
+      "flux-3-image-klein",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:50.956443+00:00",
+    "source_ids": [
+      "Abiray/flux-3-image-klein-sd-GGUF"
+    ],
+    "family": "flux-3-image-klein-sd"
   },
   {
     "id": "huggingface:AtomicChat/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
@@ -1165,6 +1264,40 @@
     "family": "Muse Wonder"
   },
   {
+    "id": "huggingface:webmp3/Sakura-Iris-3B-Uncensored-GGUF",
+    "name": "Sakura-Iris-3B-Uncensored-GGUF",
+    "provider": "webmp3",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-11T21:37:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/webmp3/Sakura-Iris-3B-Uncensored-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "safetensors",
+      "sakura",
+      "sakura-image",
+      "stable-diffusion.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:50.956509+00:00",
+    "source_ids": [
+      "webmp3/Sakura-Iris-3B-Uncensored-GGUF"
+    ],
+    "family": "Sakura-Iris-Uncensored"
+  },
+  {
     "id": "huggingface:huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF",
     "name": "Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF",
     "provider": "huihui-ai",
@@ -1572,6 +1705,40 @@
     "family": "RusMind-Momentum"
   },
   {
+    "id": "huggingface:datalab-to/indra-ocr",
+    "name": "indra-ocr",
+    "provider": "datalab-to",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-10T14:12:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/datalab-to/indra-ocr",
+    "tags": [
+      "image-to-text",
+      "onnx",
+      "safetensors",
+      "indra-ocr",
+      "ocr",
+      "cpu"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:51.060082+00:00",
+    "source_ids": [
+      "datalab-to/indra-ocr"
+    ],
+    "family": "indra-ocr"
+  },
+  {
     "id": "huggingface:berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8",
     "name": "10Eros-Max-h3-turbo-beta6-pruned-w4a8",
     "provider": "berryber09",
@@ -1771,6 +1938,39 @@
       "h2oai/h2o-lightning-4b-nemotron-nano"
     ],
     "family": "h2o-lightning-nemotron-nano"
+  },
+  {
+    "id": "huggingface:zveloxy/Veloxy-Flash-15B-i1-GGUF",
+    "name": "Veloxy-Flash-15B-i1-GGUF",
+    "provider": "zveloxy",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-09T23:09:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/zveloxy/Veloxy-Flash-15B-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "qwen",
+      "reasoning",
+      "o1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:50.839366+00:00",
+    "source_ids": [
+      "zveloxy/Veloxy-Flash-15B-i1-GGUF"
+    ],
+    "family": "Veloxy-Flash-i1"
   },
   {
     "id": "huggingface:3hs4n/Ternary-Bonsai-2-27B-Uncensored-Heretic-v2-mlx-2bit-compact",
@@ -13772,6 +13972,41 @@
     "family": "Dongfangshuo-Qwen3.8-NSFW"
   },
   {
+    "id": "huggingface:dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW",
+    "name": "Dongfangshuo-Qwen3.8-27B-NSFW",
+    "provider": "dongfangshuo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-14T15:25:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "qwen",
+      "qwen3.8",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:51.608845+00:00",
+    "source_ids": [
+      "dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW"
+    ],
+    "family": "Dongfangshuo-Qwen3.8-NSFW"
+  },
+  {
     "id": "huggingface:d0xin/Swift-Qwen3.8-27B-Uncensored-FP8",
     "name": "Swift-Qwen3.8-27B-Uncensored-FP8",
     "provider": "d0xin",
@@ -15123,6 +15358,41 @@
     "family": "DeepSeek-V4.1-MLX-Q4i"
   },
   {
+    "id": "huggingface:inferencerlabs/DeepSeek-V4.1-Flash-MLX-Q4i",
+    "name": "DeepSeek-V4.1-Flash-MLX-Q4i",
+    "provider": "inferencerlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T11:09:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4.1-Flash-MLX-Q4i",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "deepseek_v41",
+      "quantized",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:51.608913+00:00",
+    "source_ids": [
+      "inferencerlabs/DeepSeek-V4.1-Flash-MLX-Q4i"
+    ],
+    "family": "DeepSeek-V4.1-Flash-MLX-Q4i"
+  },
+  {
     "id": "huggingface:DALabCommunity/Haidass-Translate-143M",
     "name": "Haidass-Translate-143M",
     "provider": "DALabCommunity",
@@ -15750,41 +16020,6 @@
       "nex-agi/nex-n2.5-pro"
     ],
     "family": "Nex-N2.5-Pro"
-  },
-  {
-    "id": "huggingface:mistrjirka/Ornith-1.5-9B-PXQ-GGUF",
-    "name": "Ornith-1.5-9B-PXQ-GGUF",
-    "provider": "mistrjirka",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-08T17:52:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mistrjirka/Ornith-1.5-9B-PXQ-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "pxa",
-      "pxq",
-      "quantized",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T09:14:46.922626+00:00",
-    "source_ids": [
-      "mistrjirka/Ornith-1.5-9B-PXQ-GGUF"
-    ],
-    "family": "Ornith-1.5-PXQ"
   },
   {
     "id": "huggingface:azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound",
@@ -20340,39 +20575,6 @@
     "family": "Qwen3.8-MTPLX-Optimized-Quality-FP16"
   },
   {
-    "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed-FP16",
-    "name": "Qwen3.8-27B-MTPLX-Bare-Speed-FP16",
-    "provider": "Youssofal",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-15T08:07:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed-FP16",
-    "tags": [
-      "text-generation",
-      "mtplx",
-      "safetensors",
-      "qwen3_5",
-      "mlx",
-      "apple-silicon"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T09:14:45.845625+00:00",
-    "source_ids": [
-      "Youssofal/Qwen3.8-27B-MTPLX-Bare-Speed-FP16"
-    ],
-    "family": "Qwen3.8-MTPLX-Bare-Speed-FP16"
-  },
-  {
     "id": "huggingface:Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed-FP16",
     "name": "Qwen3.8-27B-MTPLX-Optimized-Speed-FP16",
     "provider": "Youssofal",
@@ -21755,39 +21957,6 @@
     "family": "Qwen3.5-int4-ov"
   },
   {
-    "id": "huggingface:Youssofal/Qwen3.6-35B-A3B-MTPLX-Optimized-Balance",
-    "name": "Qwen3.6-35B-A3B-MTPLX-Optimized-Balance",
-    "provider": "Youssofal",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-06T21:18:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Youssofal/Qwen3.6-35B-A3B-MTPLX-Optimized-Balance",
-    "tags": [
-      "text-generation",
-      "mtplx",
-      "safetensors",
-      "qwen3_5_moe",
-      "mlx",
-      "apple-silicon"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-17T09:14:45.845703+00:00",
-    "source_ids": [
-      "Youssofal/Qwen3.6-35B-A3B-MTPLX-Optimized-Balance"
-    ],
-    "family": "Qwen3.6-MTPLX-Optimized-Balance"
-  },
-  {
     "id": "openrouter:qwen/qwen3.7-plus:batch",
     "name": "Qwen: Qwen3.7 Plus (batch)",
     "provider": "Qwen",
@@ -22945,6 +23114,40 @@
       "litert-community/Qwen3-0.6B"
     ],
     "family": "Qwen3"
+  },
+  {
+    "id": "huggingface:mradermacher/Gliese-OCR-7B-Post2.0-final-GGUF",
+    "name": "Gliese-OCR-7B-Post2.0-final-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-10-27T07:01:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Gliese-OCR-7B-Post2.0-final-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "Document",
+      "VLM"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-17T15:03:51.059995+00:00",
+    "source_ids": [
+      "mradermacher/Gliese-OCR-7B-Post2.0-final-GGUF"
+    ],
+    "family": "Gliese-OCR-Post2.0-final"
   },
   {
     "id": "huggingface:nvidia/diar_streaming_sortformer_4spk-v2.1",
