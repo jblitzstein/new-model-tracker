@@ -13493,6 +13493,73 @@
     "family": "Xing4.0"
   },
   {
+    "id": "huggingface:rookes/cantocaptions-cantonese-asr",
+    "name": "cantocaptions-cantonese-asr",
+    "provider": "rookes",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-16T10:08:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/rookes/cantocaptions-cantonese-asr",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "qwen3_asr",
+      "automatic-speech-recognition",
+      "base_model:adapter:Qwen/Qwen3-ASR-1.7B-hf"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-18T18:28:08.640327+00:00",
+    "source_ids": [
+      "rookes/cantocaptions-cantonese-asr"
+    ],
+    "family": "cantocaptions-cantonese-asr"
+  },
+  {
+    "id": "huggingface:Cactus-Compute/needle3",
+    "name": "needle3",
+    "provider": "Cactus-Compute",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-16T06:41:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Cactus-Compute/needle3",
+    "tags": [
+      "text-generation",
+      "cactus-needle",
+      "needle",
+      "tool-calling",
+      "function-calling",
+      "on-device"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-18T18:28:07.998815+00:00",
+    "source_ids": [
+      "Cactus-Compute/needle3"
+    ],
+    "family": "needle3"
+  },
+  {
     "id": "huggingface:CaptainArni/Swift-Qwen3.8-27B-NInfer",
     "name": "Swift-Qwen3.8-27B-NInfer",
     "provider": "CaptainArni",
@@ -13559,40 +13626,6 @@
       "nkkbr/Mini-K3-1H-attn-4mla-rope-v2"
     ],
     "family": "Mini-K3-1H-attn-4mla-rope-v2"
-  },
-  {
-    "id": "huggingface:realrebelai/FastH3-V2_GGUFs",
-    "name": "FastH3-V2_GGUFs",
-    "provider": "realrebelai",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-09-16T03:27:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/realrebelai/FastH3-V2_GGUFs",
-    "tags": [
-      "text-to-video",
-      "comfyui",
-      "gguf",
-      "video",
-      "text-to-video",
-      "minimax"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.619707+00:00",
-    "source_ids": [
-      "realrebelai/FastH3-V2_GGUFs"
-    ],
-    "family": "FastH3-V2_GGUFs"
   },
   {
     "id": "huggingface:reaperdoesntknow/gemma-270m-math-reasoner",
@@ -13698,41 +13731,6 @@
     "family": "occamy-1.0-NVFP4"
   },
   {
-    "id": "huggingface:IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2-GGUF",
-    "name": "Occamy-1.0-APEX-I-MiniPlus-V2-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-15T16:39:34.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantization",
-      "quantized",
-      "apex",
-      "custom-quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.984797+00:00",
-    "source_ids": [
-      "IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2-GGUF"
-    ],
-    "family": "Occamy-1.0-APEX-I-MiniPlus-V2"
-  },
-  {
     "id": "huggingface:Gensyn/open-1b-base",
     "name": "open-1b-base",
     "provider": "Gensyn",
@@ -13799,40 +13797,6 @@
       "JetBrains/Qwen3.8-3.6-27B-blend-GGUF"
     ],
     "family": "Qwen3.8-3.6-blend"
-  },
-  {
-    "id": "huggingface:frtertaer/LTX-2.5-uncensored-v1.1-FP8",
-    "name": "LTX-2.5-uncensored-v1.1-FP8",
-    "provider": "frtertaer",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-09-15T03:58:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/frtertaer/LTX-2.5-uncensored-v1.1-FP8",
-    "tags": [
-      "text-to-video",
-      "gguf",
-      "not-for-all-audiences",
-      "text-to-video",
-      "image-to-video",
-      "video-to-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.619940+00:00",
-    "source_ids": [
-      "frtertaer/LTX-2.5-uncensored-v1.1-FP8"
-    ],
-    "family": "LTX-2.5-uncensored-v1.1-FP8"
   },
   {
     "id": "huggingface:IsValorum/Iris-mini-APEX-I-MiniPlus-V1-GGUF",
@@ -15012,40 +14976,6 @@
       "diffbot/DeepSeek-V4.1-Flash-EXL3-3bpw-2x-RTX-PRO-6000"
     ],
     "family": "DeepSeek-V4.1-Flash-EXL3-3bpw-2x-RTX-PRO-6000"
-  },
-  {
-    "id": "huggingface:vladmandic/MiniMax-H3-Turbo-LoRA",
-    "name": "MiniMax-H3-Turbo-LoRA",
-    "provider": "vladmandic",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-09-11T05:37:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vladmandic/MiniMax-H3-Turbo-LoRA",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "minimax",
-      "turbo",
-      "lora",
-      "text-to-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.619796+00:00",
-    "source_ids": [
-      "vladmandic/MiniMax-H3-Turbo-LoRA"
-    ],
-    "family": "MiniMax-H3-Turbo-LoRA"
   },
   {
     "id": "huggingface:jialinyyzz/humanizer",
@@ -16603,41 +16533,6 @@
     "family": "TR-HASH-MoE-Agentic-Pretraining"
   },
   {
-    "id": "huggingface:ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-    "name": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-    "provider": "ISTA-DASLab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-07T09:41:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "gsq",
-      "rco",
-      "quantization",
-      "mixed-precision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.984900+00:00",
-    "source_ids": [
-      "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF"
-    ],
-    "family": "Qwen3.8-Flash-Next-GSQ-RCO"
-  },
-  {
     "id": "huggingface:spybyscript/nemotron-3.5-asr-streaming-0.6b-litert",
     "name": "nemotron-3.5-asr-streaming-0.6b-litert",
     "provider": "spybyscript",
@@ -17045,40 +16940,6 @@
       "Prannesshkva/ISOM-R1-Reasoning-1.5B-Instruct-Beta"
     ],
     "family": "ISOM-R1-Reasoning--Beta"
-  },
-  {
-    "id": "huggingface:FastVideo/FastVideo-FastH3-8-Step-V2",
-    "name": "FastVideo-FastH3-8-Step-V2",
-    "provider": "FastVideo",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-09-04T23:19:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-8-Step-V2",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "safetensors",
-      "text-to-video",
-      "video",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.619897+00:00",
-    "source_ids": [
-      "FastVideo/FastVideo-FastH3-8-Step-V2"
-    ],
-    "family": "FastVideo-FastH3-8-Step-V2"
   },
   {
     "id": "openrouter:inclusionai/ling-3.0-flash-sante",
@@ -19993,41 +19854,6 @@
     "family": "Qwen3.8-MXFP8-CRACK-NInfer-v3"
   },
   {
-    "id": "huggingface:byteshape/Qwen3.8-27B-GGUF",
-    "name": "Qwen3.8-27B-GGUF",
-    "provider": "byteshape",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-18T17:02:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/byteshape/Qwen3.8-27B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3.8",
-      "byteshape",
-      "shapelearn"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.984659+00:00",
-    "source_ids": [
-      "byteshape/Qwen3.8-27B-GGUF"
-    ],
-    "family": "Qwen3.8"
-  },
-  {
     "id": "huggingface:orcarouter/Qwen3.8-27B-Uncensored",
     "name": "Qwen3.8-27B-Uncensored",
     "provider": "orcarouter",
@@ -22611,40 +22437,6 @@
       "nvidia/diar_streaming_sortformer_4spk-v2.1"
     ],
     "family": "diar_streaming_sortformer_4spk-v2.1"
-  },
-  {
-    "id": "huggingface:alephpi/FormulaNet",
-    "name": "FormulaNet",
-    "provider": "alephpi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-10-13T09:26:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/alephpi/FormulaNet",
-    "tags": [
-      "image-to-text",
-      "onnx",
-      "safetensors",
-      "vision-encoder-decoder",
-      "latex-ocr",
-      "image-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T15:56:18.543035+00:00",
-    "source_ids": [
-      "alephpi/FormulaNet"
-    ],
-    "family": "FormulaNet"
   },
   {
     "id": "huggingface:mradermacher/Huihui-gemma-3n-E2B-it-abliterated-i1-GGUF",
