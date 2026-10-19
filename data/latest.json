@@ -1910,6 +1910,39 @@
     "family": "RusMind-Momentum"
   },
   {
+    "id": "huggingface:294-288-pretrain-interaction/160M-exp",
+    "name": "160M-exp",
+    "provider": "294-288-pretrain-interaction",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-10T19:53:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/294-288-pretrain-interaction/160M-exp",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gpt_neox",
+      "text-generation",
+      "gpt-neox",
+      "base_model:EleutherAI/pythia-160m"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T03:31:39.178954+00:00",
+    "source_ids": [
+      "294-288-pretrain-interaction/160M-exp"
+    ],
+    "family": "160M-exp"
+  },
+  {
     "id": "huggingface:datalab-to/indra-ocr",
     "name": "indra-ocr",
     "provider": "datalab-to",
@@ -12462,37 +12495,6 @@
     "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-q4v3-vs16"
   },
   {
-    "id": "openrouter:prism-ml/ternary-bonsai-2-27b",
-    "name": "PrismML: Ternary Bonsai 2 27B",
-    "provider": "prism-ml",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T17:54:06+00:00",
-    "context_length": 262144,
-    "description": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks...",
-    "url": "https://openrouter.ai/prism-ml/ternary-bonsai-2-27b",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.075,
-      "completion_per_million": 0.5
-    },
-    "first_seen": "2026-09-18T22:20:21.730322+00:00",
-    "source_ids": [
-      "prism-ml/ternary-bonsai-2-27b"
-    ],
-    "family": "Ternary Bonsai 2"
-  },
-  {
     "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v3-groot16",
     "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q4v3-groot16",
     "provider": "agurung",
@@ -12557,39 +12559,6 @@
       "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF"
     ],
     "family": "Ternary-Bonsai-2-Abliterated-PQ2_0-MTP"
-  },
-  {
-    "id": "openrouter:z-ai/glm-5.3-flashx",
-    "name": "Z.ai: GLM 5.3 FlashX",
-    "provider": "Zhipu AI",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T15:07:00+00:00",
-    "context_length": 1048576,
-    "description": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture...",
-    "url": "https://openrouter.ai/z-ai/glm-5.3-flashx",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.37,
-      "completion_per_million": 1.25
-    },
-    "first_seen": "2026-09-19T03:26:58.429309+00:00",
-    "source_ids": [
-      "z-ai/glm-5.3-flashx"
-    ],
-    "family": "GLM 5.3 FlashX"
   },
   {
     "id": "huggingface:GeorgeUwaifo/ivieai_star_v1.0",
@@ -13122,41 +13091,6 @@
       "virtuanista/LFM2.5-8B-A1B-Uncensored-GGUF"
     ],
     "family": "LFM2.5-Uncensored"
-  },
-  {
-    "id": "huggingface:DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
-    "name": "Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-17T07:21:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "unsloth",
-      "fine tune",
-      "heretic",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-19T03:26:59.455609+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF"
-    ],
-    "family": "Qwen3.8-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP"
   },
   {
     "id": "huggingface:aethertp/PicoLM-80M-Instruct",
@@ -13934,39 +13868,6 @@
       "yniw/MiniMax-H3-mmh3"
     ],
     "family": "MiniMax-H3-mmh3"
-  },
-  {
-    "id": "huggingface:nvidia/GLM-5.3-NVFP4",
-    "name": "GLM-5.3-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-14T17:58:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/GLM-5.3-NVFP4",
-    "tags": [
-      "text-generation",
-      "Model Optimizer",
-      "safetensors",
-      "glm_moe_dsa",
-      "nvidia",
-      "ModelOpt"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T22:20:21.904115+00:00",
-    "source_ids": [
-      "nvidia/GLM-5.3-NVFP4"
-    ],
-    "family": "GLM-5.3-NVFP4"
   },
   {
     "id": "huggingface:dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW-GGUF",
@@ -19444,39 +19345,6 @@
     "family": "Qwen-3.8-Uncensored"
   },
   {
-    "id": "huggingface:Lordnyx/qwen3loop-0.6b-sft-deep-supervision-v1",
-    "name": "qwen3loop-0.6b-sft-deep-supervision-v1",
-    "provider": "Lordnyx",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-22T19:48:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Lordnyx/qwen3loop-0.6b-sft-deep-supervision-v1",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "qwen3loop",
-      "recursive-reasoning",
-      "deep-supervision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-18T22:20:21.903937+00:00",
-    "source_ids": [
-      "Lordnyx/qwen3loop-0.6b-sft-deep-supervision-v1"
-    ],
-    "family": "qwen3loop-sft-deep-supervision-v1"
-  },
-  {
     "id": "huggingface:1jamesthompson1/Qwen3.8-27B-nz-wvs-full_string_distribution-overall",
     "name": "Qwen3.8-27B-nz-wvs-full_string_distribution-overall",
     "provider": "1jamesthompson1",
@@ -20539,6 +20407,39 @@
       "thantzinphyo/Whisper-Small-Myanmar-Partial-Freezing"
     ],
     "family": "Whisper-Small-Myanmar-Partial-Freezing"
+  },
+  {
+    "id": "huggingface:HanzoHuang/gemma-4-E2B-it-RKLLM",
+    "name": "gemma-4-E2B-it-RKLLM",
+    "provider": "HanzoHuang",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T11:18:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HanzoHuang/gemma-4-E2B-it-RKLLM",
+    "tags": [
+      "text-generation",
+      "rkllm",
+      "rockchip",
+      "rk3576",
+      "rk3588",
+      "gemma"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T03:31:39.179023+00:00",
+    "source_ids": [
+      "HanzoHuang/gemma-4-E2B-it-RKLLM"
+    ],
+    "family": "gemma-4-E-it-RKLLM"
   },
   {
     "id": "huggingface:cvgro/Muse-Glimmer-30B-Abliterated-GGUF",
