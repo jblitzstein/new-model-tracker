@@ -99,6 +99,40 @@
     "family": "DeepSeek-V4.1-Flash-1017"
   },
   {
+    "id": "huggingface:akhaliq/MOSS-Image-SFT-4-steps",
+    "name": "MOSS-Image-SFT-4-steps",
+    "provider": "akhaliq",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-16T20:11:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "moss-image",
+      "text-to-image",
+      "turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.508189+00:00",
+    "source_ids": [
+      "akhaliq/MOSS-Image-SFT-4-steps"
+    ],
+    "family": "MOSS-Image-SFT-4-steps"
+  },
+  {
     "id": "openrouter:xingchen-agi/xing4.0-29b-a4b:free",
     "name": "XingChen: Xing4.0 29B A4B (free)",
     "provider": "xingchen-agi",
@@ -519,6 +553,40 @@
     "family": "Pareto 26.10"
   },
   {
+    "id": "huggingface:danielrosehill/Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
+    "name": "Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
+    "provider": "danielrosehill",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-15T08:41:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/danielrosehill/Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "onnx",
+      "gguf",
+      "code-switching",
+      "hebrew"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.890876+00:00",
+    "source_ids": [
+      "danielrosehill/Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching"
+    ],
+    "family": "Parakeet-TDT-v2-English-Hebrew-Codeswitching"
+  },
+  {
     "id": "huggingface:kataguru/Kataguru-Sceptic-35B-A3B-v2.6-GGUF",
     "name": "Kataguru-Sceptic-35B-A3B-v2.6-GGUF",
     "provider": "kataguru",
@@ -790,6 +858,41 @@
       "unsloth/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF"
     ],
     "family": "NVIDIA-Nemotron-3.5-Bolt"
+  },
+  {
+    "id": "huggingface:Vardaan97/Qwen3.8-Flash-Next-Splash-GGUF",
+    "name": "Qwen3.8-Flash-Next-Splash-GGUF",
+    "provider": "Vardaan97",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T12:49:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vardaan97/Qwen3.8-Flash-Next-Splash-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "imatrix",
+      "qwen4exp",
+      "moe",
+      "splash"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.979503+00:00",
+    "source_ids": [
+      "Vardaan97/Qwen3.8-Flash-Next-Splash-GGUF"
+    ],
+    "family": "Qwen3.8-Flash-Next-Splash"
   },
   {
     "id": "huggingface:Eng-Ahmd/Drama-3-Windows-GGUF",
@@ -1741,6 +1844,40 @@
     "family": "qwen-image-2512-mflux-q4"
   },
   {
+    "id": "huggingface:OpenMOSS-Team/MOSS-Image-SFT",
+    "name": "MOSS-Image-SFT",
+    "provider": "OpenMOSS-Team",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-11T07:01:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "moss-image",
+      "text-to-image",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.508100+00:00",
+    "source_ids": [
+      "OpenMOSS-Team/MOSS-Image-SFT"
+    ],
+    "family": "MOSS-Image-SFT"
+  },
+  {
     "id": "huggingface:mflux-community/qwen-image-2512-mflux-q8",
     "name": "qwen-image-2512-mflux-q8",
     "provider": "mflux-community",
@@ -1773,6 +1910,40 @@
       "mflux-community/qwen-image-2512-mflux-q8"
     ],
     "family": "qwen-image-2512-mflux-q8"
+  },
+  {
+    "id": "huggingface:OpenMOSS-Team/MOSS-Image-Base",
+    "name": "MOSS-Image-Base",
+    "provider": "OpenMOSS-Team",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-11T06:49:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "moss-image",
+      "text-to-image",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.508158+00:00",
+    "source_ids": [
+      "OpenMOSS-Team/MOSS-Image-Base"
+    ],
+    "family": "MOSS-Image"
   },
   {
     "id": "huggingface:mflux-community/qwen-image-mflux-q4",
@@ -13599,39 +13770,6 @@
     "family": "Swift-Qwen3.8-NInfer"
   },
   {
-    "id": "huggingface:nkkbr/Mini-K3-1H-attn-4mla-rope-v2",
-    "name": "Mini-K3-1H-attn-4mla-rope-v2",
-    "provider": "nkkbr",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-16T06:18:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nkkbr/Mini-K3-1H-attn-4mla-rope-v2",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "mini_k3",
-      "kimi-k3",
-      "pretraining"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-19T08:35:10.371086+00:00",
-    "source_ids": [
-      "nkkbr/Mini-K3-1H-attn-4mla-rope-v2"
-    ],
-    "family": "Mini-K3-1H-attn-4mla-rope-v2"
-  },
-  {
     "id": "huggingface:reaperdoesntknow/gemma-270m-math-reasoner",
     "name": "gemma-270m-math-reasoner",
     "provider": "reaperdoesntknow",
@@ -16469,6 +16607,39 @@
       "Pacific-i64/TR-HASH-MoE-1B-70B-Agentic-Pretraining"
     ],
     "family": "TR-HASH-MoE-Agentic-Pretraining"
+  },
+  {
+    "id": "huggingface:hendrimardani/fine-tuned-model-indonesian",
+    "name": "fine-tuned-model-indonesian",
+    "provider": "hendrimardani",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-07T10:21:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hendrimardani/fine-tuned-model-indonesian",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "text-generation-inference"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.415875+00:00",
+    "source_ids": [
+      "hendrimardani/fine-tuned-model-indonesian"
+    ],
+    "family": "fine-tuned-model-indonesian"
   },
   {
     "id": "huggingface:spybyscript/nemotron-3.5-asr-streaming-0.6b-litert",
@@ -22276,6 +22447,41 @@
     "family": "Qwen2-VL"
   },
   {
+    "id": "huggingface:cyankiwi/GLM-4.6V-Flash-AWQ-4bit",
+    "name": "GLM-4.6V-Flash-AWQ-4bit",
+    "provider": "cyankiwi",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-12-08T19:34:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cyankiwi/GLM-4.6V-Flash-AWQ-4bit",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "glm4v",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.979617+00:00",
+    "source_ids": [
+      "cyankiwi/GLM-4.6V-Flash-AWQ-4bit"
+    ],
+    "family": "GLM-4.6V-Flash--4bit"
+  },
+  {
     "id": "huggingface:litert-community/Qwen3-0.6B",
     "name": "Qwen3-0.6B",
     "provider": "litert-community",
@@ -22513,6 +22719,72 @@
     "family": "Huihui-gemma-3n-E-it-abliterated"
   },
   {
+    "id": "huggingface:litert-community/Qwen2.5-1.5B-Instruct",
+    "name": "Qwen2.5-1.5B-Instruct",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-30T19:19:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "tflite",
+      "chat",
+      "text-generation",
+      "base_model:Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.415773+00:00",
+    "source_ids": [
+      "litert-community/Qwen2.5-1.5B-Instruct"
+    ],
+    "family": "Qwen2.5"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen2.5-0.5B-Instruct",
+    "name": "Qwen2.5-0.5B-Instruct",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-04-30T16:16:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen2.5-0.5B-Instruct",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "tflite",
+      "chat",
+      "text-generation",
+      "base_model:Qwen/Qwen2.5-0.5B-Instruct"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.415678+00:00",
+    "source_ids": [
+      "litert-community/Qwen2.5-0.5B-Instruct"
+    ],
+    "family": "Qwen2.5"
+  },
+  {
     "id": "huggingface:onnx-community/Qwen3-1.7B-ONNX",
     "name": "Qwen3-1.7B-ONNX",
     "provider": "onnx-community",
@@ -22613,6 +22885,39 @@
     "family": "indic-conformer-600m-multilingual"
   },
   {
+    "id": "huggingface:litert-community/Phi-4-mini-instruct",
+    "name": "Phi-4-mini-instruct",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-05T21:37:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Phi-4-mini-instruct",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "tflite",
+      "chat",
+      "text-generation",
+      "base_model:microsoft/Phi-4-mini-instruct"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.415713+00:00",
+    "source_ids": [
+      "litert-community/Phi-4-mini-instruct"
+    ],
+    "family": "Phi-4-mini"
+  },
+  {
     "id": "huggingface:ai4bharat/indic-seamless",
     "name": "indic-seamless",
     "provider": "ai4bharat",
@@ -22645,6 +22950,39 @@
       "ai4bharat/indic-seamless"
     ],
     "family": "indic-seamless"
+  },
+  {
+    "id": "huggingface:litert-community/DeepSeek-R1-Distill-Qwen-1.5B",
+    "name": "DeepSeek-R1-Distill-Qwen-1.5B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-02-14T22:51:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/DeepSeek-R1-Distill-Qwen-1.5B",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "tflite",
+      "chat",
+      "text-generation",
+      "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-19T09:38:08.415741+00:00",
+    "source_ids": [
+      "litert-community/DeepSeek-R1-Distill-Qwen-1.5B"
+    ],
+    "family": "DeepSeek-R1-Distill-Qwen"
   },
   {
     "id": "huggingface:large-traversaal/Alif-1.0-8B-Instruct",
