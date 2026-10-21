@@ -1,5 +1,99 @@
 [
   {
+    "id": "openrouter:recursive/flint-v1.0:free",
+    "name": "Recursive: Flint (free)",
+    "provider": "recursive",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T22:46:05+00:00",
+    "context_length": 262144,
+    "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited...",
+    "url": "https://openrouter.ai/recursive/flint-v1.0:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-10-21T23:01:41.195719+00:00",
+    "source_ids": [
+      "recursive/flint-v1.0:free"
+    ],
+    "family": "Flint"
+  },
+  {
+    "id": "huggingface:dongfangshuo/Dongfangshuo-Qwen3.8-Flash-Next-NSFW",
+    "name": "Dongfangshuo-Qwen3.8-Flash-Next-NSFW",
+    "provider": "dongfangshuo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-20T07:31:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dongfangshuo/Dongfangshuo-Qwen3.8-Flash-Next-NSFW",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen4_exp",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-21T23:01:42.197814+00:00",
+    "source_ids": [
+      "dongfangshuo/Dongfangshuo-Qwen3.8-Flash-Next-NSFW"
+    ],
+    "family": "Dongfangshuo-Qwen3.8-Flash-Next-NSFW"
+  },
+  {
+    "id": "huggingface:peasantsmith/DeepSeek-V4.1-Flash-1017-Maya-GGUF",
+    "name": "DeepSeek-V4.1-Flash-1017-Maya-GGUF",
+    "provider": "peasantsmith",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-19T07:48:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peasantsmith/DeepSeek-V4.1-Flash-1017-Maya-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "imatrix",
+      "mixture-of-experts",
+      "deepseek",
+      "project-maya"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-21T23:01:41.356450+00:00",
+    "source_ids": [
+      "peasantsmith/DeepSeek-V4.1-Flash-1017-Maya-GGUF"
+    ],
+    "family": "DeepSeek-V4.1-Flash-1017-Maya"
+  },
+  {
     "id": "openrouter:minimax/minimax-m3.1-flash:free",
     "name": "MiniMax: MiniMax M3.1 Flash (free)",
     "provider": "MiniMax",
@@ -11893,39 +11987,6 @@
     "family": "Mini-K3-1H-mamba2-n128-g4-v1_C"
   },
   {
-    "id": "openrouter:x-ai/grok-4.7",
-    "name": "SpaceXAI: Grok 4.7",
-    "provider": "xAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T16:19:01+00:00",
-    "context_length": 500000,
-    "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
-    "url": "https://openrouter.ai/x-ai/grok-4.7",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.6,
-      "completion_per_million": 4.8
-    },
-    "first_seen": "2026-09-21T17:55:48.057689+00:00",
-    "source_ids": [
-      "x-ai/grok-4.7"
-    ],
-    "family": "Grok 4.7"
-  },
-  {
     "id": "huggingface:nkkbr/Mini-K3-1H-decay-g8-v2_C",
     "name": "Mini-K3-1H-decay-g8-v2_C",
     "provider": "nkkbr",
@@ -12804,40 +12865,6 @@
     "family": "Qwen-Image-2.1-MLX-Serve-4bit"
   },
   {
-    "id": "huggingface:abenzerps/Qwen-Image-2.1-GGUF",
-    "name": "Qwen-Image-2.1-GGUF",
-    "provider": "abenzerps",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-09-20T15:51:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "qwen",
-      "image-generation",
-      "comfyui",
-      "comfyui-gguf"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.329024+00:00",
-    "source_ids": [
-      "abenzerps/Qwen-Image-2.1-GGUF"
-    ],
-    "family": "Qwen-Image-2.1"
-  },
-  {
     "id": "huggingface:abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
     "name": "Qwen-Image-2.1-Uncensored-GGUF",
     "provider": "abenzerps",
@@ -13038,39 +13065,6 @@
       "autotrust/GLM-5.3-Flash-GGUF-DGX-Spark"
     ],
     "family": "GLM-5.3-Flash--DGX-Spark"
-  },
-  {
-    "id": "huggingface:IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-    "name": "Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-19T22:27:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "abliterated",
-      "uncensored",
-      "alignment",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194235+00:00",
-    "source_ids": [
-      "IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated-GGUF"
-    ],
-    "family": "Occamy-1.0-APEX-I-MiniPlus-V2.1-Abliterated"
   },
   {
     "id": "huggingface:touati-kamel/f5tts-algerian-darja",
@@ -13579,173 +13573,6 @@
     "family": "BAAR2-199M"
   },
   {
-    "id": "huggingface:IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T08:06:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "quantization",
-      "apex",
-      "apex-quant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194005+00:00",
-    "source_ids": [
-      "IsValorum/Apodex-1.1-mini-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "Apodex-1.1-mini-APEX-I-MiniPlus-V2.1"
-  },
-  {
-    "id": "huggingface:IsValorum/Iris-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "Iris-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T07:37:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Iris-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "quantization",
-      "apex",
-      "apex-quant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194042+00:00",
-    "source_ids": [
-      "IsValorum/Iris-mini-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "Iris-mini-APEX-I-MiniPlus-V2.1"
-  },
-  {
-    "id": "huggingface:IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T05:57:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "quantization",
-      "apex",
-      "apex-quant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194074+00:00",
-    "source_ids": [
-      "IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2.1"
-  },
-  {
-    "id": "huggingface:IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T05:09:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "quantization",
-      "apex",
-      "apex-quant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194106+00:00",
-    "source_ids": [
-      "IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "Thomson-1.0-Small-APEX-I-MiniPlus-V2.1"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Swift-Qwen3.8-27B-Genesis-GGUF",
-    "name": "Swift-Qwen3.8-27B-Genesis-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T05:02:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Swift-Qwen3.8-27B-Genesis-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.9",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.993234+00:00",
-    "source_ids": [
-      "LuffyTheFox/Swift-Qwen3.8-27B-Genesis-GGUF"
-    ],
-    "family": "Swift-Qwen3.8-Genesis"
-  },
-  {
     "id": "huggingface:Sariel00/mindnano-ling3-compass",
     "name": "mindnano-ling3-compass",
     "provider": "Sariel00",
@@ -13779,72 +13606,6 @@
     "family": "mindnano-ling3-compass"
   },
   {
-    "id": "huggingface:IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T03:31:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "quantization",
-      "apex",
-      "apex-quant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194138+00:00",
-    "source_ids": [
-      "IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2.1"
-  },
-  {
-    "id": "huggingface:IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T03:02:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "quantization",
-      "apex",
-      "apex-quant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194172+00:00",
-    "source_ids": [
-      "IsValorum/Nex-N2.5-mini-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "Nex-N2.5-mini-APEX-I-MiniPlus-V2.1"
-  },
-  {
     "id": "huggingface:BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
     "name": "Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
     "provider": "BoldingBuilds",
@@ -13876,39 +13637,6 @@
       "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF"
     ],
     "family": "Ternary-Bonsai-2-Abliterated-PTQ1_0"
-  },
-  {
-    "id": "huggingface:IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T00:36:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "quantized",
-      "quantization",
-      "apex",
-      "apex-quant"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.194205+00:00",
-    "source_ids": [
-      "IsValorum/Occamy-1.0-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "Occamy-1.0-APEX-I-MiniPlus-V2.1"
   },
   {
     "id": "huggingface:EQTYLab/Llama-3.1-Nemotron-Nano-4B-v1.1-banking77",
@@ -13975,41 +13703,6 @@
       "virtuanista/LFM2.5-8B-A1B-Uncensored-GGUF"
     ],
     "family": "LFM2.5-Uncensored"
-  },
-  {
-    "id": "huggingface:kacaforyah/Opti-27B",
-    "name": "Opti-27B",
-    "provider": "kacaforyah",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-17T03:04:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kacaforyah/Opti-27B",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "opti",
-      "compression",
-      "patent-pending",
-      "qwen3.8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.993150+00:00",
-    "source_ids": [
-      "kacaforyah/Opti-27B"
-    ],
-    "family": "Opti"
   },
   {
     "id": "huggingface:DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
@@ -17935,40 +17628,6 @@
     "family": "Qwen3.8-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-mlx-6Bit"
   },
   {
-    "id": "huggingface:OpenVDN/vdn-minimax-h3",
-    "name": "vdn-minimax-h3",
-    "provider": "OpenVDN",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-09-02T05:03:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "safetensors",
-      "text-to-video",
-      "arxiv:2609.20744",
-      "base_model:MiniMaxAI/MiniMax-H3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.537375+00:00",
-    "source_ids": [
-      "OpenVDN/vdn-minimax-h3"
-    ],
-    "family": "vdn-minimax-h3"
-  },
-  {
     "id": "huggingface:orcarouter/DeepSeek-V4-Flash-Vision-Uncensored-GGUF",
     "name": "DeepSeek-V4-Flash-Vision-Uncensored-GGUF",
     "provider": "orcarouter",
@@ -19579,41 +19238,6 @@
       "GreenBitAI/Qwen3.6-35B-A3B-8bit-paged"
     ],
     "family": "Qwen3.6-8bit-paged"
-  },
-  {
-    "id": "huggingface:Starw1/Qwen3.8-27B-absolute-heresy-W4A16",
-    "name": "Qwen3.8-27B-absolute-heresy-W4A16",
-    "provider": "Starw1",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-25T19:26:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Starw1/Qwen3.8-27B-absolute-heresy-W4A16",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "vllm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T17:55:48.993181+00:00",
-    "source_ids": [
-      "Starw1/Qwen3.8-27B-absolute-heresy-W4A16"
-    ],
-    "family": "Qwen3.8-absolute-heresy-W4A16"
   },
   {
     "id": "huggingface:LuffyTheFox/Ornith1.5-35B-A3B-Genesis-Hermes-GGUF",
@@ -22072,6 +21696,39 @@
       "OpenVINO/Qwen3.5-4B-int4-ov"
     ],
     "family": "Qwen3.5-int4-ov"
+  },
+  {
+    "id": "huggingface:hexera-org/GmshNet-8B-v0.1-GGUF",
+    "name": "GmshNet-8B-v0.1-GGUF",
+    "provider": "hexera-org",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T20:56:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hexera-org/GmshNet-8B-v0.1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "code-generation",
+      "fine-tuned",
+      "reasoning",
+      "gmsh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-21T23:01:41.356492+00:00",
+    "source_ids": [
+      "hexera-org/GmshNet-8B-v0.1-GGUF"
+    ],
+    "family": "GmshNet-v0.1"
   },
   {
     "id": "openrouter:qwen/qwen3.7-plus:batch",
