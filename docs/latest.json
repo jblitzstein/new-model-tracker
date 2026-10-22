@@ -444,6 +444,41 @@
     "family": "Mercury 3"
   },
   {
+    "id": "huggingface:orcarouter/OrcaCyber-Nano-1.0",
+    "name": "OrcaCyber-Nano-1.0",
+    "provider": "orcarouter",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-16T10:04:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "cybersecurity",
+      "security",
+      "reverse-engineering",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T03:33:20.425565+00:00",
+    "source_ids": [
+      "orcarouter/OrcaCyber-Nano-1.0"
+    ],
+    "family": "OrcaCyber-Nano-1.0"
+  },
+  {
     "id": "huggingface:nvidia/Muse-Spark-Open-816B-A42B-DFlash2",
     "name": "Muse-Spark-Open-816B-A42B-DFlash2",
     "provider": "NVIDIA",
@@ -3991,6 +4026,39 @@
     "family": "Qwen3.8-VAL-APEX-I-MiniPlus-V3"
   },
   {
+    "id": "huggingface:Subject-Emu-5259/NeuralAI-Nae1",
+    "name": "NeuralAI-Nae1",
+    "provider": "Subject-Emu-5259",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T23:36:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Subject-Emu-5259/NeuralAI-Nae1",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "nae1",
+      "neuralai",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T03:33:19.898002+00:00",
+    "source_ids": [
+      "Subject-Emu-5259/NeuralAI-Nae1"
+    ],
+    "family": "NeuralAI-Nae1"
+  },
+  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
     "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
     "provider": "NVIDIA",
@@ -4057,6 +4125,39 @@
       "francesca9805/swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407"
     ],
     "family": "swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407"
+  },
+  {
+    "id": "huggingface:JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+    "name": "Mellum2.1-12B-A2.5B-Thinking-GGUF",
+    "provider": "JetBrains",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T18:43:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "mellum",
+      "llama.cpp",
+      "quantized",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T03:33:19.897948+00:00",
+    "source_ids": [
+      "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF"
+    ],
+    "family": "Mellum2.1"
   },
   {
     "id": "openrouter:anthropic/claude-haiku-5.5",
@@ -11748,111 +11849,6 @@
     "family": "Qwen3.6-2Bit-GSQ-hybrid"
   },
   {
-    "id": "openrouter:xiaomi/mimo-v2.6-pro-ultraspeed",
-    "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
-    "provider": "Xiaomi",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T20:07:47+00:00",
-    "context_length": 1048576,
-    "description": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly 10x...",
-    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro-ultraspeed",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 4.35,
-      "completion_per_million": 8.7
-    },
-    "first_seen": "2026-09-21T23:02:06.785344+00:00",
-    "source_ids": [
-      "xiaomi/mimo-v2.6-pro-ultraspeed"
-    ],
-    "family": "MiMo-V2.6-Pro-UltraSpeed"
-  },
-  {
-    "id": "openrouter:xiaomi/mimo-v2.6-flash",
-    "name": "Xiaomi: MiMo-V2.6-Flash",
-    "provider": "Xiaomi",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T20:07:44+00:00",
-    "context_length": 1048576,
-    "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for...",
-    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.14,
-      "completion_per_million": 0.28
-    },
-    "first_seen": "2026-09-21T23:02:06.786420+00:00",
-    "source_ids": [
-      "xiaomi/mimo-v2.6-flash"
-    ],
-    "family": "MiMo-V2.6-Flash"
-  },
-  {
-    "id": "openrouter:xiaomi/mimo-v2.6-pro",
-    "name": "Xiaomi: MiMo-V2.6-Pro",
-    "provider": "Xiaomi",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T20:07:39+00:00",
-    "context_length": 1048576,
-    "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding...",
-    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.435,
-      "completion_per_million": 0.87
-    },
-    "first_seen": "2026-09-21T23:02:06.786461+00:00",
-    "source_ids": [
-      "xiaomi/mimo-v2.6-pro"
-    ],
-    "family": "MiMo-V2.6-Pro"
-  },
-  {
     "id": "huggingface:paradigma-inc/limite-1b-violetto",
     "name": "limite-1b-violetto",
     "provider": "paradigma-inc",
@@ -13134,41 +13130,6 @@
     "family": "Whittle-Qwen-3.8-i1"
   },
   {
-    "id": "huggingface:bloomer010/Ling-3.0-flash-VL-GGUF",
-    "name": "Ling-3.0-flash-VL-GGUF",
-    "provider": "bloomer010",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-19T19:22:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/bloomer010/Ling-3.0-flash-VL-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "llama.cpp",
-      "gguf",
-      "bailingmoe3vl",
-      "mixture-of-experts",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T23:02:07.885550+00:00",
-    "source_ids": [
-      "bloomer010/Ling-3.0-flash-VL-GGUF"
-    ],
-    "family": "Ling-3.0-flash-VL"
-  },
-  {
     "id": "huggingface:neopolita/Qwen3.8-Flash-Next-119B-A5B-Niwaki-v2.4-3bit-gguf",
     "name": "Qwen3.8-Flash-Next-119B-A5B-Niwaki-v2.4-3bit-gguf",
     "provider": "neopolita",
@@ -13802,76 +13763,6 @@
       "prism-ml/Ternary-Bonsai-2-27B-gguf"
     ],
     "family": "Ternary-Bonsai-2"
-  },
-  {
-    "id": "huggingface:IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
-    "name": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-16T17:36:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "apex",
-      "custom-quantization",
-      "unsloth-studio",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T23:02:07.885604+00:00",
-    "source_ids": [
-      "IsValorum/XYZ-Aquila-mini-APEX-I-MiniPlus-V2-GGUF"
-    ],
-    "family": "XYZ-Aquila-mini-APEX-I-MiniPlus-V2"
-  },
-  {
-    "id": "huggingface:IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF",
-    "name": "Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-16T17:21:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "apex",
-      "custom-quantization",
-      "unsloth-studio",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T23:02:07.885639+00:00",
-    "source_ids": [
-      "IsValorum/Thomson-1.0-Small-APEX-I-MiniPlus-V2-GGUF"
-    ],
-    "family": "Thomson-1.0-Small-APEX-I-MiniPlus-V2"
   },
   {
     "id": "huggingface:IsValorum/KAT-Coder-V2.5-Dev-APEX-I-MiniPlus-V2-GGUF",
@@ -17285,41 +17176,6 @@
     "family": "Gemma-4-StyleTune-V2-QAT"
   },
   {
-    "id": "huggingface:NikiKrutan/Kiwen1.1-27B-MTP-GGUF",
-    "name": "Kiwen1.1-27B-MTP-GGUF",
-    "provider": "NikiKrutan",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-04T15:05:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/NikiKrutan/Kiwen1.1-27B-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3.8",
-      "thinking",
-      "reasoning",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T23:02:07.885516+00:00",
-    "source_ids": [
-      "NikiKrutan/Kiwen1.1-27B-MTP-GGUF"
-    ],
-    "family": "Kiwen1.1-MTP"
-  },
-  {
     "id": "huggingface:neopolita/Qwen3.8-Flash-Next-99B-A5B-Niwaki-3bit-gguf",
     "name": "Qwen3.8-Flash-Next-99B-A5B-Niwaki-3bit-gguf",
     "provider": "neopolita",
@@ -20682,39 +20538,6 @@
     "family": "Qwen3.5-CyberSec"
   },
   {
-    "id": "huggingface:desert-ant-labs/title",
-    "name": "title",
-    "provider": "desert-ant-labs",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T10:22:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/desert-ant-labs/title",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "granitemoehybrid",
-      "text",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-21T23:02:06.961125+00:00",
-    "source_ids": [
-      "desert-ant-labs/title"
-    ],
-    "family": "title"
-  },
-  {
     "id": "huggingface:KiaBush/Persian-IPA-to-Speech-F5",
     "name": "Persian-IPA-to-Speech-F5",
     "provider": "KiaBush",
@@ -20780,6 +20603,74 @@
       "AtomicChat/Ling-3.0-flash-GGUF"
     ],
     "family": "Ling-3.0-flash"
+  },
+  {
+    "id": "huggingface:unslothai/Qwen3-ASR-0.6B-GGUF",
+    "name": "Qwen3-ASR-0.6B-GGUF",
+    "provider": "unslothai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-04T15:06:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unslothai/Qwen3-ASR-0.6B-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "qwen",
+      "unsloth",
+      "automatic-speech-recognition",
+      "arxiv:2601.21337"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T03:33:20.343956+00:00",
+    "source_ids": [
+      "unslothai/Qwen3-ASR-0.6B-GGUF"
+    ],
+    "family": "Qwen3-ASR"
+  },
+  {
+    "id": "huggingface:unslothai/Qwen3-ASR-1.7B-GGUF",
+    "name": "Qwen3-ASR-1.7B-GGUF",
+    "provider": "unslothai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-04T15:06:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unslothai/Qwen3-ASR-1.7B-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "qwen",
+      "unsloth",
+      "automatic-speech-recognition",
+      "arxiv:2601.21337"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T03:33:20.344020+00:00",
+    "source_ids": [
+      "unslothai/Qwen3-ASR-1.7B-GGUF"
+    ],
+    "family": "Qwen3-ASR"
   },
   {
     "id": "huggingface:beycanai/z-image-turbo-realism",
