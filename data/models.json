@@ -174449,5 +174449,243 @@
       "ATH-MaaS/OvisOCR2"
     ],
     "family": "OvisOCR2"
+  },
+  {
+    "id": "openrouter:minimax/minimax-m3.1-flash",
+    "name": "MiniMax: MiniMax M3.1 Flash",
+    "provider": "MiniMax",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-19T03:12:49+00:00",
+    "context_length": 1000000,
+    "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
+    "url": "https://openrouter.ai/minimax/minimax-m3.1-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-10-22T16:43:24.964654+00:00",
+    "source_ids": [
+      "minimax/minimax-m3.1-flash"
+    ],
+    "family": "MiniMax M3.1 Flash"
+  },
+  {
+    "id": "huggingface:TeraSpace/TeraTTSv2",
+    "name": "TeraTTSv2",
+    "provider": "TeraSpace",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-07T21:01:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TeraSpace/TeraTTSv2",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "onnx",
+      "teratts_onnx",
+      "feature-extraction",
+      "onnxruntime"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T16:43:25.713470+00:00",
+    "source_ids": [
+      "TeraSpace/TeraTTSv2"
+    ],
+    "family": "TeraTTSv2"
+  },
+  {
+    "id": "huggingface:gradium/phonon-40m-multilingual",
+    "name": "phonon-40m-multilingual",
+    "provider": "gradium",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-19T12:02:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gradium/phonon-40m-multilingual",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gradium_phonon_tts",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T16:43:25.713600+00:00",
+    "source_ids": [
+      "gradium/phonon-40m-multilingual"
+    ],
+    "family": "phonon-40m-multilingual"
+  },
+  {
+    "id": "huggingface:gradium/phonon-40m-es",
+    "name": "phonon-40m-es",
+    "provider": "gradium",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-19T12:02:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gradium/phonon-40m-es",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gradium_phonon_tts",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T16:43:25.713623+00:00",
+    "source_ids": [
+      "gradium/phonon-40m-es"
+    ],
+    "family": "phonon-40m-es"
+  },
+  {
+    "id": "huggingface:gradium/phonon-40m-fr",
+    "name": "phonon-40m-fr",
+    "provider": "gradium",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-19T12:01:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gradium/phonon-40m-fr",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gradium_phonon_tts",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T16:43:25.713642+00:00",
+    "source_ids": [
+      "gradium/phonon-40m-fr"
+    ],
+    "family": "phonon-40m-fr"
+  },
+  {
+    "id": "huggingface:gradium/phonon-40m-en",
+    "name": "phonon-40m-en",
+    "provider": "gradium",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-19T12:01:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gradium/phonon-40m-en",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gradium_phonon_tts",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T16:43:25.713660+00:00",
+    "source_ids": [
+      "gradium/phonon-40m-en"
+    ],
+    "family": "phonon-40m-en"
+  },
+  {
+    "id": "huggingface:kaushikvira/Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3",
+    "name": "Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3",
+    "provider": "kaushikvira",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-25T02:02:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kaushikvira/Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "ninfer-v3",
+      "qwen3.8",
+      "qwen3_5",
+      "swift"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-22T16:43:25.964083+00:00",
+    "source_ids": [
+      "kaushikvira/Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3"
+    ],
+    "family": "Qwen3.8-swift15-nvfp4full-dflash2-NInfer-v3"
   }
 ]
