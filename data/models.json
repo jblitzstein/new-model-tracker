@@ -174960,5 +174960,209 @@
       "tencent/WeVisOne-VL-2B"
     ],
     "family": "WeVisOne-VL"
+  },
+  {
+    "id": "huggingface:eaddario/IQ2_K-IQ6_K-Test-Models",
+    "name": "IQ2_K-IQ6_K-Test-Models",
+    "provider": "eaddario",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-16T17:34:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eaddario/IQ2_K-IQ6_K-Test-Models",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "experimental",
+      "quantization",
+      "text-generation",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T16:34:27.065527+00:00",
+    "source_ids": [
+      "eaddario/IQ2_K-IQ6_K-Test-Models"
+    ],
+    "family": "IQ2_K-IQ6_K-Test-Models"
+  },
+  {
+    "id": "huggingface:tencent/Hy-Nomas",
+    "name": "Hy-Nomas",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-10-21T02:17:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/Hy-Nomas",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "safetensors",
+      "hy-nomas",
+      "world-model",
+      "video-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T16:34:27.374174+00:00",
+    "source_ids": [
+      "tencent/Hy-Nomas"
+    ],
+    "family": "Hy-Nomas"
+  },
+  {
+    "id": "huggingface:jjcoders/suna-v1",
+    "name": "suna-v1",
+    "provider": "jjcoders",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-11T17:47:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jjcoders/suna-v1",
+    "tags": [
+      "text-to-audio",
+      "safetensors",
+      "gguf",
+      "musicgen",
+      "music",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T16:34:27.466322+00:00",
+    "source_ids": [
+      "jjcoders/suna-v1"
+    ],
+    "family": "suna-v1"
+  },
+  {
+    "id": "huggingface:gradium/phonon-40m-de",
+    "name": "phonon-40m-de",
+    "provider": "gradium",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-19T12:02:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gradium/phonon-40m-de",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gradium_phonon_tts",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T16:34:27.575792+00:00",
+    "source_ids": [
+      "gradium/phonon-40m-de"
+    ],
+    "family": "phonon-40m-de"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-speech-5.0-2b",
+    "name": "granite-speech-5.0-2b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T16:10:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "granite_speech",
+      "automatic-speech-recognition",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T16:34:27.694310+00:00",
+    "source_ids": [
+      "ibm-granite/granite-speech-5.0-2b"
+    ],
+    "family": "granite-speech-5.0"
+  },
+  {
+    "id": "huggingface:kindlingai/glm-5.3-flash-exlr8-k2-k3-k4",
+    "name": "glm-5.3-flash-exlr8-k2-k3-k4",
+    "provider": "kindlingai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T13:59:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kindlingai/glm-5.3-flash-exlr8-k2-k3-k4",
+    "tags": [
+      "image-text-to-text",
+      "trellis",
+      "glm5_next",
+      "quantized",
+      "exlr8",
+      "exl3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T16:34:27.817072+00:00",
+    "source_ids": [
+      "kindlingai/glm-5.3-flash-exlr8-k2-k3-k4"
+    ],
+    "family": "glm-5.3-flash-exlr8-k2-k3-k4"
   }
 ]
