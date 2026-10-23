@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:tencent/WeVisOne-VL-2B",
+    "name": "WeVisOne-VL-2B",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-22T09:47:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeVisOne-VL-2B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "vision-language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T09:08:04.358919+00:00",
+    "source_ids": [
+      "tencent/WeVisOne-VL-2B"
+    ],
+    "family": "WeVisOne-VL"
+  },
+  {
     "id": "openrouter:recursive/flint-v1.0:free",
     "name": "Recursive: Flint (free)",
     "provider": "recursive",
@@ -14013,40 +14048,6 @@
     "family": "Swift-Qwen3.8-Uncensored-FP8"
   },
   {
-    "id": "huggingface:JOKER141/BUNNY_H3_Conditioning_Bridge",
-    "name": "BUNNY_H3_Conditioning_Bridge",
-    "provider": "JOKER141",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-09-13T23:03:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/JOKER141/BUNNY_H3_Conditioning_Bridge",
-    "tags": [
-      "text-to-video",
-      "minimax-h3",
-      "semantic-bridge",
-      "conditioning-adapter",
-      "action-logic",
-      "combat"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-23T09:07:04.156649+00:00",
-    "source_ids": [
-      "JOKER141/BUNNY_H3_Conditioning_Bridge"
-    ],
-    "family": "BUNNY_H3_Conditioning_Bridge"
-  },
-  {
     "id": "huggingface:GreenBitAI/DeepSeek-V4.1-Flash-4bit-paged",
     "name": "DeepSeek-V4.1-Flash-4bit-paged",
     "provider": "GreenBitAI",
@@ -16587,41 +16588,6 @@
     "family": "Qwopus3.8-Flash"
   },
   {
-    "id": "huggingface:pottokao/MiniMax-H3-TextEncoder-Qwen3VL-32B-abliterated-GGUF",
-    "name": "MiniMax-H3-TextEncoder-Qwen3VL-32B-abliterated-GGUF",
-    "provider": "pottokao",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-05T12:11:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/pottokao/MiniMax-H3-TextEncoder-Qwen3VL-32B-abliterated-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "q3_k_s",
-      "abliterated",
-      "uncensored",
-      "minimax-h3"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-23T09:07:04.711937+00:00",
-    "source_ids": [
-      "pottokao/MiniMax-H3-TextEncoder-Qwen3VL-32B-abliterated-GGUF"
-    ],
-    "family": "MiniMax-H3-TextEncoder-Qwen3VL-abliterated"
-  },
-  {
     "id": "huggingface:yimn-Aghosh/zegrate-ai",
     "name": "zegrate-ai",
     "provider": "yimn-Aghosh",
@@ -18811,39 +18777,6 @@
       "mradermacher/Qwen-3.8-27B-Uncensored-GGUF"
     ],
     "family": "Qwen-3.8-Uncensored"
-  },
-  {
-    "id": "huggingface:1jamesthompson1/Qwen3.8-27B-nz-wvs-full_string_distribution-overall",
-    "name": "Qwen3.8-27B-nz-wvs-full_string_distribution-overall",
-    "provider": "1jamesthompson1",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-22T08:28:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/1jamesthompson1/Qwen3.8-27B-nz-wvs-full_string_distribution-overall",
-    "tags": [
-      "text-generation",
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3.8-27B",
-      "lora",
-      "sft"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-23T09:07:03.747998+00:00",
-    "source_ids": [
-      "1jamesthompson1/Qwen3.8-27B-nz-wvs-full_string_distribution-overall"
-    ],
-    "family": "Qwen3.8-nz-wvs-full_string_distribution-overall"
   },
   {
     "id": "huggingface:bernhardbrieger/Qwen3.8-27B-GPTQ-Int4",
@@ -21197,6 +21130,40 @@
       "qwen/qwen3.7-plus:batch"
     ],
     "family": "Qwen3.7 Plus (batch)"
+  },
+  {
+    "id": "huggingface:netease-youdao/Confucius4-TTS",
+    "name": "Confucius4-TTS",
+    "provider": "netease-youdao",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-02T10:54:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/netease-youdao/Confucius4-TTS",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "confucius4",
+      "text-to-speech",
+      "tts",
+      "speech-synthesis"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T09:08:04.106715+00:00",
+    "source_ids": [
+      "netease-youdao/Confucius4-TTS"
+    ],
+    "family": "Confucius4-TTS"
   },
   {
     "id": "huggingface:divinetribe/Hermes-4-14B-abliterated-4bit-mlx",
