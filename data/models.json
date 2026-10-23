@@ -175164,5 +175164,106 @@
       "kindlingai/glm-5.3-flash-exlr8-k2-k3-k4"
     ],
     "family": "glm-5.3-flash-exlr8-k2-k3-k4"
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T17:56:28+00:00",
+    "context_length": 1048576,
+    "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-10-23T22:55:09.994733+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k3.1-pro"
+    ],
+    "family": "Kimi K3.1 Pro"
+  },
+  {
+    "id": "huggingface:Frosty40/Drama-3-B70-Turbo-GGUF",
+    "name": "Drama-3-B70-Turbo-GGUF",
+    "provider": "Frosty40",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-21T03:00:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Frosty40/Drama-3-B70-Turbo-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "audio.cpp",
+      "sycl",
+      "intel-arc",
+      "turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T22:55:10.675500+00:00",
+    "source_ids": [
+      "Frosty40/Drama-3-B70-Turbo-GGUF"
+    ],
+    "family": "Drama-3-B70-Turbo"
+  },
+  {
+    "id": "huggingface:gcoli/whisper-large-v3-swiss-german-mit",
+    "name": "whisper-large-v3-swiss-german-mit",
+    "provider": "gcoli",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T22:32:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gcoli/whisper-large-v3-swiss-german-mit",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "whisper-large-v3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-23T22:55:10.793377+00:00",
+    "source_ids": [
+      "gcoli/whisper-large-v3-swiss-german-mit"
+    ],
+    "family": "whisper-large-v3-swiss-german-mit"
   }
 ]
