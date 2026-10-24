@@ -175641,5 +175641,209 @@
       "Baekpica/MiniMax-M3.1-Flash-VQ-GGUF"
     ],
     "family": "MiniMax-M3.1-Flash-VQ"
+  },
+  {
+    "id": "huggingface:nntsuzu/stage1_warmup",
+    "name": "stage1_warmup",
+    "provider": "nntsuzu",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T10:51:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nntsuzu/stage1_warmup",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "kikka_unified",
+      "text-generation",
+      "generated_from_trainer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T18:36:21.472512+00:00",
+    "source_ids": [
+      "nntsuzu/stage1_warmup"
+    ],
+    "family": "stage1_warmup"
+  },
+  {
+    "id": "huggingface:abenzerps/Nemotron-3.5-Bolt-E4B-GSQ-RCO-GGUF",
+    "name": "Nemotron-3.5-Bolt-E4B-GSQ-RCO-GGUF",
+    "provider": "abenzerps",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T18:55:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/abenzerps/Nemotron-3.5-Bolt-E4B-GSQ-RCO-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "text-generation",
+      "gsq",
+      "rco",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T18:36:21.472553+00:00",
+    "source_ids": [
+      "abenzerps/Nemotron-3.5-Bolt-E4B-GSQ-RCO-GGUF"
+    ],
+    "family": "Nemotron-3.5-Bolt-E-GSQ-RCO"
+  },
+  {
+    "id": "huggingface:Arm/qwen3-tts-0-6b-base-mix-precision",
+    "name": "qwen3-tts-0-6b-base-mix-precision",
+    "provider": "Arm",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-18T14:13:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Arm/qwen3-tts-0-6b-base-mix-precision",
+    "tags": [
+      "text-to-speech",
+      "litert",
+      "tflite",
+      "onnx",
+      "gguf",
+      "executorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T18:36:22.072498+00:00",
+    "source_ids": [
+      "Arm/qwen3-tts-0-6b-base-mix-precision"
+    ],
+    "family": "qwen3-tts-0--mix-precision"
+  },
+  {
+    "id": "huggingface:Arm/qwen3-tts-0-6b-custom-voice-mix-precision",
+    "name": "qwen3-tts-0-6b-custom-voice-mix-precision",
+    "provider": "Arm",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-18T08:40:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Arm/qwen3-tts-0-6b-custom-voice-mix-precision",
+    "tags": [
+      "text-to-speech",
+      "litert",
+      "tflite",
+      "onnx",
+      "gguf",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T18:36:22.072560+00:00",
+    "source_ids": [
+      "Arm/qwen3-tts-0-6b-custom-voice-mix-precision"
+    ],
+    "family": "qwen3-tts-0-custom-voice-mix-precision"
+  },
+  {
+    "id": "huggingface:Jundot/Qwen3.8-Flash-Next-oQ4e-mtp",
+    "name": "Qwen3.8-Flash-Next-oQ4e-mtp",
+    "provider": "Jundot",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-27T08:56:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jundot/Qwen3.8-Flash-Next-oQ4e-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen4_exp",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T18:36:22.317204+00:00",
+    "source_ids": [
+      "Jundot/Qwen3.8-Flash-Next-oQ4e-mtp"
+    ],
+    "family": "Qwen3.8-Flash-Next-oQ4e-mtp"
+  },
+  {
+    "id": "huggingface:gpillon/Qwen3.8-27B-nvfp4full-dflash2-abliterated-NInfer",
+    "name": "Qwen3.8-27B-nvfp4full-dflash2-abliterated-NInfer",
+    "provider": "gpillon",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-24T21:39:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gpillon/Qwen3.8-27B-nvfp4full-dflash2-abliterated-NInfer",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "ignis",
+      "qwen3.8",
+      "nvfp4",
+      "w4a4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T18:36:22.317366+00:00",
+    "source_ids": [
+      "gpillon/Qwen3.8-27B-nvfp4full-dflash2-abliterated-NInfer"
+    ],
+    "family": "Qwen3.8-nvfp4full-dflash2-abliterated-NInfer"
   }
 ]
