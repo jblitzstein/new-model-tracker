@@ -1934,6 +1934,39 @@
     "family": "Drama-3-Windows"
   },
   {
+    "id": "huggingface:bartowski/LFM2.5-24B-A2B-GGUF",
+    "name": "LFM2.5-24B-A2B-GGUF",
+    "provider": "bartowski",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T06:23:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/bartowski/LFM2.5-24B-A2B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "liquid",
+      "lfm2.5",
+      "edge",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T03:32:18.133418+00:00",
+    "source_ids": [
+      "bartowski/LFM2.5-24B-A2B-GGUF"
+    ],
+    "family": "LFM2.5"
+  },
+  {
     "id": "huggingface:mlx-community/fish-audio-drama-3-4bit",
     "name": "fish-audio-drama-3-4bit",
     "provider": "mlx-community",
@@ -9532,6 +9565,39 @@
     "family": "OrcaSAQ-2-Cyber-Uncensored"
   },
   {
+    "id": "huggingface:dotlabs/void.1",
+    "name": "void.1",
+    "provider": "dotlabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-26T02:36:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dotlabs/void.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-24T03:32:18.133386+00:00",
+    "source_ids": [
+      "dotlabs/void.1"
+    ],
+    "family": "void.1"
+  },
+  {
     "id": "huggingface:preemware/Qwen3.8-27B-RANA-abliterated-GGUF",
     "name": "Qwen3.8-27B-RANA-abliterated-GGUF",
     "provider": "preemware",
@@ -11715,41 +11781,6 @@
     "family": "Vinci-Cyber-1.0"
   },
   {
-    "id": "huggingface:vmarcelo/Swift-Qwen3.8-27B-MIX_GGUF",
-    "name": "Swift-Qwen3.8-27B-MIX_GGUF",
-    "provider": "vmarcelo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-22T01:52:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/vmarcelo/Swift-Qwen3.8-27B-MIX_GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen3_5",
-      "quantized",
-      "imatrix",
-      "qwen3.8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-24T03:27:39.395329+00:00",
-    "source_ids": [
-      "vmarcelo/Swift-Qwen3.8-27B-MIX_GGUF"
-    ],
-    "family": "Swift-Qwen3.8-MIX"
-  },
-  {
     "id": "huggingface:GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
     "name": "GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
     "provider": "GCSA-AiLab",
@@ -12316,40 +12347,6 @@
     "family": "Supra2-IMG"
   },
   {
-    "id": "huggingface:unsloth/Qwen-Image-2.1-FP8",
-    "name": "Qwen-Image-2.1-FP8",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-09-21T11:28:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/Qwen-Image-2.1-FP8",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "fp8",
-      "int8",
-      "unsloth",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-24T03:27:38.775128+00:00",
-    "source_ids": [
-      "unsloth/Qwen-Image-2.1-FP8"
-    ],
-    "family": "Qwen-Image-2.1-FP8"
-  },
-  {
     "id": "huggingface:litert-community/sopro-v2-turbo",
     "name": "sopro-v2-turbo",
     "provider": "litert-community",
@@ -12486,40 +12483,6 @@
       "WarmBloodAban/Qwen-Image-2.1-LoRAs"
     ],
     "family": "Qwen-Image-2.1-LoRAs"
-  },
-  {
-    "id": "huggingface:KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
-    "name": "Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
-    "provider": "KasugaiSakura",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-09-20T22:11:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "qwen",
-      "image-generation",
-      "comfyui",
-      "comfyui-gguf"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-24T03:27:38.775211+00:00",
-    "source_ids": [
-      "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF"
-    ],
-    "family": "Qwen-Image-2.1-Uncensored-Abenzerps"
   },
   {
     "id": "huggingface:BennyDaBall/Qwen-Image-2.1-NVFP4",
@@ -13361,39 +13324,6 @@
       "Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF"
     ],
     "family": "Qwen3.8-Intel-Arc-Tuned"
-  },
-  {
-    "id": "huggingface:prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "name": "Ternary-Bonsai-2-27B-gguf",
-    "provider": "prism-ml",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-16T23:40:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "ternary",
-      "2-bit",
-      "llama-cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-24T03:27:38.647772+00:00",
-    "source_ids": [
-      "prism-ml/Ternary-Bonsai-2-27B-gguf"
-    ],
-    "family": "Ternary-Bonsai-2"
   },
   {
     "id": "huggingface:gitarist/Qwen3-8B-BPDQ-2bit",
@@ -16070,39 +16000,6 @@
       "spybyscript/nemotron-3.5-asr-streaming-0.6b-litert"
     ],
     "family": "nemotron-3.5-asr-streaming-litert"
-  },
-  {
-    "id": "huggingface:reallexi/lexi-coder-v4.4",
-    "name": "lexi-coder-v4.4",
-    "provider": "reallexi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-06T21:28:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/reallexi/lexi-coder-v4.4",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "phi3",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-24T03:27:38.647809+00:00",
-    "source_ids": [
-      "reallexi/lexi-coder-v4.4"
-    ],
-    "family": "lexi-coder-v4.4"
   },
   {
     "id": "huggingface:WaveCut/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-DFlash2-NInfer",
