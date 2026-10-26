@@ -1432,6 +1432,39 @@
     "family": "IQ2_K-IQ6_K-Test-Models"
   },
   {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+    "name": "NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-16T16:25:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "nvidia",
+      "pytorch",
+      "nemotron-labs"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T18:19:33.999967+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF"
+    ],
+    "family": "NVIDIA-Nemotron-Labs-Dory1.0"
+  },
+  {
     "id": "huggingface:toxicdog/MOSS-Image-SFT-Turbo-INT8-ConvRot",
     "name": "MOSS-Image-SFT-Turbo-INT8-ConvRot",
     "provider": "toxicdog",
@@ -3412,6 +3445,41 @@
       "thinletter/ThinCtx-Qwen3.5-0.8B"
     ],
     "family": "ThinCtx-Qwen3.5"
+  },
+  {
+    "id": "huggingface:ggml-org/vllm-d3-GGUF",
+    "name": "vllm-d3-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T13:32:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/vllm-d3-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "quantized",
+      "decision-model",
+      "image-text-to-text",
+      "base_model:vllm-sr/d3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T18:19:34.863109+00:00",
+    "source_ids": [
+      "ggml-org/vllm-d3-GGUF"
+    ],
+    "family": "vllm-d3"
   },
   {
     "id": "huggingface:turintech/gemma-4-E4B-it-Artemis-GGUF",
@@ -6720,6 +6788,76 @@
     "family": "Agens-Volundr"
   },
   {
+    "id": "huggingface:WaveCut/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-NInfer-v3",
+    "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-NInfer-v3",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T08:07:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "mtp",
+      "gguf",
+      "gsq",
+      "rco"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T18:19:34.862940+00:00",
+    "source_ids": [
+      "WaveCut/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-NInfer-v3"
+    ],
+    "family": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-NInfer-v3"
+  },
+  {
+    "id": "huggingface:WaveCut/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-NInfer-v3",
+    "name": "Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-NInfer-v3",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T08:05:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "mtp",
+      "gguf",
+      "gsq",
+      "rco"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T18:19:34.862981+00:00",
+    "source_ids": [
+      "WaveCut/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-NInfer-v3"
+    ],
+    "family": "Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-NInfer-v3"
+  },
+  {
     "id": "huggingface:webmp3/Sakura-Fara1.5-4B-GGUF",
     "name": "Sakura-Fara1.5-4B-GGUF",
     "provider": "webmp3",
@@ -8367,6 +8505,41 @@
       "Lythri/Lythri-7B-A4B"
     ],
     "family": "Lythri"
+  },
+  {
+    "id": "huggingface:madrisight/madrimed1.2-VL-2B-GGUF",
+    "name": "madrimed1.2-VL-2B-GGUF",
+    "provider": "madrisight",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-01T08:08:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/madrisight/madrimed1.2-VL-2B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "llama.cpp",
+      "quantization",
+      "medical"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T18:19:34.862875+00:00",
+    "source_ids": [
+      "madrisight/madrimed1.2-VL-2B-GGUF"
+    ],
+    "family": "madrimed1.2-VL"
   },
   {
     "id": "huggingface:org2ai/Wald-4B-GGUF",
@@ -10543,41 +10716,6 @@
     "family": "void.1"
   },
   {
-    "id": "huggingface:preemware/Qwen3.8-27B-RANA-abliterated-GGUF",
-    "name": "Qwen3.8-27B-RANA-abliterated-GGUF",
-    "provider": "preemware",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-26T01:12:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/preemware/Qwen3.8-27B-RANA-abliterated-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "imatrix",
-      "abliteration",
-      "refusal-direction"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T15:54:50.853414+00:00",
-    "source_ids": [
-      "preemware/Qwen3.8-27B-RANA-abliterated-GGUF"
-    ],
-    "family": "Qwen3.8-RANA-abliterated"
-  },
-  {
     "id": "huggingface:abliterant/Qwen3.8-27B-RANA-abliterated-GGUF",
     "name": "Qwen3.8-27B-RANA-abliterated-GGUF",
     "provider": "abliterant",
@@ -10880,41 +11018,6 @@
       "Veda-Sparse/Minimax-H3-T2VA-Veda-8NFE-600Step-Preview"
     ],
     "family": "Minimax-H3-T2VA-Veda-8NFE-600Step"
-  },
-  {
-    "id": "huggingface:Dragoy/ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer",
-    "name": "ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer",
-    "provider": "Dragoy",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-25T10:54:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Dragoy/ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer",
-    "tags": [
-      "image-text-to-text",
-      "ninfer",
-      "nvfp4",
-      "fp8",
-      "qwen3_5",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T15:54:50.853347+00:00",
-    "source_ids": [
-      "Dragoy/ThinkingCap-Qwen3.8-27B-abliterated-NVFP4-NInfer"
-    ],
-    "family": "ThinkingCap-Qwen3.8-abliterated-NVFP4-NInfer"
   },
   {
     "id": "huggingface:kaushikvira/Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3",
@@ -11298,39 +11401,6 @@
     "family": "StandardOne"
   },
   {
-    "id": "huggingface:StandardThinking/StandardOne-3B-GGUF",
-    "name": "StandardOne-3B-GGUF",
-    "provider": "StandardThinking",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-24T11:07:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/StandardThinking/StandardOne-3B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "mistral3",
-      "decision-model",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T15:54:50.423312+00:00",
-    "source_ids": [
-      "StandardThinking/StandardOne-3B-GGUF"
-    ],
-    "family": "StandardOne"
-  },
-  {
     "id": "huggingface:StandardThinking/StandardOne-3B",
     "name": "StandardOne-3B",
     "provider": "StandardThinking",
@@ -11360,39 +11430,6 @@
     "first_seen": "2026-09-27T04:00:25.243513+00:00",
     "source_ids": [
       "StandardThinking/StandardOne-3B"
-    ],
-    "family": "StandardOne"
-  },
-  {
-    "id": "huggingface:StandardThinking/StandardOne-8B",
-    "name": "StandardOne-8B",
-    "provider": "StandardThinking",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-24T09:11:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/StandardThinking/StandardOne-8B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "mistral3",
-      "image-text-to-text",
-      "decision-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T15:54:50.423460+00:00",
-    "source_ids": [
-      "StandardThinking/StandardOne-8B"
     ],
     "family": "StandardOne"
   },
@@ -12144,74 +12181,6 @@
       "IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-GGUF"
     ],
     "family": "Qwen3.6-MTP-APEX-I-MiniPlus-V2.1"
-  },
-  {
-    "id": "huggingface:benthecarman/MiMo-V2.6-Flash-RL-exl3",
-    "name": "MiMo-V2.6-Flash-RL-exl3",
-    "provider": "benthecarman",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-22T14:49:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/benthecarman/MiMo-V2.6-Flash-RL-exl3",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "mimo_v2",
-      "exl3",
-      "exllamav3",
-      "mimo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T15:54:50.423379+00:00",
-    "source_ids": [
-      "benthecarman/MiMo-V2.6-Flash-RL-exl3"
-    ],
-    "family": "MiMo-V2.6-Flash-RL-exl3"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF",
-    "name": "Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-22T05:14:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "uncensored",
-      "qwen3.8",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T15:54:50.853564+00:00",
-    "source_ids": [
-      "LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-MTP-GGUF"
-    ],
-    "family": "Qwen3.8-Uncensored-Genesis-MTP"
   },
   {
     "id": "huggingface:simpledirect/Vinci-Cyber-123B-1.0",
@@ -17052,41 +17021,6 @@
       "GreenBitAI/Qwen3.6-35B-A3B-8bit-paged"
     ],
     "family": "Qwen3.6-8bit-paged"
-  },
-  {
-    "id": "huggingface:LuffyTheFox/Ornith1.5-35B-A3B-Genesis-Hermes-GGUF",
-    "name": "Ornith1.5-35B-A3B-Genesis-Hermes-GGUF",
-    "provider": "LuffyTheFox",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-25T11:55:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LuffyTheFox/Ornith1.5-35B-A3B-Genesis-Hermes-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "hermes",
-      "gguf",
-      "qwen3.5",
-      "moe",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T15:54:50.853464+00:00",
-    "source_ids": [
-      "LuffyTheFox/Ornith1.5-35B-A3B-Genesis-Hermes-GGUF"
-    ],
-    "family": "Ornith1.5-Genesis-Hermes"
   },
   {
     "id": "huggingface:samuel-vitorino/sopro-v2-turbo",
