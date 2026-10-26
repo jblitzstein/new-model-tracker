@@ -1,5 +1,302 @@
 [
   {
+    "id": "openrouter:openai/gpt-6.1-terra",
+    "name": "OpenAI: GPT-6.1 Terra",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T18:13:29+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-terra",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-10-26T23:35:30.707952+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-terra"
+    ],
+    "family": "GPT-6.1 Terra"
+  },
+  {
+    "id": "openrouter:openai/gpt-6.1-terra:batch",
+    "name": "OpenAI: GPT-6.1 Terra (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T18:13:29+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-terra:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-10-26T23:35:30.708960+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-terra:batch"
+    ],
+    "family": "GPT-6.1 Terra (batch)"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-XI-27B-Q2",
+    "name": "Ingot-XI-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T03:09:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-XI-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.886807+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-XI-27B-Q2"
+    ],
+    "family": "Ingot-XI-Q2"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-X-27B-Q2",
+    "name": "Ingot-X-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T20:52:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-X-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.886835+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-X-27B-Q2"
+    ],
+    "family": "Ingot-X-Q2"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-IX-27B-Q2",
+    "name": "Ingot-IX-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T11:22:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-IX-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.886861+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-IX-27B-Q2"
+    ],
+    "family": "Ingot-IX-Q2"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-VIII-27B-Q2",
+    "name": "Ingot-VIII-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T08:41:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-VIII-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.886913+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-VIII-27B-Q2"
+    ],
+    "family": "Ingot-VIII-Q2"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-VII-27B-Q2",
+    "name": "Ingot-VII-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T02:21:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-VII-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.886947+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-VII-27B-Q2"
+    ],
+    "family": "Ingot-VII-Q2"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-VI-27B-Q2",
+    "name": "Ingot-VI-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-24T15:53:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-VI-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.886974+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-VI-27B-Q2"
+    ],
+    "family": "Ingot-VI-Q2"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-V-27B-Q2",
+    "name": "Ingot-V-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-24T08:58:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-V-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.886998+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-V-27B-Q2"
+    ],
+    "family": "Ingot-V-Q2"
+  },
+  {
     "id": "huggingface:prithivMLmods/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
     "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
     "provider": "prithivMLmods",
@@ -31,6 +328,39 @@
       "prithivMLmods/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF"
     ],
     "family": "NVIDIA-Nemotron-3.5-Bolt-E"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-III-27B-Q2",
+    "name": "Ingot-III-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T20:42:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-III-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.887023+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-III-27B-Q2"
+    ],
+    "family": "Ingot-III-Q2"
   },
   {
     "id": "huggingface:gbuzhf/SNEX-V1",
@@ -132,6 +462,39 @@
       "moonshotai/kimi-k3.1-pro"
     ],
     "family": "Kimi K3.1 Pro"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-II-27B-Q2",
+    "name": "Ingot-II-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T16:37:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-II-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.887049+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-II-27B-Q2"
+    ],
+    "family": "Ingot-II-Q2"
   },
   {
     "id": "huggingface:ggml-org/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
@@ -299,6 +662,39 @@
       "AtomicChat/Flint-GGUF"
     ],
     "family": "Flint"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-I-27B-Q2",
+    "name": "Ingot-I-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-22T16:58:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-I-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ingot",
+      "bittensor",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:30.887073+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-I-27B-Q2"
+    ],
+    "family": "Ingot-I-Q2"
   },
   {
     "id": "huggingface:tencent/WeVisOne-VL-2B",
@@ -630,6 +1026,41 @@
       "dongfangshuo/Dongfangshuo-Qwen3.8-Flash-Next-NSFW"
     ],
     "family": "Dongfangshuo-Qwen3.8-Flash-Next-NSFW"
+  },
+  {
+    "id": "huggingface:xtools-at/Qwen3.5-9B-Qwensploit-CyberSecurity-GGUF",
+    "name": "Qwen3.5-9B-Qwensploit-CyberSecurity-GGUF",
+    "provider": "xtools-at",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-19T17:57:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/xtools-at/Qwen3.5-9B-Qwensploit-CyberSecurity-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3_5",
+      "image-text-to-text",
+      "cybersecurity"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:31.734952+00:00",
+    "source_ids": [
+      "xtools-at/Qwen3.5-9B-Qwensploit-CyberSecurity-GGUF"
+    ],
+    "family": "Qwen3.5-Qwensploit-CyberSecurity"
   },
   {
     "id": "huggingface:axiomofmind/Moss-image-nsfw-uncensored-lora-GGUF",
@@ -10918,39 +11349,6 @@
     "family": "Qwen-Image-2.1-viggle-turbo-v0.2.1-6step"
   },
   {
-    "id": "huggingface:nkkbr/Mini-K3-1H-llama-mha-standard-v1",
-    "name": "Mini-K3-1H-llama-mha-standard-v1",
-    "provider": "nkkbr",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-25T13:33:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nkkbr/Mini-K3-1H-llama-mha-standard-v1",
-    "tags": [
-      "text-generation",
-      "pytorch",
-      "safetensors",
-      "mini_k3",
-      "kimi-k3",
-      "pretraining"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T22:24:03.229329+00:00",
-    "source_ids": [
-      "nkkbr/Mini-K3-1H-llama-mha-standard-v1"
-    ],
-    "family": "Mini-K3-1H-llama-mha-standard-v1"
-  },
-  {
     "id": "huggingface:geolazagr/greko",
     "name": "greko",
     "provider": "geolazagr",
@@ -11018,41 +11416,6 @@
       "Veda-Sparse/Minimax-H3-T2VA-Veda-8NFE-600Step-Preview"
     ],
     "family": "Minimax-H3-T2VA-Veda-8NFE-600Step"
-  },
-  {
-    "id": "huggingface:kaushikvira/Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3",
-    "name": "Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3",
-    "provider": "kaushikvira",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-25T04:52:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kaushikvira/Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3",
-    "tags": [
-      "image-text-to-text",
-      "ninfer",
-      "ninfer-v3",
-      "qwen3.8",
-      "qwen3_5",
-      "thinkingcap"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T19:03:20.082313+00:00",
-    "source_ids": [
-      "kaushikvira/Qwen3.8-27B-thinkingcap-nvfp4full-dflash2-NInfer-v3"
-    ],
-    "family": "Qwen3.8-thinkingcap-nvfp4full-dflash2-NInfer-v3"
   },
   {
     "id": "huggingface:kaushikvira/Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3",
@@ -12076,76 +12439,6 @@
       "mobilint/EAGLE3-Qwen3-8B"
     ],
     "family": "EAGLE3-Qwen3"
-  },
-  {
-    "id": "huggingface:IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-    "name": "Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-23T00:41:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "abliterated",
-      "uncensored",
-      "alignment",
-      "heretic"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T22:24:03.978766+00:00",
-    "source_ids": [
-      "IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF"
-    ],
-    "family": "Qwen3.6-MTP-APEX-I-MiniPlus-V2.1-Abliterated"
-  },
-  {
-    "id": "huggingface:IsValorum/Tiel-Coder-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF",
-    "name": "Tiel-Coder-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF",
-    "provider": "IsValorum",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-22T19:00:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/IsValorum/Tiel-Coder-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "quantization",
-      "apex"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T22:24:03.978717+00:00",
-    "source_ids": [
-      "IsValorum/Tiel-Coder-35B-A3B-APEX-I-MiniPlus-V2.1-GGUF"
-    ],
-    "family": "Tiel-Coder-APEX-I-MiniPlus-V2.1"
   },
   {
     "id": "huggingface:IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-MiniPlus-V2.1-GGUF",
@@ -14587,6 +14880,41 @@
     "family": "Qwopus3.8-Flash--1M"
   },
   {
+    "id": "huggingface:peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF",
+    "name": "Cyber-Tiel-Coder-35B-A3B-GGUF",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-08T17:46:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen35moe",
+      "moe",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:31.734864+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF"
+    ],
+    "family": "Cyber-Tiel-Coder"
+  },
+  {
     "id": "huggingface:azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound",
     "name": "Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound",
     "provider": "azampatti",
@@ -14618,39 +14946,6 @@
       "azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound"
     ],
     "family": "Qwen3.8-Flash-Next-INT4-AutoRound"
-  },
-  {
-    "id": "huggingface:takanori-ishikawa/Qwen3.5-ANE-CoreML",
-    "name": "Qwen3.5-ANE-CoreML",
-    "provider": "takanori-ishikawa",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-08T11:43:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/takanori-ishikawa/Qwen3.5-ANE-CoreML",
-    "tags": [
-      "text-generation",
-      "coreml",
-      "ane",
-      "apple-neural-engine",
-      "apple-silicon",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-26T19:03:18.765681+00:00",
-    "source_ids": [
-      "takanori-ishikawa/Qwen3.5-ANE-CoreML"
-    ],
-    "family": "Qwen3.5-ANE-CoreML"
   },
   {
     "id": "huggingface:halt95/Qwen3.8-Flash-Next-W4A16-Merlin",
@@ -15844,6 +16139,41 @@
       "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e-MTP"
     ],
     "family": "Cyber-Tiel-Coder-MLX-oQ4e-MTP"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP",
+    "name": "Cyber-Tiel-Coder-35B-A3B-GGUF-MTP",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T23:57:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "qwen35moe",
+      "moe",
+      "imatrix"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-26T23:35:31.734827+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP"
+    ],
+    "family": "Cyber-Tiel-Coder--MTP"
   },
   {
     "id": "huggingface:turboderp/Qwen3.8-Flash-Next-exl3",
