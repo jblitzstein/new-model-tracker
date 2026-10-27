@@ -1,5 +1,71 @@
 [
   {
+    "id": "openrouter:openai/gpt-6.1-terra-pro",
+    "name": "OpenAI: GPT-6.1 Terra Pro",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T18:15:56+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-10-27T03:57:04.421992+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-terra-pro"
+    ],
+    "family": "GPT-6.1 Terra Pro"
+  },
+  {
+    "id": "openrouter:openai/gpt-6.1-terra-pro:batch",
+    "name": "OpenAI: GPT-6.1 Terra Pro (batch)",
+    "provider": "OpenAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "file",
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T18:15:56+00:00",
+    "context_length": 1050000,
+    "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+    "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.5,
+      "completion_per_million": 2.5
+    },
+    "first_seen": "2026-10-27T03:57:04.422976+00:00",
+    "source_ids": [
+      "openai/gpt-6.1-terra-pro:batch"
+    ],
+    "family": "GPT-6.1 Terra Pro (batch)"
+  },
+  {
     "id": "openrouter:openai/gpt-6.1-terra",
     "name": "OpenAI: GPT-6.1 Terra",
     "provider": "OpenAI",
@@ -64,6 +130,41 @@
       "openai/gpt-6.1-terra:batch"
     ],
     "family": "GPT-6.1 Terra (batch)"
+  },
+  {
+    "id": "huggingface:baidu/Unlimited-OCR-2",
+    "name": "Unlimited-OCR-2",
+    "provider": "Baidu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T03:57:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "unlimited-ocr",
+      "feature-extraction",
+      "baidu"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T03:57:05.084345+00:00",
+    "source_ids": [
+      "baidu/Unlimited-OCR-2"
+    ],
+    "family": "Unlimited-OCR-2"
   },
   {
     "id": "huggingface:dendriteholdings/Ingot-XI-27B-Q2",
@@ -730,6 +831,41 @@
       "tencent/WeVisOne-VL-2B"
     ],
     "family": "WeVisOne-VL"
+  },
+  {
+    "id": "huggingface:RBDash-Team/Xing-VL2.0-Decision",
+    "name": "Xing-VL2.0-Decision",
+    "provider": "RBDash-Team",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-22T02:37:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RBDash-Team/Xing-VL2.0-Decision",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "decision-index"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T03:57:05.084218+00:00",
+    "source_ids": [
+      "RBDash-Team/Xing-VL2.0-Decision"
+    ],
+    "family": "Xing-VL2.0-Decision"
   },
   {
     "id": "openrouter:recursive/flint-v1.0:free",
@@ -1497,6 +1633,39 @@
       "icecubetr/DeepSeek-V4.1-Flash-1017-dsx-2.6bit"
     ],
     "family": "DeepSeek-V4.1-Flash-1017-dsx-2.6bit"
+  },
+  {
+    "id": "huggingface:VaibhavKKM/hpc-assistant-qwen3-4b",
+    "name": "hpc-assistant-qwen3-4b",
+    "provider": "VaibhavKKM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-18T21:25:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VaibhavKKM/hpc-assistant-qwen3-4b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T03:57:04.581914+00:00",
+    "source_ids": [
+      "VaibhavKKM/hpc-assistant-qwen3-4b"
+    ],
+    "family": "hpc-assistant-qwen3"
   },
   {
     "id": "huggingface:axiomofmind/Moss-image-beauty-lora",
@@ -8209,6 +8378,40 @@
       "smalinin/Step-5-Preview-GGUF"
     ],
     "family": "Step-5"
+  },
+  {
+    "id": "huggingface:audio-cpp/Audio-Flamingo-GGUF",
+    "name": "Audio-Flamingo-GGUF",
+    "provider": "audio-cpp",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T15:01:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/audio-cpp/Audio-Flamingo-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "audio.cpp",
+      "audio-text-to-text",
+      "automatic-speech-recognition",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T03:57:04.948545+00:00",
+    "source_ids": [
+      "audio-cpp/Audio-Flamingo-GGUF"
+    ],
+    "family": "Audio-Flamingo"
   },
   {
     "id": "openrouter:inclusionai/ling-3.1-flash",
