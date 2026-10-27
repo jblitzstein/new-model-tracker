@@ -10734,6 +10734,39 @@
     "family": "Scion"
   },
   {
+    "id": "huggingface:pragmaticcs/PentaCoder-9B-GGUF",
+    "name": "PentaCoder-9B-GGUF",
+    "provider": "pragmaticcs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-27T16:40:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pragmaticcs/PentaCoder-9B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "qwen",
+      "qwen3.5",
+      "merge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T09:42:00.572162+00:00",
+    "source_ids": [
+      "pragmaticcs/PentaCoder-9B-GGUF"
+    ],
+    "family": "PentaCoder"
+  },
+  {
     "id": "huggingface:cyankiwi/Swift-1.5-Qwen3.8-27B-AWQ-BF16-INT4",
     "name": "Swift-1.5-Qwen3.8-27B-AWQ-BF16-INT4",
     "provider": "cyankiwi",
@@ -10802,6 +10835,39 @@
       "cyankiwi/Swift-1.5-Qwen3.8-27B-AWQ-INT4"
     ],
     "family": "Swift-1.5-Qwen3.8--INT4"
+  },
+  {
+    "id": "huggingface:pragmaticcs/PentaCoder-9B",
+    "name": "PentaCoder-9B",
+    "provider": "pragmaticcs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-27T12:21:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/pragmaticcs/PentaCoder-9B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_text",
+      "text-generation",
+      "merge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T09:42:00.572333+00:00",
+    "source_ids": [
+      "pragmaticcs/PentaCoder-9B"
+    ],
+    "family": "PentaCoder"
   },
   {
     "id": "huggingface:org2ai/Wald-4B",
@@ -11934,9 +12000,9 @@
     "family": "Qwen3.8-Flash-Next-IQ3E-Q8D-MTP"
   },
   {
-    "id": "huggingface:StandardThinking/StandardOne-8B-GGUF",
-    "name": "StandardOne-8B-GGUF",
-    "provider": "StandardThinking",
+    "id": "huggingface:pragmaticcs/Triumvirate-Qwopus-MiMo-Ornith-9B-Coder-GGUF",
+    "name": "Triumvirate-Qwopus-MiMo-Ornith-9B-Coder-GGUF",
+    "provider": "pragmaticcs",
     "source": "huggingface",
     "modality": [
       "text"
@@ -11947,57 +12013,24 @@
     "output_modalities": [
       "text"
     ],
-    "release_date": "2026-09-24T11:08:12.000Z",
+    "release_date": "2026-09-24T10:34:34.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/StandardThinking/StandardOne-8B-GGUF",
+    "url": "https://huggingface.co/pragmaticcs/Triumvirate-Qwopus-MiMo-Ornith-9B-Coder-GGUF",
     "tags": [
       "text-generation",
       "gguf",
       "llama.cpp",
-      "mistral3",
-      "decision-model",
-      "text-generation"
+      "imatrix",
+      "qwen",
+      "qwen3.5"
     ],
     "pricing": null,
-    "first_seen": "2026-09-27T04:00:25.243751+00:00",
+    "first_seen": "2026-10-27T09:42:00.572219+00:00",
     "source_ids": [
-      "StandardThinking/StandardOne-8B-GGUF"
+      "pragmaticcs/Triumvirate-Qwopus-MiMo-Ornith-9B-Coder-GGUF"
     ],
-    "family": "StandardOne"
-  },
-  {
-    "id": "huggingface:StandardThinking/StandardOne-3B",
-    "name": "StandardOne-3B",
-    "provider": "StandardThinking",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-24T09:11:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/StandardThinking/StandardOne-3B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "mistral3",
-      "image-text-to-text",
-      "decision-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-27T04:00:25.243513+00:00",
-    "source_ids": [
-      "StandardThinking/StandardOne-3B"
-    ],
-    "family": "StandardOne"
+    "family": "Triumvirate-Qwopus-MiMo-Ornith-Coder"
   },
   {
     "id": "huggingface:mohit67890/imajev-4b",
@@ -12305,72 +12338,6 @@
       "IsValorum/Qwen3.6-35B-A3B-MTP-APEX-I-NanoPlus-GGUF"
     ],
     "family": "Qwen3.6-MTP-APEX-I-NanoPlus"
-  },
-  {
-    "id": "huggingface:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16",
-    "name": "Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16",
-    "provider": "chaoliangUNSW",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-23T16:18:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "decision-model",
-      "classification"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-27T04:00:25.243818+00:00",
-    "source_ids": [
-      "chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16"
-    ],
-    "family": "Jev-Style-Qwen3.5-Decision-v2-MLX-bf16"
-  },
-  {
-    "id": "huggingface:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-GGUF",
-    "name": "Jev-Style-Qwen3.5-2B-Decision-v2-GGUF",
-    "provider": "chaoliangUNSW",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-23T16:17:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "decision-model",
-      "classification",
-      "calibration",
-      "qwen3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-27T04:00:25.243910+00:00",
-    "source_ids": [
-      "chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-GGUF"
-    ],
-    "family": "Jev-Style-Qwen3.5-Decision-v2"
   },
   {
     "id": "huggingface:bottlecapai/ThinkingCap-Qwen3.8-27B",
@@ -18004,6 +17971,40 @@
     "family": "Qwen3.8-Uncensored-mlx-6Bit"
   },
   {
+    "id": "huggingface:Edge0/Audio8-TTS-Preview-0.1b",
+    "name": "Audio8-TTS-Preview-0.1b",
+    "provider": "Edge0",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-19T04:49:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Edge0/Audio8-TTS-Preview-0.1b",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "arktts",
+      "feature-extraction",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T09:42:01.338407+00:00",
+    "source_ids": [
+      "Edge0/Audio8-TTS-Preview-0.1b"
+    ],
+    "family": "Audio8-TTS"
+  },
+  {
     "id": "huggingface:lyf/Qwen3.8-27B-Huihui-Abliterated-NInfer-NVFP4",
     "name": "Qwen3.8-27B-Huihui-Abliterated-NInfer-NVFP4",
     "provider": "lyf",
@@ -19196,6 +19197,40 @@
       "mradermacher/Gemma-4-12B-OBLITERATED-cyber-GGUF"
     ],
     "family": "Gemma-4-OBLITERATED-cyber"
+  },
+  {
+    "id": "huggingface:Edge0/Audio8-TTS-Preview-0.6b",
+    "name": "Audio8-TTS-Preview-0.6b",
+    "provider": "Edge0",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-28T07:53:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Edge0/Audio8-TTS-Preview-0.6b",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "arktts",
+      "feature-extraction",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T09:42:01.338479+00:00",
+    "source_ids": [
+      "Edge0/Audio8-TTS-Preview-0.6b"
+    ],
+    "family": "Audio8-TTS"
   },
   {
     "id": "huggingface:swiss-ai/Apertus-v1.5-8B",
