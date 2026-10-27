@@ -178713,5 +178713,238 @@
       "Solstice-AI/DeepSeek-V4.1-Flash-UNCENSORED-Protium-GGUF"
     ],
     "family": "DeepSeek-V4.1-Flash-UNCENSORED-Protium"
+  },
+  {
+    "id": "openrouter:prism-ml/ternary-bonsai-2-9b",
+    "name": "PrismML: Ternary Bonsai 2 9B",
+    "provider": "prism-ml",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-16T06:09:55+00:00",
+    "context_length": 262144,
+    "description": "Ternary Bonsai 2 9B is PrismML’s compact, open-weight language model for conversational AI, reasoning, and tool use. Built on Qwen3.5, it uses ternary weights packed into 2 bits for efficient...",
+    "url": "https://openrouter.ai/prism-ml/ternary-bonsai-2-9b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.08,
+      "completion_per_million": 0.13
+    },
+    "first_seen": "2026-10-27T23:32:16.328328+00:00",
+    "source_ids": [
+      "prism-ml/ternary-bonsai-2-9b"
+    ],
+    "family": "Ternary Bonsai 2"
+  },
+  {
+    "id": "huggingface:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "provider": "ISTA-DASLab",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T09:43:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gsq",
+      "rco",
+      "quantization",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T23:32:16.465047+00:00",
+    "source_ids": [
+      "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+    ],
+    "family": "DeepSeek-V4.1-Flash-1017-GSQ-RCO"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-IV-27B-Q2",
+    "name": "Ingot-IV-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-24T04:18:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-IV-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ternary",
+      "ingot",
+      "bittensor"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T23:32:16.465084+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-IV-27B-Q2"
+    ],
+    "family": "Ingot-IV-Q2"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen3-4B",
+    "name": "Qwen3-4B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-21T22:30:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen3-4B",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "litertlm",
+      "qwen",
+      "Qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T23:32:16.465130+00:00",
+    "source_ids": [
+      "litert-community/Qwen3-4B"
+    ],
+    "family": "Qwen3"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen3-1.7B",
+    "name": "Qwen3-1.7B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-25T06:54:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen3-1.7B",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "litertlm",
+      "qwen",
+      "Qwen3",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T23:32:16.465155+00:00",
+    "source_ids": [
+      "litert-community/Qwen3-1.7B"
+    ],
+    "family": "Qwen3"
+  },
+  {
+    "id": "huggingface:gbuzhf/Sage-A1.5-Sangreal-ICE",
+    "name": "Sage-A1.5-Sangreal-ICE",
+    "provider": "gbuzhf",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-24T18:24:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gbuzhf/Sage-A1.5-Sangreal-ICE",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3.6",
+      "moe",
+      "mtp",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T23:32:17.242220+00:00",
+    "source_ids": [
+      "gbuzhf/Sage-A1.5-Sangreal-ICE"
+    ],
+    "family": "Sage-A1.5-Sangreal-ICE"
+  },
+  {
+    "id": "huggingface:WaveCut/DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-NInfer-v3",
+    "name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-NInfer-v3",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T12:04:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "gguf",
+      "gsq",
+      "rco",
+      "mixed-precision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-27T23:32:17.242284+00:00",
+    "source_ids": [
+      "WaveCut/DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-NInfer-v3"
+    ],
+    "family": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-NInfer-v3"
   }
 ]
