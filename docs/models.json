@@ -180404,5 +180404,445 @@
       "LiquidAI/LFM3-VL-2B-GGUF"
     ],
     "family": "LFM3-VL"
+  },
+  {
+    "id": "openrouter:particle-ai/particle-1",
+    "name": "Particle AI: Particle-1",
+    "provider": "particle-ai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-28T17:18:13+00:00",
+    "context_length": 1048576,
+    "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data...",
+    "url": "https://openrouter.ai/particle-ai/particle-1",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.25,
+      "completion_per_million": 1.0
+    },
+    "first_seen": "2026-10-28T20:47:59.102461+00:00",
+    "source_ids": [
+      "particle-ai/particle-1"
+    ],
+    "family": "Particle-1"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-switch-4.1-30b",
+    "name": "granite-switch-4.1-30b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T21:23:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "granite_switch",
+      "text-generation",
+      "language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:47:59.245345+00:00",
+    "source_ids": [
+      "ibm-granite/granite-switch-4.1-30b"
+    ],
+    "family": "granite-switch-4.1"
+  },
+  {
+    "id": "huggingface:ibm-granite/granite-switch-4.1-8b",
+    "name": "granite-switch-4.1-8b",
+    "provider": "IBM",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T21:38:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "granite_switch",
+      "text-generation",
+      "language"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:47:59.245370+00:00",
+    "source_ids": [
+      "ibm-granite/granite-switch-4.1-8b"
+    ],
+    "family": "granite-switch-4.1"
+  },
+  {
+    "id": "huggingface:nyxspecter4/kin-cybersecurity-3b",
+    "name": "kin-cybersecurity-3b",
+    "provider": "nyxspecter4",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-27T06:23:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nyxspecter4/kin-cybersecurity-3b",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:47:59.245412+00:00",
+    "source_ids": [
+      "nyxspecter4/kin-cybersecurity-3b"
+    ],
+    "family": "kin-cybersecurity"
+  },
+  {
+    "id": "huggingface:mradermacher/LFM2.5-2.6B-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-i1-GGUF",
+    "name": "LFM2.5-2.6B-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-i1-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T10:21:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/LFM2.5-2.6B-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-i1-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "liquid",
+      "lfm2.5",
+      "safetensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:47:59.245567+00:00",
+    "source_ids": [
+      "mradermacher/LFM2.5-2.6B-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-i1-GGUF"
+    ],
+    "family": "LFM2.5-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-i1"
+  },
+  {
+    "id": "huggingface:protocolsyncllc/medgap-qwen-3.5-9b",
+    "name": "medgap-qwen-3.5-9b",
+    "provider": "protocolsyncllc",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-30T12:36:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/protocolsyncllc/medgap-qwen-3.5-9b",
+    "tags": [
+      "text-generation",
+      "unsloth",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "fda warning letters"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:47:59.245684+00:00",
+    "source_ids": [
+      "protocolsyncllc/medgap-qwen-3.5-9b"
+    ],
+    "family": "medgap-qwen-3.5"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T22:50:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "nemo_speechlm",
+      "nvidia",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:47:59.923545+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Transcribe"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM3-VL-2B",
+    "name": "LFM3-VL-2B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-19T19:51:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "lfm3_vl",
+      "image-text-to-text",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:48:00.042590+00:00",
+    "source_ids": [
+      "LiquidAI/LFM3-VL-2B"
+    ],
+    "family": "LFM3-VL"
+  },
+  {
+    "id": "huggingface:saidutta69/MiniCPM-V-4.7-1B-heretic",
+    "name": "MiniCPM-V-4.7-1B-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-15T05:24:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/MiniCPM-V-4.7-1B-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "minicpmv4_7",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:48:00.042692+00:00",
+    "source_ids": [
+      "saidutta69/MiniCPM-V-4.7-1B-heretic"
+    ],
+    "family": "MiniCPM-V-4.7-heretic"
+  },
+  {
+    "id": "huggingface:saidutta69/Qwen2.5-VL-3B-Instruct-heretic",
+    "name": "Qwen2.5-VL-3B-Instruct-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T11:19:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/Qwen2.5-VL-3B-Instruct-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen2_5_vl",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:48:00.042724+00:00",
+    "source_ids": [
+      "saidutta69/Qwen2.5-VL-3B-Instruct-heretic"
+    ],
+    "family": "Qwen2.5-VL--heretic"
+  },
+  {
+    "id": "huggingface:saidutta69/Qwen3-VL-2B-Instruct-heretic",
+    "name": "Qwen3-VL-2B-Instruct-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T12:43:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/Qwen3-VL-2B-Instruct-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_vl",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:48:00.042760+00:00",
+    "source_ids": [
+      "saidutta69/Qwen3-VL-2B-Instruct-heretic"
+    ],
+    "family": "Qwen3-VL--heretic"
+  },
+  {
+    "id": "huggingface:saidutta69/MiMo-V2.6-Distill-Qwen-9B-heretic",
+    "name": "MiMo-V2.6-Distill-Qwen-9B-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-04T19:35:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/MiMo-V2.6-Distill-Qwen-9B-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:48:00.042791+00:00",
+    "source_ids": [
+      "saidutta69/MiMo-V2.6-Distill-Qwen-9B-heretic"
+    ],
+    "family": "MiMo-V2.6-Distill-Qwen-heretic"
+  },
+  {
+    "id": "huggingface:saidutta69/clef-flash-heretic",
+    "name": "clef-flash-heretic",
+    "provider": "saidutta69",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-04T15:04:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/saidutta69/clef-flash-heretic",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-28T20:48:00.042824+00:00",
+    "source_ids": [
+      "saidutta69/clef-flash-heretic"
+    ],
+    "family": "clef-flash-heretic"
   }
 ]
