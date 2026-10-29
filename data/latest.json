@@ -4010,6 +4010,40 @@
     "family": "Qwen3.8-Flash-Next-Splash"
   },
   {
+    "id": "huggingface:AMAImedia/FishAudio-Drama3-TTS-83Lang-Qwen3.5-35B-A3B-FP8-BF16-GGUF",
+    "name": "FishAudio-Drama3-TTS-83Lang-Qwen3.5-35B-A3B-FP8-BF16-GGUF",
+    "provider": "AMAImedia",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-14T12:25:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AMAImedia/FishAudio-Drama3-TTS-83Lang-Qwen3.5-35B-A3B-FP8-BF16-GGUF",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "gguf",
+      "fish_omni",
+      "fish-audio",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T04:40:10.616618+00:00",
+    "source_ids": [
+      "AMAImedia/FishAudio-Drama3-TTS-83Lang-Qwen3.5-35B-A3B-FP8-BF16-GGUF"
+    ],
+    "family": "FishAudio-Drama3-TTS-83Lang-Qwen3.5-FP8-BF16"
+  },
+  {
     "id": "huggingface:Eng-Ahmd/Drama-3-Windows-GGUF",
     "name": "Drama-3-Windows-GGUF",
     "provider": "Eng-Ahmd",
@@ -8057,6 +8091,41 @@
     "family": "SageV2-LongContext-NSFW-RP"
   },
   {
+    "id": "huggingface:Jundot/clef-flash-oQ4e",
+    "name": "clef-flash-oQ4e",
+    "provider": "Jundot",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-06T08:33:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jundot/clef-flash-oQ4e",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T04:40:10.842474+00:00",
+    "source_ids": [
+      "Jundot/clef-flash-oQ4e"
+    ],
+    "family": "clef-flash-oQ4e"
+  },
+  {
     "id": "huggingface:kshitijthakkar/nirnaya-0.4b-0.2a-decision",
     "name": "nirnaya-0.4b-0.2a-decision",
     "provider": "kshitijthakkar",
@@ -11409,72 +11478,6 @@
     "family": "ivieai_star_v1.1_merged"
   },
   {
-    "id": "openrouter:anthropic/claude-sonnet-5.5",
-    "name": "Anthropic: Claude Sonnet 5.5",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-28T18:04:46+00:00",
-    "context_length": 1000000,
-    "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
-    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.0,
-      "completion_per_million": 10.0
-    },
-    "first_seen": "2026-09-29T00:12:51.542302+00:00",
-    "source_ids": [
-      "anthropic/claude-sonnet-5.5"
-    ],
-    "family": "Claude Sonnet 5.5"
-  },
-  {
-    "id": "openrouter:anthropic/claude-sonnet-5.5:batch",
-    "name": "Anthropic: Claude Sonnet 5.5 (batch)",
-    "provider": "Anthropic",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "file"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-28T18:04:46+00:00",
-    "context_length": 1000000,
-    "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
-    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5:batch",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.0,
-      "completion_per_million": 5.0
-    },
-    "first_seen": "2026-09-29T00:12:51.543294+00:00",
-    "source_ids": [
-      "anthropic/claude-sonnet-5.5:batch"
-    ],
-    "family": "Claude Sonnet 5.5 (batch)"
-  },
-  {
     "id": "huggingface:QuantFunc/Qwen-Image-2.1-4bit",
     "name": "Qwen-Image-2.1-4bit",
     "provider": "QuantFunc",
@@ -12695,39 +12698,6 @@
       "frankmorales2020/qwen2.5-0.5b-topo-governed-cbp-fineweb"
     ],
     "family": "qwen2.5-topo-governed-cbp-fineweb"
-  },
-  {
-    "id": "huggingface:jsbaicenter/Aztec-Coder-4B",
-    "name": "Aztec-Coder-4B",
-    "provider": "jsbaicenter",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-25T22:08:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jsbaicenter/Aztec-Coder-4B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "agentic-coding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T00:12:51.634194+00:00",
-    "source_ids": [
-      "jsbaicenter/Aztec-Coder-4B"
-    ],
-    "family": "Aztec-Coder"
   },
   {
     "id": "huggingface:sahilmahendrakar/Paradee-8M-v1.0",
@@ -14504,39 +14474,6 @@
       "autotrust/GLM-5.3-Flash-GGUF-DGX-Spark"
     ],
     "family": "GLM-5.3-Flash--DGX-Spark"
-  },
-  {
-    "id": "huggingface:mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
-    "name": "Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-19T20:37:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "whittle",
-      "qwen4_exp",
-      "mixture-of-experts"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T00:12:51.634431+00:00",
-    "source_ids": [
-      "mradermacher/Whittle-Qwen-3.8-35B-A3B-i1-GGUF"
-    ],
-    "family": "Whittle-Qwen-3.8-i1"
   },
   {
     "id": "huggingface:neopolita/Qwen3.8-Flash-Next-119B-A5B-Niwaki-v2.4-3bit-gguf",
@@ -18711,41 +18648,6 @@
     "family": "Qwen3.8-MLX"
   },
   {
-    "id": "huggingface:Thunder13240/Ornith-1.5-9B-heretic-GGUF",
-    "name": "Ornith-1.5-9B-heretic-GGUF",
-    "provider": "Thunder13240",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-20T07:45:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Thunder13240/Ornith-1.5-9B-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "imatrix",
-      "quantized",
-      "abliterated",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T00:12:52.061782+00:00",
-    "source_ids": [
-      "Thunder13240/Ornith-1.5-9B-heretic-GGUF"
-    ],
-    "family": "Ornith-1.5-heretic"
-  },
-  {
     "id": "huggingface:Green-Eye/Akikawa-3.3-1b-Roleplay-128K-GGUF",
     "name": "Akikawa-3.3-1b-Roleplay-128K-GGUF",
     "provider": "Green-Eye",
@@ -19122,6 +19024,41 @@
       "Jundot/Qwen3.8-27B-oQ4e-fp16-mtp"
     ],
     "family": "Qwen3.8-oQ4e-fp16-mtp"
+  },
+  {
+    "id": "huggingface:Jundot/Qwen3.8-27B-oQ4e-mtp",
+    "name": "Qwen3.8-27B-oQ4e-mtp",
+    "provider": "Jundot",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-17T18:55:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Jundot/Qwen3.8-27B-oQ4e-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T04:40:10.842539+00:00",
+    "source_ids": [
+      "Jundot/Qwen3.8-27B-oQ4e-mtp"
+    ],
+    "family": "Qwen3.8-oQ4e-mtp"
   },
   {
     "id": "huggingface:ibm-granite/granite-speech-5.0-470m-turboctc-nc",
@@ -24142,6 +24079,74 @@
       "shinonome4649ne/test"
     ],
     "family": "test"
+  },
+  {
+    "id": "huggingface:Xenova/trocr-small-handwritten",
+    "name": "trocr-small-handwritten",
+    "provider": "Xenova",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-10-30T14:33:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Xenova/trocr-small-handwritten",
+    "tags": [
+      "image-to-text",
+      "transformers.js",
+      "onnx",
+      "vision-encoder-decoder",
+      "image-text-to-text",
+      "trocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T04:40:10.314485+00:00",
+    "source_ids": [
+      "Xenova/trocr-small-handwritten"
+    ],
+    "family": "trocr-small-handwritten"
+  },
+  {
+    "id": "huggingface:Xenova/vit-gpt2-image-captioning",
+    "name": "vit-gpt2-image-captioning",
+    "provider": "Xenova",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2023-05-02T22:12:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Xenova/vit-gpt2-image-captioning",
+    "tags": [
+      "image-to-text",
+      "transformers.js",
+      "onnx",
+      "vision-encoder-decoder",
+      "image-text-to-text",
+      "image-captioning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T04:40:10.314441+00:00",
+    "source_ids": [
+      "Xenova/vit-gpt2-image-captioning"
+    ],
+    "family": "vit-gpt2-image-captioning"
   },
   {
     "id": "huggingface:theainerd/Wav2Vec2-large-xlsr-hindi",
