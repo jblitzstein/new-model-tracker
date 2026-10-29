@@ -181016,5 +181016,382 @@
       "Jundot/Qwen3.8-27B-oQ4e-mtp"
     ],
     "family": "Qwen3.8-oQ4e-mtp"
+  },
+  {
+    "id": "huggingface:HuggingFaceBio/Carbon-X",
+    "name": "Carbon-X",
+    "provider": "HuggingFaceBio",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T10:21:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:07.148711+00:00",
+    "source_ids": [
+      "HuggingFaceBio/Carbon-X"
+    ],
+    "family": "Carbon-X"
+  },
+  {
+    "id": "huggingface:HuggingFaceTB/SmolLM-135M-Instruct",
+    "name": "SmolLM-135M-Instruct",
+    "provider": "HuggingFaceTB",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-07-15T23:02:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M-Instruct",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "onnx",
+      "safetensors",
+      "llama",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:07.148764+00:00",
+    "source_ids": [
+      "HuggingFaceTB/SmolLM-135M-Instruct"
+    ],
+    "family": "SmolLM-135M"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen-Image-2512-GGUF",
+    "name": "Qwen-Image-2512-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-12-30T08:09:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen-Image-2512-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "quantized",
+      "unsloth",
+      "qwen",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:07.313556+00:00",
+    "source_ids": [
+      "unsloth/Qwen-Image-2512-GGUF"
+    ],
+    "family": "Qwen-Image-2512"
+  },
+  {
+    "id": "huggingface:unsloth/Z-Image-Turbo-GGUF",
+    "name": "Z-Image-Turbo-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-12-21T22:47:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Z-Image-Turbo-GGUF",
+    "tags": [
+      "text-to-image",
+      "ggml",
+      "gguf",
+      "quantized",
+      "unsloth",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:07.313627+00:00",
+    "source_ids": [
+      "unsloth/Z-Image-Turbo-GGUF"
+    ],
+    "family": "Z-Image-Turbo"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T13:26:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "nemo_speechlm",
+      "nvidia",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:08.066779+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Transcribe-NVFP4"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8",
+    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T13:26:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "safetensors",
+      "nemo_speechlm",
+      "nvidia",
+      "pytorch"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:08.066849+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Transcribe-FP8"
+  },
+  {
+    "id": "huggingface:LiquidAI/d1-2B",
+    "name": "d1-2B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-24T19:30:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/d1-2B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "lfm3_vl",
+      "feature-extraction",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:08.217350+00:00",
+    "source_ids": [
+      "LiquidAI/d1-2B"
+    ],
+    "family": "d1"
+  },
+  {
+    "id": "huggingface:mistralai/Mistral-Large-4-1T-A52B",
+    "name": "Mistral-Large-4-1T-A52B",
+    "provider": "Mistral",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-30T18:35:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "mistral_large4",
+      "image-text-to-text",
+      "vLLM",
+      "SGLang"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:08.217394+00:00",
+    "source_ids": [
+      "mistralai/Mistral-Large-4-1T-A52B"
+    ],
+    "family": "Mistral-Large-4-1T-A"
+  },
+  {
+    "id": "huggingface:AMAImedia/MiniMax-M3.1-Flash-NVFP4-GGUF",
+    "name": "MiniMax-M3.1-Flash-NVFP4-GGUF",
+    "provider": "AMAImedia",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T05:13:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AMAImedia/MiniMax-M3.1-Flash-NVFP4-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "minimax_m3_vl",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:08.217470+00:00",
+    "source_ids": [
+      "AMAImedia/MiniMax-M3.1-Flash-NVFP4-GGUF"
+    ],
+    "family": "MiniMax-M3.1-Flash-NVFP4"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-OCR-1.0-DSpark-gguf",
+    "name": "MiniCPM-OCR-1.0-DSpark-gguf",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T08:46:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "minicpm-ocr",
+      "dspark",
+      "speculative-decoding",
+      "draft-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:08.217494+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-OCR-1.0-DSpark-gguf"
+    ],
+    "family": "MiniCPM-OCR-1.0-DSpark"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-OCR-1.0-gguf",
+    "name": "MiniCPM-OCR-1.0-gguf",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T15:52:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-gguf",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "minicpm-ocr",
+      "ocr",
+      "document-parsing",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T14:58:08.217510+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-OCR-1.0-gguf"
+    ],
+    "family": "MiniCPM-OCR-1.0"
   }
 ]
