@@ -31,6 +31,39 @@
     "family": "Particle-1"
   },
   {
+    "id": "huggingface:Apexintelligence-AI/Apex-35B-V1.0-GGUF",
+    "name": "Apex-35B-V1.0-GGUF",
+    "provider": "Apexintelligence-AI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-28T11:43:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Apexintelligence-AI/Apex-35B-V1.0-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "unsloth",
+      "mixture-of-experts",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T20:53:28.645590+00:00",
+    "source_ids": [
+      "Apexintelligence-AI/Apex-35B-V1.0-GGUF"
+    ],
+    "family": "Apex-V1.0"
+  },
+  {
     "id": "huggingface:LiquidAI/d1-2B-GGUF",
     "name": "d1-2B-GGUF",
     "provider": "LiquidAI",
@@ -599,6 +632,41 @@
       "dendriteholdings/Ingot-VII-27B-Q2"
     ],
     "family": "Ingot-VII-Q2"
+  },
+  {
+    "id": "huggingface:huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+    "name": "Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T01:06:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "deepseek",
+      "deepseek_v41",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T20:53:29.103811+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF"
+    ],
+    "family": "Huihui-DeepSeek-V4.1-Flash-1017-abliterated"
   },
   {
     "id": "huggingface:LiquidAI/d1-2B",
@@ -2045,6 +2113,40 @@
       "gradium/phonon-40m-multilingual"
     ],
     "family": "phonon-40m-multilingual"
+  },
+  {
+    "id": "huggingface:gradium/phonon-40m-pt",
+    "name": "phonon-40m-pt",
+    "provider": "gradium",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-19T12:02:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/gradium/phonon-40m-pt",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "gradium_phonon_tts",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T20:53:28.966662+00:00",
+    "source_ids": [
+      "gradium/phonon-40m-pt"
+    ],
+    "family": "phonon-40m-pt"
   },
   {
     "id": "huggingface:gradium/phonon-40m-es",
@@ -6921,6 +7023,39 @@
     "family": "Mellum2.1--Abliterated"
   },
   {
+    "id": "huggingface:Soulfate24/Spark-X2.6-4B-Paretrix",
+    "name": "Spark-X2.6-4B-Paretrix",
+    "provider": "Soulfate24",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T21:33:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Soulfate24/Spark-X2.6-4B-Paretrix",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "llm",
+      "sparkx2_5",
+      "agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T20:53:28.645547+00:00",
+    "source_ids": [
+      "Soulfate24/Spark-X2.6-4B-Paretrix"
+    ],
+    "family": "Spark-X2.6-Paretrix"
+  },
+  {
     "id": "huggingface:sirfyyn/Qwen3.8-Flash-Next-FLE-GGUF",
     "name": "Qwen3.8-Flash-Next-FLE-GGUF",
     "provider": "sirfyyn",
@@ -11283,138 +11418,6 @@
     "family": "anemll-forge-qwen3.8"
   },
   {
-    "id": "openrouter:openai/gpt-6.1-sol-pro",
-    "name": "OpenAI: GPT-6.1 Sol Pro",
-    "provider": "OpenAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "file",
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T17:28:06+00:00",
-    "context_length": 1050000,
-    "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-    "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.0,
-      "completion_per_million": 10.0
-    },
-    "first_seen": "2026-09-29T17:45:12.968887+00:00",
-    "source_ids": [
-      "openai/gpt-6.1-sol-pro"
-    ],
-    "family": "GPT-6.1 Sol Pro"
-  },
-  {
-    "id": "openrouter:openai/gpt-6.1-sol-pro:batch",
-    "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
-    "provider": "OpenAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "file",
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T17:28:06+00:00",
-    "context_length": 1050000,
-    "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-    "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro:batch",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.0,
-      "completion_per_million": 5.0
-    },
-    "first_seen": "2026-09-29T17:45:12.969599+00:00",
-    "source_ids": [
-      "openai/gpt-6.1-sol-pro:batch"
-    ],
-    "family": "GPT-6.1 Sol Pro (batch)"
-  },
-  {
-    "id": "openrouter:openai/gpt-6.1-sol",
-    "name": "OpenAI: GPT-6.1 Sol",
-    "provider": "OpenAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "file",
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T17:28:02+00:00",
-    "context_length": 1050000,
-    "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
-    "url": "https://openrouter.ai/openai/gpt-6.1-sol",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 2.0,
-      "completion_per_million": 10.0
-    },
-    "first_seen": "2026-09-29T17:45:12.969630+00:00",
-    "source_ids": [
-      "openai/gpt-6.1-sol"
-    ],
-    "family": "GPT-6.1 Sol"
-  },
-  {
-    "id": "openrouter:openai/gpt-6.1-sol:batch",
-    "name": "OpenAI: GPT-6.1 Sol (batch)",
-    "provider": "OpenAI",
-    "source": "openrouter",
-    "modality": [
-      "file",
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "file",
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T17:28:02+00:00",
-    "context_length": 1050000,
-    "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
-    "url": "https://openrouter.ai/openai/gpt-6.1-sol:batch",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.0,
-      "completion_per_million": 5.0
-    },
-    "first_seen": "2026-09-29T17:45:12.969650+00:00",
-    "source_ids": [
-      "openai/gpt-6.1-sol:batch"
-    ],
-    "family": "GPT-6.1 Sol (batch)"
-  },
-  {
     "id": "huggingface:SeerRay-Lab/Xiaomi-OCR-0",
     "name": "Xiaomi-OCR-0",
     "provider": "SeerRay-Lab",
@@ -12837,39 +12840,6 @@
       "abliterant/Qwen3.8-27B-RANA-abliterated-GGUF"
     ],
     "family": "Qwen3.8-RANA-abliterated"
-  },
-  {
-    "id": "huggingface:frankmorales2020/qwen2.5-0.5b-topo-governed-cbp-fineweb",
-    "name": "qwen2.5-0.5b-topo-governed-cbp-fineweb",
-    "provider": "frankmorales2020",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-25T23:21:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/frankmorales2020/qwen2.5-0.5b-topo-governed-cbp-fineweb",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen2",
-      "continual-learning",
-      "topological-governance",
-      "continual-backpropagation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T17:45:13.121767+00:00",
-    "source_ids": [
-      "frankmorales2020/qwen2.5-0.5b-topo-governed-cbp-fineweb"
-    ],
-    "family": "qwen2.5-topo-governed-cbp-fineweb"
   },
   {
     "id": "huggingface:sahilmahendrakar/Paradee-8M-v1.0",
@@ -14411,74 +14381,6 @@
     "family": "jina-ocr-v1"
   },
   {
-    "id": "huggingface:ddalcu/Qwen-Image-2.1-MLX-Serve-8bit",
-    "name": "Qwen-Image-2.1-MLX-Serve-8bit",
-    "provider": "ddalcu",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-09-20T15:54:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit",
-    "tags": [
-      "text-to-image",
-      "mlx-serve",
-      "diffusers",
-      "safetensors",
-      "qwen_image21",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T17:45:13.241635+00:00",
-    "source_ids": [
-      "ddalcu/Qwen-Image-2.1-MLX-Serve-8bit"
-    ],
-    "family": "Qwen-Image-2.1-MLX-Serve-8bit"
-  },
-  {
-    "id": "huggingface:ddalcu/Qwen-Image-2.1-MLX-Serve-4bit",
-    "name": "Qwen-Image-2.1-MLX-Serve-4bit",
-    "provider": "ddalcu",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-09-20T15:53:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit",
-    "tags": [
-      "text-to-image",
-      "mlx-serve",
-      "diffusers",
-      "safetensors",
-      "qwen_image21",
-      "mlx"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T17:45:13.241663+00:00",
-    "source_ids": [
-      "ddalcu/Qwen-Image-2.1-MLX-Serve-4bit"
-    ],
-    "family": "Qwen-Image-2.1-MLX-Serve-4bit"
-  },
-  {
     "id": "huggingface:neopolita/Qwen3.8-Flash-Next-102B-A5B-Niwaki-v2.4-3bit-gguf",
     "name": "Qwen3.8-Flash-Next-102B-A5B-Niwaki-v2.4-3bit-gguf",
     "provider": "neopolita",
@@ -15869,39 +15771,6 @@
       "inferencerlabs/DeepSeek-V4.1-Flash-MLX-Q4i"
     ],
     "family": "DeepSeek-V4.1-Flash-MLX-Q4i"
-  },
-  {
-    "id": "huggingface:DALabCommunity/Haidass-Translate-143M",
-    "name": "Haidass-Translate-143M",
-    "provider": "DALabCommunity",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T10:23:32.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DALabCommunity/Haidass-Translate-143M",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "qwen3",
-      "translation",
-      "machine-translation",
-      "small-language-model"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T17:45:13.121856+00:00",
-    "source_ids": [
-      "DALabCommunity/Haidass-Translate-143M"
-    ],
-    "family": "Haidass-Translate-143M"
   },
   {
     "id": "huggingface:orcarouter/Nex-N2.5-mini-Uncensored",
@@ -17645,40 +17514,6 @@
     "family": "Qwen3.8-Flash-Next-MXFP4-Mixed-CT-AutoRound"
   },
   {
-    "id": "huggingface:AMAImedia/NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
-    "name": "NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
-    "provider": "AMAImedia",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-08-27T20:32:24.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AMAImedia/NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16",
-    "tags": [
-      "text-to-speech",
-      "safetensors",
-      "qwen3_tts",
-      "qwen3-tts",
-      "qwen3-omni",
-      "talker"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T17:45:13.667101+00:00",
-    "source_ids": [
-      "AMAImedia/NOESIS-Qwen3-TTS-1.7B-Talker-Combo-LLM2-ASR2-BF16"
-    ],
-    "family": "NOESIS-Qwen3-TTS-Talker-Combo-LLM2-ASR2-BF16"
-  },
-  {
     "id": "huggingface:ggml-org/Qwen3.8-Flash-Next-GGUF",
     "name": "Qwen3.8-Flash-Next-GGUF",
     "provider": "ggml-org",
@@ -18337,40 +18172,6 @@
       "orcarouter/Qwen3.8-Flash-Next-Uncensored"
     ],
     "family": "Qwen3.8-Flash-Next-Uncensored"
-  },
-  {
-    "id": "huggingface:lynaNSFW/minimaxH3_Collection",
-    "name": "minimaxH3_Collection",
-    "provider": "lynaNSFW",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-08-26T07:08:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lynaNSFW/minimaxH3_Collection",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:pmczip/MiniMaxH3_LoRAs"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T17:45:13.241695+00:00",
-    "source_ids": [
-      "lynaNSFW/minimaxH3_Collection"
-    ],
-    "family": "minimaxH3_Collection"
   },
   {
     "id": "huggingface:amd/Qwen3.8-Flash-Next-Quark-MXFP4",
@@ -19164,41 +18965,6 @@
     "family": "granite-speech-5.0-470m-turboctc-nc"
   },
   {
-    "id": "huggingface:AMAImedia/Kimi-K3-MXFP-GGUF",
-    "name": "Kimi-K3-MXFP-GGUF",
-    "provider": "AMAImedia",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-16T08:49:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AMAImedia/Kimi-K3-MXFP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "kimi_k3",
-      "feature-extraction",
-      "kimi"
-    ],
-    "pricing": null,
-    "first_seen": "2026-09-29T17:45:13.892578+00:00",
-    "source_ids": [
-      "AMAImedia/Kimi-K3-MXFP-GGUF"
-    ],
-    "family": "Kimi-K3-MXFP"
-  },
-  {
     "id": "huggingface:AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
     "name": "Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
     "provider": "AEON-7",
@@ -19264,6 +19030,41 @@
       "Smite79/MiniMax-H3-Longvideos"
     ],
     "family": "MiniMax-H3-Longvideos"
+  },
+  {
+    "id": "huggingface:OpenVINO/Qwen3.8-27B-int4-ov",
+    "name": "Qwen3.8-27B-int4-ov",
+    "provider": "OpenVINO",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T15:24:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenVINO/Qwen3.8-27B-int4-ov",
+    "tags": [
+      "image-text-to-text",
+      "openvino",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.8-27B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T20:53:29.103747+00:00",
+    "source_ids": [
+      "OpenVINO/Qwen3.8-27B-int4-ov"
+    ],
+    "family": "Qwen3.8-int4-ov"
   },
   {
     "id": "huggingface:TensorFold/Qwen3.8-27B-MLX-4bit",
@@ -21913,6 +21714,41 @@
       "litert-community/Qwen3-4B"
     ],
     "family": "Qwen3"
+  },
+  {
+    "id": "huggingface:embedl/Qwen3.5-27B-FlashHead",
+    "name": "Qwen3.5-27B-FlashHead",
+    "provider": "embedl",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-16T11:51:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/embedl/Qwen3.5-27B-FlashHead",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "embedl",
+      "qwen3.5",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-29T20:53:29.103860+00:00",
+    "source_ids": [
+      "embedl/Qwen3.5-27B-FlashHead"
+    ],
+    "family": "Qwen3.5-FlashHead"
   },
   {
     "id": "huggingface:onnx-community/Bonsai-1.7B-ONNX",
