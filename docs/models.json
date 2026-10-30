@@ -181598,5 +181598,176 @@
       "embedl/Qwen3.5-27B-FlashHead"
     ],
     "family": "Qwen3.5-FlashHead"
+  },
+  {
+    "id": "huggingface:unsloth/FLUX.1-schnell-GGUF",
+    "name": "FLUX.1-schnell-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-06-30T10:50:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/FLUX.1-schnell-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "image-generation",
+      "flux",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-30T04:40:01.756260+00:00",
+    "source_ids": [
+      "unsloth/FLUX.1-schnell-GGUF"
+    ],
+    "family": "FLUX.1-schnell"
+  },
+  {
+    "id": "huggingface:Comfy-Org/Qwen-Image-2.1",
+    "name": "Qwen-Image-2.1",
+    "provider": "Comfy-Org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-15T19:41:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "comfyui",
+      "text-to-image",
+      "base_model:Qwen/Qwen-Image-2.1",
+      "base_model:finetune:Qwen/Qwen-Image-2.1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-30T04:40:01.756300+00:00",
+    "source_ids": [
+      "Comfy-Org/Qwen-Image-2.1"
+    ],
+    "family": "Qwen-Image-2.1"
+  },
+  {
+    "id": "huggingface:KittenML/kitten-tts-nano-0.8-fp32",
+    "name": "kitten-tts-nano-0.8-fp32",
+    "provider": "KittenML",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-19T03:27:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KittenML/kitten-tts-nano-0.8-fp32",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "text-to-speech",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-30T04:40:01.975100+00:00",
+    "source_ids": [
+      "KittenML/kitten-tts-nano-0.8-fp32"
+    ],
+    "family": "kitten-tts-nano-0.8-fp32"
+  },
+  {
+    "id": "huggingface:ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+    "name": "Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+    "provider": "ltzheng",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-22T03:24:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-30T04:40:02.111846+00:00",
+    "source_ids": [
+      "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled"
+    ],
+    "family": "Qwen3.5-General-Game-Stage1-3Shift-Shuffled"
+  },
+  {
+    "id": "huggingface:vcruz305/DSV4.1-Flash-1017-SAGE-EXL3-1.62bpw",
+    "name": "DSV4.1-Flash-1017-SAGE-EXL3-1.62bpw",
+    "provider": "vcruz305",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-18T03:05:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/vcruz305/DSV4.1-Flash-1017-SAGE-EXL3-1.62bpw",
+    "tags": [
+      "image-text-to-text",
+      "exllamav3",
+      "safetensors",
+      "deepseek_v41",
+      "exl3",
+      "deepseek"
+    ],
+    "pricing": null,
+    "first_seen": "2026-10-30T04:40:02.111997+00:00",
+    "source_ids": [
+      "vcruz305/DSV4.1-Flash-1017-SAGE-EXL3-1.62bpw"
+    ],
+    "family": "DSV4.1-Flash-1017-SAGE-EXL3-1.62bpw"
   }
 ]
