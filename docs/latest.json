@@ -202,6 +202,39 @@
     "family": "Mage-VL-Cowork"
   },
   {
+    "id": "huggingface:axteam/GLM-4-32B-0414-NVFP4A16",
+    "name": "GLM-4-32B-0414-NVFP4A16",
+    "provider": "axteam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T10:32:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/axteam/GLM-4-32B-0414-NVFP4A16",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "glm4",
+      "text-generation",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T04:44:27.232691+00:00",
+    "source_ids": [
+      "axteam/GLM-4-32B-0414-NVFP4A16"
+    ],
+    "family": "GLM-4-0414-NVFP4A16"
+  },
+  {
     "id": "huggingface:Jmica/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
     "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
     "provider": "Jmica",
@@ -5298,6 +5331,40 @@
     "family": "Drama-3-Windows"
   },
   {
+    "id": "huggingface:0xE2E/Drama-3-Windows-GGUF",
+    "name": "Drama-3-Windows-GGUF",
+    "provider": "0xE2E",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-14T11:48:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0xE2E/Drama-3-Windows-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "fish-audio",
+      "drama-3",
+      "windows",
+      "voice-cloning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T04:44:27.535710+00:00",
+    "source_ids": [
+      "0xE2E/Drama-3-Windows-GGUF"
+    ],
+    "family": "Drama-3-Windows"
+  },
+  {
     "id": "huggingface:bartowski/LFM2.5-24B-A2B-GGUF",
     "name": "LFM2.5-24B-A2B-GGUF",
     "provider": "bartowski",
@@ -6892,6 +6959,39 @@
     "family": "qwen-image-mflux-bf16"
   },
   {
+    "id": "huggingface:axteam/gemma-4-31B-GGUF",
+    "name": "gemma-4-31B-GGUF",
+    "provider": "axteam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T02:24:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/axteam/gemma-4-31B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma",
+      "gemma4",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T04:44:27.232600+00:00",
+    "source_ids": [
+      "axteam/gemma-4-31B-GGUF"
+    ],
+    "family": "gemma-4"
+  },
+  {
     "id": "huggingface:DICPlay/RusMind-Vspyshka",
     "name": "RusMind-Vspyshka",
     "provider": "DICPlay",
@@ -6956,6 +7056,72 @@
       "DICPlay/RusMind-Momentum"
     ],
     "family": "RusMind-Momentum"
+  },
+  {
+    "id": "huggingface:axteam/gemma-4-26B-A4B-it-GGUF",
+    "name": "gemma-4-26B-A4B-it-GGUF",
+    "provider": "axteam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T01:29:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/axteam/gemma-4-26B-A4B-it-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma",
+      "gemma4",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T04:44:27.232628+00:00",
+    "source_ids": [
+      "axteam/gemma-4-26B-A4B-it-GGUF"
+    ],
+    "family": "gemma-4-it"
+  },
+  {
+    "id": "huggingface:axteam/gemma-4-E4B-it-GGUF",
+    "name": "gemma-4-E4B-it-GGUF",
+    "provider": "axteam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T01:17:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/axteam/gemma-4-E4B-it-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "gemma",
+      "gemma4",
+      "llama.cpp",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T04:44:27.232561+00:00",
+    "source_ids": [
+      "axteam/gemma-4-E4B-it-GGUF"
+    ],
+    "family": "gemma-4-E-it"
   },
   {
     "id": "huggingface:h2oai/h2o-lightning-4b-gguf",
@@ -11051,32 +11217,6 @@
     "family": "Audio-Flamingo"
   },
   {
-    "id": "openrouter:inclusionai/ling-3.1-flash",
-    "name": "inclusionAI: Ling 3.1 Flash",
-    "provider": "inclusionai",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-02T14:07:04+00:00",
-    "context_length": 262144,
-    "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
-    "url": "https://openrouter.ai/inclusionai/ling-3.1-flash",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-10-02T20:22:48.996706+00:00",
-    "source_ids": [
-      "inclusionai/ling-3.1-flash"
-    ],
-    "family": "Ling 3.1 Flash"
-  },
-  {
     "id": "huggingface:francesca9805/eng-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407",
     "name": "eng-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407",
     "provider": "francesca9805",
@@ -14410,35 +14550,6 @@
     "family": "Qwen3.8-NVIDIA-NVFP4-NInferV3"
   },
   {
-    "id": "openrouter:nvidia/switchyard",
-    "name": "NVIDIA: Switchyard",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T21:25:47+00:00",
-    "context_length": 1000000,
-    "description": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular...",
-    "url": "https://openrouter.ai/nvidia/switchyard",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": -1000000.0,
-      "completion_per_million": -1000000.0
-    },
-    "first_seen": "2026-10-03T04:04:44.497931+00:00",
-    "source_ids": [
-      "nvidia/switchyard"
-    ],
-    "family": "Switchyard"
-  },
-  {
     "id": "huggingface:chtisgit/Qwen3.6-35B-A3B-2Bit-GSQ-hybrid-GGUF",
     "name": "Qwen3.6-35B-A3B-2Bit-GSQ-hybrid-GGUF",
     "provider": "chtisgit",
@@ -15249,41 +15360,6 @@
     "family": "needle3"
   },
   {
-    "id": "huggingface:Accio-Lab/occamy-1.0-NVFP4",
-    "name": "occamy-1.0-NVFP4",
-    "provider": "Accio-Lab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-15T20:06:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Accio-Lab/occamy-1.0-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "4-bit"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-02T20:22:49.976106+00:00",
-    "source_ids": [
-      "Accio-Lab/occamy-1.0-NVFP4"
-    ],
-    "family": "occamy-1.0-NVFP4"
-  },
-  {
     "id": "huggingface:Comfy-Org/Qwen-Image-2.1",
     "name": "Qwen-Image-2.1",
     "provider": "Comfy-Org",
@@ -15588,39 +15664,6 @@
       "nthngdy/cplm-baselines-1.7B"
     ],
     "family": "cplm-baselines"
-  },
-  {
-    "id": "huggingface:jialinyyzz/humanizer",
-    "name": "humanizer",
-    "provider": "jialinyyzz",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-11T05:00:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jialinyyzz/humanizer",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "gemma4_unified",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-03T04:04:44.652241+00:00",
-    "source_ids": [
-      "jialinyyzz/humanizer"
-    ],
-    "family": "humanizer"
   },
   {
     "id": "huggingface:Solstice-AI/Qwen3.8-27B-TTURBO-Cold-Fusion-709-L-Uncensored-UltraOptimised-VariableThinking-1M",
@@ -16993,39 +17036,6 @@
     "family": "gemma-4-it-FP8-block"
   },
   {
-    "id": "huggingface:BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
-    "name": "orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
-    "provider": "BoldingBuilds",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-31T13:53:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "uncensored",
-      "abliterated",
-      "moe",
-      "glm"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-03T04:04:44.652159+00:00",
-    "source_ids": [
-      "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF"
-    ],
-    "family": "orcarouter_GLM-5.3-Flash-Uncensored"
-  },
-  {
     "id": "huggingface:GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
     "name": "Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
     "provider": "GCSA-AiLab",
@@ -17953,40 +17963,6 @@
       "Jundot/Qwen3.8-27B-oQ4e-mtp"
     ],
     "family": "Qwen3.8-oQ4e-mtp"
-  },
-  {
-    "id": "huggingface:ibm-granite/granite-speech-5.0-470m-turboctc-nc",
-    "name": "granite-speech-5.0-470m-turboctc-nc",
-    "provider": "IBM",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-17T17:29:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc-nc",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "granite_speech5_ctc",
-      "automatic-speech-recognition",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-02T20:22:49.854733+00:00",
-    "source_ids": [
-      "ibm-granite/granite-speech-5.0-470m-turboctc-nc"
-    ],
-    "family": "granite-speech-5.0-470m-turboctc-nc"
   },
   {
     "id": "huggingface:AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
@@ -20225,108 +20201,6 @@
       "selorahomes/Selora-AI-LLM-1.7B"
     ],
     "family": "Selora-AI-LLM"
-  },
-  {
-    "id": "huggingface:handy-computer/canary-1b-gguf",
-    "name": "canary-1b-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T12:03:46.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/canary-1b-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "canary"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-03T04:04:45.359338+00:00",
-    "source_ids": [
-      "handy-computer/canary-1b-gguf"
-    ],
-    "family": "canary"
-  },
-  {
-    "id": "huggingface:handy-computer/canary-1b-flash-gguf",
-    "name": "canary-1b-flash-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T10:29:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/canary-1b-flash-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "canary"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-03T04:04:45.359392+00:00",
-    "source_ids": [
-      "handy-computer/canary-1b-flash-gguf"
-    ],
-    "family": "canary-flash"
-  },
-  {
-    "id": "huggingface:handy-computer/canary-180m-flash-gguf",
-    "name": "canary-180m-flash-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-08T10:28:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/canary-180m-flash-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "canary"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-03T04:04:45.359425+00:00",
-    "source_ids": [
-      "handy-computer/canary-180m-flash-gguf"
-    ],
-    "family": "canary-180m-flash"
   },
   {
     "id": "huggingface:BricksDisplay/MOSS-TTS-Realtime-GGUF",
