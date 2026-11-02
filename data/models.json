@@ -183148,5 +183148,617 @@
       "0xE2E/Drama-3-Windows-GGUF"
     ],
     "family": "Drama-3-Windows"
+  },
+  {
+    "id": "openrouter:z-ai/glm-5.3-flashx-legal",
+    "name": "Z.ai: GLM 5.3 FlashX Legal",
+    "provider": "Zhipu AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-02T13:29:14+00:00",
+    "context_length": 1048576,
+    "description": "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-training and post-training with reinforcement...",
+    "url": "https://openrouter.ai/z-ai/glm-5.3-flashx-legal",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.37,
+      "completion_per_million": 1.25
+    },
+    "first_seen": "2026-11-02T17:52:44.852683+00:00",
+    "source_ids": [
+      "z-ai/glm-5.3-flashx-legal"
+    ],
+    "family": "GLM 5.3 FlashX Legal"
+  },
+  {
+    "id": "huggingface:miceworks/Mark-SLM-V3-150M",
+    "name": "Mark-SLM-V3-150M",
+    "provider": "miceworks",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-01T18:37:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/miceworks/Mark-SLM-V3-150M",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "safetensors",
+      "deepseek2",
+      "mixture-of-experts",
+      "multi-head-latent-attention"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:44.991501+00:00",
+    "source_ids": [
+      "miceworks/Mark-SLM-V3-150M"
+    ],
+    "family": "Mark-SLM-V3-150M"
+  },
+  {
+    "id": "huggingface:tablinum/Moon-Beam-16B-A3B-GGUF",
+    "name": "Moon-Beam-16B-A3B-GGUF",
+    "provider": "tablinum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-31T18:21:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tablinum/Moon-Beam-16B-A3B-GGUF",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "moon-beam",
+      "moonlight",
+      "deepseek_v3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:44.991535+00:00",
+    "source_ids": [
+      "tablinum/Moon-Beam-16B-A3B-GGUF"
+    ],
+    "family": "Moon-Beam"
+  },
+  {
+    "id": "huggingface:dendriteholdings/Ingot-XVII-27B-Q2",
+    "name": "Ingot-XVII-27B-Q2",
+    "provider": "dendriteholdings",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T23:43:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/dendriteholdings/Ingot-XVII-27B-Q2",
+    "tags": [
+      "text-generation",
+      "llama.cpp",
+      "gguf",
+      "ternary",
+      "ingot",
+      "bittensor"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:44.991650+00:00",
+    "source_ids": [
+      "dendriteholdings/Ingot-XVII-27B-Q2"
+    ],
+    "family": "Ingot-XVII-Q2"
+  },
+  {
+    "id": "huggingface:Comfy-Org/Krea-2",
+    "name": "Krea-2",
+    "provider": "Comfy-Org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-16T22:31:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Comfy-Org/Krea-2",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "comfyui",
+      "text-to-image",
+      "base_model:krea/Krea-2-Raw",
+      "base_model:finetune:krea/Krea-2-Raw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.085958+00:00",
+    "source_ids": [
+      "Comfy-Org/Krea-2"
+    ],
+    "family": "Krea-2"
+  },
+  {
+    "id": "huggingface:Spectrallic/MiniMax-H3-DMAD-4step-int8-convrot",
+    "name": "MiniMax-H3-DMAD-4step-int8-convrot",
+    "provider": "Spectrallic",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-11-01T10:19:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Spectrallic/MiniMax-H3-DMAD-4step-int8-convrot",
+    "tags": [
+      "text-to-video",
+      "diffusion-single-file",
+      "minimax-h3",
+      "int8",
+      "convrot",
+      "dmad"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.282275+00:00",
+    "source_ids": [
+      "Spectrallic/MiniMax-H3-DMAD-4step-int8-convrot"
+    ],
+    "family": "MiniMax-H3-DMAD-4step-int8-convrot"
+  },
+  {
+    "id": "huggingface:Edge0/Audio8-TTS-Realistic-Air",
+    "name": "Audio8-TTS-Realistic-Air",
+    "provider": "Edge0",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-14T03:02:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+    "tags": [
+      "text-to-speech",
+      "transformers",
+      "safetensors",
+      "arktts",
+      "feature-extraction",
+      "audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.450277+00:00",
+    "source_ids": [
+      "Edge0/Audio8-TTS-Realistic-Air"
+    ],
+    "family": "Audio8-TTS-Realistic-Air"
+  },
+  {
+    "id": "huggingface:onnx-community/phonon-31m-en-ONNX",
+    "name": "phonon-31m-en-ONNX",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-21T09:18:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/phonon-31m-en-ONNX",
+    "tags": [
+      "text-to-speech",
+      "transformers.js",
+      "onnx",
+      "gradium_phonon_tts",
+      "text-to-audio",
+      "pocket-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.450363+00:00",
+    "source_ids": [
+      "onnx-community/phonon-31m-en-ONNX"
+    ],
+    "family": "phonon-31m-en-ONNX"
+  },
+  {
+    "id": "huggingface:BricksDisplay/Qwen3-TTS-12Hz-1.7B-CustomVoice-GGUF",
+    "name": "Qwen3-TTS-12Hz-1.7B-CustomVoice-GGUF",
+    "provider": "BricksDisplay",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-20T09:32:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BricksDisplay/Qwen3-TTS-12Hz-1.7B-CustomVoice-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "codec.cpp",
+      "text-to-speech",
+      "tts",
+      "qwen3-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.450424+00:00",
+    "source_ids": [
+      "BricksDisplay/Qwen3-TTS-12Hz-1.7B-CustomVoice-GGUF"
+    ],
+    "family": "Qwen3-TTS-12Hz-CustomVoice"
+  },
+  {
+    "id": "huggingface:BricksDisplay/Qwen3-TTS-12Hz-0.6B-CustomVoice-GGUF",
+    "name": "Qwen3-TTS-12Hz-0.6B-CustomVoice-GGUF",
+    "provider": "BricksDisplay",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-20T09:29:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BricksDisplay/Qwen3-TTS-12Hz-0.6B-CustomVoice-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "codec.cpp",
+      "text-to-speech",
+      "tts",
+      "qwen3-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.450460+00:00",
+    "source_ids": [
+      "BricksDisplay/Qwen3-TTS-12Hz-0.6B-CustomVoice-GGUF"
+    ],
+    "family": "Qwen3-TTS-12Hz-CustomVoice"
+  },
+  {
+    "id": "huggingface:BricksDisplay/Soprano-1.1-80M-GGUF",
+    "name": "Soprano-1.1-80M-GGUF",
+    "provider": "BricksDisplay",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-03-04T15:21:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BricksDisplay/Soprano-1.1-80M-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "codec.cpp",
+      "text-to-speech",
+      "tts",
+      "soprano"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.450555+00:00",
+    "source_ids": [
+      "BricksDisplay/Soprano-1.1-80M-GGUF"
+    ],
+    "family": "Soprano-1.1-80M"
+  },
+  {
+    "id": "huggingface:DictionLabs/whisperkit-coreml",
+    "name": "whisperkit-coreml",
+    "provider": "DictionLabs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-29T21:14:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DictionLabs/whisperkit-coreml",
+    "tags": [
+      "automatic-speech-recognition",
+      "whisperkit",
+      "audio",
+      "automatic-speech-recognition",
+      "whisper",
+      "coreml"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.538566+00:00",
+    "source_ids": [
+      "DictionLabs/whisperkit-coreml"
+    ],
+    "family": "whisperkit-coreml"
+  },
+  {
+    "id": "huggingface:maternion/Nemotron-3.5-Transcribe-30B-A4B-IQ-GGUF",
+    "name": "Nemotron-3.5-Transcribe-30B-A4B-IQ-GGUF",
+    "provider": "maternion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-31T18:07:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/maternion/Nemotron-3.5-Transcribe-30B-A4B-IQ-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "llama.cpp",
+      "nemotron-3.5",
+      "nemotron_h_moe",
+      "asr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.538704+00:00",
+    "source_ids": [
+      "maternion/Nemotron-3.5-Transcribe-30B-A4B-IQ-GGUF"
+    ],
+    "family": "Nemotron-3.5-Transcribe-IQ"
+  },
+  {
+    "id": "huggingface:onnx-community/whisper-base",
+    "name": "whisper-base",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-05-24T17:00:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/whisper-base",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers.js",
+      "onnx",
+      "whisper",
+      "automatic-speech-recognition",
+      "base_model:openai/whisper-base"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.538751+00:00",
+    "source_ids": [
+      "onnx-community/whisper-base"
+    ],
+    "family": "whisper"
+  },
+  {
+    "id": "huggingface:prithivMLmods/Qwen3.5-4B-3D-Coder-GGUF",
+    "name": "Qwen3.5-4B-3D-Coder-GGUF",
+    "provider": "prithivMLmods",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T08:59:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/prithivMLmods/Qwen3.5-4B-3D-Coder-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "llama-cpp",
+      "qwen3_5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.625517+00:00",
+    "source_ids": [
+      "prithivMLmods/Qwen3.5-4B-3D-Coder-GGUF"
+    ],
+    "family": "Qwen3.5-3D-Coder"
+  },
+  {
+    "id": "huggingface:sensenova/SenseNova-Loop-9B-Preview",
+    "name": "SenseNova-Loop-9B-Preview",
+    "provider": "sensenova",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-28T15:34:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "sensenova_loop",
+      "text-generation",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.625587+00:00",
+    "source_ids": [
+      "sensenova/SenseNova-Loop-9B-Preview"
+    ],
+    "family": "SenseNova-Loop"
+  },
+  {
+    "id": "huggingface:Baekpica/GLM-5.3-Flash-Uncensored-Mixed-Quant-GGUF",
+    "name": "GLM-5.3-Flash-Uncensored-Mixed-Quant-GGUF",
+    "provider": "Baekpica",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-07T00:18:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Baekpica/GLM-5.3-Flash-Uncensored-Mixed-Quant-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "mixed-quant",
+      "glm5-next",
+      "moe",
+      "dgx-spark"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.625627+00:00",
+    "source_ids": [
+      "Baekpica/GLM-5.3-Flash-Uncensored-Mixed-Quant-GGUF"
+    ],
+    "family": "GLM-5.3-Flash-Uncensored-Mixed-Quant"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-OCR-1.0",
+    "name": "MiniCPM-OCR-1.0",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T15:51:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+    "tags": [
+      "image-text-to-text",
+      "minicpm-ocr",
+      "safetensors",
+      "minicpm_ocr",
+      "ocr",
+      "document-parsing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-02T17:52:45.625735+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-OCR-1.0"
+    ],
+    "family": "MiniCPM-OCR-1.0"
   }
 ]
