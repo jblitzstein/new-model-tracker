@@ -1344,6 +1344,40 @@
     "family": "Ingot-XI-Q2"
   },
   {
+    "id": "huggingface:maya-research/maya2-native",
+    "name": "maya2-native",
+    "provider": "maya-research",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-26T02:58:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/maya-research/maya2-native",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "maya3",
+      "text-to-speech",
+      "tts",
+      "indic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-03T11:39:24.330233+00:00",
+    "source_ids": [
+      "maya-research/maya2-native"
+    ],
+    "family": "maya2-native"
+  },
+  {
     "id": "huggingface:Luni/Nanbeige-4.3-33B-Heretic-GGUF",
     "name": "Nanbeige-4.3-33B-Heretic-GGUF",
     "provider": "Luni",
@@ -1610,6 +1644,39 @@
       "TokenTinkerer/Cyber-Tiel-Coder-35B-A3B-MTP-TTQ-GGUF"
     ],
     "family": "Cyber-Tiel-Coder-MTP-TTQ"
+  },
+  {
+    "id": "huggingface:DarkKitsune/Qwen3.6-Candid-Coder-35B-A3B",
+    "name": "Qwen3.6-Candid-Coder-35B-A3B",
+    "provider": "DarkKitsune",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-24T22:43:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/DarkKitsune/Qwen3.6-Candid-Coder-35B-A3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "qwen3_5_moe",
+      "image-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-03T11:39:23.782236+00:00",
+    "source_ids": [
+      "DarkKitsune/Qwen3.6-Candid-Coder-35B-A3B"
+    ],
+    "family": "Qwen3.6-Candid-Coder"
   },
   {
     "id": "huggingface:flaviodelgrosso/Qwen3.8-Flash-Next-GGUF",
@@ -4433,6 +4500,39 @@
       "eaddario/IQ2_K-IQ6_K-Test-Models"
     ],
     "family": "IQ2_K-IQ6_K-Test-Models"
+  },
+  {
+    "id": "huggingface:shashanth-27xA9/GLM-5.3-SuperExpert-v2-9.2GB",
+    "name": "GLM-5.3-SuperExpert-v2-9.2GB",
+    "provider": "shashanth-27xA9",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-16T16:36:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shashanth-27xA9/GLM-5.3-SuperExpert-v2-9.2GB",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "glm_superexpert",
+      "glm",
+      "glm4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-03T11:39:23.782206+00:00",
+    "source_ids": [
+      "shashanth-27xA9/GLM-5.3-SuperExpert-v2-9.2GB"
+    ],
+    "family": "GLM-5.3-SuperExpert-v2-9.2GB"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
@@ -9351,6 +9451,40 @@
       "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF"
     ],
     "family": "NVIDIA-Nemotron-3.5-Bolt-24GB"
+  },
+  {
+    "id": "huggingface:coolthor/Kandinsky-6.0-Pro-distill-5s-NVFP4",
+    "name": "Kandinsky-6.0-Pro-distill-5s-NVFP4",
+    "provider": "coolthor",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-10-07T19:05:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/coolthor/Kandinsky-6.0-Pro-distill-5s-NVFP4",
+    "tags": [
+      "text-to-video",
+      "diffusion-single-file",
+      "text-to-video",
+      "image-to-video",
+      "text-to-audio-video",
+      "lip-sync"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-03T11:39:24.126786+00:00",
+    "source_ids": [
+      "coolthor/Kandinsky-6.0-Pro-distill-5s-NVFP4"
+    ],
+    "family": "Kandinsky-6.0-Pro-distill-5s-NVFP4"
   },
   {
     "id": "huggingface:francesca9805/swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407",
@@ -15294,39 +15428,6 @@
     "family": "Qwen3.6-Brainwaves-Nex-Uncensored"
   },
   {
-    "id": "huggingface:Sariel00/mindnano-ling3-compass",
-    "name": "mindnano-ling3-compass",
-    "provider": "Sariel00",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-18T04:33:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Sariel00/mindnano-ling3-compass",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "ling3",
-      "llama.cpp",
-      "kv-cache"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-04T04:37:50.198209+00:00",
-    "source_ids": [
-      "Sariel00/mindnano-ling3-compass"
-    ],
-    "family": "mindnano-ling3-compass"
-  },
-  {
     "id": "huggingface:EQTYLab/Llama-3.1-Nemotron-Nano-4B-v1.1-banking77",
     "name": "Llama-3.1-Nemotron-Nano-4B-v1.1-banking77",
     "provider": "EQTYLab",
@@ -15358,6 +15459,41 @@
       "EQTYLab/Llama-3.1-Nemotron-Nano-4B-v1.1-banking77"
     ],
     "family": "Llama-3.1-Nemotron-Nano-v1.1-banking77"
+  },
+  {
+    "id": "huggingface:NovaeonStudio/Qwen3.8-35B-A3B-Distill-oQ8-fp16-mtp",
+    "name": "Qwen3.8-35B-A3B-Distill-oQ8-fp16-mtp",
+    "provider": "NovaeonStudio",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T18:32:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/NovaeonStudio/Qwen3.8-35B-A3B-Distill-oQ8-fp16-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "apple-silicon",
+      "oMLX"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-03T11:39:24.539351+00:00",
+    "source_ids": [
+      "NovaeonStudio/Qwen3.8-35B-A3B-Distill-oQ8-fp16-mtp"
+    ],
+    "family": "Qwen3.8-Distill-oQ8-fp16-mtp"
   },
   {
     "id": "huggingface:halilneed/turkish-pii-detection",
@@ -17755,74 +17891,6 @@
     "family": "Qwen3.5"
   },
   {
-    "id": "huggingface:Green-Eye/Akikawa-3.3-1b-Roleplay-128K-GGUF",
-    "name": "Akikawa-3.3-1b-Roleplay-128K-GGUF",
-    "provider": "Green-Eye",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-20T00:55:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Green-Eye/Akikawa-3.3-1b-Roleplay-128K-GGUF",
-    "tags": [
-      "text-generation",
-      "llama-cpp-python",
-      "safetensors",
-      "gguf",
-      "llama",
-      "llama-cpp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-04T04:37:50.198246+00:00",
-    "source_ids": [
-      "Green-Eye/Akikawa-3.3-1b-Roleplay-128K-GGUF"
-    ],
-    "family": "Akikawa-3.3-Roleplay-128K"
-  },
-  {
-    "id": "huggingface:iapp/openthai2.0-qwen3.8-27b",
-    "name": "openthai2.0-qwen3.8-27b",
-    "provider": "iapp",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-19T23:19:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/iapp/openthai2.0-qwen3.8-27b",
-    "tags": [
-      "image-text-to-text",
-      "safetensors",
-      "qwen3_5",
-      "thai",
-      "ocr",
-      "document-understanding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-04T04:37:51.004616+00:00",
-    "source_ids": [
-      "iapp/openthai2.0-qwen3.8-27b"
-    ],
-    "family": "openthai2.0-qwen3.8"
-  },
-  {
     "id": "huggingface:Solstice-AI/Qwen3.8-27B-Uncensored-mlx-6Bit",
     "name": "Qwen3.8-27B-Uncensored-mlx-6Bit",
     "provider": "Solstice-AI",
@@ -20130,6 +20198,40 @@
       "netease-youdao/Confucius4-TTS"
     ],
     "family": "Confucius4-TTS"
+  },
+  {
+    "id": "huggingface:coolthor/Sulphur-2-distilled-NVFP4",
+    "name": "Sulphur-2-distilled-NVFP4",
+    "provider": "coolthor",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-06-01T12:23:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/coolthor/Sulphur-2-distilled-NVFP4",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "text-to-video",
+      "image-to-video",
+      "text-to-audio-video",
+      "ltx-2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-03T11:39:24.126860+00:00",
+    "source_ids": [
+      "coolthor/Sulphur-2-distilled-NVFP4"
+    ],
+    "family": "Sulphur-2-distilled-NVFP4"
   },
   {
     "id": "huggingface:divinetribe/Hermes-4-14B-abliterated-4bit-mlx",
