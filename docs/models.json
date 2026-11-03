@@ -184203,5 +184203,104 @@
       "NovaeonStudio/Qwen3.8-35B-A3B-Distill-oQ8-fp16-mtp"
     ],
     "family": "Qwen3.8-Distill-oQ8-fp16-mtp"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.7:batch",
+    "name": "SpaceXAI: Grok 4.7 (batch)",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-21T16:19:01+00:00",
+    "context_length": 500000,
+    "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
+    "url": "https://openrouter.ai/x-ai/grok-4.7:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.6,
+      "completion_per_million": 4.8
+    },
+    "first_seen": "2026-11-03T19:08:55.752861+00:00",
+    "source_ids": [
+      "x-ai/grok-4.7:batch"
+    ],
+    "family": "Grok 4.7 (batch)"
+  },
+  {
+    "id": "openrouter:x-ai/grok-4.6:batch",
+    "name": "SpaceXAI: Grok 4.6 (batch)",
+    "provider": "xAI",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T15:35:57+00:00",
+    "context_length": 500000,
+    "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
+    "url": "https://openrouter.ai/x-ai/grok-4.6:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.6,
+      "completion_per_million": 4.8
+    },
+    "first_seen": "2026-11-03T19:08:55.753894+00:00",
+    "source_ids": [
+      "x-ai/grok-4.6:batch"
+    ],
+    "family": "Grok 4.6 (batch)"
+  },
+  {
+    "id": "huggingface:SentinelHub/R-08",
+    "name": "R-08",
+    "provider": "SentinelHub",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-29T16:02:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SentinelHub/R-08",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "geodesic_mesh_pyramid",
+      "pytorch",
+      "causal-lm",
+      "geodesic-neural-network"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-03T19:08:55.917828+00:00",
+    "source_ids": [
+      "SentinelHub/R-08"
+    ],
+    "family": "R-08"
   }
 ]
