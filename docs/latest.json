@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:tencent/hy4",
+    "name": "Tencent: Hy4",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-04T04:20:31+00:00",
+    "context_length": 1048576,
+    "description": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world productivity...",
+    "url": "https://openrouter.ai/tencent/hy4",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.417,
+      "completion_per_million": 1.2505
+    },
+    "first_seen": "2026-11-04T11:52:36.919782+00:00",
+    "source_ids": [
+      "tencent/hy4"
+    ],
+    "family": "Hy4"
+  },
+  {
     "id": "openrouter:stealth/crouton-alpha",
     "name": "Crouton Alpha",
     "provider": "stealth",
@@ -938,6 +969,40 @@
     "family": "Magenta-RealTime-2"
   },
   {
+    "id": "huggingface:lordfarquaad36/Reflora",
+    "name": "Reflora",
+    "provider": "lordfarquaad36",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-28T05:06:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lordfarquaad36/Reflora",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:krea/Krea-2-Turbo"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.168424+00:00",
+    "source_ids": [
+      "lordfarquaad36/Reflora"
+    ],
+    "family": "Reflora"
+  },
+  {
     "id": "huggingface:LiquidAI/d1-2B-GGUF",
     "name": "d1-2B-GGUF",
     "provider": "LiquidAI",
@@ -1343,6 +1408,41 @@
     "family": "MiniCPM-OCR-1.0-DSpark"
   },
   {
+    "id": "huggingface:openbmb/MiniCPM-OCR-1.0-DSpark",
+    "name": "MiniCPM-OCR-1.0-DSpark",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T08:46:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "minicpm-ocr",
+      "dspark"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.678022+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-OCR-1.0-DSpark"
+    ],
+    "family": "MiniCPM-OCR-1.0-DSpark"
+  },
+  {
     "id": "huggingface:baidu/Unlimited-OCR-2",
     "name": "Unlimited-OCR-2",
     "provider": "Baidu",
@@ -1610,6 +1710,41 @@
       "dendriteholdings/Ingot-VIII-27B-Q2"
     ],
     "family": "Ingot-VIII-Q2"
+  },
+  {
+    "id": "huggingface:openbmb/MiniCPM-OCR-1.0-GPTQ",
+    "name": "MiniCPM-OCR-1.0-GPTQ",
+    "provider": "openbmb",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T08:04:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-GPTQ",
+    "tags": [
+      "image-text-to-text",
+      "minicpm-ocr",
+      "safetensors",
+      "minicpm_ocr",
+      "ocr",
+      "document-parsing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.678076+00:00",
+    "source_ids": [
+      "openbmb/MiniCPM-OCR-1.0-GPTQ"
+    ],
+    "family": "MiniCPM-OCR-1.0"
   },
   {
     "id": "huggingface:dendriteholdings/Ingot-VII-27B-Q2",
@@ -5361,6 +5496,39 @@
     "family": "Qwen3.5-Artemis"
   },
   {
+    "id": "huggingface:Remek/basal-omni-1.0-ultra",
+    "name": "basal-omni-1.0-ultra",
+    "provider": "Remek",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-15T09:02:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Remek/basal-omni-1.0-ultra",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "typed-decisions"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.072554+00:00",
+    "source_ids": [
+      "Remek/basal-omni-1.0-ultra"
+    ],
+    "family": "basal-omni-1.0-ultra"
+  },
+  {
     "id": "huggingface:danielrosehill/Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
     "name": "Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
     "provider": "danielrosehill",
@@ -6914,6 +7082,105 @@
     "family": "Qwen3.8-24GB-262k"
   },
   {
+    "id": "huggingface:Remek/basal-2.0-4.5B-GGUF",
+    "name": "basal-2.0-4.5B-GGUF",
+    "provider": "Remek",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T17:28:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Remek/basal-2.0-4.5B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "typed-decisions",
+      "decision-making",
+      "classification",
+      "calibration"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.072663+00:00",
+    "source_ids": [
+      "Remek/basal-2.0-4.5B-GGUF"
+    ],
+    "family": "basal-2.0"
+  },
+  {
+    "id": "huggingface:Remek/basal-2.0-4.5B",
+    "name": "basal-2.0-4.5B",
+    "provider": "Remek",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T17:25:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Remek/basal-2.0-4.5B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "typed-decisions"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.072689+00:00",
+    "source_ids": [
+      "Remek/basal-2.0-4.5B"
+    ],
+    "family": "basal-2.0"
+  },
+  {
+    "id": "huggingface:Remek/basal-2.0-mini",
+    "name": "basal-2.0-mini",
+    "provider": "Remek",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T17:21:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Remek/basal-2.0-mini",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "typed-decisions"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.072642+00:00",
+    "source_ids": [
+      "Remek/basal-2.0-mini"
+    ],
+    "family": "basal-2.0-mini"
+  },
+  {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
     "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
     "provider": "NVIDIA",
@@ -7497,6 +7764,39 @@
     "family": "DeepSeek-V4.1-Flash-UNCENSORED"
   },
   {
+    "id": "huggingface:Remek/basal-omni-1.0-mini",
+    "name": "basal-omni-1.0-mini",
+    "provider": "Remek",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-11T07:41:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Remek/basal-omni-1.0-mini",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "typed-decisions"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.072580+00:00",
+    "source_ids": [
+      "Remek/basal-omni-1.0-mini"
+    ],
+    "family": "basal-omni-1.0-mini"
+  },
+  {
     "id": "huggingface:mflux-community/flux-1-schnell-mflux-q4",
     "name": "flux-1-schnell-mflux-q4",
     "provider": "mflux-community",
@@ -7966,6 +8266,39 @@
       "axteam/gemma-4-E4B-it-GGUF"
     ],
     "family": "gemma-4-E-it"
+  },
+  {
+    "id": "huggingface:Remek/basal-omni-1.0-max",
+    "name": "basal-omni-1.0-max",
+    "provider": "Remek",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-10T23:51:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Remek/basal-omni-1.0-max",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gemma4_unified",
+      "image-text-to-text",
+      "typed-decisions"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.072617+00:00",
+    "source_ids": [
+      "Remek/basal-omni-1.0-max"
+    ],
+    "family": "basal-omni-1.0-max"
   },
   {
     "id": "huggingface:h2oai/h2o-lightning-4b-gguf",
@@ -9078,6 +9411,39 @@
       "jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-2.3bpw-MTP-GGUF"
     ],
     "family": "ATX-Swift-1.5-Qwen3.8-Uncensored-2.3bpw-MTP"
+  },
+  {
+    "id": "huggingface:schizophyllume/BeeLLM",
+    "name": "BeeLLM",
+    "provider": "schizophyllume",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-09T00:32:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/schizophyllume/BeeLLM",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "bee",
+      "tiny",
+      "toy-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.072487+00:00",
+    "source_ids": [
+      "schizophyllume/BeeLLM"
+    ],
+    "family": "BeeLLM"
   },
   {
     "id": "huggingface:Soulfate24/Spark-X2.6-4B-Paretrix",
@@ -13647,39 +14013,6 @@
     "family": "Wald"
   },
   {
-    "id": "huggingface:Kronumos/Kronumos-Kairos-v2",
-    "name": "Kronumos-Kairos-v2",
-    "provider": "Kronumos",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-27T06:24:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Kronumos/Kronumos-Kairos-v2",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "reinforcement-learning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-05T04:24:07.059617+00:00",
-    "source_ids": [
-      "Kronumos/Kronumos-Kairos-v2"
-    ],
-    "family": "Kronumos-Kairos-v2"
-  },
-  {
     "id": "huggingface:SoAIHQ/Qwen3.5-2B-GGUF",
     "name": "Qwen3.5-2B-GGUF",
     "provider": "SoAIHQ",
@@ -16510,39 +16843,6 @@
     "family": "GLM-5.3-Flash-UNCENSORED-NVFP4-DFlash2"
   },
   {
-    "id": "huggingface:AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED",
-    "name": "Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-07T16:09:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "27b"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-05T04:24:07.059432+00:00",
-    "source_ids": [
-      "AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED"
-    ],
-    "family": "Qwen3.8-AEON-ULTIMATE-UNCENSORED-NVFP4-MIXED"
-  },
-  {
     "id": "huggingface:hendrimardani/fine-tuned-model-indonesian",
     "name": "fine-tuned-model-indonesian",
     "provider": "hendrimardani",
@@ -17881,39 +18181,6 @@
       "Jundot/Qwen3.8-27B-oQ4e-mtp"
     ],
     "family": "Qwen3.8-oQ4e-mtp"
-  },
-  {
-    "id": "huggingface:AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
-    "name": "Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
-    "provider": "AEON-7",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-15T18:58:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "27b"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-05T04:24:07.059472+00:00",
-    "source_ids": [
-      "AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16"
-    ],
-    "family": "Qwen3.8-AEON-ULTIMATE-UNCENSORED-BF16"
   },
   {
     "id": "huggingface:OpenVINO/Qwen3.8-27B-int4-ov",
@@ -19846,6 +20113,41 @@
       "coolthor/Sulphur-2-distilled-NVFP4"
     ],
     "family": "Sulphur-2-distilled-NVFP4"
+  },
+  {
+    "id": "huggingface:TheStageAI/gemma-4-E2B-it",
+    "name": "gemma-4-E2B-it",
+    "provider": "TheStageAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-26T12:28:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/TheStageAI/gemma-4-E2B-it",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "gguf",
+      "gemma4",
+      "gemma",
+      "gemma-4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T11:52:37.677934+00:00",
+    "source_ids": [
+      "TheStageAI/gemma-4-E2B-it"
+    ],
+    "family": "gemma-4-E-it"
   },
   {
     "id": "huggingface:divinetribe/Hermes-4-14B-abliterated-4bit-mlx",
