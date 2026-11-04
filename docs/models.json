@@ -184836,5 +184836,239 @@
       "openbmb/MiniCPM-OCR-1.0-GPTQ"
     ],
     "family": "MiniCPM-OCR-1.0"
+  },
+  {
+    "id": "openrouter:ricursiveai/ripple-65b-preview",
+    "name": "ricursiveAI/Ripple-65B-Preview",
+    "provider": "ricursiveai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-04T19:03:10+00:00",
+    "context_length": 16384,
+    "description": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16.",
+    "url": "https://openrouter.ai/ricursiveai/ripple-65b-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-11-04T19:26:00.970250+00:00",
+    "source_ids": [
+      "ricursiveai/ripple-65b-preview"
+    ],
+    "family": "ricursiveAI/Ripple"
+  },
+  {
+    "id": "huggingface:OfflineBase/Muse-Glimmer-30B-2026-Knowledge-GGUF",
+    "name": "Muse-Glimmer-30B-2026-Knowledge-GGUF",
+    "provider": "OfflineBase",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-01T01:53:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OfflineBase/Muse-Glimmer-30B-2026-Knowledge-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "knowledge-update",
+      "2026-news",
+      "built-with-muse-spark-open"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T19:26:01.138434+00:00",
+    "source_ids": [
+      "OfflineBase/Muse-Glimmer-30B-2026-Knowledge-GGUF"
+    ],
+    "family": "Muse-Glimmer-2026-Knowledge"
+  },
+  {
+    "id": "huggingface:lvladikov/Krea2-Turbo-Distill-3step-LoRA",
+    "name": "Krea2-Turbo-Distill-3step-LoRA",
+    "provider": "lvladikov",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-28T01:30:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "lora",
+      "text-to-image",
+      "distillation",
+      "step-distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T19:26:01.266459+00:00",
+    "source_ids": [
+      "lvladikov/Krea2-Turbo-Distill-3step-LoRA"
+    ],
+    "family": "Krea2-Turbo-Distill-3step-LoRA"
+  },
+  {
+    "id": "huggingface:Spectrallic/MiniMax-H3-DMAD-int8-convrot",
+    "name": "MiniMax-H3-DMAD-int8-convrot",
+    "provider": "Spectrallic",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-11-01T10:19:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Spectrallic/MiniMax-H3-DMAD-int8-convrot",
+    "tags": [
+      "text-to-video",
+      "diffusion-single-file",
+      "minimax-h3",
+      "int8",
+      "convrot",
+      "dmad"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T19:26:01.449143+00:00",
+    "source_ids": [
+      "Spectrallic/MiniMax-H3-DMAD-int8-convrot"
+    ],
+    "family": "MiniMax-H3-DMAD-int8-convrot"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen3-ASR-0.6B",
+    "name": "Qwen3-ASR-0.6B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-17T13:46:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen3-ASR-0.6B",
+    "tags": [
+      "automatic-speech-recognition",
+      "litert-lm",
+      "tflite",
+      "litert",
+      "asr",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T19:26:01.753963+00:00",
+    "source_ids": [
+      "litert-community/Qwen3-ASR-0.6B"
+    ],
+    "family": "Qwen3-ASR"
+  },
+  {
+    "id": "huggingface:peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e",
+    "name": "Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e",
+    "provider": "peculiar-ragdoll",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-31T23:02:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "qwen3_5_moe",
+      "omlx",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T19:26:01.868287+00:00",
+    "source_ids": [
+      "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-MLX-oQ4e"
+    ],
+    "family": "Cyber-Tiel-Coder-MLX-oQ4e"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+    "name": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-13T06:40:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "hermes",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-04T19:26:01.868386+00:00",
+    "source_ids": [
+      "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF"
+    ],
+    "family": "Qwen3.6-Uncensored-Genesis-Hermes-MTP"
   }
 ]
