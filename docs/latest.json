@@ -1,5 +1,77 @@
 [
   {
+    "id": "openrouter:google/gemini-omni-1.2-flash",
+    "name": "Google: Gemini Omni 1.2 Flash",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text",
+      "video"
+    ],
+    "release_date": "2026-11-05T17:16:01+00:00",
+    "context_length": 131072,
+    "description": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native...",
+    "url": "https://openrouter.ai/google/gemini-omni-1.2-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 9.0
+    },
+    "first_seen": "2026-11-05T19:34:59.161901+00:00",
+    "source_ids": [
+      "google/gemini-omni-1.2-flash"
+    ],
+    "family": "Gemini Omni 1.2 Flash"
+  },
+  {
+    "id": "openrouter:openrouter/auto-code",
+    "name": "Auto Code",
+    "provider": "openrouter",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "audio",
+      "file",
+      "video"
+    ],
+    "output_modalities": [
+      "text",
+      "image"
+    ],
+    "release_date": "2026-11-05T13:12:01+00:00",
+    "context_length": 2000000,
+    "description": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request treated as part of an...",
+    "url": "https://openrouter.ai/openrouter/auto-code",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": -1000000.0,
+      "completion_per_million": -1000000.0
+    },
+    "first_seen": "2026-11-05T19:34:59.177398+00:00",
+    "source_ids": [
+      "openrouter/auto-code"
+    ],
+    "family": "Auto Code"
+  },
+  {
     "id": "huggingface:taurusduan/Qwen-Image-2.1",
     "name": "Qwen-Image-2.1",
     "provider": "taurusduan",
@@ -32,6 +104,40 @@
       "taurusduan/Qwen-Image-2.1"
     ],
     "family": "Qwen-Image-2.1"
+  },
+  {
+    "id": "openrouter:google/gemini-omni-1.1-flash",
+    "name": "Google: Gemini Omni 1.1 Flash",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text",
+      "video"
+    ],
+    "release_date": "2026-11-04T20:54:28+00:00",
+    "context_length": 131072,
+    "description": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and...",
+    "url": "https://openrouter.ai/google/gemini-omni-1.1-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 9.0
+    },
+    "first_seen": "2026-11-05T19:34:59.162998+00:00",
+    "source_ids": [
+      "google/gemini-omni-1.1-flash"
+    ],
+    "family": "Gemini Omni 1.1 Flash"
   },
   {
     "id": "openrouter:ricursiveai/ripple-65b-preview",
@@ -833,6 +939,39 @@
     "family": "Qwen3.5-3D-Coder"
   },
   {
+    "id": "huggingface:Sizhe-Chen/Llama-3.1-8B-Instruct-MetaSecAlign",
+    "name": "Llama-3.1-8B-Instruct-MetaSecAlign",
+    "provider": "Sizhe-Chen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T03:59:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Sizhe-Chen/Llama-3.1-8B-Instruct-MetaSecAlign",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "llama-3.1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.303835+00:00",
+    "source_ids": [
+      "Sizhe-Chen/Llama-3.1-8B-Instruct-MetaSecAlign"
+    ],
+    "family": "Llama-3.1--MetaSecAlign"
+  },
+  {
     "id": "huggingface:Jmica/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
     "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
     "provider": "Jmica",
@@ -965,6 +1104,40 @@
       "AbrahamPJ/fasth3-dense-v1-q4_0-gguf"
     ],
     "family": "fasth3-dense-v1-q4_0"
+  },
+  {
+    "id": "huggingface:0ppxnhximxr/snapref-v1a",
+    "name": "snapref-v1a",
+    "provider": "0ppxnhximxr",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-29T09:34:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/0ppxnhximxr/snapref-v1a",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "anima",
+      "comfyui",
+      "reference-image",
+      "character-consistency"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.397314+00:00",
+    "source_ids": [
+      "0ppxnhximxr/snapref-v1a"
+    ],
+    "family": "snapref-v1a"
   },
   {
     "id": "huggingface:JIRU-W/e32_top8_seq2048_gbs128_10b_perlayeraux",
@@ -1370,6 +1543,39 @@
       "MirandaAbhilash/circuitformer-circuitvqa"
     ],
     "family": "circuitformer-circuitvqa"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM3-1.7B-MLX-8bit",
+    "name": "LFM3-1.7B-MLX-8bit",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-27T03:35:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-8bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "lfm3",
+      "liquid",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.303618+00:00",
+    "source_ids": [
+      "LiquidAI/LFM3-1.7B-MLX-8bit"
+    ],
+    "family": "LFM3-MLX-8bit"
   },
   {
     "id": "huggingface:Adolphsson/DeepSeek-V4.1-Flash-1017-UNCENSORED-MTP-Maya-Q4-K-IQ4-GGUF",
@@ -2513,6 +2719,39 @@
       "dendriteholdings/Ingot-IV-27B-Q2"
     ],
     "family": "Ingot-IV-Q2"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM3-1.7B-ONNX",
+    "name": "LFM3-1.7B-ONNX",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-24T00:46:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-ONNX",
+    "tags": [
+      "text-generation",
+      "onnxruntime",
+      "onnx",
+      "lfm3",
+      "liquid",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.303587+00:00",
+    "source_ids": [
+      "LiquidAI/LFM3-1.7B-ONNX"
+    ],
+    "family": "LFM3-ONNX"
   },
   {
     "id": "huggingface:dendriteholdings/Ingot-III-27B-Q2",
@@ -3963,6 +4202,40 @@
     "family": "Dongfangshuo-Qwen3.8-Flash-Next-NSFW"
   },
   {
+    "id": "huggingface:IrohaStudio/Iroha-TTS",
+    "name": "Iroha-TTS",
+    "provider": "IrohaStudio",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-20T06:31:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IrohaStudio/Iroha-TTS",
+    "tags": [
+      "text-to-speech",
+      "text-to-speech",
+      "japanese",
+      "voice-cloning",
+      "fish-audio",
+      "emotional-speech-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.734186+00:00",
+    "source_ids": [
+      "IrohaStudio/Iroha-TTS"
+    ],
+    "family": "Iroha-TTS"
+  },
+  {
     "id": "huggingface:reaperdoesntknow/TameLM",
     "name": "TameLM",
     "provider": "reaperdoesntknow",
@@ -4371,6 +4644,41 @@
       "gradium/phonon-40m-en"
     ],
     "family": "phonon-40m-en"
+  },
+  {
+    "id": "huggingface:fastino/GLiDE-27B",
+    "name": "GLiDE-27B",
+    "provider": "fastino",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-19T10:25:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/fastino/GLiDE-27B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "decision-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.925426+00:00",
+    "source_ids": [
+      "fastino/GLiDE-27B"
+    ],
+    "family": "GLiDE"
   },
   {
     "id": "huggingface:Genrius-AI/Llama-3.1-8B-Pingala8-2bit",
@@ -6776,6 +7084,39 @@
       "bartowski/LFM2.5-24B-A2B-GGUF"
     ],
     "family": "LFM2.5"
+  },
+  {
+    "id": "huggingface:hermitdave/LFM2.5-24B-A2B-MLX-DWQ-3bit",
+    "name": "LFM2.5-24B-A2B-MLX-DWQ-3bit",
+    "provider": "hermitdave",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T05:47:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hermitdave/LFM2.5-24B-A2B-MLX-DWQ-3bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "lfm2_moe",
+      "mlx-lm",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.303655+00:00",
+    "source_ids": [
+      "hermitdave/LFM2.5-24B-A2B-MLX-DWQ-3bit"
+    ],
+    "family": "LFM2.5-MLX-DWQ-3bit"
   },
   {
     "id": "huggingface:mlx-community/fish-audio-drama-3-4bit",
@@ -11265,69 +11606,6 @@
     "family": "DiarizationLM-Gemma-4-E-v1"
   },
   {
-    "id": "openrouter:google/gemini-nano-banana-2.1",
-    "name": "Google: Nano Banana 2.1",
-    "provider": "Google",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "image",
-      "text"
-    ],
-    "release_date": "2026-10-06T15:33:45+00:00",
-    "context_length": 65536,
-    "description": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,...",
-    "url": "https://openrouter.ai/google/gemini-nano-banana-2.1",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 1.5,
-      "completion_per_million": 7.5
-    },
-    "first_seen": "2026-10-06T17:59:50.457419+00:00",
-    "source_ids": [
-      "google/gemini-nano-banana-2.1"
-    ],
-    "family": "Nano Banana 2.1"
-  },
-  {
-    "id": "openrouter:mistralai/mistral-large-4-0",
-    "name": "Mistral: Mistral Large 4",
-    "provider": "Mistral",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text",
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-06T13:42:02+00:00",
-    "context_length": 524288,
-    "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up...",
-    "url": "https://openrouter.ai/mistralai/mistral-large-4-0",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.68,
-      "completion_per_million": 2.09
-    },
-    "first_seen": "2026-10-06T17:59:50.458461+00:00",
-    "source_ids": [
-      "mistralai/mistral-large-4-0"
-    ],
-    "family": "Mistral Large 4"
-  },
-  {
     "id": "huggingface:sinhal/SageV2-8B-LongContext-NSFW-RP",
     "name": "SageV2-8B-LongContext-NSFW-RP",
     "provider": "sinhal",
@@ -13838,72 +14116,6 @@
     "family": "Tracer-Low"
   },
   {
-    "id": "huggingface:Joakimpalm-Zen/Xyntetik-Kvist-14B-GGUF",
-    "name": "Xyntetik-Kvist-14B-GGUF",
-    "provider": "Joakimpalm-Zen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-27T22:47:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Joakimpalm-Zen/Xyntetik-Kvist-14B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "muse-glimmer",
-      "xyntetik-kvist",
-      "width-pruning",
-      "distillation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T17:59:50.672850+00:00",
-    "source_ids": [
-      "Joakimpalm-Zen/Xyntetik-Kvist-14B-GGUF"
-    ],
-    "family": "Xyntetik-Kvist"
-  },
-  {
-    "id": "huggingface:Joakimpalm-Zen/Xyntetik-Kvist-14B",
-    "name": "Xyntetik-Kvist-14B",
-    "provider": "Joakimpalm-Zen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-27T22:47:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Joakimpalm-Zen/Xyntetik-Kvist-14B",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "muse_glimmer",
-      "muse-glimmer",
-      "xyntetik-kvist"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T17:59:50.672818+00:00",
-    "source_ids": [
-      "Joakimpalm-Zen/Xyntetik-Kvist-14B"
-    ],
-    "family": "Xyntetik-Kvist"
-  },
-  {
     "id": "huggingface:SkyIsNotGreen/Scion-35B-A3B",
     "name": "Scion-35B-A3B",
     "provider": "SkyIsNotGreen",
@@ -16320,6 +16532,41 @@
     "family": "DeepSeek-V4.1-Flash-MLX-Q4i"
   },
   {
+    "id": "huggingface:CaptchaKraken/CaptchaKraken-v1.2-GGUF",
+    "name": "CaptchaKraken-v1.2-GGUF",
+    "provider": "CaptchaKraken",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T06:02:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CaptchaKraken/CaptchaKraken-v1.2-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "captcha",
+      "llama.cpp",
+      "ollama",
+      "computer-vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.925359+00:00",
+    "source_ids": [
+      "CaptchaKraken/CaptchaKraken-v1.2-GGUF"
+    ],
+    "family": "CaptchaKraken-v1.2"
+  },
+  {
     "id": "huggingface:mobilint/EXAONE-3.5-2.4B-Instruct-regulus-rb-usb",
     "name": "EXAONE-3.5-2.4B-Instruct-regulus-rb-usb",
     "provider": "mobilint",
@@ -16555,41 +16802,6 @@
       "azampatti/Qwen3.8-Flash-Next-125B-A5B-INT4-AutoRound"
     ],
     "family": "Qwen3.8-Flash-Next-INT4-AutoRound"
-  },
-  {
-    "id": "huggingface:halt95/Qwen3.8-Flash-Next-W4A16-Merlin",
-    "name": "Qwen3.8-Flash-Next-W4A16-Merlin",
-    "provider": "halt95",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-08T10:37:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/halt95/Qwen3.8-Flash-Next-W4A16-Merlin",
-    "tags": [
-      "image-text-to-text",
-      "vllm",
-      "safetensors",
-      "qwen4_exp",
-      "qwen3.8",
-      "flash-next"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T17:59:51.707902+00:00",
-    "source_ids": [
-      "halt95/Qwen3.8-Flash-Next-W4A16-Merlin"
-    ],
-    "family": "Qwen3.8-Flash-Next-W4A16-Merlin"
   },
   {
     "id": "huggingface:hendrimardani/fine-tuned-model-indonesian-2",
@@ -22730,6 +22942,40 @@
     "family": "MiMo-VL-RL"
   },
   {
+    "id": "huggingface:stabilityai/stable-audio-open-small",
+    "name": "stable-audio-open-small",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2025-05-12T16:04:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-audio-open-small",
+    "tags": [
+      "text-to-audio",
+      "stable-audio-tools",
+      "tflite",
+      "safetensors",
+      "text-to-audio",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T19:34:59.629295+00:00",
+    "source_ids": [
+      "stabilityai/stable-audio-open-small"
+    ],
+    "family": "stable-audio-open-small"
+  },
+  {
     "id": "huggingface:Comfy-Org/ACE-Step",
     "name": "ACE-Step",
     "provider": "Comfy-Org",
@@ -23196,40 +23442,6 @@
       "onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX"
     ],
     "family": "DeepSeek-R1-Distill-Qwen-ONNX"
-  },
-  {
-    "id": "huggingface:genmo/mochi-1-preview",
-    "name": "mochi-1-preview",
-    "provider": "genmo",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2024-10-22T07:36:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/genmo/mochi-1-preview",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "safetensors",
-      "video",
-      "genmo",
-      "text-to-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T17:59:51.104631+00:00",
-    "source_ids": [
-      "genmo/mochi-1-preview"
-    ],
-    "family": "mochi-1"
   },
   {
     "id": "huggingface:Kansallisarkisto/multicentury-htr-model",
