@@ -185245,5 +185245,442 @@
       "Alissonerdx/Molmo2-8B-Minimax-H3"
     ],
     "family": "Molmo2-Minimax-H3"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-3.0-tiny",
+    "name": "inclusionAI: Ling 3.0 Tiny",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-06T16:48:10+00:00",
+    "context_length": 262144,
+    "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-tiny",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.015,
+      "completion_per_million": 0.045
+    },
+    "first_seen": "2026-11-05T11:54:32.624494+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.0-tiny"
+    ],
+    "family": "Ling 3.0 Tiny"
+  },
+  {
+    "id": "huggingface:defnoteatin/PseudoBrain-GLM-5.3-Flash-Chronos-v7.5",
+    "name": "PseudoBrain-GLM-5.3-Flash-Chronos-v7.5",
+    "provider": "defnoteatin",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-31T22:51:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/defnoteatin/PseudoBrain-GLM-5.3-Flash-Chronos-v7.5",
+    "tags": [
+      "text-generation",
+      "vllm",
+      "safetensors",
+      "glm5_next",
+      "chronos",
+      "pseudobrain"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:32.752584+00:00",
+    "source_ids": [
+      "defnoteatin/PseudoBrain-GLM-5.3-Flash-Chronos-v7.5"
+    ],
+    "family": "PseudoBrain-GLM-5.3-Flash-Chronos-v7.5"
+  },
+  {
+    "id": "huggingface:defnoteatin/PseudoBrain-DeepSeek-V4.1-Flash-1017-Chronos-v7.5-Abliterated",
+    "name": "PseudoBrain-DeepSeek-V4.1-Flash-1017-Chronos-v7.5-Abliterated",
+    "provider": "defnoteatin",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-01T21:18:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/defnoteatin/PseudoBrain-DeepSeek-V4.1-Flash-1017-Chronos-v7.5-Abliterated",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "deepseek_v41",
+      "deepseek",
+      "deepseek-v4.1-flash",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:32.752607+00:00",
+    "source_ids": [
+      "defnoteatin/PseudoBrain-DeepSeek-V4.1-Flash-1017-Chronos-v7.5-Abliterated"
+    ],
+    "family": "PseudoBrain-DeepSeek-V4.1-Flash-1017-Chronos-v7.5-Abliterated"
+  },
+  {
+    "id": "huggingface:yamz-labs/GLM-5.3-Flash-EXL3-Yamz",
+    "name": "GLM-5.3-Flash-EXL3-Yamz",
+    "provider": "yamz-labs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-02T19:58:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/yamz-labs/GLM-5.3-Flash-EXL3-Yamz",
+    "tags": [
+      "text-generation",
+      "exllamav3",
+      "safetensors",
+      "glm5_next",
+      "exl3",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:32.752666+00:00",
+    "source_ids": [
+      "yamz-labs/GLM-5.3-Flash-EXL3-Yamz"
+    ],
+    "family": "GLM-5.3-Flash-EXL3-Yamz"
+  },
+  {
+    "id": "huggingface:waveshaker/loras",
+    "name": "loras",
+    "provider": "waveshaker",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-26T19:18:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/waveshaker/loras",
+    "tags": [
+      "text-to-image",
+      "lora",
+      "character",
+      "girl",
+      "flux",
+      "pony"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:32.837383+00:00",
+    "source_ids": [
+      "waveshaker/loras"
+    ],
+    "family": "loras"
+  },
+  {
+    "id": "huggingface:taurusduan/Qwen-Image-2.1",
+    "name": "Qwen-Image-2.1",
+    "provider": "taurusduan",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-05T08:24:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/taurusduan/Qwen-Image-2.1",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "comfyui",
+      "text-to-image",
+      "base_model:Qwen/Qwen-Image-2.1",
+      "base_model:finetune:Qwen/Qwen-Image-2.1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:32.837451+00:00",
+    "source_ids": [
+      "taurusduan/Qwen-Image-2.1"
+    ],
+    "family": "Qwen-Image-2.1"
+  },
+  {
+    "id": "huggingface:mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-GGUF",
+    "name": "Qwen2.5-VL-3B-Abliterated-Caption-it-GGUF",
+    "provider": "mradermacher",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-16T16:57:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-GGUF",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "gguf",
+      "text-generation-inference",
+      "uncensored",
+      "image-captioning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:32.900747+00:00",
+    "source_ids": [
+      "mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-GGUF"
+    ],
+    "family": "Qwen2.5-VL-Abliterated-Caption-it"
+  },
+  {
+    "id": "huggingface:ayeeyokoris/hubi-tts",
+    "name": "hubi-tts",
+    "provider": "ayeeyokoris",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-11-03T18:11:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ayeeyokoris/hubi-tts",
+    "tags": [
+      "text-to-speech",
+      "safetensors",
+      "hubi-tts",
+      "text-to-speech",
+      "custom_code",
+      "so"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:33.120032+00:00",
+    "source_ids": [
+      "ayeeyokoris/hubi-tts"
+    ],
+    "family": "hubi-tts"
+  },
+  {
+    "id": "huggingface:jmtl/hk-cantonese-cc0-qwen3-tts-GGUF",
+    "name": "hk-cantonese-cc0-qwen3-tts-GGUF",
+    "provider": "jmtl",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-08T00:19:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/jmtl/hk-cantonese-cc0-qwen3-tts-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "ggml",
+      "qwen3-tts",
+      "text-to-speech",
+      "cantonese"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:33.120102+00:00",
+    "source_ids": [
+      "jmtl/hk-cantonese-cc0-qwen3-tts-GGUF"
+    ],
+    "family": "hk-cantonese-cc0-qwen3-tts"
+  },
+  {
+    "id": "huggingface:ConwayResearch/Underdog-Bark-3.0-Pro",
+    "name": "Underdog-Bark-3.0-Pro",
+    "provider": "ConwayResearch",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-15T07:05:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ConwayResearch/Underdog-Bark-3.0-Pro",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "coreml",
+      "safetensors",
+      "parakeet_tdt",
+      "feature-extraction"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:33.205334+00:00",
+    "source_ids": [
+      "ConwayResearch/Underdog-Bark-3.0-Pro"
+    ],
+    "family": "Underdog-Bark-3.0-Pro"
+  },
+  {
+    "id": "huggingface:Egzakta/Kvark-Sparkle-1.0-27B-GGUF",
+    "name": "Kvark-Sparkle-1.0-27B-GGUF",
+    "provider": "Egzakta",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-19T08:59:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Egzakta/Kvark-Sparkle-1.0-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "reasoning",
+      "kvark"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:33.281628+00:00",
+    "source_ids": [
+      "Egzakta/Kvark-Sparkle-1.0-27B-GGUF"
+    ],
+    "family": "Kvark-Sparkle-1.0"
+  },
+  {
+    "id": "huggingface:OpenVINO/gemma-4-26b-a4b-it-int4-ov",
+    "name": "gemma-4-26b-a4b-it-int4-ov",
+    "provider": "OpenVINO",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-22T14:35:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenVINO/gemma-4-26b-a4b-it-int4-ov",
+    "tags": [
+      "image-text-to-text",
+      "openvino",
+      "gemma4",
+      "conversational",
+      "image-text-to-text",
+      "base_model:google/gemma-4-26B-A4B-it"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:33.281661+00:00",
+    "source_ids": [
+      "OpenVINO/gemma-4-26b-a4b-it-int4-ov"
+    ],
+    "family": "gemma-4-it-int4-ov"
+  },
+  {
+    "id": "huggingface:OpenVINO/gemma-4-E4B-it-int8-ov",
+    "name": "gemma-4-E4B-it-int8-ov",
+    "provider": "OpenVINO",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-20T15:01:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/OpenVINO/gemma-4-E4B-it-int8-ov",
+    "tags": [
+      "image-text-to-text",
+      "openvino",
+      "gemma4",
+      "conversational",
+      "image-text-to-text",
+      "base_model:google/gemma-4-E4B-it"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-05T11:54:33.281694+00:00",
+    "source_ids": [
+      "OpenVINO/gemma-4-E4B-it-int8-ov"
+    ],
+    "family": "gemma-4-E-it-int8-ov"
   }
 ]
