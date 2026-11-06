@@ -701,6 +701,39 @@
     "family": "LFM3-RD"
   },
   {
+    "id": "huggingface:SentinelHub/R-08-v7.2",
+    "name": "R-08-v7.2",
+    "provider": "SentinelHub",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-31T20:00:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SentinelHub/R-08-v7.2",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "causal-lm",
+      "geodesic-neural-network",
+      "sentinel-lifeos",
+      "rob"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.563368+00:00",
+    "source_ids": [
+      "SentinelHub/R-08-v7.2"
+    ],
+    "family": "R-08-v7.2"
+  },
+  {
     "id": "huggingface:tablinum/Moon-Beam-16B-A3B-GGUF",
     "name": "Moon-Beam-16B-A3B-GGUF",
     "provider": "tablinum",
@@ -933,6 +966,39 @@
       "dendriteholdings/Ingot-XVII-27B-Q2"
     ],
     "family": "Ingot-XVII-Q2"
+  },
+  {
+    "id": "huggingface:SentinelHub/R-08-Transformer-Baseline",
+    "name": "R-08-Transformer-Baseline",
+    "provider": "SentinelHub",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T20:24:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SentinelHub/R-08-Transformer-Baseline",
+    "tags": [
+      "text-generation",
+      "custom_code",
+      "sentinel",
+      "r08",
+      "geodesic-neural-network",
+      "italian"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.563395+00:00",
+    "source_ids": [
+      "SentinelHub/R-08-Transformer-Baseline"
+    ],
+    "family": "R-08-Transformer-Baseline"
   },
   {
     "id": "huggingface:nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
@@ -4365,6 +4431,39 @@
       "KRAFTON/Raon-1-mini-preview-gguf"
     ],
     "family": "Raon-1-mini"
+  },
+  {
+    "id": "huggingface:Baekpica/Beam-1.0-501B-A23B-VQ-GGUF",
+    "name": "Beam-1.0-501B-A23B-VQ-GGUF",
+    "provider": "Baekpica",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-20T10:19:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Baekpica/Beam-1.0-501B-A23B-VQ-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "beam",
+      "reflection",
+      "vector-quantization",
+      "vq"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.563482+00:00",
+    "source_ids": [
+      "Baekpica/Beam-1.0-501B-A23B-VQ-GGUF"
+    ],
+    "family": "Beam-1.0-VQ"
   },
   {
     "id": "huggingface:BricksDisplay/Qwen3-TTS-12Hz-1.7B-CustomVoice-GGUF",
@@ -13952,6 +14051,40 @@
     "family": "whistle"
   },
   {
+    "id": "huggingface:qvac/TranscribePsy-250M-EU-sub-gguf",
+    "name": "TranscribePsy-250M-EU-sub-gguf",
+    "provider": "qvac",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-30T08:06:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/qvac/TranscribePsy-250M-EU-sub-gguf",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "automatic-speech-recognition",
+      "asr",
+      "speech",
+      "multilingual"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.933565+00:00",
+    "source_ids": [
+      "qvac/TranscribePsy-250M-EU-sub-gguf"
+    ],
+    "family": "TranscribePsy-250M-EU-sub"
+  },
+  {
     "id": "huggingface:kataguru/Qwen3.5-35B-A3B-Jackripper-v1.0-Uncensored-GGUF",
     "name": "Qwen3.5-35B-A3B-Jackripper-v1.0-Uncensored-GGUF",
     "provider": "kataguru",
@@ -18658,6 +18791,39 @@
     "family": "Qwen3.8-oQ4e-mtp"
   },
   {
+    "id": "openrouter:qwen/qwen3.8-27b:batch",
+    "name": "Qwen: Qwen3.8 27B (batch)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-14T15:55:10+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-27b:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.16,
+      "completion_per_million": 2.0
+    },
+    "first_seen": "2026-11-06T18:57:05.408212+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-27b:batch"
+    ],
+    "family": "Qwen3.8 (batch)"
+  },
+  {
     "id": "huggingface:OpenVINO/Qwen3.8-27B-int4-ov",
     "name": "Qwen3.8-27B-int4-ov",
     "provider": "OpenVINO",
@@ -22595,6 +22761,73 @@
     "family": "Hunyuan-Image-2.1"
   },
   {
+    "id": "huggingface:software-mansion/whisper-base-ExecuTorch",
+    "name": "whisper-base-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-20T16:50:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/whisper-base-ExecuTorch",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.933729+00:00",
+    "source_ids": [
+      "software-mansion/whisper-base-ExecuTorch"
+    ],
+    "family": "whisper--ExecuTorch"
+  },
+  {
+    "id": "huggingface:software-mansion/whisper-base.en-ExecuTorch",
+    "name": "whisper-base.en-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-20T16:49:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/whisper-base.en-ExecuTorch",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "en",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.933659+00:00",
+    "source_ids": [
+      "software-mansion/whisper-base.en-ExecuTorch"
+    ],
+    "family": "whisper-.en-ExecuTorch"
+  },
+  {
     "id": "huggingface:mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-GGUF",
     "name": "Qwen2.5-VL-3B-Abliterated-Caption-it-GGUF",
     "provider": "mradermacher",
@@ -23340,6 +23573,39 @@
     "family": "SEX_ROLEPLAY-3.2"
   },
   {
+    "id": "huggingface:software-mansion/whisper-tiny-ExecuTorch",
+    "name": "whisper-tiny-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-03-20T16:09:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/whisper-tiny-ExecuTorch",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.933759+00:00",
+    "source_ids": [
+      "software-mansion/whisper-tiny-ExecuTorch"
+    ],
+    "family": "whisper-tiny-ExecuTorch"
+  },
+  {
     "id": "huggingface:ai4bharat/indic-conformer-600m-multilingual",
     "name": "indic-conformer-600m-multilingual",
     "provider": "ai4bharat",
@@ -23474,6 +23740,40 @@
       "mradermacher/ToriiGate-v0.4-7B-GGUF"
     ],
     "family": "ToriiGate-v0.4"
+  },
+  {
+    "id": "huggingface:software-mansion/whisper-tiny.en-ExecuTorch",
+    "name": "whisper-tiny.en-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-02-26T10:21:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/whisper-tiny.en-ExecuTorch",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "en",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T18:57:05.933693+00:00",
+    "source_ids": [
+      "software-mansion/whisper-tiny.en-ExecuTorch"
+    ],
+    "family": "whisper-tiny.en-ExecuTorch"
   },
   {
     "id": "huggingface:litert-community/DeepSeek-R1-Distill-Qwen-1.5B",
