@@ -301,6 +301,39 @@
     "family": "GLM 5.3 FlashX Legal"
   },
   {
+    "id": "huggingface:ccore/Qwen3.5-4B-GLB-3D-Coder",
+    "name": "Qwen3.5-4B-GLB-3D-Coder",
+    "provider": "ccore",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-01T22:30:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "gguf",
+      "qwen3_5",
+      "code",
+      "threejs"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T00:47:29.880296+00:00",
+    "source_ids": [
+      "ccore/Qwen3.5-4B-GLB-3D-Coder"
+    ],
+    "family": "Qwen3.5-GLB-3D-Coder"
+  },
+  {
     "id": "huggingface:defnoteatin/PseudoBrain-DeepSeek-V4.1-Flash-1017-Chronos-v7.5-Abliterated",
     "name": "PseudoBrain-DeepSeek-V4.1-Flash-1017-Chronos-v7.5-Abliterated",
     "provider": "defnoteatin",
@@ -2015,6 +2048,39 @@
       "baidu/Unlimited-OCR-2"
     ],
     "family": "Unlimited-OCR-2"
+  },
+  {
+    "id": "huggingface:LuxiaSL/kotodama-tsumugi-1b",
+    "name": "kotodama-tsumugi-1b",
+    "provider": "LuxiaSL",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-26T03:35:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuxiaSL/kotodama-tsumugi-1b",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "kotodama",
+      "attention-residuals",
+      "looped-transformer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T00:47:29.880270+00:00",
+    "source_ids": [
+      "LuxiaSL/kotodama-tsumugi-1b"
+    ],
+    "family": "kotodama-tsumugi"
   },
   {
     "id": "huggingface:dendriteholdings/Ingot-XI-27B-Q2",
@@ -12187,39 +12253,6 @@
     "family": "KrynexAI-1.4-150M-Mobile-Model"
   },
   {
-    "id": "huggingface:TokenTinkerer/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-TTQ-GGUF",
-    "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-TTQ-GGUF",
-    "provider": "TokenTinkerer",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-04T14:32:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TokenTinkerer/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-TTQ-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "quantized",
-      "imatrix",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T23:36:01.975121+00:00",
-    "source_ids": [
-      "TokenTinkerer/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-TTQ-GGUF"
-    ],
-    "family": "Qwen3.6-Uncensored-HauhauCS-Aggressive-TTQ"
-  },
-  {
     "id": "huggingface:piskle/Qwen3.8-2B-Distill-GGUF",
     "name": "Qwen3.8-2B-Distill-GGUF",
     "provider": "piskle",
@@ -12553,39 +12586,6 @@
       "here-be-dragons-ai/Kolibri-1-MLX-3bit"
     ],
     "family": "Kolibri-1-MLX-3bit"
-  },
-  {
-    "id": "huggingface:sriram1983007/SRA-RiskGate-4B",
-    "name": "SRA-RiskGate-4B",
-    "provider": "sriram1983007",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-03T13:59:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sriram1983007/SRA-RiskGate-4B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "stablecoin"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T23:36:01.975054+00:00",
-    "source_ids": [
-      "sriram1983007/SRA-RiskGate-4B"
-    ],
-    "family": "SRA-RiskGate"
   },
   {
     "id": "huggingface:shefowl/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-Hybrid-GGUF",
@@ -14493,39 +14493,6 @@
     "family": "Swift-1.5-Qwen3.8-Uncensored-NVFP4-NInfer"
   },
   {
-    "id": "huggingface:alesha-pro/Qwen3.8-27B-S-mirai-GGUF",
-    "name": "Qwen3.8-27B-S-mirai-GGUF",
-    "provider": "alesha-pro",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-26T14:44:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/alesha-pro/Qwen3.8-27B-S-mirai-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "mirai",
-      "2-bit",
-      "qwen3.8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T23:36:01.975264+00:00",
-    "source_ids": [
-      "alesha-pro/Qwen3.8-27B-S-mirai-GGUF"
-    ],
-    "family": "Qwen3.8-S-mirai"
-  },
-  {
     "id": "huggingface:dotlabs/void.1",
     "name": "void.1",
     "provider": "dotlabs",
@@ -15310,41 +15277,6 @@
       "wallawalla47/Qwen3.8-27B-NVIDIA-NVFP4-NInferV3"
     ],
     "family": "Qwen3.8-NVIDIA-NVFP4-NInferV3"
-  },
-  {
-    "id": "huggingface:chtisgit/Qwen3.6-35B-A3B-2Bit-GSQ-hybrid-GGUF",
-    "name": "Qwen3.6-35B-A3B-2Bit-GSQ-hybrid-GGUF",
-    "provider": "chtisgit",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T20:59:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/chtisgit/Qwen3.6-35B-A3B-2Bit-GSQ-hybrid-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "llama.cpp",
-      "gguf",
-      "qwen",
-      "moe",
-      "gsq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T23:36:02.407206+00:00",
-    "source_ids": [
-      "chtisgit/Qwen3.6-35B-A3B-2Bit-GSQ-hybrid-GGUF"
-    ],
-    "family": "Qwen3.6-2Bit-GSQ-hybrid"
   },
   {
     "id": "huggingface:XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
@@ -17975,41 +17907,6 @@
     "family": "Qwen3.8-Flash-Next-cmf"
   },
   {
-    "id": "huggingface:mradermacher/SuperQwen3.8-abliterated-Venice-GGUF",
-    "name": "SuperQwen3.8-abliterated-Venice-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-26T14:18:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/SuperQwen3.8-abliterated-Venice-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3.8",
-      "qwen3.5",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T23:36:02.407274+00:00",
-    "source_ids": [
-      "mradermacher/SuperQwen3.8-abliterated-Venice-GGUF"
-    ],
-    "family": "SuperQwen3.8-abliterated-Venice"
-  },
-  {
     "id": "huggingface:amd/Qwen3.8-Flash-Next-Quark-MXFP4",
     "name": "Qwen3.8-Flash-Next-Quark-MXFP4",
     "provider": "amd",
@@ -18113,6 +18010,39 @@
       "mradermacher/Qwen-3.8-27B-Uncensored-GGUF"
     ],
     "family": "Qwen-3.8-Uncensored"
+  },
+  {
+    "id": "huggingface:selorahomes/Selora-AI-LLM-14B",
+    "name": "Selora-AI-LLM-14B",
+    "provider": "selorahomes",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-22T18:40:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/selorahomes/Selora-AI-LLM-14B",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "text-generation",
+      "qwen",
+      "qwen3",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T00:47:29.880322+00:00",
+    "source_ids": [
+      "selorahomes/Selora-AI-LLM-14B"
+    ],
+    "family": "Selora-AI-LLM"
   },
   {
     "id": "huggingface:mradermacher/Qwen3.8-27B-Heretic-Uncensored-BF16-GGUF",
@@ -18250,6 +18180,40 @@
       "Solstice-AI/Qwen3.8-27B-Uncensored-mlx-6Bit"
     ],
     "family": "Qwen3.8-Uncensored-mlx-6Bit"
+  },
+  {
+    "id": "huggingface:desert-ant-labs/voz",
+    "name": "voz",
+    "provider": "desert-ant-labs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-19T07:40:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/desert-ant-labs/voz",
+    "tags": [
+      "automatic-speech-recognition",
+      "litert",
+      "tflite",
+      "onnx",
+      "speech",
+      "speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-06T00:47:30.568475+00:00",
+    "source_ids": [
+      "desert-ant-labs/voz"
+    ],
+    "family": "voz"
   },
   {
     "id": "huggingface:Edge0/Audio8-TTS-Preview-0.1b",
@@ -19268,39 +19232,6 @@
     "family": "whisperkit-coreml"
   },
   {
-    "id": "huggingface:mradermacher/Gemma-4-12B-OBLITERATED-cyber-GGUF",
-    "name": "Gemma-4-12B-OBLITERATED-cyber-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-29T15:22:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-cyber-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "gguf",
-      "unsloth",
-      "lora",
-      "qlora"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T23:36:01.975196+00:00",
-    "source_ids": [
-      "mradermacher/Gemma-4-12B-OBLITERATED-cyber-GGUF"
-    ],
-    "family": "Gemma-4-OBLITERATED-cyber"
-  },
-  {
     "id": "huggingface:Edge0/Audio8-TTS-Preview-0.6b",
     "name": "Audio8-TTS-Preview-0.6b",
     "provider": "Edge0",
@@ -19368,39 +19299,6 @@
       "swiss-ai/Apertus-v1.5-8B"
     ],
     "family": "Apertus-v1.5"
-  },
-  {
-    "id": "huggingface:xv0y5ncu/SmolLM3-3B-trellis-3inst-4bpw-kernel",
-    "name": "SmolLM3-3B-trellis-3inst-4bpw-kernel",
-    "provider": "xv0y5ncu",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-21T07:58:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/xv0y5ncu/SmolLM3-3B-trellis-3inst-4bpw-kernel",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "smollm3",
-      "text-generation",
-      "glq"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-06T23:36:01.975369+00:00",
-    "source_ids": [
-      "xv0y5ncu/SmolLM3-3B-trellis-3inst-4bpw-kernel"
-    ],
-    "family": "SmolLM3-trellis-3inst-4bpw-kernel"
   },
   {
     "id": "huggingface:unsloth/Wan2.2-TI2V-5B-FP8",
