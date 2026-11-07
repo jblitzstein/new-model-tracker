@@ -1,5 +1,60 @@
 [
   {
+    "id": "openrouter:liquid/lfm-3-1.7b",
+    "name": "LiquidAI: LFM3-1.7B",
+    "provider": "Liquid AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-06T23:57:57+00:00",
+    "context_length": 262144,
+    "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+    "url": "https://openrouter.ai/liquid/lfm-3-1.7b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.08,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-11-07T05:41:05.672733+00:00",
+    "source_ids": [
+      "liquid/lfm-3-1.7b"
+    ],
+    "family": "LFM3"
+  },
+  {
+    "id": "openrouter:liquid/lfm-3-1.7b:free",
+    "name": "LiquidAI: LFM3-1.7B (free)",
+    "provider": "Liquid AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-06T23:57:57+00:00",
+    "context_length": 262144,
+    "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+    "url": "https://openrouter.ai/liquid/lfm-3-1.7b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.673437+00:00",
+    "source_ids": [
+      "liquid/lfm-3-1.7b:free"
+    ],
+    "family": "LFM3"
+  },
+  {
     "id": "openrouter:google/gemini-omni-1.2-flash",
     "name": "Google: Gemini Omni 1.2 Flash",
     "provider": "Google",
@@ -3822,6 +3877,39 @@
       "recursive/flint-v1.0:free"
     ],
     "family": "Flint"
+  },
+  {
+    "id": "huggingface:sirfyyn/Katy-27B-GGUF",
+    "name": "Katy-27B-GGUF",
+    "provider": "sirfyyn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T21:11:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sirfyyn/Katy-27B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "qwen3_8",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.787692+00:00",
+    "source_ids": [
+      "sirfyyn/Katy-27B-GGUF"
+    ],
+    "family": "Katy"
   },
   {
     "id": "huggingface:DICPlay/RusMind-4.6.5-Momentum",
@@ -14119,41 +14207,6 @@
     "family": "anemll-forge-qwen3.8"
   },
   {
-    "id": "huggingface:SeerRay-Lab/Xiaomi-OCR-0",
-    "name": "Xiaomi-OCR-0",
-    "provider": "SeerRay-Lab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T16:41:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SeerRay-Lab/Xiaomi-OCR-0",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "ocr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-08T04:49:24.631404+00:00",
-    "source_ids": [
-      "SeerRay-Lab/Xiaomi-OCR-0"
-    ],
-    "family": "Xiaomi-OCR-0"
-  },
-  {
     "id": "huggingface:richardyoung/DeepSeek-R1-0528-Qwen3-8B-heretic-GGUF",
     "name": "DeepSeek-R1-0528-Qwen3-8B-heretic-GGUF",
     "provider": "richardyoung",
@@ -18762,6 +18815,41 @@
     "family": "align"
   },
   {
+    "id": "huggingface:Qwen/Qwen3.8-27B-FP8",
+    "name": "Qwen3.8-27B-FP8",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T08:01:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:06.203687+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-27B-FP8"
+    ],
+    "family": "Qwen3.8-FP8"
+  },
+  {
     "id": "huggingface:TheDivergentAI/LTX2.5-Turbo-Distill-8step-LoRA",
     "name": "LTX2.5-Turbo-Distill-8step-LoRA",
     "provider": "TheDivergentAI",
@@ -19065,6 +19153,72 @@
     "family": "Muse-Glimmer"
   },
   {
+    "id": "huggingface:Qwen/Qwen3.8-2.4T-A95B",
+    "name": "Qwen3.8-2.4T-A95B",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-08T01:50:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe_text",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.787781+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-2.4T-A95B"
+    ],
+    "family": "Qwen3.8-2.4T-A"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.8-2.4T-A95B-FP8",
+    "name": "Qwen3.8-2.4T-A95B-FP8",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-08T01:49:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe_text",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.787761+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-2.4T-A95B-FP8"
+    ],
+    "family": "Qwen3.8-2.4T-A-FP8"
+  },
+  {
     "id": "huggingface:TeraSpace/TeraTTSv2",
     "name": "TeraTTSv2",
     "provider": "TeraSpace",
@@ -19192,6 +19346,41 @@
       "mradermacher/LFM2.5-2.6B-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-GGUF"
     ],
     "family": "LFM2.5-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.8-27B",
+    "name": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-05T08:22:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:06.203707+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-27B"
+    ],
+    "family": "Qwen3.8"
   },
   {
     "id": "huggingface:AtomicChat/Ling-3.0-flash-GGUF",
@@ -19326,41 +19515,6 @@
       "saidutta69/Qwen3.5-2B-heretic"
     ],
     "family": "Qwen3.5-heretic"
-  },
-  {
-    "id": "huggingface:mradermacher/Qwythos-27B-v1-GGUF",
-    "name": "Qwythos-27B-v1-GGUF",
-    "provider": "mradermacher",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-30T15:51:54.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mradermacher/Qwythos-27B-v1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "qwen3.5",
-      "reasoning",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-08T04:49:24.631457+00:00",
-    "source_ids": [
-      "mradermacher/Qwythos-27B-v1-GGUF"
-    ],
-    "family": "Qwythos-v1"
   },
   {
     "id": "huggingface:Jundot/gemma-4-26B-A4B-it-oQ4e-mtp",
@@ -20722,40 +20876,6 @@
       "SeeSee21/AniSee"
     ],
     "family": "AniSee"
-  },
-  {
-    "id": "huggingface:FluidInference/supertonic-3-coreml",
-    "name": "supertonic-3-coreml",
-    "provider": "FluidInference",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-05-17T03:11:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/FluidInference/supertonic-3-coreml",
-    "tags": [
-      "text-to-speech",
-      "coreml",
-      "text-to-speech",
-      "speech",
-      "audio",
-      "tts"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-08T04:49:24.407459+00:00",
-    "source_ids": [
-      "FluidInference/supertonic-3-coreml"
-    ],
-    "family": "supertonic-3-coreml"
   },
   {
     "id": "huggingface:AriaVale2/my-safetensors-backup",

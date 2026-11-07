@@ -186997,5 +186997,229 @@
       "nvidia/Flora-Captioner"
     ],
     "family": "Flora-Captioner"
+  },
+  {
+    "id": "openrouter:liquid/lfm-3-1.7b",
+    "name": "LiquidAI: LFM3-1.7B",
+    "provider": "Liquid AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-06T23:57:57+00:00",
+    "context_length": 262144,
+    "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+    "url": "https://openrouter.ai/liquid/lfm-3-1.7b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.08,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-11-07T05:41:05.672733+00:00",
+    "source_ids": [
+      "liquid/lfm-3-1.7b"
+    ],
+    "family": "LFM3"
+  },
+  {
+    "id": "openrouter:liquid/lfm-3-1.7b:free",
+    "name": "LiquidAI: LFM3-1.7B (free)",
+    "provider": "Liquid AI",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-06T23:57:57+00:00",
+    "context_length": 262144,
+    "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+    "url": "https://openrouter.ai/liquid/lfm-3-1.7b:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.673437+00:00",
+    "source_ids": [
+      "liquid/lfm-3-1.7b:free"
+    ],
+    "family": "LFM3"
+  },
+  {
+    "id": "huggingface:sirfyyn/Katy-27B-GGUF",
+    "name": "Katy-27B-GGUF",
+    "provider": "sirfyyn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T21:11:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sirfyyn/Katy-27B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "qwen3_8",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.787692+00:00",
+    "source_ids": [
+      "sirfyyn/Katy-27B-GGUF"
+    ],
+    "family": "Katy"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.8-2.4T-A95B-FP8",
+    "name": "Qwen3.8-2.4T-A95B-FP8",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-08T01:49:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe_text",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.787761+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-2.4T-A95B-FP8"
+    ],
+    "family": "Qwen3.8-2.4T-A-FP8"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.8-2.4T-A95B",
+    "name": "Qwen3.8-2.4T-A95B",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-08T01:50:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe_text",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:05.787781+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-2.4T-A95B"
+    ],
+    "family": "Qwen3.8-2.4T-A"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.8-27B-FP8",
+    "name": "Qwen3.8-27B-FP8",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T08:01:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:06.203687+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-27B-FP8"
+    ],
+    "family": "Qwen3.8-FP8"
+  },
+  {
+    "id": "huggingface:Qwen/Qwen3.8-27B",
+    "name": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-05T08:22:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T05:41:06.203707+00:00",
+    "source_ids": [
+      "Qwen/Qwen3.8-27B"
+    ],
+    "family": "Qwen3.8"
   }
 ]
