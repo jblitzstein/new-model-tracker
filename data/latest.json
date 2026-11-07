@@ -1,5 +1,38 @@
 [
   {
+    "id": "huggingface:tencent/Qwen3.8-27B-DSpine-b16",
+    "name": "Qwen3.8-27B-DSpine-b16",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-07T14:20:29.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen3",
+      "dspine",
+      "speculative-decoding",
+      "draft-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.261682+00:00",
+    "source_ids": [
+      "tencent/Qwen3.8-27B-DSpine-b16"
+    ],
+    "family": "Qwen3.8-DSpine-b16"
+  },
+  {
     "id": "openrouter:liquid/lfm-3-1.7b",
     "name": "LiquidAI: LFM3-1.7B",
     "provider": "Liquid AI",
@@ -125,6 +158,39 @@
       "openrouter/auto-code"
     ],
     "family": "Auto Code"
+  },
+  {
+    "id": "huggingface:Vi-LAB/KenT-300M-Base",
+    "name": "KenT-300M-Base",
+    "provider": "Vi-LAB",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-05T13:00:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vi-LAB/KenT-300M-Base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "kent",
+      "text-generation",
+      "ssm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.261649+00:00",
+    "source_ids": [
+      "Vi-LAB/KenT-300M-Base"
+    ],
+    "family": "KenT-300M"
   },
   {
     "id": "huggingface:taurusduan/Qwen-Image-2.1",
@@ -353,6 +419,40 @@
       "ayeeyokoris/hubi-tts"
     ],
     "family": "hubi-tts"
+  },
+  {
+    "id": "huggingface:chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "name": "Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "provider": "chatrlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-03T16:13:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "gguf",
+      "qwen-image",
+      "qwen-image-2.1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.372070+00:00",
+    "source_ids": [
+      "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
+    ],
+    "family": "Qwen-Image-2.1-Uncensored-Omni-Quantized"
   },
   {
     "id": "huggingface:OliviaRossi/Minimax-H3-Hybrid-DMAD-PDMD",
@@ -3853,6 +3953,40 @@
     "family": "DeepSeek-V4.1-Flash-1017-Abliterated-MLX"
   },
   {
+    "id": "huggingface:goldhub/YuE2-RS-Finetunes",
+    "name": "YuE2-RS-Finetunes",
+    "provider": "goldhub",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-22T00:04:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/goldhub/YuE2-RS-Finetunes",
+    "tags": [
+      "text-to-audio",
+      "gguf",
+      "yue2",
+      "audio",
+      "music",
+      "fine-tune"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.647780+00:00",
+    "source_ids": [
+      "goldhub/YuE2-RS-Finetunes"
+    ],
+    "family": "YuE2-RS-Finetunes"
+  },
+  {
     "id": "openrouter:recursive/flint-v1.0:free",
     "name": "Recursive: Flint (free)",
     "provider": "recursive",
@@ -5537,6 +5671,40 @@
     "family": "Fibo-2.0-dev"
   },
   {
+    "id": "huggingface:taronaeo/Granite-Vision-3.3-2B-BE-GGUF",
+    "name": "Granite-Vision-3.3-2B-BE-GGUF",
+    "provider": "taronaeo",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-18T09:01:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/taronaeo/Granite-Vision-3.3-2B-BE-GGUF",
+    "tags": [
+      "image-to-text",
+      "gguf",
+      "image-to-text",
+      "mainframe",
+      "s390x",
+      "z15"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.462708+00:00",
+    "source_ids": [
+      "taronaeo/Granite-Vision-3.3-2B-BE-GGUF"
+    ],
+    "family": "Granite-Vision-3.3-BE"
+  },
+  {
     "id": "huggingface:axiomofmind/Moss-image-nsfw-uncensored-lora",
     "name": "Moss-image-nsfw-uncensored-lora",
     "provider": "axiomofmind",
@@ -5673,6 +5841,39 @@
       "unsloth/DeepSeek-V4.1-Flash-1017-GGUF"
     ],
     "family": "DeepSeek-V4.1-Flash-1017"
+  },
+  {
+    "id": "huggingface:netprojects/nemotron-dory1.0-4b-mlx-8bit",
+    "name": "nemotron-dory1.0-4b-mlx-8bit",
+    "provider": "netprojects",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T15:17:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/netprojects/nemotron-dory1.0-4b-mlx-8bit",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "dory",
+      "nemotron-labs",
+      "looped-language-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.261721+00:00",
+    "source_ids": [
+      "netprojects/nemotron-dory1.0-4b-mlx-8bit"
+    ],
+    "family": "nemotron-dory1.0-mlx-8bit"
   },
   {
     "id": "huggingface:AMAImedia/DeepSeek-V4.1-Flash-1017-FP8-GGUF",
@@ -5966,6 +6167,40 @@
       "eaddario/IQ2_K-IQ6_K-Test-Models"
     ],
     "family": "IQ2_K-IQ6_K-Test-Models"
+  },
+  {
+    "id": "huggingface:goldhub/YuE2-3B-Ruach_Studio-IRA-Merge",
+    "name": "YuE2-3B-Ruach_Studio-IRA-Merge",
+    "provider": "goldhub",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-16T16:46:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/goldhub/YuE2-3B-Ruach_Studio-IRA-Merge",
+    "tags": [
+      "text-to-audio",
+      "safetensors",
+      "gguf",
+      "yue2",
+      "audio",
+      "music"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.647725+00:00",
+    "source_ids": [
+      "goldhub/YuE2-3B-Ruach_Studio-IRA-Merge"
+    ],
+    "family": "YuE2-Ruach_Studio-IRA-Merge"
   },
   {
     "id": "huggingface:shashanth-27xA9/GLM-5.3-SuperExpert-v2-9.2GB",
@@ -21149,6 +21384,40 @@
     "family": "parakeet-tdt-v3"
   },
   {
+    "id": "huggingface:ampixa/real-nepali-v0.2-kala",
+    "name": "real-nepali-v0.2-kala",
+    "provider": "ampixa",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-05-04T03:59:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ampixa/real-nepali-v0.2-kala",
+    "tags": [
+      "text-to-speech",
+      "kala-tts",
+      "onnx",
+      "text-to-speech",
+      "nepali",
+      "vits"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.752277+00:00",
+    "source_ids": [
+      "ampixa/real-nepali-v0.2-kala"
+    ],
+    "family": "real-nepali-v0.2-kala"
+  },
+  {
     "id": "huggingface:h4shy/FLUX.1-dev-FluxedUp-V10-GGUF",
     "name": "FLUX.1-dev-FluxedUp-V10-GGUF",
     "provider": "h4shy",
@@ -23257,6 +23526,40 @@
       "utter-project/EuroLLM-9B-2512"
     ],
     "family": "EuroLLM-2512"
+  },
+  {
+    "id": "huggingface:KoelLabs/xlsr-english-01",
+    "name": "xlsr-english-01",
+    "provider": "KoelLabs",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-06-03T08:31:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KoelLabs/xlsr-english-01",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "wav2vec2",
+      "Speech2IPA",
+      "automatic-speech-recognition",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-07T14:42:11.856183+00:00",
+    "source_ids": [
+      "KoelLabs/xlsr-english-01"
+    ],
+    "family": "xlsr-english-01"
   },
   {
     "id": "huggingface:XiaomiMiMo/MiMo-VL-7B-RL",
