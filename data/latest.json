@@ -193,6 +193,39 @@
     "family": "KenT-300M"
   },
   {
+    "id": "huggingface:Vi-LAB/KenT-1B-Base",
+    "name": "KenT-1B-Base",
+    "provider": "Vi-LAB",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-05T13:00:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vi-LAB/KenT-1B-Base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "kent",
+      "text-generation",
+      "ssm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T04:46:25.645094+00:00",
+    "source_ids": [
+      "Vi-LAB/KenT-1B-Base"
+    ],
+    "family": "KenT"
+  },
+  {
     "id": "huggingface:taurusduan/Qwen-Image-2.1",
     "name": "Qwen-Image-2.1",
     "provider": "taurusduan",
@@ -1896,6 +1929,40 @@
       "lvladikov/Krea2-Turbo-Distill-3step-LoRA"
     ],
     "family": "Krea2-Turbo-Distill-3step-LoRA"
+  },
+  {
+    "id": "huggingface:ChenDY/NitroFusion2",
+    "name": "NitroFusion2",
+    "provider": "ChenDY",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-27T20:16:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ChenDY/NitroFusion2",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "gguf",
+      "text-to-image",
+      "diffusion-distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T04:46:25.755081+00:00",
+    "source_ids": [
+      "ChenDY/NitroFusion2"
+    ],
+    "family": "NitroFusion2"
   },
   {
     "id": "huggingface:LiquidAI/d1-2B-GGUF",
@@ -5739,6 +5806,41 @@
     "family": "Moss-image-beauty-lora"
   },
   {
+    "id": "huggingface:migtissera/Tess-4.5-27B-GGUF",
+    "name": "Tess-4.5-27B-GGUF",
+    "provider": "migtissera",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-18T18:32:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/migtissera/Tess-4.5-27B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "tess",
+      "llama.cpp",
+      "agentic",
+      "coding"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T04:46:26.369794+00:00",
+    "source_ids": [
+      "migtissera/Tess-4.5-27B-GGUF"
+    ],
+    "family": "Tess-4.5"
+  },
+  {
     "id": "huggingface:briaai/Fibo-2.0-dev",
     "name": "Fibo-2.0-dev",
     "provider": "briaai",
@@ -6075,6 +6177,37 @@
       "deepseek/deepseek-v4.1-flash-1017"
     ],
     "family": "DeepSeek V4.1 Flash"
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v4.1-flash-1017:batch",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+    "provider": "DeepSeek",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T08:27:04+00:00",
+    "context_length": 1048576,
+    "description": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model...",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.011,
+      "completion_per_million": 0.2
+    },
+    "first_seen": "2026-11-08T04:46:25.496450+00:00",
+    "source_ids": [
+      "deepseek/deepseek-v4.1-flash-1017:batch"
+    ],
+    "family": "DeepSeek V4.1 Flash 1017 (batch)"
   },
   {
     "id": "huggingface:shashanth-27xA9/GLM-5.3-8GB-SuperExpert",
@@ -22922,6 +23055,64 @@
       "Comfy-Org/Flux-1-Redux-Dev"
     ],
     "family": "Flux-1-Redux-Dev"
+  },
+  {
+    "id": "openrouter:morph/morph-v3-large:batch",
+    "name": "Morph: Morph V3 Large (batch)",
+    "provider": "Morph",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-07T17:54:18+00:00",
+    "context_length": 262144,
+    "description": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code>{initial_code}</code>...",
+    "url": "https://openrouter.ai/morph/morph-v3-large:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.45,
+      "completion_per_million": 0.95
+    },
+    "first_seen": "2026-11-08T04:46:25.506805+00:00",
+    "source_ids": [
+      "morph/morph-v3-large:batch"
+    ],
+    "family": "Morph V3 Large (batch)"
+  },
+  {
+    "id": "openrouter:morph/morph-v3-fast:batch",
+    "name": "Morph: Morph V3 Fast (batch)",
+    "provider": "Morph",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-07-07T17:40:02+00:00",
+    "context_length": 81920,
+    "description": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code>{initial_code}</code> <update>{edit_snippet}</update>...",
+    "url": "https://openrouter.ai/morph/morph-v3-fast:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.4,
+      "completion_per_million": 0.6
+    },
+    "first_seen": "2026-11-08T04:46:25.506857+00:00",
+    "source_ids": [
+      "morph/morph-v3-fast:batch"
+    ],
+    "family": "Morph V3 Fast (batch)"
   },
   {
     "id": "huggingface:unsloth/FLUX.1-schnell-GGUF",
