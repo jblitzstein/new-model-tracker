@@ -623,6 +623,39 @@
     "family": "GLM 5.3 FlashX Legal"
   },
   {
+    "id": "huggingface:JonusNattapong/LFM3-Omni-2B-abliterated",
+    "name": "LFM3-Omni-2B-abliterated",
+    "provider": "JonusNattapong",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-02T10:08:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JonusNattapong/LFM3-Omni-2B-abliterated",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm3_omni",
+      "image-text-to-text",
+      "lfm3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T14:47:38.866349+00:00",
+    "source_ids": [
+      "JonusNattapong/LFM3-Omni-2B-abliterated"
+    ],
+    "family": "LFM3-Omni-abliterated"
+  },
+  {
     "id": "huggingface:ccore/Qwen3.5-4B-GLB-3D-Coder",
     "name": "Qwen3.5-4B-GLB-3D-Coder",
     "provider": "ccore",
@@ -1222,6 +1255,39 @@
       "SentinelHub/R-08-Transformer-Baseline"
     ],
     "family": "R-08-Transformer-Baseline"
+  },
+  {
+    "id": "huggingface:Infatoshi/phonon-refiner-1.7b",
+    "name": "phonon-refiner-1.7b",
+    "provider": "Infatoshi",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T18:00:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Infatoshi/phonon-refiner-1.7b",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "gguf",
+      "lfm3",
+      "dictation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T14:47:38.866317+00:00",
+    "source_ids": [
+      "Infatoshi/phonon-refiner-1.7b"
+    ],
+    "family": "phonon-refiner"
   },
   {
     "id": "huggingface:nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
@@ -11754,39 +11820,6 @@
     "family": "Kandinsky-6.0-Pro-distill-5s-NVFP4"
   },
   {
-    "id": "huggingface:francesca9805/swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407",
-    "name": "swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407",
-    "provider": "francesca9805",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-07T18:45:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/francesca9805/swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T04:52:30.428932+00:00",
-    "source_ids": [
-      "francesca9805/swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407"
-    ],
-    "family": "swa-100mb-after-wc-uniform-newlex-after-ckpt500-packed-bfdiso_seed3407"
-  },
-  {
     "id": "huggingface:JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
     "name": "Mellum2.1-12B-A2.5B-Thinking-GGUF",
     "provider": "JetBrains",
@@ -12942,39 +12975,6 @@
     "family": "delta"
   },
   {
-    "id": "huggingface:aixk/BAAR6-9M-7",
-    "name": "BAAR6-9M-7",
-    "provider": "aixk",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-04T02:57:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/aixk/BAAR6-9M-7",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "fhn_concept_gau",
-      "baar5",
-      "9m",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T04:52:30.428972+00:00",
-    "source_ids": [
-      "aixk/BAAR6-9M-7"
-    ],
-    "family": "BAAR6-9M-7"
-  },
-  {
     "id": "huggingface:dignome/kitten_tts2",
     "name": "kitten_tts2",
     "provider": "dignome",
@@ -13040,39 +13040,6 @@
       "francesca9805/swa-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407"
     ],
     "family": "swa-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407"
-  },
-  {
-    "id": "huggingface:francesca9805/nor-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407",
-    "name": "nor-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407",
-    "provider": "francesca9805",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-03T21:11:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/francesca9805/nor-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T04:52:30.428995+00:00",
-    "source_ids": [
-      "francesca9805/nor-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407"
-    ],
-    "family": "nor-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407"
   },
   {
     "id": "huggingface:here-be-dragons-ai/Kolibri-1-MLX-3bit",
@@ -13176,6 +13143,40 @@
       "doth4580/Qwen3.8-Flash-Next-EXL3-4.05bpw"
     ],
     "family": "Qwen3.8-Flash-Next-EXL3-4.05bpw"
+  },
+  {
+    "id": "huggingface:litert-community/Qwen3-ASR-1.7B",
+    "name": "Qwen3-ASR-1.7B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-03T02:25:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Qwen3-ASR-1.7B",
+    "tags": [
+      "automatic-speech-recognition",
+      "litert-lm",
+      "litert",
+      "litertlm",
+      "on-device",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T14:47:39.421517+00:00",
+    "source_ids": [
+      "litert-community/Qwen3-ASR-1.7B"
+    ],
+    "family": "Qwen3-ASR"
   },
   {
     "id": "huggingface:yamz-labs/GLM-5.3-Flash-EXL3-Yamz",
@@ -15051,39 +15052,6 @@
     "family": "imajev"
   },
   {
-    "id": "huggingface:kiel2/Kiel-2.2-Sol",
-    "name": "Kiel-2.2-Sol",
-    "provider": "kiel2",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-24T04:04:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kiel2/Kiel-2.2-Sol",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "KielTech"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T04:52:30.429123+00:00",
-    "source_ids": [
-      "kiel2/Kiel-2.2-Sol"
-    ],
-    "family": "Kiel-2.2-Sol"
-  },
-  {
     "id": "huggingface:gcoli/whisper-large-v3-swiss-german-mit",
     "name": "whisper-large-v3-swiss-german-mit",
     "provider": "gcoli",
@@ -15527,41 +15495,6 @@
       "GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF"
     ],
     "family": "GLM-5.3-Flash-Uncensored-RCO-GSQ"
-  },
-  {
-    "id": "huggingface:wallawalla47/Qwen3.8-27B-NVIDIA-NVFP4-NInferV3",
-    "name": "Qwen3.8-27B-NVIDIA-NVFP4-NInferV3",
-    "provider": "wallawalla47",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T22:32:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/wallawalla47/Qwen3.8-27B-NVIDIA-NVFP4-NInferV3",
-    "tags": [
-      "image-text-to-text",
-      "infernix",
-      "Qwen3.8",
-      "nvidia",
-      "ModelOpt",
-      "nvfp4"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T04:52:31.198118+00:00",
-    "source_ids": [
-      "wallawalla47/Qwen3.8-27B-NVIDIA-NVFP4-NInferV3"
-    ],
-    "family": "Qwen3.8-NVIDIA-NVFP4-NInferV3"
   },
   {
     "id": "huggingface:XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
@@ -17889,6 +17822,40 @@
     "family": "Qwen3.8-Flash-Next--INT4"
   },
   {
+    "id": "huggingface:HoppouAI/Breeze-TTS-2.cpp",
+    "name": "Breeze-TTS-2.cpp",
+    "provider": "HoppouAI",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-28T07:57:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HoppouAI/Breeze-TTS-2.cpp",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "text-to-speech",
+      "tts",
+      "ggml",
+      "vulkan"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T14:47:39.321022+00:00",
+    "source_ids": [
+      "HoppouAI/Breeze-TTS-2.cpp"
+    ],
+    "family": "Breeze-TTS-2.cpp"
+  },
+  {
     "id": "huggingface:intel-ai/Qwen3.8-Flash-Next-MXFP4-Mixed-CT-AutoRound",
     "name": "Qwen3.8-Flash-Next-MXFP4-Mixed-CT-AutoRound",
     "provider": "intel-ai",
@@ -18642,41 +18609,6 @@
       "OpenVINO/Qwen3.8-27B-int4-ov"
     ],
     "family": "Qwen3.8-int4-ov"
-  },
-  {
-    "id": "huggingface:XingChen-AGI/TeleOCR",
-    "name": "TeleOCR",
-    "provider": "XingChen-AGI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-14T06:15:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "ocr"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T04:52:31.198313+00:00",
-    "source_ids": [
-      "XingChen-AGI/TeleOCR"
-    ],
-    "family": "TeleOCR"
   },
   {
     "id": "huggingface:desert-ant-labs/align",
