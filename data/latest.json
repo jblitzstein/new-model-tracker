@@ -790,6 +790,39 @@
     "family": "Qwopus3.8-Coder-Flash-i1"
   },
   {
+    "id": "huggingface:brbrainerd/vox-mens-qwen3-4b",
+    "name": "vox-mens-qwen3-4b",
+    "provider": "brbrainerd",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-01T14:55:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/brbrainerd/vox-mens-qwen3-4b",
+    "tags": [
+      "text-generation",
+      "vox",
+      "qwen3",
+      "vox-mens",
+      "qlora",
+      "candle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T20:13:24.861015+00:00",
+    "source_ids": [
+      "brbrainerd/vox-mens-qwen3-4b"
+    ],
+    "family": "vox-mens-qwen3"
+  },
+  {
     "id": "huggingface:Spectrallic/MiniMax-H3-DMAD-4step-int8-convrot",
     "name": "MiniMax-H3-DMAD-4step-int8-convrot",
     "provider": "Spectrallic",
@@ -2064,6 +2097,40 @@
       "LiquidAI/d1-2B-GGUF"
     ],
     "family": "d1"
+  },
+  {
+    "id": "huggingface:danielrosehill/Fritter",
+    "name": "Fritter",
+    "provider": "danielrosehill",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-27T14:01:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/danielrosehill/Fritter",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "onnx",
+      "gguf",
+      "parakeet",
+      "tdt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T20:13:25.669671+00:00",
+    "source_ids": [
+      "danielrosehill/Fritter"
+    ],
+    "family": "Fritter"
   },
   {
     "id": "huggingface:MirandaAbhilash/circuitformer-circuitvqa",
@@ -11178,40 +11245,6 @@
     "family": "Qwen3.6-Qworus-V1-APEX"
   },
   {
-    "id": "huggingface:Qwen/Qwen-Image-2.1-Turbo",
-    "name": "Qwen-Image-2.1-Turbo",
-    "provider": "Qwen",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-09T04:50:01.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "qwen",
-      "image-generation",
-      "image-editing"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T15:00:21.778256+00:00",
-    "source_ids": [
-      "Qwen/Qwen-Image-2.1-Turbo"
-    ],
-    "family": "Qwen-Image-2.1-Turbo"
-  },
-  {
     "id": "huggingface:alexwkleung/Mellum2.1-12B-A2.5B-Thinking-Abliterated-GGUF",
     "name": "Mellum2.1-12B-A2.5B-Thinking-Abliterated-GGUF",
     "provider": "alexwkleung",
@@ -12596,41 +12629,6 @@
       "SkyIsNotGreen/Scion-FlashNext-176B-A6B"
     ],
     "family": "Scion-FlashNext"
-  },
-  {
-    "id": "huggingface:docling-project/DeskForge-Gemma4-E4B",
-    "name": "DeskForge-Gemma4-E4B",
-    "provider": "docling-project",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-05T16:17:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/docling-project/DeskForge-Gemma4-E4B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "gui-grounding"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T15:00:22.461329+00:00",
-    "source_ids": [
-      "docling-project/DeskForge-Gemma4-E4B"
-    ],
-    "family": "DeskForge-Gemma4-E"
   },
   {
     "id": "huggingface:Blockway/Agens-Volundr-32B-Preview-GGUF",
@@ -15462,41 +15460,6 @@
     "family": "Ming-3.0-tts-tiny"
   },
   {
-    "id": "huggingface:GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
-    "name": "GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
-    "provider": "GCSA-AiLab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-22T01:08:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "gsq",
-      "rco",
-      "lora-merged",
-      "lora-v2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T15:00:22.461427+00:00",
-    "source_ids": [
-      "GCSA-AiLab/GLM-5.3-Flash-Uncensored-RCO-GSQ-GGUF"
-    ],
-    "family": "GLM-5.3-Flash-Uncensored-RCO-GSQ"
-  },
-  {
     "id": "huggingface:XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
     "name": "MiMo-V2.6-Distill-Qwen-9B",
     "provider": "XiaomiMiMo",
@@ -16069,39 +16032,6 @@
     "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
   },
   {
-    "id": "huggingface:Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
-    "name": "Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
-    "provider": "Greatjedi",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-17T00:36:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "intel-arc",
-      "intel-arc-b60",
-      "battlemage",
-      "sycl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T15:00:21.644167+00:00",
-    "source_ids": [
-      "Greatjedi/Qwen3.8-27B-Intel-Arc-Tuned-GGUF"
-    ],
-    "family": "Qwen3.8-Intel-Arc-Tuned"
-  },
-  {
     "id": "huggingface:gitarist/Qwen3-8B-BPDQ-2bit",
     "name": "Qwen3-8B-BPDQ-2bit",
     "provider": "gitarist",
@@ -16267,41 +16197,6 @@
       "Comfy-Org/Qwen-Image-2.1"
     ],
     "family": "Qwen-Image-2.1"
-  },
-  {
-    "id": "huggingface:dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW-GGUF",
-    "name": "Dongfangshuo-Qwen3.8-27B-NSFW-GGUF",
-    "provider": "dongfangshuo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-14T16:08:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "qwen",
-      "qwen3.8",
-      "vision",
-      "multimodal"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T15:00:22.461283+00:00",
-    "source_ids": [
-      "dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW-GGUF"
-    ],
-    "family": "Dongfangshuo-Qwen3.8-NSFW"
   },
   {
     "id": "huggingface:dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW",
@@ -16541,6 +16436,39 @@
       "Jundot/DeepSeek-V4.1-Flash-oQ3e-mtp"
     ],
     "family": "DeepSeek-V4.1-Flash-oQ3e-mtp"
+  },
+  {
+    "id": "huggingface:litert-community/Ternary-Bonsai-1.7B",
+    "name": "Ternary-Bonsai-1.7B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-10T20:58:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/Ternary-Bonsai-1.7B",
+    "tags": [
+      "text-generation",
+      "litert-lm",
+      "litertlm",
+      "bonsai",
+      "ternary",
+      "int2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-08T20:13:24.861064+00:00",
+    "source_ids": [
+      "litert-community/Ternary-Bonsai-1.7B"
+    ],
+    "family": "Ternary-Bonsai"
   },
   {
     "id": "huggingface:Jundot/DeepSeek-V4.1-Flash-oQ4e-mtp",
@@ -17715,41 +17643,6 @@
       "furiosa-ai/gemma-4-31B-it-FP8-block"
     ],
     "family": "gemma-4-it-FP8-block"
-  },
-  {
-    "id": "huggingface:GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
-    "name": "Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
-    "provider": "GCSA-AiLab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-31T06:22:33.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "llama.cpp",
-      "gguf",
-      "qwen",
-      "qwen3.8",
-      "abliterix"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-09T15:00:22.461379+00:00",
-    "source_ids": [
-      "GCSA-AiLab/Qwen3.8-Flash-Next-FP8-Abliterated-GGUF"
-    ],
-    "family": "Qwen3.8-Flash-Next-FP8-Abliterated"
   },
   {
     "id": "huggingface:mradermacher/Qwen3.8-27B-finance-GGUF",
