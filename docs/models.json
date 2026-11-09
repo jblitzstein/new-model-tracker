@@ -188356,5 +188356,614 @@
       "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED"
     ],
     "family": "Qwen3.5-Claude-4.6-HighIQ--HERETIC-UNCENSORED"
+  },
+  {
+    "id": "openrouter:qwen/qwen3.8-max-0902:batch",
+    "name": "Qwen: Qwen3.8 Max (0902) (batch)",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-03T21:08:24+00:00",
+    "context_length": 262144,
+    "description": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,...",
+    "url": "https://openrouter.ai/qwen/qwen3.8-max-0902:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.15,
+      "completion_per_million": 3.45
+    },
+    "first_seen": "2026-11-09T18:23:14.867835+00:00",
+    "source_ids": [
+      "qwen/qwen3.8-max-0902:batch"
+    ],
+    "family": "Qwen3.8 Max (0902) (batch)"
+  },
+  {
+    "id": "huggingface:Vi-LAB/KenT-500M-Base",
+    "name": "KenT-500M-Base",
+    "provider": "Vi-LAB",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-05T13:00:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vi-LAB/KenT-500M-Base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "kent",
+      "text-generation",
+      "ssm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989143+00:00",
+    "source_ids": [
+      "Vi-LAB/KenT-500M-Base"
+    ],
+    "family": "KenT-500M"
+  },
+  {
+    "id": "huggingface:Darknecrocities/Helios",
+    "name": "Helios",
+    "provider": "Darknecrocities",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-07T12:04:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Darknecrocities/Helios",
+    "tags": [
+      "text-generation",
+      "tflite",
+      "onnx",
+      "safetensors",
+      "helios",
+      "open-weight"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989167+00:00",
+    "source_ids": [
+      "Darknecrocities/Helios"
+    ],
+    "family": "Helios"
+  },
+  {
+    "id": "huggingface:RedHatAI/North-Mini-Code-1.0",
+    "name": "North-Mini-Code-1.0",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-10T12:39:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/North-Mini-Code-1.0",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "cohere2_moe",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989189+00:00",
+    "source_ids": [
+      "RedHatAI/North-Mini-Code-1.0"
+    ],
+    "family": "North-Mini-Code-1.0"
+  },
+  {
+    "id": "huggingface:LiquidAI/LFM3-1.7B",
+    "name": "LFM3-1.7B",
+    "provider": "LiquidAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T21:35:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "lfm3",
+      "text-generation",
+      "liquid"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989204+00:00",
+    "source_ids": [
+      "LiquidAI/LFM3-1.7B"
+    ],
+    "family": "LFM3"
+  },
+  {
+    "id": "huggingface:BennyDaBall/Qwen3.8-Uncensored-NVFP4-MTP",
+    "name": "Qwen3.8-Uncensored-NVFP4-MTP",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-21T18:46:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/Qwen3.8-Uncensored-NVFP4-MTP",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "nvfp4",
+      "qwen3.8",
+      "qwen3.5",
+      "blackwell"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989218+00:00",
+    "source_ids": [
+      "BennyDaBall/Qwen3.8-Uncensored-NVFP4-MTP"
+    ],
+    "family": "Qwen3.8-Uncensored-NVFP4-MTP"
+  },
+  {
+    "id": "huggingface:BennyDaBall/Krea-2-Engineer-V1-GGUF",
+    "name": "Krea-2-Engineer-V1-GGUF",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-28T00:10:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/Krea-2-Engineer-V1-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "krea",
+      "krea-2",
+      "qwen3",
+      "text-encoder"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989234+00:00",
+    "source_ids": [
+      "BennyDaBall/Krea-2-Engineer-V1-GGUF"
+    ],
+    "family": "Krea-2-Engineer-V1"
+  },
+  {
+    "id": "huggingface:BennyDaBall/Mistral-44B-MoE-Patched-MLX-4bit-G64",
+    "name": "Mistral-44B-MoE-Patched-MLX-4bit-G64",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-27T01:05:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/Mistral-44B-MoE-Patched-MLX-4bit-G64",
+    "tags": [
+      "text-generation",
+      "mlx",
+      "safetensors",
+      "mixtral",
+      "mistral",
+      "moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989281+00:00",
+    "source_ids": [
+      "BennyDaBall/Mistral-44B-MoE-Patched-MLX-4bit-G64"
+    ],
+    "family": "Mistral-MoE-Patched-MLX-4bit-G64"
+  },
+  {
+    "id": "huggingface:RedHatAI/DeepSeek-V4-Flash-0731-NVFP4",
+    "name": "DeepSeek-V4-Flash-0731-NVFP4",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-23T21:01:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/DeepSeek-V4-Flash-0731-NVFP4",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:14.989309+00:00",
+    "source_ids": [
+      "RedHatAI/DeepSeek-V4-Flash-0731-NVFP4"
+    ],
+    "family": "DeepSeek-V4-Flash-0731-NVFP4"
+  },
+  {
+    "id": "huggingface:BennyDaBall/Fibo-2.0-dev-NVFP4",
+    "name": "Fibo-2.0-dev-NVFP4",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-21T12:51:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/Fibo-2.0-dev-NVFP4",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "fibo",
+      "fibo-2",
+      "bria",
+      "nvfp4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.060382+00:00",
+    "source_ids": [
+      "BennyDaBall/Fibo-2.0-dev-NVFP4"
+    ],
+    "family": "Fibo-2.0-dev-NVFP4"
+  },
+  {
+    "id": "huggingface:stabilityai/sdxl-base-amdnpu-medusa",
+    "name": "sdxl-base-amdnpu-medusa",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-26T16:26:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/sdxl-base-amdnpu-medusa",
+    "tags": [
+      "text-to-image",
+      "onnx",
+      "stable-diffusion",
+      "sdxl",
+      "text-to-image",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.060480+00:00",
+    "source_ids": [
+      "stabilityai/sdxl-base-amdnpu-medusa"
+    ],
+    "family": "sdxl--amdnpu-medusa"
+  },
+  {
+    "id": "huggingface:stabilityai/stable-diffusion-3.5-medium-amdnpu-medusa",
+    "name": "stable-diffusion-3.5-medium-amdnpu-medusa",
+    "provider": "Stability AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-26T16:25:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium-amdnpu-medusa",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "onnx",
+      "text-to-image",
+      "stable-diffusion",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.060494+00:00",
+    "source_ids": [
+      "stabilityai/stable-diffusion-3.5-medium-amdnpu-medusa"
+    ],
+    "family": "stable-diffusion-3.5-medium-amdnpu-medusa"
+  },
+  {
+    "id": "huggingface:RedHatAI/Muse-Glimmer-30B",
+    "name": "Muse-Glimmer-30B",
+    "provider": "RedHatAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-11T19:36:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/RedHatAI/Muse-Glimmer-30B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "muse_glimmer",
+      "image-text-to-text",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.456491+00:00",
+    "source_ids": [
+      "RedHatAI/Muse-Glimmer-30B"
+    ],
+    "family": "Muse-Glimmer"
+  },
+  {
+    "id": "huggingface:BennyDaBall/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NVFP4",
+    "name": "Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NVFP4",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-17T21:53:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "nvfp4",
+      "qwen3_8",
+      "qwen3.8",
+      "blackwell"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.456525+00:00",
+    "source_ids": [
+      "BennyDaBall/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NVFP4"
+    ],
+    "family": "Qwen3.8-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NVFP4"
+  },
+  {
+    "id": "huggingface:BennyDaBall/SenseNova-6.8-Code2Video-NVFP4-GGUF",
+    "name": "SenseNova-6.8-Code2Video-NVFP4-GGUF",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T22:34:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/SenseNova-6.8-Code2Video-NVFP4-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "nvfp4",
+      "llama.cpp",
+      "gptq",
+      "schur-replay"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.456550+00:00",
+    "source_ids": [
+      "BennyDaBall/SenseNova-6.8-Code2Video-NVFP4-GGUF"
+    ],
+    "family": "SenseNova-6.8-Code2Video-NVFP4"
+  },
+  {
+    "id": "huggingface:turintech/Qwen3.8-27B-Artemis-GGUF",
+    "name": "Qwen3.8-27B-Artemis-GGUF",
+    "provider": "turintech",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T11:26:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/turintech/Qwen3.8-27B-Artemis-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "turintech",
+      "artemis",
+      "qwen",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.456627+00:00",
+    "source_ids": [
+      "turintech/Qwen3.8-27B-Artemis-GGUF"
+    ],
+    "family": "Qwen3.8-Artemis"
+  },
+  {
+    "id": "huggingface:turintech/gemma-4-12B-it-Artemis-GGUF",
+    "name": "gemma-4-12B-it-Artemis-GGUF",
+    "provider": "turintech",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-25T10:09:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/turintech/gemma-4-12B-it-Artemis-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "turintech",
+      "artemis",
+      "gemma",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.456640+00:00",
+    "source_ids": [
+      "turintech/gemma-4-12B-it-Artemis-GGUF"
+    ],
+    "family": "gemma-4-it-Artemis"
+  },
+  {
+    "id": "huggingface:PanocularAI/PanoVLD-500M",
+    "name": "PanoVLD-500M",
+    "provider": "PanocularAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T19:08:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/PanocularAI/PanoVLD-500M",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "safetensors",
+      "panovlm_decision",
+      "feature-extraction",
+      "panovlm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-09T18:23:15.514557+00:00",
+    "source_ids": [
+      "PanocularAI/PanoVLD-500M"
+    ],
+    "family": "PanoVLD-500M"
   }
 ]
