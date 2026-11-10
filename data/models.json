@@ -188965,5 +188965,372 @@
       "PanocularAI/PanoVLD-500M"
     ],
     "family": "PanoVLD-500M"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling-2-small:free",
+    "name": "Thinking Machines: Inkling 2 Small (free)",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-09T22:04:07+00:00",
+    "context_length": 1048576,
+    "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:34.982641+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling-2-small:free"
+    ],
+    "family": "Inkling 2 Small"
+  },
+  {
+    "id": "openrouter:anthropic/claude-fable-5.2",
+    "name": "Anthropic: Claude Fable 5.2",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-09T19:49:41+00:00",
+    "context_length": 1000000,
+    "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible...",
+    "url": "https://openrouter.ai/anthropic/claude-fable-5.2",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 8.0,
+      "completion_per_million": 40.0
+    },
+    "first_seen": "2026-11-10T02:33:34.983632+00:00",
+    "source_ids": [
+      "anthropic/claude-fable-5.2"
+    ],
+    "family": "Claude Fable 5.2"
+  },
+  {
+    "id": "openrouter:anthropic/claude-fable-5.2:batch",
+    "name": "Anthropic: Claude Fable 5.2 (batch)",
+    "provider": "Anthropic",
+    "source": "openrouter",
+    "modality": [
+      "file",
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "file"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-09T19:49:41+00:00",
+    "context_length": 1000000,
+    "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible...",
+    "url": "https://openrouter.ai/anthropic/claude-fable-5.2:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 4.0,
+      "completion_per_million": 20.0
+    },
+    "first_seen": "2026-11-10T02:33:34.983675+00:00",
+    "source_ids": [
+      "anthropic/claude-fable-5.2:batch"
+    ],
+    "family": "Claude Fable 5.2 (batch)"
+  },
+  {
+    "id": "openrouter:meta/muse-ember",
+    "name": "Meta: Muse Ember",
+    "provider": "Meta",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "file",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-09T18:07:28+00:00",
+    "context_length": 1048576,
+    "description": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...",
+    "url": "https://openrouter.ai/meta/muse-ember",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.5
+    },
+    "first_seen": "2026-11-10T02:33:34.983713+00:00",
+    "source_ids": [
+      "meta/muse-ember"
+    ],
+    "family": "Muse Ember"
+  },
+  {
+    "id": "huggingface:hstolte/Qwen3.8-Flash-Next-HTR",
+    "name": "Qwen3.8-Flash-Next-HTR",
+    "provider": "hstolte",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-28T20:01:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/hstolte/Qwen3.8-Flash-Next-HTR",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen4_exp",
+      "htr",
+      "halo-trellis",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:35.166898+00:00",
+    "source_ids": [
+      "hstolte/Qwen3.8-Flash-Next-HTR"
+    ],
+    "family": "Qwen3.8-Flash-Next-HTR"
+  },
+  {
+    "id": "huggingface:ZAQERIS/ZAQERIS_AXIOM",
+    "name": "ZAQERIS_AXIOM",
+    "provider": "ZAQERIS",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-07T11:17:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ZAQERIS/ZAQERIS_AXIOM",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "zaqeris_axiom",
+      "text-generation",
+      "zaqeris"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:35.166942+00:00",
+    "source_ids": [
+      "ZAQERIS/ZAQERIS_AXIOM"
+    ],
+    "family": "ZAQERIS_AXIOM"
+  },
+  {
+    "id": "huggingface:esatapedico/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-NVFP4-GGUF",
+    "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-NVFP4-GGUF",
+    "provider": "esatapedico",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-02T18:15:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/esatapedico/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-NVFP4-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "nvfp4",
+      "qwen3.8",
+      "qwen3.5",
+      "blackwell"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:35.167014+00:00",
+    "source_ids": [
+      "esatapedico/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-NVFP4-GGUF"
+    ],
+    "family": "Qwen3.8-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU-NVFP4"
+  },
+  {
+    "id": "huggingface:esatapedico/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NVFP4-GGUF",
+    "name": "Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NVFP4-GGUF",
+    "provider": "esatapedico",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-11T10:18:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/esatapedico/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NVFP4-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "nvfp4",
+      "qwen3.8",
+      "qwen3.5",
+      "blackwell"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:35.167073+00:00",
+    "source_ids": [
+      "esatapedico/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NVFP4-GGUF"
+    ],
+    "family": "Qwen3.8-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NVFP4"
+  },
+  {
+    "id": "huggingface:Solidaxel/Qwen3-TTS-GGUF",
+    "name": "Qwen3-TTS-GGUF",
+    "provider": "Solidaxel",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-04-26T08:52:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Solidaxel/Qwen3-TTS-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "onnx",
+      "tts",
+      "ggml",
+      "onnxruntime"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:35.661644+00:00",
+    "source_ids": [
+      "Solidaxel/Qwen3-TTS-GGUF"
+    ],
+    "family": "Qwen3-TTS"
+  },
+  {
+    "id": "huggingface:WaveCut/Qwen3.6-35B-A3B-NVFP4-NInfer-v3",
+    "name": "Qwen3.6-35B-A3B-NVFP4-NInfer-v3",
+    "provider": "WaveCut",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-26T18:47:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/WaveCut/Qwen3.6-35B-A3B-NVFP4-NInfer-v3",
+    "tags": [
+      "image-text-to-text",
+      "ninfer",
+      "dflash2",
+      "nvfp4",
+      "moe",
+      "qwen3.6"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:35.869424+00:00",
+    "source_ids": [
+      "WaveCut/Qwen3.6-35B-A3B-NVFP4-NInfer-v3"
+    ],
+    "family": "Qwen3.6-NVFP4-NInfer-v3"
+  },
+  {
+    "id": "huggingface:huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+    "name": "Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+    "provider": "huihui-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-05-19T11:53:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "GGUF"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T02:33:35.869583+00:00",
+    "source_ids": [
+      "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF"
+    ],
+    "family": "Huihui-Qwen3.6-abliterated-MTP"
   }
 ]
