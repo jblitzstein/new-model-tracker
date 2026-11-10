@@ -189531,5 +189531,637 @@
       "divinetribe/Muse-Glimmer-30B-Abliterated-MM-bf16"
     ],
     "family": "Muse-Glimmer-Abliterated-MM-bf16"
+  },
+  {
+    "id": "openrouter:baidu/ernie-5.5-flash-preview",
+    "name": "Baidu: ERNIE-5.5-Flash-Preview",
+    "provider": "Baidu",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T17:58:53+00:00",
+    "context_length": 1024000,
+    "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...",
+    "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.28,
+      "completion_per_million": 1.13
+    },
+    "first_seen": "2026-11-10T21:39:53.794155+00:00",
+    "source_ids": [
+      "baidu/ernie-5.5-flash-preview"
+    ],
+    "family": "ERNIE-5.5-Flash"
+  },
+  {
+    "id": "openrouter:baidu/ernie-light-dt-1.0-intl",
+    "name": "Baidu: ERNIE-Light-DT-1.0",
+    "provider": "Baidu",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T17:21:00+00:00",
+    "context_length": 1024000,
+    "description": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by...",
+    "url": "https://openrouter.ai/baidu/ernie-light-dt-1.0-intl",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.13,
+      "completion_per_million": 3.94
+    },
+    "first_seen": "2026-11-10T21:39:53.795118+00:00",
+    "source_ids": [
+      "baidu/ernie-light-dt-1.0-intl"
+    ],
+    "family": "ERNIE-Light-DT-1.0"
+  },
+  {
+    "id": "openrouter:google/gemini-4-carbon",
+    "name": "Google: Gemini 4 Carbon",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T16:07:51+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+    "url": "https://openrouter.ai/google/gemini-4-carbon",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-11-10T21:39:53.795182+00:00",
+    "source_ids": [
+      "google/gemini-4-carbon"
+    ],
+    "family": "Gemini 4 Carbon"
+  },
+  {
+    "id": "openrouter:google/gemini-4-carbon:batch",
+    "name": "Google: Gemini 4 Carbon (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T16:07:51+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+    "url": "https://openrouter.ai/google/gemini-4-carbon:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-11-10T21:39:53.795220+00:00",
+    "source_ids": [
+      "google/gemini-4-carbon:batch"
+    ],
+    "family": "Gemini 4 Carbon (batch)"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-1.3B-A450M-1m",
+    "name": "CENO-1.3B-A450M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:51:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-1.3B-A450M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944633+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-1.3B-A450M-1m"
+    ],
+    "family": "CENO-A450M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-1.3B-A450M-131k",
+    "name": "CENO-1.3B-A450M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:46:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-1.3B-A450M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944669+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-1.3B-A450M-131k"
+    ],
+    "family": "CENO-A450M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-1.3B-A450M-base",
+    "name": "CENO-1.3B-A450M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:42:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-1.3B-A450M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944701+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-1.3B-A450M-base"
+    ],
+    "family": "CENO-A450M"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-600M-A230M-1m",
+    "name": "CENO-600M-A230M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:34:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-600M-A230M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944731+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-600M-A230M-1m"
+    ],
+    "family": "CENO-600M-A230M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-600M-A230M-131k",
+    "name": "CENO-600M-A230M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:20:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-600M-A230M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944760+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-600M-A230M-131k"
+    ],
+    "family": "CENO-600M-A230M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-600M-A230M-base",
+    "name": "CENO-600M-A230M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:19:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-600M-A230M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944788+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-600M-A230M-base"
+    ],
+    "family": "CENO-600M-A230M"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-300M-A105M-1m",
+    "name": "CENO-300M-A105M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:18:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-300M-A105M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944816+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-300M-A105M-1m"
+    ],
+    "family": "CENO-300M-A105M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-300M-A105M-131k",
+    "name": "CENO-300M-A105M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:16:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-300M-A105M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944843+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-300M-A105M-131k"
+    ],
+    "family": "CENO-300M-A105M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-300M-A105M-base",
+    "name": "CENO-300M-A105M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:07:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-300M-A105M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944870+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-300M-A105M-base"
+    ],
+    "family": "CENO-300M-A105M"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-80M-A30M-1m",
+    "name": "CENO-80M-A30M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:07:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-80M-A30M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944897+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-80M-A30M-1m"
+    ],
+    "family": "CENO-80M-A30M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-80M-A30M-131k",
+    "name": "CENO-80M-A30M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:06:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-80M-A30M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944922+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-80M-A30M-131k"
+    ],
+    "family": "CENO-80M-A30M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-80M-A30M-base",
+    "name": "CENO-80M-A30M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:04:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-80M-A30M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944948+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-80M-A30M-base"
+    ],
+    "family": "CENO-80M-A30M"
+  },
+  {
+    "id": "huggingface:onnx-community/whisper-tiny.en",
+    "name": "whisper-tiny.en",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-05-24T16:53:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/whisper-tiny.en",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers.js",
+      "onnx",
+      "whisper",
+      "automatic-speech-recognition",
+      "base_model:openai/whisper-tiny.en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:54.234644+00:00",
+    "source_ids": [
+      "onnx-community/whisper-tiny.en"
+    ],
+    "family": "whisper-tiny.en"
+  },
+  {
+    "id": "huggingface:meta-models/Muse-Spark-Open-816B-A42B",
+    "name": "Muse-Spark-Open-816B-A42B",
+    "provider": "meta-models",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T19:23:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "muse_spark",
+      "image-text-to-text",
+      "facebook"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:54.289225+00:00",
+    "source_ids": [
+      "meta-models/Muse-Spark-Open-816B-A42B"
+    ],
+    "family": "Muse-Spark-Open"
+  },
+  {
+    "id": "huggingface:meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+    "name": "Muse-Spark-Open-816B-A42B-NVFP4",
+    "provider": "meta-models",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T19:23:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "muse_spark",
+      "image-text-to-text",
+      "facebook"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:54.289261+00:00",
+    "source_ids": [
+      "meta-models/Muse-Spark-Open-816B-A42B-NVFP4"
+    ],
+    "family": "Muse-Spark-Open-NVFP4"
   }
 ]

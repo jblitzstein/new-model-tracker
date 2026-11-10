@@ -1,5 +1,137 @@
 [
   {
+    "id": "openrouter:baidu/ernie-5.5-flash-preview",
+    "name": "Baidu: ERNIE-5.5-Flash-Preview",
+    "provider": "Baidu",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T17:58:53+00:00",
+    "context_length": 1024000,
+    "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...",
+    "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.28,
+      "completion_per_million": 1.13
+    },
+    "first_seen": "2026-11-10T21:39:53.794155+00:00",
+    "source_ids": [
+      "baidu/ernie-5.5-flash-preview"
+    ],
+    "family": "ERNIE-5.5-Flash"
+  },
+  {
+    "id": "openrouter:baidu/ernie-light-dt-1.0-intl",
+    "name": "Baidu: ERNIE-Light-DT-1.0",
+    "provider": "Baidu",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T17:21:00+00:00",
+    "context_length": 1024000,
+    "description": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by...",
+    "url": "https://openrouter.ai/baidu/ernie-light-dt-1.0-intl",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.13,
+      "completion_per_million": 3.94
+    },
+    "first_seen": "2026-11-10T21:39:53.795118+00:00",
+    "source_ids": [
+      "baidu/ernie-light-dt-1.0-intl"
+    ],
+    "family": "ERNIE-Light-DT-1.0"
+  },
+  {
+    "id": "openrouter:google/gemini-4-carbon",
+    "name": "Google: Gemini 4 Carbon",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T16:07:51+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+    "url": "https://openrouter.ai/google/gemini-4-carbon",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 10.0
+    },
+    "first_seen": "2026-11-10T21:39:53.795182+00:00",
+    "source_ids": [
+      "google/gemini-4-carbon"
+    ],
+    "family": "Gemini 4 Carbon"
+  },
+  {
+    "id": "openrouter:google/gemini-4-carbon:batch",
+    "name": "Google: Gemini 4 Carbon (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T16:07:51+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+    "url": "https://openrouter.ai/google/gemini-4-carbon:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.0,
+      "completion_per_million": 5.0
+    },
+    "first_seen": "2026-11-10T21:39:53.795220+00:00",
+    "source_ids": [
+      "google/gemini-4-carbon:batch"
+    ],
+    "family": "Gemini 4 Carbon (batch)"
+  },
+  {
     "id": "openrouter:nex-agi/nex-n2.6",
     "name": "Nex AGI: Nex-N2.6",
     "provider": "Nex AGI",
@@ -10466,108 +10598,6 @@
     "family": "basal-omni-1.0-mini"
   },
   {
-    "id": "huggingface:mflux-community/flux-1-schnell-mflux-q4",
-    "name": "flux-1-schnell-mflux-q4",
-    "provider": "mflux-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T07:11:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mflux-community/flux-1-schnell-mflux-q4",
-    "tags": [
-      "text-to-image",
-      "mflux",
-      "safetensors",
-      "mlx",
-      "apple-silicon",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876304+00:00",
-    "source_ids": [
-      "mflux-community/flux-1-schnell-mflux-q4"
-    ],
-    "family": "flux-1-schnell-mflux-q4"
-  },
-  {
-    "id": "huggingface:mflux-community/flux-1-schnell-mflux-q8",
-    "name": "flux-1-schnell-mflux-q8",
-    "provider": "mflux-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T07:08:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mflux-community/flux-1-schnell-mflux-q8",
-    "tags": [
-      "text-to-image",
-      "mflux",
-      "safetensors",
-      "mlx",
-      "apple-silicon",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876273+00:00",
-    "source_ids": [
-      "mflux-community/flux-1-schnell-mflux-q8"
-    ],
-    "family": "flux-1-schnell-mflux-q8"
-  },
-  {
-    "id": "huggingface:mflux-community/qwen-image-2512-mflux-q4",
-    "name": "qwen-image-2512-mflux-q4",
-    "provider": "mflux-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T07:02:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mflux-community/qwen-image-2512-mflux-q4",
-    "tags": [
-      "text-to-image",
-      "mflux",
-      "safetensors",
-      "mlx",
-      "apple-silicon",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876136+00:00",
-    "source_ids": [
-      "mflux-community/qwen-image-2512-mflux-q4"
-    ],
-    "family": "qwen-image-2512-mflux-q4"
-  },
-  {
     "id": "huggingface:OpenMOSS-Team/MOSS-Image-SFT",
     "name": "MOSS-Image-SFT",
     "provider": "OpenMOSS-Team",
@@ -10602,40 +10632,6 @@
     "family": "MOSS-Image-SFT"
   },
   {
-    "id": "huggingface:mflux-community/qwen-image-2512-mflux-q8",
-    "name": "qwen-image-2512-mflux-q8",
-    "provider": "mflux-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T06:55:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mflux-community/qwen-image-2512-mflux-q8",
-    "tags": [
-      "text-to-image",
-      "mflux",
-      "safetensors",
-      "mlx",
-      "apple-silicon",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876101+00:00",
-    "source_ids": [
-      "mflux-community/qwen-image-2512-mflux-q8"
-    ],
-    "family": "qwen-image-2512-mflux-q8"
-  },
-  {
     "id": "huggingface:OpenMOSS-Team/MOSS-Image-Base",
     "name": "MOSS-Image-Base",
     "provider": "OpenMOSS-Team",
@@ -10668,108 +10664,6 @@
       "OpenMOSS-Team/MOSS-Image-Base"
     ],
     "family": "MOSS-Image"
-  },
-  {
-    "id": "huggingface:mflux-community/qwen-image-mflux-q4",
-    "name": "qwen-image-mflux-q4",
-    "provider": "mflux-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T06:46:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mflux-community/qwen-image-mflux-q4",
-    "tags": [
-      "text-to-image",
-      "mflux",
-      "safetensors",
-      "mlx",
-      "apple-silicon",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876236+00:00",
-    "source_ids": [
-      "mflux-community/qwen-image-mflux-q4"
-    ],
-    "family": "qwen-image-mflux-q4"
-  },
-  {
-    "id": "huggingface:mflux-community/qwen-image-mflux-q8",
-    "name": "qwen-image-mflux-q8",
-    "provider": "mflux-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T06:40:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mflux-community/qwen-image-mflux-q8",
-    "tags": [
-      "text-to-image",
-      "mflux",
-      "safetensors",
-      "mlx",
-      "apple-silicon",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876206+00:00",
-    "source_ids": [
-      "mflux-community/qwen-image-mflux-q8"
-    ],
-    "family": "qwen-image-mflux-q8"
-  },
-  {
-    "id": "huggingface:mflux-community/qwen-image-mflux-bf16",
-    "name": "qwen-image-mflux-bf16",
-    "provider": "mflux-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T06:37:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/mflux-community/qwen-image-mflux-bf16",
-    "tags": [
-      "text-to-image",
-      "mflux",
-      "safetensors",
-      "mlx",
-      "apple-silicon",
-      "text-to-image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876177+00:00",
-    "source_ids": [
-      "mflux-community/qwen-image-mflux-bf16"
-    ],
-    "family": "qwen-image-mflux-bf16"
   },
   {
     "id": "huggingface:axteam/gemma-4-31B-GGUF",
@@ -11508,40 +11402,6 @@
     "family": "Swift-1.5-Qwen3.8-Uncensored-MTP-VAL-APEX-I-MiniPlus-V3"
   },
   {
-    "id": "huggingface:abenzerps/Qwen-Image-2.1-Turbo-Quantized",
-    "name": "Qwen-Image-2.1-Turbo-Quantized",
-    "provider": "abenzerps",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-09T15:20:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "qwen",
-      "image-generation",
-      "comfyui",
-      "comfyui-gguf"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.876001+00:00",
-    "source_ids": [
-      "abenzerps/Qwen-Image-2.1-Turbo-Quantized"
-    ],
-    "family": "Qwen-Image-2.1-Turbo-Quantized"
-  },
-  {
     "id": "huggingface:AtomicChat/Qwen-Image-2.1-Turbo-GGUF",
     "name": "Qwen-Image-2.1-Turbo-GGUF",
     "provider": "AtomicChat",
@@ -11574,72 +11434,6 @@
       "AtomicChat/Qwen-Image-2.1-Turbo-GGUF"
     ],
     "family": "Qwen-Image-2.1-Turbo"
-  },
-  {
-    "id": "huggingface:Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata",
-    "name": "Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata",
-    "provider": "Maximilian228",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-09T14:28:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata",
-    "tags": [
-      "text-generation",
-      "strata",
-      "gguf",
-      "nvfp4",
-      "gptq",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.791665+00:00",
-    "source_ids": [
-      "Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata"
-    ],
-    "family": "Qwen3.8-Flash-Next-NVFP4--Strata"
-  },
-  {
-    "id": "huggingface:Maximilian228/Qwen3.8-Flash-Next-NVIDIA-NVFP4-Strata",
-    "name": "Qwen3.8-Flash-Next-NVIDIA-NVFP4-Strata",
-    "provider": "Maximilian228",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-09T13:58:08.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVIDIA-NVFP4-Strata",
-    "tags": [
-      "text-generation",
-      "strata",
-      "gguf",
-      "nvfp4",
-      "modelopt",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.791629+00:00",
-    "source_ids": [
-      "Maximilian228/Qwen3.8-Flash-Next-NVIDIA-NVFP4-Strata"
-    ],
-    "family": "Qwen3.8-Flash-Next-NVIDIA-NVFP4-Strata"
   },
   {
     "id": "huggingface:DogukanUrker/Qwen-Image-2.1-Turbo-GGUF",
@@ -12014,40 +11808,6 @@
     "family": "Muse-Glimmer"
   },
   {
-    "id": "huggingface:cloud0day3/antalia-mini",
-    "name": "antalia-mini",
-    "provider": "cloud0day3",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-10-08T10:57:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cloud0day3/antalia-mini",
-    "tags": [
-      "text-to-speech",
-      "antalia-mini",
-      "text-to-speech",
-      "tts",
-      "turkish",
-      "flow-matching"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:32.147533+00:00",
-    "source_ids": [
-      "cloud0day3/antalia-mini"
-    ],
-    "family": "antalia-mini"
-  },
-  {
     "id": "huggingface:openbmb/MiniCPM-V-4.7-35B-A3B-FP8",
     "name": "MiniCPM-V-4.7-35B-A3B-FP8",
     "provider": "openbmb",
@@ -12081,39 +11841,6 @@
       "openbmb/MiniCPM-V-4.7-35B-A3B-FP8"
     ],
     "family": "MiniCPM-V-4.7-FP8"
-  },
-  {
-    "id": "huggingface:kindlingai/glm-5.3-exlr8-k2-k3-k4",
-    "name": "glm-5.3-exlr8-k2-k3-k4",
-    "provider": "kindlingai",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-08T03:20:20.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kindlingai/glm-5.3-exlr8-k2-k3-k4",
-    "tags": [
-      "text-generation",
-      "trellis",
-      "glm_moe_dsa",
-      "quantized",
-      "exl3",
-      "moe"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.791541+00:00",
-    "source_ids": [
-      "kindlingai/glm-5.3-exlr8-k2-k3-k4"
-    ],
-    "family": "glm-5.3-exlr8-k2-k3-k4"
   },
   {
     "id": "huggingface:IsValorum/Qwen3.8-27B-VAL-APEX-I-MiniPlus-V3-GGUF",
@@ -12487,40 +12214,6 @@
       "openbmb/MiniCPM-V-4.7-35B-A3B"
     ],
     "family": "MiniCPM-V-4.7"
-  },
-  {
-    "id": "huggingface:Veda-Sparse/Minimax-H3-R2VA-Veda-Preview",
-    "name": "Minimax-H3-R2VA-Veda-Preview",
-    "provider": "Veda-Sparse",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-10-07T04:49:55.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Veda-Sparse/Minimax-H3-R2VA-Veda-Preview",
-    "tags": [
-      "text-to-video",
-      "minimax-h3",
-      "veda_tile_score_predictor",
-      "ref-to-video",
-      "video",
-      "audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:32.007154+00:00",
-    "source_ids": [
-      "Veda-Sparse/Minimax-H3-R2VA-Veda-Preview"
-    ],
-    "family": "Minimax-H3-R2VA-Veda"
   },
   {
     "id": "huggingface:Baekpica/GLM-5.3-Flash-Uncensored-Mixed-Quant-GGUF",
@@ -13307,41 +13000,6 @@
     "family": "swa-100mb-after-wc-uniform-newlex-before-ckpt500-packed-bfdiso_seed3407"
   },
   {
-    "id": "huggingface:shefowl/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-Hybrid-GGUF",
-    "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-Hybrid-GGUF",
-    "provider": "shefowl",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-03T09:04:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/shefowl/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-Hybrid-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "strata",
-      "llama.cpp",
-      "moe",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T19:56:32.222684+00:00",
-    "source_ids": [
-      "shefowl/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-Hybrid-GGUF"
-    ],
-    "family": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-Hybrid"
-  },
-  {
     "id": "huggingface:doth4580/Qwen3.8-Flash-Next-EXL3-4.05bpw",
     "name": "Qwen3.8-Flash-Next-EXL3-4.05bpw",
     "provider": "doth4580",
@@ -13477,41 +13135,6 @@
       "h2oai/h2o-lightning-4b"
     ],
     "family": "h2o-lightning"
-  },
-  {
-    "id": "huggingface:ggml-org/MiMo-V2.6-Pro-MOPD-GGUF",
-    "name": "MiMo-V2.6-Pro-MOPD-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-02T19:10:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/MiMo-V2.6-Pro-MOPD-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "image-text-to-text",
-      "base_model:XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
-      "base_model:quantized:XiaomiMiMo/MiMo-V2.6-Pro-MOPD"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:32.316909+00:00",
-    "source_ids": [
-      "ggml-org/MiMo-V2.6-Pro-MOPD-GGUF"
-    ],
-    "family": "MiMo-V2.6-Pro-MOPD"
   },
   {
     "id": "huggingface:smalinin/Step-5-Preview-GGUF",
@@ -13752,40 +13375,6 @@
     "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
   },
   {
-    "id": "huggingface:ZhengmingYu/DMAD",
-    "name": "DMAD",
-    "provider": "ZhengmingYu",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-10-02T00:48:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ZhengmingYu/DMAD",
-    "tags": [
-      "text-to-video",
-      "minimax-h3",
-      "diffusers",
-      "text-to-audio-video",
-      "audio-video-generation",
-      "distillation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:32.007050+00:00",
-    "source_ids": [
-      "ZhengmingYu/DMAD"
-    ],
-    "family": "DMAD"
-  },
-  {
     "id": "huggingface:nvidia/Flora-Captioner",
     "name": "Flora-Captioner",
     "provider": "NVIDIA",
@@ -13819,41 +13408,6 @@
       "nvidia/Flora-Captioner"
     ],
     "family": "Flora-Captioner"
-  },
-  {
-    "id": "huggingface:ggml-org/OpenJev-GGUF",
-    "name": "OpenJev-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-01T21:39:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/OpenJev-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "decision-model",
-      "image-text-to-text",
-      "base_model:openjev/openjev"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:32.316812+00:00",
-    "source_ids": [
-      "ggml-org/OpenJev-GGUF"
-    ],
-    "family": "OpenJev"
   },
   {
     "id": "huggingface:Mohammed422/invoices-donut-model-v3",
@@ -14738,41 +14292,6 @@
       "SoAIHQ/Qwen3.5-4B-GGUF"
     ],
     "family": "Qwen3.5"
-  },
-  {
-    "id": "huggingface:2beng2/Swift-1.5-Qwen3.8-27B-Uncensored-NVFP4-NInfer",
-    "name": "Swift-1.5-Qwen3.8-27B-Uncensored-NVFP4-NInfer",
-    "provider": "2beng2",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-26T15:23:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/2beng2/Swift-1.5-Qwen3.8-27B-Uncensored-NVFP4-NInfer",
-    "tags": [
-      "image-text-to-text",
-      "ninfer",
-      "qwen3_8",
-      "swift-1.5",
-      "nvfp4",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:32.316858+00:00",
-    "source_ids": [
-      "2beng2/Swift-1.5-Qwen3.8-27B-Uncensored-NVFP4-NInfer"
-    ],
-    "family": "Swift-1.5-Qwen3.8-Uncensored-NVFP4-NInfer"
   },
   {
     "id": "huggingface:dotlabs/void.1",
@@ -15995,6 +15514,76 @@
     "family": "Qwen-Image-2.1"
   },
   {
+    "id": "huggingface:meta-models/Muse-Spark-Open-816B-A42B",
+    "name": "Muse-Spark-Open-816B-A42B",
+    "provider": "meta-models",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T19:23:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "muse_spark",
+      "image-text-to-text",
+      "facebook"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:54.289225+00:00",
+    "source_ids": [
+      "meta-models/Muse-Spark-Open-816B-A42B"
+    ],
+    "family": "Muse-Spark-Open"
+  },
+  {
+    "id": "huggingface:meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+    "name": "Muse-Spark-Open-816B-A42B-NVFP4",
+    "provider": "meta-models",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-09-15T19:23:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "muse_spark",
+      "image-text-to-text",
+      "facebook"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:54.289261+00:00",
+    "source_ids": [
+      "meta-models/Muse-Spark-Open-816B-A42B-NVFP4"
+    ],
+    "family": "Muse-Spark-Open-NVFP4"
+  },
+  {
     "id": "huggingface:dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW",
     "name": "Dongfangshuo-Qwen3.8-27B-NSFW",
     "provider": "dongfangshuo",
@@ -16300,41 +15889,6 @@
     "family": "Ternary-Bonsai"
   },
   {
-    "id": "huggingface:Jundot/DeepSeek-V4.1-Flash-oQ4e-mtp",
-    "name": "DeepSeek-V4.1-Flash-oQ4e-mtp",
-    "provider": "Jundot",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-10T18:58:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jundot/DeepSeek-V4.1-Flash-oQ4e-mtp",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "deepseek_v41",
-      "oq",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T19:56:32.222803+00:00",
-    "source_ids": [
-      "Jundot/DeepSeek-V4.1-Flash-oQ4e-mtp"
-    ],
-    "family": "DeepSeek-V4.1-Flash-oQ4e-mtp"
-  },
-  {
     "id": "huggingface:netease-youdao/Confucius4-R2T2",
     "name": "Confucius4-R2T2",
     "provider": "netease-youdao",
@@ -16437,39 +15991,6 @@
       "CaptchaKraken/CaptchaKraken-v1.2-GGUF"
     ],
     "family": "CaptchaKraken-v1.2"
-  },
-  {
-    "id": "huggingface:hendrimardani/fine-tuned-model-indonesian-GRPO",
-    "name": "fine-tuned-model-indonesian-GRPO",
-    "provider": "hendrimardani",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-09T14:40:39.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hendrimardani/fine-tuned-model-indonesian-GRPO",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "llama",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T19:56:31.357560+00:00",
-    "source_ids": [
-      "hendrimardani/fine-tuned-model-indonesian-GRPO"
-    ],
-    "family": "fine-tuned-model-indonesian-GRPO"
   },
   {
     "id": "huggingface:Skttttt/Himeros-V2-27B-GGUF",
@@ -17019,41 +16540,6 @@
       "qwen/qwen3.8-max-0902:batch"
     ],
     "family": "Qwen3.8 Max (0902) (batch)"
-  },
-  {
-    "id": "huggingface:TheDrainFlorist/GLM-5.3-Flash-VQ-2.7bpw",
-    "name": "GLM-5.3-Flash-VQ-2.7bpw",
-    "provider": "TheDrainFlorist",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-03T20:00:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TheDrainFlorist/GLM-5.3-Flash-VQ-2.7bpw",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "glm5_next",
-      "quantized",
-      "vector-quantization"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T19:56:32.223004+00:00",
-    "source_ids": [
-      "TheDrainFlorist/GLM-5.3-Flash-VQ-2.7bpw"
-    ],
-    "family": "GLM-5.3-Flash-VQ-2.7bpw"
   },
   {
     "id": "huggingface:nvidia/Nemotron-3.5-Parse",
@@ -19442,6 +18928,402 @@
     "family": "ViuAI-500M"
   },
   {
+    "id": "huggingface:CladeTeam/CENO-1.3B-A450M-1m",
+    "name": "CENO-1.3B-A450M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:51:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-1.3B-A450M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944633+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-1.3B-A450M-1m"
+    ],
+    "family": "CENO-A450M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-1.3B-A450M-131k",
+    "name": "CENO-1.3B-A450M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:46:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-1.3B-A450M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944669+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-1.3B-A450M-131k"
+    ],
+    "family": "CENO-A450M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-1.3B-A450M-base",
+    "name": "CENO-1.3B-A450M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:42:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-1.3B-A450M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944701+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-1.3B-A450M-base"
+    ],
+    "family": "CENO-A450M"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-600M-A230M-1m",
+    "name": "CENO-600M-A230M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:34:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-600M-A230M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944731+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-600M-A230M-1m"
+    ],
+    "family": "CENO-600M-A230M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-600M-A230M-131k",
+    "name": "CENO-600M-A230M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:20:47.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-600M-A230M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944760+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-600M-A230M-131k"
+    ],
+    "family": "CENO-600M-A230M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-600M-A230M-base",
+    "name": "CENO-600M-A230M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:19:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-600M-A230M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944788+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-600M-A230M-base"
+    ],
+    "family": "CENO-600M-A230M"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-300M-A105M-1m",
+    "name": "CENO-300M-A105M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:18:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-300M-A105M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944816+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-300M-A105M-1m"
+    ],
+    "family": "CENO-300M-A105M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-300M-A105M-131k",
+    "name": "CENO-300M-A105M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:16:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-300M-A105M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944843+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-300M-A105M-131k"
+    ],
+    "family": "CENO-300M-A105M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-300M-A105M-base",
+    "name": "CENO-300M-A105M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:07:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-300M-A105M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944870+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-300M-A105M-base"
+    ],
+    "family": "CENO-300M-A105M"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-80M-A30M-1m",
+    "name": "CENO-80M-A30M-1m",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:07:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-80M-A30M-1m",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944897+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-80M-A30M-1m"
+    ],
+    "family": "CENO-80M-A30M-1m"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-80M-A30M-131k",
+    "name": "CENO-80M-A30M-131k",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:06:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-80M-A30M-131k",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944922+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-80M-A30M-131k"
+    ],
+    "family": "CENO-80M-A30M-131k"
+  },
+  {
+    "id": "huggingface:CladeTeam/CENO-80M-A30M-base",
+    "name": "CENO-80M-A30M-base",
+    "provider": "CladeTeam",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-07-10T04:04:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CladeTeam/CENO-80M-A30M-base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "ceno",
+      "text-generation",
+      "dna"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:53.944948+00:00",
+    "source_ids": [
+      "CladeTeam/CENO-80M-A30M-base"
+    ],
+    "family": "CENO-80M-A30M"
+  },
+  {
     "id": "huggingface:Joakim/kokoro-sv-voices",
     "name": "kokoro-sv-voices",
     "provider": "Joakim",
@@ -20762,40 +20644,6 @@
       "ampixa/real-nepali-v0.2-kala"
     ],
     "family": "real-nepali-v0.2-kala"
-  },
-  {
-    "id": "huggingface:h4shy/FLUX.1-dev-FluxedUp-V10-GGUF",
-    "name": "FLUX.1-dev-FluxedUp-V10-GGUF",
-    "provider": "h4shy",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-05-03T07:38:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/h4shy/FLUX.1-dev-FluxedUp-V10-GGUF",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "gguf",
-      "text-to-image",
-      "base_model:black-forest-labs/FLUX.1-dev",
-      "base_model:quantized:black-forest-labs/FLUX.1-dev"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T14:41:31.875949+00:00",
-    "source_ids": [
-      "h4shy/FLUX.1-dev-FluxedUp-V10-GGUF"
-    ],
-    "family": "FLUX.1-dev-FluxedUp-V10"
   },
   {
     "id": "huggingface:protocolsyncllc/medgap-qwen-3.5-9b",
@@ -23973,6 +23821,40 @@
       "onnx-community/whisper-base"
     ],
     "family": "whisper"
+  },
+  {
+    "id": "huggingface:onnx-community/whisper-tiny.en",
+    "name": "whisper-tiny.en",
+    "provider": "onnx-community",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2024-05-24T16:53:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/onnx-community/whisper-tiny.en",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers.js",
+      "onnx",
+      "whisper",
+      "automatic-speech-recognition",
+      "base_model:openai/whisper-tiny.en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T21:39:54.234644+00:00",
+    "source_ids": [
+      "onnx-community/whisper-tiny.en"
+    ],
+    "family": "whisper-tiny.en"
   },
   {
     "id": "huggingface:Xenova/trocr-small-handwritten",
