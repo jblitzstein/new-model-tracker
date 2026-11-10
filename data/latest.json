@@ -1,5 +1,36 @@
 [
   {
+    "id": "openrouter:nex-agi/nex-n2.6",
+    "name": "Nex AGI: Nex-N2.6",
+    "provider": "Nex AGI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T03:46:19+00:00",
+    "context_length": 262144,
+    "description": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters. It is suited for computer use, coding, and long-horizon tasks that involve tools. Compared with...",
+    "url": "https://openrouter.ai/nex-agi/nex-n2.6",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.12,
+      "completion_per_million": 0.4
+    },
+    "first_seen": "2026-11-10T12:10:34.155911+00:00",
+    "source_ids": [
+      "nex-agi/nex-n2.6"
+    ],
+    "family": "Nex-N2.6"
+  },
+  {
     "id": "openrouter:thinkingmachines/inkling-2-small:free",
     "name": "Thinking Machines: Inkling 2 Small (free)",
     "provider": "thinkingmachines",
@@ -228,6 +259,40 @@
       "ZAQERIS/ZAQERIS_AXIOM"
     ],
     "family": "ZAQERIS_AXIOM"
+  },
+  {
+    "id": "huggingface:akhaliq/p-h3-image-pdmd-2step",
+    "name": "p-h3-image-pdmd-2step",
+    "provider": "akhaliq",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-07T07:36:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/akhaliq/p-h3-image-pdmd-2step",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "image-generation",
+      "lora",
+      "few-step"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T12:10:34.391496+00:00",
+    "source_ids": [
+      "akhaliq/p-h3-image-pdmd-2step"
+    ],
+    "family": "p-h3-image-pdmd-2step"
   },
   {
     "id": "openrouter:liquid/lfm-3-1.7b",
@@ -750,6 +815,39 @@
       "OliviaRossi/Minimax-H3-Hybrid-DMAD-PDMD"
     ],
     "family": "Minimax-H3-Hybrid-DMAD-PDMD"
+  },
+  {
+    "id": "huggingface:brbrainerd/vox-mens-qwen3-14b",
+    "name": "vox-mens-qwen3-14b",
+    "provider": "brbrainerd",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-03T08:15:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/brbrainerd/vox-mens-qwen3-14b",
+    "tags": [
+      "text-generation",
+      "vox",
+      "qwen3",
+      "vox-mens",
+      "qlora",
+      "candle"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T12:10:34.290098+00:00",
+    "source_ids": [
+      "brbrainerd/vox-mens-qwen3-14b"
+    ],
+    "family": "vox-mens-qwen3"
   },
   {
     "id": "openrouter:stealth/crouton-alpha",
@@ -1386,6 +1484,39 @@
       "TokenTinkerer/Groot-19B-A3B-TTQ-GGUF"
     ],
     "family": "Groot-TTQ"
+  },
+  {
+    "id": "huggingface:immiq/DeepSeek-V4.1-Flash-1017-Orinfer-A2-W4A8",
+    "name": "DeepSeek-V4.1-Flash-1017-Orinfer-A2-W4A8",
+    "provider": "immiq",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-31T02:56:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/immiq/DeepSeek-V4.1-Flash-1017-Orinfer-A2-W4A8",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "deepseek_v41",
+      "orinfer",
+      "ascend910b",
+      "w4a8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T12:10:34.290248+00:00",
+    "source_ids": [
+      "immiq/DeepSeek-V4.1-Flash-1017-Orinfer-A2-W4A8"
+    ],
+    "family": "DeepSeek-V4.1-Flash-1017-Orinfer-A2-W4A8"
   },
   {
     "id": "huggingface:VaibhavKKM/hpc-assistant-qwen3-8b",
@@ -9283,6 +9414,39 @@
     "family": "Qwen2.5-VL--heretic"
   },
   {
+    "id": "huggingface:domyn/Domyn-Edge-Base",
+    "name": "Domyn-Edge-Base",
+    "provider": "domyn",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-13T10:33:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/domyn/Domyn-Edge-Base",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "domynedge",
+      "text-generation",
+      "domyn"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T12:10:34.290182+00:00",
+    "source_ids": [
+      "domyn/Domyn-Edge-Base"
+    ],
+    "family": "Domyn-Edge"
+  },
+  {
     "id": "huggingface:DavidAU/Qwen3.8-Flash-Next-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF",
     "name": "Qwen3.8-Flash-Next-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF",
     "provider": "DavidAU",
@@ -13350,76 +13514,6 @@
     "family": "MiMo-V2.6-Pro-MOPD"
   },
   {
-    "id": "huggingface:ggml-org/Clef-GGUF",
-    "name": "Clef-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-02T17:34:38.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/Clef-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "decision-model",
-      "image-text-to-text",
-      "base_model:Cloudflare/clef"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T04:22:44.585951+00:00",
-    "source_ids": [
-      "ggml-org/Clef-GGUF"
-    ],
-    "family": "Clef"
-  },
-  {
-    "id": "huggingface:ggml-org/Clef-Flash-GGUF",
-    "name": "Clef-Flash-GGUF",
-    "provider": "ggml-org",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-02T17:29:28.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ggml-org/Clef-Flash-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "quantized",
-      "decision-model",
-      "image-text-to-text",
-      "base_model:Cloudflare/clef-flash"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T04:22:44.585969+00:00",
-    "source_ids": [
-      "ggml-org/Clef-Flash-GGUF"
-    ],
-    "family": "Clef-Flash"
-  },
-  {
     "id": "huggingface:smalinin/Step-5-Preview-GGUF",
     "name": "Step-5-Preview-GGUF",
     "provider": "smalinin",
@@ -15463,72 +15557,6 @@
       "neopolita/Qwen3.8-Flash-Next-102B-A5B-Niwaki-v2.4-3bit-gguf"
     ],
     "family": "Qwen3.8-Flash-Next-Niwaki-v2.4-3bit"
-  },
-  {
-    "id": "huggingface:autotrust/GLM-5.3-GGUF-DGX-Spark",
-    "name": "GLM-5.3-GGUF-DGX-Spark",
-    "provider": "autotrust",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-20T04:57:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/autotrust/GLM-5.3-GGUF-DGX-Spark",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "dgx-spark",
-      "moe",
-      "expert-pruning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T04:22:43.790073+00:00",
-    "source_ids": [
-      "autotrust/GLM-5.3-GGUF-DGX-Spark"
-    ],
-    "family": "GLM-5.3--DGX-Spark"
-  },
-  {
-    "id": "huggingface:autotrust/GLM-5.3-Flash-GGUF-DGX-Spark",
-    "name": "GLM-5.3-Flash-GGUF-DGX-Spark",
-    "provider": "autotrust",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-20T04:03:31.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/autotrust/GLM-5.3-Flash-GGUF-DGX-Spark",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "dgx-spark",
-      "gb10",
-      "glm5-next"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-11T04:22:43.790098+00:00",
-    "source_ids": [
-      "autotrust/GLM-5.3-Flash-GGUF-DGX-Spark"
-    ],
-    "family": "GLM-5.3-Flash--DGX-Spark"
   },
   {
     "id": "huggingface:neopolita/Qwen3.8-Flash-Next-119B-A5B-Niwaki-v2.4-3bit-gguf",
@@ -18230,6 +18258,41 @@
       "Qwen/Qwen3.8-27B-FP8"
     ],
     "family": "Qwen3.8-FP8"
+  },
+  {
+    "id": "huggingface:divinetribe/Muse-Glimmer-30B-Abliterated-MM-bf16",
+    "name": "Muse-Glimmer-30B-Abliterated-MM-bf16",
+    "provider": "divinetribe",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-12T22:06:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/divinetribe/Muse-Glimmer-30B-Abliterated-MM-bf16",
+    "tags": [
+      "image-text-to-text",
+      "mlx-vlm",
+      "safetensors",
+      "muse_glimmer",
+      "mlx",
+      "vision"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-10T12:10:34.920675+00:00",
+    "source_ids": [
+      "divinetribe/Muse-Glimmer-30B-Abliterated-MM-bf16"
+    ],
+    "family": "Muse-Glimmer-Abliterated-MM-bf16"
   },
   {
     "id": "huggingface:TheDivergentAI/LTX2.5-Turbo-Distill-8step-LoRA",
