@@ -190163,5 +190163,268 @@
       "meta-models/Muse-Spark-Open-816B-A42B-NVFP4"
     ],
     "family": "Muse-Spark-Open-NVFP4"
+  },
+  {
+    "id": "openrouter:kt/midm-k-3.0-pro",
+    "name": "KT: Mi:dm K 3.0 Pro",
+    "provider": "kt",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-05T16:55:01+00:00",
+    "context_length": 261795,
+    "description": "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters. It uses a hybrid architecture that mixes Mamba, MoE and attention layers.",
+    "url": "https://openrouter.ai/kt/midm-k-3.0-pro",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.2,
+      "completion_per_million": 0.8
+    },
+    "first_seen": "2026-11-11T04:57:19.183385+00:00",
+    "source_ids": [
+      "kt/midm-k-3.0-pro"
+    ],
+    "family": "Mi:dm K 3.0 Pro"
+  },
+  {
+    "id": "openrouter:motif-technologies/motif-3",
+    "name": "Motif Technologies: Motif 3",
+    "provider": "motif-technologies",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-02T21:35:34+00:00",
+    "context_length": 262144,
+    "description": "Motif 3 is a Mixture-of-Experts language model from Motif Technologies, with 314B total and 13.2B active parameters. It is a general-purpose multilingual model for English and Korean, particularly strong at...",
+    "url": "https://openrouter.ai/motif-technologies/motif-3",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.2
+    },
+    "first_seen": "2026-11-11T04:57:19.183491+00:00",
+    "source_ids": [
+      "motif-technologies/motif-3"
+    ],
+    "family": "Motif 3"
+  },
+  {
+    "id": "huggingface:kabcpc/Ternary-Flint-40B-GGUF",
+    "name": "Ternary-Flint-40B-GGUF",
+    "provider": "kabcpc",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-07T04:47:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kabcpc/Ternary-Flint-40B-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "ternary",
+      "moe",
+      "40b",
+      "apple-silicon"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T04:57:19.301778+00:00",
+    "source_ids": [
+      "kabcpc/Ternary-Flint-40B-GGUF"
+    ],
+    "family": "Ternary-Flint"
+  },
+  {
+    "id": "huggingface:unsloth/Qwen-Image-2.1-Turbo-GGUF",
+    "name": "Qwen-Image-2.1-Turbo-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-10T05:33:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Qwen-Image-2.1-Turbo-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "quantized",
+      "unsloth",
+      "qwen",
+      "image-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T04:57:19.361347+00:00",
+    "source_ids": [
+      "unsloth/Qwen-Image-2.1-Turbo-GGUF"
+    ],
+    "family": "Qwen-Image-2.1-Turbo"
+  },
+  {
+    "id": "huggingface:unsloth/MOSS-Image-Base-GGUF",
+    "name": "MOSS-Image-Base-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-22T00:04:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/MOSS-Image-Base-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "unsloth",
+      "quantized",
+      "moss-image",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T04:57:19.361420+00:00",
+    "source_ids": [
+      "unsloth/MOSS-Image-Base-GGUF"
+    ],
+    "family": "MOSS-Image"
+  },
+  {
+    "id": "huggingface:unsloth/MOSS-Image-SFT-GGUF",
+    "name": "MOSS-Image-SFT-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-22T00:04:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/MOSS-Image-SFT-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "unsloth",
+      "quantized",
+      "moss-image",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T04:57:19.361453+00:00",
+    "source_ids": [
+      "unsloth/MOSS-Image-SFT-GGUF"
+    ],
+    "family": "MOSS-Image-SFT"
+  },
+  {
+    "id": "huggingface:unsloth/flux-3-image-klein-pup-GGUF",
+    "name": "flux-3-image-klein-pup-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T21:18:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/flux-3-image-klein-pup-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "unsloth",
+      "llama.cpp",
+      "prompt-upsampling",
+      "prompt-rewriting"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T04:57:19.653267+00:00",
+    "source_ids": [
+      "unsloth/flux-3-image-klein-pup-GGUF"
+    ],
+    "family": "flux-3-image-klein-pup"
+  },
+  {
+    "id": "huggingface:litert-community/LFM2.5-VL-1.6B",
+    "name": "LFM2.5-VL-1.6B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T03:15:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/LFM2.5-VL-1.6B",
+    "tags": [
+      "image-text-to-text",
+      "litert-lm",
+      "litert",
+      "litertlm",
+      "on-device",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T04:57:19.653398+00:00",
+    "source_ids": [
+      "litert-community/LFM2.5-VL-1.6B"
+    ],
+    "family": "LFM2.5-VL"
   }
 ]
