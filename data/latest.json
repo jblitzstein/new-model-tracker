@@ -2003,6 +2003,41 @@
     "family": "RuBio"
   },
   {
+    "id": "huggingface:IsValorum/Groot-19B-A3B-261023-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Groot-19B-A3B-261023-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-30T23:57:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Groot-19B-A3B-261023-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T22:29:46.043607+00:00",
+    "source_ids": [
+      "IsValorum/Groot-19B-A3B-261023-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Groot-261023-APEX-I-MiniPlus-V2.1"
+  },
+  {
     "id": "huggingface:dendriteholdings/Ingot-XVII-27B-Q2",
     "name": "Ingot-XVII-27B-Q2",
     "provider": "dendriteholdings",
@@ -5167,6 +5202,41 @@
       "Remek/basal-omni-pico"
     ],
     "family": "basal-omni-pico"
+  },
+  {
+    "id": "huggingface:IsValorum/Sage-A1.5-APEX-I-MiniPlus-V2.1-GGUF",
+    "name": "Sage-A1.5-APEX-I-MiniPlus-V2.1-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-22T04:43:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Sage-A1.5-APEX-I-MiniPlus-V2.1-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "apex"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T22:29:46.043699+00:00",
+    "source_ids": [
+      "IsValorum/Sage-A1.5-APEX-I-MiniPlus-V2.1-GGUF"
+    ],
+    "family": "Sage-A1.5-APEX-I-MiniPlus-V2.1"
   },
   {
     "id": "huggingface:orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
@@ -9061,6 +9131,39 @@
     "family": "flux-3-image-klein-pup"
   },
   {
+    "id": "huggingface:IsValorum/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "name": "Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "provider": "IsValorum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T20:35:28.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/IsValorum/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated-VAL-APEX-I-MiniPlus-V3-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantized",
+      "quantization",
+      "val-apex-i"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T22:29:45.662462+00:00",
+    "source_ids": [
+      "IsValorum/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated-VAL-APEX-I-MiniPlus-V3-GGUF"
+    ],
+    "family": "Huihui-Qwen3.8-Coder390-Efficient-abliterated-VAL-APEX-I-MiniPlus-V3"
+  },
+  {
     "id": "huggingface:microsoft/UserRepGen-4B",
     "name": "UserRepGen-4B",
     "provider": "Microsoft",
@@ -10744,43 +10847,6 @@
     "family": "gemma-4-E-it-Artemis"
   },
   {
-    "id": "openrouter:meta/muse-wonder",
-    "name": "Meta: Muse Wonder",
-    "provider": "Meta",
-    "source": "openrouter",
-    "modality": [
-      "audio",
-      "file",
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video",
-      "file",
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-12T12:25:45+00:00",
-    "context_length": 1048576,
-    "description": "Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with...",
-    "url": "https://openrouter.ai/meta/muse-wonder",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 4.0,
-      "completion_per_million": 20.0
-    },
-    "first_seen": "2026-10-12T17:26:30.076837+00:00",
-    "source_ids": [
-      "meta/muse-wonder"
-    ],
-    "family": "Muse Wonder"
-  },
-  {
     "id": "huggingface:webmp3/Sakura-Iris-3B-Uncensored-GGUF",
     "name": "Sakura-Iris-3B-Uncensored-GGUF",
     "provider": "webmp3",
@@ -11419,40 +11485,6 @@
       "datalab-to/indra-ocr"
     ],
     "family": "indra-ocr"
-  },
-  {
-    "id": "huggingface:berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8",
-    "name": "10Eros-Max-h3-turbo-beta6-pruned-w4a8",
-    "provider": "berryber09",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-10-10T13:36:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8",
-    "tags": [
-      "text-to-video",
-      "minimax-h3",
-      "comfyui",
-      "w4a8",
-      "quantized",
-      "text-to-video"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-12T17:26:30.341317+00:00",
-    "source_ids": [
-      "berryber09/10Eros-Max-h3-turbo-beta6-pruned-w4a8"
-    ],
-    "family": "10Eros-Max-h3-turbo-beta6-pruned-w4a8"
   },
   {
     "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-q3c-vs16",
@@ -12126,6 +12158,39 @@
       "schizophyllume/BeeLLM"
     ],
     "family": "BeeLLM"
+  },
+  {
+    "id": "huggingface:Soulfate24/MiniCPM5-2B-DSpark-Paretrix-GGUF",
+    "name": "MiniCPM5-2B-DSpark-Paretrix-GGUF",
+    "provider": "Soulfate24",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-08T22:52:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Soulfate24/MiniCPM5-2B-DSpark-Paretrix-GGUF",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "minicpm",
+      "minicpm5",
+      "llama"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T22:29:45.662611+00:00",
+    "source_ids": [
+      "Soulfate24/MiniCPM5-2B-DSpark-Paretrix-GGUF"
+    ],
+    "family": "MiniCPM5-DSpark-Paretrix"
   },
   {
     "id": "huggingface:Soulfate24/Spark-X2.6-4B-Paretrix",
@@ -15467,41 +15532,6 @@
     "family": "1980s_horror_movies_minimax_h3"
   },
   {
-    "id": "huggingface:ahmadw/jina-ocr-v1-GGUF",
-    "name": "jina-ocr-v1-GGUF",
-    "provider": "ahmadw",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-20T15:57:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/ahmadw/jina-ocr-v1-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "ocr",
-      "multimodal",
-      "vision-language"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-12T17:26:30.597584+00:00",
-    "source_ids": [
-      "ahmadw/jina-ocr-v1-GGUF"
-    ],
-    "family": "jina-ocr-v1"
-  },
-  {
     "id": "huggingface:neopolita/Qwen3.8-Flash-Next-102B-A5B-Niwaki-v2.4-3bit-gguf",
     "name": "Qwen3.8-Flash-Next-102B-A5B-Niwaki-v2.4-3bit-gguf",
     "provider": "neopolita",
@@ -16177,39 +16207,6 @@
     "family": "DeepSeek-V4.1-Flash-UNCENSORED-Protium"
   },
   {
-    "id": "huggingface:nthngdy/cplm-baselines-1.7B",
-    "name": "cplm-baselines-1.7B",
-    "provider": "nthngdy",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-11T16:27:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nthngdy/cplm-baselines-1.7B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "text-generation",
-      "en",
-      "dataset:HuggingFaceFW/fineweb-edu",
-      "license:apache-2.0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-12T17:26:30.165802+00:00",
-    "source_ids": [
-      "nthngdy/cplm-baselines-1.7B"
-    ],
-    "family": "cplm-baselines"
-  },
-  {
     "id": "huggingface:esatapedico/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NVFP4-GGUF",
     "name": "Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NVFP4-GGUF",
     "provider": "esatapedico",
@@ -16413,39 +16410,6 @@
       "CaptchaKraken/CaptchaKraken-v1.2-GGUF"
     ],
     "family": "CaptchaKraken-v1.2"
-  },
-  {
-    "id": "huggingface:Skttttt/Himeros-V2-27B-GGUF",
-    "name": "Himeros-V2-27B-GGUF",
-    "provider": "Skttttt",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-09T11:35:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Skttttt/Himeros-V2-27B-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "roleplay",
-      "creative-writing",
-      "long-context",
-      "romance"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-12T17:26:30.165772+00:00",
-    "source_ids": [
-      "Skttttt/Himeros-V2-27B-GGUF"
-    ],
-    "family": "Himeros-V2"
   },
   {
     "id": "huggingface:Solstice-AI/Qwopus3.8-27B-Flash-GGUF-1M",
@@ -16929,6 +16893,40 @@
       "qwen/qwen3.8-max-0902:batch"
     ],
     "family": "Qwen3.8 Max (0902) (batch)"
+  },
+  {
+    "id": "huggingface:borisbat/dasllama-tts",
+    "name": "dasllama-tts",
+    "provider": "borisbat",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-09-03T17:40:09.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/borisbat/dasllama-tts",
+    "tags": [
+      "text-to-speech",
+      "dasllama",
+      "gguf",
+      "daslang",
+      "kittentts",
+      "kokoro"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T22:29:45.931621+00:00",
+    "source_ids": [
+      "borisbat/dasllama-tts"
+    ],
+    "family": "dasllama-tts"
   },
   {
     "id": "huggingface:nvidia/Nemotron-3.5-Parse",
@@ -17926,41 +17924,6 @@
       "ornith-ai/Ornith-1.5-35B-A3B-FP8"
     ],
     "family": "Ornith-1.5-FP8"
-  },
-  {
-    "id": "huggingface:Jundot/Qwen3.8-27B-oQ4e-fp16-mtp",
-    "name": "Qwen3.8-27B-oQ4e-fp16-mtp",
-    "provider": "Jundot",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-18T00:24:07.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Jundot/Qwen3.8-27B-oQ4e-fp16-mtp",
-    "tags": [
-      "image-text-to-text",
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "oq",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-12T17:26:30.597488+00:00",
-    "source_ids": [
-      "Jundot/Qwen3.8-27B-oQ4e-fp16-mtp"
-    ],
-    "family": "Qwen3.8-oQ4e-fp16-mtp"
   },
   {
     "id": "huggingface:Jundot/Qwen3.8-27B-oQ4e-mtp",
@@ -19883,6 +19846,40 @@
       "Jundot/Qwen3.6-35B-A3B-oQ4e-mtp"
     ],
     "family": "Qwen3.6-oQ4e-mtp"
+  },
+  {
+    "id": "huggingface:uviol/scat-krea2-v1",
+    "name": "scat-krea2-v1",
+    "provider": "uviol",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-06-30T18:49:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/uviol/scat-krea2-v1",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "not-for-all-audiences"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-11T22:29:45.720846+00:00",
+    "source_ids": [
+      "uviol/scat-krea2-v1"
+    ],
+    "family": "scat-krea2-v1"
   },
   {
     "id": "huggingface:litert-community/Qwen3-0.6B-int4",
