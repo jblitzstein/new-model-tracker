@@ -1,5 +1,40 @@
 [
   {
+    "id": "huggingface:nvidia/Kimi-K3.1-Pro-NVFP4",
+    "name": "Kimi-K3.1-Pro-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-11T00:57:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "Model Optimizer",
+      "safetensors",
+      "kimi_k31",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.192674+00:00",
+    "source_ids": [
+      "nvidia/Kimi-K3.1-Pro-NVFP4"
+    ],
+    "family": "Kimi-K3.1-Pro-NVFP4"
+  },
+  {
     "id": "openrouter:baidu/ernie-5.5-flash-preview",
     "name": "Baidu: ERNIE-5.5-Flash-Preview",
     "provider": "Baidu",
@@ -386,6 +421,40 @@
       "meta/muse-ember"
     ],
     "family": "Muse Ember"
+  },
+  {
+    "id": "huggingface:Zyphra/ZONOS3-Mini",
+    "name": "ZONOS3-Mini",
+    "provider": "Zyphra",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-11-09T05:03:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+    "tags": [
+      "text-to-speech",
+      "zonos3",
+      "safetensors",
+      "gguf",
+      "text-to-speech",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.058604+00:00",
+    "source_ids": [
+      "Zyphra/ZONOS3-Mini"
+    ],
+    "family": "ZONOS3-Mini"
   },
   {
     "id": "huggingface:Comfy-Org/MiniMax-H3-Image",
@@ -4663,6 +4732,39 @@
       "moonshotai/kimi-k3.1-pro"
     ],
     "family": "Kimi K3.1 Pro"
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k3.1-pro:batch",
+    "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T17:56:28+00:00",
+    "context_length": 1048576,
+    "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.7,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-11-12T05:59:12.639454+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k3.1-pro:batch"
+    ],
+    "family": "Kimi K3.1 Pro (batch)"
   },
   {
     "id": "huggingface:dendriteholdings/Ingot-II-27B-Q2",
@@ -11721,40 +11823,6 @@
     "family": "Qwen-Image-2.1-Turbo-FP8"
   },
   {
-    "id": "huggingface:nvidia/Qwen-Image-NVFP4",
-    "name": "Qwen-Image-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-09T23:37:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/Qwen-Image-NVFP4",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "nvidia",
-      "ModelOpt",
-      "Qwen-Image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-13T01:50:39.944596+00:00",
-    "source_ids": [
-      "nvidia/Qwen-Image-NVFP4"
-    ],
-    "family": "Qwen-Image-NVFP4"
-  },
-  {
     "id": "huggingface:h2oai/h2o-lightning-4b-nemotron-nano",
     "name": "h2o-lightning-4b-nemotron-nano",
     "provider": "h2oai",
@@ -13623,41 +13691,6 @@
     "family": "GLM-5.3-Flash-EXL3-Yamz"
   },
   {
-    "id": "huggingface:h2oai/h2o-lightning-4b",
-    "name": "h2o-lightning-4b",
-    "provider": "h2oai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-02T19:19:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/h2oai/h2o-lightning-4b",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "decision-making"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-13T01:50:40.635319+00:00",
-    "source_ids": [
-      "h2oai/h2o-lightning-4b"
-    ],
-    "family": "h2o-lightning"
-  },
-  {
     "id": "huggingface:smalinin/Step-5-Preview-GGUF",
     "name": "Step-5-Preview-GGUF",
     "provider": "smalinin",
@@ -13861,39 +13894,6 @@
       "oroboros-labs/gpt-astra-7-undecillion-7u5go5"
     ],
     "family": "gpt-astra-7-undecillion-7u5go5"
-  },
-  {
-    "id": "huggingface:DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-    "name": "LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-02T06:32:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "liquid",
-      "lfm2.5",
-      "mixture of experts",
-      "MOE"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-13T01:50:39.825464+00:00",
-    "source_ids": [
-      "DavidAU/LFM2.5-8B-A1B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF"
-    ],
-    "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
   },
   {
     "id": "huggingface:nvidia/Flora-Captioner",
@@ -14335,41 +14335,6 @@
       "jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF"
     ],
     "family": "ATX-Swift-1.5-Qwen3.8-Uncensored-IQ4_XS-M"
-  },
-  {
-    "id": "huggingface:DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
-    "name": "Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T03:49:56.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "27 reasoning modes",
-      "27 instruct modes",
-      "15 AI Constructs",
-      "5 Super AI Constructs"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-13T01:50:40.635228+00:00",
-    "source_ids": [
-      "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF"
-    ],
-    "family": "Qwen3.8-Turbo-Brilliance-50X-Reasoning--NEO-MAX-MTP"
   },
   {
     "id": "huggingface:richardyoung/granite-4.2-8b-heretic",
@@ -15799,39 +15764,6 @@
       "litert-community/PP-OCRv6-Small-LiteRT"
     ],
     "family": "PP-OCRv6-Small-LiteRT"
-  },
-  {
-    "id": "huggingface:DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-    "name": "LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-    "provider": "DavidAU",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-17T01:18:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "liquid",
-      "lfm2.5",
-      "edge",
-      "12 reasoning modes"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-13T01:50:39.825517+00:00",
-    "source_ids": [
-      "DavidAU/LFM2.5-2.6B-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX-GGUF"
-    ],
-    "family": "LFM2.5-Qwen3.8-Turbo-Brilliance-Power-X12-NEO-MAX"
   },
   {
     "id": "huggingface:gitarist/Qwen3-8B-BPDQ-2bit",
@@ -20486,6 +20418,40 @@
     "family": "Confucius4-TTS"
   },
   {
+    "id": "huggingface:cstr/parler-tts-mini-v1.1-GGUF",
+    "name": "parler-tts-mini-v1.1-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-02T04:31:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/parler-tts-mini-v1.1-GGUF",
+    "tags": [
+      "text-to-speech",
+      "ggml",
+      "gguf",
+      "tts",
+      "text-to-speech",
+      "parler-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.058637+00:00",
+    "source_ids": [
+      "cstr/parler-tts-mini-v1.1-GGUF"
+    ],
+    "family": "parler-tts-mini-v1.1"
+  },
+  {
     "id": "huggingface:coolthor/Sulphur-2-distilled-NVFP4",
     "name": "Sulphur-2-distilled-NVFP4",
     "provider": "coolthor",
@@ -23874,6 +23840,41 @@
       "litert-community/DeepSeek-R1-Distill-Qwen-1.5B"
     ],
     "family": "DeepSeek-R1-Distill-Qwen"
+  },
+  {
+    "id": "huggingface:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "name": "SmolVLM2-2.2B-Instruct",
+    "provider": "HuggingFaceTB",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-02-08T19:18:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "smolvlm",
+      "image-text-to-text",
+      "video-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.192644+00:00",
+    "source_ids": [
+      "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+    ],
+    "family": "SmolVLM2"
   },
   {
     "id": "huggingface:large-traversaal/Alif-1.0-8B-Instruct",

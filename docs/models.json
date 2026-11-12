@@ -190925,5 +190925,176 @@
       "IsValorum/Sage-A1.5-APEX-I-MiniPlus-V2.1-GGUF"
     ],
     "family": "Sage-A1.5-APEX-I-MiniPlus-V2.1"
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k3.1-pro:batch",
+    "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+    "provider": "Moonshot AI",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-23T17:56:28+00:00",
+    "context_length": 1048576,
+    "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
+    "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.7,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-11-12T05:59:12.639454+00:00",
+    "source_ids": [
+      "moonshotai/kimi-k3.1-pro:batch"
+    ],
+    "family": "Kimi K3.1 Pro (batch)"
+  },
+  {
+    "id": "huggingface:Zyphra/ZONOS3-Mini",
+    "name": "ZONOS3-Mini",
+    "provider": "Zyphra",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-11-09T05:03:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+    "tags": [
+      "text-to-speech",
+      "zonos3",
+      "safetensors",
+      "gguf",
+      "text-to-speech",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.058604+00:00",
+    "source_ids": [
+      "Zyphra/ZONOS3-Mini"
+    ],
+    "family": "ZONOS3-Mini"
+  },
+  {
+    "id": "huggingface:cstr/parler-tts-mini-v1.1-GGUF",
+    "name": "parler-tts-mini-v1.1-GGUF",
+    "provider": "cstr",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-06-02T04:31:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/cstr/parler-tts-mini-v1.1-GGUF",
+    "tags": [
+      "text-to-speech",
+      "ggml",
+      "gguf",
+      "tts",
+      "text-to-speech",
+      "parler-tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.058637+00:00",
+    "source_ids": [
+      "cstr/parler-tts-mini-v1.1-GGUF"
+    ],
+    "family": "parler-tts-mini-v1.1"
+  },
+  {
+    "id": "huggingface:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "name": "SmolVLM2-2.2B-Instruct",
+    "provider": "HuggingFaceTB",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-02-08T19:18:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "smolvlm",
+      "image-text-to-text",
+      "video-text-to-text"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.192644+00:00",
+    "source_ids": [
+      "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+    ],
+    "family": "SmolVLM2"
+  },
+  {
+    "id": "huggingface:nvidia/Kimi-K3.1-Pro-NVFP4",
+    "name": "Kimi-K3.1-Pro-NVFP4",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-11T00:57:46.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "Model Optimizer",
+      "safetensors",
+      "kimi_k31",
+      "nvidia",
+      "ModelOpt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-12T05:59:13.192674+00:00",
+    "source_ids": [
+      "nvidia/Kimi-K3.1-Pro-NVFP4"
+    ],
+    "family": "Kimi-K3.1-Pro-NVFP4"
   }
 ]
