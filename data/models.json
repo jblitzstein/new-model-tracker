@@ -191162,5 +191162,172 @@
       "ununununununununununununununununununun/qwen3-4b-instruct-2507-phi-lattice-v2"
     ],
     "family": "qwen3--2507-phi-lattice-v2"
+  },
+  {
+    "id": "openrouter:google/gemini-4-hydrogen",
+    "name": "Google: Gemini 4 Hydrogen",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-12T18:01:00+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than...",
+    "url": "https://openrouter.ai/google/gemini-4-hydrogen",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-11-13T00:54:31.996428+00:00",
+    "source_ids": [
+      "google/gemini-4-hydrogen"
+    ],
+    "family": "Gemini 4 Hydrogen"
+  },
+  {
+    "id": "openrouter:google/gemini-4-hydrogen:batch",
+    "name": "Google: Gemini 4 Hydrogen (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-12T18:01:00+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than...",
+    "url": "https://openrouter.ai/google/gemini-4-hydrogen:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.75,
+      "completion_per_million": 3.75
+    },
+    "first_seen": "2026-11-13T00:54:31.996968+00:00",
+    "source_ids": [
+      "google/gemini-4-hydrogen:batch"
+    ],
+    "family": "Gemini 4 Hydrogen (batch)"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling-2-small",
+    "name": "Thinking Machines: Inkling 2 Small",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-09T22:04:07+00:00",
+    "context_length": 1048576,
+    "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-2-small",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 1.0
+    },
+    "first_seen": "2026-11-13T00:54:31.997072+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling-2-small"
+    ],
+    "family": "Inkling 2 Small"
+  },
+  {
+    "id": "openrouter:particle-ai/particle-1:free",
+    "name": "Particle AI: Particle-1 (free)",
+    "provider": "particle-ai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-28T17:18:13+00:00",
+    "context_length": 1048576,
+    "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data...",
+    "url": "https://openrouter.ai/particle-ai/particle-1:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-11-13T00:54:31.997277+00:00",
+    "source_ids": [
+      "particle-ai/particle-1:free"
+    ],
+    "family": "Particle-1"
+  },
+  {
+    "id": "huggingface:infosave/MiniMax-H3-Turbo-cmf",
+    "name": "MiniMax-H3-Turbo-cmf",
+    "provider": "infosave",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-06T20:25:33.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/infosave/MiniMax-H3-Turbo-cmf",
+    "tags": [
+      "text-to-video",
+      "cortiq",
+      "cmf",
+      "video",
+      "audio",
+      "4-bit"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-13T00:54:32.422145+00:00",
+    "source_ids": [
+      "infosave/MiniMax-H3-Turbo-cmf"
+    ],
+    "family": "MiniMax-H3-Turbo-cmf"
   }
 ]
