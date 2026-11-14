@@ -1,5 +1,33 @@
 [
   {
+    "id": "openrouter:inclusionai/ling-3.2-flash:free",
+    "name": "inclusionAI: Ling 3.2 Flash (free)",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-13T17:45:58+00:00",
+    "context_length": 1048576,
+    "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
+    "tags": [],
+    "pricing": null,
+    "first_seen": "2026-11-14T00:41:22.384890+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.2-flash:free"
+    ],
+    "family": "Ling 3.2 Flash"
+  },
+  {
     "id": "openrouter:google/gemini-4-hydrogen",
     "name": "Google: Gemini 4 Hydrogen",
     "provider": "Google",
@@ -9832,39 +9860,6 @@
     "family": "Huihui-Qwen3.8-Coder390-Efficient-abliterated-VAL-APEX-I-MiniPlus-V3"
   },
   {
-    "id": "huggingface:microsoft/UserRepGen-4B",
-    "name": "UserRepGen-4B",
-    "provider": "Microsoft",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-14T20:30:00.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/microsoft/UserRepGen-4B",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "user-representation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-14T22:59:26.268149+00:00",
-    "source_ids": [
-      "microsoft/UserRepGen-4B"
-    ],
-    "family": "UserRepGen"
-  },
-  {
     "id": "huggingface:OpenSML/OpenSML-JSONLite-175M",
     "name": "OpenSML-JSONLite-175M",
     "provider": "OpenSML",
@@ -13041,39 +13036,6 @@
     "family": "Llama3Ternary"
   },
   {
-    "id": "huggingface:SkyIsNotGreen/Scion-FlashNext-176B-A6B",
-    "name": "Scion-FlashNext-176B-A6B",
-    "provider": "SkyIsNotGreen",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-05T17:28:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/SkyIsNotGreen/Scion-FlashNext-176B-A6B",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "ternary",
-      "2-bit",
-      "ptq1_0"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-14T22:59:26.268102+00:00",
-    "source_ids": [
-      "SkyIsNotGreen/Scion-FlashNext-176B-A6B"
-    ],
-    "family": "Scion-FlashNext"
-  },
-  {
     "id": "huggingface:Blockway/Agens-Volundr-32B-Preview-GGUF",
     "name": "Agens-Volundr-32B-Preview-GGUF",
     "provider": "Blockway",
@@ -15252,40 +15214,6 @@
       "x-ai/grok-4.7:batch"
     ],
     "family": "Grok 4.7 (batch)"
-  },
-  {
-    "id": "huggingface:litert-community/sopro-v2-turbo",
-    "name": "sopro-v2-turbo",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-09-21T07:25:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/sopro-v2-turbo",
-    "tags": [
-      "text-to-speech",
-      "litert",
-      "tflite",
-      "cpu",
-      "gpu",
-      "android"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-14T22:59:26.655723+00:00",
-    "source_ids": [
-      "litert-community/sopro-v2-turbo"
-    ],
-    "family": "sopro-v2-turbo"
   },
   {
     "id": "huggingface:BennyDaBall/Qwen-Image-2.1-NVFP4",
@@ -17755,6 +17683,41 @@
     "family": "LFM2.5-VL"
   },
   {
+    "id": "huggingface:litert-community/LFM2.5-VL-3B",
+    "name": "LFM2.5-VL-3B",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-13T01:04:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/LFM2.5-VL-3B",
+    "tags": [
+      "image-text-to-text",
+      "litert-lm",
+      "litert",
+      "litertlm",
+      "on-device",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-14T00:41:23.505511+00:00",
+    "source_ids": [
+      "litert-community/LFM2.5-VL-3B"
+    ],
+    "family": "LFM2.5-VL"
+  },
+  {
     "id": "huggingface:divinetribe/Muse-Glimmer-30B-Abliterated-MM-bf16",
     "name": "Muse-Glimmer-30B-Abliterated-MM-bf16",
     "provider": "divinetribe",
@@ -18697,41 +18660,6 @@
     "family": "Audio8-TTS"
   },
   {
-    "id": "huggingface:swiss-ai/Apertus-v1.5-8B",
-    "name": "Apertus-v1.5-8B",
-    "provider": "swiss-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-24T06:03:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/swiss-ai/Apertus-v1.5-8B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "apertus1p5",
-      "text-generation",
-      "multilingual"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-14T22:59:26.841813+00:00",
-    "source_ids": [
-      "swiss-ai/Apertus-v1.5-8B"
-    ],
-    "family": "Apertus-v1.5"
-  },
-  {
     "id": "huggingface:unsloth/Wan2.2-TI2V-5B-FP8",
     "name": "Wan2.2-TI2V-5B-FP8",
     "provider": "unsloth",
@@ -18866,39 +18794,6 @@
       "unsloth/Qwen-Image-FP8"
     ],
     "family": "Qwen-Image-FP8"
-  },
-  {
-    "id": "huggingface:Adking98/MN-12B-Celeste-V1.9-GGUF",
-    "name": "MN-12B-Celeste-V1.9-GGUF",
-    "provider": "Adking98",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-07-13T14:05:02.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Adking98/MN-12B-Celeste-V1.9-GGUF",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen2",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-14T22:59:26.267906+00:00",
-    "source_ids": [
-      "Adking98/MN-12B-Celeste-V1.9-GGUF"
-    ],
-    "family": "MN-Celeste-V1.9"
   },
   {
     "id": "huggingface:LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
@@ -20344,76 +20239,6 @@
       "divinetribe/Hermes-4-14B-abliterated-4bit-mlx"
     ],
     "family": "Hermes-4-abliterated-4bit-mlx"
-  },
-  {
-    "id": "huggingface:NbAiLab/borealis-27b",
-    "name": "borealis-27b",
-    "provider": "NbAiLab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-20T11:22:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/NbAiLab/borealis-27b",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma3",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-14T22:59:26.841779+00:00",
-    "source_ids": [
-      "NbAiLab/borealis-27b"
-    ],
-    "family": "borealis"
-  },
-  {
-    "id": "huggingface:NbAiLab/borealis-open-12b",
-    "name": "borealis-open-12b",
-    "provider": "NbAiLab",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-20T11:13:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/NbAiLab/borealis-open-12b",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "gemma3",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-14T22:59:26.841717+00:00",
-    "source_ids": [
-      "NbAiLab/borealis-open-12b"
-    ],
-    "family": "borealis-open"
   },
   {
     "id": "huggingface:huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
