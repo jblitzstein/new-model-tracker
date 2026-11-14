@@ -3312,6 +3312,41 @@
     "family": "upcycle_dense15000_e32top8_noaux_rewarm200"
   },
   {
+    "id": "huggingface:litert-community/LFM3-VL-2B-LiteRT",
+    "name": "LFM3-VL-2B-LiteRT",
+    "provider": "litert-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-29T03:19:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/litert-community/LFM3-VL-2B-LiteRT",
+    "tags": [
+      "image-text-to-text",
+      "litert-lm",
+      "litert",
+      "tflite",
+      "on-device",
+      "edge"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-14T17:42:33.174262+00:00",
+    "source_ids": [
+      "litert-community/LFM3-VL-2B-LiteRT"
+    ],
+    "family": "LFM3-VL-LiteRT"
+  },
+  {
     "id": "huggingface:hstolte/Qwen3.8-Flash-Next-HTR",
     "name": "Qwen3.8-Flash-Next-HTR",
     "provider": "hstolte",
@@ -8129,6 +8164,142 @@
     "family": "Granite-Vision-3.3-BE"
   },
   {
+    "id": "huggingface:leejet/flux-3-image-klein-base-GGUF",
+    "name": "flux-3-image-klein-base-GGUF",
+    "provider": "leejet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-18T08:38:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leejet/flux-3-image-klein-base-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "stable-diffusion.cpp",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-14T17:42:32.593138+00:00",
+    "source_ids": [
+      "leejet/flux-3-image-klein-base-GGUF"
+    ],
+    "family": "flux-3-image-klein"
+  },
+  {
+    "id": "huggingface:leejet/flux-3-image-klein-GGUF",
+    "name": "flux-3-image-klein-GGUF",
+    "provider": "leejet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-18T08:38:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leejet/flux-3-image-klein-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "stable-diffusion.cpp",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-14T17:42:32.593162+00:00",
+    "source_ids": [
+      "leejet/flux-3-image-klein-GGUF"
+    ],
+    "family": "flux-3-image-klein"
+  },
+  {
+    "id": "huggingface:leejet/MOSS-Image-SFT-GGUF",
+    "name": "MOSS-Image-SFT-GGUF",
+    "provider": "leejet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-18T07:12:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leejet/MOSS-Image-SFT-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "stable-diffusion.cpp",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-14T17:42:32.593184+00:00",
+    "source_ids": [
+      "leejet/MOSS-Image-SFT-GGUF"
+    ],
+    "family": "MOSS-Image-SFT"
+  },
+  {
+    "id": "huggingface:leejet/MOSS-Image-Base-GGUF",
+    "name": "MOSS-Image-Base-GGUF",
+    "provider": "leejet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-18T07:04:56.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leejet/MOSS-Image-Base-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "stable-diffusion.cpp",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-14T17:42:32.593203+00:00",
+    "source_ids": [
+      "leejet/MOSS-Image-Base-GGUF"
+    ],
+    "family": "MOSS-Image"
+  },
+  {
     "id": "huggingface:axiomofmind/Moss-image-nsfw-uncensored-lora",
     "name": "Moss-image-nsfw-uncensored-lora",
     "provider": "axiomofmind",
@@ -9325,36 +9496,6 @@
     "family": "NVIDIA-Nemotron-3.5-Bolt"
   },
   {
-    "id": "openrouter:nvidia/nemotron-3.5-super-vl:free",
-    "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
-    "provider": "NVIDIA",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-15T15:04:22+00:00",
-    "context_length": 1000000,
-    "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
-    "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free",
-    "tags": [],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.257769+00:00",
-    "source_ids": [
-      "nvidia/nemotron-3.5-super-vl:free"
-    ],
-    "family": "Nemotron 3.5 Super VL"
-  },
-  {
     "id": "openrouter:nvidia/nemotron-3.5-super-vl",
     "name": "NVIDIA: Nemotron 3.5 Super VL",
     "provider": "NVIDIA",
@@ -9925,41 +10066,6 @@
     "family": "granite-switch-4.1"
   },
   {
-    "id": "huggingface:black-forest-labs/flux-3-image-klein-pup",
-    "name": "flux-3-image-klein-pup",
-    "provider": "Black Forest Labs",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-14T20:40:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-pup",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "prompt-upsampling"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.201017+00:00",
-    "source_ids": [
-      "black-forest-labs/flux-3-image-klein-pup"
-    ],
-    "family": "flux-3-image-klein-pup"
-  },
-  {
     "id": "huggingface:IsValorum/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated-VAL-APEX-I-MiniPlus-V3-GGUF",
     "name": "Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated-VAL-APEX-I-MiniPlus-V3-GGUF",
     "provider": "IsValorum",
@@ -10331,40 +10437,6 @@
     "family": "FishAudio-Drama3-TTS-83Lang-Qwen3.5-FP8-BF16"
   },
   {
-    "id": "huggingface:Eng-Ahmd/Drama-3-Windows-GGUF",
-    "name": "Drama-3-Windows-GGUF",
-    "provider": "Eng-Ahmd",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-10-14T11:48:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Eng-Ahmd/Drama-3-Windows-GGUF",
-    "tags": [
-      "text-to-speech",
-      "gguf",
-      "fish-audio",
-      "drama-3",
-      "windows",
-      "voice-cloning"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.974954+00:00",
-    "source_ids": [
-      "Eng-Ahmd/Drama-3-Windows-GGUF"
-    ],
-    "family": "Drama-3-Windows"
-  },
-  {
     "id": "huggingface:0xE2E/Drama-3-Windows-GGUF",
     "name": "Drama-3-Windows-GGUF",
     "provider": "0xE2E",
@@ -10567,37 +10639,39 @@
     "family": "Audio8-TTS-Realistic-Air"
   },
   {
-    "id": "huggingface:francesca9805/nor-100mb-after-wc-zipf-newlex-before-ckpt500-packed-bfdiso_seed10",
-    "name": "nor-100mb-after-wc-zipf-newlex-before-ckpt500-packed-bfdiso_seed10",
-    "provider": "francesca9805",
+    "id": "huggingface:litert-community/MiniCPM-V-4.7-1B",
+    "name": "MiniCPM-V-4.7-1B",
+    "provider": "litert-community",
     "source": "huggingface",
     "modality": [
+      "image",
       "text"
     ],
     "input_modalities": [
+      "image",
       "text"
     ],
     "output_modalities": [
       "text"
     ],
-    "release_date": "2026-10-13T17:00:06.000Z",
+    "release_date": "2026-10-13T13:55:08.000Z",
     "context_length": null,
     "description": "",
-    "url": "https://huggingface.co/francesca9805/nor-100mb-after-wc-zipf-newlex-before-ckpt500-packed-bfdiso_seed10",
+    "url": "https://huggingface.co/litert-community/MiniCPM-V-4.7-1B",
     "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer"
+      "image-text-to-text",
+      "litert-lm",
+      "litert",
+      "litertlm",
+      "on-device",
+      "edge"
     ],
     "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.417902+00:00",
+    "first_seen": "2026-11-14T17:42:33.174207+00:00",
     "source_ids": [
-      "francesca9805/nor-100mb-after-wc-zipf-newlex-before-ckpt500-packed-bfdiso_seed10"
+      "litert-community/MiniCPM-V-4.7-1B"
     ],
-    "family": "nor-100mb-after-wc-zipf-newlex-before-ckpt500-packed-bfdiso_seed10"
+    "family": "MiniCPM-V-4.7"
   },
   {
     "id": "huggingface:saidutta69/Qwen2.5-VL-3B-Instruct-heretic",
@@ -10701,40 +10775,6 @@
       "DavidAU/Qwen3.8-Flash-Next-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF"
     ],
     "family": "Qwen3.8-Flash-Next-Turbo-Brilliance-50x-Reasoning--GSQ-RCO"
-  },
-  {
-    "id": "huggingface:unsloth/LTX-2.5-FP8",
-    "name": "LTX-2.5-FP8",
-    "provider": "unsloth",
-    "source": "huggingface",
-    "modality": [
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "video"
-    ],
-    "release_date": "2026-10-13T01:52:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/unsloth/LTX-2.5-FP8",
-    "tags": [
-      "text-to-video",
-      "diffusers",
-      "fp8",
-      "int8",
-      "unsloth",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.766919+00:00",
-    "source_ids": [
-      "unsloth/LTX-2.5-FP8"
-    ],
-    "family": "LTX-2.5-FP8"
   },
   {
     "id": "huggingface:DICPlay/RusMind-3.5-Vspyshka",
@@ -11036,111 +11076,6 @@
       "Remek/basal-2.0-mini"
     ],
     "family": "basal-2.0-mini"
-  },
-  {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
-    "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-12T15:32:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_h_omni",
-      "image-text-to-text",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.201054+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
-    ],
-    "family": "NVIDIA-Nemotron-3.5-Super-VL-NVFP4"
-  },
-  {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-    "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-12T15:32:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_h_omni",
-      "image-text-to-text",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.201070+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16"
-    ],
-    "family": "NVIDIA-Nemotron-3.5-Super-VL-BF16"
-  },
-  {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
-    "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-12T15:31:49.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_h_omni",
-      "image-text-to-text",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.201037+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16"
-    ],
-    "family": "NVIDIA-Nemotron-3.5-Super-VL--BF16"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
@@ -11882,39 +11817,6 @@
     "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5-q3c-iid16"
   },
   {
-    "id": "huggingface:agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-base-q3c",
-    "name": "cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-base-q3c",
-    "provider": "agurung",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-10T11:53:50.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-base-q3c",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "openrlhf"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.417997+00:00",
-    "source_ids": [
-      "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp5-base-q3c"
-    ],
-    "family": "cobalt-seeded-rl--ramp25-stoppen-gen4k-ep2-ncp5--q3c"
-  },
-  {
     "id": "huggingface:goldhub/Ruach_Studio_Models_v2",
     "name": "Ruach_Studio_Models_v2",
     "provider": "goldhub",
@@ -12184,41 +12086,6 @@
       "DogukanUrker/Qwen-Image-2.1-Turbo-GGUF"
     ],
     "family": "Qwen-Image-2.1-Turbo"
-  },
-  {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-    "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-09T12:45:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_h_omni",
-      "image-text-to-text",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.200970+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16"
-    ],
-    "family": "NVIDIA-Nemotron-3.5-Bolt-BF16"
   },
   {
     "id": "huggingface:DarkKitsune/Qwen3.6-Qworus-35B-A3B-V1-APEX-GGUF",
@@ -12657,41 +12524,6 @@
     "family": "NVIDIA-Nemotron-3.5-Transcribe"
   },
   {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
-    "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-07T19:15:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "gguf",
-      "nvidia",
-      "pytorch",
-      "nemotron-3.5"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.200899+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF"
-    ],
-    "family": "NVIDIA-Nemotron-3.5-Bolt-24GB"
-  },
-  {
     "id": "huggingface:coolthor/Kandinsky-6.0-Pro-distill-5s-NVFP4",
     "name": "Kandinsky-6.0-Pro-distill-5s-NVFP4",
     "provider": "coolthor",
@@ -12757,41 +12589,6 @@
       "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF"
     ],
     "family": "Mellum2.1"
-  },
-  {
-    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-    "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-    "provider": "NVIDIA",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-07T17:50:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "nemotron_h_omni",
-      "image-text-to-text",
-      "nvidia"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.200952+00:00",
-    "source_ids": [
-      "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB"
-    ],
-    "family": "NVIDIA-Nemotron-3.5-Bolt-24GB"
   },
   {
     "id": "huggingface:rockmatrix-ai/EdgeRock",
@@ -13031,39 +12828,6 @@
       "Jundot/clef-flash-oQ4e"
     ],
     "family": "clef-flash-oQ4e"
-  },
-  {
-    "id": "huggingface:CMSManhattan/Llama3Ternary_10b",
-    "name": "Llama3Ternary_10b",
-    "provider": "CMSManhattan",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-06T03:16:15.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/CMSManhattan/Llama3Ternary_10b",
-    "tags": [
-      "text-generation",
-      "safetensors",
-      "gguf",
-      "llama",
-      "ternary",
-      "bitnet"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.418017+00:00",
-    "source_ids": [
-      "CMSManhattan/Llama3Ternary_10b"
-    ],
-    "family": "Llama3Ternary"
   },
   {
     "id": "huggingface:Blockway/Agens-Volundr-32B-Preview-GGUF",
@@ -14191,39 +13955,6 @@
     "family": "Qwen3.5-Sceptic-v3.4"
   },
   {
-    "id": "huggingface:richardyoung/DeepSeek-R1-0528-Qwen3-8B-heretic-GGUF",
-    "name": "DeepSeek-R1-0528-Qwen3-8B-heretic-GGUF",
-    "provider": "richardyoung",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T07:35:58.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/richardyoung/DeepSeek-R1-0528-Qwen3-8B-heretic-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "llama.cpp",
-      "ollama",
-      "heretic",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.417841+00:00",
-    "source_ids": [
-      "richardyoung/DeepSeek-R1-0528-Qwen3-8B-heretic-GGUF"
-    ],
-    "family": "DeepSeek-R1-0528-Qwen3-heretic"
-  },
-  {
     "id": "huggingface:jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF",
     "name": "ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF",
     "provider": "jakeatx",
@@ -14255,39 +13986,6 @@
       "jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF"
     ],
     "family": "ATX-Swift-1.5-Qwen3.8-Uncensored-IQ4_XS-M"
-  },
-  {
-    "id": "huggingface:richardyoung/granite-4.2-8b-heretic",
-    "name": "granite-4.2-8b-heretic",
-    "provider": "richardyoung",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-28T22:24:04.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/richardyoung/granite-4.2-8b-heretic",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "granite",
-      "text-generation",
-      "granite-4.2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.417884+00:00",
-    "source_ids": [
-      "richardyoung/granite-4.2-8b-heretic"
-    ],
-    "family": "granite-4.2-heretic"
   },
   {
     "id": "huggingface:tau-emotion-bench/Tracer-High-8B",
@@ -15312,6 +15010,40 @@
       "neph1/1980s_horror_movies_minimax_h3"
     ],
     "family": "1980s_horror_movies_minimax_h3"
+  },
+  {
+    "id": "huggingface:leejet/Qwen-Image-2.1-GGUF",
+    "name": "Qwen-Image-2.1-GGUF",
+    "provider": "leejet",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-20T13:16:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/leejet/Qwen-Image-2.1-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "text-to-image",
+      "stable-diffusion.cpp",
+      "en",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-14T17:42:32.593220+00:00",
+    "source_ids": [
+      "leejet/Qwen-Image-2.1-GGUF"
+    ],
+    "family": "Qwen-Image-2.1"
   },
   {
     "id": "huggingface:netsrik/deepj-tinystories",
@@ -16475,40 +16207,6 @@
       "Jundot/Qwen3.8-Flash-Next-oQ4e-mtp"
     ],
     "family": "Qwen3.8-Flash-Next-oQ4e-mtp"
-  },
-  {
-    "id": "huggingface:chiranjeevisagi/wav2vec2-vedic-aligner",
-    "name": "wav2vec2-vedic-aligner",
-    "provider": "chiranjeevisagi",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-27T07:34:29.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/chiranjeevisagi/wav2vec2-vedic-aligner",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "onnx",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:12.083773+00:00",
-    "source_ids": [
-      "chiranjeevisagi/wav2vec2-vedic-aligner"
-    ],
-    "family": "wav2vec2-vedic-aligner"
   },
   {
     "id": "huggingface:aptech0081/MiniMax-H3-PDD-ComfyUI",
@@ -19073,39 +18771,6 @@
       "litert-community/Qwen3-1.7B"
     ],
     "family": "Qwen3"
-  },
-  {
-    "id": "huggingface:richardyoung/Phi-4-mini-instruct-heretic",
-    "name": "Phi-4-mini-instruct-heretic",
-    "provider": "richardyoung",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-06-24T23:03:26.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/richardyoung/Phi-4-mini-instruct-heretic",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "phi3",
-      "text-generation",
-      "nlp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-15T16:25:11.417865+00:00",
-    "source_ids": [
-      "richardyoung/Phi-4-mini-instruct-heretic"
-    ],
-    "family": "Phi-4-mini--heretic"
   },
   {
     "id": "huggingface:off-grid-ai/pony-diffusion-v6-xl-GGUF",
