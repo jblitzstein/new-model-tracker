@@ -19013,39 +19013,6 @@
     "family": "gemma-4-it-int4-ov"
   },
   {
-    "id": "huggingface:divinetribe/Hermes-4-14B-abliterated-4bit-mlx",
-    "name": "Hermes-4-14B-abliterated-4bit-mlx",
-    "provider": "divinetribe",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-22T05:15:59.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/divinetribe/Hermes-4-14B-abliterated-4bit-mlx",
-    "tags": [
-      "text-generation",
-      "mlx",
-      "safetensors",
-      "qwen3",
-      "abliterated",
-      "uncensored"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-16T03:24:54.061521+00:00",
-    "source_ids": [
-      "divinetribe/Hermes-4-14B-abliterated-4bit-mlx"
-    ],
-    "family": "Hermes-4-abliterated-4bit-mlx"
-  },
-  {
     "id": "huggingface:huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
     "name": "Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
     "provider": "huihui-ai",
@@ -19113,40 +19080,6 @@
       "SeeSee21/AniSee"
     ],
     "family": "AniSee"
-  },
-  {
-    "id": "huggingface:handy-computer/moonshine-base-zh-gguf",
-    "name": "moonshine-base-zh-gguf",
-    "provider": "handy-computer",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-05-12T07:08:05.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/handy-computer/moonshine-base-zh-gguf",
-    "tags": [
-      "automatic-speech-recognition",
-      "transcribe.cpp",
-      "gguf",
-      "asr",
-      "speech-to-text",
-      "moonshine"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-16T03:24:54.755843+00:00",
-    "source_ids": [
-      "handy-computer/moonshine-base-zh-gguf"
-    ],
-    "family": "moonshine--zh"
   },
   {
     "id": "huggingface:Comfy-Org/HiDream-O1-Image",
@@ -20034,6 +19967,40 @@
     "family": "kitten-tts-nano-0.8-fp32"
   },
   {
+    "id": "huggingface:HeartMuLa/HeartMuLa-oss-3B-happy-new-year",
+    "name": "HeartMuLa-oss-3B-happy-new-year",
+    "provider": "HeartMuLa",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-02-13T07:16:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HeartMuLa/HeartMuLa-oss-3B-happy-new-year",
+    "tags": [
+      "text-to-audio",
+      "safetensors",
+      "heartmula",
+      "music",
+      "art",
+      "text-to-audio"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-15T05:06:37.706971+00:00",
+    "source_ids": [
+      "HeartMuLa/HeartMuLa-oss-3B-happy-new-year"
+    ],
+    "family": "HeartMuLa-oss-happy-new-year"
+  },
+  {
     "id": "huggingface:Comfy-Org/ACE-Step-1.5",
     "name": "ACE-Step-1.5",
     "provider": "Comfy-Org",
@@ -20236,6 +20203,74 @@
       "Comfy-Org/Flux-2-Klein-4B"
     ],
     "family": "Flux-2-Klein"
+  },
+  {
+    "id": "huggingface:HeartMuLa/HeartMuLaGen",
+    "name": "HeartMuLaGen",
+    "provider": "HeartMuLa",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-01-14T06:36:14.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HeartMuLa/HeartMuLaGen",
+    "tags": [
+      "text-to-audio",
+      "music",
+      "art",
+      "text-to-audio",
+      "multilingual",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-15T05:06:37.706916+00:00",
+    "source_ids": [
+      "HeartMuLa/HeartMuLaGen"
+    ],
+    "family": "HeartMuLaGen"
+  },
+  {
+    "id": "huggingface:HeartMuLa/HeartTranscriptor-oss",
+    "name": "HeartTranscriptor-oss",
+    "provider": "HeartMuLa",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-01-14T06:34:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/HeartMuLa/HeartTranscriptor-oss",
+    "tags": [
+      "automatic-speech-recognition",
+      "safetensors",
+      "whisper",
+      "music",
+      "art",
+      "automatic-speech-recognition"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-15T05:06:37.915484+00:00",
+    "source_ids": [
+      "HeartMuLa/HeartTranscriptor-oss"
+    ],
+    "family": "HeartTranscriptor-oss"
   },
   {
     "id": "huggingface:Lightricks/LTX-2-19b-LoRA-Camera-Control-Static",
