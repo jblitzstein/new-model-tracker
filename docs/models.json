@@ -192907,5 +192907,72 @@
       "mlx-community/Qwen3.8-27B-8bit"
     ],
     "family": "Qwen3.8-8bit"
+  },
+  {
+    "id": "openrouter:qwen/qwen4-max",
+    "name": "Qwen: Qwen4 Max",
+    "provider": "Qwen",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-16T02:18:46+00:00",
+    "context_length": 1000000,
+    "description": "Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default....",
+    "url": "https://openrouter.ai/qwen/qwen4-max",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 4.5
+    },
+    "first_seen": "2026-11-16T05:03:18.988713+00:00",
+    "source_ids": [
+      "qwen/qwen4-max"
+    ],
+    "family": "Qwen4 Max"
+  },
+  {
+    "id": "huggingface:BricksDisplay/OuteTTS-1.0-0.6B-GGUF",
+    "name": "OuteTTS-1.0-0.6B-GGUF",
+    "provider": "BricksDisplay",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-20T06:13:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BricksDisplay/OuteTTS-1.0-0.6B-GGUF",
+    "tags": [
+      "text-to-speech",
+      "outetts",
+      "gguf",
+      "codec.cpp",
+      "text-to-speech",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T05:03:19.776069+00:00",
+    "source_ids": [
+      "BricksDisplay/OuteTTS-1.0-0.6B-GGUF"
+    ],
+    "family": "OuteTTS-1.0"
   }
 ]
