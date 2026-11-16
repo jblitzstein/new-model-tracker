@@ -192974,5 +192974,373 @@
       "BricksDisplay/OuteTTS-1.0-0.6B-GGUF"
     ],
     "family": "OuteTTS-1.0"
+  },
+  {
+    "id": "openrouter:tencent/hy4-flash",
+    "name": "Tencent: Hy4 flash",
+    "provider": "Tencent",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-16T14:18:26+00:00",
+    "context_length": 1048576,
+    "description": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agent...",
+    "url": "https://openrouter.ai/tencent/hy4-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.035,
+      "completion_per_million": 0.1405
+    },
+    "first_seen": "2026-11-16T17:58:54.534749+00:00",
+    "source_ids": [
+      "tencent/hy4-flash"
+    ],
+    "family": "Hy4 flash"
+  },
+  {
+    "id": "huggingface:nvidia/Nemotron-Labs-Sigma-8B-instruct",
+    "name": "Nemotron-Labs-Sigma-8B-instruct",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T02:24:03.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B-instruct",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_labs_sigma",
+      "feature-extraction",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.670993+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-Labs-Sigma-8B-instruct"
+    ],
+    "family": "Nemotron-Labs-Sigma"
+  },
+  {
+    "id": "huggingface:nvidia/Nemotron-Labs-Sigma-8B",
+    "name": "Nemotron-Labs-Sigma-8B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T02:23:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_labs_sigma",
+      "feature-extraction",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.671021+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-Labs-Sigma-8B"
+    ],
+    "family": "Nemotron-Labs-Sigma"
+  },
+  {
+    "id": "huggingface:nvidia/Nemotron-Labs-Sigma-3B-instruct",
+    "name": "Nemotron-Labs-Sigma-3B-instruct",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T02:23:42.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B-instruct",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_labs_sigma",
+      "feature-extraction",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.671043+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-Labs-Sigma-3B-instruct"
+    ],
+    "family": "Nemotron-Labs-Sigma"
+  },
+  {
+    "id": "huggingface:nvidia/Nemotron-Labs-Sigma-3B",
+    "name": "Nemotron-Labs-Sigma-3B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-05T02:22:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "nemotron_labs_sigma",
+      "feature-extraction",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.671100+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-Labs-Sigma-3B"
+    ],
+    "family": "Nemotron-Labs-Sigma"
+  },
+  {
+    "id": "huggingface:BennyDaBall/MiniMax-H3-Image-ComfyUI-NVFP4",
+    "name": "MiniMax-H3-Image-ComfyUI-NVFP4",
+    "provider": "BennyDaBall",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-13T16:32:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/BennyDaBall/MiniMax-H3-Image-ComfyUI-NVFP4",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "comfyui",
+      "nvfp4",
+      "quantized",
+      "image-editing"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.775386+00:00",
+    "source_ids": [
+      "BennyDaBall/MiniMax-H3-Image-ComfyUI-NVFP4"
+    ],
+    "family": "MiniMax-H3-Image-ComfyUI-NVFP4"
+  },
+  {
+    "id": "huggingface:Kansallisarkisto/cyrillic-large-handwritten",
+    "name": "cyrillic-large-handwritten",
+    "provider": "Kansallisarkisto",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-03-16T14:53:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Kansallisarkisto/cyrillic-large-handwritten",
+    "tags": [
+      "image-to-text",
+      "safetensors",
+      "vision-encoder-decoder",
+      "image-to-text",
+      "ru",
+      "base_model:Kansallisarkisto/cyrillic-large-stage1"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.866943+00:00",
+    "source_ids": [
+      "Kansallisarkisto/cyrillic-large-handwritten"
+    ],
+    "family": "cyrillic-large-handwritten"
+  },
+  {
+    "id": "huggingface:yang29/afd-baseline-checkpoints",
+    "name": "afd-baseline-checkpoints",
+    "provider": "yang29",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-11-15T17:22:59.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/yang29/afd-baseline-checkpoints",
+    "tags": [
+      "text-to-video",
+      "self-forcing",
+      "text-to-video",
+      "causal-forcing",
+      "astrolabe",
+      "advdmd"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.962626+00:00",
+    "source_ids": [
+      "yang29/afd-baseline-checkpoints"
+    ],
+    "family": "afd-baseline-checkpoints"
+  },
+  {
+    "id": "huggingface:Comfy-Org/PAN2",
+    "name": "PAN2",
+    "provider": "Comfy-Org",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-11-15T10:42:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Comfy-Org/PAN2",
+    "tags": [
+      "text-to-video",
+      "diffusion-single-file",
+      "comfyui",
+      "text-to-video",
+      "base_model:IFM/PAN2",
+      "base_model:finetune:IFM/PAN2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:54.962705+00:00",
+    "source_ids": [
+      "Comfy-Org/PAN2"
+    ],
+    "family": "PAN2"
+  },
+  {
+    "id": "huggingface:mihuai/turkish-stt-66m-v2",
+    "name": "turkish-stt-66m-v2",
+    "provider": "mihuai",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-19T12:02:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mihuai/turkish-stt-66m-v2",
+    "tags": [
+      "automatic-speech-recognition",
+      "onnx",
+      "speech-recognition",
+      "turkish-stt",
+      "streaming",
+      "turkish"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:55.264434+00:00",
+    "source_ids": [
+      "mihuai/turkish-stt-66m-v2"
+    ],
+    "family": "turkish-stt-66m-v2"
+  },
+  {
+    "id": "huggingface:maritaca-ai/S5-nano-GGUF",
+    "name": "S5-nano-GGUF",
+    "provider": "maritaca-ai",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-02T14:31:36.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/maritaca-ai/S5-nano-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "image-text-to-text",
+      "pt",
+      "en"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-16T17:58:55.370808+00:00",
+    "source_ids": [
+      "maritaca-ai/S5-nano-GGUF"
+    ],
+    "family": "S5-nano"
   }
 ]
