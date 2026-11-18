@@ -404,6 +404,39 @@
     "family": "Hy4-flash"
   },
   {
+    "id": "huggingface:david-thrower/HelixLM-53.9M-20261116-br72-d512-h8-nl3-s2048-5.0BT-wsd",
+    "name": "HelixLM-53.9M-20261116-br72-d512-h8-nl3-s2048-5.0BT-wsd",
+    "provider": "david-thrower",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T00:18:31.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/david-thrower/HelixLM-53.9M-20261116-br72-d512-h8-nl3-s2048-5.0BT-wsd",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "helix",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-18T16:57:57.612354+00:00",
+    "source_ids": [
+      "david-thrower/HelixLM-53.9M-20261116-br72-d512-h8-nl3-s2048-5.0BT-wsd"
+    ],
+    "family": "HelixLM-53.9M-20261116-br72-d512-h8-nl3-s2048-5.0BT-wsd"
+  },
+  {
     "id": "huggingface:apple/FastFrames-S",
     "name": "FastFrames-S",
     "provider": "Apple",
@@ -669,6 +702,40 @@
       "Comfy-Org/PAN2"
     ],
     "family": "PAN2"
+  },
+  {
+    "id": "huggingface:n4ze3m/tiny-voca",
+    "name": "tiny-voca",
+    "provider": "n4ze3m",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-11-14T15:46:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/n4ze3m/tiny-voca",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "gguf",
+      "text-to-speech",
+      "en",
+      "dataset:n4ze3m/tiny-voca"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-18T16:57:57.928843+00:00",
+    "source_ids": [
+      "n4ze3m/tiny-voca"
+    ],
+    "family": "tiny-voca"
   },
   {
     "id": "openrouter:inclusionai/ling-3.2-flash:free",
@@ -1106,6 +1173,41 @@
       "Edge0/Edge0-120B-NVFP4"
     ],
     "family": "Edge0-NVFP4"
+  },
+  {
+    "id": "huggingface:inclusionAI/SingVL_S1_4B",
+    "name": "SingVL_S1_4B",
+    "provider": "inclusionAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-11T03:58:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/inclusionAI/SingVL_S1_4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "decision-model"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-18T16:57:58.079337+00:00",
+    "source_ids": [
+      "inclusionAI/SingVL_S1_4B"
+    ],
+    "family": "SingVL_S1"
   },
   {
     "id": "huggingface:nvidia/Kimi-K3.1-Pro-NVFP4",
@@ -2148,6 +2250,39 @@
       "shashanth-27xA9/Kimi-K3.1-Pro-SuperExpert-12GB"
     ],
     "family": "Kimi-K3.1-Pro-SuperExpert-12GB"
+  },
+  {
+    "id": "huggingface:Cactus-Compute/cactus",
+    "name": "cactus",
+    "provider": "Cactus-Compute",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-05T19:36:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Cactus-Compute/cactus",
+    "tags": [
+      "text-generation",
+      "cactus-compute",
+      "text-generation",
+      "automatic-speech-recognition",
+      "image-text-to-text",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-18T16:57:57.612254+00:00",
+    "source_ids": [
+      "Cactus-Compute/cactus"
+    ],
+    "family": "cactus"
   },
   {
     "id": "openrouter:google/gemini-omni-1.2-flash",
@@ -10082,40 +10217,6 @@
     "family": "frisky-90m"
   },
   {
-    "id": "huggingface:akhaliq/MOSS-Image-SFT-4-steps",
-    "name": "MOSS-Image-SFT-4-steps",
-    "provider": "akhaliq",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-16T20:11:11.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "moss-image",
-      "text-to-image",
-      "turbo"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.508189+00:00",
-    "source_ids": [
-      "akhaliq/MOSS-Image-SFT-4-steps"
-    ],
-    "family": "MOSS-Image-SFT-4-steps"
-  },
-  {
     "id": "huggingface:eaddario/IQ2_K-IQ6_K-Test-Models",
     "name": "IQ2_K-IQ6_K-Test-Models",
     "provider": "eaddario",
@@ -10649,40 +10750,6 @@
     "family": "basal-omni-1.0-ultra"
   },
   {
-    "id": "huggingface:danielrosehill/Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
-    "name": "Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
-    "provider": "danielrosehill",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-15T08:41:37.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/danielrosehill/Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching",
-    "tags": [
-      "automatic-speech-recognition",
-      "nemo",
-      "onnx",
-      "gguf",
-      "code-switching",
-      "hebrew"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.890876+00:00",
-    "source_ids": [
-      "danielrosehill/Parakeet-TDT-0.6B-v2-English-Hebrew-Codeswitching"
-    ],
-    "family": "Parakeet-TDT-v2-English-Hebrew-Codeswitching"
-  },
-  {
     "id": "huggingface:SD-Next/MicroDecoder",
     "name": "MicroDecoder",
     "provider": "SD-Next",
@@ -11118,41 +11185,6 @@
       "kataguru/Kataguru-Industry-MVP-27B-v1.1-GGUF"
     ],
     "family": "Kataguru-Industry-MVP-v1.1"
-  },
-  {
-    "id": "huggingface:Vardaan97/Qwen3.8-Flash-Next-Splash-GGUF",
-    "name": "Qwen3.8-Flash-Next-Splash-GGUF",
-    "provider": "Vardaan97",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-14T12:49:13.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/Vardaan97/Qwen3.8-Flash-Next-Splash-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "imatrix",
-      "qwen4exp",
-      "moe",
-      "splash"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.979503+00:00",
-    "source_ids": [
-      "Vardaan97/Qwen3.8-Flash-Next-Splash-GGUF"
-    ],
-    "family": "Qwen3.8-Flash-Next-Splash"
   },
   {
     "id": "huggingface:AMAImedia/FishAudio-Drama3-TTS-83Lang-Qwen3.5-35B-A3B-FP8-BF16-GGUF",
@@ -11996,74 +12028,6 @@
       "Remek/basal-omni-1.0-mini"
     ],
     "family": "basal-omni-1.0-mini"
-  },
-  {
-    "id": "huggingface:OpenMOSS-Team/MOSS-Image-SFT",
-    "name": "MOSS-Image-SFT",
-    "provider": "OpenMOSS-Team",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T07:01:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "moss-image",
-      "text-to-image",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.508100+00:00",
-    "source_ids": [
-      "OpenMOSS-Team/MOSS-Image-SFT"
-    ],
-    "family": "MOSS-Image-SFT"
-  },
-  {
-    "id": "huggingface:OpenMOSS-Team/MOSS-Image-Base",
-    "name": "MOSS-Image-Base",
-    "provider": "OpenMOSS-Team",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-11T06:49:17.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "moss-image",
-      "text-to-image",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.508158+00:00",
-    "source_ids": [
-      "OpenMOSS-Team/MOSS-Image-Base"
-    ],
-    "family": "MOSS-Image"
   },
   {
     "id": "huggingface:axteam/gemma-4-31B-GGUF",
@@ -14097,6 +14061,40 @@
     "family": "Qwen3.5-Sceptic-v3.4"
   },
   {
+    "id": "huggingface:wesjos/Qwen-Image2.1-ZenlessZoneZero-Lora",
+    "name": "Qwen-Image2.1-ZenlessZoneZero-Lora",
+    "provider": "wesjos",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-29T07:23:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/wesjos/Qwen-Image2.1-ZenlessZoneZero-Lora",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "image-to-image",
+      "lora",
+      "qwen-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-18T16:57:57.681385+00:00",
+    "source_ids": [
+      "wesjos/Qwen-Image2.1-ZenlessZoneZero-Lora"
+    ],
+    "family": "Qwen-Image2.1-ZenlessZoneZero-Lora"
+  },
+  {
     "id": "huggingface:jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF",
     "name": "ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF",
     "provider": "jakeatx",
@@ -15770,39 +15768,6 @@
     "family": "hk-cantonese-cc0-qwen3-tts"
   },
   {
-    "id": "huggingface:hendrimardani/fine-tuned-model-indonesian",
-    "name": "fine-tuned-model-indonesian",
-    "provider": "hendrimardani",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-07T10:21:41.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/hendrimardani/fine-tuned-model-indonesian",
-    "tags": [
-      "text-generation",
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.415875+00:00",
-    "source_ids": [
-      "hendrimardani/fine-tuned-model-indonesian"
-    ],
-    "family": "fine-tuned-model-indonesian"
-  },
-  {
     "id": "huggingface:alexisStacksCode/Gemma-4-26B-A4B-QAT-Voice-GGUFs",
     "name": "Gemma-4-26B-A4B-QAT-Voice-GGUFs",
     "provider": "alexisStacksCode",
@@ -17468,6 +17433,40 @@
       "mradermacher/LFM2.5-2.6B-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-i1-GGUF"
     ],
     "family": "LFM2.5-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-i1"
+  },
+  {
+    "id": "huggingface:QrusherZA/H3_Turbo_ComfyUI",
+    "name": "H3_Turbo_ComfyUI",
+    "provider": "QrusherZA",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-08-06T01:10:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/QrusherZA/H3_Turbo_ComfyUI",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "comfyui",
+      "lora",
+      "audio-video",
+      "text-to-video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-18T16:57:57.799847+00:00",
+    "source_ids": [
+      "QrusherZA/H3_Turbo_ComfyUI"
+    ],
+    "family": "H3_Turbo_ComfyUI"
   },
   {
     "id": "huggingface:mradermacher/LFM2.5-2.6B-UNCENSORED-ABLITERATED-PHILADELPHIA-CLASS-GGUF",
@@ -21027,41 +21026,6 @@
     "family": "Chroma1-Radiance"
   },
   {
-    "id": "huggingface:cyankiwi/GLM-4.6V-Flash-AWQ-4bit",
-    "name": "GLM-4.6V-Flash-AWQ-4bit",
-    "provider": "cyankiwi",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-12-08T19:34:10.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/cyankiwi/GLM-4.6V-Flash-AWQ-4bit",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "glm4v",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.979617+00:00",
-    "source_ids": [
-      "cyankiwi/GLM-4.6V-Flash-AWQ-4bit"
-    ],
-    "family": "GLM-4.6V-Flash--4bit"
-  },
-  {
     "id": "huggingface:Comfy-Org/Flux-2-Dev",
     "name": "Flux-2-Dev",
     "provider": "Comfy-Org",
@@ -21902,72 +21866,6 @@
     "family": "ACE-Step"
   },
   {
-    "id": "huggingface:litert-community/Qwen2.5-1.5B-Instruct",
-    "name": "Qwen2.5-1.5B-Instruct",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-30T19:19:22.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct",
-    "tags": [
-      "text-generation",
-      "litert-lm",
-      "tflite",
-      "chat",
-      "text-generation",
-      "base_model:Qwen/Qwen2.5-1.5B-Instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.415773+00:00",
-    "source_ids": [
-      "litert-community/Qwen2.5-1.5B-Instruct"
-    ],
-    "family": "Qwen2.5"
-  },
-  {
-    "id": "huggingface:litert-community/Qwen2.5-0.5B-Instruct",
-    "name": "Qwen2.5-0.5B-Instruct",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-04-30T16:16:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/Qwen2.5-0.5B-Instruct",
-    "tags": [
-      "text-generation",
-      "litert-lm",
-      "tflite",
-      "chat",
-      "text-generation",
-      "base_model:Qwen/Qwen2.5-0.5B-Instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.415678+00:00",
-    "source_ids": [
-      "litert-community/Qwen2.5-0.5B-Instruct"
-    ],
-    "family": "Qwen2.5"
-  },
-  {
     "id": "huggingface:Comfy-Org/HiDream",
     "name": "HiDream",
     "provider": "Comfy-Org",
@@ -22068,39 +21966,6 @@
     "family": "whisper-tiny-ExecuTorch"
   },
   {
-    "id": "huggingface:litert-community/Phi-4-mini-instruct",
-    "name": "Phi-4-mini-instruct",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-03-05T21:37:25.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/Phi-4-mini-instruct",
-    "tags": [
-      "text-generation",
-      "litert-lm",
-      "tflite",
-      "chat",
-      "text-generation",
-      "base_model:microsoft/Phi-4-mini-instruct"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.415713+00:00",
-    "source_ids": [
-      "litert-community/Phi-4-mini-instruct"
-    ],
-    "family": "Phi-4-mini"
-  },
-  {
     "id": "huggingface:mradermacher/ToriiGate-v0.4-7B-GGUF",
     "name": "ToriiGate-v0.4-7B-GGUF",
     "provider": "mradermacher",
@@ -22168,39 +22033,6 @@
       "software-mansion/whisper-tiny.en-ExecuTorch"
     ],
     "family": "whisper-tiny.en-ExecuTorch"
-  },
-  {
-    "id": "huggingface:litert-community/DeepSeek-R1-Distill-Qwen-1.5B",
-    "name": "DeepSeek-R1-Distill-Qwen-1.5B",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-02-14T22:51:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/DeepSeek-R1-Distill-Qwen-1.5B",
-    "tags": [
-      "text-generation",
-      "litert-lm",
-      "tflite",
-      "chat",
-      "text-generation",
-      "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-19T09:38:08.415741+00:00",
-    "source_ids": [
-      "litert-community/DeepSeek-R1-Distill-Qwen-1.5B"
-    ],
-    "family": "DeepSeek-R1-Distill-Qwen"
   },
   {
     "id": "huggingface:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
