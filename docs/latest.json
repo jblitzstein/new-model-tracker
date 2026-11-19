@@ -712,6 +712,40 @@
     "family": "AksonOCR-Lite"
   },
   {
+    "id": "huggingface:t8star/Minimax-H3-Image-Exp-Comfy",
+    "name": "Minimax-H3-Image-Exp-Comfy",
+    "provider": "t8star",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-16T10:51:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/t8star/Minimax-H3-Image-Exp-Comfy",
+    "tags": [
+      "text-to-image",
+      "minimax-h3",
+      "comfyui",
+      "image-generation",
+      "image-editing",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794503+00:00",
+    "source_ids": [
+      "t8star/Minimax-H3-Image-Exp-Comfy"
+    ],
+    "family": "Minimax-H3-Image-Exp-Comfy"
+  },
+  {
     "id": "openrouter:qwen/qwen4-max",
     "name": "Qwen: Qwen4 Max",
     "provider": "Qwen",
@@ -9822,40 +9856,6 @@
     "family": "Qwen3.8-BaseQuant-V1"
   },
   {
-    "id": "huggingface:lodestones/Kromoss",
-    "name": "Kromoss",
-    "provider": "lodestones",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-19T01:34:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/lodestones/Kromoss",
-    "tags": [
-      "text-to-image",
-      "diffusers",
-      "safetensors",
-      "moss-image",
-      "text-to-image",
-      "en"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-20T16:25:58.937084+00:00",
-    "source_ids": [
-      "lodestones/Kromoss"
-    ],
-    "family": "Kromoss"
-  },
-  {
     "id": "huggingface:icecubetr/DeepSeek-V4.1-Flash-1017-dsx-2.6bit",
     "name": "DeepSeek-V4.1-Flash-1017-dsx-2.6bit",
     "provider": "icecubetr",
@@ -10866,76 +10866,6 @@
       "divinetribe/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-MLX-8bit"
     ],
     "family": "NVIDIA-Nemotron-3.5-Bolt-MLX-8bit"
-  },
-  {
-    "id": "huggingface:richardyoung/FrogNano-4B-2609-heretic-GGUF",
-    "name": "FrogNano-4B-2609-heretic-GGUF",
-    "provider": "richardyoung",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-15T15:36:44.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/richardyoung/FrogNano-4B-2609-heretic-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "ollama",
-      "heretic",
-      "abliterated"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-20T16:25:59.420336+00:00",
-    "source_ids": [
-      "richardyoung/FrogNano-4B-2609-heretic-GGUF"
-    ],
-    "family": "FrogNano-2609-heretic"
-  },
-  {
-    "id": "huggingface:richardyoung/LightOnOCR-3-4B-GGUF",
-    "name": "LightOnOCR-3-4B-GGUF",
-    "provider": "richardyoung",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-15T15:21:06.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/richardyoung/LightOnOCR-3-4B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "llama.cpp",
-      "ollama",
-      "imatrix",
-      "vision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-20T16:25:59.420199+00:00",
-    "source_ids": [
-      "richardyoung/LightOnOCR-3-4B-GGUF"
-    ],
-    "family": "LightOnOCR-3"
   },
   {
     "id": "huggingface:ggml-org/LFM2.5-24B-A2B-GGUF",
@@ -12213,6 +12143,40 @@
       "turintech/gemma-4-E4B-it-Artemis-GGUF"
     ],
     "family": "gemma-4-E-it-Artemis"
+  },
+  {
+    "id": "huggingface:chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1",
+    "name": "Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1",
+    "provider": "chatrlabs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-12T05:42:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "lora",
+      "qwen-image",
+      "qwen-image-2.1",
+      "image-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794416+00:00",
+    "source_ids": [
+      "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1"
+    ],
+    "family": "Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1"
   },
   {
     "id": "huggingface:jjcoders/suna-v1",
@@ -16978,76 +16942,6 @@
     "family": "Qwen3.5-RKLLM"
   },
   {
-    "id": "huggingface:meta-models/Muse-Glimmer-30B-assistant",
-    "name": "Muse-Glimmer-30B-assistant",
-    "provider": "meta-models",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T17:55:23.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B-assistant",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "muse_glimmer_assistant",
-      "feature-extraction",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-20T16:25:59.420406+00:00",
-    "source_ids": [
-      "meta-models/Muse-Glimmer-30B-assistant"
-    ],
-    "family": "Muse-Glimmer-assistant"
-  },
-  {
-    "id": "huggingface:meta-models/Muse-Glimmer-30B",
-    "name": "Muse-Glimmer-30B",
-    "provider": "meta-models",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-09T17:51:35.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "muse_glimmer",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-20T16:25:59.420501+00:00",
-    "source_ids": [
-      "meta-models/Muse-Glimmer-30B"
-    ],
-    "family": "Muse-Glimmer"
-  },
-  {
     "id": "huggingface:Qwen/Qwen3.8-2.4T-A95B",
     "name": "Qwen3.8-2.4T-A95B",
     "provider": "Qwen",
@@ -17344,39 +17238,6 @@
       "Qwen/Qwen3.8-27B"
     ],
     "family": "Qwen3.8"
-  },
-  {
-    "id": "huggingface:AtomicChat/Ling-3.0-flash-GGUF",
-    "name": "Ling-3.0-flash-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-08-04T20:00:45.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/Ling-3.0-flash-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "imatrix",
-      "moe",
-      "text-generation"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-20T16:25:58.852370+00:00",
-    "source_ids": [
-      "AtomicChat/Ling-3.0-flash-GGUF"
-    ],
-    "family": "Ling-3.0-flash"
   },
   {
     "id": "huggingface:unslothai/Qwen3-ASR-0.6B-GGUF",
@@ -20531,6 +20392,74 @@
     "family": "Youtu-LLM-A"
   },
   {
+    "id": "huggingface:black-forest-labs/FLUX.1-dev-FP8",
+    "name": "FLUX.1-dev-FP8",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-01-01T15:08:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev-FP8",
+    "tags": [
+      "text-to-image",
+      "text-to-image",
+      "image-generation",
+      "flux",
+      "license:other",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794636+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-dev-FP8"
+    ],
+    "family": "FLUX.1-dev-FP8"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-dev-NVFP4",
+    "name": "FLUX.1-dev-NVFP4",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-01-01T15:05:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev-NVFP4",
+    "tags": [
+      "text-to-image",
+      "text-to-image",
+      "image-generation",
+      "flux",
+      "license:other",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794624+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-dev-NVFP4"
+    ],
+    "family": "FLUX.1-dev-NVFP4"
+  },
+  {
     "id": "huggingface:Comfy-Org/Chroma1-HD",
     "name": "Chroma1-HD",
     "provider": "Comfy-Org",
@@ -20799,6 +20728,39 @@
       "Comfy-Org/Flux-2-Dev"
     ],
     "family": "Flux-2-Dev"
+  },
+  {
+    "id": "huggingface:nvidia/Riva-Translate-4B-Instruct-v1.1",
+    "name": "Riva-Translate-4B-Instruct-v1.1",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-11-05T06:13:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Riva-Translate-4B-Instruct-v1.1",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "conversational"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.673107+00:00",
+    "source_ids": [
+      "nvidia/Riva-Translate-4B-Instruct-v1.1"
+    ],
+    "family": "Riva-Translate--v1.1"
   },
   {
     "id": "huggingface:Comfy-Org/HuMo",
@@ -21197,6 +21159,40 @@
       "morph/morph-v3-fast:batch"
     ],
     "family": "Morph V3 Fast (batch)"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-Krea-dev",
+    "name": "FLUX.1-Krea-dev",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-07-07T10:39:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-generation",
+      "flux"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794575+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-Krea-dev"
+    ],
+    "family": "FLUX.1-Krea-dev"
   },
   {
     "id": "huggingface:unsloth/FLUX.1-schnell-GGUF",
@@ -21743,6 +21739,175 @@
     "family": "SmolVLM2"
   },
   {
+    "id": "huggingface:VaidhyaMegha/Shoonya",
+    "name": "Shoonya",
+    "provider": "VaidhyaMegha",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-01-31T15:22:08.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/VaidhyaMegha/Shoonya",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "onnx",
+      "code",
+      "python",
+      "rust"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.673180+00:00",
+    "source_ids": [
+      "VaidhyaMegha/Shoonya"
+    ],
+    "family": "Shoonya"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-schnell-onnx",
+    "name": "FLUX.1-schnell-onnx",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-01-28T00:14:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell-onnx",
+    "tags": [
+      "text-to-image",
+      "onnx",
+      "text-to-image",
+      "image-generation",
+      "flux",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794551+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-schnell-onnx"
+    ],
+    "family": "FLUX.1-schnell-onnx"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-dev-onnx",
+    "name": "FLUX.1-dev-onnx",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2025-01-18T01:59:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev-onnx",
+    "tags": [
+      "text-to-image",
+      "onnx",
+      "text-to-image",
+      "image-generation",
+      "flux",
+      "license:other"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794613+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-dev-onnx"
+    ],
+    "family": "FLUX.1-dev-onnx"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-Depth-dev",
+    "name": "FLUX.1-Depth-dev",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-11-20T19:47:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-Depth-dev",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "image-generation",
+      "flux",
+      "diffusion-single-file"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794600+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-Depth-dev"
+    ],
+    "family": "FLUX.1-Depth-dev"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-Canny-dev",
+    "name": "FLUX.1-Canny-dev",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-11-20T19:46:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-Canny-dev",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "image-generation",
+      "flux",
+      "diffusion-single-file"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794588+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-Canny-dev"
+    ],
+    "family": "FLUX.1-Canny-dev"
+  },
+  {
     "id": "huggingface:onnx-community/Llama-3.2-3B-Instruct-ONNX",
     "name": "Llama-3.2-3B-Instruct-ONNX",
     "provider": "onnx-community",
@@ -21875,6 +22040,74 @@
       "Comfy-Org/Flux-1-Dev"
     ],
     "family": "Flux-1-Dev"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-dev",
+    "name": "FLUX.1-dev",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-07-31T21:13:44.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-generation",
+      "flux"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794564+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-dev"
+    ],
+    "family": "FLUX.1-dev"
+  },
+  {
+    "id": "huggingface:black-forest-labs/FLUX.1-schnell",
+    "name": "FLUX.1-schnell",
+    "provider": "Black Forest Labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2024-07-31T19:58:05.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-generation",
+      "flux"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T22:54:52.794538+00:00",
+    "source_ids": [
+      "black-forest-labs/FLUX.1-schnell"
+    ],
+    "family": "FLUX.1-schnell"
   },
   {
     "id": "huggingface:HuggingFaceTB/SmolLM-135M-Instruct",
