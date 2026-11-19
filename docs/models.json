@@ -194661,5 +194661,281 @@
       "inclusionAI/SingVL_S1_4B"
     ],
     "family": "SingVL_S1"
+  },
+  {
+    "id": "openrouter:google/gemini-4-neon",
+    "name": "Google: Gemini 4 Neon",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-18T13:02:57+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web...",
+    "url": "https://openrouter.ai/google/gemini-4-neon",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 3.0,
+      "completion_per_million": 15.0
+    },
+    "first_seen": "2026-11-19T01:44:33.072354+00:00",
+    "source_ids": [
+      "google/gemini-4-neon"
+    ],
+    "family": "Gemini 4 Neon"
+  },
+  {
+    "id": "openrouter:google/gemini-4-neon:batch",
+    "name": "Google: Gemini 4 Neon (batch)",
+    "provider": "Google",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "audio",
+      "file",
+      "image",
+      "text",
+      "video"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-18T13:02:57+00:00",
+    "context_length": 1048576,
+    "description": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web...",
+    "url": "https://openrouter.ai/google/gemini-4-neon:batch",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 1.5,
+      "completion_per_million": 7.5
+    },
+    "first_seen": "2026-11-19T01:44:33.072953+00:00",
+    "source_ids": [
+      "google/gemini-4-neon:batch"
+    ],
+    "family": "Gemini 4 Neon (batch)"
+  },
+  {
+    "id": "huggingface:trymirai/Qwen3.8-27B-M",
+    "name": "Qwen3.8-27B-M",
+    "provider": "trymirai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-18T20:54:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trymirai/Qwen3.8-27B-M",
+    "tags": [
+      "text-generation",
+      "uzu",
+      "safetensors",
+      "mirai",
+      "4-bit",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T01:44:33.224379+00:00",
+    "source_ids": [
+      "trymirai/Qwen3.8-27B-M"
+    ],
+    "family": "Qwen3.8-M"
+  },
+  {
+    "id": "huggingface:trymirai/Qwen3.5-9B-M",
+    "name": "Qwen3.5-9B-M",
+    "provider": "trymirai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-08-15T16:43:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/trymirai/Qwen3.5-9B-M",
+    "tags": [
+      "text-generation",
+      "uzu",
+      "safetensors",
+      "mirai",
+      "4-bit",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T01:44:33.224412+00:00",
+    "source_ids": [
+      "trymirai/Qwen3.5-9B-M"
+    ],
+    "family": "Qwen3.5-M"
+  },
+  {
+    "id": "huggingface:KittenML/kitten-tts-2-mini",
+    "name": "kitten-tts-2-mini",
+    "provider": "KittenML",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-11-13T03:34:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KittenML/kitten-tts-2-mini",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "safetensors",
+      "text-to-speech",
+      "int8",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T01:44:33.495131+00:00",
+    "source_ids": [
+      "KittenML/kitten-tts-2-mini"
+    ],
+    "family": "kitten-tts-2-mini"
+  },
+  {
+    "id": "huggingface:KittenML/kitten-tts-2-pico",
+    "name": "kitten-tts-2-pico",
+    "provider": "KittenML",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-11-13T03:33:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KittenML/kitten-tts-2-pico",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "safetensors",
+      "text-to-speech",
+      "int8",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T01:44:33.495182+00:00",
+    "source_ids": [
+      "KittenML/kitten-tts-2-pico"
+    ],
+    "family": "kitten-tts-2-pico"
+  },
+  {
+    "id": "huggingface:KittenML/kitten-tts-2-nano",
+    "name": "kitten-tts-2-nano",
+    "provider": "KittenML",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-11-13T03:34:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/KittenML/kitten-tts-2-nano",
+    "tags": [
+      "text-to-speech",
+      "onnx",
+      "safetensors",
+      "text-to-speech",
+      "int8",
+      "int4"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T01:44:33.495206+00:00",
+    "source_ids": [
+      "KittenML/kitten-tts-2-nano"
+    ],
+    "family": "kitten-tts-2-nano"
+  },
+  {
+    "id": "huggingface:Hebrish/Sabich-Rolling",
+    "name": "Sabich-Rolling",
+    "provider": "Hebrish",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-02T10:09:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Hebrish/Sabich-Rolling",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "parakeet",
+      "tdt",
+      "english",
+      "hebrew"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-19T01:44:33.553200+00:00",
+    "source_ids": [
+      "Hebrish/Sabich-Rolling"
+    ],
+    "family": "Sabich-Rolling"
   }
 ]
