@@ -195581,5 +195581,488 @@
       "black-forest-labs/FLUX.1-dev-FP8"
     ],
     "family": "FLUX.1-dev-FP8"
+  },
+  {
+    "id": "openrouter:mistralai/pixtral-large-2502",
+    "name": "Mistral: Pixtral Large 2502",
+    "provider": "Mistral",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-20T00:51:05+00:00",
+    "context_length": 128000,
+    "description": "Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following [Pixtral Large 2411](https://openrouter.ai/mistralai/pixtral-large-2411). It accepts text and image input, including documents, charts, and natural images,...",
+    "url": "https://openrouter.ai/mistralai/pixtral-large-2502",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 2.0,
+      "completion_per_million": 6.0
+    },
+    "first_seen": "2026-11-20T05:57:43.009901+00:00",
+    "source_ids": [
+      "mistralai/pixtral-large-2502"
+    ],
+    "family": "Pixtral Large"
+  },
+  {
+    "id": "huggingface:CMSManhattan/JiRackDeltaNet_70b",
+    "name": "JiRackDeltaNet_70b",
+    "provider": "CMSManhattan",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-18T17:34:21.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/CMSManhattan/JiRackDeltaNet_70b",
+    "tags": [
+      "text-generation",
+      "pytorch",
+      "safetensors",
+      "gguf",
+      "qwen3_5_text",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.132246+00:00",
+    "source_ids": [
+      "CMSManhattan/JiRackDeltaNet_70b"
+    ],
+    "family": "JiRackDeltaNet"
+  },
+  {
+    "id": "huggingface:spybyscript/scyllasband",
+    "name": "scyllasband",
+    "provider": "spybyscript",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-08-05T17:50:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/spybyscript/scyllasband",
+    "tags": [
+      "text-to-speech",
+      "litert",
+      "tflite",
+      "onnx",
+      "text-to-speech",
+      "tts"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.455869+00:00",
+    "source_ids": [
+      "spybyscript/scyllasband"
+    ],
+    "family": "scyllasband"
+  },
+  {
+    "id": "huggingface:sensenova/SenseNova-Loop-9B",
+    "name": "SenseNova-Loop-9B",
+    "provider": "sensenova",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T10:16:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "sensenova_loop",
+      "text-generation",
+      "multimodal"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600214+00:00",
+    "source_ids": [
+      "sensenova/SenseNova-Loop-9B"
+    ],
+    "family": "SenseNova-Loop"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-35BA3B-AWQ",
+    "name": "WeMM-Video-35BA3B-AWQ",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:55:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-35BA3B-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "wemm_qwen3_5_moe",
+      "wemm",
+      "multimodal",
+      "video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600320+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-35BA3B-AWQ"
+    ],
+    "family": "WeMM-Video"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-9B",
+    "name": "WeMM-Video-9B",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:55:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-9B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "feature-extraction",
+      "wemm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600374+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-9B"
+    ],
+    "family": "WeMM-Video"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-9B-FP8",
+    "name": "WeMM-Video-9B-FP8",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:56:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-9B-FP8",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "wemm",
+      "multimodal",
+      "video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600443+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-9B-FP8"
+    ],
+    "family": "WeMM-Video-FP8"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-9B-GGUF",
+    "name": "WeMM-Video-9B-GGUF",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:56:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-9B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5",
+      "wemm",
+      "multimodal",
+      "video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600492+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-9B-GGUF"
+    ],
+    "family": "WeMM-Video"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-9B-NVFP4",
+    "name": "WeMM-Video-9B-NVFP4",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:56:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-9B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "wemm",
+      "multimodal",
+      "video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600541+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-9B-NVFP4"
+    ],
+    "family": "WeMM-Video-NVFP4"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-9B-AWQ",
+    "name": "WeMM-Video-9B-AWQ",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:56:26.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-9B-AWQ",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "wemm",
+      "multimodal",
+      "video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600620+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-9B-AWQ"
+    ],
+    "family": "WeMM-Video"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-4B-NVFP4",
+    "name": "WeMM-Video-4B-NVFP4",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:58:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-4B-NVFP4",
+    "tags": [
+      "image-text-to-text",
+      "safetensors",
+      "qwen3_5",
+      "wemm",
+      "multimodal",
+      "video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600662+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-4B-NVFP4"
+    ],
+    "family": "WeMM-Video-NVFP4"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-4B",
+    "name": "WeMM-Video-4B",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:57:07.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-4B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "feature-extraction",
+      "wemm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600710+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-4B"
+    ],
+    "family": "WeMM-Video"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-4B-GGUF",
+    "name": "WeMM-Video-4B-GGUF",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:57:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-4B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "qwen3_5",
+      "wemm",
+      "multimodal",
+      "video"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600745+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-4B-GGUF"
+    ],
+    "family": "WeMM-Video"
+  },
+  {
+    "id": "huggingface:tencent/WeMM-Video-35BA3B",
+    "name": "WeMM-Video-35BA3B",
+    "provider": "Tencent",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T08:53:50.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tencent/WeMM-Video-35BA3B",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "wemm_qwen3_5_moe",
+      "feature-extraction",
+      "wemm"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T05:57:43.600787+00:00",
+    "source_ids": [
+      "tencent/WeMM-Video-35BA3B"
+    ],
+    "family": "WeMM-Video"
   }
 ]
