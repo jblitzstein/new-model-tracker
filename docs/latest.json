@@ -31,6 +31,74 @@
     "family": "Pixtral Large"
   },
   {
+    "id": "huggingface:waryusya/waryusya_MiniMaxH3",
+    "name": "waryusya_MiniMaxH3",
+    "provider": "waryusya",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-19T10:30:35.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/waryusya/waryusya_MiniMaxH3",
+    "tags": [
+      "text-to-image",
+      "text-to-image",
+      "lora",
+      "text-to-video",
+      "image-to-video",
+      "base_model:Comfy-Org/MiniMax-H3"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:10.051735+00:00",
+    "source_ids": [
+      "waryusya/waryusya_MiniMaxH3"
+    ],
+    "family": "waryusya_MiniMaxH3"
+  },
+  {
+    "id": "huggingface:lvladikov/MOSS-SFT-Distill-4step-LoRA",
+    "name": "MOSS-SFT-Distill-4step-LoRA",
+    "provider": "lvladikov",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-19T08:45:40.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/lvladikov/MOSS-SFT-Distill-4step-LoRA",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "lora",
+      "text-to-image",
+      "distillation",
+      "step-distillation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:10.051610+00:00",
+    "source_ids": [
+      "lvladikov/MOSS-SFT-Distill-4step-LoRA"
+    ],
+    "family": "MOSS-SFT-Distill-4step-LoRA"
+  },
+  {
     "id": "openrouter:google/gemini-4-neon",
     "name": "Google: Gemini 4 Neon",
     "provider": "Google",
@@ -103,6 +171,39 @@
       "google/gemini-4-neon:batch"
     ],
     "family": "Gemini 4 Neon (batch)"
+  },
+  {
+    "id": "huggingface:nace-ai/Hy4-flash-GGUF",
+    "name": "Hy4-flash-GGUF",
+    "provider": "nace-ai",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-18T11:02:01.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nace-ai/Hy4-flash-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "hy4-flash",
+      "llama-cpp",
+      "quantized",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:09.949639+00:00",
+    "source_ids": [
+      "nace-ai/Hy4-flash-GGUF"
+    ],
+    "family": "Hy4-flash"
   },
   {
     "id": "huggingface:Xylolabs/Hy4-flash-GGUF",
@@ -1328,6 +1429,72 @@
       "Comfy-Org/PAN2"
     ],
     "family": "PAN2"
+  },
+  {
+    "id": "huggingface:Xylolabs/gemma-4-E2B-it-GGUF",
+    "name": "gemma-4-E2B-it-GGUF",
+    "provider": "Xylolabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-14T22:09:13.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Xylolabs/gemma-4-E2B-it-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama-cpp",
+      "quantized",
+      "gemma4",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:09.949547+00:00",
+    "source_ids": [
+      "Xylolabs/gemma-4-E2B-it-GGUF"
+    ],
+    "family": "gemma-4-E-it"
+  },
+  {
+    "id": "huggingface:Xylolabs/gemma-4-E4B-it-GGUF",
+    "name": "gemma-4-E4B-it-GGUF",
+    "provider": "Xylolabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-14T20:16:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Xylolabs/gemma-4-E4B-it-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama-cpp",
+      "quantized",
+      "gemma4",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:09.949322+00:00",
+    "source_ids": [
+      "Xylolabs/gemma-4-E4B-it-GGUF"
+    ],
+    "family": "gemma-4-E-it"
   },
   {
     "id": "huggingface:n4ze3m/tiny-voca",
@@ -3108,6 +3275,39 @@
       "kt/midm-k-3.0-pro"
     ],
     "family": "Mi:dm K 3.0 Pro"
+  },
+  {
+    "id": "huggingface:tablinum/Moon-Beam-8B-A1B-GGUF-Preview",
+    "name": "Moon-Beam-8B-A1B-GGUF-Preview",
+    "provider": "tablinum",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-05T16:53:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/tablinum/Moon-Beam-8B-A1B-GGUF-Preview",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "tablinum",
+      "engram",
+      "moon-beam",
+      "ling"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:09.949613+00:00",
+    "source_ids": [
+      "tablinum/Moon-Beam-8B-A1B-GGUF-Preview"
+    ],
+    "family": "Moon-Beam"
   },
   {
     "id": "openrouter:openrouter/auto-code",
@@ -5852,6 +6052,40 @@
     "family": "d1"
   },
   {
+    "id": "huggingface:Harsha001/Maya2-Native-GGUF",
+    "name": "Maya2-Native-GGUF",
+    "provider": "Harsha001",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-27T17:00:12.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Harsha001/Maya2-Native-GGUF",
+    "tags": [
+      "text-to-speech",
+      "gguf",
+      "llama.cpp",
+      "rocmfpx",
+      "tts",
+      "text-to-speech"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:10.406080+00:00",
+    "source_ids": [
+      "Harsha001/Maya2-Native-GGUF"
+    ],
+    "family": "Maya2-Native"
+  },
+  {
     "id": "huggingface:danielrosehill/Fritter",
     "name": "Fritter",
     "provider": "danielrosehill",
@@ -7402,6 +7636,40 @@
     "family": "Ingot-IV-Q2"
   },
   {
+    "id": "huggingface:Lnypuuuu/txt2image",
+    "name": "txt2image",
+    "provider": "Lnypuuuu",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-10-24T03:46:27.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Lnypuuuu/txt2image",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "text-to-image",
+      "lora",
+      "template:diffusion-lora",
+      "base_model:krea/Krea-2-Raw"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:10.051676+00:00",
+    "source_ids": [
+      "Lnypuuuu/txt2image"
+    ],
+    "family": "txt2image"
+  },
+  {
     "id": "huggingface:LiquidAI/LFM3-1.7B-ONNX",
     "name": "LFM3-1.7B-ONNX",
     "provider": "LiquidAI",
@@ -8277,6 +8545,41 @@
     "family": "DeepSeek-V4.1-Flash-1017-abliterated"
   },
   {
+    "id": "huggingface:mlx-community/DeepSeek-V4.1-Flash-1017-oQ2.5e-ngram-mtp",
+    "name": "DeepSeek-V4.1-Flash-1017-oQ2.5e-ngram-mtp",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-22T03:55:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/DeepSeek-V4.1-Flash-1017-oQ2.5e-ngram-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "deepseek_v41",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:10.588906+00:00",
+    "source_ids": [
+      "mlx-community/DeepSeek-V4.1-Flash-1017-oQ2.5e-ngram-mtp"
+    ],
+    "family": "DeepSeek-V4.1-Flash-1017-oQ2.5e-ngram-mtp"
+  },
+  {
     "id": "huggingface:ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
     "name": "Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
     "provider": "ltzheng",
@@ -8711,6 +9014,40 @@
       "openbmb/MiniCPM-OCR-1.0"
     ],
     "family": "MiniCPM-OCR-1.0"
+  },
+  {
+    "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
+    "name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T13:02:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "nvidia",
+      "nemotron-3.5",
+      "nvfp4",
+      "iq4_nl"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:10.491509+00:00",
+    "source_ids": [
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF"
+    ],
+    "family": "NVIDIA-Nemotron-3.5-Transcribe"
   },
   {
     "id": "huggingface:BennyDaBall/Fibo-2.0-dev-NVFP4",
@@ -10885,6 +11222,41 @@
     "family": "DeepSeek-V4.1-Flash-1017-FP8"
   },
   {
+    "id": "huggingface:mlx-community/DeepSeek-V4.1-Flash-1017-oQ2.5e-mtp",
+    "name": "DeepSeek-V4.1-Flash-1017-oQ2.5e-mtp",
+    "provider": "mlx-community",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T12:12:10.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/mlx-community/DeepSeek-V4.1-Flash-1017-oQ2.5e-mtp",
+    "tags": [
+      "image-text-to-text",
+      "mlx",
+      "safetensors",
+      "deepseek_v41",
+      "oq",
+      "quantized"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-20T16:44:10.588929+00:00",
+    "source_ids": [
+      "mlx-community/DeepSeek-V4.1-Flash-1017-oQ2.5e-mtp"
+    ],
+    "family": "DeepSeek-V4.1-Flash-1017-oQ2.5e-mtp"
+  },
+  {
     "id": "huggingface:Remek/basal-omni-1.0-mini-GGUF",
     "name": "basal-omni-1.0-mini-GGUF",
     "provider": "Remek",
@@ -12923,39 +13295,6 @@
       "Soulfate24/Spark-X2.6-4B-Paretrix"
     ],
     "family": "Spark-X2.6-Paretrix"
-  },
-  {
-    "id": "huggingface:sirfyyn/Qwen3.8-Flash-Next-FLE-GGUF",
-    "name": "Qwen3.8-Flash-Next-FLE-GGUF",
-    "provider": "sirfyyn",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-08T21:13:52.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/sirfyyn/Qwen3.8-Flash-Next-FLE-GGUF",
-    "tags": [
-      "text-generation",
-      "gguf",
-      "moe",
-      "llama.cpp",
-      "fle",
-      "mtp"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-21T16:42:49.045179+00:00",
-    "source_ids": [
-      "sirfyyn/Qwen3.8-Flash-Next-FLE-GGUF"
-    ],
-    "family": "Qwen3.8-Flash-Next-FLE"
   },
   {
     "id": "huggingface:infosave/Mellum2.1-12B-A2.5B-Thinking-CMF",
@@ -18525,108 +18864,6 @@
     "family": "Qwen3"
   },
   {
-    "id": "huggingface:off-grid-ai/pony-diffusion-v6-xl-GGUF",
-    "name": "pony-diffusion-v6-xl-GGUF",
-    "provider": "off-grid-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-24T12:48:12.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/off-grid-ai/pony-diffusion-v6-xl-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "stable-diffusion",
-      "sdxl",
-      "image-generation",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-21T09:09:03.278530+00:00",
-    "source_ids": [
-      "off-grid-ai/pony-diffusion-v6-xl-GGUF"
-    ],
-    "family": "pony-diffusion-v6-xl"
-  },
-  {
-    "id": "huggingface:off-grid-ai/illustrious-xl-v2.0-GGUF",
-    "name": "illustrious-xl-v2.0-GGUF",
-    "provider": "off-grid-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-24T11:12:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/off-grid-ai/illustrious-xl-v2.0-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "stable-diffusion",
-      "sdxl",
-      "image-generation",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-21T09:09:03.278553+00:00",
-    "source_ids": [
-      "off-grid-ai/illustrious-xl-v2.0-GGUF"
-    ],
-    "family": "illustrious-xl-v2.0"
-  },
-  {
-    "id": "huggingface:off-grid-ai/animagine-xl-4.0-GGUF",
-    "name": "animagine-xl-4.0-GGUF",
-    "provider": "off-grid-ai",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-06-24T10:06:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/off-grid-ai/animagine-xl-4.0-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "stable-diffusion",
-      "sdxl",
-      "image-generation",
-      "quantized"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-21T09:09:03.278574+00:00",
-    "source_ids": [
-      "off-grid-ai/animagine-xl-4.0-GGUF"
-    ],
-    "family": "animagine-xl-4.0"
-  },
-  {
     "id": "huggingface:Comfy-Org/Boogu-Image",
     "name": "Boogu-Image",
     "provider": "Comfy-Org",
@@ -20496,41 +20733,6 @@
       "Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In"
     ],
     "family": "LTX-2-LoRA-Camera-Control-Dolly-In"
-  },
-  {
-    "id": "huggingface:tencent/Youtu-LLM-A7B-Base",
-    "name": "Youtu-LLM-A7B-Base",
-    "provider": "Tencent",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-01-05T08:31:53.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/tencent/Youtu-LLM-A7B-Base",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "youtu_vl_moe",
-      "text-generation",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-21T09:09:04.001740+00:00",
-    "source_ids": [
-      "tencent/Youtu-LLM-A7B-Base"
-    ],
-    "family": "Youtu-LLM-A"
   },
   {
     "id": "huggingface:black-forest-labs/FLUX.1-dev-FP8",
