@@ -196436,5 +196436,138 @@
       "mlx-community/DeepSeek-V4.1-Flash-1017-oQ2.5e-mtp"
     ],
     "family": "DeepSeek-V4.1-Flash-1017-oQ2.5e-mtp"
+  },
+  {
+    "id": "openrouter:radixark/daisyrose-27b",
+    "name": "RadixArk: DaisyRose 27B",
+    "provider": "radixark",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-21T00:49:48+00:00",
+    "context_length": 262144,
+    "description": "DaisyRose 27B is an open-weight multimodal reasoning model from RadixArk, trained from [Qwen3.8 27B](https://openrouter.ai/qwen/qwen3.8-27b) using reinforcement learning only on long-horizon agent tasks, with no supervised fine-tuning or distillation. It is...",
+    "url": "https://openrouter.ai/radixark/daisyrose-27b",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 1.875
+    },
+    "first_seen": "2026-11-21T01:06:21.976630+00:00",
+    "source_ids": [
+      "radixark/daisyrose-27b"
+    ],
+    "family": "DaisyRose"
+  },
+  {
+    "id": "huggingface:liftkkkk/ask-the-author-0.8b-gguf",
+    "name": "ask-the-author-0.8b-gguf",
+    "provider": "liftkkkk",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-06T06:42:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/liftkkkk/ask-the-author-0.8b-gguf",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama.cpp",
+      "quantization",
+      "text-generation",
+      "zh"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T01:06:22.061386+00:00",
+    "source_ids": [
+      "liftkkkk/ask-the-author-0.8b-gguf"
+    ],
+    "family": "ask-the-author"
+  },
+  {
+    "id": "huggingface:Nebsh/Seedreamstyle-H3-6K",
+    "name": "Seedreamstyle-H3-6K",
+    "provider": "Nebsh",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-19T18:53:04.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Nebsh/Seedreamstyle-H3-6K",
+    "tags": [
+      "text-to-image",
+      "minimax-h3",
+      "lora",
+      "comfyui",
+      "photography",
+      "cinematic"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T01:06:22.118951+00:00",
+    "source_ids": [
+      "Nebsh/Seedreamstyle-H3-6K"
+    ],
+    "family": "Seedreamstyle-H3-6K"
+  },
+  {
+    "id": "huggingface:InterpreticAI/Qwen3.8-27B-Uncensored-v3-IQ3_XXS-GGUF",
+    "name": "Qwen3.8-27B-Uncensored-v3-IQ3_XXS-GGUF",
+    "provider": "InterpreticAI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-08T05:32:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/InterpreticAI/Qwen3.8-27B-Uncensored-v3-IQ3_XXS-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "gguf",
+      "qwen3.8",
+      "uncensored",
+      "political-censorship"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T01:06:22.524392+00:00",
+    "source_ids": [
+      "InterpreticAI/Qwen3.8-27B-Uncensored-v3-IQ3_XXS-GGUF"
+    ],
+    "family": "Qwen3.8-Uncensored-v3-IQ3_XXS"
   }
 ]
