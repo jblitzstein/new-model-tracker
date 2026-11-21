@@ -196569,5 +196569,510 @@
       "InterpreticAI/Qwen3.8-27B-Uncensored-v3-IQ3_XXS-GGUF"
     ],
     "family": "Qwen3.8-Uncensored-v3-IQ3_XXS"
+  },
+  {
+    "id": "openrouter:thinkingmachines/inkling-2-mini",
+    "name": "Thinking Machines: Inkling 2 Mini",
+    "provider": "thinkingmachines",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-21T02:19:45+00:00",
+    "context_length": 1048576,
+    "description": "Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE). Its middle layers run three times with shared...",
+    "url": "https://openrouter.ai/thinkingmachines/inkling-2-mini",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.1,
+      "completion_per_million": 0.4
+    },
+    "first_seen": "2026-11-21T12:10:02.809633+00:00",
+    "source_ids": [
+      "thinkingmachines/inkling-2-mini"
+    ],
+    "family": "Inkling 2 Mini"
+  },
+  {
+    "id": "huggingface:Vxtzq/Crowd-v1.5",
+    "name": "Crowd-v1.5",
+    "provider": "Vxtzq",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-16T19:36:45.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Vxtzq/Crowd-v1.5",
+    "tags": [
+      "text-generation",
+      "crowd",
+      "text-generation",
+      "conversational",
+      "custom_code",
+      "ia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:02.974538+00:00",
+    "source_ids": [
+      "Vxtzq/Crowd-v1.5"
+    ],
+    "family": "Crowd-v1.5"
+  },
+  {
+    "id": "huggingface:aikexue170/rewrite3-27b-iq4xs",
+    "name": "rewrite3-27b-iq4xs",
+    "provider": "aikexue170",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-14T18:03:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/aikexue170/rewrite3-27b-iq4xs",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "gguf",
+      "rewrite3",
+      "novel-rewrite",
+      "chinese"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:02.974590+00:00",
+    "source_ids": [
+      "aikexue170/rewrite3-27b-iq4xs"
+    ],
+    "family": "rewrite3-iq4xs"
+  },
+  {
+    "id": "huggingface:MemTensor/MemT-1.0-Flash",
+    "name": "MemT-1.0-Flash",
+    "provider": "MemTensor",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-17T15:45:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MemTensor/MemT-1.0-Flash",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "memt_deepseek_v4",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:02.974636+00:00",
+    "source_ids": [
+      "MemTensor/MemT-1.0-Flash"
+    ],
+    "family": "MemT-1.0-Flash"
+  },
+  {
+    "id": "huggingface:MemTensor/MemT-1.0-Nano",
+    "name": "MemT-1.0-Nano",
+    "provider": "MemTensor",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-15T03:46:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/MemTensor/MemT-1.0-Nano",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "memt_qwen3_5_moe",
+      "text-generation",
+      "custom_code"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:02.974660+00:00",
+    "source_ids": [
+      "MemTensor/MemT-1.0-Nano"
+    ],
+    "family": "MemT-1.0-Nano"
+  },
+  {
+    "id": "huggingface:openamer-max/openamer-max-watch",
+    "name": "openamer-max-watch",
+    "provider": "openamer-max",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-11T14:15:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/openamer-max/openamer-max-watch",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "openamer",
+      "lora",
+      "german",
+      "bosnian"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:02.974692+00:00",
+    "source_ids": [
+      "openamer-max/openamer-max-watch"
+    ],
+    "family": "openamer-max-watch"
+  },
+  {
+    "id": "huggingface:JustANormalTinkerer/hayai-ocr-v2.7-supernova",
+    "name": "hayai-ocr-v2.7-supernova",
+    "provider": "JustANormalTinkerer",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-13T21:00:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/JustANormalTinkerer/hayai-ocr-v2.7-supernova",
+    "tags": [
+      "image-to-text",
+      "transformers",
+      "safetensors",
+      "hayai",
+      "feature-extraction",
+      "ocr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.229026+00:00",
+    "source_ids": [
+      "JustANormalTinkerer/hayai-ocr-v2.7-supernova"
+    ],
+    "family": "hayai-ocr-v2.7-supernova"
+  },
+  {
+    "id": "huggingface:Raretutor/MiniMax-H3-Dual-Turbo-Lora-ComfyUI",
+    "name": "MiniMax-H3-Dual-Turbo-Lora-ComfyUI",
+    "provider": "Raretutor",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-11-18T09:21:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Raretutor/MiniMax-H3-Dual-Turbo-Lora-ComfyUI",
+    "tags": [
+      "text-to-video",
+      "diffusers",
+      "minimax-h3",
+      "lora",
+      "model-merge",
+      "video-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.356298+00:00",
+    "source_ids": [
+      "Raretutor/MiniMax-H3-Dual-Turbo-Lora-ComfyUI"
+    ],
+    "family": "MiniMax-H3-Dual-Turbo-Lora-ComfyUI"
+  },
+  {
+    "id": "huggingface:Agnes-AI/Agnes-Video-H3-MoE",
+    "name": "Agnes-Video-H3-MoE",
+    "provider": "Agnes-AI",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-11-20T08:39:00.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Agnes-AI/Agnes-Video-H3-MoE",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "safetensors",
+      "video-audio-generation",
+      "mixture-of-experts",
+      "sparse-moe"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.356360+00:00",
+    "source_ids": [
+      "Agnes-AI/Agnes-Video-H3-MoE"
+    ],
+    "family": "Agnes-Video-H3-MoE"
+  },
+  {
+    "id": "huggingface:ggml-org/Qwen3-ASR-1.7B-GGUF",
+    "name": "Qwen3-ASR-1.7B-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T00:25:16.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Qwen3-ASR-1.7B-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "quantized",
+      "automatic-speech-recognition",
+      "base_model:Qwen/Qwen3-ASR-1.7B",
+      "base_model:quantized:Qwen/Qwen3-ASR-1.7B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.760043+00:00",
+    "source_ids": [
+      "ggml-org/Qwen3-ASR-1.7B-GGUF"
+    ],
+    "family": "Qwen3-ASR"
+  },
+  {
+    "id": "huggingface:ggml-org/Qwen3-ASR-0.6B-GGUF",
+    "name": "Qwen3-ASR-0.6B-GGUF",
+    "provider": "ggml-org",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-04-13T00:23:53.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/ggml-org/Qwen3-ASR-0.6B-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "quantized",
+      "automatic-speech-recognition",
+      "base_model:Qwen/Qwen3-ASR-0.6B",
+      "base_model:quantized:Qwen/Qwen3-ASR-0.6B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.760131+00:00",
+    "source_ids": [
+      "ggml-org/Qwen3-ASR-0.6B-GGUF"
+    ],
+    "family": "Qwen3-ASR"
+  },
+  {
+    "id": "huggingface:koelony/Qwen3-ASR-1.7B-Cantonese-HK-GGUF",
+    "name": "Qwen3-ASR-1.7B-Cantonese-HK-GGUF",
+    "provider": "koelony",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-07T10:01:22.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/koelony/Qwen3-ASR-1.7B-Cantonese-HK-GGUF",
+    "tags": [
+      "automatic-speech-recognition",
+      "gguf",
+      "qwen3-asr",
+      "cantonese",
+      "yue-HK",
+      "oratype"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.760198+00:00",
+    "source_ids": [
+      "koelony/Qwen3-ASR-1.7B-Cantonese-HK-GGUF"
+    ],
+    "family": "Qwen3-ASR-Cantonese-HK"
+  },
+  {
+    "id": "huggingface:izagami/Shikigami-594B-A17B-GGUF",
+    "name": "Shikigami-594B-A17B-GGUF",
+    "provider": "izagami",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-17T18:54:11.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/izagami/Shikigami-594B-A17B-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "trellis",
+      "gguf",
+      "moe",
+      "quantized",
+      "inkling2"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.895954+00:00",
+    "source_ids": [
+      "izagami/Shikigami-594B-A17B-GGUF"
+    ],
+    "family": "Shikigami"
+  },
+  {
+    "id": "huggingface:unsloth/Inkling-2-Mini-GGUF",
+    "name": "Inkling-2-Mini-GGUF",
+    "provider": "unsloth",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-20T13:09:48.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "conversational",
+      "image-text-to-text",
+      "moe",
+      "unsloth"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:03.896103+00:00",
+    "source_ids": [
+      "unsloth/Inkling-2-Mini-GGUF"
+    ],
+    "family": "Inkling-2-Mini"
+  },
+  {
+    "id": "huggingface:eulogik/TinyDoc-VLM-256M",
+    "name": "TinyDoc-VLM-256M",
+    "provider": "eulogik",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-06-22T13:31:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/eulogik/TinyDoc-VLM-256M",
+    "tags": [
+      "visual-question-answering",
+      "transformers",
+      "onnx",
+      "safetensors",
+      "tinydoc_vlm",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T12:10:04.018405+00:00",
+    "source_ids": [
+      "eulogik/TinyDoc-VLM-256M"
+    ],
+    "family": "TinyDoc-VLM-256M"
   }
 ]
