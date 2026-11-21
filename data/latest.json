@@ -440,6 +440,105 @@
     "family": "MiniMax-H3-Dual-Turbo-Lora-ComfyUI"
   },
   {
+    "id": "huggingface:satellitedown/SenseNova-Loop-9B-abliterated-GGUF",
+    "name": "SenseNova-Loop-9B-abliterated-GGUF",
+    "provider": "satellitedown",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-18T04:50:55.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/satellitedown/SenseNova-Loop-9B-abliterated-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "heretic",
+      "looped-transformer"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T21:27:48.797381+00:00",
+    "source_ids": [
+      "satellitedown/SenseNova-Loop-9B-abliterated-GGUF"
+    ],
+    "family": "SenseNova-Loop-abliterated"
+  },
+  {
+    "id": "huggingface:Grawnch/Qwen3.8-Flash-Next-WV-v6-2.45bpw-SM120",
+    "name": "Qwen3.8-Flash-Next-WV-v6-2.45bpw-SM120",
+    "provider": "Grawnch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-18T03:08:52.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Grawnch/Qwen3.8-Flash-Next-WV-v6-2.45bpw-SM120",
+    "tags": [
+      "text-generation",
+      "safetensors",
+      "qwen4_exp",
+      "quantized",
+      "moe",
+      "qwen3.8"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T21:27:48.797440+00:00",
+    "source_ids": [
+      "Grawnch/Qwen3.8-Flash-Next-WV-v6-2.45bpw-SM120"
+    ],
+    "family": "Qwen3.8-Flash-Next-WV-v6-2.45bpw-SM120"
+  },
+  {
+    "id": "huggingface:Grawnch/Qwen3.8-27B-WV-v6.3-2.68bpw-SM120",
+    "name": "Qwen3.8-27B-WV-v6.3-2.68bpw-SM120",
+    "provider": "Grawnch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-18T03:04:43.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Grawnch/Qwen3.8-27B-WV-v6.3-2.68bpw-SM120",
+    "tags": [
+      "text-generation",
+      "qwen3_5",
+      "safetensors",
+      "quantized",
+      "qwen3.8",
+      "wave-quant"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T21:27:48.797593+00:00",
+    "source_ids": [
+      "Grawnch/Qwen3.8-27B-WV-v6.3-2.68bpw-SM120"
+    ],
+    "family": "Qwen3.8-WV-v6.3-2.68bpw-SM120"
+  },
+  {
     "id": "huggingface:izagami/Shikigami-594B-A17B-GGUF",
     "name": "Shikigami-594B-A17B-GGUF",
     "provider": "izagami",
@@ -1698,6 +1797,39 @@
     "family": "PAN2"
   },
   {
+    "id": "huggingface:Grawnch/Qwen3.8-Flash-Next-WV-v5-3.5bpw-TokenWing",
+    "name": "Qwen3.8-Flash-Next-WV-v5-3.5bpw-TokenWing",
+    "provider": "Grawnch",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-15T07:18:24.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Grawnch/Qwen3.8-Flash-Next-WV-v5-3.5bpw-TokenWing",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "qwen4_exp",
+      "tokenwing",
+      "moe",
+      "qwen3.8-flash-next"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T21:27:48.797540+00:00",
+    "source_ids": [
+      "Grawnch/Qwen3.8-Flash-Next-WV-v5-3.5bpw-TokenWing"
+    ],
+    "family": "Qwen3.8-Flash-Next-WV-v5-3.5bpw-TokenWing"
+  },
+  {
     "id": "huggingface:Xylolabs/gemma-4-E2B-it-GGUF",
     "name": "gemma-4-E2B-it-GGUF",
     "provider": "Xylolabs",
@@ -2798,6 +2930,39 @@
       "shashanth-27xA9/DeepSeek-V4.1-Flash-SuperExpert-8GB"
     ],
     "family": "DeepSeek-V4.1-Flash-SuperExpert-8GB"
+  },
+  {
+    "id": "huggingface:itssaharsh/tiny-aya-global-unlearn-bio-circuitkit-layers",
+    "name": "tiny-aya-global-unlearn-bio-circuitkit-layers",
+    "provider": "itssaharsh",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-10T09:16:54.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/itssaharsh/tiny-aya-global-unlearn-bio-circuitkit-layers",
+    "tags": [
+      "text-generation",
+      "transformers",
+      "safetensors",
+      "gguf",
+      "cohere2",
+      "text-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-21T21:27:48.797642+00:00",
+    "source_ids": [
+      "itssaharsh/tiny-aya-global-unlearn-bio-circuitkit-layers"
+    ],
+    "family": "tiny-aya-global-unlearn-bio-circuitkit-layers"
   },
   {
     "id": "openrouter:nex-agi/nex-n2.6",
@@ -10543,40 +10708,6 @@
     "family": "turkish-stt-66m-v2"
   },
   {
-    "id": "huggingface:gradium/phonon-40m-multilingual",
-    "name": "phonon-40m-multilingual",
-    "provider": "gradium",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-10-19T12:02:43.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/gradium/phonon-40m-multilingual",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "gradium_phonon_tts",
-      "text-to-audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-22T16:43:25.713600+00:00",
-    "source_ids": [
-      "gradium/phonon-40m-multilingual"
-    ],
-    "family": "phonon-40m-multilingual"
-  },
-  {
     "id": "huggingface:gradium/phonon-40m-pt",
     "name": "phonon-40m-pt",
     "provider": "gradium",
@@ -10611,40 +10742,6 @@
     "family": "phonon-40m-pt"
   },
   {
-    "id": "huggingface:gradium/phonon-40m-es",
-    "name": "phonon-40m-es",
-    "provider": "gradium",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-10-19T12:02:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/gradium/phonon-40m-es",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "gradium_phonon_tts",
-      "text-to-audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-22T16:43:25.713623+00:00",
-    "source_ids": [
-      "gradium/phonon-40m-es"
-    ],
-    "family": "phonon-40m-es"
-  },
-  {
     "id": "huggingface:gradium/phonon-40m-de",
     "name": "phonon-40m-de",
     "provider": "gradium",
@@ -10677,74 +10774,6 @@
       "gradium/phonon-40m-de"
     ],
     "family": "phonon-40m-de"
-  },
-  {
-    "id": "huggingface:gradium/phonon-40m-fr",
-    "name": "phonon-40m-fr",
-    "provider": "gradium",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-10-19T12:01:57.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/gradium/phonon-40m-fr",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "gradium_phonon_tts",
-      "text-to-audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-22T16:43:25.713642+00:00",
-    "source_ids": [
-      "gradium/phonon-40m-fr"
-    ],
-    "family": "phonon-40m-fr"
-  },
-  {
-    "id": "huggingface:gradium/phonon-40m-en",
-    "name": "phonon-40m-en",
-    "provider": "gradium",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-10-19T12:01:47.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/gradium/phonon-40m-en",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "safetensors",
-      "gguf",
-      "gradium_phonon_tts",
-      "text-to-audio"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-22T16:43:25.713660+00:00",
-    "source_ids": [
-      "gradium/phonon-40m-en"
-    ],
-    "family": "phonon-40m-en"
   },
   {
     "id": "huggingface:fastino/GLiDE-27B",
@@ -10882,39 +10911,6 @@
       "tonera/flux-3-image-klein-nunchaku"
     ],
     "family": "flux-3-image-klein-nunchaku"
-  },
-  {
-    "id": "openrouter:minimax/minimax-m3.1-flash",
-    "name": "MiniMax: MiniMax M3.1 Flash",
-    "provider": "MiniMax",
-    "source": "openrouter",
-    "modality": [
-      "image",
-      "text",
-      "video"
-    ],
-    "input_modalities": [
-      "text",
-      "image",
-      "video"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-19T03:12:49+00:00",
-    "context_length": 1000000,
-    "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
-    "url": "https://openrouter.ai/minimax/minimax-m3.1-flash",
-    "tags": [],
-    "pricing": {
-      "prompt_per_million": 0.15,
-      "completion_per_million": 0.6
-    },
-    "first_seen": "2026-10-22T16:43:24.964654+00:00",
-    "source_ids": [
-      "minimax/minimax-m3.1-flash"
-    ],
-    "family": "MiniMax M3.1 Flash"
   },
   {
     "id": "huggingface:basecompute/Qwen3.8-27B-BaseQuant-V1",
@@ -15236,41 +15232,6 @@
     "family": "void.1"
   },
   {
-    "id": "huggingface:kaushikvira/Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3",
-    "name": "Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3",
-    "provider": "kaushikvira",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-25T02:02:42.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/kaushikvira/Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3",
-    "tags": [
-      "image-text-to-text",
-      "ninfer",
-      "ninfer-v3",
-      "qwen3.8",
-      "qwen3_5",
-      "swift"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-22T16:43:25.964083+00:00",
-    "source_ids": [
-      "kaushikvira/Qwen3.8-27B-swift15-nvfp4full-dflash2-NInfer-v3"
-    ],
-    "family": "Qwen3.8-swift15-nvfp4full-dflash2-NInfer-v3"
-  },
-  {
     "id": "huggingface:gpillon/Qwen3.8-27B-nvfp4full-dflash2-abliterated-NInfer",
     "name": "Qwen3.8-27B-nvfp4full-dflash2-abliterated-NInfer",
     "provider": "gpillon",
@@ -17759,40 +17720,6 @@
       "Qwen/Qwen3.8-2.4T-A95B-FP8"
     ],
     "family": "Qwen3.8-2.4T-A-FP8"
-  },
-  {
-    "id": "huggingface:TeraSpace/TeraTTSv2",
-    "name": "TeraTTSv2",
-    "provider": "TeraSpace",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "audio"
-    ],
-    "release_date": "2026-08-07T21:01:30.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/TeraSpace/TeraTTSv2",
-    "tags": [
-      "text-to-speech",
-      "transformers",
-      "onnx",
-      "teratts_onnx",
-      "feature-extraction",
-      "onnxruntime"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-22T16:43:25.713470+00:00",
-    "source_ids": [
-      "TeraSpace/TeraTTSv2"
-    ],
-    "family": "TeraTTSv2"
   },
   {
     "id": "huggingface:infosave/MiniMax-H3-Turbo-cmf",
