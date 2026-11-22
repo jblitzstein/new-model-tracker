@@ -197239,5 +197239,176 @@
       "itssaharsh/tiny-aya-global-unlearn-bio-circuitkit-layers"
     ],
     "family": "tiny-aya-global-unlearn-bio-circuitkit-layers"
+  },
+  {
+    "id": "huggingface:Comfy-Org/UltraTex",
+    "name": "UltraTex",
+    "provider": "Comfy-Org",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-02T18:29:57.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Comfy-Org/UltraTex",
+    "tags": [
+      "text-to-image",
+      "diffusion-single-file",
+      "comfyui",
+      "text-to-image",
+      "base_model:black-forest-labs/FLUX.2-klein-9B",
+      "base_model:finetune:black-forest-labs/FLUX.2-klein-9B"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-22T05:25:37.271615+00:00",
+    "source_ids": [
+      "Comfy-Org/UltraTex"
+    ],
+    "family": "UltraTex"
+  },
+  {
+    "id": "huggingface:anlord/Flux-12B-abliterated-V2-GGUF",
+    "name": "Flux-12B-abliterated-V2-GGUF",
+    "provider": "anlord",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-08-22T11:13:18.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/anlord/Flux-12B-abliterated-V2-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "flux",
+      "flux.1-dev",
+      "quantized",
+      "image-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-22T05:25:37.271812+00:00",
+    "source_ids": [
+      "anlord/Flux-12B-abliterated-V2-GGUF"
+    ],
+    "family": "Flux-abliterated-V2"
+  },
+  {
+    "id": "huggingface:software-mansion/Reverb-TTS",
+    "name": "Reverb-TTS",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-10-01T21:47:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/Reverb-TTS",
+    "tags": [
+      "text-to-speech",
+      "reverb-tts",
+      "safetensors",
+      "executorch",
+      "text-to-speech",
+      "voice-cloning"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-22T05:25:37.441684+00:00",
+    "source_ids": [
+      "software-mansion/Reverb-TTS"
+    ],
+    "family": "Reverb-TTS"
+  },
+  {
+    "id": "huggingface:Fritter-ASR/Fritter",
+    "name": "Fritter",
+    "provider": "Fritter-ASR",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-09T11:43:30.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Fritter-ASR/Fritter",
+    "tags": [
+      "automatic-speech-recognition",
+      "nemo",
+      "onnx",
+      "gguf",
+      "parakeet",
+      "tdt"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-22T05:25:37.490665+00:00",
+    "source_ids": [
+      "Fritter-ASR/Fritter"
+    ],
+    "family": "Fritter"
+  },
+  {
+    "id": "huggingface:nari-labs/Qwen3.8-27B-NariQ-GGUF",
+    "name": "Qwen3.8-27B-NariQ-GGUF",
+    "provider": "nari-labs",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-20T01:27:15.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "nariq",
+      "qwen",
+      "quantized",
+      "coding-agent"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-22T05:25:37.545714+00:00",
+    "source_ids": [
+      "nari-labs/Qwen3.8-27B-NariQ-GGUF"
+    ],
+    "family": "Qwen3.8-NariQ"
   }
 ]
