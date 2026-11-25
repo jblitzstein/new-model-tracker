@@ -199097,5 +199097,200 @@
       "dolphinnlp/qwen3.5-ocr-ft"
     ],
     "family": "qwen3.5-ocr-ft"
+  },
+  {
+    "id": "openrouter:upstage/solar-mini-4-5",
+    "name": "Upstage: Solar Mini 4.5 (Preview)",
+    "provider": "Upstage",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-24T23:18:24+00:00",
+    "context_length": 524288,
+    "description": "Solar Mini 4.5 is Upstage's compact language model, built on a proprietary mixture-of-experts architecture with 35B total and 3B active parameters and a 524K context window. It is a step...",
+    "url": "https://openrouter.ai/upstage/solar-mini-4-5",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.01,
+      "completion_per_million": 0.04
+    },
+    "first_seen": "2026-11-25T03:22:55.919228+00:00",
+    "source_ids": [
+      "upstage/solar-mini-4-5"
+    ],
+    "family": "Solar Mini 4.5"
+  },
+  {
+    "id": "openrouter:upstage/solar-pro-4-contributor",
+    "name": "Upstage: Solar Pro 4 Contributor",
+    "provider": "Upstage",
+    "source": "openrouter",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-24T23:18:24+00:00",
+    "context_length": 524288,
+    "description": "Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its...",
+    "url": "https://openrouter.ai/upstage/solar-pro-4-contributor",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.09,
+      "completion_per_million": 0.36
+    },
+    "first_seen": "2026-11-25T03:22:55.920200+00:00",
+    "source_ids": [
+      "upstage/solar-pro-4-contributor"
+    ],
+    "family": "Solar Pro 4 Contributor"
+  },
+  {
+    "id": "openrouter:xiaomi/mimo-v2.6-flash-mopd",
+    "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+    "provider": "Xiaomi",
+    "source": "openrouter",
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-23T17:57:14+00:00",
+    "context_length": 1048576,
+    "description": "MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input. It adds a multi-teacher...",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.15,
+      "completion_per_million": 0.42
+    },
+    "first_seen": "2026-11-25T03:22:55.920245+00:00",
+    "source_ids": [
+      "xiaomi/mimo-v2.6-flash-mopd"
+    ],
+    "family": "MiMo-V2.6-Flash-MOPD"
+  },
+  {
+    "id": "huggingface:Xylolabs/Ministral-3-14B-Instruct-2512-GGUF",
+    "name": "Ministral-3-14B-Instruct-2512-GGUF",
+    "provider": "Xylolabs",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-15T02:09:39.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/Xylolabs/Ministral-3-14B-Instruct-2512-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "llama-cpp",
+      "quantized",
+      "ministral3",
+      "text-only"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-25T03:22:55.996479+00:00",
+    "source_ids": [
+      "Xylolabs/Ministral-3-14B-Instruct-2512-GGUF"
+    ],
+    "family": "Ministral-3--2512"
+  },
+  {
+    "id": "huggingface:nvidia/Nemotron-Labs-Image-30B-A3B",
+    "name": "Nemotron-Labs-Image-30B-A3B",
+    "provider": "NVIDIA",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-09-24T21:13:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+    "tags": [
+      "text-to-image",
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-25T03:22:56.049945+00:00",
+    "source_ids": [
+      "nvidia/Nemotron-Labs-Image-30B-A3B"
+    ],
+    "family": "Nemotron-Labs-Image"
+  },
+  {
+    "id": "huggingface:moonshotai/Kimi-K3.1-Pro",
+    "name": "Kimi-K3.1-Pro",
+    "provider": "Moonshot AI",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-02T04:13:51.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "kimi_k31",
+      "text-generation",
+      "compressed-tensors"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-25T03:22:56.316870+00:00",
+    "source_ids": [
+      "moonshotai/Kimi-K3.1-Pro"
+    ],
+    "family": "Kimi-K3.1-Pro"
   }
 ]
