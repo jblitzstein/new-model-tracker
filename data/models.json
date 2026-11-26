@@ -199879,5 +199879,141 @@
       "ND911/DaisyRose-27B-Heretic-v2-MTP-GGUF"
     ],
     "family": "DaisyRose-Heretic-v2-MTP"
+  },
+  {
+    "id": "openrouter:inclusionai/lingsante-3.1-air-vl",
+    "name": "inclusionAI: LingSante 3.1 Air VL",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-26T15:01:24+00:00",
+    "context_length": 131072,
+    "description": "LingSante 3.1 Air VL is inclusionAI's medical vision-language model, a 124B total / 5.5B active MoE. It takes text and up to 16 images (scans, skin and meal photos, lab...",
+    "url": "https://openrouter.ai/inclusionai/lingsante-3.1-air-vl",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.06,
+      "completion_per_million": 0.18
+    },
+    "first_seen": "2026-11-26T20:59:21.807040+00:00",
+    "source_ids": [
+      "inclusionai/lingsante-3.1-air-vl"
+    ],
+    "family": "LingSante 3.1 Air VL"
+  },
+  {
+    "id": "huggingface:abenzerps/Inkling-2-Mini-GSQ-RCO-GGUF",
+    "name": "Inkling-2-Mini-GSQ-RCO-GGUF",
+    "provider": "abenzerps",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-22T08:15:17.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/abenzerps/Inkling-2-Mini-GSQ-RCO-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "image-text-to-text",
+      "text-generation",
+      "gsq",
+      "rco"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-26T20:59:22.201350+00:00",
+    "source_ids": [
+      "abenzerps/Inkling-2-Mini-GSQ-RCO-GGUF"
+    ],
+    "family": "Inkling-2-Mini-GSQ-RCO"
+  },
+  {
+    "id": "huggingface:AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+    "name": "Inkling-2-Mini-Uncensored-GGUF",
+    "provider": "AtomicChat",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-20T20:42:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "llama.cpp",
+      "inkling2",
+      "uncensored",
+      "lora"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-26T20:59:22.201397+00:00",
+    "source_ids": [
+      "AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
+    ],
+    "family": "Inkling-2-Mini-Uncensored"
+  },
+  {
+    "id": "huggingface:strata-engine/Inkling-2-Mini-Strata",
+    "name": "Inkling-2-Mini-Strata",
+    "provider": "strata-engine",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-21T18:46:06.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+    "tags": [
+      "image-text-to-text",
+      "inkling2_loop",
+      "strata",
+      "inkling-2-mini",
+      "moe",
+      "quantization"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-26T20:59:22.201527+00:00",
+    "source_ids": [
+      "strata-engine/Inkling-2-Mini-Strata"
+    ],
+    "family": "Inkling-2-Mini-Strata"
   }
 ]
