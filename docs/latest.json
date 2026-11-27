@@ -66,6 +66,74 @@
     "family": "LingSante 3.1 Air VL"
   },
   {
+    "id": "huggingface:shefowl/Nemotron-Labs-Image-30B-A3B-GGUF",
+    "name": "Nemotron-Labs-Image-30B-A3B-GGUF",
+    "provider": "shefowl",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-25T17:54:23.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/shefowl/Nemotron-Labs-Image-30B-A3B-GGUF",
+    "tags": [
+      "text-to-image",
+      "gguf",
+      "llama.cpp",
+      "imatrix",
+      "nemotron",
+      "image-generation"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.236442+00:00",
+    "source_ids": [
+      "shefowl/Nemotron-Labs-Image-30B-A3B-GGUF"
+    ],
+    "family": "Nemotron-Labs-Image"
+  },
+  {
+    "id": "huggingface:SimpleTuner/hdit-plus-128px-cc12m-json",
+    "name": "hdit-plus-128px-cc12m-json",
+    "provider": "SimpleTuner",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "release_date": "2026-11-25T02:28:34.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/SimpleTuner/hdit-plus-128px-cc12m-json",
+    "tags": [
+      "text-to-image",
+      "diffusers",
+      "safetensors",
+      "hdit_plus",
+      "hdit_plus-diffusers",
+      "text-to-image"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.236387+00:00",
+    "source_ids": [
+      "SimpleTuner/hdit-plus-128px-cc12m-json"
+    ],
+    "family": "hdit-plus-128px-cc12m-json"
+  },
+  {
     "id": "openrouter:upstage/solar-mini-4-5",
     "name": "Upstage: Solar Mini 4.5 (Preview)",
     "provider": "Upstage",
@@ -192,6 +260,40 @@
     "family": "Raon-1-mini"
   },
   {
+    "id": "huggingface:n3k0d3v/Sulphur3-INT8-ConvRot",
+    "name": "Sulphur3-INT8-ConvRot",
+    "provider": "n3k0d3v",
+    "source": "huggingface",
+    "modality": [
+      "text",
+      "video"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "video"
+    ],
+    "release_date": "2026-11-24T13:41:02.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/n3k0d3v/Sulphur3-INT8-ConvRot",
+    "tags": [
+      "text-to-video",
+      "minimax-h3",
+      "sulphur-3",
+      "int8",
+      "convrot",
+      "comfyui"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.495145+00:00",
+    "source_ids": [
+      "n3k0d3v/Sulphur3-INT8-ConvRot"
+    ],
+    "family": "Sulphur3-INT8-ConvRot"
+  },
+  {
     "id": "huggingface:ND911/DaisyRose-27B-Heretic-v2-MTP-GGUF",
     "name": "DaisyRose-27B-Heretic-v2-MTP-GGUF",
     "provider": "ND911",
@@ -295,6 +397,39 @@
       "Xylolabs/Qwen3.8-27B-Uncensored-GGUF"
     ],
     "family": "Qwen3.8-Uncensored"
+  },
+  {
+    "id": "huggingface:kaitchup/Inkling-2-Mini-dondon-GGUF",
+    "name": "Inkling-2-Mini-dondon-GGUF",
+    "provider": "kaitchup",
+    "source": "huggingface",
+    "modality": [
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-23T07:05:32.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/kaitchup/Inkling-2-Mini-dondon-GGUF",
+    "tags": [
+      "text-generation",
+      "gguf",
+      "inkling2_loop",
+      "dondon",
+      "mixed-precision",
+      "llama.cpp"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.101663+00:00",
+    "source_ids": [
+      "kaitchup/Inkling-2-Mini-dondon-GGUF"
+    ],
+    "family": "Inkling-2-Mini-dondon"
   },
   {
     "id": "huggingface:tencent/WeMM-Ecom-0.8B-GGUF",
@@ -1849,6 +1984,41 @@
       "tencent/Hy4-FP8"
     ],
     "family": "Hy4-FP8"
+  },
+  {
+    "id": "huggingface:LuffyTheFox/Genesis3.6-35B-A3B-Uncensored-GGUF",
+    "name": "Genesis3.6-35B-A3B-Uncensored-GGUF",
+    "provider": "LuffyTheFox",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-18T05:22:19.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/LuffyTheFox/Genesis3.6-35B-A3B-Uncensored-GGUF",
+    "tags": [
+      "image-text-to-text",
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "moe",
+      "Noise Gate"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:14.017146+00:00",
+    "source_ids": [
+      "LuffyTheFox/Genesis3.6-35B-A3B-Uncensored-GGUF"
+    ],
+    "family": "Genesis3.6-Uncensored"
   },
   {
     "id": "huggingface:satellitedown/SenseNova-Loop-9B-abliterated-GGUF",
@@ -4016,6 +4186,37 @@
     "first_seen": "2026-11-14T00:41:22.384890+00:00",
     "source_ids": [
       "inclusionai/ling-3.2-flash:free"
+    ],
+    "family": "Ling 3.2 Flash"
+  },
+  {
+    "id": "openrouter:inclusionai/ling-3.2-flash",
+    "name": "inclusionAI: Ling 3.2 Flash",
+    "provider": "inclusionai",
+    "source": "openrouter",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-13T17:45:58+00:00",
+    "context_length": 1048576,
+    "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
+    "url": "https://openrouter.ai/inclusionai/ling-3.2-flash",
+    "tags": [],
+    "pricing": {
+      "prompt_per_million": 0.3,
+      "completion_per_million": 0.9
+    },
+    "first_seen": "2026-11-27T17:52:12.905379+00:00",
+    "source_ids": [
+      "inclusionai/ling-3.2-flash"
     ],
     "family": "Ling 3.2 Flash"
   },
@@ -7516,6 +7717,41 @@
     "family": "MiniMax-H3-DMAD-int8-convrot"
   },
   {
+    "id": "huggingface:nikolaus714/Jev-Vision-2B-GGUF",
+    "name": "Jev-Vision-2B-GGUF",
+    "provider": "nikolaus714",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-11-01T02:48:38.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/nikolaus714/Jev-Vision-2B-GGUF",
+    "tags": [
+      "visual-question-answering",
+      "gguf",
+      "vision",
+      "multimodal",
+      "decision-making",
+      "qwen3.5"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:14.138089+00:00",
+    "source_ids": [
+      "nikolaus714/Jev-Vision-2B-GGUF"
+    ],
+    "family": "Jev-Vision"
+  },
+  {
     "id": "huggingface:OfflineBase/Muse-Glimmer-30B-2026-Knowledge-GGUF",
     "name": "Muse-Glimmer-30B-2026-Knowledge-GGUF",
     "provider": "OfflineBase",
@@ -9155,41 +9391,6 @@
       "ChenDY/NitroFusion2"
     ],
     "family": "NitroFusion2"
-  },
-  {
-    "id": "huggingface:LiquidAI/d1-2B-GGUF",
-    "name": "d1-2B-GGUF",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-27T19:03:14.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/d1-2B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "liquid",
-      "lfm3",
-      "edge",
-      "decision"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.906989+00:00",
-    "source_ids": [
-      "LiquidAI/d1-2B-GGUF"
-    ],
-    "family": "d1"
   },
   {
     "id": "huggingface:Harsha001/Maya2-Native-GGUF",
@@ -10996,6 +11197,40 @@
     "family": "Fibo-2.0-dev-NVFP4"
   },
   {
+    "id": "huggingface:software-mansion/Qwen3-ASR-ExecuTorch",
+    "name": "Qwen3-ASR-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-21T10:28:20.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/Qwen3-ASR-ExecuTorch",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "base_model:Qwen/Qwen3-ASR-0.6B",
+      "base_model:quantized:Qwen/Qwen3-ASR-0.6B",
+      "license:apache-2.0"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.882308+00:00",
+    "source_ids": [
+      "software-mansion/Qwen3-ASR-ExecuTorch"
+    ],
+    "family": "Qwen3-ASR-ExecuTorch"
+  },
+  {
     "id": "huggingface:HuggingFaceBio/Carbon-X",
     "name": "Carbon-X",
     "provider": "HuggingFaceBio",
@@ -11197,74 +11432,6 @@
       "BennyDaBall/MOSS-Image-SFT-NVFP4"
     ],
     "family": "MOSS-Image-SFT-NVFP4"
-  },
-  {
-    "id": "huggingface:AtomicChat/FLUX-3-Image-Klein-GGUF",
-    "name": "FLUX-3-Image-Klein-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-20T13:51:16.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/FLUX-3-Image-Klein-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "stable-diffusion.cpp",
-      "flux",
-      "flux-3",
-      "text-to-image"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.086605+00:00",
-    "source_ids": [
-      "AtomicChat/FLUX-3-Image-Klein-GGUF"
-    ],
-    "family": "FLUX-3-Image-Klein"
-  },
-  {
-    "id": "huggingface:AtomicChat/FLUX-3-Image-Klein-TE-Uncensored-GGUF",
-    "name": "FLUX-3-Image-Klein-TE-Uncensored-GGUF",
-    "provider": "AtomicChat",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "image"
-    ],
-    "release_date": "2026-10-20T11:55:18.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/AtomicChat/FLUX-3-Image-Klein-TE-Uncensored-GGUF",
-    "tags": [
-      "text-to-image",
-      "gguf",
-      "atomic-chat",
-      "flux",
-      "flux-3",
-      "qwen3-vl"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.086492+00:00",
-    "source_ids": [
-      "AtomicChat/FLUX-3-Image-Klein-TE-Uncensored-GGUF"
-    ],
-    "family": "FLUX-3-Image-Klein-TE-Uncensored"
   },
   {
     "id": "huggingface:Baekpica/Beam-1.0-501B-A23B-VQ-GGUF",
@@ -11569,41 +11736,6 @@
       "reaperdoesntknow/TameLM"
     ],
     "family": "TameLM"
-  },
-  {
-    "id": "huggingface:LiquidAI/LFM3-VL-2B-GGUF",
-    "name": "LFM3-VL-2B-GGUF",
-    "provider": "LiquidAI",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-10-19T20:29:48.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-GGUF",
-    "tags": [
-      "image-text-to-text",
-      "gguf",
-      "liquid",
-      "lfm3",
-      "llama.cpp",
-      "image-text-to-text"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.907012+00:00",
-    "source_ids": [
-      "LiquidAI/LFM3-VL-2B-GGUF"
-    ],
-    "family": "LFM3-VL"
   },
   {
     "id": "huggingface:LiquidAI/LFM3-VL-2B",
@@ -12990,6 +13122,111 @@
     "family": "FishAudio-Drama3-TTS-83Lang-Qwen3.5-FP8-BF16"
   },
   {
+    "id": "huggingface:THUSI-Lab/GameScaling-9B-S3",
+    "name": "GameScaling-9B-S3",
+    "provider": "THUSI-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T12:16:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/THUSI-Lab/GameScaling-9B-S3",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "gamescaling"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:14.017216+00:00",
+    "source_ids": [
+      "THUSI-Lab/GameScaling-9B-S3"
+    ],
+    "family": "GameScaling-S3"
+  },
+  {
+    "id": "huggingface:THUSI-Lab/GameScaling-2B-S3",
+    "name": "GameScaling-2B-S3",
+    "provider": "THUSI-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T12:16:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/THUSI-Lab/GameScaling-2B-S3",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "gamescaling"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:14.017241+00:00",
+    "source_ids": [
+      "THUSI-Lab/GameScaling-2B-S3"
+    ],
+    "family": "GameScaling-S3"
+  },
+  {
+    "id": "huggingface:THUSI-Lab/GameScaling-0.8B-S3",
+    "name": "GameScaling-0.8B-S3",
+    "provider": "THUSI-Lab",
+    "source": "huggingface",
+    "modality": [
+      "image",
+      "text"
+    ],
+    "input_modalities": [
+      "image",
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-14T12:16:49.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/THUSI-Lab/GameScaling-0.8B-S3",
+    "tags": [
+      "image-text-to-text",
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "gamescaling"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:14.017262+00:00",
+    "source_ids": [
+      "THUSI-Lab/GameScaling-0.8B-S3"
+    ],
+    "family": "GameScaling-S3"
+  },
+  {
     "id": "huggingface:0xE2E/Drama-3-Windows-GGUF",
     "name": "Drama-3-Windows-GGUF",
     "provider": "0xE2E",
@@ -13358,6 +13595,40 @@
       "Remek/basal-2.0-mini"
     ],
     "family": "basal-2.0-mini"
+  },
+  {
+    "id": "huggingface:givia/whisper-large-v3-turbo-persian",
+    "name": "whisper-large-v3-turbo-persian",
+    "provider": "givia",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2026-10-12T16:49:41.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/givia/whisper-large-v3-turbo-persian",
+    "tags": [
+      "automatic-speech-recognition",
+      "transformers",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "persian"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.882237+00:00",
+    "source_ids": [
+      "givia/whisper-large-v3-turbo-persian"
+    ],
+    "family": "whisper-large-v3-turbo-persian"
   },
   {
     "id": "huggingface:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
@@ -14745,39 +15016,6 @@
     "family": "Qwen-Image2.1-ZenlessZoneZero-Lora"
   },
   {
-    "id": "huggingface:jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF",
-    "name": "ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF",
-    "provider": "jakeatx",
-    "source": "huggingface",
-    "modality": [
-      "text"
-    ],
-    "input_modalities": [
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-29T04:02:19.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF",
-    "tags": [
-      "text-generation",
-      "llama.cpp",
-      "gguf",
-      "quantized",
-      "imatrix",
-      "qwen3.8"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:52:59.949045+00:00",
-    "source_ids": [
-      "jakeatx/ATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF"
-    ],
-    "family": "ATX-Swift-1.5-Qwen3.8-Uncensored-IQ4_XS-M"
-  },
-  {
     "id": "huggingface:WaveCut/Qwen3.6-35B-A3B-NVFP4-NInfer-v3",
     "name": "Qwen3.6-35B-A3B-NVFP4-NInfer-v3",
     "provider": "WaveCut",
@@ -15053,41 +15291,6 @@
     "family": "Ternary-Bonsai-2"
   },
   {
-    "id": "huggingface:XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
-    "name": "MiMo-V2.6-Distill-Qwen-9B",
-    "provider": "XiaomiMiMo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-21T18:18:40.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "mimo_v2"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.906814+00:00",
-    "source_ids": [
-      "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
-    ],
-    "family": "MiMo-V2.6-Distill-Qwen"
-  },
-  {
     "id": "openrouter:x-ai/grok-4.7:batch",
     "name": "SpaceXAI: Grok 4.7 (batch)",
     "provider": "xAI",
@@ -15291,40 +15494,6 @@
       "RX5950XT/silicon-based-girlfriend-v2-GGUF"
     ],
     "family": "silicon-based-girlfriend-v2"
-  },
-  {
-    "id": "huggingface:litert-community/PP-OCRv6-Small-LiteRT",
-    "name": "PP-OCRv6-Small-LiteRT",
-    "provider": "litert-community",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-09-17T05:06:51.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/litert-community/PP-OCRv6-Small-LiteRT",
-    "tags": [
-      "image-to-text",
-      "litert",
-      "tflite",
-      "android",
-      "ocr",
-      "text-detection"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.221213+00:00",
-    "source_ids": [
-      "litert-community/PP-OCRv6-Small-LiteRT"
-    ],
-    "family": "PP-OCRv6-Small-LiteRT"
   },
   {
     "id": "huggingface:Comfy-Org/Qwen-Image-2.1",
@@ -17487,6 +17656,40 @@
     "family": "Kokoro-82M"
   },
   {
+    "id": "huggingface:software-mansion/supertonic-ExecuTorch",
+    "name": "supertonic-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "audio"
+    ],
+    "release_date": "2026-07-03T11:59:58.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/supertonic-ExecuTorch",
+    "tags": [
+      "text-to-speech",
+      "executorch",
+      "text-to-speech",
+      "en",
+      "es",
+      "fr"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.752205+00:00",
+    "source_ids": [
+      "software-mansion/supertonic-ExecuTorch"
+    ],
+    "family": "supertonic-ExecuTorch"
+  },
+  {
     "id": "huggingface:uviol/scat-krea2-v1",
     "name": "scat-krea2-v1",
     "provider": "uviol",
@@ -18200,40 +18403,6 @@
       "SeeSee21/Z-Anime"
     ],
     "family": "Z-Anime"
-  },
-  {
-    "id": "huggingface:XiaomiMiMo/MiMo-V2.5-ASR",
-    "name": "MiMo-V2.5-ASR",
-    "provider": "XiaomiMiMo",
-    "source": "huggingface",
-    "modality": [
-      "audio",
-      "text"
-    ],
-    "input_modalities": [
-      "audio"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2026-04-23T06:30:09.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-ASR",
-    "tags": [
-      "automatic-speech-recognition",
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.764606+00:00",
-    "source_ids": [
-      "XiaomiMiMo/MiMo-V2.5-ASR"
-    ],
-    "family": "MiMo-V2.5-ASR"
   },
   {
     "id": "huggingface:OpenVINO/gemma-4-E4B-it-int8-ov",
@@ -19119,6 +19288,73 @@
     "family": "Mistral-MoE-Patched-MLX-4bit-G64"
   },
   {
+    "id": "huggingface:software-mansion/whisper-small-ExecuTorch",
+    "name": "whisper-small-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-20T16:50:37.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/whisper-small-ExecuTorch",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.882353+00:00",
+    "source_ids": [
+      "software-mansion/whisper-small-ExecuTorch"
+    ],
+    "family": "whisper-small-ExecuTorch"
+  },
+  {
+    "id": "huggingface:software-mansion/whisper-small.en-ExecuTorch",
+    "name": "whisper-small.en-ExecuTorch",
+    "provider": "software-mansion",
+    "source": "huggingface",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "input_modalities": [
+      "audio"
+    ],
+    "output_modalities": [
+      "text"
+    ],
+    "release_date": "2025-08-20T16:50:25.000Z",
+    "context_length": null,
+    "description": "",
+    "url": "https://huggingface.co/software-mansion/whisper-small.en-ExecuTorch",
+    "tags": [
+      "automatic-speech-recognition",
+      "executorch",
+      "automatic-speech-recognition",
+      "en",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pricing": null,
+    "first_seen": "2026-11-27T17:52:13.882332+00:00",
+    "source_ids": [
+      "software-mansion/whisper-small.en-ExecuTorch"
+    ],
+    "family": "whisper-small.en-ExecuTorch"
+  },
+  {
     "id": "huggingface:software-mansion/whisper-base-ExecuTorch",
     "name": "whisper-base-ExecuTorch",
     "provider": "software-mansion",
@@ -19218,76 +19454,6 @@
       "mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-GGUF"
     ],
     "family": "Qwen2.5-VL-Abliterated-Caption-it"
-  },
-  {
-    "id": "huggingface:XiaomiMiMo/MiMo-VL-7B-RL-2508",
-    "name": "MiMo-VL-7B-RL-2508",
-    "provider": "XiaomiMiMo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-07T09:59:03.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-RL-2508",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.906884+00:00",
-    "source_ids": [
-      "XiaomiMiMo/MiMo-VL-7B-RL-2508"
-    ],
-    "family": "MiMo-VL-RL-2508"
-  },
-  {
-    "id": "huggingface:XiaomiMiMo/MiMo-VL-7B-SFT-2508",
-    "name": "MiMo-VL-7B-SFT-2508",
-    "provider": "XiaomiMiMo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-08-07T09:36:36.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-SFT-2508",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.906853+00:00",
-    "source_ids": [
-      "XiaomiMiMo/MiMo-VL-7B-SFT-2508"
-    ],
-    "family": "MiMo-VL-SFT-2508"
   },
   {
     "id": "openrouter:morph/morph-v3-large:batch",
@@ -19549,41 +19715,6 @@
       "KoelLabs/xlsr-english-01"
     ],
     "family": "xlsr-english-01"
-  },
-  {
-    "id": "huggingface:XiaomiMiMo/MiMo-VL-7B-RL",
-    "name": "MiMo-VL-7B-RL",
-    "provider": "XiaomiMiMo",
-    "source": "huggingface",
-    "modality": [
-      "image",
-      "text"
-    ],
-    "input_modalities": [
-      "image",
-      "text"
-    ],
-    "output_modalities": [
-      "text"
-    ],
-    "release_date": "2025-05-30T00:37:21.000Z",
-    "context_length": null,
-    "description": "",
-    "url": "https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-RL",
-    "tags": [
-      "image-text-to-text",
-      "transformers",
-      "safetensors",
-      "qwen2_5_vl",
-      "image-text-to-text",
-      "conversational"
-    ],
-    "pricing": null,
-    "first_seen": "2026-10-28T14:53:00.906917+00:00",
-    "source_ids": [
-      "XiaomiMiMo/MiMo-VL-7B-RL"
-    ],
-    "family": "MiMo-VL-RL"
   },
   {
     "id": "huggingface:stabilityai/stable-audio-open-small",
